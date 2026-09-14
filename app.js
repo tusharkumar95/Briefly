@@ -1,14 +1,211 @@
-const state={page:"Today",selected:null,topic:"All",saved:JSON.parse(localStorage.getItem("brieflySaved")||"[]"),stories:[],updated:null};
-const fallback=[{id:"f1",cat:"India",icon:"🇮🇳",title:"India — live feed is being prepared",summary:"Your live India feed will appear here after the first scheduled update.",why:"Briefly is now connected to an automated news collector."},{id:"f2",cat:"Canada",icon:"🇨🇦",title:"Canada — live feed is being prepared",summary:"Your live Canada feed will appear here after the first scheduled update.",why:"Briefly filters for economic and business relevance."},{id:"f3",cat:"Indian Markets",icon:"📈",title:"Indian markets — live feed is being prepared",summary:"Nifty, Sensex and market-moving coverage will appear here.",why:"The feed focuses on market-moving stories rather than headline volume."},{id:"f4",cat:"Canadian Markets",icon:"📈",title:"Canadian markets — live feed is being prepared",summary:"TSX and Canadian market coverage will appear here.",why:"Briefly filters out routine market noise."},{id:"f5",cat:"AI",icon:"🤖",title:"AI — live feed is being prepared",summary:"Major AI developments will appear here.",why:"The AI feed prioritizes models, products, chips, research and major business moves."}];
-async function loadNews(){try{const r=await fetch("data.json?"+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const d=await r.json();state.stories=d.stories||fallback;state.updated=d.updated||null}catch(e){state.stories=fallback}render()}
-function nav(){return `<nav class="nav"><div class="navin"><button class="${state.page==="Today"?"active":""}" onclick="go('Today')"><span class="icon">⌂</span>Today</button><button class="${state.page==="Markets"?"active":""}" onclick="go('Markets')"><span class="icon">↗</span>Markets</button><button class="${state.page==="Explore"?"active":""}" onclick="go('Explore')"><span class="icon">⌕</span>Explore</button><button class="${state.page==="Saved"?"active":""}" onclick="go('Saved')"><span class="icon">☆</span>Saved</button></div></nav>`}
-function header(title="Today",sub="Your world, filtered."){return `<header class="top"><div class="eyebrow">YOUR PERSONAL BRIEF</div><div class="title">${title}</div><div class="subtitle">${sub}</div></header>`}
-function esc(x){return String(x??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
-function card(s){return `<article class="card" onclick="openStory('${s.id}')"><div class="meta">${s.icon||"📰"} ${esc(s.cat)} · ${esc(s.importance||"Important")}${s.source?" · "+esc(s.source):""}</div><h3>${esc(s.title)}</h3><p class="summary">${esc(s.summary||"")}</p><div class="why"><b>Why it matters:</b> ${esc(s.why||"Briefly selected this because it matches your interests.")}</div></article>`}
-function today(){const fresh=state.updated?`Last updated ${new Date(state.updated).toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}`:"Waiting for first live update";const rows=state.stories.slice(0,6).map(s=>`<div class="briefrow"><span>${s.icon||"📰"}</span><b>${esc(s.title)}</b></div>`).join("");return header()+`<main class="content"><section class="brief"><h2>⚡ THE 60-SECOND BRIEF</h2>${rows}</section><div><div class="fresh">${fresh} · Automated source filtering</div>${groups()}</div></main>`+nav()}
-function groups(){return ["India","Canada","Indian Markets","Canadian Markets","AI"].map(c=>`<section class="section"><div class="sectionhead"><h2>${c==="Indian Markets"||c==="Canadian Markets"?"📈 "+c:(c==="AI"?"🤖 AI":c==="India"?"🇮🇳 India":"🇨🇦 Canada")}</h2><span class="count">${state.stories.filter(s=>s.cat===c).length} stories</span></div>${state.stories.filter(s=>s.cat===c).slice(0,6).map(card).join("")||"<div class='empty'>Nothing matched yet.</div>"}</section>`).join("")}
-function markets(){return header("Markets","India + Canada, without the noise.")+`<main class='content'><div><section class='section'><div class='sectionhead'><h2>🇮🇳 India</h2></div>${state.stories.filter(s=>s.cat==="Indian Markets").map(card).join("")}</section><section class='section'><div class='sectionhead'><h2>🇨🇦 Canada</h2></div>${state.stories.filter(s=>s.cat==="Canadian Markets").map(card).join("")}</section></div></main>`+nav()}
-function explore(){const filtered=state.topic==="All"?state.stories:state.stories.filter(s=>(state.topic.includes("India")&&s.cat.includes("India"))||(state.topic.includes("Canada")&&s.cat.includes("Canada"))||(state.topic.includes("Markets")&&s.cat.includes("Markets"))||(state.topic.includes("AI")&&s.cat==="AI"));return header("Explore","Choose what Briefly should care about.")+`<main class='content'><div><div class='pillrow'>${["All","🇮🇳 India","🇨🇦 Canada","📈 Markets","🤖 AI"].map(t=>`<button class="pill ${state.topic===t?"active":""}" onclick="filterTopic('${t}')">${t}</button>`).join("")}</div>${filtered.map(card).join("")}</div><section class='section settings'><div class='option'><span>🚫 Politics</span><span class='switch on'></span></div><div class='option'><span>🚫 Bollywood / Hollywood</span><span class='switch on'></span></div><div class='option'><span>🚫 Sports</span><span class='switch on'></span></div><div class='option'><span>🚫 Celebrity / viral</span><span class='switch on'></span></div><div class='option'><span>🧠 Learn from my reading</span><span class='switch on'></span></div></section></main>`+nav()}
-function saved(){const ss=state.stories.filter(s=>state.saved.includes(s.id));return header("Saved","Stories you want to come back to.")+`<main class='content'>${ss.length?ss.map(card).join(""):"<div class='card'><h3>Nothing saved yet</h3><p class='summary'>Tap ☆ on a story to save it here.</p></div>"}</main>`+nav()}
-function detail(s){return `<main class="content detail"><button class="back" onclick="go('Today')">← Back</button><div class="meta">${s.icon||"📰"} ${esc(s.cat)} · ${esc(s.importance||"Important")}</div><h1>${esc(s.title)}</h1><p class="lead">${esc(s.summary||"")}</p><div class="detailbox"><h3>TL;DR</h3><p>${esc(s.summary||"")}</p></div><div class="detailbox"><h3>Why it matters</h3><p>${esc(s.why||"Briefly selected this story because it matches your interests.")}</p></div><div class="detailbox"><h3>What to watch</h3><p>Look for confirmation or follow-up reporting from additional reputable sources and official announcements.</p></div><div class="detailbox"><h3>Source</h3><div class="source"><a class="source-link" href="${s.url||"#"}" target="_blank" rel="noopener">${esc(s.source||"Open original story")} ↗</a></div></div><button class="pill" onclick="toggleSave('${s.id}')">${state.saved.includes(s.id)?"★ Saved":"☆ Save story"}</button></main>`}
-function render(){document.getElementById("app").innerHTML=state.selected?detail(state.selected):(state.page==="Today"?today():state.page==="Markets"?markets():state.page==="Explore"?explore():saved())}function go(p){state.page=p;state.selected=null;render()}function openStory(id){state.selected=state.stories.find(s=>s.id===id);render()}function filterTopic(t){state.topic=t;render()}function toggleSave(id){state.saved=state.saved.includes(id)?state.saved.filter(x=>x!==id):[...state.saved,id];localStorage.setItem("brieflySaved",JSON.stringify(state.saved));render()}loadNews();
+const MAX_AGE_MS = 6 * 60 * 60 * 1000;
+
+let state = {
+  stories: [],
+  category: "All",
+  updated: null
+};
+
+const categories = [
+  ["All", "✨"],
+  ["India", "🇮🇳"],
+  ["Canada", "🇨🇦"],
+  ["Indian Markets", "📈"],
+  ["Canadian Markets", "📈"],
+  ["AI", "🤖"]
+];
+
+function escapeHTML(value){
+  return String(value ?? "")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+function ageText(date){
+  const ms = Date.now() - new Date(date).getTime();
+
+  if(ms < 60 * 1000) return "now";
+
+  const minutes = Math.floor(ms / 60000);
+
+  if(minutes < 60){
+    return `${minutes}m`;
+  }
+
+  const hours = Math.floor(minutes / 60);
+  return `${hours}h`;
+}
+
+function header(title="Today", subtitle="Your world, filtered."){
+  return `
+    <header class="top">
+      <div class="eyebrow">
+        <span>YOUR PERSONAL BRIEF</span>
+        <button class="refresh" onclick="loadNews()">↻ Refresh</button>
+      </div>
+
+      <div class="title">${escapeHTML(title)}</div>
+      <div class="subtitle">${escapeHTML(subtitle)}</div>
+    </header>
+  `;
+}
+
+function nav(){
+  return `
+    <nav class="bottom-nav">
+      ${categories.map(([name,icon]) => `
+        <button
+          class="nav-btn ${state.category===name ? "active" : ""}"
+          onclick="setCategory('${name}')"
+        >
+          <div>${icon}</div>
+          <div>${name === "Indian Markets" ? "India Mkts" :
+                 name === "Canadian Markets" ? "Canada Mkts" :
+                 name}</div>
+        </button>
+      `).join("")}
+    </nav>
+  `;
+}
+
+function storyCard(story){
+  const title = escapeHTML(story.title);
+  const summary = escapeHTML(story.summary || "");
+  const source = escapeHTML(story.source || "News");
+  const cat = escapeHTML(story.cat || "");
+  const time = story.publishedAt ? ageText(story.publishedAt) : "";
+
+  return `
+    <article class="card" onclick="openStory('${encodeURIComponent(story.url || "")}')">
+      <div class="card-top">
+        <span class="source">${source}</span>
+        <span class="time">${time}</span>
+      </div>
+
+      <h2 class="card-title">${title}</h2>
+
+      ${summary ? `
+        <p class="card-summary">${summary}</p>
+      ` : ""}
+
+      <div class="card-bottom">
+        <span class="tag">${cat}</span>
+        <span class="read">Read →</span>
+      </div>
+    </article>
+  `;
+}
+
+function render(){
+  const visible = state.category === "All"
+    ? state.stories
+    : state.stories.filter(s => s.cat === state.category);
+
+  let html = header(
+    state.category === "All" ? "Today" : state.category,
+    "Only the news that matters to you."
+  );
+
+  html += `<main class="content">`;
+
+  if(!visible.length){
+    html += `
+      <div class="empty">
+        No fresh stories in this category right now.
+        <br><br>
+        Briefly only keeps news from the last 6 hours.
+      </div>
+    `;
+  }else{
+    html += visible.map(storyCard).join("");
+  }
+
+  if(state.updated){
+    const updatedText = new Date(state.updated).toLocaleTimeString([], {
+      hour:"numeric",
+      minute:"2-digit"
+    });
+
+    html += `
+      <div class="fresh">
+        Feed updated ${updatedText} · Stories older than 6 hours are automatically removed.
+      </div>
+    `;
+  }
+
+  html += `</main>`;
+  html += nav();
+
+  document.getElementById("app").innerHTML = html;
+}
+
+function setCategory(category){
+  state.category = category;
+  render();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function openStory(encoded){
+  const url = decodeURIComponent(encoded);
+
+  if(url){
+    window.open(url,"_blank","noopener,noreferrer");
+  }
+}
+
+async function loadNews(){
+  document.getElementById("app").innerHTML = `
+    ${header("Briefly","Refreshing your personal news feed…")}
+    <div class="loading">Getting the latest stories…</div>
+    ${nav()}
+  `;
+
+  try{
+    const response = await fetch(`data.json?t=${Date.now()}`, {
+      cache:"no-store"
+    });
+
+    if(!response.ok){
+      throw new Error("Could not load news");
+    }
+
+    const data = await response.json();
+
+    const now = Date.now();
+
+    state.updated = data.updated || null;
+
+    state.stories = (data.stories || [])
+      .filter(story => {
+        if(!story.publishedAt) return true;
+
+        const age = now - new Date(story.publishedAt).getTime();
+
+        return age >= 0 && age <= MAX_AGE_MS;
+      })
+      .sort((a,b) => {
+        return new Date(b.publishedAt || 0) -
+               new Date(a.publishedAt || 0);
+      });
+
+    render();
+
+  }catch(error){
+    console.error(error);
+
+    document.getElementById("app").innerHTML = `
+      ${header("Briefly","Unable to refresh right now.")}
+      <div class="empty">
+        Please check your internet connection and try again.
+        <br><br>
+        <button class="refresh" onclick="loadNews()">↻ Try again</button>
+      </div>
+      ${nav()}
+    `;
+  }
+}
+
+loadNews();
