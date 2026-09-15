@@ -94,7 +94,7 @@ function storyCard(story){
   const accent = categoryClass(story.cat || "news");
 
   return `
-    <article class="card ${accent}" onclick="openStory('${encodeURIComponent(story.url || "")}')">
+    <article class="card ${accent}">
       <div class="accent-dot"></div>
       <div class="card-top">
         <span class="source">${source}</span>
@@ -104,7 +104,7 @@ function storyCard(story){
       ${summary ? `<p class="card-summary">${summary}</p>` : ""}
       <div class="card-bottom">
         <span class="tag">${cat}</span>
-        <span class="read">Read ↗</span>
+        <span class="read">Briefly</span>
       </div>
     </article>
   `;
@@ -160,11 +160,6 @@ function setPage(page){
   state.page = page;
   render();
   window.scrollTo({top: 0, behavior: "smooth"});
-}
-
-function openStory(encoded){
-  const url = decodeURIComponent(encoded);
-  if(url) window.open(url, "_blank", "noopener,noreferrer");
 }
 
 async function loadNews(){
