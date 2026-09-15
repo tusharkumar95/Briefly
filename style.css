@@ -39,7 +39,7 @@ button{font:inherit}
 .source{min-width:0;overflow:hidden;color:#8c867e;font-size:10px;font-weight:650;white-space:nowrap;text-overflow:ellipsis}
 .time{flex:none;color:#a29c94;font-size:10px;font-weight:600}
 .card-title{margin:0;font-size:17px;line-height:1.29;font-weight:740;letter-spacing:-.025em}
-.card-summary{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3;margin:6px 0 0;color:#69655f;font-size:13px;line-height:1.46}
+.card-summary{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:5;margin:8px 0 0;color:#69655f;font-size:13px;line-height:1.48}
 .card-bottom{display:flex;align-items:center;justify-content:flex-start;gap:8px;margin-top:10px}
 .tag{display:inline-flex;align-items:center;padding:4px 8px;border-radius:999px;background:rgba(0,0,0,.04);color:#7a756e;font-size:9px;font-weight:750}
 .read{display:none}
