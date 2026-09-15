@@ -32,18 +32,17 @@ button{font:inherit}
 .section-name{display:flex;align-items:center;gap:8px;color:#625e58;font-size:13px;font-weight:780;letter-spacing:.01em}
 .section-icon{display:grid;place-items:center;width:25px;height:25px;border-radius:8px;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.88);box-shadow:var(--shadow-soft);font-size:13px}
 .section-count{color:#aaa39a;font-size:10px;font-weight:700}
-.card{position:relative;overflow:hidden;margin:8px 0;padding:14px 15px 13px 17px;background:rgba(255,255,255,.68);border:1px solid rgba(255,255,255,.88);border-radius:20px;box-shadow:var(--shadow-soft);transition:transform .16s ease,box-shadow .16s ease}
-.card:active{transform:scale(.993);box-shadow:var(--shadow)}
+.card{position:relative;overflow:hidden;margin:8px 0;padding:14px 15px 13px 17px;background:rgba(255,255,255,.68);border:1px solid rgba(255,255,255,.88);border-radius:20px;box-shadow:var(--shadow-soft);transition:box-shadow .16s ease}
 .accent-dot{position:absolute;left:0;top:13px;bottom:13px;width:3px;border-radius:0 4px 4px 0;background:#aaa39a;opacity:.9}
 .card.canada .accent-dot{background:var(--blue)}.card.india .accent-dot{background:var(--saffron)}.card.ai .accent-dot{background:var(--lavender)}.card.canadian-markets .accent-dot{background:var(--green)}.card.indian-markets .accent-dot{background:var(--amber)}
 .card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
 .source{min-width:0;overflow:hidden;color:#8c867e;font-size:10px;font-weight:650;white-space:nowrap;text-overflow:ellipsis}
 .time{flex:none;color:#a29c94;font-size:10px;font-weight:600}
 .card-title{margin:0;font-size:17px;line-height:1.29;font-weight:740;letter-spacing:-.025em}
-.card-summary{margin:6px 0 0;color:#69655f;font-size:13px;line-height:1.46}
-.card-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:10px}
+.card-summary{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3;margin:6px 0 0;color:#69655f;font-size:13px;line-height:1.46}
+.card-bottom{display:flex;align-items:center;justify-content:flex-start;gap:8px;margin-top:10px}
 .tag{display:inline-flex;align-items:center;padding:4px 8px;border-radius:999px;background:rgba(0,0,0,.04);color:#7a756e;font-size:9px;font-weight:750}
-.read{color:#817b74;font-size:10px;font-weight:700}
+.read{display:none}
 .empty-section{padding:16px 12px;color:#99938b;font-size:12px;text-align:center;border:1px dashed rgba(80,70,60,.11);border-radius:15px;background:rgba(255,255,255,.28)}
 .empty{margin:18px 3px;padding:40px 18px;color:#88827a;font-size:14px;line-height:1.5;text-align:center}
 .loading{padding:50px 18px;color:#88827a;font-size:14px;text-align:center}
