@@ -1,0 +1,57 @@
+{
+  "testedAt": "2026-10-05T23:02:07.396359+00:00",
+  "sources": {
+    "nse_bulk_block_page": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.nseindia.com/report-detail/display-bulk-and-block-deals",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 324117,
+      "signals": {
+        "bulk": true,
+        "block": true,
+        "csv": true
+      }
+    },
+    "nse_all_reports": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.nseindia.com/all-reports",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 652627,
+      "signals": {
+        "bulk": true,
+        "block": true,
+        "csv": true
+      }
+    },
+    "sedi_public": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.sedi.ca/sedi/SVTWelcome?locale=en_CA",
+      "contentType": "text/html",
+      "bytes": 16715,
+      "signals": {
+        "insider": true,
+        "transaction": true,
+        "public": true
+      }
+    },
+    "sedi_public_reports_help": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://validate.perfdrive.com/c220153b1e4f30c4a8ae5b04e4281ba6/?ssa=800ec860-f51a-49a5-bbf1-de752669e3e4&ssb=87222392054&ssc=https%3A%2F%2Fwww.sedi.ca%2Fsedi%2Fnew_help%2Fenglish%2Fpublic%2FAccess_Public_Information%2Faccess_public_filings.htm&ssi=2c6b56e7-bkhj-416b-b56f-234db7f94a0d&ssk=support@shieldsquare.com&ssm=69686487487912032108326341105782&ssn=0a947533b5d718c3671826452c56641ed6c4c217f010-ba8b-4097-8ac352&sso=0918c588-ba5e17366d87b6b872a6ebba5081398a858d68b7decece6b&ssp=29366864941791250809179120282887362&ssq=87852384132978979718441329899116535489947&ssr=MTMuODMuNDIuMTAx&sst=Mozilla/5.0%20(Briefly%20Moves%20source%20test;%20personal%20project)&ssu=&ssv=&ssw=&ssx=eyJyZCI6InNlZGkuY2EiLCJ1em14IjoiN2ZjMDAwYjViNzJkYTYtOWFlNy00MmQ0LTkwNzgtYWMwNmJlZjkwMTY3MS0xNzkxMjQxMzI5ODA4MC0wMDg2ZTBhMTU2N2U1ZmE0YzMxMTAiLCJfX3V6bWYiOiI3ZjkwMDBjMjE3ZjAxMC1iYThiLTQwOTctODU4OC1iYTVlMTczNjZkODcxLTE3OTEyNDEzMjk4MDkwLTAwNWVkNWFkNmYzMjRjMDc4ZTIxMCJ9",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 13923,
+      "signals": {
+        "insider": false,
+        "transaction": false,
+        "public": true
+      }
+    }
+  },
+  "summary": {
+    "allReachable": true,
+    "note": "Connectivity proof only. No Briefly UI/data files are changed by this test."
+  }
+}
