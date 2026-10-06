@@ -1,0 +1,16 @@
+{
+  "testedAt": "2026-10-06T04:17:05.684178+00:00",
+  "india": {
+    "error": "AttributeError: module 'urllib.request' has no attribute 'open'"
+  },
+  "canada": {
+    "welcome": true,
+    "reportsStatus": 200,
+    "finalUrl": "http://validate.perfdrive.com/c220153b1e4f30c4a8ae5b04e4281ba6/?ssa=1ae7f2a6-6aae-41c1-8851-02cc198a6c18&ssb=95873385626&ssc=https%3A%2F%2Fwww.sedi.ca%2Fsedi%2FSVTReportsAccessController%3Fmenukey%3D15.03.00%26locale%3Den_CA&ssi=84b44462-bkhj-4e07-8778-3d6cc12ae23a&ssk=support@shieldsquare.com&ssm=68091427119571883131151710032670&ssn=6af16dcb0b3852cb5b8061d7938453ca1d52d817e628-6cae-4c9a-bec8e7&sso=a23897bc-72e355954ca1e8f337189485a77c12c201bab34eb1f8293b&ssp=33378236591791250953179120392786903&ssq=13080556022620250960860225905561490437930&ssr=MTQ1LjEzMi4xMDIuOTg=&sst=Mozilla/5.0%20(Briefly%20Moves;%20personal%20research)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBkODE3ZTYyOC02Y2FlLTRjOWEtYjdiYy03MmUzNTU5NTRjYTExLTE3OTEyNjAyMjU4NzM4NjMtMDA1ZTY2NGNlMDRiOGYyN2M3YTEzIiwidXpteCI6IjdmYzAwMDVlMDE4MGQ1LTUzZDEtNDg2Ni05YmE1LTUxNThmYTZjMzA1NjEtMTc5MTI2MDIyNTg3Mjg2My0wMDgwOTEyMWVlN2M3NTA3ZGViMTMiLCJyZCI6InNlZGkuY2EifQ==",
+    "bytes": 13923,
+    "hasInsiderTransactionDetail": false,
+    "forms": [],
+    "inputNames": [],
+    "blocked": true
+  }
+}
