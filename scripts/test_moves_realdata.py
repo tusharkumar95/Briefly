@@ -6,7 +6,7 @@ OUT={"testedAt":datetime.now(timezone.utc).isoformat(),"india":{},"canada":{}}
 
 def fetch(url, opener=None, headers=None, data=None):
     req=urllib.request.Request(url,data=data,headers={"User-Agent":UA,"Accept-Language":"en-CA,en;q=0.9",**(headers or {})})
-    with (opener or urllib.request).open(req,timeout=25) as r:
+    with (opener.open(req,timeout=25) if opener else urllib.request.urlopen(req,timeout=25)) as r:
         return r.status,r.geturl(),r.headers.get("Content-Type",""),r.read(1500000)
 
 # INDIA: inspect official NSE report HTML for the actual downloadable/API routes and
