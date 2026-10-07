@@ -1,0 +1,25 @@
+name: Update Briefly Moves
+
+on:
+  schedule:
+    - cron: "30 12 * * 1-5"
+    - cron: "30 14 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-moves:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build India Moves feed
+        run: python scripts/fetch_moves.py
+      - name: Commit Moves data
+        run: |
+          git config user.name "briefly-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add moves.json moves-history.json
+          git diff --cached --quiet || git commit -m "Update investor moves"
+          git push
