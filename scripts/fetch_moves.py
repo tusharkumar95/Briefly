@@ -55,7 +55,7 @@ for g in groups.values():
     net=g["buyQty"]-g["sellQty"]
     gross=max(g["buyQty"],g["sellQty"],1)
     # Keep only meaningful net accumulation; discard near-round trips.
-    if net<=0 or net/gross<0.20: continue
+    if net<=0 or net/gross<0.20: continue\n    # Skip rights-entitlement symbols and immaterial net purchases.\n    if g["symbol"].endswith("-RE"): continue
     avg=(g["buyValue"]/g["buyQty"]) if g["buyQty"] else 0
     value=net*avg
     rec={**g,"netBuyQty":net,"avgBuyPrice":round(avg,2),"netBuyValueINR":round(value,2),
