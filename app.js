@@ -141,15 +141,54 @@ function sectionBlock(category, icon, label){
   `;
 }
 
+function moveCard(move){
+  const qty = Number(move.netBuyQty || 0).toLocaleString("en-IN");
+  const price = Number(move.avgBuyPrice || 0).toLocaleString("en-IN");
+  const value = Number(move.netBuyValueCr || 0).toLocaleString("en-IN");
+
+  return `
+    <article class="card move-card">
+      <div class="accent-dot"></div>
+      <div class="move-kicker">
+        <span class="move-signal">${escapeHTML(move.signal || "Net Purchase")}</span>
+        <span class="move-date">${escapeHTML(move.date || "")}</span>
+      </div>
+      <h2 class="card-title">${escapeHTML(move.company)} <span class="ticker">${escapeHTML(move.symbol)}</span></h2>
+      <p class="move-investor">${escapeHTML(move.investor)}</p>
+      <div class="move-grid">
+        <div><small>NET BOUGHT</small><strong>${qty}</strong></div>
+        <div><small>AVG BUY</small><strong>₹${price}</strong></div>
+        <div><small>APPROX VALUE</small><strong>₹${value} Cr</strong></div>
+      </div>
+      <div class="move-source">NSE Bulk Deals · net of same-day disclosed sells</div>
+    </article>
+  `;
+}
+
+function movesView(){
+  return `
+    <section class="news-section">
+      <div class="section-heading">
+        <div class="section-name"><span class="section-icon">🇮🇳</span><span>India</span></div>
+        <span class="section-count">${state.moves.length}</span>
+      </div>
+      <div class="moves-note">Official NSE end-of-day disclosures. Calculated from disclosed bulk-deal activity; not real-time brokerage positions.</div>
+      ${state.moves.length
+        ? state.moves.slice(0, 30).map(moveCard).join("")
+        : '<div class="empty-section">No meaningful net purchases in the latest disclosure.</div>'}
+    </section>
+  `;
+}
+
 function render(){
   const config = pageConfig[state.page];
 
   let html = header();
   html += `<main class="content">`;
 
-  html += config.sections
-    .map(([category, icon, label]) => sectionBlock(category, icon, label))
-    .join("");
+  html += state.page === PAGE_MOVES
+    ? movesView()
+    : config.sections.map(([category, icon, label]) => sectionBlock(category, icon, label)).join("");
 
   if(state.updated){
     const updatedText = new Date(state.updated).toLocaleTimeString([], {
@@ -195,6 +234,16 @@ async function loadNews(){
     const now = Date.now();
 
     state.updated = data.updated || null;
+
+    try{
+      const movesResponse = await fetch(`moves.json?t=${Date.now()}`, {cache: "no-store"});
+      if(movesResponse.ok){
+        const movesData = await movesResponse.json();
+        state.moves = movesData.records || [];
+      }
+    }catch(movesError){
+      console.warn("Moves unavailable", movesError);
+    }
 
     state.stories = (data.stories || [])
       .filter(story => {
