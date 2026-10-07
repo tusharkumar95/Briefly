@@ -2,11 +2,13 @@ const MAX_AGE_MS = 6 * 60 * 60 * 1000;
 
 const PAGE_WORLD = "world";
 const PAGE_MARKETS = "markets";
+const PAGE_MOVES = "moves";
 
 let state = {
   stories: [],
   page: PAGE_WORLD,
-  updated: null
+  updated: null,
+  moves: []
 };
 
 const pageConfig = {
@@ -19,6 +21,12 @@ const pageConfig = {
       ["India", "🇮🇳", "India"],
       ["AI", "✦", "AI"]
     ]
+  },
+  [PAGE_MOVES]: {
+    label: "Moves",
+    title: "Moves",
+    subtitle: "Meaningful investor buying from official market disclosures.",
+    sections: []
   },
   [PAGE_MARKETS]: {
     label: "Markets",
@@ -80,6 +88,10 @@ function nav(){
       <button class="nav-btn ${state.page === PAGE_MARKETS ? "active" : ""}" onclick="setPage('${PAGE_MARKETS}')">
         <span class="nav-icon">↗</span>
         <span>Markets</span>
+      </button>
+      <button class="nav-btn ${state.page === PAGE_MOVES ? "active" : ""}" onclick="setPage('${PAGE_MOVES}')">
+        <span class="nav-icon">◎</span>
+        <span>Moves</span>
       </button>
     </nav>
   `;
