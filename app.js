@@ -198,7 +198,7 @@ function render(){
 
     html += `
       <div class="fresh">
-        Updated ${updatedText} · Only stories from the last 6 hours are shown.
+        ${state.page === PAGE_MOVES ? "NSE end-of-day disclosure feed." : `Updated ${updatedText} · Only stories from the last 6 hours are shown.`}
       </div>
     `;
   }
@@ -239,7 +239,7 @@ async function loadNews(){
       const movesResponse = await fetch(`moves.json?t=${Date.now()}`, {cache: "no-store"});
       if(movesResponse.ok){
         const movesData = await movesResponse.json();
-        state.moves = movesData.records || [];
+        state.moves = (movesData.records || []).filter(move => !String(move.symbol || "").endsWith("-RE") && Number(move.netBuyValueINR || 0) >= 500000);
       }
     }catch(movesError){
       console.warn("Moves unavailable", movesError);
