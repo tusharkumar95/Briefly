@@ -8,7 +8,8 @@ let state = {
   stories: [],
   page: PAGE_WORLD,
   updated: null,
-  moves: []
+  moves: [],
+  investorQuery: ""
 };
 
 const pageConfig = {
@@ -165,17 +166,44 @@ function moveCard(move){
   `;
 }
 
+function setInvestorFilter(value){
+  state.investorQuery = value || "";
+  render();
+  const input = document.getElementById("investor-filter");
+  if(input){
+    input.focus();
+    input.setSelectionRange(input.value.length, input.value.length);
+  }
+}
+
+function clearInvestorFilter(){
+  state.investorQuery = "";
+  render();
+}
+
 function movesView(){
+  const query = state.investorQuery.trim().toLowerCase();
+  const filtered = query
+    ? state.moves.filter(move => String(move.investor || "").toLowerCase().includes(query))
+    : state.moves;
+  const shown = query ? filtered : filtered.slice(0, 30);
+
   return `
     <section class="news-section">
       <div class="section-heading">
         <div class="section-name"><span class="section-icon">🇮🇳</span><span>India</span></div>
-        <span class="section-count">${state.moves.length}</span>
+        <span class="section-count">${filtered.length}</span>
       </div>
       <div class="moves-note">Official NSE end-of-day disclosures. Calculated from disclosed bulk-deal activity; not real-time brokerage positions.</div>
-      ${state.moves.length
-        ? state.moves.slice(0, 30).map(moveCard).join("")
-        : '<div class="empty-section">No meaningful net purchases in the latest disclosure.</div>'}
+      <div class="investor-filter">
+        <span class="filter-icon">⌕</span>
+        <input id="investor-filter" type="search" value="${escapeHTML(state.investorQuery)}" placeholder="Filter by investor name" oninput="setInvestorFilter(this.value)" autocomplete="off" autocapitalize="words">
+        ${state.investorQuery ? '<button class="filter-clear" onclick="clearInvestorFilter()" aria-label="Clear investor filter">×</button>' : ""}
+      </div>
+      ${query ? `<div class="filter-status">${filtered.length} match${filtered.length === 1 ? "" : "es"} for “${escapeHTML(state.investorQuery)}”</div>` : ""}
+      ${shown.length
+        ? shown.map(moveCard).join("")
+        : '<div class="empty-section">No investor matches this name in the current Moves feed.</div>'}
     </section>
   `;
 }
