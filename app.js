@@ -10,6 +10,7 @@ let state = {
   updated: null,
   moves: [],
   investorQuery: "",
+  companyQuery: "",
   canadaMoves: []
 };
 
@@ -170,16 +171,23 @@ function moveCard(move){
 function setInvestorFilter(value){
   state.investorQuery = value || "";
   render();
-  const input = document.getElementById("investor-filter");
-  if(input){
-    input.focus();
-    input.setSelectionRange(input.value.length, input.value.length);
-  }
 }
 
-function clearInvestorFilter(){
-  state.investorQuery = "";
+function setCompanyFilter(value){
+  state.companyQuery = value || "";
   render();
+}
+
+function clearMoveFilters(){
+  state.investorQuery = "";
+  state.companyQuery = "";
+  render();
+}
+
+function moveFilterOptions(field){
+  const all = [...state.moves, ...state.canadaMoves];
+  return [...new Set(all.map(move => String(move[field] || "").trim()).filter(Boolean))]
+    .sort((a,b) => a.localeCompare(b,undefined,{sensitivity:"base"}));
 }
 
 function canadaMoveCard(move){
@@ -203,23 +211,37 @@ function canadaMoveCard(move){
 }
 
 function movesView(){
-  const query = state.investorQuery.trim().toLowerCase();
-  const india = query ? state.moves.filter(m => String(m.investor || "").toLowerCase().includes(query)) : state.moves;
-  const canada = query ? state.canadaMoves.filter(m => String(m.investor || "").toLowerCase().includes(query)) : state.canadaMoves;
+  const investor = state.investorQuery;
+  const company = state.companyQuery;
+  const matches = m => (!investor || m.investor === investor) && (!company || m.company === company);
+  const india = state.moves.filter(matches);
+  const canada = state.canadaMoves.filter(matches);
+  const investorOptions = moveFilterOptions("investor");
+  const companyOptions = moveFilterOptions("company");
+  const option = value => `<option value="${escapeHTML(value)}">${escapeHTML(value)}</option>`;
   return `
     <section class="news-section">
-      <div class="investor-filter">
-        <span class="filter-icon">⌕</span>
-        <input id="investor-filter" type="search" value="${escapeHTML(state.investorQuery)}" placeholder="Filter by investor name" oninput="setInvestorFilter(this.value)" autocomplete="off" autocapitalize="words">
-        ${state.investorQuery ? '<button class="filter-clear" onclick="clearInvestorFilter()" aria-label="Clear investor filter">×</button>' : ""}
+      <div class="moves-filters">
+        <label class="moves-filter"><span>Investor</span>
+          <select id="investor-filter" onchange="setInvestorFilter(this.value)" aria-label="Filter by investor">
+            <option value="">All investors</option>
+            ${investorOptions.map(value => `<option value="${escapeHTML(value)}" ${value === investor ? "selected" : ""}>${escapeHTML(value)}</option>`).join("")}
+          </select>
+        </label>
+        <label class="moves-filter"><span>Company</span>
+          <select id="company-filter" onchange="setCompanyFilter(this.value)" aria-label="Filter by company">
+            <option value="">All companies</option>
+            ${companyOptions.map(value => `<option value="${escapeHTML(value)}" ${value === company ? "selected" : ""}>${escapeHTML(value)}</option>`).join("")}
+          </select>
+        </label>
       </div>
-      ${query ? `<div class="filter-status">${india.length + canada.length} matching disclosed moves</div>` : ""}
+      ${investor || company ? `<div class="filter-status">${india.length + canada.length} matching disclosed moves <button type="button" class="moves-reset" onclick="clearMoveFilters()">Clear filters ×</button></div>` : ""}
       <div class="section-heading"><div class="section-name"><span class="section-icon">🇨🇦</span><span>Canada · Verified</span></div><span class="section-count">${canada.length}</span></div>
       <div class="moves-note">Completed acquisitions checked against public announcements. Transaction and disclosure dates are different; this is not a live insider-trading feed.</div>
       ${canada.length ? canada.map(canadaMoveCard).join("") : '<div class="empty-section">No matching verified Canadian acquisitions.</div>'}
       <div class="section-heading" style="margin-top:25px"><div class="section-name"><span class="section-icon">🇮🇳</span><span>India · NSE Bulk Deals</span></div><span class="section-count">${india.length}</span></div>
       <div class="moves-note">End-of-day net disclosed bulk purchases, not live brokerage positions.</div>
-      ${india.length ? (query ? india : india.slice(0,30)).map(moveCard).join("") : '<div class="empty-section">No matching Indian investor purchases.</div>'}
+      ${india.length ? (investor || company ? india : india.slice(0,30)).map(moveCard).join("") : '<div class="empty-section">No matching Indian investor purchases.</div>'}
     </section>
   `;
 }
