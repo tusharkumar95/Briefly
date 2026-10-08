@@ -29,3 +29,19 @@ for query in queries:
 with open("moves-canada-discovery-test.json","w",encoding="utf-8") as f:
     json.dump({"testedAt":datetime.now(timezone.utc).isoformat(),"note":"Discovery candidates only; not verified investor purchases","queries":results},f,indent=2)
 print("Queries:",len(results),"Candidates:",sum(len(x.get("items",[])) for x in results))
+
+# Preserve a separate shortlist of disclosure candidates; never label as verified trades.
+shortlist=[]
+seen=set()
+for group in results:
+    for item in group.get("items",[]):
+        title=item["title"]
+        key=title.lower().split(" - ")[0]
+        if key in seen:
+            continue
+        seen.add(key)
+        if any(term in key for term in ("early warning","reports participation","acquires shares","strategic investment")):
+            shortlist.append({"headline":title,"published":item["published"],"source":item["source"],"discoveryUrl":item["url"],"verified":False,"status":"Needs original disclosure verification"})
+with open("moves-canada-candidates.json","w",encoding="utf-8") as f:
+    json.dump({"updated":datetime.now(timezone.utc).isoformat(),"records":shortlist,"disclaimer":"Unverified discovery candidates; do not display as confirmed purchases"},f,indent=2)
+print("Shortlisted:",len(shortlist))
