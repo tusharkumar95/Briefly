@@ -14,6 +14,6 @@ jobs:
         run: |
           git config user.name "briefly-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add moves-canada-discovery-test.json
+          git add moves-canada-discovery-test.json moves-canada-candidates.json
           git diff --cached --quiet || git commit -m "Save Canada Moves discovery test"
           git push
