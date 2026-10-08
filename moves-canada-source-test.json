@@ -1,0 +1,36 @@
+{
+  "testedAt": "2026-10-08T02:36:16.996854+00:00",
+  "source": "SEDAR+",
+  "tests": [
+    {
+      "url": "https://www.sedarplus.ca/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://validate.perfdrive.com/?ssa=48b224fd-2a71-47fe-9d88-abb85e47be7e&ssb=13964324527&ssc=https%3A%2F%2Fwww.sedarplus.ca%2F&ssi=e9efcea2-brc7-4944-82b9-4980f4f33825&ssk=support@shieldsquare.com&ssm=18090581526080109101196860935689&ssn=57c15536e035cfd539459246ba58a4d88b557efa3ad4-18ea-4949-8598d5&sso=f4bc7bb6-dd43b8a6d83f35b27b46da7d41f7c5824c32daf61da011f6&ssp=23635485011791425809179142670014897&ssq=42418762697781697003626977317275611838919&ssr=NzQuMjM1LjE0My4yMTE=&sst=Mozilla/5.0%20(Briefly%20Moves;%20personal%20research)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYWIzYmE5YTktYTcxYi00ZWE2LWI0NGYtMjM5NDQ3ZmM4ZTE2MS0xNzkxNDI2OTc3MTkxMC0wMDgzZWQzZGEyMDJjMmU2Mzk3MTAiLCJyZCI6InNlZGFycGx1cy5jYSIsIl9fdXptZiI6IjdmOTAwMDdlZmEzYWQ0LTE4ZWEtNDk0OS04YmI2LWRkNDNiOGE2ZDgzZjEtMTc5MTQyNjk3NzE5MTAtMDA1NmEyM2ZkYzdlNzUyYTI4NDEwIn0=",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 15636,
+      "signals": {
+        "earlyWarning": false,
+        "acquisition": false,
+        "acquiror": false,
+        "shares": false
+      },
+      "sample": "<!DOCTYPE html>\n<html lang=\"en\">\n     <head>\n          <title>Radware Block Page</title>\n          <meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"https://captcha.perfdrive.com/captcha-public/css/shieldsquare_styles.min.css\">\n          <script type=\"text/javascript\">\n\twindow.SSJSInternal = 31121;\n\n\tvar __uzdbm_1 = \"7efa3ad4-18ea-4949-8bb6-dd43b8a6d83f\";\n\tvar __uzdbm_2 = \"ZTllZmNlYTItYnJjNy00OTQ0LTgyYjktNDk4MGY0ZjMzODI1JDc0LjIzNS4xNDMuMjEx\";\n\t\n\t(function(w, d, e, u, c, g, a, b){\n\t\tw[\"SSJSConnectorObj\"] = w[\"SSJSConnectorObj\"] || {ss_cid : c, domain_info: g};\n\t\ta = d.createElement(e);\n\t\ta.async = true;\n\t\ta.src = u;\n\t\tb = "
+    },
+    {
+      "url": "https://www.sedarplus.ca/csa-party/records/document.html?id=7cdddbe18836f1c8aa72645b0e63695fe73cb0b6e59ad7f1fcb63bd94178ffc2",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.sedarplus.ca/csa-party/records/document.html?id=7cdddbe18836f1c8aa72645b0e63695fe73cb0b6e59ad7f1fcb63bd94178ffc2",
+      "contentType": "application/pdf",
+      "bytes": 255588,
+      "signals": {
+        "earlyWarning": false,
+        "acquisition": false,
+        "acquiror": false,
+        "shares": false
+      },
+      "sample": "%PDF-1.7\r\n%\r\n1 0 obj\r\n<</Type/Catalog/Pages 2 0 R/Lang(en) /StructTreeRoot 42 0 R/MarkInfo<</Marked true>>/Metadata 171 0 R/ViewerPreferences 172 0 R>>\r\nendobj\r\n2 0 obj\r\n<</Type/Pages/Count 5/Kids[ 3 0 R 29 0 R 31 0 R 33 0 R 35 0 R] >>\r\nendobj\r\n3 0 obj\r\n<</Type/Page/Parent 2 0 R/Resources<</Font<</F1 5 0 R/F2 9 0 R/F3 11 0 R/F4 13 0 R/F5 15 0 R/F6 17 0 R/F7 22 0 R/F8 27 0 R>>/ExtGState<</GS7 7 0 R/GS8 8 0 R>>/ProcSet[/PDF/Text/ImageB/ImageC/ImageI] >>/MediaBox[ 0 0 612.12 792.12] /Contents 4 0 R/Group<</Type/Group/S/Transparency/CS/DeviceRGB>>/Tabs/S/StructParents 0>>\r\nendobj\r\n4 0 obj\r\n<</Filter/FlateDecode/Length 5829>>\r\nstream\r\nx][o\u001b9~\u000f\u000f -6l.\u0002\u0003q639ػ\"\u000f8GgXnYX\u001ds\u0002ĒeI\u001f,\u0016u9~\\_L˗ǯjvQ}<>_|^̏>᥿"
+    }
+  ]
+}
