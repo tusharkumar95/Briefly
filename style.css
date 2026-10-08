@@ -75,3 +75,10 @@ button{font:inherit}
 .investor-filter input::placeholder{color:#aaa39a}
 .filter-clear{flex:none;display:grid;place-items:center;width:25px;height:25px;padding:0;border:0;border-radius:50%;background:rgba(0,0,0,.055);color:#77716a;font-size:18px;line-height:1}
 .filter-status{margin:0 5px 9px;color:#8d877f;font-size:9px;font-weight:650}
+
+/* Compact native iPhone-friendly Moves filters */
+.moves-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:5px 0 12px}
+.moves-filter{display:flex;flex-direction:column;gap:5px;min-width:0;color:var(--muted);font-size:11px;font-weight:700}
+.moves-filter select{width:100%;min-width:0;max-width:100%;padding:11px 28px 11px 10px;border:1px solid rgba(28,26,23,.11);border-radius:13px;background:rgba(255,255,255,.85);color:var(--text);font-size:13px;font-weight:600;white-space:nowrap;text-overflow:ellipsis;appearance:auto;-webkit-appearance:menulist}
+.moves-filter select:focus{outline:2px solid var(--blue);outline-offset:1px}
+.moves-reset{border:0;background:transparent;color:var(--blue);font-size:12px;font-weight:700;padding:5px 2px;margin-left:6px}
