@@ -1,6 +1,8 @@
 name: Test Canada Moves discovery
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '35 13 * * 1-5'
 permissions:
   contents: write
 jobs:
