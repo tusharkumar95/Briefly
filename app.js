@@ -9,7 +9,8 @@ let state = {
   page: PAGE_WORLD,
   updated: null,
   moves: [],
-  investorQuery: ""
+  investorQuery: "",
+  canadaMoves: []
 };
 
 const pageConfig = {
@@ -181,29 +182,44 @@ function clearInvestorFilter(){
   render();
 }
 
+function canadaMoveCard(move){
+  const qty = Number(move.shares || 0).toLocaleString("en-CA");
+  const value = Number(move.valueCAD || 0).toLocaleString("en-CA", {style:"currency",currency:"CAD",maximumFractionDigits:0});
+  const date = move.transactionDate ? "Traded " + move.transactionDate : "Trade date not disclosed";
+  return `
+    <article class="card move-card">
+      <div class="accent-dot"></div>
+      <div class="move-kicker"><span class="move-signal">Verified acquisition</span><span class="move-date">${escapeHTML(move.disclosureDate)}</span></div>
+      <h2 class="card-title">${escapeHTML(move.company)} <span class="ticker">${escapeHTML(move.symbol)}</span></h2>
+      <p class="move-investor">${escapeHTML(move.investor)}</p>
+      <div class="move-grid">
+        <div><small>SHARES</small><strong>${qty}</strong></div>
+        <div><small>PRICE</small><strong>C${Number(move.priceCAD || 0).toFixed(4)}</strong></div>
+        <div><small>VALUE</small><strong>${value}</strong></div>
+      </div>
+      <div class="move-source">${escapeHTML(date)} · Disclosed ${escapeHTML(move.disclosureDate)} · <a href="${escapeHTML(move.sourceUrl)}" target="_blank" rel="noopener noreferrer">Source ↗</a></div>
+    </article>
+  `;
+}
+
 function movesView(){
   const query = state.investorQuery.trim().toLowerCase();
-  const filtered = query
-    ? state.moves.filter(move => String(move.investor || "").toLowerCase().includes(query))
-    : state.moves;
-  const shown = query ? filtered : filtered.slice(0, 30);
-
+  const india = query ? state.moves.filter(m => String(m.investor || "").toLowerCase().includes(query)) : state.moves;
+  const canada = query ? state.canadaMoves.filter(m => String(m.investor || "").toLowerCase().includes(query)) : state.canadaMoves;
   return `
     <section class="news-section">
-      <div class="section-heading">
-        <div class="section-name"><span class="section-icon">🇮🇳</span><span>India</span></div>
-        <span class="section-count">${filtered.length}</span>
-      </div>
-      <div class="moves-note">Official NSE end-of-day disclosures. Calculated from disclosed bulk-deal activity; not real-time brokerage positions.</div>
       <div class="investor-filter">
         <span class="filter-icon">⌕</span>
         <input id="investor-filter" type="search" value="${escapeHTML(state.investorQuery)}" placeholder="Filter by investor name" oninput="setInvestorFilter(this.value)" autocomplete="off" autocapitalize="words">
         ${state.investorQuery ? '<button class="filter-clear" onclick="clearInvestorFilter()" aria-label="Clear investor filter">×</button>' : ""}
       </div>
-      ${query ? `<div class="filter-status">${filtered.length} match${filtered.length === 1 ? "" : "es"} for “${escapeHTML(state.investorQuery)}”</div>` : ""}
-      ${shown.length
-        ? shown.map(moveCard).join("")
-        : '<div class="empty-section">No investor matches this name in the current Moves feed.</div>'}
+      ${query ? `<div class="filter-status">${india.length + canada.length} matching disclosed moves</div>` : ""}
+      <div class="section-heading"><div class="section-name"><span class="section-icon">🇨🇦</span><span>Canada · Verified</span></div><span class="section-count">${canada.length}</span></div>
+      <div class="moves-note">Completed acquisitions checked against public announcements. Transaction and disclosure dates are different; this is not a live insider-trading feed.</div>
+      ${canada.length ? canada.map(canadaMoveCard).join("") : '<div class="empty-section">No matching verified Canadian acquisitions.</div>'}
+      <div class="section-heading" style="margin-top:25px"><div class="section-name"><span class="section-icon">🇮🇳</span><span>India · NSE Bulk Deals</span></div><span class="section-count">${india.length}</span></div>
+      <div class="moves-note">End-of-day net disclosed bulk purchases, not live brokerage positions.</div>
+      ${india.length ? (query ? india : india.slice(0,30)).map(moveCard).join("") : '<div class="empty-section">No matching Indian investor purchases.</div>'}
     </section>
   `;
 }
@@ -262,6 +278,10 @@ async function loadNews(){
     const now = Date.now();
 
     state.updated = data.updated || null;
+    try{
+      const caResponse = await fetch(`moves-canada-verified.json?t=${Date.now()}`, {cache:"no-store"});
+      if(caResponse.ok){ const caData = await caResponse.json(); state.canadaMoves = caData.records || []; }
+    }catch(error){console.warn("Canada Moves unavailable",error);}
 
     try{
       const movesResponse = await fetch(`moves.json?t=${Date.now()}`, {cache: "no-store"});
