@@ -20,8 +20,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Validate news script syntax
+        run: python -m py_compile scripts/fetch_news.py
+
       - name: Fetch and filter news
         run: python scripts/fetch_news.py
+
+      - name: Validate published summaries
+        run: |
+          python - <<'PY'
+          import json, re
+          with open('data.json', encoding='utf-8') as f:
+              stories = json.load(f).get('stories', [])
+          for story in stories:
+              title = re.findall(r'[a-z0-9]+', story['title'].lower())
+              summary = re.findall(r'[a-z0-9]+', story['summary'].lower())
+              assert len(story['summary']) >= 130, story['title']
+              assert summary != title, story['title']
+          print('Validated substantive summaries:', len(stories))
+          PY
 
       - name: Commit updated feed
         run: |
