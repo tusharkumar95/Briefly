@@ -22,7 +22,12 @@ def audit():
             # Conservative matching: full company name + meaningful investor token.
             company_words = [w for w in company.split() if w not in {"corp", "corporation", "inc", "ltd", "limited", "energy", "gold", "materials"}]
             investor_words = [w for w in investor.split() if len(w) >= 6 and w not in {"capital", "corporation", "minerals", "resources", "limited"}]
-            if company_words and investor_words and any(w in title.split() for w in company_words) and any(w in title.split() for w in investor_words):
+            investor_match = any(w in title.split() for w in investor_words)
+            company_match = any(w in title.split() for w in company_words)
+            # An explicit early-warning filing named for the investor can be
+            # a possible duplicate even if the headline omits the issuer.
+            filing_named_for_investor = "early warning report" in title and investor_match
+            if investor_match and (company_match or filing_named_for_investor):
                 matches.append({"investor": record.get("investor"), "company": record.get("company")})
         rows.append({
             "headline": headline,
