@@ -10,8 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check discovery script syntax
+        run: python -m py_compile scripts/test_canada_discovery.py
       - name: Discover Canadian early warning disclosures
         run: python scripts/test_canada_discovery.py
+      - name: Validate discovery output
+        run: |
+          python - <<'PY'
+          import json
+          with open('moves-canada-candidates.json', encoding='utf-8') as f:
+              data = json.load(f)
+          assert isinstance(data.get('records'), list)
+          assert all(item.get('verified') is False for item in data['records'])
+          print('Candidate records validated:', len(data['records']))
+          PY
       - name: Save discovery candidates
         run: |
           git config user.name "briefly-bot"
