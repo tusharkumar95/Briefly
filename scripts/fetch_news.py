@@ -80,70 +80,89 @@ class ArticleParser(HTMLParser):
 
 
 def fetch_article_text(url):
-    # Google News RSS links often do not redirect cleanly when fetched by urllib.
-    # Jina Reader follows the article link and returns readable publisher text.
-    candidates = [
-        "https://r.jina.ai/" + url,
-        url
-    ]
+    """Get readable article content, never mistake an RSS headline for an article."""
+    candidates = ["https://r.jina.ai/" + url, url]
     for target in candidates:
         try:
             request = urllib.request.Request(target, headers={"User-Agent": UA})
-            response = urllib.request.urlopen(request, timeout=12)
-            raw = response.read(500000).decode("utf-8", errors="ignore")
+            with urllib.request.urlopen(request, timeout=12) as response:
+                raw = response.read(500000).decode("utf-8", errors="ignore")
             if not raw:
                 continue
-
-            parser = ArticleParser()
-            parser.feed(raw)
-            paragraphs = []
-            for paragraph in parser.paragraphs:
+            if target.startswith("https://r.jina.ai/"):
+                # Jina Reader returns markdown/plain text, NOT HTML.
+                match = re.search(r"Markdown Content:\\s*\\n", raw, re.I)
+                raw = raw[match.end():] if match else raw
+                raw = re.sub(r"!\\[[^]]*\\]\\([^)]*\\)", " ", raw)
+                raw = re.sub(r"\\[([^]]+)\\]\\([^)]*\\)", r"\\1", raw)
+                raw = re.sub(r"(?m)^\\s*(?:#{1,6}\\s+|>\\s*|[-*]\\s+)", "", raw)
+                raw = re.sub(r"(?m)^\\s*(?:Title:|URL Source:|Published Time:|Content type:).*?$", "", raw)
+                paragraphs = [clean(p) for p in re.split(r"\\n\\s*\\n", raw)]
+            else:
+                parser = ArticleParser()
+                parser.feed(raw)
+                paragraphs = [clean(p) for p in parser.paragraphs]
+                paragraphs += [clean(p) for p in parser.meta.values()]
+            usable = []
+            for paragraph in paragraphs:
                 lower = paragraph.lower()
-                if any(x in lower for x in ("cookie policy", "privacy policy", "subscribe to", "sign up for", "all rights reserved", "advertisement")):
+                if len(paragraph) < 90 or len(paragraph) > 3000:
                     continue
-                if paragraph not in paragraphs:
-                    paragraphs.append(paragraph)
-
-            meta = next(iter(parser.meta.values()), "")
-            text = " ".join(paragraphs[:12])
-            if len(meta) > len(text):
-                text = meta + " " + text
-            if len(text) >= 120:
-                return text
+                if any(x in lower for x in ("cookie policy", "privacy policy", "subscribe to", "sign up for", "all rights reserved", "advertisement", "javascript is disabled", "enable javascript", "google news", "related articles")):
+                    continue
+                usable.append(paragraph)
+            if usable:
+                return " ".join(usable[:8])[:6000]
         except Exception:
             continue
     return ""
 
 
-def make_summary(title, description, url):
-    text = strip_title(description, title)
-    article_text = fetch_article_text(url) if len(text) < 180 else ""
-    if article_text:
-        text = strip_title(article_text, title)
+def normalized_words(value):
+    return re.findall(r"[a-z0-9]+", clean(value).lower())
 
-    sentences = re.split(r"(?<=[.!?])\s+", text)
-    title_words = set(re.findall(r"[a-z0-9]+", title.lower()))
+
+def is_repeated_headline(sentence, title, source=""):
+    sentence_words = normalized_words(sentence)
+    title_words = normalized_words(title)
+    if not sentence_words or not title_words:
+        return True
+    # Google RSS descriptions often contain only the headline and publisher.
+    stripped = re.sub(re.escape(source), "", sentence, flags=re.I) if source else sentence
+    stripped_words = normalized_words(stripped)
+    if stripped_words == title_words or stripped_words == title_words[:len(stripped_words)]:
+        return True
+    a, b = set(sentence_words), set(title_words)
+    overlap = len(a & b) / max(1, len(a))
+    return overlap >= .82 and len(sentence_words) <= len(title_words) + 8
+
+
+def make_summary(title, description, url, source=""):
+    # RSS descriptions are often just the title. Never use them as fallback.
+    article_text = fetch_article_text(url)
+    if not article_text:
+        return ""
+    candidates = re.split(r"(?<=[.!?])\\s+|\\n+", article_text)
     selected = []
-
-    for sentence in sentences:
-        sentence = clean(sentence)
-        if len(sentence) < 45:
+    for sentence in candidates:
+        sentence = clean(sentence).strip(" -|:—–")
+        if len(sentence) < 65 or len(sentence) > 500:
             continue
-        words = set(re.findall(r"[a-z0-9]+", sentence.lower()))
-        overlap = len(words & title_words) / max(1, len(title_words))
-        if overlap > 0.70 and len(sentence) < len(title) + 60:
+        if is_repeated_headline(sentence, title, source):
+            continue
+        if re.search(r"(?i)\\b(privacy|copyright|sign in|newsletter|cookies|subscribe|read more|follow us|terms of use|related stories)\\b", sentence):
+            continue
+        if any(sentence.lower() in previous.lower() or previous.lower() in sentence.lower() for previous in selected):
             continue
         selected.append(sentence)
-        if len(selected) >= 5:
+        if len(selected) == 2:
             break
-
+    # Two substantive sentences provide an actual 2–3 line explanation.
+    if len(selected) < 2:
+        return ""
     summary = " ".join(selected)
-    if not summary:
-        summary = text
+    return summary[:420].rsplit(" ", 1)[0] + "…" if len(summary) > 420 else summary
 
-    if len(summary) > 700:
-        summary = summary[:697].rsplit(" ", 1)[0] + "..."
-    return summary.strip()
 
 
 def feed_url(query):
@@ -178,9 +197,11 @@ for category, icon, query in feeds:
             if category in ("India", "Canada") and bad.search(title):
                 continue
 
-            summary = make_summary(title, description, url)
             source_element = item.find("source")
             source = clean(source_element.text or "Google News") if source_element is not None else "Google News"
+            summary = make_summary(title, description, url, source)
+            if not summary:
+                continue
             story_id = hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
 
             items.append({
@@ -213,4 +234,4 @@ for story in items:
 with open("data.json", "w", encoding="utf-8") as file:
     json.dump({"updated": now.isoformat(), "stories": output[:50]}, file, ensure_ascii=False, indent=2)
 
-print("Wrote", len(output), "stories newer than 6 hours")
+print("Wrote", len(output), "stories newer than 12 hours with substantive summaries")
