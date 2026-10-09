@@ -14,16 +14,16 @@ from html.parser import HTMLParser
 UA = "Mozilla/5.0 (Briefly personal news app)"
 
 feeds = [
-    ("India", "🇮🇳", "India economy business corporate technology -politics -election -bollywood -celebrity -sports when:6h"),
-    ("Canada", "🇨🇦", "Canada economy business corporate technology -politics -election -celebrity -sports when:6h"),
-    ("Indian Markets", "📈", "India Nifty Sensex stock market NSE BSE earnings companies when:6h"),
-    ("Canadian Markets", "📈", "Canada TSX stock market banks energy mining earnings companies when:6h"),
-    ("AI", "🤖", "artificial intelligence AI OpenAI Google Anthropic Meta Nvidia models agents chips research when:6h")
+    ("India", "🇮🇳", "India economy business corporate technology -politics -election -bollywood -celebrity -sports when:12h"),
+    ("Canada", "🇨🇦", "Canada economy business corporate technology -politics -election -celebrity -sports when:12h"),
+    ("Indian Markets", "📈", "India Nifty Sensex stock market NSE BSE earnings companies when:12h"),
+    ("Canadian Markets", "📈", "Canada TSX stock market banks energy mining earnings companies when:12h"),
+    ("AI", "🤖", "artificial intelligence AI OpenAI Google Anthropic Meta Nvidia models agents chips research when:12h")
 ]
 
 bad = re.compile(r"\b(politic|election|party|minister|parliament|bollywood|hollywood|celebrity|gossip|sports|cricket|football)\b", re.I)
 now = datetime.now(timezone.utc)
-cutoff = now - timedelta(hours=6)
+cutoff = now - timedelta(hours=12)
 
 
 def clean(text):
