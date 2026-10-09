@@ -1,4 +1,4 @@
-const MAX_AGE_MS = 6 * 60 * 60 * 1000;
+const MAX_AGE_MS = 12 * 60 * 60 * 1000;
 
 const PAGE_WORLD = "world";
 const PAGE_MARKETS = "markets";
@@ -264,7 +264,7 @@ function render(){
 
     html += `
       <div class="fresh">
-        ${state.page === PAGE_MOVES ? "NSE end-of-day disclosure feed." : `Updated ${updatedText} · Only stories from the last 6 hours are shown.`}
+        ${state.page === PAGE_MOVES ? "NSE end-of-day disclosure feed." : `Updated ${updatedText} · Only stories from the last 12 hours are shown.`}
       </div>
     `;
   }
