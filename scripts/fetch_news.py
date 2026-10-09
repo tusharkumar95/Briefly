@@ -249,7 +249,10 @@ for story in items:
     seen.add(key)
     output.append(story)
 
-with open("data.json", "w", encoding="utf-8") as file:
-    json.dump({"updated": now.isoformat(), "stories": output[:50]}, file, ensure_ascii=False, indent=2)
+if not output:
+    print("No usable new articles; preserving previous feed")
+else:
+    with open("data.json", "w", encoding="utf-8") as file:
+        json.dump({"updated": now.isoformat(), "stories": output[:50]}, file, ensure_ascii=False, indent=2)
 
 print("Wrote", len(output), "stories newer than 12 hours with substantive summaries")
