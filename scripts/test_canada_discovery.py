@@ -42,6 +42,27 @@ for group in results:
         seen.add(key)
         if any(term in key for term in ("early warning","reports participation","acquires shares","strategic investment")):
             shortlist.append({"headline":title,"published":item["published"],"source":item["source"],"discoveryUrl":item["url"],"verified":False,"status":"Needs original disclosure verification"})
+# Retain previously discovered candidates for 30 days so daily RSS turnover
+# does not erase a disclosure before it can be verified.
+try:
+    with open("moves-canada-candidates.json",encoding="utf-8") as previous_file:
+        previous=json.load(previous_file).get("records",[])
+except (FileNotFoundError,ValueError):
+    previous=[]
+cutoff=datetime.now(timezone.utc)-timedelta(days=30)
+for item in previous:
+    key=item.get("headline","").lower().split(" - ")[0]
+    if not key or key in seen:
+        continue
+    try:
+        published=parsedate_to_datetime(item["published"])
+        if published < cutoff:
+            continue
+    except (ValueError,TypeError,KeyError):
+        continue
+    seen.add(key)
+    shortlist.append(item)
+shortlist.sort(key=lambda item: parsedate_to_datetime(item["published"]),reverse=True)
 with open("moves-canada-candidates.json","w",encoding="utf-8") as f:
     json.dump({"updated":datetime.now(timezone.utc).isoformat(),"records":shortlist,"disclaimer":"Unverified discovery candidates; do not display as confirmed purchases"},f,indent=2)
 print("Shortlisted:",len(shortlist))
