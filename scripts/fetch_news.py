@@ -14,10 +14,10 @@ from html.parser import HTMLParser
 UA = "Mozilla/5.0 (Briefly personal news app)"
 
 feeds = [
-    ("India", "🇮🇳", "India economy business corporate technology -politics -election -bollywood -celebrity -sports when:12h"),
-    ("Canada", "🇨🇦", "Canada economy business corporate technology -politics -election -celebrity -sports when:12h"),
-    ("Indian Markets", "📈", "India Nifty Sensex stock market NSE BSE earnings companies when:12h"),
-    ("Canadian Markets", "📈", "Canada TSX stock market banks energy mining earnings companies when:12h"),
+    ("India", "🇮🇳", "India economy business companies technology launches investments when:12h -politics -election -sports"),
+    ("Canada", "🇨🇦", "Canada economy business companies technology investments when:12h -politics -election -sports"),
+    ("Indian Markets", "📈", "NSE BSE Nifty Sensex earnings stocks market today when:12h -stock-price -quote"),
+    ("Canadian Markets", "📈", "TSX Canadian stocks earnings acquisitions markets today when:12h -stock-price -quote"),
     ("AI", "🤖", "artificial intelligence AI OpenAI Google Anthropic Meta Nvidia models agents chips research when:12h")
 ]
 
@@ -112,7 +112,11 @@ def fetch_article_text(url):
                     "cookie policy", "privacy policy", "subscribe to",
                     "all rights reserved", "advertisement", "enable javascript",
                     "sign up for", "related articles", "accept cookies",
-                    "terms of use", "newsletters", "click here to"
+                    "terms of use", "newsletters", "click here to",
+                    "cloudfront", "request id:", "we can\u0027t connect to the server",
+                    "access denied", "403 forbidden", "404 not found",
+                    "trending tickers", "previous close", "market cap (intraday)",
+                    "please verify you are human", "enable cookies"
                 )):
                     continue
                 usable.append(p)
@@ -179,6 +183,8 @@ def make_summary(title, description, url, source=""):
     summary = " ".join(selected)
     if len(summary) < 130:
         return ""
+    if re.search(r"(?i)(cloudfront|request id:|we can.t connect to the server|previous close|trending tickers|stock price, news, quote|access denied)", summary):
+        return ""
     return summary[:420].rsplit(" ", 1)[0] + "…" if len(summary) > 420 else summary
 
 
@@ -203,7 +209,7 @@ for category, icon, query in feeds:
         response = urllib.request.urlopen(request, timeout=20)
         root = ET.fromstring(response.read())
 
-        for item in root.findall("./channel/item")[:14]:
+        for item in root.findall("./channel/item")[:25]:
             title = clean(item.findtext("title"))
             description = clean(item.findtext("description"))
             url = item.findtext("link") or ""
@@ -215,6 +221,8 @@ for category, icon, query in feeds:
             if category in ("India", "Canada") and bad.search(title):
                 continue
 
+            if re.search(r"(?i)(stock price, news, quote|quote & history|historical data|live stock price|top 10 stocks rated|stocks to buy today)", title):
+                continue
             source_element = item.find("source")
             source = clean(source_element.text or "Google News") if source_element is not None else "Google News"
             summary = make_summary(title, description, url, source)
