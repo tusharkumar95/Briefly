@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check Python syntax
+        run: python -m py_compile scripts/fetch_moves.py
       - name: Build India Moves feed
         run: python scripts/fetch_moves.py
       - name: Commit Moves data
