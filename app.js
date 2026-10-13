@@ -318,6 +318,9 @@ async function loadNews(){
     state.stories = (data.stories || [])
       .filter(story => {
         if(!story.publishedAt) return false;
+        // Defense in depth: hide bad previously generated cards as well.
+        if(/leave a comment|share this item|share on facebook|whatsapp|see more sharing|submit search|quick search|trending now|add global news to home|read on app|cloudfront|request id:|previous close/i.test(story.summary || "")) return false;
+        if(/loafers|fashion|outfit|wardrobe|worth buying|news hour at|watch:|celebrity|bollywood|hollywood|viral video/i.test(story.title || "")) return false;
         const age = now - new Date(story.publishedAt).getTime();
         return age >= 0 && age <= MAX_AGE_MS;
       })
