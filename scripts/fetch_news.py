@@ -210,6 +210,47 @@ def parse_pub(value):
 
 items = []
 
+# Direct publisher RSS feeds provide original article links, avoiding Google News redirects.
+direct_feeds = [
+    ("Canada", "🇨🇦", "https://www.cbc.ca/cmlink/rss-business"),
+    ("Canada", "🇨🇦", "https://globalnews.ca/feed/"),
+    ("Indian Markets", "📈", "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"),
+    ("India", "🇮🇳", "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"),
+    ("AI", "🤖", "https://techcrunch.com/category/artificial-intelligence/feed/"),
+    ("AI", "🤖", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
+]
+
+for category, icon, rss_url in direct_feeds:
+    try:
+        req = urllib.request.Request(rss_url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=12) as response:
+            root = ET.fromstring(response.read(1000000))
+        channel_items = root.findall("./channel/item")
+        for item in channel_items[:18]:
+            title = clean(item.findtext("title"))
+            url = (item.findtext("link") or "").strip()
+            published_raw = item.findtext("pubDate") or ""
+            published = parse_pub(published_raw)
+            if not title or not url or not published or published < cutoff or published > now + timedelta(minutes=5):
+                continue
+            if category in ("Canada", "India") and bad.search(title):
+                continue
+            description = clean(item.findtext("description"))
+            source = urllib.parse.urlparse(rss_url).hostname or "Publisher"
+            summary = make_summary(title, description, url, source)
+            if not summary:
+                continue
+            items.append({
+                "id": hashlib.sha256(url.encode("utf-8")).hexdigest()[:16],
+                "cat": category, "icon": icon, "title": title,
+                "summary": summary,
+                "why": "Recent coverage selected for Briefly.",
+                "importance": "Important", "source": source,
+                "url": url, "published": published_raw, "publishedAt": published.isoformat()
+            })
+    except Exception as error:
+        print("Direct RSS error:", category, rss_url, error)
+
 for category, icon, query in feeds:
     try:
         request = urllib.request.Request(feed_url(query), headers={"User-Agent": UA})
