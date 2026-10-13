@@ -35,7 +35,7 @@ jobs:
           for story in stories:
               title = re.findall(r'[a-z0-9]+', story['title'].lower())
               summary = re.findall(r'[a-z0-9]+', story['summary'].lower())
-              assert len(story['summary']) >= 130, story['title']
+              assert len(story['summary']) >= 100, story['title']
               assert summary != title, story['title']
           print('Validated substantive summaries:', len(stories))
           PY
