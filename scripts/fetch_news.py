@@ -180,17 +180,17 @@ def make_summary(title, description, url, source=""):
         selected.append(sentence)
         if len(selected) == 2:
             break
-    if len(selected) != 2:
+    if not selected:
         return ""
     summary = " ".join(selected)
-    if len(summary) < 130:
+    if len(summary) < 100:
         return ""
     if re.search(r"(?i)(cloudfront|request id:|we can.t connect to the server|previous close|trending tickers|stock price, news, quote|access denied)", summary):
         return ""
     # Never publish chopped-off statements; preserve complete sentences.
     if len(summary) > 420:
         if len(selected[0]) <= 420:
-            return selected[0] if len(selected[0]) >= 130 else ""
+            return selected[0] if len(selected[0]) >= 100 else ""
         return ""
     return summary
 
@@ -270,7 +270,7 @@ for story in items:
     output.append(story)
 
 if not output:
-    print("No usable new articles; preserving previous feed")
+    raise RuntimeError("No fresh substantive news extracted; previous feed preserved")
 else:
     with open("data.json", "w", encoding="utf-8") as file:
         json.dump({"updated": now.isoformat(), "stories": output[:50]}, file, ensure_ascii=False, indent=2)
