@@ -21,7 +21,19 @@ feeds = [
     ("AI", "🤖", "artificial intelligence AI OpenAI Google Anthropic Meta Nvidia models agents chips research when:24h")
 ]
 
-bad = re.compile(r"\b(politic|election|party|minister|parliament|bollywood|hollywood|celebrity|gossip|sports|cricket|football)\b", re.I)
+bad = re.compile(r"\\b(politic|election|party|minister|parliament|bollywood|hollywood|celebrity|gossip|sports|cricket|football)\\b", re.I)
+IRRELEVANT = re.compile(r"(?i)\\b(loafers|fashion|outfit|wardrobe|shopping guide|worth buying|celebrity|bollywood|hollywood|reality tv|horoscope|recipe|travel tips|watch:|news hour at|live stream|cockroach|viral video|movie|film|red carpet|best dressed|sports highlights)\\b")
+BOILERPLATE = re.compile(r"(?i)(leave a comment|share (this|on|via|to)|facebook|whatsapp|see more sharing options|submit search|quick search|trending now|add .* to home|read on app|newsletter|sign up|subscribe|related stories|more stories|click here|follow us|comments? section|previous close|trending tickers|cloudfront|request id:|we can.t connect|cookie policy|privacy policy|all rights reserved|advertisement)")
+IMPORTANT = re.compile(r"(?i)\\b(economy|economic|inflation|interest rate|central bank|bank of canada|rbi|investment|investor|earnings|revenue|profit|loss|stock|market|tsx|nifty|sensex|nse|bse|business|company|companies|corporate|technology|artificial intelligence|\\bai\\b|semiconductor|chip|trade|tariff|energy|oil|gas|manufactur|industry|employment|jobs|layoffs|merger|acquisition|funding|startup|research|policy|regulation|climate|infrastructure|housing|gdp|exports|imports|supply chain|geopolitic|security|war|conflict|breakthrough)\\b")
+
+
+def relevant(title, category):
+    if IRRELEVANT.search(title):
+        return False
+    if category in ("Canada", "India") and bad.search(title):
+        return False
+    return bool(IMPORTANT.search(title))
+
 now = datetime.now(timezone.utc)
 cutoff = now - timedelta(hours=24)
 
@@ -108,6 +120,8 @@ def fetch_article_text(url):
                 low = p.lower()
                 if not (85 <= len(p) <= 2400):
                     continue
+                if BOILERPLATE.search(p):
+                    continue
                 if any(x in low for x in (
                     "cookie policy", "privacy policy", "subscribe to",
                     "all rights reserved", "advertisement", "enable javascript",
@@ -155,6 +169,8 @@ def make_summary(title, description, url, source=""):
             sentence = clean(sentence).strip(" -|:—–")
             if not (65 <= len(sentence) <= 310):
                 continue
+            if BOILERPLATE.search(sentence):
+                continue
             if headline_duplicate(sentence, title, source):
                 continue
             if re.search(r"\b(cookie|privacy|copyright|newsletter|subscribe|login|sign in|read more|follow us|terms of use|advertisement)\b", sentence, re.I):
@@ -188,7 +204,7 @@ def make_summary(title, description, url, source=""):
     summary = " ".join(selected)
     if len(summary) < 100:
         return ""
-    if re.search(r"(?i)(cloudfront|request id:|we can.t connect to the server|previous close|trending tickers|stock price, news, quote|access denied|read on app|click to read|key points:)", summary):
+    if BOILERPLATE.search(summary) or re.search(r"(?i)(stock price, news, quote|access denied|click to read|key points:)", summary):
         return ""
     # Never publish chopped-off statements; preserve complete sentences.
     if len(summary) > 420:
@@ -236,7 +252,7 @@ for category, icon, rss_url in direct_feeds:
             published = parse_pub(published_raw)
             if not title or not url or not published or published < cutoff or published > now + timedelta(minutes=5):
                 continue
-            if category in ("Canada", "India") and bad.search(title):
+            if not relevant(title, category):
                 continue
             description = clean(item.findtext("description"))
             source = urllib.parse.urlparse(rss_url).hostname or "Publisher"
@@ -269,7 +285,7 @@ for category, icon, query in feeds:
 
             if not published or published < cutoff or published > now + timedelta(minutes=5):
                 continue
-            if category in ("India", "Canada") and bad.search(title):
+            if not relevant(title, category):
                 continue
 
             # Google News searches occasionally return unrelated countries.
