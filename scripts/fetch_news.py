@@ -14,16 +14,16 @@ from html.parser import HTMLParser
 UA = "Mozilla/5.0 (Briefly personal news app)"
 
 feeds = [
-    ("India", "🇮🇳", "India economy business companies technology launches investments when:12h -politics -election -sports"),
-    ("Canada", "🇨🇦", "Canada economy business companies technology investments when:12h -politics -election -sports"),
-    ("Indian Markets", "📈", "NSE BSE Nifty Sensex earnings stocks market today when:12h -stock-price -quote"),
-    ("Canadian Markets", "📈", "TSX Canadian stocks earnings acquisitions markets today when:12h -stock-price -quote"),
-    ("AI", "🤖", "artificial intelligence AI OpenAI Google Anthropic Meta Nvidia models agents chips research when:12h")
+    ("India", "🇮🇳", "India economy business companies technology launches investments when:24h -politics -election -sports"),
+    ("Canada", "🇨🇦", "Canada economy business companies technology investments when:24h -politics -election -sports"),
+    ("Indian Markets", "📈", "NSE BSE Nifty Sensex earnings stocks market today when:24h -stock-price -quote"),
+    ("Canadian Markets", "📈", "TSX Canadian stocks earnings acquisitions markets today when:24h -stock-price -quote"),
+    ("AI", "🤖", "artificial intelligence AI OpenAI Google Anthropic Meta Nvidia models agents chips research when:24h")
 ]
 
 bad = re.compile(r"\b(politic|election|party|minister|parliament|bollywood|hollywood|celebrity|gossip|sports|cricket|football)\b", re.I)
 now = datetime.now(timezone.utc)
-cutoff = now - timedelta(hours=12)
+cutoff = now - timedelta(hours=24)
 
 
 def clean(text):
@@ -316,4 +316,4 @@ else:
     with open("data.json", "w", encoding="utf-8") as file:
         json.dump({"updated": now.isoformat(), "stories": output[:50]}, file, ensure_ascii=False, indent=2)
 
-print("Wrote", len(output), "stories newer than 12 hours with substantive summaries")
+print("Wrote", len(output), "stories newer than 24 hours with substantive summaries")
