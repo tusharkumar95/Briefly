@@ -182,10 +182,13 @@ def make_summary(title, description, url, source=""):
             break
     if not selected:
         return ""
+    # Put selected facts in article order so the result reads coherently.
+    chosen = set(selected)
+    selected = [sentence for sentence in sentences if sentence in chosen][:2]
     summary = " ".join(selected)
     if len(summary) < 100:
         return ""
-    if re.search(r"(?i)(cloudfront|request id:|we can.t connect to the server|previous close|trending tickers|stock price, news, quote|access denied)", summary):
+    if re.search(r"(?i)(cloudfront|request id:|we can.t connect to the server|previous close|trending tickers|stock price, news, quote|access denied|read on app|click to read|key points:)", summary):
         return ""
     # Never publish chopped-off statements; preserve complete sentences.
     if len(summary) > 420:
