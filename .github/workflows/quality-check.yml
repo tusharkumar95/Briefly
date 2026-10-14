@@ -6,6 +6,7 @@ on:
     paths:
       - "app.js"
       - "scripts/fetch_news.py"
+      - "scripts/build_feed.py"
       - "scripts/edit_feed_with_jarvis.py"
       - "index.html"
       - "style.css"
@@ -26,6 +27,7 @@ jobs:
       - name: Check Python news engine syntax
         run: |
           python -m py_compile scripts/fetch_news.py
+          python -m py_compile scripts/build_feed.py
           python -m py_compile scripts/edit_feed_with_jarvis.py
       - name: Check required UI assets
         run: |
