@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-14T06:12:39.520060+00:00",
+  "updated": "2026-10-14T11:57:44.730972+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "stories": [
     {
-      "id": "5c2ac543027009",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "ce49fc1c67cad4",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "Canada"
+        "India"
       ],
-      "title": "IMF lifts 2026 growth forecast to 3.1% but flags AI and debt risks",
-      "publishedAt": "2026-10-13T14:22:14+00:00",
+      "title": "India’s wholesale price index jumps to 11.39% in September",
+      "publishedAt": "2026-10-14T06:33:29+00:00",
       "importanceScore": 13.2,
       "sourceCount": 1,
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/business/imf-raises-forecast-ai-debt-9.7378517?cmp=rss",
-      "summary": "The International Monetary Fund raised its outlook for global economic growth in 2026 to 3.1%, up from a July forecast of 3%, while noting it remains below the 3.5% expansion projected for 2025. In its Economic Outlook released at the IMF and World Bank meetings in Bangkok, the IMF warned that rapid AI‑driven investment could trigger a market correction, cause job losses, and that rising government debt adds further vulnerability.",
-      "why": "Changes in the global growth outlook can influence markets, trade, borrowing conditions and business investment across countries.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/wpi-inflation-rises-to-11-39-in-september-from-9-9-in-august/articleshow/134910312.cms",
+      "summary": "The Wholesale Price Index (WPI) in India rose to an annual 11.39% in September, up from 9.9% in August, as fuel and food prices increased sharply. Retail inflation also rose to 5.54% in September, driven mainly by higher vegetable prices. Analysts point to uneven monsoon rainfall, El Nino risks and higher global commodity prices as factors that could keep food‑price pressures elevated.",
+      "why": "The higher wholesale and retail inflation signals persistent price pressures in the Indian economy.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "cbc.ca",
-          "url": "https://www.cbc.ca/news/business/imf-raises-forecast-ai-debt-9.7378517?cmp=rss",
-          "publishedAt": "2026-10-13T14:22:14+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/wpi-inflation-rises-to-11-39-in-september-from-9-9-in-august/articleshow/134910312.cms",
+          "publishedAt": "2026-10-14T06:33:29+00:00"
         }
       ],
-      "firstSeen": "2026-10-13T14:22:14+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-14T06:12:39.520060+00:00"
+      "firstSeen": "2026-10-14T06:33:29+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
     },
     {
       "id": "adc64d72749102",
@@ -40,17 +40,17 @@
       "categories": [
         "AI"
       ],
-      "title": "Character.AI files for Chapter 11 bankruptcy after five years",
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
       "publishedAt": "2026-10-13T12:23:42+00:00",
       "importanceScore": 12.7,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-      "summary": "Character.AI, the interactive chatbot platform that lets users create and converse with AI characters, announced on October 13, 2026 that it has filed for Chapter 11 bankruptcy. The filing lists assets and liabilities each between $50 million and $100 million and follows a series of lawsuits and scaling challenges. The company has agreed to sell certain assets to Disney for $20 million and grant a non‑exclusive perpetual license, with Disney providing transition services through former Character.AI staff who joined the entertainment firm last month. Operations will continue during the court‑supervised sale, which is expected to close in late November or early December, though no external bid for the assets has been received.",
-      "why": "The bankruptcy and asset sale could reshape the competitive landscape for consumer AI chatbot services and affect users and developers relying on Character.AI’s platform.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "Only five years into its journey, Character.AI, which lets users create AI characters and have conversations with them, has filed for Chapter 11 bankruptcy, following a slew of lawsuits and struggles to scale its popular platform. In a court document, the company said it had assets and liabilities between $50 million and $100 million.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -59,8 +59,95 @@
         }
       ],
       "firstSeen": "2026-10-13T12:23:42+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-14T06:12:39.520060+00:00"
+      "status": "New",
+      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
+    },
+    {
+      "id": "b6c9911a2d17bc",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+      "publishedAt": "2026-10-14T11:00:00+00:00",
+      "importanceScore": 12.4,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "summary": "As manufacturers across industries strive to reduce their reliance on Chinese suppliers, Indian startup Scimplify has raised $25 million to expand its AI-powered approach to producing specialty chemicals and critical materials, with semiconductors, defense and energy emerging as key growth markets. The latest investment brings Scimplify’s total equity funding to $80 million, the startup said, though it declined to disclose its valuation.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+          "publishedAt": "2026-10-14T11:00:00+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T11:00:00+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
+    },
+    {
+      "id": "3160b11eccc1f3",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "10 Nifty500 stocks that have fallen up to 58% in a year",
+      "publishedAt": "2026-10-14T10:33:42+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/10-nifty500-stocks-that-have-fallen-up-to-58-in-a-year/slideshow/134939701.cms",
+      "summary": "The Indian equity market has witnessed considerable weakness over the past year, with the benchmark Nifty 50 declining 10% and the broader Nifty 500 index slipping 5%. Among these, 10 stocks have emerged as notable laggards, with losses ranging from 47% to 58% over the past year.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/10-nifty500-stocks-that-have-fallen-up-to-58-in-a-year/slideshow/134939701.cms",
+          "publishedAt": "2026-10-14T10:33:42+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T10:33:42+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
+    },
+    {
+      "id": "5c2ac543027009",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "Canada"
+      ],
+      "title": "IMF warns of risks from AI boom and debt, but raises forecast for world growth",
+      "publishedAt": "2026-10-13T14:22:14+00:00",
+      "importanceScore": 12.0,
+      "sourceCount": 1,
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/business/imf-raises-forecast-ai-debt-9.7378517?cmp=rss",
+      "summary": "The international body slightly upgraded its outlook for the world economy, but warned that risks of an AI-related market correction and job losses because of the technology, as well as government debt, remain concerns. That's up from its July forecast for three per cent growth and well below the 3.5 per cent expansion in 2025.",
+      "why": "Changes in the global growth outlook can influence markets, trade, borrowing conditions and business investment across countries.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "cbc.ca",
+          "url": "https://www.cbc.ca/news/business/imf-raises-forecast-ai-debt-9.7378517?cmp=rss",
+          "publishedAt": "2026-10-13T14:22:14+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-13T14:22:14+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
     },
     {
       "id": "7588deadfab65b",
@@ -88,68 +175,10 @@
         }
       ],
       "firstSeen": "2026-10-14T01:52:47+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T06:12:39.520060+00:00"
-    },
-    {
-      "id": "085c349b86f74a",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
-      "publishedAt": "2026-10-13T23:13:31+00:00",
-      "importanceScore": 11.2,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-      "summary": "Science Corporation CEO Max Hodak announced that the company has implanted its vision-restoring chip, PRIMA, into its first patient with Stargardt disease, an inherited eye disease that gradually destroys central vision. While PRIMA is commercially available in Europe for patients who’ve lost their sight to geographic atrophy, an advanced form of age-related macular degeneration, the company believes its approach can be applied to multiple diseases, including Stargardt disease, which is currently considered incurable.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-          "publishedAt": "2026-10-13T23:13:31+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-13T23:13:31+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-14T06:12:39.520060+00:00"
-    },
-    {
-      "id": "b86fdf44f82f2b",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
-      "publishedAt": "2026-10-13T18:30:00+00:00",
-      "importanceScore": 10.8,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
-      "summary": "civil aviation about $272 million a year on average between 1990 and 2025. In Brittany, 120 trains hit animals in 2023 alone, disrupting 660 services and causing more than 15,000 minutes of delays.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
-          "publishedAt": "2026-10-13T18:30:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-13T18:30:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T06:12:39.520060+00:00"
+      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 1,
   "finalRejectedCount": 1
 }
