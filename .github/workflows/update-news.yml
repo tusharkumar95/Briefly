@@ -3,52 +3,76 @@ name: Update Briefly news
 on:
   schedule:
     - cron: "17 * * * *"
-
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_news.py"
+      - ".github/workflows/update-news.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: briefly-news
+  cancel-in-progress: true
+
 jobs:
-
   update:
-
     runs-on: ubuntu-latest
+    timeout-minutes: 12
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Validate news script syntax
+      - name: Validate news engine syntax
         run: python -m py_compile scripts/fetch_news.py
 
-      - name: Fetch and filter news
+      - name: Build high-signal news feed
+        env:
+          JARVIS_URL: https://jarvis-ai-router.kumar-tushar95.workers.dev
         run: python scripts/fetch_news.py
 
-      - name: Validate published summaries
+      - name: Validate published intelligence feed
         run: |
           python - <<'PY'
           import json, re
+          from datetime import datetime, timezone
+
           with open('data.json', encoding='utf-8') as f:
-              stories = json.load(f).get('stories', [])
+              data = json.load(f)
+
+          stories = data.get('stories', [])
+          assert data.get('engine') == 'Briefly Intelligence v2', data.get('engine')
+          assert 1 <= len(stories) <= 10, len(stories)
+
+          ids = set()
           for story in stories:
-              title = re.findall(r'[a-z0-9]+', story['title'].lower())
-              summary = re.findall(r'[a-z0-9]+', story['summary'].lower())
-              assert len(story['summary']) >= 100, story['title']
-              assert summary != title, story['title']
-          print('Validated substantive summaries:', len(stories))
+              assert story.get('id') and story['id'] not in ids, story.get('title')
+              ids.add(story['id'])
+              assert len(story.get('title', '')) >= 15, story
+              assert len(story.get('summary', '')) >= 80, story['title']
+              assert len(story.get('why', '')) >= 25, story['title']
+              assert story.get('cat') in {'World','Canada','India','AI','Canadian Markets','Indian Markets'}, story['title']
+              assert story.get('source'), story['title']
+              assert story.get('url', '').startswith('http'), story['title']
+              assert isinstance(story.get('sources'), list) and story['sources'], story['title']
+              assert story.get('confidence') in {'high','medium','low'}, story['title']
+              assert story.get('status') in {'New','Updated'}, story['title']
+              summary_words = re.findall(r'[a-z0-9]+', story['summary'].lower())
+              title_words = re.findall(r'[a-z0-9]+', story['title'].lower())
+              assert summary_words != title_words, story['title']
+
+          print('Validated', len(stories), 'high-signal events')
+          print('Jarvis-edited:', sum(s.get('editor') == 'Jarvis' for s in stories))
+          print('High-confidence verified:', sum(bool(s.get('verified')) for s in stories))
           PY
 
       - name: Commit updated feed
         run: |
-
           git config user.name "briefly-bot"
-
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add data.json
-
-          git diff --cached --quiet || git commit -m "Update live news"
-
+          git diff --cached --quiet || git commit -m "Publish Briefly Intelligence v2 feed"
           git push
