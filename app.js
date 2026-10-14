@@ -7,7 +7,10 @@ const PAGE_MOVES = "moves";
 let state = {
   stories: [],
   page: PAGE_WORLD,
+  worldFilter: "All",
   updated: null,
+  engine: "",
+  editor: "",
   moves: [],
   investorQuery: "",
   companyQuery: "",
@@ -16,31 +19,20 @@ let state = {
 
 const pageConfig = {
   [PAGE_WORLD]: {
-    label: "World",
     title: "Briefly",
-    subtitle: "Canada, India and AI — without the noise.",
-    sections: [
-      ["Canada", "🇨🇦", "Canada"],
-      ["India", "🇮🇳", "India"],
-      ["AI", "✦", "AI"]
-    ]
-  },
-  [PAGE_MOVES]: {
-    label: "Moves",
-    title: "Moves",
-    subtitle: "Meaningful investor buying from official market disclosures.",
-    sections: []
+    subtitle: "What actually happened — ranked, condensed and stripped of the noise."
   },
   [PAGE_MARKETS]: {
-    label: "Markets",
     title: "Markets",
-    subtitle: "The Canadian and Indian market moves worth knowing.",
-    sections: [
-      ["Canadian Markets", "CA", "Canadian Markets"],
-      ["Indian Markets", "IN", "Indian Markets"]
-    ]
+    subtitle: "The Canadian and Indian market developments worth knowing."
+  },
+  [PAGE_MOVES]: {
+    title: "Moves",
+    subtitle: "Meaningful investor buying from official market disclosures."
   }
 };
+
+const WORLD_FILTERS = ["All", "World", "Canada", "India", "AI"];
 
 function escapeHTML(value){
   return String(value ?? "")
@@ -53,26 +45,25 @@ function escapeHTML(value){
 
 function ageText(date){
   const ms = Date.now() - new Date(date).getTime();
-
+  if(!Number.isFinite(ms)) return "";
   if(ms < 60 * 1000) return "now";
-
-  const minutes = Math.floor(ms / 60000);
+  const minutes = Math.max(0, Math.floor(ms / 60000));
   if(minutes < 60) return `${minutes}m`;
-
-  return `${Math.floor(minutes / 60)}h`;
+  const hours = Math.floor(minutes / 60);
+  return hours < 24 ? `${hours}h` : `${Math.floor(hours / 24)}d`;
 }
 
 function categoryClass(category){
-  return category.toLowerCase().replaceAll(" ", "-");
+  return String(category || "news").toLowerCase().replaceAll(" ", "-");
 }
 
 function header(){
   const config = pageConfig[state.page];
-
+  const intelligent = state.engine ? `<span class="engine-pill">${escapeHTML(state.engine)}</span>` : "";
   return `
     <header class="top">
       <div class="top-row">
-        <div class="brand-mark">BRIEFLY</div>
+        <div class="brand-line"><div class="brand-mark">BRIEFLY</div>${intelligent}</div>
         <button class="refresh" onclick="loadNews()" aria-label="Refresh news">↻ Refresh</button>
       </div>
       <div class="title">${escapeHTML(config.title)}</div>
@@ -85,61 +76,105 @@ function nav(){
   return `
     <nav class="bottom-nav" aria-label="Main navigation">
       <button class="nav-btn ${state.page === PAGE_WORLD ? "active" : ""}" onclick="setPage('${PAGE_WORLD}')">
-        <span class="nav-icon">◌</span>
-        <span>World</span>
+        <span class="nav-icon">◌</span><span>Top Stories</span>
       </button>
       <button class="nav-btn ${state.page === PAGE_MARKETS ? "active" : ""}" onclick="setPage('${PAGE_MARKETS}')">
-        <span class="nav-icon">↗</span>
-        <span>Markets</span>
+        <span class="nav-icon">↗</span><span>Markets</span>
       </button>
       <button class="nav-btn ${state.page === PAGE_MOVES ? "active" : ""}" onclick="setPage('${PAGE_MOVES}')">
-        <span class="nav-icon">◎</span>
-        <span>Moves</span>
+        <span class="nav-icon">◎</span><span>Moves</span>
       </button>
     </nav>
   `;
 }
 
+function sourceRows(story){
+  if(Array.isArray(story.sources) && story.sources.length){
+    return story.sources.filter(s => s && s.url).slice(0,3);
+  }
+  if(story.url){
+    return [{name: story.source || "Source", url: story.url}];
+  }
+  return [];
+}
+
 function storyCard(story){
   const title = escapeHTML(story.title);
   const summary = escapeHTML(story.summary || "");
+  const why = escapeHTML(story.why || "");
   const source = escapeHTML(story.source || "News");
-  const cat = escapeHTML(story.cat || "");
+  const cat = escapeHTML(story.cat || "News");
   const time = story.publishedAt ? ageText(story.publishedAt) : "";
-  const accent = categoryClass(story.cat || "news");
+  const accent = categoryClass(story.cat);
+  const sources = sourceRows(story);
+  const sourceCount = Number(story.sourceCount || sources.length || 1);
+  const score = Number(story.importanceScore || 0);
+  const status = story.status === "Updated" ? "Updated" : "New";
+  const verified = story.verified === true;
+  const confidence = String(story.confidence || "").toLowerCase();
+  const trustLabel = verified ? "✓ Verified" : confidence === "high" ? "High confidence" : "Source-backed";
+  const primaryUrl = sources[0]?.url || story.url || "";
+  const primaryLink = primaryUrl ? `<a class="source-link" href="${escapeHTML(primaryUrl)}" target="_blank" rel="noopener noreferrer">Open source ↗</a>` : "";
+  const multiSource = sourceCount > 1 ? `<span class="source-count">${sourceCount} sources</span>` : "";
+  const importance = score >= 14 ? "Major" : score >= 10 ? "High signal" : "Worth knowing";
 
   return `
-    <article class="card ${accent}">
+    <article class="card intelligence-card ${accent}">
       <div class="accent-dot"></div>
       <div class="card-top">
-        <span class="source">${source}</span>
+        <div class="trust-row"><span class="trust-badge ${verified ? "verified" : ""}">${trustLabel}</span>${multiSource}</div>
         <span class="time">${time}</span>
       </div>
       <h2 class="card-title">${title}</h2>
       ${summary ? `<p class="card-summary">${summary}</p>` : ""}
-      <div class="card-bottom">
-        <span class="tag">${cat}</span>
-        <span class="read">Briefly</span>
+      ${why ? `<div class="why-line"><span>WHY IT MATTERS</span><p>${why}</p></div>` : ""}
+      <div class="card-bottom intelligence-bottom">
+        <div class="story-labels"><span class="tag">${cat}</span><span class="signal-tag">${importance}</span><span class="status-tag">${status}</span></div>
+        <div class="source-actions"><span class="source-name">${source}</span>${primaryLink}</div>
       </div>
     </article>
   `;
 }
 
-function sectionBlock(category, icon, label){
-  const stories = state.stories.filter(story => story.cat === category);
+function worldFilters(){
+  return `
+    <div class="filter-strip" aria-label="Filter top stories">
+      ${WORLD_FILTERS.map(filter => `
+        <button type="button" class="filter-chip ${state.worldFilter === filter ? "active" : ""}" onclick="setWorldFilter('${filter}')">${escapeHTML(filter)}</button>
+      `).join("")}
+    </div>
+  `;
+}
 
+function topStoriesView(){
+  const news = state.stories
+    .filter(story => !["Canadian Markets", "Indian Markets"].includes(story.cat))
+    .filter(story => state.worldFilter === "All" || story.cat === state.worldFilter)
+    .sort((a,b) => (Number(b.importanceScore || 0) - Number(a.importanceScore || 0)) || (new Date(b.publishedAt) - new Date(a.publishedAt)));
+
+  return `
+    <section class="news-section top-stories">
+      ${worldFilters()}
+      <div class="brief-meta">
+        <span>${news.length} ${news.length === 1 ? "event" : "events"}</span>
+        <span>Ranked by significance, freshness and source quality</span>
+      </div>
+      ${news.length ? news.map(storyCard).join("") : `<div class="empty-section">No high-signal ${state.worldFilter === "All" ? "stories" : state.worldFilter + " stories"} right now.</div>`}
+    </section>
+  `;
+}
+
+function sectionBlock(category, icon, label){
+  const stories = state.stories
+    .filter(story => story.cat === category)
+    .sort((a,b) => (Number(b.importanceScore || 0) - Number(a.importanceScore || 0)) || (new Date(b.publishedAt) - new Date(a.publishedAt)));
   return `
     <section class="news-section">
       <div class="section-heading">
-        <div class="section-name">
-          <span class="section-icon">${icon}</span>
-          <span>${escapeHTML(label)}</span>
-        </div>
+        <div class="section-name"><span class="section-icon">${icon}</span><span>${escapeHTML(label)}</span></div>
         <span class="section-count">${stories.length}</span>
       </div>
-      ${stories.length
-        ? stories.map(storyCard).join("")
-        : `<div class="empty-section">No fresh stories right now.</div>`}
+      ${stories.length ? stories.map(storyCard).join("") : `<div class="empty-section">No high-signal developments right now.</div>`}
     </section>
   `;
 }
@@ -148,14 +183,10 @@ function moveCard(move){
   const qty = Number(move.netBuyQty || 0).toLocaleString("en-IN");
   const price = Number(move.avgBuyPrice || 0).toLocaleString("en-IN");
   const value = Number(move.netBuyValueCr || 0).toLocaleString("en-IN");
-
   return `
     <article class="card move-card">
       <div class="accent-dot"></div>
-      <div class="move-kicker">
-        <span class="move-signal">${escapeHTML(move.signal || "Net Purchase")}</span>
-        <span class="move-date">${escapeHTML(move.date || "")}</span>
-      </div>
+      <div class="move-kicker"><span class="move-signal">${escapeHTML(move.signal || "Net Purchase")}</span><span class="move-date">${escapeHTML(move.date || "")}</span></div>
       <h2 class="card-title">${escapeHTML(move.company)} <span class="ticker">${escapeHTML(move.symbol)}</span></h2>
       <p class="move-investor">${escapeHTML(move.investor)}</p>
       <div class="move-grid">
@@ -168,31 +199,19 @@ function moveCard(move){
   `;
 }
 
-function setInvestorFilter(value){
-  state.investorQuery = value || "";
-  render();
-}
-
-function setCompanyFilter(value){
-  state.companyQuery = value || "";
-  render();
-}
-
-function clearMoveFilters(){
-  state.investorQuery = "";
-  state.companyQuery = "";
-  render();
-}
+function setInvestorFilter(value){ state.investorQuery = value || ""; render(); }
+function setCompanyFilter(value){ state.companyQuery = value || ""; render(); }
+function clearMoveFilters(){ state.investorQuery = ""; state.companyQuery = ""; render(); }
+function setWorldFilter(value){ state.worldFilter = WORLD_FILTERS.includes(value) ? value : "All"; render(); }
 
 function moveFilterOptions(field){
   const all = [...state.moves, ...state.canadaMoves];
-  return [...new Set(all.map(move => String(move[field] || "").trim()).filter(Boolean))]
-    .sort((a,b) => a.localeCompare(b,undefined,{sensitivity:"base"}));
+  return [...new Set(all.map(move => String(move[field] || "").trim()).filter(Boolean))].sort((a,b) => a.localeCompare(b, undefined, {sensitivity:"base"}));
 }
 
 function canadaMoveCard(move){
   const qty = Number(move.shares || 0).toLocaleString("en-CA");
-  const value = Number(move.valueCAD || 0).toLocaleString("en-CA", {style:"currency",currency:"CAD",maximumFractionDigits:0});
+  const value = Number(move.valueCAD || 0).toLocaleString("en-CA", {style:"currency", currency:"CAD", maximumFractionDigits:0});
   const date = move.transactionDate ? "Traded " + move.transactionDate : "Trade date not disclosed";
   return `
     <article class="card move-card">
@@ -213,27 +232,16 @@ function canadaMoveCard(move){
 function movesView(){
   const investor = state.investorQuery;
   const company = state.companyQuery;
-  const matches = m => (!investor || m.investor === investor) && (!company || m.company === company);
+  const matches = move => (!investor || move.investor === investor) && (!company || move.company === company);
   const india = state.moves.filter(matches);
   const canada = state.canadaMoves.filter(matches);
   const investorOptions = moveFilterOptions("investor");
   const companyOptions = moveFilterOptions("company");
-  const option = value => `<option value="${escapeHTML(value)}">${escapeHTML(value)}</option>`;
   return `
     <section class="news-section">
       <div class="moves-filters">
-        <label class="moves-filter"><span>Investor</span>
-          <select id="investor-filter" onchange="setInvestorFilter(this.value)" aria-label="Filter by investor">
-            <option value="">All investors</option>
-            ${investorOptions.map(value => `<option value="${escapeHTML(value)}" ${value === investor ? "selected" : ""}>${escapeHTML(value)}</option>`).join("")}
-          </select>
-        </label>
-        <label class="moves-filter"><span>Company</span>
-          <select id="company-filter" onchange="setCompanyFilter(this.value)" aria-label="Filter by company">
-            <option value="">All companies</option>
-            ${companyOptions.map(value => `<option value="${escapeHTML(value)}" ${value === company ? "selected" : ""}>${escapeHTML(value)}</option>`).join("")}
-          </select>
-        </label>
+        <label class="moves-filter"><span>Investor</span><select id="investor-filter" onchange="setInvestorFilter(this.value)" aria-label="Filter by investor"><option value="">All investors</option>${investorOptions.map(value => `<option value="${escapeHTML(value)}" ${value === investor ? "selected" : ""}>${escapeHTML(value)}</option>`).join("")}</select></label>
+        <label class="moves-filter"><span>Company</span><select id="company-filter" onchange="setCompanyFilter(this.value)" aria-label="Filter by company"><option value="">All companies</option>${companyOptions.map(value => `<option value="${escapeHTML(value)}" ${value === company ? "selected" : ""}>${escapeHTML(value)}</option>`).join("")}</select></label>
       </div>
       ${investor || company ? `<div class="filter-status">${india.length + canada.length} matching disclosed moves <button type="button" class="moves-reset" onclick="clearMoveFilters()">Clear filters ×</button></div>` : ""}
       <div class="section-heading"><div class="section-name"><span class="section-icon">🇨🇦</span><span>Canada · Verified</span></div><span class="section-count">${canada.length}</span></div>
@@ -247,26 +255,22 @@ function movesView(){
 }
 
 function render(){
-  const config = pageConfig[state.page];
-
   let html = header();
   html += `<main class="content">`;
 
-  html += state.page === PAGE_MOVES
-    ? movesView()
-    : config.sections.map(([category, icon, label]) => sectionBlock(category, icon, label)).join("");
+  if(state.page === PAGE_MOVES){
+    html += movesView();
+  } else if(state.page === PAGE_MARKETS){
+    html += sectionBlock("Canadian Markets", "CA", "Canadian Markets");
+    html += sectionBlock("Indian Markets", "IN", "Indian Markets");
+  } else {
+    html += topStoriesView();
+  }
 
   if(state.updated){
-    const updatedText = new Date(state.updated).toLocaleTimeString([], {
-      hour: "numeric",
-      minute: "2-digit"
-    });
-
-    html += `
-      <div class="fresh">
-        ${state.page === PAGE_MOVES ? "NSE end-of-day disclosure feed." : `Updated ${updatedText} · Only stories from the last 24 hours are shown.`}
-      </div>
-    `;
+    const updatedText = new Date(state.updated).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"});
+    const newsFooter = `Updated ${updatedText} · 24-hour rolling window${state.editor ? ` · ${escapeHTML(state.editor)}` : ""}`;
+    html += `<div class="fresh">${state.page === PAGE_MOVES ? "Official/disclosed transaction feeds; not live brokerage positions." : newsFooter}</div>`;
   }
 
   html += `</main>${nav()}`;
@@ -276,71 +280,49 @@ function render(){
 function setPage(page){
   state.page = page;
   render();
-  window.scrollTo({top: 0, behavior: "smooth"});
+  window.scrollTo({top:0, behavior:"smooth"});
 }
 
 async function loadNews(){
-  document.getElementById("app").innerHTML = `
-    ${header()}
-    <div class="loading">
-      <div class="loading-pulse"></div>
-      Refreshing your brief…
-    </div>
-    ${nav()}
-  `;
+  document.getElementById("app").innerHTML = `${header()}<div class="loading"><div class="loading-pulse"></div>Refreshing your brief…</div>${nav()}`;
 
   try{
-    const response = await fetch(`data.json?t=${Date.now()}`, {
-      cache: "no-store"
-    });
-
+    const response = await fetch(`data.json?t=${Date.now()}`, {cache:"no-store"});
     if(!response.ok) throw new Error("Could not load news");
-
     const data = await response.json();
     const now = Date.now();
 
     state.updated = data.updated || null;
+    state.engine = data.engine || "";
+    state.editor = data.editor || "";
+
     try{
       const caResponse = await fetch(`moves-canada-verified.json?t=${Date.now()}`, {cache:"no-store"});
       if(caResponse.ok){ const caData = await caResponse.json(); state.canadaMoves = caData.records || []; }
-    }catch(error){console.warn("Canada Moves unavailable",error);}
+    }catch(error){ console.warn("Canada Moves unavailable", error); }
 
     try{
-      const movesResponse = await fetch(`moves.json?t=${Date.now()}`, {cache: "no-store"});
+      const movesResponse = await fetch(`moves.json?t=${Date.now()}`, {cache:"no-store"});
       if(movesResponse.ok){
         const movesData = await movesResponse.json();
         state.moves = (movesData.records || []).filter(move => !String(move.symbol || "").endsWith("-RE") && Number(move.netBuyValueINR || 0) >= 500000);
       }
-    }catch(movesError){
-      console.warn("Moves unavailable", movesError);
-    }
+    }catch(error){ console.warn("Moves unavailable", error); }
 
     state.stories = (data.stories || [])
       .filter(story => {
         if(!story.publishedAt) return false;
-        // Defense in depth: hide bad previously generated cards as well.
-        if(/leave a comment|share this item|share on facebook|whatsapp|see more sharing|submit search|quick search|trending now|add global news to home|read on app|cloudfront|request id:|previous close/i.test(story.summary || "")) return false;
+        if(/leave a comment|share this item|share on facebook|whatsapp|see more sharing|submit search|quick search|trending now|read on app|cloudfront|request id:|previous close/i.test(story.summary || "")) return false;
         if(/loafers|fashion|outfit|wardrobe|worth buying|news hour at|watch:|celebrity|bollywood|hollywood|viral video/i.test(story.title || "")) return false;
         const age = now - new Date(story.publishedAt).getTime();
         return age >= 0 && age <= MAX_AGE_MS;
       })
-      .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+      .sort((a,b) => (Number(b.importanceScore || 0) - Number(a.importanceScore || 0)) || (new Date(b.publishedAt) - new Date(a.publishedAt)));
 
     render();
   }catch(error){
     console.error(error);
-
-    document.getElementById("app").innerHTML = `
-      ${header()}
-      <div class="empty">
-        <strong>Couldn’t refresh Briefly.</strong>
-        <br><br>
-        Check your connection and try again.
-        <br><br>
-        <button class="refresh" onclick="loadNews()">↻ Try again</button>
-      </div>
-      ${nav()}
-    `;
+    document.getElementById("app").innerHTML = `${header()}<div class="empty"><strong>Couldn’t refresh Briefly.</strong><br><br>Check your connection and try again.<br><br><button class="refresh" onclick="loadNews()">↻ Try again</button></div>${nav()}`;
   }
 }
 
