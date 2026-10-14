@@ -1,66 +1,66 @@
 {
-  "updated": "2026-10-14T20:44:52.129152+00:00",
+  "updated": "2026-10-14T23:56:09.913503+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "stories": [
     {
-      "id": "7fcbe35abd66c7",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "0e560e5e3c1068",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "India"
+        "World"
       ],
-      "title": "Wholesale inflation peaks at 11.4% in September as fuel, food prices surge",
-      "publishedAt": "2026-10-14T19:11:21+00:00",
-      "importanceScore": 13.8,
+      "title": "Student protests in Tirana turn violent, targeting government buildings",
+      "publishedAt": "2026-10-14T20:29:05+00:00",
+      "importanceScore": 13.3,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/wholesale-inflation-hits-series-high-of-11-4-in-september-as-fuel-food-prices-surge/articleshow/134950409.cms",
-      "summary": "India's wholesale price inflation rose to 11.4% in September, the highest level recorded in the series, driven by higher fuel and food prices. The headline reported the increase as a series high.",
-      "why": "Rising wholesale inflation can affect downstream consumer prices and inform monetary‑policy decisions.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/wholesale-inflation-hits-series-high-of-11-4-in-september-as-fuel-food-prices-surge/articleshow/134950409.cms",
-          "publishedAt": "2026-10-14T19:11:21+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-14T19:11:21+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T20:44:52.129152+00:00"
-    },
-    {
-      "id": "9781e191fd1d4f",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Zetwerk secures Rs 2,251 crore anchor bid; BlackRock, Goldman Sachs, Nomura among investors; IPO opens Oct 15",
-      "publishedAt": "2026-10-14T17:18:48+00:00",
-      "importanceScore": 13.2,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/blackrock-goldman-sachs-nomura-among-key-investors-as-zetwerk-mops-up-rs-2251-crore-in-anchor-bidding-ipo-opens-on-oct-15/articleshow/134947568.cms",
-      "summary": "Zetwerk, the Indian manufacturing platform, attracted anchor investors that include BlackRock, Goldman Sachs and Nomura, together committing Rs 2,251 crore. The anchor bidding forms part of the company’s upcoming initial public offering. The IPO is scheduled to open to the public on 15 October.",
-      "why": "The offering signals strong institutional backing for a major new listing on Indian exchanges, which could influence market sentiment and capital allocation.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Thousands of students marched in Tirana on the second day of anti‑government protests, beginning outside the Ministry of Education. Protesters set fire to part of the education ministry building and also attacked the prime minister’s office, finance and interior ministries and nearby businesses, with some wearing gas masks and balaclavas and throwing rocks and firecrackers. Deputy Prime Minister Albana Koçiu urged calm and said Albania does not need to burn to change.",
+      "why": "The unrest shows deep dissatisfaction with university conditions and job prospects, raising the risk of wider political instability.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/blackrock-goldman-sachs-nomura-among-key-investors-as-zetwerk-mops-up-rs-2251-crore-in-anchor-bidding-ipo-opens-on-oct-15/articleshow/134947568.cms",
-          "publishedAt": "2026-10-14T17:18:48+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-14T20:29:05+00:00"
         }
       ],
-      "firstSeen": "2026-10-14T17:18:48+00:00",
+      "firstSeen": "2026-10-14T20:29:05+00:00",
       "status": "New",
-      "lastChecked": "2026-10-14T20:44:52.129152+00:00"
+      "lastChecked": "2026-10-14T23:56:09.913503+00:00"
+    },
+    {
+      "id": "cacfb57bf63c02",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "US inflation rises more than expected",
+      "publishedAt": "2026-10-14T15:26:14+00:00",
+      "importanceScore": 11.8,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+      "summary": "US inflation rose by more than expected in the year to September, according to official figures, in the final data release before the midterm elections next month. For example, if a bottle of milk costs $1 but rises to $1.10 a year later, then annual inflation for bottled milk is 10%.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-14T15:26:14+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T15:26:14+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T23:56:09.913503+00:00"
     },
     {
       "id": "d6a269ef96ab46",
@@ -71,7 +71,7 @@
       ],
       "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
       "publishedAt": "2026-10-14T18:00:00+00:00",
-      "importanceScore": 12.5,
+      "importanceScore": 11.5,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
@@ -88,66 +88,37 @@
         }
       ],
       "firstSeen": "2026-10-14T18:00:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T20:44:52.129152+00:00"
+      "status": "Updated",
+      "lastChecked": "2026-10-14T23:56:09.913503+00:00"
     },
     {
-      "id": "cacfb57bf63c02",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "ce49fc1c67cad4",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "World"
+        "India"
       ],
-      "title": "US inflation exceeds expectations in year to September",
-      "publishedAt": "2026-10-14T15:26:14+00:00",
-      "importanceScore": 11.8,
+      "title": "WPI inflation quickens to 11.39% in September from 9.9% in August",
+      "publishedAt": "2026-10-14T06:33:29+00:00",
+      "importanceScore": 10.7,
       "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Official data show that US inflation rose more than forecasters predicted for the 12‑month period ending September. The increase was driven by higher petrol prices, which climbed after Middle East energy supplies were disrupted by the US‑Israel conflict with Iran. The release comes ahead of next month’s midterm elections, which are being fought over cost‑of‑living pressures across the United States.",
-      "why": "The higher‑than‑expected inflation adds to the cost‑of‑living pressures that are central to the upcoming midterm elections.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-14T15:26:14+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-14T15:26:14+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T20:44:52.129152+00:00"
-    },
-    {
-      "id": "2db0dcf00f0ead",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "USASK announces new collaboration to boost local semiconductor industry",
-      "publishedAt": "2026-10-14T18:36:13+00:00",
-      "importanceScore": 11.7,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12102024/usask-announces-new-collaboration-to-boost-local-semiconductor-industry/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu WATCH: Engineers create and program microchips for everyday tasks, and now a new collaboration at the University of Saskatchewan will help make Saskatoon a leading tech innovator.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/wpi-inflation-rises-to-11-39-in-september-from-9-9-in-august/articleshow/134910312.cms",
+      "summary": "Wholesale prices in India rose significantly to 11.39% in September, driven by rising fuel and food costs. Retail inflation also increased to 5.54%, attributed largely to higher vegetable prices.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12102024/usask-announces-new-collaboration-to-boost-local-semiconductor-industry/",
-          "publishedAt": "2026-10-14T18:36:13+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/wpi-inflation-rises-to-11-39-in-september-from-9-9-in-august/articleshow/134910312.cms",
+          "publishedAt": "2026-10-14T06:33:29+00:00"
         }
       ],
-      "firstSeen": "2026-10-14T18:36:13+00:00",
+      "firstSeen": "2026-10-14T06:33:29+00:00",
       "status": "New",
-      "lastChecked": "2026-10-14T20:44:52.129152+00:00"
+      "lastChecked": "2026-10-14T23:56:09.913503+00:00"
     },
     {
       "id": "735462b78e9149",
@@ -158,7 +129,7 @@
       ],
       "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
       "publishedAt": "2026-10-14T18:23:46+00:00",
-      "importanceScore": 11.4,
+      "importanceScore": 10.4,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
@@ -175,68 +146,39 @@
         }
       ],
       "firstSeen": "2026-10-14T18:23:46+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T20:44:52.129152+00:00"
+      "status": "Updated",
+      "lastChecked": "2026-10-14T23:56:09.913503+00:00"
     },
     {
-      "id": "8f01a18ce7eafe",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "ae9d0a5fbb644e",
+      "cat": "AI",
+      "icon": "✦",
       "categories": [
-        "World"
+        "AI"
       ],
-      "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
-      "publishedAt": "2026-10-14T13:11:17+00:00",
-      "importanceScore": 10.9,
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "publishedAt": "2026-10-14T15:00:00+00:00",
+      "importanceScore": 10.2,
       "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-      "summary": "New restrictions on the speed at which some of Ukraine's weapons can travel and stay connected to the Starlink internet network have disrupted Ukraine's battlefield \"missions\", President Volodymyr Zelensky's adviser has warned. Beskrestnov said SpaceX's move \"cannot be a coincidence and is related to the current political situation\".",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+      "summary": "Floqer is an autonomous customer knowledge platform that provides business-to-business sales and marketing teams with an AI-powered database designed to continuously collect, organize, and update the information used to understand their customers. Floqer also says it has surpassed $1.2 million in annual recurring revenue (ARR), and that its overall revenue has grown roughly tenfold over the past year.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-14T13:11:17+00:00"
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+          "publishedAt": "2026-10-14T15:00:00+00:00"
         }
       ],
-      "firstSeen": "2026-10-14T13:11:17+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-14T20:44:52.129152+00:00"
-    },
-    {
-      "id": "ce49fc1c67cad4",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India’s wholesale price index rises to 11.39% in September",
-      "publishedAt": "2026-10-14T06:33:29+00:00",
-      "importanceScore": 10.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/wpi-inflation-rises-to-11-39-in-september-from-9-9-in-august/articleshow/134910312.cms",
-      "summary": "India’s wholesale price index (WPI) rose to 11.39% year‑on‑year in September, up from 9.9% in August, as higher fuel and food prices pushed the index higher. Retail inflation also climbed to 5.54% in September, driven mainly by vegetable price increases. The increase reflects pressure from global commodity costs and domestic weather‑related risks such as uneven monsoon rainfall.",
-      "why": "The rise heightens concerns about food inflation amid global commodity price pressures and weather‑related supply risks.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/wpi-inflation-rises-to-11-39-in-september-from-9-9-in-august/articleshow/134910312.cms",
-          "publishedAt": "2026-10-14T06:33:29+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-14T06:33:29+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-14T20:44:52.129152+00:00"
+      "firstSeen": "2026-10-14T15:00:00+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T23:56:09.913503+00:00"
     }
   ],
-  "jarvisEditedCount": 4,
-  "finalRejectedCount": 0
+  "jarvisEditedCount": 1,
+  "finalRejectedCount": 2
 }
