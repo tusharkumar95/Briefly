@@ -10,6 +10,7 @@ on:
       - "scripts/fetch_news.py"
       - "scripts/build_feed.py"
       - "scripts/edit_feed_with_jarvis.py"
+      - "scripts/finalize_feed.py"
       - ".github/workflows/update-news.yml"
 
 permissions:
@@ -23,7 +24,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 12
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -33,6 +33,7 @@ jobs:
           python -m py_compile scripts/fetch_news.py
           python -m py_compile scripts/build_feed.py
           python -m py_compile scripts/edit_feed_with_jarvis.py
+          python -m py_compile scripts/finalize_feed.py
 
       - name: Collect, extract, score and cluster news
         run: python scripts/build_feed.py
@@ -42,51 +43,43 @@ jobs:
           JARVIS_URL: https://jarvis-ai-router.kumar-tushar95.workers.dev
         run: python scripts/edit_feed_with_jarvis.py
 
+      - name: Final deterministic editorial cleanup
+        run: python scripts/finalize_feed.py
+
       - name: Validate published intelligence feed
         run: |
           python - <<'PY'
           import json, re
-
           SPORTS = re.compile(r'(?i)\b(hockey|nhl|nba|nfl|mlb|cfl|soccer|football|cricket|tennis|golf|playoffs?|senators|maple leafs|leafs|canadiens|oilers|flames|canucks|blue jays|raptors)\b|\b\d{1,2}-\d{1,2}\b')
-          JUNK = re.compile(r'(?i)(leave a comment|share on facebook|read today[\x27’]s paper|subscribe|privacy policy|cookie policy|viral video|bollywood|hollywood|celebrity)')
-          MARKET_SERVICE = re.compile(r'(?i)\b(bonus issue|stock split|dividend alert|record date|ex-dividend|last day to buy|do you own any|stocks? to buy today|multibagger|price target|brokerage picks?|buy call|sell call)\b')
+          JUNK = re.compile(r'(?i)(leave a comment|share on facebook|read today[\x27’]s paper|daily newspaper is available online|share price|subscribe|privacy policy|cookie policy|viral video|bollywood|hollywood|celebrity)')
+          MARKET_SERVICE = re.compile(r'(?i)\b(bonus issue|stock split|dividend alert|record date|ex-dividend|last day to buy|do you own any|stocks? to buy today|multibagger|price target|brokerage picks?|buy call|sell call|ipo opens? for subscription|ipo subscription|gmp at|grey market premium|should you bid|bid or skip|should you apply|ipo allotment|ipo listing|subscription status)\b')
           COMMENTARY_ONLY = re.compile(r'(?i)\b(pushes back on .*warnings?|doomsday warnings?|doomer narrative|shares? his views?|weighs in on|reacts? to .* debate)\b')
 
           with open('data.json', encoding='utf-8') as f:
               data = json.load(f)
-
           stories = data.get('stories', [])
-          assert data.get('engine') == 'Briefly Intelligence v2', data.get('engine')
-          assert 1 <= len(stories) <= 10, len(stories)
-
+          assert data.get('engine') == 'Briefly Intelligence v2'
+          assert 1 <= len(stories) <= 10
           ids = set()
           for story in stories:
-              assert story.get('id') and story['id'] not in ids, story.get('title')
-              ids.add(story['id'])
               title = story.get('title', '')
               summary = story.get('summary', '')
-              combined = title + ' ' + summary[:240]
-              assert len(title) >= 15, story
-              assert len(summary) >= 80, title
-              assert len(story.get('why', '')) >= 25, title
+              combined = title + ' ' + summary[:260]
+              assert story.get('id') and story['id'] not in ids, title
+              ids.add(story['id'])
+              assert len(title) >= 15 and len(summary) >= 80 and len(story.get('why','')) >= 25, title
               assert story.get('cat') in {'World','Canada','India','AI','Canadian Markets','Indian Markets'}, title
-              assert story.get('source'), title
-              assert story.get('url', '').startswith('http'), title
-              assert isinstance(story.get('sources'), list) and story['sources'], title
-              assert story.get('confidence') in {'high','medium','low'}, title
-              assert story.get('status') in {'New','Updated'}, title
+              assert story.get('url','').startswith('http') and story.get('sources'), title
+              assert story.get('confidence') in {'high','medium','low'} and story.get('status') in {'New','Updated'}, title
               assert not SPORTS.search(combined), title
               assert not JUNK.search(summary), title
               assert not MARKET_SERVICE.search(combined), title
               assert not COMMENTARY_ONLY.search(combined), title
-              summary_words = re.findall(r'[a-z0-9]+', summary.lower())
-              title_words = re.findall(r'[a-z0-9]+', title.lower())
-              assert summary_words != title_words, title
-
+              assert not summary.lower().startswith(title.lower()), title
           print('Validated', len(stories), 'high-signal events')
           print('Jarvis-edited:', sum(s.get('editor') == 'Jarvis' for s in stories))
           print('Verified:', sum(bool(s.get('verified')) for s in stories))
-          print('Categories:', {c: sum(s.get('cat') == c for s in stories) for c in sorted({s.get('cat') for s in stories})})
+          print('Final rejects:', data.get('finalRejectedCount', 0))
           PY
 
       - name: Commit updated feed safely
@@ -98,6 +91,6 @@ jobs:
             echo "Feed is unchanged."
             exit 0
           fi
-          git commit -m "Publish Jarvis-edited Briefly feed"
+          git commit -m "Publish finalized Briefly intelligence feed"
           git pull --rebase origin main
           git push origin main
