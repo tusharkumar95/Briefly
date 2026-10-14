@@ -49,6 +49,8 @@ jobs:
 
           SPORTS = re.compile(r'(?i)\b(hockey|nhl|nba|nfl|mlb|cfl|soccer|football|cricket|tennis|golf|playoffs?|senators|maple leafs|leafs|canadiens|oilers|flames|canucks|blue jays|raptors)\b|\b\d{1,2}-\d{1,2}\b')
           JUNK = re.compile(r'(?i)(leave a comment|share on facebook|read today[\x27’]s paper|subscribe|privacy policy|cookie policy|viral video|bollywood|hollywood|celebrity)')
+          MARKET_SERVICE = re.compile(r'(?i)\b(bonus issue|stock split|dividend alert|record date|ex-dividend|last day to buy|do you own any|stocks? to buy today|multibagger|price target|brokerage picks?|buy call|sell call)\b')
+          COMMENTARY_ONLY = re.compile(r'(?i)\b(pushes back on .*warnings?|doomsday warnings?|doomer narrative|shares? his views?|weighs in on|reacts? to .* debate)\b')
 
           with open('data.json', encoding='utf-8') as f:
               data = json.load(f)
@@ -63,6 +65,7 @@ jobs:
               ids.add(story['id'])
               title = story.get('title', '')
               summary = story.get('summary', '')
+              combined = title + ' ' + summary[:240]
               assert len(title) >= 15, story
               assert len(summary) >= 80, title
               assert len(story.get('why', '')) >= 25, title
@@ -72,8 +75,10 @@ jobs:
               assert isinstance(story.get('sources'), list) and story['sources'], title
               assert story.get('confidence') in {'high','medium','low'}, title
               assert story.get('status') in {'New','Updated'}, title
-              assert not SPORTS.search(title + ' ' + summary[:220]), title
+              assert not SPORTS.search(combined), title
               assert not JUNK.search(summary), title
+              assert not MARKET_SERVICE.search(combined), title
+              assert not COMMENTARY_ONLY.search(combined), title
               summary_words = re.findall(r'[a-z0-9]+', summary.lower())
               title_words = re.findall(r'[a-z0-9]+', title.lower())
               assert summary_words != title_words, title
