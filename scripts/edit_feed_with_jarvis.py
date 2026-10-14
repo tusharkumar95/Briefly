@@ -8,6 +8,8 @@ from fetch_news import fetch_article_text, clean, BOILERPLATE, JARVIS_URL
 
 SPORTS = re.compile(r"(?i)\b(hockey|nhl|nba|nfl|mlb|cfl|soccer|football|cricket|tennis|golf|playoffs?|season opener|road win|home win|defeats?|beats?|senators|maple leafs|leafs|canadiens|oilers|flames|canucks|blue jays|raptors|argonauts)\b|\b\d{1,2}-\d{1,2}\b")
 ENTERTAINMENT = re.compile(r"(?i)\b(celebrity|bollywood|hollywood|gossip|red carpet|movie|film|trailer|reality tv|fashion|outfit|horoscope|viral video)\b")
+MARKET_SERVICE = re.compile(r"(?i)\b(bonus issue|stock split|dividend alert|record date|ex-dividend|last day to buy|do you own any|stocks? to buy today|top stocks? to buy|multibagger|price target|brokerage picks?|buy call|sell call)\b")
+COMMENTARY_ONLY = re.compile(r"(?i)\b(pushes back on .*warnings?|doomsday warnings?|doomer narrative|thinks? the .*narrative|shares? his views?|weighs in on|reacts? to .* debate)\b")
 CANADA_SIGNAL = re.compile(r"(?i)\b(canada|canadian|toronto|ontario|quebec|alberta|vancouver|ottawa|montreal|tsx|loonie|bank of canada)\b")
 INDIA_SIGNAL = re.compile(r"(?i)\b(india|indian|delhi|mumbai|bengaluru|hyderabad|rupee|rbi|nse|bse|nifty|sensex|reliance|tata|infosys|hdfc|adani)\b")
 GLOBAL_SIGNAL = re.compile(r"(?i)\b(world|global|imf|world bank|united states|u\.s\.|china|europe|european union|g7|g20|united nations|middle east|ukraine|russia)\b")
@@ -24,9 +26,9 @@ def clean_summary(value):
 def editorial_filter(story):
     title = clean(story.get("title", ""))
     summary = clean_summary(story.get("summary", ""))
-    if not title or SPORTS.search(title) or ENTERTAINMENT.search(title):
+    if not title or SPORTS.search(title) or ENTERTAINMENT.search(title) or MARKET_SERVICE.search(title) or COMMENTARY_ONLY.search(title):
         return None
-    if SPORTS.search(summary[:220]) or ENTERTAINMENT.search(summary[:220]):
+    if SPORTS.search(summary[:220]) or ENTERTAINMENT.search(summary[:220]) or MARKET_SERVICE.search(summary[:220]) or COMMENTARY_ONLY.search(summary[:220]):
         return None
     if BOILERPLATE.search(summary):
         summary = clean_summary(summary)
@@ -152,6 +154,10 @@ def edit_with_jarvis(story):
 def fallback_why(story):
     category = story.get("cat")
     title = (story.get("title") or "").lower()
+    if "imf" in title or "world bank" in title:
+        return "Changes in the global growth outlook can affect markets, trade, borrowing conditions and business investment across countries."
+    if "money laundering" in title or "fine" in title or "penalty" in title:
+        return "Large regulatory penalties can expose compliance failures and raise costs or scrutiny for major financial institutions."
     if category in ("Canadian Markets", "Indian Markets"):
         return "This can affect market expectations, company valuations, sector sentiment or capital flows."
     if category == "AI":
