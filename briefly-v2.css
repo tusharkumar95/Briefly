@@ -1,0 +1,37 @@
+/* Briefly Intelligence v2 — compact high-signal reader */
+.brand-line{display:flex;align-items:center;gap:8px;min-width:0}
+.engine-pill{display:inline-flex;align-items:center;max-width:170px;padding:4px 7px;border:1px solid rgba(92,140,115,.16);border-radius:999px;background:rgba(92,140,115,.09);color:#527d67;font-size:8px;font-weight:800;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bottom-nav{width:min(330px,calc(100vw - 28px))}
+.filter-strip{display:flex;gap:6px;overflow-x:auto;padding:1px 2px 7px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.filter-strip::-webkit-scrollbar{display:none}
+.filter-chip{flex:0 0 auto;border:1px solid rgba(28,26,23,.08);border-radius:999px;background:rgba(255,255,255,.48);color:#777169;padding:8px 11px;font-size:11px;font-weight:720}
+.filter-chip.active{background:#23211e;color:#f7f4ee;border-color:#23211e;box-shadow:0 4px 13px rgba(35,33,30,.12)}
+.brief-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:3px 4px 10px;color:#99938b;font-size:9px;line-height:1.35}
+.brief-meta span:last-child{text-align:right}
+.intelligence-card{padding:15px 15px 14px 17px}
+.card.world .accent-dot{background:#727b86}
+.trust-row{display:flex;align-items:center;gap:6px;min-width:0}
+.trust-badge,.source-count{display:inline-flex;align-items:center;border-radius:999px;padding:4px 7px;font-size:8px;font-weight:800;white-space:nowrap}
+.trust-badge{background:rgba(0,0,0,.035);color:#7e7870}
+.trust-badge.verified{background:rgba(92,140,115,.11);color:#527d67}
+.source-count{background:rgba(95,131,173,.08);color:#6680a0}
+.intelligence-card .card-title{font-size:18px;line-height:1.26}
+.intelligence-card .card-summary{display:block;overflow:visible;-webkit-line-clamp:unset;margin-top:9px;color:#5f5b55;font-size:13px;line-height:1.53}
+.why-line{margin-top:11px;padding:10px 11px;border-radius:13px;background:rgba(0,0,0,.024)}
+.why-line>span{display:block;margin-bottom:4px;color:#989188;font-size:7px;font-weight:850;letter-spacing:.1em}
+.why-line p{margin:0;color:#69645e;font-size:11px;line-height:1.45}
+.intelligence-bottom{display:block;margin-top:11px;padding-top:10px;border-top:1px solid rgba(28,26,23,.055)}
+.story-labels{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.signal-tag,.status-tag{display:inline-flex;align-items:center;padding:4px 7px;border-radius:999px;font-size:8px;font-weight:750}
+.signal-tag{background:rgba(213,138,67,.08);color:#a46f3a}
+.status-tag{background:rgba(136,120,174,.07);color:#786b98}
+.source-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:9px;min-width:0}
+.source-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#99938b;font-size:9px}
+.source-link{flex:none;color:#5f83ad;text-decoration:none;font-size:10px;font-weight:780}
+.top-stories{margin-top:12px}
+@media(max-width:430px){
+  .brief-meta{display:block}.brief-meta span{display:block}.brief-meta span:last-child{text-align:left;margin-top:3px}
+  .engine-pill{max-width:130px}
+  .intelligence-card .card-title{font-size:17px}
+  .source-actions{align-items:flex-end}
+}
