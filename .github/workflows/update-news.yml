@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "scripts/fetch_news.py"
+      - "scripts/build_feed.py"
       - "scripts/edit_feed_with_jarvis.py"
       - ".github/workflows/update-news.yml"
 
@@ -30,12 +31,11 @@ jobs:
       - name: Validate news engine syntax
         run: |
           python -m py_compile scripts/fetch_news.py
+          python -m py_compile scripts/build_feed.py
           python -m py_compile scripts/edit_feed_with_jarvis.py
 
       - name: Collect, extract, score and cluster news
-        env:
-          JARVIS_URL: https://jarvis-ai-router.kumar-tushar95.workers.dev
-        run: python scripts/fetch_news.py
+        run: python scripts/build_feed.py
 
       - name: Jarvis editorial and verification gate
         env:
@@ -84,10 +84,15 @@ jobs:
           print('Categories:', {c: sum(s.get('cat') == c for s in stories) for c in sorted({s.get('cat') for s in stories})})
           PY
 
-      - name: Commit updated feed
+      - name: Commit updated feed safely
         run: |
           git config user.name "briefly-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git diff --cached --quiet || git commit -m "Publish Jarvis-edited Briefly feed"
-          git push
+          if git diff --cached --quiet; then
+            echo "Feed is unchanged."
+            exit 0
+          fi
+          git commit -m "Publish Jarvis-edited Briefly feed"
+          git pull --rebase origin main
+          git push origin main
