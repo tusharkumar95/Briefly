@@ -8,6 +8,7 @@ on:
       - "scripts/fetch_news.py"
       - "scripts/build_feed.py"
       - "scripts/edit_feed_with_jarvis.py"
+      - "scripts/finalize_feed.py"
       - "index.html"
       - "style.css"
       - "briefly-v2.css"
@@ -29,6 +30,7 @@ jobs:
           python -m py_compile scripts/fetch_news.py
           python -m py_compile scripts/build_feed.py
           python -m py_compile scripts/edit_feed_with_jarvis.py
+          python -m py_compile scripts/finalize_feed.py
       - name: Check required UI assets
         run: |
           test -f index.html
