@@ -1,9 +1,67 @@
 {
-  "updated": "2026-10-14T04:14:48.900120+00:00",
+  "updated": "2026-10-14T04:22:20.674613+00:00",
   "engine": "Briefly Intelligence v2",
-  "editor": "Jarvis with source-constrained verification; conservative extractive fallback",
+  "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "stories": [
+    {
+      "id": "fee29ecf2e8169",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Hero Motors shares soar 8% as Q2 net profit more than doubles to Rs 10 crore",
+      "publishedAt": "2026-10-14T04:01:52+00:00",
+      "importanceScore": 13.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/hero-motors-shares-soar-8-as-q2-net-profit-more-than-doubles-to-rs-10-crore/articleshow/134931725.cms",
+      "summary": "Hero Motors shares jumped after the company reported a 115% YoY rise in Q2 FY27 net profit to Rs 10.2 crore. However, net profit fell 31% sequentially, while total expenses increased 19% YoY to Rs 307.06 crore.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hero-motors-shares-soar-8-as-q2-net-profit-more-than-doubles-to-rs-10-crore/articleshow/134931725.cms",
+          "publishedAt": "2026-10-14T04:01:52+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T04:01:52+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T04:22:20.674613+00:00"
+    },
+    {
+      "id": "78e03c8bfcddb6",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Bank of America hit with $1.2bn fine for money laundering failings",
+      "publishedAt": "2026-10-14T02:05:32+00:00",
+      "importanceScore": 12.8,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Bank of America has been fined $1.2bn (£910m) for failing to detect potential money laundering and other illegal activity, the US Treasury Department said on Tuesday. The announcement came less 24 hours before Bank of America was due to announce its quarterly earnings on Wednesday morning.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-14T02:05:32+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T02:05:32+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T04:22:20.674613+00:00"
+    },
     {
       "id": "7588deadfab65b",
       "cat": "India",
@@ -17,11 +75,11 @@
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-heading-towards-landing-point-eam-jaishankar-says/articleshow/134929796.cms",
-      "summary": "Read Today's Paper India-US trade deal heading towards ‘landing point’, EAM Jaishankar says External Affairs Minister S Jaishankar indicated that India and the US are advancing their trade deal negotiations. Jaishankar emphasized that the negotiations are complex due to competitive agreements being made by the US with other economies.",
-      "why": "Selected because it ranked highly for practical significance and source quality.",
+      "summary": "India-US trade deal heading towards ‘landing point’, EAM Jaishankar says External Affairs Minister S Jaishankar indicated that India and the US are advancing their trade deal negotiations. Jaishankar emphasized that the negotiations are complex due to competitive agreements being made by the US with other economies.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "confidence": "low",
       "verified": false,
-      "editor": "Extractive fallback",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -30,8 +88,8 @@
         }
       ],
       "firstSeen": "2026-10-14T01:52:47+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T04:14:48.900120+00:00"
+      "status": "Updated",
+      "lastChecked": "2026-10-14T04:22:20.674613+00:00"
     },
     {
       "id": "adc64d72749102",
@@ -47,10 +105,10 @@
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
       "summary": "Only five years into its journey, Character.AI, which lets users create AI characters and have conversations with them, has filed for Chapter 11 bankruptcy, following a slew of lawsuits and struggles to scale its popular platform. In a court document, the company said it had assets and liabilities between $50 million and $100 million.",
-      "why": "Selected because it ranked highly for practical significance and source quality.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "confidence": "low",
       "verified": false,
-      "editor": "Extractive fallback",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -60,41 +118,12 @@
       ],
       "firstSeen": "2026-10-13T12:23:42+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-14T04:14:48.900120+00:00"
-    },
-    {
-      "id": "1e5abb88004b36",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Blues cool off hot Senators with 7-2 road win",
-      "publishedAt": "2026-10-14T02:21:07+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12101655/blues-cool-off-hot-senators-with-7-2-road-win/",
-      "summary": "Ottawa was playing the back half of a back-to-back coming off a 4-1 win against the New Jersey Devils on Monday. The Blues took a 4-1 lead midway through the third when Suter beat Ersson short side from a sharp angle.",
-      "why": "Selected because it ranked highly for practical significance and source quality.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Extractive fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12101655/blues-cool-off-hot-senators-with-7-2-road-win/",
-          "publishedAt": "2026-10-14T02:21:07+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-14T02:21:07+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T04:14:48.900120+00:00"
+      "lastChecked": "2026-10-14T04:22:20.674613+00:00"
     },
     {
       "id": "5c2ac543027009",
-      "cat": "Canada",
-      "icon": "🇨🇦",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
         "Canada"
       ],
@@ -105,10 +134,10 @@
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/business/imf-raises-forecast-ai-debt-9.7378517?cmp=rss",
       "summary": "The international body slightly upgraded its outlook for the world economy, but warned that risks of an AI-related market correction and job losses because of the technology, as well as government debt, remain concerns. That's up from its July forecast for three per cent growth and well below the 3.5 per cent expansion in 2025.",
-      "why": "Selected because it ranked highly for practical significance and source quality.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "confidence": "low",
       "verified": false,
-      "editor": "Extractive fallback",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "cbc.ca",
@@ -118,7 +147,7 @@
       ],
       "firstSeen": "2026-10-13T14:22:14+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-14T04:14:48.900120+00:00"
+      "lastChecked": "2026-10-14T04:22:20.674613+00:00"
     },
     {
       "id": "d66a3a3a305437",
@@ -134,10 +163,10 @@
       "source": "globalnews.ca",
       "url": "https://globalnews.ca/news/12101437/kelowna-residents-costly-damage-fuel-tanks-drilled/",
       "summary": "Fuel theft is leaving Kelowna vehicle owners facing more than an empty tank, with some discovering holes drilled directly into their vehicles’ fuel tanks. He estimates the repair could cost between $1,000 and $2,000, although he is still waiting for an official estimate.",
-      "why": "Selected because it ranked highly for practical significance and source quality.",
+      "why": "This matters because it could affect Canada’s economy, major industries, investment, jobs or household costs.",
       "confidence": "low",
       "verified": false,
-      "editor": "Extractive fallback",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "globalnews.ca",
@@ -146,8 +175,8 @@
         }
       ],
       "firstSeen": "2026-10-14T02:02:46+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T04:14:48.900120+00:00"
+      "status": "Updated",
+      "lastChecked": "2026-10-14T04:22:20.674613+00:00"
     },
     {
       "id": "e5c26144a2c078",
@@ -156,17 +185,17 @@
       "categories": [
         "World"
       ],
-      "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+      "title": "Russian missile strikes hit Kyiv power plant and apartment block",
       "publishedAt": "2026-10-14T03:54:41+00:00",
       "importanceScore": 11.7,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
-      "summary": "Firefighters work at the site of an apartment building damaged by a Russian missile strike A key energy facility supplying Kyiv with heating and electricity has been hit in a Russian ballistic missile attack, Ukrainian President Volodymyr Zelensky has said. Kyiv has reported multiple Russian strikes since US President Donald Trump said an energy ceasefire had been agreed by Russia and Ukraine two days ago.",
-      "why": "Selected because it ranked highly for practical significance and source quality.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Extractive fallback",
+      "summary": "A Russian ballistic missile struck the Darnytska CHP‑4 power plant, a key facility supplying heating and electricity to Kyiv, and also hit a nearby residential building. President Volodymyr Zelensky said the attack came without early warning, while Kyiv Mayor Vitali Klitschko reported two deaths and 21 injuries in the apartment block. The strike occurred amid multiple recent Russian attacks on the city.",
+      "why": "Damage to a major power plant threatens Kyiv’s energy supply and civilian safety.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
@@ -175,8 +204,8 @@
         }
       ],
       "firstSeen": "2026-10-14T03:54:41+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T04:14:48.900120+00:00"
+      "status": "Updated",
+      "lastChecked": "2026-10-14T04:22:20.674613+00:00"
     },
     {
       "id": "aa58fef9755ac5",
@@ -192,10 +221,10 @@
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cke8r4nmy36qo?at_medium=RSS&at_campaign=rss",
       "summary": "A man has died after falling from a rollercoaster at a Six Flags amusement park on Monday in the US state of Georgia. The Cobb County Police Department said the incident at the Six Flags Over Georgia park happened just before 16:00 local time (20:00 GMT) on Monday.",
-      "why": "Selected because it ranked highly for practical significance and source quality.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "confidence": "low",
       "verified": false,
-      "editor": "Extractive fallback",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
@@ -204,8 +233,9 @@
         }
       ],
       "firstSeen": "2026-10-14T00:59:16+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T04:14:48.900120+00:00"
+      "status": "Updated",
+      "lastChecked": "2026-10-14T04:22:20.674613+00:00"
     }
-  ]
+  ],
+  "jarvisEditedCount": 1
 }
