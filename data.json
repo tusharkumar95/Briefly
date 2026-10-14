@@ -1,38 +1,9 @@
 {
-  "updated": "2026-10-14T04:30:48.282504+00:00",
+  "updated": "2026-10-14T04:34:26.894505+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "stories": [
-    {
-      "id": "1cf0103c474298",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Fusion CX IPO opens for subscription; GMP at 12%. Should you bid or skip?",
-      "publishedAt": "2026-10-14T04:19:22+00:00",
-      "importanceScore": 13.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/fusion-cx-ipo-opens-for-subscription-gmp-at-12-should-you-bid-or-skip/articleshow/134931950.cms",
-      "summary": "IIFL Capital Services Share Price Choice International Share Price JM Financial Share Price Anand Rathi Share & Stock Brokers Share Price SMC Global Securities Share Price The Economic Times daily newspaper is available online now.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/fusion-cx-ipo-opens-for-subscription-gmp-at-12-should-you-bid-or-skip/articleshow/134931950.cms",
-          "publishedAt": "2026-10-14T04:19:22+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-14T04:19:22+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T04:30:48.282504+00:00"
-    },
     {
       "id": "78e03c8bfcddb6",
       "cat": "World",
@@ -40,17 +11,17 @@
       "categories": [
         "World"
       ],
-      "title": "Bank of America hit with $1.2bn fine for money laundering failings",
+      "title": "Bank of America fined $1.2bn for money‑laundering compliance failures",
       "publishedAt": "2026-10-14T02:05:32+00:00",
       "importanceScore": 12.8,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Bank of America has been fined $1.2bn (£910m) for failing to detect potential money laundering and other illegal activity, the US Treasury Department said on Tuesday. The announcement came less 24 hours before Bank of America was due to announce its quarterly earnings on Wednesday morning.",
-      "why": "Large regulatory penalties can expose compliance failures and raise costs or scrutiny for major financial institutions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
+      "summary": "The U.S. Treasury Department announced a $1.2 billion (£910 million) civil penalty for Bank of America after the bank failed to report over $5 billion in suspicious activity, including $1 billion that posed national‑security and illicit‑finance risks. The shortcomings involved not flagging transactions possibly linked to Chinese money‑laundering networks and trade‑based schemes with a substantial nexus to the U.S. southwest border. The announcement came less than 24 hours before the bank’s scheduled quarterly earnings release.",
+      "why": "A penalty of this scale can increase regulatory scrutiny and compliance costs for a major global financial institution.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
@@ -59,8 +30,8 @@
         }
       ],
       "firstSeen": "2026-10-14T02:05:32+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T04:30:48.282504+00:00"
+      "status": "Updated",
+      "lastChecked": "2026-10-14T04:34:26.894505+00:00"
     },
     {
       "id": "7588deadfab65b",
@@ -75,8 +46,8 @@
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-heading-towards-landing-point-eam-jaishankar-says/articleshow/134929796.cms",
-      "summary": "External Affairs Minister S Jaishankar said that India and the United States are moving closer to finalising a bilateral trade agreement. He noted that both sides are working on remaining issues, but the talks are complicated by the United States striking competitive agreements with other economies. Jaishankar also highlighted the role of tariffs as the US seeks to reindustrialise its economy, underscoring their relevance to the negotiations.",
-      "why": "The negotiations matter because they aim to resolve outstanding trade issues and tariff arrangements between the two countries.",
+      "summary": "External Affairs Minister S Jaishankar said that negotiations on a bilateral trade agreement between India and the United States are advancing toward a “landing point.” Both sides are working to resolve outstanding issues, and officials are actively seeking solutions. He noted the talks are complex because the US is simultaneously concluding competitive agreements with other economies and highlighted the role of tariffs in the US’s re‑industrialisation agenda.",
+      "why": "The outcome could change tariffs, market access and trade conditions for businesses in both countries.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -89,7 +60,7 @@
       ],
       "firstSeen": "2026-10-14T01:52:47+00:00",
       "status": "New",
-      "lastChecked": "2026-10-14T04:30:48.282504+00:00"
+      "lastChecked": "2026-10-14T04:34:26.894505+00:00"
     },
     {
       "id": "adc64d72749102",
@@ -117,8 +88,8 @@
         }
       ],
       "firstSeen": "2026-10-13T12:23:42+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T04:30:48.282504+00:00"
+      "status": "Updated",
+      "lastChecked": "2026-10-14T04:34:26.894505+00:00"
     },
     {
       "id": "5c2ac543027009",
@@ -127,17 +98,17 @@
       "categories": [
         "Canada"
       ],
-      "title": "IMF raises 2026 global growth forecast to 3.1% while warning of AI and debt risks",
+      "title": "IMF warns of risks from AI boom and debt, but raises forecast for world growth",
       "publishedAt": "2026-10-13T14:22:14+00:00",
       "importanceScore": 12.0,
       "sourceCount": 1,
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/business/imf-raises-forecast-ai-debt-9.7378517?cmp=rss",
-      "summary": "The International Monetary Fund modestly upgraded its outlook for 2026, projecting world GDP growth of 3.1%, up from the July estimate of 3.0% but still below the 3.5% expected for 2025. In its Economic Outlook released in Bangkok during the IMF‑World Bank fall meetings, the IMF cautioned that a rapid AI‑driven market correction, potential job losses, and rising sovereign debt pose heightened risks to the recovery.",
-      "why": "The warning signals that emerging AI‑related financial turbulence and debt vulnerabilities could undermine the modest growth gains.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "The international body slightly upgraded its outlook for the world economy, but warned that risks of an AI-related market correction and job losses because of the technology, as well as government debt, remain concerns. That's up from its July forecast for three per cent growth and well below the 3.5 per cent expansion in 2025.",
+      "why": "Changes in the global growth outlook can influence markets, trade, borrowing conditions and business investment across countries.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "cbc.ca",
@@ -146,8 +117,8 @@
         }
       ],
       "firstSeen": "2026-10-13T14:22:14+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-14T04:30:48.282504+00:00"
+      "status": "New",
+      "lastChecked": "2026-10-14T04:34:26.894505+00:00"
     },
     {
       "id": "1c4a71f2dcd0fe",
@@ -156,17 +127,17 @@
       "categories": [
         "India"
       ],
-      "title": "RBI open to more steps to curb FX speculation, Governor Sanjay Malhotra says",
+      "title": "RBI Governor open to more steps to curb FX speculation",
       "publishedAt": "2026-10-14T03:52:53+00:00",
       "importanceScore": 11.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-open-to-more-steps-to-curb-fx-speculation-governor-sanjay-malhotra-says/articleshow/134931504.cms",
-      "summary": "RBI open to more steps to curb FX speculation, Governor Sanjay Malhotra says RBI Governor Sanjay Malhotra said the central bank may take further steps to curb speculative forex trading and ensure orderly movement in the currency market. He said recent restrictions aim to support genuine hedging needs, not impose capital controls.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
+      "summary": "RBI Governor Sanjay Malhotra said the Reserve Bank of India may take additional measures to curb speculative foreign‑exchange trading and ensure orderly movement in the currency market. He said recent restrictions are intended to support genuine hedging needs rather than impose capital controls.",
+      "why": "RBI action on currency speculation can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -176,14 +147,14 @@
       ],
       "firstSeen": "2026-10-14T03:52:53+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-14T04:30:48.282504+00:00"
+      "lastChecked": "2026-10-14T04:34:26.894505+00:00"
     },
     {
       "id": "085c349b86f74a",
-      "cat": "AI",
-      "icon": "✦",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "AI"
+        "World"
       ],
       "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
       "publishedAt": "2026-10-13T23:13:31+00:00",
@@ -191,8 +162,8 @@
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-      "summary": "Science Corporation CEO Max Hodak announced that the company has implanted its vision-restoring chip, PRIMA, into its first patient with Stargardt disease, an inherited eye disease that gradually destroys central vision. While PRIMA is commercially available in Europe for patients who’ve lost their sight to geographic atrophy, an advanced form of age-related macular degeneration, the company believes its approach can be applied to multiple diseases, including Stargardt disease, which is currently considered incurable.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "summary": "Science Corporation CEO Max Hodak announced that the company has implanted its vision-restoring chip , PRIMA, into its first patient with Stargardt disease, an inherited eye disease that gradually destroys central vision. While PRIMA is commercially available in Europe for patients who’ve lost their sight to geographic atrophy, an advanced form of age-related macular degeneration, the company believes its approach can be applied to multiple diseases, including Stargardt disease, which is currently considered incurable.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
@@ -205,8 +176,9 @@
       ],
       "firstSeen": "2026-10-13T23:13:31+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-14T04:30:48.282504+00:00"
+      "lastChecked": "2026-10-14T04:34:26.894505+00:00"
     }
   ],
-  "jarvisEditedCount": 2
+  "jarvisEditedCount": 4,
+  "finalRejectedCount": 1
 }
