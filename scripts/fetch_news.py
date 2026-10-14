@@ -21,10 +21,10 @@ feeds = [
     ("AI", "🤖", "artificial intelligence AI OpenAI Google Anthropic Meta Nvidia models agents chips research when:24h")
 ]
 
-bad = re.compile(r"\\b(politic|election|party|minister|parliament|bollywood|hollywood|celebrity|gossip|sports|cricket|football)\\b", re.I)
-IRRELEVANT = re.compile(r"(?i)\\b(loafers|fashion|outfit|wardrobe|shopping guide|worth buying|celebrity|bollywood|hollywood|reality tv|horoscope|recipe|travel tips|watch:|news hour at|live stream|cockroach|viral video|movie|film|red carpet|best dressed|sports highlights)\\b")
+bad = re.compile(r"\b(politic|election|party|minister|parliament|bollywood|hollywood|celebrity|gossip|sports|cricket|football)\b", re.I)
+IRRELEVANT = re.compile(r"(?i)\b(loafers|fashion|outfit|wardrobe|shopping guide|worth buying|celebrity|bollywood|hollywood|reality tv|horoscope|recipe|travel tips|watch:|news hour at|live stream|cockroach|viral video|movie|film|red carpet|best dressed|sports highlights)\b")
 BOILERPLATE = re.compile(r"(?i)(leave a comment|share (this|on|via|to)|facebook|whatsapp|see more sharing options|submit search|quick search|trending now|add .* to home|read on app|newsletter|sign up|subscribe|related stories|more stories|click here|follow us|comments? section|previous close|trending tickers|cloudfront|request id:|we can.t connect|cookie policy|privacy policy|all rights reserved|advertisement)")
-IMPORTANT = re.compile(r"(?i)\\b(economy|economic|inflation|interest rate|central bank|bank of canada|rbi|investment|investor|earnings|revenue|profit|loss|stock|market|tsx|nifty|sensex|nse|bse|business|company|companies|corporate|technology|artificial intelligence|\\bai\\b|semiconductor|chip|trade|tariff|energy|oil|gas|manufactur|industry|employment|jobs|layoffs|merger|acquisition|funding|startup|research|policy|regulation|climate|infrastructure|housing|gdp|exports|imports|supply chain|geopolitic|security|war|conflict|breakthrough)\\b")
+IMPORTANT = re.compile(r"(?i)\b(economy|economic|inflation|interest rate|central bank|bank of canada|rbi|investment|investor|earnings|revenue|profit|loss|stock|market|tsx|nifty|sensex|nse|bse|business|company|companies|corporate|technology|artificial intelligence|\bai\b|semiconductor|chip|trade|tariff|energy|oil|gas|manufactur|industry|employment|jobs|layoffs|merger|acquisition|funding|startup|research|policy|regulation|climate|infrastructure|housing|gdp|exports|imports|supply chain|geopolitic|security|war|conflict|breakthrough)\b")
 
 
 def relevant(title, category):
