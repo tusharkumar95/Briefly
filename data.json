@@ -1,9 +1,38 @@
 {
-  "updated": "2026-10-14T11:57:44.730972+00:00",
+  "updated": "2026-10-14T17:14:10.869886+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "stories": [
+    {
+      "id": "1af5c318585335",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Jio sets price band for Rs 30,000 crore IPO",
+      "publishedAt": "2026-10-14T14:54:51+00:00",
+      "importanceScore": 14.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-announces-price-band-for-over-rs-30000-crore-ipo-check-key-dates-gmp-and-other-details/articleshow/134945465.cms",
+      "summary": "Jio Platforms announced a price band of Rs 1,065 to Rs 1,119 per share for its upcoming IPO. At the lower end, the issue could raise about Rs 28,755 crore; at the top of the band, proceeds could reach roughly Rs 30,213 crore. The filing provides the range and the corresponding potential size of the offering.",
+      "why": "The size of the offering could affect market activity and investor allocation.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-announces-price-band-for-over-rs-30000-crore-ipo-check-key-dates-gmp-and-other-details/articleshow/134945465.cms",
+          "publishedAt": "2026-10-14T14:54:51+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T14:54:51+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T17:14:10.869886+00:00"
+    },
     {
       "id": "ce49fc1c67cad4",
       "cat": "India",
@@ -11,14 +40,14 @@
       "categories": [
         "India"
       ],
-      "title": "India’s wholesale price index jumps to 11.39% in September",
+      "title": "Wholesale price index inflation rises to 11.39% in September, up from 9.9% in August",
       "publishedAt": "2026-10-14T06:33:29+00:00",
       "importanceScore": 13.2,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/wpi-inflation-rises-to-11-39-in-september-from-9-9-in-august/articleshow/134910312.cms",
-      "summary": "The Wholesale Price Index (WPI) in India rose to an annual 11.39% in September, up from 9.9% in August, as fuel and food prices increased sharply. Retail inflation also rose to 5.54% in September, driven mainly by higher vegetable prices. Analysts point to uneven monsoon rainfall, El Nino risks and higher global commodity prices as factors that could keep food‑price pressures elevated.",
-      "why": "The higher wholesale and retail inflation signals persistent price pressures in the Indian economy.",
+      "summary": "India’s wholesale price index (WPI) accelerated to 11.39% year‑on‑year in September, driven by higher fuel and food costs. Retail inflation also climbed to 5.54% in the same month, largely because of rising vegetable prices. Concerns remain that uneven monsoon rainfall, El Nino risks and higher global commodity prices could keep food‑price pressures elevated.",
+      "why": "The rise highlights heightened price pressures that could sustain overall inflation trends.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -31,154 +60,154 @@
       ],
       "firstSeen": "2026-10-14T06:33:29+00:00",
       "status": "New",
-      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
+      "lastChecked": "2026-10-14T17:14:10.869886+00:00"
     },
     {
-      "id": "adc64d72749102",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-      "publishedAt": "2026-10-13T12:23:42+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-      "summary": "Only five years into its journey, Character.AI, which lets users create AI characters and have conversations with them, has filed for Chapter 11 bankruptcy, following a slew of lawsuits and struggles to scale its popular platform. In a court document, the company said it had assets and liabilities between $50 million and $100 million.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-          "publishedAt": "2026-10-13T12:23:42+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-13T12:23:42+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
-    },
-    {
-      "id": "b6c9911a2d17bc",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
-      "publishedAt": "2026-10-14T11:00:00+00:00",
-      "importanceScore": 12.4,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
-      "summary": "As manufacturers across industries strive to reduce their reliance on Chinese suppliers, Indian startup Scimplify has raised $25 million to expand its AI-powered approach to producing specialty chemicals and critical materials, with semiconductors, defense and energy emerging as key growth markets. The latest investment brings Scimplify’s total equity funding to $80 million, the startup said, though it declined to disclose its valuation.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
-          "publishedAt": "2026-10-14T11:00:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-14T11:00:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
-    },
-    {
-      "id": "3160b11eccc1f3",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "10 Nifty500 stocks that have fallen up to 58% in a year",
-      "publishedAt": "2026-10-14T10:33:42+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/10-nifty500-stocks-that-have-fallen-up-to-58-in-a-year/slideshow/134939701.cms",
-      "summary": "The Indian equity market has witnessed considerable weakness over the past year, with the benchmark Nifty 50 declining 10% and the broader Nifty 500 index slipping 5%. Among these, 10 stocks have emerged as notable laggards, with losses ranging from 47% to 58% over the past year.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/10-nifty500-stocks-that-have-fallen-up-to-58-in-a-year/slideshow/134939701.cms",
-          "publishedAt": "2026-10-14T10:33:42+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-14T10:33:42+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
-    },
-    {
-      "id": "5c2ac543027009",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "64da9c5f0f3df8",
+      "cat": "Canada",
+      "icon": "🇨🇦",
       "categories": [
         "Canada"
       ],
-      "title": "IMF warns of risks from AI boom and debt, but raises forecast for world growth",
-      "publishedAt": "2026-10-13T14:22:14+00:00",
-      "importanceScore": 12.0,
+      "title": "U.S. Inflation worsened last month to 3.7% as midterm elections near",
+      "publishedAt": "2026-10-14T14:54:08+00:00",
+      "importanceScore": 12.9,
       "sourceCount": 1,
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/business/imf-raises-forecast-ai-debt-9.7378517?cmp=rss",
-      "summary": "The international body slightly upgraded its outlook for the world economy, but warned that risks of an AI-related market correction and job losses because of the technology, as well as government debt, remain concerns. That's up from its July forecast for three per cent growth and well below the 3.5 per cent expansion in 2025.",
-      "why": "Changes in the global growth outlook can influence markets, trade, borrowing conditions and business investment across countries.",
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12102102/us-inflation-september-2026/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. The POTUS has a Veto power that can only be overturned if BOTH houses of congress vote against him by a 2/3’S MARGIN, which will never happen.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "cbc.ca",
-          "url": "https://www.cbc.ca/news/business/imf-raises-forecast-ai-debt-9.7378517?cmp=rss",
-          "publishedAt": "2026-10-13T14:22:14+00:00"
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12102102/us-inflation-september-2026/",
+          "publishedAt": "2026-10-14T14:54:08+00:00"
         }
       ],
-      "firstSeen": "2026-10-13T14:22:14+00:00",
+      "firstSeen": "2026-10-14T14:54:08+00:00",
       "status": "New",
-      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
+      "lastChecked": "2026-10-14T17:14:10.869886+00:00"
     },
     {
-      "id": "7588deadfab65b",
+      "id": "a2ac5126daa480",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "A tough housing market could revive multigenerational homes, poll suggests",
+      "publishedAt": "2026-10-14T14:30:42+00:00",
+      "importanceScore": 12.9,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12101894/housing-market-multigenerational-homes/",
+      "summary": "More than half (53 per cent) of respondents looking to buy their next or first home within the next two years said they would consider living in a multi-generational home, the RBC Home Ownership Poll found. Among prospective buyers, 34 per cent said multi-generational living is becoming more common because of housing affordability, while 32 per cent said it was a “smart way” for families to manage housing costs.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12101894/housing-market-multigenerational-homes/",
+          "publishedAt": "2026-10-14T14:30:42+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T14:30:42+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T17:14:10.869886+00:00"
+    },
+    {
+      "id": "42b0555f4dd46a",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India-US trade deal heading towards ‘landing point’, EAM Jaishankar says",
-      "publishedAt": "2026-10-14T01:52:47+00:00",
-      "importanceScore": 11.7,
+      "title": "India's inflation hits 5.54%: Onion prices up 108%, food inflation 7.74%",
+      "publishedAt": "2026-10-14T05:56:20+00:00",
+      "importanceScore": 12.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-heading-towards-landing-point-eam-jaishankar-says/articleshow/134929796.cms",
-      "summary": "External Affairs Minister S Jaishankar indicated that India and the US are advancing their trade deal negotiations. Jaishankar emphasized that the negotiations are complex due to competitive agreements being made by the US with other economies.",
-      "why": "The outcome could change tariffs, market access and trade conditions for businesses in both countries.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-inflation-hits-5-54-onion-prices-up-108-food-inflation-7-74-10-numbers-explained/videoshow/134933812.cms",
+      "summary": "India's retail inflation rose to 5.54% in September 2026, the highest this year, as food inflation jumped to 7.74%. Onion prices more than doubled, while potatoes and tomatoes got cheaper.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-heading-towards-landing-point-eam-jaishankar-says/articleshow/134929796.cms",
-          "publishedAt": "2026-10-14T01:52:47+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-inflation-hits-5-54-onion-prices-up-108-food-inflation-7-74-10-numbers-explained/videoshow/134933812.cms",
+          "publishedAt": "2026-10-14T05:56:20+00:00"
         }
       ],
-      "firstSeen": "2026-10-14T01:52:47+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-14T11:57:44.730972+00:00"
+      "firstSeen": "2026-10-14T05:56:20+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T17:14:10.869886+00:00"
+    },
+    {
+      "id": "ae9d0a5fbb644e",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "publishedAt": "2026-10-14T15:00:00+00:00",
+      "importanceScore": 11.2,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+      "summary": "Floqer is an autonomous customer knowledge platform that provides business-to-business sales and marketing teams with an AI-powered database designed to continuously collect, organize, and update the information used to understand their customers. Floqer also says it has surpassed $1.2 million in annual recurring revenue (ARR), and that its overall revenue has grown roughly tenfold over the past year.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+          "publishedAt": "2026-10-14T15:00:00+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T15:00:00+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T17:14:10.869886+00:00"
+    },
+    {
+      "id": "8f01a18ce7eafe",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Starlink restrictions in Ukraine linked to political situation, says Zelensky aide",
+      "publishedAt": "2026-10-14T13:11:17+00:00",
+      "importanceScore": 10.9,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+      "summary": "On 14 October 2026 the BBC reported that a Ukrainian presidential aide said recent restrictions on the Starlink satellite‑internet service in the war are connected to the country’s political situation. The article notes the aide’s comment linking the limits to political factors.",
+      "why": "Starlink is a key communications tool for Ukraine’s defence and civilian services, so any politically driven restrictions could have strategic implications.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-14T13:11:17+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T13:11:17+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-14T17:14:10.869886+00:00"
     }
   ],
-  "jarvisEditedCount": 1,
-  "finalRejectedCount": 1
+  "jarvisEditedCount": 3,
+  "finalRejectedCount": 0
 }
