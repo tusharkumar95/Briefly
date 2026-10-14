@@ -6,6 +6,7 @@ on:
     paths:
       - "app.js"
       - "scripts/fetch_news.py"
+      - "scripts/edit_feed_with_jarvis.py"
       - "index.html"
       - "style.css"
       - "briefly-v2.css"
@@ -23,7 +24,9 @@ jobs:
       - name: Check frontend JavaScript syntax
         run: node --check app.js
       - name: Check Python news engine syntax
-        run: python -m py_compile scripts/fetch_news.py
+        run: |
+          python -m py_compile scripts/fetch_news.py
+          python -m py_compile scripts/edit_feed_with_jarvis.py
       - name: Check required UI assets
         run: |
           test -f index.html
