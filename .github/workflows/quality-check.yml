@@ -1,0 +1,34 @@
+name: Briefly quality check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "app.js"
+      - "scripts/fetch_news.py"
+      - "index.html"
+      - "style.css"
+      - "briefly-v2.css"
+      - ".github/workflows/quality-check.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check frontend JavaScript syntax
+        run: node --check app.js
+      - name: Check Python news engine syntax
+        run: python -m py_compile scripts/fetch_news.py
+      - name: Check required UI assets
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f briefly-v2.css
+          grep -q 'app.js?v=2' index.html
+          grep -q 'briefly-v2.css?v=1' index.html
+          echo "Briefly UI assets present and syntax-valid."
