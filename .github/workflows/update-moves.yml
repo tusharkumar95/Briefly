@@ -27,6 +27,8 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Check Python syntax
         run: python -m py_compile scripts/fetch_moves.py
       - name: Build Moves Intelligence
@@ -48,11 +50,43 @@ jobs:
               assert r.get('sourceUrl')
           print('Validated',len(records),'Moves Intelligence records')
           PY
-      - name: Commit Moves data
+      - name: Publish generated Moves data safely
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "briefly-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          publish_once() {
+            git add moves.json moves-history.json moves-intelligence.json
+            if git diff --cached --quiet; then
+              echo "Moves data already current."
+              return 0
+            fi
+            git commit -m "Update Moves Intelligence"
+            git push origin HEAD:main
+          }
+
+          if publish_once; then
+            exit 0
+          fi
+
+          echo "Main advanced while Moves was building. Regenerating from newest main instead of merging generated JSON."
+          git fetch origin main
+          git reset --hard origin/main
+          python scripts/fetch_moves.py
+          python - <<'PY'
+          import json
+          with open('moves-intelligence.json', encoding='utf-8') as f:
+              data=json.load(f)
+          assert data.get('engine')=='Moves Intelligence v2'
+          for r in data.get('records',[]):
+              assert r.get('market') in ('India','Canada')
+              assert r.get('direction') in ('BUY','SELL')
+              assert 0 <= int(r.get('moveScore',0)) <= 100
+              assert r.get('sourceUrl')
+          PY
           git add moves.json moves-history.json moves-intelligence.json
-          git diff --cached --quiet || git commit -m "Update Moves Intelligence"
-          git pull --rebase origin main
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Moves Intelligence"
+          git push origin HEAD:main
