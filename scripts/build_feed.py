@@ -29,9 +29,60 @@ MATERIAL = re.compile(r"(?i)\b(war|conflict|ceasefire|sanctions|missile|invasion
 CANADA_SIGNAL = re.compile(r"(?i)\b(canada|canadian|toronto|ontario|quebec|alberta|vancouver|ottawa|montreal|tsx|loonie|bank of canada)\b")
 INDIA_SIGNAL = re.compile(r"(?i)\b(india|indian|delhi|mumbai|bengaluru|hyderabad|rupee|rbi|nse|bse|nifty|sensex|reliance|tata|infosys|hdfc|adani)\b")
 
+TRUSTED_SOURCE = re.compile(
+    r"(?i)\b(reuters|associated press|ap news|bbc|cbc|the globe and mail|financial times|bloomberg|bnnbloomberg|"
+    r"bank of canada|statistics canada|statcan|reserve bank of india|rbi|sebi|international monetary fund|imf|"
+    r"world bank|world health organization|who|government of canada|government of india)\b"
+)
+
+PRIMARY_SOURCE = re.compile(
+    r"(?i)\b(bank of canada|statistics canada|statcan|reserve bank of india|rbi|sebi|international monetary fund|imf|"
+    r"world bank|world health organization|who|government of canada|government of india|openai|anthropic|deepmind)\b"
+)
+
+OFFICIAL_SEARCH_FEEDS = [
+    ("World", "(site:imf.org OR site:worldbank.org OR site:who.int) global economy growth health emergency when:24h"),
+    ("Canada", "(site:bankofcanada.ca OR site:statcan.gc.ca OR site:canada.ca) Canada economy inflation jobs housing trade when:24h"),
+    ("India", "(site:rbi.org.in OR site:sebi.gov.in OR site:pib.gov.in) India economy banking markets trade regulation when:24h"),
+    ("AI", "(site:openai.com OR site:anthropic.com OR site:deepmind.google) artificial intelligence model research safety platform when:24h"),
+]
+
+
+def source_boost(candidate, official_hint=False):
+    text = f"{candidate.get('source','')} {hostname(candidate.get('url',''))}"
+    boost = 0.0
+    if TRUSTED_SOURCE.search(text):
+        boost += 1.6
+    if PRIMARY_SOURCE.search(text):
+        boost += 1.4
+    if official_hint:
+        boost += 1.5
+    return boost
+
+
+def accept_region_candidate(candidate):
+    title = candidate.get("title", "")
+    category = candidate.get("category")
+    if category == "Canada" and not CANADA_SIGNAL.search(title):
+        return False
+    if category == "India" and not INDIA_SIGNAL.search(title):
+        return False
+    return True
+
+
+def append_candidate(candidates, seen_urls, candidate, official_hint=False):
+    if not candidate or not accept_region_candidate(candidate):
+        return
+    if candidate["url"] in seen_urls:
+        return
+    seen_urls.add(candidate["url"])
+    candidate["preScore"] += source_boost(candidate, official_hint=official_hint)
+    candidate["officialHint"] = bool(official_hint or PRIMARY_SOURCE.search(f"{candidate.get('source','')} {hostname(candidate.get('url',''))}"))
+    candidates.append(candidate)
+
 
 def collect_candidates_v2():
-    """Keep corroborating headlines so event clustering can reward multi-source agreement."""
+    """Keep corroborating headlines and explicitly seek high-authority primary sources."""
     candidates = []
     seen_urls = set()
 
@@ -40,9 +91,7 @@ def collect_candidates_v2():
             root = ET.fromstring(fetch_xml(rss_url))
             for item in root.findall("./channel/item")[:24]:
                 candidate = candidate_from_item(category, item, hostname(rss_url), direct=True)
-                if candidate and candidate["url"] not in seen_urls:
-                    seen_urls.add(candidate["url"])
-                    candidates.append(candidate)
+                append_candidate(candidates, seen_urls, candidate)
         except Exception as error:
             print("Direct feed error:", category, rss_url, error)
 
@@ -51,22 +100,21 @@ def collect_candidates_v2():
             root = ET.fromstring(fetch_xml(feed_url(query)))
             for item in root.findall("./channel/item")[:36]:
                 candidate = candidate_from_item(category, item, "Google News", direct=False)
-                if not candidate:
-                    continue
-                title = candidate["title"]
-                if category == "Canada" and not CANADA_SIGNAL.search(title):
-                    continue
-                if category == "India" and not INDIA_SIGNAL.search(title):
-                    continue
-                if candidate["url"] in seen_urls:
-                    continue
-                seen_urls.add(candidate["url"])
-                candidates.append(candidate)
+                append_candidate(candidates, seen_urls, candidate)
         except Exception as error:
             print("Search feed error:", category, error)
 
+    for category, query in OFFICIAL_SEARCH_FEEDS:
+        try:
+            root = ET.fromstring(fetch_xml(feed_url(query)))
+            for item in root.findall("./channel/item")[:18]:
+                candidate = candidate_from_item(category, item, "Official search", direct=False)
+                append_candidate(candidates, seen_urls, candidate, official_hint=True)
+        except Exception as error:
+            print("Official-source search error:", category, error)
+
     candidates.sort(key=lambda item: item["preScore"], reverse=True)
-    return candidates[:70]
+    return candidates[:80]
 
 
 def materially_useful(event):
@@ -123,6 +171,7 @@ def main():
         and not LOCAL_INCIDENT.search(candidate.get("title", ""))
     ]
     print("Collected", len(candidates), "non-noise candidates while preserving corroboration")
+    print("Official/primary candidates:", sum(1 for candidate in candidates if candidate.get("officialHint")))
 
     enriched = []
     with ThreadPoolExecutor(max_workers=8) as pool:
