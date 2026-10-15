@@ -1,0 +1,79 @@
+name: Update Briefly Markets
+
+on:
+  schedule:
+    - cron: "41 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_market_intelligence.py"
+      - "markets-v2.js"
+      - "markets-v2.css"
+      - ".github/workflows/update-markets.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: briefly-markets
+  cancel-in-progress: true
+
+jobs:
+  update-markets:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check market engine syntax
+        run: |
+          python -m py_compile scripts/fetch_news.py
+          python -m py_compile scripts/build_market_intelligence.py
+
+      - name: Build market intelligence
+        env:
+          JARVIS_URL: https://jarvis-ai-router.kumar-tushar95.workers.dev
+        run: python scripts/build_market_intelligence.py
+
+      - name: Validate market intelligence
+        run: |
+          python - <<'PY'
+          import json
+          with open('market-intelligence.json', encoding='utf-8') as f:
+              data=json.load(f)
+          assert data.get('engine') == 'Briefly Markets Intelligence v1'
+          markets=data.get('markets') or {}
+          assert set(markets) == {'Canada','India'}
+          for name, market in markets.items():
+              assert market.get('label') == name
+              assert market.get('direction') in {'up','down','flat','mixed','unclear'}
+              assert market.get('confidence') in {'high','medium','low'}
+              assert isinstance(market.get('drivers'), list)
+              assert isinstance(market.get('sources'), list)
+              assert market.get('primaryIndex',{}).get('name')
+              for driver in market.get('drivers',[]):
+                  assert driver.get('kind') in {'driver','context'}
+          print('Validated Markets Intelligence:', ', '.join(markets))
+          PY
+
+      - name: Publish latest market intelligence safely
+        env:
+          JARVIS_URL: https://jarvis-ai-router.kumar-tushar95.workers.dev
+        run: |
+          git config user.name "briefly-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "Main changed while Markets was running; rebuilding from latest main."
+            git reset --hard origin/main
+            python scripts/build_market_intelligence.py
+          fi
+          git add market-intelligence.json
+          if git diff --cached --quiet; then
+            echo "Market intelligence is unchanged."
+            exit 0
+          fi
+          git commit -m "Update Briefly Markets intelligence"
+          git push origin main
