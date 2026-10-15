@@ -11,6 +11,7 @@ on:
       - "scripts/build_feed.py"
       - "scripts/edit_feed_with_jarvis.py"
       - "scripts/finalize_feed.py"
+      - "scripts/refine_feed.py"
       - ".github/workflows/update-news.yml"
 
 permissions:
@@ -34,6 +35,10 @@ jobs:
           python -m py_compile scripts/build_feed.py
           python -m py_compile scripts/edit_feed_with_jarvis.py
           python -m py_compile scripts/finalize_feed.py
+          python -m py_compile scripts/refine_feed.py
+
+      - name: Preserve previous intelligence snapshot
+        run: cp data.json previous-data.json
 
       - name: Collect, extract, score and cluster news
         run: python scripts/build_feed.py
@@ -45,6 +50,9 @@ jobs:
 
       - name: Final deterministic editorial cleanup
         run: python scripts/finalize_feed.py
+
+      - name: Refine event memory and source quality
+        run: python scripts/refine_feed.py
 
       - name: Validate published intelligence feed
         run: |
@@ -60,6 +68,7 @@ jobs:
           stories = data.get('stories', [])
           assert data.get('engine') == 'Briefly Intelligence v2'
           assert 1 <= len(stories) <= 10
+          assert set((data.get('changeSummary') or {}).keys()) == {'new','updated','continuing'}
           ids = set()
           for story in stories:
               title = story.get('title', '')
@@ -71,6 +80,10 @@ jobs:
               assert story.get('cat') in {'World','Canada','India','AI','Canadian Markets','Indian Markets'}, title
               assert story.get('url','').startswith('http') and story.get('sources'), title
               assert story.get('confidence') in {'high','medium','low'} and story.get('status') in {'New','Updated'}, title
+              assert story.get('lifecycle') in {'New','Updated','Continuing'}, title
+              assert story.get('sourceQuality') in {'primary','tier-1','tier-2','general'}, title
+              assert isinstance(story.get('changed'), bool), title
+              assert len(story.get('change','')) >= 12, title
               assert not SPORTS.search(combined), title
               assert not JUNK.search(summary), title
               assert not MARKET_SERVICE.search(combined), title
@@ -79,6 +92,7 @@ jobs:
           print('Validated', len(stories), 'high-signal events')
           print('Jarvis-edited:', sum(s.get('editor') == 'Jarvis' for s in stories))
           print('Verified:', sum(bool(s.get('verified')) for s in stories))
+          print('Event changes:', data.get('changeSummary'))
           print('Final rejects:', data.get('finalRejectedCount', 0))
           PY
 
