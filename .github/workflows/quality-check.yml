@@ -7,6 +7,7 @@ on:
       - "app.js"
       - "trust-ui.js"
       - "moves-v2.js"
+      - "story-detail.js"
       - "scripts/fetch_news.py"
       - "scripts/build_feed.py"
       - "scripts/corroborate_feed.py"
@@ -16,10 +17,12 @@ on:
       - "scripts/update_history.py"
       - "scripts/fetch_moves.py"
       - "moves-intelligence.json"
+      - "history.json"
       - "index.html"
       - "style.css"
       - "briefly-v2.css"
       - "moves-v2.css"
+      - "story-detail.css"
       - ".github/workflows/quality-check.yml"
   workflow_dispatch:
 
@@ -36,6 +39,7 @@ jobs:
           node --check app.js
           node --check trust-ui.js
           node --check moves-v2.js
+          node --check story-detail.js
       - name: Check Python engines syntax
         run: |
           python -m py_compile scripts/fetch_news.py
@@ -53,7 +57,9 @@ jobs:
           grep -q 'changeSummary' scripts/refine_feed.py
           grep -q 'SNAPSHOT_RETENTION_HOURS' scripts/update_history.py
           grep -q 'corroboratedStories' scripts/corroborate_feed.py
-          echo "Briefly event-memory and corroboration contracts present."
+          grep -q 'timelineFor' story-detail.js
+          grep -q 'history.json' story-detail.js
+          echo "Briefly event-memory, detail timeline and corroboration contracts present."
       - name: Check Moves Intelligence contract
         run: |
           python - <<'PY'
@@ -80,11 +86,15 @@ jobs:
           test -f style.css
           test -f briefly-v2.css
           test -f moves-v2.css
+          test -f story-detail.css
           test -f trust-ui.js
           test -f moves-v2.js
+          test -f story-detail.js
           grep -q 'app.js?v=2' index.html
           grep -q 'trust-ui.js?v=1' index.html
           grep -q 'briefly-v2.css?v=1' index.html
           grep -q 'moves-v2.js?v=1' index.html
           grep -q 'moves-v2.css?v=1' index.html
-          echo "Briefly UI and Moves assets present and syntax-valid."
+          grep -q 'story-detail.js?v=1' index.html
+          grep -q 'story-detail.css?v=1' index.html
+          echo "Briefly UI, event detail and Moves assets present and syntax-valid."
