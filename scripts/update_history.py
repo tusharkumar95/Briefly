@@ -5,7 +5,7 @@ DATA_PATH = "data.json"
 HISTORY_PATH = "history.json"
 SNAPSHOT_RETENTION_HOURS = 72
 EVENT_RETENTION_DAYS = 7
-MAX_EVENT_SNAPSHOTS = 24
+MAX_EVENT_SNAPSHOTS = 72
 
 
 def load(path, default):
