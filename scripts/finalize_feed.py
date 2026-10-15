@@ -82,16 +82,18 @@ def improve_why(story):
 
     if SCIENCE_HEALTH.search(combined) and not AI_SIGNAL.search(combined):
         return "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology."
-    if re.search(r"(?i)\b(rbi|forex|fx speculation|currency market|rupee)\b", combined):
-        return "RBI action on currency speculation can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors."
-    if re.search(r"(?i)\b(bank of america|money laundering|regulatory penalty|fine)\b", combined):
-        return "A penalty of this scale can increase regulatory scrutiny and compliance costs for a major global financial institution."
+    if re.search(r"(?i)\b(imf|international monetary fund)\b", combined) and re.search(r"(?i)\b(india|rupee|gdp|data|fundamentals)\b", combined):
+        return "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook."
     if re.search(r"(?i)\b(imf|global growth|world growth)\b", combined):
         return "Changes in the global growth outlook can influence markets, trade, borrowing conditions and business investment across countries."
+    if re.search(r"(?i)\b(rbi|forex|fx speculation|currency market|rupee)\b", combined):
+        return "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors."
+    if re.search(r"(?i)\b(bank of america|money laundering|regulatory penalty|fine)\b", combined):
+        return "A penalty of this scale can increase regulatory scrutiny and compliance costs for a major global financial institution."
     if re.search(r"(?i)\b(inflation|consumer prices?|cpi)\b", combined):
         return "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power."
-    if re.search(r"(?i)\b(trade deal|tariff|market access)\b", combined):
-        return "The outcome could change tariffs, market access and trade conditions for businesses in both countries."
+    if re.search(r"(?i)\b(trade deal|tariff|market access|trade deficit|exports?|imports?)\b", combined):
+        return "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved."
     return normalize(story.get("why", ""))
 
 
