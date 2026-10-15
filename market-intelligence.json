@@ -1,45 +1,55 @@
 {
-  "updated": "2026-10-15T21:47:01.726600+00:00",
+  "updated": "2026-10-15T21:53:28.037329+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 3.13%",
+      "headline": "TSX climbs as bond yields retreat",
       "direction": "up",
-      "move": "S&P/TSX Composite +3.13%",
-      "why": "No single verified causal driver was established in the collected sources; the items below are market context rather than proven causes.",
+      "move": "The S&P/TSX Composite rose 552.6 points (1.55%) to 36,137.1",
+      "why": "Bond yields fell, lowering financing costs and supporting equity valuations, while a rebound in banks and technology stocks added further buying pressure",
       "drivers": [
         {
-          "label": "S&P/ TSX Composite closes 1.6 percent higher as yields fall - ad-hoc-news.de",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "yields fall - ad-hoc-news.de",
+          "detail": "ad-hoc-news.de explicitly links the market move to this factor in its same-day market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Canada stocks higher at close of trade; S&P/TSX Composite up 1.55% - Investing.com",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "Banks and Tech Stocks Rebound",
+          "detail": "TradingView explicitly links the market move to this factor in its same-day market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Canada shares higher at close of trade; S&P/TSX Composite up 1.55% - Investing.com India",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "Shopify Rebounds & Energy Stocks Rally – Check Gainers & Losers",
+          "detail": "The Sunday Guardian explicitly links the market move to this factor in its same-day market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Banks and Tech Stocks Slide",
+          "detail": "TradingView explicitly links the market move to this factor in its same-day market headline.",
+          "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Financials",
+        "Technology",
+        "Consumer discretionary",
+        "Energy"
+      ],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
         "price": 36137.1,
-        "previousClose": 35041.9,
-        "change": 1095.2,
-        "changePct": 3.13,
+        "previousClose": 35584.5,
+        "change": 552.6,
+        "changePct": 1.55,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
         "asOf": "2026-10-15T20:20:00+00:00",
-        "source": "Yahoo Finance chart feed"
+        "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
@@ -54,12 +64,6 @@
           "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 1.55% - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeTQ3UkQ3dktPZWt6bEl6Z280eTViS0RpbE5oZjlVM1l2RkJRUTZKYUF2RjJJS1FaUndpQkZ6UDJTeFJsVnBYZ3BCRWRJWWpyeXBtRU9UZUJmTm11T0psemtoSXYtR25EdVNac0pXLVkxUmk5SC1hMkdPQWxkUE9DZnpVODllNXIyM3VXU0FCQUhMRXBxa3FxNGlNMnZCZFhHWmhybUlwVnFiM1ZKVVFNWjZFNkRCSWZaVmc?oc=5",
           "publishedAt": "2026-10-15T20:37:33+00:00"
-        },
-        {
-          "name": "Investing.com India",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 1.55% - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbTNtRjVZUTBXNUlQZE1IVnZoQUZpMHR6S2I3WTV2aUhuQTdCNWdrUDRXSXZ2YXI0bk1yNUpjS2FLZ0c0eWc3WUFaYzFPSFR1Y2xKTzh6dTBLN0twQWQybVFYRzFfWTdQT0VTRjdET2ZpbEQwd09samhoc1NQUkU1enpwNlk2YXBxSlhLanN6Z2g3SV8yeXRLTFdYNm1TNmtsRXZ2d2FRckZwRGV1ME5UYXNsNVhrNkJD?oc=5",
-          "publishedAt": "2026-10-15T20:35:16+00:00"
         },
         {
           "name": "Investing.com UK",
@@ -78,79 +82,84 @@
           "title": "Canada Stock Market (TSX) Today (October 15): Why is the Canada Stock Market Down Today? S&P/TSX Composite Gains 164 Points to 35,749 as Shopify Rebounds & Energy Stocks Rally – Check Gainers & Losers - The Sunday Guardian",
           "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNVmpaZE5hbXlsYlN0TklreFlpeWZGTnRxVWJBbVhOSUEyMUI4dGFFdFhRRjN1SHJTcll6eUliMnctNExIeFo0V3ExTWl1MnFsbDhPZWh2cXNrQ0Y4Vi1pVTRib0YzQlRncFNYbzFUVTdyYlpfWVkzdVpjNVMxSFh5WUFSNGZGTXB1VWdTMkltc05QMEtDNlpxY2ZUVmc3NWdIMUVodElPUmhRYm1lbk8tNVlJMVRKN3lSUzEwamJFWTg0eC0yVlJPWmlyLUxNb3otVUQ4d0JheHdjSWZoR3RFc0Vib0Zka200Nk1sM2dzc0pCS1lrVnY5T1ZlaXF5SWpGcDFuRGVfTUUtZUZTazZJRTJXSE9CZ0tHbDRZSk5JbjNWX3lVNFBIblVYa1BMdWhscUFrRk1LQmVLVmhQaFl2NUV6cHhZbnE1VF92TFU0eGd4a3YtSWw0MtIB2AJBVV95cUxNVmpaZE5hbXlsYlN0TklreFlpeWZGTnRxVWJBbVhOSUEyMUI4dGFFdFhRRjN1SHJTcll6eUliMnctNExIeFo0V3ExTWl1MnFsbDhPZWh2cXNrQ0Y4Vi1pVTRib0YzQlRncFNYbzFUVTdyYlpfWVkzdVpjNVMxSFh5WUFSNGZGTXB1VWdTMkltc05QMEtDNlpxY2ZUVmc3NWdIMUVodElPUmhRYm1lbk8tNVlJMVRKN3lSUzEwamJFWTg0eC0yVlJPWmlyLUxNb3otVUQ4d0JheHdjSWZoR3RFc0Vib0Zka200Nk1sM2dzc0pCS1lrVnY5T1ZlaXF5SWpGcDFuRGVfTUUtZUZTazZJRTJXSE9CZ0tHbDRZSk5JbjNWX3lVNFBIblVYa1BMdWhscUFrRk1LQmVLVmhQaFl2NUV6cHhZbnE1VF92TFU0eGd4a3YtSWw0Mg?oc=5",
           "publishedAt": "2026-10-15T15:32:22+00:00"
+        },
+        {
+          "name": "TradingView",
+          "title": "TSX Falls as Banks and Tech Stocks Slide - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZmJSWDc5cG9jZW02TGVibk9IMW5zejVtZWhJVDFvaUlnNUxZMDhkWU1Gc0p3aGVuV3kzUW93d19zWXZqNm1OV0FsOHgzLUxyVFpfS1BYYmRYS0diUW1Jc2hHZExPZlU1NHJXb2ZIcFlNQ2NONWFTR0pzSnhjYUx4NEFXdFdJdXRJSlphMkM1NVZBOGQ4NVE?oc=5",
+          "publishedAt": "2026-10-15T14:10:59+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 2.12%",
-      "direction": "up",
-      "move": "Nifty 50 +2.12%",
-      "why": "No single verified causal driver was established in the collected sources; the items below are market context rather than proven causes.",
+      "headline": "Nifty 50 fell 0.44%",
+      "direction": "down",
+      "move": "Nifty 50 -0.44%",
+      "why": "Same-day market coverage explicitly linked the move to: IT stocks lead gains, Sensex up over 1,500 points; IT Stocks Rally 3% and Oil Eases After Trump Rules Out Pre-Midterm Iran Strike; rupee strengths.",
       "drivers": [
         {
-          "label": "US stocks: Dow, S&P 500 end higher as traders shift from AI to healthcare - The Economic T",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "IT stocks lead gains, Sensex up over 1,500 points",
+          "detail": "Hiru News explicitly links the market move to this factor in its same-day market headline.",
+          "kind": "driver"
         },
         {
-          "label": "S&P 500’s road to 8,000 grows tougher as yields rise, AI doubts mount; all eyes on quarter",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "IT Stocks Rally 3% and Oil Eases After Trump Rules Out Pre-Midterm Iran Strike",
+          "detail": "BBN Times explicitly links the market move to this factor in its same-day market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Indian shares rally as IT stocks lead gains, Sensex up over 1,500 points - Hiru News",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "rupee strengths",
+          "detail": "The Hindu explicitly links the market move to this factor in its same-day market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "IT and Banking Stocks Rally",
+          "detail": "Dalal Street Investment Journal explicitly links the market move to this factor in its same-day market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22997.35,
-        "previousClose": 22520.45,
-        "change": 476.9,
-        "changePct": 2.12,
+        "price": 22622.7,
+        "previousClose": 22721.95,
+        "change": -99.25,
+        "changePct": -0.44,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
         "asOf": "2026-10-15T10:01:19+00:00",
-        "source": "Yahoo Finance chart feed"
+        "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 74315.61,
-        "previousClose": 72472.33,
-        "change": 1843.28,
-        "changePct": 2.54,
+        "price": 72781.89,
+        "previousClose": 73033.78,
+        "change": -251.89,
+        "changePct": -0.34,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
         "asOf": "2026-10-15T10:02:29+00:00",
-        "source": "Yahoo Finance chart feed"
+        "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
-        {
-          "name": "The Economic Times",
-          "title": "US stocks: Dow, S&P 500 end higher as traders shift from AI to healthcare - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUFJwSTRmdGdyaDVmSVVuTUxOR1p0czc2ZVlLME1DTUpmcFNxdUhfR0Z1ZTFQcG9MZUlvZUtfc3ZTS2xseHhZS0lPV0NBMGdDODR1RnctYW1KUTVOd1IwNlZSSGp0bTBwNi1abERNNzMtRjRoeEdOdEFySjZ2dWtkQ24wTy1mRVRnSXhyVE1XNkhzYlhGbmVVYWNaMWl6ekREWlU2ZUdkb3Fib2RBNEwyRG5TdERMNFhxLXE1MWhqQk5seXVaZ1U2TzhJc3Z0dFhmeGVfaWIzYVdoczFzd3lLaEFB0gHiAUFVX3lxTFBQUnBJNGZ0Z3JoNWZJVW5NTE5HWnRzNzZlWUswTUNNSmZwU3F1SF9HRnVlMVBwb0xlSW9lS19zdlNLbGx4eFlLSU9XQ0EwZ0M4NHVGdy1hbUpRNU53UjA2VlJIanRtMHA2LVpsRE03My1GNGh4R050QXJKNnZ1a2RDbjBPLWZFVGdJeHJUTVc2SHNiWEZuZVVhY1oxaXp6RERaVTZlR2RvcWJvZEE0TDJEblN0REw0WHEtcTUxaGpCTmx5dVpnVTZPOElzdnR0WGZ4ZV9pYjNhV2hzMXN3eUtoQUE?oc=5",
-          "publishedAt": "2026-10-15T20:10:00+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "S&P 500’s road to 8,000 grows tougher as yields rise, AI doubts mount; all eyes on quarterly earnings - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPNG5vdXlLYURtTDAwRDNveS1ycEdDNmRVYzBiSWhvYk5xdnFWMFdFa3VqQUQ1REYtSjVzekIxSEJKZUFpTFBzOEJrTUNWYVlIR3hvLVU2UTVUTTZGQU9KeXVyT2QyNkdBZVVvZXVOVzlmdUVCUmtMUF8tM21TYmFpd2tQZ0VjWFlJNFEwZlF0OVRDS0NyRzEyMFgwMDkzbHhTTmg0TzNqdVp3OEpvNk1KaWZadmZib1hqcXB4RDVTMklJQUVtUDNObUpVbFZsS05GS0puNnRsRzZPMlFSQ2tSSnhBR0JvT3BLWG5vM3VDSnZBWUlBbzF4eS1NdzFzUXhkUFo4M1pGNlZCZjB4MkQ5c3ltMnHSAZoCQVVfeXFMTXA2aGtvejlTYjMzalNRWEhTVnpVemJwZ3lORkI1ZG1uU0lIM1dKSG94TnlpRGFQVjFjWVNLY2JyUEo4ZTdIS0dOT0tpWFl4RFdmbXhXcjRYX0tKWDdmcm1ZRDdqYzB3N3drcUNKcHRuX3BDYS1Gb3hNUVlXbkg5ejdKZXZtUWdmYjkwZjR4aUJDVWRULWhySzVZSXJ1eUQ3ZEo5NHgyWG9weVBaVUN4WEZxUmttenR0cnZ6OHdGRkFjV0VuVkxmN3QyMzREdzdnWlFZa2NMcjdQZUNQWXRRd1I3VVBGeEpndk1Edmh1UEotTFhfdENLdWZBUFJ4VEgtVUlTRl9fV3dzRUxQZ0E2VHUtRFlMYkRyMjFn?oc=5",
-          "publishedAt": "2026-10-15T17:06:16+00:00"
-        },
         {
           "name": "Hiru News",
           "title": "Indian shares rally as IT stocks lead gains, Sensex up over 1,500 points - Hiru News",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNmw5R2d6Ymk1MWpfcXFWTGIxTk15MlZtZEV6d1BkbnBSS2dyWjdtM1lzTjJ0WEU4NWhSaTlxNEFxdFVsQTV1MnBjZVJtOTNqM1JYaWtFSWhmTnNyZkZtLUxKbWFYaXBiNVl1bGFXakx5WVVLWUNpZ0RJLVYzbDgzbFJEVHRVWDdlTWhfaWc3SlJlVkpGZUlneW9XWjU4Tm5aS256X1lIU2hpdzQy?oc=5",
           "publishedAt": "2026-10-15T15:43:47+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "BSE Sensex Rebounds to 72,472.33 as IT Stocks Rally 3% and Oil Eases After Trump Rules Out Pre-Midterm Iran Strike - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQTJXZ1dlWU9ZM1lWeHRWRkxBOEhMQWV1WEU2MklDby1WbEtsRVpraDN6N0ZvakFDQWMxSWZkeHJaNlRfRElKR0tsbWJzS0tGd3VPRDZDdVVUMGdrQW5HS2UwV1ZibFk3cFBKNWtvRi11dE5WdTlsMnNaamdJTjIxRElrUGlwcnV0anhOMWJTU3g0NnJzQzlJZlRqRGRnQ1Ywb3dZaXpWVHUydUp6cUZDVmpIUmV0UXdaMS1KOUhoQk5wUC05LUduNkJBLTRvdFc5SzFqRk4yMTNmOWc5VGYxNzFHY2FRZEdG?oc=5",
+          "publishedAt": "2026-10-15T13:50:07+00:00"
         },
         {
           "name": "The Hindu",
@@ -165,10 +174,16 @@
           "publishedAt": "2026-10-15T10:34:28+00:00"
         },
         {
+          "name": "www.indiagazette.com",
+          "title": "Sensex closes 1,534 points higher, Nifty gains 1.66% as global sell-off in AI heavy markets improves India's relative appeal - www.indiagazette.com",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONXA0WmFXYmxMRWtUbEMxWlFmSGlPQlRpb3JDbTRvUG5rcmxpN19UZDNxS280WWJXYkxBWWZIZWtlanBoVnJWUDQ4WW1WTnlvZHozNm5EWGh4NTdFaS1iRlZLT05kS3ROalZsWHMxc2xoWW1jSmRZeGhMVGtGUXU3SGVLeDQ0WXNNVk5VYnpVQ0pha0pGX0NPOUFaLXJrTnl3YU9lNDNKNHJYYVhqc2pSQ2RHcEs3dFU1bml1RDViR2RXRHNpQ29mZzkyZ2ozdFkxODA2UkhzWkgtRlo2dWtLMV9HMzlqaFlNWC0yLXpuT1dJNGV6?oc=5",
+          "publishedAt": "2026-10-15T06:42:00+00:00"
+        },
+        {
           "name": "The Economic Times",
-          "title": "Global Market: European shares fall as global tech selloff, rate fears weigh on sentiment - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQR3o3ZHlOQWpLX1VaelliRTZXQlpsYktaZzNkRHdPbDdLMFVHeUoxQkNiTkFUOHliM2FPcmgyUmJ6SDVQcWkwZkNBYlZ2NGtXNzNTbktMakttLThmWThKWTR2dWpJRlVjYTBNbGdWWndrU0FpRGlrR3BkSXNNVmF3TTlYdFFYNVd3QWhLdGtxbzJ1X0JwaG1JUGxXNHVQbndaZXZRZExRVjZqNnR3VnNhWXJ5Y1k5Wm5qMjRISlE2NDVyeTZoY0VGakVVTjBlSUk1UjJxcjdmYjFCNElIRDFLbEFENjNfVy1XajZXci0yLWhYZmw5cktJ0gH8AUFVX3lxTE10M0dkclJSd0JVaFpXblBZN25UTXd4U3dMcFdpazVFQjNScWk0ZFdzenBJOW1acHVvbF9ldzJHQ0pLcVVlZXBVMW5iaGpTNThqMjNWVFRZNi1Hdzg3TUpWTW45YzFJX1Q5dkxKVVFMMV9YTEdQb2d2enV4Vk41NEh3OGJnd0JlSnE4OU5xMzR4WnI5RERoX2RTMWlEU3Y2Wk1ld3NtaXdnalV2dEVtUTZ6TTFtMWlHSUFiWURuSU91Zng2bkNpQm5hdGlObFItYnpZZ0FlSUZlWGt2aHE0UFNKYTVoVGExWDNLWV9HczRBU2luem0zTGRRR2lzbA?oc=5",
-          "publishedAt": "2026-10-15T09:36:41+00:00"
+          "title": "Sensex on fire! 1,500-point rally puts bulls back in the driver’s seat. What just happened? - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQT3N1ZXZHdU5QWlBFZVNaY2RqZzJyd3loeEhsenZyMzZSSC1yOV9lWnhJRDBJYVBISXhPSUI2R1NPUm4zVy1NQ3pvd19qRXBhZV8yRThkOWJfZi12bmlkbkhrbkJGYTJXdldLQVNuam52M2tidkg4SF94X0J4dl8zZ2lrN05jT3YtMDlRWWRic1dhQVVmNVBDWUtyeFAteml5Tk0yNzFGMm14T1ZsT0d6TF9LMnlXYkpjUGhBRk9NRWNfczhTYUNYY2NuWGlNNTBlRVFpSVBXTTl4NEJPSkFlRHJaaGFqc21RWlBGdFg2VTZWeXpLang1dWhUUVV2UE1JRFQ1THBOUHfSAY4CQVVfeXFMTnZLQ2VxWWhNYktRNTRkTThiTWVDZ1FWSVBKUHdNdVZsdHExY2tEUUZBRGdXY01keXdwMTFEV05oamY0VXptU2ItcGFUamsyQnV1MjZ2ak9lOHhMbFNnbFNvQjk3aFFraFRuR09kOHYzY3BuQWJSWFB2WmE4cUVNdWhxbVRMNTBqcUg2VV9QZHkwMkt2QVpMcncwaE1BdXd0N09UYjZQX080YWhha094b2owb3doYUZxOEpqMVNjOEFFM3psVTUtVkMxQ3F3ZllOVGtnNTdwNjVadE5idWxvQUV6WHRzS1RQWFlsc3FlbXpZQ1dBX3paX1NjZndYTDZ0blB3VWdiZGxqUk1iWnJB?oc=5",
+          "publishedAt": "2026-10-15T04:29:30+00:00"
         }
       ],
       "evidenceCount": 7
