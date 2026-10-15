@@ -7,6 +7,7 @@ on:
       - "app.js"
       - "trust-ui.js"
       - "moves-v2.js"
+      - "markets-v2.js"
       - "story-detail.js"
       - "scripts/fetch_news.py"
       - "scripts/build_feed.py"
@@ -16,12 +17,15 @@ on:
       - "scripts/refine_feed.py"
       - "scripts/update_history.py"
       - "scripts/fetch_moves.py"
+      - "scripts/build_market_intelligence.py"
       - "moves-intelligence.json"
+      - "market-intelligence.json"
       - "history.json"
       - "index.html"
       - "style.css"
       - "briefly-v2.css"
       - "moves-v2.css"
+      - "markets-v2.css"
       - "story-detail.css"
       - ".github/workflows/quality-check.yml"
   workflow_dispatch:
@@ -39,6 +43,7 @@ jobs:
           node --check app.js
           node --check trust-ui.js
           node --check moves-v2.js
+          node --check markets-v2.js
           node --check story-detail.js
       - name: Check Python engines syntax
         run: |
@@ -50,6 +55,7 @@ jobs:
           python -m py_compile scripts/refine_feed.py
           python -m py_compile scripts/update_history.py
           python -m py_compile scripts/fetch_moves.py
+          python -m py_compile scripts/build_market_intelligence.py
       - name: Check event-memory contract
         run: |
           grep -q 'sourceQuality' scripts/refine_feed.py
@@ -80,21 +86,46 @@ jobs:
           grep -q 'moves-history.json' scripts/fetch_moves.py
           grep -q 'Insider Buying' moves-v2.js
           grep -q 'whyNotable' moves-v2.js
+      - name: Check Markets Intelligence contract
+        run: |
+          python - <<'PY'
+          import json
+          with open('market-intelligence.json', encoding='utf-8') as f:
+              data=json.load(f)
+          assert data.get('engine') == 'Briefly Markets Intelligence v1'
+          markets=data.get('markets') or {}
+          for name, market in markets.items():
+              assert name in {'Canada','India'}
+              assert market.get('direction') in {'up','down','flat','mixed','unclear'}
+              assert market.get('confidence') in {'high','medium','low'}
+              assert isinstance(market.get('drivers'), list)
+              for driver in market.get('drivers',[]):
+                  assert driver.get('kind') in {'driver','context'}
+          print('Markets Intelligence contract valid:', ', '.join(markets) if markets else 'seed awaiting first refresh')
+          PY
+          grep -q 'Yahoo Finance chart feed' scripts/build_market_intelligence.py
+          grep -q 'kind":"driver|context' scripts/build_market_intelligence.py
+          grep -q 'WHY IT MOVED' markets-v2.js
+          grep -q 'Cause, not commentary' markets-v2.js
       - name: Check required UI assets
         run: |
           test -f index.html
           test -f style.css
           test -f briefly-v2.css
           test -f moves-v2.css
+          test -f markets-v2.css
           test -f story-detail.css
           test -f trust-ui.js
           test -f moves-v2.js
+          test -f markets-v2.js
           test -f story-detail.js
           grep -q 'app.js?v=2' index.html
           grep -q 'trust-ui.js?v=1' index.html
           grep -q 'briefly-v2.css?v=1' index.html
           grep -q 'moves-v2.js?v=1' index.html
           grep -q 'moves-v2.css?v=1' index.html
+          grep -q 'markets-v2.js?v=1' index.html
+          grep -q 'markets-v2.css?v=1' index.html
           grep -q 'story-detail.js?v=1' index.html
           grep -q 'story-detail.css?v=1' index.html
-          echo "Briefly UI, event detail and Moves assets present and syntax-valid."
+          echo "Briefly UI, event detail, Moves and Markets assets present and syntax-valid."
