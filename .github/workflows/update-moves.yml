@@ -5,23 +5,54 @@ on:
     - cron: "30 12 * * 1-5"
     - cron: "30 14 * * 1-5"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_moves.py"
+      - "moves-canada-verified.json"
+      - "moves-canada-sedi.json"
+      - ".github/workflows/update-moves.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: briefly-moves
+  cancel-in-progress: true
+
 jobs:
   update-moves:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - name: Check Python syntax
         run: python -m py_compile scripts/fetch_moves.py
-      - name: Build India Moves feed
+      - name: Build Moves Intelligence
         run: python scripts/fetch_moves.py
+      - name: Validate Moves output
+        run: |
+          python - <<'PY'
+          import json
+          with open('moves-intelligence.json', encoding='utf-8') as f:
+              data=json.load(f)
+          assert data.get('engine')=='Moves Intelligence v2'
+          records=data.get('records',[])
+          assert isinstance(records,list)
+          for r in records:
+              assert r.get('market') in ('India','Canada')
+              assert r.get('direction') in ('BUY','SELL')
+              assert 0 <= int(r.get('moveScore',0)) <= 100
+              assert r.get('strength') in ('Exceptional','Strong','Worth watching','Low signal')
+              assert r.get('sourceUrl')
+          print('Validated',len(records),'Moves Intelligence records')
+          PY
       - name: Commit Moves data
         run: |
           git config user.name "briefly-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add moves.json moves-history.json
-          git diff --cached --quiet || git commit -m "Update investor moves"
+          git add moves.json moves-history.json moves-intelligence.json
+          git diff --cached --quiet || git commit -m "Update Moves Intelligence"
+          git pull --rebase origin main
           git push
