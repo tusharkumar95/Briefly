@@ -84,7 +84,6 @@ def append_candidate(candidates, seen_urls, candidate, official_hint=False):
 
 
 def collect_candidates_v2():
-    """Keep corroborating headlines and explicitly seek high-authority primary sources."""
     candidates = []
     seen_urls = set()
 
@@ -92,8 +91,7 @@ def collect_candidates_v2():
         try:
             root = ET.fromstring(fetch_xml(rss_url))
             for item in root.findall("./channel/item")[:24]:
-                candidate = candidate_from_item(category, item, hostname(rss_url), direct=True)
-                append_candidate(candidates, seen_urls, candidate)
+                append_candidate(candidates, seen_urls, candidate_from_item(category, item, hostname(rss_url), direct=True))
         except Exception as error:
             print("Direct feed error:", category, rss_url, error)
 
@@ -101,8 +99,7 @@ def collect_candidates_v2():
         try:
             root = ET.fromstring(fetch_xml(feed_url(query)))
             for item in root.findall("./channel/item")[:36]:
-                candidate = candidate_from_item(category, item, "Google News", direct=False)
-                append_candidate(candidates, seen_urls, candidate)
+                append_candidate(candidates, seen_urls, candidate_from_item(category, item, "Google News", direct=False))
         except Exception as error:
             print("Search feed error:", category, error)
 
@@ -110,8 +107,7 @@ def collect_candidates_v2():
         try:
             root = ET.fromstring(fetch_xml(feed_url(query)))
             for item in root.findall("./channel/item")[:18]:
-                candidate = candidate_from_item(category, item, "Official search", direct=False)
-                append_candidate(candidates, seen_urls, candidate, official_hint=True)
+                append_candidate(candidates, seen_urls, candidate_from_item(category, item, "Official search", direct=False), official_hint=True)
         except Exception as error:
             print("Official-source search error:", category, error)
 
@@ -123,30 +119,19 @@ def materially_useful(event):
     title = event.get("title", "")
     if SPORTS.search(title) or ENTERTAINMENT.search(title) or LOCAL_INCIDENT.search(title):
         return False
-
     source_count = int(event.get("sourceCount", 1) or 1)
     category = event.get("cat")
-
-    # Routine price moves/quarterly beats from a single smaller company are not Briefly-level news.
     if category in ("Canadian Markets", "Indian Markets") and ROUTINE_MARKET.search(title):
         if source_count < 2 and not MAJOR_COMPANY.search(title):
             return False
-
-    # Local/national/general feeds need either real materiality or independent corroboration.
-    if category in ("World", "Canada", "India"):
-        if not MATERIAL.search(title) and source_count < 2:
-            return False
-
-    # AI has a high novelty-to-importance ratio, so single-source feature stories are rejected.
-    # A single-source item must describe a material platform, regulatory, security, compute,
-    # financing or research development rather than merely an interesting use of AI.
+    if category in ("World", "Canada", "India") and not MATERIAL.search(title) and source_count < 2:
+        return False
     if category == "AI":
         if source_count < 2 and AI_SOFT_STORY.search(title):
             return False
         if source_count >= 2:
             return bool(AI_MATERIAL.search(title) or MATERIAL.search(title) or MAJOR_COMPANY.search(title))
         return bool(AI_MATERIAL.search(title) or (MAJOR_COMPANY.search(title) and re.search(r"(?i)\b(launch|release|acquire|buy|invest|fund|regulat|ban|lawsuit|court|outage|breach|chip|model)\b", title)))
-
     return True
 
 
@@ -154,10 +139,7 @@ def seed_story(event):
     summary = fallback_summary(event)
     if len(summary) < 80 or BOILERPLATE.search(summary):
         return None
-    sources = [
-        {key: source[key] for key in ("name", "url", "publishedAt")}
-        for source in event.get("sources", [])
-    ]
+    sources = [{key: source[key] for key in ("name", "url", "publishedAt")} for source in event.get("sources", [])]
     if not sources:
         return None
     return {
@@ -172,14 +154,11 @@ def seed_story(event):
 
 
 def main():
-    candidates = [
-        candidate for candidate in collect_candidates_v2()
-        if not SPORTS.search(candidate.get("title", ""))
-        and not ENTERTAINMENT.search(candidate.get("title", ""))
-        and not LOCAL_INCIDENT.search(candidate.get("title", ""))
-    ]
+    raw_candidates = collect_candidates_v2()
+    candidates = [candidate for candidate in raw_candidates if not SPORTS.search(candidate.get("title", "")) and not ENTERTAINMENT.search(candidate.get("title", "")) and not LOCAL_INCIDENT.search(candidate.get("title", ""))]
+    official_count = sum(1 for candidate in candidates if candidate.get("officialHint"))
     print("Collected", len(candidates), "non-noise candidates while preserving corroboration")
-    print("Official/primary candidates:", sum(1 for candidate in candidates if candidate.get("officialHint")))
+    print("Official/primary candidates:", official_count)
 
     enriched = []
     with ThreadPoolExecutor(max_workers=8) as pool:
@@ -195,7 +174,8 @@ def main():
             except Exception as error:
                 print("Article enrichment error:", error)
 
-    print("Readable candidates:", sum(1 for item in enriched if item.get("readable")), "/", len(enriched))
+    readable_count = sum(1 for item in enriched if item.get("readable"))
+    print("Readable candidates:", readable_count, "/", len(enriched))
     events = build_events(cluster_candidates(enriched))
     material_events = [event for event in events if materially_useful(event)]
     selected = select_events(material_events)
@@ -208,9 +188,20 @@ def main():
         if story:
             stories.append(story)
     stories = carry_event_history(stories)
-
     if not stories:
         raise RuntimeError("No reliable high-signal stories produced; previous feed preserved")
+
+    coverage = {
+        "rawCandidates": len(raw_candidates),
+        "nonNoiseCandidates": len(candidates),
+        "officialOrPrimaryCandidates": official_count,
+        "enrichedCandidates": len(enriched),
+        "readableCandidates": readable_count,
+        "eventClusters": len(events),
+        "materialEvents": len(material_events),
+        "selectedEvents": len(selected),
+        "seededStories": len(stories),
+    }
 
     with open("data.json", "w", encoding="utf-8") as handle:
         json.dump({
@@ -218,9 +209,11 @@ def main():
             "engine": "Briefly Intelligence v2",
             "editor": "Awaiting Jarvis editorial gate",
             "windowHours": 24,
+            "coverage": coverage,
             "stories": stories[:10],
         }, handle, ensure_ascii=False, indent=2)
 
+    print("Coverage telemetry:", coverage)
     print("Prepared", len(stories[:10]), "material events for editorial review")
 
 
