@@ -28,6 +28,8 @@ MAJOR_COMPANY = re.compile(r"(?i)\b(reliance|tata|infosys|hdfc|icici|sbi|adani|b
 MATERIAL = re.compile(r"(?i)\b(war|conflict|ceasefire|sanctions|missile|invasion|attack|earthquake|hurricane|flood|wildfire|disaster|emergency|outbreak|cyberattack|major outage|recession|default|bankruptcy|tariff|trade deal|trade war|rate cut|rate hike|interest rates?|inflation|gdp|unemployment|mass layoffs?|merger|acquisition|takeover|ipo|regulation|antitrust|court ruling|ban|approval|breakthrough|semiconductor|chips?|nuclear|energy crisis|supply chain|housing|mortgage|imf|world bank|central bank|bank of canada|rbi|money laundering|billion|trillion)\b")
 CANADA_SIGNAL = re.compile(r"(?i)\b(canada|canadian|toronto|ontario|quebec|alberta|vancouver|ottawa|montreal|tsx|loonie|bank of canada)\b")
 INDIA_SIGNAL = re.compile(r"(?i)\b(india|indian|delhi|mumbai|bengaluru|hyderabad|rupee|rbi|nse|bse|nifty|sensex|reliance|tata|infosys|hdfc|adani)\b")
+AI_SOFT_STORY = re.compile(r"(?i)\b(pitches?|betting on|demo(?:s|ed)?|showcases?|explains?|shares? how|sends? ai agents?|new labels?|music labels?|creator tools?|tips?|interview|podcast)\b")
+AI_MATERIAL = re.compile(r"(?i)\b(regulation|law|ban|court ruling|copyright|antitrust|acquisition|merger|bankruptcy|security breach|cyberattack|major outage|export controls?|semiconductor|chips?|data cent(?:er|re)|compute|billion|breakthrough|benchmark record|launches?.*(?:model|chip|agent)|releases?.*(?:model|chip|agent)|rolls? out.*(?:model|chip|agent))\b")
 
 TRUSTED_SOURCE = re.compile(
     r"(?i)\b(reuters|associated press|ap news|bbc|cbc|the globe and mail|financial times|bloomberg|bnnbloomberg|"
@@ -135,9 +137,15 @@ def materially_useful(event):
         if not MATERIAL.search(title) and source_count < 2:
             return False
 
-    # AI company failures, major model/platform moves and regulation can matter even from one strong source.
+    # AI has a high novelty-to-importance ratio, so single-source feature stories are rejected.
+    # A single-source item must describe a material platform, regulatory, security, compute,
+    # financing or research development rather than merely an interesting use of AI.
     if category == "AI":
-        return bool(MATERIAL.search(title) or re.search(r"(?i)\b(openai|anthropic|deepmind|nvidia|meta|google|microsoft|model|agent|robotics|compute|AI)\b", title) or source_count >= 2)
+        if source_count < 2 and AI_SOFT_STORY.search(title):
+            return False
+        if source_count >= 2:
+            return bool(AI_MATERIAL.search(title) or MATERIAL.search(title) or MAJOR_COMPANY.search(title))
+        return bool(AI_MATERIAL.search(title) or (MAJOR_COMPANY.search(title) and re.search(r"(?i)\b(launch|release|acquire|buy|invest|fund|regulat|ban|lawsuit|court|outage|breach|chip|model)\b", title)))
 
     return True
 
