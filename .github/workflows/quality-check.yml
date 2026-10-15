@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "app.js"
+      - "trust-ui.js"
       - "scripts/fetch_news.py"
       - "scripts/build_feed.py"
       - "scripts/edit_feed_with_jarvis.py"
@@ -25,7 +26,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check frontend JavaScript syntax
-        run: node --check app.js
+        run: |
+          node --check app.js
+          node --check trust-ui.js
       - name: Check Python news engine syntax
         run: |
           python -m py_compile scripts/fetch_news.py
@@ -44,6 +47,8 @@ jobs:
           test -f index.html
           test -f style.css
           test -f briefly-v2.css
+          test -f trust-ui.js
           grep -q 'app.js?v=2' index.html
+          grep -q 'trust-ui.js?v=1' index.html
           grep -q 'briefly-v2.css?v=1' index.html
           echo "Briefly UI assets present and syntax-valid."
