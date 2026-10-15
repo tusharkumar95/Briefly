@@ -2,6 +2,7 @@ import json
 import re
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -12,13 +13,16 @@ NOW = datetime.now(timezone.utc)
 OUT = "market-intelligence.json"
 
 NOISE = re.compile(r"(?i)\b(stocks? to buy|top picks?|price target|brokerage call|buy call|sell call|multibagger|gmp|grey market premium|subscription status|allotment|record date|ex-dividend|dividend alert|technical setup|chart pattern)\b")
-DRIVER_WORDS = re.compile(r"(?i)\b(because|after|amid|as |on |following|driven|weighed|lifted|boosted|hurt|pressure|supported|oil|crude|gold|banks?|miners?|technology|rate|rates|inflation|jobs|employment|trade|tariff|currency|rupee|loonie|foreign investors?|fii|dii|earnings|guidance|china|u\.s\.|fed|bank of canada|rbi)\b")
+DRIVER_WORDS = re.compile(r"(?i)\b(because|after|amid|as |following|driven|weighed|lifted|boosted|hurt|pressure|supported|oil|crude|gold|banks?|miners?|technology|rate|rates|inflation|jobs|employment|trade|tariff|currency|rupee|loonie|foreign investors?|fii|dii|earnings|guidance|china|u\.s\.|fed|bank of canada|rbi)\b")
+MOVE_WORDS = re.compile(r"(?i)\b(closes?|closed|ends?|ended|rises?|rose|gains?|gained|rall(?:y|ies|ied)|falls?|fell|drops?|dropped|slips?|slid|flat|little changed|record high|record low|higher|lower)\b")
+CAUSE_JOIN = re.compile(r"(?i)\b(as|after|amid|following|with)\b\s+(.+)$")
 
 MARKETS = {
     "Canada": {
         "label": "Canada",
         "primary": ("^GSPTSE", "S&P/TSX Composite"),
         "secondary": None,
+        "market_terms": re.compile(r"(?i)\b(tsx|s&p/tsx|canad(?:a|ian) (?:stocks?|shares?|market))\b"),
         "queries": [
             "TSX closes higher lower today why market Canada when:1d",
             "S&P TSX Composite today oil banks miners rates market when:1d",
@@ -29,6 +33,7 @@ MARKETS = {
         "label": "India",
         "primary": ("^NSEI", "Nifty 50"),
         "secondary": ("^BSESN", "Sensex"),
+        "market_terms": re.compile(r"(?i)\b(nifty|sensex|nse|bse|india(?:n)? (?:stocks?|shares?|market))\b"),
         "queries": [
             "Nifty Sensex closes higher lower today why market India when:1d",
             "Nifty 50 Sensex today FII DII rupee crude market drivers when:1d",
@@ -71,12 +76,19 @@ def index_snapshot(symbol, name):
                 continue
             meta = result.get("meta") or {}
             closes = [x for x in (((result.get("indicators") or {}).get("quote") or [{}])[0].get("close") or []) if isinstance(x, (int, float))]
-            price = meta.get("regularMarketPrice")
-            if not isinstance(price, (int, float)) and closes:
+
+            # For a 1-day chart interval the last two closes are the safest
+            # apples-to-apples session comparison. Yahoo's chartPreviousClose
+            # metadata can point at the beginning of the requested range.
+            if closes:
                 price = closes[-1]
-            previous = meta.get("chartPreviousClose") or meta.get("previousClose")
-            if not isinstance(previous, (int, float)) and len(closes) >= 2:
+            else:
+                price = meta.get("regularMarketPrice")
+            if len(closes) >= 2:
                 previous = closes[-2]
+            else:
+                previous = meta.get("previousClose") or meta.get("chartPreviousClose")
+
             change = (price - previous) if isinstance(price, (int, float)) and isinstance(previous, (int, float)) else None
             pct = (change / previous * 100) if change is not None and previous else None
             market_time = meta.get("regularMarketTime")
@@ -92,7 +104,7 @@ def index_snapshot(symbol, name):
                 "exchange": meta.get("exchangeName") or meta.get("fullExchangeName") or "",
                 "timezone": meta.get("exchangeTimezoneName") or "",
                 "asOf": as_of,
-                "source": "Yahoo Finance chart feed",
+                "source": "Yahoo Finance daily chart feed",
             }
         except Exception as error:
             last_error = error
@@ -103,6 +115,15 @@ def index_snapshot(symbol, name):
 def item_source(item):
     node = item.find("source")
     return clean(node.text if node is not None and node.text else "News")
+
+
+def title_without_source(title):
+    value = clean(title)
+    return re.sub(r"\s+-\s+[^-]{2,90}$", "", value).strip()
+
+
+def normalized_title_key(title):
+    return re.sub(r"\W+", " ", title_without_source(title).lower()).strip()
 
 
 def score_item(title, source, description, published):
@@ -116,7 +137,7 @@ def score_item(title, source, description, published):
     score += max((weight for key, weight in SOURCE_BOOST.items() if key in source_low), default=0)
     if DRIVER_WORDS.search(text):
         score += 3
-    if re.search(r"(?i)\b(closes?|closed|ends?|ended|rises?|rose|gains?|gained|falls?|fell|drops?|dropped|slips?|slid|flat|little changed|record high|record low)\b", text):
+    if MOVE_WORDS.search(text):
         score += 3
     if re.search(r"(?i)\b(tsx|s&p/tsx|nifty|sensex)\b", text):
         score += 3
@@ -140,7 +161,12 @@ def collect_news(config):
             source = item_source(item)
             if not title or not url or not published or (NOW - published).total_seconds() > 36 * 3600:
                 continue
-            key = re.sub(r"\W+", " ", title.lower()).strip()
+            # A market-wrap result must identify the market in its headline.
+            # This blocks generic U.S./global stories that happen to rank for
+            # an India or Canada query.
+            if not config["market_terms"].search(title):
+                continue
+            key = normalized_title_key(title)
             if key in seen:
                 continue
             seen.add(key)
@@ -168,6 +194,24 @@ def collect_news(config):
     return rows
 
 
+def explicit_title_driver(row):
+    headline = title_without_source(row.get("title") or "")
+    if not MOVE_WORDS.search(headline):
+        return None
+    match = CAUSE_JOIN.search(headline)
+    if not match:
+        return None
+    cause = clean(match.group(2))
+    if not cause or len(cause) < 4:
+        return None
+    cause = cause.rstrip(" .;:")
+    return {
+        "label": cause[:90],
+        "detail": f"{row.get('source') or 'The source'} explicitly links the market move to this factor in its same-day market headline.",
+        "kind": "driver",
+    }
+
+
 def direction_from_pct(value):
     if not isinstance(value, (int, float)):
         return "unclear"
@@ -184,7 +228,7 @@ def call_jarvis(prompt, market):
         req = urllib.request.Request(
             JARVIS_URL.rstrip("/") + "/chat",
             data=body,
-            headers={"Content-Type": "application/json", "User-Agent": "Briefly-Markets/1.0"},
+            headers={"Content-Type": "application/json", "User-Agent": "Briefly-Markets/1.1"},
             method="POST",
         )
         try:
@@ -252,7 +296,18 @@ def normalize_analysis(label, primary, secondary, news, model):
         move = f"{index_name} move unavailable"
         fallback_headline = f"{label} market move could not be verified from the index feed"
 
+    # Deterministic evidence from a same-day market-wrap headline is kept even
+    # if the language model is unavailable. We only promote a factor when the
+    # headline itself grammatically links the market move to that factor.
+    title_drivers = [driver for driver in (explicit_title_driver(row) for row in news) if driver]
     drivers = []
+    seen_driver_labels = set()
+    for row in title_drivers:
+        key = row["label"].lower()
+        if key not in seen_driver_labels:
+            seen_driver_labels.add(key)
+            drivers.append(row)
+
     if isinstance(model, dict):
         for row in model.get("drivers") or []:
             if not isinstance(row, dict):
@@ -260,11 +315,14 @@ def normalize_analysis(label, primary, secondary, news, model):
             label_text = clean(row.get("label") or "")[:90]
             detail = clean(row.get("detail") or "")[:300]
             kind = str(row.get("kind") or "context").lower()
-            if label_text and detail:
+            key = label_text.lower()
+            if label_text and detail and key not in seen_driver_labels:
+                seen_driver_labels.add(key)
                 drivers.append({"label": label_text, "detail": detail, "kind": "driver" if kind == "driver" else "context"})
+
     if not drivers:
         for row in news[:3]:
-            drivers.append({"label": row["title"][:90], "detail": "Relevant same-day market context from the collected source.", "kind": "context"})
+            drivers.append({"label": title_without_source(row["title"])[:90], "detail": "Relevant same-day market context from the collected source.", "kind": "context"})
 
     model_direction = str((model or {}).get("direction") or "").lower()
     direction = model_direction if model_direction in {"up", "down", "flat", "mixed", "unclear"} else deterministic_direction
@@ -272,12 +330,15 @@ def normalize_analysis(label, primary, secondary, news, model):
         direction = deterministic_direction
 
     why = clean((model or {}).get("why") or "")[:520]
+    if not why and title_drivers:
+        causes = "; ".join(driver["label"] for driver in title_drivers[:3])
+        why = f"Same-day market coverage explicitly linked the move to: {causes}."
     if not why:
         why = "No single verified causal driver was established in the collected sources; the items below are market context rather than proven causes."
 
-    confidence = str((model or {}).get("confidence") or "low").lower()
+    confidence = str((model or {}).get("confidence") or "").lower()
     if confidence not in {"high", "medium", "low"}:
-        confidence = "low"
+        confidence = "medium" if len(title_drivers) >= 2 else "low"
     if len(news) < 2 and confidence == "high":
         confidence = "medium"
 
@@ -328,5 +389,4 @@ def main():
 
 
 if __name__ == "__main__":
-    import urllib.parse
     main()
