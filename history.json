@@ -1,0 +1,234 @@
+{
+  "retentionHours": 72,
+  "eventRetentionDays": 7,
+  "snapshots": [
+    {
+      "at": "2026-10-15T15:06:22.977089+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 3,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "85b625737b27fb",
+          "cat": "Indian Markets",
+          "title": "Jio Platforms launches mega IPO valued at over Rs 10 lakh crore",
+          "summary": "Jio Platforms announced a public offering with an issue size of Rs 30,213 crore and a valuation exceeding Rs 10 lakh crore, which the source describes as the biggest‑ever public issue in India. The announcement emphasizes the scale of the raise and its historic significance for the Indian capital market.",
+          "why": "The size of the offering could affect market sentiment and attract substantial investor interest.",
+          "publishedAt": "2026-10-15T14:14:51+00:00",
+          "firstSeen": "2026-10-15T14:14:51+00:00",
+          "importanceScore": 15.8,
+          "sourceCount": 1,
+          "sourceQuality": "general",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-valuation-gmp-key-numbers-of-ambanis-telecom-giant-decoded/videoshow/134970140.cms"
+        },
+        {
+          "id": "a82394000aee3b",
+          "cat": "India",
+          "title": "India’s unemployment rate steady at 5% in September 2026",
+          "summary": "The Economic Times reported that India’s overall unemployment rate held at 5.0% in September 2026, unchanged from the previous month. Rural unemployment fell to 4.2%, while urban unemployment rose to 6.9% and urban female unemployment increased to 9.2%. Labour force participation rose to 55.5% year‑on‑year and the worker population ratio climbed to 52.7%.",
+          "why": "The figures indicate a broadly stable labour market with differing rural‑urban trends, relevant for policy and investment decisions.",
+          "publishedAt": "2026-10-15T11:26:51+00:00",
+          "firstSeen": "2026-10-15T11:26:51+00:00",
+          "importanceScore": 15.3,
+          "sourceCount": 1,
+          "sourceQuality": "general",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-stays-steady-at-5-in-september/articleshow/134966168.cms"
+        },
+        {
+          "id": "d61ab3162e8bbd",
+          "cat": "World",
+          "title": "Seven missing after drone strike ignites chemical tanker off Romania",
+          "summary": "A Romanian search and rescue effort using boats and helicopters is ongoing in rough seas after a drone hit the San Marino‑flagged chemical tanker Wine Trader, 13 nautical miles east of the Danube mouth at Sulina. The vessel reported blasts and fire; seven of its 12 crew members are missing. Romanian President Nicușor Dan said another chemical tanker, the Yara J, had been struck by a drone the day before.",
+          "why": "The incident shows the vulnerability of commercial shipping in the Black Sea to drone attacks.",
+          "publishedAt": "2026-10-15T14:51:30+00:00",
+          "firstSeen": "2026-10-15T14:51:30+00:00",
+          "importanceScore": 13.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "acd56101500a0b",
+          "cat": "India",
+          "title": "India’s September trade deficit widens to $30.21 billion despite 23% export rise",
+          "summary": "India’s trade deficit for September stood at $30.21 billion, according to the Economic Times. In the same month, exports increased by about 23 % compared with the previous period. Despite the export gain, the deficit expanded. The widening reflects that import growth outpaced export growth, putting pressure on the balance of payments.",
+          "why": "A larger deficit can shape monetary and trade‑policy decisions.",
+          "publishedAt": "2026-10-15T09:01:13+00:00",
+          "firstSeen": "2026-10-15T09:01:13+00:00",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "general",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-trade-deficit-widens-to-30-21-billion-in-september-despite-23-jump-in-exports/articleshow/134962709.cms"
+        },
+        {
+          "id": "0e560e5e3c1068",
+          "cat": "World",
+          "title": "Student protests turn violent in Tirana, targeting ministries",
+          "summary": "Thousands of students took to the streets in Tirana, Albania’s capital, on the second day of anti‑government protests, moving from a rally outside the Ministry of Education to attacks on several government buildings. Part of the education ministry was set on fire and the prime minister’s office, finance ministry, interior ministry and nearby businesses were also attacked. Deputy Prime Minister Albana Koçiu called for calm, saying “Albania does not need to burn to change.”",
+          "why": "The unrest puts pressure on authorities to address university conditions and could affect Albania’s political stability.",
+          "publishedAt": "2026-10-14T20:29:05+00:00",
+          "firstSeen": "2026-10-14T20:29:05+00:00",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Jarvis verification is now available for this event.",
+          "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "events": {
+    "85b625737b27fb": {
+      "id": "85b625737b27fb",
+      "firstSeen": "2026-10-15T14:14:51+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-15T15:06:22.977089+00:00",
+          "title": "Jio Platforms launches mega IPO valued at over Rs 10 lakh crore",
+          "summary": "Jio Platforms announced a public offering with an issue size of Rs 30,213 crore and a valuation exceeding Rs 10 lakh crore, which the source describes as the biggest‑ever public issue in India. The announcement emphasizes the scale of the raise and its historic significance for the Indian capital market.",
+          "importanceScore": 15.8,
+          "sourceCount": 1,
+          "sourceQuality": "general",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
+        }
+      ],
+      "lastSeen": "2026-10-15T15:06:22.977089+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Jio Platforms launches mega IPO valued at over Rs 10 lakh crore",
+      "latestSummary": "Jio Platforms announced a public offering with an issue size of Rs 30,213 crore and a valuation exceeding Rs 10 lakh crore, which the source describes as the biggest‑ever public issue in India. The announcement emphasizes the scale of the raise and its historic significance for the Indian capital market.",
+      "why": "The size of the offering could affect market sentiment and attract substantial investor interest.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-valuation-gmp-key-numbers-of-ambanis-telecom-giant-decoded/videoshow/134970140.cms"
+    },
+    "a82394000aee3b": {
+      "id": "a82394000aee3b",
+      "firstSeen": "2026-10-15T11:26:51+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-15T15:06:22.977089+00:00",
+          "title": "India’s unemployment rate steady at 5% in September 2026",
+          "summary": "The Economic Times reported that India’s overall unemployment rate held at 5.0% in September 2026, unchanged from the previous month. Rural unemployment fell to 4.2%, while urban unemployment rose to 6.9% and urban female unemployment increased to 9.2%. Labour force participation rose to 55.5% year‑on‑year and the worker population ratio climbed to 52.7%.",
+          "importanceScore": 15.3,
+          "sourceCount": 1,
+          "sourceQuality": "general",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
+        }
+      ],
+      "lastSeen": "2026-10-15T15:06:22.977089+00:00",
+      "cat": "India",
+      "latestTitle": "India’s unemployment rate steady at 5% in September 2026",
+      "latestSummary": "The Economic Times reported that India’s overall unemployment rate held at 5.0% in September 2026, unchanged from the previous month. Rural unemployment fell to 4.2%, while urban unemployment rose to 6.9% and urban female unemployment increased to 9.2%. Labour force participation rose to 55.5% year‑on‑year and the worker population ratio climbed to 52.7%.",
+      "why": "The figures indicate a broadly stable labour market with differing rural‑urban trends, relevant for policy and investment decisions.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-stays-steady-at-5-in-september/articleshow/134966168.cms"
+    },
+    "d61ab3162e8bbd": {
+      "id": "d61ab3162e8bbd",
+      "firstSeen": "2026-10-15T14:51:30+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-15T15:06:22.977089+00:00",
+          "title": "Seven missing after drone strike ignites chemical tanker off Romania",
+          "summary": "A Romanian search and rescue effort using boats and helicopters is ongoing in rough seas after a drone hit the San Marino‑flagged chemical tanker Wine Trader, 13 nautical miles east of the Danube mouth at Sulina. The vessel reported blasts and fire; seven of its 12 crew members are missing. Romanian President Nicușor Dan said another chemical tanker, the Yara J, had been struck by a drone the day before.",
+          "importanceScore": 13.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
+        }
+      ],
+      "lastSeen": "2026-10-15T15:06:22.977089+00:00",
+      "cat": "World",
+      "latestTitle": "Seven missing after drone strike ignites chemical tanker off Romania",
+      "latestSummary": "A Romanian search and rescue effort using boats and helicopters is ongoing in rough seas after a drone hit the San Marino‑flagged chemical tanker Wine Trader, 13 nautical miles east of the Danube mouth at Sulina. The vessel reported blasts and fire; seven of its 12 crew members are missing. Romanian President Nicușor Dan said another chemical tanker, the Yara J, had been struck by a drone the day before.",
+      "why": "The incident shows the vulnerability of commercial shipping in the Black Sea to drone attacks.",
+      "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
+    },
+    "acd56101500a0b": {
+      "id": "acd56101500a0b",
+      "firstSeen": "2026-10-15T09:01:13+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-15T15:06:22.977089+00:00",
+          "title": "India’s September trade deficit widens to $30.21 billion despite 23% export rise",
+          "summary": "India’s trade deficit for September stood at $30.21 billion, according to the Economic Times. In the same month, exports increased by about 23 % compared with the previous period. Despite the export gain, the deficit expanded. The widening reflects that import growth outpaced export growth, putting pressure on the balance of payments.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "general",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-15T15:06:22.977089+00:00",
+      "cat": "India",
+      "latestTitle": "India’s September trade deficit widens to $30.21 billion despite 23% export rise",
+      "latestSummary": "India’s trade deficit for September stood at $30.21 billion, according to the Economic Times. In the same month, exports increased by about 23 % compared with the previous period. Despite the export gain, the deficit expanded. The widening reflects that import growth outpaced export growth, putting pressure on the balance of payments.",
+      "why": "A larger deficit can shape monetary and trade‑policy decisions.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-trade-deficit-widens-to-30-21-billion-in-september-despite-23-jump-in-exports/articleshow/134962709.cms"
+    },
+    "0e560e5e3c1068": {
+      "id": "0e560e5e3c1068",
+      "firstSeen": "2026-10-14T20:29:05+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-15T15:06:22.977089+00:00",
+          "title": "Student protests turn violent in Tirana, targeting ministries",
+          "summary": "Thousands of students took to the streets in Tirana, Albania’s capital, on the second day of anti‑government protests, moving from a rally outside the Ministry of Education to attacks on several government buildings. Part of the education ministry was set on fire and the prime minister’s office, finance ministry, interior ministry and nearby businesses were also attacked. Deputy Prime Minister Albana Koçiu called for calm, saying “Albania does not need to burn to change.”",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Jarvis verification is now available for this event."
+        }
+      ],
+      "lastSeen": "2026-10-15T15:06:22.977089+00:00",
+      "cat": "World",
+      "latestTitle": "Student protests turn violent in Tirana, targeting ministries",
+      "latestSummary": "Thousands of students took to the streets in Tirana, Albania’s capital, on the second day of anti‑government protests, moving from a rally outside the Ministry of Education to attacks on several government buildings. Part of the education ministry was set on fire and the prime minister’s office, finance ministry, interior ministry and nearby businesses were also attacked. Deputy Prime Minister Albana Koçiu called for calm, saying “Albania does not need to burn to change.”",
+      "why": "The unrest puts pressure on authorities to address university conditions and could affect Albania’s political stability.",
+      "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss"
+    }
+  },
+  "updated": "2026-10-15T15:06:22.977089+00:00"
+}
