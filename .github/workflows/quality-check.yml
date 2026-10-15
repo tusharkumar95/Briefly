@@ -6,6 +6,7 @@ on:
     paths:
       - "app.js"
       - "trust-ui.js"
+      - "moves-v2.js"
       - "scripts/fetch_news.py"
       - "scripts/build_feed.py"
       - "scripts/corroborate_feed.py"
@@ -13,9 +14,12 @@ on:
       - "scripts/finalize_feed.py"
       - "scripts/refine_feed.py"
       - "scripts/update_history.py"
+      - "scripts/fetch_moves.py"
+      - "moves-intelligence.json"
       - "index.html"
       - "style.css"
       - "briefly-v2.css"
+      - "moves-v2.css"
       - ".github/workflows/quality-check.yml"
   workflow_dispatch:
 
@@ -31,7 +35,8 @@ jobs:
         run: |
           node --check app.js
           node --check trust-ui.js
-      - name: Check Python news engine syntax
+          node --check moves-v2.js
+      - name: Check Python engines syntax
         run: |
           python -m py_compile scripts/fetch_news.py
           python -m py_compile scripts/build_feed.py
@@ -40,6 +45,7 @@ jobs:
           python -m py_compile scripts/finalize_feed.py
           python -m py_compile scripts/refine_feed.py
           python -m py_compile scripts/update_history.py
+          python -m py_compile scripts/fetch_moves.py
       - name: Check event-memory contract
         run: |
           grep -q 'sourceQuality' scripts/refine_feed.py
@@ -48,13 +54,37 @@ jobs:
           grep -q 'SNAPSHOT_RETENTION_HOURS' scripts/update_history.py
           grep -q 'corroboratedStories' scripts/corroborate_feed.py
           echo "Briefly event-memory and corroboration contracts present."
+      - name: Check Moves Intelligence contract
+        run: |
+          python - <<'PY'
+          import json
+          with open('moves-intelligence.json', encoding='utf-8') as f:
+              data=json.load(f)
+          assert data.get('engine') == 'Moves Intelligence v2'
+          assert data.get('filters') == ['Notable','Accumulating','Insider Buying','Selling']
+          for r in data.get('records', []):
+              assert r.get('market') in ('India','Canada')
+              assert r.get('direction') in ('BUY','SELL')
+              assert 0 <= int(r.get('moveScore',0)) <= 100
+              assert r.get('strength') in ('Exceptional','Strong','Worth watching','Low signal')
+              assert r.get('sourceUrl')
+          print('Moves Intelligence contract valid:', len(data.get('records', [])), 'records')
+          PY
+          grep -q 'Block Deal' scripts/fetch_moves.py
+          grep -q 'moves-history.json' scripts/fetch_moves.py
+          grep -q 'Insider Buying' moves-v2.js
+          grep -q 'whyNotable' moves-v2.js
       - name: Check required UI assets
         run: |
           test -f index.html
           test -f style.css
           test -f briefly-v2.css
+          test -f moves-v2.css
           test -f trust-ui.js
+          test -f moves-v2.js
           grep -q 'app.js?v=2' index.html
           grep -q 'trust-ui.js?v=1' index.html
           grep -q 'briefly-v2.css?v=1' index.html
-          echo "Briefly UI assets present and syntax-valid."
+          grep -q 'moves-v2.js?v=1' index.html
+          grep -q 'moves-v2.css?v=1' index.html
+          echo "Briefly UI and Moves assets present and syntax-valid."
