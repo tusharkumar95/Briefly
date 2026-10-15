@@ -15,6 +15,11 @@ COMMENTARY_ONLY = re.compile(
     r"weighs in on|reacts? to .* debate|says critics are wrong|what .* thinks about)\b"
 )
 
+SOFT_AI_FEATURE = re.compile(
+    r"(?i)\b(pitches?|betting on|demo(?:s|ed)?|showcases?|shares? how|sends? ai agents?|"
+    r"new labels?|music labels?|creator tools?|tips?|interview|podcast)\b"
+)
+
 PAGE_JUNK = re.compile(
     r"(?i)(share price|daily newspaper is available online|read today[’']s paper|stock analysis|"
     r"market statistics|previous close|52 week high|52 week low|volume traded|buying range|"
@@ -42,11 +47,9 @@ def strip_repeated_title(title, summary):
     if not title or not summary:
         return summary
 
-    # Exact headline accidentally copied at the beginning of an extract.
     if summary.lower().startswith(title.lower()):
         summary = summary[len(title):].lstrip(" :-–—|.")
 
-    # Headline punctuation sometimes differs slightly. Compare normalized word prefixes.
     title_words = re.findall(r"[a-z0-9]+", title.lower())
     summary_words = list(re.finditer(r"[a-z0-9]+", summary.lower()))
     if len(title_words) >= 5 and len(summary_words) >= len(title_words):
@@ -57,6 +60,19 @@ def strip_repeated_title(title, summary):
             summary = summary[end:].lstrip(" :-–—|.")
 
     return normalize(summary)
+
+
+def strip_explanatory_filler(summary):
+    text = normalize(summary)
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
+    if len(sentences) <= 1:
+        return text
+    kept = [
+        sentence for sentence in sentences
+        if not re.match(r"(?i)^(for example|for instance|to illustrate|in simple terms|put simply)\b", sentence)
+    ]
+    candidate = normalize(" ".join(kept))
+    return candidate if len(candidate) >= 80 else text
 
 
 def improve_why(story):
@@ -72,6 +88,8 @@ def improve_why(story):
         return "A penalty of this scale can increase regulatory scrutiny and compliance costs for a major global financial institution."
     if re.search(r"(?i)\b(imf|global growth|world growth)\b", combined):
         return "Changes in the global growth outlook can influence markets, trade, borrowing conditions and business investment across countries."
+    if re.search(r"(?i)\b(inflation|consumer prices?|cpi)\b", combined):
+        return "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power."
     if re.search(r"(?i)\b(trade deal|tariff|market access)\b", combined):
         return "The outcome could change tariffs, market access and trade conditions for businesses in both countries."
     return normalize(story.get("why", ""))
@@ -86,7 +104,7 @@ def main():
     for raw in data.get("stories", []):
         story = dict(raw)
         title = normalize(story.get("title", ""))
-        summary = strip_repeated_title(title, story.get("summary", ""))
+        summary = strip_explanatory_filler(strip_repeated_title(title, story.get("summary", "")))
         combined = title + " " + summary[:280]
 
         if MARKET_SERVICE.search(combined):
@@ -94,6 +112,9 @@ def main():
             continue
         if COMMENTARY_ONLY.search(combined):
             rejected.append((title, "commentary-only content"))
+            continue
+        if story.get("cat") == "AI" and int(story.get("sourceCount", 1) or 1) < 2 and SOFT_AI_FEATURE.search(title):
+            rejected.append((title, "single-source AI feature rather than material event"))
             continue
         if PAGE_JUNK.search(summary):
             rejected.append((title, "page boilerplate"))
@@ -104,8 +125,6 @@ def main():
 
         story["summary"] = summary
 
-        # Some technology feeds carry biotech/neurotech stories. Keep useful science,
-        # but do not label it AI unless AI is actually material to the event.
         if story.get("cat") == "AI" and SCIENCE_HEALTH.search(combined) and not AI_SIGNAL.search(combined):
             story["cat"] = "World"
             story["icon"] = "🌍"
