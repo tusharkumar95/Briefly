@@ -103,7 +103,7 @@ jobs:
                   assert driver.get('kind') in {'driver','context'}
           print('Markets Intelligence contract valid:', ', '.join(markets) if markets else 'seed awaiting first refresh')
           PY
-          grep -q 'Yahoo Finance chart feed' scripts/build_market_intelligence.py
+          grep -q 'Yahoo Finance daily chart feed' scripts/build_market_intelligence.py
           grep -q 'kind":"driver|context' scripts/build_market_intelligence.py
           grep -q 'WHY IT MOVED' markets-v2.js
           grep -q 'Cause, not commentary' markets-v2.js
