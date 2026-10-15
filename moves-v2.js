@@ -1,6 +1,7 @@
 (() => {
   const MOVE_MODES=["Notable","Accumulating","Insider Buying","Selling"];
   const MOVE_MARKETS=["All","Canada","India"];
+  pageConfig[PAGE_MOVES]={title:"Moves",subtitle:"Meaningful ownership activity from official and verified public disclosures."};
   state.movesV2=[];
   state.moveMode="Notable";
   state.moveMarket="All";
