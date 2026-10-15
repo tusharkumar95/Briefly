@@ -1,48 +1,48 @@
 {
-  "updated": "2026-10-15T09:58:13.266286+00:00",
+  "updated": "2026-10-15T15:03:54.730298+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 26,
-    "enrichedCandidates": 79,
-    "readableCandidates": 51,
-    "eventClusters": 50,
-    "materialEvents": 21,
+    "nonNoiseCandidates": 78,
+    "officialOrPrimaryCandidates": 11,
+    "enrichedCandidates": 76,
+    "readableCandidates": 62,
+    "eventClusters": 62,
+    "materialEvents": 28,
     "selectedEvents": 8,
-    "seededStories": 4
+    "seededStories": 6
   },
   "stories": [
     {
-      "id": "acd56101500a0b",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "85b625737b27fb",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "India"
+        "Indian Markets"
       ],
-      "title": "India’s September trade deficit rises to $30.21 bn despite 23% export growth",
-      "publishedAt": "2026-10-15T09:01:13+00:00",
-      "importanceScore": 14.7,
+      "title": "Jio Platforms announces Rs 30,213 crore IPO, valuation above Rs 10 lakh crore",
+      "publishedAt": "2026-10-15T14:14:51+00:00",
+      "importanceScore": 15.8,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-trade-deficit-widens-to-30-21-billion-in-september-despite-23-jump-in-exports/articleshow/134962709.cms",
-      "summary": "In September, India’s trade deficit widened to $30.21 billion, while export values increased 23% year‑on‑year, according to the Economic Times. The growth in exports was insufficient to offset the rise in imports, resulting in a larger overall deficit for the month.",
-      "why": "A widening deficit can put pressure on the rupee and may prompt policymakers to adjust trade or monetary measures.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-valuation-gmp-key-numbers-of-ambanis-telecom-giant-decoded/videoshow/134970140.cms",
+      "summary": "Jio Platforms disclosed a primary equity offering of Rs 30,213 crore, aiming for a post‑issue valuation exceeding Rs 10 lakh crore. The filing describes the issue as the largest public offering ever recorded in India. The source does not provide specific dates, price band, or guaranteed minimum price details.",
+      "why": "The unprecedented size may reshape market liquidity and set a new benchmark for large listings in India.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-trade-deficit-widens-to-30-21-billion-in-september-despite-23-jump-in-exports/articleshow/134962709.cms",
-          "publishedAt": "2026-10-15T09:01:13+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-valuation-gmp-key-numbers-of-ambanis-telecom-giant-decoded/videoshow/134970140.cms",
+          "publishedAt": "2026-10-15T14:14:51+00:00"
         }
       ],
-      "firstSeen": "2026-10-15T09:01:13+00:00",
+      "firstSeen": "2026-10-15T14:14:51+00:00",
       "status": "New",
-      "lastChecked": "2026-10-15T09:58:13.266286+00:00",
+      "lastChecked": "2026-10-15T15:03:54.730298+00:00",
       "sourceQuality": "general",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -51,33 +51,33 @@
       "lifecycle": "New"
     },
     {
-      "id": "18e42e73746c9a",
+      "id": "a82394000aee3b",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "IMF applauds India’s GDP data revamp, says currency weakness not a policy failure",
-      "publishedAt": "2026-10-15T02:38:50+00:00",
-      "importanceScore": 13.3,
+      "title": "India’s unemployment rate unchanged at 5% in September 2026",
+      "publishedAt": "2026-10-15T11:26:51+00:00",
+      "importanceScore": 15.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-applauds-indias-gdp-data-revamp-says-country-entered-energy-shock-with-strong-fundamentals/articleshow/134955663.cms",
-      "summary": "The International Monetary Fund praised India’s recent overhaul of its gross domestic product reporting framework. In its remarks, the IMF said that the current weakness in the rupee does not reflect a policy failure and noted that India is confronting an energy‑price shock while still maintaining strong economic fundamentals.",
-      "why": "RBI action on currency speculation can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-stays-steady-at-5-in-september/articleshow/134966168.cms",
+      "summary": "India’s overall unemployment rate held steady at 5.0% in September 2026, unchanged from the previous month. Rural unemployment improved to 4.2%, while urban unemployment rose slightly to 6.9%; urban female unemployment increased to 9.2%. The Labour Force Participation Rate rose to 55.5% year‑on‑year and the Worker Population Ratio increased to 52.7%.",
+      "why": "The figures indicate a stable national job market but rising pressure in urban labour pools, which is relevant for policymakers and investors.",
+      "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-applauds-indias-gdp-data-revamp-says-country-entered-energy-shock-with-strong-fundamentals/articleshow/134955663.cms",
-          "publishedAt": "2026-10-15T02:38:50+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-stays-steady-at-5-in-september/articleshow/134966168.cms",
+          "publishedAt": "2026-10-15T11:26:51+00:00"
         }
       ],
-      "firstSeen": "2026-10-15T02:38:50+00:00",
+      "firstSeen": "2026-10-15T11:26:51+00:00",
       "status": "New",
-      "lastChecked": "2026-10-15T09:58:13.266286+00:00",
+      "lastChecked": "2026-10-15T15:03:54.730298+00:00",
       "sourceQuality": "general",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -86,52 +86,82 @@
       "lifecycle": "New"
     },
     {
-      "id": "cacfb57bf63c02",
+      "id": "d61ab3162e8bbd",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "US inflation exceeds expectations in September, fuel prices a key factor",
-      "publishedAt": "2026-10-14T15:26:14+00:00",
-      "importanceScore": 12.4,
+      "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+      "publishedAt": "2026-10-15T14:51:30+00:00",
+      "importanceScore": 13.9,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Official data released show that inflation for the 12‑month period ending September was higher than analysts had forecast. The increase was largely attributed to rising gasoline prices, which have climbed after disruptions to Middle East energy supplies linked to the US‑Israel conflict with Iran. The report comes ahead of the U.S. midterm elections, where cost‑of‑living concerns dominate campaign discussions.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
+      "summary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-14T15:26:14+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-15T14:51:30+00:00"
         }
       ],
-      "firstSeen": "2026-10-14T15:26:14+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-15T09:58:13.266286+00:00",
+      "firstSeen": "2026-10-15T14:51:30+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-15T15:03:54.730298+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "previousTitle": "US inflation rises more than expected",
-      "previousSummary": "US inflation rose by more than expected in the year to September, according to official figures, in the final data release before the midterm elections next month.",
-      "previousPublishedAt": "2026-10-14T15:26:14+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.4,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "0e560e5e3c1068",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Student protesters attack government buildings in Albania",
+      "publishedAt": "2026-10-14T20:29:05+00:00",
+      "importanceScore": 12.9,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Thousands of students have taken to the streets in the Albanian capital of Tirana, attacking several government buildings on the second day of violent anti-government protests. Albania's Deputy Prime Minister ​Albana Koçiu has called for \"calmness, self-restraint and maturity\" and said \"Albania does not need to burn to change\".",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-14T20:29:05+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-14T20:29:05+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-15T15:03:54.730298+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-15T04:44:06.153218+00:00",
+  "jarvisEditedCount": 2,
+  "finalRejectedCount": 2,
+  "previousUpdated": "2026-10-15T09:58:13.266286+00:00",
   "changeSummary": {
-    "new": 2,
-    "updated": 1,
+    "new": 4,
+    "updated": 0,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general"
