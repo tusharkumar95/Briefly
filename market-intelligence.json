@@ -1,42 +1,27 @@
 {
-  "updated": "2026-10-15T21:53:28.037329+00:00",
+  "updated": "2026-10-15T21:55:44.984922+00:00",
   "engine": "Briefly Markets Intelligence v1",
-  "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the move. Otherwise items are labeled context.",
+  "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX climbs as bond yields retreat",
+      "headline": "S&P/TSX Composite rose 1.55%",
       "direction": "up",
-      "move": "The S&P/TSX Composite rose 552.6 points (1.55%) to 36,137.1",
-      "why": "Bond yields fell, lowering financing costs and supporting equity valuations, while a rebound in banks and technology stocks added further buying pressure",
+      "move": "S&P/TSX Composite +1.55%",
+      "why": "Same-day market coverage explicitly linked the final move to: Banks and Tech Stocks Rebound; Shopify Rebounds & Energy Stocks Rally – Check Gainers & Losers.",
       "drivers": [
         {
-          "label": "yields fall - ad-hoc-news.de",
-          "detail": "ad-hoc-news.de explicitly links the market move to this factor in its same-day market headline.",
-          "kind": "driver"
-        },
-        {
           "label": "Banks and Tech Stocks Rebound",
-          "detail": "TradingView explicitly links the market move to this factor in its same-day market headline.",
+          "detail": "TradingView explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
           "label": "Shopify Rebounds & Energy Stocks Rally – Check Gainers & Losers",
-          "detail": "The Sunday Guardian explicitly links the market move to this factor in its same-day market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Banks and Tech Stocks Slide",
-          "detail": "TradingView explicitly links the market move to this factor in its same-day market headline.",
+          "detail": "The Sunday Guardian explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
-      "sectors": [
-        "Financials",
-        "Technology",
-        "Consumer discretionary",
-        "Energy"
-      ],
+      "sectors": [],
       "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
@@ -97,31 +82,26 @@
       "headline": "Nifty 50 fell 0.44%",
       "direction": "down",
       "move": "Nifty 50 -0.44%",
-      "why": "Same-day market coverage explicitly linked the move to: IT stocks lead gains, Sensex up over 1,500 points; IT Stocks Rally 3% and Oil Eases After Trump Rules Out Pre-Midterm Iran Strike; rupee strengths.",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "IT stocks lead gains, Sensex up over 1,500 points",
-          "detail": "Hiru News explicitly links the market move to this factor in its same-day market headline.",
-          "kind": "driver"
+          "label": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "IT Stocks Rally 3% and Oil Eases After Trump Rules Out Pre-Midterm Iran Strike",
-          "detail": "BBN Times explicitly links the market move to this factor in its same-day market headline.",
-          "kind": "driver"
+          "label": "Indian shares rally as IT stocks lead gains, Sensex up over 1,500 points",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "rupee strengths",
-          "detail": "The Hindu explicitly links the market move to this factor in its same-day market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "IT and Banking Stocks Rally",
-          "detail": "Dalal Street Investment Journal explicitly links the market move to this factor in its same-day market headline.",
-          "kind": "driver"
+          "label": "BSE Sensex Rebounds to 72,472.33 as IT Stocks Rally 3% and Oil Eases After Trump Rules Out",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -150,6 +130,12 @@
       },
       "sources": [
         {
+          "name": "INDIA New England News",
+          "title": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2w0OExuLXNXNkItVEJweDJtWkZCQlBkZUQ4LUYtNDlqVVRyQU5WemdBSUhnY3gwWGdza2Z2UXUwUC1MSE9SQzNkenpXR1RIWFpTdHctRE84dDlOWVEtYTNzS1Yzb09fZFlZTG1pMkc0N3lCQ2l3Rl96eFV4QnphVVhWTDVBUnhTSGo1LVgzWHhjbmZobWt0S3d6WQ?oc=5",
+          "publishedAt": "2026-10-15T16:07:47+00:00"
+        },
+        {
           "name": "Hiru News",
           "title": "Indian shares rally as IT stocks lead gains, Sensex up over 1,500 points - Hiru News",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNmw5R2d6Ymk1MWpfcXFWTGIxTk15MlZtZEV6d1BkbnBSS2dyWjdtM1lzTjJ0WEU4NWhSaTlxNEFxdFVsQTV1MnBjZVJtOTNqM1JYaWtFSWhmTnNyZkZtLUxKbWFYaXBiNVl1bGFXakx5WVVLWUNpZ0RJLVYzbDgzbFJEVHRVWDdlTWhfaWc3SlJlVkpGZUlneW9XWjU4Tm5aS256X1lIU2hpdzQy?oc=5",
@@ -168,22 +154,16 @@
           "publishedAt": "2026-10-15T11:27:50+00:00"
         },
         {
+          "name": "Rediff MoneyWiz",
+          "title": "Sensex Jumps 1,534 Pts, Nifty Surges on Banks, IT, Reliance - Rediff MoneyWiz",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcHBsSmtUUC1IREJWVmRfMWlCSlktel9UMm1WX2pOS2R0dUlEVGdTNHJBbW1xcHRMdGhNMW42UEdyMVNqbGZvSUFkcWVVeXFHcUJELTU5c0JabUlMUWFsYVhlbmxMbTBwU1JzTU45T0FQQS00ZnRFVDBfVUROdUdqRGl1VnB0VVRWRTZzVWw2SnE4b19rcnkzZFQ4QURsWFN5Z3BGbWxqUmpMTWkw0gGyAUFVX3lxTFAwM3VHeDdVdk5GNEJwRm00RExhZTFFOTB2cE8xb2lmZm5KajNmNzJUQVk2R1dROHY2TWJSSlhpTU90cFdaODhZYWJvSm44SUtKMUtOUlZhWldaNjY4YVNXV0lFUnNvRkRLc1dkV2NGY1RmZmVuVEZSa3NRVERZQ0JEVFRNRFM0RG9vcWpBa1RJeDNIVDE4a3pNTG41elZvZjNUNlNxYnFkVmVjekppYV9QeHc?oc=5",
+          "publishedAt": "2026-10-15T10:50:35+00:00"
+        },
+        {
           "name": "Dalal Street Investment Journal",
           "title": "Closing Bell: Sensex Surges 1,534 Points, Nifty 50 Gains 375 Points as IT and Banking Stocks Rally - Dalal Street Investment Journal",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaU1DSTQ2aFN0U3dCMDFoV2tSWjQtLV9YbmhQQ3FkczFTcmZkNWkyQmZhWmJ2VnpVZGVjZmREU2JEYWtfYUdkcFEtLUtKT3luSWs1U3d3R2k2X1ZBdTMxTXhGMWJMWHAzdzJidHFodmp2d1RvTlFSTjhJUE1hWTBJSG9iQTlZdXlNT21DWWpwZnFtemFCa3k0eFpTZlltai1kRmctSkRTTjhmS1VwWV9zWFhLeS04QXEyc1JXY3B3ckFrTHpWU3N6SGszSi1RczhYNUt0Xw?oc=5",
           "publishedAt": "2026-10-15T10:34:28+00:00"
-        },
-        {
-          "name": "www.indiagazette.com",
-          "title": "Sensex closes 1,534 points higher, Nifty gains 1.66% as global sell-off in AI heavy markets improves India's relative appeal - www.indiagazette.com",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONXA0WmFXYmxMRWtUbEMxWlFmSGlPQlRpb3JDbTRvUG5rcmxpN19UZDNxS280WWJXYkxBWWZIZWtlanBoVnJWUDQ4WW1WTnlvZHozNm5EWGh4NTdFaS1iRlZLT05kS3ROalZsWHMxc2xoWW1jSmRZeGhMVGtGUXU3SGVLeDQ0WXNNVk5VYnpVQ0pha0pGX0NPOUFaLXJrTnl3YU9lNDNKNHJYYVhqc2pSQ2RHcEs3dFU1bml1RDViR2RXRHNpQ29mZzkyZ2ozdFkxODA2UkhzWkgtRlo2dWtLMV9HMzlqaFlNWC0yLXpuT1dJNGV6?oc=5",
-          "publishedAt": "2026-10-15T06:42:00+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "Sensex on fire! 1,500-point rally puts bulls back in the driver’s seat. What just happened? - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQT3N1ZXZHdU5QWlBFZVNaY2RqZzJyd3loeEhsenZyMzZSSC1yOV9lWnhJRDBJYVBISXhPSUI2R1NPUm4zVy1NQ3pvd19qRXBhZV8yRThkOWJfZi12bmlkbkhrbkJGYTJXdldLQVNuam52M2tidkg4SF94X0J4dl8zZ2lrN05jT3YtMDlRWWRic1dhQVVmNVBDWUtyeFAteml5Tk0yNzFGMm14T1ZsT0d6TF9LMnlXYkpjUGhBRk9NRWNfczhTYUNYY2NuWGlNNTBlRVFpSVBXTTl4NEJPSkFlRHJaaGFqc21RWlBGdFg2VTZWeXpLang1dWhUUVV2UE1JRFQ1THBOUHfSAY4CQVVfeXFMTnZLQ2VxWWhNYktRNTRkTThiTWVDZ1FWSVBKUHdNdVZsdHExY2tEUUZBRGdXY01keXdwMTFEV05oamY0VXptU2ItcGFUamsyQnV1MjZ2ak9lOHhMbFNnbFNvQjk3aFFraFRuR09kOHYzY3BuQWJSWFB2WmE4cUVNdWhxbVRMNTBqcUg2VV9QZHkwMkt2QVpMcncwaE1BdXd0N09UYjZQX080YWhha094b2owb3doYUZxOEpqMVNjOEFFM3psVTUtVkMxQ3F3ZllOVGtnNTdwNjVadE5idWxvQUV6WHRzS1RQWFlsc3FlbXpZQ1dBX3paX1NjZndYTDZ0blB3VWdiZGxqUk1iWnJB?oc=5",
-          "publishedAt": "2026-10-15T04:29:30+00:00"
         }
       ],
       "evidenceCount": 7
