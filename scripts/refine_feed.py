@@ -20,8 +20,8 @@ TIER_ONE_PATTERNS = (
 )
 
 TIER_TWO_PATTERNS = (
-    "global news", "economic times", "business standard", "livemint", "the hindu",
-    "techcrunch", "the verge", "cnbc", "forbes", "fortune",
+    "global news", "globalnews.", "economic times", "economictimes.", "business standard", "business-standard.",
+    "livemint", "the hindu", "techcrunch", "the verge", "cnbc", "forbes", "fortune",
 )
 
 
@@ -55,12 +55,13 @@ def source_quality(story):
     sources = story.get("sources") or []
     tiers = [source_tier(source) for source in sources if isinstance(source, dict)]
     if not tiers:
-        return {"label": "general", "bestRank": 1, "trustedCount": 0, "primaryCount": 0}
+        return {"label": "general", "bestRank": 1, "trustedCount": 0, "primaryCount": 0, "distinctCount": 0}
     best = max(rank for _, rank in tiers)
     label = {4: "primary", 3: "tier-1", 2: "tier-2", 1: "general"}[best]
     trusted = sum(1 for _, rank in tiers if rank >= 3)
     primary = sum(1 for _, rank in tiers if rank == 4)
-    return {"label": label, "bestRank": best, "trustedCount": trusted, "primaryCount": primary}
+    distinct = len({source_text(source) for source in sources if isinstance(source, dict) and source_text(source)})
+    return {"label": label, "bestRank": best, "trustedCount": trusted, "primaryCount": primary, "distinctCount": distinct}
 
 
 def load(path):
@@ -84,6 +85,11 @@ def best_previous_match(story, previous_stories):
     return (best_story, best_score) if best_score >= 0.50 else (None, best_score)
 
 
+def fact_signature(text):
+    value = norm(text).lower()
+    return set(re.findall(r"(?:[$₹€£]|c\$|us\$)?\s*\d+(?:[.,]\d+)*(?:\s*%|\s*(?:billion|million|trillion|crore|lakh))?", value))
+
+
 def material_change(story, previous, title_similarity):
     if previous is None:
         return True, "New high-signal event entered the brief."
@@ -94,9 +100,14 @@ def material_change(story, previous, title_similarity):
     source_delta = int(story.get("sourceCount", 1) or 1) - int(previous.get("sourceCount", 1) or 1)
     score_delta = float(story.get("importanceScore", 0) or 0) - float(previous.get("importanceScore", 0) or 0)
     verification_upgraded = bool(story.get("verified")) and not bool(previous.get("verified"))
+    old_facts = fact_signature(old_summary)
+    current_facts = fact_signature(current_summary)
+    facts_changed = bool(old_facts and current_facts and old_facts != current_facts)
 
-    if title_similarity < 0.70 or summary_similarity < 0.56:
+    if title_similarity < 0.68 or summary_similarity < 0.44:
         return True, "Material details changed since the previous brief."
+    if facts_changed and summary_similarity < 0.78:
+        return True, "Material facts or figures changed since the previous brief."
     if source_delta > 0:
         return True, f"{source_delta} additional source{'s' if source_delta != 1 else ''} now support this event."
     if verification_upgraded:
@@ -121,9 +132,21 @@ def main():
         story["trustedSourceCount"] = quality["trustedCount"]
         story["primarySourceCount"] = quality["primaryCount"]
 
+        # A model audit of one ordinary publisher is not independent verification.
+        # Keep the story, but reserve the Verified label for strong-source or corroborated evidence.
+        verification_supported = quality["bestRank"] >= 3 or quality["distinctCount"] >= 2
+        if story.get("verified") and not verification_supported:
+            story["verified"] = False
+            story["verificationScope"] = "single-source-reviewed"
+            if story.get("confidence") == "high":
+                story["confidence"] = "medium"
+        elif story.get("verified"):
+            story["verificationScope"] = "strong-source-or-corroborated"
+        else:
+            story["verificationScope"] = "source-backed"
+
         old, match_score = best_previous_match(story, previous_stories)
         if old:
-            # Stable IDs make an event remain the same event even as headlines evolve.
             if old.get("id"):
                 story["id"] = old["id"]
             story["firstSeen"] = old.get("firstSeen") or old.get("publishedAt") or story.get("firstSeen") or story.get("publishedAt")
@@ -136,8 +159,6 @@ def main():
             story["changed"] = changed
             story["change"] = note
             story["lifecycle"] = "Updated" if changed else "Continuing"
-            # Keep the existing status vocabulary for current clients while exposing
-            # a more precise lifecycle field to Jarvis and newer clients.
             story["status"] = "Updated"
             counts["updated" if changed else "continuing"] += 1
         else:
@@ -150,11 +171,13 @@ def main():
     current["previousUpdated"] = previous.get("updated", "")
     current["changeSummary"] = counts
     current["sourceQualityModel"] = "primary / tier-1 / tier-2 / general"
+    current["verificationPolicy"] = "Verified requires tier-1/primary evidence or at least two distinct sources."
 
     with open(CURRENT_PATH, "w", encoding="utf-8") as handle:
         json.dump(current, handle, ensure_ascii=False, indent=2)
 
     print("Event memory:", counts)
+    print("Verified under strict policy:", sum(1 for story in current_stories if story.get("verified")))
     print("Trusted-source stories:", sum(1 for story in current_stories if int(story.get("trustedSourceCount", 0)) > 0))
     print("Primary-source stories:", sum(1 for story in current_stories if int(story.get("primarySourceCount", 0)) > 0))
 
