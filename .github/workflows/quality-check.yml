@@ -9,6 +9,7 @@ on:
       - "scripts/build_feed.py"
       - "scripts/edit_feed_with_jarvis.py"
       - "scripts/finalize_feed.py"
+      - "scripts/refine_feed.py"
       - "index.html"
       - "style.css"
       - "briefly-v2.css"
@@ -31,6 +32,13 @@ jobs:
           python -m py_compile scripts/build_feed.py
           python -m py_compile scripts/edit_feed_with_jarvis.py
           python -m py_compile scripts/finalize_feed.py
+          python -m py_compile scripts/refine_feed.py
+      - name: Check event-memory contract
+        run: |
+          grep -q 'sourceQuality' scripts/refine_feed.py
+          grep -q 'previousSummary' scripts/refine_feed.py
+          grep -q 'changeSummary' scripts/refine_feed.py
+          echo "Briefly event-memory contract present."
       - name: Check required UI assets
         run: |
           test -f index.html
