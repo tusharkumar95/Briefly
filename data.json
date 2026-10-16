@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-16T17:26:34.170134+00:00",
+  "updated": "2026-10-16T21:12:42.374155+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 73,
-    "officialOrPrimaryCandidates": 15,
-    "enrichedCandidates": 70,
+    "nonNoiseCandidates": 74,
+    "officialOrPrimaryCandidates": 20,
+    "enrichedCandidates": 72,
     "readableCandidates": 49,
     "eventClusters": 49,
-    "materialEvents": 22,
+    "materialEvents": 21,
     "selectedEvents": 9,
-    "seededStories": 6,
+    "seededStories": 9,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,15 +24,15 @@
       "categories": [
         "World"
       ],
-      "title": "Masked settlers attack olive harvest in West Bank, injuring Palestinians and journalist",
+      "title": "Masked settlers attack Palestinians and journalist during West Bank olive harvest",
       "publishedAt": "2026-10-16T14:31:04+00:00",
-      "importanceScore": 15.3,
+      "importanceScore": 14.3,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Dozens of masked settlers attacked Palestinians harvesting olives near the village of Abu Falah in the occupied West Bank, setting fire to cars and olive trees. The violence injured 12 Palestinians, including four who hold dual Palestinian‑American citizenship, and also wounded a foreign journalist. One of the injured, Majdi, an American citizen, suffered deep head wounds from nail‑studded sticks, and his elderly mother was also hurt.",
-      "why": "The incident underscores escalating settler violence that endangers civilians and press freedom in the occupied territories.",
-      "confidence": "medium",
+      "summary": "Dozens of masked settlers assaulted Palestinians near the village of Abu Falah during the annual olive harvest, setting fire to cars and olive trees. A local official reported 12 Palestinians injured, including four dual Palestinian‑American citizens, and a foreign journalist was also wounded. Witnesses said an American citizen named Majdi was struck with nail‑studded sticks, sustaining deep head injuries, and his elderly mother was also hurt.",
+      "why": "The incident illustrates escalating settler violence that threatens civilian safety and press freedom in the occupied West Bank.",
+      "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
@@ -43,15 +43,20 @@
         }
       ],
       "firstSeen": "2026-10-16T14:31:04+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-16T17:26:34.170134+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Masked settlers attack olive harvest in West Bank, injuring Palestinians and journalist",
+      "previousSummary": "Dozens of masked settlers attacked Palestinians harvesting olives near the village of Abu Falah in the occupied West Bank, setting fire to cars and olive trees. The violence injured 12 Palestinians, including four who hold dual Palestinian‑American citizenship, and also wounded a foreign journalist. One of the injured, Majdi, an American citizen, suffered deep head wounds from nail‑studded sticks, and his elderly mother was also hurt.",
+      "previousPublishedAt": "2026-10-16T14:31:04+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 15.3,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "a32897379b718e",
@@ -60,14 +65,14 @@
       "categories": [
         "World"
       ],
-      "title": "Twelve ships attacked in Strait of Hormuz during week of Oct 5‑11, highest since war began",
+      "title": "Record number of ship attacks reported in Strait of Hormuz this week",
       "publishedAt": "2026-10-16T05:00:17+00:00",
       "importanceScore": 13.6,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Verify analysis of UK Maritime Trade Operations data shows that twelve vessels reported attacks in the Strait of Hormuz between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week recorded ten attacks, including six vessels struck on Sunday, with four additional incidents reported later in the week. Industry data indicates the rise in attacks has slowed the recent recovery of oil shipments through the strait.",
-      "why": "The increase may hinder the recovery of oil shipments through the strait, affecting global energy flows.",
+      "summary": "BBC Verify analysis of UK Maritime Trade Operations data shows twelve vessels were reported attacked between 5 and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week saw ten attacks, including six vessels struck on a single Sunday, a one‑day high, and four attacks reported so far this week. Industry data suggests the rise in incidents has slowed the recent recovery in oil shipments through the strait.",
+      "why": "The increase in attacks could disrupt the flow of oil and other goods through a critical global shipping chokepoint.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -80,19 +85,163 @@
       ],
       "firstSeen": "2026-10-16T05:00:17+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-16T17:26:34.170134+00:00",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Record weekly ship attacks in Strait of Hormuz as oil shipment recovery slows",
-      "previousSummary": "Twelve vessels reported attacks between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The prior week recorded ten attacks, including six incidents on a single Sunday, and four attacks have been reported so far this week. Industry data suggests the rise in attacks has coincided with a slowdown in the recent recovery of oil shipments through the strait.",
+      "previousTitle": "Twelve ships attacked in Strait of Hormuz during week of Oct 5‑11, highest since war began",
+      "previousSummary": "BBC Verify analysis of UK Maritime Trade Operations data shows that twelve vessels reported attacks in the Strait of Hormuz between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week recorded ten attacks, including six vessels struck on Sunday, with four additional incidents reported later in the week. Industry data indicates the rise in attacks has slowed the recent recovery of oil shipments through the strait.",
       "previousPublishedAt": "2026-10-16T05:00:17+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 14.6,
+      "previousImportanceScore": 13.6,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
+    },
+    {
+      "id": "5cf205171fb772",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Chip selloff deepens Wall Street losses as doubts grew over AI returns",
+      "publishedAt": "2026-10-16T17:59:09+00:00",
+      "importanceScore": 13.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/chip-selloff-deepens-wall-street-losses-as-doubts-grew-over-ai-returns/articleshow/135001236.cms",
+      "summary": "The Nasdaq 100 dropped by 1.8%, continuing its longest losing streak since 2008. CoreWeave sank 9.5%, extending a rout driven by concerns that investment in AI infrastructure had outpaced companies’ ability to generate sufficient returns.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/chip-selloff-deepens-wall-street-losses-as-doubts-grew-over-ai-returns/articleshow/135001236.cms",
+          "publishedAt": "2026-10-16T17:59:09+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-16T17:59:09+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e4f2bccf60ac45",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "White House lists investment over $330 billion in US from India",
+      "publishedAt": "2026-10-16T17:54:45+00:00",
+      "importanceScore": 13.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/white-house-lists-investment-over-330-billion-in-us-from-india/articleshow/135001068.cms",
+      "summary": "The White House announced investments of over $330 billion from India as part of total investments. US President Donald Trump previously mentioned Reliance Industries' $300 billion investment in Texas.",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/white-house-lists-investment-over-330-billion-in-us-from-india/articleshow/135001068.cms",
+          "publishedAt": "2026-10-16T17:54:45+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-16T17:54:45+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "6b30501dbb1529",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Cult.fit receives Sebi approval for proposed IPO",
+      "publishedAt": "2026-10-16T14:02:27+00:00",
+      "importanceScore": 13.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/cult-fit-receives-sebi-approval-for-proposed-ipo/articleshow/134997161.cms",
+      "summary": "Cult.fit has received Sebi observations for its proposed IPO, comprising a fresh issue of up to Rs 950 crore and an offer for sale. Cult.fit advances towards its IPO after receiving Sebi observations, planning to repay debt, expand fitness centres and strengthen its sportswear business.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/cult-fit-receives-sebi-approval-for-proposed-ipo/articleshow/134997161.cms",
+          "publishedAt": "2026-10-16T14:02:27+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-16T14:02:27+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "451bea713dfb91",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Kotak Mahindra Bank among 5 stocks that hit 52-week highs & rallied up to 15% in a month",
+      "publishedAt": "2026-10-16T12:26:43+00:00",
+      "importanceScore": 12.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-among-5-stocks-that-hit-52-week-highs-amp-rallied-up-to-15-in-a-month/slideshow/134995212.cms",
+      "summary": "Amid the market rally, five stocks from the BSE 500 index touched fresh 52-week highs, reaching their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous 12 months and may indicate increased investor interest and trading activity.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-among-5-stocks-that-hit-52-week-highs-amp-rallied-up-to-15-in-a-month/slideshow/134995212.cms",
+          "publishedAt": "2026-10-16T12:26:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-16T12:26:43+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
       "id": "3215a2de16d02a",
@@ -101,17 +250,17 @@
       "categories": [
         "India"
       ],
-      "title": "India’s forex reserves drop $60 billion in six weeks as RBI intervenes",
+      "title": "India's forex reserves shed $60 billion in six weeks as RBI steps in to support rupee, one of Asia's worst-performing currencies this year",
       "publishedAt": "2026-10-16T12:17:33+00:00",
-      "importanceScore": 12.2,
+      "importanceScore": 12.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-shed-60-billion-in-six-weeks-as-rbi-steps-in-to-support-rupee-one-of-asias-worst-performing-currencies-this-year/articleshow/134994757.cms",
-      "summary": "India’s foreign‑exchange reserves fell by roughly $60 billion over a six‑week period. The Reserve Bank of India stepped into the market to support the rupee, which has been among the weakest Asian currencies this year. The drawdown reflects the central bank’s effort to stabilise the currency.",
+      "summary": "India’s foreign exchange reserves declined by nearly $60 billion in six weeks to $726.027 billion as of October 9, from a record high of $785.706 billion on September 4. The fall was largely attributed to the Reserve Bank of India’s intervention to support the rupee amid rising crude oil prices, higher US yields and sustained foreign investor outflows.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -120,15 +269,20 @@
         }
       ],
       "firstSeen": "2026-10-16T12:17:33+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-16T17:26:34.170134+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "source-backed",
+      "previousTitle": "India’s forex reserves drop $60 billion in six weeks as RBI intervenes",
+      "previousSummary": "India’s foreign‑exchange reserves fell by roughly $60 billion over a six‑week period. The Reserve Bank of India stepped into the market to support the rupee, which has been among the weakest Asian currencies this year. The drawdown reflects the central bank’s effort to stabilise the currency.",
+      "previousPublishedAt": "2026-10-16T12:17:33+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.2,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "da7b1218a8c148",
@@ -137,17 +291,17 @@
       "categories": [
         "World"
       ],
-      "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+      "title": "Houthi missile strike hits Aden presidential palace, five killed, 16 injured",
       "publishedAt": "2026-10-15T23:38:46+00:00",
       "importanceScore": 11.7,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
+      "summary": "A Houthi missile attack struck al‑Maashiq Palace, the presidential palace in Aden, killing five people and wounding 16, including site guards and civilian employees. Yemen’s Information Minister Moammar al‑Eryani said the prime minister and other ministers were unharmed. The Houthis said the strike targeted what they called the “Saudi enemy’s military operations headquarters” in Aden.",
+      "why": "The attack highlights the continued danger to Yemen’s internationally‑recognised government amid the civil war.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
@@ -157,36 +311,72 @@
       ],
       "firstSeen": "2026-10-15T23:38:46+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-16T17:26:34.170134+00:00",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "strong-source-or-corroborated",
       "previousTitle": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
       "previousSummary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
       "previousPublishedAt": "2026-10-15T23:38:46+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 11.7,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "changed": true,
+      "change": "Jarvis verification is now available for this event.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "f5f021032aceac",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India's forex reserves drop by $8.58 billion to $726.03 billion in week ended October 9: RBI",
+      "publishedAt": "2026-10-16T11:47:31+00:00",
+      "importanceScore": 11.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-by-usd-8-58-billion-to-usd-726-03-billion-in-week-ended-october-9-rbi/articleshow/134993652.cms",
+      "summary": "India’s foreign exchange reserves fell by $8.578 billion to $726.027 billion in the week ended October 9, according to data released by the Reserve Bank of India (RBI). Foreign currency assets and gold reserves recorded significant declines, while special drawing rights and India’s reserve position with the IMF also fell.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-by-usd-8-58-billion-to-usd-726-03-billion-in-week-ended-october-9-rbi/articleshow/134993652.cms",
+          "publishedAt": "2026-10-16T11:47:31+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-16T11:47:31+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-16T21:12:42.374155+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
   "jarvisEditedCount": 3,
-  "finalRejectedCount": 2,
-  "previousUpdated": "2026-10-16T12:28:40.465775+00:00",
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-16T17:26:34.170134+00:00",
   "changeSummary": {
-    "new": 2,
-    "updated": 0,
+    "new": 5,
+    "updated": 2,
     "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-10-15T15:06:22.977089+00:00",
-    "updated": "2026-10-16T17:26:34.170134+00:00",
-    "snapshotCount": 8,
-    "eventCount": 21,
+    "updated": "2026-10-16T21:12:42.374155+00:00",
+    "snapshotCount": 9,
+    "eventCount": 25,
     "retentionHours": 72
   }
 }
