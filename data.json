@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T01:23:38.892637+00:00",
+  "updated": "2026-10-16T07:12:57.744428+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
@@ -7,48 +7,120 @@
     "rawCandidates": 80,
     "nonNoiseCandidates": 78,
     "officialOrPrimaryCandidates": 11,
-    "enrichedCandidates": 76,
+    "enrichedCandidates": 75,
     "readableCandidates": 63,
-    "eventClusters": 59,
-    "materialEvents": 29,
+    "eventClusters": 62,
+    "materialEvents": 32,
     "selectedEvents": 10,
-    "seededStories": 8,
+    "seededStories": 10,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "da7b1218a8c148",
+      "id": "a32897379b718e",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Houthi missile attack on Aden presidential palace kills five, injures 16",
-      "publishedAt": "2026-10-15T23:38:46+00:00",
-      "importanceScore": 13.7,
+      "title": "Record number of ship attacks reported in Strait of Hormuz",
+      "publishedAt": "2026-10-16T05:00:17+00:00",
+      "importanceScore": 15.6,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Five people were killed and 16 injured when five ballistic missiles struck al‑Maashiq Palace in Aden, the seat of Yemen’s internationally‑recognised government. Yemen’s information minister said the prime minister and other ministers were unharmed; the health minister said the victims were palace guards and civilian staff. The Houthis said they targeted the “Saudi enemy’s military operations headquarters” in the city.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+      "summary": "UK Maritime Trade Operations recorded twelve vessel attacks in the Strait of Hormuz between 5 and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week saw ten attacks, with six incidents occurring on a single Sunday and four reported so far this week. Industry data indicate that the rise in attacks has coincided with a slowdown in the rebound of oil shipments through the strait.",
+      "why": "The attacks threaten safe navigation and could further disrupt global oil flow.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-15T23:38:46+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-16T05:00:17+00:00"
         }
       ],
-      "firstSeen": "2026-10-15T23:38:46+00:00",
+      "firstSeen": "2026-10-16T05:00:17+00:00",
       "status": "New",
-      "lastChecked": "2026-10-16T01:23:38.892637+00:00",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "a554348c86b2e1",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Meta and Google to retain Jio IPO shares as company targets ₹30,213 cr raise",
+      "publishedAt": "2026-10-16T04:14:32+00:00",
+      "importanceScore": 13.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-meta-google-sit-on-nearly-1-lakh-crore-paper-profit-neither-is-selling/articleshow/134982204.cms",
+      "summary": "Meta Platforms and Google, who invested in Jio Platforms in 2020, could benefit from the upcoming initial public offering. Jio plans to raise about ₹30,213 crore, valuing the company at roughly ₹10.3 lakh crore. Neither Meta nor Google intends to sell any of their shares in this IPO.",
+      "why": "The IPO will inject substantial capital into Jio Platforms, supporting its growth while the investors keep their stakes.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-meta-google-sit-on-nearly-1-lakh-crore-paper-profit-neither-is-selling/articleshow/134982204.cms",
+          "publishedAt": "2026-10-16T04:14:32+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-16T04:14:32+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "8c13ffd0ddac99",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Global hedge funds suffer steep losses as AI trade unwinds, Asia funds hit hardest",
+      "publishedAt": "2026-10-16T05:02:09+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-hedge-funds-suffer-steep-losses-as-ai-trade-unwinds-asia-funds-hit-hardest/articleshow/134982825.cms",
+      "summary": "Global hedge funds suffered steep losses as investors unwound artificial intelligence-related trades amid inflation concerns and expectations of higher interest rates. Asia-focused stock pickers were hit hardest, losing 6.8% in early October, while global fundamental long-short funds fell 2.9% through October 15, according to Goldman Sachs data cited by Reuters.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-hedge-funds-suffer-steep-losses-as-ai-trade-unwinds-asia-funds-hit-hardest/articleshow/134982825.cms",
+          "publishedAt": "2026-10-16T05:02:09+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-16T05:02:09+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -60,17 +132,17 @@
       "categories": [
         "India"
       ],
-      "title": "India’s unemployment rate holds at 5% in September 2026",
+      "title": "India's unemployment rate stays steady at 5% in September",
       "publishedAt": "2026-10-15T11:26:51+00:00",
       "importanceScore": 13.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-stays-steady-at-5-in-september/articleshow/134966168.cms",
-      "summary": "India’s overall unemployment rate stayed at 5.0% in September 2026, unchanged from the previous month. Rural unemployment fell to 4.2%, urban unemployment rose to 6.9%, and urban female unemployment increased to 9.2%. The Labour Force Participation Rate was 55.5% year‑on‑year and the Worker Population Ratio rose to 52.7%.",
-      "why": "The figures show a stable labor market overall while indicating rising joblessness among urban women, which is relevant for policymakers and businesses.",
-      "confidence": "medium",
+      "summary": "India's overall unemployment rate held steady at 5.0% in September 2026, compared to the previous month. The rural unemployment rate improved to 4.2%, while urban unemployment increased slightly to 6.9%.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -80,61 +152,60 @@
       ],
       "firstSeen": "2026-10-15T11:26:51+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-16T01:23:38.892637+00:00",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India's unemployment rate stays steady at 5% in September",
-      "previousSummary": "India's overall unemployment rate held steady at 5.0% in September 2026, compared to the previous month. The rural unemployment rate improved to 4.2%, while urban unemployment increased slightly to 6.9%.",
+      "verificationScope": "source-backed",
+      "previousTitle": "India’s unemployment rate holds at 5% in September 2026",
+      "previousSummary": "India’s overall unemployment rate stayed at 5.0% in September 2026, unchanged from the previous month. Rural unemployment fell to 4.2%, urban unemployment rose to 6.9%, and urban female unemployment increased to 9.2%. The Labour Force Participation Rate was 55.5% year‑on‑year and the Worker Population Ratio rose to 52.7%.",
       "previousPublishedAt": "2026-10-15T11:26:51+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 14.3,
+      "previousImportanceScore": 13.3,
       "changed": true,
       "change": "Material facts or figures changed since the previous brief.",
       "lifecycle": "Updated"
     },
     {
-      "id": "83edb2b9c71b6d",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "da7b1218a8c148",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Indian Markets",
-        "India"
+        "World"
       ],
-      "title": "RBI clarifies FERR not required for market‑making, ECB coupons or NR dividends",
-      "publishedAt": "2026-10-15T15:14:53+00:00",
-      "importanceScore": 13.2,
+      "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+      "publishedAt": "2026-10-15T23:38:46+00:00",
+      "importanceScore": 12.7,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-clarifies-interbank-trades-ecbs-coupons-not-part-of-ferr/articleshow/134979553.cms",
-      "summary": "The Reserve Bank of India clarified that the foreign exchange risk reserve (FERR) requirement does not apply to banks that engage in inter‑bank market‑making or proprietary trading. It also confirmed that the rule does not affect interest payments on external commercial borrowings (ECBs) or dividends payable to non‑resident investors. Banks must keep the FERR only until one day after a derivative contract ends.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+      "summary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-clarifies-interbank-trades-ecbs-coupons-not-part-of-ferr/articleshow/134979553.cms",
-          "publishedAt": "2026-10-15T15:14:53+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-clarifies-interbank-trades-ecbs-coupons-not-part-of-ferr/articleshow/134970942.cms",
-          "publishedAt": "2026-10-15T15:14:53+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-15T23:38:46+00:00"
         }
       ],
-      "firstSeen": "2026-10-15T15:14:53+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-16T01:23:38.892637+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "firstSeen": "2026-10-15T23:38:46+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "verificationScope": "source-backed",
+      "previousTitle": "Houthi missile attack on Aden presidential palace kills five, injures 16",
+      "previousSummary": "Five people were killed and 16 injured when five ballistic missiles struck al‑Maashiq Palace in Aden, the seat of Yemen’s internationally‑recognised government. Yemen’s information minister said the prime minister and other ministers were unharmed; the health minister said the victims were palace guards and civilian staff. The Houthis said they targeted the “Saudi enemy’s military operations headquarters” in the city.",
+      "previousPublishedAt": "2026-10-15T23:38:46+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "d61ab3162e8bbd",
@@ -145,7 +216,7 @@
       ],
       "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
       "publishedAt": "2026-10-15T14:51:30+00:00",
-      "importanceScore": 12.9,
+      "importanceScore": 11.9,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
@@ -163,7 +234,7 @@
       ],
       "firstSeen": "2026-10-15T14:51:30+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-16T01:23:38.892637+00:00",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -178,16 +249,51 @@
       "lifecycle": "Continuing"
     },
     {
+      "id": "86cd4ceb3a8f7e",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Rupee strengthens to 95.05 a dollar while forward premiums hit four-year high amid RBI measures",
+      "publishedAt": "2026-10-15T13:08:20+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/rupee-strengthens-to-95-05-a-dollar-as-forward-premiums-hit-four-year-high-amid-rbi-measures/articleshow/134968902.cms",
+      "summary": "The rupee concluded the day on Thursday with a gain of 10 paise, reaching 95.05 against the dollar. This strengthening occurred as forward premiums climbed to levels not seen in more than four years, creating a climate of uncertainty.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rupee-strengthens-to-95-05-a-dollar-as-forward-premiums-hit-four-year-high-amid-rbi-measures/articleshow/134968902.cms",
+          "publishedAt": "2026-10-15T13:08:20+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-15T13:08:20+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
       "id": "6438044ceee721",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
-        "India",
-        "Indian Markets"
+        "India"
       ],
       "title": "India's current account deficit narrows to $5.2 billion in August as capital account surplus hits $50.6 billion",
       "publishedAt": "2026-10-15T15:56:13+00:00",
-      "importanceScore": 12.8,
+      "importanceScore": 11.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-current-account-deficit-narrows-to-5-2-billion-in-august-as-capital-account-surplus-hits-50-6-billion/articleshow/134971438.cms",
@@ -201,61 +307,20 @@
           "name": "economictimes.indiatimes.com",
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-current-account-deficit-narrows-to-5-2-billion-in-august-as-capital-account-surplus-hits-50-6-billion/articleshow/134971438.cms",
           "publishedAt": "2026-10-15T15:56:13+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indias-current-account-deficit-narrows-to-5-2-billion-in-august-as-capital-account-surplus-hits-50-6-billion/articleshow/134979546.cms",
-          "publishedAt": "2026-10-15T15:56:13+00:00"
         }
       ],
       "firstSeen": "2026-10-15T15:56:13+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-16T01:23:38.892637+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "5a0503e2a9246e",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
-      "publishedAt": "2026-10-15T16:15:06+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss",
-      "summary": "\"You are telling me, I can't come to school?\" says a teenage girl in a navy blue Islamic headscarf, captured on video challenging a staff member at the entrance to her school. The footage has been shared widely on social media, and shows a group of girls in hijabs standing behind her applauding as she continues: \"Why should I have to give up my religion?\" Last Monday the education ministry in Azerbaijan began enforcing new uniform rules, turning away female pupils wearing hijabs.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-15T16:15:06+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-15T16:15:06+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-16T01:23:38.892637+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
-      "previousSummary": "\"You are telling me, I can't come to school?\" says a teenage girl in a navy blue Islamic headscarf, captured on video challenging a staff member at the entrance to her school. The footage has been shared widely on social media, and shows a group of girls in hijabs standing behind her applauding as she continues: \"Why should I have to give up my religion?\" Last Monday the education ministry in Azerbaijan began enforcing new uniform rules, turning away female pupils wearing hijabs.",
-      "previousPublishedAt": "2026-10-15T16:15:06+00:00",
+      "previousTitle": "India's current account deficit narrows to $5.2 billion in August as capital account surplus hits $50.6 billion",
+      "previousSummary": "India's current account deficit narrowed to $5.2 billion in August, compared to $6.1 billion a year earlier. The capital account surplus increased substantially to $50.6 billion, influenced by non-resident deposits of $83 billion.",
+      "previousPublishedAt": "2026-10-15T15:56:13+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.7,
+      "previousImportanceScore": 12.8,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
@@ -287,7 +352,7 @@
       ],
       "firstSeen": "2026-10-15T20:04:53+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-16T01:23:38.892637+00:00",
+      "lastChecked": "2026-10-16T07:12:57.744428+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -296,27 +361,27 @@
       "previousSummary": "Meta has launched what it calls the “most capable” open-weight model in the United States. The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, according to evaluation results released by Meta on Thursday.",
       "previousPublishedAt": "2026-10-15T20:04:53+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 11.0,
+      "previousImportanceScore": 10.0,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-15T22:21:54.661603+00:00",
+  "previousUpdated": "2026-10-16T01:23:38.892637+00:00",
   "changeSummary": {
-    "new": 3,
+    "new": 4,
     "updated": 1,
-    "continuing": 3
+    "continuing": 4
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-10-15T15:06:22.977089+00:00",
-    "updated": "2026-10-16T01:23:38.892637+00:00",
-    "snapshotCount": 5,
-    "eventCount": 14,
+    "updated": "2026-10-16T07:12:57.744428+00:00",
+    "snapshotCount": 6,
+    "eventCount": 17,
     "retentionHours": 72
   }
 }
