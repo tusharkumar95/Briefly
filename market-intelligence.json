@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-17T06:12:44.595951+00:00",
+  "updated": "2026-10-17T11:10:46.416358+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite was little changed 0.11%",
+      "headline": "TSX up 0.11% as energy and utilities stocks lift market",
       "direction": "flat",
       "move": "S&P/TSX Composite +0.11%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Utilities rally",
-          "detail": "Utilities sector gains lifted the TSX at the close",
-          "kind": "context"
-        },
-        {
           "label": "Energy gains",
-          "detail": "Energy stocks rose, offsetting weakness in technology",
+          "detail": "Energy shares rose, lifting the index higher.",
           "kind": "context"
         },
         {
-          "label": "Mining rally (Denison)",
-          "detail": "Denison and other mining stocks led gains",
+          "label": "Utilities rally",
+          "detail": "Utilities stocks rallied at the close, extending weekly gains.",
           "kind": "context"
         },
         {
-          "label": "Technology sell‑off",
-          "detail": "Tech sector declined, but was outweighed by other gains",
+          "label": "Denison surge",
+          "detail": "Denison’s share price led the market’s 39‑point advance.",
+          "kind": "context"
+        },
+        {
+          "label": "Tech sell‑off",
+          "detail": "Technology stocks fell but were outweighed by energy gains.",
           "kind": "context"
         }
       ],
@@ -49,10 +49,16 @@
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "The Globe and Mail",
+          "title": "TSX Opens Higher as Energy Shares Lead Gains - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQ3hxeG1mb25LQ041VXBSdUd6TGs0U1ZjRWJBNmFETF9YMldMLUNrNERla3RfYV9WNWczeTh2SEF3QVJsYW1iR2dTMEQ4d2I1aDlrYmZhQjZIQ01XQzYxSjdpeUdhOFV5R2xzYTE2djFYYjVSMmNFQ1k2RjlKeWZRTHNLejdRS1gwMDRDUDhma0lHV3prWFlZUmdwX1RJRzVCM3VGUkp2V2doQTdXUjBDeEptcjRFUTd2eW9Dbm5CaE44Wm41REZvTA?oc=5",
+          "publishedAt": "2026-10-16T14:36:00+00:00"
+        },
+        {
           "name": "Investing.com Canada",
           "title": "TSX edges higher at close as utilities rally, extending weekly gains - Investing.com Canada",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR0xqbnV0MnBQZ3c5WmZRQUxFSTZqR0VFWi1PajEyQ1ZlWHRGYnl1Nkp2Yy1tNzhDSnE5Y0Y5VkhKNXNVYTRobmhYamZlOE9SMjJPWTZOdVlNNHYtVXVzNUtiS2d2VjRweThlWTFiUFdxZ0xxY1g0SXJDbVhTUjdoQ1NfVVBmZEtNZHQtaVB5UWc3VUlhcnNpaEMwMUZYSDNmNGpCM2lyYWhQdndCdm81Vm9PZjFJYVRjdkJPTkR3cjZ4MnJZMWcyQ1F6UU9kVkRP?oc=5",
-          "publishedAt": "2026-10-16T23:48:45+00:00"
+          "publishedAt": "2026-10-16T23:49:18+00:00"
         },
         {
           "name": "ad-hoc-news.de",
@@ -77,12 +83,6 @@
           "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.11% - Investing.com UK",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWV9YdXprQmh4eThteHFoZXVkTlV0OW5sZktMWEpDd2ZYeU1nakt0TXB6dWU3NzhOUlBYSVZwa21jQWVwTlFYajlGM1VFdnpxS2ozcGNoQWYwN3k1SFAyY3ltN3BqZ3p4NklCZFBfWm9NQVNoaDExSzJDMVdQaGZTek9FV0k2WXVjNHF1TXg3NlYwQnlMeFhoa0R3RXhXUlo4QU1US0w1RVN4TWpOQjN1M3pOV1lRc1Zz?oc=5",
           "publishedAt": "2026-10-16T20:30:00+00:00"
-        },
-        {
-          "name": "ad-hoc-news.de",
-          "title": "S&P/ TSX Composite rises 0.4 percent as energy leads - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa0ZMajhsYVktbFZVUmxXVWNmSHM5aDFtaGVQSWE2Y2JMUnlqN0JYeERXdk9qSFNzQ0VzdDZDNjgwTTdJanBNM1FaWUU4QVdkR1NlanNoVFJ3OExEWnVNdjMycWdfNHE4cjlZSHBWYktIaFloMXhFVkFyelZvYVp3amhuS0o2bUsyTURieE8xeFd1dFptcGhta0lzdWhFYXRFYkZKWlZuU1VWRTdaSkxMczl3Z3AwTjQ5?oc=5",
-          "publishedAt": "2026-10-16T16:34:15+00:00"
         }
       ],
       "evidenceCount": 7
@@ -92,7 +92,7 @@
       "headline": "Nifty 50 rose 0.65%",
       "direction": "up",
       "move": "Nifty 50 +0.65%",
-      "why": "Same-day market coverage explicitly linked the final move to: Oil Prices Surge; Trump Delays Iran Strike; Sensex Rises 0.56% and Green Energy Stocks Show Mixed Trends.",
+      "why": "Same-day market coverage explicitly linked the final move to: Oil Prices Surge; IT, Media Stocks Rally; Trump Delays Iran Strike.",
       "drivers": [
         {
           "label": "Oil Prices Surge",
@@ -100,18 +100,13 @@
           "kind": "driver"
         },
         {
+          "label": "IT, Media Stocks Rally",
+          "detail": "TradingView explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
           "label": "Trump Delays Iran Strike",
           "detail": "Goodreturns explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Sensex Rises 0.56% and Green Energy Stocks Show Mixed Trends",
-          "detail": "SolarQuarter explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "IT Stocks Rally",
-          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -151,34 +146,34 @@
           "publishedAt": "2026-10-17T04:04:07+00:00"
         },
         {
+          "name": "The Economic Times",
+          "title": "F&O Talk: Nifty’s break above 23,450 could push index to 23,650; Sudeep Shah picks Tech Mahindra, TCS stra - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUGMtZFAyREVyLVoxNE5rMzBDcjRXWmVoRlcwS0xPdmZGRkdDV09XUWVSS3lvNTBnVDBwVVpNd09jeFNqd1JoX2xZNUF5bWdNNTlveTlVVWRGQnl1bEFkNGlMSW9qWmZtMVdlUlk3bEl1cXRLbVlmUWRjZHFwZjhIUTh3RUtJejVkMEJMdkJYQ2M4ekRKNTVOcU1mMnlySnduUHBmRmxnX29CTERVX2R2QmE5bzFSdU9DS3ZEU1JWa2F3MUoxanphU1VUMEhTaEY5eVN4VUwyb2FrZXNzekxtQ1dqV19UYXhQRDQtVlJlQ3p4THhXMHFkM3NEUDVtU3hjMDJTSkotUUHSAY4CQVVfeXFMT3RQZHRnWllKVTAzQk55X2pjSFd0eDdnd0dFVFlFX0FsamVsZ2pBamk0aC1tUWRFcG1mbGJNck5lOExWeTlBQTJxUXV1bEF0d1ZfODlnSnNmWEpVY1hwYm1BZHVfUkFNMFRlSWhRUWc2Nmo4djN6c1FsdFFqS25pT2RxY1lZeVJIX1dfNDhNd19RSDRYS1RrYnpQdDdtNEY1aWstLWFxLWxHUU1vM2dHYkRZcWVQOUtKRDNQUzFxSzhKWTBlc2dhRnVmQm9IRml6ZzVFUnp4YmR4NVdyY0RIeGFtTV9xd291cmVEQk1xazQ3My1VdFlVMW9OeGdVM2UwQ1pvOGVHZkRIVGRiZ3l3?oc=5",
+          "publishedAt": "2026-10-17T07:27:50+00:00"
+        },
+        {
+          "name": "INDIA New England News",
+          "title": "Sensex Falls 571 Points, Nifty Closes Below 22,450 as Indian Markets Extend Losses - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMFBiMVEtZ3F3YVNHZTdUbmVkaFVpVXJRQXVrWEhkRDloWE1VMGlfTVJnMWN4NTdCLU1GOUF4TTh0Zktrb0t5T2dRUkVBOEl5cGpLZGI1VS1sUjd1Vy16QmxTbFNLQTVLQ252TkJjSjFSSFRFeFVQUmdKakZzRzlYVmRodDZNN1lDUFhFUm9NSE9XOHJQVTNiR1RBLUd0b3RnMWVfTnhURU1Rb3hhWWc?oc=5",
+          "publishedAt": "2026-10-16T20:29:29+00:00"
+        },
+        {
+          "name": "TradingView",
+          "title": "Sensex Gains 413 Points, Nifty Ends Above 23,100 As IT, Media Stocks Rally - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMHA1ekR6b3RiZElWU0UzSTgwQ0dmVmpiUXRXTUlCQlpFeWRWd2dkRUdTM2dlTFR3Nm1oRzVuZ1ItelpZcU5QdFVWNHRxcnV5WkRVWGI3XzQ2NG1ldVB5bTkzZVZ6NjZfcVd6V29LTGpDNk02X2tQVkh5NFNsQV85dWx4WmIyZ0pCWUtkeHp1ZVpVWUk2LTZrSkl3ZUNNcXVOVjdyMTI5YXZDS3g1V0xRaWlqMEpFRGQyTmRSRXJmcnBJYUtkN015Ng?oc=5",
+          "publishedAt": "2026-10-16T17:01:17+00:00"
+        },
+        {
           "name": "Goodreturns",
-          "title": "Closing Bell: Sensex Falls 1,045 Points, Nifty Hits 52-Week Low; Why Did Stock Market Crash Today? - Goodreturns",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYUZVWUNxTHdxajZsZHFoRGpxM2VVdFFoaWs2MnBCODhVaUVHU3BVSW9NaW8ySVphM1VHUS05c3hCcXdrb2pLQVl6QUFzS21mTkVGQWFPYlQ4TmxDaWM2WGhJdFY2cHN6SzF1VWxhaWV4NUk2ZThuNWZySWFPaF9oYk5MeFZWdG5kT25reGFpY1RDVkxfMllaQjdCY1paT3FyR1h0ZlJjSk9NTlRTUTk0UHNrMzlNbllRdXRseHNjcTlnUk1vTHhtaC1ELUtNV0s5VFBCSVhSUW1pUQ?oc=5",
-          "publishedAt": "2026-10-17T03:12:27+00:00"
+          "title": "D-Street Bloodbath: Nifty Crashes 500 Pts, Sensex Down 2.2%; HDFC Bank Falls 5%; Why Is Stock Market Falling? - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbl83MmNpN3o2NEo1US05b2FPNlBrMU5SLUp4NmJEXzZySDhQSU5KTTBTRG5xbVZ0U1RUZVVBZHdEc2czdnc0VjVIMlh2NDRIVnNWSkFzUTZ4OGJQV0pSY1VaWXNkUTlQM2ttOU51R1ZSR0dyTHhYRUZwNzRHR016aU8tRG9iMEYzQlVTNHNuc3U4UFk4RzY0ODNQSXMxU25uUEdrX0ZjdDFYSWw0NExCeEFBQ2pFNnphS0pGWHoxY01QN3lwajNUeTZMSDN5b0pTc0E?oc=5",
+          "publishedAt": "2026-10-16T14:27:01+00:00"
         },
         {
           "name": "Goodreturns",
           "title": "Stock Market Opens Strong: Nifty Up 1.5%, Sensex Rallies 1,516 Pts; Rupee Recovers as Trump Delays Iran Strike - Goodreturns",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcm00Zl9MbkdZSWxpRF9NVm41U0xDRUpqaHRVWDN3MjNYeUJZYTQ4WExLQVJ4N1lyRXlnTGhqeDVBNk5OOWctVXgxRzZGdGEteFM0OUtrYlU0ajRCajJKWVdwWHduWHRISGRVNkpTMnFBYmREdi1jTW81b3JtRVJscUpNcGJzSGdnNVU4REFBWDVoZHNtSFY3VDBMaS0xb1hKX3ZQZ2ktOTdqenV6TFFTcV94R240c25YTXlZTU5RSVZ6ZG1hY19nVnFJQV9IcWl4Ym5UZ1d6WQ?oc=5",
           "publishedAt": "2026-10-16T14:23:09+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Today: India’s Benchmark Falls to 71,924.68 Amid the Russia-Ukraine War and the US-Iran Conflict - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSWxLblRQdDkwUVBXX3NOM1NTVnl5SGpKQzlTdVhBOUpzTHlwRk1Xc3lLT3VXcVFndHREc1lxMng0Q0o2aVRVWTVCUThSdC1PQzZKRHlHT0RfMDZwWWU2M1JhNUVKMV9mQUFiOXRxZ1Y3bG90TkJpRTlYdnVmNG1YQXFfRGlXTXVWMkwyZUxOYVlWZUhtVy1UTElqMlgzZ0tnc0M3WXdNZVA4SWFLX3JWUkVsVXdiZGxNODRHZ0RoV2xMLVNSRjhFN3NGaTY5TW10UUdac2VZS243aHpFQmdR?oc=5",
-          "publishedAt": "2026-10-16T13:38:57+00:00"
-        },
-        {
-          "name": "Goodreturns",
-          "title": "Stock Market Outlook Today, September 16: Sensex, Nifty May Fall Further; Fed Decision in Focus - Goodreturns",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRHYtU0g0dmJZMHcwRmIxdUs4ZU9wOXNwZEhrTEotbnNnZVNSd0VubzBCX1JCTC12N0c4b0NXakdkLXViSEtMTHN0eUN3TTJlcTljUVVZQ1dFdmxqSEc3dEJBcU9PcE5KMlV6dS1VdU1rNjdsRTVaUFNmcEVQbjg0N3Z5NkI5UVl0Vk5NYkFYdTNXMG9ycktyUG5VOG1QT19vVFZHblFoUDFHNy0zLVZwLTQ1eG1nUHoxRzRrUGJoMExQR0ZIdFNYQ1FvQzUtTm9JVUgta2FvZXZhVUZlUHc?oc=5",
-          "publishedAt": "2026-10-16T13:21:45+00:00"
-        },
-        {
-          "name": "SolarQuarter",
-          "title": "Indian Stock Market Gains on October 16 as Sensex Rises 0.56% and Green Energy Stocks Show Mixed Trends - SolarQuarter",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWkhwLW8wWTFKdHJFTlJEc09uN09obFhkV1RKdEZfY2I2ZlhVYTdHbFJvOVlNZ2lzQ0pxWWdtejVkbDdETWJINHFDc1FXQnZRakc0ZWowRkV2RmExMWhYRU9zQy1aSjhVQ1RoSHFPMGhkejFrYU1nam9PekQ5R2ZqYXJNNlFJYUt3a3FmTHRLQWZHZnZNMlZtUUlKRGZtTlVramtmWXZnQlRyU3kwZzIwU0h3UnpSNDc1ZmRXd09VcUJPX0RLVmk5eWpfaDB0N2hHZXZxNS1n?oc=5",
-          "publishedAt": "2026-10-16T12:34:29+00:00"
         }
       ],
       "evidenceCount": 7
