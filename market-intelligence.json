@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-16T23:01:21.828940+00:00",
+  "updated": "2026-10-17T01:33:18.548728+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX climbs 0.11% as metals and energy gains offset oil weakness and tech selloff",
+      "headline": "S&P/TSX Composite was little changed 0.11%",
       "direction": "flat",
       "move": "S&P/TSX Composite +0.11%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Metals gains",
-          "detail": "Gains in metals stocks offset oil weakness, pushing TSX futures higher (Reuters).",
+          "label": "Utilities rally",
+          "detail": "Utilities stocks rallied, helping the TSX edge higher at the close.",
           "kind": "context"
         },
         {
           "label": "Energy gains",
-          "detail": "Energy sector advances lifted the index, offsetting a tech selloff (TradingView; ad‑hoc‑news.de).",
+          "detail": "Energy sector gains offset a tech sell‑off and supported the market rise.",
+          "kind": "context"
+        },
+        {
+          "label": "Metals gains",
+          "detail": "Higher metal prices lifted futures and contributed to the upward move.",
           "kind": "context"
         },
         {
           "label": "Denison leadership",
-          "detail": "Denison Mines shares led the market higher, contributing to the composite gain (ad‑hoc‑news.de).",
-          "kind": "context"
-        },
-        {
-          "label": "Rate outlook concerns",
-          "detail": "Investors weighed rate outlook and commodity swings earlier in the day, which had weighed on the TSX before the final rise (Investing.com Canada).",
+          "detail": "Denison shares led the TSX higher, contributing to the 39‑point gain.",
           "kind": "context"
         }
       ],
@@ -55,9 +55,15 @@
           "publishedAt": "2026-10-16T11:11:44+00:00"
         },
         {
+          "name": "Investing.com Canada",
+          "title": "TSX edges higher at close as utilities rally, extending weekly gains - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR0xqbnV0MnBQZ3c5WmZRQUxFSTZqR0VFWi1PajEyQ1ZlWHRGYnl1Nkp2Yy1tNzhDSnE5Y0Y5VkhKNXNVYTRobmhYamZlOE9SMjJPWTZOdVlNNHYtVXVzNUtiS2d2VjRweThlWTFiUFdxZ0xxY1g0SXJDbVhTUjdoQ1NfVVBmZEtNZHQtaVB5UWc3VUlhcnNpaEMwMUZYSDNmNGpCM2lyYWhQdndCdm81Vm9PZjFJYVRjdkJPTkR3cjZ4MnJZMWcyQ1F6UU9kVkRP?oc=5",
+          "publishedAt": "2026-10-16T23:48:45+00:00"
+        },
+        {
           "name": "ad-hoc-news.de",
           "title": "S&P/ TSX Composite gains 39 points as Denison leads - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTDhxdWlFUGNXQ1c0N0twVHRDYjNIRHB1SFVwa0dKeEtHSVFPVktEcHV3S1M0eGJnaHYzejVaVW1PRVo0Wm9YT2RwSl92Z2s3b1owZ2w5WndWS0hRWjliRVBtNm5LQ3dhRmJ6TFRMeEtUaEd1RVNnQ2pGaG5UdkRRWGVRWjRwZ2Z2SkdoaWNvc2ExLXo0ekZnaGVFWXRGanVnckhlOElEM1dsNjVkS1FzMW45M1dFSzQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcmFDV0JxMGZGcllFbS1aSVdJd1B0azZjdGVfQUhZeGNYUmdkSnVhUl9Wd1IzMjRjdTlsbHFkMFltSWpKWnFsSkVQZ3NscnM5eEw0SnBTTG56UnVYWnFBeFBuOUVQV1ZYUVBqNjIxSlVzN1NIVGVROFJuMUo5V0NNZzBUazFSajRQaVI4TDA5R3lYRG1ISUpCTUY5VDBsbnRJVHhDY19kaG41a3hVNVM2bFdrOFZiSVE?oc=5",
           "publishedAt": "2026-10-16T21:07:49+00:00"
         },
         {
@@ -77,12 +83,6 @@
           "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.11% - Investing.com UK",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWV9YdXprQmh4eThteHFoZXVkTlV0OW5sZktMWEpDd2ZYeU1nakt0TXB6dWU3NzhOUlBYSVZwa21jQWVwTlFYajlGM1VFdnpxS2ozcGNoQWYwN3k1SFAyY3ltN3BqZ3p4NklCZFBfWm9NQVNoaDExSzJDMVdQaGZTek9FV0k2WXVjNHF1TXg3NlYwQnlMeFhoa0R3RXhXUlo4QU1US0w1RVN4TWpOQjN1M3pOV1lRc1Zz?oc=5",
           "publishedAt": "2026-10-16T20:30:00+00:00"
-        },
-        {
-          "name": "Investing.com Canada",
-          "title": "TSX slips as investors weigh rate outlook, commodity swings By Investing.com - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR0xqbnV0MnBQZ3c5WmZRQUxFSTZqR0VFWi1PajEyQ1ZlWHRGYnl1Nkp2Yy1tNzhDSnE5Y0Y5VkhKNXNVYTRobmhYamZlOE9SMjJPWTZOdVlNNHYtVXVzNUtiS2d2VjRweThlWTFiUFdxZ0xxY1g0SXJDbVhTUjdoQ1NfVVBmZEtNZHQtaVB5UWc3VUlhcnNpaEMwMUZYSDNmNGpCM2lyYWhQdndCdm81Vm9PZjFJYVRjdkJPTkR3cjZ4MnJZMWcyQ1F6UU9kVkRP?oc=5",
-          "publishedAt": "2026-10-16T17:19:11+00:00"
         }
       ],
       "evidenceCount": 7
@@ -107,11 +107,6 @@
         {
           "label": "Sensex Rises 0.56% and Green Energy Stocks Show Mixed Trends",
           "detail": "SolarQuarter explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "IT Stocks Rally",
-          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -169,16 +164,16 @@
           "publishedAt": "2026-10-16T12:34:29+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Falls to 72,638.70 After RBI Raises Repo Rate to 5.5% Amid US-Iran Tensions - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdFNWVm5Cd19SYjZXWi01WmpZcUxLX1BITGVuNjE2MEc2OUg4WmVLNWRmLS1WUkcxVnBNd1EyS0hzUVFpckF3eTgxVnRSdmZBeHZzXzRua3lTODFFYW9UbUFqVElxd1BEakJ2WmFPUFZOOXR5d2FpQk5RemI3dEdmVjBodzNfLXB6WnZXX3hYUmZkakdObDBrLVVzTUQ2bXl6U1I3MDBocFpqcXpDSE9EMzJzbU1ERzdaaVZJUllPY2lleFU?oc=5",
-          "publishedAt": "2026-10-16T12:23:38+00:00"
+          "name": "The Economic Times",
+          "title": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5",
+          "publishedAt": "2026-10-16T06:58:47+00:00"
         },
         {
-          "name": "Dalal Street Investment Journal",
-          "title": "Closing Bell: Sensex Gains Over 40 Points, Nifty Tops 23,100 as IT Stocks Rally - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGNldXkwS3VSU3daci1yZWV4cmhYMjBQWWJzendPQnVPTzJPQ3JtWE5ZTHpnRGpNV1lYLWFiQWVtU0tWMGppUHB4WnNnc01VVWFCSWVYYzN6VHNnaHVRT0dyM25OTXhpM1BMWDNLbUdHaHZMMDdaNlNMdUFQZHp4SGhvdTdqdlptaldBek5tZDQyU093NHBPeEJuUUxaYWItdnlidEVoYVZwcDlIbjRzNDY4SXJlX3MtVUUzN0g3czlpSDQ?oc=5",
-          "publishedAt": "2026-10-16T10:53:58+00:00"
+          "name": "Telangana Today",
+          "title": "Sensex, Nifty trade lower in early deals; IT shares buck trend - Telangana Today",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYlBmNHF3T24wXzBiLS1QRHp6X1hpZEtOWHhtZjU1NV9TR3VraFpfM2J4aWREVHdPcWhzaGtHOVVHM0hsb1ZiM3prallxN0dmUmRrM3F3QUl1WTZzQk05YmFHTmswUWVKNWQ1bGRJMnRsOTRrX3NrM1JBRmI0Nmw5TG9KSkt1LTdzd2MwTko2NEs?oc=5",
+          "publishedAt": "2026-10-16T05:25:49+00:00"
         }
       ],
       "evidenceCount": 7
