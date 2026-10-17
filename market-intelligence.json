@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-17T17:32:41.620542+00:00",
+  "updated": "2026-10-17T19:42:57.024650+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX up 0.11% as utilities rally and energy gains offset tech selloff, led by Denison",
+      "headline": "S&P/TSX Composite was little changed 0.11%",
       "direction": "flat",
       "move": "S&P/TSX Composite +0.11%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Utilities rally",
-          "detail": "Utilities stocks rose, extending weekly gains.",
+          "label": "Oil stocks gain",
+          "detail": "Brent crude touched $110 a barrel, lifting energy shares",
           "kind": "context"
         },
         {
-          "label": "Energy gains",
-          "detail": "Energy sector stocks gained, offsetting weakness in technology.",
+          "label": "Utilities rally",
+          "detail": "Utilities sector rallied, extending weekly gains",
           "kind": "context"
         },
         {
           "label": "Denison leadership",
-          "detail": "Denison shares led the market gains.",
+          "detail": "Denison’s stock led the market higher",
           "kind": "context"
         },
         {
-          "label": "Technology sell‑off",
-          "detail": "Technology shares fell, dragging the index but were outweighed by energy and utilities.",
+          "label": "Tech sell‑off offset",
+          "detail": "Energy gains offset a sell‑off in technology stocks",
           "kind": "context"
         }
       ],
@@ -49,10 +49,10 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Investing.com India",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.11% - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbGFianRieHhWVy1yLU1SV2lweWVRRjBRUmdJS24zUHBRcFZiZ083Wm5DR202VVB3cUVMN3ZmVy1vTjExSDFSdW5GOGlqWXU5OVdrdHQ2cnpIYWRpUmJZVmk1SmdCSGxFdGFPRm5BOXpTRWFXZWRkb3RwaVdjVVFaVGY3c1ZIRlVZUU44V0ZaWGdGRmtveTFQS084anpvYW1jSGFVUndQY1lwakpwS2h6ZTFBOTFGQWUy?oc=5",
-          "publishedAt": "2026-10-17T03:27:56+00:00"
+          "name": "Reuters",
+          "title": "TSX rises as oil stocks gain on Brent touching $110 a barrel - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFVaVC16UW5qRXp4STl1cVlHcVFPc1VRMnJoTFNkMzBaVl9UQW9NOGI1RVNsYU1hcWFRZUp5MnF3N2RfNlFubXBDaUVwNFVLUnhOSVZJbDBVZXNqQUR4ZFplSlhxTFlhMS11b1VUMGdNc0dXaTNSSEptemtzZDVuQ0RUdjJiWTVRQmZONFRDMFpjUWdIMkF1UnlKNzMxRHJIX2Qw?oc=5",
+          "publishedAt": "2026-10-16T20:48:16+00:00"
         },
         {
           "name": "Investing.com Canada",
@@ -92,7 +92,7 @@
       "headline": "Nifty 50 rose 0.65%",
       "direction": "up",
       "move": "Nifty 50 +0.65%",
-      "why": "Same-day market coverage explicitly linked the final move to: Rupee Rebounds; Jio IPO and RBI Tightening Loom Over Markets; Investors Assess Corporate Outlook; IT Stocks Surge 4% on Strong Quarterly Results.",
+      "why": "Same-day market coverage explicitly linked the final move to: Rupee Rebounds; Jio IPO and RBI Tightening Loom Over Markets; Investors Assess Corporate Outlook.",
       "drivers": [
         {
           "label": "Rupee Rebounds; Jio IPO and RBI Tightening Loom Over Markets",
@@ -102,11 +102,6 @@
         {
           "label": "Investors Assess Corporate Outlook",
           "detail": "boldnewsonline.com explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "IT Stocks Surge 4% on Strong Quarterly Results",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -170,10 +165,10 @@
           "publishedAt": "2026-10-16T20:29:29+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Rises to 74,729.27 as IT Stocks Surge 4% on Strong Quarterly Results - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNnlWQkJ6dGUzdzFySHY0WUR4dXFvX1dRN1hJZHhIYlNmV3V5a1VTTTBOOS1VVm0zNXNDb2VtYU8zbFpQQ3RJNGxocm9RVzRJQXlTS2V5dDJseExiNGFEWU1DbkhzeU03enk4aTdNYlRfcnNLbmNlZnhwSWhEM1gwMzZCeHM5X2RCRXNIc2drYTQzbEl2V0EwNF95bVVWV19pZktMLTlvdEVYWjV0ajBRNnVlUQ?oc=5",
-          "publishedAt": "2026-10-16T18:34:26+00:00"
+          "name": "Livemint",
+          "title": "Nifty soars 2.8% this week: What lies ahead for Dalal Street? - Experts decode 5 triggers, key levels for next week - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObVhiNXRzNDA4LVVmdXp0RVl4MU5wOXJfNV9BX0VSMFRWQ0NkTXprS0E4cV9ObVlQTVBQdWx0bWRnWHVFRHV1T3N3T1gzS2NDSjBxaUdkY29DNWVubS1XNGY2VzMxeDlZaWJTZGRPak8xZ0F2VUxfOWpmSUVqQXoxWmg1c3VOUmN3VkJaQm5YSjlnR3RianJ0NVRlSl9SLXhwcXQ5NURIdEdFZVZKNnZDd1NlczFtRGNQQmtWN1dWaGRGWmhwa01nWjdfbkhpTk1WcC1NRjR2T2xrTVVpSlI4ekkzVzBBWEpuRjEwbmgzTkJUQ0xPcEtSNlZSejJBVFA0NlFhQlprcUJKZ2UtRHhydtIBkAJBVV95cUxObVhiNXRzNDA4LVVmdXp0RVl4MU5wOXJfNV9BX0VSMFRWQ0NkTXprS0E4cV9ObVlQTVBQdWx0bWRnWHVFRHV1T3N3T1gzS2NDSjBxaUdkY29DNWVubS1XNGY2VzMxeDlZaWJTZGRPak8xZ0F2VUxfOWpmSUVqQXoxWmg1c3VOUmN3VkJaQm5YSjlnR3RianJ0NVRlSl9SLXhwcXQ5NURIdEdFZVZKNnZDd1NlczFtRGNQQmtWN1dWaGRGWmhwa01nWjdfbkhpTk1WcC1NRjR2T2xrTVVpSlI4ekkzVzBBWEpuRjEwbmgzTkJUQ0xPcEtSNlZSejJBVFA0NlFhQlprcUJKZ2UtRHhydg?oc=5",
+          "publishedAt": "2026-10-17T11:34:49+00:00"
         }
       ],
       "evidenceCount": 7
