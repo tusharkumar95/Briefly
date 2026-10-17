@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T19:42:57.024650+00:00",
+  "updated": "2026-10-17T22:40:27.625652+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -11,23 +11,13 @@
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Oil stocks gain",
-          "detail": "Brent crude touched $110 a barrel, lifting energy shares",
-          "kind": "context"
-        },
-        {
           "label": "Utilities rally",
-          "detail": "Utilities sector rallied, extending weekly gains",
+          "detail": "Utilities sector stocks were the primary contributors to the TSX's modest rise, as noted by the market report.",
           "kind": "context"
         },
         {
-          "label": "Denison leadership",
-          "detail": "Denison’s stock led the market higher",
-          "kind": "context"
-        },
-        {
-          "label": "Tech sell‑off offset",
-          "detail": "Energy gains offset a sell‑off in technology stocks",
+          "label": "A&W earnings report",
+          "detail": "A&W Food Services released Q3 earnings, but the article does not link this to the TSX's movement.",
           "kind": "context"
         }
       ],
@@ -49,56 +39,27 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Reuters",
-          "title": "TSX rises as oil stocks gain on Brent touching $110 a barrel - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFVaVC16UW5qRXp4STl1cVlHcVFPc1VRMnJoTFNkMzBaVl9UQW9NOGI1RVNsYU1hcWFRZUp5MnF3N2RfNlFubXBDaUVwNFVLUnhOSVZJbDBVZXNqQUR4ZFplSlhxTFlhMS11b1VUMGdNc0dXaTNSSEptemtzZDVuQ0RUdjJiWTVRQmZONFRDMFpjUWdIMkF1UnlKNzMxRHJIX2Qw?oc=5",
-          "publishedAt": "2026-10-16T20:48:16+00:00"
-        },
-        {
           "name": "Investing.com Canada",
           "title": "TSX edges higher at close as utilities rally, extending weekly gains - Investing.com Canada",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR0xqbnV0MnBQZ3c5WmZRQUxFSTZqR0VFWi1PajEyQ1ZlWHRGYnl1Nkp2Yy1tNzhDSnE5Y0Y5VkhKNXNVYTRobmhYamZlOE9SMjJPWTZOdVlNNHYtVXVzNUtiS2d2VjRweThlWTFiUFdxZ0xxY1g0SXJDbVhTUjdoQ1NfVVBmZEtNZHQtaVB5UWc3VUlhcnNpaEMwMUZYSDNmNGpCM2lyYWhQdndCdm81Vm9PZjFJYVRjdkJPTkR3cjZ4MnJZMWcyQ1F6UU9kVkRP?oc=5",
           "publishedAt": "2026-10-16T23:49:18+00:00"
         },
         {
-          "name": "ad-hoc-news.de",
-          "title": "S&P/ TSX Composite gains 39 points as Denison leads - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcmFDV0JxMGZGcllFbS1aSVdJd1B0azZjdGVfQUhZeGNYUmdkSnVhUl9Wd1IzMjRjdTlsbHFkMFltSWpKWnFsSkVQZ3NscnM5eEw0SnBTTG56UnVYWnFBeFBuOUVQV1ZYUVBqNjIxSlVzN1NIVGVROFJuMUo5V0NNZzBUazFSajRQaVI4TDA5R3lYRG1ISUpCTUY5VDBsbnRJVHhDY19kaG41a3hVNVM2bFdrOFZiSVE?oc=5",
-          "publishedAt": "2026-10-16T21:07:49+00:00"
-        },
-        {
-          "name": "TradingView",
-          "title": "TSX Edges Higher as Energy Gains Offset Tech Selloff - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWoyeTJUOWhlaXR4S3VLV1ktY2VIWDdIVkNWS0UzLTl6TEYyUUh0RzdfRTVqZTRaQVhsMDY4dzlEMUJwaUhTTWJaeXR3eFZjR2VINTQ2SXZaa0hTN3dxdmxWSjAzb0cxMFNJQ1E4M19lX0FvQlZjNDRZV05fZlk3WlltaklJZGFlSlFYQmQzMUt3SlNndGhfVzJEVUhsU3ZvVjZTS0JB?oc=5",
-          "publishedAt": "2026-10-16T20:46:46+00:00"
-        },
-        {
-          "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.11% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVFRZeEpxQWU1T0pVVXRnemhQRW9YaWh6NC1sT29fRE9YOGJDWFpOMDVmenlRcnNuN1U5ZUFhaXM5eFNrdDhnRzEwd1NYNlBlNTBuM1E2Ym5uUzlWMGpuRFoxOURLbWM5VnNUVFk0bGl2VnduOTM3ODRDSDAwUDQ3anQtbDRnWjBQaTJOWTJqM0cyR2RTVmNTYTY2RWhabVk2ajV2bjU2aEgtbTF5V0plZnAxVjdUY1V0UGc?oc=5",
-          "publishedAt": "2026-10-16T20:37:43+00:00"
-        },
-        {
-          "name": "Baystreet.ca",
-          "title": "TSX Hangs onto Gains by Close - Baystreet.ca",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xR2JvdENmbU41NURnbWNZNzdQSnI3ZG5tRmhrZ3NkUkFHQTlnQm9XRXVOb1UtYUlUWlp5WDE1NDEwM09TLUtqWHRDWVo4U3lLR0VRVi1uOEUwem9DVHFXT0JpdWNVWm5wSWN4LW1nQm1xQVFuck9UQXRNUXVEdjDSAX5BVV95cUxQbHdUQnEtdGx5LWoza1lEWVpOdDNSNDUweU96MEVOQzA3ZUszM1M5VEMtcjdaMC1NQ01SazhCSkJSdVlhVTVsWFZpSXpmaUtTdGpuS0ZISmZ6Rlhhbk1tcXFVMkxjSXR3TnVCcVhRYTdQX1NDTmpYaFpEbHRvd2c?oc=5",
-          "publishedAt": "2026-10-16T20:39:17+00:00"
+          "name": "Investing.com Canada",
+          "title": "A&W Food Services of Canada Inc (TSX:AW) (Q3 2026) Earnings Call Highlights: Smashed Burger ... By GuruFocus - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNc2xKVExMMm12eDREZGs4bDZ6QjhiTE1EaVJ5REVmeXpfVmk2dDkxX1ZyY19LM0EwcHBOVWJaZFRBZFhwMGtlNTJBd040a1pmbE90Zk50ZzFucFo4ZTI1bGUtR0xDRnlXWVlPWUg2NVI2aE9CSWZTbkpVZHVWQjkyUXR6YmQ5ZWJCZkZ3bkxyZUVfNkI3TGRVTkFqTHV4ZC1ROW5md0ZRcG5hX1BaT2FSZko3NDRpQWpVV05TZ2ViWDJOSnlOdDdHVFRpakVoOXY4TFE?oc=5",
+          "publishedAt": "2026-10-17T14:44:29+00:00"
         }
       ],
-      "evidenceCount": 7
+      "evidenceCount": 2
     },
     "India": {
       "label": "India",
       "headline": "Nifty 50 rose 0.65%",
       "direction": "up",
       "move": "Nifty 50 +0.65%",
-      "why": "Same-day market coverage explicitly linked the final move to: Rupee Rebounds; Jio IPO and RBI Tightening Loom Over Markets; Investors Assess Corporate Outlook.",
+      "why": "Same-day market coverage explicitly linked the final move to: Investors Assess Corporate Outlook.",
       "drivers": [
-        {
-          "label": "Rupee Rebounds; Jio IPO and RBI Tightening Loom Over Markets",
-          "detail": "HDFC Sky explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
         {
           "label": "Investors Assess Corporate Outlook",
           "detail": "boldnewsonline.com explicitly links the same-direction market move to this factor in its market headline.",
@@ -106,7 +67,7 @@
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -135,10 +96,10 @@
       },
       "sources": [
         {
-          "name": "HDFC Sky",
-          "title": "Nifty IT’s Record 11.5% Weekly Surge Lifts Sensex 3.11% as Rupee Rebounds; Jio IPO and RBI Tightening Loom Over Markets - HDFC Sky",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPbzc0Y0l1V2JCQzVOZTNfMDV3TDN2UU50TjdPR3o3VFQtaVE4d01VaEJfUWgzTGVjcnE1R2hrYzYtbmlNSXJVZGhkbU1jOVJpT1RyaUg1VFJhYXFjempfS3J6WUZySGhJNy1mbVNvXzlWdXFNd1RVM2tVbWxzOWRDSFowN1lIZTBWRmRhbXhfVHpLUmxnZEh6YUNvQ1ptQzd5X09HalRwZ2NKMm11dEZLTGJRUS1oSlpIYmI5Qm9pMG1OUE9zVnF2ZFptcEx5R296U0dXbHdfS25FVVlVc05zZ3M1NjBUQS1wQnNFb1J1em80azlkcjQxY3dEeEZad2JPUHBCYlNR?oc=5",
-          "publishedAt": "2026-10-17T09:38:59+00:00"
+          "name": "BBN Times",
+          "title": "BSE SENSEX Today: India’s Benchmark Falls to 71,924.68 Amid the Russia-Ukraine War and the US-Iran Conflict - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSWxLblRQdDkwUVBXX3NOM1NTVnl5SGpKQzlTdVhBOUpzTHlwRk1Xc3lLT3VXcVFndHREc1lxMng0Q0o2aVRVWTVCUThSdC1PQzZKRHlHT0RfMDZwWWU2M1JhNUVKMV9mQUFiOXRxZ1Y3bG90TkJpRTlYdnVmNG1YQXFfRGlXTXVWMkwyZUxOYVlWZUhtVy1UTElqMlgzZ0tnc0M3WXdNZVA4SWFLX3JWUkVsVXdiZGxNODRHZ0RoV2xMLVNSRjhFN3NGaTY5TW10UUdac2VZS243aHpFQmdR?oc=5",
+          "publishedAt": "2026-10-17T18:40:38+00:00"
         },
         {
           "name": "boldnewsonline.com",
@@ -160,9 +121,9 @@
         },
         {
           "name": "INDIA New England News",
-          "title": "Sensex Falls 571 Points, Nifty Closes Below 22,450 as Indian Markets Extend Losses - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMFBiMVEtZ3F3YVNHZTdUbmVkaFVpVXJRQXVrWEhkRDloWE1VMGlfTVJnMWN4NTdCLU1GOUF4TTh0Zktrb0t5T2dRUkVBOEl5cGpLZGI1VS1sUjd1Vy16QmxTbFNLQTVLQ252TkJjSjFSSFRFeFVQUmdKakZzRzlYVmRodDZNN1lDUFhFUm9NSE9XOHJQVTNiR1RBLUd0b3RnMWVfTnhURU1Rb3hhWWc?oc=5",
-          "publishedAt": "2026-10-16T20:29:29+00:00"
+          "title": "Sensex Jumps 685 Points, Nifty Reclaims 22,750 Ahead of RBI Policy Decision - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1RXTG9KWG5fNkd3cFppOEpDOE9pTnBoN292TnNKX2Y2Uzg1Zl9sWjBlUUFEMlFoaTZIUUxKYzRnVnhIejlacWJ4ZzNoRFRMVDZPTEpqdFZVeW1NZlAzMkNUQlZRc1hBSFZGczlnTEx2VDRpUEFaeU9pMVdFeGpkVUxNakl0UDUwTXB6Zy01UHJ3ZXNFWi1RV080X25saE5lUHJodQ?oc=5",
+          "publishedAt": "2026-10-17T18:03:34+00:00"
         },
         {
           "name": "Livemint",
