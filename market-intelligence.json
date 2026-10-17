@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T01:33:18.548728+00:00",
+  "updated": "2026-10-17T06:12:44.595951+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -12,22 +12,22 @@
       "drivers": [
         {
           "label": "Utilities rally",
-          "detail": "Utilities stocks rallied, helping the TSX edge higher at the close.",
+          "detail": "Utilities sector gains lifted the TSX at the close",
           "kind": "context"
         },
         {
           "label": "Energy gains",
-          "detail": "Energy sector gains offset a tech sell‑off and supported the market rise.",
+          "detail": "Energy stocks rose, offsetting weakness in technology",
           "kind": "context"
         },
         {
-          "label": "Metals gains",
-          "detail": "Higher metal prices lifted futures and contributed to the upward move.",
+          "label": "Mining rally (Denison)",
+          "detail": "Denison and other mining stocks led gains",
           "kind": "context"
         },
         {
-          "label": "Denison leadership",
-          "detail": "Denison shares led the TSX higher, contributing to the 39‑point gain.",
+          "label": "Technology sell‑off",
+          "detail": "Tech sector declined, but was outweighed by other gains",
           "kind": "context"
         }
       ],
@@ -36,9 +36,9 @@
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36176.55,
+        "price": 36176.6,
         "previousClose": 36137.1,
-        "change": 39.45,
+        "change": 39.5,
         "changePct": 0.11,
         "currency": "CAD",
         "exchange": "TSI",
@@ -48,12 +48,6 @@
       },
       "secondaryIndex": null,
       "sources": [
-        {
-          "name": "Reuters",
-          "title": "TSX futures edge higher as gains in metals offset oil weakness - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFVaVC16UW5qRXp4STl1cVlHcVFPc1VRMnJoTFNkMzBaVl9UQW9NOGI1RVNsYU1hcWFRZUp5MnF3N2RfNlFubXBDaUVwNFVLUnhOSVZJbDBVZXNqQUR4ZFplSlhxTFlhMS11b1VUMGdNc0dXaTNSSEptemtzZDVuQ0RUdjJiWTVRQmZONFRDMFpjUWdIMkF1UnlKNzMxRHJIX2Qw?oc=5",
-          "publishedAt": "2026-10-16T11:11:44+00:00"
-        },
         {
           "name": "Investing.com Canada",
           "title": "TSX edges higher at close as utilities rally, extending weekly gains - Investing.com Canada",
@@ -83,15 +77,21 @@
           "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.11% - Investing.com UK",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWV9YdXprQmh4eThteHFoZXVkTlV0OW5sZktMWEpDd2ZYeU1nakt0TXB6dWU3NzhOUlBYSVZwa21jQWVwTlFYajlGM1VFdnpxS2ozcGNoQWYwN3k1SFAyY3ltN3BqZ3p4NklCZFBfWm9NQVNoaDExSzJDMVdQaGZTek9FV0k2WXVjNHF1TXg3NlYwQnlMeFhoa0R3RXhXUlo4QU1US0w1RVN4TWpOQjN1M3pOV1lRc1Zz?oc=5",
           "publishedAt": "2026-10-16T20:30:00+00:00"
+        },
+        {
+          "name": "ad-hoc-news.de",
+          "title": "S&P/ TSX Composite rises 0.4 percent as energy leads - ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa0ZMajhsYVktbFZVUmxXVWNmSHM5aDFtaGVQSWE2Y2JMUnlqN0JYeERXdk9qSFNzQ0VzdDZDNjgwTTdJanBNM1FaWUU4QVdkR1NlanNoVFJ3OExEWnVNdjMycWdfNHE4cjlZSHBWYktIaFloMXhFVkFyelZvYVp3amhuS0o2bUsyTURieE8xeFd1dFptcGhta0lzdWhFYXRFYkZKWlZuU1VWRTdaSkxMczl3Z3AwTjQ5?oc=5",
+          "publishedAt": "2026-10-16T16:34:15+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 1.66%",
+      "headline": "Nifty 50 rose 0.65%",
       "direction": "up",
-      "move": "Nifty 50 +1.66%",
+      "move": "Nifty 50 +0.65%",
       "why": "Same-day market coverage explicitly linked the final move to: Oil Prices Surge; Trump Delays Iran Strike; Sensex Rises 0.56% and Green Energy Stocks Show Mixed Trends.",
       "drivers": [
         {
@@ -108,6 +108,11 @@
           "label": "Sensex Rises 0.56% and Green Energy Stocks Show Mixed Trends",
           "detail": "SolarQuarter explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
+        },
+        {
+          "label": "IT Stocks Rally",
+          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
@@ -115,10 +120,10 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22997.35,
-        "previousClose": 22622.7,
-        "change": 374.65,
-        "changePct": 1.66,
+        "price": 23146.15,
+        "previousClose": 22997.35,
+        "change": 148.8,
+        "changePct": 0.65,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -128,10 +133,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 74315.61,
-        "previousClose": 72781.89,
-        "change": 1533.72,
-        "changePct": 2.11,
+        "price": 74729.27,
+        "previousClose": 74315.61,
+        "change": 413.66,
+        "changePct": 0.56,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -143,7 +148,13 @@
           "name": "INDIA New England News",
           "title": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2w0OExuLXNXNkItVEJweDJtWkZCQlBkZUQ4LUYtNDlqVVRyQU5WemdBSUhnY3gwWGdza2Z2UXUwUC1MSE9SQzNkenpXR1RIWFpTdHctRE84dDlOWVEtYTNzS1Yzb09fZFlZTG1pMkc0N3lCQ2l3Rl96eFV4QnphVVhWTDVBUnhTSGo1LVgzWHhjbmZobWt0S3d6WQ?oc=5",
-          "publishedAt": "2026-10-16T16:05:55+00:00"
+          "publishedAt": "2026-10-17T04:04:07+00:00"
+        },
+        {
+          "name": "Goodreturns",
+          "title": "Closing Bell: Sensex Falls 1,045 Points, Nifty Hits 52-Week Low; Why Did Stock Market Crash Today? - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYUZVWUNxTHdxajZsZHFoRGpxM2VVdFFoaWs2MnBCODhVaUVHU3BVSW9NaW8ySVphM1VHUS05c3hCcXdrb2pLQVl6QUFzS21mTkVGQWFPYlQ4TmxDaWM2WGhJdFY2cHN6SzF1VWxhaWV4NUk2ZThuNWZySWFPaF9oYk5MeFZWdG5kT25reGFpY1RDVkxfMllaQjdCY1paT3FyR1h0ZlJjSk9NTlRTUTk0UHNrMzlNbllRdXRseHNjcTlnUk1vTHhtaC1ELUtNV0s5VFBCSVhSUW1pUQ?oc=5",
+          "publishedAt": "2026-10-17T03:12:27+00:00"
         },
         {
           "name": "Goodreturns",
@@ -158,22 +169,16 @@
           "publishedAt": "2026-10-16T13:38:57+00:00"
         },
         {
+          "name": "Goodreturns",
+          "title": "Stock Market Outlook Today, September 16: Sensex, Nifty May Fall Further; Fed Decision in Focus - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRHYtU0g0dmJZMHcwRmIxdUs4ZU9wOXNwZEhrTEotbnNnZVNSd0VubzBCX1JCTC12N0c4b0NXakdkLXViSEtMTHN0eUN3TTJlcTljUVVZQ1dFdmxqSEc3dEJBcU9PcE5KMlV6dS1VdU1rNjdsRTVaUFNmcEVQbjg0N3Z5NkI5UVl0Vk5NYkFYdTNXMG9ycktyUG5VOG1QT19vVFZHblFoUDFHNy0zLVZwLTQ1eG1nUHoxRzRrUGJoMExQR0ZIdFNYQ1FvQzUtTm9JVUgta2FvZXZhVUZlUHc?oc=5",
+          "publishedAt": "2026-10-16T13:21:45+00:00"
+        },
+        {
           "name": "SolarQuarter",
           "title": "Indian Stock Market Gains on October 16 as Sensex Rises 0.56% and Green Energy Stocks Show Mixed Trends - SolarQuarter",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWkhwLW8wWTFKdHJFTlJEc09uN09obFhkV1RKdEZfY2I2ZlhVYTdHbFJvOVlNZ2lzQ0pxWWdtejVkbDdETWJINHFDc1FXQnZRakc0ZWowRkV2RmExMWhYRU9zQy1aSjhVQ1RoSHFPMGhkejFrYU1nam9PekQ5R2ZqYXJNNlFJYUt3a3FmTHRLQWZHZnZNMlZtUUlKRGZtTlVramtmWXZnQlRyU3kwZzIwU0h3UnpSNDc1ZmRXd09VcUJPX0RLVmk5eWpfaDB0N2hHZXZxNS1n?oc=5",
           "publishedAt": "2026-10-16T12:34:29+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5",
-          "publishedAt": "2026-10-16T06:58:47+00:00"
-        },
-        {
-          "name": "Telangana Today",
-          "title": "Sensex, Nifty trade lower in early deals; IT shares buck trend - Telangana Today",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYlBmNHF3T24wXzBiLS1QRHp6X1hpZEtOWHhtZjU1NV9TR3VraFpfM2J4aWREVHdPcWhzaGtHOVVHM0hsb1ZiM3prallxN0dmUmRrM3F3QUl1WTZzQk05YmFHTmswUWVKNWQ1bGRJMnRsOTRrX3NrM1JBRmI0Nmw5TG9KSkt1LTdzd2MwTko2NEs?oc=5",
-          "publishedAt": "2026-10-16T05:25:49+00:00"
         }
       ],
       "evidenceCount": 7
