@@ -1,131 +1,167 @@
 {
-  "updated": "2026-10-17T04:31:09.102759+00:00",
+  "updated": "2026-10-17T09:24:34.381097+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 77,
-    "officialOrPrimaryCandidates": 20,
-    "enrichedCandidates": 76,
-    "readableCandidates": 52,
-    "eventClusters": 52,
-    "materialEvents": 25,
-    "selectedEvents": 9,
-    "seededStories": 9,
+    "nonNoiseCandidates": 80,
+    "officialOrPrimaryCandidates": 19,
+    "enrichedCandidates": 79,
+    "readableCandidates": 54,
+    "eventClusters": 53,
+    "materialEvents": 30,
+    "selectedEvents": 8,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "e296b8cb8184c3",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Trump delays new Russia sanctions law",
-      "publishedAt": "2026-10-17T02:48:36+00:00",
-      "importanceScore": 14.0,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "summary": "On Friday night President Donald Trump issued an executive order withholding a number of sanctions that Congress had recently passed against Russia. The sanctions law, signed by Trump in September and named for the late Senator Lindsey Graham, was set to take effect on Sunday and would have allowed tariffs of up to 100 % on the five largest buyers of Russian oil and gas, primarily China and India. The order was justified as being in U.S. national interests.",
-      "why": "The delay could influence global energy prices and U.S. diplomatic relations with Russia and its major oil purchasers.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-17T02:48:36+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-17T02:48:36+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a32897379b718e",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Record weekly ship attacks reported in Strait of Hormuz",
-      "publishedAt": "2026-10-16T05:00:17+00:00",
-      "importanceScore": 13.6,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC Verify analysis of UK Maritime Trade Operations data shows that 12 vessels reported attacks in and around the Strait of Hormuz between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week recorded 10 attacks, with six vessels struck on a single Sunday and four additional attacks reported so far this week. Industry data suggests the surge has slowed the recent recovery in oil shipments through the strait.",
-      "why": "The rise in attacks threatens maritime safety and could disrupt global oil supplies.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-16T05:00:17+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-16T05:00:17+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Record number of ship attacks reported in Strait of Hormuz",
-      "previousSummary": "BBC Verify analysis of UK Maritime Trade Operations data shows that twelve vessels were reported attacked between 5 and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week saw ten ships reporting attacks, and six vessels were struck on Sunday, a one‑day high. Industry data suggests the rise in incidents has coincided with a slowdown in the recovery of oil shipments through the strait.",
-      "previousPublishedAt": "2026-10-16T05:00:17+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.6,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "6ede0c8ae747f6",
+      "id": "4e59aff54e5277",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Jio’s $3.2 billion IPO tests Ambani appeal with young Indians",
-      "publishedAt": "2026-10-17T03:48:41+00:00",
-      "importanceScore": 13.5,
+      "title": "Brent crude surpasses $110 per barrel amid Strait of Hormuz attacks and Russia‑Ukraine hostilities",
+      "publishedAt": "2026-10-17T06:18:37+00:00",
+      "importanceScore": 14.4,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jios-3-2-billion-ipo-tests-ambani-appeal-with-young-indians/articleshow/135006812.cms",
-      "summary": "Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brentcrude-oil-prices-hit-110-for-first-time-since-may-as-iran-attacks-continue-ukraine-eyes-russia-energy-infra/articleshow/135008770.cms",
+      "summary": "Brent crude rose above $110 a barrel as attacks around the Strait of Hormuz and renewed fighting between Russia and Ukraine heightened concerns over global oil supply. WTI recorded weekly gains of more than 10 percent. Goldman Sachs warned that worsening shipping disruptions could push prices toward $120, while a de‑escalation could pull crude back toward $80.",
+      "why": "Higher crude prices increase energy costs and can ripple through financial markets worldwide.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/brentcrude-oil-prices-hit-110-for-first-time-since-may-as-iran-attacks-continue-ukraine-eyes-russia-energy-infra/articleshow/135008770.cms",
+          "publishedAt": "2026-10-17T06:18:37+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-17T06:18:37+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-17T09:24:34.381097+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "b2b4aa1a03fc69",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "HDFC Bank Q2 FY27 Net Profit Up 4.6% YoY to Rs 19,509 crore",
+      "publishedAt": "2026-10-17T08:46:36+00:00",
+      "importanceScore": 14.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hdfc-bank-q2-results-net-profit-rises-5-yoy-to-rs-19510-crore-nii-grows-10/articleshow/135010605.cms",
+      "summary": "HDFC Bank reported a net profit of Rs 19,509 crore for the second quarter of FY 27, a 4.6 % increase from Rs 18,641 crore in the same quarter last year. The earnings release was made on Saturday. No net interest income figure was provided in the source.",
+      "why": "The profit increase shows continued earnings growth for India’s largest private lender, a key metric for investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hdfc-bank-q2-results-net-profit-rises-5-yoy-to-rs-19510-crore-nii-grows-10/articleshow/135010605.cms",
+          "publishedAt": "2026-10-17T08:46:36+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/axis-bank-q2-results-net-profit-jumps-38-yoy-to-rs-7003-crore-nii-rises-12/articleshow/135009892.cms",
+          "publishedAt": "2026-10-17T07:42:58+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-17T08:46:36+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-17T09:24:34.381097+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "53c492f0f30bde",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "publishedAt": "2026-10-17T07:41:01+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Donald Trump has blocked numerous sanctions on Russia two days before they were due to take effect, as a row with his Ukrainian counterpart Volodymyr Zelensky deepens. The sanctions were passed by the US Congress and signed into law by Trump in September.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jios-3-2-billion-ipo-tests-ambani-appeal-with-young-indians/articleshow/135006812.cms",
-          "publishedAt": "2026-10-17T03:48:41+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-17T07:41:01+00:00"
         }
       ],
-      "firstSeen": "2026-10-17T03:48:41+00:00",
+      "firstSeen": "2026-10-17T07:41:01+00:00",
       "status": "New",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
+      "lastChecked": "2026-10-17T09:24:34.381097+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "f444ea7cd300d5",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Trump waives 100% tariffs on Russian oil, giving India temporary relief",
+      "publishedAt": "2026-10-17T05:42:47+00:00",
+      "importanceScore": 13.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-100-percent-tariffs-on-russian-oil-buyers-india-temporary-relief-us-trade-policy-gtri-warning/articleshow/135008071.cms",
+      "summary": "GTRI warned that the waiver of a threatened 100% tariff on Russian oil provides only short‑term relief for India because the United States could reinstate the duty at any time. The think tank cited U.S. purchases of Russian diesel, tariff protection for China and ongoing India‑U.S. trade talks as possible reasons, and urged New Delhi to protect its energy security and avoid permanent trade concessions tied to reversible relief.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-100-percent-tariffs-on-russian-oil-buyers-india-temporary-relief-us-trade-policy-gtri-warning/articleshow/135008071.cms",
+          "publishedAt": "2026-10-17T05:42:47+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-17T05:42:47+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-17T09:24:34.381097+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -137,14 +173,14 @@
       "categories": [
         "World"
       ],
-      "title": "Masked Israeli settlers attack Palestinian olive harvesters near Abu Falah in West Bank",
+      "title": "Masked settlers attack Palestinian olive harvesters and journalist in West Bank",
       "publishedAt": "2026-10-16T14:31:04+00:00",
       "importanceScore": 13.3,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Dozens of masked settlers attacked Palestinians during the olive harvest in farmland near Abu Falah, setting fire to cars and olive trees. A local official said 12 Palestinians were injured, including four dual Palestinian American citizens, and a foreign journalist was also hurt. One American citizen, Majdi, was struck with nail-studded sticks and needed treatment for head wounds; his elderly mother was also injured.",
-      "why": "The incident shows rising settler violence that endangers civilians and press freedom during routine agricultural work in the occupied West Bank.",
+      "summary": "Dozens of masked settlers attacked Palestinians harvesting olives near the village of Abu Falah in the occupied West Bank, setting fire to cars and olive trees. A local official said 12 Palestinians were injured, including four who hold both Palestinian and American citizenship, and a foreign journalist was also hurt. Settlers used guns, rocks and nail‑studded sticks, wounding an American farmer and his elderly mother.",
+      "why": "The incident shows ongoing settler violence that endangers civilians and press freedom in the occupied West Bank.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -157,55 +193,60 @@
       ],
       "firstSeen": "2026-10-16T14:31:04+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
+      "lastChecked": "2026-10-17T09:24:34.381097+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Settlers attack Palestinian olive harvest, injuring farmers, dual nationals and journalist",
-      "previousSummary": "Dozens of masked Israeli settlers attacked Palestinian olive farmers in the occupied West Bank during the annual harvest, setting fire to cars and olive trees. The violence injured 12 Palestinians, including four who hold both Palestinian and American citizenship, and a foreign journalist who suffered head and neck injuries; a council member said an American citizen named Majdi was hit with nail‑studded sticks and his elderly mother was also wounded.",
+      "previousTitle": "Masked Israeli settlers attack Palestinian olive harvesters near Abu Falah in West Bank",
+      "previousSummary": "Dozens of masked settlers attacked Palestinians during the olive harvest in farmland near Abu Falah, setting fire to cars and olive trees. A local official said 12 Palestinians were injured, including four dual Palestinian American citizens, and a foreign journalist was also hurt. One American citizen, Majdi, was struck with nail-studded sticks and needed treatment for head wounds; his elderly mother was also injured.",
       "previousPublishedAt": "2026-10-16T14:31:04+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 14.3,
+      "previousImportanceScore": 13.3,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
     },
     {
-      "id": "5cf205171fb772",
+      "id": "6ede0c8ae747f6",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Semiconductor selloff drags US indexes lower, AI return doubts rise",
-      "publishedAt": "2026-10-16T17:59:09+00:00",
-      "importanceScore": 12.2,
+      "title": "Reliance to launch Jio Platforms IPO targeting $3.2 bn on Oct 21, 2023",
+      "publishedAt": "2026-10-17T03:48:41+00:00",
+      "importanceScore": 13.2,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/chip-selloff-deepens-wall-street-losses-as-doubts-grew-over-ai-returns/articleshow/135001236.cms",
-      "summary": "A broad decline in semiconductor stocks pulled major US indexes down, with the Nasdaq 100 falling 1.8% and extending its longest losing streak since 2008. Investors questioned whether AI infrastructure spending will generate profitable returns despite strong chip demand. Federal Reserve Chairman Kevin Warsh reiterated a neutral stance on rates at IMF talks, and cloud‑gaming firm CoreWeave dropped 9.5% amid the rout.",
-      "why": "The slide signals heightened risk for tech‑heavy portfolios and could pressure related equity valuations.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jios-3-2-billion-ipo-tests-ambani-appeal-with-young-indians/articleshow/135006812.cms",
+      "summary": "Reliance Industries Ltd. is preparing to list Jio Platforms Ltd., expected to be India’s largest IPO, with a target of about $3.2 billion in proceeds. The offering is scheduled for October 21, 2023. Observers note that younger investors, who favor quicker returns, are scrutinising Jio’s valuation alongside rivals such as Bharti Airtel.",
+      "why": "The IPO is notable because it seeks a large capital raise and draws valuation comparisons with major telecom peers.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/chip-selloff-deepens-wall-street-losses-as-doubts-grew-over-ai-returns/articleshow/135001236.cms",
-          "publishedAt": "2026-10-16T17:59:09+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jios-3-2-billion-ipo-tests-ambani-appeal-with-young-indians/articleshow/135006812.cms",
+          "publishedAt": "2026-10-17T03:48:41+00:00"
         }
       ],
-      "firstSeen": "2026-10-16T17:59:09+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
+      "firstSeen": "2026-10-17T03:48:41+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-17T09:24:34.381097+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "Jio’s $3.2 billion IPO tests Ambani appeal with young Indians",
+      "previousSummary": "Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+      "previousPublishedAt": "2026-10-17T03:48:41+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.5,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "e4f2bccf60ac45",
@@ -214,17 +255,17 @@
       "categories": [
         "India"
       ],
-      "title": "White House lists investment over $330 billion in US from India",
+      "title": "White House says Indian investment in U.S. exceeds $330 billion",
       "publishedAt": "2026-10-16T17:54:45+00:00",
-      "importanceScore": 12.0,
+      "importanceScore": 11.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/white-house-lists-investment-over-330-billion-in-us-from-india/articleshow/135001068.cms",
-      "summary": "The White House announced investments of over $330 billion from India as part of total investments. US President Donald Trump previously mentioned Reliance Industries' $300 billion investment in Texas.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "summary": "The White House announced that cumulative Indian investment in the United States totals more than $330 billion, contributing to a reported $10.871 trillion in foreign and private‑sector inflows from all sources. The announcement cited specific projects such as a $15 billion steel plant by Essar Group and referenced earlier statements by President Trump about a proposed $300 billion Reliance Industries investment in Texas.",
+      "why": "The figure highlights the magnitude of Indo‑U.S. capital flows and may shape bilateral economic policy and future investment decisions.",
       "confidence": "low",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -234,13 +275,13 @@
       ],
       "firstSeen": "2026-10-16T17:54:45+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
+      "lastChecked": "2026-10-17T09:24:34.381097+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "single-source-reviewed",
       "previousTitle": "White House lists investment over $330 billion in US from India",
-      "previousSummary": "The White House announced investments of over $330 billion from India as part of total investments. The White House listed investments worth “trillions of dollars” in the US, including over USD 330 billion from India",
+      "previousSummary": "The White House announced investments of over $330 billion from India as part of total investments. US President Donald Trump previously mentioned Reliance Industries' $300 billion investment in Texas.",
       "previousPublishedAt": "2026-10-16T17:54:45+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 12.0,
@@ -249,55 +290,19 @@
       "lifecycle": "Updated"
     },
     {
-      "id": "6b30501dbb1529",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Cult.fit receives SEBI observations for proposed IPO",
-      "publishedAt": "2026-10-16T14:02:27+00:00",
-      "importanceScore": 12.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/cult-fit-receives-sebi-approval-for-proposed-ipo/articleshow/134997161.cms",
-      "summary": "Cult.fit has received observations from the Securities and Exchange Board of India (SEBI) on its planned IPO, which includes a fresh issue of up to Rs 950 crore and an offer for sale. The company said revenue rose 36.26% in FY26 and adjusted EBITDA margin improved as it expanded its fitness operations nationwide. It plans to use the proceeds to repay debt, open additional fitness centres and grow its sportswear business.",
-      "why": "The SEBI observations bring the company nearer to completing its IPO and raising capital for debt reduction and expansion.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/cult-fit-receives-sebi-approval-for-proposed-ipo/articleshow/134997161.cms",
-          "publishedAt": "2026-10-16T14:02:27+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-16T14:02:27+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
       "id": "3215a2de16d02a",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India’s forex reserves fall $60 billion in six weeks",
+      "title": "India’s forex reserves drop $60 billion in six weeks",
       "publishedAt": "2026-10-16T12:17:33+00:00",
       "importanceScore": 11.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-shed-60-billion-in-six-weeks-as-rbi-steps-in-to-support-rupee-one-of-asias-worst-performing-currencies-this-year/articleshow/134994757.cms",
-      "summary": "India’s foreign exchange reserves dropped to $726.027 billion on Oct 9, down from $785.706 billion on Sep 4, a decline of about $60 billion over six weeks. The Reserve Bank of India’s market intervention to support the rupee, amid higher crude‑oil prices, rising U.S. Treasury yields and continued foreign‑investor outflows, was cited as the main cause. Foreign‑currency assets and gold reserves also fell during the period.",
+      "summary": "India’s foreign‑exchange reserves fell by about $60 billion, reaching $726.027 billion on October 9, down from $785.706 billion on September 4. The Reserve Bank of India sold foreign‑currency assets and gold to support the rupee as crude‑oil prices rose, U.S. Treasury yields increased, and foreign investors continued to withdraw. Both the foreign‑currency component and gold holdings declined during the period.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -311,72 +316,36 @@
       ],
       "firstSeen": "2026-10-16T12:17:33+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
+      "lastChecked": "2026-10-17T09:24:34.381097+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "India's forex reserves drop $60 billion in six weeks as RBI intervenes",
-      "previousSummary": "Over a six‑week period, India's foreign‑exchange reserves fell by about $60 billion. The Reserve Bank of India bought dollars in the market to support the rupee, which has been one of the weakest Asian currencies this year. The drawdown reflects pressure on the currency and the central bank’s stabilisation effort.",
+      "previousTitle": "India’s forex reserves fall $60 billion in six weeks",
+      "previousSummary": "India’s foreign exchange reserves dropped to $726.027 billion on Oct 9, down from $785.706 billion on Sep 4, a decline of about $60 billion over six weeks. The Reserve Bank of India’s market intervention to support the rupee, amid higher crude‑oil prices, rising U.S. Treasury yields and continued foreign‑investor outflows, was cited as the main cause. Foreign‑currency assets and gold reserves also fell during the period.",
       "previousPublishedAt": "2026-10-16T12:17:33+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.2,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "f5f021032aceac",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India’s forex reserves fall $8.58 bn to $726.03 bn in week to Oct 9",
-      "publishedAt": "2026-10-16T11:47:31+00:00",
-      "importanceScore": 10.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-by-usd-8-58-billion-to-usd-726-03-billion-in-week-ended-october-9-rbi/articleshow/134993652.cms",
-      "summary": "The Reserve Bank of India reported that foreign exchange reserves declined by $8.578 billion to $726.027 billion in the week ended October 9, after a $12.952 billion fall the week before. Foreign‑currency assets, gold holdings, special drawing rights and the RBI’s position with the IMF all recorded declines.",
-      "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-by-usd-8-58-billion-to-usd-726-03-billion-in-week-ended-october-9-rbi/articleshow/134993652.cms",
-          "publishedAt": "2026-10-16T11:47:31+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-16T11:47:31+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-17T04:31:09.102759+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousImportanceScore": 11.0,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     }
   ],
   "jarvisEditedCount": 7,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-16T23:38:03.497582+00:00",
+  "previousUpdated": "2026-10-17T04:31:09.102759+00:00",
   "changeSummary": {
-    "new": 5,
-    "updated": 3,
-    "continuing": 1
+    "new": 4,
+    "updated": 2,
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-10-15T15:06:22.977089+00:00",
-    "updated": "2026-10-17T04:31:09.102759+00:00",
-    "snapshotCount": 11,
-    "eventCount": 27,
+    "updated": "2026-10-17T09:24:34.381097+00:00",
+    "snapshotCount": 12,
+    "eventCount": 31,
     "retentionHours": 72
   }
 }
