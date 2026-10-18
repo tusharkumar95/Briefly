@@ -1,22 +1,171 @@
 {
-  "updated": "2026-10-18T01:05:18.621353+00:00",
+  "updated": "2026-10-18T05:56:53.958103+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 72,
-    "nonNoiseCandidates": 68,
-    "officialOrPrimaryCandidates": 6,
-    "enrichedCandidates": 68,
+    "rawCandidates": 70,
+    "nonNoiseCandidates": 66,
+    "officialOrPrimaryCandidates": 8,
+    "enrichedCandidates": 66,
     "readableCandidates": 47,
-    "eventClusters": 43,
-    "materialEvents": 22,
+    "eventClusters": 41,
+    "materialEvents": 16,
     "selectedEvents": 6,
-    "seededStories": 4,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "2ae9c028f0816e",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Paras Healthcare sets IPO price band, opens Oct 21",
+      "publishedAt": "2026-10-18T04:33:52+00:00",
+      "importanceScore": 14.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/paras-healthcare-ipo-opens-oct-21-sets-price-band-at-660-693-per-share/articleshow/135023842.cms",
+      "summary": "Paras Healthcare announced a price band of Rs 660‑693 per share for its Rs 1,450 crore IPO, which is scheduled to open on October 21. The issue comprises a fresh issuance of Rs 500 crore and an offer‑for‑sale of Rs 950 crore. The company said the proceeds will be used mainly to repay borrowings.",
+      "why": "The fund‑raising will reduce the firm’s debt load and provides investors with a new equity opportunity in the Indian healthcare sector.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/paras-healthcare-ipo-opens-oct-21-sets-price-band-at-660-693-per-share/articleshow/135023842.cms",
+          "publishedAt": "2026-10-18T04:33:52+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-18T04:33:52+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-18T05:56:53.958103+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "3d6916b9893f3f",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "ICICI Bank Q2 profit jumps 20% on higher net interest income",
+      "publishedAt": "2026-10-18T04:42:18+00:00",
+      "importanceScore": 13.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-bank-profit-spurts-20-on-nii-core-profitability-a-tad-lower-on-fcnrb/articleshow/135023892.cms",
+      "summary": "ICICI Bank reported a 20% rise in second‑quarter net profit, helped by an 18% increase in core net interest income. Net interest margin fell to 4.18%, and treasury operations posted a loss as higher government‑bond yields reduced returns. Core profitability edged lower because FCNR(B) deposits weighed on margins.",
+      "why": "The earnings show strong profit growth but also reveal margin pressure, which matters for investors assessing the bank’s near‑term profitability outlook.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-bank-profit-spurts-20-on-nii-core-profitability-a-tad-lower-on-fcnrb/articleshow/135023892.cms",
+          "publishedAt": "2026-10-18T04:42:18+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-18T04:42:18+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-18T05:56:53.958103+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e7d441ddbff25f",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Mega Jio Platforms IPO to lead Rs 31,663 crore offerings this week; 9 listings lined up",
+      "publishedAt": "2026-10-18T05:11:00+00:00",
+      "importanceScore": 12.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mega-jio-platforms-ipo-to-lead-rs-31663-crore-offerings-this-week-9-listings-lined-up/articleshow/135024121.cms",
+      "summary": "India’s primary market is set for a busy week, led by Reliance Jio Platforms’ Rs 30,213 crore IPO and Paras Healthcare’s Rs 1,450 crore issue. Nine companies are also scheduled to list, including six on the mainboard and three on SME platforms.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mega-jio-platforms-ipo-to-lead-rs-31663-crore-offerings-this-week-9-listings-lined-up/articleshow/135024121.cms",
+          "publishedAt": "2026-10-18T05:11:00+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-18T05:11:00+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-18T05:56:53.958103+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "53c492f0f30bde",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Trump suspends upcoming Russia sanctions as tensions with Ukraine rise",
+      "publishedAt": "2026-10-18T01:10:25+00:00",
+      "importanceScore": 12.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "summary": "President Donald Trump issued an executive order on Friday night to suspend a set of sanctions on Russia that were slated to take effect two days later, drawing criticism from U.S. lawmakers. Ukrainian President Volodymyr Zelensky said the move shows a complete disregard for the sanctions, while Russian envoy Kirill Dmitriev called it a historic moment. The suspension follows a U.S. deal to import Russian diesel, further straining Washington‑Kyiv relations.",
+      "why": "The pause reduces economic pressure on Russia and could alter the dynamics of U.S. support for Ukraine.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-18T01:10:25+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-17T07:41:01+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-18T05:56:53.958103+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "previousSummary": "Donald Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with his Ukrainian counterpart Volodymyr Zelensky deepens. Zelensky said it was unfortunate the US has decided to \"completely disregard\" the sanctions.",
+      "previousPublishedAt": "2026-10-17T19:19:19+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.5,
+      "changed": true,
+      "change": "Jarvis verification is now available for this event.",
+      "lifecycle": "Updated"
+    },
     {
       "id": "74eb54330c9717",
       "cat": "India",
@@ -24,13 +173,13 @@
       "categories": [
         "India"
       ],
-      "title": "India notifies first tariff cuts under New Zealand FTA",
+      "title": "India announces first tariff concessions for New Zealand imports",
       "publishedAt": "2026-10-17T19:11:01+00:00",
-      "importanceScore": 12.6,
+      "importanceScore": 11.4,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-notifies-first-tariff-cuts-under-new-zealand-fta/articleshow/135019711.cms",
-      "summary": "India will apply customs‑duty concessions on selected New Zealand imports from 20 October 2026. The concessions include zero basic duty on sheep meat, set duties on fish and wine, a 15 % duty on kiwi fruit, and unspecified rates for manuka honey. Dairy products remain excluded from the liberalisation.",
+      "summary": "India will start applying customs‑duty concessions on selected New Zealand products from 20 October under the bilateral free‑trade agreement. The concessions give a zero basic duty on sheep meat and reduced rates on fish and wine, while manuka honey and kiwi fruit will be subject to specific duties. Dairy products are excluded from this first tranche of liberalisation.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -40,127 +189,76 @@
           "name": "economictimes.indiatimes.com",
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-notifies-first-tariff-cuts-under-new-zealand-fta/articleshow/135019711.cms",
           "publishedAt": "2026-10-17T19:11:01+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-notifies-first-new-zealand-fta-duty-cuts-wine-honey-kiwi-fruit-to-get-concessions-from-oct-20/articleshow/135006873.cms",
-          "publishedAt": "2026-10-17T03:49:31+00:00"
         }
       ],
       "firstSeen": "2026-10-17T19:11:01+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-18T01:05:18.621353+00:00",
+      "lastChecked": "2026-10-18T05:56:53.958103+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
       "previousTitle": "India notifies first tariff cuts under New Zealand FTA",
-      "previousSummary": "India will implement customs‑duty concessions for certain New Zealand imports from October 20, including zero basic duty on sheep meat, reduced rates on wine and fish, and preferential duties on manuka honey and kiwi fruit, with limited quantities permitted under tariff‑rate quotas. Dairy and other sensitive categories are excluded from the liberalisation.",
+      "previousSummary": "India will apply customs‑duty concessions on selected New Zealand imports from 20 October 2026. The concessions include zero basic duty on sheep meat, set duties on fish and wine, a 15 % duty on kiwi fruit, and unspecified rates for manuka honey. Dairy products remain excluded from the liberalisation.",
       "previousPublishedAt": "2026-10-17T19:11:01+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.1,
+      "previousImportanceScore": 12.6,
       "changed": true,
       "change": "Material facts or figures changed since the previous brief.",
       "lifecycle": "Updated"
     },
     {
-      "id": "f444ea7cd300d5",
+      "id": "c42e861960ebed",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "Trump’s 100% Russian oil tariff U-turn has a catch India can’t ignore",
-      "publishedAt": "2026-10-17T05:42:47+00:00",
-      "importanceScore": 12.6,
+      "title": "US Secretary of State Marco Rubio to visit India next week",
+      "publishedAt": "2026-10-18T04:49:35+00:00",
+      "importanceScore": 10.8,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-100-percent-tariffs-on-russian-oil-buyers-india-temporary-relief-us-trade-policy-gtri-warning/articleshow/135008071.cms",
-      "summary": "GTRI has warned that Donald Trump’s waiver of threatened 100% tariffs on Russian oil buyers offers India only temporary relief, as Washington can reinstate the duties at any time. The think tank cited US purchases of Russian diesel, tariff protection for China and ongoing India-US trade talks as possible reasons for the move.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/what-is-holding-up-the-us-india-trade-deal/articleshow/135023925.cms",
+      "summary": "US Secretary of State Marco Rubio will travel to India next week for meetings in Mumbai and Jamnagar that will focus on investment and energy cooperation. The visit is intended to strengthen bilateral relations and address trade issues. Both countries have experienced considerable delays in finalising a broader US‑India trade agreement, which officials attribute to a range of ongoing challenges.",
+      "why": "The talks are part of efforts to address the delays in the pending US‑India trade agreement.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-100-percent-tariffs-on-russian-oil-buyers-india-temporary-relief-us-trade-policy-gtri-warning/articleshow/135008071.cms",
-          "publishedAt": "2026-10-17T05:42:47+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/what-is-holding-up-the-us-india-trade-deal/articleshow/135023925.cms",
+          "publishedAt": "2026-10-18T04:49:35+00:00"
         }
       ],
-      "firstSeen": "2026-10-17T05:42:47+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-18T01:05:18.621353+00:00",
+      "firstSeen": "2026-10-18T04:49:35+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-18T05:56:53.958103+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Trump grants temporary waiver of 100% tariff on Russian oil for India",
-      "previousSummary": "President Donald Trump announced a waiver of the previously threatened 100 percent tariff on Russian oil for buyers, including India. The Global Trade and Investment (GTRI) think tank cautioned that the relief is temporary, noting that Washington could reinstate the duties at any time. GTRI pointed to U.S. purchases of Russian diesel, tariff protection for China and ongoing India‑U.S. trade talks as possible motivations, and advised New Delhi to protect its energy security and avoid permanent trade concessions.",
-      "previousPublishedAt": "2026-10-17T05:42:47+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.3,
+      "verificationScope": "single-source-reviewed",
       "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "53c492f0f30bde",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "publishedAt": "2026-10-17T19:19:19+00:00",
-      "importanceScore": 12.5,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Donald Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with his Ukrainian counterpart Volodymyr Zelensky deepens. Zelensky said it was unfortunate the US has decided to \"completely disregard\" the sanctions.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-17T19:19:19+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-17T07:41:01+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-18T01:05:18.621353+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Trump suspends Russia sanctions amid dispute with Zelensky",
-      "previousSummary": "Donald Trump issued an executive order on Friday night that suspended several sanctions against Russia that were scheduled to take effect two days later. The move prompted criticism from U.S. lawmakers and a sharp rebuke from Ukrainian President Volodymyr Zelensky, who said the United States was disregarding the sanctions. The suspension comes after a controversial U.S. deal to import Russian diesel and Ukraine’s claim that the administration is pulling back military support.",
-      "previousPublishedAt": "2026-10-17T19:19:19+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.5,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 1,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-17T22:21:39.817742+00:00",
+  "jarvisEditedCount": 5,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-18T01:05:18.621353+00:00",
   "changeSummary": {
-    "new": 0,
-    "updated": 3,
+    "new": 4,
+    "updated": 2,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-10-15T15:06:22.977089+00:00",
-    "updated": "2026-10-18T01:05:18.621353+00:00",
-    "snapshotCount": 17,
-    "eventCount": 34,
+    "updated": "2026-10-18T05:56:53.958103+00:00",
+    "snapshotCount": 18,
+    "eventCount": 38,
     "retentionHours": 72
   }
 }
