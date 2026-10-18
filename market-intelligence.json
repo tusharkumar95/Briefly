@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T05:09:27.867705+00:00",
+  "updated": "2026-10-18T09:53:34.004475+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -31,26 +31,29 @@
     },
     "India": {
       "label": "India",
-      "headline": "IT earnings rally lifts Indian markets",
+      "headline": "Nifty 50 rose 0.65%",
       "direction": "up",
       "move": "Nifty 50 +0.65%",
-      "why": "Positive earnings reports from IT companies sparked buying pressure, lifting both indices as reported by boldnewsonline.com",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Investors Assess Corporate Outlook",
-          "detail": "boldnewsonline.com explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "IT earnings rally",
-          "detail": "Strong earnings results from major IT firms boosted investor sentiment and drove the market higher",
-          "kind": "driver"
+          "label": "Nifty & Bank Nifty Weekly Outlook 18-10-2026 by Choice Broking Ltd",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "Stock Market Outlook Today, September 8: Sensex, Nifty Likely To Remain Under Pressure Ami",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
-      "sectors": [
-        "Information Technology"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -79,40 +82,40 @@
       },
       "sources": [
         {
+          "name": "The Economic Times",
+          "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPV3UyT0tjZFpQWGVZT1ByN1daaF9yTHgtNFRLb0JXVGx3aHVjOXZRVTZ5OTMtelNDdXBoYmdzVGVycTV3QTVvZjUtRjhRUjMzMzV0Q0JKSjFLWExrZU1SYTNaR2VqTWZjUUI5Q0FRUnQwSnNmLXUxc1FKT1FfVm0wVlRtQl9YNUs4SmJ0cTc3MkZpdXJHaGFBY01VVlhKR2Q5RnJfVGZQSWFkb0R0OWNWWEw5TnZVVzUwbkRyWVlVd0YxMUtEb2k1WlVQMHU4VUlDdnBJbWs3dlhOQzY1S1YzcEY3azjSAeoBQVVfeXFMUGdYOE55Uzg1dUxIeE8yNlc4dUROMlZEaDI3V0ZLMFpNTHR6eEVBMmF5VVpXa0RndjRhNi05OFJRV0U2U05GdzZWMkxLTEpMSjZrQUhWblk4aUVkZHVYVGFLQmdaaUlTZ2VhUkpsWEpIb05qVFdfN2NVVzhtZ2Q0cndNUjFxVUlkeE5BUWUxdF84c2tZNE9ObWI2Yk1wQU1xSHZIa0VrX2JsSFVSc1NwS3JjUnM0SDdKZ3BJUW52dElBWkhtQ1JWU09WVXNqZXRSaXN1T3BUQy1YOS1JVHdXM1R2cmthRHRPNlN3?oc=5",
+          "publishedAt": "2026-10-18T08:11:02+00:00"
+        },
+        {
+          "name": "Investment Guru India",
+          "title": "Nifty & Bank Nifty Weekly Outlook 18-10-2026 by Choice Broking Ltd - Investment Guru India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRk1nb3A5Ykc0WlNPa1NoeGlVOF9SazBlZG5md0Y3YnJaSDRPTVluM1hDTzNVTGc0N29xN2d1Q0lDZVVIcWFrUmk5UXdWYVhXZ0c4NU0xc0h2UmRveklLdVlXQXFBZW1OcWs3MUQxQkNQbFIzSFFmNFMtS1hvaGVhS2Z5TmlxdEJGYUxOMzJfZVRBY0NubFJPUzZrU0pkV05FbXpjc1hGYW1mYURySlpjamliQVQzUE1i?oc=5",
+          "publishedAt": "2026-10-18T09:32:51+00:00"
+        },
+        {
+          "name": "Goodreturns",
+          "title": "Stock Market Outlook Today, September 8: Sensex, Nifty Likely To Remain Under Pressure Amid Geopolitical Risks - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdzRiMDZDRG9LdEVYOXVUQjVzdVNTaU9DRW5jN3oySTIycFc5emZLcVNzM1hWdDlPTlhiQ1JaWWs1R2d2Q3J6SG9yUHlHT1hucTcyQl9fLU94VmliQjF5S3VDVFA4UENQTHBFRWJMZS1FTFJJdDhzbHRYTk5WUVFNNjA2UWVUNFV3ZXIzNEJ4NzUxQmhUMlVwTEVRQTFISEpWTHBld2pQaURXZUkwandyRjFVaGhDMktMSENGRE1UMzlWWW53TGdZeW5MUFBaVFlSM0drdFhZTTRwZw?oc=5",
+          "publishedAt": "2026-10-18T07:19:16+00:00"
+        },
+        {
+          "name": "Goodreturns",
+          "title": "Indian Stock Market Outlook Next Week, 23-27 March: Sensex, Nifty Likely to Trade Volatile With Negative Bias - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYzd4b2Nsc3BwQXJGQXFWR19pZDFIQlVoYkZQLUxFQWdQQWRoc215SmxRRjc5cFVuNWtJYmdWblRHaFQtdGtjTi1IY2hOeTdWT2wyb2owVmpVT2x6S0hUelhQdmdIeHBOc2ZPR1I5MHRISWZfSFhHck9DV1NPYUxPdFZZOEE4Rks1eGthc2FXVzdtZzByNEkyMC1iTVNFT2w3YWt0RjMyQkhuemJ3ZzlYTlpyRURTSUNyM2QwbmdSTHpoN0pBT1JvRWswQUcyMFp1anF6S1VzWGF3QQ?oc=5",
+          "publishedAt": "2026-10-18T07:05:13+00:00"
+        },
+        {
           "name": "BBN Times",
           "title": "BSE SENSEX Today: India’s Benchmark Falls to 71,924.68 Amid the Russia-Ukraine War and the US-Iran Conflict - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSWxLblRQdDkwUVBXX3NOM1NTVnl5SGpKQzlTdVhBOUpzTHlwRk1Xc3lLT3VXcVFndHREc1lxMng0Q0o2aVRVWTVCUThSdC1PQzZKRHlHT0RfMDZwWWU2M1JhNUVKMV9mQUFiOXRxZ1Y3bG90TkJpRTlYdnVmNG1YQXFfRGlXTXVWMkwyZUxOYVlWZUhtVy1UTElqMlgzZ0tnc0M3WXdNZVA4SWFLX3JWUkVsVXdiZGxNODRHZ0RoV2xMLVNSRjhFN3NGaTY5TW10UUdac2VZS243aHpFQmdR?oc=5",
           "publishedAt": "2026-10-17T18:40:38+00:00"
         },
         {
-          "name": "Investment Guru India",
-          "title": "Nifty & Bank Nifty Weekly Outlook 18-10-2026 by Choice Broking Ltd - Investment Guru India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRk1nb3A5Ykc0WlNPa1NoeGlVOF9SazBlZG5md0Y3YnJaSDRPTVluM1hDTzNVTGc0N29xN2d1Q0lDZVVIcWFrUmk5UXdWYVhXZ0c4NU0xc0h2UmRveklLdVlXQXFBZW1OcWs3MUQxQkNQbFIzSFFmNFMtS1hvaGVhS2Z5TmlxdEJGYUxOMzJfZVRBY0NubFJPUzZrU0pkV05FbXpjc1hGYW1mYURySlpjamliQVQzUE1i?oc=5",
-          "publishedAt": "2026-10-18T03:49:33+00:00"
-        },
-        {
-          "name": "boldnewsonline.com",
-          "title": "IT Earnings Rally Lifts Sensex and Nifty as Investors Assess Corporate Outlook - boldnewsonline.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUmdvLVk4TWJmc09RMWJLY1JOcE5uU2NIcG1QbzZadkstd3M1TUxvZ1FuQjFIX3Ffb19mQTcybVBSY0w1QjVuellZQ1VXeWNzaEZOTHd3TmhPTzFISWoydEd4YUpjWUl5SVBxNTBHaXhLSVQ2OGNIOXg5M1dEaVhzeWsxTk5ScUlnVGNmV3I4aExLREZoLU52N3NMeVB2YUM5SDE0eFhqZ0M4UnNaWVZV?oc=5",
-          "publishedAt": "2026-10-17T06:11:02+00:00"
-        },
-        {
-          "name": "Univest",
-          "title": "Nifty Bank Today: Close, Movers, Breadth and Analysis - Univest",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JeXNaNHpTSWZQd2l3enNibnVYbWJGQktyZjFMVUstbkl0cmxXRC01TmFPUkp0QWQ4cDdZeE5ZdGh5d2dhTGNYbDlUbkxacEhQbkNuQVBiTV8wWU1iTlhzbU5TTzVpcVZOcHc?oc=5",
-          "publishedAt": "2026-10-17T05:23:11+00:00"
-        },
-        {
-          "name": "INDIA New England News",
-          "title": "Sensex Jumps 685 Points, Nifty Reclaims 22,750 Ahead of RBI Policy Decision - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1RXTG9KWG5fNkd3cFppOEpDOE9pTnBoN292TnNKX2Y2Uzg1Zl9sWjBlUUFEMlFoaTZIUUxKYzRnVnhIejlacWJ4ZzNoRFRMVDZPTEpqdFZVeW1NZlAzMkNUQlZRc1hBSFZGczlnTEx2VDRpUEFaeU9pMVdFeGpkVUxNakl0UDUwTXB6Zy01UHJ3ZXNFWi1RV080X25saE5lUHJodQ?oc=5",
-          "publishedAt": "2026-10-17T18:03:34+00:00"
-        },
-        {
-          "name": "Livemint",
-          "title": "Nifty soars 2.8% this week: What lies ahead for Dalal Street? - Experts decode 5 triggers, key levels for next week - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObVhiNXRzNDA4LVVmdXp0RVl4MU5wOXJfNV9BX0VSMFRWQ0NkTXprS0E4cV9ObVlQTVBQdWx0bWRnWHVFRHV1T3N3T1gzS2NDSjBxaUdkY29DNWVubS1XNGY2VzMxeDlZaWJTZGRPak8xZ0F2VUxfOWpmSUVqQXoxWmg1c3VOUmN3VkJaQm5YSjlnR3RianJ0NVRlSl9SLXhwcXQ5NURIdEdFZVZKNnZDd1NlczFtRGNQQmtWN1dWaGRGWmhwa01nWjdfbkhpTk1WcC1NRjR2T2xrTVVpSlI4ekkzVzBBWEpuRjEwbmgzTkJUQ0xPcEtSNlZSejJBVFA0NlFhQlprcUJKZ2UtRHhydtIBkAJBVV95cUxObVhiNXRzNDA4LVVmdXp0RVl4MU5wOXJfNV9BX0VSMFRWQ0NkTXprS0E4cV9ObVlQTVBQdWx0bWRnWHVFRHV1T3N3T1gzS2NDSjBxaUdkY29DNWVubS1XNGY2VzMxeDlZaWJTZGRPak8xZ0F2VUxfOWpmSUVqQXoxWmg1c3VOUmN3VkJaQm5YSjlnR3RianJ0NVRlSl9SLXhwcXQ5NURIdEdFZVZKNnZDd1NlczFtRGNQQmtWN1dWaGRGWmhwa01nWjdfbkhpTk1WcC1NRjR2T2xrTVVpSlI4ekkzVzBBWEpuRjEwbmgzTkJUQ0xPcEtSNlZSejJBVFA0NlFhQlprcUJKZ2UtRHhydg?oc=5",
-          "publishedAt": "2026-10-17T11:34:49+00:00"
+          "name": "Liquide Blog",
+          "title": "Share Market News: Nifty 50 Outlook & Prediction - Liquide Blog",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYWl3bzY2TEl0WEJaRWtLS0ZfV1l4NU5pdzJFbTl0NDgwZ2VEWHBBYzdBUGFXYnFYRGdRZm1UMHhPZjA0Y1VHSXowUkROclY5cDNwZ2VYMURJN0kxV0ZzSHpFcEI0TWtLMlpKd2ZwVlRMQm02S1hiRVFnVjQzaFNFenRXZC1KVm9KbTdrd29MWUh2blh6Z3dvU1Nn?oc=5",
+          "publishedAt": "2026-10-18T09:46:26+00:00"
         }
       ],
       "evidenceCount": 7
