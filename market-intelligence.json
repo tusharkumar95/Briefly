@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T00:25:31.753999+00:00",
+  "updated": "2026-10-18T05:09:27.867705+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -9,13 +9,7 @@
       "direction": "flat",
       "move": "S&P/TSX Composite +0.11%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
-      "drivers": [
-        {
-          "label": "A&W earnings call",
-          "detail": "Q3 2026 earnings call highlights released for A&W Food Services of Canada Inc.",
-          "kind": "context"
-        }
-      ],
+      "drivers": [],
       "sectors": [],
       "confidence": "low",
       "primaryIndex": {
@@ -32,36 +26,31 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
-      "sources": [
-        {
-          "name": "Investing.com Canada",
-          "title": "A&W Food Services of Canada Inc (TSX:AW) (Q3 2026) Earnings Call Highlights: Smashed Burger ... By GuruFocus - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNc2xKVExMMm12eDREZGs4bDZ6QjhiTE1EaVJ5REVmeXpfVmk2dDkxX1ZyY19LM0EwcHBOVWJaZFRBZFhwMGtlNTJBd040a1pmbE90Zk50ZzFucFo4ZTI1bGUtR0xDRnlXWVlPWUg2NVI2aE9CSWZTbkpVZHVWQjkyUXR6YmQ5ZWJCZkZ3bkxyZUVfNkI3TGRVTkFqTHV4ZC1ROW5md0ZRcG5hX1BaT2FSZko3NDRpQWpVV05TZ2ViWDJOSnlOdDdHVFRpakVoOXY4TFE?oc=5",
-          "publishedAt": "2026-10-17T14:44:29+00:00"
-        }
-      ],
-      "evidenceCount": 1
+      "sources": [],
+      "evidenceCount": 0
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 closes higher, up 0.65%",
+      "headline": "IT earnings rally lifts Indian markets",
       "direction": "up",
       "move": "Nifty 50 +0.65%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "why": "Positive earnings reports from IT companies sparked buying pressure, lifting both indices as reported by boldnewsonline.com",
       "drivers": [
         {
-          "label": "Weekly performance",
-          "detail": "Livemint notes that Nifty has risen about 2.8% over the week.",
-          "kind": "context"
+          "label": "Investors Assess Corporate Outlook",
+          "detail": "boldnewsonline.com explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Technical level",
-          "detail": "The Economic Times discusses Nifty breaking above 23,450 as a potential catalyst for further gains.",
-          "kind": "context"
+          "label": "IT earnings rally",
+          "detail": "Strong earnings results from major IT firms boosted investor sentiment and drove the market higher",
+          "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Information Technology"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -90,19 +79,43 @@
       },
       "sources": [
         {
+          "name": "BBN Times",
+          "title": "BSE SENSEX Today: India’s Benchmark Falls to 71,924.68 Amid the Russia-Ukraine War and the US-Iran Conflict - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSWxLblRQdDkwUVBXX3NOM1NTVnl5SGpKQzlTdVhBOUpzTHlwRk1Xc3lLT3VXcVFndHREc1lxMng0Q0o2aVRVWTVCUThSdC1PQzZKRHlHT0RfMDZwWWU2M1JhNUVKMV9mQUFiOXRxZ1Y3bG90TkJpRTlYdnVmNG1YQXFfRGlXTXVWMkwyZUxOYVlWZUhtVy1UTElqMlgzZ0tnc0M3WXdNZVA4SWFLX3JWUkVsVXdiZGxNODRHZ0RoV2xMLVNSRjhFN3NGaTY5TW10UUdac2VZS243aHpFQmdR?oc=5",
+          "publishedAt": "2026-10-17T18:40:38+00:00"
+        },
+        {
+          "name": "Investment Guru India",
+          "title": "Nifty & Bank Nifty Weekly Outlook 18-10-2026 by Choice Broking Ltd - Investment Guru India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRk1nb3A5Ykc0WlNPa1NoeGlVOF9SazBlZG5md0Y3YnJaSDRPTVluM1hDTzNVTGc0N29xN2d1Q0lDZVVIcWFrUmk5UXdWYVhXZ0c4NU0xc0h2UmRveklLdVlXQXFBZW1OcWs3MUQxQkNQbFIzSFFmNFMtS1hvaGVhS2Z5TmlxdEJGYUxOMzJfZVRBY0NubFJPUzZrU0pkV05FbXpjc1hGYW1mYURySlpjamliQVQzUE1i?oc=5",
+          "publishedAt": "2026-10-18T03:49:33+00:00"
+        },
+        {
+          "name": "boldnewsonline.com",
+          "title": "IT Earnings Rally Lifts Sensex and Nifty as Investors Assess Corporate Outlook - boldnewsonline.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUmdvLVk4TWJmc09RMWJLY1JOcE5uU2NIcG1QbzZadkstd3M1TUxvZ1FuQjFIX3Ffb19mQTcybVBSY0w1QjVuellZQ1VXeWNzaEZOTHd3TmhPTzFISWoydEd4YUpjWUl5SVBxNTBHaXhLSVQ2OGNIOXg5M1dEaVhzeWsxTk5ScUlnVGNmV3I4aExLREZoLU52N3NMeVB2YUM5SDE0eFhqZ0M4UnNaWVZV?oc=5",
+          "publishedAt": "2026-10-17T06:11:02+00:00"
+        },
+        {
+          "name": "Univest",
+          "title": "Nifty Bank Today: Close, Movers, Breadth and Analysis - Univest",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JeXNaNHpTSWZQd2l3enNibnVYbWJGQktyZjFMVUstbkl0cmxXRC01TmFPUkp0QWQ4cDdZeE5ZdGh5d2dhTGNYbDlUbkxacEhQbkNuQVBiTV8wWU1iTlhzbU5TTzVpcVZOcHc?oc=5",
+          "publishedAt": "2026-10-17T05:23:11+00:00"
+        },
+        {
+          "name": "INDIA New England News",
+          "title": "Sensex Jumps 685 Points, Nifty Reclaims 22,750 Ahead of RBI Policy Decision - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1RXTG9KWG5fNkd3cFppOEpDOE9pTnBoN292TnNKX2Y2Uzg1Zl9sWjBlUUFEMlFoaTZIUUxKYzRnVnhIejlacWJ4ZzNoRFRMVDZPTEpqdFZVeW1NZlAzMkNUQlZRc1hBSFZGczlnTEx2VDRpUEFaeU9pMVdFeGpkVUxNakl0UDUwTXB6Zy01UHJ3ZXNFWi1RV080X25saE5lUHJodQ?oc=5",
+          "publishedAt": "2026-10-17T18:03:34+00:00"
+        },
+        {
           "name": "Livemint",
           "title": "Nifty soars 2.8% this week: What lies ahead for Dalal Street? - Experts decode 5 triggers, key levels for next week - Livemint",
           "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObVhiNXRzNDA4LVVmdXp0RVl4MU5wOXJfNV9BX0VSMFRWQ0NkTXprS0E4cV9ObVlQTVBQdWx0bWRnWHVFRHV1T3N3T1gzS2NDSjBxaUdkY29DNWVubS1XNGY2VzMxeDlZaWJTZGRPak8xZ0F2VUxfOWpmSUVqQXoxWmg1c3VOUmN3VkJaQm5YSjlnR3RianJ0NVRlSl9SLXhwcXQ5NURIdEdFZVZKNnZDd1NlczFtRGNQQmtWN1dWaGRGWmhwa01nWjdfbkhpTk1WcC1NRjR2T2xrTVVpSlI4ekkzVzBBWEpuRjEwbmgzTkJUQ0xPcEtSNlZSejJBVFA0NlFhQlprcUJKZ2UtRHhydtIBkAJBVV95cUxObVhiNXRzNDA4LVVmdXp0RVl4MU5wOXJfNV9BX0VSMFRWQ0NkTXprS0E4cV9ObVlQTVBQdWx0bWRnWHVFRHV1T3N3T1gzS2NDSjBxaUdkY29DNWVubS1XNGY2VzMxeDlZaWJTZGRPak8xZ0F2VUxfOWpmSUVqQXoxWmg1c3VOUmN3VkJaQm5YSjlnR3RianJ0NVRlSl9SLXhwcXQ5NURIdEdFZVZKNnZDd1NlczFtRGNQQmtWN1dWaGRGWmhwa01nWjdfbkhpTk1WcC1NRjR2T2xrTVVpSlI4ekkzVzBBWEpuRjEwbmgzTkJUQ0xPcEtSNlZSejJBVFA0NlFhQlprcUJKZ2UtRHhydg?oc=5",
           "publishedAt": "2026-10-17T11:34:49+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "F&O Talk: Nifty’s break above 23,450 could push index to 23,650; Sudeep Shah picks Tech Mahindra, TCS stra - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUGMtZFAyREVyLVoxNE5rMzBDcjRXWmVoRlcwS0xPdmZGRkdDV09XUWVSS3lvNTBnVDBwVVpNd09jeFNqd1JoX2xZNUF5bWdNNTlveTlVVWRGQnl1bEFkNGlMSW9qWmZtMVdlUlk3bEl1cXRLbVlmUWRjZHFwZjhIUTh3RUtJejVkMEJMdkJYQ2M4ekRKNTVOcU1mMnlySnduUHBmRmxnX29CTERVX2R2QmE5bzFSdU9DS3ZEU1JWa2F3MUoxanphU1VUMEhTaEY5eVN4VUwyb2FrZXNzekxtQ1dqV19UYXhQRDQtVlJlQ3p4THhXMHFkM3NEUDVtU3hjMDJTSkotUUHSAY4CQVVfeXFMT3RQZHRnWllKVTAzQk55X2pjSFd0eDdnd0dFVFlFX0FsamVsZ2pBamk0aC1tUWRFcG1mbGJNck5lOExWeTlBQTJxUXV1bEF0d1ZfODlnSnNmWEpVY1hwYm1BZHVfUkFNMFRlSWhRUWc2Nmo4djN6c1FsdFFqS25pT2RxY1lZeVJIX1dfNDhNd19RSDRYS1RrYnpQdDdtNEY1aWstLWFxLWxHUU1vM2dHYkRZcWVQOUtKRDNQUzFxSzhKWTBlc2dhRnVmQm9IRml6ZzVFUnp4YmR4NVdyY0RIeGFtTV9xd291cmVEQk1xazQ3My1VdFlVMW9OeGdVM2UwQ1pvOGVHZkRIVGRiZ3l3?oc=5",
-          "publishedAt": "2026-10-17T07:27:50+00:00"
         }
       ],
-      "evidenceCount": 2
+      "evidenceCount": 7
     }
   }
 }
