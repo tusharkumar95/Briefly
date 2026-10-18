@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T17:33:06.372083+00:00",
+  "updated": "2026-10-18T19:41:10.322607+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -31,29 +31,19 @@
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 and Sensex close higher",
+      "headline": "Nifty 50 rose 0.65%",
       "direction": "up",
       "move": "Nifty 50 +0.65%",
-      "why": "The indices posted modest gains; sources do not explicitly tie a specific factor to the move, so the rise is reported without a confirmed driver.",
+      "why": "Same-day market coverage explicitly linked the final move to: Rupee Strengthens, Crude Rises.",
       "drivers": [
         {
           "label": "Rupee Strengthens, Crude Rises",
           "detail": "Goodreturns explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
-        },
-        {
-          "label": "Foreign Portfolio Investor (FPI) activity",
-          "detail": "FPI selling crossed Rs 52,000 crore in October, yet the Nifty rose, indicating the market held up despite foreign outflows.",
-          "kind": "context"
-        },
-        {
-          "label": "Geopolitical backdrop",
-          "detail": "Ongoing Russia‑Ukraine war and US‑Iran tensions were noted in market commentary, but no source directly linked these to the day's rise.",
-          "kind": "context"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
