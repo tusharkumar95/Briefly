@@ -3,178 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-16T07:12:57.744428+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 1,
-        "continuing": 4
-      },
-      "stories": [
-        {
-          "id": "a32897379b718e",
-          "cat": "World",
-          "title": "Record number of ship attacks reported in Strait of Hormuz",
-          "summary": "UK Maritime Trade Operations recorded twelve vessel attacks in the Strait of Hormuz between 5 and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week saw ten attacks, with six incidents occurring on a single Sunday and four reported so far this week. Industry data indicate that the rise in attacks has coincided with a slowdown in the rebound of oil shipments through the strait.",
-          "why": "The attacks threaten safe navigation and could further disrupt global oil flow.",
-          "publishedAt": "2026-10-16T05:00:17+00:00",
-          "firstSeen": "2026-10-16T05:00:17+00:00",
-          "importanceScore": 15.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "a554348c86b2e1",
-          "cat": "Indian Markets",
-          "title": "Meta and Google to retain Jio IPO shares as company targets ₹30,213 cr raise",
-          "summary": "Meta Platforms and Google, who invested in Jio Platforms in 2020, could benefit from the upcoming initial public offering. Jio plans to raise about ₹30,213 crore, valuing the company at roughly ₹10.3 lakh crore. Neither Meta nor Google intends to sell any of their shares in this IPO.",
-          "why": "The IPO will inject substantial capital into Jio Platforms, supporting its growth while the investors keep their stakes.",
-          "publishedAt": "2026-10-16T04:14:32+00:00",
-          "firstSeen": "2026-10-16T04:14:32+00:00",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-meta-google-sit-on-nearly-1-lakh-crore-paper-profit-neither-is-selling/articleshow/134982204.cms"
-        },
-        {
-          "id": "8c13ffd0ddac99",
-          "cat": "Indian Markets",
-          "title": "Global hedge funds suffer steep losses as AI trade unwinds, Asia funds hit hardest",
-          "summary": "Global hedge funds suffered steep losses as investors unwound artificial intelligence-related trades amid inflation concerns and expectations of higher interest rates. Asia-focused stock pickers were hit hardest, losing 6.8% in early October, while global fundamental long-short funds fell 2.9% through October 15, according to Goldman Sachs data cited by Reuters.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-10-16T05:02:09+00:00",
-          "firstSeen": "2026-10-16T05:02:09+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-hedge-funds-suffer-steep-losses-as-ai-trade-unwinds-asia-funds-hit-hardest/articleshow/134982825.cms"
-        },
-        {
-          "id": "a82394000aee3b",
-          "cat": "India",
-          "title": "India's unemployment rate stays steady at 5% in September",
-          "summary": "India's overall unemployment rate held steady at 5.0% in September 2026, compared to the previous month. The rural unemployment rate improved to 4.2%, while urban unemployment increased slightly to 6.9%.",
-          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-          "publishedAt": "2026-10-15T11:26:51+00:00",
-          "firstSeen": "2026-10-15T11:26:51+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-stays-steady-at-5-in-september/articleshow/134966168.cms"
-        },
-        {
-          "id": "da7b1218a8c148",
-          "cat": "World",
-          "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-          "summary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
-          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-          "publishedAt": "2026-10-15T23:38:46+00:00",
-          "firstSeen": "2026-10-15T23:38:46+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "d61ab3162e8bbd",
-          "cat": "World",
-          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-          "summary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
-          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-          "publishedAt": "2026-10-15T14:51:30+00:00",
-          "firstSeen": "2026-10-15T14:51:30+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "86cd4ceb3a8f7e",
-          "cat": "India",
-          "title": "Rupee strengthens to 95.05 a dollar while forward premiums hit four-year high amid RBI measures",
-          "summary": "The rupee concluded the day on Thursday with a gain of 10 paise, reaching 95.05 against the dollar. This strengthening occurred as forward premiums climbed to levels not seen in more than four years, creating a climate of uncertainty.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-15T13:08:20+00:00",
-          "firstSeen": "2026-10-15T13:08:20+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rupee-strengthens-to-95-05-a-dollar-as-forward-premiums-hit-four-year-high-amid-rbi-measures/articleshow/134968902.cms"
-        },
-        {
-          "id": "6438044ceee721",
-          "cat": "India",
-          "title": "India's current account deficit narrows to $5.2 billion in August as capital account surplus hits $50.6 billion",
-          "summary": "India's current account deficit narrowed to $5.2 billion in August, compared to $6.1 billion a year earlier. The capital account surplus increased substantially to $50.6 billion, influenced by non-resident deposits of $83 billion.",
-          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-          "publishedAt": "2026-10-15T15:56:13+00:00",
-          "firstSeen": "2026-10-15T15:56:13+00:00",
-          "importanceScore": 11.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-current-account-deficit-narrows-to-5-2-billion-in-august-as-capital-account-surplus-hits-50-6-billion/articleshow/134971438.cms"
-        },
-        {
-          "id": "2200b7c85c3d8d",
-          "cat": "AI",
-          "title": "Meta launches an open-weight AI model that runs on Macs",
-          "summary": "Meta has launched what it calls the “most capable” open-weight model in the United States. The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, according to evaluation results released by Meta on Thursday.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-15T20:04:53+00:00",
-          "firstSeen": "2026-10-15T20:04:53+00:00",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
-        }
-      ]
-    },
-    {
       "at": "2026-10-16T12:28:40.465775+00:00",
       "changeSummary": {
         "new": 2,
@@ -2115,6 +1943,70 @@
           "changed": false,
           "change": "No material change since the previous brief.",
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/what-is-holding-up-the-us-india-trade-deal/articleshow/135023925.cms"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-19T07:49:58.347532+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 1,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "938473577306ba",
+          "cat": "World",
+          "title": "Anthropic to allocate 5% of its shares to public‑benefit fund",
+          "summary": "Anthropic announced it will set aside 5 % of its outstanding shares in a wholly‑owned public‑benefit fund. The fund can make large donations to nonprofit organisations and direct distributions to address societal challenges such as AI’s impact on employment, and it will not be used for lobbying or political contributions. The company also said it may increase the fund’s stake by an additional 2 % for every 50 % rise in Anthropic’s valuation.",
+          "why": "It demonstrates a leading AI company committing equity to address public‑interest concerns and potential societal risks of AI.",
+          "publishedAt": "2026-10-19T04:30:59+00:00",
+          "firstSeen": "2026-10-18T20:37:40+00:00",
+          "importanceScore": 14.8,
+          "sourceCount": 2,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "61044c31fedaa8",
+          "cat": "World",
+          "title": "Austrian Airlines flight from Tel Aviv to Vienna diverts to Sofia after bomb threat",
+          "summary": "An Austrian Airlines Airbus A320 en route from Tel Aviv to Vienna was forced to make an emergency landing in Sofia, Bulgaria, after a bomb threat was reported. Bulgarian authorities escorted the aircraft with a MiG‑29 fighter jet and evacuated all passengers; no injuries were reported. The Bulgarian transport ministry said an investigation has been opened.",
+          "why": "The incident illustrates how airlines and air‑traffic authorities respond to potential security threats to protect passengers.",
+          "publishedAt": "2026-10-19T06:29:55+00:00",
+          "firstSeen": "2026-10-19T06:29:55+00:00",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "f8dbf9e73187e2",
+          "cat": "India",
+          "title": "US official says trade deal with India near completion",
+          "summary": "On Monday, Marco Rubio said the United States is very close to finalising a trade agreement with India. He noted that the progress of the negotiations is one factor the administration weighs when considering national‑security waivers related to Russian oil and gas sanctions. The remarks were reported by The Economic Times.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-10-19T05:53:51+00:00",
+          "firstSeen": "2026-10-19T05:53:51+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/america-very-close-to-finalising-trade-deal-with-india-marco-rubio/videoshow/135041177.cms"
         }
       ]
     }
@@ -4320,14 +4212,27 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-10-19T07:49:58.347532+00:00",
+          "title": "Anthropic to allocate 5% of its shares to public‑benefit fund",
+          "summary": "Anthropic announced it will set aside 5 % of its outstanding shares in a wholly‑owned public‑benefit fund. The fund can make large donations to nonprofit organisations and direct distributions to address societal challenges such as AI’s impact on employment, and it will not be used for lobbying or political contributions. The company also said it may increase the fund’s stake by an additional 2 % for every 50 % rise in Anthropic’s valuation.",
+          "importanceScore": 14.8,
+          "sourceCount": 2,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-19T01:21:46.455757+00:00",
-      "cat": "AI",
-      "latestTitle": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "latestSummary": "Anthropic announced on Oct. 18 that it will create a “public benefit fund” by committing 5% of its shares to a wholly‑owned entity within the company, with an option to add another 2% for every 50% rise in Anthropic’s value. The fund may be used for large donations to traditional nonprofits or direct distributions to specific populations, and the company notes it has already pledged $200 million to study AI’s impact on the job market.",
-      "why": "The move addresses mounting public concern about AI and gives Anthropic a flexible mechanism to fund societal‑benefit projects.",
-      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+      "lastSeen": "2026-10-19T07:49:58.347532+00:00",
+      "cat": "World",
+      "latestTitle": "Anthropic to allocate 5% of its shares to public‑benefit fund",
+      "latestSummary": "Anthropic announced it will set aside 5 % of its outstanding shares in a wholly‑owned public‑benefit fund. The fund can make large donations to nonprofit organisations and direct distributions to address societal challenges such as AI’s impact on employment, and it will not be used for lobbying or political contributions. The company also said it may increase the fund’s stake by an additional 2 % for every 50 % rise in Anthropic’s valuation.",
+      "why": "It demonstrates a leading AI company committing equity to address public‑interest concerns and potential societal risks of AI.",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss"
     },
     "12d077b24ef44e": {
       "id": "12d077b24ef44e",
@@ -4441,7 +4346,57 @@
       "latestSummary": "Prominent companies like HDFC Bank and ICICI Bank shared their quarterly outcomes, showcasing improved asset quality. Vedanta, HDFC Bank, ICICI Bank, Axis Bank, Yes Bank, Oil India, Zen Technologies, HFCL, Ireda, and several other companies will be in focus on Monday, October 19.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-vedanta-hdfc-bank-icici-bank-axis-bank-hfcl-ireda-zen-tech-and-oil-india/articleshow/135037012.cms"
+    },
+    "61044c31fedaa8": {
+      "id": "61044c31fedaa8",
+      "firstSeen": "2026-10-19T06:29:55+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-19T07:49:58.347532+00:00",
+          "title": "Austrian Airlines flight from Tel Aviv to Vienna diverts to Sofia after bomb threat",
+          "summary": "An Austrian Airlines Airbus A320 en route from Tel Aviv to Vienna was forced to make an emergency landing in Sofia, Bulgaria, after a bomb threat was reported. Bulgarian authorities escorted the aircraft with a MiG‑29 fighter jet and evacuated all passengers; no injuries were reported. The Bulgarian transport ministry said an investigation has been opened.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-19T07:49:58.347532+00:00",
+      "cat": "World",
+      "latestTitle": "Austrian Airlines flight from Tel Aviv to Vienna diverts to Sofia after bomb threat",
+      "latestSummary": "An Austrian Airlines Airbus A320 en route from Tel Aviv to Vienna was forced to make an emergency landing in Sofia, Bulgaria, after a bomb threat was reported. Bulgarian authorities escorted the aircraft with a MiG‑29 fighter jet and evacuated all passengers; no injuries were reported. The Bulgarian transport ministry said an investigation has been opened.",
+      "why": "The incident illustrates how airlines and air‑traffic authorities respond to potential security threats to protect passengers.",
+      "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss"
+    },
+    "f8dbf9e73187e2": {
+      "id": "f8dbf9e73187e2",
+      "firstSeen": "2026-10-19T05:53:51+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-19T07:49:58.347532+00:00",
+          "title": "US official says trade deal with India near completion",
+          "summary": "On Monday, Marco Rubio said the United States is very close to finalising a trade agreement with India. He noted that the progress of the negotiations is one factor the administration weighs when considering national‑security waivers related to Russian oil and gas sanctions. The remarks were reported by The Economic Times.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-19T07:49:58.347532+00:00",
+      "cat": "India",
+      "latestTitle": "US official says trade deal with India near completion",
+      "latestSummary": "On Monday, Marco Rubio said the United States is very close to finalising a trade agreement with India. He noted that the progress of the negotiations is one factor the administration weighs when considering national‑security waivers related to Russian oil and gas sanctions. The remarks were reported by The Economic Times.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/america-very-close-to-finalising-trade-deal-with-india-marco-rubio/videoshow/135041177.cms"
     }
   },
-  "updated": "2026-10-19T01:21:46.455757+00:00"
+  "updated": "2026-10-19T07:49:58.347532+00:00"
 }
