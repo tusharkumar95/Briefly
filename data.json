@@ -1,101 +1,131 @@
 {
-  "updated": "2026-10-19T07:49:58.347532+00:00",
+  "updated": "2026-10-19T15:39:13.316202+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 70,
-    "nonNoiseCandidates": 69,
-    "officialOrPrimaryCandidates": 9,
-    "enrichedCandidates": 68,
-    "readableCandidates": 45,
-    "eventClusters": 43,
+    "rawCandidates": 80,
+    "nonNoiseCandidates": 78,
+    "officialOrPrimaryCandidates": 10,
+    "enrichedCandidates": 78,
+    "readableCandidates": 54,
+    "eventClusters": 50,
     "materialEvents": 22,
-    "selectedEvents": 7,
-    "seededStories": 3,
+    "selectedEvents": 9,
+    "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "938473577306ba",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World",
-        "AI"
-      ],
-      "title": "Anthropic to allocate 5% of its shares to public‑benefit fund",
-      "publishedAt": "2026-10-19T04:30:59+00:00",
-      "importanceScore": 14.8,
-      "sourceCount": 2,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
-      "summary": "Anthropic announced it will set aside 5 % of its outstanding shares in a wholly‑owned public‑benefit fund. The fund can make large donations to nonprofit organisations and direct distributions to address societal challenges such as AI’s impact on employment, and it will not be used for lobbying or political contributions. The company also said it may increase the fund’s stake by an additional 2 % for every 50 % rise in Anthropic’s valuation.",
-      "why": "It demonstrates a leading AI company committing equity to address public‑interest concerns and potential societal risks of AI.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-19T04:30:59+00:00"
-        },
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-          "publishedAt": "2026-10-18T20:37:40+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-18T20:37:40+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-19T07:49:58.347532+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "previousSummary": "Anthropic announced on Oct. 18 that it will create a “public benefit fund” by committing 5% of its shares to a wholly‑owned entity within the company, with an option to add another 2% for every 50% rise in Anthropic’s value. The fund may be used for large donations to traditional nonprofits or direct distributions to specific populations, and the company notes it has already pledged $200 million to study AI’s impact on the job market.",
-      "previousPublishedAt": "2026-10-18T20:37:40+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.4,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "61044c31fedaa8",
+      "id": "bd1747a917ef58",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Austrian Airlines flight from Tel Aviv to Vienna diverts to Sofia after bomb threat",
-      "publishedAt": "2026-10-19T06:29:55+00:00",
-      "importanceScore": 13.7,
+      "title": "Australian MP Helen Haines critically injured after being struck by a car in Wangaratta",
+      "publishedAt": "2026-10-19T14:09:54+00:00",
+      "importanceScore": 13.9,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
-      "summary": "An Austrian Airlines Airbus A320 en route from Tel Aviv to Vienna was forced to make an emergency landing in Sofia, Bulgaria, after a bomb threat was reported. Bulgarian authorities escorted the aircraft with a MiG‑29 fighter jet and evacuated all passengers; no injuries were reported. The Bulgarian transport ministry said an investigation has been opened.",
-      "why": "The incident illustrates how airlines and air‑traffic authorities respond to potential security threats to protect passengers.",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
+      "summary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta constituency office on Monday afternoon and was taken to a Melbourne hospital where she remains in critical condition. Police detained a 43‑year‑old man from nearby Tarrawingee after a passerby stopped the vehicle, and a knife was found inside the car. Investigators are assessing whether the collision was intentional, but have said there is no ongoing community threat.",
+      "why": "The incident underscores the vulnerability of elected officials to violence and the need for effective security measures.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-19T06:29:55+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-19T14:09:54+00:00"
         }
       ],
-      "firstSeen": "2026-10-19T06:29:55+00:00",
+      "firstSeen": "2026-10-19T14:09:54+00:00",
       "status": "New",
-      "lastChecked": "2026-10-19T07:49:58.347532+00:00",
+      "lastChecked": "2026-10-19T15:39:13.316202+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e041a113a22061",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "US stocks rebound as AI and chip shares recover ahead of earnings",
+      "publishedAt": "2026-10-19T13:38:31+00:00",
+      "importanceScore": 13.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-ai-stocks-rebound-ahead-of-major-earnings/articleshow/135050156.cms",
+      "summary": "On 19 Oct 2026 US equity indexes rose, with the Nasdaq 100 up about 1.2% and the S&P 500 gaining roughly 0.6% after a sharp sell‑off the day before. Semiconductor and AI‑linked stocks led the rally; CoreWeave jumped 3% after a Goldman Sachs upgrade and SpaceX and Tesla advanced ahead of their earnings releases. The move came as investors returned to technology names ahead of a busy earnings week.",
+      "why": "The rally occurred ahead of a busy earnings week, potentially shaping expectations for upcoming tech reports.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-ai-stocks-rebound-ahead-of-major-earnings/articleshow/135050156.cms",
+          "publishedAt": "2026-10-19T13:38:31+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-stock-us-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-fed-rate-inflation-treasury-yields-earnings-forecast-coreweave-broadcom-micron-stock-price-news-19th-october-2026/liveblog/135048592.cms",
+          "publishedAt": "2026-10-19T12:07:25+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-19T13:38:31+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-19T15:39:13.316202+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "37f3ec213ac53c",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Trump waives Russia sanctions, easing India’s energy concerns as US trade deal nears",
+      "publishedAt": "2026-10-19T12:03:41+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms",
+      "summary": "US President Donald Trump waived key Russian sanctions which may enhance trade relations with India. This decision is expected to provide negotiating space for a potential trade deal.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms",
+          "publishedAt": "2026-10-19T12:03:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-19T12:03:41+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-19T15:39:13.316202+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -107,13 +137,13 @@
       "categories": [
         "India"
       ],
-      "title": "US official says trade deal with India near completion",
+      "title": "US very close to finalising trade deal with India, says Marco Rubio",
       "publishedAt": "2026-10-19T05:53:51+00:00",
-      "importanceScore": 11.5,
+      "importanceScore": 10.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/america-very-close-to-finalising-trade-deal-with-india-marco-rubio/videoshow/135041177.cms",
-      "summary": "On Monday, Marco Rubio said the United States is very close to finalising a trade agreement with India. He noted that the progress of the negotiations is one factor the administration weighs when considering national‑security waivers related to Russian oil and gas sanctions. The remarks were reported by The Economic Times.",
+      "summary": "US Secretary of State Marco Rubio said on Monday that Washington is close to finalising a trade deal with India. He noted that energy supply considerations are among the factors taken into account when deciding on national security waivers related to Russian oil and gas sanctions.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -131,32 +161,78 @@
         }
       ],
       "firstSeen": "2026-10-19T05:53:51+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-19T07:49:58.347532+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-19T15:39:13.316202+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "US official says trade deal with India near completion",
+      "previousSummary": "On Monday, Marco Rubio said the United States is very close to finalising a trade agreement with India. He noted that the progress of the negotiations is one factor the administration weighs when considering national‑security waivers related to Russian oil and gas sanctions. The remarks were reported by The Economic Times.",
+      "previousPublishedAt": "2026-10-19T05:53:51+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.5,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "938473577306ba",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Anthropic creates public‑benefit fund funded by 5% of its shares",
+      "publishedAt": "2026-10-18T20:37:40+00:00",
+      "importanceScore": 9.4,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "summary": "Anthropic announced it is establishing a wholly‑owned public‑benefit fund and will allocate 5% of its shares to it. The fund can receive an additional 2% of shares for each 50% increase in Anthropic’s valuation and may make large donations to nonprofits or direct distributions to specific populations. The company also reaffirmed a $200 million commitment to study AI’s impact on employment.",
+      "why": "The fund provides a mechanism for Anthropic to allocate resources toward societal‑good projects.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+          "publishedAt": "2026-10-18T20:37:40+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-18T20:37:40+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-19T15:39:13.316202+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Anthropic to allocate 5% of its shares to public‑benefit fund",
+      "previousSummary": "Anthropic announced it will set aside 5 % of its outstanding shares in a wholly‑owned public‑benefit fund. The fund can make large donations to nonprofit organisations and direct distributions to address societal challenges such as AI’s impact on employment, and it will not be used for lobbying or political contributions. The company also said it may increase the fund’s stake by an additional 2 % for every 50 % rise in Anthropic’s valuation.",
+      "previousPublishedAt": "2026-10-19T04:30:59+00:00",
+      "previousSourceCount": 2,
+      "previousImportanceScore": 14.8,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 4,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-19T01:21:46.455757+00:00",
+  "previousUpdated": "2026-10-19T07:49:58.347532+00:00",
   "changeSummary": {
-    "new": 2,
+    "new": 3,
     "updated": 1,
-    "continuing": 0
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-16T12:28:40.465775+00:00",
-    "updated": "2026-10-19T07:49:58.347532+00:00",
+    "availableFrom": "2026-10-16T17:26:34.170134+00:00",
+    "updated": "2026-10-19T15:39:13.316202+00:00",
     "snapshotCount": 19,
-    "eventCount": 46,
+    "eventCount": 49,
     "retentionHours": 72
   }
 }
