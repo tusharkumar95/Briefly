@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T22:36:48.956857+00:00",
+  "updated": "2026-10-19T00:30:51.898111+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -31,10 +31,10 @@
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.65%",
+      "headline": "Nifty 50 and Sensex close higher",
       "direction": "up",
       "move": "Nifty 50 +0.65%",
-      "why": "Same-day market coverage explicitly linked the final move to: Rupee Strengthens, Crude Rises.",
+      "why": "No supplied source explicitly links a specific factor to the rise; the indices posted modest gains without a documented driver in the retrieved evidence.",
       "drivers": [
         {
           "label": "Rupee Strengthens, Crude Rises",
@@ -43,7 +43,7 @@
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -90,12 +90,6 @@
           "publishedAt": "2026-10-18T08:11:02+00:00"
         },
         {
-          "name": "TradingView",
-          "title": "Stock market this week with top 7 factors for Sensex, Nifty: Reliance Jio IPO, crude volatility, FII selling, Q2 results - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQYmV6azZHSTlFYUlYaUc2VF9SRjZsZHFmb1Y0eEo2cWlvRWxKbzFKNE5fLS1sUldQdE1aSWQxWXV1NDcxb2JzSmxSOTA3WFd6MENXN2NtZVZ4MDNDUE83WFk5UjV2bll0UnBmVVlneTVLSllVQ2l5WWFkVXF1QWxnS3hmdGU1aWtVX1JJMkdybXgxMXBLLUJjTWNpLTlOcFhrdVkzb0dvMlhTWi1Ybmw1azhPLWNPOU1QblAwdEJEQlY0cmFWSTZyMV9vRDFqWmxIX2E1MjRPd2lRVDRjV051TTM2TnFRUlNxbWZOZlFVRFRvTHFtS2hrNGF6SWpKVjVncmc?oc=5",
-          "publishedAt": "2026-10-18T15:50:40+00:00"
-        },
-        {
           "name": "Goodreturns",
           "title": "Stock Market Outlook Today, September 8: Sensex, Nifty Likely To Remain Under Pressure Amid Geopolitical Risks - Goodreturns",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdzRiMDZDRG9LdEVYOXVUQjVzdVNTaU9DRW5jN3oySTIycFc5emZLcVNzM1hWdDlPTlhiQ1JaWWs1R2d2Q3J6SG9yUHlHT1hucTcyQl9fLU94VmliQjF5S3VDVFA4UENQTHBFRWJMZS1FTFJJdDhzbHRYTk5WUVFNNjA2UWVUNFV3ZXIzNEJ4NzUxQmhUMlVwTEVRQTFISEpWTHBld2pQaURXZUkwandyRjFVaGhDMktMSENGRE1UMzlWWW53TGdZeW5MUFBaVFlSM0drdFhZTTRwZw?oc=5",
@@ -106,9 +100,15 @@
           "title": "Nifty & Bank Nifty Weekly Outlook 18-10-2026 by Choice Broking Ltd - Investment Guru India",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRk1nb3A5Ykc0WlNPa1NoeGlVOF9SazBlZG5md0Y3YnJaSDRPTVluM1hDTzNVTGc0N29xN2d1Q0lDZVVIcWFrUmk5UXdWYVhXZ0c4NU0xc0h2UmRveklLdVlXQXFBZW1OcWs3MUQxQkNQbFIzSFFmNFMtS1hvaGVhS2Z5TmlxdEJGYUxOMzJfZVRBY0NubFJPUzZrU0pkV05FbXpjc1hGYW1mYURySlpjamliQVQzUE1i?oc=5",
           "publishedAt": "2026-10-18T09:32:51+00:00"
+        },
+        {
+          "name": "Liquide Blog",
+          "title": "Share Market News: Nifty 50 Outlook & Prediction - Liquide Blog",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYWl3bzY2TEl0WEJaRWtLS0ZfV1l4NU5pdzJFbTl0NDgwZ2VEWHBBYzdBUGFXYnFYRGdRZm1UMHhPZjA0Y1VHSXowUkROclY5cDNwZ2VYMURJN0kxV0ZzSHpFcEI0TWtLMlpKd2ZwVlRMQm02S1hiRVFnVjQzaFNFenRXZC1KVm9KbTdrd29MWUh2blh6Z3dvU1Nn?oc=5",
+          "publishedAt": "2026-10-18T09:46:20+00:00"
         }
       ],
-      "evidenceCount": 7
+      "evidenceCount": 6
     }
   }
 }
