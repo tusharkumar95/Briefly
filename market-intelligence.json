@@ -1,90 +1,124 @@
 {
-  "updated": "2026-10-19T11:15:59.493968+00:00",
+  "updated": "2026-10-19T17:46:24.208341+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite was little changed 0.11%",
-      "direction": "flat",
-      "move": "S&P/TSX Composite +0.11%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "headline": "TSX slips 0.8% as financials, miners and rate‑hike worries drag market",
+      "direction": "down",
+      "move": "S&P/TSX Composite -0.81%",
+      "why": "Financial sector weakness, falling miner stocks, weaker base‑metal and utility shares, a hawkish Bank of Canada outlook and rising rate‑hike concerns in real estate outweighed any relief from softer inflation.",
       "drivers": [
         {
-          "label": "Gold miners (TSX:OLA)",
-          "detail": "Higher precious‑ and base‑metal prices drove OLA higher, supporting the index.",
-          "kind": "context"
+          "label": "financials and miners offset relief from softer inflation",
+          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Uranium (TSX:DML)",
-          "detail": "A rally in uranium and renewed nuclear‑fuel demand lifted DML, adding to market gains.",
-          "kind": "context"
+          "label": "Base Metals and Utilities Weaken",
+          "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Real estate sector",
-          "detail": "Real‑estate stocks fell amid rising rate‑hike worries, acting as a negative backdrop.",
-          "kind": "context"
+          "label": "Banks, Gold Miners and Celestica Slide",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Hawkish BoC Outlook",
+          "detail": "TradingView explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Financials",
+        "Materials (Mining)",
+        "Base Metals",
+        "Utilities",
+        "Real Estate",
+        "Technology"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36176.6,
-        "previousClose": 36137.1,
-        "change": 39.5,
-        "changePct": 0.11,
+        "price": 35884.6,
+        "previousClose": 36176.6,
+        "change": -292.0,
+        "changePct": -0.81,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-16T20:20:00+00:00",
+        "asOf": "2026-10-19T17:46:16+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "The Globe and Mail",
+          "title": "TSX falls as financials and miners offset relief from softer inflation - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSDhKcDFSNmtRU2FpdEJMQUFOOFVVTW00d2dsNHpVYno4dW1KNXdScXYwUVFFdDQtZmZhRGptMk1WWWozcDYtVDNwS29FbDJGdjYwdlJJWVdCdDBFWEM4OTYyNTVKY05ZRGE4NGdnd3JpZnN3Y0lJNzNBSHltZDNOdW1WRmZxRXIxbjJvNzVSaW9vMnVtMzUyem9rN1E0VXd1eERYTnF1WUdOYmhqOGM3cl93UDUtT2Z2a2R1emtZZmxSVlhJa1FTUkY1RC1lOXRUVjlCZnNvd1U2eE1pVERWT3UzY2ZSdG54S3NESnpB?oc=5",
+          "publishedAt": "2026-10-19T09:34:55+00:00"
+        },
+        {
+          "name": "Yahoo Finance",
+          "title": "S&P/TSX Composite Index Falls Monday Morning As Base Metals and Utilities Weaken - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc0thRG00NW9OY0xocVdmdUg4SW1vVHNFZ1B0RGxYdzJVelNJMkNQb3BlcGpDQ0FXdVc1d2tlWnduemF3WGtrNk0tWjQ4N2ppWExiUnNEZjhLX1RqV0ZjODRRcGdnZ0xURXF5QXRVcXdvSy13VVNJSFlJV29Uc2ZPRWFFMWpMUE50bXk1dWZCLWpTb0pDWEVOLXAxVWtpN2hj?oc=5",
+          "publishedAt": "2026-10-19T14:49:55+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange: S&P/TSX Composite Drops 1.11% to as Banks, Gold Miners and Celestica Slide - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcmpTdUVmY3ZOVG9GUEFZRUhhdlFfVEI2azlmOS1HR0psU012dUE1RHR3QVRXZ3RfOGpJajRUVVhwVVloSi1YRW1haW5Lc2dwOF9xcm1vd2tvUTNKWk84WTN5NHItdER0WFpNT04tQ2N1S2M1RHpEQy1xaWtwUUdYRWp5amdvLTNpczBaQjZnYktyYlJFTzFiWkFyaG5ZVzBrc2NBakt4UG11V190ZmY0eldvemJzazE4Z01GV09xMXBsdWpqcEN4TG1IaEYtOFd2?oc=5",
+          "publishedAt": "2026-10-19T14:39:25+00:00"
+        },
+        {
+          "name": "TradingView",
+          "title": "TSX Slips Amid Hawkish BoC Outlook - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWDllc0xOS042X2lhUmNyMmVuOGFEc2hRMFRXUTJyZXpobFc0T3hHS3QyTWpiTjB1ZjQyZW1UbHBTQXNjdFJQcUpmYllzS0hwX3JGUXhiWDU0VUQ1dC1iTVFoUVdydnBjZkZXWGw1T1p5eEl3bDFGSE5qenNKWlN4VjF3dV9XcHpKbTVxRWFn?oc=5",
+          "publishedAt": "2026-10-19T13:55:16+00:00"
+        },
+        {
+          "name": "The Globe and Mail",
+          "title": "TSX Stumbles out of Gate - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc2xGVGZSNU1PY3BXQ19GWGtZekdmRHJGNW94aTIxNkdBeWs2bTdkTEx4c29BYkRqMkFxRWdyNTI5cTljZVFmN2R5UlktdjJEWjhNc0ZhUmpxSXVTUGdGemZNekZGTHVNTGtJYTFSZFVQZnVleTQybzhJU3JIRGYtUUZVdUxtLXBZSkJjYThkYmw2enhHNElLTmpSU3A0MEh4VlB4TFJQTUZSNGFWWmc?oc=5",
+          "publishedAt": "2026-10-19T14:32:30+00:00"
+        },
+        {
           "name": "kalkine.ca",
           "title": "Why TSX:AP.UN, TSX:HR.UN and TSX:FSV fell on the S&P/TSX Composite: real estate slid amid rising rate-hike worries - kalkine.ca",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZVkyVVEzT3FjdlAxXzE3UHpCcmNSZzZSbzRXNC1VVllWRUdMNUluZjU3NEd6YkJQbnozbDE1UTFQaFVEd09ZektQdkRyR3U1a2xMLWpybkMzNFRJakVsYm9hRTZXejUyTm82OHI2dUp4WXJIdWV5Q1RuOHVWVjRYWEI3dzFEQWpmcGs4eHdublp4TUZ2Q0RpRzBsTXdHSWNfLTBubGctaXZOTS05QURGbDR2dU5zNnB4N3RseVcybTQ1aE1CcjM1R2htd3FQQ1VFRmh6VnBFcFI?oc=5",
           "publishedAt": "2026-10-19T10:35:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Why TSX:OLA jumped on the S&P/TSX Composite: higher precious- and base-metal prices lifted gold miners - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSm9JUGRuYVBySERCbVNDN1VmdTdNZ2l1enloRFNrR1Z6bHZrQmNQQm1HNUdpZkxZMXQ3NGlrdHVlMzU3SlU4SHhmSVdwYUNySzZ1YVZDUVk1UU05RnFDY1c5NzQwcDhTNC1EbWFYWXBGRE0weElQVzV1RWZTbk92ejlLaUwwcWFDVnItbmhWZDR6UlJLYXJ1My1MRTdUU1k5RU5UM0VhSHY0YlRPMUtaVjdHSW83Nkpwdnh6ZjhkaVY2TThUQUQ0?oc=5",
-          "publishedAt": "2026-10-19T09:51:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Obsidian Energy Ltd (TSX:OBE) Climbs 3.80% as Buying Momentum Lifts Outlook on 16 October 2026 - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZERsMFl1Y1ZGdGt5SHdhQk80aW5HbF9FeDkyR2tzVmRKTmV1cGV1QXpwcThOcmxtQjJ4YnhTUmJUQXdqcm1uVnJxNlh1bnFoWjB2cFB2bmpTZWFfVC1ocWMzNVlVTEVucUVocjdMWGp0YjgwYTVkVU5iX1dJdk16VXV1ZHlHaDd0UUpiLTlQRTdHWXVQYU5PVWp0NHY3LVdSYThCTG43d0hOSWtwa3BHVW1Tb1FTSFFOcmFWTQ?oc=5",
-          "publishedAt": "2026-10-19T08:57:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Why TSX:DML surged on the S&P/TSX Composite: a rally in uranium and renewed nuclear-fuel demand - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX2RPczlZMkhHRmdqdDE3cFROdkg1b1RvM1NJeEI0VjVlMEV6aFBEckZoZElQZFNtdThVNnoySUpnNjNCbEFyUF9URGNDbEVHUFlxYkpERGNlcTMwQmVVWUlaSkt0d0ZlZWl5WVYtMkRseVZyX05pNzQzRmJnVnN2SnZoR2ZUeXc5dE8zWGxOWXdmOTZTb3NiU3Y5MVdIVWs3b2NCdlJQd1NYRWpJeUZJWlJyWVltUUx1YjE2X21zcw?oc=5",
-          "publishedAt": "2026-10-19T09:51:00+00:00"
         }
       ],
-      "evidenceCount": 4
+      "evidenceCount": 7
     },
     "India": {
       "label": "India",
       "headline": "Nifty 50 fell 1.11%",
       "direction": "down",
       "move": "Nifty 50 -1.11%",
-      "why": "Same-day market coverage explicitly linked the final move to: banks drag; Cables and Media Sectors Bleed.",
+      "why": "Same-day market coverage explicitly linked the final move to: Sensex falls 876 points; DIIs buy ₹3,201 crore; the Russia-Ukraine War and the US-Iran Conflict; Sensex Falls 876 Points, Nifty Drops 1.11%; Banking and IT Stocks Lead the Losses.",
       "drivers": [
         {
-          "label": "banks drag",
+          "label": "Sensex falls 876 points; DIIs buy ₹3,201 crore",
           "detail": "CNBC TV18 explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Cables and Media Sectors Bleed",
-          "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "the Russia-Ukraine War and the US-Iran Conflict",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Sensex Falls 876 Points, Nifty Drops 1.11%; Banking and IT Stocks Lead the Losses",
+          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Crude oil nears USD 109",
+          "detail": "The Tribune explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -119,39 +153,39 @@
       "sources": [
         {
           "name": "CNBC TV18",
-          "title": "Closing bell: Sensex sinks nearly 900 points, Nifty slips below 22,900 as banks drag - CNBC TV18",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdnBvd191R0ZIaHJOZFhILUxxRC1kMTQ2ZWJmQkZCOVR2SXNQMVlTR0ZZNVl3aXBkRzBnZkRVZ3FMSUVOMWhoLXQwTVJfcFpRcnlMa2llVW8yV1ZtdHVCS0pmblRBc1hvTk84eHlFY0FRUkNaSUppSUhWVENWWlpJTVBDME11T0tqZThWWkYzRHgyaE0tZHYwOS1EWS1VVTVmQmVlaUdaWW1zRGUxTkprbmZucko5all3Mlo5bGFNaDhLRTdJeGhCanJB0gHPAUFVX3lxTE9hZzBFdkRVd1NEVXM3d1hNNXQzb2RUY25qdzRITVFfNS1WT2NHa3ZCWjMwdEVOZEhzTFZJeGU1a3IwSzVoVDY3Z1VoRzZocm9lLTBqcVlKa3gxQWFCYzJfdjZ6ZGZyQk9Rc3gwbHB3bTE5UWRaNnhjdzFFWkQ2bmlyTGlmcTZHTlVqOWVZSEZmT0VfZ0JVNlZ0b0NxelRiYURXQXZwLW9pYmFIVi1IMXZrUW9YaE1Semc4SXBLYnp0WEdUYUw5TTZNZTNBWkIzVQ?oc=5",
-          "publishedAt": "2026-10-19T10:18:36+00:00"
+          "title": "FIIs sell ₹1,149 crore worth of Indian stocks as Sensex falls 876 points; DIIs buy ₹3,201 crore - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd3NZbGd3N2czQnU3X25tUXMzX0NONFZkeWdWT1RXbjBUWlRNMjJkNHZGekduMjUzaEtmTFBUYW00T0tmeERQRS1GcjhrclRTbTdtWmhjVTBKS2UyWU5oWVcxVFlfRW91LTFudnJtOS03Qjlpc2k3eUZUMmpTM0pMVFc5NVJHbHlISEFUWXpKckQ4d2dYc05LeW1VWS1EUkczdVFneGpLUEVtZkhoOW530gG0AUFVX3lxTE1DTnh2eEZ3clNfbWt4VmZTczZhTk9SZ2RmV1Vwb1V6T04xbVo2UmNwMi0xZmRKZkl2WnQxbXpLcW1tbE96Smw0cnB5VHBLWmJiOTBabEE3M3Z0M3VTbmlWZ2pDRTlqS1ZwbjAzLUVhdXV1XzZ2SmpaXzFvVFJDaXc5Z2NjdDQwblZHZ1Q0ajJKY01qQmFxMGNUWXZZLWRBMjV3TGlEdUNTOFVKTzlaOFlVYjByZg?oc=5",
+          "publishedAt": "2026-10-19T13:23:45+00:00"
         },
         {
-          "name": "scanx.trade",
-          "title": "Market Wrap: Nifty Slips Below 22,900 as Cables and Media Sectors Bleed - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNR0JpNGNMMUY2RHpGcFNQd1c1YTNHcWEtLTNWSS1ocGcyVTZpMDFCVDJyVnZvT0NUMWJyZC0zUDJDRHhlZGR6ekdRRm81N3AtN1QwaDBrZjFPdGVZUEE4V2RrY19hanp2OGhHeWxweVR1dVF1QmR3X043V1NTS25Bazg4VzZpOS1sYjAxTENPdlAzS1ZYeUhsY2RlNTAtWng1Zlg2VDgxU1UtMU5XY0Jzck5jeE9sN3FKRVRuUExXSFNnR2ZaYVNiUlAxWTR3aGl0MEQ5TGpma0s5a1c1Y3czSzBVNWdFY2JxZWMyS00zMVVtV25Da0tlaHhuLUVYT1RH?oc=5",
-          "publishedAt": "2026-10-19T10:17:34+00:00"
+          "name": "BBN Times",
+          "title": "BSE SENSEX Today: India’s Benchmark Falls to 71,924.68 Amid the Russia-Ukraine War and the US-Iran Conflict - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSWxLblRQdDkwUVBXX3NOM1NTVnl5SGpKQzlTdVhBOUpzTHlwRk1Xc3lLT3VXcVFndHREc1lxMng0Q0o2aVRVWTVCUThSdC1PQzZKRHlHT0RfMDZwWWU2M1JhNUVKMV9mQUFiOXRxZ1Y3bG90TkJpRTlYdnVmNG1YQXFfRGlXTXVWMkwyZUxOYVlWZUhtVy1UTElqMlgzZ0tnc0M3WXdNZVA4SWFLX3JWUkVsVXdiZGxNODRHZ0RoV2xMLVNSRjhFN3NGaTY5TW10UUdac2VZS243aHpFQmdR?oc=5",
+          "publishedAt": "2026-10-19T13:29:11+00:00"
         },
         {
-          "name": "Zee Business",
-          "title": "Closing Bell: Sensex loses over 1,000 pts from day's high, Nifty slips below 22,900; private banks, IT stocks drag - Zee Business",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMXRHSWk2eG9Lb2szcDlLU0F6OXphbmFlRGNBRXhjdGIzMjJHVENDcV9LVHRfalFmeGZpSVBlTEk4TV9wUUFjQWloX19uSkZYY29uRWRSa1o2TjNlN3FOdVFqOHRXU2NyXzJfdVBWbUZOQm9ianNSaDdhcE1qT25sc0dvRXZMdXR3ejlXUGtMdXVMcXRWS1ZUTURmTmFWNHZDOTliRkZrc2hFMmdRMlBmSUJpbDVkM3dVTHVGWUd0Nks5YnBielRBX1p5OEVZUnpRTHRqeEJnR1AzSGJGVWxlb1I0bzNZYXlOelE?oc=5",
-          "publishedAt": "2026-10-19T10:04:57+00:00"
+          "name": "India Infoline",
+          "title": "Nifty Sensex Today: Stock Market Crashes as Sensex Falls 876 Points, Nifty Drops 1.11%; Banking and IT Stocks Lead the Losses - India Infoline",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQa1ZydU56V2ZLWkw1MTV6bW0zNThMcTRUVU44WFN4SHpfMHlmTndYMm9YZXJMVmE3V0w5S05ZU19Mc2F6Z1drT05NOG5vQzg3X0diWkh0eFV2dzhkMzV5WXVlbEYxaUtiY0RmT3B3bGVMWXVCTHRNdUloNzctX3d2eEdPRnlZaGp2eUhkQmhydkNwOEl4cFdiNklIYnc2ZjZUQ3BhZlZlY05Hb2dFVm1lS3B3M3dlb1NqM3BEQ0xtaWtfY0pNSlIyRkQ0MzR0ZGJLQkt5U3R5S3FDU01saE1NdGxwRXQyc1d2ZDRldE5wbDNRTjl4aXBv?oc=5",
+          "publishedAt": "2026-10-19T13:06:04+00:00"
         },
         {
-          "name": "Business Standard",
-          "title": "Sensex tanks 1020 pts intraday: Bank stocks, FPI selling among key factors - Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQmhnZl9zOTVwaUJnNDFwSmNOSWFoU2VLSXZVTFVqazI3OW1kYWtlblNITUtNdV92NWtaT09EVkNQZ2tlUmFDOFpOaVdwTWJrSXRUVldpQTN5Qi1rbWRwamMtaDhrdDZMOExXdFVEN2c5WkdLNmFVLXhpSXp4SmswYmZySmdSME5YYTc5OFNycTV4bmh4UG9TbkRmRnd3OU1LalJDcV9wb3RDS2VoYWJVZU8tc1FxSW93Z1Badm84UEYtbThHT2d0Y2kwdUh5YlJBTW5WWHNyMNIB3AFBVV95cUxNdGdXd1gweDVlQjUxSVVwMWpUVnl2TEF3M1Y2QjFjNkZFakhhNTNHeEVOaHUtM1lHYTVxRS1QU191TVB4YThsWHRDQkVRcVpOel9USDVDV19UWGF4dHNpSTFXc013cE5BczN2RWNxa0FZYWdqU3ZseG5oMW54VnZDVzFsajUtY3ZBNnhDV0dWQm9CdVllODk0eFFEM2VyRW42ZkJVSzVpTUVCWXYwRk9qVXZrTnpnakxQaGtCUmlzb1hYSlhkS3NXUnZ1TXExRzBTQ0YyOUR2bHB6Wklw?oc=5",
-          "publishedAt": "2026-10-19T07:15:29+00:00"
+          "name": "The Tribune",
+          "title": "Sensex sinks 876 points, Nifty falls 1.11% as Crude oil nears USD 109 - The Tribune",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajZVUW5HMG1mTUdRdDJNTVpZVE9tMzBZSXF0U1h2RTE3aDk0RjJER1A0TFFuTXVmell5NjJ0a04xcF9PWWNCQXZqRlpndDZLX0taZV9UTjAtc3VlRk8xZTY1UGFaekEzalYzejNtNXpHUlZTWWRoaUNIVk5vQ002V0R2QmtMVHRhVXE2T1FGcnBnU3U5TFVVNWY3V216ZmNjVk91Y1lhTmdaeExtTFpta0pNVEvSAbQBQVVfeXFMUGo2VVFuRzBtZk1HUXQyTU1aWVRPbTMwWUlxdFNYdkUxN2g5NEYyREdQNExRbk11ZnpZeTYydGtOMXBfT1ljQkF2akZaZ3Q2S19LWmVfVE4wLXN1ZUZPMWU2NVBhWnpBM2pWM3ozbTV6R1JWU1lkaGlDSFZOb0NNNldEdkJrTFR0YVVxNk9RRnJwZ1N1OUxVVTVmN1dtemZjY1ZPdWNZYU5nWnhMbUxabWtKTVRL?oc=5",
+          "publishedAt": "2026-10-19T12:24:41+00:00"
         },
         {
-          "name": "PSU Watch",
-          "title": "Sensex, Nifty recover early losses as SBI, Reliance shares rally - PSU Watch",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUDM2Q3h5MHNDZXNHektNU3NFOHZPZmFxR3A3X2NWM0xTYUFrLVpZcUk0V2dvMGc5T29EMm5rRnlhc2V1RXVCVDFtelYySzRyNWFKS05hY1l2SWRsekxrdGdiWXE5alZXdE1sVkJwQkt0aWF0Vnh5aHRHdmU3OS1YOE4xMDlMeVNEZ2tNN213cy1OY1gtUlBuQ3hoRXZRV2FLY2VPOW44enJFcnpiUjhz0gG8AUFVX3lxTFA2My1DSnFtX1ExNGRlUUJWMEN4OS1VR1dZQWRvc1BFWGhiWWk3a0RVMlBCc2V5am5lRkpER25MTVQ1bzZTUWRyNmlfeE9jMjFxRllOUHBtSTBpYTVIbkZIWVI4d2VFeTV0YVg5V3ZnZ2VWRTN5WGg4RXMtQnNmMEVISld6SzRRcHRPTGU1dTVBWkE1NUt0bFlFVVVxZHI4ZXdwaFNxS1AtT09nVzlNWlQ5aXpSTkZMajVpaGxz?oc=5",
-          "publishedAt": "2026-10-19T04:59:53+00:00"
+          "name": "HDFC Sky",
+          "title": "Gift Nifty Signals Flat Open; Crude Above $108, Banks Under Pressure - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOWhSaWVhVlBPNkJIMkQzLWtQOHJvU1FCWVVQZ0hkYURwV2RaOWhMenZjcGhDT2t4MTdKOVpYT2NnZGZSQlVwbUh5VFBscjVtaHRRMUVBNHozM0NFelZmVWpzOGVsYUJpTFdZWEpWUHBVOEwyUFp2LVZ3UzFiVUVWZmJUQkJ1RE8xelV2b29R?oc=5",
+          "publishedAt": "2026-10-19T11:45:01+00:00"
         },
         {
-          "name": "Moneycontrol.com",
-          "title": "Sensex settles 850 pts lower, Nifty ends below 22,900: Elevated crude oil prices among key factors behind... - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPX0ZrR01tNEtyWERzY1BYZmZPbVhvSDJSakNTSUFLdm5Hd3lOUmNQeTR4Tmk3djA0NlcwY3hEQUtvTFFRWU85SXZuU0NScmJUbXdLLV84UV93U0xLdWdMV3JOT2RCVWNBMGhNcUZVZHZhRGp0Y0xxLUJoTnNLMWl2NkVLWkJncnVOTXZpZ29sRWZOaVhsby1oMkFMYm40Y2pGTzBwM2pJNGwyR1I3R0RWR3ZTZktKUzN4Z21GM25TemxxNl9VZ0UwNXNZMHM4R0cxY05CdHFPS19oWGZCRWRMM0t1cmdoa0pXeXM5RFpBazJ3QVpfRE1BR08zWWVIVi1TclltZ3RFLVlLQzFH0gGSAkFVX3lxTFBLZ0l1amRpdlJzczhRcUk2UURKdlJpVE5BS3RUUG1zMEc0U1JFYkduaGwwMU02eV9URFFQWlQ3eHZYeXZhX00xaUhVQ0hCUnlSeXY1Ny1fV055Wmk3RFFwQ2E0R1YxOGtwdDBTT1dTcFJPSnRYUGE0Y0lNRWNveTk4M082MllkeDVCc3RHUEh1N1p0Mzd4RGNUZ3pZbmZreFdUc1NWOHczWGx4UURjdVFPd1E4V3BQemVjQi0xTE45bHpwTXR1dzF1T3NEN3c5cUZhSllxY0VOVjlsSEZxbFVKakFfYnc1b3oyTUc3UWZabXBheDA3dm91QnpyMFhQT3JxdEVLaDRTSWVjWmxpSWp0elE?oc=5",
-          "publishedAt": "2026-10-19T04:27:35+00:00"
+          "name": "TradingView",
+          "title": "Sensex, Nifty end lower amid volatile trade and profit booking - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLWdkek1jY2JhczdiR0tUZXBCUXF5Y094TTQ3cFFhak53X1daRUc4RC0zc2FXR3k4S3BEMUZyMFNLcnA5b19ZY3RlNG1RYnpBeC13V28xbFowZTR5NG50X0NjTE9HTWRaVGxtd0E2QlFvcXNha3d6SF9VMDkxbi1sNHBvbW5EVkZkYmpDVHRsNmticmFweVRxZV8xZlowazJidDdFRXpVUFNJVmJ0LVF0Y3drcHpaZ2xrbVE?oc=5",
+          "publishedAt": "2026-10-19T11:33:34+00:00"
         }
       ],
       "evidenceCount": 7
