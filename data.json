@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-19T21:05:39.154526+00:00",
+  "updated": "2026-10-20T00:22:54.504870+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 20,
-    "enrichedCandidates": 77,
-    "readableCandidates": 54,
-    "eventClusters": 53,
-    "materialEvents": 19,
+    "rawCandidates": 73,
+    "nonNoiseCandidates": 71,
+    "officialOrPrimaryCandidates": 0,
+    "enrichedCandidates": 70,
+    "readableCandidates": 69,
+    "eventClusters": 66,
+    "materialEvents": 26,
     "selectedEvents": 10,
-    "seededStories": 8,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,14 +24,14 @@
       "categories": [
         "AI"
       ],
-      "title": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
+      "title": "Tenstorrent raises $1.5 billion, valuation hits $6.2 billion",
       "publishedAt": "2026-10-19T18:37:27+00:00",
-      "importanceScore": 14.4,
+      "importanceScore": 13.1,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-      "summary": "Tenstorrent, a chip startup focused on AI inference, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funds will be used to scale chips for open‑weight AI models and video‑generation workloads.",
-      "why": "The capital infusion is intended to speed development of alternative AI hardware that could chip away at Nvidia’s market dominance.",
+      "summary": "Tenstorrent, a ten‑year‑old AI inference chip startup, closed a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the money will be used to scale chips for open‑weight AI models and video‑generation workloads.",
+      "why": "The funding gives Tenstorrent resources to expand its hardware offering in a market dominated by Nvidia, potentially increasing competition for AI developers.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -43,15 +43,174 @@
         }
       ],
       "firstSeen": "2026-10-19T18:37:27+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-19T21:05:39.154526+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-20T00:22:54.504870+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
+      "previousSummary": "Tenstorrent, a chip startup focused on AI inference, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funds will be used to scale chips for open‑weight AI models and video‑generation workloads.",
+      "previousPublishedAt": "2026-10-19T18:37:27+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.4,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "a8a0397970f576",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Canada’s 2-year measles outbreak officially over: PHAC",
+      "publishedAt": "2026-10-19T22:30:57+00:00",
+      "importanceScore": 12.6,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12108446/canada-measles-outbreak-declared-over/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Dave October 19, 2026 at 7:37 pm Lmfao Canadians are so pathetically easy to manipulate",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12108446/canada-measles-outbreak-declared-over/",
+          "publishedAt": "2026-10-19T22:30:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-19T22:30:57+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-20T00:22:54.504870+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
+    },
+    {
+      "id": "185c93e489fd34",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "RBI launches Rs 1 lakh crore variable‑rate repo auction",
+      "publishedAt": "2026-10-19T19:47:23+00:00",
+      "importanceScore": 11.8,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms",
+      "summary": "On Monday the Reserve Bank of India announced a Rs 1 lakh crore variable‑rate repo (VRR) auction, the first such operation since late July, after the weighted‑average call rate rose to 5.67%, 17 basis points above the 5.50% repo rate. The central bank will conduct a second VRR of Rs 50,000 crore on Wednesday.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms",
+          "publishedAt": "2026-10-19T19:47:23+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-19T19:47:23+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-20T00:22:54.504870+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "RBI injects Rs 1 lakh crore as liquidity tightens before festive season",
+      "previousSummary": "On Monday, the RBI announced a Rs 1-lakh-crore variable rate repo (VRR) auction for the first time since late July after the weighted average call rate (WACR) at 5.67% on Monday, or 17 basis points higher than the repo rate of 5.50%. RBI's VRR operation attracted bids of Rs 1.50 lakh crore while the banking system liquidity stood at a surplus of Rs 1.99 lakh crore as of October 16.",
+      "previousPublishedAt": "2026-10-19T19:47:23+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.8,
+      "changed": true,
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "1dd619e6bb2e83",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+      "publishedAt": "2026-10-19T23:39:38+00:00",
+      "importanceScore": 11.6,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "summary": "A little over a month ago, Anthropic and AI infrastructure provider Nscale announced a $45 billion compute deal . Bloomberg reports that the two companies are said to be on the verge of announcing yet another $45 billion compute deal, citing people familiar with the matter.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+          "publishedAt": "2026-10-19T23:39:38+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-19T23:39:38+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-20T00:22:54.504870+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "b5325a031fe7b3",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Jio IPO: LIC, BlackRock, Fidelity, GIC among 212 anchor investors to pour Rs 8,110 crore",
+      "publishedAt": "2026-10-19T17:34:53+00:00",
+      "importanceScore": 11.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-lic-blackrock-fidelity-gic-among-212-anchor-investors-pour-rs-8110-crore/articleshow/135053762.cms",
+      "summary": "Jio Platforms successfully raised approximately Rs 8,110 crore from 212 anchor investors before its upcoming IPO. The company allotted shares to well-known investors such as LIC, BlackRock, and Fidelity.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-lic-blackrock-fidelity-gic-among-212-anchor-investors-pour-rs-8110-crore/articleshow/135053762.cms",
+          "publishedAt": "2026-10-19T17:34:53+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-19T11:29:33+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-20T00:22:54.504870+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Jio IPO draws Rs 2.5 lakh crore in anchor bids from over 70 investors",
+      "previousSummary": "Jio Platforms’ Rs 30,188 cr IPO has attracted institutional bids worth around Rs 2.5 lakh cr, more than 30 times the size of its anchor book. Over 70 investors, including global asset managers, sovereign wealth funds, domestic mutual funds and insurers, have expressed interest ahead of the October 21 opening.",
+      "previousPublishedAt": "2026-10-19T11:29:33+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.0,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "0cb8538f1a0700",
@@ -60,13 +219,13 @@
       "categories": [
         "India"
       ],
-      "title": "RBI tightens scrutiny of overseas investments over $1 billion",
+      "title": "RBI tightens scrutiny of $1 billion‑plus overseas investments by Indian firms",
       "publishedAt": "2026-10-19T19:26:34+00:00",
-      "importanceScore": 13.5,
+      "importanceScore": 11.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms",
-      "summary": "The Reserve Bank of India has introduced stricter review of overseas direct investments exceeding $1 billion by Indian companies. Banks must now collect and submit detailed information on such investments to the RBI, using a checklist that requires thorough due‑diligence of the investment rationale. The measure is intended to reduce the risk of losses to the companies and the Indian economy.",
+      "summary": "The Reserve Bank of India is implementing stricter scrutiny of large overseas direct investments by Indian companies. Banks must now collect and submit detailed information on each such investment, including a due‑diligence checklist on the investment rationale. The initiative aims to prevent potential losses for the companies and the Indian economy.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -79,133 +238,20 @@
         }
       ],
       "firstSeen": "2026-10-19T19:26:34+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-19T21:05:39.154526+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "bd1747a917ef58",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Australian MP Helen Haines critically injured after being hit by a car in Wangaratta",
-      "publishedAt": "2026-10-19T14:09:54+00:00",
-      "importanceScore": 12.9,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
-      "summary": "Independent MP Helen Haines, 65, was struck by a car outside her constituency office in Wangaratta, Victoria, on Monday afternoon and is now in critical condition at a Melbourne hospital. Police detained a 43‑year‑old man from nearby Tarrawingee after a passerby intervened, and a knife was found in the vehicle. Authorities are investigating whether the act was intentional but say there is no ongoing community threat.",
-      "why": "The incident highlights concerns about the safety of elected officials and the potential for political violence in Australia.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-19T14:09:54+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-19T14:09:54+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-19T21:05:39.154526+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Australian MP Helen Haines critically injured after being struck by a car in Wangaratta",
-      "previousSummary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta constituency office on Monday afternoon and was taken to a Melbourne hospital where she remains in critical condition. Police detained a 43‑year‑old man from nearby Tarrawingee after a passerby stopped the vehicle, and a knife was found inside the car. Investigators are assessing whether the collision was intentional, but have said there is no ongoing community threat.",
-      "previousPublishedAt": "2026-10-19T14:09:54+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.9,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "185c93e489fd34",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "RBI injects Rs 1 lakh crore as liquidity tightens before festive season",
-      "publishedAt": "2026-10-19T19:47:23+00:00",
-      "importanceScore": 12.8,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms",
-      "summary": "On Monday, the RBI announced a Rs 1-lakh-crore variable rate repo (VRR) auction for the first time since late July after the weighted average call rate (WACR) at 5.67% on Monday, or 17 basis points higher than the repo rate of 5.50%. RBI's VRR operation attracted bids of Rs 1.50 lakh crore while the banking system liquidity stood at a surplus of Rs 1.99 lakh crore as of October 16.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms",
-          "publishedAt": "2026-10-19T19:47:23+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-19T19:47:23+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-19T21:05:39.154526+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "fffd8e5e0449cb",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Nasdaq leads Wall Street gains as chip and AI stocks rebound",
-      "publishedAt": "2026-10-19T20:18:35+00:00",
-      "importanceScore": 12.6,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-leads-wall-street-gains-as-chip-ai-stocks-rebound/articleshow/135056194.cms",
-      "summary": "U.S. equities closed mixed on Monday, with the Nasdaq Composite gaining 1.11% to 26,430.89 points, the S&P 500 rising 0.42% to 7,691.07 points, and the Dow Jones Industrial Average slipping 0.06% to 51,970.20 points. Chip and AI‑related shares rebounded, ending an eight‑session decline for the Philadelphia Semiconductor Index, while CoreWeave rose after a Goldman Sachs upgrade to Buy and Intel advanced after a J.P. Morgan upgrade to Neutral.",
-      "why": "The rebound may influence investor sentiment ahead of upcoming earnings reports.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-leads-wall-street-gains-as-chip-ai-stocks-rebound/articleshow/135056194.cms",
-          "publishedAt": "2026-10-19T20:18:35+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-stock-us-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-fed-rate-inflation-treasury-yields-earnings-forecast-coreweave-broadcom-micron-stock-price-news-19th-october-2026/liveblog/135048592.cms",
-          "publishedAt": "2026-10-19T12:07:25+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-19T20:18:35+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-19T21:05:39.154526+00:00",
+      "lastChecked": "2026-10-20T00:22:54.504870+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "RBI tightens scrutiny of overseas investments over $1 billion",
+      "previousSummary": "The Reserve Bank of India has introduced stricter review of overseas direct investments exceeding $1 billion by Indian companies. Banks must now collect and submit detailed information on such investments to the RBI, using a checklist that requires thorough due‑diligence of the investment rationale. The measure is intended to reduce the risk of losses to the companies and the Indian economy.",
+      "previousPublishedAt": "2026-10-19T19:26:34+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.5,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Its significance score fell as the evidence changed.",
+      "lifecycle": "Updated"
     },
     {
       "id": "37f3ec213ac53c",
@@ -214,17 +260,17 @@
       "categories": [
         "India"
       ],
-      "title": "US President Trump lifts select Russian sanctions, easing India’s energy concerns",
+      "title": "Trump waives Russia sanctions, easing India’s energy concerns as US trade deal nears",
       "publishedAt": "2026-10-19T12:03:41+00:00",
-      "importanceScore": 12.5,
+      "importanceScore": 11.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms",
-      "summary": "President Donald Trump announced a waiver of certain Russian sanctions, a move that could improve trade relations with India. India, a major importer of Russian oil, has been facing reduced imports and higher costs. Secretary of State Marco Rubio is in India to discuss energy cooperation, and the waiver may give India leverage to negotiate more favorable oil tariffs.",
+      "summary": "US President Donald Trump waived key Russian sanctions which may enhance trade relations with India. This decision is expected to provide negotiating space for a potential trade deal.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -234,108 +280,36 @@
       ],
       "firstSeen": "2026-10-19T12:03:41+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-19T21:05:39.154526+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Trump waives Russia sanctions, easing India’s energy concerns as US trade deal nears",
-      "previousSummary": "US President Donald Trump waived key Russian sanctions which may enhance trade relations with India. This decision is expected to provide negotiating space for a potential trade deal.",
-      "previousPublishedAt": "2026-10-19T12:03:41+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.5,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "b5325a031fe7b3",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Jio IPO draws Rs 2.5 lakh crore in anchor bids from over 70 investors",
-      "publishedAt": "2026-10-19T11:29:33+00:00",
-      "importanceScore": 12.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-draws-rs-2-5-lakh-crore-in-anchor-bids-from-over-70-investors/articleshow/135047685.cms",
-      "summary": "Jio Platforms’ Rs 30,188 cr IPO has attracted institutional bids worth around Rs 2.5 lakh cr, more than 30 times the size of its anchor book. Over 70 investors, including global asset managers, sovereign wealth funds, domestic mutual funds and insurers, have expressed interest ahead of the October 21 opening.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-draws-rs-2-5-lakh-crore-in-anchor-bids-from-over-70-investors/articleshow/135047685.cms",
-          "publishedAt": "2026-10-19T11:29:33+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-19T11:29:33+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-19T21:05:39.154526+00:00",
+      "lastChecked": "2026-10-20T00:22:54.504870+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
+      "previousTitle": "US President Trump lifts select Russian sanctions, easing India’s energy concerns",
+      "previousSummary": "President Donald Trump announced a waiver of certain Russian sanctions, a move that could improve trade relations with India. India, a major importer of Russian oil, has been facing reduced imports and higher costs. Secretary of State Marco Rubio is in India to discuss energy cooperation, and the waiver may give India leverage to negotiate more favorable oil tariffs.",
+      "previousPublishedAt": "2026-10-19T12:03:41+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.5,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "c05a91cf4ce39b",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Trump suspends pending Russian sanctions to keep peace talks alive",
-      "publishedAt": "2026-10-18T23:20:15+00:00",
-      "importanceScore": 11.5,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
-      "summary": "U.S. President Donald Trump announced that he blocked several Russian sanctions that were scheduled to take effect on Friday, saying the move was intended to keep Moscow at the negotiating table and facilitate peace talks over the Russia‑Ukraine war. The decision came as tensions rose with Ukrainian President Volodymyr Zelensky, who warned that aligning with Russian President Vladimir Putin would be a “historic mistake.” Russian envoy Kirill Dmitriev called the suspension an “important and truly historic moment,” saying the sanctions would have caused serious damage to U.S. and global markets.",
-      "why": "The suspension changes U.S. pressure on Russia and could influence the trajectory of the Ukraine conflict and international sanctions policy.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-18T23:20:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-18T23:20:15+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-19T21:05:39.154526+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 6,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-19T15:39:13.316202+00:00",
+  "previousUpdated": "2026-10-19T21:05:39.154526+00:00",
   "changeSummary": {
-    "new": 6,
-    "updated": 1,
+    "new": 2,
+    "updated": 4,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-16T21:12:42.374155+00:00",
-    "updated": "2026-10-19T21:05:39.154526+00:00",
-    "snapshotCount": 19,
-    "eventCount": 54,
+    "availableFrom": "2026-10-17T04:31:09.102759+00:00",
+    "updated": "2026-10-20T00:22:54.504870+00:00",
+    "snapshotCount": 18,
+    "eventCount": 56,
     "retentionHours": 72
   }
 }
