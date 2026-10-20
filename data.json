@@ -1,126 +1,54 @@
 {
-  "updated": "2026-10-20T11:42:18.498699+00:00",
+  "updated": "2026-10-20T17:11:45.716518+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 76,
-    "officialOrPrimaryCandidates": 22,
-    "enrichedCandidates": 75,
-    "readableCandidates": 50,
-    "eventClusters": 49,
-    "materialEvents": 23,
-    "selectedEvents": 9,
-    "seededStories": 8,
+    "nonNoiseCandidates": 77,
+    "officialOrPrimaryCandidates": 17,
+    "enrichedCandidates": 76,
+    "readableCandidates": 56,
+    "eventClusters": 56,
+    "materialEvents": 30,
+    "selectedEvents": 10,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "7471d513a6260f",
+      "id": "c5260f35525409",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Bank of Japan to keep rates steady, may raise FY2027 inflation forecast",
-      "publishedAt": "2026-10-20T06:52:26+00:00",
-      "importanceScore": 13.3,
+      "title": "Federal Bank named in Economic Times market trading guide",
+      "publishedAt": "2026-10-20T10:18:27+00:00",
+      "importanceScore": 12.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bank-of-japan-may-raise-inflation-forecast-stand-pat-on-rates-sources-say/articleshow/135063146.cms",
-      "summary": "The Bank of Japan intends to modestly raise its fiscal year 2027 inflation outlook while leaving the policy rate unchanged at 1.25% for the late‑October meeting. Officials note inflation risks but say there is no immediate need for additional hikes, and recent data show price pressures are not accelerating sharply. The article lists several Indian stocks as trending, including SBI.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-federal-bank-among-4-stock-recommendations-for-wednesday/slideshow/135067773.cms",
+      "summary": "The Economic Times published a market‑trading guide that listed Federal Bank as one of four stock recommendations for Wednesday. The article is located in the “Markets › Stocks › News” section of the site.",
+      "why": "The recommendation may draw investor attention to Federal Bank for short‑term trading.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bank-of-japan-may-raise-inflation-forecast-stand-pat-on-rates-sources-say/articleshow/135063146.cms",
-          "publishedAt": "2026-10-20T06:52:26+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-federal-bank-among-4-stock-recommendations-for-wednesday/slideshow/135067773.cms",
+          "publishedAt": "2026-10-20T10:18:27+00:00"
         }
       ],
-      "firstSeen": "2026-10-20T06:52:26+00:00",
+      "firstSeen": "2026-10-20T10:18:27+00:00",
       "status": "New",
-      "lastChecked": "2026-10-20T11:42:18.498699+00:00",
+      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "b0b4107ef9f21e",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "EAAA India Alternatives to float Rs 1,200-cr IPO on Oct 26",
-      "publishedAt": "2026-10-20T07:51:09+00:00",
-      "importanceScore": 13.2,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-to-float-rs-1200-cr-ipo-on-oct-26/articleshow/135064394.cms",
-      "summary": "EAAA India Alternatives Ltd will open its initial public offering worth Rs 1,200 crore on October 26. The IPO will close for subscription on October 28, following anchor investor bidding on October 23.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-to-float-rs-1200-cr-ipo-on-oct-26/articleshow/135064394.cms",
-          "publishedAt": "2026-10-20T07:51:09+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-20T07:51:09+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-20T11:42:18.498699+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "09d5635ce8654e",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Montreal man faces massive medical bills after emergency spinal surgery",
-      "publishedAt": "2026-10-20T09:00:03+00:00",
-      "importanceScore": 12.6,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12108704/montreal-man-massive-medical-bills/",
-      "summary": "Try This October 20, 2026 at 7:12 am Alvin is here temporarily while his wife is a student. Seems like he was thinking they would automatically be allowed to stay, and believes the Canadian citizens should pay his medical bills.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12108704/montreal-man-massive-medical-bills/",
-          "publishedAt": "2026-10-20T09:00:03+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-20T09:00:03+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-20T11:42:18.498699+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -138,8 +66,8 @@
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-      "summary": "Tenstorrent, an AI inference chip startup, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funding will be used to scale chips for open‑weight AI models and video generation after Galaxy servers demonstrated DeepSeek model capability.",
-      "why": "The capital enables Tenstorrent to expand production of chips targeting open‑weight AI workloads, strengthening its competitive position against Nvidia in the inference market.",
+      "summary": "Tenstorrent, a chip startup focused on inference, raised $1.5 billion in a financing round that valued the company at $6.2 billion, more than double its $2.6 billion valuation in late 2024. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. Proceeds will be used to scale chips for open‑weight AI models and video generation.",
+      "why": "The funding strengthens competition in AI hardware and supports alternatives to Nvidia’s dominant GPUs.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -152,89 +80,84 @@
       ],
       "firstSeen": "2026-10-19T18:37:27+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-20T11:42:18.498699+00:00",
+      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "Tenstorrent raises $1.5 billion, valuation hits $6.2 billion",
-      "previousSummary": "Tenstorrent, a chip startup focused on AI inference, completed a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the proceeds will be used to scale chips for open‑weight AI models and video‑generation after Galaxy servers demonstrated the ability to run DeepSeek models.",
+      "previousTitle": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
+      "previousSummary": "Tenstorrent, an AI inference chip startup, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funding will be used to scale chips for open‑weight AI models and video generation after Galaxy servers demonstrated DeepSeek model capability.",
       "previousPublishedAt": "2026-10-19T18:37:27+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.1,
+      "previousImportanceScore": 12.4,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
     },
     {
-      "id": "d708ae59325ecf",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "85d9eb1be8cb00",
+      "cat": "Canada",
+      "icon": "🇨🇦",
       "categories": [
-        "India"
+        "Canada"
       ],
-      "title": "India‑NZ free trade agreement in force, over half of NZ exports to India tariff‑free",
-      "publishedAt": "2026-10-20T00:48:24+00:00",
-      "importanceScore": 12.2,
+      "title": "‘It wasn’t me’: Ontario man denies killing Tori Dunn in Surrey, B.C. home invasion",
+      "publishedAt": "2026-10-20T17:08:19+00:00",
+      "importanceScore": 11.7,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms",
-      "summary": "A free trade agreement between India and New Zealand has entered into force, removing tariffs on more than half of New Zealand’s exports to India. The tariff‑free access is expected to boost products such as sheep meat, wool and other local goods. At the same time, New Zealand is preparing its first trade and investment dialogue with Brazil, following upcoming elections, and is also seeking stronger ties with Canada.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12109502/ontario-man-denies-killing-tori-dunn-surrey-bc-home-invasion/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms",
-          "publishedAt": "2026-10-20T00:48:24+00:00"
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12109502/ontario-man-denies-killing-tori-dunn-surrey-bc-home-invasion/",
+          "publishedAt": "2026-10-20T17:08:19+00:00"
         }
       ],
-      "firstSeen": "2026-10-20T00:48:24+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-20T11:42:18.498699+00:00",
+      "firstSeen": "2026-10-20T17:08:19+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India‑NZ free‑trade pact in force, over half of NZ exports tariff‑free",
-      "previousSummary": "The free‑trade agreement between India and New Zealand has come into force, removing tariffs on more than half of New Zealand’s exports to India. Those exports previously faced duties that are now eliminated under the pact. New Zealand also signalled interest in pursuing comparable trade agreements with Brazil and Canada.",
-      "previousPublishedAt": "2026-10-20T00:48:24+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.5,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
-      "id": "8e6e364d57ff24",
+      "id": "0cb8538f1a0700",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "Marco Rubio in India to boost energy, trade and defence cooperation",
-      "publishedAt": "2026-10-20T09:26:48+00:00",
-      "importanceScore": 11.0,
+      "title": "RBI tightens scrutiny of large overseas direct investments",
+      "publishedAt": "2026-10-19T19:26:34+00:00",
+      "importanceScore": 10.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-lands-in-mumbai-as-new-delhi-washington-push-to-close-trade-deal/articleshow/135066599.cms",
-      "summary": "US official Marco Rubio is in India to enhance cooperation in energy, trade and defence and to advance the India‑US Comprehensive Global Strategic Partnership. The visit follows a May trip that included meetings with Prime Minister Narendra Modi and External Affairs Minister S Jaishankar. Discussions aim at a bilateral trade deal that would address tariff issues and improve market access.",
-      "why": "The talks are intended to deepen economic engagement and could affect tariffs and market access between the two countries.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms",
+      "summary": "The Reserve Bank of India has introduced stricter oversight of large overseas direct investments by Indian companies. Banks are now required to collect and submit detailed information on such investments to the RBI and to carry out thorough due‑diligence on the investment rationale. The measure is intended to help prevent potential losses for the companies and for the Indian economy.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-lands-in-mumbai-as-new-delhi-washington-push-to-close-trade-deal/articleshow/135066599.cms",
-          "publishedAt": "2026-10-20T09:26:48+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms",
+          "publishedAt": "2026-10-19T19:26:34+00:00"
         }
       ],
-      "firstSeen": "2026-10-20T09:26:48+00:00",
+      "firstSeen": "2026-10-19T19:26:34+00:00",
       "status": "New",
-      "lastChecked": "2026-10-20T11:42:18.498699+00:00",
+      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -244,33 +167,33 @@
       "lifecycle": "New"
     },
     {
-      "id": "37f3ec213ac53c",
+      "id": "0cdb4ef3ae33c9",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "Trump waives Russian sanctions, potentially easing India’s energy concerns",
-      "publishedAt": "2026-10-19T12:03:41+00:00",
-      "importanceScore": 11.0,
+      "title": "Rubio says India‑US trade deal is “very, very close” after Jaishankar meeting",
+      "publishedAt": "2026-10-20T11:49:50+00:00",
+      "importanceScore": 10.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms",
-      "summary": "U.S. President Donald Trump announced a waiver of certain Russian sanctions, a move that could facilitate trade between the United States and India. India, a major importer of Russian oil that has seen volumes fall, may gain additional flexibility in negotiating tariffs and energy policy. Secretary of State Marco Rubio is in India for talks on cooperation related to the waiver.",
-      "why": "It could help India secure more favorable trade terms and stabilize its energy supplies.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rubio-says-india-us-trade-deal-is-very-very-close-after-jaishankar-meeting/articleshow/135068984.cms",
+      "summary": "US Secretary of State Marco Rubio said negotiations for a trade deal with India are approaching completion. He referenced recent talks with Indian Foreign Minister Subrahmanyam Jaishankar on energy security and defence cooperation. Rubio’s visit to India also included a tour of the Reliance Industries refinery and meetings with business leaders, while tariff and energy tensions persist.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms",
-          "publishedAt": "2026-10-19T12:03:41+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rubio-says-india-us-trade-deal-is-very-very-close-after-jaishankar-meeting/articleshow/135068984.cms",
+          "publishedAt": "2026-10-20T11:49:50+00:00"
         }
       ],
-      "firstSeen": "2026-10-19T12:03:41+00:00",
+      "firstSeen": "2026-10-20T11:49:50+00:00",
       "status": "New",
-      "lastChecked": "2026-10-20T11:42:18.498699+00:00",
+      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -280,21 +203,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 5,
+  "jarvisEditedCount": 4,
   "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-20T06:03:58.874622+00:00",
+  "previousUpdated": "2026-10-20T11:42:18.498699+00:00",
   "changeSummary": {
-    "new": 5,
+    "new": 4,
     "updated": 0,
-    "continuing": 2
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-17T13:45:25.652237+00:00",
-    "updated": "2026-10-20T11:42:18.498699+00:00",
-    "snapshotCount": 18,
-    "eventCount": 63,
+    "availableFrom": "2026-10-17T19:26:33.945046+00:00",
+    "updated": "2026-10-20T17:11:45.716518+00:00",
+    "snapshotCount": 17,
+    "eventCount": 66,
     "retentionHours": 72
   }
 }
