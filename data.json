@@ -1,22 +1,58 @@
 {
-  "updated": "2026-10-20T17:11:45.716518+00:00",
+  "updated": "2026-10-20T20:37:46.146661+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 77,
-    "officialOrPrimaryCandidates": 17,
+    "officialOrPrimaryCandidates": 16,
     "enrichedCandidates": 76,
     "readableCandidates": 56,
     "eventClusters": 56,
-    "materialEvents": 30,
-    "selectedEvents": 10,
+    "materialEvents": 25,
+    "selectedEvents": 8,
     "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "63336cbba013a0",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "65-year-old woman killed in shark attack off South Africa's east coast",
+      "publishedAt": "2026-10-20T15:58:57+00:00",
+      "importanceScore": 13.8,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
+      "summary": "Janine Lochrenberg, 65, was killed while swimming off a beach in KuGompo City (formerly East London) on Tuesday morning. Witnesses said she was bitten in two places and died before fellow swimmers could get her ashore. The attack is South Africa’s first fatal shark incident recorded this year, and the country has had about ten fatal attacks since 2012, according to the International Shark Attack File.",
+      "why": "The incident highlights the risk to open‑water swimmers and informs coastal safety planning.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-20T15:58:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-20T15:58:57+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-20T20:37:46.146661+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "c5260f35525409",
       "cat": "Indian Markets",
@@ -30,8 +66,8 @@
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-federal-bank-among-4-stock-recommendations-for-wednesday/slideshow/135067773.cms",
-      "summary": "The Economic Times published a market‑trading guide that listed Federal Bank as one of four stock recommendations for Wednesday. The article is located in the “Markets › Stocks › News” section of the site.",
-      "why": "The recommendation may draw investor attention to Federal Bank for short‑term trading.",
+      "summary": "The Economic Times published a market trading guide titled “Market Trading Guide: Federal Bank among 4 stock recommendations for Wednesday.” The guide listed Federal Bank as one of four stocks suggested for investors to consider on that Wednesday. The article is located in the Markets > Stocks > News section as a slideshow.",
+      "why": "The recommendation may raise investor awareness and affect trading interest in Federal Bank.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -43,125 +79,89 @@
         }
       ],
       "firstSeen": "2026-10-20T10:18:27+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a5654dd6220377",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-      "publishedAt": "2026-10-19T18:37:27+00:00",
-      "importanceScore": 12.4,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-      "summary": "Tenstorrent, a chip startup focused on inference, raised $1.5 billion in a financing round that valued the company at $6.2 billion, more than double its $2.6 billion valuation in late 2024. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. Proceeds will be used to scale chips for open‑weight AI models and video generation.",
-      "why": "The funding strengthens competition in AI hardware and supports alternatives to Nvidia’s dominant GPUs.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-          "publishedAt": "2026-10-19T18:37:27+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-19T18:37:27+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
+      "lastChecked": "2026-10-20T20:37:46.146661+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-      "previousSummary": "Tenstorrent, an AI inference chip startup, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funding will be used to scale chips for open‑weight AI models and video generation after Galaxy servers demonstrated DeepSeek model capability.",
-      "previousPublishedAt": "2026-10-19T18:37:27+00:00",
+      "previousTitle": "Federal Bank named in Economic Times market trading guide",
+      "previousSummary": "The Economic Times published a market‑trading guide that listed Federal Bank as one of four stock recommendations for Wednesday. The article is located in the “Markets › Stocks › News” section of the site.",
+      "previousPublishedAt": "2026-10-20T10:18:27+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.4,
+      "previousImportanceScore": 12.7,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
     },
     {
-      "id": "85d9eb1be8cb00",
-      "cat": "Canada",
-      "icon": "🇨🇦",
+      "id": "b810cbb7af9063",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Canada"
+        "World"
       ],
-      "title": "‘It wasn’t me’: Ontario man denies killing Tori Dunn in Surrey, B.C. home invasion",
-      "publishedAt": "2026-10-20T17:08:19+00:00",
-      "importanceScore": 11.7,
+      "title": "Houthi missile strike kills more than 70 security recruits in Shabwa, Yemen",
+      "publishedAt": "2026-10-20T14:09:42+00:00",
+      "importanceScore": 11.3,
       "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12109502/ontario-man-denies-killing-tori-dunn-surrey-bc-home-invasion/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "summary": "On Monday the Iran‑backed Houthi movement launched three ballistic missiles at al‑Alam training camp near Ataq in Yemen’s central Shabwa province. The strike killed more than 70 recruits serving in the government’s internal security forces and police. Yemen’s Presidential Leadership Council condemned the attack as a criminal act and said a firm response would follow.",
+      "why": "The attack underscores the rising intensity of the conflict as pro‑government forces start a major offensive to retake Houthi‑held western territories.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
       "sources": [
         {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12109502/ontario-man-denies-killing-tori-dunn-surrey-bc-home-invasion/",
-          "publishedAt": "2026-10-20T17:08:19+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-20T14:09:42+00:00"
         }
       ],
-      "firstSeen": "2026-10-20T17:08:19+00:00",
+      "firstSeen": "2026-10-20T14:09:42+00:00",
       "status": "New",
-      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "lastChecked": "2026-10-20T20:37:46.146661+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "strong-source-or-corroborated",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "0cb8538f1a0700",
+      "id": "d708ae59325ecf",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "RBI tightens scrutiny of large overseas direct investments",
-      "publishedAt": "2026-10-19T19:26:34+00:00",
-      "importanceScore": 10.5,
+      "title": "India-NZ FTA in force: Over half of New Zealand’s exports to India now tariff-free, Wellington also eyes Brazil, Canada",
+      "publishedAt": "2026-10-20T00:48:24+00:00",
+      "importanceScore": 11.2,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms",
-      "summary": "The Reserve Bank of India has introduced stricter oversight of large overseas direct investments by Indian companies. Banks are now required to collect and submit detailed information on such investments to the RBI and to carry out thorough due‑diligence on the investment rationale. The measure is intended to help prevent potential losses for the companies and for the Indian economy.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms",
+      "summary": "New Zealand is working to strengthen trade relations with Brazil and Canada in response to economic uncertainties. A new free trade agreement with India has been implemented, making more than half of exports tariff-free.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms",
-          "publishedAt": "2026-10-19T19:26:34+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms",
+          "publishedAt": "2026-10-20T00:48:24+00:00"
         }
       ],
-      "firstSeen": "2026-10-19T19:26:34+00:00",
+      "firstSeen": "2026-10-20T00:48:24+00:00",
       "status": "New",
-      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
+      "lastChecked": "2026-10-20T20:37:46.146661+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -173,13 +173,13 @@
       "categories": [
         "India"
       ],
-      "title": "Rubio says India‑US trade deal is “very, very close” after Jaishankar meeting",
+      "title": "Rubio says India‑US trade deal is “very, very close” after meeting with Jaishankar",
       "publishedAt": "2026-10-20T11:49:50+00:00",
       "importanceScore": 10.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rubio-says-india-us-trade-deal-is-very-very-close-after-jaishankar-meeting/articleshow/135068984.cms",
-      "summary": "US Secretary of State Marco Rubio said negotiations for a trade deal with India are approaching completion. He referenced recent talks with Indian Foreign Minister Subrahmanyam Jaishankar on energy security and defence cooperation. Rubio’s visit to India also included a tour of the Reliance Industries refinery and meetings with business leaders, while tariff and energy tensions persist.",
+      "summary": "US Senator Marco Rubio said the India‑US trade deal is “very, very close” following discussions with Indian Foreign Minister Subrahmanyam Jaishankar. He noted that the talks covered energy security and defence cooperation, while tariff and energy tensions remain challenges. Rubio’s India visit also included a tour of the Reliance Industries refinery and meetings with business leaders.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -192,8 +192,49 @@
         }
       ],
       "firstSeen": "2026-10-20T11:49:50+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-20T20:37:46.146661+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Rubio says India‑US trade deal is “very, very close” after Jaishankar meeting",
+      "previousSummary": "US Secretary of State Marco Rubio said negotiations for a trade deal with India are approaching completion. He referenced recent talks with Indian Foreign Minister Subrahmanyam Jaishankar on energy security and defence cooperation. Rubio’s visit to India also included a tour of the Reliance Industries refinery and meetings with business leaders, while tariff and energy tensions persist.",
+      "previousPublishedAt": "2026-10-20T11:49:50+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 10.0,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "8e6e364d57ff24",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Marco Rubio arrives in Mumbai to advance India‑US trade talks",
+      "publishedAt": "2026-10-20T09:26:48+00:00",
+      "importanceScore": 10.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-lands-in-mumbai-as-new-delhi-washington-push-to-close-trade-deal/articleshow/135066599.cms",
+      "summary": "US official Marco Rubio arrived in Mumbai as part of a visit aimed at strengthening cooperation on energy, trade and defense under the India‑US Comprehensive Global Strategic Partnership. The trip follows a May visit in which he met Prime Minister Narendra Modi and External Affairs Minister S Jaishankar. Officials say the pending bilateral trade agreement seeks to resolve tariff barriers and improve market access for both countries.",
+      "why": "The agreement could lower tariffs and expand market opportunities for businesses and consumers in India and the United States.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-lands-in-mumbai-as-new-delhi-washington-push-to-close-trade-deal/articleshow/135066599.cms",
+          "publishedAt": "2026-10-20T09:26:48+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-20T09:26:48+00:00",
       "status": "New",
-      "lastChecked": "2026-10-20T17:11:45.716518+00:00",
+      "lastChecked": "2026-10-20T20:37:46.146661+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -203,21 +244,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 4,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-20T11:42:18.498699+00:00",
+  "jarvisEditedCount": 5,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-20T17:11:45.716518+00:00",
   "changeSummary": {
     "new": 4,
     "updated": 0,
-    "continuing": 1
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-17T19:26:33.945046+00:00",
-    "updated": "2026-10-20T17:11:45.716518+00:00",
+    "availableFrom": "2026-10-17T22:21:39.817742+00:00",
+    "updated": "2026-10-20T20:37:46.146661+00:00",
     "snapshotCount": 17,
-    "eventCount": 66,
+    "eventCount": 67,
     "retentionHours": 72
   }
 }
