@@ -1,18 +1,23 @@
 {
-  "updated": "2026-10-20T17:31:55.748526+00:00",
+  "updated": "2026-10-20T20:53:29.024762+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX rises as easing oil prices, bond yields boost sentiment",
+      "headline": "TSX climbs 0.5% as easing oil prices, lower yields and sector gains lift market",
       "direction": "up",
-      "move": "S&P/TSX Composite +0.59%",
-      "why": "Easing oil prices and falling bond yields lifted sentiment, and bank stocks added support.",
+      "move": "S&P/TSX Composite +0.50%",
+      "why": "Easing oil prices and falling bond yields boosted sentiment, while healthcare, technology and bank stocks posted gains that pushed the index higher.",
       "drivers": [
         {
           "label": "easing oil prices, bond yields boost sentiment",
           "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Healthcare, Technology Stocks Rise",
+          "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -22,31 +27,28 @@
         },
         {
           "label": "Oil prices",
-          "detail": "Oil prices eased, reducing cost pressures and improving sentiment.",
-          "kind": "driver"
-        },
-        {
-          "label": "Bond yields",
-          "detail": "Bond yields declined, lowering financing costs and making equities more attractive.",
+          "detail": "Easing oil prices were cited as a factor that lifted the TSX.",
           "kind": "driver"
         }
       ],
       "sectors": [
         "Energy",
-        "Financials"
+        "Financials",
+        "Healthcare",
+        "Technology"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36139.94,
+        "price": 36107.96,
         "previousClose": 35928.6,
-        "change": 211.34,
-        "changePct": 0.59,
+        "change": 179.36,
+        "changePct": 0.5,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-20T17:31:46+00:00",
+        "asOf": "2026-10-20T20:20:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
@@ -58,10 +60,22 @@
           "publishedAt": "2026-10-20T09:26:41+00:00"
         },
         {
-          "name": "Reuters",
-          "title": "TSX pulls back from three-week high as financials, metal miners fall - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3NHWThwRjlFWHVFWmJfUFhNV3lsREJnYlB5X0ZpbnJldjhlMl8tdDF3T19JcFlQWVFoOEt0eWxqdUMwSmFYeEg5WllRNzlfWnJzcWFFaHFUOXZtUWN5d2M2VUY1a19GU2M4Z1BuUkVObWZDX2traXdWcGt2djFxRVRTVU1KcHNlMWVOLWtDZklwcnRaYUZQQzBELThfZw?oc=5",
-          "publishedAt": "2026-10-19T20:32:07+00:00"
+          "name": "Investing.com",
+          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.50% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU29uVDVJSm5hMjMzV0dzWmR1REwyVW9vRVFVOTVjMXAtOVJwTUEzUHBvTVhPMWFEUVVwQW5YelF4dUsxX1RnLUM0TTlWY25xbVBIWWNQT1o5a3c2Z1hhQzVCLXFHcXpLdU0tRWZqRGN5cGlGdzZOUmJWMGVXTjBWNXdxclc0QlRyajAtM3lna1lzNGMxVGdSRWd2SlJPaTVSZ1hDTUlHMzlnaWlNMzhxb1NxMW1qcVBIaUE?oc=5",
+          "publishedAt": "2026-10-20T20:36:08+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.50% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRVBFc0FUODk3SHN6Zm9lZ0FXRnlwSkZuYkdUejYzQl9fSmp3RzhBN1hvMk1KYWNoREQ1WUtjSjBvMkJEMGxqNFNyZmptM0wwUkpIeVVxMC1QUlpxdTNGd0prS2pRbXl4bUxWSHhQQmpiakx0Y2duLUVsWHlmc0RtckxVN3JTZi1HQlZMVWoxZTQ5YW5VNkdpeEYzZUpseGFJc2thSDhFZGFhaG5zYmg2SEZNZFBBMHpO?oc=5",
+          "publishedAt": "2026-10-20T20:30:00+00:00"
+        },
+        {
+          "name": "Yahoo Finance",
+          "title": "TSX Closer: The Index Gains as Healthcare, Technology Stocks Rise - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcENlYnU1RzZZdUhDNEI0eXJndG9Gelk4eXJKWjl6a21oYl9YTUhhR1VQVWU2cW95Wm4xZGtqbUZzVlp3dEp5a0hpbjBaZ2lfTzJpQkMyYjBoWkdXT21odFFrWkRKRVhRNmFyWFdQWkduQm45cHZ3SkJOUFpmVTJwR3FvZ3ppb3c4OUlTX0pWVUJ4d2tiSDBUdE9wOTRqTFRSNkh6ZzZyYTM?oc=5",
+          "publishedAt": "2026-10-20T20:23:04+00:00"
         },
         {
           "name": "Investing.com Canada",
@@ -74,18 +88,6 @@
           "title": "TSX Edges Higher as Banks Gain - TradingView",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObGFRY0pnRFNyZkdhWHB1U3dTNVNuQV9nNjN4b1E1cnZRT19sYUVqN01HNlM1MFRWOGdaUEtLeDlCQWtZSFFreDdsd1ltQllxZjBBNlpHbXdqUWN1U29Fd09vb1Mwdk04bUVYaktyejVDcGF3VWkzekw4eXpwMTdSaHI5RndIZXhC?oc=5",
           "publishedAt": "2026-10-20T14:10:56+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange: S&P/TSX Composite Drops 1.11% to as Banks, Gold Miners and Celestica Slide - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcmpTdUVmY3ZOVG9GUEFZRUhhdlFfVEI2azlmOS1HR0psU012dUE1RHR3QVRXZ3RfOGpJajRUVVhwVVloSi1YRW1haW5Lc2dwOF9xcm1vd2tvUTNKWk84WTN5NHItdER0WFpNT04tQ2N1S2M1RHpEQy1xaWtwUUdYRWp5amdvLTNpczBaQjZnYktyYlJFTzFiWkFyaG5ZVzBrc2NBakt4UG11V190ZmY0eldvemJzazE4Z01GV09xMXBsdWpqcEN4TG1IaEYtOFd2?oc=5",
-          "publishedAt": "2026-10-20T13:54:21+00:00"
-        },
-        {
-          "name": "Wealth Professional",
-          "title": "TSX slips as Wall Street tech rebounds and oil sends mixed signals - Wealth Professional",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd1JBbWREdWlOWHNQVzBBWWVjc2xuMlMxaFg0YnB0andnUmxoa2FteXE3U191RERrWERIMERUZ1BXYWV3OE1fbVRzUDMxNzdMaTZCYTZIR2xZMWxxQk1xRHJGOWhJd2p5NzlBUVh0YVJzemRYMk9BSXNqdUFhVERLRjZ3OFhzYXJ6WHBOVFk0TTFRUEFZQlhZVWpoS0FnU0U1Wmp5T0JZZzhYWHMtU3RrTjFKeTJYZW9MUDcxS2JEVDBVem5yeXZ1RzY0dS1Jb2s?oc=5",
-          "publishedAt": "2026-10-20T13:33:58+00:00"
         }
       ],
       "evidenceCount": 7
@@ -167,16 +169,16 @@
           "publishedAt": "2026-10-20T09:35:42+00:00"
         },
         {
+          "name": "INDIA New England News",
+          "title": "Sensex Jumps Over 1,100 Points as Finance Minister’s Tax Comments Lift Indian Markets - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLTdZdVlBZ25FS0dOTEtKVGhWUGMtMXBXbFgtampzZEl1Qmo1eTllaWt5ZjVOM2ZXbmwzX0ZZVEY1OVNrNUhEeTdpRVJGd0VDMl9BSF9hVVpxbFNjbnMxajdtb2J5UEpDRk9OVWN3alRCdWxJX2ktalE2N256eFRkMjZNSmNLdHk3VmVNdEszTFpONDJlUVQ0T25yTVFuZy1GRlUxd1JaaDM3Z1JUdjRjU01n?oc=5",
+          "publishedAt": "2026-10-20T17:20:55+00:00"
+        },
+        {
           "name": "Univest",
           "title": "Nifty Bank Today: Closes 0.64% Lower at 55,488 - Univest",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkUlQ3WWN6dlBUM2pRT1FmM2N0Qm5MbC1RLTg2ajZJSnVwQnF3dWFieVBkWmRTWmZtbV9aNzkta3NpdFdPd3Qyc2JVV2FxbFlleEVnZG0wOUx3Q1kxVEpiQkZxU1RjRVNpTm1j?oc=5",
           "publishedAt": "2026-10-20T08:51:54+00:00"
-        },
-        {
-          "name": "MarketsMojo",
-          "title": "Sensex and Nifty Slip as Mega Caps Drag Market Lower; Financials Lead Declines - MarketsMojo",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRlVfV29ndWs2cTRuY2RKUkM1R0R6WEFSZkhZTXowdkwtX3FfV1pHbkh4ajVzamZrWDB4c1ZmQnM5SDJXXzdZTU02Xzc4T1JNN0hKVHVlM2ZvejI0QmIxS2plV0hPMGVnd1J1NzJqZUk3anpycXJhd0VwNDhpXzVQTGFGNW80SE50aHJGaFBBdV9tcTVVeno2c2NCTUQ0X29heGRLQkY0di1lVWFZNXhmQWFyODI0ODFzNTF4OEtRWjBJMXdyTHNqbldta3o4eHpxUmc?oc=5",
-          "publishedAt": "2026-10-20T07:35:28+00:00"
         }
       ],
       "evidenceCount": 7
