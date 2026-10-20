@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-19T22:38:29.702421+00:00",
+  "updated": "2026-10-20T01:17:43.967045+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls ~250 points as financials, metal miners, telecom, utilities and industrials slide amid rising bond yields",
+      "headline": "TSX slides as bond yields rise and sector weakness drags index",
       "direction": "down",
       "move": "S&P/TSX Composite -0.69%",
-      "why": "Multiple sector declines (financials, metal miners, telecom, utilities, industrials) coincided with a surge in Canadian bond yields that raised expectations of an imminent Bank of Canada rate hike, collectively pulling the index lower.",
+      "why": "Higher Canadian bond yields and growing expectations of a Bank of Canada rate hike pressured the market, while weakness in financials, metal miners, telecom, utilities and industrials pulled the index lower.",
       "drivers": [
         {
           "label": "financials, metal miners fall",
@@ -21,13 +21,13 @@
           "kind": "driver"
         },
         {
-          "label": "Financials",
-          "detail": "Financial sector stocks fell, pulling the TSX lower",
-          "kind": "driver"
+          "label": "Bond yields surge / BoC rate‑hike expectations",
+          "detail": "Canadian bond yields jumped and markets shifted to believing a Bank of Canada rate hike is imminent, which was linked to the TSX fall.",
+          "kind": "context"
         },
         {
-          "label": "Metal miners",
-          "detail": "Metal mining stocks declined, contributing to the pullback",
+          "label": "Financials and metal miners decline",
+          "detail": "Financial sector stocks and metal miners fell, contributing to the pull‑back from a three‑week high.",
           "kind": "driver"
         }
       ],
@@ -55,16 +55,16 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Livemint",
-          "title": "TSX pulls back from three-week high as financials, metal miners fall - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNC12eUJMbmNjNVkwQjUxWXFZWk5zaDNTWEp2eUFndW1fMnFWWGVtRkxSRVB4MHJ4cnM2UEZHRjQ1eVpoRy01VWp1U1VvQzh6TjE4YWwzT2YwUlpCeHRwZVF2WnZ2Q010NzQ1VnI4SXNxRkwwMUIxZGhmRG9LUjJiT0NBTnZzN001YldxUDhXTktIamRYSDVyTU1TUk90b2ZDYWtHVjVqRVltLUVNcC1NeTU5ZzhJVVBNZ0HSAb8BQVVfeXFMT0c3NEpsMTJ6T0pScFJYSXN0QkNJdnV6V25FOFlsMmZMWEdENzRQbmtjc1Vxa1pqZFVZRDNVRWNON2ZWNlFWaENlVWFKclM4SnBkalZsOUVqcHpHUjJZYjFnbmVvSmdLcmc5ekVHeHZ0VmowRHVQbTVzYmVESjZKNm8xT1hISWRrNzdpaGxTWXpnZWNCLXJyekhKckxUT1doZzhlR2VQakxMNFhJSEpzQzN6OTVvMGJVWEs5bnRQMjQ?oc=5",
-          "publishedAt": "2026-10-19T20:33:08+00:00"
-        },
-        {
           "name": "The Globe and Mail",
           "title": "Canadian bond yields surge, TSX falls, as markets and some economists pivot to believing a BoC rate hike is imminent - The Globe and Mail",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPS0V3MkhQYUoxNmdsUUYyX21KTVBWZkswRXllZHlVOGp0ZG9fWXp6RTV6N2FydTdNMGl2TmFhSmtsRGNPaGNjTG5hNXAxbTEtN09GaTJxTGVEeXlpYzlTRWRQdU54eVF6Q0Z6RzQ2V3BocDQ0b1BiWW5zNmk4eVk5bmFMSHQxRXNvTHZ1N1BOaFJoLW1WeHFsMzFmR0lvQ1NPRUlKN3R5ZmU3LTkwNVFuNERnLXM2eDc1akpCUUNBLWJSbEJnalNCSUt3OFZPdTBzYVBpNw?oc=5",
           "publishedAt": "2026-10-19T16:20:04+00:00"
+        },
+        {
+          "name": "Livemint",
+          "title": "TSX pulls back from three-week high as financials, metal miners fall - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNC12eUJMbmNjNVkwQjUxWXFZWk5zaDNTWEp2eUFndW1fMnFWWGVtRkxSRVB4MHJ4cnM2UEZHRjQ1eVpoRy01VWp1U1VvQzh6TjE4YWwzT2YwUlpCeHRwZVF2WnZ2Q010NzQ1VnI4SXNxRkwwMUIxZGhmRG9LUjJiT0NBTnZzN001YldxUDhXTktIamRYSDVyTU1TUk90b2ZDYWtHVjVqRVltLUVNcC1NeTU5ZzhJVVBNZ0HSAb8BQVVfeXFMT0c3NEpsMTJ6T0pScFJYSXN0QkNJdnV6V25FOFlsMmZMWEdENzRQbmtjc1Vxa1pqZFVZRDNVRWNON2ZWNlFWaENlVWFKclM4SnBkalZsOUVqcHpHUjJZYjFnbmVvSmdLcmc5ekVHeHZ0VmowRHVQbTVzYmVESjZKNm8xT1hISWRrNzdpaGxTWXpnZWNCLXJyekhKckxUT1doZzhlR2VQakxMNFhJSEpzQzN6OTVvMGJVWEs5bnRQMjQ?oc=5",
+          "publishedAt": "2026-10-19T20:33:08+00:00"
         },
         {
           "name": "Investing.com",
@@ -111,7 +111,7 @@
           "kind": "context"
         },
         {
-          "label": "Nifty Sensex Today: Stock Market Crashes as Sensex Falls 876 Points, Nifty Drops 1.11%; Ba",
+          "label": "Sensex sinks 876 points, Nifty falls 1.11% as Crude oil nears USD 109",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
@@ -158,12 +158,6 @@
           "publishedAt": "2026-10-19T13:29:11+00:00"
         },
         {
-          "name": "India Infoline",
-          "title": "Nifty Sensex Today: Stock Market Crashes as Sensex Falls 876 Points, Nifty Drops 1.11%; Banking and IT Stocks Lead the Losses - India Infoline",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQa1ZydU56V2ZLWkw1MTV6bW0zNThMcTRUVU44WFN4SHpfMHlmTndYMm9YZXJMVmE3V0w5S05ZU19Mc2F6Z1drT05NOG5vQzg3X0diWkh0eFV2dzhkMzV5WXVlbEYxaUtiY0RmT3B3bGVMWXVCTHRNdUloNzctX3d2eEdPRnlZaGp2eUhkQmhydkNwOEl4cFdiNklIYnc2ZjZUQ3BhZlZlY05Hb2dFVm1lS3B3M3dlb1NqM3BEQ0xtaWtfY0pNSlIyRkQ0MzR0ZGJLQkt5U3R5S3FDU01saE1NdGxwRXQyc1d2ZDRldE5wbDNRTjl4aXBv?oc=5",
-          "publishedAt": "2026-10-19T13:06:04+00:00"
-        },
-        {
           "name": "The Tribune",
           "title": "Sensex sinks 876 points, Nifty falls 1.11% as Crude oil nears USD 109 - The Tribune",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajZVUW5HMG1mTUdRdDJNTVpZVE9tMzBZSXF0U1h2RTE3aDk0RjJER1A0TFFuTXVmell5NjJ0a04xcF9PWWNCQXZqRlpndDZLX0taZV9UTjAtc3VlRk8xZTY1UGFaekEzalYzejNtNXpHUlZTWWRoaUNIVk5vQ002V0R2QmtMVHRhVXE2T1FGcnBnU3U5TFVVNWY3V216ZmNjVk91Y1lhTmdaeExtTFpta0pNVEvSAbQBQVVfeXFMUGo2VVFuRzBtZk1HUXQyTU1aWVRPbTMwWUlxdFNYdkUxN2g5NEYyREdQNExRbk11ZnpZeTYydGtOMXBfT1ljQkF2akZaZ3Q2S19LWmVfVE4wLXN1ZUZPMWU2NVBhWnpBM2pWM3ozbTV6R1JWU1lkaGlDSFZOb0NNNldEdkJrTFR0YVVxNk9RRnJwZ1N1OUxVVTVmN1dtemZjY1ZPdWNZYU5nWnhMbUxabWtKTVRL?oc=5",
@@ -180,6 +174,12 @@
           "title": "BSE SENSEX Falls to 72,781.89 as Wholesale Inflation Jumps to 11.39% and Brent Holds Above $106 Amid the Ukraine-Russia War - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQUdJLTVOSUw1dHhzVUtKSVU3OXZnOFk4RWN3THJXdV82UC16YkRsanlyU0dib2U4TktMOFdHd2I1a1lmQmtQLXNPcVFaTFVSWXVtVzNPUjBYLUtIRWJKTWtWSDZCWTczOWNxLWgzc1JGZ2pud0lPWWRTNWEyb0dZeHRsN2xkNjFTb0NUMHhFNXZvWl80ZDIwNTcxdDNxZUJWeEpyc3VIUjBuX0phX0NycHRKYXh5ZC0xaFRYTjVSd0pSc0piUGdVNGRpakF2Q2ptVlducklvUTFIcmJFQVJyMXJjS3pWaGRScXJEcA?oc=5",
           "publishedAt": "2026-10-19T10:56:54+00:00"
+        },
+        {
+          "name": "India Today",
+          "title": "Sensex, Nifty end in red as private banks, IT stocks drag markets - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdWpja3REU2lGNkJZWWFXanJ0MDhUdGI0YzRJa0xNa01USmgwMWEtWF9uTHlyLWNmTGg4c1FyVGdMbi1ISEJsOVJYZE54eFVmZVBISXJVSERPdGRfdFBWUS1aeGdvZTlTSWpWTWMxU1lpWXBvRUhGWncxRUUzbW5PVHF1R0kyM1VuY0p3MUM5aE9GRkxuSTVxUlRZck51ekNlaVFiYk92NXNVZVVaendsN041RG11NjV1YlNlUE14aC1fSFBiTWpKXzIyMTZkX1NrQWhBWUdyVDZ4WEp1SVHSAeMBQVVfeXFMTzNRUW84cGJRc3FSU2lGcm9abHFtM2g1SWVIaE1tTDB5al8yVndkUzJCU3hUVFJiZkZLWG9OdWhwVHY2bEtLWmg5R2pBLUZQTWl6QjU3MEVJWFc4bXhpd3J3dFk4SWxRdm9fT2dQS2VocE0wbHNta3VYeEt6WnM4Qk9VVEVIZFlCVjZMMDdvSjNQNVVMTThtNmxaTzhPcHFrX2RRVXMwRnRtZGprb0Q2OC1kbXpkLUxydkY1ZkpidEdYMUdUbFBSNDd4bzlYV1dYWnl4aDBaTEFncXZPZUdLZC00LWc?oc=5",
+          "publishedAt": "2026-10-19T10:06:32+00:00"
         }
       ],
       "evidenceCount": 7
