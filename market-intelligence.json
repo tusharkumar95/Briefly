@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-21T05:19:20.078877+00:00",
+  "updated": "2026-10-21T10:35:55.387134+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX climbs 0.5% as lower oil prices, financials, healthcare and tech gains lift market",
+      "headline": "S&P/TSX Composite rose 0.50%",
       "direction": "up",
       "move": "S&P/TSX Composite +0.50%",
-      "why": "A drop in oil prices helped lower bond yields, while strong performance in financials, healthcare and technology stocks drove buying. The market also rose as Albertans rejected separation, reinforcing confidence.",
+      "why": "Same-day market coverage explicitly linked the final move to: financials support gains despite oil surge above $110; Healthcare, Technology Stocks Rise; Banks Gain.",
       "drivers": [
         {
           "label": "financials support gains despite oil surge above $110",
@@ -24,19 +24,10 @@
           "label": "Banks Gain",
           "detail": "TradingView explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
-        },
-        {
-          "label": "Oil price decline",
-          "detail": "Drop in oil prices lowered bond yields, which the Globe and Mail linked to the TSX’s higher close.",
-          "kind": "context"
         }
       ],
-      "sectors": [
-        "Financials",
-        "Healthcare",
-        "Technology"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -53,10 +44,10 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "The Globe and Mail",
-          "title": "TSX ends higher as drop in oil prices helps lower bond yields; Dow leads Wall Street - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPT1ktVk93ZnVWbUFIdXJzdW9Hbkt4Y24ybm00VU0weXd4dTQwaGV5S1RaVVpZNGJNNGpBT1g5S05FNy0zODhaT1Z2aGRPR2k4MllQMy1DSHhLUk0wZGc0bFpzTVEyMW9qRlhiWFpDNXZCRXowV1JTZ1g2ZlFsWm1kbFhScDlYSDlMZWRWQVpLdFB2bWl4TGU5ek9Cdm43aThfdDhKeVJVMkVMc2IxTW9JR2x0dGxoek9RRGt2Y1hjeUxIVHhfVThudkFaVkVLWW9LV29rS0oyUm9TVHYtemRzQWF5eTQ0X1FWSU9OOVdR?oc=5",
-          "publishedAt": "2026-10-20T09:26:41+00:00"
+          "name": "Investing.com",
+          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.50% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU29uVDVJSm5hMjMzV0dzWmR1REwyVW9vRVFVOTVjMXAtOVJwTUEzUHBvTVhPMWFEUVVwQW5YelF4dUsxX1RnLUM0TTlWY25xbVBIWWNQT1o5a3c2Z1hhQzVCLXFHcXpLdU0tRWZqRGN5cGlGdzZOUmJWMGVXTjBWNXdxclc0QlRyajAtM3lna1lzNGMxVGdSRWd2SlJPaTVSZ1hDTUlHMzlnaWlNMzhxb1NxMW1qcVBIaUE?oc=5",
+          "publishedAt": "2026-10-21T08:09:06+00:00"
         },
         {
           "name": "Investing.com Canada",
@@ -68,13 +59,7 @@
           "name": "BBN Times",
           "title": "Toronto Stock Exchange: S&P/TSX Composite Closes Up 0.62% at 36,151.84 as Albertans Reject Separation - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZUxqN2lOUXhsWERZaDd0cE5CWDRxTDM1YTJTNV8zTlh6THRHVnhJT1I2YmF4bDJjSXEtMzNNeG1GV05mNHd4YXIxNDFBVTk3U21jVExacWFOTnM0WHVleXFuR3M0Mmc3Tk1uWXUwd3NYOU56UmVJNGdoZTNjcUNHZFBmLVlzRThxcWpqTWpaTG5lVDRSY1d3UWFZVUlUcGY4emg2cHlfSGQ0NzBKQ1RUQ1NoRVBmR2lpSHZiTUpDMXFxNzBPN0lhVktZQlBRV0E?oc=5",
-          "publishedAt": "2026-10-20T21:32:35+00:00"
-        },
-        {
-          "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.50% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU29uVDVJSm5hMjMzV0dzWmR1REwyVW9vRVFVOTVjMXAtOVJwTUEzUHBvTVhPMWFEUVVwQW5YelF4dUsxX1RnLUM0TTlWY25xbVBIWWNQT1o5a3c2Z1hhQzVCLXFHcXpLdU0tRWZqRGN5cGlGdzZOUmJWMGVXTjBWNXdxclc0QlRyajAtM3lna1lzNGMxVGdSRWd2SlJPaTVSZ1hDTUlHMzlnaWlNMzhxb1NxMW1qcVBIaUE?oc=5",
-          "publishedAt": "2026-10-20T20:51:18+00:00"
+          "publishedAt": "2026-10-20T21:32:36+00:00"
         },
         {
           "name": "Investing.com UK",
@@ -87,35 +72,31 @@
           "title": "TSX Closer: The Index Gains as Healthcare, Technology Stocks Rise - Yahoo! Finance Canada",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaHpuZHFrX2FVdkFnclNleTJxYXRPbWVzY19zRHROMXlRc01fcFR5UGlZVmlJQ2xrd1Zhcm1oUHpFazBxMkdUb0dZTUxqbFB6SXYzWWlZTkpDU0IzNmVsZ1EyWGtTM3hkMzZTSkxicTR0VFJ5VUJwRmJaRnB2SnhBTm5ldE56YWp0Q0E?oc=5",
           "publishedAt": "2026-10-20T20:23:04+00:00"
+        },
+        {
+          "name": "TradingView",
+          "title": "TSX Edges Higher as Banks Gain - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObGFRY0pnRFNyZkdhWHB1U3dTNVNuQV9nNjN4b1E1cnZRT19sYUVqN01HNlM1MFRWOGdaUEtLeDlCQWtZSFFreDdsd1ltQllxZjBBNlpHbXdqUWN1U29Fd09vb1Mwdk04bUVYaktyejVDcGF3VWkzekw4eXpwMTdSaHI5RndIZXhC?oc=5",
+          "publishedAt": "2026-10-20T14:10:56+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.43%",
-      "direction": "up",
-      "move": "Nifty 50 +0.43%",
-      "why": "Same-day market coverage explicitly linked the final move to: Wall Street, Asian markets gain; oil prices remain elevated; Jio IPO, Oil Prices In Focus; GIFT Nifty signals gains; Jio Platforms IPO subscription begins today.",
+      "headline": "Nifty 50 fell 0.34%",
+      "direction": "down",
+      "move": "Nifty 50 -0.34%",
+      "why": "Same-day market coverage explicitly linked the final move to: Services Sector Drags Sensex; crude above USD 110 fuels inflation concerns.",
       "drivers": [
         {
-          "label": "Wall Street, Asian markets gain; oil prices remain elevated",
-          "detail": "DhanamOnline explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Jio IPO, Oil Prices In Focus",
-          "detail": "BW Businessworld explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "GIFT Nifty signals gains; Jio Platforms IPO subscription begins today",
-          "detail": "Moneycontrol.com explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Wall Street Diverges; Crude Oil Surges Past $99 as of October 21, 2026",
+          "label": "Services Sector Drags Sensex",
           "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "crude above USD 110 fuels inflation concerns",
+          "detail": "The Tribune explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -124,65 +105,65 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22987.8,
+        "price": 22811.35,
         "previousClose": 22888.95,
-        "change": 98.85,
-        "changePct": 0.43,
+        "change": -77.6,
+        "changePct": -0.34,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-21T05:19:37+00:00",
+        "asOf": "2026-10-21T10:01:08+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 74286.47,
+        "price": 73709.69,
         "previousClose": 73852.9,
-        "change": 433.57,
-        "changePct": 0.59,
+        "change": -143.21,
+        "changePct": -0.19,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-21T05:04:35+00:00",
+        "asOf": "2026-10-21T10:02:30+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "The New Indian Express",
-          "title": "Sensex, Nifty rally up to 1% in early trade on IT stocks, firm global cues - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamdINVBHV3NYdlBQdTFocExlYW9nandMQ0lLcF9VSHpSSmRaYzdEYmtUcFE2X3VxNlhTeGVzcHJxdU1FQ2ZRaVJoUTBTaFdQamlHeExHa3d0YzVDaDBMbnRudkZKNmhvR3o3TWFWdUlSRHdiZXhuR3lDQ2hvdURkWF9TRlFJMW9qekxPR3U3WmNBNmFhY0lXckd4c0RMSDhFeFpRai1BcE5qY2VRd0p0azJMd3hiM3BmRm1wd3NXY1B3eE3SAdABQVVfeXFMTjlUc2FISjVGR0dwYXdBc09NbXFIVkRfRlJHQTdCT2xlTzNmc0VUVEY3clMwOFJPazc1cHdSWTRzaUZ6ZDNaZF9hb3M4a2hNTUhnZjREMjZUREYwMXhmeHIyLVlFRzZJa3g1TXJRUHJBOFdHT18tWUNtYTlXcVBSQkcyQ0ZIa2xydHlHNTN4TFVPNnBaQkZaUWxpcmN4ZmdQb2tLQTNpT3RUNUpodDg0UHNxWjZrcEYtRFlDV2hMSWdxQ3Y5VnNJcEt6MFFoUk5JbA?oc=5",
-          "publishedAt": "2026-10-21T05:04:12+00:00"
+          "name": "scanx.trade",
+          "title": "Market Wrap: Nifty Slips Below 22,900 as Services Sector Drags Sensex - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQSDVDVEJqeEJQN0pRaWQ2dHRjSjl0RWZjUlJWZXp2VkxYUkF2Rk95UjROWC1QVFZDLTVQV194Ql82RWEzZjJibGFvZWtSRmlad3lTeTQxSGxGQVhjMjlNWm8wQTViXzB1NkFKUnlDd2p5MXlUSVE1YUI0bUd3UUNQNjBGbWNMM3pYXzZnUk9xSkdQTDlJbS14Y1U0dUZMMEFYUEhGV3hkRm43LXV4NGR3NFREc1doRDF3VWNjTkpNaTMzZ3pBcDE2MkJ3akJfc2xELUt2cHpiN1J5aUlDSWtvLVlWdE9LWTBiV1kzdWZVMDFPQVdmYklaY1JGQmhkTmw2?oc=5",
+          "publishedAt": "2026-10-21T10:24:07+00:00"
         },
         {
-          "name": "Devdiscourse",
-          "title": "Sensex jumps 571 points, Nifty rises 167 points on India-US trade deal optimism - Devdiscourse",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWkFNWGxnM1hMQlEyNVp0Wl9qM1prNXFrOEg0MVE2Y1pibE5EY2dBbDAwWDdHQThNMHNwTHlyWTJLOTNxR0sza004ZnVpR2FsaGVIakJodUdFSXZmNlJtMkNPWXNWTUNKVXc0OHM0VmZyREQ3clI1VTh1MGNsT1QzMlVlTGVhLVZadEdRaEdEVG96eHRId3BvZnU4ZS12RWY1MHgtZkVScWh0T0FrSDZ6R2RTZGhxd2R5UzJZYThUR0Z6aEttb2M3bUY0d3PSAdIBQVVfeXFMTUc5amtRSHZSY25Ra0xab1daN2xMYnhXVFlaR2paZndIY3B2MDkzNFM5YmItRUFZSDdkZEFUUkpQVlBXZUpHYnFvS1dxUFUteGtQRjVfTmhUOUNpSnY2cU8xWlNhdU9wbVhtOHc3OHdpTndFbF9TMkZfelhWRWZJc0ZrdmpvN1Mxajc2MkxFZXV5UGdLczNIRldaZmtaTURMczEtQU1QaHZqWnNRaEVoR1BnaERPXy1MaFhSNEh0a01rOU8wLTJkOGFRV0luSWNOV1lB?oc=5",
-          "publishedAt": "2026-10-21T04:14:05+00:00"
+          "name": "The Tribune",
+          "title": "Sensex falls 143 Points, Nifty slips 0.34% as crude above USD 110 fuels inflation concerns - The Tribune",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZkpuck1LVVRvY2RFRm9UQjRpbjZtTWZrTU9RaEtNdlNIRkN2dFE5YUxzSTRPakpOQXlsbDJicUkwOFNITDktWWdiQUNJTEhzU055aEZDSUJaNVIxbXI4cXBzd3NnX2xuelBScjU4QXlmMHhWTmR1dkRTaHRQVzdIbERPbUFQWTA5YmY0MkFaUjFaRXFNdFlYWUtVRGNlc192bUVvanVMalV5LXlZdWp1YVNEajlmQTljZnFCS09OQUwxMEtqbVFiaDlYZkVVSmhCdFNJRlRSeGswR1V5ZHE4NXU5NzhGVUVBWGo0Z9IB7AFBVV95cUxPZkpuck1LVVRvY2RFRm9UQjRpbjZtTWZrTU9RaEtNdlNIRkN2dFE5YUxzSTRPakpOQXlsbDJicUkwOFNITDktWWdiQUNJTEhzU055aEZDSUJaNVIxbXI4cXBzd3NnX2xuelBScjU4QXlmMHhWTmR1dkRTaHRQVzdIbERPbUFQWTA5YmY0MkFaUjFaRXFNdFlYWUtVRGNlc192bUVvanVMalV5LXlZdWp1YVNEajlmQTljZnFCS09OQUwxMEtqbVFiaDlYZkVVSmhCdFNJRlRSeGswR1V5ZHE4NXU5NzhGVUVBWGo0Zw?oc=5",
+          "publishedAt": "2026-10-21T10:19:30+00:00"
         },
         {
-          "name": "Zee Business",
-          "title": "Stock Market Today: Sensex jumps nearly 400 points, Nifty above 23,000; IT, PSU bank stocks lead gains - Zee Business",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMjRPNUlRQkd5Y0JzeFNwUzlWMkdhd2Y2Mlp0OThBMWJtcnBEaXBYUWVjem9PUjZacFpTd19jd0puMTF5dVRxT3FoMWhoQ0QyZE45b2xQUXFlVHVTSkVnZEpZUDBGcGNUZFBPdUVFaGtwRk9rU3R6cXFFaGVCNDNQTU41R2RyQXVCUFNyRXRrQTZ0SmRuUGMzWUJpQ1NCR0VSYWdjNTVUSmZqYlQ5My1PMGxzTG0tbmNGNGMwSnhKekFDZVlNbktMaGhVMEhRUW81V1k5bXFfaWw0YXNp?oc=5",
-          "publishedAt": "2026-10-21T03:49:11+00:00"
+          "name": "Moneycontrol.com",
+          "title": "Closing Bell LIVE | Sensex, Nifty Fall Over 1%: Why Midcaps And Banks Are Under Pressure - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNOVVENEplZ0hPVnlVM1FpZ05ybW1tRWRsSnNFZWFWZHJPS1BwLWt5dVdKcnEtejVhblJrZTM2QUQtbmVqNHhtOGd1Rlc5bnh0VmhzWDFaeGhmVmVhMENFeFh3U0pfSDlKZE1UWG5UZnZsV2RQOWR6ZzNGTnJCa3AyVUhZTkFSdUFUaTRwTDl0ak9NeGZHc05scGVSbjdNaEFxQ2FJUURfeld6MC11MnhaUml1N1FYRC1KV2kwYTJpNUs1QllacUw4ejNhem9yOGJKME5ySXVydHgwTHpubkZ3MUp2aTVZaVhLZHk00gHwAUFVX3lxTE9KN2tLOEZfNkdIOTZoT2dOUGE0aF9UdTl1RmRJaDlOWTJBS2hOYlAxYjZTWjZnOE1WWXFvVGVPNUFpSXdYWmtIbEF5cDUtMmQzWGFUNXlkYzcyNmN1dUxaRkhYWlB1bXlyaDQ1YkRUTXk1bjY4cmtLUVprZWZ1a0V1Q3JsZGhJcjAwR3hPOU1FV1F2N2k4ZUt3NzJ3SWROX0ZVNW1ra1A3Z3QwMHd6VW5wU1VnQ2R2RmlWd0RoTmd3cjhId1Vpb2l0Mlhaem5CcEFxaTZHdm0wYVlpLWFDRmdPSC1JUzVPLWpLTlhic24xQQ?oc=5",
+          "publishedAt": "2026-10-21T09:34:46+00:00"
+        },
+        {
+          "name": "Telangana Today",
+          "title": "Sensex, Nifty rise nearly 1 per cent in early trade on global cues - Telangana Today",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWjBVMDFoZEZIejlLZzBURGVhNWFHVkd0QTJoMktSMkVwMnBNZkVaWUM3WllvTlBvNFZSR0ZSS2FXSFVETXhhMWd0bWI1ZnJkSVRfRzN5WXJBVUx3WVhMZG84azFIbWxtNFZWM3d5YTFlTzVoVC0tVzBla1U5YlY0NEZUUEFOOXdkYzFMRDdJTlBXLXVleXAw?oc=5",
+          "publishedAt": "2026-10-21T05:45:39+00:00"
+        },
+        {
+          "name": "The Economic Times",
+          "title": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5",
+          "publishedAt": "2026-10-21T04:32:32+00:00"
         },
         {
           "name": "DhanamOnline",
           "title": "Sensex, Nifty set for positive start as Wall Street, Asian markets gain; oil prices remain elevated - DhanamOnline",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONjM4MUxBdHF3OHc1UndjZ0szQ1NXa2FBMkJEUFZPNEtoSWxpYm91b3VDdkViTXhlemRfRUE1MFhXSkNnajZXeHNwampWdnVncFg5aGNvZGhPbTF4V3FvSm81QTR1N3JWMXF0bUtyRURnSldDeDRzUXZqai1fdWJBR1VEQnR1S05jS0lhQk9tNzhGdHVjWEtNTnBVX1p5eTdfY0FwQ3VFRzZYNEhaUXlZRTdXSmozM2Q2ZkE5SVEtbmNIZVctX3dLdWdIcDNyMDh4Q2dyYy1aZzhRZDVaUGfSAesBQVVfeXFMTnhCdFViTmRRSi1fSVUyRjNpSndCVjF4a3RrSE8yY0hmRldKRm41OXdHZnRKaGRma1BnbngxNmluRjk5clBTcUI5YTRodGpQVzA2T3JtYXlOVl9iV3VtSERnMWRsSVZ3Qm5DbVZjVnRoUVNoX2sxNXFyR09LdU1wZFJ0Z2tfS2hXWEZWeXNNejJudkpQT1VWQ3RhTnl3TkJWblBZaWx6MjkxM0phSHRnV21MNFEzcEJBZlJvXzEtNGFtSGI1b0RoSGZzWHB0N3RWRzlDN2tDR09Xd01RdVhKTXlidnhMY3ZRb296SQ?oc=5",
           "publishedAt": "2026-10-21T03:19:10+00:00"
-        },
-        {
-          "name": "BW Businessworld",
-          "title": "Sensex, Nifty Set For Higher Open As Jio IPO, Oil Prices In Focus - BW Businessworld",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaC1EcUdEOTByQXcyRUtkbzMzWHYzdldQcEJtRk54T2pwQXR6bWMxVGpHVXlCS2RTd0cxRXhkT2R3TlFQdnRwNXRTazl4aGRPOHlJZE0wamppN0dJLTZQNzMxWUl3eTU2RVRDLWpIaTQycWNzd0JpTmFWSEVVUVpOUHpmTHE0UGo1dUtsWldlRFhCREhySVJ1ajlKYXpqbWlJTTgxdGFkMHlFRHM?oc=5",
-          "publishedAt": "2026-10-21T03:13:23+00:00"
-        },
-        {
-          "name": "Moneycontrol.com",
-          "title": "Sensex, Nifty to open higher as GIFT Nifty signals gains; Jio Platforms IPO subscription begins today - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcWNyeFJBS1htdk5ZQnp3MG4zNlctOHJ5QzAyNDBpNlA0Z1NNaVktYTgwTVFYSjZwYU1EZEtuTTdER1J1NHdqcFFpSG8zNk5kM2V2Nmdyd3FheFFvYkxSdDNVVnRESWxubXo2a0RtN01kcWcwMmpXZ05ORXFZeWdib2N3UVZ0QVA3cHZoSk1QUXFnblpmdFRvUUo2NDY5a3dSeU9CLV9TM1pGMnoyd0ozVDZVTmNMN2ZwdG96UWxMQXFDYXZ0alZiUVpuNkNpR3doS0ZyUjQ0a25nZ2J5RGJqNG44VzZOZE8wbTVTVVlKaTJMbU9PREVj0gH8AUFVX3lxTE1qeDBiT2JZTHNMbUNsSG1ieGZvRnFFcEs4OWQwMGZMcjVmZmsxLXZmM19IMGNpeHFnc1BzTldvanZRVy02TXRuMWxsVndDR3dPSU5pZTdtQUY1VHAxT2ptZkVpQW1saTBRbmVDOXNWbS1DV2JLMVNrdUZKN3A4ZUlrSlJSdGhsMVV5Q01FMUtBZVlwSE1HUW9JV2F2VGY3NGNmdUR0LXo3eXFtYzNwMlBUeFIyNWZTM0Q1a21ST2ZNV1ozNDM3TktIbEZjV0J6bDExMTNSTF9GUmJCOXVsM2lRcHR3b2lzcjJ1YXlqOVh6Mlp2cGlvTDdscnJDXw?oc=5",
-          "publishedAt": "2026-10-21T03:00:17+00:00"
         }
       ],
       "evidenceCount": 7
