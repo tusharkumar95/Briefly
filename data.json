@@ -1,40 +1,148 @@
 {
-  "updated": "2026-10-21T10:12:53.247169+00:00",
+  "updated": "2026-10-21T15:18:36.679155+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 14,
-    "enrichedCandidates": 79,
+    "nonNoiseCandidates": 78,
+    "officialOrPrimaryCandidates": 13,
+    "enrichedCandidates": 78,
     "readableCandidates": 56,
     "eventClusters": 56,
-    "materialEvents": 30,
-    "selectedEvents": 10,
-    "seededStories": 6,
+    "materialEvents": 29,
+    "selectedEvents": 9,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "52d9f72d781762",
+      "id": "bd9e638d04c2dd",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India’s economy projected to grow 7.1% in 2026‑27 as inflation rises",
+      "publishedAt": "2026-10-21T12:13:08+00:00",
+      "importanceScore": 15.4,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-economy-stays-resilient-at-7-1-but-rising-inflation-raises-a-red-flag-says-rbis-sanjay-malhotra/articleshow/135091927.cms",
+      "summary": "The RBI governor Sanjay Malhotra said the Indian economy is expected to grow 7.1 % in fiscal year 2026‑27, up from a prior estimate of 6.7 %. He warned that inflationary pressures are building and could affect the growth outlook. He described India’s resilience as remarkable despite turbulent global conditions.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-economy-stays-resilient-at-7-1-but-rising-inflation-raises-a-red-flag-says-rbis-sanjay-malhotra/articleshow/135091927.cms",
+          "publishedAt": "2026-10-21T12:13:08+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-21T12:13:08+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "9dac1597527708",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India aims to raise manufacturing share to 25% of GDP",
+      "publishedAt": "2026-10-21T12:14:10+00:00",
+      "importanceScore": 15.0,
+      "sourceCount": 2,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/india-wants-manufacturing-at-25-of-gdp-will-ai-in-factories-help/videoshow/130171220.cms",
+      "summary": "India plans to increase manufacturing’s contribution from roughly 16% to 25% of GDP. In an Economic Times discussion, PwC India’s Vinod Kumar and JSW Group’s Srihari Kaninghat explained how AI is being used on the shop floor—particularly in steel production—to lower material costs and forecast equipment failures. They said AI could help make manufacturing more appealing to top engineering talent.",
+      "why": "Boosting manufacturing’s share is framed as a strategy to revitalize the sector and draw skilled engineers back from IT roles.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/india-wants-manufacturing-at-25-of-gdp-will-ai-in-factories-help/videoshow/130171220.cms",
+          "publishedAt": "2026-10-21T12:14:10+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-21T12:14:10+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "2a37d0c0597d09",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Extent of rate hike cycle to depend on growth-inflation outlook: RBI Governor",
+      "publishedAt": "2026-10-21T12:26:43+00:00",
+      "importanceScore": 14.9,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-governor/articleshow/135092338.cms",
+      "summary": "Reserve Bank of India (RBI) Governor Sanjay Malhotra said the duration and extent of the rate hike cycle will be contingent on the actual growth-inflation developments and outlook. The governor and other five Monetary Policy Committee (MPC) members voted to raise the repo rate by 25 bps to 5.5 per cent.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-governor/articleshow/135092338.cms",
+          "publishedAt": "2026-10-21T12:26:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-21T12:26:43+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "c84048a1c95298",
       "cat": "Canada",
       "icon": "🇨🇦",
       "categories": [
         "Canada"
       ],
-      "title": "Bank of Canada may raise rates in October, raising concerns for Canadian housing market",
+      "title": "Bank of Canada increasingly expected to raise interest rates this month",
       "publishedAt": "2026-10-21T08:00:00+00:00",
-      "importanceScore": 18.3,
+      "importanceScore": 14.8,
       "sourceCount": 1,
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/business/real-estate-bank-of-canada-9.7389322?cmp=rss",
-      "summary": "The Bank of Canada has not raised its policy rate since July 2023 and an eighth‑consecutive hold is widely expected at its upcoming meeting. A growing number of economists and traders now anticipate a rate increase on Oct. 28 to address persistent inflation. Experts say a hike would increase variable‑rate mortgage payments, reduce the pool of qualified buyers and could push home prices lower.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "28 would have significant impact on the country's battered real estate market.(Luke MacGregor/Reuters) And while an eighth-consecutive hold is widely predicted next week, a growing number of economists and traders are now expecting the central bank to hike its trend-setting rate to tamp down stubborn inflation. The policy rate has stood still at 2.25 per cent since a quarter-point cut in October 2025.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "cbc.ca",
@@ -44,43 +152,43 @@
       ],
       "firstSeen": "2026-10-21T08:00:00+00:00",
       "status": "New",
-      "lastChecked": "2026-10-21T10:12:53.247169+00:00",
+      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "63336cbba013a0",
+      "id": "40167a9d6d341b",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "65‑year‑old swimmer killed in shark attack off South Africa’s east coast",
-      "publishedAt": "2026-10-20T15:58:57+00:00",
-      "importanceScore": 12.8,
+      "title": "Australian MP Helen Haines loses both legs after car attack",
+      "publishedAt": "2026-10-21T07:56:30+00:00",
+      "importanceScore": 14.1,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
-      "summary": "Janine Lochrenberg, 65, was swimming off a beach in KuGompo City (formerly East London) on Tuesday morning when she was attacked by a shark at about 08:00 local time (06:00 GMT). Witnesses said she was bitten in two places and died before she could be brought ashore. It is the first recorded fatal shark attack in South Africa this year, and the country has had about ten fatal attacks since 2012.",
-      "why": "The incident highlights the rare but serious risk that shark encounters pose to open‑water swimmers in the region.",
+      "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Helen Haines, an independent member of the Australian parliament, was struck by a Toyota LandCruiser driven by 43‑year‑old Brendan Nugent outside her electorate office in Wangaratta. The incident, described by police as a deliberate attack, resulted in Haines losing both legs. Nugent was arrested shortly after the crash and faced multiple charges when he appeared in court on Wednesday.",
+      "why": "The case raises questions about the security of elected officials.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-20T15:58:57+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-21T07:56:30+00:00"
         }
       ],
-      "firstSeen": "2026-10-20T15:58:57+00:00",
+      "firstSeen": "2026-10-21T07:56:30+00:00",
       "status": "New",
-      "lastChecked": "2026-10-21T10:12:53.247169+00:00",
+      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -90,33 +198,33 @@
       "lifecycle": "New"
     },
     {
-      "id": "0ec816a4cbc82a",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "890efae0f3953c",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "India"
+        "Indian Markets"
       ],
-      "title": "India presents a compelling investment proposition for German firms, FICCI says",
-      "publishedAt": "2026-10-21T09:45:45+00:00",
-      "importanceScore": 12.4,
-      "sourceCount": 2,
+      "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
+      "publishedAt": "2026-10-21T11:39:14+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/india-presents-a-compelling-investment-proposition-for-german-firms-ficci-says/articleshow/135087635.cms",
-      "summary": "Indian industry is poised for growth as German companies are encouraged to invest in manufacturing capacities. The upcoming India-European Union free trade agreement aims to strengthen trade ties and foster economic partnerships.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "confidence": "medium",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms",
+      "summary": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/india-presents-a-compelling-investment-proposition-for-german-firms-ficci-says/articleshow/135087635.cms",
-          "publishedAt": "2026-10-21T09:22:11+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms",
+          "publishedAt": "2026-10-21T11:39:14+00:00"
         }
       ],
-      "firstSeen": "2026-10-21T09:45:45+00:00",
+      "firstSeen": "2026-10-21T11:39:14+00:00",
       "status": "New",
-      "lastChecked": "2026-10-21T10:12:53.247169+00:00",
+      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -126,33 +234,33 @@
       "lifecycle": "New"
     },
     {
-      "id": "0101eaf0aa1485",
-      "cat": "Canada",
-      "icon": "🇨🇦",
+      "id": "f23e09dcfe82e6",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "Canada"
+        "Indian Markets"
       ],
-      "title": "Canada orders deportation of Toronto man who helped Iran evade sanctions",
-      "publishedAt": "2026-10-21T09:00:52+00:00",
-      "importanceScore": 12.1,
+      "title": "Global Market: BOJ's Himino says Japan inflation near 2% target, signals further rate hikes",
+      "publishedAt": "2026-10-21T11:16:44+00:00",
+      "importanceScore": 13.3,
       "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12109602/canada-deport-toronto-iran-sanctions-evasion/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Iranian national Amin Yousefijam at Immigration and the Refugee Board office in Etobicoke, Ont., on Feb.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-bojs-himino-says-japan-inflation-near-2-target-signals-further-rate-hikes/articleshow/135090643.cms",
+      "summary": "Bank of Japan Deputy Governor Ryozo Himino says underlying inflation is nearing the central bank’s 2% target, while accommodative financial conditions and rising cost pressures strengthen expectations of further interest rate hikes. Japan’s central bank signals further policy tightening as inflation approaches its 2% target.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12109602/canada-deport-toronto-iran-sanctions-evasion/",
-          "publishedAt": "2026-10-21T09:00:52+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-bojs-himino-says-japan-inflation-near-2-target-signals-further-rate-hikes/articleshow/135090643.cms",
+          "publishedAt": "2026-10-21T11:16:44+00:00"
         }
       ],
-      "firstSeen": "2026-10-21T09:00:52+00:00",
+      "firstSeen": "2026-10-21T11:16:44+00:00",
       "status": "New",
-      "lastChecked": "2026-10-21T10:12:53.247169+00:00",
+      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -162,33 +270,33 @@
       "lifecycle": "New"
     },
     {
-      "id": "07ec72ee20afff",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "437816a46c2fc3",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "India"
+        "Indian Markets"
       ],
-      "title": "India’s $100 billion European Free Trade Association cheque is slow to clear as Vietnam joins the club",
-      "publishedAt": "2026-10-21T07:03:00+00:00",
-      "importanceScore": 11.0,
+      "title": "Jio IPO strengthens Reliance’s financial flexibility; capex funding remains key: Moody’s",
+      "publishedAt": "2026-10-21T14:02:53+00:00",
+      "importanceScore": 13.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-100-bn-efta-cheque-is-slow-to-clear-as-vietnam-joins-the-club/articleshow/135084308.cms",
-      "summary": "Vietnam recently signed a free trade agreement with the European Free Trade Association, expanding its trade network. This agreement comes as India's interaction with EFTA continues to evolve, with potential impacts on competition.",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-strengthens-reliances-financial-flexibility-capex-funding-remains-key-moodys/articleshow/135094225.cms",
+      "summary": "Moody’s has termed Jio Platforms’ IPO credit positive for Reliance Industries, citing debt repayment and funding flexibility. The Rs 30,200 crore issue will support investments while helping manage leverage amid elevated capital expenditure.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-100-bn-efta-cheque-is-slow-to-clear-as-vietnam-joins-the-club/articleshow/135084308.cms",
-          "publishedAt": "2026-10-21T07:03:00+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-strengthens-reliances-financial-flexibility-capex-funding-remains-key-moodys/articleshow/135094225.cms",
+          "publishedAt": "2026-10-21T14:02:53+00:00"
         }
       ],
-      "firstSeen": "2026-10-21T07:03:00+00:00",
+      "firstSeen": "2026-10-21T14:02:53+00:00",
       "status": "New",
-      "lastChecked": "2026-10-21T10:12:53.247169+00:00",
+      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -196,64 +304,23 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
-    },
-    {
-      "id": "a5db260549abb0",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "Marco Rubio, S Jaishankar discuss energy ties as India-US trade deal nears finalisation",
-      "publishedAt": "2026-10-21T00:30:00+00:00",
-      "importanceScore": 10.8,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-s-jaishankar-discuss-energy-ties-as-india-us-trade-deal-nears-finalisation/articleshow/135076515.cms",
-      "summary": "US Secretary of State Marco Rubio and S Jaishankar discussed energy security, defence, technology and regional issues in Mumbai. Rubio said the India-US trade deal was close to finalisation, with a few issues remaining.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-s-jaishankar-discuss-energy-ties-as-india-us-trade-deal-nears-finalisation/articleshow/135076515.cms",
-          "publishedAt": "2026-10-21T00:30:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-21T00:30:00+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-21T10:12:53.247169+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Marco Rubio, S Jaishankar discuss energy ties as India-US trade deal nears finalisation",
-      "previousSummary": "US Secretary of State Marco Rubio and S Jaishankar discussed energy security, defence, technology and regional issues in Mumbai. Rubio said the India-US trade deal was close to finalisation, with a few issues remaining.",
-      "previousPublishedAt": "2026-10-21T00:30:00+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.8,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-21T04:52:51.407537+00:00",
+  "previousUpdated": "2026-10-21T10:12:53.247169+00:00",
   "changeSummary": {
-    "new": 5,
+    "new": 8,
     "updated": 0,
-    "continuing": 1
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-18T11:10:49.312624+00:00",
-    "updated": "2026-10-21T10:12:53.247169+00:00",
-    "snapshotCount": 17,
-    "eventCount": 77,
+    "availableFrom": "2026-10-18T18:08:15.503859+00:00",
+    "updated": "2026-10-21T15:18:36.679155+00:00",
+    "snapshotCount": 16,
+    "eventCount": 85,
     "retentionHours": 72
   }
 }
