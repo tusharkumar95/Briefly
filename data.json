@@ -1,22 +1,58 @@
 {
-  "updated": "2026-10-21T15:18:36.679155+00:00",
+  "updated": "2026-10-21T20:11:25.078127+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 78,
-    "officialOrPrimaryCandidates": 13,
+    "nonNoiseCandidates": 79,
+    "officialOrPrimaryCandidates": 14,
     "enrichedCandidates": 78,
-    "readableCandidates": 56,
-    "eventClusters": 56,
-    "materialEvents": 29,
-    "selectedEvents": 9,
-    "seededStories": 8,
+    "readableCandidates": 54,
+    "eventClusters": 54,
+    "materialEvents": 32,
+    "selectedEvents": 10,
+    "seededStories": 9,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "71097af1a3e786",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "RBI raises repo rate by 25 bps as inflation risks widen",
+      "publishedAt": "2026-10-21T19:52:04+00:00",
+      "importanceScore": 15.1,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-widening-inflation-risks-puts-rate-cuts-on-ice/articleshow/135100146.cms",
+      "summary": "The RBI’s Monetary Policy Committee lifted the benchmark repo rate by 25 basis points to address rising inflation. Governor Sanjay Malhotra said inflation is becoming generalized, with many commodities above 4%, and Deputy Governor Poonam Gupta pointed to external supply‑side shocks as a driver. External members warned that an aggressive hike could weigh on economic growth.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-widening-inflation-risks-puts-rate-cuts-on-ice/articleshow/135100146.cms",
+          "publishedAt": "2026-10-21T19:52:04+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-21T19:52:04+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "bd9e638d04c2dd",
       "cat": "India",
@@ -24,13 +60,13 @@
       "categories": [
         "India"
       ],
-      "title": "India’s economy projected to grow 7.1% in 2026‑27 as inflation rises",
+      "title": "India’s economy projected to grow 7.1% in 2026‑27, RBI warns of rising inflation",
       "publishedAt": "2026-10-21T12:13:08+00:00",
-      "importanceScore": 15.4,
+      "importanceScore": 14.4,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-economy-stays-resilient-at-7-1-but-rising-inflation-raises-a-red-flag-says-rbis-sanjay-malhotra/articleshow/135091927.cms",
-      "summary": "The RBI governor Sanjay Malhotra said the Indian economy is expected to grow 7.1 % in fiscal year 2026‑27, up from a prior estimate of 6.7 %. He warned that inflationary pressures are building and could affect the growth outlook. He described India’s resilience as remarkable despite turbulent global conditions.",
+      "summary": "The Reserve Bank of India’s Sanjay Malhotra said the economy is projected to grow at 7.1% in fiscal year 2026‑27, up from an earlier estimate of 6.7%. He cautioned that rising inflationary pressures could affect that outlook, even as the country has shown resilience despite turbulent global conditions.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -43,15 +79,20 @@
         }
       ],
       "firstSeen": "2026-10-21T12:13:08+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "India’s economy projected to grow 7.1% in 2026‑27 as inflation rises",
+      "previousSummary": "The RBI governor Sanjay Malhotra said the Indian economy is expected to grow 7.1 % in fiscal year 2026‑27, up from a prior estimate of 6.7 %. He warned that inflationary pressures are building and could affect the growth outlook. He described India’s resilience as remarkable despite turbulent global conditions.",
+      "previousPublishedAt": "2026-10-21T12:13:08+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 15.4,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "9dac1597527708",
@@ -60,14 +101,14 @@
       "categories": [
         "India"
       ],
-      "title": "India aims to raise manufacturing share to 25% of GDP",
+      "title": "India targets 25% of GDP from manufacturing, AI seen as catalyst",
       "publishedAt": "2026-10-21T12:14:10+00:00",
-      "importanceScore": 15.0,
+      "importanceScore": 14.0,
       "sourceCount": 2,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/india-wants-manufacturing-at-25-of-gdp-will-ai-in-factories-help/videoshow/130171220.cms",
-      "summary": "India plans to increase manufacturing’s contribution from roughly 16% to 25% of GDP. In an Economic Times discussion, PwC India’s Vinod Kumar and JSW Group’s Srihari Kaninghat explained how AI is being used on the shop floor—particularly in steel production—to lower material costs and forecast equipment failures. They said AI could help make manufacturing more appealing to top engineering talent.",
-      "why": "Boosting manufacturing’s share is framed as a strategy to revitalize the sector and draw skilled engineers back from IT roles.",
+      "summary": "In a video discussion, Vinod Kumar of PwC India and Srihari Kaninghat of JSW Group examined how artificial intelligence could help raise India’s manufacturing share of GDP from about 16 % to a stated goal of 25 %. They cited AI‑driven cost cuts, predictive maintenance of equipment and the aim to draw engineering talent back to industry. The speakers noted that most AI initiatives are still in pilot phases.",
+      "why": "The talk explores how AI could support India’s ambition to increase manufacturing’s contribution to the economy.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -79,51 +120,20 @@
         }
       ],
       "firstSeen": "2026-10-21T12:14:10+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "India aims to raise manufacturing share to 25% of GDP",
+      "previousSummary": "India plans to increase manufacturing’s contribution from roughly 16% to 25% of GDP. In an Economic Times discussion, PwC India’s Vinod Kumar and JSW Group’s Srihari Kaninghat explained how AI is being used on the shop floor—particularly in steel production—to lower material costs and forecast equipment failures. They said AI could help make manufacturing more appealing to top engineering talent.",
+      "previousPublishedAt": "2026-10-21T12:14:10+00:00",
+      "previousSourceCount": 2,
+      "previousImportanceScore": 15.0,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "2a37d0c0597d09",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "Extent of rate hike cycle to depend on growth-inflation outlook: RBI Governor",
-      "publishedAt": "2026-10-21T12:26:43+00:00",
-      "importanceScore": 14.9,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-governor/articleshow/135092338.cms",
-      "summary": "Reserve Bank of India (RBI) Governor Sanjay Malhotra said the duration and extent of the rate hike cycle will be contingent on the actual growth-inflation developments and outlook. The governor and other five Monetary Policy Committee (MPC) members voted to raise the repo rate by 25 bps to 5.5 per cent.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-governor/articleshow/135092338.cms",
-          "publishedAt": "2026-10-21T12:26:43+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-21T12:26:43+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "c84048a1c95298",
@@ -134,7 +144,7 @@
       ],
       "title": "Bank of Canada increasingly expected to raise interest rates this month",
       "publishedAt": "2026-10-21T08:00:00+00:00",
-      "importanceScore": 14.8,
+      "importanceScore": 13.8,
       "sourceCount": 1,
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/business/real-estate-bank-of-canada-9.7389322?cmp=rss",
@@ -151,8 +161,49 @@
         }
       ],
       "firstSeen": "2026-10-21T08:00:00+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Bank of Canada increasingly expected to raise interest rates this month",
+      "previousSummary": "28 would have significant impact on the country's battered real estate market.(Luke MacGregor/Reuters) And while an eighth-consecutive hold is widely predicted next week, a growing number of economists and traders are now expecting the central bank to hike its trend-setting rate to tamp down stubborn inflation. The policy rate has stood still at 2.25 per cent since a quarter-point cut in October 2025.",
+      "previousPublishedAt": "2026-10-21T08:00:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.8,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "31e714e92ec7da",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
+      "publishedAt": "2026-10-21T17:42:34+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+      "summary": "The latest talks between Putin (right) and Witkoff lasted about three hours in St Petersburg Russia is \"ready in principle\" to resume talks with the US and Ukraine on ending the conflict, Vladimir Putin's top aide has said. Russia has for months refused as it believes it is winning on the battlefield with Ukraine facing an acute shortage of interceptors against deadly Russian missile attacks.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-21T17:42:34+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-21T17:42:34+00:00",
       "status": "New",
-      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -168,17 +219,17 @@
       "categories": [
         "World"
       ],
-      "title": "Australian MP Helen Haines loses both legs after car attack",
+      "title": "Australian MP loses both legs after alleged car attack, husband says",
       "publishedAt": "2026-10-21T07:56:30+00:00",
-      "importanceScore": 14.1,
+      "importanceScore": 13.1,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Helen Haines, an independent member of the Australian parliament, was struck by a Toyota LandCruiser driven by 43‑year‑old Brendan Nugent outside her electorate office in Wangaratta. The incident, described by police as a deliberate attack, resulted in Haines losing both legs. Nugent was arrested shortly after the crash and faced multiple charges when he appeared in court on Wednesday.",
-      "why": "The case raises questions about the security of elected officials.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "Helen Haines, the Australian MP who was hit by a car in what authorities say was a deliberate attack, has lost both her legs, her husband has confirmed. The alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
@@ -187,15 +238,20 @@
         }
       ],
       "firstSeen": "2026-10-21T07:56:30+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "verificationScope": "source-backed",
+      "previousTitle": "Australian MP Helen Haines loses both legs after car attack",
+      "previousSummary": "Helen Haines, an independent member of the Australian parliament, was struck by a Toyota LandCruiser driven by 43‑year‑old Brendan Nugent outside her electorate office in Wangaratta. The incident, described by police as a deliberate attack, resulted in Haines losing both legs. Nugent was arrested shortly after the crash and faced multiple charges when he appeared in court on Wednesday.",
+      "previousPublishedAt": "2026-10-21T07:56:30+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.1,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "890efae0f3953c",
@@ -204,17 +260,17 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
+      "title": "Bitcoin rebounds above $83,000 as US equities rise and oil prices ease",
       "publishedAt": "2026-10-21T11:39:14+00:00",
-      "importanceScore": 13.5,
+      "importanceScore": 12.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms",
-      "summary": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
+      "summary": "Bitcoin gained 2.1% to $83,529 after stronger US equity markets and easing oil prices lifted sentiment, aided by $526.6 million of inflows into spot Bitcoin ETFs. Analysts view $86,000 as the next resistance level and $80,000 as the key support zone. The article also listed Indian stocks such as SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC as trending.",
+      "why": "The rally reflects renewed risk appetite that could influence Indian investors and related market activity.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -223,51 +279,20 @@
         }
       ],
       "firstSeen": "2026-10-21T11:39:14+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "f23e09dcfe82e6",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Global Market: BOJ's Himino says Japan inflation near 2% target, signals further rate hikes",
-      "publishedAt": "2026-10-21T11:16:44+00:00",
-      "importanceScore": 13.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-bojs-himino-says-japan-inflation-near-2-target-signals-further-rate-hikes/articleshow/135090643.cms",
-      "summary": "Bank of Japan Deputy Governor Ryozo Himino says underlying inflation is nearing the central bank’s 2% target, while accommodative financial conditions and rising cost pressures strengthen expectations of further interest rate hikes. Japan’s central bank signals further policy tightening as inflation approaches its 2% target.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-bojs-himino-says-japan-inflation-near-2-target-signals-further-rate-hikes/articleshow/135090643.cms",
-          "publishedAt": "2026-10-21T11:16:44+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-21T11:16:44+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
+      "previousSummary": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
+      "previousPublishedAt": "2026-10-21T11:39:14+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.5,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "437816a46c2fc3",
@@ -276,17 +301,17 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "Jio IPO strengthens Reliance’s financial flexibility; capex funding remains key: Moody’s",
+      "title": "Moody’s calls Jio IPO credit‑positive for Reliance Industries",
       "publishedAt": "2026-10-21T14:02:53+00:00",
-      "importanceScore": 13.1,
+      "importanceScore": 12.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-strengthens-reliances-financial-flexibility-capex-funding-remains-key-moodys/articleshow/135094225.cms",
-      "summary": "Moody’s has termed Jio Platforms’ IPO credit positive for Reliance Industries, citing debt repayment and funding flexibility. The Rs 30,200 crore issue will support investments while helping manage leverage amid elevated capital expenditure.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
+      "summary": "Moody’s described the Jio Platforms initial public offering as credit positive for Reliance Industries, saying the proceeds will be used to repay debt and broaden funding flexibility. The Rs 30,200 crore issue is intended to back the group’s investment programmes while helping to manage leverage as capital expenditure remains high.",
+      "why": "The rating view suggests Reliance may face lower borrowing costs and greater capacity to fund growth.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -295,8 +320,49 @@
         }
       ],
       "firstSeen": "2026-10-21T14:02:53+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Jio IPO strengthens Reliance’s financial flexibility; capex funding remains key: Moody’s",
+      "previousSummary": "Moody’s has termed Jio Platforms’ IPO credit positive for Reliance Industries, citing debt repayment and funding flexibility. The Rs 30,200 crore issue will support investments while helping manage leverage amid elevated capital expenditure.",
+      "previousPublishedAt": "2026-10-21T14:02:53+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.1,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "c19166ae704ae3",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Rupee rises 46 paise to 94.45 on India-US trade deal hopes; oil prices cap gains",
+      "publishedAt": "2026-10-21T12:37:12+00:00",
+      "importanceScore": 11.9,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-46-paise-to-94-45-on-india-us-trade-deal-hopes-oil-prices-cap-gains/articleshow/135092741.cms",
+      "summary": "The rupee gained 46 paise to 94.45 against the dollar on optimism over a potential India-US trade deal and RBI measures. However, elevated crude prices, foreign outflows and global financial pressures continue to threaten the currency's recovery.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-46-paise-to-94-45-on-india-us-trade-deal-hopes-oil-prices-cap-gains/articleshow/135092741.cms",
+          "publishedAt": "2026-10-21T12:37:12+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-21T12:37:12+00:00",
       "status": "New",
-      "lastChecked": "2026-10-21T15:18:36.679155+00:00",
+      "lastChecked": "2026-10-21T20:11:25.078127+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -306,21 +372,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 5,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-21T10:12:53.247169+00:00",
+  "previousUpdated": "2026-10-21T15:18:36.679155+00:00",
   "changeSummary": {
-    "new": 8,
-    "updated": 0,
-    "continuing": 0
+    "new": 3,
+    "updated": 2,
+    "continuing": 4
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-18T18:08:15.503859+00:00",
-    "updated": "2026-10-21T15:18:36.679155+00:00",
+    "availableFrom": "2026-10-18T20:47:10.012923+00:00",
+    "updated": "2026-10-21T20:11:25.078127+00:00",
     "snapshotCount": 16,
-    "eventCount": 85,
+    "eventCount": 88,
     "retentionHours": 72
   }
 }
