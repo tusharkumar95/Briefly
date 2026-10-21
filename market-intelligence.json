@@ -1,15 +1,25 @@
 {
-  "updated": "2026-10-21T10:35:55.387134+00:00",
+  "updated": "2026-10-21T15:37:23.532943+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 0.50%",
+      "headline": "TSX rises as elevated oil prices lift futures",
       "direction": "up",
-      "move": "S&P/TSX Composite +0.50%",
-      "why": "Same-day market coverage explicitly linked the final move to: financials support gains despite oil surge above $110; Healthcare, Technology Stocks Rise; Banks Gain.",
+      "move": "S&P/TSX Composite +0.80%",
+      "why": "Investing.com India reported that TSX futures ticked higher amid elevated oil prices, directly linking the oil price environment to the index’s gain on 2026‑10‑21.",
       "drivers": [
+        {
+          "label": "Oil Tops $110 – Check Top Gainers, Losers and Stocks to Watch",
+          "detail": "The Sunday Guardian explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "elevated oil prices By Investing.com",
+          "detail": "Investing.com India explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "financials support gains despite oil surge above $110",
           "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
@@ -19,30 +29,45 @@
           "label": "Healthcare, Technology Stocks Rise",
           "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
-        },
-        {
-          "label": "Banks Gain",
-          "detail": "TradingView explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "medium",
+      "sectors": [
+        "Energy"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36108.0,
-        "previousClose": 35928.6,
-        "change": 179.4,
-        "changePct": 0.5,
+        "price": 36396.02,
+        "previousClose": 36108.0,
+        "change": 288.02,
+        "changePct": 0.8,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-20T20:20:01+00:00",
+        "asOf": "2026-10-21T15:37:16+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
+        {
+          "name": "Reuters",
+          "title": "TSX rises as drop in oil prices helps lower interest rates - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ3FLY3g1VUNPNmprZ3VyOVZvLXdKQUVDWjVpUEZTYncwTl93dW01bmNmOGMwQVAwS19SWUxjdFA0bk9mLU1oMVFIazRTWTl0cVRSZENmanhfQTVXRkhGQmRibndRa1JhNXNFS1I1alI5bDRrVVFVeUlQMVotWnNpMHplTlhLckJEVDNsR3hTdmFkQjJteGlxTDU1TFlVSVpud2gyZUc0cU1nLXM?oc=5",
+          "publishedAt": "2026-10-20T20:39:46+00:00"
+        },
+        {
+          "name": "The Sunday Guardian",
+          "title": "Canada Stock Market (TSX) Today, October 21, 2026: Why Is the S&P/TSX Composite Rising? Bombardier and BlackBerry Rally as Oil Tops $110 – Check Top Gainers, Losers and Stocks to Watch - The Sunday Guardian",
+          "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOa3ktWlR4anZUSE5KZ2dMQzltNUY5eURFUDBqZVdCM3FWVTRIcENDN3BFYm81VEJNY1NSaTRpNjJaSDZJTmhacEVGTFJpQUdvZjBnQmxpWloyREJHOEJBMkk3SXhucjNsYTA5akpmTzdRa2drcXhYd0plUDZTdjBxSHF2cFl0WF9ic2ZHcDhkRWVQSmFxTkt6LVpqR3dGWEhwMlRQdV85Z2s1TTRvRTd2WkFPazVuTEtlYVRoNXhyWU5IVGRaVDRURVYyT1ZFZ0hZbHYzcFRUWVVXVWhJWTFTSnVaUGFyTEhHVll3UHdLajAyZU9WVFd0N05CSU5rdzdpMWdsRHpUeV9zYTMtY25lUkxqek5PLUd5dHdPWExOTHJNSnA2RU9uNnoweVNOWmE2cVViZC1OZEdDY01TTkItUmtn0gHHAkFVX3lxTFBxWElRa1JrTWcycVRReWVlT1VXSXVPMzN1TS1MaXlxVWdCX1dBSjRyQUtwS1Q2TU5GXzl2V0drUFpJYU5tNVE4SlZmQTRRem5NNzV2elhWdFY4bDRiSndGc01ldk1DZVktTERMZThxMFgzcEJreHl2R3lucGJSTXl4aFBjLTA1azdJQ0Z6WVctc3RKb0xveDZEX24yc3Z0UTJHcnl3bTZ0OWRvOUhKdTJGWHhiMXQwU3RtU2lYQWdKYkp2U29Vd3Z5OFpDdDdXY0Y0bjBNZHVib1lBbEZzcTN3VkctLWFzV3ZyRHVVMmhZbFpySmpXaEdmSjEwazZqN3IzX3dMdl9QcjFqOURLNnZJejdLcGdUU2hRMUxRNXJZTXhLM3VQRUZoNkNuQVcxQUN2aWZGMzhtUmFvcmgtbkFtOWYwaUptRQ?oc=5",
+          "publishedAt": "2026-10-21T15:10:45+00:00"
+        },
+        {
+          "name": "Investing.com India",
+          "title": "TSX futures tick higher amid elevated oil prices By Investing.com - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl9NVlo1ell4eDR3eW9XUERnc3JtR1R4c20xSzlNN2pJNkRiZnFSd1libVpiTHhsU25MOHJzLXJXdW92QllGV3pjX3lWM1JsOXZqU1pNMTZLRzlIMzA0NVI5SGRLVHFiazBFVlNTR3preW9IV2dvTFk4OUhDemRicmlIOTF2cHE4STBXM2F3dmlNR1hONWM2ZE5OUUxFNUFkb0RXdENoRQ?oc=5",
+          "publishedAt": "2026-10-21T11:53:56+00:00"
+        },
         {
           "name": "Investing.com",
           "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.50% - Investing.com",
@@ -60,24 +85,6 @@
           "title": "Toronto Stock Exchange: S&P/TSX Composite Closes Up 0.62% at 36,151.84 as Albertans Reject Separation - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZUxqN2lOUXhsWERZaDd0cE5CWDRxTDM1YTJTNV8zTlh6THRHVnhJT1I2YmF4bDJjSXEtMzNNeG1GV05mNHd4YXIxNDFBVTk3U21jVExacWFOTnM0WHVleXFuR3M0Mmc3Tk1uWXUwd3NYOU56UmVJNGdoZTNjcUNHZFBmLVlzRThxcWpqTWpaTG5lVDRSY1d3UWFZVUlUcGY4emg2cHlfSGQ0NzBKQ1RUQ1NoRVBmR2lpSHZiTUpDMXFxNzBPN0lhVktZQlBRV0E?oc=5",
           "publishedAt": "2026-10-20T21:32:36+00:00"
-        },
-        {
-          "name": "Investing.com UK",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.50% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRVBFc0FUODk3SHN6Zm9lZ0FXRnlwSkZuYkdUejYzQl9fSmp3RzhBN1hvMk1KYWNoREQ1WUtjSjBvMkJEMGxqNFNyZmptM0wwUkpIeVVxMC1QUlpxdTNGd0prS2pRbXl4bUxWSHhQQmpiakx0Y2duLUVsWHlmc0RtckxVN3JTZi1HQlZMVWoxZTQ5YW5VNkdpeEYzZUpseGFJc2thSDhFZGFhaG5zYmg2SEZNZFBBMHpO?oc=5",
-          "publishedAt": "2026-10-20T20:30:00+00:00"
-        },
-        {
-          "name": "Yahoo! Finance Canada",
-          "title": "TSX Closer: The Index Gains as Healthcare, Technology Stocks Rise - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaHpuZHFrX2FVdkFnclNleTJxYXRPbWVzY19zRHROMXlRc01fcFR5UGlZVmlJQ2xrd1Zhcm1oUHpFazBxMkdUb0dZTUxqbFB6SXYzWWlZTkpDU0IzNmVsZ1EyWGtTM3hkMzZTSkxicTR0VFJ5VUJwRmJaRnB2SnhBTm5ldE56YWp0Q0E?oc=5",
-          "publishedAt": "2026-10-20T20:23:04+00:00"
-        },
-        {
-          "name": "TradingView",
-          "title": "TSX Edges Higher as Banks Gain - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObGFRY0pnRFNyZkdhWHB1U3dTNVNuQV9nNjN4b1E1cnZRT19sYUVqN01HNlM1MFRWOGdaUEtLeDlCQWtZSFFreDdsd1ltQllxZjBBNlpHbXdqUWN1U29Fd09vb1Mwdk04bUVYaktyejVDcGF3VWkzekw4eXpwMTdSaHI5RndIZXhC?oc=5",
-          "publishedAt": "2026-10-20T14:10:56+00:00"
         }
       ],
       "evidenceCount": 7
@@ -87,16 +94,21 @@
       "headline": "Nifty 50 fell 0.34%",
       "direction": "down",
       "move": "Nifty 50 -0.34%",
-      "why": "Same-day market coverage explicitly linked the final move to: Services Sector Drags Sensex; crude above USD 110 fuels inflation concerns.",
+      "why": "Same-day market coverage explicitly linked the final move to: Crude Spikes; IT Stocks Outperform; crude above USD 110 fuels inflation concerns; Sensex sheds 143 points, Nifty slips below 22,850; IT stocks shine.",
       "drivers": [
         {
-          "label": "Services Sector Drags Sensex",
-          "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Crude Spikes; IT Stocks Outperform",
+          "detail": "HDFC Sky explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
           "label": "crude above USD 110 fuels inflation concerns",
-          "detail": "The Tribune explicitly links the same-direction market move to this factor in its market headline.",
+          "detail": "Devdiscourse explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Sensex sheds 143 points, Nifty slips below 22,850; IT stocks shine",
+          "detail": "Zee Business explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -130,16 +142,28 @@
       },
       "sources": [
         {
-          "name": "scanx.trade",
-          "title": "Market Wrap: Nifty Slips Below 22,900 as Services Sector Drags Sensex - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQSDVDVEJqeEJQN0pRaWQ2dHRjSjl0RWZjUlJWZXp2VkxYUkF2Rk95UjROWC1QVFZDLTVQV194Ql82RWEzZjJibGFvZWtSRmlad3lTeTQxSGxGQVhjMjlNWm8wQTViXzB1NkFKUnlDd2p5MXlUSVE1YUI0bUd3UUNQNjBGbWNMM3pYXzZnUk9xSkdQTDlJbS14Y1U0dUZMMEFYUEhGV3hkRm43LXV4NGR3NFREc1doRDF3VWNjTkpNaTMzZ3pBcDE2MkJ3akJfc2xELUt2cHpiN1J5aUlDSWtvLVlWdE9LWTBiV1kzdWZVMDFPQVdmYklaY1JGQmhkTmw2?oc=5",
-          "publishedAt": "2026-10-21T10:24:07+00:00"
+          "name": "Business Standard",
+          "title": "Market rally fizzles as Sensex cracks 1400 pts from day's high; key reasons - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOTdrTlpWQ0RQZHBPMFlOaElIQWVhVHZXLUhCR3ZfQ1dadEkyZEdINUdkenZhTkVEanluakszMk91NU5WaHZRaFNDWTVWTVdYTnlfdU5IcElrb1FZdkFVRmZJUXl1ZmpreDhrZGJOa1lhQUZQaW9ieXZVbDFIaXF6dzVLa1NZelR5dmtvQ3pEWldtRmpmbVlOVzkzXzlTVVo2ei1CZU1ONVJzZFhodjVTWEwwR3oyT2V6YS1JNTVvMUc2dnF0cjN3dS1fdjltNzNhay1rYTZkc9IB3AFBVV95cUxNQ0dXS3dnZzJ5NHNzTXhRUTRZQjF1S0dJV19oSGlfcE9ZcEV1NF8wZ0l5dGlYazFGa3VWN1M0RHFXQWE0Y2s1WExGYW56MTVKOWdLSmtJZGVQT0g2S0JTbDdHdXRKb3Z6MjZVMWJvRUxkTlZFaml6dHhPSV90d3IxZXNtSEpnOVJxaHpTNl9TenB2VVgtcDUwbGdhQm5ROTI2NVZmeWU1R3Q0ckc5cTM2ckVUc3Q4MUJsU3o5VHNDV3ZHb0tOcVBlYkRJVW9FLTVHbFRUalBRY2lsQ0Z4?oc=5",
+          "publishedAt": "2026-10-21T05:01:43+00:00"
         },
         {
-          "name": "The Tribune",
-          "title": "Sensex falls 143 Points, Nifty slips 0.34% as crude above USD 110 fuels inflation concerns - The Tribune",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZkpuck1LVVRvY2RFRm9UQjRpbjZtTWZrTU9RaEtNdlNIRkN2dFE5YUxzSTRPakpOQXlsbDJicUkwOFNITDktWWdiQUNJTEhzU055aEZDSUJaNVIxbXI4cXBzd3NnX2xuelBScjU4QXlmMHhWTmR1dkRTaHRQVzdIbERPbUFQWTA5YmY0MkFaUjFaRXFNdFlYWUtVRGNlc192bUVvanVMalV5LXlZdWp1YVNEajlmQTljZnFCS09OQUwxMEtqbVFiaDlYZkVVSmhCdFNJRlRSeGswR1V5ZHE4NXU5NzhGVUVBWGo0Z9IB7AFBVV95cUxPZkpuck1LVVRvY2RFRm9UQjRpbjZtTWZrTU9RaEtNdlNIRkN2dFE5YUxzSTRPakpOQXlsbDJicUkwOFNITDktWWdiQUNJTEhzU055aEZDSUJaNVIxbXI4cXBzd3NnX2xuelBScjU4QXlmMHhWTmR1dkRTaHRQVzdIbERPbUFQWTA5YmY0MkFaUjFaRXFNdFlYWUtVRGNlc192bUVvanVMalV5LXlZdWp1YVNEajlmQTljZnFCS09OQUwxMEtqbVFiaDlYZkVVSmhCdFNJRlRSeGswR1V5ZHE4NXU5NzhGVUVBWGo0Zw?oc=5",
-          "publishedAt": "2026-10-21T10:19:30+00:00"
+          "name": "HDFC Sky",
+          "title": "Nifty, Sensex Fall as Crude Spikes; IT Stocks Outperform - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSC1OUkVPMEpSVlpIcVNUZG52TmhYbV8wNzlvZDJlcDk5bkJxOG1kTVJYMW5VRFI0RDBKdnFOcGViemt1VkZ0VUNxcVhpMjNRMEtKa21od1lkZ3FqNFVaYS1DUDVIZGJydXlreWZWMUloN2xnM0NuN0NfdHBabEZjZE5QQmhqbXBlUThyR1RncVNjQQ?oc=5",
+          "publishedAt": "2026-10-21T11:03:20+00:00"
+        },
+        {
+          "name": "Devdiscourse",
+          "title": "Sensex falls 143 Points, Nifty slips 0.34% as crude above USD 110 fuels inflation concerns - Devdiscourse",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLTAxdnJRaGRYekpzNmhLMDZqd0d1Snpub09UTFlZdk9Ua0lHeE5IY2l0LVlISTIyUnZKNnMzRTZMTm9mOER5eVFKY2Z4eVVtR1R1SXJFRTh0ZVFPV2NsdzYtWTJSZ1NxZ0tTUlJ1Wi1FU0YzOTl1dFBoNnVhZHZRSXdZUHFrUE9sMUtiLU9hLW5fQVAtdkZpdjBTZnhBR05kcXZsM2MwbkFqenlwbUhFb3g3OUpWZW1nY2prR0dfdm56RFY1RWZQQ1dJMjFUeU1RMWdhY3VNM1oyX2UyenfSAd4BQVVfeXFMTy0wMXZyUWhkWHpKczZoSzA2andHdUp6bm9PVExZWXZPVGtJR3hOSGNpdC1ZSEkyMlJ2SjZzM0U2TE5vZjhEeXlRSmNmeHlVbUdUdUlyRUU4dGVRT1djbHc2LVkyUmdTcWdLU1JSdVotRVNGMzk5dXRQaDZ1YWR2UUl3WVBxa1BPbDFLYi1PYS1uX0FQLXZGaXYwU2Z4QUdOZHF2bDNjMG5Banp5cG1IRW94NzlKVmVtZ2Nqa0dHX3ZuekRWNUVmUENXSTIxVHlNUTFnYWN1TTNaMl9lMnp3?oc=5",
+          "publishedAt": "2026-10-21T10:23:33+00:00"
+        },
+        {
+          "name": "Zee Business",
+          "title": "Closing Bell: Rs 6.7 lakh crore mcap wiped off as Sensex sheds 143 points, Nifty slips below 22,850; IT stocks shine - Zee Business",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ2k3VVN0b2U5dnBaRE5WcDI0c21iN0lWa1ZXUVYtU0RjekJILXV0N0xOMmR4ZDE4T29ETVdralYxRnVJbGRyNHJScmYyMncxckkyeXZiYkM0Q3hsM2MyZldxbTh3cXoydWZhcjNVQXBjcDdCVmZFSlQyeVUzMFhHTm9aQnJjMGFyWlNaRV93WU5HajBoeHZ1U19ZeEFHUlhYY0x4Y1U0U2NWVHhSajI2dzNDYWg5cGNKYWxxTXB3WE5ra3lYNExqTWlDY1YxX3E5?oc=5",
+          "publishedAt": "2026-10-21T10:06:07+00:00"
         },
         {
           "name": "Moneycontrol.com",
@@ -148,22 +172,10 @@
           "publishedAt": "2026-10-21T09:34:46+00:00"
         },
         {
-          "name": "Telangana Today",
-          "title": "Sensex, Nifty rise nearly 1 per cent in early trade on global cues - Telangana Today",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWjBVMDFoZEZIejlLZzBURGVhNWFHVkd0QTJoMktSMkVwMnBNZkVaWUM3WllvTlBvNFZSR0ZSS2FXSFVETXhhMWd0bWI1ZnJkSVRfRzN5WXJBVUx3WVhMZG84azFIbWxtNFZWM3d5YTFlTzVoVC0tVzBla1U5YlY0NEZUUEFOOXdkYzFMRDdJTlBXLXVleXAw?oc=5",
-          "publishedAt": "2026-10-21T05:45:39+00:00"
-        },
-        {
           "name": "The Economic Times",
           "title": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank - The Economic Times",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5",
           "publishedAt": "2026-10-21T04:32:32+00:00"
-        },
-        {
-          "name": "DhanamOnline",
-          "title": "Sensex, Nifty set for positive start as Wall Street, Asian markets gain; oil prices remain elevated - DhanamOnline",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONjM4MUxBdHF3OHc1UndjZ0szQ1NXa2FBMkJEUFZPNEtoSWxpYm91b3VDdkViTXhlemRfRUE1MFhXSkNnajZXeHNwampWdnVncFg5aGNvZGhPbTF4V3FvSm81QTR1N3JWMXF0bUtyRURnSldDeDRzUXZqai1fdWJBR1VEQnR1S05jS0lhQk9tNzhGdHVjWEtNTnBVX1p5eTdfY0FwQ3VFRzZYNEhaUXlZRTdXSmozM2Q2ZkE5SVEtbmNIZVctX3dLdWdIcDNyMDh4Q2dyYy1aZzhRZDVaUGfSAesBQVVfeXFMTnhCdFViTmRRSi1fSVUyRjNpSndCVjF4a3RrSE8yY0hmRldKRm41OXdHZnRKaGRma1BnbngxNmluRjk5clBTcUI5YTRodGpQVzA2T3JtYXlOVl9iV3VtSERnMWRsSVZ3Qm5DbVZjVnRoUVNoX2sxNXFyR09LdU1wZFJ0Z2tfS2hXWEZWeXNNejJudkpQT1VWQ3RhTnl3TkJWblBZaWx6MjkxM0phSHRnV21MNFEzcEJBZlJvXzEtNGFtSGI1b0RoSGZzWHB0N3RWRzlDN2tDR09Xd01RdVhKTXlidnhMY3ZRb296SQ?oc=5",
-          "publishedAt": "2026-10-21T03:19:10+00:00"
         }
       ],
       "evidenceCount": 7
