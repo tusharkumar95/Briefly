@@ -1,41 +1,41 @@
 {
-  "updated": "2026-10-20T20:53:29.024762+00:00",
+  "updated": "2026-10-21T00:08:19.551671+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX climbs 0.5% as easing oil prices, lower yields and sector gains lift market",
+      "headline": "TSX climbs 0.5% on financials, healthcare & tech gains, lower oil prices and political stability",
       "direction": "up",
       "move": "S&P/TSX Composite +0.50%",
-      "why": "Easing oil prices and falling bond yields boosted sentiment, while healthcare, technology and bank stocks posted gains that pushed the index higher.",
+      "why": "Financial stocks lifted the index, while healthcare and technology shares also rose. A drop in oil prices helped lower bond yields, and the rejection of Alberta's separation referendum removed a political risk, all contributing to the market's advance.",
       "drivers": [
         {
-          "label": "easing oil prices, bond yields boost sentiment",
-          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "financials support gains despite oil surge above $110",
+          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
           "label": "Healthcare, Technology Stocks Rise",
-          "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
+          "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Banks Gain",
-          "detail": "TradingView explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Financials sector",
+          "detail": "Financial stocks provided support, offsetting higher oil prices.",
           "kind": "driver"
         },
         {
-          "label": "Oil prices",
-          "detail": "Easing oil prices were cited as a factor that lifted the TSX.",
+          "label": "Healthcare & Technology sectors",
+          "detail": "Healthcare and technology stocks rose, adding to the index's gains.",
           "kind": "driver"
         }
       ],
       "sectors": [
-        "Energy",
         "Financials",
         "Healthcare",
-        "Technology"
+        "Technology",
+        "Energy"
       ],
       "confidence": "high",
       "primaryIndex": {
@@ -54,16 +54,22 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "The Globe and Mail",
-          "title": "TSX rises as easing oil prices, bond yields boost sentiment - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPT1ktVk93ZnVWbUFIdXJzdW9Hbkt4Y24ybm00VU0weXd4dTQwaGV5S1RaVVpZNGJNNGpBT1g5S05FNy0zODhaT1Z2aGRPR2k4MllQMy1DSHhLUk0wZGc0bFpzTVEyMW9qRlhiWFpDNXZCRXowV1JTZ1g2ZlFsWm1kbFhScDlYSDlMZWRWQVpLdFB2bWl4TGU5ek9Cdm43aThfdDhKeVJVMkVMc2IxTW9JR2x0dGxoek9RRGt2Y1hjeUxIVHhfVThudkFaVkVLWW9LV29rS0oyUm9TVHYtemRzQWF5eTQ0X1FWSU9OOVdR?oc=5",
-          "publishedAt": "2026-10-20T09:26:41+00:00"
+          "name": "Investing.com Canada",
+          "title": "TSX rises as financials support gains despite oil surge above $110 - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUmEyT2lFSGRwQTdjakdVTjFPd1RGVUFEUm9zX1o3Mjd2TzBTTUJaVWtndFQydEZHTkJqYTZYOS1pVzVlZlNuLTZlXy1UUVB6akc4UjdGQ0JjZW1PU0F5N09wUDdiSWlDazNGY0VhUTZnVDhLQmZ6SkMxR2tTMmdpMTQ1YzlHQWFhSU8tUWJtRmIzWmF0UVpTNVFKNDlJT2poWTNpX0pzdEQyMXZSdURnTUxucTJ3Wk5S?oc=5",
+          "publishedAt": "2026-10-20T22:29:46+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange: S&P/TSX Composite Closes Up 0.62% at 36,151.84 as Albertans Reject Separation - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZUxqN2lOUXhsWERZaDd0cE5CWDRxTDM1YTJTNV8zTlh6THRHVnhJT1I2YmF4bDJjSXEtMzNNeG1GV05mNHd4YXIxNDFBVTk3U21jVExacWFOTnM0WHVleXFuR3M0Mmc3Tk1uWXUwd3NYOU56UmVJNGdoZTNjcUNHZFBmLVlzRThxcWpqTWpaTG5lVDRSY1d3UWFZVUlUcGY4emg2cHlfSGQ0NzBKQ1RUQ1NoRVBmR2lpSHZiTUpDMXFxNzBPN0lhVktZQlBRV0E?oc=5",
+          "publishedAt": "2026-10-20T21:32:16+00:00"
         },
         {
           "name": "Investing.com",
           "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.50% - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU29uVDVJSm5hMjMzV0dzWmR1REwyVW9vRVFVOTVjMXAtOVJwTUEzUHBvTVhPMWFEUVVwQW5YelF4dUsxX1RnLUM0TTlWY25xbVBIWWNQT1o5a3c2Z1hhQzVCLXFHcXpLdU0tRWZqRGN5cGlGdzZOUmJWMGVXTjBWNXdxclc0QlRyajAtM3lna1lzNGMxVGdSRWd2SlJPaTVSZ1hDTUlHMzlnaWlNMzhxb1NxMW1qcVBIaUE?oc=5",
-          "publishedAt": "2026-10-20T20:36:08+00:00"
+          "publishedAt": "2026-10-20T20:48:45+00:00"
         },
         {
           "name": "Investing.com UK",
@@ -72,22 +78,16 @@
           "publishedAt": "2026-10-20T20:30:00+00:00"
         },
         {
-          "name": "Yahoo Finance",
-          "title": "TSX Closer: The Index Gains as Healthcare, Technology Stocks Rise - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcENlYnU1RzZZdUhDNEI0eXJndG9Gelk4eXJKWjl6a21oYl9YTUhhR1VQVWU2cW95Wm4xZGtqbUZzVlp3dEp5a0hpbjBaZ2lfTzJpQkMyYjBoWkdXT21odFFrWkRKRVhRNmFyWFdQWkduQm45cHZ3SkJOUFpmVTJwR3FvZ3ppb3c4OUlTX0pWVUJ4d2tiSDBUdE9wOTRqTFRSNkh6ZzZyYTM?oc=5",
+          "name": "Yahoo! Finance Canada",
+          "title": "TSX Closer: The Index Gains as Healthcare, Technology Stocks Rise - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaHpuZHFrX2FVdkFnclNleTJxYXRPbWVzY19zRHROMXlRc01fcFR5UGlZVmlJQ2xrd1Zhcm1oUHpFazBxMkdUb0dZTUxqbFB6SXYzWWlZTkpDU0IzNmVsZ1EyWGtTM3hkMzZTSkxicTR0VFJ5VUJwRmJaRnB2SnhBTm5ldE56YWp0Q0E?oc=5",
           "publishedAt": "2026-10-20T20:23:04+00:00"
         },
         {
-          "name": "Investing.com Canada",
-          "title": "TSX edges lower at open as rate jitters, oil surge weigh on sentiment - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUmEyT2lFSGRwQTdjakdVTjFPd1RGVUFEUm9zX1o3Mjd2TzBTTUJaVWtndFQydEZHTkJqYTZYOS1pVzVlZlNuLTZlXy1UUVB6akc4UjdGQ0JjZW1PU0F5N09wUDdiSWlDazNGY0VhUTZnVDhLQmZ6SkMxR2tTMmdpMTQ1YzlHQWFhSU8tUWJtRmIzWmF0UVpTNVFKNDlJT2poWTNpX0pzdEQyMXZSdURnTUxucTJ3Wk5S?oc=5",
-          "publishedAt": "2026-10-20T15:55:05+00:00"
-        },
-        {
-          "name": "TradingView",
-          "title": "TSX Edges Higher as Banks Gain - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObGFRY0pnRFNyZkdhWHB1U3dTNVNuQV9nNjN4b1E1cnZRT19sYUVqN01HNlM1MFRWOGdaUEtLeDlCQWtZSFFreDdsd1ltQllxZjBBNlpHbXdqUWN1U29Fd09vb1Mwdk04bUVYaktyejVDcGF3VWkzekw4eXpwMTdSaHI5RndIZXhC?oc=5",
-          "publishedAt": "2026-10-20T14:10:56+00:00"
+          "name": "The Globe and Mail",
+          "title": "TSX ends higher as drop in oil prices helps lower bond yields; Dow leads Wall Street - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPT1ktVk93ZnVWbUFIdXJzdW9Hbkt4Y24ybm00VU0weXd4dTQwaGV5S1RaVVpZNGJNNGpBT1g5S05FNy0zODhaT1Z2aGRPR2k4MllQMy1DSHhLUk0wZGc0bFpzTVEyMW9qRlhiWFpDNXZCRXowV1JTZ1g2ZlFsWm1kbFhScDlYSDlMZWRWQVpLdFB2bWl4TGU5ek9Cdm43aThfdDhKeVJVMkVMc2IxTW9JR2x0dGxoek9RRGt2Y1hjeUxIVHhfVThudkFaVkVLWW9LV29rS0oyUm9TVHYtemRzQWF5eTQ0X1FWSU9OOVdR?oc=5",
+          "publishedAt": "2026-10-20T09:26:41+00:00"
         }
       ],
       "evidenceCount": 7
@@ -97,16 +97,11 @@
       "headline": "Nifty 50 fell 1.11%",
       "direction": "down",
       "move": "Nifty 50 -1.11%",
-      "why": "Same-day market coverage explicitly linked the final move to: the Russia-Ukraine War and the US-Iran Conflict; Market Breadth Weakens; Financials Lead Declines; Mega Caps Drag Market Lower; Financials Lead Declines.",
+      "why": "Same-day market coverage explicitly linked the final move to: the Russia-Ukraine War and the US-Iran Conflict; Mega Caps Drag Market Lower; Financials Lead Declines.",
       "drivers": [
         {
           "label": "the Russia-Ukraine War and the US-Iran Conflict",
           "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Market Breadth Weakens; Financials Lead Declines",
-          "detail": "MarketsMojo explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -157,28 +152,28 @@
           "publishedAt": "2026-10-20T13:27:55+00:00"
         },
         {
+          "name": "CNBC TV18",
+          "title": "Nifty Outlook for October 21: Higher oil prices dampen index recovery; focus back at lower levels - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbEI5elg1R0xiZkxET3dHNUx0WmJIanZFbzJYOWZYbkxzcVFCdXl4SkQ2RzFJdjVrN1VFdnIxMTlfY3lwRmhxZm5ac2dTUUJ5ZXNNUF9nR0tXZ0hQZHdmbUs1aW0xRG1wZXdiaTUxTk8tWVo4OVY5Xy01aXIxX3dFeXNDblU3WXJmb0dhcHVuczFhdklRdXg1NnhfczZibDc1MGxBaHVCTmJnZlE5Mzc3cVdQRC0ySk9XQ2FxTFZxcEtkd3UzX1VJRmVHM1ZRNXJQN1NBU0xtWdIB3AFBVV95cUxQNkdJMzVCU1Q5dmZXbUNvU3RJbmQzeHExZDJ5WXZ6ZHA2Mi1Ybnh6TVhtZ3RabnVYeXVVYkVpYkFaZG5kOFg1czVNTE1HSkRuWVE2WjFoT1RWOGhKV1pLY2htOVVqLWdvOHB3UWVzbERiRlNlQzVTemgwU3JrNGtFaG0tM0JiQnU2bUlpZHhxMFBBUUNxbWtxaGFYZlR1RDJvSFZIVVpSNXFWZHlYaC1GOHJxbHNlVzdzcjQ3ZUs4YzM5b3l0YjRxY0lYeGlGXzNaX0ducFk4QzhLN3Iw?oc=5",
+          "publishedAt": "2026-10-20T10:11:05+00:00"
+        },
+        {
           "name": "BBN Times",
           "title": "BSE SENSEX Falls to 72,781.89 as Wholesale Inflation Jumps to 11.39% and Brent Holds Above $106 Amid the Ukraine-Russia War - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQUdJLTVOSUw1dHhzVUtKSVU3OXZnOFk4RWN3THJXdV82UC16YkRsanlyU0dib2U4TktMOFdHd2I1a1lmQmtQLXNPcVFaTFVSWXVtVzNPUjBYLUtIRWJKTWtWSDZCWTczOWNxLWgzc1JGZ2pud0lPWWRTNWEyb0dZeHRsN2xkNjFTb0NUMHhFNXZvWl80ZDIwNTcxdDNxZUJWeEpyc3VIUjBuX0phX0NycHRKYXh5ZC0xaFRYTjVSd0pSc0piUGdVNGRpakF2Q2ptVlducklvUTFIcmJFQVJyMXJjS3pWaGRScXJEcA?oc=5",
           "publishedAt": "2026-10-20T10:40:23+00:00"
         },
         {
-          "name": "MarketsMojo",
-          "title": "Sensex and Nifty Slip as Market Breadth Weakens; Financials Lead Declines - MarketsMojo",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPczRQRklXT3lYVndGYW9aYVM3MFdSSTdORWgxR2gyekp4WC1qbEFKd0FUUk9uakhXZWJTc280ZkJOcEJobi1WZEctTnRabTZhc3dRYVcwYWRyUmNkM0Rka3FFLWoxeUxLYnl3R2lrRmZaWmEtZWwxTEREN19Ld1RHVnIydFAxNXN0QlRzNW5YMDdDMXEyZmpNWGM5ZWcxZVgtMUttaF90WGJYNXBDdGIzZUp5YlpkQ0ZVVnJYNlpJazJyQzQ4aFNBMnkxRQ?oc=5",
-          "publishedAt": "2026-10-20T09:35:42+00:00"
-        },
-        {
-          "name": "INDIA New England News",
-          "title": "Sensex Jumps Over 1,100 Points as Finance Minister’s Tax Comments Lift Indian Markets - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLTdZdVlBZ25FS0dOTEtKVGhWUGMtMXBXbFgtampzZEl1Qmo1eTllaWt5ZjVOM2ZXbmwzX0ZZVEY1OVNrNUhEeTdpRVJGd0VDMl9BSF9hVVpxbFNjbnMxajdtb2J5UEpDRk9OVWN3alRCdWxJX2ktalE2N256eFRkMjZNSmNLdHk3VmVNdEszTFpONDJlUVQ0T25yTVFuZy1GRlUxd1JaaDM3Z1JUdjRjU01n?oc=5",
-          "publishedAt": "2026-10-20T17:20:55+00:00"
-        },
-        {
           "name": "Univest",
           "title": "Nifty Bank Today: Closes 0.64% Lower at 55,488 - Univest",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkUlQ3WWN6dlBUM2pRT1FmM2N0Qm5MbC1RLTg2ajZJSnVwQnF3dWFieVBkWmRTWmZtbV9aNzkta3NpdFdPd3Qyc2JVV2FxbFlleEVnZG0wOUx3Q1kxVEpiQkZxU1RjRVNpTm1j?oc=5",
           "publishedAt": "2026-10-20T08:51:54+00:00"
+        },
+        {
+          "name": "MarketsMojo",
+          "title": "Sensex and Nifty Slip as Mega Caps Drag Market Lower; Financials Lead Declines - MarketsMojo",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRlVfV29ndWs2cTRuY2RKUkM1R0R6WEFSZkhZTXowdkwtX3FfV1pHbkh4ajVzamZrWDB4c1ZmQnM5SDJXXzdZTU02Xzc4T1JNN0hKVHVlM2ZvejI0QmIxS2plV0hPMGVnd1J1NzJqZUk3anpycXJhd0VwNDhpXzVQTGFGNW80SE50aHJGaFBBdV9tcTVVeno2c2NCTUQ0X29heGRLQkY0di1lVWFZNXhmQWFyODI0ODFzNTF4OEtRWjBJMXdyTHNqbldta3o4eHpxUmc?oc=5",
+          "publishedAt": "2026-10-20T07:35:28+00:00"
         }
       ],
       "evidenceCount": 7
