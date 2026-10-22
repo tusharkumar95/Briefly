@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-21T23:22:59.505423+00:00",
+  "updated": "2026-10-22T04:52:37.503185+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 19,
-    "enrichedCandidates": 79,
-    "readableCandidates": 52,
-    "eventClusters": 52,
-    "materialEvents": 28,
+    "officialOrPrimaryCandidates": 20,
+    "enrichedCandidates": 78,
+    "readableCandidates": 56,
+    "eventClusters": 48,
+    "materialEvents": 24,
     "selectedEvents": 9,
-    "seededStories": 6,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,13 +24,13 @@
       "categories": [
         "India"
       ],
-      "title": "RBI raises repo rate 25 bps as inflation broadens, puts cuts on hold",
+      "title": "RBI raises repo rate as inflation risks widen, delaying cuts",
       "publishedAt": "2026-10-21T19:52:04+00:00",
-      "importanceScore": 15.8,
+      "importanceScore": 14.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-widening-inflation-risks-puts-rate-cuts-on-ice/articleshow/135100146.cms",
-      "summary": "India’s central bank raised its benchmark repo rate by 25 basis points to address rising inflation, with many commodities posting price gains above 4%. Governor Sanjay Malhotra said inflation is becoming generalized, and Deputy Governor Poonam Gupta highlighted external supply‑side shocks as a key driver. External members warned that aggressive tightening could dampen growth, leaving future rate cuts on ice.",
+      "summary": "The RBI’s Monetary Policy Committee increased the benchmark repo rate by 25 basis points to address rising inflation concerns. Governor Sanjay Malhotra said inflation is broadening, with many commodities above 4%; Deputy Governor Poonam Gupta highlighted external supply‑side shocks, and external members warned that an aggressive hike could weigh on growth.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -44,60 +44,55 @@
       ],
       "firstSeen": "2026-10-21T19:52:04+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-21T23:22:59.505423+00:00",
+      "lastChecked": "2026-10-22T04:52:37.503185+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "RBI raises repo rate by 25 bps as inflation risks widen",
-      "previousSummary": "The RBI’s Monetary Policy Committee lifted the benchmark repo rate by 25 basis points to address rising inflation. Governor Sanjay Malhotra said inflation is becoming generalized, with many commodities above 4%, and Deputy Governor Poonam Gupta pointed to external supply‑side shocks as a driver. External members warned that an aggressive hike could weigh on economic growth.",
+      "previousTitle": "RBI raises repo rate 25 bps as inflation broadens, puts cuts on hold",
+      "previousSummary": "India’s central bank raised its benchmark repo rate by 25 basis points to address rising inflation, with many commodities posting price gains above 4%. Governor Sanjay Malhotra said inflation is becoming generalized, and Deputy Governor Poonam Gupta highlighted external supply‑side shocks as a key driver. External members warned that aggressive tightening could dampen growth, leaving future rate cuts on ice.",
       "previousPublishedAt": "2026-10-21T19:52:04+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 15.1,
+      "previousImportanceScore": 15.8,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
     },
     {
-      "id": "9dac1597527708",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "bea2f04507ffe9",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "India"
+        "Indian Markets"
       ],
-      "title": "India targets 25 % manufacturing share of GDP, AI seen as key boost",
-      "publishedAt": "2026-10-21T12:14:10+00:00",
-      "importanceScore": 15.1,
-      "sourceCount": 2,
+      "title": "Jio Platforms IPO day 2 sees 22% grey‑market premium, valuation up to Rs 10.3 lakh crore",
+      "publishedAt": "2026-10-22T03:48:14+00:00",
+      "importanceScore": 14.1,
+      "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/india-wants-manufacturing-at-25-of-gdp-will-ai-in-factories-help/videoshow/130171220.cms",
-      "summary": "In a discussion hosted by the Economic Times, PwC India partner Vinod Kumar and JSW Group chief digital officer Srihari Kaninghat examined India’s goal of raising manufacturing’s contribution from about 16 % to 25 % of GDP. They explained how AI on the shop floor can reduce material costs, forecast equipment failures, and improve the sector’s appeal to engineering talent, while noting that moving AI from pilots to broader deployment remains a hurdle.",
-      "why": "Achieving the target is a stated policy objective for expanding manufacturing’s role in the economy.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-day-2-gmp-at-22-issue-subscribed-over-3-16-check-brokerage-views-and-key-details/articleshow/135106282.cms",
+      "summary": "On day two of its Rs 30,213 crore IPO, Jio Platforms recorded a grey‑market premium of about 22 percent. The issue, priced between Rs 1,065 and Rs 1,119 per share, is set to close on October 23. At the top of the price range the company’s market value is estimated at roughly Rs 10.3 lakh crore, with brokerages noting its telecom leadership and growth prospects in broadband and AI.",
+      "why": "The strong premium signals robust investor demand, which may lift sentiment in Indian equity markets.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/india-wants-manufacturing-at-25-of-gdp-will-ai-in-factories-help/videoshow/130171220.cms",
-          "publishedAt": "2026-10-21T12:14:10+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-day-2-gmp-at-22-issue-subscribed-over-3-16-check-brokerage-views-and-key-details/articleshow/135106282.cms",
+          "publishedAt": "2026-10-22T03:48:14+00:00"
         }
       ],
-      "firstSeen": "2026-10-21T12:14:10+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-21T23:22:59.505423+00:00",
+      "firstSeen": "2026-10-22T03:48:14+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-22T04:52:37.503185+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "India targets 25% of GDP from manufacturing, AI seen as catalyst",
-      "previousSummary": "In a video discussion, Vinod Kumar of PwC India and Srihari Kaninghat of JSW Group examined how artificial intelligence could help raise India’s manufacturing share of GDP from about 16 % to a stated goal of 25 %. They cited AI‑driven cost cuts, predictive maintenance of equipment and the aim to draw engineering talent back to industry. The speakers noted that most AI initiatives are still in pilot phases.",
-      "previousPublishedAt": "2026-10-21T12:14:10+00:00",
-      "previousSourceCount": 2,
-      "previousImportanceScore": 14.0,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
       "id": "c84048a1c95298",
@@ -106,17 +101,17 @@
       "categories": [
         "Canada"
       ],
-      "title": "Bank of Canada expected to raise rates at Oct. 28 meeting",
+      "title": "Bank of Canada increasingly expected to raise interest rates this month",
       "publishedAt": "2026-10-21T08:00:00+00:00",
       "importanceScore": 13.8,
       "sourceCount": 1,
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/business/real-estate-bank-of-canada-9.7389322?cmp=rss",
-      "summary": "The Bank of Canada has held its policy rate at 2.25% since a quarter-point cut in October 2025, with an eighth consecutive hold widely predicted for next week. A growing number of economists and traders now expect the central bank to raise rates to curb stubborn inflation, though that view is less settled than the consensus for keeping rates unchanged.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "28 would have significant impact on the country's battered real estate market.(Luke MacGregor/Reuters) And while an eighth-consecutive hold is widely predicted next week, a growing number of economists and traders are now expecting the central bank to hike its trend-setting rate to tamp down stubborn inflation. The policy rate has stood still at 2.25 per cent since a quarter-point cut in October 2025.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "cbc.ca",
@@ -126,13 +121,13 @@
       ],
       "firstSeen": "2026-10-21T08:00:00+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-21T23:22:59.505423+00:00",
+      "lastChecked": "2026-10-22T04:52:37.503185+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Bank of Canada increasingly expected to raise interest rates this month",
-      "previousSummary": "28 would have significant impact on the country's battered real estate market.(Luke MacGregor/Reuters) And while an eighth-consecutive hold is widely predicted next week, a growing number of economists and traders are now expecting the central bank to hike its trend-setting rate to tamp down stubborn inflation. The policy rate has stood still at 2.25 per cent since a quarter-point cut in October 2025.",
+      "verificationScope": "source-backed",
+      "previousTitle": "Bank of Canada expected to raise rates at Oct. 28 meeting",
+      "previousSummary": "The Bank of Canada has held its policy rate at 2.25% since a quarter-point cut in October 2025, with an eighth consecutive hold widely predicted for next week. A growing number of economists and traders now expect the central bank to raise rates to curb stubborn inflation, though that view is less settled than the consensus for keeping rates unchanged.",
       "previousPublishedAt": "2026-10-21T08:00:00+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 13.8,
@@ -141,69 +136,33 @@
       "lifecycle": "Updated"
     },
     {
-      "id": "118c43dfd3a573",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "2a37d0c0597d09",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "Indian Markets"
+        "India"
       ],
-      "title": "Jio Platforms IPO analysis examines potential impact on Reliance Industries shareholders",
-      "publishedAt": "2026-10-21T13:35:50+00:00",
-      "importanceScore": 13.4,
+      "title": "Extent of rate hike cycle to depend on growth-inflation outlook: RBI Governor",
+      "publishedAt": "2026-10-21T12:26:43+00:00",
+      "importanceScore": 13.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/can-jio-ipo-unlock-hidden-value-in-reliance-industries-shares/videoshow/135093782.cms",
-      "summary": "A video from Economic Times examines how the upcoming Jio Platforms stock market listing could affect the value of Reliance Industries Ltd.’s shares. The discussion focuses on the holding‑company discount, estimates the worth of Reliance’s stake in Jio, and explains why the IPO might change investor perception of Reliance.",
-      "why": "Investors may need to reassess Reliance’s valuation based on the Jio IPO’s effect.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/can-jio-ipo-unlock-hidden-value-in-reliance-industries-shares/videoshow/135093782.cms",
-          "publishedAt": "2026-10-21T13:35:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-21T13:35:50+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-21T23:22:59.505423+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "3d3e7a0d1eaf66",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-      "publishedAt": "2026-10-21T20:27:41+00:00",
-      "importanceScore": 11.4,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "summary": "Flint is a free coding model that can run on a laptop and was built largely with the help of AI. For now, Recursive’s version is more limited: an AI research assistant overseen by people that produced a model small enough for a laptop.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-governor/articleshow/135092338.cms",
+      "summary": "Reserve Bank of India (RBI) Governor Sanjay Malhotra said the duration and extent of the rate hike cycle will be contingent on the actual growth-inflation developments and outlook. The governor and other five Monetary Policy Committee (MPC) members voted to raise the repo rate by 25 bps to 5.5 per cent.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-          "publishedAt": "2026-10-21T20:27:41+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-governor/articleshow/135092338.cms",
+          "publishedAt": "2026-10-21T12:26:43+00:00"
         }
       ],
-      "firstSeen": "2026-10-21T20:27:41+00:00",
+      "firstSeen": "2026-10-21T12:26:43+00:00",
       "status": "New",
-      "lastChecked": "2026-10-21T23:22:59.505423+00:00",
+      "lastChecked": "2026-10-22T04:52:37.503185+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -211,23 +170,95 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
+    },
+    {
+      "id": "e193bc1f05a875",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+      "publishedAt": "2026-10-21T18:10:42+00:00",
+      "importanceScore": 12.7,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Wangaratta locals have described their disbelief at the alleged attack on local MP Helen Haines Wangaratta has been thrust into an unwelcome spotlight this week. Residents in this rural Victorian town are used to catering to tourists passing through on their way to regional wineries, or music lovers visiting its annual jazz and blues festival.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-21T18:10:42+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-21T18:10:42+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-22T04:52:37.503185+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "4d343912981448",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "JD Vance urges Republicans to stop criticizing Ohio attack ad",
+      "publishedAt": "2026-10-21T22:59:18+00:00",
+      "importanceScore": 12.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cm98zn3l2rn7o?at_medium=RSS&at_campaign=rss",
+      "summary": "JD Vance told fellow Republicans to stop “whining” about a controversial Ohio campaign advertisement that featured Donna Arthur, the estranged mother of Democratic candidate Amy Acton, accusing her daughter of lying her entire life. The ad did not mention that Arthur’s husband had been charged with raping Acton as a child. The campaign of Republican gubernatorial candidate Vivek Ramaswamy claimed credit for the ad and spent millions on statewide broadcasts, while Acton’s brother condemned it as a “despicable low.”",
+      "why": "The episode shows intra‑party tension and the use of personal attacks in political campaigning, which can affect party unity and voter attitudes.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cm98zn3l2rn7o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-21T22:59:18+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-21T22:59:18+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-22T04:52:37.503185+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 4,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-21T20:11:25.078127+00:00",
+  "previousUpdated": "2026-10-21T23:22:59.505423+00:00",
   "changeSummary": {
-    "new": 2,
-    "updated": 2,
+    "new": 4,
+    "updated": 1,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-19T01:21:46.455757+00:00",
-    "updated": "2026-10-21T23:22:59.505423+00:00",
+    "availableFrom": "2026-10-19T07:49:58.347532+00:00",
+    "updated": "2026-10-22T04:52:37.503185+00:00",
     "snapshotCount": 15,
-    "eventCount": 90,
+    "eventCount": 93,
     "retentionHours": 72
   }
 }
