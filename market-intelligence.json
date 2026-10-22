@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-22T18:49:37.484136+00:00",
+  "updated": "2026-10-22T22:45:49.546274+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX slides over 1% as miners and tech stocks fall amid metal slump, oil rally and rate‑hike bets",
+      "headline": "TSX falls ~1% as tech and gold mining shares slide amid oil rally and BoC rate‑hike bets",
       "direction": "down",
-      "move": "S&P/TSX Composite -1.04%",
-      "why": "The decline was driven by falling gold and metal prices hurting mining stocks, weakness in technology shares, a rally in oil prices that fueled expectations of higher interest rates, and lower futures after disappointing earnings from Meta and Tesla.",
+      "move": "S&P/TSX Composite -0.97%",
+      "why": "The decline was explicitly linked to weakness in tech and gold‑mining stocks, a rally in oil prices, and growing expectations that the Bank of Canada will raise rates.",
       "drivers": [
         {
-          "label": "miners, tech stocks weigh",
-          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "tech and gold mining shares slide",
+          "detail": "Livemint explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -26,37 +26,56 @@
           "kind": "driver"
         },
         {
-          "label": "Mining sector weakness",
-          "detail": "Gold and other metal prices slid, pulling down miner stocks.",
+          "label": "Tech sector weakness",
+          "detail": "Tech shares slid, contributing to the overall drop.",
           "kind": "context"
         }
       ],
       "sectors": [
-        "Materials",
         "Technology",
-        "Energy"
+        "Gold Mining",
+        "Energy",
+        "Financials"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35946.54,
+        "price": 35973.45,
         "previousClose": 36325.0,
-        "change": -378.46,
-        "changePct": -1.04,
+        "change": -351.55,
+        "changePct": -0.97,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-22T18:49:31+00:00",
+        "asOf": "2026-10-22T20:20:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "The Globe and Mail",
-          "title": "TSX falls from four-week peak as miners, tech stocks weigh - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZ21BSkdENGdJRG0xUkQtZndXMV9LcHJEa3Q3VU05NkFmREFRNkNfZEVMYkNqczhSNGR2MFFFdVdCNnUwUy1DZ0JEblhRcXFja2FZX1BIUjBmTHNaa3JSaG9TZjQyc1liZTRwQmNXaFVfRkhyVFNZS0Zpdk5tcnJ4d2RMZ0wwOUROY2JJS0RUaVVIek1RZ1NjaWFBRkJvM0w1bC1vc3hPM0loalVCbEFhMWpSdjZaaXZQWG9QemMzRkpSN3BqSTBEd1NNM1ZVRjZTeUFqcFhvSzYxa0F2UVJvLWptclJtQUR1eU5WdQ?oc=5",
-          "publishedAt": "2026-10-22T09:26:00+00:00"
+          "name": "Livemint",
+          "title": "TSX falls 1% as tech and gold mining shares slide - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdHAyRElnRjRLWk4waUxHNzdRX2U3T3dnQS0wLWlfZFV0ck9pODdNSVlDcUJsN0FfT0pSbnF0b3lFZWE2R19HRElvcFBfNmRWSEkzdHFuajA0U3JzdEZSN3RDNGJ6bnh5Q2tud0VONXA4ODd1aGtvUmVnakJxQWFJcXl6UThPYU4ydHBwQXBJTHMzQVMzbzFZMkFkSlJ2VUZnTGfSAacBQVVfeXFMTXVpX1Z0NE02MldxOVppU3JiQ2EwVGtiM2tQOVJPamVfTG9nXzhLWFJpMHNnTzR6X1A4UV9xbjRONzdPY3h5dVQ1bWhkaXhleEhNcjhNT3oxczZhZGcwb3RNcWk2Uk5rbE9VcGZLYVdOVGZGbjJrVjRfeTE0cE9DNHUxMDZHbXViOUtoWHRpZjBQUUY2SmNpMnFseFpnN3phRmtjMTJ3dUU?oc=5",
+          "publishedAt": "2026-10-22T20:28:32+00:00"
+        },
+        {
+          "name": "Investing.com",
+          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.97% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMk5NbFZLT0g2TlBfUDBSVzNEck5GMWY3LUlUWDdGMWVIRHh3TkdVOFZwTk5XSy1zRDY1NzVSaXZTZm4yZXRtTEFHQXctWDJ0eTJBY1hBdHZQWTJJVVJQVjZGbFFlMTQ4OHBneS1CMnVtZ1FweE5xZnB3djBTSjQ0eFpYX1J1ZkJZZ19POGRGWTFkcm1TSkcyNlN2ck1Dek5fZXJCdzUtQzYxMENiNTAzRHNRX1d4WWlfR3Jn?oc=5",
+          "publishedAt": "2026-10-22T20:34:26+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.97% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbVZ1LVpHQmFxa2ZuMFFnOHpaWENNVU5yUEM5V0tjdWpZckRMX1hlbDJvX29obFJIZl9hRHhwUkRIb0h1M0RCVGlNTUxpcVdDb0ZoM1JOUmRUeWVuajM0Y3hhc3VOZkl6VTJITnVwNnNwVWJ1MGNlNGNEMk1pREMtMmhnNXpIR0djT2dZbVFTMUJDSGVnNzAxSS05UDFJaUQxN0h2SlFCbmlpZGtqcUpxX0RHZlZvQ2oyRkE?oc=5",
+          "publishedAt": "2026-10-22T20:30:00+00:00"
+        },
+        {
+          "name": "TradingView",
+          "title": "TSX Drops on Oil Rally and BoC Hike Bets - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT3FhWkw4djczbFU5RF9nWnRmbzhQSGd5c0JMbFgtYXVLZDFKSUZTYk5hdExLUzVSdExfVmVhMm02aGlrTVlCY0NlSFl3SFFzd0lseG5TaXRfQjBDWXdUMUtWQlM2ODdRUjE4emQ1NXVJS3drR0VjQ1dFNWt4blB3N0trd054dllsSVdNY0VfclFGanBxX2c?oc=5",
+          "publishedAt": "2026-10-22T20:24:35+00:00"
         },
         {
           "name": "BBN Times",
@@ -69,24 +88,6 @@
           "title": "TSX Falls on Oil Rally and Interest Rate Hike Bets - TradingView",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPclR6Y3Y3OU1xY1RZYW1iN3FYQmRNR0NieXNRRVJ4OHdEb3BNcHJpRkJfWUlQRWdTTnJRdkJ0UkNwSnJBNW1mQzkxajJvSmZQT1hGUzZsZjc2OWd6YkNGem9vdzk5RnNZbVJJVkFKeG1DdFNYV3BYT1A2LWs5OEptVXloaTlkV21WVEZkSGxESlBFUjRBQ3l2WUl5OE84LURQbEt3?oc=5",
           "publishedAt": "2026-10-22T14:02:05+00:00"
-        },
-        {
-          "name": "Yahoo Finance",
-          "title": "TSX futures point lower following Meta, Tesla earnings - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOamVNRVZuM0pyV010TWx3VEJiemNESzZTYzNyT1hmWE84TTN5Rm9rVzllNW9hblhqQ3YxcTZOVHpXMm9mMUhnTzZWeXhReEZPUE94dXVKRmJ4Vm5FMDREeEtVSVp0bnBiSkVVVDJsOFQ0Yndhc3lpbXhlV0xoM09mZjhCWUZQazRpSGlQN3kydGc5UUhsa0F6OG5YYjNyaVE?oc=5",
-          "publishedAt": "2026-10-22T12:34:14+00:00"
-        },
-        {
-          "name": "Reuters",
-          "title": "TSX hits four-week high as investors cheer government support measures - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSU9QUl9QUEdabl9mc1o0WjB1RzNYYk92NFpjMm43RnRmWWtzZEs1cV9pTng4QlhwbUd2V1ZXMzhXeGsyWUZQUDVYRmZIN1oyX1hWZlNPYUw4TnN2bHZBcUxMUWZZQWVxUjZpbkVBc2d5cFZNUm1DV2FDUlV5ZkZBSW0wMTl6eTdwTk5pUFRxbUhoZ2xJdzZ4Mk1Zbm91N0Rh?oc=5",
-          "publishedAt": "2026-10-21T20:19:29+00:00"
-        },
-        {
-          "name": "The Globe and Mail",
-          "title": "Bank of Canada’s Rate Decision Is Less Than 2 Weeks Away: 3 TSX Stocks to Watch - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQc0xQQVRWaTFnWnZ1d3daZTAzY3BBV0JDc0poai1yNkNfVU1BMzRqd3Q1RDdnY1JmY1RFeURteGdaRGowbGFWNEs2amZ2Y2NmQ2cwLVptOWthTzhadWo3WEVqOUZJdVZ0UGtxMFdSMTdPYXRqSEV0LWRlOW5tSnVOaU5lVnBaMlRLLWFIc2JmMHhtOTZZSHpGX3d2ZURON0xMdXp4ekFPc0pDRTlUQkh5WXJuaGVvR2NOUjFaSkVBak1iV3g3NHg5LTJNS2YxVFdHVWdwRHJkTXNQSERWaUhoU2lVa1NKN1pLaHZoUzU1cDdJSmxmekE?oc=5",
-          "publishedAt": "2026-10-22T00:45:00+00:00"
         }
       ],
       "evidenceCount": 7
@@ -96,8 +97,13 @@
       "headline": "Nifty 50 fell 0.34%",
       "direction": "down",
       "move": "Nifty 50 -0.34%",
-      "why": "Same-day market coverage explicitly linked the final move to: Rising Oil Prices Extend Market Losing Streak; Nifty falls for third straight day; Crude Oil Tops $111.",
+      "why": "Same-day market coverage explicitly linked the final move to: Brent Tops $111; Rising Oil Prices Extend Market Losing Streak; Nifty falls for third straight day.",
       "drivers": [
+        {
+          "label": "Brent Tops $111",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "Rising Oil Prices Extend Market Losing Streak",
           "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
@@ -144,6 +150,12 @@
       },
       "sources": [
         {
+          "name": "BBN Times",
+          "title": "BSE SENSEX Falls to 73,249.39 for a Third Straight Loss as Brent Tops $111 - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOHh4VjVWVER3VVNmTU5iWG1tMTFTS1VXeHBPVmFSaEhUWWRUcWdHaS1TbW1DWUYzcEc5NlR5UGdpenR2OGcxWW1hOGRZLVd0Tm5jNmxDQ0FpSDN2dkJHbnBQMVU0czFsazZrOFBvaVJzYjNVUm5SUk9EV1FGcE9IMldyTkpocUJ3LXZNbnJ5Rmh2b1hjZHVUX1o1dWRvN0ZCcjRpRWpWMENEMG9uV25HUEtjYw?oc=5",
+          "publishedAt": "2026-10-22T18:02:44+00:00"
+        },
+        {
           "name": "INDIA New England News",
           "title": "Sensex Falls 460 Points, Nifty Drops Below 22,700 as Rising Oil Prices Extend Market Losing Streak - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcXo4aFJjeUlWVTFzLWRmUnRMMWtxYUpUakdiUTZ2YTZPWGY3U0pGV1QzTG9qTTQtUF9TOGgyUGhtSmFySUNsd3A5RUJ6UF9ZOFFCWGVWQXpoZzdlT1VUOEo4ZVJVT1huVkZqS1VtTFB6OFV5bG5SN0d6WVY1M1NSdThLT3V3eVpnV0p0TGFDRXgyZTUwYkdmYzB6djJyVEllLTNWMzlvOW5XMS1UVDFZaks4Z0dwMXNFNFEzMUQ1TzNNN3M?oc=5",
@@ -162,22 +174,16 @@
           "publishedAt": "2026-10-22T10:24:02+00:00"
         },
         {
+          "name": "India Today",
+          "title": "Sensex, Nifty end in red as crude oil tops $111; markets decline for 3rd day - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTHlsMUkzOEkyOHJKY3BSNWdlX0dkR3JFRG90QS03UlBZN2M2M3RCVXc2RDJhNGR3SFFoUGJ6YkpQaFVLN0tVZDYwOWV4MWhVLXEzZkN5ZElEbmpHOU5fLWIyd3FwSmllUkxPLWhsTnBzWHlEdFNLdmlia3dQa2hPWDlzU0dkbFhYQWZSLS16R242SmZFam1iV1VtaFpXQ2kta29mWHI2ZWtfbHlMWGhsUUJ4dGdqeGk3S1JaaUhSTU5XRGRyX01US3htcnp0bGhPOHdYLWFn0gHbAUFVX3lxTE5ZRTRndFFQbk9PWVB5dUJGMXhsUHBFN0pBRWxzM2hubXdZZVJfM0tLRUZVRmJMRUR5cEU3ODZSTXZiWGFFYkE3OXZEazJyNWNUSEhIel9ENWNfU2VNQlZHTGd2VXdmVldZLTZEXy1xUU5KREZmOHUwQWNSYzFieVpKaU0tMFVRRC1WTVRCRFNab0F4Q0tHd2p0aE1mUEdmdDJLWk8yM1YtY2VXZXptR3Z5WmhMYVhDQkQ3ZU1TTnM0NHQ5b2JqTW9QbzExejkxTGdYcmlMTHM0WXczWQ?oc=5",
+          "publishedAt": "2026-10-22T10:04:11+00:00"
+        },
+        {
           "name": "Dalal Street Investment Journal",
           "title": "Pre-Market Update: GIFT Nifty Signals Lower Start; Crude Oil and Q2 Earnings in Focus - Dalal Street Investment Journal",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSzBwRXYtX2ktejgxMElGYjJmV1VKS1UwblljSWxlQTQxblppa0d1dmNmak1KYjZmUnMyckdlcVFWdDBORnROd3liX1I1REU2UUtpbnJzaE9wRk1LSXJXaUFCdlUxSmZmcFhZWlZQX0FlRDFmLURZQW9kb2tCRm9ELUF0SDZ4d1U5OEl4ZkNRLWdsOFNER29lOVBySlBSbl80dmZHVzhkUHI1QnQ4dzBaRTBfSjhEQWtwWDVlcXA2aVdvVXdhLW9PbEdxeWQ3N1NJNWhNSWMzVTBfY00?oc=5",
           "publishedAt": "2026-10-22T04:49:35+00:00"
-        },
-        {
-          "name": "Dalal Street Investment Journal",
-          "title": "Opening Bell: Sensex Falls 573 Points, Nifty 50 Drops 0.87% as Oil Prices Rise; Jio Platforms IPO Enters Day 2 - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUTdiYnEtQW1qajNOdFpiUmpkZE9XVkdkeXRmTHdBUmRqR2VORnRPQlhXYlNYY2xWN2VlSVVBQ2RVdDdIdUkzVlhfUm9FVDd4WV9YU0JEeW1SRUFmM09KaGFFNGlXbTBOWDIwZml3SFNzQ25IY2xnM2xCMk5vLVdlR3Q3UEhmVnVFUll4bzlvcXRucVFHdXJReEhjZE9yNVFVcFRaV2EwYjZFeHg3NnVaRjdjcjZacHFXbThXVGpIVTdoODR1ZzdwenhCcFU4MU9vSDVUaVktM2Jsb3JSdkZmQ3lEMFpFVlp1ZVE?oc=5",
-          "publishedAt": "2026-10-22T04:04:05+00:00"
-        },
-        {
-          "name": "Livemint",
-          "title": "Why is stock market down today? Sensex drops 460 points, Nifty ends at 22,688 - Top 3 reasons explained - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcV8ySzdzNTZxT0NaYzdxb0RlZ1d0SGd3aTRvSDdQRGFNNGZIeUxfOEl5cDZtN0xsOWtOZ2RDNTlSTjBtT0oyZjRXYUtNTHB0QnNMWXpCZlBEenlQSFlPRkVhb0djaTdMcDNMNTJMRkhIU2k3Tmp3MTMybjZTSk1OekdmNng3b2JpQlhiT2tQbDlETEZ0YkZEOFNrZEpqdTl4ZDRMZEw0R0FOUnFIa2puNVZyVWN5QmRWLVR6ZkFEcnlSdjQ1b09TZlR6aTFYX2lu0gHWAUFVX3lxTE43bURuemx2MzU3eXVBay0zY3otTkRfekRrdC14NU5fS0tWcnkxSjUyVWl1RFUwUUlfMHlOckEwbGJ5VHpjTHh2RTJ1Ykg2SlpTWEIzZmpLbzhBbDZsWEU5UERhcjhRTERvMTZsZHlCQUpOY185OEpJZ0hreWZpbkd6Q2dnMkdxYlJUaHhIbUJxd3N0M2VRdXpvY0syTEw2bmRYLWVHUVNmNWI4UXl3OTBYUElWX0R4UGJzYWFaVlhnWDYzUVVNWHh2eThmNUNVTlpCYVpsMFE?oc=5",
-          "publishedAt": "2026-10-22T04:02:38+00:00"
         }
       ],
       "evidenceCount": 7
