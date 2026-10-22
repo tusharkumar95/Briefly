@@ -3,160 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-19T21:05:39.154526+00:00",
-      "changeSummary": {
-        "new": 6,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "a5654dd6220377",
-          "cat": "AI",
-          "title": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-          "summary": "Tenstorrent, a chip startup focused on AI inference, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funds will be used to scale chips for open‑weight AI models and video‑generation workloads.",
-          "why": "The capital infusion is intended to speed development of alternative AI hardware that could chip away at Nvidia’s market dominance.",
-          "publishedAt": "2026-10-19T18:37:27+00:00",
-          "firstSeen": "2026-10-19T18:37:27+00:00",
-          "importanceScore": 14.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
-        },
-        {
-          "id": "0cb8538f1a0700",
-          "cat": "India",
-          "title": "RBI tightens scrutiny of overseas investments over $1 billion",
-          "summary": "The Reserve Bank of India has introduced stricter review of overseas direct investments exceeding $1 billion by Indian companies. Banks must now collect and submit detailed information on such investments to the RBI, using a checklist that requires thorough due‑diligence of the investment rationale. The measure is intended to reduce the risk of losses to the companies and the Indian economy.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-19T19:26:34+00:00",
-          "firstSeen": "2026-10-19T19:26:34+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms"
-        },
-        {
-          "id": "bd1747a917ef58",
-          "cat": "World",
-          "title": "Australian MP Helen Haines critically injured after being hit by a car in Wangaratta",
-          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her constituency office in Wangaratta, Victoria, on Monday afternoon and is now in critical condition at a Melbourne hospital. Police detained a 43‑year‑old man from nearby Tarrawingee after a passerby intervened, and a knife was found in the vehicle. Authorities are investigating whether the act was intentional but say there is no ongoing community threat.",
-          "why": "The incident highlights concerns about the safety of elected officials and the potential for political violence in Australia.",
-          "publishedAt": "2026-10-19T14:09:54+00:00",
-          "firstSeen": "2026-10-19T14:09:54+00:00",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "185c93e489fd34",
-          "cat": "India",
-          "title": "RBI injects Rs 1 lakh crore as liquidity tightens before festive season",
-          "summary": "On Monday, the RBI announced a Rs 1-lakh-crore variable rate repo (VRR) auction for the first time since late July after the weighted average call rate (WACR) at 5.67% on Monday, or 17 basis points higher than the repo rate of 5.50%. RBI's VRR operation attracted bids of Rs 1.50 lakh crore while the banking system liquidity stood at a surplus of Rs 1.99 lakh crore as of October 16.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-19T19:47:23+00:00",
-          "firstSeen": "2026-10-19T19:47:23+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms"
-        },
-        {
-          "id": "fffd8e5e0449cb",
-          "cat": "Indian Markets",
-          "title": "Nasdaq leads Wall Street gains as chip and AI stocks rebound",
-          "summary": "U.S. equities closed mixed on Monday, with the Nasdaq Composite gaining 1.11% to 26,430.89 points, the S&P 500 rising 0.42% to 7,691.07 points, and the Dow Jones Industrial Average slipping 0.06% to 51,970.20 points. Chip and AI‑related shares rebounded, ending an eight‑session decline for the Philadelphia Semiconductor Index, while CoreWeave rose after a Goldman Sachs upgrade to Buy and Intel advanced after a J.P. Morgan upgrade to Neutral.",
-          "why": "The rebound may influence investor sentiment ahead of upcoming earnings reports.",
-          "publishedAt": "2026-10-19T20:18:35+00:00",
-          "firstSeen": "2026-10-19T20:18:35+00:00",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-leads-wall-street-gains-as-chip-ai-stocks-rebound/articleshow/135056194.cms"
-        },
-        {
-          "id": "37f3ec213ac53c",
-          "cat": "India",
-          "title": "US President Trump lifts select Russian sanctions, easing India’s energy concerns",
-          "summary": "President Donald Trump announced a waiver of certain Russian sanctions, a move that could improve trade relations with India. India, a major importer of Russian oil, has been facing reduced imports and higher costs. Secretary of State Marco Rubio is in India to discuss energy cooperation, and the waiver may give India leverage to negotiate more favorable oil tariffs.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-19T12:03:41+00:00",
-          "firstSeen": "2026-10-19T12:03:41+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms"
-        },
-        {
-          "id": "b5325a031fe7b3",
-          "cat": "Indian Markets",
-          "title": "Jio IPO draws Rs 2.5 lakh crore in anchor bids from over 70 investors",
-          "summary": "Jio Platforms’ Rs 30,188 cr IPO has attracted institutional bids worth around Rs 2.5 lakh cr, more than 30 times the size of its anchor book. Over 70 investors, including global asset managers, sovereign wealth funds, domestic mutual funds and insurers, have expressed interest ahead of the October 21 opening.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-19T11:29:33+00:00",
-          "firstSeen": "2026-10-19T11:29:33+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-draws-rs-2-5-lakh-crore-in-anchor-bids-from-over-70-investors/articleshow/135047685.cms"
-        },
-        {
-          "id": "c05a91cf4ce39b",
-          "cat": "World",
-          "title": "Trump suspends pending Russian sanctions to keep peace talks alive",
-          "summary": "U.S. President Donald Trump announced that he blocked several Russian sanctions that were scheduled to take effect on Friday, saying the move was intended to keep Moscow at the negotiating table and facilitate peace talks over the Russia‑Ukraine war. The decision came as tensions rose with Ukrainian President Volodymyr Zelensky, who warned that aligning with Russian President Vladimir Putin would be a “historic mistake.” Russian envoy Kirill Dmitriev called the suspension an “important and truly historic moment,” saying the sanctions would have caused serious damage to U.S. and global markets.",
-          "why": "The suspension changes U.S. pressure on Russia and could influence the trajectory of the Ukraine conflict and international sanctions policy.",
-          "publishedAt": "2026-10-18T23:20:15+00:00",
-          "firstSeen": "2026-10-18T23:20:15+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-10-20T00:22:54.504870+00:00",
       "changeSummary": {
         "new": 2,
@@ -1961,73 +1807,145 @@
           "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
         }
       ]
+    },
+    {
+      "at": "2026-10-22T23:24:40.938724+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 2,
+        "continuing": 2
+      },
+      "stories": [
+        {
+          "id": "75ab97cd787667",
+          "cat": "World",
+          "title": "Ohio Democratic candidate Amy Acton condemns opponent's ad featuring estranged mother",
+          "summary": "Amy Acton, the Democratic candidate for Ohio governor, called a campaign advertisement by her Republican opponent despicable. The ad features Acton's estranged mother, Donna Arthur, accusing Acton of lying her entire life. The spot does not mention that Arthur’s husband was charged with raping Acton as a child and that Acton and her brother were subsequently removed from Arthur’s custody.",
+          "why": "It shows how personal family histories are used in political attacks, which can influence voter perceptions.",
+          "publishedAt": "2026-10-22T19:27:57+00:00",
+          "firstSeen": "2026-10-22T19:27:57+00:00",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6z981l59wnwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "4cd65a8627ef20",
+          "cat": "World",
+          "title": "France extends curfew in Paris and bans protests in Marseille and Lyon after weekend riots",
+          "summary": "Paris is extending a partial curfew that restricts movement in parts of the city until Monday, while Marseille and Lyon have imposed a total ban on protests for the weekend. The Louvre, Orsay and Picasso museums in Paris will be closed on Saturday. The measures follow large protests over the cost of living and school conditions that escalated into riots and looting, damaging businesses and historic buildings.",
+          "why": "The restrictions are intended to curb further violence and protect public safety amid the unrest.",
+          "publishedAt": "2026-10-22T19:25:26+00:00",
+          "firstSeen": "2026-10-22T19:25:26+00:00",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "8f2f8c25fcf6bf",
+          "cat": "World",
+          "title": "Premature twins struggle to survive after fleeing Houthi advance in Yemen’s Kahboub mountains",
+          "summary": "Seven‑week‑old twins Raghad Hassan and Raad, born prematurely, have been fighting for survival as fighting intensified in Yemen’s civil war. When Houthi forces reached their village in the Kahboub mountains, their family of seven fled on foot with only blankets. During the walk the twins grew weaker, with worsening vomiting and diarrhoea, their mother Lina said.",
+          "why": "The case illustrates the severe humanitarian impact of the Yemen conflict on infants and displaced families.",
+          "publishedAt": "2026-10-22T15:56:36+00:00",
+          "firstSeen": "2026-10-22T15:56:36+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "b694d05b4ae55b",
+          "cat": "India",
+          "title": "RBI focuses on interest‑rate gap with G7 as inflation risks rise",
+          "summary": "The Reserve Bank of India is monitoring the interest‑rate gap with major G7 economies while assessing rising inflation and input‑cost pressures. Recent GDP data show resilience, supported by strong private consumption and exports. YES Bank forecasts a cumulative RBI policy‑rate increase of 50 basis points.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-22T08:49:00+00:00",
+          "firstSeen": "2026-10-22T08:49:00+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms"
+        },
+        {
+          "id": "009fcd80ff1a32",
+          "cat": "India",
+          "title": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
+          "summary": "The RBI has asked financial entities to remove management and administrative interfaces from public internet access, enforce multi-factor authentication for administrative access, and restrict access to cloud and backend systems on a least-privilege basis. The RBI issued the advisory on October 19, shortly after CERT-In warned about the growing use of artificial intelligence agents to carry out cyberattacks.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-22T19:07:54+00:00",
+          "firstSeen": "2026-10-22T19:07:54+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-asks-banks-payment-firms-to-forensically-clear-tech-environments-in-case-of-a-data-breach/articleshow/135126425.cms"
+        },
+        {
+          "id": "e0887e433f86a8",
+          "cat": "AI",
+          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+          "summary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company . TypeSafe’s Jev model created a category for deep learning models that act as super classifiers: Given a set of options, they can quickly make choices and offer a confidence rating in their decision.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-10-22T19:00:00+00:00",
+          "firstSeen": "2026-10-22T19:00:00+00:00",
+          "importanceScore": 10.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
+        },
+        {
+          "id": "630ca04b1f8861",
+          "cat": "India",
+          "title": "India-EU trade deal could become operational in early-2027, Piyush Goyal says",
+          "summary": "India's trade minister Piyush Goyal announced that the EU FTA is expected to be signed soon. The deal aims to boost market access and bilateral trade between India and the EU significantly.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-10-22T12:05:58+00:00",
+          "firstSeen": "2026-10-22T12:05:58+00:00",
+          "importanceScore": 10.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-free-trade-agreement-operational-four-five-months-after-signing-piyush-goyal/articleshow/135118473.cms"
+        }
+      ]
     }
   ],
   "events": {
-    "85b625737b27fb": {
-      "id": "85b625737b27fb",
-      "firstSeen": "2026-10-15T14:14:51+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-15T15:06:22.977089+00:00",
-          "title": "Jio Platforms launches mega IPO valued at over Rs 10 lakh crore",
-          "summary": "Jio Platforms announced a public offering with an issue size of Rs 30,213 crore and a valuation exceeding Rs 10 lakh crore, which the source describes as the biggest‑ever public issue in India. The announcement emphasizes the scale of the raise and its historic significance for the Indian capital market.",
-          "importanceScore": 15.8,
-          "sourceCount": 1,
-          "sourceQuality": "general",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-15T15:11:59.370843+00:00",
-          "title": "Jio Platforms launches Rs 30,213 crore IPO with >Rs 10 lakh crore valuation",
-          "summary": "Jio Platforms announced a mega initial public offering with an issue size of Rs 30,213 crore and a valuation exceeding Rs 10 lakh crore, which the source describes as India’s biggest‑ever public issue. The offering is positioned as a historic event for Mukesh Ambani’s telecom and digital services group.",
-          "importanceScore": 15.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-15T19:11:07.208307+00:00",
-          "title": "Jio Platforms announces Rs 30,213 crore IPO with valuation above Rs 10 lakh crore",
-          "summary": "Jio Platforms disclosed a mega initial public offering with an issue size of Rs 30,213 crore and a valuation exceeding Rs 10 lakh crore, making it the largest public issue in India to date. The announcement highlighted that the prospectus provides information on the IPO dates, price band and guaranteed minimum price (GMP) for investors.",
-          "importanceScore": 14.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-15T22:21:54.661603+00:00",
-          "title": "Jio Platforms launches Rs 30,213 crore IPO, valued at over Rs 10 lakh crore",
-          "summary": "Jio Platforms announced a public offering of shares with an issue size of Rs 30,213 crore, valuing the company at more than Rs 10 lakh crore. The offering is described as the biggest public issue ever in India. The announcement includes details on IPO dates, price band and the GMP for investors.",
-          "importanceScore": 14.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-15T22:21:54.661603+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Jio Platforms launches Rs 30,213 crore IPO, valued at over Rs 10 lakh crore",
-      "latestSummary": "Jio Platforms announced a public offering of shares with an issue size of Rs 30,213 crore, valuing the company at more than Rs 10 lakh crore. The offering is described as the biggest public issue ever in India. The announcement includes details on IPO dates, price band and the GMP for investors.",
-      "why": "The scale of the IPO could set new benchmarks for capital raising in Indian markets.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-valuation-gmp-key-numbers-of-ambanis-telecom-giant-decoded/videoshow/134970140.cms"
-    },
     "a82394000aee3b": {
       "id": "a82394000aee3b",
       "firstSeen": "2026-10-15T11:26:51+00:00",
@@ -2334,31 +2252,6 @@
       "latestSummary": "\"You are telling me, I can't come to school?\" says a teenage girl in a navy blue Islamic headscarf, captured on video challenging a staff member at the entrance to her school. The footage has been shared widely on social media, and shows a group of girls in hijabs standing behind her applauding as she continues: \"Why should I have to give up my religion?\" Last Monday the education ministry in Azerbaijan began enforcing new uniform rules, turning away female pupils wearing hijabs.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss"
-    },
-    "4d86cd9c0fb1c4": {
-      "id": "4d86cd9c0fb1c4",
-      "firstSeen": "2026-10-15T12:54:05+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-15T22:21:54.661603+00:00",
-          "title": "Jio Platforms holds press conference ahead of IPO, Ambani siblings discuss growth and market share",
-          "summary": "Jio Platforms convened a press conference before its upcoming IPO, where Akash and Isha Ambani spoke to the media about the company's growth plans, financial discipline and market position. Isha Ambani said the firm’s motto is “Growth is life” and that financial prudence is part of its DNA, while Akash Ambani noted Jio carries about 60 % of India’s data traffic.",
-          "importanceScore": 14.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-15T22:21:54.661603+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Jio Platforms holds press conference ahead of IPO, Ambani siblings discuss growth and market share",
-      "latestSummary": "Jio Platforms convened a press conference before its upcoming IPO, where Akash and Isha Ambani spoke to the media about the company's growth plans, financial discipline and market position. Isha Ambani said the firm’s motto is “Growth is life” and that financial prudence is part of its DNA, while Akash Ambani noted Jio carries about 60 % of India’s data traffic.",
-      "why": "The remarks give investors insight into Jio’s strategic focus and dominant market share ahead of the offering.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-ipo-akash-and-isha-ambani-speak-at-jio-press-conference/videoshow/134968659.cms"
     },
     "2200b7c85c3d8d": {
       "id": "2200b7c85c3d8d",
@@ -6038,12 +5931,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-10-22T23:24:40.938724+00:00",
+          "title": "RBI focuses on interest‑rate gap with G7 as inflation risks rise",
+          "summary": "The Reserve Bank of India is monitoring the interest‑rate gap with major G7 economies while assessing rising inflation and input‑cost pressures. Recent GDP data show resilience, supported by strong private consumption and exports. YES Bank forecasts a cumulative RBI policy‑rate increase of 50 basis points.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
+      "lastSeen": "2026-10-22T23:24:40.938724+00:00",
       "cat": "India",
-      "latestTitle": "RBI weighs inflation risks as interest‑rate gap with G7 draws focus, YES Bank forecasts 50 bps hike",
-      "latestSummary": "The RBI is assessing inflation risks as the interest‑rate gap with G7 economies draws attention. Recent GDP data show the Indian economy remains resilient, supported by strong private consumption and exports. YES Bank forecasts a cumulative 50‑basis‑point rate increase by the RBI in the near term.",
+      "latestTitle": "RBI focuses on interest‑rate gap with G7 as inflation risks rise",
+      "latestSummary": "The Reserve Bank of India is monitoring the interest‑rate gap with major G7 economies while assessing rising inflation and input‑cost pressures. Recent GDP data show resilience, supported by strong private consumption and exports. YES Bank forecasts a cumulative RBI policy‑rate increase of 50 basis points.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms"
     },
@@ -6126,9 +6032,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-22T23:24:40.938724+00:00",
+          "title": "India-EU trade deal could become operational in early-2027, Piyush Goyal says",
+          "summary": "India's trade minister Piyush Goyal announced that the EU FTA is expected to be signed soon. The deal aims to boost market access and bilateral trade between India and the EU significantly.",
+          "importanceScore": 10.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-10-22T15:20:52.860366+00:00",
+      "lastSeen": "2026-10-22T23:24:40.938724+00:00",
       "cat": "India",
       "latestTitle": "India-EU trade deal could become operational in early-2027, Piyush Goyal says",
       "latestSummary": "India's trade minister Piyush Goyal announced that the EU FTA is expected to be signed soon. The deal aims to boost market access and bilateral trade between India and the EU significantly.",
@@ -6151,13 +6070,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-22T23:24:40.938724+00:00",
+          "title": "France extends curfew in Paris and bans protests in Marseille and Lyon after weekend riots",
+          "summary": "Paris is extending a partial curfew that restricts movement in parts of the city until Monday, while Marseille and Lyon have imposed a total ban on protests for the weekend. The Louvre, Orsay and Picasso museums in Paris will be closed on Saturday. The measures follow large protests over the cost of living and school conditions that escalated into riots and looting, damaging businesses and historic buildings.",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
+      "lastSeen": "2026-10-22T23:24:40.938724+00:00",
       "cat": "World",
-      "latestTitle": "France extends Paris curfew and bans protests in Marseille and Lyon",
-      "latestSummary": "Paris will keep a partial curfew in parts of the city until Monday, while Marseille and Lyon have imposed a total ban on protests for the weekend. The Louvre, Orsay and Picasso museums will be closed on Saturday as authorities anticipate further demonstrations. The measures follow weekend riots and looting that damaged businesses and historic buildings after protests over the cost of living and school conditions.",
-      "why": "The restrictions aim to restore public order and protect cultural sites amid the unrest.",
+      "latestTitle": "France extends curfew in Paris and bans protests in Marseille and Lyon after weekend riots",
+      "latestSummary": "Paris is extending a partial curfew that restricts movement in parts of the city until Monday, while Marseille and Lyon have imposed a total ban on protests for the weekend. The Louvre, Orsay and Picasso museums in Paris will be closed on Saturday. The measures follow large protests over the cost of living and school conditions that escalated into riots and looting, damaging businesses and historic buildings.",
+      "why": "The restrictions are intended to curb further violence and protect public safety amid the unrest.",
       "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
     },
     "8f2f8c25fcf6bf": {
@@ -6176,13 +6108,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-22T23:24:40.938724+00:00",
+          "title": "Premature twins struggle to survive after fleeing Houthi advance in Yemen’s Kahboub mountains",
+          "summary": "Seven‑week‑old twins Raghad Hassan and Raad, born prematurely, have been fighting for survival as fighting intensified in Yemen’s civil war. When Houthi forces reached their village in the Kahboub mountains, their family of seven fled on foot with only blankets. During the walk the twins grew weaker, with worsening vomiting and diarrhoea, their mother Lina said.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
+      "lastSeen": "2026-10-22T23:24:40.938724+00:00",
       "cat": "World",
-      "latestTitle": "Premature twins displaced from Yemen village amid Houthi attack",
-      "latestSummary": "Twins Raghad Hassan and her brother Raad were born premature just seven weeks ago. When Houthis reached their village in the Kahboub mountains, their family of seven fled amid bombs, missiles, and drone attacks, walking three days before being given a a lift to Aden.",
-      "why": "Illustrates how the conflict directly endangers civilians, especially vulnerable infants, underscoring the need for humanitarian assistance.",
+      "latestTitle": "Premature twins struggle to survive after fleeing Houthi advance in Yemen’s Kahboub mountains",
+      "latestSummary": "Seven‑week‑old twins Raghad Hassan and Raad, born prematurely, have been fighting for survival as fighting intensified in Yemen’s civil war. When Houthi forces reached their village in the Kahboub mountains, their family of seven fled on foot with only blankets. During the walk the twins grew weaker, with worsening vomiting and diarrhoea, their mother Lina said.",
+      "why": "The case illustrates the severe humanitarian impact of the Yemen conflict on infants and displaced families.",
       "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
     },
     "e0887e433f86a8": {
@@ -6201,13 +6146,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-22T23:24:40.938724+00:00",
+          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+          "summary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company . TypeSafe’s Jev model created a category for deep learning models that act as super classifiers: Given a set of options, they can quickly make choices and offer a confidence rating in their decision.",
+          "importanceScore": 10.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
+      "lastSeen": "2026-10-22T23:24:40.938724+00:00",
       "cat": "AI",
-      "latestTitle": "OpenAI makes Decisions API widely available",
-      "latestSummary": "OpenAI released its Decisions API to all customers, repurposing the ChatGPT Luna model to deliver faster, lower‑cost inference. The API cuts typical response times from one‑to‑three seconds to about 100‑180 ms and adds voice and visual modalities, with latency optimizations targeting inference resources worldwide. The launch follows TypeSafe’s Jev model, which created a market for rapid “super‑classifier” decision systems.",
-      "why": "It provides developers with a quicker, cheaper alternative for decision‑oriented workflows, expanding options beyond traditional LLMs.",
+      "latestTitle": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "latestSummary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company . TypeSafe’s Jev model created a category for deep learning models that act as super classifiers: Given a set of options, they can quickly make choices and offer a confidence rating in their decision.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
     },
     "bd4ac176abdff7": {
@@ -6234,7 +6192,57 @@
       "latestSummary": "Canva announced the release of Canva Craft, its first image‑generation model built by its research team. The model works in two stages: first it creates a plan that captures spatial relationships, scale, hierarchy and text details, then it generates images up to 2K resolution in about 30 aspect ratios. It is trained on human‑designed templates rather than photographs and allows precise edits without affecting other image parts.",
       "why": "The launch gives Canva a direct AI‑generated image capability, positioning it to compete with established models from Google, OpenAI, ByteDance and Meta.",
       "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+    },
+    "75ab97cd787667": {
+      "id": "75ab97cd787667",
+      "firstSeen": "2026-10-22T19:27:57+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-22T23:24:40.938724+00:00",
+          "title": "Ohio Democratic candidate Amy Acton condemns opponent's ad featuring estranged mother",
+          "summary": "Amy Acton, the Democratic candidate for Ohio governor, called a campaign advertisement by her Republican opponent despicable. The ad features Acton's estranged mother, Donna Arthur, accusing Acton of lying her entire life. The spot does not mention that Arthur’s husband was charged with raping Acton as a child and that Acton and her brother were subsequently removed from Arthur’s custody.",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-22T23:24:40.938724+00:00",
+      "cat": "World",
+      "latestTitle": "Ohio Democratic candidate Amy Acton condemns opponent's ad featuring estranged mother",
+      "latestSummary": "Amy Acton, the Democratic candidate for Ohio governor, called a campaign advertisement by her Republican opponent despicable. The ad features Acton's estranged mother, Donna Arthur, accusing Acton of lying her entire life. The spot does not mention that Arthur’s husband was charged with raping Acton as a child and that Acton and her brother were subsequently removed from Arthur’s custody.",
+      "why": "It shows how personal family histories are used in political attacks, which can influence voter perceptions.",
+      "url": "https://www.bbc.co.uk/news/articles/c6z981l59wnwo?at_medium=RSS&at_campaign=rss"
+    },
+    "009fcd80ff1a32": {
+      "id": "009fcd80ff1a32",
+      "firstSeen": "2026-10-22T19:07:54+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-22T23:24:40.938724+00:00",
+          "title": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
+          "summary": "The RBI has asked financial entities to remove management and administrative interfaces from public internet access, enforce multi-factor authentication for administrative access, and restrict access to cloud and backend systems on a least-privilege basis. The RBI issued the advisory on October 19, shortly after CERT-In warned about the growing use of artificial intelligence agents to carry out cyberattacks.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-22T23:24:40.938724+00:00",
+      "cat": "India",
+      "latestTitle": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
+      "latestSummary": "The RBI has asked financial entities to remove management and administrative interfaces from public internet access, enforce multi-factor authentication for administrative access, and restrict access to cloud and backend systems on a least-privilege basis. The RBI issued the advisory on October 19, shortly after CERT-In warned about the growing use of artificial intelligence agents to carry out cyberattacks.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-asks-banks-payment-firms-to-forensically-clear-tech-environments-in-case-of-a-data-breach/articleshow/135126425.cms"
     }
   },
-  "updated": "2026-10-22T20:09:24.293516+00:00"
+  "updated": "2026-10-22T23:24:40.938724+00:00"
 }
