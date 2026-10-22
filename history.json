@@ -3,106 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-19T15:39:13.316202+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "bd1747a917ef58",
-          "cat": "World",
-          "title": "Australian MP Helen Haines critically injured after being struck by a car in Wangaratta",
-          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta constituency office on Monday afternoon and was taken to a Melbourne hospital where she remains in critical condition. Police detained a 43‑year‑old man from nearby Tarrawingee after a passerby stopped the vehicle, and a knife was found inside the car. Investigators are assessing whether the collision was intentional, but have said there is no ongoing community threat.",
-          "why": "The incident underscores the vulnerability of elected officials to violence and the need for effective security measures.",
-          "publishedAt": "2026-10-19T14:09:54+00:00",
-          "firstSeen": "2026-10-19T14:09:54+00:00",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "e041a113a22061",
-          "cat": "Indian Markets",
-          "title": "US stocks rebound as AI and chip shares recover ahead of earnings",
-          "summary": "On 19 Oct 2026 US equity indexes rose, with the Nasdaq 100 up about 1.2% and the S&P 500 gaining roughly 0.6% after a sharp sell‑off the day before. Semiconductor and AI‑linked stocks led the rally; CoreWeave jumped 3% after a Goldman Sachs upgrade and SpaceX and Tesla advanced ahead of their earnings releases. The move came as investors returned to technology names ahead of a busy earnings week.",
-          "why": "The rally occurred ahead of a busy earnings week, potentially shaping expectations for upcoming tech reports.",
-          "publishedAt": "2026-10-19T13:38:31+00:00",
-          "firstSeen": "2026-10-19T13:38:31+00:00",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-ai-stocks-rebound-ahead-of-major-earnings/articleshow/135050156.cms"
-        },
-        {
-          "id": "37f3ec213ac53c",
-          "cat": "India",
-          "title": "Trump waives Russia sanctions, easing India’s energy concerns as US trade deal nears",
-          "summary": "US President Donald Trump waived key Russian sanctions which may enhance trade relations with India. This decision is expected to provide negotiating space for a potential trade deal.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-19T12:03:41+00:00",
-          "firstSeen": "2026-10-19T12:03:41+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms"
-        },
-        {
-          "id": "f8dbf9e73187e2",
-          "cat": "India",
-          "title": "US very close to finalising trade deal with India, says Marco Rubio",
-          "summary": "US Secretary of State Marco Rubio said on Monday that Washington is close to finalising a trade deal with India. He noted that energy supply considerations are among the factors taken into account when deciding on national security waivers related to Russian oil and gas sanctions.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-19T05:53:51+00:00",
-          "firstSeen": "2026-10-19T05:53:51+00:00",
-          "importanceScore": 10.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/america-very-close-to-finalising-trade-deal-with-india-marco-rubio/videoshow/135041177.cms"
-        },
-        {
-          "id": "938473577306ba",
-          "cat": "AI",
-          "title": "Anthropic creates public‑benefit fund funded by 5% of its shares",
-          "summary": "Anthropic announced it is establishing a wholly‑owned public‑benefit fund and will allocate 5% of its shares to it. The fund can receive an additional 2% of shares for each 50% increase in Anthropic’s valuation and may make large donations to nonprofits or direct distributions to specific populations. The company also reaffirmed a $200 million commitment to study AI’s impact on employment.",
-          "why": "The fund provides a mechanism for Anthropic to allocate resources toward societal‑good projects.",
-          "publishedAt": "2026-10-18T20:37:40+00:00",
-          "firstSeen": "2026-10-18T20:37:40+00:00",
-          "importanceScore": 9.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
-        }
-      ]
-    },
-    {
       "at": "2026-10-19T21:05:39.154526+00:00",
       "changeSummary": {
         "new": 6,
@@ -1943,6 +1843,124 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-free-trade-agreement-operational-four-five-months-after-signing-piyush-goyal/articleshow/135118473.cms"
         }
       ]
+    },
+    {
+      "at": "2026-10-22T20:09:24.293516+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "4cd65a8627ef20",
+          "cat": "World",
+          "title": "France extends Paris curfew and bans protests in Marseille and Lyon",
+          "summary": "Paris will keep a partial curfew in parts of the city until Monday, while Marseille and Lyon have imposed a total ban on protests for the weekend. The Louvre, Orsay and Picasso museums will be closed on Saturday as authorities anticipate further demonstrations. The measures follow weekend riots and looting that damaged businesses and historic buildings after protests over the cost of living and school conditions.",
+          "why": "The restrictions aim to restore public order and protect cultural sites amid the unrest.",
+          "publishedAt": "2026-10-22T19:25:26+00:00",
+          "firstSeen": "2026-10-22T19:25:26+00:00",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "b694d05b4ae55b",
+          "cat": "India",
+          "title": "RBI weighs inflation risks as interest‑rate gap with G7 draws focus, YES Bank forecasts 50 bps hike",
+          "summary": "The RBI is assessing inflation risks as the interest‑rate gap with G7 economies draws attention. Recent GDP data show the Indian economy remains resilient, supported by strong private consumption and exports. YES Bank forecasts a cumulative 50‑basis‑point rate increase by the RBI in the near term.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-22T08:49:00+00:00",
+          "firstSeen": "2026-10-22T08:49:00+00:00",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms"
+        },
+        {
+          "id": "0328f8e3bb7e46",
+          "cat": "Indian Markets",
+          "title": "Indian bond yields rise above 7.45% as oil prices hit $112.50 and RBI lifts repo rate",
+          "summary": "On Thursday the benchmark yield on Indian government bonds moved above 7.45%. In the same session crude oil prices climbed to $112.50 a barrel in Asian trading amid geopolitical tensions. The Reserve Bank of India raised its repo rate to 5.50% and signalled that further hikes are possible, prompting heightened inflation concerns.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-22T12:20:06+00:00",
+          "firstSeen": "2026-10-22T12:20:06+00:00",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-tumble-on-oil-surge-rbi-rate-hike-fears/articleshow/135118875.cms"
+        },
+        {
+          "id": "8f2f8c25fcf6bf",
+          "cat": "World",
+          "title": "Premature twins displaced from Yemen village amid Houthi attack",
+          "summary": "Twins Raghad Hassan and her brother Raad were born premature just seven weeks ago. When Houthis reached their village in the Kahboub mountains, their family of seven fled amid bombs, missiles, and drone attacks, walking three days before being given a a lift to Aden.",
+          "why": "Illustrates how the conflict directly endangers civilians, especially vulnerable infants, underscoring the need for humanitarian assistance.",
+          "publishedAt": "2026-10-22T15:56:36+00:00",
+          "firstSeen": "2026-10-22T15:56:36+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "e0887e433f86a8",
+          "cat": "AI",
+          "title": "OpenAI makes Decisions API widely available",
+          "summary": "OpenAI released its Decisions API to all customers, repurposing the ChatGPT Luna model to deliver faster, lower‑cost inference. The API cuts typical response times from one‑to‑three seconds to about 100‑180 ms and adds voice and visual modalities, with latency optimizations targeting inference resources worldwide. The launch follows TypeSafe’s Jev model, which created a market for rapid “super‑classifier” decision systems.",
+          "why": "It provides developers with a quicker, cheaper alternative for decision‑oriented workflows, expanding options beyond traditional LLMs.",
+          "publishedAt": "2026-10-22T19:00:00+00:00",
+          "firstSeen": "2026-10-22T19:00:00+00:00",
+          "importanceScore": 11.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
+        },
+        {
+          "id": "bd4ac176abdff7",
+          "cat": "AI",
+          "title": "Canva launches its first AI image generation model, Canva Craft",
+          "summary": "Canva announced the release of Canva Craft, its first image‑generation model built by its research team. The model works in two stages: first it creates a plan that captures spatial relationships, scale, hierarchy and text details, then it generates images up to 2K resolution in about 30 aspect ratios. It is trained on human‑designed templates rather than photographs and allows precise edits without affecting other image parts.",
+          "why": "The launch gives Canva a direct AI‑generated image capability, positioning it to compete with established models from Google, OpenAI, ByteDance and Meta.",
+          "publishedAt": "2026-10-22T19:00:00+00:00",
+          "firstSeen": "2026-10-22T19:00:00+00:00",
+          "importanceScore": 10.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+        }
+      ]
     }
   ],
   "events": {
@@ -2190,57 +2208,6 @@
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
     },
-    "0e560e5e3c1068": {
-      "id": "0e560e5e3c1068",
-      "firstSeen": "2026-10-14T20:29:05+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-15T15:06:22.977089+00:00",
-          "title": "Student protests turn violent in Tirana, targeting ministries",
-          "summary": "Thousands of students took to the streets in Tirana, Albania’s capital, on the second day of anti‑government protests, moving from a rally outside the Ministry of Education to attacks on several government buildings. Part of the education ministry was set on fire and the prime minister’s office, finance ministry, interior ministry and nearby businesses were also attacked. Deputy Prime Minister Albana Koçiu called for calm, saying “Albania does not need to burn to change.”",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Jarvis verification is now available for this event."
-        },
-        {
-          "at": "2026-10-15T15:11:59.370843+00:00",
-          "title": "Student protesters attack government buildings in Albania",
-          "summary": "Thousands of students have taken to the streets in the Albanian capital of Tirana, attacking several government buildings on the second day of violent anti-government protests. Albania's Deputy Prime Minister ​Albana Koçiu has called for \"calmness, self-restraint and maturity\" and said \"Albania does not need to burn to change\".",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-15T19:11:07.208307+00:00",
-          "title": "Student protests in Tirana turn violent, targeting ministries",
-          "summary": "Thousands of students marched in Tirana on the second day of anti‑government protests that began outside the Ministry of Education on Tuesday. On Wednesday, part of the education ministry building was set on fire and the prime minister’s office, finance and interior ministries, as well as nearby businesses, were attacked. Dozens of protesters wearing gas masks and balaclavas threw rocks and firecrackers at the education ministry’s gates.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-15T19:11:07.208307+00:00",
-      "cat": "World",
-      "latestTitle": "Student protests in Tirana turn violent, targeting ministries",
-      "latestSummary": "Thousands of students marched in Tirana on the second day of anti‑government protests that began outside the Ministry of Education on Tuesday. On Wednesday, part of the education ministry building was set on fire and the prime minister’s office, finance and interior ministries, as well as nearby businesses, were attacked. Dozens of protesters wearing gas masks and balaclavas threw rocks and firecrackers at the education ministry’s gates.",
-      "why": "The unrest highlights student dissatisfaction with university conditions and job prospects, which could affect Albania’s social stability.",
-      "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss"
-    },
     "86cd4ceb3a8f7e": {
       "id": "86cd4ceb3a8f7e",
       "firstSeen": "2026-10-15T13:08:20+00:00",
@@ -2317,31 +2284,6 @@
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-clarifies-interbank-trades-ecbs-coupons-not-part-of-ferr/articleshow/134979553.cms"
     },
-    "18e42e73746c9a": {
-      "id": "18e42e73746c9a",
-      "firstSeen": "2026-10-15T09:28:55+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-15T19:11:07.208307+00:00",
-          "title": "IMF applauds India’s GDP data revamp, cites strong fundamentals amid energy shock",
-          "summary": "The International Monetary Fund praised India’s recent overhaul of its gross domestic product data and said the country entered an energy shock while maintaining strong economic fundamentals. The IMF’s comment reflects a positive assessment of the data revision and the underlying economy.",
-          "importanceScore": 13.8,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-15T19:11:07.208307+00:00",
-      "cat": "India",
-      "latestTitle": "IMF applauds India’s GDP data revamp, cites strong fundamentals amid energy shock",
-      "latestSummary": "The International Monetary Fund praised India’s recent overhaul of its gross domestic product data and said the country entered an energy shock while maintaining strong economic fundamentals. The IMF’s comment reflects a positive assessment of the data revision and the underlying economy.",
-      "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-applauds-indias-gdp-data-revamp-says-country-entered-energy-shock-with-strong-fundamentals/articleshow/134955663.cms"
-    },
     "5a0503e2a9246e": {
       "id": "5a0503e2a9246e",
       "firstSeen": "2026-10-15T16:15:06+00:00",
@@ -2392,31 +2334,6 @@
       "latestSummary": "\"You are telling me, I can't come to school?\" says a teenage girl in a navy blue Islamic headscarf, captured on video challenging a staff member at the entrance to her school. The footage has been shared widely on social media, and shows a group of girls in hijabs standing behind her applauding as she continues: \"Why should I have to give up my religion?\" Last Monday the education ministry in Azerbaijan began enforcing new uniform rules, turning away female pupils wearing hijabs.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss"
-    },
-    "fadf6c50df344d": {
-      "id": "fadf6c50df344d",
-      "firstSeen": "2026-10-15T17:18:49+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-15T19:11:07.208307+00:00",
-          "title": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
-          "summary": "Two security personnel have been killed in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Yemeni Prime Minister Shaya Zindani condemned the Houthis' attack on Aden, calling it \"cowardly\" and a \"continuation of their criminal behaviour\".",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-15T19:11:07.208307+00:00",
-      "cat": "World",
-      "latestTitle": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
-      "latestSummary": "Two security personnel have been killed in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Yemeni Prime Minister Shaya Zindani condemned the Houthis' attack on Aden, calling it \"cowardly\" and a \"continuation of their criminal behaviour\".",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss"
     },
     "4d86cd9c0fb1c4": {
       "id": "4d86cd9c0fb1c4",
@@ -6108,12 +6025,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-10-22T20:09:24.293516+00:00",
+          "title": "RBI weighs inflation risks as interest‑rate gap with G7 draws focus, YES Bank forecasts 50 bps hike",
+          "summary": "The RBI is assessing inflation risks as the interest‑rate gap with G7 economies draws attention. Recent GDP data show the Indian economy remains resilient, supported by strong private consumption and exports. YES Bank forecasts a cumulative 50‑basis‑point rate increase by the RBI in the near term.",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-22T15:20:52.860366+00:00",
+      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
       "cat": "India",
-      "latestTitle": "RBI focuses on interest‑rate gap with G7 amid inflation concerns, YES Bank sees 50 bps hike",
-      "latestSummary": "The Reserve Bank of India says its monetary policy is now shaped by the interest‑rate gap with major developed economies and by rising inflation and input‑cost pressures. Recent GDP data show resilience, supported by strong private consumption and exports. YES Bank predicts a cumulative 50‑basis‑point rate hike.",
+      "latestTitle": "RBI weighs inflation risks as interest‑rate gap with G7 draws focus, YES Bank forecasts 50 bps hike",
+      "latestSummary": "The RBI is assessing inflation risks as the interest‑rate gap with G7 economies draws attention. Recent GDP data show the Indian economy remains resilient, supported by strong private consumption and exports. YES Bank forecasts a cumulative 50‑basis‑point rate increase by the RBI in the near term.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms"
     },
@@ -6158,12 +6088,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-22T20:09:24.293516+00:00",
+          "title": "Indian bond yields rise above 7.45% as oil prices hit $112.50 and RBI lifts repo rate",
+          "summary": "On Thursday the benchmark yield on Indian government bonds moved above 7.45%. In the same session crude oil prices climbed to $112.50 a barrel in Asian trading amid geopolitical tensions. The Reserve Bank of India raised its repo rate to 5.50% and signalled that further hikes are possible, prompting heightened inflation concerns.",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-22T15:20:52.860366+00:00",
+      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Indian bond yields rise above 7.45% as oil hits $112.50 and RBI rate‑hike concerns grow",
-      "latestSummary": "On Thursday, benchmark Indian government bond yields rose above 7.45% as crude oil prices climbed to $112.50 per barrel in Asian trading amid geopolitical tensions. The Reserve Bank of India had recently lifted its repo rate to 5.50%, fueling expectations of further tightening. Inflation concerns grew, with forecasts that retail inflation could exceed the central bank’s tolerance band.",
+      "latestTitle": "Indian bond yields rise above 7.45% as oil prices hit $112.50 and RBI lifts repo rate",
+      "latestSummary": "On Thursday the benchmark yield on Indian government bonds moved above 7.45%. In the same session crude oil prices climbed to $112.50 a barrel in Asian trading amid geopolitical tensions. The Reserve Bank of India raised its repo rate to 5.50% and signalled that further hikes are possible, prompting heightened inflation concerns.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-tumble-on-oil-surge-rbi-rate-hike-fears/articleshow/135118875.cms"
     },
@@ -6191,7 +6134,107 @@
       "latestSummary": "India's trade minister Piyush Goyal announced that the EU FTA is expected to be signed soon. The deal aims to boost market access and bilateral trade between India and the EU significantly.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-free-trade-agreement-operational-four-five-months-after-signing-piyush-goyal/articleshow/135118473.cms"
+    },
+    "4cd65a8627ef20": {
+      "id": "4cd65a8627ef20",
+      "firstSeen": "2026-10-22T19:25:26+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-22T20:09:24.293516+00:00",
+          "title": "France extends Paris curfew and bans protests in Marseille and Lyon",
+          "summary": "Paris will keep a partial curfew in parts of the city until Monday, while Marseille and Lyon have imposed a total ban on protests for the weekend. The Louvre, Orsay and Picasso museums will be closed on Saturday as authorities anticipate further demonstrations. The measures follow weekend riots and looting that damaged businesses and historic buildings after protests over the cost of living and school conditions.",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
+      "cat": "World",
+      "latestTitle": "France extends Paris curfew and bans protests in Marseille and Lyon",
+      "latestSummary": "Paris will keep a partial curfew in parts of the city until Monday, while Marseille and Lyon have imposed a total ban on protests for the weekend. The Louvre, Orsay and Picasso museums will be closed on Saturday as authorities anticipate further demonstrations. The measures follow weekend riots and looting that damaged businesses and historic buildings after protests over the cost of living and school conditions.",
+      "why": "The restrictions aim to restore public order and protect cultural sites amid the unrest.",
+      "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
+    },
+    "8f2f8c25fcf6bf": {
+      "id": "8f2f8c25fcf6bf",
+      "firstSeen": "2026-10-22T15:56:36+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-22T20:09:24.293516+00:00",
+          "title": "Premature twins displaced from Yemen village amid Houthi attack",
+          "summary": "Twins Raghad Hassan and her brother Raad were born premature just seven weeks ago. When Houthis reached their village in the Kahboub mountains, their family of seven fled amid bombs, missiles, and drone attacks, walking three days before being given a a lift to Aden.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
+      "cat": "World",
+      "latestTitle": "Premature twins displaced from Yemen village amid Houthi attack",
+      "latestSummary": "Twins Raghad Hassan and her brother Raad were born premature just seven weeks ago. When Houthis reached their village in the Kahboub mountains, their family of seven fled amid bombs, missiles, and drone attacks, walking three days before being given a a lift to Aden.",
+      "why": "Illustrates how the conflict directly endangers civilians, especially vulnerable infants, underscoring the need for humanitarian assistance.",
+      "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
+    },
+    "e0887e433f86a8": {
+      "id": "e0887e433f86a8",
+      "firstSeen": "2026-10-22T19:00:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-22T20:09:24.293516+00:00",
+          "title": "OpenAI makes Decisions API widely available",
+          "summary": "OpenAI released its Decisions API to all customers, repurposing the ChatGPT Luna model to deliver faster, lower‑cost inference. The API cuts typical response times from one‑to‑three seconds to about 100‑180 ms and adds voice and visual modalities, with latency optimizations targeting inference resources worldwide. The launch follows TypeSafe’s Jev model, which created a market for rapid “super‑classifier” decision systems.",
+          "importanceScore": 11.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
+      "cat": "AI",
+      "latestTitle": "OpenAI makes Decisions API widely available",
+      "latestSummary": "OpenAI released its Decisions API to all customers, repurposing the ChatGPT Luna model to deliver faster, lower‑cost inference. The API cuts typical response times from one‑to‑three seconds to about 100‑180 ms and adds voice and visual modalities, with latency optimizations targeting inference resources worldwide. The launch follows TypeSafe’s Jev model, which created a market for rapid “super‑classifier” decision systems.",
+      "why": "It provides developers with a quicker, cheaper alternative for decision‑oriented workflows, expanding options beyond traditional LLMs.",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
+    },
+    "bd4ac176abdff7": {
+      "id": "bd4ac176abdff7",
+      "firstSeen": "2026-10-22T19:00:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-22T20:09:24.293516+00:00",
+          "title": "Canva launches its first AI image generation model, Canva Craft",
+          "summary": "Canva announced the release of Canva Craft, its first image‑generation model built by its research team. The model works in two stages: first it creates a plan that captures spatial relationships, scale, hierarchy and text details, then it generates images up to 2K resolution in about 30 aspect ratios. It is trained on human‑designed templates rather than photographs and allows precise edits without affecting other image parts.",
+          "importanceScore": 10.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
+      "cat": "AI",
+      "latestTitle": "Canva launches its first AI image generation model, Canva Craft",
+      "latestSummary": "Canva announced the release of Canva Craft, its first image‑generation model built by its research team. The model works in two stages: first it creates a plan that captures spatial relationships, scale, hierarchy and text details, then it generates images up to 2K resolution in about 30 aspect ratios. It is trained on human‑designed templates rather than photographs and allows precise edits without affecting other image parts.",
+      "why": "The launch gives Canva a direct AI‑generated image capability, positioning it to compete with established models from Google, OpenAI, ByteDance and Meta.",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
     }
   },
-  "updated": "2026-10-22T15:20:52.860366+00:00"
+  "updated": "2026-10-22T20:09:24.293516+00:00"
 }
