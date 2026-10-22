@@ -1,33 +1,23 @@
 {
-  "updated": "2026-10-22T07:57:44.966091+00:00",
+  "updated": "2026-10-22T14:06:13.430453+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 0.60%",
-      "direction": "up",
-      "move": "S&P/TSX Composite +0.60%",
-      "why": "Same-day market coverage explicitly linked the final move to: SpaceX and Super Micro Revive the AI Trade; oil prices support energy stocks, investors weigh Iran tensions By Investing.com; Financial, Technology Stocks Rise.",
+      "headline": "TSX slides as Meta and Tesla earnings weigh on market",
+      "direction": "down",
+      "move": "S&P/TSX Composite -0.67%",
+      "why": "TSX futures fell after Meta and Tesla earnings were released, preceding the index’s decline.",
       "drivers": [
         {
-          "label": "SpaceX and Super Micro Revive the AI Trade",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "oil prices support energy stocks, investors weigh Iran tensions By Investing.com",
-          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Financial, Technology Stocks Rise",
+          "label": "Meta, Tesla earnings",
           "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Oil Tops $110 – Check Top Gainers, Losers and Stocks to Watch",
-          "detail": "The Sunday Guardian explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Meta and Tesla earnings",
+          "detail": "Earnings releases from Meta and Tesla were followed by lower TSX futures, indicating negative sentiment.",
           "kind": "driver"
         }
       ],
@@ -36,18 +26,24 @@
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36325.0,
-        "previousClose": 36108.0,
-        "change": 217.0,
-        "changePct": 0.6,
+        "price": 36081.24,
+        "previousClose": 36325.0,
+        "change": -243.76,
+        "changePct": -0.67,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-21T20:20:01+00:00",
+        "asOf": "2026-10-22T14:06:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
+        {
+          "name": "Yahoo Finance",
+          "title": "TSX futures point lower following Meta, Tesla earnings - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOamVNRVZuM0pyV010TWx3VEJiemNESzZTYzNyT1hmWE84TTN5Rm9rVzllNW9hblhqQ3YxcTZOVHpXMm9mMUhnTzZWeXhReEZPUE94dXVKRmJ4Vm5FMDREeEtVSVp0bnBiSkVVVDJsOFQ0Yndhc3lpbXhlV0xoM09mZjhCWUZQazRpSGlQN3kydGc5UUhsa0F6OG5YYjNyaVE?oc=5",
+          "publishedAt": "2026-10-22T12:34:14+00:00"
+        },
         {
           "name": "Investing.com",
           "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.60% - Investing.com",
@@ -55,53 +51,47 @@
           "publishedAt": "2026-10-22T02:10:46+00:00"
         },
         {
+          "name": "Reuters",
+          "title": "TSX hits four-week high as investors cheer government support measures - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSU9QUl9QUEdabl9mc1o0WjB1RzNYYk92NFpjMm43RnRmWWtzZEs1cV9pTng4QlhwbUd2V1ZXMzhXeGsyWUZQUDVYRmZIN1oyX1hWZlNPYUw4TnN2bHZBcUxMUWZZQWVxUjZpbkVBc2d5cFZNUm1DV2FDUlV5ZkZBSW0wMTl6eTdwTk5pUFRxbUhoZ2xJdzZ4Mk1Zbm91N0Rh?oc=5",
+          "publishedAt": "2026-10-21T20:19:29+00:00"
+        },
+        {
+          "name": "The Motley Fool Canada",
+          "title": "TSX Today: Why Canadian Stocks Could Fall on Thursday, October 22 - The Motley Fool Canada",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR0dHUkNzcGtHc0JCdllvMFIxT0R1ZTVZYkJuUHUySFg2Y1NxX0RuRzZJS051RnF1VXJFLWVzMWZPNVZlblA0RlBIS201WHd3bGJ3Y3Q0NEZGNWNYOTJkRndQREpoS0MtZ2JDZzNNRExWZEx1cnJlakladXRjbU11T011OHZUZDZuNHpEd3k0RVg0RVU4Ry1fS29MQQ?oc=5",
+          "publishedAt": "2026-10-22T13:00:00+00:00"
+        },
+        {
+          "name": "The Globe and Mail",
+          "title": "Bank of Canada’s Rate Decision Is Less Than 2 Weeks Away: 3 TSX Stocks to Watch - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQc0xQQVRWaTFnWnZ1d3daZTAzY3BBV0JDc0poai1yNkNfVU1BMzRqd3Q1RDdnY1JmY1RFeURteGdaRGowbGFWNEs2amZ2Y2NmQ2cwLVptOWthTzhadWo3WEVqOUZJdVZ0UGtxMFdSMTdPYXRqSEV0LWRlOW5tSnVOaU5lVnBaMlRLLWFIc2JmMHhtOTZZSHpGX3d2ZURON0xMdXp4ekFPc0pDRTlUQkh5WXJuaGVvR2NOUjFaSkVBak1iV3g3NHg5LTJNS2YxVFdHVWdwRHJkTXNQSERWaUhoU2lVa1NKN1pLaHZoUzU1cDdJSmxmekE?oc=5",
+          "publishedAt": "2026-10-22T00:45:00+00:00"
+        },
+        {
           "name": "BBN Times",
           "title": "North American Stock Markets Today: S&P 500, Dow Jones, Nasdaq and TSX Rise as SpaceX and Super Micro Revive the AI Trade - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRkZfaGZBVmExSlUzUVhzQ05YcW9xcnMyckYySnNHTEotOUxxejBDNk1URmlHeU1IenlYTkQzREt2LTItNHdWaFI1ei1ZQ0dtNFd3V1hNa0UwWUZCd2p6bEhoRlV0V3c5NFQ3d0hxeFZneDAxUjhGaE9wLTdPZUppZjBKakhXMnJxbms2Q1ZUeW5CQlo4enJTRFBDM3RPYzFzby1seUJXaERZUldoejl2MjRDNnQ2UzRVem5WRmlPa2oyTzJvMlRKN3lRcDc0OVh3cjEyUVl5NDVtb3cwUGdyVEowcEVzTU90NVpyZm92UQ?oc=5",
           "publishedAt": "2026-10-21T23:50:22+00:00"
-        },
-        {
-          "name": "Investing.com Canada",
-          "title": "TSX ends higher as oil prices support energy stocks, investors weigh Iran tensions By Investing.com - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRHJ3cGNsQW1MaFN6ZHpKeldzcHd6WUloSGNwYjFrWFlfeFRhMWgzMEVRZW52YVl3TEl4bFRaMkRQVjlPLVhDeUtYdGpxQ3V0VTIwdVRWeDlWWVZUTWVraGJrMjJFTThRa3NTQ0NUOGthQ3VBSUlRWGFodnNwYUoydDNqWWJINjc1M2hYeGZZVDYtQ3pCb0lZb0l5SVVqMG93Nm1jTGVRVQ?oc=5",
-          "publishedAt": "2026-10-21T21:56:56+00:00"
-        },
-        {
-          "name": "Investing.com UK",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.60% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYkhrX1RwUVJKTWp5SnBLb1dTTC1DVU9iRWYza1pQTUIwTl9qSjR4YWpmMFZRd0plWWdiUVc4YmYwZlFEMzJCYV9rTWlBdGFVZGNRckFLTWpkNzBVSHJNUGt5Rk5vdWVLVHh5eXRMalJ1Qi1UX01MUUlyZXVFcDJkOE42NENNVWRNRHhMMlUyeXFkUW9BNjZiY0o1SFVWT3ZWc0paT0IxbXZ0LUVjNXROSUpiRHNvazJr?oc=5",
-          "publishedAt": "2026-10-21T20:30:00+00:00"
-        },
-        {
-          "name": "Yahoo Finance",
-          "title": "TSX Closer: The Index Gains More Than 200 Points as Financial, Technology Stocks Rise - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQ0pxNG9qU0dWRU9iUEZzLWwxU3Y4REw4SkFXWVc5QzB6cE0zTm9EVVB0SlZGel9TMHIyNzVibU5GeDI3QlZUeXZLQmRNSGtybFJ2QXAwRW1NMlB5aE55Z09CbjFqOHllTXcxbXhZdlA3bHFwTlVicDlXNUNxYUZTd0xrMGk0RnNnY2JTMk56M0NzNFNVWVZR?oc=5",
-          "publishedAt": "2026-10-21T20:19:36+00:00"
-        },
-        {
-          "name": "The Sunday Guardian",
-          "title": "Canada Stock Market (TSX) Today, October 21, 2026: Why Is the S&P/TSX Composite Rising? Bombardier and BlackBerry Rally as Oil Tops $110 – Check Top Gainers, Losers and Stocks to Watch - The Sunday Guardian",
-          "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOa3ktWlR4anZUSE5KZ2dMQzltNUY5eURFUDBqZVdCM3FWVTRIcENDN3BFYm81VEJNY1NSaTRpNjJaSDZJTmhacEVGTFJpQUdvZjBnQmxpWloyREJHOEJBMkk3SXhucjNsYTA5akpmTzdRa2drcXhYd0plUDZTdjBxSHF2cFl0WF9ic2ZHcDhkRWVQSmFxTkt6LVpqR3dGWEhwMlRQdV85Z2s1TTRvRTd2WkFPazVuTEtlYVRoNXhyWU5IVGRaVDRURVYyT1ZFZ0hZbHYzcFRUWVVXVWhJWTFTSnVaUGFyTEhHVll3UHdLajAyZU9WVFd0N05CSU5rdzdpMWdsRHpUeV9zYTMtY25lUkxqek5PLUd5dHdPWExOTHJNSnA2RU9uNnoweVNOWmE2cVViZC1OZEdDY01TTkItUmtn0gHHAkFVX3lxTFBxWElRa1JrTWcycVRReWVlT1VXSXVPMzN1TS1MaXlxVWdCX1dBSjRyQUtwS1Q2TU5GXzl2V0drUFpJYU5tNVE4SlZmQTRRem5NNzV2elhWdFY4bDRiSndGc01ldk1DZVktTERMZThxMFgzcEJreHl2R3lucGJSTXl4aFBjLTA1azdJQ0Z6WVctc3RKb0xveDZEX24yc3Z0UTJHcnl3bTZ0OWRvOUhKdTJGWHhiMXQwU3RtU2lYQWdKYkp2U29Vd3Z5OFpDdDdXY0Y0bjBNZHVib1lBbEZzcTN3VkctLWFzV3ZyRHVVMmhZbFpySmpXaEdmSjEwazZqN3IzX3dMdl9QcjFqOURLNnZJejdLcGdUU2hRMUxRNXJZTXhLM3VQRUZoNkNuQVcxQUN2aWZGMzhtUmFvcmgtbkFtOWYwaUptRQ?oc=5",
-          "publishedAt": "2026-10-21T15:10:45+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.85%",
+      "headline": "Nifty 50 fell 0.54%",
       "direction": "down",
-      "move": "Nifty 50 -0.85%",
-      "why": "Same-day market coverage explicitly linked the final move to: crude above USD 110 fuels inflation concerns; Sensex sheds 143 points, Nifty slips below 22,850; IT stocks shine.",
+      "move": "Nifty 50 -0.54%",
+      "why": "Same-day market coverage explicitly linked the final move to: Crude Oil Tops $111; crude oil tops $111; markets decline for 3rd day.",
       "drivers": [
         {
-          "label": "crude above USD 110 fuels inflation concerns",
-          "detail": "Devdiscourse explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Crude Oil Tops $111",
+          "detail": "News18 explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Sensex sheds 143 points, Nifty slips below 22,850; IT stocks shine",
-          "detail": "Zee Business explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "crude oil tops $111; markets decline for 3rd day",
+          "detail": "India Today explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -110,65 +100,65 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22618.25,
+        "price": 22687.65,
         "previousClose": 22811.35,
-        "change": -193.1,
-        "changePct": -0.85,
+        "change": -123.7,
+        "changePct": -0.54,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-22T07:57:58+00:00",
+        "asOf": "2026-10-22T10:01:03+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 73381.31,
+        "price": 73249.39,
         "previousClose": 73709.69,
-        "change": -328.38,
-        "changePct": -0.45,
+        "change": -460.3,
+        "changePct": -0.62,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-22T07:42:58+00:00",
+        "asOf": "2026-10-22T10:02:30+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "Livemint",
-          "title": "Why is stock market down today? Sensex drops over 700 points, Nifty crashes 1% - Top 3 reasons explained - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcV8ySzdzNTZxT0NaYzdxb0RlZ1d0SGd3aTRvSDdQRGFNNGZIeUxfOEl5cDZtN0xsOWtOZ2RDNTlSTjBtT0oyZjRXYUtNTHB0QnNMWXpCZlBEenlQSFlPRkVhb0djaTdMcDNMNTJMRkhIU2k3Tmp3MTMybjZTSk1OekdmNng3b2JpQlhiT2tQbDlETEZ0YkZEOFNrZEpqdTl4ZDRMZEw0R0FOUnFIa2puNVZyVWN5QmRWLVR6ZkFEcnlSdjQ1b09TZlR6aTFYX2lu0gHWAUFVX3lxTE43bURuemx2MzU3eXVBay0zY3otTkRfekRrdC14NU5fS0tWcnkxSjUyVWl1RFUwUUlfMHlOckEwbGJ5VHpjTHh2RTJ1Ykg2SlpTWEIzZmpLbzhBbDZsWEU5UERhcjhRTERvMTZsZHlCQUpOY185OEpJZ0hreWZpbkd6Q2dnMkdxYlJUaHhIbUJxd3N0M2VRdXpvY0syTEw2bmRYLWVHUVNmNWI4UXl3OTBYUElWX0R4UGJzYWFaVlhnWDYzUVVNWHh2eThmNUNVTlpCYVpsMFE?oc=5",
-          "publishedAt": "2026-10-22T04:02:38+00:00"
+          "name": "News18",
+          "title": "Market Today: Sensex Falls 460 Points, Nifty Ends Below 22,700 As Crude Oil Tops $111 - News18",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbVVySHdvQ2xSVWZkaE45QnJFNXFOWU1WOVFwMlJsNVBCQ0NKZHk3NjI0Y3NHV05oMWNSOHZvanBhX20wd29Ia3lPRHM2b2p0VHNXc2tnT0lnazRKWU5NVkpjSHE1dUExazRkc0c1MzlxdWRzZ19BYnJEVnBjbnBlTS1MbkFMYVl6cVBtTU4xejI5Wl9ubmZfLUNGWG5aN1pzMWRSbFY4dTBQaXY3YnZhRk1uakFkLVdsUlRyRy1qb3c2NTdwZEkteURONGNUZ3Zl0gHWAUFVX3lxTE00ZEpnZ2dkSkZxcklVUk1xU21CaDlYakNDWmhzTGhkSk9WbFgxLUR2V0VETWRLRGxOcENsbmtrWDlCRnlfTzY2b3BHLXBGWmxWaEM0b21uc3lRTU9QMU9FVVF5M1JHVXhKRmIwX0I0T3JxQkU2YzhSWVVfZW94cEN2TzRHSVgtZVpWbHkydHB4bnBaOGd4RmNRS2d4OXBYZWRuUXhfMVhwbGdzd1dXQlNLWElvSmNiSmluM0VwYlZHaGV2WlNhNElUSUhfZzR6U2NfT3VaaHc?oc=5",
+          "publishedAt": "2026-10-22T10:24:02+00:00"
         },
         {
-          "name": "scanx.trade",
-          "title": "Trade Setup for Today: GIFT Nifty Dips as Asian Markets Slide; Wall Street Rally and FII Buying Offer Support as of October 22, 2026 - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVFhPMmNRcHU4OXp2dDNZUURkOEhWOURud0RCakRhMnZjUDI4NnBfYVV2V25oLUdYU3RwUENGMlByTi1NblBHY0dwVVpGVTVHM2ROMkJCdUFmODJsSEpHTEhqdC1sT3dPZTFVYmxhbFBKV0ZPLVhybnpqcGs4V205c1VNakxkbXlZTHlmWU45VkcycGZTZEY0NGp6UzQzRXg1QWh1SWZ3d2xiWFdUcDlTVXVkdDEwUFRUU0NocmRoMklqZjRuMlktT1kxRXBwa0NrVnBaaE5rcTRSTVhKeDI0bjRveDBsOXlPTnlHR2ZEaWJ1YjdfeHU0Yy1iejgwMm1m?oc=5",
-          "publishedAt": "2026-10-22T02:39:58+00:00"
+          "name": "India Today",
+          "title": "Sensex, Nifty end in red as crude oil tops $111; markets decline for 3rd day - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTHlsMUkzOEkyOHJKY3BSNWdlX0dkR3JFRG90QS03UlBZN2M2M3RCVXc2RDJhNGR3SFFoUGJ6YkpQaFVLN0tVZDYwOWV4MWhVLXEzZkN5ZElEbmpHOU5fLWIyd3FwSmllUkxPLWhsTnBzWHlEdFNLdmlia3dQa2hPWDlzU0dkbFhYQWZSLS16R242SmZFam1iV1VtaFpXQ2kta29mWHI2ZWtfbHlMWGhsUUJ4dGdqeGk3S1JaaUhSTU5XRGRyX01US3htcnp0bGhPOHdYLWFn0gHbAUFVX3lxTE5ZRTRndFFQbk9PWVB5dUJGMXhsUHBFN0pBRWxzM2hubXdZZVJfM0tLRUZVRmJMRUR5cEU3ODZSTXZiWGFFYkE3OXZEazJyNWNUSEhIel9ENWNfU2VNQlZHTGd2VXdmVldZLTZEXy1xUU5KREZmOHUwQWNSYzFieVpKaU0tMFVRRC1WTVRCRFNab0F4Q0tHd2p0aE1mUEdmdDJLWk8yM1YtY2VXZXptR3Z5WmhMYVhDQkQ3ZU1TTnM0NHQ5b2JqTW9QbzExejkxTGdYcmlMTHM0WXczWQ?oc=5",
+          "publishedAt": "2026-10-22T10:04:11+00:00"
         },
         {
           "name": "Dalal Street Investment Journal",
           "title": "Pre-Market Update: GIFT Nifty Signals Lower Start; Crude Oil and Q2 Earnings in Focus - Dalal Street Investment Journal",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSzBwRXYtX2ktejgxMElGYjJmV1VKS1UwblljSWxlQTQxblppa0d1dmNmak1KYjZmUnMyckdlcVFWdDBORnROd3liX1I1REU2UUtpbnJzaE9wRk1LSXJXaUFCdlUxSmZmcFhZWlZQX0FlRDFmLURZQW9kb2tCRm9ELUF0SDZ4d1U5OEl4ZkNRLWdsOFNER29lOVBySlBSbl80dmZHVzhkUHI1QnQ4dzBaRTBfSjhEQWtwWDVlcXA2aVdvVXdhLW9PbEdxeWQ3N1NJNWhNSWMzVTBfY00?oc=5",
-          "publishedAt": "2026-10-22T02:19:31+00:00"
+          "publishedAt": "2026-10-22T04:49:35+00:00"
         },
         {
-          "name": "Univest",
-          "title": "Stock Market Down Today: 3 Reasons Behind the Sensex Nifty Fall - Univest",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYjlyMDBEYy1fYjEwSEU1RHRSdmtLblV2bi1mb0p1c1E5eld4clpGTjVDclM0ZnUtZmMxSmVtc19Cb25WYURwSFJYMHRkN2dLQ2U2R0pPRTRuelgzY0dRZ0s3M1hWZ1I2TW8wNU1vcWNvS2pSMDJtN1E2by1YcWFiaWRsbklwdXZRcFV3azgzWHpCSGdnMXktTGU3cExnbHNYQ1d6WnNWdHY5NnhGUTloWW01WWF0RTZWYnlkYTZ3?oc=5",
-          "publishedAt": "2026-10-22T04:40:00+00:00"
+          "name": "Dalal Street Investment Journal",
+          "title": "Opening Bell: Sensex Falls 573 Points, Nifty 50 Drops 0.87% as Oil Prices Rise; Jio Platforms IPO Enters Day 2 - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUTdiYnEtQW1qajNOdFpiUmpkZE9XVkdkeXRmTHdBUmRqR2VORnRPQlhXYlNYY2xWN2VlSVVBQ2RVdDdIdUkzVlhfUm9FVDd4WV9YU0JEeW1SRUFmM09KaGFFNGlXbTBOWDIwZml3SFNzQ25IY2xnM2xCMk5vLVdlR3Q3UEhmVnVFUll4bzlvcXRucVFHdXJReEhjZE9yNVFVcFRaV2EwYjZFeHg3NnVaRjdjcjZacHFXbThXVGpIVTdoODR1ZzdwenhCcFU4MU9vSDVUaVktM2Jsb3JSdkZmQ3lEMFpFVlp1ZVE?oc=5",
+          "publishedAt": "2026-10-22T04:04:05+00:00"
         },
         {
-          "name": "Bhaskar English",
-          "title": "Sensex falls by more than 600 points: Nifty also down 200 points, heavy selling in auto and pharma shares - Bhaskar English",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdXhjNm93XzUxT3VQXzVBYmZRbEVzazgtMk5qZkZGVGJpbUF2UjA1T1FBVS1pWGlvSDFLX0lVUFFFY1ZmYTgxS3NMZEJIXy00am9FMFJ4NnBTQmF0dDZueFNwcGlnNVVic2p4dzdmdUpRLWVmQkhVMUFaWVhTY3lTR1dNSDhleGtaX1VjbjRNbE9PdHh1VEJPTkYxRm8zbzV3NlpNRERMUnlEZ0QxUWU2N20wdFhWX015LVNvLWJJbnNVSU3SAcMBQVVfeXFMTnV4YzZvd181MU91UF81QWJmUWxFc2s4LTJOamZGRlRiaW1BdlIwNU9RQVUtaVhpb0gxS19JVVBRRWNWZmE4MUtzTGRCSF8tNGpvRTBSeDZwU0JhdHQ2bnhTcHBpZzVVYnNqeHc3ZnVKUS1lZkJIVTFBWllYU2N5U0dXTUg4ZXhrWl9VY240TWxPT3R4dVRCT05GMUZvM281dzZaTURETFJ5RGdEMVFlNjdtMHRYVl9NeS1Tby1iSW5zVUlN?oc=5",
-          "publishedAt": "2026-10-22T04:04:29+00:00"
+          "name": "Livemint",
+          "title": "Why is stock market down today? Sensex drops 460 points, Nifty ends at 22,688 - Top 3 reasons explained - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcV8ySzdzNTZxT0NaYzdxb0RlZ1d0SGd3aTRvSDdQRGFNNGZIeUxfOEl5cDZtN0xsOWtOZ2RDNTlSTjBtT0oyZjRXYUtNTHB0QnNMWXpCZlBEenlQSFlPRkVhb0djaTdMcDNMNTJMRkhIU2k3Tmp3MTMybjZTSk1OekdmNng3b2JpQlhiT2tQbDlETEZ0YkZEOFNrZEpqdTl4ZDRMZEw0R0FOUnFIa2puNVZyVWN5QmRWLVR6ZkFEcnlSdjQ1b09TZlR6aTFYX2lu0gHWAUFVX3lxTE43bURuemx2MzU3eXVBay0zY3otTkRfekRrdC14NU5fS0tWcnkxSjUyVWl1RFUwUUlfMHlOckEwbGJ5VHpjTHh2RTJ1Ykg2SlpTWEIzZmpLbzhBbDZsWEU5UERhcjhRTERvMTZsZHlCQUpOY185OEpJZ0hreWZpbkd6Q2dnMkdxYlJUaHhIbUJxd3N0M2VRdXpvY0syTEw2bmRYLWVHUVNmNWI4UXl3OTBYUElWX0R4UGJzYWFaVlhnWDYzUVVNWHh2eThmNUNVTlpCYVpsMFE?oc=5",
+          "publishedAt": "2026-10-22T04:02:38+00:00"
         },
         {
-          "name": "Devdiscourse",
-          "title": "Sensex falls 143 Points, Nifty slips 0.34% as crude above USD 110 fuels inflation concerns - Devdiscourse",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLTAxdnJRaGRYekpzNmhLMDZqd0d1Snpub09UTFlZdk9Ua0lHeE5IY2l0LVlISTIyUnZKNnMzRTZMTm9mOER5eVFKY2Z4eVVtR1R1SXJFRTh0ZVFPV2NsdzYtWTJSZ1NxZ0tTUlJ1Wi1FU0YzOTl1dFBoNnVhZHZRSXdZUHFrUE9sMUtiLU9hLW5fQVAtdkZpdjBTZnhBR05kcXZsM2MwbkFqenlwbUhFb3g3OUpWZW1nY2prR0dfdm56RFY1RWZQQ1dJMjFUeU1RMWdhY3VNM1oyX2UyenfSAd4BQVVfeXFMTy0wMXZyUWhkWHpKczZoSzA2andHdUp6bm9PVExZWXZPVGtJR3hOSGNpdC1ZSEkyMlJ2SjZzM0U2TE5vZjhEeXlRSmNmeHlVbUdUdUlyRUU4dGVRT1djbHc2LVkyUmdTcWdLU1JSdVotRVNGMzk5dXRQaDZ1YWR2UUl3WVBxa1BPbDFLYi1PYS1uX0FQLXZGaXYwU2Z4QUdOZHF2bDNjMG5Banp5cG1IRW94NzlKVmVtZ2Nqa0dHX3ZuekRWNUVmUENXSTIxVHlNUTFnYWN1TTNaMl9lMnp3?oc=5",
-          "publishedAt": "2026-10-21T10:23:33+00:00"
+          "name": "The Economic Times",
+          "title": "Why did market fall today? Sensex drops 460 points, Nifty closes below 22,700. Key factors behind Rs 3 lak - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOUHZIckFUQk9qdl9idHVTNjBSSXREM0hWdS1RbGlqOWhQZThXemVJazlRZUh3Z2Q1UHNhbERqN0IwWGt4SkQyd3ZfZS1jbEY0WElCdzM4MzI4YldXY2tObFM3d3F6YjFHMlRjVWJrSDBxVXpsTkVteHVqRE5SZUU2TjJuZndKUXRRbTl3MG54ZFdra3B6SHNCMFpGYWRGck1SZHBBLTJIN2lPem1iY2UwQ0dPSlA5ZjRfQU82QUJUYnFQX2tGQ2ptcENySHV5eWFJNGVGcFB5anF2MDh4M2dHNEVyX0E2VVowX21aUnpJcmhITVZQMnB3SW5EaXluMXM2LVNoUjN5WGpWcEgwY3hNYkpvSdIBmAJBVV95cUxORlFTY0FKNU9DYmhXUElDQm5JSHdndjAtbWltR2NZcjZxUEJ2ZzFwQTdiMDRQMG9WaFlfOUdrOTA2eXo5SXJRdGY1OWZxMWZIc09YVGdRQWI4Q3BveHprZGZOM2U1NnlCZ0NiUDQ2eG9oeEFja1BkVW5oZWZ1U2ptUHlibV8ydkREdi1QVmtOb2taNXRYcm1mVjJNS2hybXFGdzBxN0hvM2I3UTBHRnFSRWVTb2RJMWtwX0xZaXE2cFYyczduNVFqRjgtVEZVN0JXcnJpSW80SUROa3E5Rzd2QVpBNlVYSVNnTlNMbEU5NWtrQkhyMlQzSDd3WGFpU2NzWlprdk1EcF9GWF9IOHpRQVR5VmI1ejdY?oc=5",
+          "publishedAt": "2026-10-22T04:02:09+00:00"
         }
       ],
       "evidenceCount": 7
