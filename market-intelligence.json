@@ -1,101 +1,93 @@
 {
-  "updated": "2026-10-23T18:43:24.411876+00:00",
+  "updated": "2026-10-23T22:38:10.459659+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX slides as oil price surge and rate‑hike bets weigh on market",
+      "headline": "TSX slides as oil rally sparks inflation worries and rate‑hike bets",
       "direction": "down",
-      "move": "S&P/TSX Composite -0.43%",
-      "why": "Higher oil prices pushing crude above US$100 per barrel sparked inflation concerns and expectations of a Bank of Canada rate hike, while rising bond yields and a tech sell‑off added pressure.",
+      "move": "S&P/TSX Composite -0.52%",
+      "why": "An oil price rally heightened inflation concerns and fueled expectations of a Bank of Canada rate hike, pressuring the market.",
       "drivers": [
         {
-          "label": "oil, bond yields fuel inflation fears",
-          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Gold Retreats and AI Funding Fears Hit Tech Stocks",
+          "detail": "BigGo Finance explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "tech and gold mining shares slide",
-          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Oil price surge",
-          "detail": "Crude oil rose above US$100 per barrel, fueling inflation fears and BoC rate‑hike bets",
+          "label": "Oil rally fuels inflation concerns",
+          "detail": "Higher oil prices revived worries about rising inflation, which weighed on equities.",
           "kind": "context"
         },
         {
-          "label": "Bond yields",
-          "detail": "Higher bond yields heightened inflation concerns",
-          "kind": "driver"
+          "label": "Oil rally fuels BoC rate‑hike bets",
+          "detail": "The same oil price surge increased bets that the Bank of Canada will raise rates, dampening market sentiment.",
+          "kind": "context"
         }
       ],
-      "sectors": [
-        "Energy",
-        "Technology"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35818.26,
+        "price": 35788.18,
         "previousClose": 35973.5,
-        "change": -155.24,
-        "changePct": -0.43,
+        "change": -185.32,
+        "changePct": -0.52,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-23T18:43:16+00:00",
+        "asOf": "2026-10-23T20:20:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "The Globe and Mail",
-          "title": "TSX slips to one-week low as oil, bond yields fuel inflation fears - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV3Nub0FhczdlWjJ5dzZjY0YyOFB0c3Z4bmxDajhlWVJibjhublpELUMxUVdBX2J1UjBXQ0NPc2l2RnBmXzRjb3NJRXRCZjdZUHlPRVRBZEZGRHdZOS1QN21mZHd1S2E1bHBPMVFiMTNLMVl1QkthdEVuam5pUm0ydWxUVFFJc1p1V2I2bXRkTVZ6ZGZzd19td2hTUmJFMGN0eFdvRE5Bdlc0MVBlWXZBMVdCV1hvU0lYODJFVl9OQjctdWtOTVJxOEQxcTdpNlk2OTZma3hYd2M4QQ?oc=5",
-          "publishedAt": "2026-10-23T09:20:02+00:00"
+          "name": "TradingView",
+          "title": "TSX Closes Lower as Oil Rally Fuels Inflation Concerns - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa3pfVWY0WE11SmwwN3NGR1l4ODVGV0JxNWMtUFN6VUFEdm9rWV9qVi1RTDBhYldrNWpsYUJoTWtWS2JpOTJkOFpXQ3ZWVG9GUXdiTXdQOGFuS1JxNVJwNEdQUkY5X29ISmVDdFF3bmVCallxV0ttZEl6NDNOeFlRd3BPaEtpcVl4TjZxWUV0SVdCaTJuN1F1OE9WVjBKTE0zSmlteWJjVXA?oc=5",
+          "publishedAt": "2026-10-23T20:49:05+00:00"
         },
         {
-          "name": "Reuters",
-          "title": "TSX falls 1% as tech and gold mining shares slide - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcDctZl9BbnFBa3pSdnlpNkNYUV9ENzJZZjVITGNWZ1QxUDN3bl9nMTA5QlZKV3JjOGJzdG8xZ29zQ0JWcHV1WVNFNHBLVFBHUlAyZTFjZnZ2ZnBLRWcwSmJ4NWhXcWhhYkUtMHdqYkZCemZnWGlEaE1rTy1CQ1ZIQzhBMHpZU1NaQjRZQ2hVREVTdURKNVN5WlNZWUdVbkRqSV9jSGJhT2w?oc=5",
-          "publishedAt": "2026-10-22T20:27:03+00:00"
+          "name": "Investing.com",
+          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.52% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWjFwLTNnaFZfUllBVnNZS2daSWE4YmI0SFJfVGFDVVZHUkNJbmVkRlZWSk01Rm5mUlhtdFkyUDNvZmlzSmxGNDZYTlk3U1Z1dTZoUWFTeURZQWZIRlN5V1hYZ3FodXhUZzhEOG1lUHVTTm1fQ1BoVGptY0xSdHd1OFhaTllpR3llcnJxdVlDQnN0bEFZQ3VYNlNvTlMxdm1SQWhQOWxIUHRMMkhuNy1KQS1XblB5Q05uSHlj?oc=5",
+          "publishedAt": "2026-10-23T20:45:44+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.52% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeDNDejktMnRCbHBodjNIWDdBSjJIRUlPbHJaNGxPYW8tcHhoc24zRjJ3T3oxZzg4TXVYcnB5MGdXSWcxZGltemFfb25RRlVTaE1OYy1NTTM3VVFRa2hZVU9jcnZ0cE55NHd6QVJ1QWZBbk5ESGhfdlJ3eDdlMWJVMGtMZ1NFZ0xJWThfZS16cmtLNFdTYjl1Q2tnXzMxa0Q1RVlYQlgtZkp2OVFSblN2NE11Wk8tOVcxcVE?oc=5",
+          "publishedAt": "2026-10-23T20:30:00+00:00"
+        },
+        {
+          "name": "BigGo Finance",
+          "title": "TSX Futures Slip as Gold Retreats and AI Funding Fears Hit Tech Stocks - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4b2FUT0JOaFQ5UVVrdWZBbzNhWnd4RnVCQXNnMG9XSnVHRF9mU3B6T3hUUVE5ZkhmcWpDbEF4QWZWRGVwZ2RMcHlZUnRTZHRLeE5vTXhqdWh3cnpMMUVMc2xud1Y5VnBicDJTdzFSTUlVRF84Q1E?oc=5",
+          "publishedAt": "2026-10-23T18:21:00+00:00"
+        },
+        {
+          "name": "Simply Wall Street",
+          "title": "Canadian Stock Market Today: TSX Futures Edge Lower On Energy Inflation And Retail Focus - Simply Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb041Y2x4WkJiSHpYYllOb2N4RHJQM0lnZDltSWVhMmJIVzctcEtpWGdrb0hEeVJGaHRDaFVNajBkd0FlWGc0N0RtU3liUzZzMUtPdWZrYzhNUWtxbmtpQ1Vtd0dNYmZNMUN2R1V0amVtVERaRURfWEVBbU5oSm5aUkN0WFFyc3ZUMlh1VjB6STRxNmt6d19kWklFQ1l0SHZQenM5SGp2UW1FbGdRMGdDWldQQm4zSGQxcmVUZmx0MFZnUFlJVUHSAcsBQVVfeXFMTUJDTkF5R1RYNjluaHFEQ0VnMEg0U256NlAtVVA5d1kydm9sSkZpby1RbmdqRFVCN3d6SnU1T09EMFFKZDI3UkZRWHNZeEdKR0JubzczRHNxeGdrV2tOVHRqWHJQQU9TRlphd3ZVZ0FfTGdpMXkwN1dHbExTaUF5dUpiTk80NW1XR3p0NGhHRS1IeWZPQUFldmN6ZEJsNE1jeHpGRjRBRllxdVlWLUdOc3ZvdjJsWnVsd0pFUHFtWThRMEJPYVJmMkZobXM?oc=5",
+          "publishedAt": "2026-10-23T17:37:30+00:00"
         },
         {
           "name": "BBN Times",
           "title": "North American Stock Markets Today: S&P 500, Dow Jones, Nasdaq and TSX Rise as SpaceX and Super Micro Revive the AI Trade - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRkZfaGZBVmExSlUzUVhzQ05YcW9xcnMyckYySnNHTEotOUxxejBDNk1URmlHeU1IenlYTkQzREt2LTItNHdWaFI1ei1ZQ0dtNFd3V1hNa0UwWUZCd2p6bEhoRlV0V3c5NFQ3d0hxeFZneDAxUjhGaE9wLTdPZUppZjBKakhXMnJxbms2Q1ZUeW5CQlo4enJTRFBDM3RPYzFzby1seUJXaERZUldoejl2MjRDNnQ2UzRVem5WRmlPa2oyTzJvMlRKN3lRcDc0OVh3cjEyUVl5NDVtb3cwUGdyVEowcEVzTU90NVpyZm92UQ?oc=5",
           "publishedAt": "2026-10-23T15:49:11+00:00"
-        },
-        {
-          "name": "TradingView",
-          "title": "TSX Falls as Oil Rally Fuels BoC Rate Hike Bets - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcjdZZzB3MUlUV0d4V3cwbDBVMHhRejV2UkVSUThYZVBqZFpDTkF5WjQ5RjBMMTREY3BIMkc0SURuSElESF9lR0pDU09adFp5eWxlbHVsa1RFeGpNaGd2cVFuNUJtZThsWUZCZVdmOVBtbzhWVzgtZnpacTF2Tnk4enMwdm96ZFI1eVE5bnZoY0dLVS1DVV9TdHk5VkZFcEU?oc=5",
-          "publishedAt": "2026-10-23T14:04:54+00:00"
-        },
-        {
-          "name": "TradingView",
-          "title": "TSX Futures Edge Lower Amid Oil Rally and Tech Selloff - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbmxGTTBKbURPUURyOFFHMVBZM1hxRlpFVFNsX09SeFpoOXFuekVKejNiUVpSQXQwSmFsZTRKSzIzbk9DSTZCamNSSUtDWGdCcUdORm1DWXRBUl9ubFZBQ1h4LUNRcHNEN000dFhTR0JialExMGI4MU1MX1NidW90V3owSW5BMlR5Rk14ME00WjBjMExMWGVWaXdwRlYyQ1l4THdxd3RnM0I?oc=5",
-          "publishedAt": "2026-10-23T12:46:13+00:00"
-        },
-        {
-          "name": "Yahoo! Finance Canada",
-          "title": "S&P/TSX composite down more than 150 points as oil tops US$100 per barrel - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yczZhaWZidlh0VlFSeTRRYkJiXzZCV1k3QjgxeWVOejJ5X1hNYmtJMDdITThPMmh4cGRGUXNaWDRWT0pHSlBoZGNFb1JORGY4VGl0S2FHaUFHRnF0TThRd19ubWR2ODVjdElzRUpsaG04S1ZlaGJsaDZMdGpmWmM?oc=5",
-          "publishedAt": "2026-10-23T15:35:10+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.54%",
+      "headline": "Nifty and Sensex closed lower as Brent crude neared $114 and India VIX spiked, with small‑cap stocks adding breadth to the decline",
       "direction": "down",
       "move": "Nifty 50 -0.54%",
-      "why": "Same-day market coverage explicitly linked the final move to: Brent Crude Nears $114; Smallcap Stocks Tumble; sharp selloff to close flat; small and midcaps sink nearly 3%; Oil Risks Weigh; Nifty Slips Below 22,700.",
+      "why": "Both sources that covered the close explicitly linked the fall to Brent crude approaching $114 and a 5‑6% jump in the India VIX, while another source noted a concurrent tumble in small‑cap stocks",
       "drivers": [
         {
           "label": "Brent Crude Nears $114; Smallcap Stocks Tumble",
@@ -108,13 +100,21 @@
           "kind": "driver"
         },
         {
-          "label": "Oil Risks Weigh; Nifty Slips Below 22,700",
-          "detail": "The Indian Awaaz explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Crude oil rise",
+          "detail": "Brent crude was near $114, which sources tied directly to the market slip",
           "kind": "driver"
+        },
+        {
+          "label": "Volatility spike",
+          "detail": "India VIX jumped 5‑6%, raising risk premia and contributing to selling pressure",
+          "kind": "context"
         }
       ],
-      "sectors": [],
-      "confidence": "medium",
+      "sectors": [
+        "Energy",
+        "Smallcap"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -144,6 +144,12 @@
       "sources": [
         {
           "name": "HDFC Sky",
+          "title": "Gift Nifty Signals Flat Start as Crude Nears $114; Nifty at 22,600 - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMjhFM3FILXdCNGhGSnNYYi1qbjB1S3JNYlg4OEwzamItZEtCVVBlMVYtWTZtTUs5Y0JQbFNZNFF2NTdpdW10WXJYWWtvUVJocDNFbTVvY0lQaHNULU5ab2FRUWg3cGlsNzAzZndaSkQ1em9tVWo4RTdBRGZVNndCaU0xeDRVU2s?oc=5",
+          "publishedAt": "2026-10-23T11:26:45+00:00"
+        },
+        {
+          "name": "HDFC Sky",
           "title": "India VIX Jumps 6% as Crude Nears $114; Nifty, Sensex Slip - HDFC Sky",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcnNvZTZKeFZET3Vma2pEZDI3VGdDRnQyaUZBQk5jOXZEZEYyZlRxLWN0SzZJalpFRUFjMzlPSVRyZHZMQ2VuV3ZWeVhTb0NSUEc5T1hVSmtFV3hTbVR3NDlWRHNVeVBNYUI5Y2VfTVRVMXNFeWxYcVo0dVQ3emlEQ2hrbWozWFl5bGl2RjJ3d0dSaVBLdEtwT29jYXZvcEVicEZvMURwcHQ?oc=5",
           "publishedAt": "2026-10-23T10:38:47+00:00"
@@ -171,12 +177,6 @@
           "title": "Sensex, Nifty recover after sharp selloff to close flat; small and midcaps sink nearly 3% - The Financial Express",
           "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxONnJMM3BTT1ZsdmNEZ3hLQlJRa2hqMWtuVUdyVzl3UnVOZFlqeTNRbWZJQTZxcjNTNFRSanZUb2Jtdll0OGhkQ2MzSjFxdUxWRlZVendyOHoyOW1YNmhWSkdSNUpMdFJTRnRKWGd6MEx0aWM4QzhiNVQ1SThIWUtBOWpSd3NteW5hQU1qblNiTEpqMWZBSzVLRElpSVRwdF8xTDdqX004UUEwTTFIdDFpaUl3bFNOMnFxLTN5czVsdWVXb2lpTzJZd1lfZVJvbE5ZWDlYR3RFOEVBUjJyaXZ0MHc5YnlDSS1PLUpWTk43UXYtNjQzYkx4WWU5N2xnVkVqU0FDZtIBiwJBVV95cUxNeVJHamZ4anZFR05lQjB3YzQzYkVfTy00WUE3X0Q3ellsNjc0M05uUGxiWGdULXhPb25KVktfeldvcVdIY28yZnY3ZGR6N3MyS1FNcU5VYk9vT0xNUS04M09BdkVKaUJyMkdoQ19GVmZLZUs5Wm5mRzJEeFRTUmJqVnYyelMyQlN0WUpfVktxam9xUXp0V1ExZ3VTQTF5RmQwdXU0a0hSYlVUTVBhbEF5WkFpU3g0UzJGeDNiaTNfeVVUaGV5c2lCbXltb2VNdF96cUNQWVRBeF9tdDRQT3RUMzhJbzlEWHVJLXF3VGx5dl9FbWNYdVhmT2diZWZHd2YwbEVSbTkzZ2xVdm8?oc=5",
           "publishedAt": "2026-10-23T01:36:50+00:00"
-        },
-        {
-          "name": "inkl",
-          "title": "D-Street poised for a positive start as GIFT Nifty trades firmly higher - inkl",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnRPUGZ3RGk0UXFHRnRZYUZnaHQzY0IyX1NqWVdtMGE2b1dtbkhOVEZTR2ZXT2lLcDJybi03LXQ5Rk0xVXo4dlNDU0J1aDV2Qml1VGh4ZFNMX2JPaFhBRWlGNWtXOEp5RUNvQTVrdjdjZjZuYlJRNG5VanBtSjYxVW9odXdIY2dqSW5nRG1rMHhlbUFUOG9Fbw?oc=5",
-          "publishedAt": "2026-10-23T00:30:23+00:00"
         }
       ],
       "evidenceCount": 7
