@@ -1,59 +1,62 @@
 {
-  "updated": "2026-10-23T13:49:10.753766+00:00",
+  "updated": "2026-10-23T18:43:24.411876+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls as tech and gold mining shares slide amid oil rally and AI spending jitters",
+      "headline": "TSX slides as oil price surge and rate‑hike bets weigh on market",
       "direction": "down",
-      "move": "S&P/TSX Composite -0.71%",
-      "why": "The decline was driven by falling technology and gold mining stocks, a surge in oil prices, investor concerns over AI spending, and bets on a Bank of Canada rate hike.",
+      "move": "S&P/TSX Composite -0.43%",
+      "why": "Higher oil prices pushing crude above US$100 per barrel sparked inflation concerns and expectations of a Bank of Canada rate hike, while rising bond yields and a tech sell‑off added pressure.",
       "drivers": [
+        {
+          "label": "oil, bond yields fuel inflation fears",
+          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "tech and gold mining shares slide",
           "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "gold price fall, AI anxieties By Investing.com",
-          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Oil price surge",
+          "detail": "Crude oil rose above US$100 per barrel, fueling inflation fears and BoC rate‑hike bets",
+          "kind": "context"
         },
         {
-          "label": "miners slide",
-          "detail": "AD HOC NEWS explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Tech shares slide",
-          "detail": "Technology sector stocks fell, pulling the index lower.",
+          "label": "Bond yields",
+          "detail": "Higher bond yields heightened inflation concerns",
           "kind": "driver"
         }
       ],
       "sectors": [
-        "Technology",
-        "Gold Mining",
         "Energy",
-        "Artificial Intelligence",
-        "Financials"
+        "Technology"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35718.65,
+        "price": 35818.26,
         "previousClose": 35973.5,
-        "change": -254.85,
-        "changePct": -0.71,
+        "change": -155.24,
+        "changePct": -0.43,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-23T13:49:01+00:00",
+        "asOf": "2026-10-23T18:43:16+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
+        {
+          "name": "The Globe and Mail",
+          "title": "TSX slips to one-week low as oil, bond yields fuel inflation fears - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV3Nub0FhczdlWjJ5dzZjY0YyOFB0c3Z4bmxDajhlWVJibjhublpELUMxUVdBX2J1UjBXQ0NPc2l2RnBmXzRjb3NJRXRCZjdZUHlPRVRBZEZGRHdZOS1QN21mZHd1S2E1bHBPMVFiMTNLMVl1QkthdEVuam5pUm0ydWxUVFFJc1p1V2I2bXRkTVZ6ZGZzd19td2hTUmJFMGN0eFdvRE5Bdlc0MVBlWXZBMVdCV1hvU0lYODJFVl9OQjctdWtOTVJxOEQxcTdpNlk2OTZma3hYd2M4QQ?oc=5",
+          "publishedAt": "2026-10-23T09:20:02+00:00"
+        },
         {
           "name": "Reuters",
           "title": "TSX falls 1% as tech and gold mining shares slide - Reuters",
@@ -61,58 +64,52 @@
           "publishedAt": "2026-10-22T20:27:03+00:00"
         },
         {
-          "name": "Investing.com Canada",
-          "title": "TSX futures drop amid gold price fall, AI anxieties By Investing.com - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMVdQeGdkbExKSzRuaEtUVWtoWXpEd2JERmhiWWNWUERKbFpRWWRIVVV0cXBBY2NlVnVseUpLOS01X2ZTeWhEQkVGVm5ZbGlYdWZad2txVFdxV2kxMzZBcHRBSjlqV3h4SVpmSGZZdGlHZzBKcG9STDhDdzdCZElVbTNQR0QyWHJvS1lzUVNmS29nZzBDeFFrQUpCVDR0Nmg0Z3FzNDlpZDd1Zw?oc=5",
-          "publishedAt": "2026-10-23T11:03:57+00:00"
+          "name": "BBN Times",
+          "title": "North American Stock Markets Today: S&P 500, Dow Jones, Nasdaq and TSX Rise as SpaceX and Super Micro Revive the AI Trade - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRkZfaGZBVmExSlUzUVhzQ05YcW9xcnMyckYySnNHTEotOUxxejBDNk1URmlHeU1IenlYTkQzREt2LTItNHdWaFI1ei1ZQ0dtNFd3V1hNa0UwWUZCd2p6bEhoRlV0V3c5NFQ3d0hxeFZneDAxUjhGaE9wLTdPZUppZjBKakhXMnJxbms2Q1ZUeW5CQlo4enJTRFBDM3RPYzFzby1seUJXaERZUldoejl2MjRDNnQ2UzRVem5WRmlPa2oyTzJvMlRKN3lRcDc0OVh3cjEyUVl5NDVtb3cwUGdyVEowcEVzTU90NVpyZm92UQ?oc=5",
+          "publishedAt": "2026-10-23T15:49:11+00:00"
         },
         {
-          "name": "Yahoo Finance",
-          "title": "Canadian Stock Market Today: TSX Futures Ease On Hotter Producer Inflation And Retail Test - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVlpnTnhTMkRBT2tWYmxmVmVkM1dHcHVkN2NRZTdzdlJ0cmx4SjZ2VEVfbHVCOHY3aXJMRkNkNko5SHkxWkVieFFYRmNFRndHTjExdGJoQXRHMFdZLTVpWk5yRFd6cFNqeHpLRjZNaE5pVS1GQ1ZQbndxZkN1RlJCOV9oWUtTUnhYbVRFZm9PTHNZUGIxWnAwLTdqY0Y?oc=5",
-          "publishedAt": "2026-10-23T12:08:41+00:00"
+          "name": "TradingView",
+          "title": "TSX Falls as Oil Rally Fuels BoC Rate Hike Bets - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcjdZZzB3MUlUV0d4V3cwbDBVMHhRejV2UkVSUThYZVBqZFpDTkF5WjQ5RjBMMTREY3BIMkc0SURuSElESF9lR0pDU09adFp5eWxlbHVsa1RFeGpNaGd2cVFuNUJtZThsWUZCZVdmOVBtbzhWVzgtZnpacTF2Tnk4enMwdm96ZFI1eVE5bnZoY0dLVS1DVV9TdHk5VkZFcEU?oc=5",
+          "publishedAt": "2026-10-23T14:04:54+00:00"
         },
         {
-          "name": "Investing.com Canada",
-          "title": "TSX ends 1% down as oil surges, AI spending jitters rattle global markets - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSDQ0OU1aMXNPRXljc2M2d0UwdTJPVUNBSFo3bzRJSGRnc3hMSDA4WEp0R2UwaXc1RW5QYmVSSzg1WDhzc0lZTVVQUG5abUdvOW4zeFRMS3JnX3N4QXpzM2h0WGF6MVhsM1p3N0dFbHc1M1g2Rjk0azRfSGhNYndGWmRncklkSVhCSDBLaFpvTTVWZFh3SWdiMGNvNjRzMHY3aDJqNDg2bw?oc=5",
-          "publishedAt": "2026-10-22T22:00:35+00:00"
+          "name": "TradingView",
+          "title": "TSX Futures Edge Lower Amid Oil Rally and Tech Selloff - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbmxGTTBKbURPUURyOFFHMVBZM1hxRlpFVFNsX09SeFpoOXFuekVKejNiUVpSQXQwSmFsZTRKSzIzbk9DSTZCamNSSUtDWGdCcUdORm1DWXRBUl9ubFZBQ1h4LUNRcHNEN000dFhTR0JialExMGI4MU1MX1NidW90V3owSW5BMlR5Rk14ME00WjBjMExMWGVWaXdwRlYyQ1l4THdxd3RnM0I?oc=5",
+          "publishedAt": "2026-10-23T12:46:13+00:00"
         },
         {
-          "name": "AD HOC NEWS",
-          "title": "S&P/ TSX Composite closes 0.9 percent lower as miners slide - AD HOC NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcmlYNGVEbkVPQ0o5Y0Y4dUwwM01XcmdfV2wyd3ZicVNsOG56eHVuRnBUV1lSdjAyVmh4OWxRbHU0TUdLQXNIWE45TEU4M184bmRqdHUxVEFJcVZPZFE5dUJVbzlQR2kwczlmc2VKVVRIWmVobmFtMGlpR3Y5MEZhTzRmTU5IbFNQdzJpejBFdkh2cFZEa2wxdmVUM2RqS3lYeW1ZLUZRQldUYnRiUHgxU0g3VVphR08xcjZGN2d4dWtLUQ?oc=5",
-          "publishedAt": "2026-10-22T20:53:32+00:00"
-        },
-        {
-          "name": "Investing.com UK",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.97% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbVZ1LVpHQmFxa2ZuMFFnOHpaWENNVU5yUEM5V0tjdWpZckRMX1hlbDJvX29obFJIZl9hRHhwUkRIb0h1M0RCVGlNTUxpcVdDb0ZoM1JOUmRUeWVuajM0Y3hhc3VOZkl6VTJITnVwNnNwVWJ1MGNlNGNEMk1pREMtMmhnNXpIR0djT2dZbVFTMUJDSGVnNzAxSS05UDFJaUQxN0h2SlFCbmlpZGtqcUpxX0RHZlZvQ2oyRkE?oc=5",
-          "publishedAt": "2026-10-22T20:30:00+00:00"
+          "name": "Yahoo! Finance Canada",
+          "title": "S&P/TSX composite down more than 150 points as oil tops US$100 per barrel - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yczZhaWZidlh0VlFSeTRRYkJiXzZCV1k3QjgxeWVOejJ5X1hNYmtJMDdITThPMmh4cGRGUXNaWDRWT0pHSlBoZGNFb1JORGY4VGl0S2FHaUFHRnF0TThRd19ubWR2ODVjdElzRUpsaG04S1ZlaGJsaDZMdGpmWmM?oc=5",
+          "publishedAt": "2026-10-23T15:35:10+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.39%",
+      "headline": "Nifty 50 fell 0.54%",
       "direction": "down",
-      "move": "Nifty 50 -0.39%",
-      "why": "Same-day market coverage explicitly linked the final move to: Crude Nears $114; Nifty Ends at 22,600; Brent Crude Nears $114; Smallcap Stocks Tumble; broad based selloff - Check top gainers and losers.",
+      "move": "Nifty 50 -0.54%",
+      "why": "Same-day market coverage explicitly linked the final move to: Brent Crude Nears $114; Smallcap Stocks Tumble; sharp selloff to close flat; small and midcaps sink nearly 3%; Oil Risks Weigh; Nifty Slips Below 22,700.",
       "drivers": [
-        {
-          "label": "Crude Nears $114; Nifty Ends at 22,600",
-          "detail": "HDFC Sky explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
         {
           "label": "Brent Crude Nears $114; Smallcap Stocks Tumble",
           "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "broad based selloff - Check top gainers and losers",
-          "detail": "ET Now explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "sharp selloff to close flat; small and midcaps sink nearly 3%",
+          "detail": "The Financial Express explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Oil Risks Weigh; Nifty Slips Below 22,700",
+          "detail": "The Indian Awaaz explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -121,10 +118,10 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22600.0,
-        "previousClose": 22687.65,
-        "change": -87.65,
-        "changePct": -0.39,
+        "price": 22687.65,
+        "previousClose": 22811.35,
+        "change": -123.7,
+        "changePct": -0.54,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -134,10 +131,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 73123.83,
-        "previousClose": 73249.39,
-        "change": -125.56,
-        "changePct": -0.17,
+        "price": 73249.39,
+        "previousClose": 73709.69,
+        "change": -460.3,
+        "changePct": -0.62,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -147,21 +144,15 @@
       "sources": [
         {
           "name": "HDFC Sky",
-          "title": "Markets Fall for 4th Day as Crude Nears $114; Nifty Ends at 22,600 - HDFC Sky",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcW5MSjcwWkJSamFDMl9hNUpSdG9Bd0lwWkJyQ2RrVy1ReVJJNzlVa0Q4TklPRUdKNFBqV1pQSHgxbVo4aVhBSUlZa3I2VUJWMlRSQ2gxUXV5QjNISl83LXFlVklqc2dOdXJVV2M1YzlGV3JidjFYQkVfaU01djVpdS1pLThxZ2pNTlRua2VjT1l3MkF6U3VxcW96S1NmQ3JPa0pyYkEycTlzS1ZBZVE?oc=5",
-          "publishedAt": "2026-10-23T10:54:26+00:00"
+          "title": "India VIX Jumps 6% as Crude Nears $114; Nifty, Sensex Slip - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcnNvZTZKeFZET3Vma2pEZDI3VGdDRnQyaUZBQk5jOXZEZEYyZlRxLWN0SzZJalpFRUFjMzlPSVRyZHZMQ2VuV3ZWeVhTb0NSUEc5T1hVSmtFV3hTbVR3NDlWRHNVeVBNYUI5Y2VfTVRVMXNFeWxYcVo0dVQ3emlEQ2hrbWozWFl5bGl2RjJ3d0dSaVBLdEtwT29jYXZvcEVicEZvMURwcHQ?oc=5",
+          "publishedAt": "2026-10-23T10:38:47+00:00"
         },
         {
           "name": "Dalal Street Investment Journal",
           "title": "Closing Bell: Sensex, Nifty Fall for 4th Session as Brent Crude Nears $114; Smallcap Stocks Tumble - Dalal Street Investment Journal",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZWRLUVZCZWZCTzhPRmRIOFZmWGFWajR1ZmRSOXc5VlpydTdOQTM1S0dvRWV5Q0tsdUh0RkJmWmxldFRkejNPbllGdi1jUEw2ZE8wdzExbHNJa2FSbHoxRl9vSDV2VmtlVWZXTEZ3QThVT3VnNzhycWRVdEFzYVB3NlRZcklUMGhCWnNZMnVwX285RFpacnlCeDE2b1E5Q3UyRHFhZkRIYWFhRWR0cTc1a1lYUE1tRXdCM2txQXRVWEIyVEdEeEcwTXY5c1NJR09KLXdSZjQ5anR4Wk0?oc=5",
           "publishedAt": "2026-10-23T10:30:21+00:00"
-        },
-        {
-          "name": "ET Now",
-          "title": "Stock market closing: Sensex ends over 100 points lower, Nifty at 22,600 amid broad based selloff - Check top gainers and losers - ET Now",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQm1reTdpODhDMTlsZlR4eHYwTHVHeW9UV3NPRE1yVTRXWk5YQWlEdndnSnE3VnNyeFVEbE0xSjlFX0VxT2Mta0Z1R2V2WW1YaUJ6c0Y1czVSelh2cUg5b1I0My1UZWZXQ0tQaWJGTjNYbHZGV094T3RGR1JIZUNMb09tWVdILUN6YlYzYlBYUWxjMkl4NVBpT3NidFhjTTAzbndFTjkycHNwYmZYb2xBam9OXzhXbjVWS1UzbjBaUEhrdmNPMzdpeV8wdWJUSzJqR1JVb0xXQ3g1SzJKamdwUU1jY9IB6AFBVV95cUxQR3d4SlVDRW5RU0dxLVNXZndnLUtjWElZMERtQjlHeW5ERkttcWJMMGh4bEN3c090YjFBMkFoY3lTc2VfaFRvRk9qOC12SHA5eWtlUlE1bjJ1aGV2TllRM2RZZTVHNnBESVNVaDZyMDlUeTBOMS16b1RqN2gxX1k4cldUSGg2UDRZRnVDSkVfX19iclpJQ3VtZ0NqUlFDMnhVYjFrYWRZaHdzYXE3ejNFREc4WnFoMWF0UTY3MTRJNkVVZzNLcThmeEhxUm9NajRJRkktVzU0TFBueERHVkdCcnRQVjIzSXM1?oc=5",
-          "publishedAt": "2026-10-23T10:10:06+00:00"
         },
         {
           "name": "The Economic Times",
@@ -176,10 +167,16 @@
           "publishedAt": "2026-10-23T04:59:51+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "Indian shares seen opening higher after 3-session drop; oil surge clouds outlook - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQjBIRnRoUFI3Z3VnU1NiMlF5Wm1BNG1FaU1QajNaWURVc3dvRUFSV1c1U3NMcE9CRktiNjlZU1N4S2RGQmRvTUlmcHotQnl3TTBCU05jUVJUMV9jRk15R3pieXlqTV9oQnRfN2d5NWo4U01YLXhuSmZJbm01Z2VFQTk4M0dNbFJzVVBQLUJqRldUSTRtVnF3NGlUb2tZUDJja1c4Q2RieGRGN3psYWhpZWtDRU0yVGh3enZPWEtGQVo1bGZoSWNnWkJRQdIB0AFBVV95cUxOYVQ2RU14VFllRzQ0M3ZNenF6bmJNUlQ4QXI5YkdEdmlNejUzMnp6bHNGUWYzVnFPbGJvUHRjOHU2QkZjd29mSzNISVNyU0duNXhVUld2d2tpQ1QxbzRnam1qbS15WlZnREF3RDgwWFpac1pTMjZ0c2MxUDFUX3k5NjJzOUpxUkhMaHM4dldUVFptalFDYVd2am9sRjF5a2tvSnRYZFJzdDN3bzQ0SXVGMmhFYmtvTm14NnBHMTFjN2g4NDJmazRZV21kc1FwZlNO?oc=5",
-          "publishedAt": "2026-10-23T02:30:29+00:00"
+          "name": "The Financial Express",
+          "title": "Sensex, Nifty recover after sharp selloff to close flat; small and midcaps sink nearly 3% - The Financial Express",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxONnJMM3BTT1ZsdmNEZ3hLQlJRa2hqMWtuVUdyVzl3UnVOZFlqeTNRbWZJQTZxcjNTNFRSanZUb2Jtdll0OGhkQ2MzSjFxdUxWRlZVendyOHoyOW1YNmhWSkdSNUpMdFJTRnRKWGd6MEx0aWM4QzhiNVQ1SThIWUtBOWpSd3NteW5hQU1qblNiTEpqMWZBSzVLRElpSVRwdF8xTDdqX004UUEwTTFIdDFpaUl3bFNOMnFxLTN5czVsdWVXb2lpTzJZd1lfZVJvbE5ZWDlYR3RFOEVBUjJyaXZ0MHc5YnlDSS1PLUpWTk43UXYtNjQzYkx4WWU5N2xnVkVqU0FDZtIBiwJBVV95cUxNeVJHamZ4anZFR05lQjB3YzQzYkVfTy00WUE3X0Q3ellsNjc0M05uUGxiWGdULXhPb25KVktfeldvcVdIY28yZnY3ZGR6N3MyS1FNcU5VYk9vT0xNUS04M09BdkVKaUJyMkdoQ19GVmZLZUs5Wm5mRzJEeFRTUmJqVnYyelMyQlN0WUpfVktxam9xUXp0V1ExZ3VTQTF5RmQwdXU0a0hSYlVUTVBhbEF5WkFpU3g0UzJGeDNiaTNfeVVUaGV5c2lCbXltb2VNdF96cUNQWVRBeF9tdDRQT3RUMzhJbzlEWHVJLXF3VGx5dl9FbWNYdVhmT2diZWZHd2YwbEVSbTkzZ2xVdm8?oc=5",
+          "publishedAt": "2026-10-23T01:36:50+00:00"
+        },
+        {
+          "name": "inkl",
+          "title": "D-Street poised for a positive start as GIFT Nifty trades firmly higher - inkl",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnRPUGZ3RGk0UXFHRnRZYUZnaHQzY0IyX1NqWVdtMGE2b1dtbkhOVEZTR2ZXT2lLcDJybi03LXQ5Rk0xVXo4dlNDU0J1aDV2Qml1VGh4ZFNMX2JPaFhBRWlGNWtXOEp5RUNvQTVrdjdjZjZuYlJRNG5VanBtSjYxVW9odXdIY2dqSW5nRG1rMHhlbUFUOG9Fbw?oc=5",
+          "publishedAt": "2026-10-23T00:30:23+00:00"
         }
       ],
       "evidenceCount": 7
