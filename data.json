@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-23T19:16:38.389874+00:00",
+  "updated": "2026-10-23T22:21:20.473309+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 9,
-    "enrichedCandidates": 80,
-    "readableCandidates": 68,
-    "eventClusters": 67,
-    "materialEvents": 30,
-    "selectedEvents": 10,
-    "seededStories": 9,
+    "officialOrPrimaryCandidates": 11,
+    "enrichedCandidates": 79,
+    "readableCandidates": 59,
+    "eventClusters": 57,
+    "materialEvents": 26,
+    "selectedEvents": 9,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,13 +24,13 @@
       "categories": [
         "India"
       ],
-      "title": "RBI flags inflation risks from West Asia conflict, El Nino",
+      "title": "RBI flags inflation risks from West Asia conflict, El Nino amid resilient economy",
       "publishedAt": "2026-10-23T15:54:19+00:00",
-      "importanceScore": 15.7,
+      "importanceScore": 14.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms",
-      "summary": "The Reserve Bank of India warned that inflationary pressures could rise because of the conflict in West Asia and the expected El Nino weather pattern, and it noted that the Indian economy remains resilient. The RBI’s comment was issued without additional detail on the magnitude or timing of any impact.",
+      "summary": "The Reserve Bank of India said that inflationary pressures could increase because of the ongoing conflict in West Asia and the anticipated effects of the El Nino weather phenomenon. It also observed that the Indian economy remains resilient despite these external risks.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -43,8 +43,49 @@
         }
       ],
       "firstSeen": "2026-10-23T15:54:19+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-23T22:21:20.473309+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "RBI flags inflation risks from West Asia conflict, El Nino",
+      "previousSummary": "The Reserve Bank of India warned that inflationary pressures could rise because of the conflict in West Asia and the expected El Nino weather pattern, and it noted that the Indian economy remains resilient. The RBI’s comment was issued without additional detail on the magnitude or timing of any impact.",
+      "previousPublishedAt": "2026-10-23T15:54:19+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 15.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "22281187a6132a",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "RBI Governor says inflation remains high and growth slows",
+      "publishedAt": "2026-10-23T13:27:26+00:00",
+      "importanceScore": 14.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms",
+      "summary": "The RBI governor, referred to as Malhotra in the source, said that inflation continues to be elevated while economic growth has decelerated, creating a larger challenge for policymakers. No quantitative data or direct quotations were provided.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms",
+          "publishedAt": "2026-10-23T13:27:26+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-23T13:27:26+00:00",
       "status": "New",
-      "lastChecked": "2026-10-23T19:16:38.389874+00:00",
+      "lastChecked": "2026-10-23T22:21:20.473309+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -60,14 +101,14 @@
       "categories": [
         "World"
       ],
-      "title": "White House says Melania Trump helped broker Oleshky ceasefire",
-      "publishedAt": "2026-10-23T16:59:51+00:00",
-      "importanceScore": 14.8,
+      "title": "White House says Melania Trump secured ceasefire in Oleshky, Ukraine",
+      "publishedAt": "2026-10-23T19:30:19+00:00",
+      "importanceScore": 14.4,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-      "summary": "The White House said US First Lady Melania Trump secured a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, with the truce slated to start on 29 October. Both sides confirmed the agreement would allow evacuation of civilians and delivery of aid, and Moscow announced its troops would cease fire at 04:00 (02:00 GMT) on 27 October. Oleshky has been under Russian control since February 2022 and has faced severe shortages of food, medicine and water.",
-      "why": "The truce could enable evacuation of residents and delivery of humanitarian assistance to a city in acute crisis.",
+      "summary": "The White House announced that former First Lady Melania Trump had “successfully secured” a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, slated to begin on 29 October. Both sides reportedly agreed to stop firing at 02:00 GMT on 27 October and to allow evacuation of residents and delivery of aid. Oleshky has been under Russian control since February 2022 and residents have faced severe shortages.",
+      "why": "The truce could enable humanitarian aid to reach civilians suffering from food, water and medicine shortages.",
       "confidence": "low",
       "verified": true,
       "editor": "Jarvis",
@@ -75,19 +116,24 @@
         {
           "name": "feeds.bbci.co.uk",
           "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-23T16:59:51+00:00"
+          "publishedAt": "2026-10-23T19:30:19+00:00"
         }
       ],
       "firstSeen": "2026-10-23T16:59:51+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-23T19:16:38.389874+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-23T22:21:20.473309+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "White House says Melania Trump helped broker Oleshky ceasefire",
+      "previousSummary": "The White House said US First Lady Melania Trump secured a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, with the truce slated to start on 29 October. Both sides confirmed the agreement would allow evacuation of civilians and delivery of aid, and Moscow announced its troops would cease fire at 04:00 (02:00 GMT) on 27 October. Oleshky has been under Russian control since February 2022 and has faced severe shortages of food, medicine and water.",
+      "previousPublishedAt": "2026-10-23T16:59:51+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.8,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "37c75adc075113",
@@ -115,123 +161,20 @@
         }
       ],
       "firstSeen": "2026-10-23T12:17:45+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-23T19:16:38.389874+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-23T22:21:20.473309+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a0db575c715329",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "EAAA India Alternatives mops up Rs 360 crore from anchor investors; IPO opens on Oct 26",
-      "publishedAt": "2026-10-23T16:50:32+00:00",
-      "importanceScore": 12.6,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-mops-up-rs-360-crore-from-anchor-investors-ipo-opens-on-oct-26/articleshow/135150980.cms",
-      "summary": "EAAA India Alternatives has successfully raised approximately Rs 360 crore from anchor investors prior to its IPO. Prominent institutional investors and major domestic mutual fund houses participated in the anchor allocation.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-mops-up-rs-360-crore-from-anchor-investors-ipo-opens-on-oct-26/articleshow/135150980.cms",
-          "publishedAt": "2026-10-23T16:50:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-23T16:50:32+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-23T19:16:38.389874+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "059509433f6f1c",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Maine senator says ‘tariff exemptions’ coming for some Canadian goods",
-      "publishedAt": "2026-10-23T18:59:20+00:00",
-      "importanceScore": 12.5,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12118875/donald-trump-tariffs-canada-susan-collins/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12118875/donald-trump-tariffs-canada-susan-collins/",
-          "publishedAt": "2026-10-23T18:59:20+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-23T18:59:20+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-23T19:16:38.389874+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "cce1cabbb3ee9e",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India's exports to Germany could cross $50 billion by 2030: ASSOCHAM",
-      "publishedAt": "2026-10-23T16:12:25+00:00",
-      "importanceScore": 12.4,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-exports-to-germany-could-cross-50-billion-by-2030-assocham/articleshow/135150336.cms",
-      "summary": "ASSOCHAM said the potential for expanding market access, investment and business partnerships between India and Germany. It said the two countries could use their respective strengths in manufacturing, technology and innovation to deepen economic ties and create new growth opportunities.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-exports-to-germany-could-cross-50-billion-by-2030-assocham/articleshow/135150336.cms",
-          "publishedAt": "2026-10-23T16:12:25+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-23T16:12:25+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-23T19:16:38.389874+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Denmark to ban mink farming in government U-turn",
+      "previousSummary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
+      "previousPublishedAt": "2026-10-23T12:17:45+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.9,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "0672558c0f2ad8",
@@ -259,8 +202,85 @@
         }
       ],
       "firstSeen": "2026-10-23T15:04:30+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-23T22:21:20.473309+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest applications and more",
+      "previousSummary": "Mukesh Ambani’s Jio Platforms IPO attracted bids exceeding Rs 4.5 lakh crore, setting 12 records, including over 1.25 crore applications. Jio’s record-breaking IPO attracts Rs 4.5 lakh crore in bids, surpasses global application records and draws unprecedented demand from institutional and retail investors.",
+      "previousPublishedAt": "2026-10-23T15:04:30+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.2,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "53c562b0c4df41",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "US data centre spending seen more than doubling to $2.1 trillion by 2028, estimates BoFA",
+      "publishedAt": "2026-10-23T18:30:36+00:00",
+      "importanceScore": 11.8,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/data-centre-spending-seen-more-than-doubling-to-2-1-trillion-by-2028/articleshow/135153616.cms",
+      "summary": "Global data centre spending is expected to reach $1 trillion in 2026 and more than double to $2.1 trillion by 2028, driven by rising demand for AI services, BofA Global Research estimates. The data centre market could reach $2.93 trillion by 2030 as AI fuels rapid infrastructure expansion.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/data-centre-spending-seen-more-than-doubling-to-2-1-trillion-by-2028/articleshow/135153616.cms",
+          "publishedAt": "2026-10-23T18:30:36+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-23T18:30:36+00:00",
       "status": "New",
-      "lastChecked": "2026-10-23T19:16:38.389874+00:00",
+      "lastChecked": "2026-10-23T22:21:20.473309+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "27fe5471154cff",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
+      "publishedAt": "2026-10-23T11:37:11+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms",
+      "summary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms",
+          "publishedAt": "2026-10-23T11:37:11+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-23T11:37:11+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-23T22:21:20.473309+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -270,21 +290,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 2,
-  "finalRejectedCount": 2,
-  "previousUpdated": "2026-10-23T10:07:02.573322+00:00",
+  "jarvisEditedCount": 3,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-23T19:16:38.389874+00:00",
   "changeSummary": {
-    "new": 7,
-    "updated": 0,
-    "continuing": 0
+    "new": 3,
+    "updated": 1,
+    "continuing": 3
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-20T20:37:46.146661+00:00",
-    "updated": "2026-10-23T19:16:38.389874+00:00",
+    "availableFrom": "2026-10-20T23:54:53.609108+00:00",
+    "updated": "2026-10-23T22:21:20.473309+00:00",
     "snapshotCount": 15,
-    "eventCount": 95,
+    "eventCount": 97,
     "retentionHours": 72
   }
 }

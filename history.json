@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-20T20:37:46.146661+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 0,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "63336cbba013a0",
-          "cat": "World",
-          "title": "65-year-old woman killed in shark attack off South Africa's east coast",
-          "summary": "Janine Lochrenberg, 65, was killed while swimming off a beach in KuGompo City (formerly East London) on Tuesday morning. Witnesses said she was bitten in two places and died before fellow swimmers could get her ashore. The attack is South Africa’s first fatal shark incident recorded this year, and the country has had about ten fatal attacks since 2012, according to the International Shark Attack File.",
-          "why": "The incident highlights the risk to open‑water swimmers and informs coastal safety planning.",
-          "publishedAt": "2026-10-20T15:58:57+00:00",
-          "firstSeen": "2026-10-20T15:58:57+00:00",
-          "importanceScore": 13.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "c5260f35525409",
-          "cat": "Indian Markets",
-          "title": "Federal Bank named in Economic Times market trading guide",
-          "summary": "The Economic Times published a market trading guide titled “Market Trading Guide: Federal Bank among 4 stock recommendations for Wednesday.” The guide listed Federal Bank as one of four stocks suggested for investors to consider on that Wednesday. The article is located in the Markets > Stocks > News section as a slideshow.",
-          "why": "The recommendation may raise investor awareness and affect trading interest in Federal Bank.",
-          "publishedAt": "2026-10-20T10:18:27+00:00",
-          "firstSeen": "2026-10-20T10:18:27+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-federal-bank-among-4-stock-recommendations-for-wednesday/slideshow/135067773.cms"
-        },
-        {
-          "id": "b810cbb7af9063",
-          "cat": "World",
-          "title": "Houthi missile strike kills more than 70 security recruits in Shabwa, Yemen",
-          "summary": "On Monday the Iran‑backed Houthi movement launched three ballistic missiles at al‑Alam training camp near Ataq in Yemen’s central Shabwa province. The strike killed more than 70 recruits serving in the government’s internal security forces and police. Yemen’s Presidential Leadership Council condemned the attack as a criminal act and said a firm response would follow.",
-          "why": "The attack underscores the rising intensity of the conflict as pro‑government forces start a major offensive to retake Houthi‑held western territories.",
-          "publishedAt": "2026-10-20T14:09:42+00:00",
-          "firstSeen": "2026-10-20T14:09:42+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "d708ae59325ecf",
-          "cat": "India",
-          "title": "India-NZ FTA in force: Over half of New Zealand’s exports to India now tariff-free, Wellington also eyes Brazil, Canada",
-          "summary": "New Zealand is working to strengthen trade relations with Brazil and Canada in response to economic uncertainties. A new free trade agreement with India has been implemented, making more than half of exports tariff-free.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-20T00:48:24+00:00",
-          "firstSeen": "2026-10-20T00:48:24+00:00",
-          "importanceScore": 11.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms"
-        },
-        {
-          "id": "0cdb4ef3ae33c9",
-          "cat": "India",
-          "title": "Rubio says India‑US trade deal is “very, very close” after meeting with Jaishankar",
-          "summary": "US Senator Marco Rubio said the India‑US trade deal is “very, very close” following discussions with Indian Foreign Minister Subrahmanyam Jaishankar. He noted that the talks covered energy security and defence cooperation, while tariff and energy tensions remain challenges. Rubio’s India visit also included a tour of the Reliance Industries refinery and meetings with business leaders.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-20T11:49:50+00:00",
-          "firstSeen": "2026-10-20T11:49:50+00:00",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rubio-says-india-us-trade-deal-is-very-very-close-after-jaishankar-meeting/articleshow/135068984.cms"
-        },
-        {
-          "id": "8e6e364d57ff24",
-          "cat": "India",
-          "title": "Marco Rubio arrives in Mumbai to advance India‑US trade talks",
-          "summary": "US official Marco Rubio arrived in Mumbai as part of a visit aimed at strengthening cooperation on energy, trade and defense under the India‑US Comprehensive Global Strategic Partnership. The trip follows a May visit in which he met Prime Minister Narendra Modi and External Affairs Minister S Jaishankar. Officials say the pending bilateral trade agreement seeks to resolve tariff barriers and improve market access for both countries.",
-          "why": "The agreement could lower tariffs and expand market opportunities for businesses and consumers in India and the United States.",
-          "publishedAt": "2026-10-20T09:26:48+00:00",
-          "firstSeen": "2026-10-20T09:26:48+00:00",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-lands-in-mumbai-as-new-delhi-washington-push-to-close-trade-deal/articleshow/135066599.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-20T23:54:53.609108+00:00",
       "changeSummary": {
         "new": 2,
@@ -1789,6 +1671,142 @@
           "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-breaks-12-records-rs-4-5-lakh-crore-bids-highest-applications-and-more/articleshow/135149311.cms"
         }
       ]
+    },
+    {
+      "at": "2026-10-23T22:21:20.473309+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 1,
+        "continuing": 3
+      },
+      "stories": [
+        {
+          "id": "29689c75fadd27",
+          "cat": "India",
+          "title": "RBI flags inflation risks from West Asia conflict, El Nino amid resilient economy",
+          "summary": "The Reserve Bank of India said that inflationary pressures could increase because of the ongoing conflict in West Asia and the anticipated effects of the El Nino weather phenomenon. It also observed that the Indian economy remains resilient despite these external risks.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T15:54:19+00:00",
+          "firstSeen": "2026-10-23T15:54:19+00:00",
+          "importanceScore": 14.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
+        },
+        {
+          "id": "22281187a6132a",
+          "cat": "India",
+          "title": "RBI Governor says inflation remains high and growth slows",
+          "summary": "The RBI governor, referred to as Malhotra in the source, said that inflation continues to be elevated while economic growth has decelerated, creating a larger challenge for policymakers. No quantitative data or direct quotations were provided.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T13:27:26+00:00",
+          "firstSeen": "2026-10-23T13:27:26+00:00",
+          "importanceScore": 14.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms"
+        },
+        {
+          "id": "3ca27f28973fa5",
+          "cat": "World",
+          "title": "White House says Melania Trump secured ceasefire in Oleshky, Ukraine",
+          "summary": "The White House announced that former First Lady Melania Trump had “successfully secured” a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, slated to begin on 29 October. Both sides reportedly agreed to stop firing at 02:00 GMT on 27 October and to allow evacuation of residents and delivery of aid. Oleshky has been under Russian control since February 2022 and residents have faced severe shortages.",
+          "why": "The truce could enable humanitarian aid to reach civilians suffering from food, water and medicine shortages.",
+          "publishedAt": "2026-10-23T19:30:19+00:00",
+          "firstSeen": "2026-10-23T16:59:51+00:00",
+          "importanceScore": 14.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "37c75adc075113",
+          "cat": "World",
+          "title": "Denmark to ban mink farming in government U-turn",
+          "summary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
+          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+          "publishedAt": "2026-10-23T12:17:45+00:00",
+          "firstSeen": "2026-10-23T12:17:45+00:00",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "0672558c0f2ad8",
+          "cat": "Indian Markets",
+          "title": "Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest applications and more",
+          "summary": "Mukesh Ambani’s Jio Platforms IPO attracted bids exceeding Rs 4.5 lakh crore, setting 12 records, including over 1.25 crore applications. Jio’s record-breaking IPO attracts Rs 4.5 lakh crore in bids, surpasses global application records and draws unprecedented demand from institutional and retail investors.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-23T15:04:30+00:00",
+          "firstSeen": "2026-10-23T15:04:30+00:00",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-breaks-12-records-rs-4-5-lakh-crore-bids-highest-applications-and-more/articleshow/135149311.cms"
+        },
+        {
+          "id": "53c562b0c4df41",
+          "cat": "Indian Markets",
+          "title": "US data centre spending seen more than doubling to $2.1 trillion by 2028, estimates BoFA",
+          "summary": "Global data centre spending is expected to reach $1 trillion in 2026 and more than double to $2.1 trillion by 2028, driven by rising demand for AI services, BofA Global Research estimates. The data centre market could reach $2.93 trillion by 2030 as AI fuels rapid infrastructure expansion.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-23T18:30:36+00:00",
+          "firstSeen": "2026-10-23T18:30:36+00:00",
+          "importanceScore": 11.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/data-centre-spending-seen-more-than-doubling-to-2-1-trillion-by-2028/articleshow/135153616.cms"
+        },
+        {
+          "id": "27fe5471154cff",
+          "cat": "India",
+          "title": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
+          "summary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T11:37:11+00:00",
+          "firstSeen": "2026-10-23T11:37:11+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -2355,31 +2373,6 @@
       "latestSummary": "Cult.fit has received observations from the Securities and Exchange Board of India (SEBI) on its planned IPO, which includes a fresh issue of up to Rs 950 crore and an offer for sale. The company said revenue rose 36.26% in FY26 and adjusted EBITDA margin improved as it expanded its fitness operations nationwide. It plans to use the proceeds to repay debt, open additional fitness centres and grow its sportswear business.",
       "why": "The SEBI observations bring the company nearer to completing its IPO and raising capital for debt reduction and expansion.",
       "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/cult-fit-receives-sebi-approval-for-proposed-ipo/articleshow/134997161.cms"
-    },
-    "451bea713dfb91": {
-      "id": "451bea713dfb91",
-      "firstSeen": "2026-10-16T12:26:43+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-16T21:12:42.374155+00:00",
-          "title": "Kotak Mahindra Bank among 5 stocks that hit 52-week highs & rallied up to 15% in a month",
-          "summary": "Amid the market rally, five stocks from the BSE 500 index touched fresh 52-week highs, reaching their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous 12 months and may indicate increased investor interest and trading activity.",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-16T21:12:42.374155+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Kotak Mahindra Bank among 5 stocks that hit 52-week highs & rallied up to 15% in a month",
-      "latestSummary": "Amid the market rally, five stocks from the BSE 500 index touched fresh 52-week highs, reaching their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous 12 months and may indicate increased investor interest and trading activity.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/kotak-mahindra-bank-among-5-stocks-that-hit-52-week-highs-amp-rallied-up-to-15-in-a-month/slideshow/134995212.cms"
     },
     "e296b8cb8184c3": {
       "id": "e296b8cb8184c3",
@@ -5789,12 +5782,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-23T22:21:20.473309+00:00",
+          "title": "RBI flags inflation risks from West Asia conflict, El Nino amid resilient economy",
+          "summary": "The Reserve Bank of India said that inflationary pressures could increase because of the ongoing conflict in West Asia and the anticipated effects of the El Nino weather phenomenon. It also observed that the Indian economy remains resilient despite these external risks.",
+          "importanceScore": 14.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
       "cat": "India",
-      "latestTitle": "RBI flags inflation risks from West Asia conflict, El Nino",
-      "latestSummary": "The Reserve Bank of India warned that inflationary pressures could rise because of the conflict in West Asia and the expected El Nino weather pattern, and it noted that the Indian economy remains resilient. The RBI’s comment was issued without additional detail on the magnitude or timing of any impact.",
+      "latestTitle": "RBI flags inflation risks from West Asia conflict, El Nino amid resilient economy",
+      "latestSummary": "The Reserve Bank of India said that inflationary pressures could increase because of the ongoing conflict in West Asia and the anticipated effects of the El Nino weather phenomenon. It also observed that the Indian economy remains resilient despite these external risks.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
     },
@@ -5814,13 +5820,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-23T22:21:20.473309+00:00",
+          "title": "White House says Melania Trump secured ceasefire in Oleshky, Ukraine",
+          "summary": "The White House announced that former First Lady Melania Trump had “successfully secured” a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, slated to begin on 29 October. Both sides reportedly agreed to stop firing at 02:00 GMT on 27 October and to allow evacuation of residents and delivery of aid. Oleshky has been under Russian control since February 2022 and residents have faced severe shortages.",
+          "importanceScore": 14.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
       "cat": "World",
-      "latestTitle": "White House says Melania Trump helped broker Oleshky ceasefire",
-      "latestSummary": "The White House said US First Lady Melania Trump secured a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, with the truce slated to start on 29 October. Both sides confirmed the agreement would allow evacuation of civilians and delivery of aid, and Moscow announced its troops would cease fire at 04:00 (02:00 GMT) on 27 October. Oleshky has been under Russian control since February 2022 and has faced severe shortages of food, medicine and water.",
-      "why": "The truce could enable evacuation of residents and delivery of humanitarian assistance to a city in acute crisis.",
+      "latestTitle": "White House says Melania Trump secured ceasefire in Oleshky, Ukraine",
+      "latestSummary": "The White House announced that former First Lady Melania Trump had “successfully secured” a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, slated to begin on 29 October. Both sides reportedly agreed to stop firing at 02:00 GMT on 27 October and to allow evacuation of residents and delivery of aid. Oleshky has been under Russian control since February 2022 and residents have faced severe shortages.",
+      "why": "The truce could enable humanitarian aid to reach civilians suffering from food, water and medicine shortages.",
       "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
     },
     "37c75adc075113": {
@@ -5839,9 +5858,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-23T22:21:20.473309+00:00",
+          "title": "Denmark to ban mink farming in government U-turn",
+          "summary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
       "cat": "World",
       "latestTitle": "Denmark to ban mink farming in government U-turn",
       "latestSummary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
@@ -5939,15 +5971,103 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-23T22:21:20.473309+00:00",
+          "title": "Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest applications and more",
+          "summary": "Mukesh Ambani’s Jio Platforms IPO attracted bids exceeding Rs 4.5 lakh crore, setting 12 records, including over 1.25 crore applications. Jio’s record-breaking IPO attracts Rs 4.5 lakh crore in bids, surpasses global application records and draws unprecedented demand from institutional and retail investors.",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
       "cat": "Indian Markets",
       "latestTitle": "Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest applications and more",
       "latestSummary": "Mukesh Ambani’s Jio Platforms IPO attracted bids exceeding Rs 4.5 lakh crore, setting 12 records, including over 1.25 crore applications. Jio’s record-breaking IPO attracts Rs 4.5 lakh crore in bids, surpasses global application records and draws unprecedented demand from institutional and retail investors.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-breaks-12-records-rs-4-5-lakh-crore-bids-highest-applications-and-more/articleshow/135149311.cms"
+    },
+    "22281187a6132a": {
+      "id": "22281187a6132a",
+      "firstSeen": "2026-10-23T13:27:26+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T22:21:20.473309+00:00",
+          "title": "RBI Governor says inflation remains high and growth slows",
+          "summary": "The RBI governor, referred to as Malhotra in the source, said that inflation continues to be elevated while economic growth has decelerated, creating a larger challenge for policymakers. No quantitative data or direct quotations were provided.",
+          "importanceScore": 14.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
+      "cat": "India",
+      "latestTitle": "RBI Governor says inflation remains high and growth slows",
+      "latestSummary": "The RBI governor, referred to as Malhotra in the source, said that inflation continues to be elevated while economic growth has decelerated, creating a larger challenge for policymakers. No quantitative data or direct quotations were provided.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms"
+    },
+    "53c562b0c4df41": {
+      "id": "53c562b0c4df41",
+      "firstSeen": "2026-10-23T18:30:36+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T22:21:20.473309+00:00",
+          "title": "US data centre spending seen more than doubling to $2.1 trillion by 2028, estimates BoFA",
+          "summary": "Global data centre spending is expected to reach $1 trillion in 2026 and more than double to $2.1 trillion by 2028, driven by rising demand for AI services, BofA Global Research estimates. The data centre market could reach $2.93 trillion by 2030 as AI fuels rapid infrastructure expansion.",
+          "importanceScore": 11.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "US data centre spending seen more than doubling to $2.1 trillion by 2028, estimates BoFA",
+      "latestSummary": "Global data centre spending is expected to reach $1 trillion in 2026 and more than double to $2.1 trillion by 2028, driven by rising demand for AI services, BofA Global Research estimates. The data centre market could reach $2.93 trillion by 2030 as AI fuels rapid infrastructure expansion.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/data-centre-spending-seen-more-than-doubling-to-2-1-trillion-by-2028/articleshow/135153616.cms"
+    },
+    "27fe5471154cff": {
+      "id": "27fe5471154cff",
+      "firstSeen": "2026-10-23T11:37:11+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T22:21:20.473309+00:00",
+          "title": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
+          "summary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
+      "cat": "India",
+      "latestTitle": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
+      "latestSummary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms"
     }
   },
-  "updated": "2026-10-23T19:16:38.389874+00:00"
+  "updated": "2026-10-23T22:21:20.473309+00:00"
 }
