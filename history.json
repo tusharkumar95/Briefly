@@ -3,142 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-20T06:03:58.874622+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 3
-      },
-      "stories": [
-        {
-          "id": "3c699eba5edf4d",
-          "cat": "Indian Markets",
-          "title": "Jio IPO priced at Rs 1,065‑1,119, opens Oct 21, closes Oct 23; GMP suggests Rs 1,364 listing price",
-          "summary": "Reliance Jio’s initial public offering will open on October 21 and close on October 23, with a price band of Rs 1,065 to Rs 1,119 per share. The grey‑market premium at the top of the band points to an indicative listing price of about Rs 1,364 per share.",
-          "why": "The pricing and GMP give investors an early gauge of market appetite and potential listing valuation.",
-          "publishedAt": "2026-10-20T04:22:31+00:00",
-          "firstSeen": "2026-10-20T04:22:31+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipos-gmp-rises-to-22-as-indias-largest-ever-issue-set-to-open-on-october-21-should-you-subscribe/articleshow/135061297.cms"
-        },
-        {
-          "id": "a5654dd6220377",
-          "cat": "AI",
-          "title": "Tenstorrent raises $1.5 billion, valuation hits $6.2 billion",
-          "summary": "Tenstorrent, a chip startup focused on AI inference, completed a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the proceeds will be used to scale chips for open‑weight AI models and video‑generation after Galaxy servers demonstrated the ability to run DeepSeek models.",
-          "why": "The funding enables Tenstorrent to expand production of specialized AI inference chips, increasing competition in the open‑weight model market.",
-          "publishedAt": "2026-10-19T18:37:27+00:00",
-          "firstSeen": "2026-10-19T18:37:27+00:00",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
-        },
-        {
-          "id": "d708ae59325ecf",
-          "cat": "India",
-          "title": "India‑NZ free‑trade pact in force, over half of NZ exports tariff‑free",
-          "summary": "The free‑trade agreement between India and New Zealand has come into force, removing tariffs on more than half of New Zealand’s exports to India. Those exports previously faced duties that are now eliminated under the pact. New Zealand also signalled interest in pursuing comparable trade agreements with Brazil and Canada.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-20T00:48:24+00:00",
-          "firstSeen": "2026-10-20T00:48:24+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms"
-        },
-        {
-          "id": "185c93e489fd34",
-          "cat": "India",
-          "title": "RBI injects Rs 1 lakh crore as liquidity tightens before festive season",
-          "summary": "On Monday, the RBI announced a Rs 1-lakh-crore variable rate repo (VRR) auction for the first time since late July after the weighted average call rate (WACR) at 5.67% on Monday, or 17 basis points higher than the repo rate of 5.50%. The central bank will conduct another VRR for Rs 50,000 crore on Wednesday.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-19T19:47:23+00:00",
-          "firstSeen": "2026-10-19T19:47:23+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-injects-rs-1-lakh-crore-as-liquidity-tightens-before-festive-season/articleshow/135055953.cms"
-        },
-        {
-          "id": "0cb8538f1a0700",
-          "cat": "India",
-          "title": "RBI tightens review of $1 billion‑plus overseas investments by Indian firms",
-          "summary": "The Reserve Bank of India has instructed banks to gather and submit detailed information on overseas direct investments exceeding $1 billion made by Indian companies. A prescribed checklist requires banks to conduct due‑diligence on the rationale for each investment before reporting it to the RBI. The measure is aimed at preventing losses for the firms and protecting the Indian economy.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-19T19:26:34+00:00",
-          "firstSeen": "2026-10-19T19:26:34+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms"
-        },
-        {
-          "id": "1dd619e6bb2e83",
-          "cat": "AI",
-          "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
-          "summary": "A little over a month ago, Anthropic and AI infrastructure provider Nscale announced a $45 billion compute deal . Bloomberg reports that the two companies are said to be on the verge of announcing yet another $45 billion compute deal, citing people familiar with the matter.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-19T23:39:38+00:00",
-          "firstSeen": "2026-10-19T23:39:38+00:00",
-          "importanceScore": 10.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
-        },
-        {
-          "id": "b810cbb7af9063",
-          "cat": "World",
-          "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
-          "summary": "Yemen's government said the missile strike killed recruits to its internal security forces (file photo) More than 50 security personnel have been killed and 200 injured in a Houthi missile strike on a camp in Yemen's central province of Shabwa, local authorities say. A spokesman for the Saudi-backed Yemeni armed forces said the Iran-backed group launched three ballistic missiles at al-Alam camp near Ataq city, which was being used as a training centre for recruits to the security forces and police.",
-          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-          "publishedAt": "2026-10-19T16:20:51+00:00",
-          "firstSeen": "2026-10-19T16:20:51+00:00",
-          "importanceScore": 10.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-10-20T11:42:18.498699+00:00",
       "changeSummary": {
         "new": 5,
@@ -1943,99 +1807,91 @@
           "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
         }
       ]
-    }
-  ],
-  "events": {
-    "a82394000aee3b": {
-      "id": "a82394000aee3b",
-      "firstSeen": "2026-10-15T11:26:51+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-10-23T10:07:02.573322+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 1,
+        "continuing": 2
+      },
+      "stories": [
         {
-          "at": "2026-10-15T15:06:22.977089+00:00",
-          "title": "India’s unemployment rate steady at 5% in September 2026",
-          "summary": "The Economic Times reported that India’s overall unemployment rate held at 5.0% in September 2026, unchanged from the previous month. Rural unemployment fell to 4.2%, while urban unemployment rose to 6.9% and urban female unemployment increased to 9.2%. Labour force participation rose to 55.5% year‑on‑year and the worker population ratio climbed to 52.7%.",
-          "importanceScore": 15.3,
+          "id": "cd88b91a047f01",
+          "cat": "Indian Markets",
+          "title": "Adani Power Q2 EBITDA rises 60% to Rs 8,231 crore",
+          "summary": "In its July‑September quarter, Adani Power reported EBITDA of Rs 8,231 crore, a 60 % increase from Rs 5,150 crore in the same quarter a year earlier. The live‑blog noted that the company’s capacity‑expansion programme remains a focus for the period. No net‑profit or revenue figures were provided in the source.",
+          "why": "The EBITDA jump signals stronger operating performance, a key metric for investors assessing profitability trends.",
+          "publishedAt": "2026-10-23T09:15:36+00:00",
+          "firstSeen": "2026-10-23T09:15:36+00:00",
+          "importanceScore": 14.4,
           "sourceCount": 1,
-          "sourceQuality": "general",
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/adani-power-q2-results-cons-profit-zooms-134-yoy-to-rs-6919-crore-revenue-jumps-45/articleshow/135141294.cms"
+        },
+        {
+          "id": "75ab97cd787667",
+          "cat": "World",
+          "title": "Ohio Democratic Gov. Candidate Amy Acton Calls Opponent’s Attack Ad Despicable",
+          "summary": "Amy Acton, the Democratic candidate for Ohio governor, described a campaign advertisement from Republican challenger Vivek Ramaswamy as “despicable.” The ad shows Acton’s estranged mother, Donna Arthur, accusing Acton of lying her whole life and omits that Arthur’s husband was charged with raping Acton as a child and that Acton and her brother were later removed from custody. The spot attracted criticism from members of both parties, and President Donald Trump defended it while Ramaswamy posted about it on social media.",
+          "why": "The controversy illustrates how negative‑campaign tactics can shape voter perceptions in a pivotal statewide race.",
+          "publishedAt": "2026-10-22T19:27:57+00:00",
+          "firstSeen": "2026-10-22T19:27:57+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
           "verified": true,
           "confidence": "high",
           "lifecycle": "Continuing",
           "changed": false,
-          "change": "No material change since the previous brief."
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6z981l59wnwo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "at": "2026-10-15T15:11:59.370843+00:00",
-          "title": "India's unemployment rate stays steady at 5% in September",
-          "summary": "India's overall unemployment rate held steady at 5.0% in September 2026, compared to the previous month. The rural unemployment rate improved to 4.2%, while urban unemployment increased slightly to 6.9%.",
-          "importanceScore": 15.3,
+          "id": "4cd65a8627ef20",
+          "cat": "World",
+          "title": "Paris extends curfew as Marseille and Lyon ban protests after riots",
+          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Paris is extending a partial curfew restricting movement in parts of the city until Monday, as Marseille and Lyon impose a total ban on protests this weekend. France is still reeling from major disorder at the weekend, when large protests against the high cost of living and school conditions were overshadowed by riots and looting that saw business and historic buildings destroyed.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-22T19:25:26+00:00",
+          "firstSeen": "2026-10-22T19:25:26+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "009fcd80ff1a32",
+          "cat": "India",
+          "title": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
+          "summary": "The RBI has asked financial entities to remove management and administrative interfaces from public internet access, enforce multi-factor authentication for administrative access, and restrict access to cloud and backend systems on a least-privilege basis. The RBI issued the advisory on October 19, shortly after CERT-In warned about the growing use of artificial intelligence agents to carry out cyberattacks.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-22T19:07:54+00:00",
+          "firstSeen": "2026-10-22T19:07:54+00:00",
+          "importanceScore": 10.5,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "low",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-15T19:11:07.208307+00:00",
-          "title": "India’s unemployment rate steady at 5% in September 2026",
-          "summary": "India’s overall unemployment rate held steady at 5.0% in September 2026, unchanged from the previous month. Rural unemployment fell to 4.2%, while urban unemployment rose slightly to 6.9% and urban female unemployment increased to 9.2%; the Labour Force Participation Rate rose to 55.5% year‑on‑year and the Worker Population Ratio climbed to 52.7%.",
-          "importanceScore": 14.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-15T22:21:54.661603+00:00",
-          "title": "India's unemployment rate stays steady at 5% in September",
-          "summary": "India's overall unemployment rate held steady at 5.0% in September 2026, compared to the previous month. The rural unemployment rate improved to 4.2%, while urban unemployment increased slightly to 6.9%.",
-          "importanceScore": 14.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-16T01:23:38.892637+00:00",
-          "title": "India’s unemployment rate holds at 5% in September 2026",
-          "summary": "India’s overall unemployment rate stayed at 5.0% in September 2026, unchanged from the previous month. Rural unemployment fell to 4.2%, urban unemployment rose to 6.9%, and urban female unemployment increased to 9.2%. The Labour Force Participation Rate was 55.5% year‑on‑year and the Worker Population Ratio rose to 52.7%.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "India's unemployment rate stays steady at 5% in September",
-          "summary": "India's overall unemployment rate held steady at 5.0% in September 2026, compared to the previous month. The rural unemployment rate improved to 4.2%, while urban unemployment increased slightly to 6.9%.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-asks-banks-payment-firms-to-forensically-clear-tech-environments-in-case-of-a-data-breach/articleshow/135126425.cms"
         }
-      ],
-      "lastSeen": "2026-10-16T07:12:57.744428+00:00",
-      "cat": "India",
-      "latestTitle": "India's unemployment rate stays steady at 5% in September",
-      "latestSummary": "India's overall unemployment rate held steady at 5.0% in September 2026, compared to the previous month. The rural unemployment rate improved to 4.2%, while urban unemployment increased slightly to 6.9%.",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-stays-steady-at-5-in-september/articleshow/134966168.cms"
-    },
+      ]
+    }
+  ],
+  "events": {
     "d61ab3162e8bbd": {
       "id": "d61ab3162e8bbd",
       "firstSeen": "2026-10-15T14:51:30+00:00",
@@ -2125,95 +1981,6 @@
       "latestSummary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
-    },
-    "86cd4ceb3a8f7e": {
-      "id": "86cd4ceb3a8f7e",
-      "firstSeen": "2026-10-15T13:08:20+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-15T15:11:59.370843+00:00",
-          "title": "Rupee at 95.05 per dollar as forward premiums hit four-year high",
-          "summary": "The Indian rupee moved to 95.05 against the U.S. dollar and forward exchange premiums rose to their highest level in four years, occurring amid recent Reserve Bank of India measures. The Economic Times reported the change, noting the currency’s appreciation, the premium surge, and that it may affect market sentiment.",
-          "importanceScore": 14.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "Rupee strengthens to 95.05 a dollar while forward premiums hit four-year high amid RBI measures",
-          "summary": "The rupee concluded the day on Thursday with a gain of 10 paise, reaching 95.05 against the dollar. This strengthening occurred as forward premiums climbed to levels not seen in more than four years, creating a climate of uncertainty.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-16T07:12:57.744428+00:00",
-      "cat": "India",
-      "latestTitle": "Rupee strengthens to 95.05 a dollar while forward premiums hit four-year high amid RBI measures",
-      "latestSummary": "The rupee concluded the day on Thursday with a gain of 10 paise, reaching 95.05 against the dollar. This strengthening occurred as forward premiums climbed to levels not seen in more than four years, creating a climate of uncertainty.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/rupee-strengthens-to-95-05-a-dollar-as-forward-premiums-hit-four-year-high-amid-rbi-measures/articleshow/134968902.cms"
-    },
-    "2200b7c85c3d8d": {
-      "id": "2200b7c85c3d8d",
-      "firstSeen": "2026-10-15T20:04:53+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-15T22:21:54.661603+00:00",
-          "title": "Meta launches an open-weight AI model that runs on Macs",
-          "summary": "Meta has launched what it calls the “most capable” open-weight model in the United States. The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, according to evaluation results released by Meta on Thursday.",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-16T01:23:38.892637+00:00",
-          "title": "Meta launches an open-weight AI model that runs on Macs",
-          "summary": "Meta has launched what it calls the “most capable” open-weight model in the United States. The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, according to evaluation results released by Meta on Thursday.",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "Meta launches an open-weight AI model that runs on Macs",
-          "summary": "Meta has launched what it calls the “most capable” open-weight model in the United States. The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, according to evaluation results released by Meta on Thursday.",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-16T07:12:57.744428+00:00",
-      "cat": "AI",
-      "latestTitle": "Meta launches an open-weight AI model that runs on Macs",
-      "latestSummary": "Meta has launched what it calls the “most capable” open-weight model in the United States. The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, according to evaluation results released by Meta on Thursday.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
     },
     "da7b1218a8c148": {
       "id": "da7b1218a8c148",
@@ -2305,44 +2072,6 @@
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss"
     },
-    "6438044ceee721": {
-      "id": "6438044ceee721",
-      "firstSeen": "2026-10-15T15:56:13+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-16T01:23:38.892637+00:00",
-          "title": "India's current account deficit narrows to $5.2 billion in August as capital account surplus hits $50.6 billion",
-          "summary": "India's current account deficit narrowed to $5.2 billion in August, compared to $6.1 billion a year earlier. The capital account surplus increased substantially to $50.6 billion, influenced by non-resident deposits of $83 billion.",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "India's current account deficit narrows to $5.2 billion in August as capital account surplus hits $50.6 billion",
-          "summary": "India's current account deficit narrowed to $5.2 billion in August, compared to $6.1 billion a year earlier. The capital account surplus increased substantially to $50.6 billion, influenced by non-resident deposits of $83 billion.",
-          "importanceScore": 11.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-16T07:12:57.744428+00:00",
-      "cat": "India",
-      "latestTitle": "India's current account deficit narrows to $5.2 billion in August as capital account surplus hits $50.6 billion",
-      "latestSummary": "India's current account deficit narrowed to $5.2 billion in August, compared to $6.1 billion a year earlier. The capital account surplus increased substantially to $50.6 billion, influenced by non-resident deposits of $83 billion.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-current-account-deficit-narrows-to-5-2-billion-in-august-as-capital-account-surplus-hits-50-6-billion/articleshow/134971438.cms"
-    },
     "a32897379b718e": {
       "id": "a32897379b718e",
       "firstSeen": "2026-10-16T05:00:17+00:00",
@@ -2432,56 +2161,6 @@
       "latestSummary": "BBC Verify analysis of UK Maritime Trade Operations data shows that 12 vessels reported attacks in and around the Strait of Hormuz between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week recorded 10 attacks, with six vessels struck on a single Sunday and four additional attacks reported so far this week. Industry data suggests the surge has slowed the recent recovery in oil shipments through the strait.",
       "why": "The rise in attacks threatens maritime safety and could disrupt global oil supplies.",
       "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss"
-    },
-    "a554348c86b2e1": {
-      "id": "a554348c86b2e1",
-      "firstSeen": "2026-10-16T04:14:32+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "Meta and Google to retain Jio IPO shares as company targets ₹30,213 cr raise",
-          "summary": "Meta Platforms and Google, who invested in Jio Platforms in 2020, could benefit from the upcoming initial public offering. Jio plans to raise about ₹30,213 crore, valuing the company at roughly ₹10.3 lakh crore. Neither Meta nor Google intends to sell any of their shares in this IPO.",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-16T07:12:57.744428+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Meta and Google to retain Jio IPO shares as company targets ₹30,213 cr raise",
-      "latestSummary": "Meta Platforms and Google, who invested in Jio Platforms in 2020, could benefit from the upcoming initial public offering. Jio plans to raise about ₹30,213 crore, valuing the company at roughly ₹10.3 lakh crore. Neither Meta nor Google intends to sell any of their shares in this IPO.",
-      "why": "The IPO will inject substantial capital into Jio Platforms, supporting its growth while the investors keep their stakes.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-meta-google-sit-on-nearly-1-lakh-crore-paper-profit-neither-is-selling/articleshow/134982204.cms"
-    },
-    "8c13ffd0ddac99": {
-      "id": "8c13ffd0ddac99",
-      "firstSeen": "2026-10-16T05:02:09+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "Global hedge funds suffer steep losses as AI trade unwinds, Asia funds hit hardest",
-          "summary": "Global hedge funds suffered steep losses as investors unwound artificial intelligence-related trades amid inflation concerns and expectations of higher interest rates. Asia-focused stock pickers were hit hardest, losing 6.8% in early October, while global fundamental long-short funds fell 2.9% through October 15, according to Goldman Sachs data cited by Reuters.",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-16T07:12:57.744428+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Global hedge funds suffer steep losses as AI trade unwinds, Asia funds hit hardest",
-      "latestSummary": "Global hedge funds suffered steep losses as investors unwound artificial intelligence-related trades amid inflation concerns and expectations of higher interest rates. Asia-focused stock pickers were hit hardest, losing 6.8% in early October, while global fundamental long-short funds fell 2.9% through October 15, according to Goldman Sachs data cited by Reuters.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-hedge-funds-suffer-steep-losses-as-ai-trade-unwinds-asia-funds-hit-hardest/articleshow/134982825.cms"
     },
     "f5f021032aceac": {
       "id": "f5f021032aceac",
@@ -6033,13 +5712,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-23T10:07:02.573322+00:00",
+          "title": "Paris extends curfew as Marseille and Lyon ban protests after riots",
+          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Paris is extending a partial curfew restricting movement in parts of the city until Monday, as Marseille and Lyon impose a total ban on protests this weekend. France is still reeling from major disorder at the weekend, when large protests against the high cost of living and school conditions were overshadowed by riots and looting that saw business and historic buildings destroyed.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T04:55:09.813407+00:00",
+      "lastSeen": "2026-10-23T10:07:02.573322+00:00",
       "cat": "World",
-      "latestTitle": "France extends curfew in Paris and bans protests in Marseille and Lyon amid weekend riots",
-      "latestSummary": "Paris is extending a partial curfew limiting movement in parts of the city until Monday, while Marseille and Lyon ban all protests this weekend. The Louvre, Orsay and Picasso museums in Paris will also close on Saturday as more demonstrations are expected. France is still dealing with weekend disorder when protests over the cost of living and school conditions were overshadowed by riots and looting that damaged businesses and historic buildings. Only authorised union demonstrations are allowed elsewhere, President Macron said.",
-      "why": "The measures restrict citizens' freedom of assembly and key cultural venues during an ongoing period of civil unrest.",
+      "latestTitle": "Paris extends curfew as Marseille and Lyon ban protests after riots",
+      "latestSummary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Paris is extending a partial curfew restricting movement in parts of the city until Monday, as Marseille and Lyon impose a total ban on protests this weekend. France is still reeling from major disorder at the weekend, when large protests against the high cost of living and school conditions were overshadowed by riots and looting that saw business and historic buildings destroyed.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
     },
     "8f2f8c25fcf6bf": {
@@ -6198,13 +5890,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-23T10:07:02.573322+00:00",
+          "title": "Ohio Democratic Gov. Candidate Amy Acton Calls Opponent’s Attack Ad Despicable",
+          "summary": "Amy Acton, the Democratic candidate for Ohio governor, described a campaign advertisement from Republican challenger Vivek Ramaswamy as “despicable.” The ad shows Acton’s estranged mother, Donna Arthur, accusing Acton of lying her whole life and omits that Arthur’s husband was charged with raping Acton as a child and that Acton and her brother were later removed from custody. The spot attracted criticism from members of both parties, and President Donald Trump defended it while Ramaswamy posted about it on social media.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T04:55:09.813407+00:00",
+      "lastSeen": "2026-10-23T10:07:02.573322+00:00",
       "cat": "World",
-      "latestTitle": "Ohio Democratic candidate Amy Acton calls opponent’s ad featuring estranged mother despicable",
-      "latestSummary": "Democratic gubernatorial candidate Amy Acton said a television advertisement released by Republican challenger Vivek Ramaswamy was “despicable.” The ad features Acton’s estranged mother, Donna Arthur, who accuses Acton of lying her whole life. The spot does not mention that Arthur’s husband had been charged with raping Acton as a child and that Acton and her brother were subsequently removed from her custody.",
-      "why": "The controversy may affect voter perceptions in a tightly contested Ohio governor’s race.",
+      "latestTitle": "Ohio Democratic Gov. Candidate Amy Acton Calls Opponent’s Attack Ad Despicable",
+      "latestSummary": "Amy Acton, the Democratic candidate for Ohio governor, described a campaign advertisement from Republican challenger Vivek Ramaswamy as “despicable.” The ad shows Acton’s estranged mother, Donna Arthur, accusing Acton of lying her whole life and omits that Arthur’s husband was charged with raping Acton as a child and that Acton and her brother were later removed from custody. The spot attracted criticism from members of both parties, and President Donald Trump defended it while Ramaswamy posted about it on social media.",
+      "why": "The controversy illustrates how negative‑campaign tactics can shape voter perceptions in a pivotal statewide race.",
       "url": "https://www.bbc.co.uk/news/articles/c6z981l59wnwo?at_medium=RSS&at_campaign=rss"
     },
     "009fcd80ff1a32": {
@@ -6236,15 +5941,53 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-10-23T10:07:02.573322+00:00",
+          "title": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
+          "summary": "The RBI has asked financial entities to remove management and administrative interfaces from public internet access, enforce multi-factor authentication for administrative access, and restrict access to cloud and backend systems on a least-privilege basis. The RBI issued the advisory on October 19, shortly after CERT-In warned about the growing use of artificial intelligence agents to carry out cyberattacks.",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T04:55:09.813407+00:00",
+      "lastSeen": "2026-10-23T10:07:02.573322+00:00",
       "cat": "India",
-      "latestTitle": "RBI directs banks, payment firms to clear tech environments after data breach",
-      "latestSummary": "The Reserve Bank of India issued a directive requiring banks and payment service providers to carry out forensic clearance of their technology environments whenever a data breach is reported, to identify and remediate compromised systems and protect customer data. The order is part of the regulator’s effort to reinforce cybersecurity across the financial sector.",
+      "latestTitle": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
+      "latestSummary": "The RBI has asked financial entities to remove management and administrative interfaces from public internet access, enforce multi-factor authentication for administrative access, and restrict access to cloud and backend systems on a least-privilege basis. The RBI issued the advisory on October 19, shortly after CERT-In warned about the growing use of artificial intelligence agents to carry out cyberattacks.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-asks-banks-payment-firms-to-forensically-clear-tech-environments-in-case-of-a-data-breach/articleshow/135126425.cms"
+    },
+    "cd88b91a047f01": {
+      "id": "cd88b91a047f01",
+      "firstSeen": "2026-10-23T09:15:36+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T10:07:02.573322+00:00",
+          "title": "Adani Power Q2 EBITDA rises 60% to Rs 8,231 crore",
+          "summary": "In its July‑September quarter, Adani Power reported EBITDA of Rs 8,231 crore, a 60 % increase from Rs 5,150 crore in the same quarter a year earlier. The live‑blog noted that the company’s capacity‑expansion programme remains a focus for the period. No net‑profit or revenue figures were provided in the source.",
+          "importanceScore": 14.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T10:07:02.573322+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Adani Power Q2 EBITDA rises 60% to Rs 8,231 crore",
+      "latestSummary": "In its July‑September quarter, Adani Power reported EBITDA of Rs 8,231 crore, a 60 % increase from Rs 5,150 crore in the same quarter a year earlier. The live‑blog noted that the company’s capacity‑expansion programme remains a focus for the period. No net‑profit or revenue figures were provided in the source.",
+      "why": "The EBITDA jump signals stronger operating performance, a key metric for investors assessing profitability trends.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/adani-power-q2-results-cons-profit-zooms-134-yoy-to-rs-6919-crore-revenue-jumps-45/articleshow/135141294.cms"
     }
   },
-  "updated": "2026-10-23T04:55:09.813407+00:00"
+  "updated": "2026-10-23T10:07:02.573322+00:00"
 }
