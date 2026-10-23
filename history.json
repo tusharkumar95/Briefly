@@ -3,242 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-20T11:42:18.498699+00:00",
-      "changeSummary": {
-        "new": 5,
-        "updated": 0,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "7471d513a6260f",
-          "cat": "Indian Markets",
-          "title": "Bank of Japan to keep rates steady, may raise FY2027 inflation forecast",
-          "summary": "The Bank of Japan intends to modestly raise its fiscal year 2027 inflation outlook while leaving the policy rate unchanged at 1.25% for the late‑October meeting. Officials note inflation risks but say there is no immediate need for additional hikes, and recent data show price pressures are not accelerating sharply. The article lists several Indian stocks as trending, including SBI.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-10-20T06:52:26+00:00",
-          "firstSeen": "2026-10-20T06:52:26+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bank-of-japan-may-raise-inflation-forecast-stand-pat-on-rates-sources-say/articleshow/135063146.cms"
-        },
-        {
-          "id": "b0b4107ef9f21e",
-          "cat": "Indian Markets",
-          "title": "EAAA India Alternatives to float Rs 1,200-cr IPO on Oct 26",
-          "summary": "EAAA India Alternatives Ltd will open its initial public offering worth Rs 1,200 crore on October 26. The IPO will close for subscription on October 28, following anchor investor bidding on October 23.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-20T07:51:09+00:00",
-          "firstSeen": "2026-10-20T07:51:09+00:00",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-to-float-rs-1200-cr-ipo-on-oct-26/articleshow/135064394.cms"
-        },
-        {
-          "id": "09d5635ce8654e",
-          "cat": "Canada",
-          "title": "Montreal man faces massive medical bills after emergency spinal surgery",
-          "summary": "Try This October 20, 2026 at 7:12 am Alvin is here temporarily while his wife is a student. Seems like he was thinking they would automatically be allowed to stay, and believes the Canadian citizens should pay his medical bills.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-20T09:00:03+00:00",
-          "firstSeen": "2026-10-20T09:00:03+00:00",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12108704/montreal-man-massive-medical-bills/"
-        },
-        {
-          "id": "a5654dd6220377",
-          "cat": "AI",
-          "title": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-          "summary": "Tenstorrent, an AI inference chip startup, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funding will be used to scale chips for open‑weight AI models and video generation after Galaxy servers demonstrated DeepSeek model capability.",
-          "why": "The capital enables Tenstorrent to expand production of chips targeting open‑weight AI workloads, strengthening its competitive position against Nvidia in the inference market.",
-          "publishedAt": "2026-10-19T18:37:27+00:00",
-          "firstSeen": "2026-10-19T18:37:27+00:00",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
-        },
-        {
-          "id": "d708ae59325ecf",
-          "cat": "India",
-          "title": "India‑NZ free trade agreement in force, over half of NZ exports to India tariff‑free",
-          "summary": "A free trade agreement between India and New Zealand has entered into force, removing tariffs on more than half of New Zealand’s exports to India. The tariff‑free access is expected to boost products such as sheep meat, wool and other local goods. At the same time, New Zealand is preparing its first trade and investment dialogue with Brazil, following upcoming elections, and is also seeking stronger ties with Canada.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-20T00:48:24+00:00",
-          "firstSeen": "2026-10-20T00:48:24+00:00",
-          "importanceScore": 12.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms"
-        },
-        {
-          "id": "8e6e364d57ff24",
-          "cat": "India",
-          "title": "Marco Rubio in India to boost energy, trade and defence cooperation",
-          "summary": "US official Marco Rubio is in India to enhance cooperation in energy, trade and defence and to advance the India‑US Comprehensive Global Strategic Partnership. The visit follows a May trip that included meetings with Prime Minister Narendra Modi and External Affairs Minister S Jaishankar. Discussions aim at a bilateral trade deal that would address tariff issues and improve market access.",
-          "why": "The talks are intended to deepen economic engagement and could affect tariffs and market access between the two countries.",
-          "publishedAt": "2026-10-20T09:26:48+00:00",
-          "firstSeen": "2026-10-20T09:26:48+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-lands-in-mumbai-as-new-delhi-washington-push-to-close-trade-deal/articleshow/135066599.cms"
-        },
-        {
-          "id": "37f3ec213ac53c",
-          "cat": "India",
-          "title": "Trump waives Russian sanctions, potentially easing India’s energy concerns",
-          "summary": "U.S. President Donald Trump announced a waiver of certain Russian sanctions, a move that could facilitate trade between the United States and India. India, a major importer of Russian oil that has seen volumes fall, may gain additional flexibility in negotiating tariffs and energy policy. Secretary of State Marco Rubio is in India for talks on cooperation related to the waiver.",
-          "why": "It could help India secure more favorable trade terms and stabilize its energy supplies.",
-          "publishedAt": "2026-10-19T12:03:41+00:00",
-          "firstSeen": "2026-10-19T12:03:41+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trump-waives-russia-sanctions-easing-indias-energy-concerns-as-us-trade-deal-nears/articleshow/135048374.cms"
-        }
-      ]
-    },
-    {
-      "at": "2026-10-20T17:11:45.716518+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "c5260f35525409",
-          "cat": "Indian Markets",
-          "title": "Federal Bank named in Economic Times market trading guide",
-          "summary": "The Economic Times published a market‑trading guide that listed Federal Bank as one of four stock recommendations for Wednesday. The article is located in the “Markets › Stocks › News” section of the site.",
-          "why": "The recommendation may draw investor attention to Federal Bank for short‑term trading.",
-          "publishedAt": "2026-10-20T10:18:27+00:00",
-          "firstSeen": "2026-10-20T10:18:27+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-federal-bank-among-4-stock-recommendations-for-wednesday/slideshow/135067773.cms"
-        },
-        {
-          "id": "a5654dd6220377",
-          "cat": "AI",
-          "title": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-          "summary": "Tenstorrent, a chip startup focused on inference, raised $1.5 billion in a financing round that valued the company at $6.2 billion, more than double its $2.6 billion valuation in late 2024. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. Proceeds will be used to scale chips for open‑weight AI models and video generation.",
-          "why": "The funding strengthens competition in AI hardware and supports alternatives to Nvidia’s dominant GPUs.",
-          "publishedAt": "2026-10-19T18:37:27+00:00",
-          "firstSeen": "2026-10-19T18:37:27+00:00",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
-        },
-        {
-          "id": "85d9eb1be8cb00",
-          "cat": "Canada",
-          "title": "‘It wasn’t me’: Ontario man denies killing Tori Dunn in Surrey, B.C. home invasion",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-20T17:08:19+00:00",
-          "firstSeen": "2026-10-20T17:08:19+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12109502/ontario-man-denies-killing-tori-dunn-surrey-bc-home-invasion/"
-        },
-        {
-          "id": "0cb8538f1a0700",
-          "cat": "India",
-          "title": "RBI tightens scrutiny of large overseas direct investments",
-          "summary": "The Reserve Bank of India has introduced stricter oversight of large overseas direct investments by Indian companies. Banks are now required to collect and submit detailed information on such investments to the RBI and to carry out thorough due‑diligence on the investment rationale. The measure is intended to help prevent potential losses for the companies and for the Indian economy.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-19T19:26:34+00:00",
-          "firstSeen": "2026-10-19T19:26:34+00:00",
-          "importanceScore": 10.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms"
-        },
-        {
-          "id": "0cdb4ef3ae33c9",
-          "cat": "India",
-          "title": "Rubio says India‑US trade deal is “very, very close” after Jaishankar meeting",
-          "summary": "US Secretary of State Marco Rubio said negotiations for a trade deal with India are approaching completion. He referenced recent talks with Indian Foreign Minister Subrahmanyam Jaishankar on energy security and defence cooperation. Rubio’s visit to India also included a tour of the Reliance Industries refinery and meetings with business leaders, while tariff and energy tensions persist.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-20T11:49:50+00:00",
-          "firstSeen": "2026-10-20T11:49:50+00:00",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rubio-says-india-us-trade-deal-is-very-very-close-after-jaishankar-meeting/articleshow/135068984.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-20T20:37:46.146661+00:00",
       "changeSummary": {
         "new": 4,
@@ -1889,43 +1653,59 @@
           "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-asks-banks-payment-firms-to-forensically-clear-tech-environments-in-case-of-a-data-breach/articleshow/135126425.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "d61ab3162e8bbd": {
-      "id": "d61ab3162e8bbd",
-      "firstSeen": "2026-10-15T14:51:30+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-10-23T19:16:38.389874+00:00",
+      "changeSummary": {
+        "new": 7,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
         {
-          "at": "2026-10-15T15:06:22.977089+00:00",
-          "title": "Seven missing after drone strike ignites chemical tanker off Romania",
-          "summary": "A Romanian search and rescue effort using boats and helicopters is ongoing in rough seas after a drone hit the San Marino‑flagged chemical tanker Wine Trader, 13 nautical miles east of the Danube mouth at Sulina. The vessel reported blasts and fire; seven of its 12 crew members are missing. Romanian President Nicușor Dan said another chemical tanker, the Yara J, had been struck by a drone the day before.",
-          "importanceScore": 13.9,
+          "id": "29689c75fadd27",
+          "cat": "India",
+          "title": "RBI flags inflation risks from West Asia conflict, El Nino",
+          "summary": "The Reserve Bank of India warned that inflationary pressures could rise because of the conflict in West Asia and the expected El Nino weather pattern, and it noted that the Indian economy remains resilient. The RBI’s comment was issued without additional detail on the magnitude or timing of any impact.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T15:54:19+00:00",
+          "firstSeen": "2026-10-23T15:54:19+00:00",
+          "importanceScore": 15.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
+        },
+        {
+          "id": "3ca27f28973fa5",
+          "cat": "World",
+          "title": "White House says Melania Trump helped broker Oleshky ceasefire",
+          "summary": "The White House said US First Lady Melania Trump secured a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, with the truce slated to start on 29 October. Both sides confirmed the agreement would allow evacuation of civilians and delivery of aid, and Moscow announced its troops would cease fire at 04:00 (02:00 GMT) on 27 October. Oleshky has been under Russian control since February 2022 and has faced severe shortages of food, medicine and water.",
+          "why": "The truce could enable evacuation of residents and delivery of humanitarian assistance to a city in acute crisis.",
+          "publishedAt": "2026-10-23T16:59:51+00:00",
+          "firstSeen": "2026-10-23T16:59:51+00:00",
+          "importanceScore": 14.8,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-15T15:11:59.370843+00:00",
-          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-          "summary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
           "confidence": "low",
-          "lifecycle": "Updated",
+          "lifecycle": "New",
           "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "at": "2026-10-15T22:21:54.661603+00:00",
-          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-          "summary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
+          "id": "37c75adc075113",
+          "cat": "World",
+          "title": "Denmark to ban mink farming in government U-turn",
+          "summary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
+          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+          "publishedAt": "2026-10-23T12:17:45+00:00",
+          "firstSeen": "2026-10-23T12:17:45+00:00",
           "importanceScore": 12.9,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
@@ -1933,55 +1713,85 @@
           "confidence": "low",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "at": "2026-10-16T01:23:38.892637+00:00",
-          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-          "summary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
-          "importanceScore": 12.9,
+          "id": "a0db575c715329",
+          "cat": "Indian Markets",
+          "title": "EAAA India Alternatives mops up Rs 360 crore from anchor investors; IPO opens on Oct 26",
+          "summary": "EAAA India Alternatives has successfully raised approximately Rs 360 crore from anchor investors prior to its IPO. Prominent institutional investors and major domestic mutual fund houses participated in the anchor allocation.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-23T16:50:32+00:00",
+          "firstSeen": "2026-10-23T16:50:32+00:00",
+          "importanceScore": 12.6,
           "sourceCount": 1,
-          "sourceQuality": "tier-1",
+          "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-mops-up-rs-360-crore-from-anchor-investors-ipo-opens-on-oct-26/articleshow/135150980.cms"
         },
         {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-          "summary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
-          "importanceScore": 11.9,
+          "id": "059509433f6f1c",
+          "cat": "Canada",
+          "title": "Maine senator says ‘tariff exemptions’ coming for some Canadian goods",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-23T18:59:20+00:00",
+          "firstSeen": "2026-10-23T18:59:20+00:00",
+          "importanceScore": 12.5,
           "sourceCount": 1,
-          "sourceQuality": "tier-1",
+          "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12118875/donald-trump-tariffs-canada-susan-collins/"
         },
         {
-          "at": "2026-10-16T12:28:40.465775+00:00",
-          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-          "summary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
-          "importanceScore": 11.9,
+          "id": "cce1cabbb3ee9e",
+          "cat": "India",
+          "title": "India's exports to Germany could cross $50 billion by 2030: ASSOCHAM",
+          "summary": "ASSOCHAM said the potential for expanding market access, investment and business partnerships between India and Germany. It said the two countries could use their respective strengths in manufacturing, technology and innovation to deepen economic ties and create new growth opportunities.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-10-23T16:12:25+00:00",
+          "firstSeen": "2026-10-23T16:12:25+00:00",
+          "importanceScore": 12.4,
           "sourceCount": 1,
-          "sourceQuality": "tier-1",
+          "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-exports-to-germany-could-cross-50-billion-by-2030-assocham/articleshow/135150336.cms"
+        },
+        {
+          "id": "0672558c0f2ad8",
+          "cat": "Indian Markets",
+          "title": "Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest applications and more",
+          "summary": "Mukesh Ambani’s Jio Platforms IPO attracted bids exceeding Rs 4.5 lakh crore, setting 12 records, including over 1.25 crore applications. Jio’s record-breaking IPO attracts Rs 4.5 lakh crore in bids, surpasses global application records and draws unprecedented demand from institutional and retail investors.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-23T15:04:30+00:00",
+          "firstSeen": "2026-10-23T15:04:30+00:00",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-breaks-12-records-rs-4-5-lakh-crore-bids-highest-applications-and-more/articleshow/135149311.cms"
         }
-      ],
-      "lastSeen": "2026-10-16T12:28:40.465775+00:00",
-      "cat": "World",
-      "latestTitle": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-      "latestSummary": "A search and rescue operation involving boats and helicopters is now continuing in rough seas, Romania's authorities say Seven of 12 crew members are missing after a drone attack left a chemical tanker ablaze off Romania's coast on Thursday morning, naval authorities say. Romanian President Nicușor Dan confirmed that the Wine Trader and another chemical tanker in the area, the Yara J, had both been struck by drones - the Yara J on Wednesday.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
-    },
+      ]
+    }
+  ],
+  "events": {
     "da7b1218a8c148": {
       "id": "da7b1218a8c148",
       "firstSeen": "2026-10-15T23:38:46+00:00",
@@ -2212,31 +2022,6 @@
       "latestSummary": "The Reserve Bank of India reported that foreign exchange reserves declined by $8.578 billion to $726.027 billion in the week ended October 9, after a $12.952 billion fall the week before. Foreign‑currency assets, gold holdings, special drawing rights and the RBI’s position with the IMF all recorded declines.",
       "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-by-usd-8-58-billion-to-usd-726-03-billion-in-week-ended-october-9-rbi/articleshow/134993652.cms"
-    },
-    "32cc18242dd417": {
-      "id": "32cc18242dd417",
-      "firstSeen": "2026-10-16T12:09:09+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-16T12:28:40.465775+00:00",
-          "title": "India aims for $100 billion bilateral trade with Russia by 2030",
-          "summary": "Indian Ambassador to Russia Vinay Kumar said India is negotiating a free‑trade agreement with the Eurasian Economic Union to boost exports. He projected that total India‑Russia trade will reach about US$100 billion by 2030, up from roughly US$38 billion recorded in the first half of the current year. The government is working to diversify its export basket and improve market access in Russia.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-16T12:28:40.465775+00:00",
-      "cat": "India",
-      "latestTitle": "India aims for $100 billion bilateral trade with Russia by 2030",
-      "latestSummary": "Indian Ambassador to Russia Vinay Kumar said India is negotiating a free‑trade agreement with the Eurasian Economic Union to boost exports. He projected that total India‑Russia trade will reach about US$100 billion by 2030, up from roughly US$38 billion recorded in the first half of the current year. The government is working to diversify its export basket and improve market access in Russia.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-reach-100-billion-dollar-of-bilateral-trade-with-russia-by-2030-ambassador-vinay-kumar/articleshow/134994562.cms"
     },
     "4af9479aadbf08": {
       "id": "4af9479aadbf08",
@@ -5987,7 +5772,182 @@
       "latestSummary": "In its July‑September quarter, Adani Power reported EBITDA of Rs 8,231 crore, a 60 % increase from Rs 5,150 crore in the same quarter a year earlier. The live‑blog noted that the company’s capacity‑expansion programme remains a focus for the period. No net‑profit or revenue figures were provided in the source.",
       "why": "The EBITDA jump signals stronger operating performance, a key metric for investors assessing profitability trends.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/adani-power-q2-results-cons-profit-zooms-134-yoy-to-rs-6919-crore-revenue-jumps-45/articleshow/135141294.cms"
+    },
+    "29689c75fadd27": {
+      "id": "29689c75fadd27",
+      "firstSeen": "2026-10-23T15:54:19+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T19:16:38.389874+00:00",
+          "title": "RBI flags inflation risks from West Asia conflict, El Nino",
+          "summary": "The Reserve Bank of India warned that inflationary pressures could rise because of the conflict in West Asia and the expected El Nino weather pattern, and it noted that the Indian economy remains resilient. The RBI’s comment was issued without additional detail on the magnitude or timing of any impact.",
+          "importanceScore": 15.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "cat": "India",
+      "latestTitle": "RBI flags inflation risks from West Asia conflict, El Nino",
+      "latestSummary": "The Reserve Bank of India warned that inflationary pressures could rise because of the conflict in West Asia and the expected El Nino weather pattern, and it noted that the Indian economy remains resilient. The RBI’s comment was issued without additional detail on the magnitude or timing of any impact.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
+    },
+    "3ca27f28973fa5": {
+      "id": "3ca27f28973fa5",
+      "firstSeen": "2026-10-23T16:59:51+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T19:16:38.389874+00:00",
+          "title": "White House says Melania Trump helped broker Oleshky ceasefire",
+          "summary": "The White House said US First Lady Melania Trump secured a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, with the truce slated to start on 29 October. Both sides confirmed the agreement would allow evacuation of civilians and delivery of aid, and Moscow announced its troops would cease fire at 04:00 (02:00 GMT) on 27 October. Oleshky has been under Russian control since February 2022 and has faced severe shortages of food, medicine and water.",
+          "importanceScore": 14.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "cat": "World",
+      "latestTitle": "White House says Melania Trump helped broker Oleshky ceasefire",
+      "latestSummary": "The White House said US First Lady Melania Trump secured a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, with the truce slated to start on 29 October. Both sides confirmed the agreement would allow evacuation of civilians and delivery of aid, and Moscow announced its troops would cease fire at 04:00 (02:00 GMT) on 27 October. Oleshky has been under Russian control since February 2022 and has faced severe shortages of food, medicine and water.",
+      "why": "The truce could enable evacuation of residents and delivery of humanitarian assistance to a city in acute crisis.",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+    },
+    "37c75adc075113": {
+      "id": "37c75adc075113",
+      "firstSeen": "2026-10-23T12:17:45+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T19:16:38.389874+00:00",
+          "title": "Denmark to ban mink farming in government U-turn",
+          "summary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "cat": "World",
+      "latestTitle": "Denmark to ban mink farming in government U-turn",
+      "latestSummary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss"
+    },
+    "a0db575c715329": {
+      "id": "a0db575c715329",
+      "firstSeen": "2026-10-23T16:50:32+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T19:16:38.389874+00:00",
+          "title": "EAAA India Alternatives mops up Rs 360 crore from anchor investors; IPO opens on Oct 26",
+          "summary": "EAAA India Alternatives has successfully raised approximately Rs 360 crore from anchor investors prior to its IPO. Prominent institutional investors and major domestic mutual fund houses participated in the anchor allocation.",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "EAAA India Alternatives mops up Rs 360 crore from anchor investors; IPO opens on Oct 26",
+      "latestSummary": "EAAA India Alternatives has successfully raised approximately Rs 360 crore from anchor investors prior to its IPO. Prominent institutional investors and major domestic mutual fund houses participated in the anchor allocation.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-mops-up-rs-360-crore-from-anchor-investors-ipo-opens-on-oct-26/articleshow/135150980.cms"
+    },
+    "059509433f6f1c": {
+      "id": "059509433f6f1c",
+      "firstSeen": "2026-10-23T18:59:20+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T19:16:38.389874+00:00",
+          "title": "Maine senator says ‘tariff exemptions’ coming for some Canadian goods",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "cat": "Canada",
+      "latestTitle": "Maine senator says ‘tariff exemptions’ coming for some Canadian goods",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12118875/donald-trump-tariffs-canada-susan-collins/"
+    },
+    "cce1cabbb3ee9e": {
+      "id": "cce1cabbb3ee9e",
+      "firstSeen": "2026-10-23T16:12:25+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T19:16:38.389874+00:00",
+          "title": "India's exports to Germany could cross $50 billion by 2030: ASSOCHAM",
+          "summary": "ASSOCHAM said the potential for expanding market access, investment and business partnerships between India and Germany. It said the two countries could use their respective strengths in manufacturing, technology and innovation to deepen economic ties and create new growth opportunities.",
+          "importanceScore": 12.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "cat": "India",
+      "latestTitle": "India's exports to Germany could cross $50 billion by 2030: ASSOCHAM",
+      "latestSummary": "ASSOCHAM said the potential for expanding market access, investment and business partnerships between India and Germany. It said the two countries could use their respective strengths in manufacturing, technology and innovation to deepen economic ties and create new growth opportunities.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-exports-to-germany-could-cross-50-billion-by-2030-assocham/articleshow/135150336.cms"
+    },
+    "0672558c0f2ad8": {
+      "id": "0672558c0f2ad8",
+      "firstSeen": "2026-10-23T15:04:30+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-23T19:16:38.389874+00:00",
+          "title": "Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest applications and more",
+          "summary": "Mukesh Ambani’s Jio Platforms IPO attracted bids exceeding Rs 4.5 lakh crore, setting 12 records, including over 1.25 crore applications. Jio’s record-breaking IPO attracts Rs 4.5 lakh crore in bids, surpasses global application records and draws unprecedented demand from institutional and retail investors.",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-23T19:16:38.389874+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest applications and more",
+      "latestSummary": "Mukesh Ambani’s Jio Platforms IPO attracted bids exceeding Rs 4.5 lakh crore, setting 12 records, including over 1.25 crore applications. Jio’s record-breaking IPO attracts Rs 4.5 lakh crore in bids, surpasses global application records and draws unprecedented demand from institutional and retail investors.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-breaks-12-records-rs-4-5-lakh-crore-bids-highest-applications-and-more/articleshow/135149311.cms"
     }
   },
-  "updated": "2026-10-23T10:07:02.573322+00:00"
+  "updated": "2026-10-23T19:16:38.389874+00:00"
 }
