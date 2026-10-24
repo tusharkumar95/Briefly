@@ -1,30 +1,28 @@
 {
-  "updated": "2026-10-24T21:11:09.523376+00:00",
+  "updated": "2026-10-24T23:43:59.924326+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX Composite down 0.52% to one‑week low",
+      "headline": "Canada stocks close lower as S&P/TSX Composite falls 0.52%",
       "direction": "down",
       "move": "S&P/TSX Composite -0.52%",
-      "why": "The S&P/TSX Composite slipped to a one‑week low, with the decline linked to the energy index reaching a record as oil prices hit $100 per barrel.",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Energy Index Hits Record on $100 Oil",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.52%",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "Energy index record on $100 oil",
-          "detail": "Energy sector hit a new high as oil rose to $100, coinciding with the broader index sliding to a one‑week low.",
-          "kind": "driver"
+          "label": "Canada shares lower at close of trade; S&P/TSX Composite down 0.52% By Investing.com",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
-      "sectors": [
-        "Energy"
-      ],
-      "confidence": "medium",
+      "sectors": [],
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -51,31 +49,20 @@
           "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.52% By Investing.com - Investing.com India",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQVFfUGZldkNadENoVW91YzFrd3lIWTg2S2pVV18tWGVKWU1HNkRCRnV1OXR3cTlsN1A5YmRYTWxqTUtDb2QwSmsxdll1ODVjcjZmRVZNUVRWR3QtNTNKZzgtT3ZyX1VaYTJpeTRobWJ5SUlJZjMzTS1wQ05ha25mVTNxTTY2dHNqNEs1WWpIWkl6dEhwNFJ6V0pZUlZJLWJnUXFaekRSMTB0R1dmSExWZzVoYlRFbGJ2TWc?oc=5",
           "publishedAt": "2026-10-24T02:41:45+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange: S&P/TSX Composite Slides to One-Week Low as Energy Index Hits Record on $100 Oil - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdTRhWlJMZkdpOV9oSmxQcjZFSVgtRnF2OWF0Y3BuZHNkcUV0NWxwNUVXWXY4UWw5bmJWZkQ0YjVIR0xYa01sRzZ2YllxQ2JSdE12Y3lGMnZKZ3JHcUR2ZTlXVkRwQzhwekk3WDl5Z3E2SUZhWXlLZll4X19KZUMyTUNXbXNXTFE3bVQtbnppVmx1aTNxei1mNnBrUS1nazJFZlJJMVl6TnkyU0ZDNU9qT0lYdlJWSHl2WExkSmZfdGE1VkhmNWFRbWE5NnJnUktLR29DN2tsNENYQQ?oc=5",
-          "publishedAt": "2026-10-23T21:48:59+00:00"
         }
       ],
-      "evidenceCount": 3
+      "evidenceCount": 2
     },
     "India": {
       "label": "India",
       "headline": "Nifty 50 fell 0.39%",
       "direction": "down",
       "move": "Nifty 50 -0.39%",
-      "why": "Same-day market coverage explicitly linked the final move to: RBI Rate Hike; Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War; markets slide: Is the worst over or more pain ahead?.",
+      "why": "Same-day market coverage explicitly linked the final move to: RBI Rate Hike; markets slide: Is the worst over or more pain ahead?.",
       "drivers": [
         {
           "label": "RBI Rate Hike",
           "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -114,6 +101,12 @@
       },
       "sources": [
         {
+          "name": "Goodreturns",
+          "title": "Stock Market Crash: Sensex Plunges 700 Points, Nifty Breaks 23,300 As Crude Tops $100; Why Is Market Falling? - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV1NKNFNnTlpWcUY3NHplSzZyWWxiUUVUZ09raWFpTkU4QVRwMWZSbmtrTlUwOVBTY3NfeEdKMTJELUFFbkZ1SXBTRXN1aVBheXYwOWU5eUZYbDAwa0JZWmcyR2M0QjhGWUsxYXlrbVhWbDlMV21QcEI4R0psRV9qeXM3Q0hHS2EyeXF3TjlRRTNQRWc5VUYtd3dibXJPYjJ5V1ZBV0R0akVLVzZUczJkcUVqc0hiOFZRN1hsVlU2cWpfQXJaZmZoSkZFQmRSOHdSdFRv?oc=5",
+          "publishedAt": "2026-10-24T22:13:21+00:00"
+        },
+        {
           "name": "INDIA New England News",
           "title": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2w0OExuLXNXNkItVEJweDJtWkZCQlBkZUQ4LUYtNDlqVVRyQU5WemdBSUhnY3gwWGdza2Z2UXUwUC1MSE9SQzNkenpXR1RIWFpTdHctRE84dDlOWVEtYTNzS1Yzb09fZFlZTG1pMkc0N3lCQ2l3Rl96eFV4QnphVVhWTDVBUnhTSGo1LVgzWHhjbmZobWt0S3d6WQ?oc=5",
@@ -136,12 +129,6 @@
           "title": "Sensex, Nifty Fall for Third Straight Session as Oil Prices Rise - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV2hiaEl5eXFHREs5aW1QMklVdlBnbjVMY0RhUXZFVmtFQVBhQi14NFNGYVd6cTlXUXM4clpaY3k4MzFSNzlUalA4ejdPV0ZHX1pUX0FoX2gzcTd6QWZvRnlhUTlhWGFzUVJGbzJZSVlaVzllczJ4MzdaX1haeEJpX3lCQmxuMG0wamlCYWt5TGQzNzlHb2xV?oc=5",
           "publishedAt": "2026-10-24T05:16:26+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Falls to 73,123.83 as Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTlN6VVRGVkYwMlczMWdPdTRhYXFPUU54UHNFNGRqTU1JdEJORXlyaWtMaGt3eFpmaGFSQ2U1dk01QnZZSjEtNFc5SVpMMUhCUmd3Q214YmJJY3lKeHE3Y2JzNENILTdXNHJFV25UeThSX0RobjdtVGlteDVOczViWW90S3ZMTnFwU0tmSGpxQ2lOUWRsYlJuMnNmLUEtaHRIWTMwcWV2elg5VnpYMjhRYi1WZ0Q4Sjh6bHhSMkpPdzdhZ25wbUw2VXIyUUE1Z3EyZG8wSWpzdXdZVXdtRC15Mg?oc=5",
-          "publishedAt": "2026-10-23T21:51:11+00:00"
         },
         {
           "name": "INDIA New England News",
