@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-24T07:20:03.104914+00:00",
+  "updated": "2026-10-24T12:42:36.258657+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 11,
-    "enrichedCandidates": 79,
-    "readableCandidates": 64,
-    "eventClusters": 64,
+    "nonNoiseCandidates": 79,
+    "officialOrPrimaryCandidates": 14,
+    "enrichedCandidates": 78,
+    "readableCandidates": 59,
+    "eventClusters": 59,
     "materialEvents": 31,
     "selectedEvents": 9,
-    "seededStories": 7,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,13 +24,13 @@
       "categories": [
         "India"
       ],
-      "title": "RBI flags inflation risks from West Asia conflict and El Nino despite resilient economy",
+      "title": "RBI warns of inflation risks from West Asia conflict and El Nino despite resilient economy",
       "publishedAt": "2026-10-23T15:54:19+00:00",
       "importanceScore": 13.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms",
-      "summary": "The Reserve Bank of India said inflation pressures could rise because of the war in West Asia and an expected El Nino weather pattern, even though the Indian economy remains resilient. The central bank identified these external factors as potential threats to price stability and said monitoring them will inform future monetary‑policy decisions.",
+      "summary": "The Reserve Bank of India highlighted that ongoing conflict in West Asia and the expected El Nino weather pattern could push inflation higher, even as it noted the Indian economy remains resilient. The central bank’s commentary flagged these external factors as potential risks to price stability.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -44,124 +44,160 @@
       ],
       "firstSeen": "2026-10-23T15:54:19+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-24T07:20:03.104914+00:00",
+      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "RBI warns of inflation risks from West Asia conflict and El Nino, says economy remains resilient",
-      "previousSummary": "The Reserve Bank of India highlighted that the ongoing conflict in West Asia and the anticipated El Nino weather pattern could increase inflation pressures in the country. In the same statement, the RBI noted that the Indian economy continues to show resilience despite these external risks. No further details on policy response were provided in the source.",
+      "previousTitle": "RBI flags inflation risks from West Asia conflict and El Nino despite resilient economy",
+      "previousSummary": "The Reserve Bank of India said inflation pressures could rise because of the war in West Asia and an expected El Nino weather pattern, even though the Indian economy remains resilient. The central bank identified these external factors as potential threats to price stability and said monitoring them will inform future monetary‑policy decisions.",
       "previousPublishedAt": "2026-10-23T15:54:19+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 14.7,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "previousImportanceScore": 13.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
-      "id": "22281187a6132a",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "Inflation remains high, growth slows, says RBI Governor",
-      "publishedAt": "2026-10-23T13:27:26+00:00",
-      "importanceScore": 13.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms",
-      "summary": "RBI Governor Shaktikanta Malhotra told reporters that inflation continues to run above the target band and that the pace of economic growth is decelerating, warning that these twin pressures pose a larger challenge for the central bank in steering monetary policy. He emphasized that addressing inflation while supporting growth will require careful calibration of interest rates.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms",
-          "publishedAt": "2026-10-23T13:27:26+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-23T13:27:26+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-24T07:20:03.104914+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "5f82c6b6a27a2d",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "IndusInd Bank posts Rs 1,242 crore net profit on lower provisions",
-      "publishedAt": "2026-10-24T03:00:04+00:00",
-      "importanceScore": 13.1,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indusind-bank-posts-rs-1242-crore-net-profit-on-lower-provisions/articleshow/135160532.cms",
-      "summary": "IndusInd Bank reported a net profit of Rs 1,242 crore for the quarter. The result was attributed to lower loan‑loss provisions, which reduced the bank’s expense line. Lower provisioning means a smaller amount was set aside for potential loan defaults.",
-      "why": "The profit figure signals the bank’s recent financial performance to investors and analysts.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indusind-bank-posts-rs-1242-crore-net-profit-on-lower-provisions/articleshow/135160532.cms",
-          "publishedAt": "2026-10-24T03:00:04+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-24T03:00:04+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-24T07:20:03.104914+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "171a64b3c19e48",
+      "id": "b066dc6a0ae9bb",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Australian MP Helen Haines' condition stabilises after car attack",
-      "publishedAt": "2026-10-24T01:55:15+00:00",
-      "importanceScore": 12.7,
+      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "publishedAt": "2026-10-24T07:17:44+00:00",
+      "importanceScore": 13.4,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
-      "summary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta electorate office in north‑east Victoria on Monday. She underwent emergency surgery that included bilateral leg amputation and was airlifted to Melbourne’s Alfred Hospital. On Saturday the hospital reported her condition had improved from critical to serious but stable.",
-      "why": "The update informs the public about the health status of a sitting federal parliamentarian and the seriousness of the incident.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+      "summary": "US First Lady Melania Trump has \"successfully secured\" a ceasefire between Russia and Ukraine in the Russian-occupied city of Oleshky, the White House has said. It said the truce in the \"front-line war city on the brink of disaster\" without medicine, food and clean water would begin on 29 October.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-24T01:55:15+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-24T07:17:44+00:00"
         }
       ],
-      "firstSeen": "2026-10-24T01:55:15+00:00",
+      "firstSeen": "2026-10-24T07:17:44+00:00",
       "status": "New",
-      "lastChecked": "2026-10-24T07:20:03.104914+00:00",
+      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "6829e880561f4f",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026",
+      "publishedAt": "2026-10-24T09:33:10+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/portfolio-killers-10-us-stocks-that-wiped-out-up-to-66-of-investors-wealth-in-2026/slideshow/135167355.cms",
+      "summary": "Here are the top 10 stocks with market capitalisations above $5 billion that have fallen between 49% and 66% year to date, according to Vested Finance data. The Trade Desk has emerged as the biggest loser on this list, with shares plunging 65.75% in 2026, from $37.96 at the end of last year to $13.00.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/portfolio-killers-10-us-stocks-that-wiped-out-up-to-66-of-investors-wealth-in-2026/slideshow/135167355.cms",
+          "publishedAt": "2026-10-24T09:33:10+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-24T09:33:10+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "01a7e7ea823ddc",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Govt of Singapore’s India portfolio: 10 stocks rally up to 100% in FY27 so far",
+      "publishedAt": "2026-10-24T09:20:31+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-of-singapores-india-portfolio-10-stocks-rally-up-to-100-in-fy27-so-far/slideshow/135167433.cms",
+      "summary": "In terms of stock performance, around 14 stocks in the portfolio have delivered positive returns so far in FY27, while nearly half have posted negative returns. (Data Source: ACE Equity, Trendlyne) The stock has surged 101% so far in FY27, climbing from Rs 1,511 to Rs 3,034.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-of-singapores-india-portfolio-10-stocks-rally-up-to-100-in-fy27-so-far/slideshow/135167433.cms",
+          "publishedAt": "2026-10-24T09:20:31+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-24T09:20:31+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "582854707d03e7",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
+      "publishedAt": "2026-10-24T08:24:37+00:00",
+      "importanceScore": 12.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms",
+      "summary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms",
+          "publishedAt": "2026-10-24T08:24:37+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-24T08:24:37+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -173,17 +209,17 @@
       "categories": [
         "World"
       ],
-      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+      "title": "Gun attack in Paris suburbs labeled racist terrorist attack by Macron",
       "publishedAt": "2026-10-23T19:42:08+00:00",
-      "importanceScore": 12.7,
+      "importanceScore": 11.7,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-      "summary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb that killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes, with the attacker opening fire from his car - first in Trappes, to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
+      "summary": "A shooter opened fire from his car in the Paris suburbs of Trappes and nearby La Verrière, killing one person and wounding five others. French President Emmanuel Macron described the incident as a “racist terrorist attack” and said it was the first random racial killing in the Republic. The attacker was arrested and prosecutors said the case appears to be murder linked to a terrorist enterprise.",
+      "why": "It underscores concerns about racially motivated terrorism in France and may influence security policy.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
@@ -193,60 +229,24 @@
       ],
       "firstSeen": "2026-10-23T19:42:08+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-24T07:20:03.104914+00:00",
+      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "strong-source-or-corroborated",
       "previousTitle": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "previousSummary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb which killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes with the attacker opening fire from his car - first in Trappes to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
+      "previousSummary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb that killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes, with the attacker opening fire from his car - first in Trappes, to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
       "previousPublishedAt": "2026-10-23T19:42:08+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 12.7,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "27fe5471154cff",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
-      "publishedAt": "2026-10-23T11:37:11+00:00",
-      "importanceScore": 9.8,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms",
-      "summary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms",
-          "publishedAt": "2026-10-23T11:37:11+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-23T11:37:11+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-24T07:20:03.104914+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Jarvis verification is now available for this event.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 4,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-24T01:37:10.158040+00:00",
+  "jarvisEditedCount": 2,
+  "finalRejectedCount": 2,
+  "previousUpdated": "2026-10-24T07:20:03.104914+00:00",
   "changeSummary": {
     "new": 4,
     "updated": 1,
@@ -255,10 +255,10 @@
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-21T10:12:53.247169+00:00",
-    "updated": "2026-10-24T07:20:03.104914+00:00",
+    "availableFrom": "2026-10-21T15:18:36.679155+00:00",
+    "updated": "2026-10-24T12:42:36.258657+00:00",
     "snapshotCount": 15,
-    "eventCount": 95,
+    "eventCount": 96,
     "retentionHours": 72
   }
 }

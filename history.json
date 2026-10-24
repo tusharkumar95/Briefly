@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-21T10:12:53.247169+00:00",
-      "changeSummary": {
-        "new": 5,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "52d9f72d781762",
-          "cat": "Canada",
-          "title": "Bank of Canada may raise rates in October, raising concerns for Canadian housing market",
-          "summary": "The Bank of Canada has not raised its policy rate since July 2023 and an eighth‑consecutive hold is widely expected at its upcoming meeting. A growing number of economists and traders now anticipate a rate increase on Oct. 28 to address persistent inflation. Experts say a hike would increase variable‑rate mortgage payments, reduce the pool of qualified buyers and could push home prices lower.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-10-21T08:00:00+00:00",
-          "firstSeen": "2026-10-21T08:00:00+00:00",
-          "importanceScore": 18.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.cbc.ca/news/business/real-estate-bank-of-canada-9.7389322?cmp=rss"
-        },
-        {
-          "id": "63336cbba013a0",
-          "cat": "World",
-          "title": "65‑year‑old swimmer killed in shark attack off South Africa’s east coast",
-          "summary": "Janine Lochrenberg, 65, was swimming off a beach in KuGompo City (formerly East London) on Tuesday morning when she was attacked by a shark at about 08:00 local time (06:00 GMT). Witnesses said she was bitten in two places and died before she could be brought ashore. It is the first recorded fatal shark attack in South Africa this year, and the country has had about ten fatal attacks since 2012.",
-          "why": "The incident highlights the rare but serious risk that shark encounters pose to open‑water swimmers in the region.",
-          "publishedAt": "2026-10-20T15:58:57+00:00",
-          "firstSeen": "2026-10-20T15:58:57+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "0ec816a4cbc82a",
-          "cat": "India",
-          "title": "India presents a compelling investment proposition for German firms, FICCI says",
-          "summary": "Indian industry is poised for growth as German companies are encouraged to invest in manufacturing capacities. The upcoming India-European Union free trade agreement aims to strengthen trade ties and foster economic partnerships.",
-          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-          "publishedAt": "2026-10-21T09:45:45+00:00",
-          "firstSeen": "2026-10-21T09:45:45+00:00",
-          "importanceScore": 12.4,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/india-presents-a-compelling-investment-proposition-for-german-firms-ficci-says/articleshow/135087635.cms"
-        },
-        {
-          "id": "0101eaf0aa1485",
-          "cat": "Canada",
-          "title": "Canada orders deportation of Toronto man who helped Iran evade sanctions",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Iranian national Amin Yousefijam at Immigration and the Refugee Board office in Etobicoke, Ont., on Feb.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-21T09:00:52+00:00",
-          "firstSeen": "2026-10-21T09:00:52+00:00",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12109602/canada-deport-toronto-iran-sanctions-evasion/"
-        },
-        {
-          "id": "07ec72ee20afff",
-          "cat": "India",
-          "title": "India’s $100 billion European Free Trade Association cheque is slow to clear as Vietnam joins the club",
-          "summary": "Vietnam recently signed a free trade agreement with the European Free Trade Association, expanding its trade network. This agreement comes as India's interaction with EFTA continues to evolve, with potential impacts on competition.",
-          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-          "publishedAt": "2026-10-21T07:03:00+00:00",
-          "firstSeen": "2026-10-21T07:03:00+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-100-bn-efta-cheque-is-slow-to-clear-as-vietnam-joins-the-club/articleshow/135084308.cms"
-        },
-        {
-          "id": "a5db260549abb0",
-          "cat": "India",
-          "title": "Marco Rubio, S Jaishankar discuss energy ties as India-US trade deal nears finalisation",
-          "summary": "US Secretary of State Marco Rubio and S Jaishankar discussed energy security, defence, technology and regional issues in Mumbai. Rubio said the India-US trade deal was close to finalisation, with a few issues remaining.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-21T00:30:00+00:00",
-          "firstSeen": "2026-10-21T00:30:00+00:00",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-s-jaishankar-discuss-energy-ties-as-india-us-trade-deal-nears-finalisation/articleshow/135076515.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-21T15:18:36.679155+00:00",
       "changeSummary": {
         "new": 8,
@@ -1789,6 +1671,124 @@
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms"
         }
       ]
+    },
+    {
+      "at": "2026-10-24T12:42:36.258657+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "29689c75fadd27",
+          "cat": "India",
+          "title": "RBI warns of inflation risks from West Asia conflict and El Nino despite resilient economy",
+          "summary": "The Reserve Bank of India highlighted that ongoing conflict in West Asia and the expected El Nino weather pattern could push inflation higher, even as it noted the Indian economy remains resilient. The central bank’s commentary flagged these external factors as potential risks to price stability.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T15:54:19+00:00",
+          "firstSeen": "2026-10-23T15:54:19+00:00",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
+        },
+        {
+          "id": "b066dc6a0ae9bb",
+          "cat": "World",
+          "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+          "summary": "US First Lady Melania Trump has \"successfully secured\" a ceasefire between Russia and Ukraine in the Russian-occupied city of Oleshky, the White House has said. It said the truce in the \"front-line war city on the brink of disaster\" without medicine, food and clean water would begin on 29 October.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-24T07:17:44+00:00",
+          "firstSeen": "2026-10-24T07:17:44+00:00",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "6829e880561f4f",
+          "cat": "Indian Markets",
+          "title": "Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026",
+          "summary": "Here are the top 10 stocks with market capitalisations above $5 billion that have fallen between 49% and 66% year to date, according to Vested Finance data. The Trade Desk has emerged as the biggest loser on this list, with shares plunging 65.75% in 2026, from $37.96 at the end of last year to $13.00.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-24T09:33:10+00:00",
+          "firstSeen": "2026-10-24T09:33:10+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/portfolio-killers-10-us-stocks-that-wiped-out-up-to-66-of-investors-wealth-in-2026/slideshow/135167355.cms"
+        },
+        {
+          "id": "01a7e7ea823ddc",
+          "cat": "Indian Markets",
+          "title": "Govt of Singapore’s India portfolio: 10 stocks rally up to 100% in FY27 so far",
+          "summary": "In terms of stock performance, around 14 stocks in the portfolio have delivered positive returns so far in FY27, while nearly half have posted negative returns. (Data Source: ACE Equity, Trendlyne) The stock has surged 101% so far in FY27, climbing from Rs 1,511 to Rs 3,034.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-24T09:20:31+00:00",
+          "firstSeen": "2026-10-24T09:20:31+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-of-singapores-india-portfolio-10-stocks-rally-up-to-100-in-fy27-so-far/slideshow/135167433.cms"
+        },
+        {
+          "id": "582854707d03e7",
+          "cat": "Indian Markets",
+          "title": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
+          "summary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-24T08:24:37+00:00",
+          "firstSeen": "2026-10-24T08:24:37+00:00",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms"
+        },
+        {
+          "id": "b4558c7c634094",
+          "cat": "World",
+          "title": "Gun attack in Paris suburbs labeled racist terrorist attack by Macron",
+          "summary": "A shooter opened fire from his car in the Paris suburbs of Trappes and nearby La Verrière, killing one person and wounding five others. French President Emmanuel Macron described the incident as a “racist terrorist attack” and said it was the first random racial killing in the Republic. The attacker was arrested and prosecutors said the case appears to be murder linked to a terrorist enterprise.",
+          "why": "It underscores concerns about racially motivated terrorism in France and may influence security policy.",
+          "publishedAt": "2026-10-23T19:42:08+00:00",
+          "firstSeen": "2026-10-23T19:42:08+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Jarvis verification is now available for this event.",
+          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "events": {
@@ -1882,83 +1882,6 @@
       "why": "The incident shows the danger to civilians and journalists working in the olive‑harvest area of the occupied West Bank.",
       "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss"
     },
-    "3215a2de16d02a": {
-      "id": "3215a2de16d02a",
-      "firstSeen": "2026-10-16T12:17:33+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-16T17:26:34.170134+00:00",
-          "title": "India’s forex reserves drop $60 billion in six weeks as RBI intervenes",
-          "summary": "India’s foreign‑exchange reserves fell by roughly $60 billion over a six‑week period. The Reserve Bank of India stepped into the market to support the rupee, which has been among the weakest Asian currencies this year. The drawdown reflects the central bank’s effort to stabilise the currency.",
-          "importanceScore": 12.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-16T21:12:42.374155+00:00",
-          "title": "India's forex reserves shed $60 billion in six weeks as RBI steps in to support rupee, one of Asia's worst-performing currencies this year",
-          "summary": "India’s foreign exchange reserves declined by nearly $60 billion in six weeks to $726.027 billion as of October 9, from a record high of $785.706 billion on September 4. The fall was largely attributed to the Reserve Bank of India’s intervention to support the rupee amid rising crude oil prices, higher US yields and sustained foreign investor outflows.",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-16T23:38:03.497582+00:00",
-          "title": "India's forex reserves drop $60 billion in six weeks as RBI intervenes",
-          "summary": "Over a six‑week period, India's foreign‑exchange reserves fell by about $60 billion. The Reserve Bank of India bought dollars in the market to support the rupee, which has been one of the weakest Asian currencies this year. The drawdown reflects pressure on the currency and the central bank’s stabilisation effort.",
-          "importanceScore": 12.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-17T04:31:09.102759+00:00",
-          "title": "India’s forex reserves fall $60 billion in six weeks",
-          "summary": "India’s foreign exchange reserves dropped to $726.027 billion on Oct 9, down from $785.706 billion on Sep 4, a decline of about $60 billion over six weeks. The Reserve Bank of India’s market intervention to support the rupee, amid higher crude‑oil prices, rising U.S. Treasury yields and continued foreign‑investor outflows, was cited as the main cause. Foreign‑currency assets and gold reserves also fell during the period.",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-17T09:24:34.381097+00:00",
-          "title": "India’s forex reserves drop $60 billion in six weeks",
-          "summary": "India’s foreign‑exchange reserves fell by about $60 billion, reaching $726.027 billion on October 9, down from $785.706 billion on September 4. The Reserve Bank of India sold foreign‑currency assets and gold to support the rupee as crude‑oil prices rose, U.S. Treasury yields increased, and foreign investors continued to withdraw. Both the foreign‑currency component and gold holdings declined during the period.",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-17T09:24:34.381097+00:00",
-      "cat": "India",
-      "latestTitle": "India’s forex reserves drop $60 billion in six weeks",
-      "latestSummary": "India’s foreign‑exchange reserves fell by about $60 billion, reaching $726.027 billion on October 9, down from $785.706 billion on September 4. The Reserve Bank of India sold foreign‑currency assets and gold to support the rupee as crude‑oil prices rose, U.S. Treasury yields increased, and foreign investors continued to withdraw. Both the foreign‑currency component and gold holdings declined during the period.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-shed-60-billion-in-six-weeks-as-rbi-steps-in-to-support-rupee-one-of-asias-worst-performing-currencies-this-year/articleshow/134994757.cms"
-    },
     "e4f2bccf60ac45": {
       "id": "e4f2bccf60ac45",
       "firstSeen": "2026-10-16T17:54:45+00:00",
@@ -2049,44 +1972,6 @@
       "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/white-house-lists-investment-over-330-billion-in-us-from-india/articleshow/135001068.cms"
     },
-    "6ede0c8ae747f6": {
-      "id": "6ede0c8ae747f6",
-      "firstSeen": "2026-10-17T03:48:41+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-17T04:31:09.102759+00:00",
-          "title": "Jio’s $3.2 billion IPO tests Ambani appeal with young Indians",
-          "summary": "Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-17T09:24:34.381097+00:00",
-          "title": "Reliance to launch Jio Platforms IPO targeting $3.2 bn on Oct 21, 2023",
-          "summary": "Reliance Industries Ltd. is preparing to list Jio Platforms Ltd., expected to be India’s largest IPO, with a target of about $3.2 billion in proceeds. The offering is scheduled for October 21, 2023. Observers note that younger investors, who favor quicker returns, are scrutinising Jio’s valuation alongside rivals such as Bharti Airtel.",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-17T09:24:34.381097+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Reliance to launch Jio Platforms IPO targeting $3.2 bn on Oct 21, 2023",
-      "latestSummary": "Reliance Industries Ltd. is preparing to list Jio Platforms Ltd., expected to be India’s largest IPO, with a target of about $3.2 billion in proceeds. The offering is scheduled for October 21, 2023. Observers note that younger investors, who favor quicker returns, are scrutinising Jio’s valuation alongside rivals such as Bharti Airtel.",
-      "why": "The IPO is notable because it seeks a large capital raise and draws valuation comparisons with major telecom peers.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jios-3-2-billion-ipo-tests-ambani-appeal-with-young-indians/articleshow/135006812.cms"
-    },
     "4e59aff54e5277": {
       "id": "4e59aff54e5277",
       "firstSeen": "2026-10-17T06:18:37+00:00",
@@ -2124,31 +2009,6 @@
       "latestSummary": "Brent crude surpassed $110 a barrel as attacks around the Strait of Hormuz and renewed Russia‑Ukraine hostilities raised global supply concerns. WTI also rose, posting weekly gains above 10%. Goldman Sachs warned that further shipping disruptions could lift prices toward $120, while easing tensions might pull crude back toward $80.",
       "why": "Higher oil prices tighten global energy markets, affecting inflation and financial markets.",
       "url": "https://economictimes.indiatimes.com/markets/commodities/news/brentcrude-oil-prices-hit-110-for-first-time-since-may-as-iran-attacks-continue-ukraine-eyes-russia-energy-infra/articleshow/135008770.cms"
-    },
-    "b2b4aa1a03fc69": {
-      "id": "b2b4aa1a03fc69",
-      "firstSeen": "2026-10-17T08:46:36+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-17T09:24:34.381097+00:00",
-          "title": "HDFC Bank Q2 FY27 Net Profit Up 4.6% YoY to Rs 19,509 crore",
-          "summary": "HDFC Bank reported a net profit of Rs 19,509 crore for the second quarter of FY 27, a 4.6 % increase from Rs 18,641 crore in the same quarter last year. The earnings release was made on Saturday. No net interest income figure was provided in the source.",
-          "importanceScore": 14.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-17T09:24:34.381097+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "HDFC Bank Q2 FY27 Net Profit Up 4.6% YoY to Rs 19,509 crore",
-      "latestSummary": "HDFC Bank reported a net profit of Rs 19,509 crore for the second quarter of FY 27, a 4.6 % increase from Rs 18,641 crore in the same quarter last year. The earnings release was made on Saturday. No net interest income figure was provided in the source.",
-      "why": "The profit increase shows continued earnings growth for India’s largest private lender, a key metric for investors.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hdfc-bank-q2-results-net-profit-rises-5-yoy-to-rs-19510-crore-nii-grows-10/articleshow/135010605.cms"
     },
     "53c492f0f30bde": {
       "id": "53c492f0f30bde",
@@ -5471,12 +5331,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-10-24T12:42:36.258657+00:00",
+          "title": "RBI warns of inflation risks from West Asia conflict and El Nino despite resilient economy",
+          "summary": "The Reserve Bank of India highlighted that ongoing conflict in West Asia and the expected El Nino weather pattern could push inflation higher, even as it noted the Indian economy remains resilient. The central bank’s commentary flagged these external factors as potential risks to price stability.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
+      "lastSeen": "2026-10-24T12:42:36.258657+00:00",
       "cat": "India",
-      "latestTitle": "RBI flags inflation risks from West Asia conflict and El Nino despite resilient economy",
-      "latestSummary": "The Reserve Bank of India said inflation pressures could rise because of the war in West Asia and an expected El Nino weather pattern, even though the Indian economy remains resilient. The central bank identified these external factors as potential threats to price stability and said monitoring them will inform future monetary‑policy decisions.",
+      "latestTitle": "RBI warns of inflation risks from West Asia conflict and El Nino despite resilient economy",
+      "latestSummary": "The Reserve Bank of India highlighted that ongoing conflict in West Asia and the expected El Nino weather pattern could push inflation higher, even as it noted the Indian economy remains resilient. The central bank’s commentary flagged these external factors as potential risks to price stability.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
     },
@@ -5825,13 +5698,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-24T12:42:36.258657+00:00",
+          "title": "Gun attack in Paris suburbs labeled racist terrorist attack by Macron",
+          "summary": "A shooter opened fire from his car in the Paris suburbs of Trappes and nearby La Verrière, killing one person and wounding five others. French President Emmanuel Macron described the incident as a “racist terrorist attack” and said it was the first random racial killing in the Republic. The attacker was arrested and prosecutors said the case appears to be murder linked to a terrorist enterprise.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Jarvis verification is now available for this event."
         }
       ],
-      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
+      "lastSeen": "2026-10-24T12:42:36.258657+00:00",
       "cat": "World",
-      "latestTitle": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "latestSummary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb that killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes, with the attacker opening fire from his car - first in Trappes, to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "latestTitle": "Gun attack in Paris suburbs labeled racist terrorist attack by Macron",
+      "latestSummary": "A shooter opened fire from his car in the Paris suburbs of Trappes and nearby La Verrière, killing one person and wounding five others. French President Emmanuel Macron described the incident as a “racist terrorist attack” and said it was the first random racial killing in the Republic. The attacker was arrested and prosecutors said the case appears to be murder linked to a terrorist enterprise.",
+      "why": "It underscores concerns about racially motivated terrorism in France and may influence security policy.",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
     },
     "1efe0dc5d3f80e": {
@@ -5908,7 +5794,107 @@
       "latestSummary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta electorate office in north‑east Victoria on Monday. She underwent emergency surgery that included bilateral leg amputation and was airlifted to Melbourne’s Alfred Hospital. On Saturday the hospital reported her condition had improved from critical to serious but stable.",
       "why": "The update informs the public about the health status of a sitting federal parliamentarian and the seriousness of the incident.",
       "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss"
+    },
+    "b066dc6a0ae9bb": {
+      "id": "b066dc6a0ae9bb",
+      "firstSeen": "2026-10-24T07:17:44+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T12:42:36.258657+00:00",
+          "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+          "summary": "US First Lady Melania Trump has \"successfully secured\" a ceasefire between Russia and Ukraine in the Russian-occupied city of Oleshky, the White House has said. It said the truce in the \"front-line war city on the brink of disaster\" without medicine, food and clean water would begin on 29 October.",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T12:42:36.258657+00:00",
+      "cat": "World",
+      "latestTitle": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "latestSummary": "US First Lady Melania Trump has \"successfully secured\" a ceasefire between Russia and Ukraine in the Russian-occupied city of Oleshky, the White House has said. It said the truce in the \"front-line war city on the brink of disaster\" without medicine, food and clean water would begin on 29 October.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+    },
+    "6829e880561f4f": {
+      "id": "6829e880561f4f",
+      "firstSeen": "2026-10-24T09:33:10+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T12:42:36.258657+00:00",
+          "title": "Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026",
+          "summary": "Here are the top 10 stocks with market capitalisations above $5 billion that have fallen between 49% and 66% year to date, according to Vested Finance data. The Trade Desk has emerged as the biggest loser on this list, with shares plunging 65.75% in 2026, from $37.96 at the end of last year to $13.00.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T12:42:36.258657+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026",
+      "latestSummary": "Here are the top 10 stocks with market capitalisations above $5 billion that have fallen between 49% and 66% year to date, according to Vested Finance data. The Trade Desk has emerged as the biggest loser on this list, with shares plunging 65.75% in 2026, from $37.96 at the end of last year to $13.00.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/portfolio-killers-10-us-stocks-that-wiped-out-up-to-66-of-investors-wealth-in-2026/slideshow/135167355.cms"
+    },
+    "01a7e7ea823ddc": {
+      "id": "01a7e7ea823ddc",
+      "firstSeen": "2026-10-24T09:20:31+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T12:42:36.258657+00:00",
+          "title": "Govt of Singapore’s India portfolio: 10 stocks rally up to 100% in FY27 so far",
+          "summary": "In terms of stock performance, around 14 stocks in the portfolio have delivered positive returns so far in FY27, while nearly half have posted negative returns. (Data Source: ACE Equity, Trendlyne) The stock has surged 101% so far in FY27, climbing from Rs 1,511 to Rs 3,034.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T12:42:36.258657+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Govt of Singapore’s India portfolio: 10 stocks rally up to 100% in FY27 so far",
+      "latestSummary": "In terms of stock performance, around 14 stocks in the portfolio have delivered positive returns so far in FY27, while nearly half have posted negative returns. (Data Source: ACE Equity, Trendlyne) The stock has surged 101% so far in FY27, climbing from Rs 1,511 to Rs 3,034.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-of-singapores-india-portfolio-10-stocks-rally-up-to-100-in-fy27-so-far/slideshow/135167433.cms"
+    },
+    "582854707d03e7": {
+      "id": "582854707d03e7",
+      "firstSeen": "2026-10-24T08:24:37+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T12:42:36.258657+00:00",
+          "title": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
+          "summary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T12:42:36.258657+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
+      "latestSummary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms"
     }
   },
-  "updated": "2026-10-24T07:20:03.104914+00:00"
+  "updated": "2026-10-24T12:42:36.258657+00:00"
 }
