@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-20T23:54:53.609108+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 2,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "c5260f35525409",
-          "cat": "Indian Markets",
-          "title": "Economic Times lists Federal Bank among four stock picks for Wednesday",
-          "summary": "The Economic Times published a market‑trading guide that named Federal Bank as one of four stocks recommended for trading on Wednesday. The article provides only the headline and does not disclose the other three stocks or the rationale for the selection.",
-          "why": "The recommendation may influence short‑term traders who follow Economic Times stock picks.",
-          "publishedAt": "2026-10-20T10:18:27+00:00",
-          "firstSeen": "2026-10-20T10:18:27+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-federal-bank-among-4-stock-recommendations-for-wednesday/slideshow/135067773.cms"
-        },
-        {
-          "id": "1938c7a71dd39d",
-          "cat": "Indian Markets",
-          "title": "Jio IPO all set to open: How can investors maximise allotment chances under Rs 2,500 crore RIL shareholders quota",
-          "summary": "The much-anticipated Reliance Jio Platforms IPO is launching for public subscription starting October 21, 2023. Shareholders of Reliance Industries can benefit from a Rs 2,500 crore reservation aimed at maximizing their investment opportunities.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-20T07:35:56+00:00",
-          "firstSeen": "2026-10-20T07:35:56+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-opens-tomorrow-how-can-investors-maximise-allotment-chances-under-rs-2500-crore-ril-shareholders-quota/articleshow/135064168.cms"
-        },
-        {
-          "id": "d708ae59325ecf",
-          "cat": "India",
-          "title": "India‑NZ free‑trade agreement in force, over half of NZ exports to India tariff‑free",
-          "summary": "The bilateral free‑trade pact between India and New Zealand has taken effect, removing tariffs on more than half of New Zealand’s exports to India, covering a range of goods. New Zealand’s government also is exploring similar trade deals with Brazil and Canada as part of its effort to diversify export markets.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-20T00:48:24+00:00",
-          "firstSeen": "2026-10-20T00:48:24+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-nz-fta-in-force-over-half-of-new-zealands-exports-to-india-now-tariff-free-wellington-also-eyes-brazil-canada/articleshow/135059156.cms"
-        },
-        {
-          "id": "b810cbb7af9063",
-          "cat": "World",
-          "title": "Houthi missile strike kills over 70 security recruits at al‑Alam camp in Shabwa",
-          "summary": "On Monday, the Iran‑backed Houthi movement fired three ballistic missiles at al‑Alam training camp near Ataq in Yemen’s central Shabwa province, killing more than 70 internal security recruits. Yemen’s Saudi‑backed armed forces confirmed the attack, and Rashad al‑Alimi, head of the Presidential Leadership Council, condemned it as a criminal act and pledged a firm response, noting it occurred as pro‑government forces launched a major offensive in early October to retake western Houthi‑held territory.",
-          "why": "The attack hits a government training site, underscoring the ongoing threat to security forces in contested areas.",
-          "publishedAt": "2026-10-20T14:09:42+00:00",
-          "firstSeen": "2026-10-20T14:09:42+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "3ffc9af9038cd3",
-          "cat": "India",
-          "title": "India and New Zealand launch free trade agreement",
-          "summary": "The newly‑launched free trade agreement between India and New Zealand aims to promote bilateral trade and increase professional mobility. Some goods will receive duty‑free treatment, while merchandise export growth is expected to be gradual. The pact also opens opportunities for Indian companies in New Zealand’s service sectors and creates new job pathways for Indian students and skilled professionals.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-20T03:55:22+00:00",
-          "firstSeen": "2026-10-20T03:55:22+00:00",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-new-zealand-fta-zero-tariffs-work-visas-20-billion-investment-trade-deal/articleshow/135060766.cms"
-        },
-        {
-          "id": "0cdb4ef3ae33c9",
-          "cat": "India",
-          "title": "Rubio says India‑US trade deal is close after meeting with Jaishankar",
-          "summary": "U.S. Senator Marco Rubio said negotiations for a trade agreement with India are nearing completion. He noted that talks with Foreign Minister Subrahmanyam Jaishankar focused on energy security and defence cooperation, though tariff and energy issues remain challenges. During his visit, Rubio toured Reliance Industries’ refinery and met Indian business leaders.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-20T11:49:50+00:00",
-          "firstSeen": "2026-10-20T11:49:50+00:00",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rubio-says-india-us-trade-deal-is-very-very-close-after-jaishankar-meeting/articleshow/135068984.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-21T04:52:51.407537+00:00",
       "changeSummary": {
         "new": 4,
@@ -1807,99 +1689,109 @@
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "da7b1218a8c148": {
-      "id": "da7b1218a8c148",
-      "firstSeen": "2026-10-15T23:38:46+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-10-24T01:37:10.158040+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 2,
+        "continuing": 1
+      },
+      "stories": [
         {
-          "at": "2026-10-16T01:23:38.892637+00:00",
-          "title": "Houthi missile attack on Aden presidential palace kills five, injures 16",
-          "summary": "Five people were killed and 16 injured when five ballistic missiles struck al‑Maashiq Palace in Aden, the seat of Yemen’s internationally‑recognised government. Yemen’s information minister said the prime minister and other ministers were unharmed; the health minister said the victims were palace guards and civilian staff. The Houthis said they targeted the “Saudi enemy’s military operations headquarters” in the city.",
-          "importanceScore": 13.7,
+          "id": "29689c75fadd27",
+          "cat": "India",
+          "title": "RBI warns of inflation risks from West Asia conflict and El Nino, says economy remains resilient",
+          "summary": "The Reserve Bank of India highlighted that the ongoing conflict in West Asia and the anticipated El Nino weather pattern could increase inflation pressures in the country. In the same statement, the RBI noted that the Indian economy continues to show resilience despite these external risks. No further details on policy response were provided in the source.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T15:54:19+00:00",
+          "firstSeen": "2026-10-23T15:54:19+00:00",
+          "importanceScore": 14.7,
           "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-          "summary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
+          "sourceQuality": "tier-2",
           "verified": false,
-          "confidence": "low",
+          "confidence": "medium",
           "lifecycle": "Continuing",
           "changed": false,
-          "change": "No material change since the previous brief."
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
         },
         {
-          "at": "2026-10-16T12:28:40.465775+00:00",
-          "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-          "summary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-16T17:26:34.170134+00:00",
-          "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-          "summary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-16T21:12:42.374155+00:00",
-          "title": "Houthi missile strike hits Aden presidential palace, five killed, 16 injured",
-          "summary": "A Houthi missile attack struck al‑Maashiq Palace, the presidential palace in Aden, killing five people and wounding 16, including site guards and civilian employees. Yemen’s Information Minister Moammar al‑Eryani said the prime minister and other ministers were unharmed. The Houthis said the strike targeted what they called the “Saudi enemy’s military operations headquarters” in Aden.",
-          "importanceScore": 11.7,
+          "id": "3ca27f28973fa5",
+          "cat": "World",
+          "title": "White House says Melania Trump secured ceasefire in Oleshky",
+          "summary": "The White House announced that former First Lady Melania Trump helped secure a cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky. Both sides said they would stop firing at 02:00 GMT on 27 October and work to evacuate residents and allow humanitarian aid. Oleshky has been under Russian control since February 2022, and residents have been facing severe shortages.",
+          "why": "The pause could enable delivery of food, medicine and water to civilians in a city on the brink of disaster.",
+          "publishedAt": "2026-10-23T19:30:19+00:00",
+          "firstSeen": "2026-10-23T16:59:51+00:00",
+          "importanceScore": 13.4,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
           "confidence": "high",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Jarvis verification is now available for this event."
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "at": "2026-10-16T23:38:03.497582+00:00",
-          "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-          "summary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
-          "importanceScore": 11.7,
+          "id": "b4558c7c634094",
+          "cat": "World",
+          "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+          "summary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb which killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes with the attacker opening fire from his car - first in Trappes to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
+          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+          "publishedAt": "2026-10-23T19:42:08+00:00",
+          "firstSeen": "2026-10-23T19:42:08+00:00",
+          "importanceScore": 12.7,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": false,
           "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "37c75adc075113",
+          "cat": "World",
+          "title": "Denmark to end mink farming by August 2029 after dropping EU exemption bid",
+          "summary": "Denmark will cease mink farming by August 2029 after the government decided not to pursue an exemption to the EU‑wide ban on the practice. The ban is scheduled to take effect on 7 August next year, followed by a two‑year transition period to wind down remaining operations. The decision reflects a shrinking fur market, a past Covid‑related outbreak in mink, and animal‑welfare concerns.",
+          "why": "The policy ends Denmark’s mink‑fur sector, which had been the world’s largest producer, impacting animal welfare and related economic activity.",
+          "publishedAt": "2026-10-23T12:17:45+00:00",
+          "firstSeen": "2026-10-23T12:17:45+00:00",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "1efe0dc5d3f80e",
+          "cat": "Indian Markets",
+          "title": "Tata Motors CV posts Rs 2,138 crore Q2 profit",
+          "summary": "Tata Motors Ltd achieved a standalone net profit of ₹2,138 crore for the September quarter, reversing last year's loss. Consolidated profit also increased to ₹1,257 crore, aided by a drop in mark-to-market losses.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-23T19:08:33+00:00",
+          "firstSeen": "2026-10-23T19:08:33+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-posts-rs-2138-crore-q2-profit/articleshow/135154453.cms"
         }
-      ],
-      "lastSeen": "2026-10-16T23:38:03.497582+00:00",
-      "cat": "World",
-      "latestTitle": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-      "latestSummary": "Five people have been killed and 16 injured in a Houthi missile attack targeting the presidential palace in the port city of Aden in southern Yemen, which is the seat of the internationally-recognised government, officials say. Information Minister Moammar al-Eryani told the BBC that the prime minister and other ministers were unhurt when five ballistic missiles hit al-Maashiq Palace.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss"
-    },
+      ]
+    }
+  ],
+  "events": {
     "a32897379b718e": {
       "id": "a32897379b718e",
       "firstSeen": "2026-10-16T05:00:17+00:00",
@@ -5795,12 +5687,25 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-24T01:37:10.158040+00:00",
+          "title": "RBI warns of inflation risks from West Asia conflict and El Nino, says economy remains resilient",
+          "summary": "The Reserve Bank of India highlighted that the ongoing conflict in West Asia and the anticipated El Nino weather pattern could increase inflation pressures in the country. In the same statement, the RBI noted that the Indian economy continues to show resilience despite these external risks. No further details on policy response were provided in the source.",
+          "importanceScore": 14.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
+      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
       "cat": "India",
-      "latestTitle": "RBI flags inflation risks from West Asia conflict, El Nino amid resilient economy",
-      "latestSummary": "The Reserve Bank of India said that inflationary pressures could increase because of the ongoing conflict in West Asia and the anticipated effects of the El Nino weather phenomenon. It also observed that the Indian economy remains resilient despite these external risks.",
+      "latestTitle": "RBI warns of inflation risks from West Asia conflict and El Nino, says economy remains resilient",
+      "latestSummary": "The Reserve Bank of India highlighted that the ongoing conflict in West Asia and the anticipated El Nino weather pattern could increase inflation pressures in the country. In the same statement, the RBI noted that the Indian economy continues to show resilience despite these external risks. No further details on policy response were provided in the source.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
     },
@@ -5833,13 +5738,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-10-24T01:37:10.158040+00:00",
+          "title": "White House says Melania Trump secured ceasefire in Oleshky",
+          "summary": "The White House announced that former First Lady Melania Trump helped secure a cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky. Both sides said they would stop firing at 02:00 GMT on 27 October and work to evacuate residents and allow humanitarian aid. Oleshky has been under Russian control since February 2022, and residents have been facing severe shortages.",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
+      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
       "cat": "World",
-      "latestTitle": "White House says Melania Trump secured ceasefire in Oleshky, Ukraine",
-      "latestSummary": "The White House announced that former First Lady Melania Trump had “successfully secured” a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, slated to begin on 29 October. Both sides reportedly agreed to stop firing at 02:00 GMT on 27 October and to allow evacuation of residents and delivery of aid. Oleshky has been under Russian control since February 2022 and residents have faced severe shortages.",
-      "why": "The truce could enable humanitarian aid to reach civilians suffering from food, water and medicine shortages.",
+      "latestTitle": "White House says Melania Trump secured ceasefire in Oleshky",
+      "latestSummary": "The White House announced that former First Lady Melania Trump helped secure a cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky. Both sides said they would stop firing at 02:00 GMT on 27 October and work to evacuate residents and allow humanitarian aid. Oleshky has been under Russian control since February 2022, and residents have been facing severe shortages.",
+      "why": "The pause could enable delivery of food, medicine and water to civilians in a city on the brink of disaster.",
       "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
     },
     "37c75adc075113": {
@@ -5871,13 +5789,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-24T01:37:10.158040+00:00",
+          "title": "Denmark to end mink farming by August 2029 after dropping EU exemption bid",
+          "summary": "Denmark will cease mink farming by August 2029 after the government decided not to pursue an exemption to the EU‑wide ban on the practice. The ban is scheduled to take effect on 7 August next year, followed by a two‑year transition period to wind down remaining operations. The decision reflects a shrinking fur market, a past Covid‑related outbreak in mink, and animal‑welfare concerns.",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
+      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
       "cat": "World",
-      "latestTitle": "Denmark to ban mink farming in government U-turn",
-      "latestSummary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "latestTitle": "Denmark to end mink farming by August 2029 after dropping EU exemption bid",
+      "latestSummary": "Denmark will cease mink farming by August 2029 after the government decided not to pursue an exemption to the EU‑wide ban on the practice. The ban is scheduled to take effect on 7 August next year, followed by a two‑year transition period to wind down remaining operations. The decision reflects a shrinking fur market, a past Covid‑related outbreak in mink, and animal‑welfare concerns.",
+      "why": "The policy ends Denmark’s mink‑fur sector, which had been the world’s largest producer, impacting animal welfare and related economic activity.",
       "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss"
     },
     "a0db575c715329": {
@@ -6067,7 +5998,57 @@
       "latestSummary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms"
+    },
+    "b4558c7c634094": {
+      "id": "b4558c7c634094",
+      "firstSeen": "2026-10-23T19:42:08+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T01:37:10.158040+00:00",
+          "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+          "summary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb which killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes with the attacker opening fire from his car - first in Trappes to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
+      "cat": "World",
+      "latestTitle": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+      "latestSummary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb which killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes with the attacker opening fire from his car - first in Trappes to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+    },
+    "1efe0dc5d3f80e": {
+      "id": "1efe0dc5d3f80e",
+      "firstSeen": "2026-10-23T19:08:33+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T01:37:10.158040+00:00",
+          "title": "Tata Motors CV posts Rs 2,138 crore Q2 profit",
+          "summary": "Tata Motors Ltd achieved a standalone net profit of ₹2,138 crore for the September quarter, reversing last year's loss. Consolidated profit also increased to ₹1,257 crore, aided by a drop in mark-to-market losses.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Tata Motors CV posts Rs 2,138 crore Q2 profit",
+      "latestSummary": "Tata Motors Ltd achieved a standalone net profit of ₹2,138 crore for the September quarter, reversing last year's loss. Consolidated profit also increased to ₹1,257 crore, aided by a drop in mark-to-market losses.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-posts-rs-2138-crore-q2-profit/articleshow/135154453.cms"
     }
   },
-  "updated": "2026-10-23T22:21:20.473309+00:00"
+  "updated": "2026-10-24T01:37:10.158040+00:00"
 }
