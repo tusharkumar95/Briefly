@@ -1,35 +1,30 @@
 {
-  "updated": "2026-10-24T18:21:43.563644+00:00",
+  "updated": "2026-10-24T21:11:09.523376+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls as oil price rally fuels inflation concerns",
+      "headline": "TSX Composite down 0.52% to one‑week low",
       "direction": "down",
       "move": "S&P/TSX Composite -0.52%",
-      "why": "Higher oil prices lifted the energy index to record levels ($100 barrel) and sparked inflation worries, which the cited articles directly attribute to the market’s decline.",
+      "why": "The S&P/TSX Composite slipped to a one‑week low, with the decline linked to the energy index reaching a record as oil prices hit $100 per barrel.",
       "drivers": [
-        {
-          "label": "Canadian Equities Edge Lower",
-          "detail": "Business Upturn explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
         {
           "label": "Energy Index Hits Record on $100 Oil",
           "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Oil price rally",
-          "detail": "Oil climbed to $100 per barrel, pushing the energy index to a record and raising inflation concerns; both TradingView and BBN Times explicitly link this to the TSX slide.",
-          "kind": "context"
+          "label": "Energy index record on $100 oil",
+          "detail": "Energy sector hit a new high as oil rose to $100, coinciding with the broader index sliding to a one‑week low.",
+          "kind": "driver"
         }
       ],
       "sectors": [
         "Energy"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -58,47 +53,29 @@
           "publishedAt": "2026-10-24T02:41:45+00:00"
         },
         {
-          "name": "TradingView",
-          "title": "TSX Closes Lower as Oil Rally Fuels Inflation Concerns - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa3pfVWY0WE11SmwwN3NGR1l4ODVGV0JxNWMtUFN6VUFEdm9rWV9qVi1RTDBhYldrNWpsYUJoTWtWS2JpOTJkOFpXQ3ZWVG9GUXdiTXdQOGFuS1JxNVJwNEdQUkY5X29ISmVDdFF3bmVCallxV0ttZEl6NDNOeFlRd3BPaEtpcVl4TjZxWUV0SVdCaTJuN1F1OE9WVjBKTE0zSmlteWJjVXA?oc=5",
-          "publishedAt": "2026-10-23T20:49:05+00:00"
-        },
-        {
-          "name": "Investing.com UK",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.52% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeDNDejktMnRCbHBodjNIWDdBSjJIRUlPbHJaNGxPYW8tcHhoc24zRjJ3T3oxZzg4TXVYcnB5MGdXSWcxZGltemFfb25RRlVTaE1OYy1NTTM3VVFRa2hZVU9jcnZ0cE55NHd6QVJ1QWZBbk5ESGhfdlJ3eDdlMWJVMGtMZ1NFZ0xJWThfZS16cmtLNFdTYjl1Q2tnXzMxa0Q1RVlYQlgtZkp2OVFSblN2NE11Wk8tOVcxcVE?oc=5",
-          "publishedAt": "2026-10-23T20:30:00+00:00"
-        },
-        {
-          "name": "Business Upturn",
-          "title": "TSX Composite Falls at Friday Close as Canadian Equities Edge Lower - Business Upturn",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbTFENl93azFTajJVeXJNQ2FWcW9HVW9JTG5HVE1QZHdrMDZ6U3o4Umd6WlpzWjNNeElRcmlPNmVQckcxeXI0UE9NWXQyUUc5dG40OTA4SVIwY2tQM2hJV3pRenlmUzI3aHJmdGlzS1Bxa3BfU3FsVUZBMHJ1N21RVGM1SnowS2lXZy05WjlORDRxSGVNazZqRGxjTmpHRE1yT3lFWVNLOHc0LVZnV1hJY1dNOE12SGlHNFgzdg?oc=5",
-          "publishedAt": "2026-10-23T20:15:00+00:00"
-        },
-        {
           "name": "BBN Times",
           "title": "Toronto Stock Exchange: S&P/TSX Composite Slides to One-Week Low as Energy Index Hits Record on $100 Oil - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdTRhWlJMZkdpOV9oSmxQcjZFSVgtRnF2OWF0Y3BuZHNkcUV0NWxwNUVXWXY4UWw5bmJWZkQ0YjVIR0xYa01sRzZ2YllxQ2JSdE12Y3lGMnZKZ3JHcUR2ZTlXVkRwQzhwekk3WDl5Z3E2SUZhWXlLZll4X19KZUMyTUNXbXNXTFE3bVQtbnppVmx1aTNxei1mNnBrUS1nazJFZlJJMVl6TnkyU0ZDNU9qT0lYdlJWSHl2WExkSmZfdGE1VkhmNWFRbWE5NnJnUktLR29DN2tsNENYQQ?oc=5",
           "publishedAt": "2026-10-23T21:48:59+00:00"
         }
       ],
-      "evidenceCount": 6
+      "evidenceCount": 3
     },
     "India": {
       "label": "India",
       "headline": "Nifty 50 fell 0.39%",
       "direction": "down",
       "move": "Nifty 50 -0.39%",
-      "why": "Same-day market coverage explicitly linked the final move to: Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War; volatile trades, sensex falls for 4th day; markets slide: Is the worst over or more pain ahead?.",
+      "why": "Same-day market coverage explicitly linked the final move to: RBI Rate Hike; Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War; markets slide: Is the worst over or more pain ahead?.",
       "drivers": [
         {
-          "label": "Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "RBI Rate Hike",
+          "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "volatile trades, sensex falls for 4th day",
-          "detail": "The Times of India explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -137,31 +114,43 @@
       },
       "sources": [
         {
+          "name": "INDIA New England News",
+          "title": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2w0OExuLXNXNkItVEJweDJtWkZCQlBkZUQ4LUYtNDlqVVRyQU5WemdBSUhnY3gwWGdza2Z2UXUwUC1MSE9SQzNkenpXR1RIWFpTdHctRE84dDlOWVEtYTNzS1Yzb09fZFlZTG1pMkc0N3lCQ2l3Rl96eFV4QnphVVhWTDVBUnhTSGo1LVgzWHhjbmZobWt0S3d6WQ?oc=5",
+          "publishedAt": "2026-10-24T11:32:31+00:00"
+        },
+        {
+          "name": "INDIA New England News",
+          "title": "Sensex Falls 429 Points, Nifty Slips Below 22,650 After RBI Rate Hike - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMUJWN3liR1RkX0l1RFY0ZjBGSFRVaE1YeHdRQmhIclRXTDR2N285ZUh2Vmx1RUtUaTZEYTdfZk81bGNxOFJzeHRwTFlRZXdxVUM0bUNjcFFtMF9xVmQyWGdpX2F4THZFNmFTZ1l5d3dPQ0hIcm9LYlZuVWpBZzlfX0I4QXF2dVhhd3ZrZlZyRmkxcjJ4LS1EbEZGSDM?oc=5",
+          "publishedAt": "2026-10-24T10:56:56+00:00"
+        },
+        {
+          "name": "The Economic Times",
+          "title": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5",
+          "publishedAt": "2026-10-24T07:45:01+00:00"
+        },
+        {
+          "name": "INDIA New England News",
+          "title": "Sensex, Nifty Fall for Third Straight Session as Oil Prices Rise - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV2hiaEl5eXFHREs5aW1QMklVdlBnbjVMY0RhUXZFVmtFQVBhQi14NFNGYVd6cTlXUXM4clpaY3k4MzFSNzlUalA4ejdPV0ZHX1pUX0FoX2gzcTd6QWZvRnlhUTlhWGFzUVJGbzJZSVlaVzllczJ4MzdaX1haeEJpX3lCQmxuMG0wamlCYWt5TGQzNzlHb2xV?oc=5",
+          "publishedAt": "2026-10-24T05:16:26+00:00"
+        },
+        {
           "name": "BBN Times",
           "title": "BSE SENSEX Falls to 73,123.83 as Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTlN6VVRGVkYwMlczMWdPdTRhYXFPUU54UHNFNGRqTU1JdEJORXlyaWtMaGt3eFpmaGFSQ2U1dk01QnZZSjEtNFc5SVpMMUhCUmd3Q214YmJJY3lKeHE3Y2JzNENILTdXNHJFV25UeThSX0RobjdtVGlteDVOczViWW90S3ZMTnFwU0tmSGpxQ2lOUWRsYlJuMnNmLUEtaHRIWTMwcWV2elg5VnpYMjhRYi1WZ0Q4Sjh6bHhSMkpPdzdhZ25wbUw2VXIyUUE1Z3EyZG8wSWpzdXdZVXdtRC15Mg?oc=5",
           "publishedAt": "2026-10-23T21:51:11+00:00"
         },
         {
-          "name": "The Times of India",
-          "title": "Amid volatile trades, sensex falls for 4th day - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2U4d080MEQyaGFMQWxrRkVGdm0zSUYyY3JPd210WmpQOHdCVEVpazRKTXE0cU1TTTlpcThyenFIM01TVHpyZ3VtSldBR3R2RlNzcFBQV04xWktQa3E5MnZ1RXhBbGI0UURjczZIN1FQem9meEN4eDFYZEpZZ0ZhblU1ZE5qMHMtM01QeXBLTVFvRmJWeDBDelI2a1c4Z1NZM3ZJaHc4TE9rY1lLMlQ2cEhUdjJGX1VIZldWc05oQUNudXJiZ1lWWWstVdIB0AFBVV95cUxNZG9SYWxnRE5MV2VuTDRFOUxJN3llbTVlTDlodldPRVotNWJ3cGxOcW8yT0p6YmxoeVlHU2NEeWpzN2NGVkpfbzI5NGdfVVRKdWN6Z0ZOZ0ZNbVZKN3F0NEVjT1FWR1pGR3loZnBwVWhseF9zZGtVYmZsSm9ybmo1OEhTb1J3Y2ozNW9CQUFpcGZWVFM4WGhHOVJxZk1mS2R6SWVNdWR2WlpYMGN5MlZYUURwek5OMUNVZXBBa3B1b01hbnRXbGcwOEpHQThiYThq?oc=5",
-          "publishedAt": "2026-10-23T20:54:00+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "FIIs dump Indian stocks for 10th straight week as markets slide: Is the worst over or more pain ahead? - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQamdNUnNMaUJ1WGpEcWpQclZGYjFsdGlUUVFaR19oX1dMWW5WVXdIXzIyUVFqQ1JadFExUXlvN0RKcGIyaGVoNHp1S1Y4VG5MMkswMnZWRHkyYkJzRVBKZFhJSUhzTzRQOXlnOGZTS2hNMFBiRFFOWHVPbENIS3phMDUxOGhodFQzWThXQjFjRjFSUGEtdFJqQ1FVdTZwVzJxaUlHekFmYTQ2emJoU2hXTVZMOWRndGhIVmQyOU9pSmtfRG1MbVNnekJLak5CaVZZa0N6em42dURiZWV2VzRrVm1xOHBTd1ZWX21lMTM5NVU4MmFaYV9mcDQ1OVhEUDhYRnZhatIBigJBVV95cUxNSm1lekZMOGZUZWt6WE1mM01ZbGdUVVk4TXJKal9XS19UUzJqUEU2WkM3eVZ0V3Fna3BlNm9CUXB2R0lMeVBpeUJiNlR4RnhJYWhDSWIyclRXb3ZzTmNwa2t2WjYwVW16Nk1Nd0lZYWdZSTBjWXFXQWhYZlRMNDU5WHh4cEg0OXd5YmFvUk1udUl6eGgxaHp4MklrM2taNHBMb09nM09lM0pRRWE2VzA5V3FPTS13Q2xZeDNYZVBRNzlHclJPRmp3LWxxWDk1RzhoaXFiSThhSVpWVjN5WUNaUkhQYXJxV2JqM0dZTDUzajJFRzlJY0F4Vkh6OVRRekdESHkwZ29oc1p5Zw?oc=5",
-          "publishedAt": "2026-10-24T08:11:14+00:00"
-        },
-        {
-          "name": "Liquide Blog",
-          "title": "Share Market News: Nifty 50 Outlook & Prediction - Liquide Blog",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1JGTng1d1NlNjhDSmF3dFZtU3V3ekFoVWdJc1dvUVpsZFYxbEh3VWdyRVU1b3J5eGlqY2pCWkZuRW9NOTFfMDJ2SXNBN05raER4aXFmcVY3aXg3NFdHckhQVHlEd3BvMzJLY0l3VXdBNHRoOUE4YThvS3ZyRm1WckRNUGxHeFcyYnJBNE9yTkZ1cmtkUTVCbFVn?oc=5",
-          "publishedAt": "2026-10-24T15:26:14+00:00"
+          "name": "INDIA New England News",
+          "title": "Sensex Jumps Over 1,100 Points as Finance Minister’s Tax Comments Lift Indian Markets - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLTdZdVlBZ25FS0dOTEtKVGhWUGMtMXBXbFgtampzZEl1Qmo1eTllaWt5ZjVOM2ZXbmwzX0ZZVEY1OVNrNUhEeTdpRVJGd0VDMl9BSF9hVVpxbFNjbnMxajdtb2J5UEpDRk9OVWN3alRCdWxJX2ktalE2N256eFRkMjZNSmNLdHk3VmVNdEszTFpONDJlUVQ0T25yTVFuZy1GRlUxd1JaaDM3Z1JUdjRjU01n?oc=5",
+          "publishedAt": "2026-10-24T11:07:45+00:00"
         }
       ],
-      "evidenceCount": 4
+      "evidenceCount": 7
     }
   }
 }
