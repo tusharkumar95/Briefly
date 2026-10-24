@@ -3,160 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-21T15:18:36.679155+00:00",
-      "changeSummary": {
-        "new": 8,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "bd9e638d04c2dd",
-          "cat": "India",
-          "title": "India’s economy projected to grow 7.1% in 2026‑27 as inflation rises",
-          "summary": "The RBI governor Sanjay Malhotra said the Indian economy is expected to grow 7.1 % in fiscal year 2026‑27, up from a prior estimate of 6.7 %. He warned that inflationary pressures are building and could affect the growth outlook. He described India’s resilience as remarkable despite turbulent global conditions.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-21T12:13:08+00:00",
-          "firstSeen": "2026-10-21T12:13:08+00:00",
-          "importanceScore": 15.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-economy-stays-resilient-at-7-1-but-rising-inflation-raises-a-red-flag-says-rbis-sanjay-malhotra/articleshow/135091927.cms"
-        },
-        {
-          "id": "9dac1597527708",
-          "cat": "India",
-          "title": "India aims to raise manufacturing share to 25% of GDP",
-          "summary": "India plans to increase manufacturing’s contribution from roughly 16% to 25% of GDP. In an Economic Times discussion, PwC India’s Vinod Kumar and JSW Group’s Srihari Kaninghat explained how AI is being used on the shop floor—particularly in steel production—to lower material costs and forecast equipment failures. They said AI could help make manufacturing more appealing to top engineering talent.",
-          "why": "Boosting manufacturing’s share is framed as a strategy to revitalize the sector and draw skilled engineers back from IT roles.",
-          "publishedAt": "2026-10-21T12:14:10+00:00",
-          "firstSeen": "2026-10-21T12:14:10+00:00",
-          "importanceScore": 15.0,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/india-wants-manufacturing-at-25-of-gdp-will-ai-in-factories-help/videoshow/130171220.cms"
-        },
-        {
-          "id": "2a37d0c0597d09",
-          "cat": "India",
-          "title": "Extent of rate hike cycle to depend on growth-inflation outlook: RBI Governor",
-          "summary": "Reserve Bank of India (RBI) Governor Sanjay Malhotra said the duration and extent of the rate hike cycle will be contingent on the actual growth-inflation developments and outlook. The governor and other five Monetary Policy Committee (MPC) members voted to raise the repo rate by 25 bps to 5.5 per cent.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-21T12:26:43+00:00",
-          "firstSeen": "2026-10-21T12:26:43+00:00",
-          "importanceScore": 14.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-governor/articleshow/135092338.cms"
-        },
-        {
-          "id": "c84048a1c95298",
-          "cat": "Canada",
-          "title": "Bank of Canada increasingly expected to raise interest rates this month",
-          "summary": "28 would have significant impact on the country's battered real estate market.(Luke MacGregor/Reuters) And while an eighth-consecutive hold is widely predicted next week, a growing number of economists and traders are now expecting the central bank to hike its trend-setting rate to tamp down stubborn inflation. The policy rate has stood still at 2.25 per cent since a quarter-point cut in October 2025.",
-          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-          "publishedAt": "2026-10-21T08:00:00+00:00",
-          "firstSeen": "2026-10-21T08:00:00+00:00",
-          "importanceScore": 14.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.cbc.ca/news/business/real-estate-bank-of-canada-9.7389322?cmp=rss"
-        },
-        {
-          "id": "40167a9d6d341b",
-          "cat": "World",
-          "title": "Australian MP Helen Haines loses both legs after car attack",
-          "summary": "Helen Haines, an independent member of the Australian parliament, was struck by a Toyota LandCruiser driven by 43‑year‑old Brendan Nugent outside her electorate office in Wangaratta. The incident, described by police as a deliberate attack, resulted in Haines losing both legs. Nugent was arrested shortly after the crash and faced multiple charges when he appeared in court on Wednesday.",
-          "why": "The case raises questions about the security of elected officials.",
-          "publishedAt": "2026-10-21T07:56:30+00:00",
-          "firstSeen": "2026-10-21T07:56:30+00:00",
-          "importanceScore": 14.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "890efae0f3953c",
-          "cat": "Indian Markets",
-          "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
-          "summary": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-21T11:39:14+00:00",
-          "firstSeen": "2026-10-21T11:39:14+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms"
-        },
-        {
-          "id": "f23e09dcfe82e6",
-          "cat": "Indian Markets",
-          "title": "Global Market: BOJ's Himino says Japan inflation near 2% target, signals further rate hikes",
-          "summary": "Bank of Japan Deputy Governor Ryozo Himino says underlying inflation is nearing the central bank’s 2% target, while accommodative financial conditions and rising cost pressures strengthen expectations of further interest rate hikes. Japan’s central bank signals further policy tightening as inflation approaches its 2% target.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-10-21T11:16:44+00:00",
-          "firstSeen": "2026-10-21T11:16:44+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-bojs-himino-says-japan-inflation-near-2-target-signals-further-rate-hikes/articleshow/135090643.cms"
-        },
-        {
-          "id": "437816a46c2fc3",
-          "cat": "Indian Markets",
-          "title": "Jio IPO strengthens Reliance’s financial flexibility; capex funding remains key: Moody’s",
-          "summary": "Moody’s has termed Jio Platforms’ IPO credit positive for Reliance Industries, citing debt repayment and funding flexibility. The Rs 30,200 crore issue will support investments while helping manage leverage amid elevated capital expenditure.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-21T14:02:53+00:00",
-          "firstSeen": "2026-10-21T14:02:53+00:00",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-strengthens-reliances-financial-flexibility-capex-funding-remains-key-moodys/articleshow/135094225.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-21T20:11:25.078127+00:00",
       "changeSummary": {
         "new": 3,
@@ -1789,99 +1635,163 @@
           "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    }
-  ],
-  "events": {
-    "4af9479aadbf08": {
-      "id": "4af9479aadbf08",
-      "firstSeen": "2026-10-16T14:31:04+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-10-24T16:36:50.223391+00:00",
+      "changeSummary": {
+        "new": 6,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
         {
-          "at": "2026-10-16T17:26:34.170134+00:00",
-          "title": "Masked settlers attack olive harvest in West Bank, injuring Palestinians and journalist",
-          "summary": "Dozens of masked settlers attacked Palestinians harvesting olives near the village of Abu Falah in the occupied West Bank, setting fire to cars and olive trees. The violence injured 12 Palestinians, including four who hold dual Palestinian‑American citizenship, and also wounded a foreign journalist. One of the injured, Majdi, an American citizen, suffered deep head wounds from nail‑studded sticks, and his elderly mother was also hurt.",
-          "importanceScore": 15.3,
+          "id": "b066dc6a0ae9bb",
+          "cat": "World",
+          "title": "White House says Melania Trump helped secure ceasefire in Oleshky",
+          "summary": "The White House announced that US First Lady Melania Trump and a representative worked directly with Russian and Ukrainian leaders to arrange a localized cease‑fire in the Russian‑occupied city of Oleshky, Ukraine. The truce, aimed at evacuating residents and delivering aid, was set to begin on 29 October, with both sides agreeing to stop firing at 01:00 GMT on 27 October. Oleshky has been under Russian control since February 2022 and its residents have faced severe shortages of food, medicine and clean water.",
+          "why": "The cease‑fire could allow humanitarian aid and evacuation for a city on the brink of disaster.",
+          "publishedAt": "2026-10-24T07:17:44+00:00",
+          "firstSeen": "2026-10-24T07:17:44+00:00",
+          "importanceScore": 13.4,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "ea6f58412795a9",
+          "cat": "AI",
+          "title": "Study finds Grok 4.7 favors Republicans, OpenAI’s GPT‑6.1 Sol favors Democrats in forced election prompts",
+          "summary": "A Convovo study queried the developer APIs of SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol with the prompt “Who should I vote for?” for nearly 500 midterm races. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 %, and the models agreed on less than 10 % of races. Consumer‑facing chat apps refused to answer the same prompt, and an OpenAI spokesperson said ChatGPT is designed to remain objective.",
+          "why": "The findings highlight that political bias can emerge in AI models accessed via APIs, which developers may embed in downstream applications.",
+          "publishedAt": "2026-10-24T15:00:00+00:00",
+          "firstSeen": "2026-10-24T15:00:00+00:00",
+          "importanceScore": 13.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
         },
         {
-          "at": "2026-10-16T21:12:42.374155+00:00",
-          "title": "Masked settlers attack Palestinians and journalist during West Bank olive harvest",
-          "summary": "Dozens of masked settlers assaulted Palestinians near the village of Abu Falah during the annual olive harvest, setting fire to cars and olive trees. A local official reported 12 Palestinians injured, including four dual Palestinian‑American citizens, and a foreign journalist was also wounded. Witnesses said an American citizen named Majdi was struck with nail‑studded sticks, sustaining deep head injuries, and his elderly mother was also hurt.",
-          "importanceScore": 14.3,
+          "id": "f4bf18882c0f8f",
+          "cat": "World",
+          "title": "Three released without charge after fatal arson attack in Ireland",
+          "summary": "Gardaí said three people arrested over a suspected arson that killed four family members in Waterford have been released without charge. Philip and Kim English and their children, nine-year-old Jayden and 12-year-old Callum, died when their home on Birch Avenue was set on fire earlier this month. A man in his 20s and a woman in her 30s had been previously charged in connection with the attack.",
+          "why": "The release updates the public status of suspects in a high-profile homicide investigation.",
+          "publishedAt": "2026-10-24T09:38:28+00:00",
+          "firstSeen": "2026-10-24T09:38:28+00:00",
+          "importanceScore": 12.7,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
           "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "at": "2026-10-16T23:38:03.497582+00:00",
-          "title": "Settlers attack Palestinian olive harvest, injuring farmers, dual nationals and journalist",
-          "summary": "Dozens of masked Israeli settlers attacked Palestinian olive farmers in the occupied West Bank during the annual harvest, setting fire to cars and olive trees. The violence injured 12 Palestinians, including four who hold both Palestinian and American citizenship, and a foreign journalist who suffered head and neck injuries; a council member said an American citizen named Majdi was hit with nail‑studded sticks and his elderly mother was also wounded.",
-          "importanceScore": 14.3,
+          "id": "4870de0a0654df",
+          "cat": "India",
+          "title": "German businesses now see India as manufacturing, R&D and innovation hub: Piyush Goyal",
+          "summary": "German companies are increasingly viewing India as a strategic manufacturing and innovation hub for the future. Commerce and Industry Minister Piyush Goyal said German companies are increasingly viewing India as a hub for manufacturing, research and development, and innovation, beyond its traditional role as a consumer market.",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-10-24T08:09:20+00:00",
+          "firstSeen": "2026-10-24T08:09:20+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/german-businesses-now-see-india-as-manufacturing-rd-and-innovation-hub-piyush-goyal/articleshow/135165328.cms"
+        },
+        {
+          "id": "582854707d03e7",
+          "cat": "Indian Markets",
+          "title": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
+          "summary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-24T08:24:37+00:00",
+          "firstSeen": "2026-10-24T08:24:37+00:00",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms"
+        },
+        {
+          "id": "bc905986d676d6",
+          "cat": "India",
+          "title": "India and Russia set $100 billion trade goal for 2030",
+          "summary": "Indian Ambassador Vinay Kumar announced that India and Russia will work to raise bilateral trade to $100 billion by 2030. Prime Minister Narendra Modi and President Vladimir Putin discussed the target and plans for greater mutual investment during their meeting at the BRICS summit in New Delhi. India also pledged to train qualified workers to meet Russian industry needs.",
+          "why": "The target signals a deepening of economic ties that could shift trade and investment patterns between the two countries.",
+          "publishedAt": "2026-10-24T09:02:38+00:00",
+          "firstSeen": "2026-10-24T09:02:38+00:00",
+          "importanceScore": 12.0,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-russia-aim-for-100-billion-trade-by-2030-as-modi-putin-push-cooperation/articleshow/135164828.cms"
+        },
+        {
+          "id": "171a64b3c19e48",
+          "cat": "World",
+          "title": "Australian MP Helen Haines' condition improves after car attack",
+          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her electorate office in Wangaratta, north‑east Victoria, on a Monday. Authorities say the incident was a deliberate attack; both of her legs were amputated and she was airlifted to Melbourne’s Alfred Hospital in critical condition. Five days later the hospital reported her condition had improved to serious but stable.",
+          "why": "The case highlights concerns about political violence and the safety of elected officials in Australia.",
+          "publishedAt": "2026-10-24T01:55:15+00:00",
+          "firstSeen": "2026-10-24T01:55:15+00:00",
+          "importanceScore": 11.7,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
           "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss"
         },
         {
-          "at": "2026-10-17T04:31:09.102759+00:00",
-          "title": "Masked Israeli settlers attack Palestinian olive harvesters near Abu Falah in West Bank",
-          "summary": "Dozens of masked settlers attacked Palestinians during the olive harvest in farmland near Abu Falah, setting fire to cars and olive trees. A local official said 12 Palestinians were injured, including four dual Palestinian American citizens, and a foreign journalist was also hurt. One American citizen, Majdi, was struck with nail-studded sticks and needed treatment for head wounds; his elderly mother was also injured.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-17T09:24:34.381097+00:00",
-          "title": "Masked settlers attack Palestinian olive harvesters and journalist in West Bank",
-          "summary": "Dozens of masked settlers attacked Palestinians harvesting olives near the village of Abu Falah in the occupied West Bank, setting fire to cars and olive trees. A local official said 12 Palestinians were injured, including four who hold both Palestinian and American citizenship, and a foreign journalist was also hurt. Settlers used guns, rocks and nail‑studded sticks, wounding an American farmer and his elderly mother.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-17T13:45:25.652237+00:00",
-          "title": "Masked settlers attack Palestinians and journalist during West Bank olive harvest",
-          "summary": "Dozens of masked settlers attacked Palestinians harvesting olives near the village of Abu Falah in the occupied West Bank, setting fire to cars and olive trees. The violence injured at least 12 Palestinians, including four dual Palestinian‑American citizens, and a foreign journalist. An American citizen named Majdi was struck with nail‑studded sticks, sustaining head wounds, and his elderly mother was also hurt.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "id": "02760f91f3cff7",
+          "cat": "India",
+          "title": "Strong macro fundamentals, policy interventions to anchor eco against global headwinds: RBI bulletin",
+          "summary": "Strong macroeconomic fundamentals continue to support the Indian economy against global inflation and trade tensions. Recent geopolitical frictions have resulted in increased prices and supply chain issues, leading to policy changes.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-24T06:59:04+00:00",
+          "firstSeen": "2026-10-24T06:59:04+00:00",
+          "importanceScore": 10.5,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/strong-macro-fundamentals-policy-interventions-to-anchor-eco-against-global-headwinds-rbi-bulletin/articleshow/135151046.cms"
         }
-      ],
-      "lastSeen": "2026-10-17T13:45:25.652237+00:00",
-      "cat": "World",
-      "latestTitle": "Masked settlers attack Palestinians and journalist during West Bank olive harvest",
-      "latestSummary": "Dozens of masked settlers attacked Palestinians harvesting olives near the village of Abu Falah in the occupied West Bank, setting fire to cars and olive trees. The violence injured at least 12 Palestinians, including four dual Palestinian‑American citizens, and a foreign journalist. An American citizen named Majdi was struck with nail‑studded sticks, sustaining head wounds, and his elderly mother was also hurt.",
-      "why": "The incident shows the danger to civilians and journalists working in the olive‑harvest area of the occupied West Bank.",
-      "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss"
-    },
+      ]
+    }
+  ],
+  "events": {
     "e4f2bccf60ac45": {
       "id": "e4f2bccf60ac45",
       "firstSeen": "2026-10-16T17:54:45+00:00",
@@ -5786,13 +5696,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-24T16:36:50.223391+00:00",
+          "title": "Australian MP Helen Haines' condition improves after car attack",
+          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her electorate office in Wangaratta, north‑east Victoria, on a Monday. Authorities say the incident was a deliberate attack; both of her legs were amputated and she was airlifted to Melbourne’s Alfred Hospital in critical condition. Five days later the hospital reported her condition had improved to serious but stable.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
+      "lastSeen": "2026-10-24T16:36:50.223391+00:00",
       "cat": "World",
-      "latestTitle": "Australian MP Helen Haines' condition stabilises after car attack",
-      "latestSummary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta electorate office in north‑east Victoria on Monday. She underwent emergency surgery that included bilateral leg amputation and was airlifted to Melbourne’s Alfred Hospital. On Saturday the hospital reported her condition had improved from critical to serious but stable.",
-      "why": "The update informs the public about the health status of a sitting federal parliamentarian and the seriousness of the incident.",
+      "latestTitle": "Australian MP Helen Haines' condition improves after car attack",
+      "latestSummary": "Independent MP Helen Haines, 65, was struck by a car outside her electorate office in Wangaratta, north‑east Victoria, on a Monday. Authorities say the incident was a deliberate attack; both of her legs were amputated and she was airlifted to Melbourne’s Alfred Hospital in critical condition. Five days later the hospital reported her condition had improved to serious but stable.",
+      "why": "The case highlights concerns about political violence and the safety of elected officials in Australia.",
       "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss"
     },
     "b066dc6a0ae9bb": {
@@ -5811,13 +5734,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-24T16:36:50.223391+00:00",
+          "title": "White House says Melania Trump helped secure ceasefire in Oleshky",
+          "summary": "The White House announced that US First Lady Melania Trump and a representative worked directly with Russian and Ukrainian leaders to arrange a localized cease‑fire in the Russian‑occupied city of Oleshky, Ukraine. The truce, aimed at evacuating residents and delivering aid, was set to begin on 29 October, with both sides agreeing to stop firing at 01:00 GMT on 27 October. Oleshky has been under Russian control since February 2022 and its residents have faced severe shortages of food, medicine and clean water.",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-24T12:42:36.258657+00:00",
+      "lastSeen": "2026-10-24T16:36:50.223391+00:00",
       "cat": "World",
-      "latestTitle": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-      "latestSummary": "US First Lady Melania Trump has \"successfully secured\" a ceasefire between Russia and Ukraine in the Russian-occupied city of Oleshky, the White House has said. It said the truce in the \"front-line war city on the brink of disaster\" without medicine, food and clean water would begin on 29 October.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "latestTitle": "White House says Melania Trump helped secure ceasefire in Oleshky",
+      "latestSummary": "The White House announced that US First Lady Melania Trump and a representative worked directly with Russian and Ukrainian leaders to arrange a localized cease‑fire in the Russian‑occupied city of Oleshky, Ukraine. The truce, aimed at evacuating residents and delivering aid, was set to begin on 29 October, with both sides agreeing to stop firing at 01:00 GMT on 27 October. Oleshky has been under Russian control since February 2022 and its residents have faced severe shortages of food, medicine and clean water.",
+      "why": "The cease‑fire could allow humanitarian aid and evacuation for a city on the brink of disaster.",
       "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
     },
     "6829e880561f4f": {
@@ -5886,15 +5822,153 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-24T16:36:50.223391+00:00",
+          "title": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
+          "summary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-24T12:42:36.258657+00:00",
+      "lastSeen": "2026-10-24T16:36:50.223391+00:00",
       "cat": "Indian Markets",
       "latestTitle": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
       "latestSummary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms"
+    },
+    "ea6f58412795a9": {
+      "id": "ea6f58412795a9",
+      "firstSeen": "2026-10-24T15:00:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T16:36:50.223391+00:00",
+          "title": "Study finds Grok 4.7 favors Republicans, OpenAI’s GPT‑6.1 Sol favors Democrats in forced election prompts",
+          "summary": "A Convovo study queried the developer APIs of SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol with the prompt “Who should I vote for?” for nearly 500 midterm races. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 %, and the models agreed on less than 10 % of races. Consumer‑facing chat apps refused to answer the same prompt, and an OpenAI spokesperson said ChatGPT is designed to remain objective.",
+          "importanceScore": 13.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T16:36:50.223391+00:00",
+      "cat": "AI",
+      "latestTitle": "Study finds Grok 4.7 favors Republicans, OpenAI’s GPT‑6.1 Sol favors Democrats in forced election prompts",
+      "latestSummary": "A Convovo study queried the developer APIs of SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol with the prompt “Who should I vote for?” for nearly 500 midterm races. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 %, and the models agreed on less than 10 % of races. Consumer‑facing chat apps refused to answer the same prompt, and an OpenAI spokesperson said ChatGPT is designed to remain objective.",
+      "why": "The findings highlight that political bias can emerge in AI models accessed via APIs, which developers may embed in downstream applications.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    },
+    "f4bf18882c0f8f": {
+      "id": "f4bf18882c0f8f",
+      "firstSeen": "2026-10-24T09:38:28+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T16:36:50.223391+00:00",
+          "title": "Three released without charge after fatal arson attack in Ireland",
+          "summary": "Gardaí said three people arrested over a suspected arson that killed four family members in Waterford have been released without charge. Philip and Kim English and their children, nine-year-old Jayden and 12-year-old Callum, died when their home on Birch Avenue was set on fire earlier this month. A man in his 20s and a woman in her 30s had been previously charged in connection with the attack.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T16:36:50.223391+00:00",
+      "cat": "World",
+      "latestTitle": "Three released without charge after fatal arson attack in Ireland",
+      "latestSummary": "Gardaí said three people arrested over a suspected arson that killed four family members in Waterford have been released without charge. Philip and Kim English and their children, nine-year-old Jayden and 12-year-old Callum, died when their home on Birch Avenue was set on fire earlier this month. A man in his 20s and a woman in her 30s had been previously charged in connection with the attack.",
+      "why": "The release updates the public status of suspects in a high-profile homicide investigation.",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss"
+    },
+    "4870de0a0654df": {
+      "id": "4870de0a0654df",
+      "firstSeen": "2026-10-24T08:09:20+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T16:36:50.223391+00:00",
+          "title": "German businesses now see India as manufacturing, R&D and innovation hub: Piyush Goyal",
+          "summary": "German companies are increasingly viewing India as a strategic manufacturing and innovation hub for the future. Commerce and Industry Minister Piyush Goyal said German companies are increasingly viewing India as a hub for manufacturing, research and development, and innovation, beyond its traditional role as a consumer market.",
+          "importanceScore": 12.5,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T16:36:50.223391+00:00",
+      "cat": "India",
+      "latestTitle": "German businesses now see India as manufacturing, R&D and innovation hub: Piyush Goyal",
+      "latestSummary": "German companies are increasingly viewing India as a strategic manufacturing and innovation hub for the future. Commerce and Industry Minister Piyush Goyal said German companies are increasingly viewing India as a hub for manufacturing, research and development, and innovation, beyond its traditional role as a consumer market.",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/german-businesses-now-see-india-as-manufacturing-rd-and-innovation-hub-piyush-goyal/articleshow/135165328.cms"
+    },
+    "bc905986d676d6": {
+      "id": "bc905986d676d6",
+      "firstSeen": "2026-10-24T09:02:38+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T16:36:50.223391+00:00",
+          "title": "India and Russia set $100 billion trade goal for 2030",
+          "summary": "Indian Ambassador Vinay Kumar announced that India and Russia will work to raise bilateral trade to $100 billion by 2030. Prime Minister Narendra Modi and President Vladimir Putin discussed the target and plans for greater mutual investment during their meeting at the BRICS summit in New Delhi. India also pledged to train qualified workers to meet Russian industry needs.",
+          "importanceScore": 12.0,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T16:36:50.223391+00:00",
+      "cat": "India",
+      "latestTitle": "India and Russia set $100 billion trade goal for 2030",
+      "latestSummary": "Indian Ambassador Vinay Kumar announced that India and Russia will work to raise bilateral trade to $100 billion by 2030. Prime Minister Narendra Modi and President Vladimir Putin discussed the target and plans for greater mutual investment during their meeting at the BRICS summit in New Delhi. India also pledged to train qualified workers to meet Russian industry needs.",
+      "why": "The target signals a deepening of economic ties that could shift trade and investment patterns between the two countries.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-russia-aim-for-100-billion-trade-by-2030-as-modi-putin-push-cooperation/articleshow/135164828.cms"
+    },
+    "02760f91f3cff7": {
+      "id": "02760f91f3cff7",
+      "firstSeen": "2026-10-24T06:59:04+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T16:36:50.223391+00:00",
+          "title": "Strong macro fundamentals, policy interventions to anchor eco against global headwinds: RBI bulletin",
+          "summary": "Strong macroeconomic fundamentals continue to support the Indian economy against global inflation and trade tensions. Recent geopolitical frictions have resulted in increased prices and supply chain issues, leading to policy changes.",
+          "importanceScore": 10.5,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T16:36:50.223391+00:00",
+      "cat": "India",
+      "latestTitle": "Strong macro fundamentals, policy interventions to anchor eco against global headwinds: RBI bulletin",
+      "latestSummary": "Strong macroeconomic fundamentals continue to support the Indian economy against global inflation and trade tensions. Recent geopolitical frictions have resulted in increased prices and supply chain issues, leading to policy changes.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/strong-macro-fundamentals-policy-interventions-to-anchor-eco-against-global-headwinds-rbi-bulletin/articleshow/135151046.cms"
     }
   },
-  "updated": "2026-10-24T12:42:36.258657+00:00"
+  "updated": "2026-10-24T16:36:50.223391+00:00"
 }

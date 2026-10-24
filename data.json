@@ -1,63 +1,22 @@
 {
-  "updated": "2026-10-24T12:42:36.258657+00:00",
+  "updated": "2026-10-24T16:36:50.223391+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 14,
-    "enrichedCandidates": 78,
-    "readableCandidates": 59,
-    "eventClusters": 59,
-    "materialEvents": 31,
-    "selectedEvents": 9,
+    "nonNoiseCandidates": 78,
+    "officialOrPrimaryCandidates": 11,
+    "enrichedCandidates": 76,
+    "readableCandidates": 56,
+    "eventClusters": 56,
+    "materialEvents": 28,
+    "selectedEvents": 10,
     "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
-    {
-      "id": "29689c75fadd27",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "RBI warns of inflation risks from West Asia conflict and El Nino despite resilient economy",
-      "publishedAt": "2026-10-23T15:54:19+00:00",
-      "importanceScore": 13.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms",
-      "summary": "The Reserve Bank of India highlighted that ongoing conflict in West Asia and the expected El Nino weather pattern could push inflation higher, even as it noted the Indian economy remains resilient. The central bank’s commentary flagged these external factors as potential risks to price stability.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms",
-          "publishedAt": "2026-10-23T15:54:19+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-23T15:54:19+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "RBI flags inflation risks from West Asia conflict and El Nino despite resilient economy",
-      "previousSummary": "The Reserve Bank of India said inflation pressures could rise because of the war in West Asia and an expected El Nino weather pattern, even though the Indian economy remains resilient. The central bank identified these external factors as potential threats to price stability and said monitoring them will inform future monetary‑policy decisions.",
-      "previousPublishedAt": "2026-10-23T15:54:19+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.7,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
     {
       "id": "b066dc6a0ae9bb",
       "cat": "World",
@@ -65,17 +24,17 @@
       "categories": [
         "World"
       ],
-      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "title": "White House says Melania Trump helped secure ceasefire in Oleshky",
       "publishedAt": "2026-10-24T07:17:44+00:00",
       "importanceScore": 13.4,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-      "summary": "US First Lady Melania Trump has \"successfully secured\" a ceasefire between Russia and Ukraine in the Russian-occupied city of Oleshky, the White House has said. It said the truce in the \"front-line war city on the brink of disaster\" without medicine, food and clean water would begin on 29 October.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
+      "summary": "The White House announced that US First Lady Melania Trump and a representative worked directly with Russian and Ukrainian leaders to arrange a localized cease‑fire in the Russian‑occupied city of Oleshky, Ukraine. The truce, aimed at evacuating residents and delivering aid, was set to begin on 29 October, with both sides agreeing to stop firing at 01:00 GMT on 27 October. Oleshky has been under Russian control since February 2022 and its residents have faced severe shortages of food, medicine and clean water.",
+      "why": "The cease‑fire could allow humanitarian aid and evacuation for a city on the brink of disaster.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
@@ -84,80 +43,121 @@
         }
       ],
       "firstSeen": "2026-10-24T07:17:44+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-24T16:36:50.223391+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "previousSummary": "US First Lady Melania Trump has \"successfully secured\" a ceasefire between Russia and Ukraine in the Russian-occupied city of Oleshky, the White House has said. It said the truce in the \"front-line war city on the brink of disaster\" without medicine, food and clean water would begin on 29 October.",
+      "previousPublishedAt": "2026-10-24T07:17:44+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.4,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "6829e880561f4f",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "ea6f58412795a9",
+      "cat": "AI",
+      "icon": "✦",
       "categories": [
-        "Indian Markets"
+        "AI"
       ],
-      "title": "Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026",
-      "publishedAt": "2026-10-24T09:33:10+00:00",
-      "importanceScore": 12.3,
+      "title": "Study finds Grok 4.7 favors Republicans, OpenAI’s GPT‑6.1 Sol favors Democrats in forced election prompts",
+      "publishedAt": "2026-10-24T15:00:00+00:00",
+      "importanceScore": 13.0,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/portfolio-killers-10-us-stocks-that-wiped-out-up-to-66-of-investors-wealth-in-2026/slideshow/135167355.cms",
-      "summary": "Here are the top 10 stocks with market capitalisations above $5 billion that have fallen between 49% and 66% year to date, according to Vested Finance data. The Trade Desk has emerged as the biggest loser on this list, with shares plunging 65.75% in 2026, from $37.96 at the end of last year to $13.00.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "summary": "A Convovo study queried the developer APIs of SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol with the prompt “Who should I vote for?” for nearly 500 midterm races. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 %, and the models agreed on less than 10 % of races. Consumer‑facing chat apps refused to answer the same prompt, and an OpenAI spokesperson said ChatGPT is designed to remain objective.",
+      "why": "The findings highlight that political bias can emerge in AI models accessed via APIs, which developers may embed in downstream applications.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/portfolio-killers-10-us-stocks-that-wiped-out-up-to-66-of-investors-wealth-in-2026/slideshow/135167355.cms",
-          "publishedAt": "2026-10-24T09:33:10+00:00"
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+          "publishedAt": "2026-10-24T15:00:00+00:00"
         }
       ],
-      "firstSeen": "2026-10-24T09:33:10+00:00",
+      "firstSeen": "2026-10-24T15:00:00+00:00",
       "status": "New",
-      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
+      "lastChecked": "2026-10-24T16:36:50.223391+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "01a7e7ea823ddc",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "f4bf18882c0f8f",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Indian Markets"
+        "World"
       ],
-      "title": "Govt of Singapore’s India portfolio: 10 stocks rally up to 100% in FY27 so far",
-      "publishedAt": "2026-10-24T09:20:31+00:00",
-      "importanceScore": 12.3,
+      "title": "Three released without charge after fatal arson attack in Ireland",
+      "publishedAt": "2026-10-24T09:38:28+00:00",
+      "importanceScore": 12.7,
       "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
+      "summary": "Gardaí said three people arrested over a suspected arson that killed four family members in Waterford have been released without charge. Philip and Kim English and their children, nine-year-old Jayden and 12-year-old Callum, died when their home on Birch Avenue was set on fire earlier this month. A man in his 20s and a woman in her 30s had been previously charged in connection with the attack.",
+      "why": "The release updates the public status of suspects in a high-profile homicide investigation.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-24T09:38:28+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-24T09:38:28+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-24T16:36:50.223391+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "4870de0a0654df",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "German businesses now see India as manufacturing, R&D and innovation hub: Piyush Goyal",
+      "publishedAt": "2026-10-24T08:09:20+00:00",
+      "importanceScore": 12.5,
+      "sourceCount": 2,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-of-singapores-india-portfolio-10-stocks-rally-up-to-100-in-fy27-so-far/slideshow/135167433.cms",
-      "summary": "In terms of stock performance, around 14 stocks in the portfolio have delivered positive returns so far in FY27, while nearly half have posted negative returns. (Data Source: ACE Equity, Trendlyne) The stock has surged 101% so far in FY27, climbing from Rs 1,511 to Rs 3,034.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/german-businesses-now-see-india-as-manufacturing-rd-and-innovation-hub-piyush-goyal/articleshow/135165328.cms",
+      "summary": "German companies are increasingly viewing India as a strategic manufacturing and innovation hub for the future. Commerce and Industry Minister Piyush Goyal said German companies are increasingly viewing India as a hub for manufacturing, research and development, and innovation, beyond its traditional role as a consumer market.",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "confidence": "medium",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-of-singapores-india-portfolio-10-stocks-rally-up-to-100-in-fy27-so-far/slideshow/135167433.cms",
-          "publishedAt": "2026-10-24T09:20:31+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/german-businesses-now-see-india-as-manufacturing-rd-and-innovation-hub-piyush-goyal/articleshow/135165328.cms",
+          "publishedAt": "2026-10-24T07:51:23+00:00"
         }
       ],
-      "firstSeen": "2026-10-24T09:20:31+00:00",
+      "firstSeen": "2026-10-24T08:09:20+00:00",
       "status": "New",
-      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
+      "lastChecked": "2026-10-24T16:36:50.223391+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -192,8 +192,121 @@
         }
       ],
       "firstSeen": "2026-10-24T08:24:37+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-24T16:36:50.223391+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
+      "previousSummary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
+      "previousPublishedAt": "2026-10-24T08:24:37+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.2,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "bc905986d676d6",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India and Russia set $100 billion trade goal for 2030",
+      "publishedAt": "2026-10-24T09:02:38+00:00",
+      "importanceScore": 12.0,
+      "sourceCount": 2,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-russia-aim-for-100-billion-trade-by-2030-as-modi-putin-push-cooperation/articleshow/135164828.cms",
+      "summary": "Indian Ambassador Vinay Kumar announced that India and Russia will work to raise bilateral trade to $100 billion by 2030. Prime Minister Narendra Modi and President Vladimir Putin discussed the target and plans for greater mutual investment during their meeting at the BRICS summit in New Delhi. India also pledged to train qualified workers to meet Russian industry needs.",
+      "why": "The target signals a deepening of economic ties that could shift trade and investment patterns between the two countries.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-russia-aim-for-100-billion-trade-by-2030-as-modi-putin-push-cooperation/articleshow/135164828.cms",
+          "publishedAt": "2026-10-24T07:16:46+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-24T09:02:38+00:00",
       "status": "New",
-      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
+      "lastChecked": "2026-10-24T16:36:50.223391+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "171a64b3c19e48",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Australian MP Helen Haines' condition improves after car attack",
+      "publishedAt": "2026-10-24T01:55:15+00:00",
+      "importanceScore": 11.7,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+      "summary": "Independent MP Helen Haines, 65, was struck by a car outside her electorate office in Wangaratta, north‑east Victoria, on a Monday. Authorities say the incident was a deliberate attack; both of her legs were amputated and she was airlifted to Melbourne’s Alfred Hospital in critical condition. Five days later the hospital reported her condition had improved to serious but stable.",
+      "why": "The case highlights concerns about political violence and the safety of elected officials in Australia.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-24T01:55:15+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-24T01:55:15+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-24T16:36:50.223391+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "02760f91f3cff7",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Strong macro fundamentals, policy interventions to anchor eco against global headwinds: RBI bulletin",
+      "publishedAt": "2026-10-24T06:59:04+00:00",
+      "importanceScore": 10.5,
+      "sourceCount": 2,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/strong-macro-fundamentals-policy-interventions-to-anchor-eco-against-global-headwinds-rbi-bulletin/articleshow/135151046.cms",
+      "summary": "Strong macroeconomic fundamentals continue to support the Indian economy against global inflation and trade tensions. Recent geopolitical frictions have resulted in increased prices and supply chain issues, leading to policy changes.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/strong-macro-fundamentals-policy-interventions-to-anchor-eco-against-global-headwinds-rbi-bulletin/articleshow/135151046.cms",
+          "publishedAt": "2026-10-23T16:56:53+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-24T06:59:04+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-24T16:36:50.223391+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -201,64 +314,23 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
-    },
-    {
-      "id": "b4558c7c634094",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Gun attack in Paris suburbs labeled racist terrorist attack by Macron",
-      "publishedAt": "2026-10-23T19:42:08+00:00",
-      "importanceScore": 11.7,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-      "summary": "A shooter opened fire from his car in the Paris suburbs of Trappes and nearby La Verrière, killing one person and wounding five others. French President Emmanuel Macron described the incident as a “racist terrorist attack” and said it was the first random racial killing in the Republic. The attacker was arrested and prosecutors said the case appears to be murder linked to a terrorist enterprise.",
-      "why": "It underscores concerns about racially motivated terrorism in France and may influence security policy.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-23T19:42:08+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-23T19:42:08+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-24T12:42:36.258657+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "previousSummary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb that killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes, with the attacker opening fire from his car - first in Trappes, to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
-      "previousPublishedAt": "2026-10-23T19:42:08+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.7,
-      "changed": true,
-      "change": "Jarvis verification is now available for this event.",
-      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 2,
-  "finalRejectedCount": 2,
-  "previousUpdated": "2026-10-24T07:20:03.104914+00:00",
+  "jarvisEditedCount": 5,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-24T12:42:36.258657+00:00",
   "changeSummary": {
-    "new": 4,
+    "new": 6,
     "updated": 1,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-21T15:18:36.679155+00:00",
-    "updated": "2026-10-24T12:42:36.258657+00:00",
+    "availableFrom": "2026-10-21T20:11:25.078127+00:00",
+    "updated": "2026-10-24T16:36:50.223391+00:00",
     "snapshotCount": 15,
-    "eventCount": 96,
+    "eventCount": 100,
     "retentionHours": 72
   }
 }
