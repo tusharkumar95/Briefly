@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-21T04:52:51.407537+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "5a97b197ba4eea",
-          "cat": "World",
-          "title": "Musk says Tesla and SpaceX merger under active consideration",
-          "summary": "Elon Musk told analysts he likes the idea of merging Tesla and SpaceX and that the proposal is being examined. He said special committees at both companies have been formed but have not reached agreement on terms, and any deal would require shareholder approval with no guarantee it will happen. Musk cited Tesla’s approximate $1.5 trillion valuation and SpaceX’s $2 trillion valuation, noting the combined size would be among the largest mergers ever.",
-          "why": "A merger of this scale would have major market and regulatory implications.",
-          "publishedAt": "2026-10-20T23:24:47+00:00",
-          "firstSeen": "2026-10-20T23:24:47+00:00",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "7205a9fb75f957",
-          "cat": "India",
-          "title": "US and India Near Finalizing New Trade Deal, Trump Says",
-          "summary": "President Donald Trump said the United States and India are “pretty close” to completing a new trade agreement that will differ markedly from earlier pacts. The comment coincided with Secretary of State Marco Rubio’s visit to India and a meeting between Indian Commerce Minister Piyush Goyal and U.S. Trade Representative Jamieson Greer to discuss the deal, following a recently finalized framework for bilateral trade.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-21T02:32:47+00:00",
-          "firstSeen": "2026-10-21T02:32:47+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-pretty-close-trump-says-will-be-very-different-from-earlier-pacts/articleshow/135080169.cms"
-        },
-        {
-          "id": "5061850b198b18",
-          "cat": "AI",
-          "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-          "summary": "OpenAI on Tuesday acquired a four-year-old AI biotech software startup called Orchestra Bio, the company announced on its website. Terms of the deal were not disclosed, but the startup had reportedly raised around $20 million as of 2025 from backers like Andreessen Horowitz, Atria, and 8VC.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-20T20:35:10+00:00",
-          "firstSeen": "2026-10-20T20:35:10+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
-        },
-        {
-          "id": "a5db260549abb0",
-          "cat": "India",
-          "title": "Marco Rubio, S Jaishankar discuss energy ties as India-US trade deal nears finalisation",
-          "summary": "US Secretary of State Marco Rubio and S Jaishankar discussed energy security, defence, technology and regional issues in Mumbai. Rubio said the India-US trade deal was close to finalisation, with a few issues remaining.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-21T00:30:00+00:00",
-          "firstSeen": "2026-10-21T00:30:00+00:00",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-s-jaishankar-discuss-energy-ties-as-india-us-trade-deal-nears-finalisation/articleshow/135076515.cms"
-        },
-        {
-          "id": "b810cbb7af9063",
-          "cat": "World",
-          "title": "Houthi missile strike kills 73 Yemeni security recruits",
-          "summary": "Yemen's government said a missile strike attributed to the Houthi movement hit a camp for internal security forces, killing 73 recruits. Local authorities reported the death toll and said the victims were members of the internal security forces.",
-          "why": "It highlights the ongoing risk to Yemen’s security personnel amid the conflict.",
-          "publishedAt": "2026-10-20T14:09:42+00:00",
-          "firstSeen": "2026-10-20T14:09:42+00:00",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "0cdb4ef3ae33c9",
-          "cat": "India",
-          "title": "US official says India‑US trade deal close after meeting with Jaishankar",
-          "summary": "US Senator Marco Rubio said negotiations for a trade agreement with India are “very, very close” after discussions with Indian Foreign Minister Subrahmanyam Jaishankar. He said the talks covered energy security and defence cooperation, while noting that tariff and energy issues remain challenges, and his visit also included a tour of Reliance Industries’ refinery and meetings with Indian business leaders.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-20T11:49:50+00:00",
-          "firstSeen": "2026-10-20T11:49:50+00:00",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rubio-says-india-us-trade-deal-is-very-very-close-after-jaishankar-meeting/articleshow/135068984.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-21T10:12:53.247169+00:00",
       "changeSummary": {
         "new": 5,
@@ -1789,107 +1671,59 @@
           "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-posts-rs-2138-crore-q2-profit/articleshow/135154453.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "a32897379b718e": {
-      "id": "a32897379b718e",
-      "firstSeen": "2026-10-16T05:00:17+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-10-24T07:20:03.104914+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
         {
-          "at": "2026-10-16T07:12:57.744428+00:00",
-          "title": "Record number of ship attacks reported in Strait of Hormuz",
-          "summary": "UK Maritime Trade Operations recorded twelve vessel attacks in the Strait of Hormuz between 5 and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week saw ten attacks, with six incidents occurring on a single Sunday and four reported so far this week. Industry data indicate that the rise in attacks has coincided with a slowdown in the rebound of oil shipments through the strait.",
-          "importanceScore": 15.6,
+          "id": "29689c75fadd27",
+          "cat": "India",
+          "title": "RBI flags inflation risks from West Asia conflict and El Nino despite resilient economy",
+          "summary": "The Reserve Bank of India said inflation pressures could rise because of the war in West Asia and an expected El Nino weather pattern, even though the Indian economy remains resilient. The central bank identified these external factors as potential threats to price stability and said monitoring them will inform future monetary‑policy decisions.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T15:54:19+00:00",
+          "firstSeen": "2026-10-23T15:54:19+00:00",
+          "importanceScore": 13.7,
           "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-16T12:28:40.465775+00:00",
-          "title": "Record weekly ship attacks in Strait of Hormuz as oil shipment recovery slows",
-          "summary": "Twelve vessels reported attacks between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The prior week recorded ten attacks, including six incidents on a single Sunday, and four attacks have been reported so far this week. Industry data suggests the rise in attacks has coincided with a slowdown in the recent recovery of oil shipments through the strait.",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-16T17:26:34.170134+00:00",
-          "title": "Twelve ships attacked in Strait of Hormuz during week of Oct 5‑11, highest since war began",
-          "summary": "BBC Verify analysis of UK Maritime Trade Operations data shows that twelve vessels reported attacks in the Strait of Hormuz between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week recorded ten attacks, including six vessels struck on Sunday, with four additional incidents reported later in the week. Industry data indicates the rise in attacks has slowed the recent recovery of oil shipments through the strait.",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-16T21:12:42.374155+00:00",
-          "title": "Record number of ship attacks reported in Strait of Hormuz this week",
-          "summary": "BBC Verify analysis of UK Maritime Trade Operations data shows twelve vessels were reported attacked between 5 and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week saw ten attacks, including six vessels struck on a single Sunday, a one‑day high, and four attacks reported so far this week. Industry data suggests the rise in incidents has slowed the recent recovery in oil shipments through the strait.",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-16T23:38:03.497582+00:00",
-          "title": "Record number of ship attacks reported in Strait of Hormuz",
-          "summary": "BBC Verify analysis of UK Maritime Trade Operations data shows that twelve vessels were reported attacked between 5 and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week saw ten ships reporting attacks, and six vessels were struck on Sunday, a one‑day high. Industry data suggests the rise in incidents has coincided with a slowdown in the recovery of oil shipments through the strait.",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-17T04:31:09.102759+00:00",
-          "title": "Record weekly ship attacks reported in Strait of Hormuz",
-          "summary": "BBC Verify analysis of UK Maritime Trade Operations data shows that 12 vessels reported attacks in and around the Strait of Hormuz between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week recorded 10 attacks, with six vessels struck on a single Sunday and four additional attacks reported so far this week. Industry data suggests the surge has slowed the recent recovery in oil shipments through the strait.",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-17T04:31:09.102759+00:00",
-      "cat": "World",
-      "latestTitle": "Record weekly ship attacks reported in Strait of Hormuz",
-      "latestSummary": "BBC Verify analysis of UK Maritime Trade Operations data shows that 12 vessels reported attacks in and around the Strait of Hormuz between 5 October and 11 October, the highest weekly total since the US‑Israeli war with Iran began. The previous week recorded 10 attacks, with six vessels struck on a single Sunday and four additional attacks reported so far this week. Industry data suggests the surge has slowed the recent recovery in oil shipments through the strait.",
-      "why": "The rise in attacks threatens maritime safety and could disrupt global oil supplies.",
-      "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss"
-    },
-    "f5f021032aceac": {
-      "id": "f5f021032aceac",
-      "firstSeen": "2026-10-16T11:47:31+00:00",
-      "snapshots": [
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
+        },
         {
-          "at": "2026-10-16T12:28:40.465775+00:00",
-          "title": "India’s forex reserves fall to $726.03 bn in week ended Oct 9",
-          "summary": "The Reserve Bank of India reported that foreign‑exchange reserves declined by $8.578 billion, to $726.027 billion, in the week ended 9 October. The fall followed a $12.952 billion decline in the previous week. The decrease was driven by lower foreign‑currency assets, reduced gold holdings, and drops in special drawing rights and the IMF reserve position.",
+          "id": "22281187a6132a",
+          "cat": "India",
+          "title": "Inflation remains high, growth slows, says RBI Governor",
+          "summary": "RBI Governor Shaktikanta Malhotra told reporters that inflation continues to run above the target band and that the pace of economic growth is decelerating, warning that these twin pressures pose a larger challenge for the central bank in steering monetary policy. He emphasized that addressing inflation while supporting growth will require careful calibration of interest rates.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T13:27:26+00:00",
+          "firstSeen": "2026-10-23T13:27:26+00:00",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms"
+        },
+        {
+          "id": "5f82c6b6a27a2d",
+          "cat": "Indian Markets",
+          "title": "IndusInd Bank posts Rs 1,242 crore net profit on lower provisions",
+          "summary": "IndusInd Bank reported a net profit of Rs 1,242 crore for the quarter. The result was attributed to lower loan‑loss provisions, which reduced the bank’s expense line. Lower provisioning means a smaller amount was set aside for potential loan defaults.",
+          "why": "The profit figure signals the bank’s recent financial performance to investors and analysts.",
+          "publishedAt": "2026-10-24T03:00:04+00:00",
+          "firstSeen": "2026-10-24T03:00:04+00:00",
           "importanceScore": 13.1,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
@@ -1897,42 +1731,67 @@
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indusind-bank-posts-rs-1242-crore-net-profit-on-lower-provisions/articleshow/135160532.cms"
         },
         {
-          "at": "2026-10-16T21:12:42.374155+00:00",
-          "title": "India's forex reserves drop by $8.58 billion to $726.03 billion in week ended October 9: RBI",
-          "summary": "India’s foreign exchange reserves fell by $8.578 billion to $726.027 billion in the week ended October 9, according to data released by the Reserve Bank of India (RBI). Foreign currency assets and gold reserves recorded significant declines, while special drawing rights and India’s reserve position with the IMF also fell.",
-          "importanceScore": 11.0,
+          "id": "171a64b3c19e48",
+          "cat": "World",
+          "title": "Australian MP Helen Haines' condition stabilises after car attack",
+          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta electorate office in north‑east Victoria on Monday. She underwent emergency surgery that included bilateral leg amputation and was airlifted to Melbourne’s Alfred Hospital. On Saturday the hospital reported her condition had improved from critical to serious but stable.",
+          "why": "The update informs the public about the health status of a sitting federal parliamentarian and the seriousness of the incident.",
+          "publishedAt": "2026-10-24T01:55:15+00:00",
+          "firstSeen": "2026-10-24T01:55:15+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "b4558c7c634094",
+          "cat": "World",
+          "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+          "summary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb that killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes, with the attacker opening fire from his car - first in Trappes, to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
+          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+          "publishedAt": "2026-10-23T19:42:08+00:00",
+          "firstSeen": "2026-10-23T19:42:08+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "27fe5471154cff",
+          "cat": "India",
+          "title": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
+          "summary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-23T11:37:11+00:00",
+          "firstSeen": "2026-10-23T11:37:11+00:00",
+          "importanceScore": 9.8,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "low",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-17T04:31:09.102759+00:00",
-          "title": "India’s forex reserves fall $8.58 bn to $726.03 bn in week to Oct 9",
-          "summary": "The Reserve Bank of India reported that foreign exchange reserves declined by $8.578 billion to $726.027 billion in the week ended October 9, after a $12.952 billion fall the week before. Foreign‑currency assets, gold holdings, special drawing rights and the RBI’s position with the IMF all recorded declines.",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms"
         }
-      ],
-      "lastSeen": "2026-10-17T04:31:09.102759+00:00",
-      "cat": "India",
-      "latestTitle": "India’s forex reserves fall $8.58 bn to $726.03 bn in week to Oct 9",
-      "latestSummary": "The Reserve Bank of India reported that foreign exchange reserves declined by $8.578 billion to $726.027 billion in the week ended October 9, after a $12.952 billion fall the week before. Foreign‑currency assets, gold holdings, special drawing rights and the RBI’s position with the IMF all recorded declines.",
-      "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-by-usd-8-58-billion-to-usd-726-03-billion-in-week-ended-october-9-rbi/articleshow/134993652.cms"
-    },
+      ]
+    }
+  ],
+  "events": {
     "4af9479aadbf08": {
       "id": "4af9479aadbf08",
       "firstSeen": "2026-10-16T14:31:04+00:00",
@@ -2100,44 +1959,6 @@
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-shed-60-billion-in-six-weeks-as-rbi-steps-in-to-support-rupee-one-of-asias-worst-performing-currencies-this-year/articleshow/134994757.cms"
     },
-    "5cf205171fb772": {
-      "id": "5cf205171fb772",
-      "firstSeen": "2026-10-16T17:59:09+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-16T21:12:42.374155+00:00",
-          "title": "Chip selloff deepens Wall Street losses as doubts grew over AI returns",
-          "summary": "The Nasdaq 100 dropped by 1.8%, continuing its longest losing streak since 2008. CoreWeave sank 9.5%, extending a rout driven by concerns that investment in AI infrastructure had outpaced companies’ ability to generate sufficient returns.",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-17T04:31:09.102759+00:00",
-          "title": "Semiconductor selloff drags US indexes lower, AI return doubts rise",
-          "summary": "A broad decline in semiconductor stocks pulled major US indexes down, with the Nasdaq 100 falling 1.8% and extending its longest losing streak since 2008. Investors questioned whether AI infrastructure spending will generate profitable returns despite strong chip demand. Federal Reserve Chairman Kevin Warsh reiterated a neutral stance on rates at IMF talks, and cloud‑gaming firm CoreWeave dropped 9.5% amid the rout.",
-          "importanceScore": 12.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-17T04:31:09.102759+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Semiconductor selloff drags US indexes lower, AI return doubts rise",
-      "latestSummary": "A broad decline in semiconductor stocks pulled major US indexes down, with the Nasdaq 100 falling 1.8% and extending its longest losing streak since 2008. Investors questioned whether AI infrastructure spending will generate profitable returns despite strong chip demand. Federal Reserve Chairman Kevin Warsh reiterated a neutral stance on rates at IMF talks, and cloud‑gaming firm CoreWeave dropped 9.5% amid the rout.",
-      "why": "The slide signals heightened risk for tech‑heavy portfolios and could pressure related equity valuations.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/chip-selloff-deepens-wall-street-losses-as-doubts-grew-over-ai-returns/articleshow/135001236.cms"
-    },
     "e4f2bccf60ac45": {
       "id": "e4f2bccf60ac45",
       "firstSeen": "2026-10-16T17:54:45+00:00",
@@ -2227,69 +2048,6 @@
       "latestSummary": "The White House announced investments of over $330 billion from India as part of total investments. US President Donald Trump previously mentioned Reliance Industries' $300 billion investment in Texas.",
       "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/white-house-lists-investment-over-330-billion-in-us-from-india/articleshow/135001068.cms"
-    },
-    "6b30501dbb1529": {
-      "id": "6b30501dbb1529",
-      "firstSeen": "2026-10-16T14:02:27+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-16T21:12:42.374155+00:00",
-          "title": "Cult.fit receives Sebi approval for proposed IPO",
-          "summary": "Cult.fit has received Sebi observations for its proposed IPO, comprising a fresh issue of up to Rs 950 crore and an offer for sale. Cult.fit advances towards its IPO after receiving Sebi observations, planning to repay debt, expand fitness centres and strengthen its sportswear business.",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-17T04:31:09.102759+00:00",
-          "title": "Cult.fit receives SEBI observations for proposed IPO",
-          "summary": "Cult.fit has received observations from the Securities and Exchange Board of India (SEBI) on its planned IPO, which includes a fresh issue of up to Rs 950 crore and an offer for sale. The company said revenue rose 36.26% in FY26 and adjusted EBITDA margin improved as it expanded its fitness operations nationwide. It plans to use the proceeds to repay debt, open additional fitness centres and grow its sportswear business.",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-17T04:31:09.102759+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Cult.fit receives SEBI observations for proposed IPO",
-      "latestSummary": "Cult.fit has received observations from the Securities and Exchange Board of India (SEBI) on its planned IPO, which includes a fresh issue of up to Rs 950 crore and an offer for sale. The company said revenue rose 36.26% in FY26 and adjusted EBITDA margin improved as it expanded its fitness operations nationwide. It plans to use the proceeds to repay debt, open additional fitness centres and grow its sportswear business.",
-      "why": "The SEBI observations bring the company nearer to completing its IPO and raising capital for debt reduction and expansion.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/cult-fit-receives-sebi-approval-for-proposed-ipo/articleshow/134997161.cms"
-    },
-    "e296b8cb8184c3": {
-      "id": "e296b8cb8184c3",
-      "firstSeen": "2026-10-17T02:48:36+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-17T04:31:09.102759+00:00",
-          "title": "Trump delays new Russia sanctions law",
-          "summary": "On Friday night President Donald Trump issued an executive order withholding a number of sanctions that Congress had recently passed against Russia. The sanctions law, signed by Trump in September and named for the late Senator Lindsey Graham, was set to take effect on Sunday and would have allowed tariffs of up to 100 % on the five largest buyers of Russian oil and gas, primarily China and India. The order was justified as being in U.S. national interests.",
-          "importanceScore": 14.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-17T04:31:09.102759+00:00",
-      "cat": "World",
-      "latestTitle": "Trump delays new Russia sanctions law",
-      "latestSummary": "On Friday night President Donald Trump issued an executive order withholding a number of sanctions that Congress had recently passed against Russia. The sanctions law, signed by Trump in September and named for the late Senator Lindsey Graham, was set to take effect on Sunday and would have allowed tariffs of up to 100 % on the five largest buyers of Russian oil and gas, primarily China and India. The order was justified as being in U.S. national interests.",
-      "why": "The delay could influence global energy prices and U.S. diplomatic relations with Russia and its major oil purchasers.",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
     },
     "6ede0c8ae747f6": {
       "id": "6ede0c8ae747f6",
@@ -5700,12 +5458,25 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-24T07:20:03.104914+00:00",
+          "title": "RBI flags inflation risks from West Asia conflict and El Nino despite resilient economy",
+          "summary": "The Reserve Bank of India said inflation pressures could rise because of the war in West Asia and an expected El Nino weather pattern, even though the Indian economy remains resilient. The central bank identified these external factors as potential threats to price stability and said monitoring them will inform future monetary‑policy decisions.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
+      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
       "cat": "India",
-      "latestTitle": "RBI warns of inflation risks from West Asia conflict and El Nino, says economy remains resilient",
-      "latestSummary": "The Reserve Bank of India highlighted that the ongoing conflict in West Asia and the anticipated El Nino weather pattern could increase inflation pressures in the country. In the same statement, the RBI noted that the Indian economy continues to show resilience despite these external risks. No further details on policy response were provided in the source.",
+      "latestTitle": "RBI flags inflation risks from West Asia conflict and El Nino despite resilient economy",
+      "latestSummary": "The Reserve Bank of India said inflation pressures could rise because of the war in West Asia and an expected El Nino weather pattern, even though the Indian economy remains resilient. The central bank identified these external factors as potential threats to price stability and said monitoring them will inform future monetary‑policy decisions.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
     },
@@ -5940,12 +5711,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-24T07:20:03.104914+00:00",
+          "title": "Inflation remains high, growth slows, says RBI Governor",
+          "summary": "RBI Governor Shaktikanta Malhotra told reporters that inflation continues to run above the target band and that the pace of economic growth is decelerating, warning that these twin pressures pose a larger challenge for the central bank in steering monetary policy. He emphasized that addressing inflation while supporting growth will require careful calibration of interest rates.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
+      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
       "cat": "India",
-      "latestTitle": "RBI Governor says inflation remains high and growth slows",
-      "latestSummary": "The RBI governor, referred to as Malhotra in the source, said that inflation continues to be elevated while economic growth has decelerated, creating a larger challenge for policymakers. No quantitative data or direct quotations were provided.",
+      "latestTitle": "Inflation remains high, growth slows, says RBI Governor",
+      "latestSummary": "RBI Governor Shaktikanta Malhotra told reporters that inflation continues to run above the target band and that the pace of economic growth is decelerating, warning that these twin pressures pose a larger challenge for the central bank in steering monetary policy. He emphasized that addressing inflation while supporting growth will require careful calibration of interest rates.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms"
     },
@@ -5990,9 +5774,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-24T07:20:03.104914+00:00",
+          "title": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
+          "summary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
+          "importanceScore": 9.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-10-23T22:21:20.473309+00:00",
+      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
       "cat": "India",
       "latestTitle": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
       "latestSummary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
@@ -6015,12 +5812,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-24T07:20:03.104914+00:00",
+          "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+          "summary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb that killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes, with the attacker opening fire from his car - first in Trappes, to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
+      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
       "cat": "World",
       "latestTitle": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "latestSummary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb which killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes with the attacker opening fire from his car - first in Trappes to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
+      "latestSummary": "French President Emmanuel Macron has labelled a gun attack in a Parisian suburb that killed one person and injured five others \"a racist terrorist attack\". The attack unfolded over some 15 minutes, with the attacker opening fire from his car - first in Trappes, to the south-west of Paris, and then in nearby La Verrière - appearing to target people of migrant origin.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
     },
@@ -6048,7 +5858,57 @@
       "latestSummary": "Tata Motors Ltd achieved a standalone net profit of ₹2,138 crore for the September quarter, reversing last year's loss. Consolidated profit also increased to ₹1,257 crore, aided by a drop in mark-to-market losses.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-posts-rs-2138-crore-q2-profit/articleshow/135154453.cms"
+    },
+    "5f82c6b6a27a2d": {
+      "id": "5f82c6b6a27a2d",
+      "firstSeen": "2026-10-24T03:00:04+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T07:20:03.104914+00:00",
+          "title": "IndusInd Bank posts Rs 1,242 crore net profit on lower provisions",
+          "summary": "IndusInd Bank reported a net profit of Rs 1,242 crore for the quarter. The result was attributed to lower loan‑loss provisions, which reduced the bank’s expense line. Lower provisioning means a smaller amount was set aside for potential loan defaults.",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "IndusInd Bank posts Rs 1,242 crore net profit on lower provisions",
+      "latestSummary": "IndusInd Bank reported a net profit of Rs 1,242 crore for the quarter. The result was attributed to lower loan‑loss provisions, which reduced the bank’s expense line. Lower provisioning means a smaller amount was set aside for potential loan defaults.",
+      "why": "The profit figure signals the bank’s recent financial performance to investors and analysts.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indusind-bank-posts-rs-1242-crore-net-profit-on-lower-provisions/articleshow/135160532.cms"
+    },
+    "171a64b3c19e48": {
+      "id": "171a64b3c19e48",
+      "firstSeen": "2026-10-24T01:55:15+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-24T07:20:03.104914+00:00",
+          "title": "Australian MP Helen Haines' condition stabilises after car attack",
+          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta electorate office in north‑east Victoria on Monday. She underwent emergency surgery that included bilateral leg amputation and was airlifted to Melbourne’s Alfred Hospital. On Saturday the hospital reported her condition had improved from critical to serious but stable.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
+      "cat": "World",
+      "latestTitle": "Australian MP Helen Haines' condition stabilises after car attack",
+      "latestSummary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta electorate office in north‑east Victoria on Monday. She underwent emergency surgery that included bilateral leg amputation and was airlifted to Melbourne’s Alfred Hospital. On Saturday the hospital reported her condition had improved from critical to serious but stable.",
+      "why": "The update informs the public about the health status of a sitting federal parliamentarian and the seriousness of the incident.",
+      "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss"
     }
   },
-  "updated": "2026-10-24T01:37:10.158040+00:00"
+  "updated": "2026-10-24T07:20:03.104914+00:00"
 }
