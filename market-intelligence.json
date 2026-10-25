@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T17:51:59.776150+00:00",
+  "updated": "2026-10-25T21:14:38.262555+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -31,19 +31,31 @@
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.39%",
+      "headline": "Nifty and Sensex slip as Brent crude price spikes",
       "direction": "down",
       "move": "Nifty 50 -0.39%",
-      "why": "Same-day market coverage explicitly linked the final move to: Brent Crude Spike Prevents Upside — Key Levels.",
+      "why": "A spike in Brent crude prices curbed upside potential, pushing Nifty support down to around 22,500, which contributed to modest declines in both indices.",
       "drivers": [
         {
           "label": "Brent Crude Spike Prevents Upside — Key Levels",
           "detail": "NDTV Profit explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
+        },
+        {
+          "label": "Brent crude price spike",
+          "detail": "NDTV Profit links the surge in Brent crude to the loss of upside and the slip of Nifty support to 22,500, directly tying it to the market decline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Weekly Nifty decline",
+          "detail": "The Economic Times notes that Nifty has fallen about 2% over the week, providing broader market context for the day's move.",
+          "kind": "context"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Energy"
+      ],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
