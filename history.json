@@ -3,88 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-22T10:14:17.006925+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "b694d05b4ae55b",
-          "cat": "India",
-          "title": "RBI weighs rate hike as India‑G7 interest‑rate gap and inflation risks rise",
-          "summary": "The Reserve Bank of India said its monetary‑policy outlook is being shaped by the interest‑rate gap with G7 economies and by rising inflation and input‑cost pressures. Recent GDP data show resilience, driven by strong private consumption and exports. YES Bank projects that the RBI could implement a cumulative 50‑basis‑point rate increase.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-22T08:49:00+00:00",
-          "firstSeen": "2026-10-22T08:49:00+00:00",
-          "importanceScore": 14.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms"
-        },
-        {
-          "id": "6fdcbec3fc0acb",
-          "cat": "World",
-          "title": "Two killed, eight injured in attack at Dammam’s King Fahd International Airport",
-          "summary": "Two people – a Saudi citizen and an Indian resident – were killed and eight others were injured in an incident at King Fahd International Airport in Dammam, eastern Saudi Arabia, on Wednesday evening. The General Authority of Civil Aviation said it had not identified the type of attack. Earlier that day a drone intercepted over the Eastern Province caused two deaths near an Aramco processing facility.",
-          "why": "The event highlights ongoing security risks to Saudi civilian and energy sites.",
-          "publishedAt": "2026-10-22T09:14:48+00:00",
-          "firstSeen": "2026-10-22T09:14:48+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "71097af1a3e786",
-          "cat": "India",
-          "title": "RBI raises repo rate by 25 basis points as inflation risks widen",
-          "summary": "The RBI’s Monetary Policy Committee increased the benchmark repo rate by 25 basis points to curb rising inflation. Governor Sanjay Malhotra said inflation is becoming more generalized, with many commodities above 4%, and Deputy Governor Poonam Gupta cited external supply‑side shocks affecting inflation outlook. External members warned that an aggressive hike could slow economic growth.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-21T19:52:04+00:00",
-          "firstSeen": "2026-10-21T19:52:04+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-widening-inflation-risks-puts-rate-cuts-on-ice/articleshow/135100146.cms"
-        },
-        {
-          "id": "4d343912981448",
-          "cat": "World",
-          "title": "Vance tells Republicans to 'stop whining' about controversial Ohio attack ad",
-          "summary": "JD Vance urged fellow Republicans to stop \"whining\" about an Ohio campaign ad showing Democratic candidate Amy Acton's estranged mother, Donna Arthur, calling her a liar. The ad, credited to Vivek Ramaswamy's campaign, has been paid for with millions of dollars for statewide placement. Acton's brother condemned it as turning alleged sexual assault into a political talking point.",
-          "why": "The GOP split over the ad shows disagreement on whether to defend or criticize it, and millions spent on statewide placement make it a strategic issue for the party.",
-          "publishedAt": "2026-10-21T22:59:18+00:00",
-          "firstSeen": "2026-10-21T22:59:18+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cm98zn3l2rn7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-10-22T15:20:52.860366+00:00",
       "changeSummary": {
         "new": 2,
@@ -1922,6 +1840,34 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-25T11:35:37.489800+00:00",
+      "changeSummary": {
+        "new": 0,
+        "updated": 1,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "ea6f58412795a9",
+          "cat": "AI",
+          "title": "Study finds Grok API backs Republicans, OpenAI API backs Democrats",
+          "summary": "A Convovo study queried SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol through their developer APIs, asking each model to name a single candidate for upcoming midterm races without hedging. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 % of cases, and the two models agreed on less than 10 % of nearly 500 races. Consumer‑facing apps declined to answer, and OpenAI said the API results do not reflect typical ChatGPT behavior.",
+          "why": "The findings highlight potential partisan bias in AI model APIs, which could influence developers’ products and public trust in automated political advice.",
+          "publishedAt": "2026-10-24T15:00:00+00:00",
+          "firstSeen": "2026-10-24T15:00:00+00:00",
+          "importanceScore": 11.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
           "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
         }
       ]
@@ -5884,13 +5830,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-25T11:35:37.489800+00:00",
+          "title": "Study finds Grok API backs Republicans, OpenAI API backs Democrats",
+          "summary": "A Convovo study queried SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol through their developer APIs, asking each model to name a single candidate for upcoming midterm races without hedging. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 % of cases, and the two models agreed on less than 10 % of nearly 500 races. Consumer‑facing apps declined to answer, and OpenAI said the API results do not reflect typical ChatGPT behavior.",
+          "importanceScore": 11.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-25T06:11:39.901824+00:00",
+      "lastSeen": "2026-10-25T11:35:37.489800+00:00",
       "cat": "AI",
-      "latestTitle": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "latestSummary": "A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked the Democrat in 97%. Across nearly 500 races, the two models agreed less than 10% of the time.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "latestTitle": "Study finds Grok API backs Republicans, OpenAI API backs Democrats",
+      "latestSummary": "A Convovo study queried SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol through their developer APIs, asking each model to name a single candidate for upcoming midterm races without hedging. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 % of cases, and the two models agreed on less than 10 % of nearly 500 races. Consumer‑facing apps declined to answer, and OpenAI said the API results do not reflect typical ChatGPT behavior.",
+      "why": "The findings highlight potential partisan bias in AI model APIs, which could influence developers’ products and public trust in automated political advice.",
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
     },
     "f4bf18882c0f8f": {
@@ -6225,5 +6184,5 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GOXlQanQ1YzE3YUdoMVBGUkpveGRzMThaNmhWVi1yeS1xdXNzcl9VMm95ZDlQMG1fOHhhamx5TjZBcVp4bnlCZUhWdWRYS1lBOFpmNjhsRjNMd3BCS0IxNFM3aFhmOGxpdTVnVHVEVGVXTjlUdHc?oc=5"
     }
   },
-  "updated": "2026-10-25T06:11:39.901824+00:00"
+  "updated": "2026-10-25T11:35:37.489800+00:00"
 }

@@ -1,222 +1,22 @@
 {
-  "updated": "2026-10-25T06:11:39.901824+00:00",
+  "updated": "2026-10-25T11:35:37.489800+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 54,
-    "nonNoiseCandidates": 52,
-    "officialOrPrimaryCandidates": 4,
-    "enrichedCandidates": 50,
-    "readableCandidates": 37,
-    "eventClusters": 36,
-    "materialEvents": 19,
-    "selectedEvents": 8,
-    "seededStories": 6,
-    "corroboratedStories": 3,
-    "addedCorroboratingSources": 5
+    "rawCandidates": 46,
+    "nonNoiseCandidates": 44,
+    "officialOrPrimaryCandidates": 2,
+    "enrichedCandidates": 43,
+    "readableCandidates": 35,
+    "eventClusters": 35,
+    "materialEvents": 14,
+    "selectedEvents": 4,
+    "seededStories": 1,
+    "corroboratedStories": 0,
+    "addedCorroboratingSources": 0
   },
   "stories": [
-    {
-      "id": "bc905986d676d6",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India, Russia set $100 bn trade target for 2030",
-      "publishedAt": "2026-10-24T20:58:44+00:00",
-      "importanceScore": 13.8,
-      "sourceCount": 3,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-russia-aim-for-100-billion-trade-by-2030-as-modi-putin-push-cooperation/articleshow/135164828.cms",
-      "summary": "Indian Ambassador Vinay Kumar said Prime Minister Narendra Modi and President Vladimir Putin directed their governments to raise bilateral trade to $100 billion and two‑way investment to $50 billion by 2030. The goal was discussed at the BRICS summit in New Delhi on September 12‑13, and India pledged to supply skilled workers to meet Russian industry needs.",
-      "why": "The target deepens economic ties and could shift trade and investment patterns between the two large economies.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-russia-aim-for-100-billion-trade-by-2030-as-modi-putin-push-cooperation/articleshow/135164828.cms",
-          "publishedAt": "2026-10-24T07:16:46+00:00"
-        },
-        {
-          "name": "ET Government",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWlRjXzJNMHhLS0VJb3dTTEdxYTFaOVJEYWlrUTdiaUZCZnJHeGwzaFdWVExNNDVSQmFGekx2LWwwTjZPMEZiYzJSS1h6Um5wbVNfa01POHVtTTZ3aXJoVWVmbVppa3pxSHZ5VHlWOTNPTVRRQm5ZcDh4RzZKQlZyV0ZXZzNrbHNaYk1LWU5fb1FSMmZKVTV6VnZRR19OaXZhcE5nQWxRbEJNZDlEaDlqanR0MElhODdlVHlmRlBheUdDOTN1ZkJQZjltLVJKRVRxTVA2SXkxVjNnZzdwLTFoUWtn0gHmAUFVX3lxTE5udDljM090cGVkdnpaeG5YY0I5X0JDTDljc0NIZ2hKc0taNnhIMTBTTzdPMkJqc0hzbGRxckY0b2FnUXJVSFVlcGpHZHJBYnVMdVVVMEFXWnpIS2VnbWN5M2VRMkFvaThYRUxxSW1hZUoxOFpERkdmQTNqLXJZMmx5M3J5LWhKc05iRFZsOG5meUEzNFI5SzZtaXN5NEtvSDVYNFBKRldtZ01lM0d2N1dvVV9ZSllCWTlYNGU0MGlRbC10WUlGYlJ5TGhqQUh1QUg4b2xkRGw0NnNBQXVNN2MyeGdMLTRR?oc=5",
-          "publishedAt": "2026-10-24T20:58:44+00:00"
-        },
-        {
-          "name": "Connected to India",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaV9BcWVBY0M4amRXbk5JVUZWMTZPVHhjWW16YWtPdkpIZWtNMXVUbV8zNng4R0hIcHRmQWdodzBCOGZETk9RSlBzcWltSjBlel9mUkppOURuZ3lPLW5IRGQ2d1dKcFJTU3FocWhINGc5bEl5NlRTSmV5bklCakdQaTVWT2FVYlB0MERIaUgzYVFOYnhBRjVDUzhvYmZyZDZYTWk4ZlJfMmZfTWg5eEtyZ0oySzRRMGZIRUk4?oc=5",
-          "publishedAt": "2026-10-24T10:08:29+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-24T09:02:38+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-25T06:11:39.901824+00:00",
-      "corroborated": true,
-      "corroboratingSourcesAdded": 1,
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "India and Russia set $100 billion trade goal for 2030",
-      "previousSummary": "Indian Ambassador Vinay Kumar said India and Russia will work to raise bilateral trade to $100 billion by 2030. Prime Minister Narendra Modi and President Vladimir Putin endorsed the goal during their meeting at the BRICS summit in New Delhi, pledging to boost mutual investments and to train Indian specialists for Russian industries.",
-      "previousPublishedAt": "2026-10-24T08:09:16+00:00",
-      "previousSourceCount": 2,
-      "previousImportanceScore": 11.0,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "f4bf18882c0f8f",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Three released without charge after fatal arson attack in Ireland",
-      "publishedAt": "2026-10-24T09:38:28+00:00",
-      "importanceScore": 13.3,
-      "sourceCount": 3,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
-      "summary": "Philip and Kim English and two of their children - nine-year-old Jayden and 12-year-old Callum - died after their home in Birch Avenue, on the outskirts of Waterford was set on fire earlier this month. A man aged in his 20s and a woman in her 30s were previously charged in connection with the attack.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-24T09:38:28+00:00"
-        },
-        {
-          "name": "The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWXpEOTdCVXo3VDZSZHZQMUpuaXBzdXA4eWxuM1VUMEh3TUhkX1labVgwVDhseGc3SEx1WEJYazF4UTctMHlUYnVUZnZLanZQcnBmQ0JXbkthcS13X244Z3BvMnllREJYSHJKWnVVa0lsd0hRWTdsZWlRcE4zMFFKT0haOVg4Ty0wek00OWlrSlJGcE5wTUtuSWpQUjUtbkp5bTNwbVN4SG5YS2VScnZ6TEZWVWhnSl9qVkxRSFFmQTZONUotdndlQ3JtVEpTVFd5LVE?oc=5",
-          "publishedAt": "2026-10-24T09:50:57+00:00"
-        },
-        {
-          "name": "Belfast Telegraph",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNclNEZTdVUnRpd2VZRzlhTlJaLThZc3d5cDNpMV9KYXYtaEgtWlpkeks5ZDFrdTJydkgxMGpabENlM09lSW9vRmRMSTdhdGpnT0x5cmloNXZtY1ExdDNSaXdoN1BsQVJubHVkLXdqdHdxWnJkTEJ5Q3U0NjJfS1dSSjBMczZiT2dpdGdIa3dMS3Y2cjdmTDY0eTZ5MDJ1LVNuc0JhajQtQlhZNzFJWC1iLVVrRUxFaFBvYXUxbGZCcS1KOHl1bm1rYTNIdUI2QnJIWDFUSFR2dTNSdjBSbTgwZ0lZREFGYjVjZHc?oc=5",
-          "publishedAt": "2026-10-24T10:45:08+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-24T09:38:28+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-25T06:11:39.901824+00:00",
-      "corroborated": true,
-      "corroboratingSourcesAdded": 2,
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Three released without charge after fatal arson attack in Ireland",
-      "previousSummary": "Philip and Kim English and two of their children - nine-year-old Jayden and 12-year-old Callum - died after their home in Birch Avenue, on the outskirts of Waterford was set on fire earlier this month. A man aged in his 20s and a woman in her 30s were previously charged in connection with the attack.",
-      "previousPublishedAt": "2026-10-24T09:38:28+00:00",
-      "previousSourceCount": 3,
-      "previousImportanceScore": 13.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "582854707d03e7",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
-      "publishedAt": "2026-10-24T08:24:37+00:00",
-      "importanceScore": 12.8,
-      "sourceCount": 3,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms",
-      "summary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms",
-          "publishedAt": "2026-10-24T08:24:37+00:00"
-        },
-        {
-          "name": "Fortune India",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMF9mcVhKQXQ3MWl0c0cxdWFqbHZCZlBjbC1jNlUwYV9mdFZGVnNpbkJwS0RJU0Z5T3JFd05aRVMxbWp1Mk5XN3FaY21HUkkwUWJaLUo5MXVKVVZNYmp5SmtfMUkwZ3ZNcTZGTFdoVm9hNmVrb1pjNDRCSGN3d0xkM2NKLWptYjZyVURZZUNsTU5tZG12OUJYeVFuR3JaUV9YZURBN1dFNExOaFF2eWh3WWhoTEZncWlPSkhhUHFQdmVuR1hXNVJXZ25zV2xtY0nSAdwBQVVfeXFMTlBINU0yTDZsNzRFaWd3Tmd4N0FvcnRIVklpN3dCSVZhcFFscThMRVdqZ255MzM4UnJkdEFUdGs3ejExWXdYNVBhNU5MSFNTaUd3Y2tJb0ZGNU40VlhFdjZKUlAzNXMtZlFZYlRkU1h6VVpjYzFEX0xBblB6ZlU4VjdOc0Jmc2FlYTVVbEotSzdpSXJxckFnNlJyMUJlVElyRlRZTkdoVWp5QURMOGpXTnBHbHptX0l4bV9UZ2hEanNkS1NFdTBhRVdVVmw2dklVRXB3bWpwbWpqajlLVw?oc=5",
-          "publishedAt": "2026-10-24T08:59:58+00:00"
-        },
-        {
-          "name": "PSU Connect",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcUgzN3dPM29GYXFZNHRkbHRVZHlHbkp5bmpfMGpBcjdwNXQ5a2ZwRDZPcnV3b0M5QTFSZk5DRmxUeWtQdXk3S3p5blkzMnU5UGVOVjMzQlRtZEh0a0NtN0V0OC1pb3M1b09CNVlSU0dsNUthRWs5ekpfdHhUOEczbWM4eFZ1dm5zNUFzdDEwWEk3bmUxRnEyT256OXVfZXo0VXNQZkNpcVB3TnRB?oc=5",
-          "publishedAt": "2026-10-24T08:33:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-24T08:24:37+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-25T06:11:39.901824+00:00",
-      "corroborated": true,
-      "corroboratingSourcesAdded": 2,
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
-      "previousSummary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
-      "previousPublishedAt": "2026-10-24T08:24:37+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.2,
-      "changed": true,
-      "change": "2 additional sources now support this event.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "4870de0a0654df",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "German businesses now see India as manufacturing, R&D and innovation hub: Piyush Goyal",
-      "publishedAt": "2026-10-24T08:09:20+00:00",
-      "importanceScore": 11.5,
-      "sourceCount": 2,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/german-businesses-now-see-india-as-manufacturing-rd-and-innovation-hub-piyush-goyal/articleshow/135165328.cms",
-      "summary": "German companies are increasingly viewing India as a strategic manufacturing and innovation hub for the future. Commerce and Industry Minister Piyush Goyal said German companies are increasingly viewing India as a hub for manufacturing, research and development, and innovation, beyond its traditional role as a consumer market.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/german-businesses-now-see-india-as-manufacturing-rd-and-innovation-hub-piyush-goyal/articleshow/135165328.cms",
-          "publishedAt": "2026-10-24T07:51:23+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-24T08:09:20+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-25T06:11:39.901824+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "German firms view India as manufacturing, R&D and innovation hub, says minister",
-      "previousSummary": "Indian trade minister Piyush Goyal said that German companies now regard India as a hub for manufacturing, research and development, and innovation. The remark was reported by The Economic Times. No further details about specific projects or investment volumes were included in the source.",
-      "previousPublishedAt": "2026-10-24T08:09:20+00:00",
-      "previousSourceCount": 2,
-      "previousImportanceScore": 11.5,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
     {
       "id": "ea6f58412795a9",
       "cat": "AI",
@@ -224,17 +24,17 @@
       "categories": [
         "AI"
       ],
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "title": "Study finds Grok API backs Republicans, OpenAI API backs Democrats",
       "publishedAt": "2026-10-24T15:00:00+00:00",
       "importanceScore": 11.0,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "summary": "A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked the Democrat in 97%. Across nearly 500 races, the two models agreed less than 10% of the time.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
+      "summary": "A Convovo study queried SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol through their developer APIs, asking each model to name a single candidate for upcoming midterm races without hedging. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 % of cases, and the two models agreed on less than 10 % of nearly 500 races. Consumer‑facing apps declined to answer, and OpenAI said the API results do not reflect typical ChatGPT behavior.",
+      "why": "The findings highlight potential partisan bias in AI model APIs, which could influence developers’ products and public trust in automated political advice.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -244,34 +44,34 @@
       ],
       "firstSeen": "2026-10-24T15:00:00+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-25T06:11:39.901824+00:00",
+      "lastChecked": "2026-10-25T11:35:37.489800+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Study finds Grok favors Republicans, OpenAI model favors Democrats in forced‑choice test",
-      "previousSummary": "A Convovo study asked SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol, via their developer APIs, to name a single candidate for upcoming midterm races without hedging. Grok recommended the Republican candidate in 92% of responses, while GPT‑6.1 Sol chose the Democrat in 97%; the two models agreed on less than 10% of nearly 500 races. Consumer‑facing apps for both services refused to answer the same prompt.",
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "previousSummary": "A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked the Democrat in 97%. Across nearly 500 races, the two models agreed less than 10% of the time.",
       "previousPublishedAt": "2026-10-24T15:00:00+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.0,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "previousImportanceScore": 11.0,
+      "changed": true,
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
   "jarvisEditedCount": 1,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-25T01:12:55.664906+00:00",
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-25T06:11:39.901824+00:00",
   "changeSummary": {
     "new": 0,
-    "updated": 3,
-    "continuing": 2
+    "updated": 1,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-22T10:14:17.006925+00:00",
-    "updated": "2026-10-25T06:11:39.901824+00:00",
+    "availableFrom": "2026-10-22T15:20:52.860366+00:00",
+    "updated": "2026-10-25T11:35:37.489800+00:00",
     "snapshotCount": 16,
     "eventCount": 98,
     "retentionHours": 72
