@@ -1,26 +1,15 @@
 {
-  "updated": "2026-10-25T05:19:04.776880+00:00",
+  "updated": "2026-10-25T10:09:05.086712+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "Canada S&P/TSX Composite falls 0.52%",
+      "headline": "S&P/TSX Composite fell 0.52%",
       "direction": "down",
       "move": "S&P/TSX Composite -0.52%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
-      "drivers": [
-        {
-          "label": "Canada shares lower at close of trade; S&P/TSX Composite down 0.52%",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.52%",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        }
-      ],
+      "drivers": [],
       "sectors": [],
       "confidence": "low",
       "primaryIndex": {
@@ -37,21 +26,8 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
-      "sources": [
-        {
-          "name": "Investing.com India",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.52% - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQVFfUGZldkNadENoVW91YzFrd3lIWTg2S2pVV18tWGVKWU1HNkRCRnV1OXR3cTlsN1A5YmRYTWxqTUtDb2QwSmsxdll1ODVjcjZmRVZNUVRWR3QtNTNKZzgtT3ZyX1VaYTJpeTRobWJ5SUlJZjMzTS1wQ05ha25mVTNxTTY2dHNqNEs1WWpIWkl6dEhwNFJ6V0pZUlZJLWJnUXFaekRSMTB0R1dmSExWZzVoYlRFbGJ2TWc?oc=5",
-          "publishedAt": "2026-10-24T08:37:30+00:00"
-        },
-        {
-          "name": "Investing.com",
-          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.52% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWjFwLTNnaFZfUllBVnNZS2daSWE4YmI0SFJfVGFDVVZHUkNJbmVkRlZWSk01Rm5mUlhtdFkyUDNvZmlzSmxGNDZYTlk3U1Z1dTZoUWFTeURZQWZIRlN5V1hYZ3FodXhUZzhEOG1lUHVTTm1fQ1BoVGptY0xSdHd1OFhaTllpR3llcnJxdVlDQnN0bEFZQ3VYNlNvTlMxdm1SQWhQOWxIUHRMMkhuNy1KQS1XblB5Q05uSHlj?oc=5",
-          "publishedAt": "2026-10-24T07:16:35+00:00"
-        }
-      ],
-      "evidenceCount": 2
+      "sources": [],
+      "evidenceCount": 0
     },
     "India": {
       "label": "India",
@@ -96,6 +72,12 @@
       },
       "sources": [
         {
+          "name": "BW Businessworld",
+          "title": "Sensex, Nifty Set For Higher Open As Jio IPO, Oil Prices In Focus - BW Businessworld",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaC1EcUdEOTByQXcyRUtkbzMzWHYzdldQcEJtRk54T2pwQXR6bWMxVGpHVXlCS2RTd0cxRXhkT2R3TlFQdnRwNXRTazl4aGRPOHlJZE0wamppN0dJLTZQNzMxWUl3eTU2RVRDLWpIaTQycWNzd0JpTmFWSEVVUVpOUHpmTHE0UGo1dUtsWldlRFhCREhySVJ1ajlKYXpqbWlJTTgxdGFkMHlFRHM?oc=5",
+          "publishedAt": "2026-10-25T06:14:15+00:00"
+        },
+        {
           "name": "DD News",
           "title": "Sensex snaps 4-day losing streak, rises 473 points as global equities advance - DD News",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFQwZ2xlYVZ1NExxaFd2ZnZFY2JaZmt2MUdvanBCdkNoT0ExNUdHSlpGS09RNFh3R1RiWVNZdUxBZTFUN3NpVXc3NFRhZFVWeWpTdW0xdXZCR3lEaHEydEpab0ExY09fcFRUYjNFdkdDTkZGeEQweGFzWk41dGw1ODZXUkVZUkVUMmU4VGh4SVY0cHdfZDVHQTZxTXp5YWg5Vkhwbw?oc=5",
@@ -108,6 +90,12 @@
           "publishedAt": "2026-10-24T23:00:54+00:00"
         },
         {
+          "name": "The Economic Times",
+          "title": "F&O Talk: Nifty plunged 2% this week. Do charts indicate a bearish picture for coming week? - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPRzdQMlF4ZWJYUE1HUU51SEtHRG9BNGhyNmxBWjNndl81VGVZUnQwZXZLUnkwRFhJcW1nTkh6YXZMQ3FxNGFVOUFBMTNkRXFIdTJ1SVBVVmxfYjQ3MWR4ek1MUG1BSWEwOHZfWW9uQWZ6TXlybm9XTU9LVkJQQmlqLVNpQ2VhOHVHWkNETlVjaVZUTVFjX0NYclZ0cjhnMTZaRGoxZTgyNGR3by1SaTQxaGkxRlMzWUpMbVZ3c2dUc0tFMGdVUWtpVmhvWFZzTmdjTVF6dHNJOFk5aWVta1d6cjFwc3dRQndsS3JMa0sxbXRXQdIB9wFBVV95cUxNLXFuSi0weF9XTFRwR2VaM2doQnlOV1NiaGZBRzY3elUzOVZtaDc1UnNvNTNBRTBhMzB6WFFoaHFSZ3BjMEtaZ0ZFSE9fSHZ0ZlFsOHNCa1N3N1dldXZId1BCSEstVXN0dlFTRFJYTnFGLUh2NkR6dHRRNUI0SEFRajhhaWVPaGNrdjhaNU84WkdkdmE3cVJWQVR0MkcwYWJtaldpWXgwUFFsRUJkdHFPUGw1Xzl5a29yZGRLbUNnd09DeExLLUVFWjZVN0ZsRGstOXpXVm5VMmJtbWkzdlhIS1hCMG1RUllDbUplenN1TFREVExkU0Q0?oc=5",
+          "publishedAt": "2026-10-25T08:14:31+00:00"
+        },
+        {
           "name": "INDIA New England News",
           "title": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2w0OExuLXNXNkItVEJweDJtWkZCQlBkZUQ4LUYtNDlqVVRyQU5WemdBSUhnY3gwWGdza2Z2UXUwUC1MSE9SQzNkenpXR1RIWFpTdHctRE84dDlOWVEtYTNzS1Yzb09fZFlZTG1pMkc0N3lCQ2l3Rl96eFV4QnphVVhWTDVBUnhTSGo1LVgzWHhjbmZobWt0S3d6WQ?oc=5",
@@ -118,18 +106,6 @@
           "title": "Sensex Falls 429 Points, Nifty Slips Below 22,650 After RBI Rate Hike - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMUJWN3liR1RkX0l1RFY0ZjBGSFRVaE1YeHdRQmhIclRXTDR2N285ZUh2Vmx1RUtUaTZEYTdfZk81bGNxOFJzeHRwTFlRZXdxVUM0bUNjcFFtMF9xVmQyWGdpX2F4THZFNmFTZ1l5d3dPQ0hIcm9LYlZuVWpBZzlfX0I4QXF2dVhhd3ZrZlZyRmkxcjJ4LS1EbEZGSDM?oc=5",
           "publishedAt": "2026-10-24T10:56:56+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5",
-          "publishedAt": "2026-10-24T07:45:01+00:00"
-        },
-        {
-          "name": "Goodreturns",
-          "title": "Stock Market Crash: Sensex Plunges 700 Points, Nifty Breaks 23,300 As Crude Tops $100; Why Is Market Falling? - Goodreturns",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV1NKNFNnTlpWcUY3NHplSzZyWWxiUUVUZ09raWFpTkU4QVRwMWZSbmtrTlUwOVBTY3NfeEdKMTJELUFFbkZ1SXBTRXN1aVBheXYwOWU5eUZYbDAwa0JZWmcyR2M0QjhGWUsxYXlrbVhWbDlMV21QcEI4R0psRV9qeXM3Q0hHS2EyeXF3TjlRRTNQRWc5VUYtd3dibXJPYjJ5V1ZBV0R0akVLVzZUczJkcUVqc0hiOFZRN1hsVlU2cWpfQXJaZmZoSkZFQmRSOHdSdFRv?oc=5",
-          "publishedAt": "2026-10-24T22:13:21+00:00"
         }
       ],
       "evidenceCount": 7
