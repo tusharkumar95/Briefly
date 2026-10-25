@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-22T20:09:24.293516+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "4cd65a8627ef20",
-          "cat": "World",
-          "title": "France extends Paris curfew and bans protests in Marseille and Lyon",
-          "summary": "Paris will keep a partial curfew in parts of the city until Monday, while Marseille and Lyon have imposed a total ban on protests for the weekend. The Louvre, Orsay and Picasso museums will be closed on Saturday as authorities anticipate further demonstrations. The measures follow weekend riots and looting that damaged businesses and historic buildings after protests over the cost of living and school conditions.",
-          "why": "The restrictions aim to restore public order and protect cultural sites amid the unrest.",
-          "publishedAt": "2026-10-22T19:25:26+00:00",
-          "firstSeen": "2026-10-22T19:25:26+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "b694d05b4ae55b",
-          "cat": "India",
-          "title": "RBI weighs inflation risks as interest‑rate gap with G7 draws focus, YES Bank forecasts 50 bps hike",
-          "summary": "The RBI is assessing inflation risks as the interest‑rate gap with G7 economies draws attention. Recent GDP data show the Indian economy remains resilient, supported by strong private consumption and exports. YES Bank forecasts a cumulative 50‑basis‑point rate increase by the RBI in the near term.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-22T08:49:00+00:00",
-          "firstSeen": "2026-10-22T08:49:00+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms"
-        },
-        {
-          "id": "0328f8e3bb7e46",
-          "cat": "Indian Markets",
-          "title": "Indian bond yields rise above 7.45% as oil prices hit $112.50 and RBI lifts repo rate",
-          "summary": "On Thursday the benchmark yield on Indian government bonds moved above 7.45%. In the same session crude oil prices climbed to $112.50 a barrel in Asian trading amid geopolitical tensions. The Reserve Bank of India raised its repo rate to 5.50% and signalled that further hikes are possible, prompting heightened inflation concerns.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-22T12:20:06+00:00",
-          "firstSeen": "2026-10-22T12:20:06+00:00",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-tumble-on-oil-surge-rbi-rate-hike-fears/articleshow/135118875.cms"
-        },
-        {
-          "id": "8f2f8c25fcf6bf",
-          "cat": "World",
-          "title": "Premature twins displaced from Yemen village amid Houthi attack",
-          "summary": "Twins Raghad Hassan and her brother Raad were born premature just seven weeks ago. When Houthis reached their village in the Kahboub mountains, their family of seven fled amid bombs, missiles, and drone attacks, walking three days before being given a a lift to Aden.",
-          "why": "Illustrates how the conflict directly endangers civilians, especially vulnerable infants, underscoring the need for humanitarian assistance.",
-          "publishedAt": "2026-10-22T15:56:36+00:00",
-          "firstSeen": "2026-10-22T15:56:36+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "e0887e433f86a8",
-          "cat": "AI",
-          "title": "OpenAI makes Decisions API widely available",
-          "summary": "OpenAI released its Decisions API to all customers, repurposing the ChatGPT Luna model to deliver faster, lower‑cost inference. The API cuts typical response times from one‑to‑three seconds to about 100‑180 ms and adds voice and visual modalities, with latency optimizations targeting inference resources worldwide. The launch follows TypeSafe’s Jev model, which created a market for rapid “super‑classifier” decision systems.",
-          "why": "It provides developers with a quicker, cheaper alternative for decision‑oriented workflows, expanding options beyond traditional LLMs.",
-          "publishedAt": "2026-10-22T19:00:00+00:00",
-          "firstSeen": "2026-10-22T19:00:00+00:00",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
-        },
-        {
-          "id": "bd4ac176abdff7",
-          "cat": "AI",
-          "title": "Canva launches its first AI image generation model, Canva Craft",
-          "summary": "Canva announced the release of Canva Craft, its first image‑generation model built by its research team. The model works in two stages: first it creates a plan that captures spatial relationships, scale, hierarchy and text details, then it generates images up to 2K resolution in about 30 aspect ratios. It is trained on human‑designed templates rather than photographs and allows precise edits without affecting other image parts.",
-          "why": "The launch gives Canva a direct AI‑generated image capability, positioning it to compete with established models from Google, OpenAI, ByteDance and Meta.",
-          "publishedAt": "2026-10-22T19:00:00+00:00",
-          "firstSeen": "2026-10-22T19:00:00+00:00",
-          "importanceScore": 10.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
-        }
-      ]
-    },
-    {
       "at": "2026-10-22T23:24:40.938724+00:00",
       "changeSummary": {
         "new": 3,
@@ -1845,6 +1727,34 @@
           "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss"
         }
       ]
+    },
+    {
+      "at": "2026-10-25T22:35:09.182035+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "7e28f982b25480",
+          "cat": "Indian Markets",
+          "title": "Market cap of eight top‑10 Indian firms falls by Rs 1.55 lakh crore; HDFC Bank, Bajaj Finance lag",
+          "summary": "The Economic Times reports that the market capitalisation of eight of India’s ten largest listed companies fell by roughly Rs 1.55 lakh crore. HDFC Bank and Bajaj Finance were the biggest laggards among the group. The erosion was noted across the large‑cap segment.",
+          "why": "The decline lowers the overall market value of India’s biggest listed firms.",
+          "publishedAt": "2026-10-25T08:27:13+00:00",
+          "firstSeen": "2026-10-25T08:27:13+00:00",
+          "importanceScore": 9.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-firms-erodes-by-rs-1-55-lakh-cr-hdfc-bank-bajaj-fin-biggest-laggards/articleshow/135186713.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -2425,31 +2335,6 @@
       "latestSummary": "Anthropic announced it is establishing a wholly‑owned public‑benefit fund and will allocate 5% of its shares to it. The fund can receive an additional 2% of shares for each 50% increase in Anthropic’s valuation and may make large donations to nonprofits or direct distributions to specific populations. The company also reaffirmed a $200 million commitment to study AI’s impact on employment.",
       "why": "The fund provides a mechanism for Anthropic to allocate resources toward societal‑good projects.",
       "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
-    },
-    "12d077b24ef44e": {
-      "id": "12d077b24ef44e",
-      "firstSeen": "2026-10-18T10:10:35+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-18T20:47:10.012923+00:00",
-          "title": "DIIs increase stake in nine NSE midcap stocks in Q2FY27",
-          "summary": "Shareholding disclosures for the September 2026 quarter show Domestic Institutional Investors raised their holdings in nine NSE mid-cap stocks by more than 200 basis points quarter-on-quarter, according to StockEdge's scan. DII shareholding rose to 34.49% from 27.38%, to 29.52% from 24.86%, to 13.65% from 9.14%, and to 11.24% from 6.95%.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-18T20:47:10.012923+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "DIIs increase stake in nine NSE midcap stocks in Q2FY27",
-      "latestSummary": "Shareholding disclosures for the September 2026 quarter show Domestic Institutional Investors raised their holdings in nine NSE mid-cap stocks by more than 200 basis points quarter-on-quarter, according to StockEdge's scan. DII shareholding rose to 34.49% from 27.38%, to 29.52% from 24.86%, to 13.65% from 9.14%, and to 11.24% from 6.95%.",
-      "why": "Rising DII ownership reflects growing institutional confidence in these mid-cap names.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/diis-increase-stake-in-8-midcap-stocks-in-q2fy27/slideshow/135027062.cms"
     },
     "c05a91cf4ce39b": {
       "id": "c05a91cf4ce39b",
@@ -6091,7 +5976,32 @@
       "latestSummary": "Gabon’s High Communication Authority announced on Saturday that the nationwide ban on social‑media platforms, imposed on 17 February, has been lifted. The ban had been justified by authorities as a response to online content they said was fueling conflict and deepening divisions. During the restriction many users resorted to VPNs to access the sites.",
       "why": "Restoring social‑media access restores a key channel for information, communication and civic engagement.",
       "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss"
+    },
+    "7e28f982b25480": {
+      "id": "7e28f982b25480",
+      "firstSeen": "2026-10-25T08:27:13+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-25T22:35:09.182035+00:00",
+          "title": "Market cap of eight top‑10 Indian firms falls by Rs 1.55 lakh crore; HDFC Bank, Bajaj Finance lag",
+          "summary": "The Economic Times reports that the market capitalisation of eight of India’s ten largest listed companies fell by roughly Rs 1.55 lakh crore. HDFC Bank and Bajaj Finance were the biggest laggards among the group. The erosion was noted across the large‑cap segment.",
+          "importanceScore": 9.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-25T22:35:09.182035+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Market cap of eight top‑10 Indian firms falls by Rs 1.55 lakh crore; HDFC Bank, Bajaj Finance lag",
+      "latestSummary": "The Economic Times reports that the market capitalisation of eight of India’s ten largest listed companies fell by roughly Rs 1.55 lakh crore. HDFC Bank and Bajaj Finance were the biggest laggards among the group. The erosion was noted across the large‑cap segment.",
+      "why": "The decline lowers the overall market value of India’s biggest listed firms.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-firms-erodes-by-rs-1-55-lakh-cr-hdfc-bank-bajaj-fin-biggest-laggards/articleshow/135186713.cms"
     }
   },
-  "updated": "2026-10-25T19:39:43.521031+00:00"
+  "updated": "2026-10-25T22:35:09.182035+00:00"
 }
