@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T14:34:12.334660+00:00",
+  "updated": "2026-10-25T17:51:59.776150+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -34,22 +34,12 @@
       "headline": "Nifty 50 fell 0.39%",
       "direction": "down",
       "move": "Nifty 50 -0.39%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "why": "Same-day market coverage explicitly linked the final move to: Brent Crude Spike Prevents Upside — Key Levels.",
       "drivers": [
         {
-          "label": "Sensex, Nifty Set For Higher Open As Jio IPO, Oil Prices In Focus",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Sensex snaps 4-day losing streak, rises 473 points as global equities advance",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Auto, Oil & Gas Stocks Drive Sensex Higher; Nifty Settles at 7,709",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "Brent Crude Spike Prevents Upside — Key Levels",
+          "detail": "NDTV Profit explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
@@ -82,28 +72,10 @@
       },
       "sources": [
         {
-          "name": "BW Businessworld",
-          "title": "Sensex, Nifty Set For Higher Open As Jio IPO, Oil Prices In Focus - BW Businessworld",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaC1EcUdEOTByQXcyRUtkbzMzWHYzdldQcEJtRk54T2pwQXR6bWMxVGpHVXlCS2RTd0cxRXhkT2R3TlFQdnRwNXRTazl4aGRPOHlJZE0wamppN0dJLTZQNzMxWUl3eTU2RVRDLWpIaTQycWNzd0JpTmFWSEVVUVpOUHpmTHE0UGo1dUtsWldlRFhCREhySVJ1ajlKYXpqbWlJTTgxdGFkMHlFRHM?oc=5",
-          "publishedAt": "2026-10-25T06:14:15+00:00"
-        },
-        {
-          "name": "DD News",
-          "title": "Sensex snaps 4-day losing streak, rises 473 points as global equities advance - DD News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFQwZ2xlYVZ1NExxaFd2ZnZFY2JaZmt2MUdvanBCdkNoT0ExNUdHSlpGS09RNFh3R1RiWVNZdUxBZTFUN3NpVXc3NFRhZFVWeWpTdW0xdXZCR3lEaHEydEpab0ExY09fcFRUYjNFdkdDTkZGeEQweGFzWk41dGw1ODZXUkVZUkVUMmU4VGh4SVY0cHdfZDVHQTZxTXp5YWg5Vkhwbw?oc=5",
-          "publishedAt": "2026-10-25T02:28:56+00:00"
-        },
-        {
           "name": "NDTV Profit",
-          "title": "Auto, Oil & Gas Stocks Drive Sensex Higher; Nifty Settles at 7,709 - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONmFjakNfNEoxY3JVTmp4ai1aUl9DZklkUXhaeUlmb3ZTNW4xVGVjUWN5WkpjWS1zSGVKZWdYQktfQzVKMHF6anN2eWk0ZjdXaktob0tqbF9GSVl6OTJwYlE4d2pJN2h2NWp2dU1Ua0lXS1M3UGZUUVdIS3ZxMzZTNk1OaHYySlVyMmlNeTYtb3ROaE03Wi1GMFNkbzFpV28xMG5faDZ6eF9mWU1tOGc?oc=5",
-          "publishedAt": "2026-10-24T23:00:54+00:00"
-        },
-        {
-          "name": "INDIA New England News",
-          "title": "Sensex Jumps 685 Points, Nifty Reclaims 22,750 Ahead of RBI Policy Decision - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb1RXTG9KWG5fNkd3cFppOEpDOE9pTnBoN292TnNKX2Y2Uzg1Zl9sWjBlUUFEMlFoaTZIUUxKYzRnVnhIejlacWJ4ZzNoRFRMVDZPTEpqdFZVeW1NZlAzMkNUQlZRc1hBSFZGczlnTEx2VDRpUEFaeU9pMVdFeGpkVUxNakl0UDUwTXB6Zy01UHJ3ZXNFWi1RV080X25saE5lUHJodQ?oc=5",
-          "publishedAt": "2026-10-25T09:19:09+00:00"
+          "title": "Trade Setup For Oct. 26: Nifty Support Slips To 22,500 As Brent Crude Spike Prevents Upside — Key Levels - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmF6T0FKS0pBbWpvcGxoajVqbU9oY2hEOHVPUTFYZkZtWDdxRkRQOVZSZGMwV1hLV1F2SmVmQTFza2ZYRDV2cWt2Ul93VlFXN01CSGtNdHprOW9hZlU1T1VRRC1UQmk3Zjh1dTlqemk1Y3E5SlJRaExZOXp6M3JWdjdTSDEyNXZlb3YtbnM1OHppOWFDNkNKMFR2bHZWSG83M2dSbzhwNXdDb1NoOUhMbW1WVjZUcC1wU2VqMzlZSThUbVRpUXV1SDQxRExrMTdWRGZOb3hLdU5BUFZ30gHkAUFVX3lxTE5UUC1CUHZ2QU16SDEzdk9TS3dZT19mZVdQWnktSE9fSTJIOURtc1M1Qm9Gc3VvT2VndHBzZjdhOGdxbmVObDV4ZG1KQU5uMEd1bUxGUVJETFZUWF9lOFh4SGdBWUdJUHBwaHpEbFU4N2RtWWp6UVhMS0t2QkROWGNGblhNcXotLXA0NHNKakl2M2N4UUZOWUFDXzhzbmd3VUpSZC1ldnc4UGwxajMwOEZmVnNJY0pkZXFlSTV2c2V4WlBoazRoaTc3bkFTYTNBcDk0UFFUV1JKaHpraDhLeHN0RlVmbg?oc=5",
+          "publishedAt": "2026-10-25T14:27:24+00:00"
         },
         {
           "name": "The Economic Times",
@@ -112,13 +84,13 @@
           "publishedAt": "2026-10-25T08:14:31+00:00"
         },
         {
-          "name": "Goodreturns",
-          "title": "Stock Market Outlook Today, June 16: Sensex, Nifty Likely to Stay Volatile But Positive Ahead of FOMC Meeting - Goodreturns",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQN296SnBreERQcFJsTWdLVGI3dDQzX0hSVzUwY1o0cVhGU195NW50d25Cd0puV3hpaUE0NU9CcEdtRVRfUURHdDgwaU9hZXlkUFN4R240b1E5alBORS04OGFkclBhOTI0NDU0ZjBBNFlGTDRqa2g2QWtoRXFHOEFweEF5U1A0cTlCdlh4elg5VVU5MjR0XzJPeThzcDh0NjFsaDVoNmlINXBKM2VuWEZBeHBHR0VvVjJSMHR4ZVl2a3RFQmFkTkd4NXVUOGx1cE8xMXNmLUQyTEhzeEpG?oc=5",
-          "publishedAt": "2026-10-25T11:07:12+00:00"
+          "name": "IndiaIPO",
+          "title": "Stock market prediction for Monday Oct 26: Sensex, Nifty levels, top stocks to watch - Will bulls dance again? - IndiaIPO",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaHNMNE94WElpelJxRFNZMmFoS1p0a2lrZUFFa2Vla0JFb2psbEVOSW5HY2pCNjZ5VzBfa1lyem8zRktLVVduZ1hlc1E0aW0yQ0Fxb0ZSUFJZLWlMd3hKZjFqY1VaOTRSNGxpN3QzbVNvaFhoX2Zyc2JueHVtRWRyTkhkalBPZ2M1dWdwU2NFWURyTmFLUjFvV3NybkJiTVpQYy1Fd1dLMlRxRHFZWGNobWpUclFZQ184OGk2eFRqUFBaWF9sT1FiUlJ2SjdpWTZCT1ktVzhNdw?oc=5",
+          "publishedAt": "2026-10-25T14:34:52+00:00"
         }
       ],
-      "evidenceCount": 7
+      "evidenceCount": 3
     }
   }
 }
