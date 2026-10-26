@@ -1,23 +1,35 @@
 {
-  "updated": "2026-10-26T01:43:23.214173+00:00",
+  "updated": "2026-10-26T08:07:36.746869+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX Composite falls 0.5% to 35,788",
+      "headline": "TSX slides to one‑week low as Energy Index Hits Record on $100 Oil",
       "direction": "down",
       "move": "S&P/TSX Composite -0.52%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "why": "The energy sector surged to a record high as oil prices reached $100 per barrel, pulling the broader S&P/TSX Composite down to a one‑week low.",
       "drivers": [
         {
-          "label": "North American Stock Markets Today: S&P 500, Dow Jones, Nasdaq and TSX Rise as SpaceX and ",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "Energy Index Hits Record on $100 Oil",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Energy index record on $100 oil",
+          "detail": "Oil prices hitting $100 per barrel lifted the energy index to a new high, weighing on the overall market.",
+          "kind": "driver"
+        },
+        {
+          "label": "AI trade revival",
+          "detail": "Earlier reports noted gains in AI‑related stocks such as SpaceX and Super Micro, but this did not offset the energy‑driven decline.",
           "kind": "context"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Energy"
+      ],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -37,93 +49,94 @@
           "name": "BBN Times",
           "title": "North American Stock Markets Today: S&P 500, Dow Jones, Nasdaq and TSX Rise as SpaceX and Super Micro Revive the AI Trade - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRkZfaGZBVmExSlUzUVhzQ05YcW9xcnMyckYySnNHTEotOUxxejBDNk1URmlHeU1IenlYTkQzREt2LTItNHdWaFI1ei1ZQ0dtNFd3V1hNa0UwWUZCd2p6bEhoRlV0V3c5NFQ3d0hxeFZneDAxUjhGaE9wLTdPZUppZjBKakhXMnJxbms2Q1ZUeW5CQlo4enJTRFBDM3RPYzFzby1seUJXaERZUldoejl2MjRDNnQ2UzRVem5WRmlPa2oyTzJvMlRKN3lRcDc0OVh3cjEyUVl5NDVtb3cwUGdyVEowcEVzTU90NVpyZm92UQ?oc=5",
-          "publishedAt": "2026-10-25T21:53:06+00:00"
+          "publishedAt": "2026-10-26T04:38:48+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange: S&P/TSX Composite Slides to One-Week Low as Energy Index Hits Record on $100 Oil - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdTRhWlJMZkdpOV9oSmxQcjZFSVgtRnF2OWF0Y3BuZHNkcUV0NWxwNUVXWXY4UWw5bmJWZkQ0YjVIR0xYa01sRzZ2YllxQ2JSdE12Y3lGMnZKZ3JHcUR2ZTlXVkRwQzhwekk3WDl5Z3E2SUZhWXlLZll4X19KZUMyTUNXbXNXTFE3bVQtbnppVmx1aTNxei1mNnBrUS1nazJFZlJJMVl6TnkyU0ZDNU9qT0lYdlJWSHl2WExkSmZfdGE1VkhmNWFRbWE5NnJnUktLR29DN2tsNENYQQ?oc=5",
+          "publishedAt": "2026-10-26T04:03:19+00:00"
         }
       ],
-      "evidenceCount": 1
+      "evidenceCount": 2
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.39%",
-      "direction": "down",
-      "move": "Nifty 50 -0.39%",
-      "why": "Same-day market coverage explicitly linked the final move to: Indian Markets Extend Losses; Brent Crude Spike Prevents Upside — Key Levels.",
+      "headline": "Nifty 50 rose 0.31%",
+      "direction": "up",
+      "move": "Nifty 50 +0.31%",
+      "why": "Same-day market coverage explicitly linked the final move to: Metal Sector Leads Gains; Mixed Mid and Small Cap Performance.",
       "drivers": [
         {
-          "label": "Indian Markets Extend Losses",
-          "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Brent Crude Spike Prevents Upside — Key Levels",
-          "detail": "NDTV Profit explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Metal Sector Leads Gains; Mixed Mid and Small Cap Performance",
+          "detail": "MarketsMojo explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22600.0,
-        "previousClose": 22687.65,
-        "change": -87.65,
-        "changePct": -0.39,
+        "price": 22671.05,
+        "previousClose": 22600.0,
+        "change": 71.05,
+        "changePct": 0.31,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-23T10:01:08+00:00",
+        "asOf": "2026-10-26T08:07:48+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 73123.83,
-        "previousClose": 73249.39,
-        "change": -125.56,
-        "changePct": -0.17,
+        "price": 73285.93,
+        "previousClose": 73123.83,
+        "change": 162.1,
+        "changePct": 0.22,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-23T10:02:36+00:00",
+        "asOf": "2026-10-26T07:52:47+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "INDIA New England News",
-          "title": "Sensex Falls 571 Points, Nifty Closes Below 22,450 as Indian Markets Extend Losses - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMFBiMVEtZ3F3YVNHZTdUbmVkaFVpVXJRQXVrWEhkRDloWE1VMGlfTVJnMWN4NTdCLU1GOUF4TTh0Zktrb0t5T2dRUkVBOEl5cGpLZGI1VS1sUjd1Vy16QmxTbFNLQTVLQ252TkJjSjFSSFRFeFVQUmdKakZzRzlYVmRodDZNN1lDUFhFUm9NSE9XOHJQVTNiR1RBLUd0b3RnMWVfTnhURU1Rb3hhWWc?oc=5",
-          "publishedAt": "2026-10-25T18:27:01+00:00"
+          "name": "MarketsMojo",
+          "title": "Sensex Edges Higher as Metal Sector Leads Gains; Mixed Mid and Small Cap Performance - MarketsMojo",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVEtM2tveWxiYUNZcEVPcFhTOU56alhIS2llSXg1RGtIT24xVlRSMVdJczhGZFNUYk1TT3JCc0M2OG84RVZkNzhGM0s1eHlXQlN6T18xQlZycVFIRWt6NHRIMnI0RDFaTGRlQTRCOTNibXM0ZEhuMGxJQThpTXNBbTdZbDE4eWVCSzlNX2RBdFhfbnFHVU9PVjFUUTM2VFZHblpyRWFEaDlUU3B2Yy05WXIzVHc3ODhGWEZqU2hyTWdQSml0d1lJR0hnczVNV0tTNm5rNERPaUtQUQ?oc=5",
+          "publishedAt": "2026-10-26T05:34:03+00:00"
         },
         {
-          "name": "NDTV Profit",
-          "title": "Trade Setup For Oct. 26: Nifty Support Slips To 22,500 As Brent Crude Spike Prevents Upside — Key Levels - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmF6T0FKS0pBbWpvcGxoajVqbU9oY2hEOHVPUTFYZkZtWDdxRkRQOVZSZGMwV1hLV1F2SmVmQTFza2ZYRDV2cWt2Ul93VlFXN01CSGtNdHprOW9hZlU1T1VRRC1UQmk3Zjh1dTlqemk1Y3E5SlJRaExZOXp6M3JWdjdTSDEyNXZlb3YtbnM1OHppOWFDNkNKMFR2bHZWSG83M2dSbzhwNXdDb1NoOUhMbW1WVjZUcC1wU2VqMzlZSThUbVRpUXV1SDQxRExrMTdWRGZOb3hLdU5BUFZ30gHkAUFVX3lxTE5UUC1CUHZ2QU16SDEzdk9TS3dZT19mZVdQWnktSE9fSTJIOURtc1M1Qm9Gc3VvT2VndHBzZjdhOGdxbmVObDV4ZG1KQU5uMEd1bUxGUVJETFZUWF9lOFh4SGdBWUdJUHBwaHpEbFU4N2RtWWp6UVhMS0t2QkROWGNGblhNcXotLXA0NHNKakl2M2N4UUZOWUFDXzhzbmd3VUpSZC1ldnc4UGwxajMwOEZmVnNJY0pkZXFlSTV2c2V4WlBoazRoaTc3bkFTYTNBcDk0UFFUV1JKaHpraDhLeHN0RlVmbg?oc=5",
-          "publishedAt": "2026-10-25T14:27:24+00:00"
+          "name": "BBN Times",
+          "title": "BSE SENSEX Falls to 73,123.83 as Brent Crude Holds Near $114 Amid US-Iran Negotiations and the Ukraine-Russia War - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTlN6VVRGVkYwMlczMWdPdTRhYXFPUU54UHNFNGRqTU1JdEJORXlyaWtMaGt3eFpmaGFSQ2U1dk01QnZZSjEtNFc5SVpMMUhCUmd3Q214YmJJY3lKeHE3Y2JzNENILTdXNHJFV25UeThSX0RobjdtVGlteDVOczViWW90S3ZMTnFwU0tmSGpxQ2lOUWRsYlJuMnNmLUEtaHRIWTMwcWV2elg5VnpYMjhRYi1WZ0Q4Sjh6bHhSMkpPdzdhZ25wbUw2VXIyUUE1Z3EyZG8wSWpzdXdZVXdtRC15Mg?oc=5",
+          "publishedAt": "2026-10-26T05:08:27+00:00"
         },
         {
-          "name": "BW Businessworld",
-          "title": "Sensex, Nifty Set For Higher Open As Jio IPO, Oil Prices In Focus - BW Businessworld",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaC1EcUdEOTByQXcyRUtkbzMzWHYzdldQcEJtRk54T2pwQXR6bWMxVGpHVXlCS2RTd0cxRXhkT2R3TlFQdnRwNXRTazl4aGRPOHlJZE0wamppN0dJLTZQNzMxWUl3eTU2RVRDLWpIaTQycWNzd0JpTmFWSEVVUVpOUHpmTHE0UGo1dUtsWldlRFhCREhySVJ1ajlKYXpqbWlJTTgxdGFkMHlFRHM?oc=5",
-          "publishedAt": "2026-10-25T06:14:15+00:00"
+          "name": "HDFC Sky",
+          "title": "Sensex, Nifty Fall as Asia Weak, Oil High, Middle East Tense - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZW1XbEFQakNGaVREaGdoZnZZNGwtRHZuWmE2aF9GRTJ4Z2QxaERPbVUtSDJGaHREOWZyeDRJcmUwOHN0MFZGRDNzX05yNWxUWGU2YWdrVThzMW5Eb0VwbHNXZEVVZkUwLWg5b0x1RUVGNVZMWlNJbmh3cEtMQ0pZeTBUeUJ6R1RlZF9uQlcyLVVpaHl6Z0NjUVQ1M1Z5UThUelNLZnhYcmhEOHlCM3h3dDJxYWloUTFPeDJ0Z0RTX3RqRUNLTWx0MWk0Q3hIellpc2pFZ0UycUtQRndSa2hZcldqUDNuM2taN05qV3lxUGRYUVliMlpIczVGQ0U5MEZtRFQyaXlB?oc=5",
+          "publishedAt": "2026-10-26T04:51:24+00:00"
         },
         {
-          "name": "DD News",
-          "title": "Sensex snaps 4-day losing streak, rises 473 points as global equities advance - DD News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFQwZ2xlYVZ1NExxaFd2ZnZFY2JaZmt2MUdvanBCdkNoT0ExNUdHSlpGS09RNFh3R1RiWVNZdUxBZTFUN3NpVXc3NFRhZFVWeWpTdW0xdXZCR3lEaHEydEpab0ExY09fcFRUYjNFdkdDTkZGeEQweGFzWk41dGw1ODZXUkVZUkVUMmU4VGh4SVY0cHdfZDVHQTZxTXp5YWg5Vkhwbw?oc=5",
-          "publishedAt": "2026-10-25T02:28:56+00:00"
+          "name": "Bhaskar English",
+          "title": "Sensex, Nifty shed early jitters & rise: Oil prices cool down; financials lift indices - Bhaskar English",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd1ZjYVlDMEt6eWs5NDlzMTNHdjAzX2tyemF3amlRNXNVRmdWVVAxRHFwUDE4WXRac3lpTldxWUs0UzlldERNLTNBaUpIak5UTmFNWlNaSERiWldjSlRJM21ST1d5ZTVHSXB6b1g2LTZ4d0pybWU2Mlh3bnA0UFItUEFoZ0drcDdidU5BQ210Z3gzLWliMlRnekpDUmNMTnNrOHcwbDNGc2ZWQzNMVUtLNjJZaTBUbGdxcnhrbFktaTNwcU3SAcMBQVVfeXFMTXdWY2FZQzBLenlrOTQ5czEzR3YwM19rcnphd2ppUTVzVUZnVlVQMURxcFAxOFl0WnN5aU5XcVlLNFM5ZXRETS0zQWlKSGpOVE5hTVpTWkhEYlpXY0pUSTNtUk9XeWU1R0lwem9YNi02eHdKcm1lNjJYd25wNFBSLVBBaGdHa3A3YnVOQUNtdGd4My1pYjJUZ3pKQ1JjTE5zazh3MGwzRnNmVkMzTFVLSzYyWWkwVGxncXJ4a2xZLWkzcHFN?oc=5",
+          "publishedAt": "2026-10-26T04:19:41+00:00"
         },
         {
-          "name": "Goodreturns",
-          "title": "Stock Market Outlook Today, September 8: Sensex, Nifty Likely To Remain Under Pressure Amid Geopolitical Risks - Goodreturns",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdzRiMDZDRG9LdEVYOXVUQjVzdVNTaU9DRW5jN3oySTIycFc5emZLcVNzM1hWdDlPTlhiQ1JaWWs1R2d2Q3J6SG9yUHlHT1hucTcyQl9fLU94VmliQjF5S3VDVFA4UENQTHBFRWJMZS1FTFJJdDhzbHRYTk5WUVFNNjA2UWVUNFV3ZXIzNEJ4NzUxQmhUMlVwTEVRQTFISEpWTHBld2pQaURXZUkwandyRjFVaGhDMktMSENGRE1UMzlWWW53TGdZeW5MUFBaVFlSM0drdFhZTTRwZw?oc=5",
-          "publishedAt": "2026-10-25T21:20:40+00:00"
+          "name": "BBN Times",
+          "title": "BSE SENSEX Falls to 73,249.39 for a Third Straight Loss as Brent Tops $111 - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOHh4VjVWVER3VVNmTU5iWG1tMTFTS1VXeHBPVmFSaEhUWWRUcWdHaS1TbW1DWUYzcEc5NlR5UGdpenR2OGcxWW1hOGRZLVd0Tm5jNmxDQ0FpSDN2dkJHbnBQMVU0czFsazZrOFBvaVJzYjNVUm5SUk9EV1FGcE9IMldyTkpocUJ3LXZNbnJ5Rmh2b1hjZHVUX1o1dWRvN0ZCcjRpRWpWMENEMG9uV25HUEtjYw?oc=5",
+          "publishedAt": "2026-10-26T04:02:11+00:00"
         },
         {
-          "name": "Goodreturns",
-          "title": "Stock Market Outlook Today, 15 June 2026: Sensex, Nifty Eye Fresh Highs After US-Iran Peace Deal - Goodreturns",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQR3pELS1tR3FYeHN5emNWcHlqTEpSUUw2TkdKRjdvcGRuVG45SGV6MjlRWkVRZk5OZU1uV2dKc1lSWjVyU2Z4eXU2U1U3dU4weWhCc2w1TVpNTlRXTjBmVDJVT3RwbzluSnBQSWluRzlXMDYtUWNZUzRnd1dPNF81TVpwSEZOU3pVbFhfcTJQTkU0WVY2eDEzR2loWW1YaGR4dFE4RmtSTnpwT3IzZzRrRktMcjZHaEZkRks3ZlVpa3BZTmVTS2RKRHdzQklxWnZOTlc0ajRSeXg3VVdR?oc=5",
-          "publishedAt": "2026-10-25T17:52:55+00:00"
+          "name": "scanx.trade",
+          "title": "Trade Setup for Today: GIFT Nifty Points to Flat Open as Wall Street Stumbles on Dow Decline as of October 26, 2026 - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQlJrNU9XSF9YWnI3TVNEU0gtSXlCQVZYQ1hZWXNhWkhhV2p0MkhRX0h5MTdKYTVWUGsycEVpNGw3MGFjMm9pMnEwQnVoSV9CT0I1ZXhrMjNPREZjak1sZE5qSUVTdnozZ1NSbXBITllUYlB3dDVldWxueERZUFUyNnhmaDNpck5vanN4b3NlT19vcGdEaG9OQVktV1NoV0ZVdWdTOThzUVVWTHVlSlpKSzNVTVYtNUtycGV6YlhBWlNocFlWZXhMUEdaQmFpbTcwY1JIbTExZVN3djdIUFFYZk1YRlBhZlhMVmphaFFJNFZUVEdPNXhaWHRZeXZPVjU4?oc=5",
+          "publishedAt": "2026-10-26T02:59:26+00:00"
         }
       ],
       "evidenceCount": 7
