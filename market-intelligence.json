@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-25T23:32:59.844787+00:00",
+  "updated": "2026-10-26T01:43:23.214173+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls 0.5% with no clear driver identified",
+      "headline": "TSX Composite falls 0.5% to 35,788",
       "direction": "down",
       "move": "S&P/TSX Composite -0.52%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "No explicit driver identified",
-          "detail": "No supplied source links a factor to the TSX decline on 2026-10-23.",
+          "label": "North American Stock Markets Today: S&P 500, Dow Jones, Nasdaq and TSX Rise as SpaceX and ",
+          "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
       ],
@@ -47,7 +47,7 @@
       "headline": "Nifty 50 fell 0.39%",
       "direction": "down",
       "move": "Nifty 50 -0.39%",
-      "why": "Same-day market coverage explicitly linked the final move to: Indian Markets Extend Losses; Brent Crude Spike Prevents Upside — Key Levels; US-Iran tensions weigh on market sentiment.",
+      "why": "Same-day market coverage explicitly linked the final move to: Indian Markets Extend Losses; Brent Crude Spike Prevents Upside — Key Levels.",
       "drivers": [
         {
           "label": "Indian Markets Extend Losses",
@@ -57,16 +57,6 @@
         {
           "label": "Brent Crude Spike Prevents Upside — Key Levels",
           "detail": "NDTV Profit explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "US-Iran tensions weigh on market sentiment",
-          "detail": "DD News explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "global market sell-off",
-          "detail": "DD News explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -119,21 +109,21 @@
         },
         {
           "name": "DD News",
-          "title": "Sensex, Nifty end lower as US-Iran tensions weigh on market sentiment - DD News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaXRFeHNzbUwzaW5RMWVKeFo1anRKamRjMXkxdjduRzFTMXY5VWx6Sm5HMmdnRjBzTzFPUDBQZ0J5RTN5cHVwZG1OMkFJdldaMHdLYlcwZ2JaYmY2M2p3X3lnVTN3V0Y3UVN5U016SFVJM0FsRkY0VkpOMXRxWW8wS3hkNzJMYWladU1PaENrd1hGOG00RzZXV01hMVM?oc=5",
-          "publishedAt": "2026-10-25T02:52:20+00:00"
-        },
-        {
-          "name": "DD News",
-          "title": "Sensex, Nifty slip in early trade amid global market sell-off - DD News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZzRGNnpJbTlRbWxnT3pZTGgya3lYc0VoT3BHSFd6M1B4QllYb00tT0VHSzRkN3lZS3BKWEtrRFhVT2h6VU10TlgyS1JtaHJHeGFMci1fSm5JZ2pYaWF2eGxLLUFvLUJBSnBWMVJBWWZ4S2tFMjItTTkwakhSSHhBQm1Zd2RHeTNlZGJLSHh2WQ?oc=5",
-          "publishedAt": "2026-10-25T02:52:17+00:00"
-        },
-        {
-          "name": "DD News",
           "title": "Sensex snaps 4-day losing streak, rises 473 points as global equities advance - DD News",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFQwZ2xlYVZ1NExxaFd2ZnZFY2JaZmt2MUdvanBCdkNoT0ExNUdHSlpGS09RNFh3R1RiWVNZdUxBZTFUN3NpVXc3NFRhZFVWeWpTdW0xdXZCR3lEaHEydEpab0ExY09fcFRUYjNFdkdDTkZGeEQweGFzWk41dGw1ODZXUkVZUkVUMmU4VGh4SVY0cHdfZDVHQTZxTXp5YWg5Vkhwbw?oc=5",
           "publishedAt": "2026-10-25T02:28:56+00:00"
+        },
+        {
+          "name": "Goodreturns",
+          "title": "Stock Market Outlook Today, September 8: Sensex, Nifty Likely To Remain Under Pressure Amid Geopolitical Risks - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdzRiMDZDRG9LdEVYOXVUQjVzdVNTaU9DRW5jN3oySTIycFc5emZLcVNzM1hWdDlPTlhiQ1JaWWs1R2d2Q3J6SG9yUHlHT1hucTcyQl9fLU94VmliQjF5S3VDVFA4UENQTHBFRWJMZS1FTFJJdDhzbHRYTk5WUVFNNjA2UWVUNFV3ZXIzNEJ4NzUxQmhUMlVwTEVRQTFISEpWTHBld2pQaURXZUkwandyRjFVaGhDMktMSENGRE1UMzlWWW53TGdZeW5MUFBaVFlSM0drdFhZTTRwZw?oc=5",
+          "publishedAt": "2026-10-25T21:20:40+00:00"
+        },
+        {
+          "name": "Goodreturns",
+          "title": "Stock Market Outlook Today, 15 June 2026: Sensex, Nifty Eye Fresh Highs After US-Iran Peace Deal - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQR3pELS1tR3FYeHN5emNWcHlqTEpSUUw2TkdKRjdvcGRuVG45SGV6MjlRWkVRZk5OZU1uV2dKc1lSWjVyU2Z4eXU2U1U3dU4weWhCc2w1TVpNTlRXTjBmVDJVT3RwbzluSnBQSWluRzlXMDYtUWNZUzRnd1dPNF81TVpwSEZOU3pVbFhfcTJQTkU0WVY2eDEzR2loWW1YaGR4dFE4RmtSTnpwT3IzZzRrRktMcjZHaEZkRks3ZlVpa3BZTmVTS2RKRHdzQklxWnZOTlc0ajRSeXg3VVdR?oc=5",
+          "publishedAt": "2026-10-25T17:52:55+00:00"
         }
       ],
       "evidenceCount": 7
