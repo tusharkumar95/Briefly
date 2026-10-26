@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-26T14:18:35.903303+00:00",
+  "updated": "2026-10-26T20:30:52.114920+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 77,
-    "nonNoiseCandidates": 76,
-    "officialOrPrimaryCandidates": 3,
-    "enrichedCandidates": 75,
-    "readableCandidates": 54,
-    "eventClusters": 53,
-    "materialEvents": 28,
-    "selectedEvents": 10,
-    "seededStories": 7,
+    "rawCandidates": 80,
+    "nonNoiseCandidates": 80,
+    "officialOrPrimaryCandidates": 11,
+    "enrichedCandidates": 79,
+    "readableCandidates": 59,
+    "eventClusters": 57,
+    "materialEvents": 24,
+    "selectedEvents": 9,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,13 +24,13 @@
       "categories": [
         "Canada"
       ],
-      "title": "Bank of Canada likely to raise rates as inflation hits 3.1%",
+      "title": "Bank of Canada weighs rate move amid weak growth and rising inflation",
       "publishedAt": "2026-10-26T08:00:00+00:00",
-      "importanceScore": 15.7,
+      "importanceScore": 15.2,
       "sourceCount": 1,
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/business/armstrong-inflation-bank-of-canada-interest-rates-9.7393998?cmp=rss",
-      "summary": "Canada’s inflation rose to 3.1% in the most recent month, while core inflation stayed subdued. The economy is described as weak and the effect of a new round of tariffs remains unclear. Based on these conditions, most major forecasters now expect the Bank of Canada to raise its key overnight lending rate at its upcoming decision.",
+      "summary": "Canada’s economy is described as weak while inflation rose to 3.1 % in the most recent month, with core‑inflation measures remaining subdued. The Bank of Canada will decide on interest‑rate policy on Wednesday; raising rates would further weaken growth, whereas cutting rates could let inflation accelerate. Governor Tiff Macklem was seen at a news conference in Ottawa on June 10, 2026.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "confidence": "high",
       "verified": true,
@@ -43,39 +43,44 @@
         }
       ],
       "firstSeen": "2026-10-26T08:00:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-26T20:30:52.114920+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Bank of Canada likely to raise rates as inflation hits 3.1%",
+      "previousSummary": "Canada’s inflation rose to 3.1% in the most recent month, while core inflation stayed subdued. The economy is described as weak and the effect of a new round of tariffs remains unclear. Based on these conditions, most major forecasters now expect the Bank of Canada to raise its key overnight lending rate at its upcoming decision.",
+      "previousPublishedAt": "2026-10-26T08:00:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 15.7,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "a35ecfb442e93b",
+      "id": "13ed7e296243be",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "US stocks open higher as Anthropic IPO filing draws attention",
-      "publishedAt": "2026-10-26T13:41:32+00:00",
-      "importanceScore": 15.1,
+      "title": "US stocks rise as Anthropic IPO filing lifts AI sentiment, Tesla hits three‑month high",
+      "publishedAt": "2026-10-26T20:17:48+00:00",
+      "importanceScore": 14.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-anthropics-ipo-filing-sharpens-ai-focus/articleshow/135213224.cms",
-      "summary": "On Monday, 26 October 2026, U.S. equity markets opened higher, with the Dow Jones Industrial Average up 0.20% to 52,320.45, the S&P 500 up 0.21% to 7,639.7, and the Nasdaq Composite up 0.28% to 26,026.865. Investor focus was on Anthropic’s IPO filing, which disclosed a 1‑for‑1,000 reverse stock split, trailing‑twelve‑month revenue growth of about 1,200% from late 2025 to late 2026, roughly 250 enterprise customers generating over $10 million in revenue, and $161.2 billion in aggregate rent commitments under Broadcom lease arrangements.",
-      "why": "The filing signals strong investor interest in AI firms and can influence sector sentiment and capital allocation.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-higher-as-anthropic-ipo-filing-revives-ai-optimism-tesla-hits-3-month-high/articleshow/135219329.cms",
+      "summary": "The S&P 500 gained 0.70% to close at 7,677.03, the Nasdaq Composite rose 0.83% to 26,169.38, and the Dow Jones Industrial Average added 0.28% to 52,361.76. Gains were driven by Anthropic’s IPO filing, which revived optimism for AI‑related stocks, while investors also focused on a busy earnings week and the Federal Reserve’s policy decision; Tesla reached a more‑than‑three‑month high.",
+      "why": "The rally reflects renewed confidence in AI companies, supporting broader equity market performance.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-anthropics-ipo-filing-sharpens-ai-focus/articleshow/135213224.cms",
-          "publishedAt": "2026-10-26T13:41:32+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-higher-as-anthropic-ipo-filing-revives-ai-optimism-tesla-hits-3-month-high/articleshow/135219329.cms",
+          "publishedAt": "2026-10-26T20:17:48+00:00"
         },
         {
           "name": "economictimes.indiatimes.com",
@@ -83,49 +88,13 @@
           "publishedAt": "2026-10-26T12:10:42+00:00"
         }
       ],
-      "firstSeen": "2026-10-26T13:41:32+00:00",
+      "firstSeen": "2026-10-26T20:17:48+00:00",
       "status": "New",
-      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "lastChecked": "2026-10-26T20:30:52.114920+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "082836ff202c69",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Trade war with Canada could end ‘pretty soon,’ Trump says during rally",
-      "publishedAt": "2026-10-26T12:20:14+00:00",
-      "importanceScore": 14.8,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12121158/trump-trade-war-end-soon/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Mark Malone October 26, 2026 at 9:57 am Let trump sweat, lose the mid-terms, get impeached and sent to jail…",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12121158/trump-trade-war-end-soon/",
-          "publishedAt": "2026-10-26T12:20:14+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-26T12:20:14+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -139,11 +108,11 @@
       ],
       "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
       "publishedAt": "2026-10-26T14:16:09+00:00",
-      "importanceScore": 14.4,
+      "importanceScore": 13.6,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Brown's vocal coach, rapper Omololu Akinlolu, who joined the attack, was sentenced to four months imprisonment, suspended for 12 months. Judge Tony Baumgartner said Brown's use of the glass bottle to hit the victim twice over the head \"was plainly dangerous\", adding that the violence of the attack was \"intense\".",
+      "summary": "**US singer Chris Brown has avoided jail after striking a man twice in the head with a glass tequila bottle in a London nightclub.** The R&B star was given an eight-month prison sentence, suspended for 12 months, over the attack at private members' club Tape in Mayfair, in the early hours of 19 February 2023. Brown's vocal coach, rapper Omololu Akinlolu, who joined the attack, was sentenced to four months' imprisonment, suspended for 12 months.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "confidence": "low",
       "verified": false,
@@ -156,15 +125,20 @@
         }
       ],
       "firstSeen": "2026-10-26T14:16:09+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-26T20:30:52.114920+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
+      "previousTitle": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+      "previousSummary": "Brown's vocal coach, rapper Omololu Akinlolu, who joined the attack, was sentenced to four months imprisonment, suspended for 12 months. Judge Tony Baumgartner said Brown's use of the glass bottle to hit the victim twice over the head \"was plainly dangerous\", adding that the violence of the attack was \"intense\".",
+      "previousPublishedAt": "2026-10-26T14:16:09+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.4,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "13f7bde1fd628c",
@@ -173,123 +147,92 @@
       "categories": [
         "World"
       ],
-      "title": "Nurse killed, health worker injured in Ebola response attack in north‑eastern DRC",
-      "publishedAt": "2026-10-26T12:57:58+00:00",
-      "importanceScore": 14.0,
+      "title": "Nurse killed in attack while responding to Ebola alert in DR Congo",
+      "publishedAt": "2026-10-26T14:27:32+00:00",
+      "importanceScore": 13.0,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
-      "summary": "A nurse has been killed and another health worker seriously injured when local youths attacked them as they responded to an Ebola alert in north‑eastern Democratic Republic of Congo, accusing them of contaminating water and spreading the virus. The World Health Organization condemned the attack, while neighbouring Uganda banned non‑essential travel to and from the DRC and quarantined returning citizens for 21 days. The outbreak has caused more than 4,800 deaths and nearly 10,000 infections since it began in May.",
+      "summary": "A nurse has been killed and another health worker seriously injured in an attack as they were responding to an Ebola alert in north-eastern Democratic Republic of Congo. More than 4,800 people have died and nearly 10,000 been infected in DR Congo since this outbreak began in May.",
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
           "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-26T12:57:58+00:00"
+          "publishedAt": "2026-10-26T14:27:32+00:00"
         }
       ],
       "firstSeen": "2026-10-26T12:57:58+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-26T20:30:52.114920+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
+      "verificationScope": "source-backed",
+      "previousTitle": "Nurse killed, health worker injured in Ebola response attack in north‑eastern DRC",
+      "previousSummary": "A nurse has been killed and another health worker seriously injured when local youths attacked them as they responded to an Ebola alert in north‑eastern Democratic Republic of Congo, accusing them of contaminating water and spreading the virus. The World Health Organization condemned the attack, while neighbouring Uganda banned non‑essential travel to and from the DRC and quarantined returning citizens for 21 days. The outbreak has caused more than 4,800 deaths and nearly 10,000 infections since it began in May.",
+      "previousPublishedAt": "2026-10-26T12:57:58+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.0,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "81149e52323a82",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "c90620403993d7",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "India"
+        "Indian Markets"
       ],
-      "title": "Brazil’s leader returns, $30 billion trade opportunity cited",
-      "publishedAt": "2026-10-26T09:30:29+00:00",
-      "importanceScore": 11.2,
+      "title": "Anthropic IPO puts AI spending under the spotlight as losses mount",
+      "publishedAt": "2026-10-26T14:13:20+00:00",
+      "importanceScore": 12.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-dear-friend-lula-da-silva-is-back-in-power-in-brazil-and-a-30-billion-trade-opportunity-is-on-the-table/articleshow/135206421.cms",
-      "summary": "The Economic Times headline reports that Brazil’s leader, described as India’s “dear friend,” has returned to power and that this development could create a trade opportunity valued at roughly $30 billion. No further details on sectors, timelines, or negotiations are provided in the source. The article does not elaborate on which industries might benefit.",
-      "why": "It signals a potential boost in India‑Brazil trade relations worth billions.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropic-ipo-rising-costs-risks-rapid-growth-market-ai-frontrunner/articleshow/135213738.cms",
+      "summary": "The organization has impressively generated $16.29 billion in revenue during the first half of 2026. Yet, significant operational losses due to soaring computing costs pose a challenge, along with over $500 billion in cloud computing commitments.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-dear-friend-lula-da-silva-is-back-in-power-in-brazil-and-a-30-billion-trade-opportunity-is-on-the-table/articleshow/135206421.cms",
-          "publishedAt": "2026-10-26T09:30:29+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropic-ipo-rising-costs-risks-rapid-growth-market-ai-frontrunner/articleshow/135213738.cms",
+          "publishedAt": "2026-10-26T14:13:20+00:00"
         }
       ],
-      "firstSeen": "2026-10-26T09:30:29+00:00",
+      "firstSeen": "2026-10-26T14:13:20+00:00",
       "status": "New",
-      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "lastChecked": "2026-10-26T20:30:52.114920+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "0c15fbd24fbc31",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India‑US trade deal moves to fine‑tuning stage, says minister",
-      "publishedAt": "2026-10-26T12:16:45+00:00",
-      "importanceScore": 11.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-enters-fine-tuning-stage-as-most-talks-conclude-says-piyush-goyal/articleshow/135211604.cms",
-      "summary": "Minister Piyush Goyal said the India‑United States trade negotiations have entered a fine‑tuning phase, indicating that most of the talks are concluded. The two sides are now working on detailed adjustments before a final agreement is signed. This step brings the bilateral trade framework closer to completion.",
-      "why": "A penalty of this scale can increase regulatory scrutiny and compliance costs for a major global financial institution.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-enters-fine-tuning-stage-as-most-talks-conclude-says-piyush-goyal/articleshow/135211604.cms",
-          "publishedAt": "2026-10-26T12:16:45+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-26T12:16:45+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 5,
-  "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-25T22:35:09.182035+00:00",
+  "jarvisEditedCount": 2,
+  "finalRejectedCount": 3,
+  "previousUpdated": "2026-10-26T14:18:35.903303+00:00",
   "changeSummary": {
-    "new": 7,
-    "updated": 0,
+    "new": 2,
+    "updated": 3,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-23T19:16:38.389874+00:00",
-    "updated": "2026-10-26T14:18:35.903303+00:00",
+    "availableFrom": "2026-10-23T22:21:20.473309+00:00",
+    "updated": "2026-10-26T20:30:52.114920+00:00",
     "snapshotCount": 15,
-    "eventCount": 96,
+    "eventCount": 95,
     "retentionHours": 72
   }
 }
