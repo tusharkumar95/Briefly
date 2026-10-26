@@ -1,50 +1,271 @@
 {
-  "updated": "2026-10-25T22:35:09.182035+00:00",
+  "updated": "2026-10-26T14:18:35.903303+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 47,
-    "nonNoiseCandidates": 47,
-    "officialOrPrimaryCandidates": 1,
-    "enrichedCandidates": 46,
-    "readableCandidates": 36,
-    "eventClusters": 36,
-    "materialEvents": 14,
-    "selectedEvents": 4,
-    "seededStories": 2,
+    "rawCandidates": 77,
+    "nonNoiseCandidates": 76,
+    "officialOrPrimaryCandidates": 3,
+    "enrichedCandidates": 75,
+    "readableCandidates": 54,
+    "eventClusters": 53,
+    "materialEvents": 28,
+    "selectedEvents": 10,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "7e28f982b25480",
+      "id": "8d9bce52b18a98",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Bank of Canada likely to raise rates as inflation hits 3.1%",
+      "publishedAt": "2026-10-26T08:00:00+00:00",
+      "importanceScore": 15.7,
+      "sourceCount": 1,
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/business/armstrong-inflation-bank-of-canada-interest-rates-9.7393998?cmp=rss",
+      "summary": "Canada’s inflation rose to 3.1% in the most recent month, while core inflation stayed subdued. The economy is described as weak and the effect of a new round of tariffs remains unclear. Based on these conditions, most major forecasters now expect the Bank of Canada to raise its key overnight lending rate at its upcoming decision.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "cbc.ca",
+          "url": "https://www.cbc.ca/news/business/armstrong-inflation-bank-of-canada-interest-rates-9.7393998?cmp=rss",
+          "publishedAt": "2026-10-26T08:00:00+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-26T08:00:00+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "a35ecfb442e93b",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Market cap of eight top‑10 Indian firms falls by Rs 1.55 lakh crore; HDFC Bank, Bajaj Finance lag",
-      "publishedAt": "2026-10-25T08:27:13+00:00",
-      "importanceScore": 9.7,
+      "title": "US stocks open higher as Anthropic IPO filing draws attention",
+      "publishedAt": "2026-10-26T13:41:32+00:00",
+      "importanceScore": 15.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-firms-erodes-by-rs-1-55-lakh-cr-hdfc-bank-bajaj-fin-biggest-laggards/articleshow/135186713.cms",
-      "summary": "The Economic Times reports that the market capitalisation of eight of India’s ten largest listed companies fell by roughly Rs 1.55 lakh crore. HDFC Bank and Bajaj Finance were the biggest laggards among the group. The erosion was noted across the large‑cap segment.",
-      "why": "The decline lowers the overall market value of India’s biggest listed firms.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-anthropics-ipo-filing-sharpens-ai-focus/articleshow/135213224.cms",
+      "summary": "On Monday, 26 October 2026, U.S. equity markets opened higher, with the Dow Jones Industrial Average up 0.20% to 52,320.45, the S&P 500 up 0.21% to 7,639.7, and the Nasdaq Composite up 0.28% to 26,026.865. Investor focus was on Anthropic’s IPO filing, which disclosed a 1‑for‑1,000 reverse stock split, trailing‑twelve‑month revenue growth of about 1,200% from late 2025 to late 2026, roughly 250 enterprise customers generating over $10 million in revenue, and $161.2 billion in aggregate rent commitments under Broadcom lease arrangements.",
+      "why": "The filing signals strong investor interest in AI firms and can influence sector sentiment and capital allocation.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-firms-erodes-by-rs-1-55-lakh-cr-hdfc-bank-bajaj-fin-biggest-laggards/articleshow/135186713.cms",
-          "publishedAt": "2026-10-25T08:27:13+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-anthropics-ipo-filing-sharpens-ai-focus/articleshow/135213224.cms",
+          "publishedAt": "2026-10-26T13:41:32+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-meta-tesla-earnings-fed-rate-decision-treasury-yields-oil-prices-alphabet-microsoft-amazon-coreweave-nebius-news-26th-october-2026/liveblog/135211801.cms",
+          "publishedAt": "2026-10-26T12:10:42+00:00"
         }
       ],
-      "firstSeen": "2026-10-25T08:27:13+00:00",
+      "firstSeen": "2026-10-26T13:41:32+00:00",
       "status": "New",
-      "lastChecked": "2026-10-25T22:35:09.182035+00:00",
+      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "082836ff202c69",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Trade war with Canada could end ‘pretty soon,’ Trump says during rally",
+      "publishedAt": "2026-10-26T12:20:14+00:00",
+      "importanceScore": 14.8,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12121158/trump-trade-war-end-soon/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Mark Malone October 26, 2026 at 9:57 am Let trump sweat, lose the mid-terms, get impeached and sent to jail…",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12121158/trump-trade-war-end-soon/",
+          "publishedAt": "2026-10-26T12:20:14+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-26T12:20:14+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "7a52f7cfd0ab60",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+      "publishedAt": "2026-10-26T14:16:09+00:00",
+      "importanceScore": 14.4,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Brown's vocal coach, rapper Omololu Akinlolu, who joined the attack, was sentenced to four months imprisonment, suspended for 12 months. Judge Tony Baumgartner said Brown's use of the glass bottle to hit the victim twice over the head \"was plainly dangerous\", adding that the violence of the attack was \"intense\".",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-26T14:16:09+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-26T14:16:09+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "13f7bde1fd628c",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Nurse killed, health worker injured in Ebola response attack in north‑eastern DRC",
+      "publishedAt": "2026-10-26T12:57:58+00:00",
+      "importanceScore": 14.0,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
+      "summary": "A nurse has been killed and another health worker seriously injured when local youths attacked them as they responded to an Ebola alert in north‑eastern Democratic Republic of Congo, accusing them of contaminating water and spreading the virus. The World Health Organization condemned the attack, while neighbouring Uganda banned non‑essential travel to and from the DRC and quarantined returning citizens for 21 days. The outbreak has caused more than 4,800 deaths and nearly 10,000 infections since it began in May.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-26T12:57:58+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-26T12:57:58+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "81149e52323a82",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Brazil’s leader returns, $30 billion trade opportunity cited",
+      "publishedAt": "2026-10-26T09:30:29+00:00",
+      "importanceScore": 11.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-dear-friend-lula-da-silva-is-back-in-power-in-brazil-and-a-30-billion-trade-opportunity-is-on-the-table/articleshow/135206421.cms",
+      "summary": "The Economic Times headline reports that Brazil’s leader, described as India’s “dear friend,” has returned to power and that this development could create a trade opportunity valued at roughly $30 billion. No further details on sectors, timelines, or negotiations are provided in the source. The article does not elaborate on which industries might benefit.",
+      "why": "It signals a potential boost in India‑Brazil trade relations worth billions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-dear-friend-lula-da-silva-is-back-in-power-in-brazil-and-a-30-billion-trade-opportunity-is-on-the-table/articleshow/135206421.cms",
+          "publishedAt": "2026-10-26T09:30:29+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-26T09:30:29+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "0c15fbd24fbc31",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India‑US trade deal moves to fine‑tuning stage, says minister",
+      "publishedAt": "2026-10-26T12:16:45+00:00",
+      "importanceScore": 11.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-enters-fine-tuning-stage-as-most-talks-conclude-says-piyush-goyal/articleshow/135211604.cms",
+      "summary": "Minister Piyush Goyal said the India‑United States trade negotiations have entered a fine‑tuning phase, indicating that most of the talks are concluded. The two sides are now working on detailed adjustments before a final agreement is signed. This step brings the bilateral trade framework closer to completion.",
+      "why": "A penalty of this scale can increase regulatory scrutiny and compliance costs for a major global financial institution.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-trade-deal-enters-fine-tuning-stage-as-most-talks-conclude-says-piyush-goyal/articleshow/135211604.cms",
+          "publishedAt": "2026-10-26T12:16:45+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-26T12:16:45+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-26T14:18:35.903303+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -54,21 +275,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 1,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-25T19:39:43.521031+00:00",
+  "jarvisEditedCount": 5,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-25T22:35:09.182035+00:00",
   "changeSummary": {
-    "new": 1,
+    "new": 7,
     "updated": 0,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-22T23:24:40.938724+00:00",
-    "updated": "2026-10-25T22:35:09.182035+00:00",
-    "snapshotCount": 17,
-    "eventCount": 98,
+    "availableFrom": "2026-10-23T19:16:38.389874+00:00",
+    "updated": "2026-10-26T14:18:35.903303+00:00",
+    "snapshotCount": 15,
+    "eventCount": 96,
     "retentionHours": 72
   }
 }
