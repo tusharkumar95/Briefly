@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-27T13:14:31.395664+00:00",
+  "updated": "2026-10-27T18:44:32.006608+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 17,
-    "enrichedCandidates": 79,
-    "readableCandidates": 59,
-    "eventClusters": 54,
-    "materialEvents": 21,
-    "selectedEvents": 8,
-    "seededStories": 5,
+    "officialOrPrimaryCandidates": 14,
+    "enrichedCandidates": 78,
+    "readableCandidates": 61,
+    "eventClusters": 58,
+    "materialEvents": 23,
+    "selectedEvents": 10,
+    "seededStories": 9,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,13 +24,13 @@
       "categories": [
         "India"
       ],
-      "title": "Deutsche Bank sees RBI repo rate at 6.25% by mid‑2027",
+      "title": "Deutsche Bank sees RBI repo rate rising to 6.25% by mid‑2027",
       "publishedAt": "2026-10-27T08:58:23+00:00",
       "importanceScore": 15.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-6-25-by-2027-amid-inflation-risks-deutsche-bank/articleshow/135229287.cms",
-      "summary": "Deutsche Bank expects the Reserve Bank of India to raise its repo rate to 6.25% by mid‑2027. The bank points to persistent inflation, forecasting average CPI inflation of about 6% in late 2026 and easing to 4.7% by FY28. It also projects India’s GDP growth remaining above 7% in FY27 and FY28.",
+      "summary": "The Reserve Bank of India is expected to raise its policy repo rate to 6.25% by mid‑2027, according to Deutsche Bank. The bank cites persistent inflation pressures and strong growth expectations, forecasting CPI inflation around 6% in late 2026 and 4.7% by FY28, and GDP growth above 7% for FY27 and FY28.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -43,8 +43,90 @@
         }
       ],
       "firstSeen": "2026-10-27T08:58:23+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Deutsche Bank sees RBI repo rate at 6.25% by mid‑2027",
+      "previousSummary": "Deutsche Bank expects the Reserve Bank of India to raise its repo rate to 6.25% by mid‑2027. The bank points to persistent inflation, forecasting average CPI inflation of about 6% in late 2026 and easing to 4.7% by FY28. It also projects India’s GDP growth remaining above 7% in FY27 and FY28.",
+      "previousPublishedAt": "2026-10-27T08:58:23+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 15.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "079d2ce7ba34d4",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Western states warn of worsening food security and famine risk in Sudan",
+      "publishedAt": "2026-10-27T15:41:46+00:00",
+      "importanceScore": 13.9,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss",
+      "summary": "The United States and 30 other Western countries issued a joint statement warning of an alarming deterioration in Sudan’s food security as the civil war continues. The World Health Organization estimates more than 33 million Sudanese need assistance, and the conflict has damaged critical infrastructure and disrupted food production. Yusuf Roble of Islamic Relief East Africa said people returning to Omdurman find homes destroyed or looted and have “very little to survive on.”",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-27T15:41:46+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-27T15:41:46+00:00",
       "status": "New",
-      "lastChecked": "2026-10-27T13:14:31.395664+00:00",
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "c0617e31003d4a",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Tata Capital Q2 FY27 net profit jumps 51% to Rs 1,660 crore",
+      "publishedAt": "2026-10-27T15:41:07+00:00",
+      "importanceScore": 13.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-capital-q2-net-profit-rises-51-on-higher-income/articleshow/135239343.cms",
+      "summary": "Tata Capital reported a 51% year‑on‑year rise in second‑quarter FY27 net profit to Rs 1,660 crore, helped by higher interest income and loan growth. Assets under management grew 26% to Rs 3.08 lakh crore and net interest income rose 23%. The firm highlighted floating‑rate loan adjustments and margin improvement as ongoing priorities.",
+      "why": "The earnings surge and asset expansion could boost investor sentiment and support the company’s stock price.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-capital-q2-net-profit-rises-51-on-higher-income/articleshow/135239343.cms",
+          "publishedAt": "2026-10-27T15:41:07+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-capital-q2-results-profit-jumps-51-to-rs-1660-crore-nii-up-23/articleshow/135234003.cms",
+          "publishedAt": "2026-10-27T12:20:40+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-27T15:41:07+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -60,17 +142,17 @@
       "categories": [
         "AI"
       ],
-      "title": "General Compute raises $100 million Series A at $800 million valuation",
+      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
       "publishedAt": "2026-10-27T13:00:00+00:00",
-      "importanceScore": 13.9,
+      "importanceScore": 12.9,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
-      "summary": "General Compute announced a $100 million Series A round led by Blackbird Ventures and Abstract Ventures, bringing its post‑money valuation to about $800 million. The round follows a $100 million annual recurring revenue contract with a large customer and a $400 million chip purchase agreement with SambaNova, and adds supply from Positron and Cerebras. The company builds its AI inference cloud using specialized inference chips and repurposed bitcoin‑mining sites rather than large proprietary data centers.",
-      "why": "The funding gives capital to a niche AI inference‑chip cloud provider as the market questions the sustainability of larger “neocloud” models.",
-      "confidence": "medium",
+      "summary": "A deal with a large customer worth $100 million in annual recurring revenue has paved the way for the company to raise $100 million in Series A funding led by Blackbird Ventures and Abstract Ventures. Valued at $60 million after a May seed round , General Compute is now worth $800 million post-money to its investors.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -79,8 +161,126 @@
         }
       ],
       "firstSeen": "2026-10-27T13:00:00+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "General Compute raises $100 million Series A at $800 million valuation",
+      "previousSummary": "General Compute announced a $100 million Series A round led by Blackbird Ventures and Abstract Ventures, bringing its post‑money valuation to about $800 million. The round follows a $100 million annual recurring revenue contract with a large customer and a $400 million chip purchase agreement with SambaNova, and adds supply from Positron and Cerebras. The company builds its AI inference cloud using specialized inference chips and repurposed bitcoin‑mining sites rather than large proprietary data centers.",
+      "previousPublishedAt": "2026-10-27T13:00:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.9,
+      "changed": true,
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "b81c64d53baab2",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "SBI Life Insurance Q2 Results: Net profit grows 11% YoY to Rs 549 crore",
+      "publishedAt": "2026-10-27T16:31:57+00:00",
+      "importanceScore": 12.8,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sbi-life-insurance-q2-results-net-profit-grows-11-yoy-to-rs-549-crore/articleshow/135240500.cms",
+      "summary": "SBI Life Insurance recorded an 11 percent increase in net profit for the second quarter. The net profit reached Rs 549 crore compared to Rs 495 crore last year.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sbi-life-insurance-q2-results-net-profit-grows-11-yoy-to-rs-549-crore/articleshow/135240500.cms",
+          "publishedAt": "2026-10-27T16:31:57+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/jsw-infrastructure-q2-results-net-profit-falls-11-to-rs-328-crore/articleshow/135236084.cms",
+          "publishedAt": "2026-10-27T13:26:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-27T16:31:57+00:00",
       "status": "New",
-      "lastChecked": "2026-10-27T13:14:31.395664+00:00",
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "90424cb0547925",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Prediction market Kalshi expands safeguards for young traders",
+      "publishedAt": "2026-10-27T17:19:02+00:00",
+      "importanceScore": 11.9,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/prediction-market-kalshi-expands-safeguards-for-young-traders/articleshow/135241699.cms",
+      "summary": "Kalshi is tightening safeguards for traders aged 18 to 20, introducing a $2,500 monthly deposit limit and alerts for users who put a large share of their funds into one trade. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/prediction-market-kalshi-expands-safeguards-for-young-traders/articleshow/135241699.cms",
+          "publishedAt": "2026-10-27T17:19:02+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-27T17:19:02+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "85e013113e4464",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Google DeepMind releases Genie 4 world model in research preview",
+      "publishedAt": "2026-10-27T16:30:57+00:00",
+      "importanceScore": 11.4,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "summary": "Google DeepMind released Genie 4 as a research preview on Tuesday. It generates photorealistic, interactive worlds and adds real-time audio matching the environment, including music and dialogue. Users can edit scenes on the fly—changing weather, camera angle, or adding objects—and the system maintains a consistent simulation for up to two minutes, double its predecessor's limit. Gemini acts as director coordinating visuals while Genie generates them.",
+      "why": "The hybrid model could accelerate AI-driven simulation for robotics and virtual testing.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+          "publishedAt": "2026-10-27T16:30:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-27T16:30:57+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -90,37 +290,37 @@
       "lifecycle": "New"
     },
     {
-      "id": "63205d8e782c95",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "ff95570ae7494a",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "World"
+        "India"
       ],
-      "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
-      "publishedAt": "2026-10-27T02:40:17+00:00",
-      "importanceScore": 12.5,
+      "title": "RBI Governor urges states to ensure quality spending, prudent borrowing",
+      "publishedAt": "2026-10-27T14:52:25+00:00",
+      "importanceScore": 11.3,
       "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Syrian health officials told state media five people, including women, children and an elderly man, were killed in the strike on a village in the southern Daraa province. Jordan said its fighter jets had killed and wounded \"several terrorists\", without giving further details.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-governor-sanjay-malhotra-urges-states-to-ensure-quality-spending-prudent-borrowing/articleshow/135238223.cms",
+      "summary": "RBI Governor Sanjay Malhotra urged Indian state governments to focus on high‑quality spending and to borrow prudently, emphasizing the need to keep debt levels sustainable. The call was reported by The Economic Times.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "low",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-27T02:40:17+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-governor-sanjay-malhotra-urges-states-to-ensure-quality-spending-prudent-borrowing/articleshow/135238223.cms",
+          "publishedAt": "2026-10-27T14:52:25+00:00"
         }
       ],
-      "firstSeen": "2026-10-27T02:40:17+00:00",
+      "firstSeen": "2026-10-27T14:52:25+00:00",
       "status": "New",
-      "lastChecked": "2026-10-27T13:14:31.395664+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -132,17 +332,17 @@
       "categories": [
         "India"
       ],
-      "title": "IMF to India: Let the Rupee Be Your First Line of Defence",
+      "title": "IMF Asia chief urges India to use rupee as first line of defence",
       "publishedAt": "2026-10-27T11:35:35+00:00",
-      "importanceScore": 11.0,
+      "importanceScore": 10.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-to-india-let-the-rupee-be-your-first-line-of-defence-krishna-srinivasan/videoshow/135232807.cms",
-      "summary": "\"Your currency is your first line of defence,\" says Krishna Srinivasan, Director of the IMF's Asia and Pacific Department. And would a Delhi boy who rose to the top of the IMF move abroad if he were starting out today?#rupee #imf #indianeconomy #ai #fii #economictimesWatch the full interview: https://youtu.be/hi1PDpUCUVU",
+      "summary": "In a video preview, Krishna Srinivasan, director of the IMF’s Asia and Pacific Department, told Indian officials that the rupee should serve as the country’s first line of defence. He noted that Asia now drives about 68 % of global growth, warned that interest rates are expected to rise, and pointed to AI‑related risks for coding jobs and the recent pull‑back of foreign investors from Indian markets.",
       "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
-      "confidence": "low",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -151,73 +351,37 @@
         }
       ],
       "firstSeen": "2026-10-27T11:35:35+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-27T13:14:31.395664+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "8be5f021dfeac8",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "RBI steps up liquidity support as tighter cash conditions push up borrowing rates: Report",
-      "publishedAt": "2026-10-27T02:36:22+00:00",
-      "importanceScore": 10.9,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-steps-up-liquidity-support-as-tighter-cash-conditions-push-up-borrowing-rates-report/articleshow/135222948.cms",
-      "summary": "Tightening liquidity in the banking system has pushed up short-term borrowing rates, prompting the Reserve Bank of India (RBI) to inject funds into banks, according to an ICICI Bank report. The report expects the 10-year benchmark bond yield to trade between 7.40% and 7.60% in the near term.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-steps-up-liquidity-support-as-tighter-cash-conditions-push-up-borrowing-rates-report/articleshow/135222948.cms",
-          "publishedAt": "2026-10-27T02:36:22+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-27T02:36:22+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-27T13:14:31.395664+00:00",
+      "lastChecked": "2026-10-27T18:44:32.006608+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "RBI steps up liquidity support as tighter cash conditions push up borrowing rates: Report",
-      "previousSummary": "Tightening liquidity in the banking system has pushed up short-term borrowing rates, prompting the Reserve Bank of India (RBI) to inject funds into banks, according to an ICICI Bank report. The report expects the 10-year benchmark bond yield to trade between 7.40% and 7.60% in the near term.",
-      "previousPublishedAt": "2026-10-27T02:36:22+00:00",
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "IMF to India: Let the Rupee Be Your First Line of Defence",
+      "previousSummary": "\"Your currency is your first line of defence,\" says Krishna Srinivasan, Director of the IMF's Asia and Pacific Department. And would a Delhi boy who rose to the top of the IMF move abroad if he were starting out today?#rupee #imf #indianeconomy #ai #fii #economictimesWatch the full interview: https://youtu.be/hi1PDpUCUVU",
+      "previousPublishedAt": "2026-10-27T11:35:35+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 11.9,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "previousImportanceScore": 11.0,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 6,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-27T06:19:22.152535+00:00",
+  "previousUpdated": "2026-10-27T13:14:31.395664+00:00",
   "changeSummary": {
-    "new": 4,
-    "updated": 0,
+    "new": 6,
+    "updated": 2,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-24T16:36:50.223391+00:00",
-    "updated": "2026-10-27T13:14:31.395664+00:00",
+    "availableFrom": "2026-10-24T19:30:36.027219+00:00",
+    "updated": "2026-10-27T18:44:32.006608+00:00",
     "snapshotCount": 14,
-    "eventCount": 91,
+    "eventCount": 94,
     "retentionHours": 72
   }
 }

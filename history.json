@@ -3,160 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-24T16:36:50.223391+00:00",
-      "changeSummary": {
-        "new": 6,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "b066dc6a0ae9bb",
-          "cat": "World",
-          "title": "White House says Melania Trump helped secure ceasefire in Oleshky",
-          "summary": "The White House announced that US First Lady Melania Trump and a representative worked directly with Russian and Ukrainian leaders to arrange a localized cease‑fire in the Russian‑occupied city of Oleshky, Ukraine. The truce, aimed at evacuating residents and delivering aid, was set to begin on 29 October, with both sides agreeing to stop firing at 01:00 GMT on 27 October. Oleshky has been under Russian control since February 2022 and its residents have faced severe shortages of food, medicine and clean water.",
-          "why": "The cease‑fire could allow humanitarian aid and evacuation for a city on the brink of disaster.",
-          "publishedAt": "2026-10-24T07:17:44+00:00",
-          "firstSeen": "2026-10-24T07:17:44+00:00",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "ea6f58412795a9",
-          "cat": "AI",
-          "title": "Study finds Grok 4.7 favors Republicans, OpenAI’s GPT‑6.1 Sol favors Democrats in forced election prompts",
-          "summary": "A Convovo study queried the developer APIs of SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol with the prompt “Who should I vote for?” for nearly 500 midterm races. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 %, and the models agreed on less than 10 % of races. Consumer‑facing chat apps refused to answer the same prompt, and an OpenAI spokesperson said ChatGPT is designed to remain objective.",
-          "why": "The findings highlight that political bias can emerge in AI models accessed via APIs, which developers may embed in downstream applications.",
-          "publishedAt": "2026-10-24T15:00:00+00:00",
-          "firstSeen": "2026-10-24T15:00:00+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
-        },
-        {
-          "id": "f4bf18882c0f8f",
-          "cat": "World",
-          "title": "Three released without charge after fatal arson attack in Ireland",
-          "summary": "Gardaí said three people arrested over a suspected arson that killed four family members in Waterford have been released without charge. Philip and Kim English and their children, nine-year-old Jayden and 12-year-old Callum, died when their home on Birch Avenue was set on fire earlier this month. A man in his 20s and a woman in her 30s had been previously charged in connection with the attack.",
-          "why": "The release updates the public status of suspects in a high-profile homicide investigation.",
-          "publishedAt": "2026-10-24T09:38:28+00:00",
-          "firstSeen": "2026-10-24T09:38:28+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "4870de0a0654df",
-          "cat": "India",
-          "title": "German businesses now see India as manufacturing, R&D and innovation hub: Piyush Goyal",
-          "summary": "German companies are increasingly viewing India as a strategic manufacturing and innovation hub for the future. Commerce and Industry Minister Piyush Goyal said German companies are increasingly viewing India as a hub for manufacturing, research and development, and innovation, beyond its traditional role as a consumer market.",
-          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-          "publishedAt": "2026-10-24T08:09:20+00:00",
-          "firstSeen": "2026-10-24T08:09:20+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/german-businesses-now-see-india-as-manufacturing-rd-and-innovation-hub-piyush-goyal/articleshow/135165328.cms"
-        },
-        {
-          "id": "582854707d03e7",
-          "cat": "Indian Markets",
-          "title": "Kotak Mahindra Bank Q2 results: Consolidated PAT rises 26% YoY to Rs 5,645 crore; NII up 16%",
-          "summary": "Kotak Mahindra Bank has announced an impressive 26% year-on-year increase in consolidated profit after tax for the second quarter, highlighting strong financial performance. Additionally, net interest income saw a rise of 16% year-on-year, hitting Rs 8,459 crore.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-24T08:24:37+00:00",
-          "firstSeen": "2026-10-24T08:24:37+00:00",
-          "importanceScore": 12.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-consolidated-pat-rises-26-yoy-to-rs-5645-crore-lenders-nii-up-16/articleshow/135165924.cms"
-        },
-        {
-          "id": "bc905986d676d6",
-          "cat": "India",
-          "title": "India and Russia set $100 billion trade goal for 2030",
-          "summary": "Indian Ambassador Vinay Kumar announced that India and Russia will work to raise bilateral trade to $100 billion by 2030. Prime Minister Narendra Modi and President Vladimir Putin discussed the target and plans for greater mutual investment during their meeting at the BRICS summit in New Delhi. India also pledged to train qualified workers to meet Russian industry needs.",
-          "why": "The target signals a deepening of economic ties that could shift trade and investment patterns between the two countries.",
-          "publishedAt": "2026-10-24T09:02:38+00:00",
-          "firstSeen": "2026-10-24T09:02:38+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-russia-aim-for-100-billion-trade-by-2030-as-modi-putin-push-cooperation/articleshow/135164828.cms"
-        },
-        {
-          "id": "171a64b3c19e48",
-          "cat": "World",
-          "title": "Australian MP Helen Haines' condition improves after car attack",
-          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her electorate office in Wangaratta, north‑east Victoria, on a Monday. Authorities say the incident was a deliberate attack; both of her legs were amputated and she was airlifted to Melbourne’s Alfred Hospital in critical condition. Five days later the hospital reported her condition had improved to serious but stable.",
-          "why": "The case highlights concerns about political violence and the safety of elected officials in Australia.",
-          "publishedAt": "2026-10-24T01:55:15+00:00",
-          "firstSeen": "2026-10-24T01:55:15+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "02760f91f3cff7",
-          "cat": "India",
-          "title": "Strong macro fundamentals, policy interventions to anchor eco against global headwinds: RBI bulletin",
-          "summary": "Strong macroeconomic fundamentals continue to support the Indian economy against global inflation and trade tensions. Recent geopolitical frictions have resulted in increased prices and supply chain issues, leading to policy changes.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-24T06:59:04+00:00",
-          "firstSeen": "2026-10-24T06:59:04+00:00",
-          "importanceScore": 10.5,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/strong-macro-fundamentals-policy-interventions-to-anchor-eco-against-global-headwinds-rbi-bulletin/articleshow/135151046.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-24T19:30:36.027219+00:00",
       "changeSummary": {
         "new": 2,
@@ -1365,150 +1211,181 @@
           "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-steps-up-liquidity-support-as-tighter-cash-conditions-push-up-borrowing-rates-report/articleshow/135222948.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "a5654dd6220377": {
-      "id": "a5654dd6220377",
-      "firstSeen": "2026-10-19T18:37:27+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-19T21:05:39.154526+00:00",
-          "title": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-          "summary": "Tenstorrent, a chip startup focused on AI inference, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funds will be used to scale chips for open‑weight AI models and video‑generation workloads.",
-          "importanceScore": 14.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-20T00:22:54.504870+00:00",
-          "title": "Tenstorrent raises $1.5 billion, valuation hits $6.2 billion",
-          "summary": "Tenstorrent, a ten‑year‑old AI inference chip startup, closed a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the money will be used to scale chips for open‑weight AI models and video‑generation workloads.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-20T06:03:58.874622+00:00",
-          "title": "Tenstorrent raises $1.5 billion, valuation hits $6.2 billion",
-          "summary": "Tenstorrent, a chip startup focused on AI inference, completed a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the proceeds will be used to scale chips for open‑weight AI models and video‑generation after Galaxy servers demonstrated the ability to run DeepSeek models.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-20T11:42:18.498699+00:00",
-          "title": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-          "summary": "Tenstorrent, an AI inference chip startup, announced a $1.5 billion financing round that values the company at $6.2 billion, more than double its late‑2024 valuation of $2.6 billion. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. CEO Jim Keller said the funding will be used to scale chips for open‑weight AI models and video generation after Galaxy servers demonstrated DeepSeek model capability.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-20T17:11:45.716518+00:00",
-          "title": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-          "summary": "Tenstorrent, a chip startup focused on inference, raised $1.5 billion in a financing round that valued the company at $6.2 billion, more than double its $2.6 billion valuation in late 2024. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. Proceeds will be used to scale chips for open‑weight AI models and video generation.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-20T17:11:45.716518+00:00",
-      "cat": "AI",
-      "latestTitle": "Tenstorrent raises $1.5 billion, valuation climbs to $6.2 billion",
-      "latestSummary": "Tenstorrent, a chip startup focused on inference, raised $1.5 billion in a financing round that valued the company at $6.2 billion, more than double its $2.6 billion valuation in late 2024. The round was led by Trace Capital and Innovation X, with participation from Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price. Proceeds will be used to scale chips for open‑weight AI models and video generation.",
-      "why": "The funding strengthens competition in AI hardware and supports alternatives to Nvidia’s dominant GPUs.",
-      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
     },
-    "0cb8538f1a0700": {
-      "id": "0cb8538f1a0700",
-      "firstSeen": "2026-10-19T19:26:34+00:00",
-      "snapshots": [
+    {
+      "at": "2026-10-27T18:44:32.006608+00:00",
+      "changeSummary": {
+        "new": 6,
+        "updated": 2,
+        "continuing": 1
+      },
+      "stories": [
         {
-          "at": "2026-10-19T21:05:39.154526+00:00",
-          "title": "RBI tightens scrutiny of overseas investments over $1 billion",
-          "summary": "The Reserve Bank of India has introduced stricter review of overseas direct investments exceeding $1 billion by Indian companies. Banks must now collect and submit detailed information on such investments to the RBI, using a checklist that requires thorough due‑diligence of the investment rationale. The measure is intended to reduce the risk of losses to the companies and the Indian economy.",
-          "importanceScore": 13.5,
+          "id": "57ad0d4f6f5d75",
+          "cat": "India",
+          "title": "Deutsche Bank sees RBI repo rate rising to 6.25% by mid‑2027",
+          "summary": "The Reserve Bank of India is expected to raise its policy repo rate to 6.25% by mid‑2027, according to Deutsche Bank. The bank cites persistent inflation pressures and strong growth expectations, forecasting CPI inflation around 6% in late 2026 and 4.7% by FY28, and GDP growth above 7% for FY27 and FY28.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-27T08:58:23+00:00",
+          "firstSeen": "2026-10-27T08:58:23+00:00",
+          "importanceScore": 15.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-6-25-by-2027-amid-inflation-risks-deutsche-bank/articleshow/135229287.cms"
+        },
+        {
+          "id": "079d2ce7ba34d4",
+          "cat": "World",
+          "title": "Western states warn of worsening food security and famine risk in Sudan",
+          "summary": "The United States and 30 other Western countries issued a joint statement warning of an alarming deterioration in Sudan’s food security as the civil war continues. The World Health Organization estimates more than 33 million Sudanese need assistance, and the conflict has damaged critical infrastructure and disrupted food production. Yusuf Roble of Islamic Relief East Africa said people returning to Omdurman find homes destroyed or looted and have “very little to survive on.”",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-27T15:41:46+00:00",
+          "firstSeen": "2026-10-27T15:41:46+00:00",
+          "importanceScore": 13.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "c0617e31003d4a",
+          "cat": "Indian Markets",
+          "title": "Tata Capital Q2 FY27 net profit jumps 51% to Rs 1,660 crore",
+          "summary": "Tata Capital reported a 51% year‑on‑year rise in second‑quarter FY27 net profit to Rs 1,660 crore, helped by higher interest income and loan growth. Assets under management grew 26% to Rs 3.08 lakh crore and net interest income rose 23%. The firm highlighted floating‑rate loan adjustments and margin improvement as ongoing priorities.",
+          "why": "The earnings surge and asset expansion could boost investor sentiment and support the company’s stock price.",
+          "publishedAt": "2026-10-27T15:41:07+00:00",
+          "firstSeen": "2026-10-27T15:41:07+00:00",
+          "importanceScore": 13.2,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-capital-q2-net-profit-rises-51-on-higher-income/articleshow/135239343.cms"
         },
         {
-          "at": "2026-10-20T00:22:54.504870+00:00",
-          "title": "RBI tightens scrutiny of $1 billion‑plus overseas investments by Indian firms",
-          "summary": "The Reserve Bank of India is implementing stricter scrutiny of large overseas direct investments by Indian companies. Banks must now collect and submit detailed information on each such investment, including a due‑diligence checklist on the investment rationale. The initiative aims to prevent potential losses for the companies and the Indian economy.",
-          "importanceScore": 11.5,
+          "id": "46f91da8b9ae36",
+          "cat": "AI",
+          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+          "summary": "A deal with a large customer worth $100 million in annual recurring revenue has paved the way for the company to raise $100 million in Series A funding led by Blackbird Ventures and Abstract Ventures. Valued at $60 million after a May seed round , General Compute is now worth $800 million post-money to its investors.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-10-27T13:00:00+00:00",
+          "firstSeen": "2026-10-27T13:00:00+00:00",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+        },
+        {
+          "id": "b81c64d53baab2",
+          "cat": "Indian Markets",
+          "title": "SBI Life Insurance Q2 Results: Net profit grows 11% YoY to Rs 549 crore",
+          "summary": "SBI Life Insurance recorded an 11 percent increase in net profit for the second quarter. The net profit reached Rs 549 crore compared to Rs 495 crore last year.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-27T16:31:57+00:00",
+          "firstSeen": "2026-10-27T16:31:57+00:00",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sbi-life-insurance-q2-results-net-profit-grows-11-yoy-to-rs-549-crore/articleshow/135240500.cms"
+        },
+        {
+          "id": "90424cb0547925",
+          "cat": "Indian Markets",
+          "title": "Prediction market Kalshi expands safeguards for young traders",
+          "summary": "Kalshi is tightening safeguards for traders aged 18 to 20, introducing a $2,500 monthly deposit limit and alerts for users who put a large share of their funds into one trade. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-27T17:19:02+00:00",
+          "firstSeen": "2026-10-27T17:19:02+00:00",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/prediction-market-kalshi-expands-safeguards-for-young-traders/articleshow/135241699.cms"
+        },
+        {
+          "id": "85e013113e4464",
+          "cat": "AI",
+          "title": "Google DeepMind releases Genie 4 world model in research preview",
+          "summary": "Google DeepMind released Genie 4 as a research preview on Tuesday. It generates photorealistic, interactive worlds and adds real-time audio matching the environment, including music and dialogue. Users can edit scenes on the fly—changing weather, camera angle, or adding objects—and the system maintains a consistent simulation for up to two minutes, double its predecessor's limit. Gemini acts as director coordinating visuals while Genie generates them.",
+          "why": "The hybrid model could accelerate AI-driven simulation for robotics and virtual testing.",
+          "publishedAt": "2026-10-27T16:30:57+00:00",
+          "firstSeen": "2026-10-27T16:30:57+00:00",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+        },
+        {
+          "id": "ff95570ae7494a",
+          "cat": "India",
+          "title": "RBI Governor urges states to ensure quality spending, prudent borrowing",
+          "summary": "RBI Governor Sanjay Malhotra urged Indian state governments to focus on high‑quality spending and to borrow prudently, emphasizing the need to keep debt levels sustainable. The call was reported by The Economic Times.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-27T14:52:25+00:00",
+          "firstSeen": "2026-10-27T14:52:25+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-governor-sanjay-malhotra-urges-states-to-ensure-quality-spending-prudent-borrowing/articleshow/135238223.cms"
+        },
+        {
+          "id": "087ddd9d3de8bb",
+          "cat": "India",
+          "title": "IMF Asia chief urges India to use rupee as first line of defence",
+          "summary": "In a video preview, Krishna Srinivasan, director of the IMF’s Asia and Pacific Department, told Indian officials that the rupee should serve as the country’s first line of defence. He noted that Asia now drives about 68 % of global growth, warned that interest rates are expected to rise, and pointed to AI‑related risks for coding jobs and the recent pull‑back of foreign investors from Indian markets.",
+          "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
+          "publishedAt": "2026-10-27T11:35:35+00:00",
+          "firstSeen": "2026-10-27T11:35:35+00:00",
+          "importanceScore": 10.0,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Its significance score fell as the evidence changed."
-        },
-        {
-          "at": "2026-10-20T06:03:58.874622+00:00",
-          "title": "RBI tightens review of $1 billion‑plus overseas investments by Indian firms",
-          "summary": "The Reserve Bank of India has instructed banks to gather and submit detailed information on overseas direct investments exceeding $1 billion made by Indian companies. A prescribed checklist requires banks to conduct due‑diligence on the rationale for each investment before reporting it to the RBI. The measure is aimed at preventing losses for the firms and protecting the Indian economy.",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-20T17:11:45.716518+00:00",
-          "title": "RBI tightens scrutiny of large overseas direct investments",
-          "summary": "The Reserve Bank of India has introduced stricter oversight of large overseas direct investments by Indian companies. Banks are now required to collect and submit detailed information on such investments to the RBI and to carry out thorough due‑diligence on the investment rationale. The measure is intended to help prevent potential losses for the companies and for the Indian economy.",
-          "importanceScore": 10.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-to-india-let-the-rupee-be-your-first-line-of-defence-krishna-srinivasan/videoshow/135232807.cms"
         }
-      ],
-      "lastSeen": "2026-10-20T17:11:45.716518+00:00",
-      "cat": "India",
-      "latestTitle": "RBI tightens scrutiny of large overseas direct investments",
-      "latestSummary": "The Reserve Bank of India has introduced stricter oversight of large overseas direct investments by Indian companies. Banks are now required to collect and submit detailed information on such investments to the RBI and to carry out thorough due‑diligence on the investment rationale. The measure is intended to help prevent potential losses for the companies and for the Indian economy.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-scrutiny-of-1-billion-plus-overseas-investments-amid-rupee-pressure/articleshow/135055728.cms"
-    },
+      ]
+    }
+  ],
+  "events": {
     "d708ae59325ecf": {
       "id": "d708ae59325ecf",
       "firstSeen": "2026-10-20T00:48:24+00:00",
@@ -1725,31 +1602,6 @@
       "latestSummary": "The Economic Times published a market‑trading guide that named Federal Bank as one of four stocks recommended for trading on Wednesday. The article provides only the headline and does not disclose the other three stocks or the rationale for the selection.",
       "why": "The recommendation may influence short‑term traders who follow Economic Times stock picks.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-federal-bank-among-4-stock-recommendations-for-wednesday/slideshow/135067773.cms"
-    },
-    "85d9eb1be8cb00": {
-      "id": "85d9eb1be8cb00",
-      "firstSeen": "2026-10-20T17:08:19+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-20T17:11:45.716518+00:00",
-          "title": "‘It wasn’t me’: Ontario man denies killing Tori Dunn in Surrey, B.C. home invasion",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-20T17:11:45.716518+00:00",
-      "cat": "Canada",
-      "latestTitle": "‘It wasn’t me’: Ontario man denies killing Tori Dunn in Surrey, B.C. home invasion",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://globalnews.ca/news/12109502/ontario-man-denies-killing-tori-dunn-surrey-bc-home-invasion/"
     },
     "0cdb4ef3ae33c9": {
       "id": "0cdb4ef3ae33c9",
@@ -4963,12 +4815,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "Deutsche Bank sees RBI repo rate rising to 6.25% by mid‑2027",
+          "summary": "The Reserve Bank of India is expected to raise its policy repo rate to 6.25% by mid‑2027, according to Deutsche Bank. The bank cites persistent inflation pressures and strong growth expectations, forecasting CPI inflation around 6% in late 2026 and 4.7% by FY28, and GDP growth above 7% for FY27 and FY28.",
+          "importanceScore": 15.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-27T13:14:31.395664+00:00",
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
       "cat": "India",
-      "latestTitle": "Deutsche Bank sees RBI repo rate at 6.25% by mid‑2027",
-      "latestSummary": "Deutsche Bank expects the Reserve Bank of India to raise its repo rate to 6.25% by mid‑2027. The bank points to persistent inflation, forecasting average CPI inflation of about 6% in late 2026 and easing to 4.7% by FY28. It also projects India’s GDP growth remaining above 7% in FY27 and FY28.",
+      "latestTitle": "Deutsche Bank sees RBI repo rate rising to 6.25% by mid‑2027",
+      "latestSummary": "The Reserve Bank of India is expected to raise its policy repo rate to 6.25% by mid‑2027, according to Deutsche Bank. The bank cites persistent inflation pressures and strong growth expectations, forecasting CPI inflation around 6% in late 2026 and 4.7% by FY28, and GDP growth above 7% for FY27 and FY28.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-6-25-by-2027-amid-inflation-risks-deutsche-bank/articleshow/135229287.cms"
     },
@@ -4988,13 +4853,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+          "summary": "A deal with a large customer worth $100 million in annual recurring revenue has paved the way for the company to raise $100 million in Series A funding led by Blackbird Ventures and Abstract Ventures. Valued at $60 million after a May seed round , General Compute is now worth $800 million post-money to its investors.",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-27T13:14:31.395664+00:00",
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
       "cat": "AI",
-      "latestTitle": "General Compute raises $100 million Series A at $800 million valuation",
-      "latestSummary": "General Compute announced a $100 million Series A round led by Blackbird Ventures and Abstract Ventures, bringing its post‑money valuation to about $800 million. The round follows a $100 million annual recurring revenue contract with a large customer and a $400 million chip purchase agreement with SambaNova, and adds supply from Positron and Cerebras. The company builds its AI inference cloud using specialized inference chips and repurposed bitcoin‑mining sites rather than large proprietary data centers.",
-      "why": "The funding gives capital to a niche AI inference‑chip cloud provider as the market questions the sustainability of larger “neocloud” models.",
+      "latestTitle": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+      "latestSummary": "A deal with a large customer worth $100 million in annual recurring revenue has paved the way for the company to raise $100 million in Series A funding led by Blackbird Ventures and Abstract Ventures. Valued at $60 million after a May seed round , General Compute is now worth $800 million post-money to its investors.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
     },
     "63205d8e782c95": {
@@ -5038,15 +4916,178 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "IMF Asia chief urges India to use rupee as first line of defence",
+          "summary": "In a video preview, Krishna Srinivasan, director of the IMF’s Asia and Pacific Department, told Indian officials that the rupee should serve as the country’s first line of defence. He noted that Asia now drives about 68 % of global growth, warned that interest rates are expected to rise, and pointed to AI‑related risks for coding jobs and the recent pull‑back of foreign investors from Indian markets.",
+          "importanceScore": 10.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-27T13:14:31.395664+00:00",
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
       "cat": "India",
-      "latestTitle": "IMF to India: Let the Rupee Be Your First Line of Defence",
-      "latestSummary": "\"Your currency is your first line of defence,\" says Krishna Srinivasan, Director of the IMF's Asia and Pacific Department. And would a Delhi boy who rose to the top of the IMF move abroad if he were starting out today?#rupee #imf #indianeconomy #ai #fii #economictimesWatch the full interview: https://youtu.be/hi1PDpUCUVU",
+      "latestTitle": "IMF Asia chief urges India to use rupee as first line of defence",
+      "latestSummary": "In a video preview, Krishna Srinivasan, director of the IMF’s Asia and Pacific Department, told Indian officials that the rupee should serve as the country’s first line of defence. He noted that Asia now drives about 68 % of global growth, warned that interest rates are expected to rise, and pointed to AI‑related risks for coding jobs and the recent pull‑back of foreign investors from Indian markets.",
       "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-to-india-let-the-rupee-be-your-first-line-of-defence-krishna-srinivasan/videoshow/135232807.cms"
+    },
+    "079d2ce7ba34d4": {
+      "id": "079d2ce7ba34d4",
+      "firstSeen": "2026-10-27T15:41:46+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "Western states warn of worsening food security and famine risk in Sudan",
+          "summary": "The United States and 30 other Western countries issued a joint statement warning of an alarming deterioration in Sudan’s food security as the civil war continues. The World Health Organization estimates more than 33 million Sudanese need assistance, and the conflict has damaged critical infrastructure and disrupted food production. Yusuf Roble of Islamic Relief East Africa said people returning to Omdurman find homes destroyed or looted and have “very little to survive on.”",
+          "importanceScore": 13.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
+      "cat": "World",
+      "latestTitle": "Western states warn of worsening food security and famine risk in Sudan",
+      "latestSummary": "The United States and 30 other Western countries issued a joint statement warning of an alarming deterioration in Sudan’s food security as the civil war continues. The World Health Organization estimates more than 33 million Sudanese need assistance, and the conflict has damaged critical infrastructure and disrupted food production. Yusuf Roble of Islamic Relief East Africa said people returning to Omdurman find homes destroyed or looted and have “very little to survive on.”",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss"
+    },
+    "c0617e31003d4a": {
+      "id": "c0617e31003d4a",
+      "firstSeen": "2026-10-27T15:41:07+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "Tata Capital Q2 FY27 net profit jumps 51% to Rs 1,660 crore",
+          "summary": "Tata Capital reported a 51% year‑on‑year rise in second‑quarter FY27 net profit to Rs 1,660 crore, helped by higher interest income and loan growth. Assets under management grew 26% to Rs 3.08 lakh crore and net interest income rose 23%. The firm highlighted floating‑rate loan adjustments and margin improvement as ongoing priorities.",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Tata Capital Q2 FY27 net profit jumps 51% to Rs 1,660 crore",
+      "latestSummary": "Tata Capital reported a 51% year‑on‑year rise in second‑quarter FY27 net profit to Rs 1,660 crore, helped by higher interest income and loan growth. Assets under management grew 26% to Rs 3.08 lakh crore and net interest income rose 23%. The firm highlighted floating‑rate loan adjustments and margin improvement as ongoing priorities.",
+      "why": "The earnings surge and asset expansion could boost investor sentiment and support the company’s stock price.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-capital-q2-net-profit-rises-51-on-higher-income/articleshow/135239343.cms"
+    },
+    "b81c64d53baab2": {
+      "id": "b81c64d53baab2",
+      "firstSeen": "2026-10-27T16:31:57+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "SBI Life Insurance Q2 Results: Net profit grows 11% YoY to Rs 549 crore",
+          "summary": "SBI Life Insurance recorded an 11 percent increase in net profit for the second quarter. The net profit reached Rs 549 crore compared to Rs 495 crore last year.",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "SBI Life Insurance Q2 Results: Net profit grows 11% YoY to Rs 549 crore",
+      "latestSummary": "SBI Life Insurance recorded an 11 percent increase in net profit for the second quarter. The net profit reached Rs 549 crore compared to Rs 495 crore last year.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sbi-life-insurance-q2-results-net-profit-grows-11-yoy-to-rs-549-crore/articleshow/135240500.cms"
+    },
+    "90424cb0547925": {
+      "id": "90424cb0547925",
+      "firstSeen": "2026-10-27T17:19:02+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "Prediction market Kalshi expands safeguards for young traders",
+          "summary": "Kalshi is tightening safeguards for traders aged 18 to 20, introducing a $2,500 monthly deposit limit and alerts for users who put a large share of their funds into one trade. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Prediction market Kalshi expands safeguards for young traders",
+      "latestSummary": "Kalshi is tightening safeguards for traders aged 18 to 20, introducing a $2,500 monthly deposit limit and alerts for users who put a large share of their funds into one trade. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/prediction-market-kalshi-expands-safeguards-for-young-traders/articleshow/135241699.cms"
+    },
+    "85e013113e4464": {
+      "id": "85e013113e4464",
+      "firstSeen": "2026-10-27T16:30:57+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "Google DeepMind releases Genie 4 world model in research preview",
+          "summary": "Google DeepMind released Genie 4 as a research preview on Tuesday. It generates photorealistic, interactive worlds and adds real-time audio matching the environment, including music and dialogue. Users can edit scenes on the fly—changing weather, camera angle, or adding objects—and the system maintains a consistent simulation for up to two minutes, double its predecessor's limit. Gemini acts as director coordinating visuals while Genie generates them.",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
+      "cat": "AI",
+      "latestTitle": "Google DeepMind releases Genie 4 world model in research preview",
+      "latestSummary": "Google DeepMind released Genie 4 as a research preview on Tuesday. It generates photorealistic, interactive worlds and adds real-time audio matching the environment, including music and dialogue. Users can edit scenes on the fly—changing weather, camera angle, or adding objects—and the system maintains a consistent simulation for up to two minutes, double its predecessor's limit. Gemini acts as director coordinating visuals while Genie generates them.",
+      "why": "The hybrid model could accelerate AI-driven simulation for robotics and virtual testing.",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+    },
+    "ff95570ae7494a": {
+      "id": "ff95570ae7494a",
+      "firstSeen": "2026-10-27T14:52:25+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-27T18:44:32.006608+00:00",
+          "title": "RBI Governor urges states to ensure quality spending, prudent borrowing",
+          "summary": "RBI Governor Sanjay Malhotra urged Indian state governments to focus on high‑quality spending and to borrow prudently, emphasizing the need to keep debt levels sustainable. The call was reported by The Economic Times.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-27T18:44:32.006608+00:00",
+      "cat": "India",
+      "latestTitle": "RBI Governor urges states to ensure quality spending, prudent borrowing",
+      "latestSummary": "RBI Governor Sanjay Malhotra urged Indian state governments to focus on high‑quality spending and to borrow prudently, emphasizing the need to keep debt levels sustainable. The call was reported by The Economic Times.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-governor-sanjay-malhotra-urges-states-to-ensure-quality-spending-prudent-borrowing/articleshow/135238223.cms"
     }
   },
-  "updated": "2026-10-27T13:14:31.395664+00:00"
+  "updated": "2026-10-27T18:44:32.006608+00:00"
 }
