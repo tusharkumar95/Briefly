@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-27T18:58:45.902989+00:00",
+  "updated": "2026-10-27T23:12:20.628921+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX rises on British Columbia election win, mining gains and US market rally",
+      "headline": "TSX climbs 0.63% as base metals, technology, financial and mining stocks lead ahead of BoC and Fed meetings",
       "direction": "up",
-      "move": "S&P/TSX Composite +0.54%",
-      "why": "Investor sentiment was boosted by the outcome of the British Columbia election, strong performance in mining stocks, and a broader rally in U.S. equity markets, while traders also watched upcoming central‑bank rate decisions.",
+      "move": "S&P/TSX Composite +0.63%",
+      "why": "Base metals, technology and financial stocks advanced, mining led the rally, and investors’ anticipation of upcoming Bank of Canada and Federal Reserve rate decisions added further support.",
       "drivers": [
         {
-          "label": "investors welcome British Columbia election result",
-          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Base Metals, Technology and Financial Stocks Advance",
+          "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -32,29 +32,50 @@
         }
       ],
       "sectors": [
+        "Base Metals",
+        "Technology",
+        "Financials",
         "Mining"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36139.54,
+        "price": 36171.49,
         "previousClose": 35944.2,
-        "change": 195.34,
-        "changePct": 0.54,
+        "change": 227.29,
+        "changePct": 0.63,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-27T18:58:31+00:00",
+        "asOf": "2026-10-27T20:20:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Reuters",
-          "title": "TSX rises as investors welcome British Columbia election result - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaS1BdGdIUmFzU0ljYWNNT0tlZ1o4T1RXZmJCTGIxVXRVOS1zbFVTYXk0LTE2N0gzcFlTMDFzTGl5VlIxRkFwSU93em5ENzZDTkd5Mk1hV3E4cS1KU1lnV0pEX3diTTJDSk5tUlVraVAyMFpsXzY0d2hxMGIxaEJYMTVjUEFBT0lNQk5oN3FZSDhfUmNodmlVQ1hDMFE1SnlaajdJ?oc=5",
-          "publishedAt": "2026-10-26T20:28:55+00:00"
+          "name": "Investing.com",
+          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.63% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWlY4dHpQS2MxdEZFQkFfTWVHVHhsT1FzNC1ObGpoclZVcmI1REZDOUVwQzM0enJVelUtTGNRakpvV20xMXNzcnNncnBXRUVtQnNtSlhRbjM4dl9EY1lDcHZOM2Frb2VpM0FwWVJZZjBLMFhGQThybTM4SVJZS2VFUzJuS3FZZGJMTFJuTXQ5dzVQNDlNODlsQm5nQjdyd09IaFF3UWR0MFRvS1J4bEZjaDVpNHVtbllmZ0E?oc=5",
+          "publishedAt": "2026-10-27T20:35:33+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.63% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVFE3UThXaEU1ekJqWTBRVXRYQV93dGJUS2lJM1VoeDlmelFqQUtKWE9EZkh1TjJ5QnhCYzlrcnBxYk1WeUQ0dExDcWFseW9McnZzR2Z5SVVBbDJzUWswaE5XZ004c0Z1N09sbVA1MURwZU5uS0dBOUR1RGRaOV9YVHB3ai1lUXZTYVkzenUwRXNoamh6U3Q0dVRHYnVlbDV2T0lDS1NIQkd1dE9zYUF2U1paTXI3UjBC?oc=5",
+          "publishedAt": "2026-10-27T20:30:00+00:00"
+        },
+        {
+          "name": "TradingView",
+          "title": "TSX Rises Ahead of BoC and Fed Meetings - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYVM2cGNRS3JYdy1xbFozS2JIWkpjYXdHMmVKWTNZY0NuYm0yUjQzV0xzUFJ2UHBHNkdXcy1rbVFOSVpWRVBqWXA0RUZrQTBsamdoZ1FlN1NXcnpFVEZoSDdKaVl5bm5nNUJKTWk1aGMyNFc4Q0lsRkxNMzh5VHdSc09XMzJEMk9mWlhja2RBOHBWY3dD?oc=5",
+          "publishedAt": "2026-10-27T20:24:48+00:00"
+        },
+        {
+          "name": "Yahoo Finance",
+          "title": "TSX Closer: The Index Closes Higher as Base Metals, Technology and Financial Stocks Advance - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaF83Q2R3dmhEbUl2cVE4MTNwcTNEY2JSRHJXVGt6N3NuUFVvOVpJUjh1VFdmYVpxMUVpUTh4S2ZxOVJ1Y3ByQllFaW04NWtpSUQ0QU0tMUpoVTNCZWtvYmtBNWp1ZGVXSzcxclN6Rlppa202MW5sNlpUQzAwMzl0YmJWWXdmcXZ4cDNlVU9pLURvQkxhdElfTERXeWw2eTcxRU51VA?oc=5",
+          "publishedAt": "2026-10-27T20:24:45+00:00"
         },
         {
           "name": "Investing.com Canada",
@@ -67,43 +88,44 @@
           "title": "S&P/ TSX Composite rises 155 points as mining leads - ad-hoc-news.de",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQblFjTWhlREt1U3BVVnkzbGNZczRXZnVjMXlGamg4RE9XQllyaWNIallxRXNaSC0tREFhandzNFM1U3FlMEhKYmNELWtKbFB6YVdhZTRWWm1zMDd1eFdublg2Sk1hVWlLQzNFR1dwQkh1OUhWak9qdF9SSFk3QnZyS0FCWFBBa2lQQWVaRnR0d3RoVWVtNlp2V3A3STQ0UGVTNnd3UmZ3dUx5QkNLTllHd3NpclByWkk?oc=5",
           "publishedAt": "2026-10-27T18:00:26+00:00"
-        },
-        {
-          "name": "CTV News",
-          "title": "S&P/TSX composite up more than 100 points, U.S. stock markets also trade higher - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMVQxVFJmT0IyZUpWYkZjN1ZVNnBKUzEyYkhoTC13am9pQ3NHNFBpV2F1Qlg0NUx6OU9VMG1ocjhoVDJCYW40R3lJc05ISnFkN1dDTEozS1MtYkJoYXNjbHF3cml3elJfVUg3OFBxbGZJbXFRbmtqRlFZdDRzd3N5ZTkwUlJ3RlhJLXNNMFB5a0RxM21SZWxES1A5R2kzRk1XYk5aa3FHQWItblN3cW13eTRHYWZRZw?oc=5",
-          "publishedAt": "2026-10-27T15:36:29+00:00"
-        },
-        {
-          "name": "Yahoo Finance Australia",
-          "title": "TSX futures point higher with upcoming Bank of Canada meeting in focus - Yahoo Finance Australia",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMEdiY0FEVk9vNkJqbXlqeGcxalVpaGQ4a3pyYjlvYmQ4dFBpbWp1eWNqY2ludVJ5Y05xbnQ0VkZtY2lCNkNPYkZodkRaNWxtbUdiNHY0N193c3JybV9wRU5JaDF2NTNjWVNsU01OZTdfdEtLTFpfRlk0ZklFVVJZRWRtZjZYYTYxX3c?oc=5",
-          "publishedAt": "2026-10-27T13:00:11+00:00"
-        },
-        {
-          "name": "Kitco",
-          "title": "TSX futures muted as gold weakness offsets oil gains - Kitco",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObUpabGgxRmd5R01zZjV5aGV0bnFmd0c4TFZwckpYcmJ0b3R3UEJtTjdYLWlrUmdkMEVRYUFKMkFkdHNYZGRpYzZ5eC02b211Ry02cTZxdEktakw0bFRCTUdBdlZ2OWJNbDhySXladmdYbklER0x6WE82aEk5YzFWX0RMb01GN0QwdkFqaUszSHVOelp0cTR4NkNtRE9ac3lWMnc?oc=5",
-          "publishedAt": "2026-10-27T11:48:10+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.68%",
+      "headline": "Nifty and Sensex closed roughly flat; modest gains offset by bank/IT weakness and oil-price pressure",
       "direction": "up",
       "move": "Nifty 50 +0.68%",
-      "why": "Same-day market coverage explicitly linked the final move to: of October 27, 2026.",
+      "why": "Bank and IT shares sold off while crude oil remained elevated; investors were cautious ahead of US Fed policy decisions",
       "drivers": [
         {
           "label": "of October 27, 2026",
           "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
+        },
+        {
+          "label": "Bank and IT selling",
+          "detail": "Sources explicitly mention selling in bank and IT stocks contributing to a flat close.",
+          "kind": "context"
+        },
+        {
+          "label": "Elevated crude oil prices",
+          "detail": "Multiple sources cite elevated crude oil prices weighing on sentiment and pressuring the indices.",
+          "kind": "context"
+        },
+        {
+          "label": "Caution ahead of US Fed policy",
+          "detail": "One source frames the session as cautious ahead of US Fed policy, linking it to the flat close.",
+          "kind": "context"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "banking",
+        "information technology",
+        "energy"
+      ],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
