@@ -1,161 +1,154 @@
 {
-  "updated": "2026-10-27T06:50:07.716594+00:00",
+  "updated": "2026-10-27T13:34:31.069210+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 0.44%",
+      "headline": "TSX nudges higher as BC election result, gold gains, oil retreat and Anthropic IPO lift market",
       "direction": "up",
-      "move": "S&P/TSX Composite +0.44%",
-      "why": "Same-day market coverage explicitly linked the final move to: Anthropic’s IPO Filing Revives the AI Trade; BC vote; Falling Oil Prices Ease Inflation Concerns.",
+      "move": "S&P/TSX Composite +0.23%",
+      "why": "Investors were buoyed by the British Columbia election outcome, higher gold prices, lower oil prices and the Anthropic IPO filing, all cited as lifting the TSX.",
       "drivers": [
         {
-          "label": "Anthropic’s IPO Filing Revives the AI Trade",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "investors welcome British Columbia election result",
+          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "BC vote",
-          "detail": "ad-hoc-news.de explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "upcoming Bank of Canada meeting in focus",
+          "detail": "Investing.com explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Falling Oil Prices Ease Inflation Concerns",
-          "detail": "TradingView explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "gold weakness offsets oil gains",
+          "detail": "Kitco explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Base Metals, Financial Stocks Gain",
-          "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "gold gains, oil retreats ahead of Bank of Canada decision",
+          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "medium",
+      "sectors": [
+        "Materials",
+        "Energy",
+        "Technology"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35944.2,
-        "previousClose": 35788.2,
-        "change": 156.0,
-        "changePct": 0.44,
+        "price": 36027.05,
+        "previousClose": 35944.2,
+        "change": 82.85,
+        "changePct": 0.23,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-26T20:20:01+00:00",
+        "asOf": "2026-10-27T13:34:16+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "Reuters",
+          "title": "TSX rises as investors welcome British Columbia election result - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaS1BdGdIUmFzU0ljYWNNT0tlZ1o4T1RXZmJCTGIxVXRVOS1zbFVTYXk0LTE2N0gzcFlTMDFzTGl5VlIxRkFwSU93em5ENzZDTkd5Mk1hV3E4cS1KU1lnV0pEX3diTTJDSk5tUlVraVAyMFpsXzY0d2hxMGIxaEJYMTVjUEFBT0lNQk5oN3FZSDhfUmNodmlVQ1hDMFE1SnlaajdJ?oc=5",
+          "publishedAt": "2026-10-26T20:28:55+00:00"
+        },
+        {
           "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.44% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYk4yWkVDYjlGM0ktdlp0cDg5VnBsalNUbWlVdWUxWkhuazRPRUphQjBVZDdXVkNKUHZ4aVA2a1ctblFoTXR2M19Fb1A0aDV3UWswOTdBTVhIdG0xbjFtSmlJNzVnMjZvYzNicDdJYURwMWZGZXE3cDFZeHVyZW5WUGRkU2czNWZhcllhdF96Tk11VEE2QmZtN3NoUE10bnh5NmdiSFlfSzNNTEk5dTlpWnREOEdHc2V1dUE?oc=5",
-          "publishedAt": "2026-10-27T02:18:49+00:00"
+          "title": "TSX futures point higher with upcoming Bank of Canada meeting in focus - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSUdRR3hZalZjWS1MUGdBbDR6Uy1WaTNmOFN2SUlhbW1IRmxiVm9XTDJQcmNoU1ZNdnlPX3BpaVhXS0FQWmNBdURJblN5dFJqWDFtSGNCMUZ1ODhIUURXb3JlN2JUa3lHVlU4Q3ZqRldFbzVfV1VWMlVjVmtPLUdEdGJsLXVFUEdqNGRLQkVCWEc4WWpqV1FyTnplMU1WUXdGdFRMVVpLdkZ4NnpOUWNPWi10S2VmbGJ3VThOWTczOXBGenpqMVE?oc=5",
+          "publishedAt": "2026-10-27T12:36:16+00:00"
+        },
+        {
+          "name": "Kitco",
+          "title": "TSX futures muted as gold weakness offsets oil gains - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObUpabGgxRmd5R01zZjV5aGV0bnFmd0c4TFZwckpYcmJ0b3R3UEJtTjdYLWlrUmdkMEVRYUFKMkFkdHNYZGRpYzZ5eC02b211Ry02cTZxdEktakw0bFRCTUdBdlZ2OWJNbDhySXladmdYbklER0x6WE82aEk5YzFWX0RMb01GN0QwdkFqaUszSHVOelp0cTR4NkNtRE9ac3lWMnc?oc=5",
+          "publishedAt": "2026-10-27T11:48:10+00:00"
+        },
+        {
+          "name": "Investing.com Canada",
+          "title": "TSX ends higher as gold gains, oil retreats ahead of Bank of Canada decision - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzZMWEVEcENPRW1GdnhwdGdzeFBUSExGdHdpTzlWUWFuYjRPUVlhZ0U3ZmtkWnZtOVdFeVdwTkk1WjdDRVNzREJIVG9LcjdTVVBTWjRtdzIyUXFjRFZEdk5RMnR2Y24wUUQ4T2tpNnZWeWVmcURHd3J6TTJReW4zOUdvMF9XMzRPLUJnb2F1MUNKTTBCSTRCMXg2UkxYRjB1NHpFNEI2TTY1Vl8zRnZDUE5KVndfZU5LeDlpVFgwaGlhTWVHNnBYcmtPcXVKS2JLUWRn?oc=5",
+          "publishedAt": "2026-10-26T23:57:03+00:00"
         },
         {
           "name": "BBN Times",
           "title": "Nasdaq, S&P 500, Dow Jones and TSX Rise as Anthropic’s IPO Filing Revives the AI Trade - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV2pweGtfWUpMYldMWTZPWHFkNXBTaWV1eGZmbG94R2NEYUh2Nmxsc1RFRjVPSW1CQWlUOWR6cTFRRWtUV0NqWmxKMko4cFRrZXQ0Z3FYUnAyVVBpSmh3TndldFBMTlFXQ2ZVcGgyX2FRaXJpdkNIYmF5ZGNOaGlvbk9nNlUtcXV5eHZINURFS0ZKeDMtY19BczV3UE5Pb1pHRjVJdjUzODNLX3M4OHF5ZnBoYk9CcHdWUVA0?oc=5",
-          "publishedAt": "2026-10-26T23:53:13+00:00"
+          "publishedAt": "2026-10-26T23:53:16+00:00"
         },
         {
           "name": "ad-hoc-news.de",
           "title": "S&P/ TSX Composite closes 0.4 percent higher after BC vote - ad-hoc-news.de",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdlh6aTE1TGNZSkpxQzNiNWRvekR0bjF1eEFyb1QxWG1VV1lfYWtZOHk5M2xoOHhoSEhHazZzazNWcGVPcE1ORXdvTlk1RTR0SWxIaDRQTlJBNklPSzdrdjZwYWJRZG1jUGtTcm9MbXNMeFJEYzdwczNUUU5qYlluOVZvamgtUm9aeTFaRG9INU9SakZpcjY3ZWFjd3B3VElFSXFhZEd5eUNtMkpUMmxDejdkdVNDeElTX3MtOHVhbjc?oc=5",
           "publishedAt": "2026-10-26T21:48:00+00:00"
-        },
-        {
-          "name": "Investing.com UK",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.44% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNblFQUjl6QU5JYmtlSkpsOVlYalVHUDhCQ25vSHE1cUhuOFRReUdjMTROeVRYSFN0aXZCNDBXSlNLVE82bUgxdF9BaGo0aEYyWnNFUEtSeURSNmJaVzBEd1JSTHpyb2tKU0NGdy1WN2VVX0g0RHhyV1NVeGhMS0VjcDQyVmlFejRCSW9WaW5weWpoYWxTT2hMSmdUc0RuWE5XSG5WUFRVZkctMFVaR0ppdFNUbmJ6UWxE?oc=5",
-          "publishedAt": "2026-10-26T20:30:00+00:00"
-        },
-        {
-          "name": "TradingView",
-          "title": "TSX Rises as Falling Oil Prices Ease Inflation Concerns - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU2FVQWE2NnRlWmJMeW9zUlVMOHRKRG9ucjFqRDFLR0t2dkVsSko2Y3pxajJ5V3IzS0RYOXJjb2NHN3MwVEVzMEtRbE1RUjA4NWxJc1JaZEM5UGJtdDVmaURyblFMSTJ6WWhaZnpjN2ZFVDc2VGdlR0VYQmlMc1BiTVlGOW55NzlHTm5vVjBPRFdHa3RlRDNIRzJ1ZC04cllSOVpuRTJ2OVljUQ?oc=5",
-          "publishedAt": "2026-10-26T20:25:01+00:00"
-        },
-        {
-          "name": "Yahoo! Finance Canada",
-          "title": "TSX Closer: The Index Closes Higher as Base Metals, Financial Stocks Gain - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGloSTlEOWgwRlRFMklhaGR2YmZoYXdtRWdaOHNOeVd6QmVMc0VSNVNIaDRtR0J2VU05NW9iNG5FN3VMZ3BqYlhPWllYTWhmVHRncWEyTFFYSkZIRzNveV9GUi1YU2psV2hubE5tRERiUDZkTW5FTGdXZE1kVTlmd1BXbGJrdw?oc=5",
-          "publishedAt": "2026-10-26T20:19:14+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 was little changed 0.00%",
+      "headline": "Nifty 50 was little changed 0.02%",
       "direction": "flat",
-      "move": "Nifty 50 +0.00%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "move": "Nifty 50 -0.02%",
+      "why": "Same-day market coverage explicitly linked the final move to: selling in bank & IT stocks, elevated crude oil prices; pressure from high crude prices and caution ahead of US Fed policy.",
       "drivers": [
         {
-          "label": "Stock Market Update: Nifty 50 Opened 44.4 points Lower at 22,708, Sensex Fell 122 points A",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "selling in bank & IT stocks, elevated crude oil prices",
+          "detail": "ThePrint explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "India VIX Slips to 16.92 as Sensex, Nifty Open Lower Today",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Trade Setup for Today: Nikkei Surge and Wall Street Gains Signal Positive Start; GIFT Nift",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "pressure from high crude prices and caution ahead of US Fed policy",
+          "detail": "The Tribune explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22754.25,
+        "price": 22749.75,
         "previousClose": 22753.2,
-        "change": 1.05,
-        "changePct": 0.0,
+        "change": -3.45,
+        "changePct": -0.02,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-27T06:50:15+00:00",
+        "asOf": "2026-10-27T10:01:21+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 73576.76,
+        "price": 73598.67,
         "previousClose": 73606.75,
-        "change": -29.99,
-        "changePct": -0.04,
+        "change": -8.08,
+        "changePct": -0.01,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-27T06:35:14+00:00",
+        "asOf": "2026-10-27T10:02:28+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "Analytics Insight",
-          "title": "Stock Market Update: Nifty 50 Opened 44.4 points Lower at 22,708, Sensex Fell 122 points Amid Elevated Oil Prices - Analytics Insight",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQVFkaVJhemRMWGZDdEwxQ2F1cWRhZTU0MlNOT0lTV1BmSEQyTVRnR00tUEE5QVYxN2VIdEllZlZBUHZXUmxyYVlmRGp1NGhNVEd6Tzh1UzlHSzNqUFFHVm04MVRpYUxRS0JRNmRBWHRPd2VUZzllY1MyMndxcUNuVnpuZ3MtVVNUQ3BCSGlnT01DOUZ3VDhRV3ZMTExPWl9pcXF2Vy1mbHI5Yl9ZMXVHaTctcUxCeTJOTWdxWmxFbWJsVnp0ZDBZeUVFc0JrSEFjaUdIS3hQY3dOQVZJVnlSUTdJa9IB8AFBVV95cUxNeS1Tbzllb1MtcG45U0VGT0RIRThVdm56YURTcE9pbHpDS2ZaSHdRbnM1ZG1TamJHTnhyNXJ4Z1ZuUkR4YnNqM0lqN1ZqOUpLVTdMcDMybTJhRHg0dEVNclNVTnhfNUNneGV3LVlQdURUUlNPVHdJM25Qb1loSlhJdFJnVTJ0ZTU0aWxWbkl6cnZrMlZwcnVfZFVJblFCMGgyWkxoUUpNdGFPQVdKYUZHd3FTdnc3UEhYNjdTMFVDVUx1QjNOaTFGd3RPZENvOUhKR2FDcmh3blBxeW1CcHpkeExaTm5BWWs0ZDNpTGpxTFE?oc=5",
-          "publishedAt": "2026-10-27T05:01:04+00:00"
+          "name": "ThePrint",
+          "title": "Sensex, Nifty close largely unchanged amid selling in bank & IT stocks, elevated crude oil prices - ThePrint",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWnlyMndiWDZqaElUeDRLM2lHMHhXZU1Ub3h1VGZTY2lxVXk1alFQdVIzMjNQMk9ybzlSdnlZZG10UzJuVUlINnZkcWM0TWpDdnFEVG5ERUN0aW03Yk41WWhBYzZWbkhHMnVVX1o5WHkxWVNkd2xYYW9RS0xzUWZvdFFnWDk2Y0QzeVB3ejU4WkR5U1lPUWpoVGdrMFU5VmdsQlBSR3VYZWt2LWRLVzliUlN3ZWRXNmtlQU5XUGJjMGJWY0NmakpSbjZB0gHPAUFVX3lxTE1jcnV6YkVCS2JIZDM2WE4ydm5kSE1FTEozSlhLZm16Tkg5a2lkS0IzVW53MU4ySUhUUTZnaTV1SDVtcDBoQ2RkWjd0VDVUN3JVa2xRVTV5ZXJwMkUyenJwd2sxUkotQkFFOFpGdV9KdmNJWEp4UkFFWVMwTWh4VjBVY3BFUnJGaGNLY2NZR09pWlNqOUllY1hQMl9WLWI1ZlBaeEs0UG9FeHM3cnhKaFZHV0F4eGZYQTRxdm5VMzBIWU01UHhHMmJNSmpYMUt5RQ?oc=5",
+          "publishedAt": "2026-10-27T11:45:41+00:00"
         },
         {
-          "name": "HDFC Sky",
-          "title": "India VIX Slips to 16.92 as Sensex, Nifty Open Lower Today - HDFC Sky",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNei1wMUthNjQ4NHdua1NBeE1EQnRtUHRQU3hJYjMxXy1zTlhWRWxnS2JDdGNaZ2dtME9McGluelNrTWV6UC1zdGQ2c3F2R3JxNmhUTlp5a3VMSk9rREtJQmRUaFBUTk9HTlV0RkpsbnozejNSTlBfZjdYRFZWOW56TEpyaDhYNVNZcXozaGd0QUEyREREYWRKV0ZNczNDNzlmU0lxSVlJOW9NaWhyeFM5TVZ1Sm9TRFQ2OWxN?oc=5",
-          "publishedAt": "2026-10-27T04:50:31+00:00"
-        },
-        {
-          "name": "scanx.trade",
-          "title": "Trade Setup for Today: Nikkei Surge and Wall Street Gains Signal Positive Start; GIFT Nifty Holds Steady as of October 27, 2026 - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMGlXQ1czaVZXWlNWVzkzOE90NDBuUF9GYUVia1VrRFV4SHVoTVN3dlFiQ3M5dGhGOXYycHJRT1hJVk1ZR0VkRVRDQV9jODhBb0hrVHY1WlRMWXdEcUNmVzVUd3djUEZkVXFNaEhWU1pCX19pS0FRcXpLaVRCS2lDLWxMZlR4WmJab01XVEVwZGgyc0NHR1ZlSHVYTWhtQlV3ejRSbWM5UXRIM2tlclJRb3NlbUhhaFgyZ3FSbGQyaVRwelhQdXo4TUZlbkZHakZjV2RfbU8yOVFPQzhocTN1aVlpRzNRSE93TG1ZcTA0Y1l3NVQzaFB1dVhIeDlLMnRZ?oc=5",
-          "publishedAt": "2026-10-27T02:52:53+00:00"
+          "name": "The Tribune",
+          "title": "Nifty, Sensex close flat amid pressure from high crude prices and caution ahead of US Fed policy - The Tribune",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcUllLURWanlma29UeW1ibUlwYkNoR09pRXVHZVpoUW91T01uRFBYQldPemVXZzBpWlNkUHBhdDdmb0JSaTE1RElKdkdJanl1ZEtta3RXUVJ2NF9HRDhBazFTRkpHNThnOHhvTFRjVjBVd3JDYlluRnJmVFhvSnhhWGVWY2ozVjZfVURiWVFHR0dEMkZhZF9WNWplMk9yMUxCOU4xZklGZTVIREhxeHZMSlpSLWgyaXhSZkVNYkhkaTFFaEtMcHJIMDdjV1pXQVNxMkNianVvSWVSQdIB2gFBVV95cUxPcUllLURWanlma29UeW1ibUlwYkNoR09pRXVHZVpoUW91T01uRFBYQldPemVXZzBpWlNkUHBhdDdmb0JSaTE1RElKdkdJanl1ZEtta3RXUVJ2NF9HRDhBazFTRkpHNThnOHhvTFRjVjBVd3JDYlluRnJmVFhvSnhhWGVWY2ozVjZfVURiWVFHR0dEMkZhZF9WNWplMk9yMUxCOU4xZklGZTVIREhxeHZMSlpSLWgyaXhSZkVNYkhkaTFFaEtMcHJIMDdjV1pXQVNxMkNianVvSWVSQQ?oc=5",
+          "publishedAt": "2026-10-27T10:22:30+00:00"
         },
         {
           "name": "Business Standard",
@@ -164,16 +157,22 @@
           "publishedAt": "2026-10-26T17:45:11+00:00"
         },
         {
+          "name": "Daijiworld",
+          "title": "Sensex, Nifty open lower as high crude oil prices weigh on sentiment - Daijiworld",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12X2N5T3c1UnltNS1wcTZsLWQ3MTI1dWJBRzZvcFVBM2VSb2Q4TTRxRElnVEp0MzF5aDRjckhKRDV2bHVybFJ3S2t5WW55NVMxaThwdG9YT3ZKa3pRbk83ZXQ5OFF6VUU5SHc?oc=5",
+          "publishedAt": "2026-10-27T07:08:36+00:00"
+        },
+        {
+          "name": "scanx.trade",
+          "title": "Trade Setup for Today: Nikkei Surge and Wall Street Gains Signal Positive Start; GIFT Nifty Holds Steady as of October 27, 2026 - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMGlXQ1czaVZXWlNWVzkzOE90NDBuUF9GYUVia1VrRFV4SHVoTVN3dlFiQ3M5dGhGOXYycHJRT1hJVk1ZR0VkRVRDQV9jODhBb0hrVHY1WlRMWXdEcUNmVzVUd3djUEZkVXFNaEhWU1pCX19pS0FRcXpLaVRCS2lDLWxMZlR4WmJab01XVEVwZGgyc0NHR1ZlSHVYTWhtQlV3ejRSbWM5UXRIM2tlclJRb3NlbUhhaFgyZ3FSbGQyaVRwelhQdXo4TUZlbkZHakZjV2RfbU8yOVFPQzhocTN1aVlpRzNRSE93TG1ZcTA0Y1l3NVQzaFB1dVhIeDlLMnRZ?oc=5",
+          "publishedAt": "2026-10-27T02:52:53+00:00"
+        },
+        {
           "name": "Moneycontrol.com",
           "title": "GIFT Nifty falls 100 pts, signals weak start for Sensex, Nifty despite Asian, Wall Street rallies; Fed in... - Moneycontrol.com",
           "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWS1HTHk3ejBOVVBlRGx6WFVqM1JZYi11SXpEUEFLVzFJV29DZVF2T0tVM2lBbko3NHgtaU8ySXRPS2M0NkVub3FuWFM5M0pVZDc0TWFoYW0ySGJVcUlrdDhtQkZxVE5OTGZxSDk3UGlrNHNIbGJZeE9QWGtmVDQ5NDBUSmFfeURDZXk0RVZmS3d4MzZ6MFBUVUE4akpJY0p6YjNoSjhON1hDM3B6U09yTFZNdmowdC1YQllsSEt1Qk1vWUpocFJMWFdFc2VWUmUzZHA0bVozZHA3UGE2clRjOF9fSEtVaHpISjFhOUxQdzBOLWZFSFZPVk1fTVpJNHEzNkJVQ1ByVdIBhwJBVV95cUxPWS1HTHk3ejBOVVBlRGx6WFVqM1JZYi11SXpEUEFLVzFJV29DZVF2T0tVM2lBbko3NHgtaU8ySXRPS2M0NkVub3FuWFM5M0pVZDc0TWFoYW0ySGJVcUlrdDhtQkZxVE5OTGZxSDk3UGlrNHNIbGJZeE9QWGtmVDQ5NDBUSmFfeURDZXk0RVZmS3d4MzZ6MFBUVUE4akpJY0p6YjNoSjhON1hDM3B6U09yTFZNdmowdC1YQllsSEt1Qk1vWUpocFJMWFdFc2VWUmUzZHA0bVozZHA3UGE2clRjOF9fSEtVaHpISjFhOUxQdzBOLWZFSFZPVk1fTVpJNHEzNkJVQ1ByVQ?oc=5",
           "publishedAt": "2026-10-27T02:34:32+00:00"
-        },
-        {
-          "name": "The Hans India",
-          "title": "Sensex, Nifty open lower on mixed global cues; IT shares drag - The Hans India",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObzBic3hsQWVVaFppUjAtRnk2VWxVbHk3cHdJMjFOVGhkTmtBYkJ6VXc4V3o3S25WaTFEWnBfcTk5cUJVN2VVeWd5ZjU1Y2ZkUmF3NHl0ck9pb1MxMjcya0hTUjhUdkFDSlZQS184TktyUjhXN0gzOWw5dk45Uy1ncVpIY2lxdjRwZW8xT1otak85aDVOTGZNN2Z4U1d2bzFyTDBlc2s0TTlYZ2k2aTllVW0yMDlQWnFaVmRyMw?oc=5",
-          "publishedAt": "2026-10-27T04:10:17+00:00"
         }
       ],
       "evidenceCount": 7
