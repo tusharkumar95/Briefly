@@ -3,62 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-25T11:35:37.489800+00:00",
-      "changeSummary": {
-        "new": 0,
-        "updated": 1,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "ea6f58412795a9",
-          "cat": "AI",
-          "title": "Study finds Grok API backs Republicans, OpenAI API backs Democrats",
-          "summary": "A Convovo study queried SpaceXAI’s Grok 4.7 and OpenAI’s GPT‑6.1 Sol through their developer APIs, asking each model to name a single candidate for upcoming midterm races without hedging. Grok recommended the Republican candidate in 92 % of responses, while GPT‑6.1 Sol chose the Democrat in 97 % of cases, and the two models agreed on less than 10 % of nearly 500 races. Consumer‑facing apps declined to answer, and OpenAI said the API results do not reflect typical ChatGPT behavior.",
-          "why": "The findings highlight potential partisan bias in AI model APIs, which could influence developers’ products and public trust in automated political advice.",
-          "publishedAt": "2026-10-24T15:00:00+00:00",
-          "firstSeen": "2026-10-24T15:00:00+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
-        }
-      ]
-    },
-    {
-      "at": "2026-10-25T16:25:56.083663+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "92fba8d7bf89f9",
-          "cat": "World",
-          "title": "Gabon lifts eight‑month social‑media ban",
-          "summary": "Gabon’s High Communication Authority announced on Saturday that the government has ended the social‑media block that began on 17 February. Authorities said the ban was intended to curb online content they claimed was fuelling conflict and deepening divisions. During the ban many users accessed platforms via VPNs.",
-          "why": "Lifting the ban restores public access to social‑media platforms for citizens and businesses.",
-          "publishedAt": "2026-10-25T14:39:47+00:00",
-          "firstSeen": "2026-10-25T14:39:47+00:00",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-10-25T19:39:43.521031+00:00",
       "changeSummary": {
         "new": 0,
@@ -1229,185 +1173,163 @@
           "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
         }
       ]
+    },
+    {
+      "at": "2026-10-28T16:39:46.025347+00:00",
+      "changeSummary": {
+        "new": 6,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "e15e2a262b647f",
+          "cat": "Canada",
+          "title": "Bank of Canada raises benchmark rate to 2.5%",
+          "summary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 % on Oct 28, marking its first hike since 2023. Governor Tiff Macklem said the move is intended to reduce the risk that rising energy prices will broaden inflation, which was 3.1 % in September, largely driven by the Middle‑East conflict. The rate had been held at 2.25 % for seven consecutive meetings, and the next decision is set for Dec 9.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-10-28T12:33:56+00:00",
+          "firstSeen": "2026-10-28T12:33:56+00:00",
+          "importanceScore": 18.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss"
+        },
+        {
+          "id": "e23790bc283973",
+          "cat": "India",
+          "title": "India projected to lower debt‑to‑GDP ratio by 2031, says RBI Deputy Governor",
+          "summary": "The RBI Deputy Governor said India is the only major emerging economy expected to reduce its debt‑to‑GDP ratio by 2031. This comment was reported in an Economic Times article. The article did not provide any specific figures or additional context for the projection.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-28T14:59:48+00:00",
+          "firstSeen": "2026-10-28T14:59:48+00:00",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms"
+        },
+        {
+          "id": "d0afcbbff873e0",
+          "cat": "Indian Markets",
+          "title": "US stocks today: US stocks turn choppy as megacaps offset chip gains before Fed meet",
+          "summary": "US stocks trade in a narrow range as chip gains after strong SK Hynix results are offset by losses in heavyweight technology stocks, while investors await the Fed decision and key earnings. In an October 15 letter sent following a state AI safety panel, the company advocated for judicial oversight over prospective releases while opposing mandatory \"kill switches\" that can shut down entire AI models, favoring more targeted measures like disabling specific problematic agents or user access instead.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-28T13:39:22+00:00",
+          "firstSeen": "2026-10-28T13:39:22+00:00",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-sk-hynix-lifts-chips-fed-meet-in-focus/articleshow/135267943.cms"
+        },
+        {
+          "id": "974b34962af1c8",
+          "cat": "India",
+          "title": "India’s record bank cash surplus fades as RBI curbs rupee bets",
+          "summary": "By Pratigya Vajpayee and Siddhi Nayak, Bloomberg Last Updated: Oct 28, 2026, 07:56:00 AM IST Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-28T02:26:28+00:00",
+          "firstSeen": "2026-10-28T02:26:28+00:00",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms"
+        },
+        {
+          "id": "01066d3a8f8013",
+          "cat": "AI",
+          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+          "summary": "**Image Credits:**TechCrunch/AI generated Julie Bort Voice AI in vogue: Nvidia releases new open transcription model Nvidia on Wednesday released Nemotron 3.5 Transcribe, a free, open-weight model that transcribes audio in up to 40 languages. Nvidia boasts that Nemotron 3.5 can translate 31 languages to and from English, handle recordings up to an hour long, and tell up to eight speakers apart.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-10-28T15:00:00+00:00",
+          "firstSeen": "2026-10-28T15:00:00+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+        },
+        {
+          "id": "cc90b46a9d4883",
+          "cat": "Indian Markets",
+          "title": "Acutaas Chemicals among 5 stocks hitting 52-week highs; rallied up to 18% in a month",
+          "summary": "Despite the market decline, five stocks from the BSE 500 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-28T13:44:25+00:00",
+          "firstSeen": "2026-10-28T13:44:25+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/acutaas-chemicals-among-5-stocks-hitting-52-week-highs-rallied-up-to-18-in-a-month/slideshow/135268346.cms"
+        },
+        {
+          "id": "43a2dba8c3212a",
+          "cat": "Canada",
+          "title": "Canada not near trade deal with U.S. before midterms, Carney says",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. joan October 28, 2026 at 11:53 am Amber M., Spoken like a true MAGA person.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-28T15:11:10+00:00",
+          "firstSeen": "2026-10-28T15:11:10+00:00",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12124110/mark-carney-trade-deal-not-right-now-us-midterms/"
+        },
+        {
+          "id": "d004d8bb9e7d70",
+          "cat": "World",
+          "title": "Ceasefire extended to wider Kherson region",
+          "summary": "A ceasefire that began early Tuesday to allow food and medicine deliveries to the Russian‑occupied city of Oleshky has been broadened to cover the larger Kherson region, officials said. Several thousand residents of Oleshky remain without electricity, food or water, and all road routes out are considered unsafe. No violations of the truce have been reported so far.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-27T22:11:08+00:00",
+          "firstSeen": "2026-10-27T22:11:08+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "events": {
-    "63336cbba013a0": {
-      "id": "63336cbba013a0",
-      "firstSeen": "2026-10-20T15:58:57+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-20T20:37:46.146661+00:00",
-          "title": "65-year-old woman killed in shark attack off South Africa's east coast",
-          "summary": "Janine Lochrenberg, 65, was killed while swimming off a beach in KuGompo City (formerly East London) on Tuesday morning. Witnesses said she was bitten in two places and died before fellow swimmers could get her ashore. The attack is South Africa’s first fatal shark incident recorded this year, and the country has had about ten fatal attacks since 2012, according to the International Shark Attack File.",
-          "importanceScore": 13.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-21T10:12:53.247169+00:00",
-          "title": "65‑year‑old swimmer killed in shark attack off South Africa’s east coast",
-          "summary": "Janine Lochrenberg, 65, was swimming off a beach in KuGompo City (formerly East London) on Tuesday morning when she was attacked by a shark at about 08:00 local time (06:00 GMT). Witnesses said she was bitten in two places and died before she could be brought ashore. It is the first recorded fatal shark attack in South Africa this year, and the country has had about ten fatal attacks since 2012.",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T10:12:53.247169+00:00",
-      "cat": "World",
-      "latestTitle": "65‑year‑old swimmer killed in shark attack off South Africa’s east coast",
-      "latestSummary": "Janine Lochrenberg, 65, was swimming off a beach in KuGompo City (formerly East London) on Tuesday morning when she was attacked by a shark at about 08:00 local time (06:00 GMT). Witnesses said she was bitten in two places and died before she could be brought ashore. It is the first recorded fatal shark attack in South Africa this year, and the country has had about ten fatal attacks since 2012.",
-      "why": "The incident highlights the rare but serious risk that shark encounters pose to open‑water swimmers in the region.",
-      "url": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss"
-    },
-    "a5db260549abb0": {
-      "id": "a5db260549abb0",
-      "firstSeen": "2026-10-21T00:30:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T04:52:51.407537+00:00",
-          "title": "Marco Rubio, S Jaishankar discuss energy ties as India-US trade deal nears finalisation",
-          "summary": "US Secretary of State Marco Rubio and S Jaishankar discussed energy security, defence, technology and regional issues in Mumbai. Rubio said the India-US trade deal was close to finalisation, with a few issues remaining.",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-21T10:12:53.247169+00:00",
-          "title": "Marco Rubio, S Jaishankar discuss energy ties as India-US trade deal nears finalisation",
-          "summary": "US Secretary of State Marco Rubio and S Jaishankar discussed energy security, defence, technology and regional issues in Mumbai. Rubio said the India-US trade deal was close to finalisation, with a few issues remaining.",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T10:12:53.247169+00:00",
-      "cat": "India",
-      "latestTitle": "Marco Rubio, S Jaishankar discuss energy ties as India-US trade deal nears finalisation",
-      "latestSummary": "US Secretary of State Marco Rubio and S Jaishankar discussed energy security, defence, technology and regional issues in Mumbai. Rubio said the India-US trade deal was close to finalisation, with a few issues remaining.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-s-jaishankar-discuss-energy-ties-as-india-us-trade-deal-nears-finalisation/articleshow/135076515.cms"
-    },
-    "52d9f72d781762": {
-      "id": "52d9f72d781762",
-      "firstSeen": "2026-10-21T08:00:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T10:12:53.247169+00:00",
-          "title": "Bank of Canada may raise rates in October, raising concerns for Canadian housing market",
-          "summary": "The Bank of Canada has not raised its policy rate since July 2023 and an eighth‑consecutive hold is widely expected at its upcoming meeting. A growing number of economists and traders now anticipate a rate increase on Oct. 28 to address persistent inflation. Experts say a hike would increase variable‑rate mortgage payments, reduce the pool of qualified buyers and could push home prices lower.",
-          "importanceScore": 18.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T10:12:53.247169+00:00",
-      "cat": "Canada",
-      "latestTitle": "Bank of Canada may raise rates in October, raising concerns for Canadian housing market",
-      "latestSummary": "The Bank of Canada has not raised its policy rate since July 2023 and an eighth‑consecutive hold is widely expected at its upcoming meeting. A growing number of economists and traders now anticipate a rate increase on Oct. 28 to address persistent inflation. Experts say a hike would increase variable‑rate mortgage payments, reduce the pool of qualified buyers and could push home prices lower.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "url": "https://www.cbc.ca/news/business/real-estate-bank-of-canada-9.7389322?cmp=rss"
-    },
-    "0ec816a4cbc82a": {
-      "id": "0ec816a4cbc82a",
-      "firstSeen": "2026-10-21T09:45:45+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T10:12:53.247169+00:00",
-          "title": "India presents a compelling investment proposition for German firms, FICCI says",
-          "summary": "Indian industry is poised for growth as German companies are encouraged to invest in manufacturing capacities. The upcoming India-European Union free trade agreement aims to strengthen trade ties and foster economic partnerships.",
-          "importanceScore": 12.4,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T10:12:53.247169+00:00",
-      "cat": "India",
-      "latestTitle": "India presents a compelling investment proposition for German firms, FICCI says",
-      "latestSummary": "Indian industry is poised for growth as German companies are encouraged to invest in manufacturing capacities. The upcoming India-European Union free trade agreement aims to strengthen trade ties and foster economic partnerships.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/india-presents-a-compelling-investment-proposition-for-german-firms-ficci-says/articleshow/135087635.cms"
-    },
-    "0101eaf0aa1485": {
-      "id": "0101eaf0aa1485",
-      "firstSeen": "2026-10-21T09:00:52+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T10:12:53.247169+00:00",
-          "title": "Canada orders deportation of Toronto man who helped Iran evade sanctions",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Iranian national Amin Yousefijam at Immigration and the Refugee Board office in Etobicoke, Ont., on Feb.",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T10:12:53.247169+00:00",
-      "cat": "Canada",
-      "latestTitle": "Canada orders deportation of Toronto man who helped Iran evade sanctions",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Iranian national Amin Yousefijam at Immigration and the Refugee Board office in Etobicoke, Ont., on Feb.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://globalnews.ca/news/12109602/canada-deport-toronto-iran-sanctions-evasion/"
-    },
-    "07ec72ee20afff": {
-      "id": "07ec72ee20afff",
-      "firstSeen": "2026-10-21T07:03:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T10:12:53.247169+00:00",
-          "title": "India’s $100 billion European Free Trade Association cheque is slow to clear as Vietnam joins the club",
-          "summary": "Vietnam recently signed a free trade agreement with the European Free Trade Association, expanding its trade network. This agreement comes as India's interaction with EFTA continues to evolve, with potential impacts on competition.",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T10:12:53.247169+00:00",
-      "cat": "India",
-      "latestTitle": "India’s $100 billion European Free Trade Association cheque is slow to clear as Vietnam joins the club",
-      "latestSummary": "Vietnam recently signed a free trade agreement with the European Free Trade Association, expanding its trade network. This agreement comes as India's interaction with EFTA continues to evolve, with potential impacts on competition.",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-100-bn-efta-cheque-is-slow-to-clear-as-vietnam-joins-the-club/articleshow/135084308.cms"
-    },
     "bd9e638d04c2dd": {
       "id": "bd9e638d04c2dd",
       "firstSeen": "2026-10-21T12:13:08+00:00",
@@ -1674,31 +1596,6 @@
       "latestSummary": "Bitcoin gained 2.1% to $83,529 after stronger US equity markets and easing oil prices lifted sentiment, aided by $526.6 million of inflows into spot Bitcoin ETFs. Analysts view $86,000 as the next resistance level and $80,000 as the key support zone. The article also listed Indian stocks such as SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC as trending.",
       "why": "The rally reflects renewed risk appetite that could influence Indian investors and related market activity.",
       "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms"
-    },
-    "f23e09dcfe82e6": {
-      "id": "f23e09dcfe82e6",
-      "firstSeen": "2026-10-21T11:16:44+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T15:18:36.679155+00:00",
-          "title": "Global Market: BOJ's Himino says Japan inflation near 2% target, signals further rate hikes",
-          "summary": "Bank of Japan Deputy Governor Ryozo Himino says underlying inflation is nearing the central bank’s 2% target, while accommodative financial conditions and rising cost pressures strengthen expectations of further interest rate hikes. Japan’s central bank signals further policy tightening as inflation approaches its 2% target.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T15:18:36.679155+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Global Market: BOJ's Himino says Japan inflation near 2% target, signals further rate hikes",
-      "latestSummary": "Bank of Japan Deputy Governor Ryozo Himino says underlying inflation is nearing the central bank’s 2% target, while accommodative financial conditions and rising cost pressures strengthen expectations of further interest rate hikes. Japan’s central bank signals further policy tightening as inflation approaches its 2% target.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-bojs-himino-says-japan-inflation-near-2-target-signals-further-rate-hikes/articleshow/135090643.cms"
     },
     "437816a46c2fc3": {
       "id": "437816a46c2fc3",
@@ -4726,12 +4623,25 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-28T16:39:46.025347+00:00",
+          "title": "Ceasefire extended to wider Kherson region",
+          "summary": "A ceasefire that began early Tuesday to allow food and medicine deliveries to the Russian‑occupied city of Oleshky has been broadened to cover the larger Kherson region, officials said. Several thousand residents of Oleshky remain without electricity, food or water, and all road routes out are considered unsafe. No violations of the truce have been reported so far.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T09:43:18.420398+00:00",
+      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
       "cat": "World",
-      "latestTitle": "Ceasefire extended to cover Kherson region",
-      "latestSummary": "A ceasefire that began on Tuesday to allow food and medicine into the Russian‑occupied city of Oleshky has been broadened to include the wider southern Kherson region, officials said. Several thousand Oleshky residents remain trapped without electricity, food or water, and all roads out are deemed unsafe. No violations of the truce have been reported since it started.",
+      "latestTitle": "Ceasefire extended to wider Kherson region",
+      "latestSummary": "A ceasefire that began early Tuesday to allow food and medicine deliveries to the Russian‑occupied city of Oleshky has been broadened to cover the larger Kherson region, officials said. Several thousand residents of Oleshky remain without electricity, food or water, and all road routes out are considered unsafe. No violations of the truce have been reported so far.",
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
     },
@@ -4826,15 +4736,178 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-28T16:39:46.025347+00:00",
+          "title": "India’s record bank cash surplus fades as RBI curbs rupee bets",
+          "summary": "By Pratigya Vajpayee and Siddhi Nayak, Bloomberg Last Updated: Oct 28, 2026, 07:56:00 AM IST Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T09:43:18.420398+00:00",
+      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
       "cat": "India",
-      "latestTitle": "Indian banks' cash surplus shrinks as RBI tightens liquidity to curb rupee speculation",
-      "latestSummary": "Indian banks' excess funds have fallen sharply as the Reserve Bank of India kept liquidity tight to deter speculation against the rupee, which has reached critical levels. The RBI capped its liquidity assistance at 1.5 trillion rupees, and overnight borrowing rates have risen close to the top of the policy corridor.",
+      "latestTitle": "India’s record bank cash surplus fades as RBI curbs rupee bets",
+      "latestSummary": "By Pratigya Vajpayee and Siddhi Nayak, Bloomberg Last Updated: Oct 28, 2026, 07:56:00 AM IST Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms"
+    },
+    "e15e2a262b647f": {
+      "id": "e15e2a262b647f",
+      "firstSeen": "2026-10-28T12:33:56+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T16:39:46.025347+00:00",
+          "title": "Bank of Canada raises benchmark rate to 2.5%",
+          "summary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 % on Oct 28, marking its first hike since 2023. Governor Tiff Macklem said the move is intended to reduce the risk that rising energy prices will broaden inflation, which was 3.1 % in September, largely driven by the Middle‑East conflict. The rate had been held at 2.25 % for seven consecutive meetings, and the next decision is set for Dec 9.",
+          "importanceScore": 18.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "cat": "Canada",
+      "latestTitle": "Bank of Canada raises benchmark rate to 2.5%",
+      "latestSummary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 % on Oct 28, marking its first hike since 2023. Governor Tiff Macklem said the move is intended to reduce the risk that rising energy prices will broaden inflation, which was 3.1 % in September, largely driven by the Middle‑East conflict. The rate had been held at 2.25 % for seven consecutive meetings, and the next decision is set for Dec 9.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss"
+    },
+    "e23790bc283973": {
+      "id": "e23790bc283973",
+      "firstSeen": "2026-10-28T14:59:48+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T16:39:46.025347+00:00",
+          "title": "India projected to lower debt‑to‑GDP ratio by 2031, says RBI Deputy Governor",
+          "summary": "The RBI Deputy Governor said India is the only major emerging economy expected to reduce its debt‑to‑GDP ratio by 2031. This comment was reported in an Economic Times article. The article did not provide any specific figures or additional context for the projection.",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "cat": "India",
+      "latestTitle": "India projected to lower debt‑to‑GDP ratio by 2031, says RBI Deputy Governor",
+      "latestSummary": "The RBI Deputy Governor said India is the only major emerging economy expected to reduce its debt‑to‑GDP ratio by 2031. This comment was reported in an Economic Times article. The article did not provide any specific figures or additional context for the projection.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms"
+    },
+    "d0afcbbff873e0": {
+      "id": "d0afcbbff873e0",
+      "firstSeen": "2026-10-28T13:39:22+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T16:39:46.025347+00:00",
+          "title": "US stocks today: US stocks turn choppy as megacaps offset chip gains before Fed meet",
+          "summary": "US stocks trade in a narrow range as chip gains after strong SK Hynix results are offset by losses in heavyweight technology stocks, while investors await the Fed decision and key earnings. In an October 15 letter sent following a state AI safety panel, the company advocated for judicial oversight over prospective releases while opposing mandatory \"kill switches\" that can shut down entire AI models, favoring more targeted measures like disabling specific problematic agents or user access instead.",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "US stocks today: US stocks turn choppy as megacaps offset chip gains before Fed meet",
+      "latestSummary": "US stocks trade in a narrow range as chip gains after strong SK Hynix results are offset by losses in heavyweight technology stocks, while investors await the Fed decision and key earnings. In an October 15 letter sent following a state AI safety panel, the company advocated for judicial oversight over prospective releases while opposing mandatory \"kill switches\" that can shut down entire AI models, favoring more targeted measures like disabling specific problematic agents or user access instead.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-sk-hynix-lifts-chips-fed-meet-in-focus/articleshow/135267943.cms"
+    },
+    "01066d3a8f8013": {
+      "id": "01066d3a8f8013",
+      "firstSeen": "2026-10-28T15:00:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T16:39:46.025347+00:00",
+          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+          "summary": "**Image Credits:**TechCrunch/AI generated Julie Bort Voice AI in vogue: Nvidia releases new open transcription model Nvidia on Wednesday released Nemotron 3.5 Transcribe, a free, open-weight model that transcribes audio in up to 40 languages. Nvidia boasts that Nemotron 3.5 can translate 31 languages to and from English, handle recordings up to an hour long, and tell up to eight speakers apart.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "cat": "AI",
+      "latestTitle": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "latestSummary": "**Image Credits:**TechCrunch/AI generated Julie Bort Voice AI in vogue: Nvidia releases new open transcription model Nvidia on Wednesday released Nemotron 3.5 Transcribe, a free, open-weight model that transcribes audio in up to 40 languages. Nvidia boasts that Nemotron 3.5 can translate 31 languages to and from English, handle recordings up to an hour long, and tell up to eight speakers apart.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+    },
+    "cc90b46a9d4883": {
+      "id": "cc90b46a9d4883",
+      "firstSeen": "2026-10-28T13:44:25+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T16:39:46.025347+00:00",
+          "title": "Acutaas Chemicals among 5 stocks hitting 52-week highs; rallied up to 18% in a month",
+          "summary": "Despite the market decline, five stocks from the BSE 500 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Acutaas Chemicals among 5 stocks hitting 52-week highs; rallied up to 18% in a month",
+      "latestSummary": "Despite the market decline, five stocks from the BSE 500 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/acutaas-chemicals-among-5-stocks-hitting-52-week-highs-rallied-up-to-18-in-a-month/slideshow/135268346.cms"
+    },
+    "43a2dba8c3212a": {
+      "id": "43a2dba8c3212a",
+      "firstSeen": "2026-10-28T15:11:10+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T16:39:46.025347+00:00",
+          "title": "Canada not near trade deal with U.S. before midterms, Carney says",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. joan October 28, 2026 at 11:53 am Amber M., Spoken like a true MAGA person.",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "cat": "Canada",
+      "latestTitle": "Canada not near trade deal with U.S. before midterms, Carney says",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. joan October 28, 2026 at 11:53 am Amber M., Spoken like a true MAGA person.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12124110/mark-carney-trade-deal-not-right-now-us-midterms/"
     }
   },
-  "updated": "2026-10-28T09:43:18.420398+00:00"
+  "updated": "2026-10-28T16:39:46.025347+00:00"
 }
