@@ -3,34 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-25T19:39:43.521031+00:00",
-      "changeSummary": {
-        "new": 0,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "92fba8d7bf89f9",
-          "cat": "World",
-          "title": "Gabon lifts eight‑month social‑media ban",
-          "summary": "Gabon’s High Communication Authority announced on Saturday that the nationwide ban on social‑media platforms, imposed on 17 February, has been lifted. The ban had been justified by authorities as a response to online content they said was fueling conflict and deepening divisions. During the restriction many users resorted to VPNs to access the sites.",
-          "why": "Restoring social‑media access restores a key channel for information, communication and civic engagement.",
-          "publishedAt": "2026-10-25T14:39:47+00:00",
-          "firstSeen": "2026-10-25T14:39:47+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-10-25T22:35:09.182035+00:00",
       "changeSummary": {
         "new": 1,
@@ -1327,47 +1299,145 @@
           "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    }
-  ],
-  "events": {
-    "bd9e638d04c2dd": {
-      "id": "bd9e638d04c2dd",
-      "firstSeen": "2026-10-21T12:13:08+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-10-28T21:40:27.456192+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 2,
+        "continuing": 2
+      },
+      "stories": [
         {
-          "at": "2026-10-21T15:18:36.679155+00:00",
-          "title": "India’s economy projected to grow 7.1% in 2026‑27 as inflation rises",
-          "summary": "The RBI governor Sanjay Malhotra said the Indian economy is expected to grow 7.1 % in fiscal year 2026‑27, up from a prior estimate of 6.7 %. He warned that inflationary pressures are building and could affect the growth outlook. He described India’s resilience as remarkable despite turbulent global conditions.",
-          "importanceScore": 15.4,
+          "id": "e15e2a262b647f",
+          "cat": "Canada",
+          "title": "Bank of Canada raises benchmark rate to 2.5%",
+          "summary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, marking its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move is needed to lower the risk that elevated energy prices will spread to broader inflation, while keeping the rate low enough not to restrain growth. Canada’s annual inflation was 3.1 percent in September, driven largely by surging energy costs.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-10-28T12:33:56+00:00",
+          "firstSeen": "2026-10-28T12:33:56+00:00",
+          "importanceScore": 18.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss"
+        },
+        {
+          "id": "8ca9da7987bfb2",
+          "cat": "World",
+          "title": "High‑speed Renfe train rear‑ends Iryo service after signalling error in Spain",
+          "summary": "Two high‑speed trains traveling south from Madrid to Seville were stopped after a computer failure in the automatic signalling system. The Renfe train, carrying 397 passengers, was mistakenly ordered to proceed and collided with the preceding Iryo train, which had 147 passengers, between Mora and Orgaz about 140 km south of Madrid. The crash caused broken arms, broken noses and a rail to pierce a passenger’s roof.",
+          "why": "It shows how signalling and operational failures can jeopardize passenger safety.",
+          "publishedAt": "2026-10-28T21:24:41+00:00",
+          "firstSeen": "2026-10-28T21:24:41+00:00",
+          "importanceScore": 14.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "de6b4f50af1c97",
+          "cat": "AI",
+          "title": "Microsoft reports $10 billion revenue from OpenAI in Q3 2026",
+          "summary": "Microsoft said it earned $10 billion from commercial arrangements with OpenAI in the quarter ended September 30, 2026, about 11 % of its total quarterly revenue of $92.3 billion. For the full 2026 fiscal year, OpenAI‑related revenue was $24.1 billion, and the quarterly pace suggests an annualized $40 billion. Receivables from OpenAI stood at $7.2 billion at quarter‑end.",
+          "why": "The figure shows the scale of Microsoft’s financial exposure to OpenAI, which could affect both companies’ earnings and strategic decisions.",
+          "publishedAt": "2026-10-28T21:34:30+00:00",
+          "firstSeen": "2026-10-28T21:34:30+00:00",
+          "importanceScore": 13.2,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
         },
         {
-          "at": "2026-10-21T20:11:25.078127+00:00",
-          "title": "India’s economy projected to grow 7.1% in 2026‑27, RBI warns of rising inflation",
-          "summary": "The Reserve Bank of India’s Sanjay Malhotra said the economy is projected to grow at 7.1% in fiscal year 2026‑27, up from an earlier estimate of 6.7%. He cautioned that rising inflationary pressures could affect that outlook, even as the country has shown resilience despite turbulent global conditions.",
-          "importanceScore": 14.4,
+          "id": "e23790bc283973",
+          "cat": "India",
+          "title": "India projected to cut debt‑to‑GDP ratio by 2031, says RBI deputy governor",
+          "summary": "RBI Deputy Governor said India is the only major emerging economy expected to lower its overall debt‑to‑GDP ratio by 2031. The statement was reported by The Economic Times. No further details on the projected ratio or the assumptions behind it were provided, but the comment highlights a contrast with other emerging markets that are expected to see stable or rising debt ratios over the same period.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-28T14:59:48+00:00",
+          "firstSeen": "2026-10-28T14:59:48+00:00",
+          "importanceScore": 12.5,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms"
+        },
+        {
+          "id": "f89f7ec9829002",
+          "cat": "India",
+          "title": "Green financing in India rises to $82 billion, but flows mostly to established sectors: Report",
+          "summary": "The Landscape of Green Finance in India, now in its fourth edition, maps actual finance flows or disbursements across sources, instruments, sectors, and subsectors for financial years 2022-23 and 2023-24. According to the report, while green finance has increased substantially between 2016-17 and 2023-24, financial flows remain concentrated in established sectors and technologies.",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-10-28T19:41:20+00:00",
+          "firstSeen": "2026-10-28T19:41:20+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/green-financing-in-india-rises-to-82-billion-but-flows-mostly-to-established-sectors-report/articleshow/135279184.cms"
+        },
+        {
+          "id": "01066d3a8f8013",
+          "cat": "AI",
+          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+          "summary": "Nvidia on Wednesday released Nemotron 3.5 Transcribe , a free, open-weight model that transcribes audio in up to 40 languages. Nvidia’s latest voice entry comes during a busy period of AI voice releases: Mistral shipped Voxtral 3 earlier this month; ElevenLabs launched Realtime for instant speech in voice agents; and Salesforce released Launa-Omni, its voice model.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-10-28T15:00:00+00:00",
+          "firstSeen": "2026-10-28T15:00:00+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+        },
+        {
+          "id": "974b34962af1c8",
+          "cat": "India",
+          "title": "India’s record bank cash surplus fades as RBI curbs rupee bets",
+          "summary": "Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-28T02:26:28+00:00",
+          "firstSeen": "2026-10-28T02:26:28+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms"
         }
-      ],
-      "lastSeen": "2026-10-21T20:11:25.078127+00:00",
-      "cat": "India",
-      "latestTitle": "India’s economy projected to grow 7.1% in 2026‑27, RBI warns of rising inflation",
-      "latestSummary": "The Reserve Bank of India’s Sanjay Malhotra said the economy is projected to grow at 7.1% in fiscal year 2026‑27, up from an earlier estimate of 6.7%. He cautioned that rising inflationary pressures could affect that outlook, even as the country has shown resilience despite turbulent global conditions.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-economy-stays-resilient-at-7-1-but-rising-inflation-raises-a-red-flag-says-rbis-sanjay-malhotra/articleshow/135091927.cms"
-    },
+      ]
+    }
+  ],
+  "events": {
     "9dac1597527708": {
       "id": "9dac1597527708",
       "firstSeen": "2026-10-21T12:14:10+00:00",
@@ -1521,120 +1591,6 @@
       "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "url": "https://www.cbc.ca/news/business/real-estate-bank-of-canada-9.7389322?cmp=rss"
     },
-    "40167a9d6d341b": {
-      "id": "40167a9d6d341b",
-      "firstSeen": "2026-10-21T07:56:30+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T15:18:36.679155+00:00",
-          "title": "Australian MP Helen Haines loses both legs after car attack",
-          "summary": "Helen Haines, an independent member of the Australian parliament, was struck by a Toyota LandCruiser driven by 43‑year‑old Brendan Nugent outside her electorate office in Wangaratta. The incident, described by police as a deliberate attack, resulted in Haines losing both legs. Nugent was arrested shortly after the crash and faced multiple charges when he appeared in court on Wednesday.",
-          "importanceScore": 14.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-21T20:11:25.078127+00:00",
-          "title": "Australian MP loses both legs after alleged car attack, husband says",
-          "summary": "Helen Haines, the Australian MP who was hit by a car in what authorities say was a deliberate attack, has lost both her legs, her husband has confirmed. The alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T20:11:25.078127+00:00",
-      "cat": "World",
-      "latestTitle": "Australian MP loses both legs after alleged car attack, husband says",
-      "latestSummary": "Helen Haines, the Australian MP who was hit by a car in what authorities say was a deliberate attack, has lost both her legs, her husband has confirmed. The alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss"
-    },
-    "890efae0f3953c": {
-      "id": "890efae0f3953c",
-      "firstSeen": "2026-10-21T11:39:14+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T15:18:36.679155+00:00",
-          "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
-          "summary": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-21T20:11:25.078127+00:00",
-          "title": "Bitcoin rebounds above $83,000 as US equities rise and oil prices ease",
-          "summary": "Bitcoin gained 2.1% to $83,529 after stronger US equity markets and easing oil prices lifted sentiment, aided by $526.6 million of inflows into spot Bitcoin ETFs. Analysts view $86,000 as the next resistance level and $80,000 as the key support zone. The article also listed Indian stocks such as SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC as trending.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T20:11:25.078127+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Bitcoin rebounds above $83,000 as US equities rise and oil prices ease",
-      "latestSummary": "Bitcoin gained 2.1% to $83,529 after stronger US equity markets and easing oil prices lifted sentiment, aided by $526.6 million of inflows into spot Bitcoin ETFs. Analysts view $86,000 as the next resistance level and $80,000 as the key support zone. The article also listed Indian stocks such as SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC as trending.",
-      "why": "The rally reflects renewed risk appetite that could influence Indian investors and related market activity.",
-      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms"
-    },
-    "437816a46c2fc3": {
-      "id": "437816a46c2fc3",
-      "firstSeen": "2026-10-21T14:02:53+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T15:18:36.679155+00:00",
-          "title": "Jio IPO strengthens Reliance’s financial flexibility; capex funding remains key: Moody’s",
-          "summary": "Moody’s has termed Jio Platforms’ IPO credit positive for Reliance Industries, citing debt repayment and funding flexibility. The Rs 30,200 crore issue will support investments while helping manage leverage amid elevated capital expenditure.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-21T20:11:25.078127+00:00",
-          "title": "Moody’s calls Jio IPO credit‑positive for Reliance Industries",
-          "summary": "Moody’s described the Jio Platforms initial public offering as credit positive for Reliance Industries, saying the proceeds will be used to repay debt and broaden funding flexibility. The Rs 30,200 crore issue is intended to back the group’s investment programmes while helping to manage leverage as capital expenditure remains high.",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T20:11:25.078127+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Moody’s calls Jio IPO credit‑positive for Reliance Industries",
-      "latestSummary": "Moody’s described the Jio Platforms initial public offering as credit positive for Reliance Industries, saying the proceeds will be used to repay debt and broaden funding flexibility. The Rs 30,200 crore issue is intended to back the group’s investment programmes while helping to manage leverage as capital expenditure remains high.",
-      "why": "The rating view suggests Reliance may face lower borrowing costs and greater capacity to fund growth.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-strengthens-reliances-financial-flexibility-capex-funding-remains-key-moodys/articleshow/135094225.cms"
-    },
     "71097af1a3e786": {
       "id": "71097af1a3e786",
       "firstSeen": "2026-10-21T19:52:04+00:00",
@@ -1711,56 +1667,6 @@
       "latestSummary": "The RBI’s Monetary Policy Committee increased the benchmark repo rate by 25 basis points to address rising inflation concerns. Governor Sanjay Malhotra said inflation is broadening, with many commodities above 4%, and Deputy Governor Poonam Gupta noted external supply‑side shocks adding to price pressures. External members warned that an aggressive hike could dampen economic growth.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-widening-inflation-risks-puts-rate-cuts-on-ice/articleshow/135100146.cms"
-    },
-    "31e714e92ec7da": {
-      "id": "31e714e92ec7da",
-      "firstSeen": "2026-10-21T17:42:34+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T20:11:25.078127+00:00",
-          "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
-          "summary": "The latest talks between Putin (right) and Witkoff lasted about three hours in St Petersburg Russia is \"ready in principle\" to resume talks with the US and Ukraine on ending the conflict, Vladimir Putin's top aide has said. Russia has for months refused as it believes it is winning on the battlefield with Ukraine facing an acute shortage of interceptors against deadly Russian missile attacks.",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T20:11:25.078127+00:00",
-      "cat": "World",
-      "latestTitle": "Russia says it is ready to resume talks with Ukraine and US to end war",
-      "latestSummary": "The latest talks between Putin (right) and Witkoff lasted about three hours in St Petersburg Russia is \"ready in principle\" to resume talks with the US and Ukraine on ending the conflict, Vladimir Putin's top aide has said. Russia has for months refused as it believes it is winning on the battlefield with Ukraine facing an acute shortage of interceptors against deadly Russian missile attacks.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
-    },
-    "c19166ae704ae3": {
-      "id": "c19166ae704ae3",
-      "firstSeen": "2026-10-21T12:37:12+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T20:11:25.078127+00:00",
-          "title": "Rupee rises 46 paise to 94.45 on India-US trade deal hopes; oil prices cap gains",
-          "summary": "The rupee gained 46 paise to 94.45 against the dollar on optimism over a potential India-US trade deal and RBI measures. However, elevated crude prices, foreign outflows and global financial pressures continue to threaten the currency's recovery.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T20:11:25.078127+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Rupee rises 46 paise to 94.45 on India-US trade deal hopes; oil prices cap gains",
-      "latestSummary": "The rupee gained 46 paise to 94.45 against the dollar on optimism over a potential India-US trade deal and RBI measures. However, elevated crude prices, foreign outflows and global financial pressures continue to threaten the currency's recovery.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-46-paise-to-94-45-on-india-us-trade-deal-hopes-oil-prices-cap-gains/articleshow/135092741.cms"
     },
     "118c43dfd3a573": {
       "id": "118c43dfd3a573",
@@ -4749,12 +4655,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-10-28T21:40:27.456192+00:00",
+          "title": "India’s record bank cash surplus fades as RBI curbs rupee bets",
+          "summary": "Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
       "cat": "India",
       "latestTitle": "India’s record bank cash surplus fades as RBI curbs rupee bets",
-      "latestSummary": "By Pratigya Vajpayee and Siddhi Nayak, Bloomberg Last Updated: Oct 28, 2026, 07:56:00 AM IST Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
+      "latestSummary": "Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms"
     },
@@ -4774,12 +4693,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-28T21:40:27.456192+00:00",
+          "title": "Bank of Canada raises benchmark rate to 2.5%",
+          "summary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, marking its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move is needed to lower the risk that elevated energy prices will spread to broader inflation, while keeping the rate low enough not to restrain growth. Canada’s annual inflation was 3.1 percent in September, driven largely by surging energy costs.",
+          "importanceScore": 18.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
       "cat": "Canada",
       "latestTitle": "Bank of Canada raises benchmark rate to 2.5%",
-      "latestSummary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 % on Oct 28, marking its first hike since 2023. Governor Tiff Macklem said the move is intended to reduce the risk that rising energy prices will broaden inflation, which was 3.1 % in September, largely driven by the Middle‑East conflict. The rate had been held at 2.25 % for seven consecutive meetings, and the next decision is set for Dec 9.",
+      "latestSummary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, marking its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move is needed to lower the risk that elevated energy prices will spread to broader inflation, while keeping the rate low enough not to restrain growth. Canada’s annual inflation was 3.1 percent in September, driven largely by surging energy costs.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss"
     },
@@ -4799,12 +4731,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-28T21:40:27.456192+00:00",
+          "title": "India projected to cut debt‑to‑GDP ratio by 2031, says RBI deputy governor",
+          "summary": "RBI Deputy Governor said India is the only major emerging economy expected to lower its overall debt‑to‑GDP ratio by 2031. The statement was reported by The Economic Times. No further details on the projected ratio or the assumptions behind it were provided, but the comment highlights a contrast with other emerging markets that are expected to see stable or rising debt ratios over the same period.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
       "cat": "India",
-      "latestTitle": "India projected to lower debt‑to‑GDP ratio by 2031, says RBI Deputy Governor",
-      "latestSummary": "The RBI Deputy Governor said India is the only major emerging economy expected to reduce its debt‑to‑GDP ratio by 2031. This comment was reported in an Economic Times article. The article did not provide any specific figures or additional context for the projection.",
+      "latestTitle": "India projected to cut debt‑to‑GDP ratio by 2031, says RBI deputy governor",
+      "latestSummary": "RBI Deputy Governor said India is the only major emerging economy expected to lower its overall debt‑to‑GDP ratio by 2031. The statement was reported by The Economic Times. No further details on the projected ratio or the assumptions behind it were provided, but the comment highlights a contrast with other emerging markets that are expected to see stable or rising debt ratios over the same period.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms"
     },
@@ -4849,12 +4794,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-28T21:40:27.456192+00:00",
+          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+          "summary": "Nvidia on Wednesday released Nemotron 3.5 Transcribe , a free, open-weight model that transcribes audio in up to 40 languages. Nvidia’s latest voice entry comes during a busy period of AI voice releases: Mistral shipped Voxtral 3 earlier this month; ElevenLabs launched Realtime for instant speech in voice agents; and Salesforce released Launa-Omni, its voice model.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
+      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
       "cat": "AI",
       "latestTitle": "Voice AI in vogue: Nvidia releases new open transcription model",
-      "latestSummary": "**Image Credits:**TechCrunch/AI generated Julie Bort Voice AI in vogue: Nvidia releases new open transcription model Nvidia on Wednesday released Nemotron 3.5 Transcribe, a free, open-weight model that transcribes audio in up to 40 languages. Nvidia boasts that Nemotron 3.5 can translate 31 languages to and from English, handle recordings up to an hour long, and tell up to eight speakers apart.",
+      "latestSummary": "Nvidia on Wednesday released Nemotron 3.5 Transcribe , a free, open-weight model that transcribes audio in up to 40 languages. Nvidia’s latest voice entry comes during a busy period of AI voice releases: Mistral shipped Voxtral 3 earlier this month; ElevenLabs launched Realtime for instant speech in voice agents; and Salesforce released Launa-Omni, its voice model.",
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
     },
@@ -4907,7 +4865,82 @@
       "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. joan October 28, 2026 at 11:53 am Amber M., Spoken like a true MAGA person.",
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://globalnews.ca/news/12124110/mark-carney-trade-deal-not-right-now-us-midterms/"
+    },
+    "8ca9da7987bfb2": {
+      "id": "8ca9da7987bfb2",
+      "firstSeen": "2026-10-28T21:24:41+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T21:40:27.456192+00:00",
+          "title": "High‑speed Renfe train rear‑ends Iryo service after signalling error in Spain",
+          "summary": "Two high‑speed trains traveling south from Madrid to Seville were stopped after a computer failure in the automatic signalling system. The Renfe train, carrying 397 passengers, was mistakenly ordered to proceed and collided with the preceding Iryo train, which had 147 passengers, between Mora and Orgaz about 140 km south of Madrid. The crash caused broken arms, broken noses and a rail to pierce a passenger’s roof.",
+          "importanceScore": 14.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
+      "cat": "World",
+      "latestTitle": "High‑speed Renfe train rear‑ends Iryo service after signalling error in Spain",
+      "latestSummary": "Two high‑speed trains traveling south from Madrid to Seville were stopped after a computer failure in the automatic signalling system. The Renfe train, carrying 397 passengers, was mistakenly ordered to proceed and collided with the preceding Iryo train, which had 147 passengers, between Mora and Orgaz about 140 km south of Madrid. The crash caused broken arms, broken noses and a rail to pierce a passenger’s roof.",
+      "why": "It shows how signalling and operational failures can jeopardize passenger safety.",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
+    },
+    "de6b4f50af1c97": {
+      "id": "de6b4f50af1c97",
+      "firstSeen": "2026-10-28T21:34:30+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T21:40:27.456192+00:00",
+          "title": "Microsoft reports $10 billion revenue from OpenAI in Q3 2026",
+          "summary": "Microsoft said it earned $10 billion from commercial arrangements with OpenAI in the quarter ended September 30, 2026, about 11 % of its total quarterly revenue of $92.3 billion. For the full 2026 fiscal year, OpenAI‑related revenue was $24.1 billion, and the quarterly pace suggests an annualized $40 billion. Receivables from OpenAI stood at $7.2 billion at quarter‑end.",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
+      "cat": "AI",
+      "latestTitle": "Microsoft reports $10 billion revenue from OpenAI in Q3 2026",
+      "latestSummary": "Microsoft said it earned $10 billion from commercial arrangements with OpenAI in the quarter ended September 30, 2026, about 11 % of its total quarterly revenue of $92.3 billion. For the full 2026 fiscal year, OpenAI‑related revenue was $24.1 billion, and the quarterly pace suggests an annualized $40 billion. Receivables from OpenAI stood at $7.2 billion at quarter‑end.",
+      "why": "The figure shows the scale of Microsoft’s financial exposure to OpenAI, which could affect both companies’ earnings and strategic decisions.",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    },
+    "f89f7ec9829002": {
+      "id": "f89f7ec9829002",
+      "firstSeen": "2026-10-28T19:41:20+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-28T21:40:27.456192+00:00",
+          "title": "Green financing in India rises to $82 billion, but flows mostly to established sectors: Report",
+          "summary": "The Landscape of Green Finance in India, now in its fourth edition, maps actual finance flows or disbursements across sources, instruments, sectors, and subsectors for financial years 2022-23 and 2023-24. According to the report, while green finance has increased substantially between 2016-17 and 2023-24, financial flows remain concentrated in established sectors and technologies.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
+      "cat": "India",
+      "latestTitle": "Green financing in India rises to $82 billion, but flows mostly to established sectors: Report",
+      "latestSummary": "The Landscape of Green Finance in India, now in its fourth edition, maps actual finance flows or disbursements across sources, instruments, sectors, and subsectors for financial years 2022-23 and 2023-24. According to the report, while green finance has increased substantially between 2016-17 and 2023-24, financial flows remain concentrated in established sectors and technologies.",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/green-financing-in-india-rises-to-82-billion-but-flows-mostly-to-established-sectors-report/articleshow/135279184.cms"
     }
   },
-  "updated": "2026-10-28T16:39:46.025347+00:00"
+  "updated": "2026-10-28T21:40:27.456192+00:00"
 }

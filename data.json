@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-28T16:39:46.025347+00:00",
+  "updated": "2026-10-28T21:40:27.456192+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 15,
+    "officialOrPrimaryCandidates": 20,
     "enrichedCandidates": 80,
-    "readableCandidates": 60,
+    "readableCandidates": 58,
     "eventClusters": 55,
-    "materialEvents": 17,
-    "selectedEvents": 9,
-    "seededStories": 8,
+    "materialEvents": 18,
+    "selectedEvents": 10,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -30,7 +30,7 @@
       "sourceCount": 1,
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss",
-      "summary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 % on Oct 28, marking its first hike since 2023. Governor Tiff Macklem said the move is intended to reduce the risk that rising energy prices will broaden inflation, which was 3.1 % in September, largely driven by the Middle‑East conflict. The rate had been held at 2.25 % for seven consecutive meetings, and the next decision is set for Dec 9.",
+      "summary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, marking its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move is needed to lower the risk that elevated energy prices will spread to broader inflation, while keeping the rate low enough not to restrain growth. Canada’s annual inflation was 3.1 percent in September, driven largely by surging energy costs.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "confidence": "high",
       "verified": true,
@@ -43,12 +43,89 @@
         }
       ],
       "firstSeen": "2026-10-28T12:33:56+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-28T16:39:46.025347+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-28T21:40:27.456192+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Bank of Canada raises benchmark rate to 2.5%",
+      "previousSummary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 % on Oct 28, marking its first hike since 2023. Governor Tiff Macklem said the move is intended to reduce the risk that rising energy prices will broaden inflation, which was 3.1 % in September, largely driven by the Middle‑East conflict. The rate had been held at 2.25 % for seven consecutive meetings, and the next decision is set for Dec 9.",
+      "previousPublishedAt": "2026-10-28T12:33:56+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 18.7,
+      "changed": true,
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "8ca9da7987bfb2",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "High‑speed Renfe train rear‑ends Iryo service after signalling error in Spain",
+      "publishedAt": "2026-10-28T21:24:41+00:00",
+      "importanceScore": 14.8,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
+      "summary": "Two high‑speed trains traveling south from Madrid to Seville were stopped after a computer failure in the automatic signalling system. The Renfe train, carrying 397 passengers, was mistakenly ordered to proceed and collided with the preceding Iryo train, which had 147 passengers, between Mora and Orgaz about 140 km south of Madrid. The crash caused broken arms, broken noses and a rail to pierce a passenger’s roof.",
+      "why": "It shows how signalling and operational failures can jeopardize passenger safety.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-28T21:24:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T21:24:41+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-28T21:40:27.456192+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "de6b4f50af1c97",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Microsoft reports $10 billion revenue from OpenAI in Q3 2026",
+      "publishedAt": "2026-10-28T21:34:30+00:00",
+      "importanceScore": 13.2,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "summary": "Microsoft said it earned $10 billion from commercial arrangements with OpenAI in the quarter ended September 30, 2026, about 11 % of its total quarterly revenue of $92.3 billion. For the full 2026 fiscal year, OpenAI‑related revenue was $24.1 billion, and the quarterly pace suggests an annualized $40 billion. Receivables from OpenAI stood at $7.2 billion at quarter‑end.",
+      "why": "The figure shows the scale of Microsoft’s financial exposure to OpenAI, which could affect both companies’ earnings and strategic decisions.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+          "publishedAt": "2026-10-28T21:34:30+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T21:34:30+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-28T21:40:27.456192+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -60,13 +137,13 @@
       "categories": [
         "India"
       ],
-      "title": "India projected to lower debt‑to‑GDP ratio by 2031, says RBI Deputy Governor",
+      "title": "India projected to cut debt‑to‑GDP ratio by 2031, says RBI deputy governor",
       "publishedAt": "2026-10-28T14:59:48+00:00",
-      "importanceScore": 13.5,
+      "importanceScore": 12.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms",
-      "summary": "The RBI Deputy Governor said India is the only major emerging economy expected to reduce its debt‑to‑GDP ratio by 2031. This comment was reported in an Economic Times article. The article did not provide any specific figures or additional context for the projection.",
+      "summary": "RBI Deputy Governor said India is the only major emerging economy expected to lower its overall debt‑to‑GDP ratio by 2031. The statement was reported by The Economic Times. No further details on the projected ratio or the assumptions behind it were provided, but the comment highlights a contrast with other emerging markets that are expected to see stable or rising debt ratios over the same period.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -79,49 +156,49 @@
         }
       ],
       "firstSeen": "2026-10-28T14:59:48+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-28T16:39:46.025347+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-28T21:40:27.456192+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "India projected to lower debt‑to‑GDP ratio by 2031, says RBI Deputy Governor",
+      "previousSummary": "The RBI Deputy Governor said India is the only major emerging economy expected to reduce its debt‑to‑GDP ratio by 2031. This comment was reported in an Economic Times article. The article did not provide any specific figures or additional context for the projection.",
+      "previousPublishedAt": "2026-10-28T14:59:48+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.5,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
-      "id": "d0afcbbff873e0",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "f89f7ec9829002",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "Indian Markets"
+        "India"
       ],
-      "title": "US stocks today: US stocks turn choppy as megacaps offset chip gains before Fed meet",
-      "publishedAt": "2026-10-28T13:39:22+00:00",
-      "importanceScore": 12.6,
+      "title": "Green financing in India rises to $82 billion, but flows mostly to established sectors: Report",
+      "publishedAt": "2026-10-28T19:41:20+00:00",
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-sk-hynix-lifts-chips-fed-meet-in-focus/articleshow/135267943.cms",
-      "summary": "US stocks trade in a narrow range as chip gains after strong SK Hynix results are offset by losses in heavyweight technology stocks, while investors await the Fed decision and key earnings. In an October 15 letter sent following a state AI safety panel, the company advocated for judicial oversight over prospective releases while opposing mandatory \"kill switches\" that can shut down entire AI models, favoring more targeted measures like disabling specific problematic agents or user access instead.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/green-financing-in-india-rises-to-82-billion-but-flows-mostly-to-established-sectors-report/articleshow/135279184.cms",
+      "summary": "The Landscape of Green Finance in India, now in its fourth edition, maps actual finance flows or disbursements across sources, instruments, sectors, and subsectors for financial years 2022-23 and 2023-24. According to the report, while green finance has increased substantially between 2016-17 and 2023-24, financial flows remain concentrated in established sectors and technologies.",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-sk-hynix-lifts-chips-fed-meet-in-focus/articleshow/135267943.cms",
-          "publishedAt": "2026-10-28T13:39:22+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-meeting-live-updates-dow-jones-nasdaq-sp-500-us-stock-market-today-kevin-warsh-fomc-meet-rate-cut-news-28th-oct/liveblog/135265171.cms",
-          "publishedAt": "2026-10-28T12:03:22+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/green-financing-in-india-rises-to-82-billion-but-flows-mostly-to-established-sectors-report/articleshow/135279184.cms",
+          "publishedAt": "2026-10-28T19:41:20+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T13:39:22+00:00",
+      "firstSeen": "2026-10-28T19:41:20+00:00",
       "status": "New",
-      "lastChecked": "2026-10-28T16:39:46.025347+00:00",
+      "lastChecked": "2026-10-28T21:40:27.456192+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -129,6 +206,47 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
+    },
+    {
+      "id": "01066d3a8f8013",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "publishedAt": "2026-10-28T15:00:00+00:00",
+      "importanceScore": 11.5,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "summary": "Nvidia on Wednesday released Nemotron 3.5 Transcribe , a free, open-weight model that transcribes audio in up to 40 languages. Nvidia’s latest voice entry comes during a busy period of AI voice releases: Mistral shipped Voxtral 3 earlier this month; ElevenLabs launched Realtime for instant speech in voice agents; and Salesforce released Launa-Omni, its voice model.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+          "publishedAt": "2026-10-28T15:00:00+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:00:00+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-28T21:40:27.456192+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "previousSummary": "**Image Credits:**TechCrunch/AI generated Julie Bort Voice AI in vogue: Nvidia releases new open transcription model Nvidia on Wednesday released Nemotron 3.5 Transcribe, a free, open-weight model that transcribes audio in up to 40 languages. Nvidia boasts that Nemotron 3.5 can translate 31 languages to and from English, handle recordings up to an hour long, and tell up to eight speakers apart.",
+      "previousPublishedAt": "2026-10-28T15:00:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.3,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "974b34962af1c8",
@@ -139,11 +257,11 @@
       ],
       "title": "India’s record bank cash surplus fades as RBI curbs rupee bets",
       "publishedAt": "2026-10-28T02:26:28+00:00",
-      "importanceScore": 12.6,
+      "importanceScore": 11.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms",
-      "summary": "By Pratigya Vajpayee and Siddhi Nayak, Bloomberg Last Updated: Oct 28, 2026, 07:56:00 AM IST Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
+      "summary": "Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "low",
       "verified": false,
@@ -157,185 +275,36 @@
       ],
       "firstSeen": "2026-10-28T02:26:28+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-28T16:39:46.025347+00:00",
+      "lastChecked": "2026-10-28T21:40:27.456192+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "Indian banks' cash surplus shrinks as RBI tightens liquidity to curb rupee speculation",
-      "previousSummary": "Indian banks' excess funds have fallen sharply as the Reserve Bank of India kept liquidity tight to deter speculation against the rupee, which has reached critical levels. The RBI capped its liquidity assistance at 1.5 trillion rupees, and overnight borrowing rates have risen close to the top of the policy corridor.",
+      "previousTitle": "India’s record bank cash surplus fades as RBI curbs rupee bets",
+      "previousSummary": "By Pratigya Vajpayee and Siddhi Nayak, Bloomberg Last Updated: Oct 28, 2026, 07:56:00 AM IST Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
       "previousPublishedAt": "2026-10-28T02:26:28+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.6,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "01066d3a8f8013",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
-      "publishedAt": "2026-10-28T15:00:00+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-      "summary": "**Image Credits:**TechCrunch/AI generated Julie Bort Voice AI in vogue: Nvidia releases new open transcription model Nvidia on Wednesday released Nemotron 3.5 Transcribe, a free, open-weight model that transcribes audio in up to 40 languages. Nvidia boasts that Nemotron 3.5 can translate 31 languages to and from English, handle recordings up to an hour long, and tell up to eight speakers apart.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-          "publishedAt": "2026-10-28T15:00:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:00:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-28T16:39:46.025347+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "cc90b46a9d4883",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Acutaas Chemicals among 5 stocks hitting 52-week highs; rallied up to 18% in a month",
-      "publishedAt": "2026-10-28T13:44:25+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/acutaas-chemicals-among-5-stocks-hitting-52-week-highs-rallied-up-to-18-in-a-month/slideshow/135268346.cms",
-      "summary": "Despite the market decline, five stocks from the BSE 500 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/acutaas-chemicals-among-5-stocks-hitting-52-week-highs-rallied-up-to-18-in-a-month/slideshow/135268346.cms",
-          "publishedAt": "2026-10-28T13:44:25+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T13:44:25+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-28T16:39:46.025347+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "43a2dba8c3212a",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Canada not near trade deal with U.S. before midterms, Carney says",
-      "publishedAt": "2026-10-28T15:11:10+00:00",
-      "importanceScore": 12.0,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12124110/mark-carney-trade-deal-not-right-now-us-midterms/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. joan October 28, 2026 at 11:53 am Amber M., Spoken like a true MAGA person.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12124110/mark-carney-trade-deal-not-right-now-us-midterms/",
-          "publishedAt": "2026-10-28T15:11:10+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:11:10+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-28T16:39:46.025347+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "d004d8bb9e7d70",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Ceasefire extended to wider Kherson region",
-      "publishedAt": "2026-10-27T22:11:08+00:00",
-      "importanceScore": 11.5,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
-      "summary": "A ceasefire that began early Tuesday to allow food and medicine deliveries to the Russian‑occupied city of Oleshky has been broadened to cover the larger Kherson region, officials said. Several thousand residents of Oleshky remain without electricity, food or water, and all road routes out are considered unsafe. No violations of the truce have been reported so far.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-27T22:11:08+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-27T22:11:08+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-28T16:39:46.025347+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Ceasefire extended to cover Kherson region",
-      "previousSummary": "A ceasefire that began on Tuesday to allow food and medicine into the Russian‑occupied city of Oleshky has been broadened to include the wider southern Kherson region, officials said. Several thousand Oleshky residents remain trapped without electricity, food or water, and all roads out are deemed unsafe. No violations of the truce have been reported since it started.",
-      "previousPublishedAt": "2026-10-27T22:11:08+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.5,
+      "previousImportanceScore": 12.6,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 4,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-28T09:43:18.420398+00:00",
+  "previousUpdated": "2026-10-28T16:39:46.025347+00:00",
   "changeSummary": {
-    "new": 6,
-    "updated": 1,
-    "continuing": 1
+    "new": 3,
+    "updated": 2,
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-25T19:39:43.521031+00:00",
-    "updated": "2026-10-28T16:39:46.025347+00:00",
+    "availableFrom": "2026-10-25T22:35:09.182035+00:00",
+    "updated": "2026-10-28T21:40:27.456192+00:00",
     "snapshotCount": 12,
-    "eventCount": 88,
+    "eventCount": 85,
     "retentionHours": 72
   }
 }
