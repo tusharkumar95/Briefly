@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-28T02:35:07.085110+00:00",
+  "updated": "2026-10-28T08:59:13.419260+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX climbs to six‑day high as metal miners, technology and financials lead gains",
+      "headline": "TSX climbs 0.63% to six‑day high",
       "direction": "up",
       "move": "S&P/TSX Composite +0.63%",
-      "why": "Metal miners and Celestica led the rally, while base‑metal, technology and financial stocks also advanced; the rise was reinforced by anticipation of upcoming Bank of Canada and Federal Reserve meetings.",
+      "why": "Broad gains in base metals, technology (led by Celestica) and financial stocks, reinforced by anticipation of the Bank of Canada and Federal Reserve meetings.",
       "drivers": [
         {
           "label": "Base Metals, Technology and Financial Stocks Advance",
@@ -21,19 +21,19 @@
           "kind": "driver"
         },
         {
-          "label": "Metal miners",
-          "detail": "Metal mining stocks led the rally, pushing the index higher.",
+          "label": "upcoming Bank of Canada meeting in focus",
+          "detail": "Yahoo Finance Australia explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Base metals",
-          "detail": "Base‑metal sector advanced, contributing to the index gains.",
+          "label": "Base metals / mining",
+          "detail": "Metal miners and the mining sector led the rally, accounting for a large part of the advance.",
           "kind": "driver"
         }
       ],
       "sectors": [
-        "Mining",
         "Base Metals",
+        "Mining",
         "Technology",
         "Financials"
       ],
@@ -41,9 +41,9 @@
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36171.49,
+        "price": 36171.5,
         "previousClose": 35944.2,
-        "change": 227.29,
+        "change": 227.3,
         "changePct": 0.63,
         "currency": "CAD",
         "exchange": "TSI",
@@ -58,12 +58,6 @@
           "title": "TSX hits six-day high, led by Celestica and metal miners - Reuters",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUzZJNFkxOG5qbnV3cmp6eHhXQmlCNkgzakNXUzBBT1RxczN6T3NnN2UwMlBUcjRGWVFHcUVYMTFPUjdWRkdDd2xWNjRIVDNnWFNLeFlUc0FlYUJOU0RHdmZYb2pPTXNKUTdTSkVOa2Y3ZGlQcmwwTl8zd2gyUzJ2bXQ1YlFQTGpxc1RleEJDZlpYbnYwVVNrQkVn?oc=5",
           "publishedAt": "2026-10-27T20:32:34+00:00"
-        },
-        {
-          "name": "Investing.com India",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.63% By Investing.com - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHF5M3pYX3dmV1R4b0hvdFhjUUJoRE0wRnVIYVJzVjhLbklqc3A5UlBuZVFySkRoMjdXcjlJMzFzQ2haRERReW9jU2RNa0tCdWxGRUc4TFJQaXoxQXVCQWt1aWFkdGxiNks2MjBlUE5yTW9BNDlIQTFxdl83X09UQjVxeEZza3NITGNTdXdMU3hXbi05TnJvUktEcmRBR1M1TFpaak5HLXZBUTJlM0k5UFRDc1lIMWw0?oc=5",
-          "publishedAt": "2026-10-27T20:38:09+00:00"
         },
         {
           "name": "Investing.com",
@@ -88,62 +82,91 @@
           "title": "TSX Closer: The Index Closes Higher as Base Metals, Technology and Financial Stocks Advance - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaF83Q2R3dmhEbUl2cVE4MTNwcTNEY2JSRHJXVGt6N3NuUFVvOVpJUjh1VFdmYVpxMUVpUTh4S2ZxOVJ1Y3ByQllFaW04NWtpSUQ0QU0tMUpoVTNCZWtvYmtBNWp1ZGVXSzcxclN6Rlppa202MW5sNlpUQzAwMzl0YmJWWXdmcXZ4cDNlVU9pLURvQkxhdElfTERXeWw2eTcxRU51VA?oc=5",
           "publishedAt": "2026-10-27T20:24:45+00:00"
+        },
+        {
+          "name": "ad-hoc-news.de",
+          "title": "S&P/ TSX Composite rises 155 points as mining leads - ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQblFjTWhlREt1U3BVVnkzbGNZczRXZnVjMXlGamg4RE9XQllyaWNIallxRXNaSC0tREFhandzNFM1U3FlMEhKYmNELWtKbFB6YVdhZTRWWm1zMDd1eFdublg2Sk1hVWlLQzNFR1dwQkh1OUhWak9qdF9SSFk3QnZyS0FCWFBBa2lQQWVaRnR0d3RoVWVtNlp2V3A3STQ0UGVTNnd3UmZ3dUx5QkNLTllHd3NpclByWkk?oc=5",
+          "publishedAt": "2026-10-27T18:00:26+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 was little changed 0.02%",
-      "direction": "flat",
-      "move": "Nifty 50 -0.02%",
-      "why": "Same-day market coverage explicitly linked the final move to: selling in bank & IT stocks, elevated crude oil prices; pressure from high crude prices and caution ahead of US Fed policy.",
+      "headline": "Nifty 50 fell 0.23%",
+      "direction": "down",
+      "move": "Nifty 50 -0.23%",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "selling in bank & IT stocks, elevated crude oil prices",
-          "detail": "ThePrint explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "pressure from high crude prices and caution ahead of US Fed policy",
-          "detail": "ANI News explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Auto, Oil & Gas Stocks Drive Sensex Higher; Nifty Settles at 7,709",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "Nifty 50 Opens 71 Points Lower at 22,678, Sensex Fell 345 Points Ahead of Jio Platforms De",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22749.75,
-        "previousClose": 22753.2,
-        "change": -3.45,
-        "changePct": -0.02,
+        "price": 22696.4,
+        "previousClose": 22749.75,
+        "change": -53.35,
+        "changePct": -0.23,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-27T10:01:21+00:00",
+        "asOf": "2026-10-28T08:59:28+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 73598.67,
-        "previousClose": 73606.75,
-        "change": -8.08,
-        "changePct": -0.01,
+        "price": 73273.47,
+        "previousClose": 73598.67,
+        "change": -325.2,
+        "changePct": -0.44,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-27T10:02:28+00:00",
+        "asOf": "2026-10-28T08:44:28+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "The Financial Express",
-          "title": "Sensex, Nifty Today: GIFT Nifty signals weak start as Brent Crude continues over $115/bbl - The Financial Express",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObjBpUzNFd25jMzZNSndqUjJ0LV9RNDVQWkZaVFBKenhPRTg4OW5OTk5EWmVZOGwtMGtRQTFHYnljU283ZUtZeWlMU3RSZk5SZXBRajUwOU84cUg5OHU2TXlWVDNqQ2s4WWhnNkJ3T21JTVBoYjN3US1ha3BKYWhOWnRONW82a0lPVTZ2SW85Rmx1OU5qaEJSUWFCTlhrWnIwbmRsRzFvZjY5VnFpbzIxZk9IUXFKblM4M2pVVEJ2UjI0X09aY1ZXcl9FUXBmR3fSAdYBQVVfeXFMUHA2MEw5RC1kWVgtWS13RkxSU1N4a19xbWdkaF9nTkxKWllpYjVmNmJWajhpXzVtVG9KUVBkLUNnNVZGOExHaFZZSmNMSzNjR2NfRFh5RWJoVWh5eEdITG1jdld0aHRCb082dF9NOTN0dG95enEzUDBLZmNwZzhEMlM3dUUzRWlXNGJPTVpHalh4Z1dBTmZjWlRXZlVCeVV3OWJhVGVrdTJPTER1c2tQUzNpSm5TWk9rckxEYTRKcWt0SzlwNlRzNzlWd2lFOVNMb2RBcG5yQQ?oc=5",
-          "publishedAt": "2026-10-28T01:45:13+00:00"
+          "name": "INDIA New England News",
+          "title": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2w0OExuLXNXNkItVEJweDJtWkZCQlBkZUQ4LUYtNDlqVVRyQU5WemdBSUhnY3gwWGdza2Z2UXUwUC1MSE9SQzNkenpXR1RIWFpTdHctRE84dDlOWVEtYTNzS1Yzb09fZFlZTG1pMkc0N3lCQ2l3Rl96eFV4QnphVVhWTDVBUnhTSGo1LVgzWHhjbmZobWt0S3d6WQ?oc=5",
+          "publishedAt": "2026-10-28T05:16:26+00:00"
+        },
+        {
+          "name": "NDTV Profit",
+          "title": "Auto, Oil & Gas Stocks Drive Sensex Higher; Nifty Settles at 7,709 - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONmFjakNfNEoxY3JVTmp4ai1aUl9DZklkUXhaeUlmb3ZTNW4xVGVjUWN5WkpjWS1zSGVKZWdYQktfQzVKMHF6anN2eWk0ZjdXaktob0tqbF9GSVl6OTJwYlE4d2pJN2h2NWp2dU1Ua0lXS1M3UGZUUVdIS3ZxMzZTNk1OaHYySlVyMmlNeTYtb3ROaE03Wi1GMFNkbzFpV28xMG5faDZ6eF9mWU1tOGc?oc=5",
+          "publishedAt": "2026-10-28T02:04:10+00:00"
+        },
+        {
+          "name": "Analytics Insight",
+          "title": "Nifty 50 Opens 71 Points Lower at 22,678, Sensex Fell 345 Points Ahead of Jio Platforms Debut - Analytics Insight",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWFpmZ0NQSThCNGF5eF8tU0NHSzI0SXBmR2VQenRxQ0xnLXhLRjR4akhGN1ZCOFR5cGpjY1h6Y2ZUeUcxZUVCM29Jdm5ITjZCUV80b1RlX1B1WWE0dW1qa2VXeE16OWR2M2FuQ1o4eUM1LWlQZmpsRnkwbHRQMm9CXzI4YnJpNENBaEZWSkF1enExR3BnVmpVOXdqWm1kS2NOX3JEN2pNRTBTZ2pENzBqemtYRy1oVGJoZDJheEF5bHZxU1VSOEI0VzVPNNIB2AFBVV95cUxOZVExSzNvT29mXzJBYzFfV2ttSGpZa1U1Qm9ZYUNTWURUSnRDRWl3ZF9PYUJpRHVOTEFFdUpSOVBudHkxajZpZFRSN1lJUVR2Q2hFaFdsVi1qWXNTS0hicEk3MTR4WVVkemZMb1VLem1Ebk80bFhsSjN5WGtMM01RSlRrLWl1OXRESGVSTGZNZWtZYVBQTHYxYnA2VTNQQTVub05Qb29UZzBoMkxodlhZTlNpeXM2dGFsR2Uxakx0LVRpM2tGalAwcEFhMXFteWxkZkliaTBxQTA?oc=5",
+          "publishedAt": "2026-10-28T05:04:12+00:00"
+        },
+        {
+          "name": "MillenniumPost",
+          "title": "Sensex, Nifty close largely unchanged amid selling in bank & IT stocks, elevated oil prices - MillenniumPost",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbHRhdU1rSTltWkVCYVR4c2ZPZzFIV1BobW5tTVFXclJWQzJLYnBhclVMcC1Fa09YbF8wZUJoTkExZEhWdzVXTUx4QVhFazZHamhpb0p4VmFvNW5RREpaRTJOQzM2NldpUmJEWUhzODhOa0ZlanB4UkttUFVEazJtUko5VjdOQWhXekxwckg5clFiaG1KN19MMDVkVDFYdUVJSjJsVVAxX0JxbExrM25mWUdZMXc5OVZWN2dMMGM4VU9oZkRCT2pXTFBVSHFEYXc0Q0RB0gHTAUFVX3lxTFBsdGF1TWtJOW1aRUJhVHhzZk9nMUhXUGhtbm1NUVdyUlZDMkticGFyVUxwLUVrT1hsXzBlQmhOQTFkSFZ3NVdNTHhBWEVrNkdqaGlvSnhWYW81blFESlpFMk5DMzY2V2lSYkRZSHM4OE5rRmVqcHhSS21QVURrMm1SSjlWN05BaFd6THBySDlyUWJobUo3X0wwNWRUMVh1RUlKMmxVUDFfQnFsTGszbmZZR1kxdzk5VlY3Z0wwYzhVT2hmREJPaldMUFVIcURhdzRDREE?oc=5",
+          "publishedAt": "2026-10-27T17:37:00+00:00"
         },
         {
           "name": "ThePrint",
@@ -152,28 +175,10 @@
           "publishedAt": "2026-10-27T11:45:41+00:00"
         },
         {
-          "name": "ANI News",
-          "title": "Nifty, Sensex close flat amid pressure from high crude prices and caution ahead of US Fed policy - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSFBtUFJmM3hPblNvT1VQemlJRFl5WDV1Y0NuREtvVk1abHQxWkROczktb09iMXAzd2xMRi1yUGxyNHVxdkdVbnlBbkRLaXAzS1VMRWVMSm4tckVTUUF1aEpvb2tWem55TUd4Smx5S2IzMUl1RTZlR3lhYjJQM0xfTU9Ya2FRRmxRWWRWSnpzYVlNaWxTbk9MYlFPRm5sT1FRTTBWWVhSa0h6MlNzSVM5WFhrN29JUTRkeGdRX01UeksxWlk2cllkek9GSEtCZ1NkZ0E3MHVVMndTczVRUFBkamtVOA?oc=5",
-          "publishedAt": "2026-10-27T10:22:00+00:00"
-        },
-        {
-          "name": "Daijiworld",
-          "title": "Sensex, Nifty open lower as high crude oil prices weigh on sentiment - Daijiworld",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12X2N5T3c1UnltNS1wcTZsLWQ3MTI1dWJBRzZvcFVBM2VSb2Q4TTRxRElnVEp0MzF5aDRjckhKRDV2bHVybFJ3S2t5WW55NVMxaThwdG9YT3ZKa3pRbk83ZXQ5OFF6VUU5SHc?oc=5",
-          "publishedAt": "2026-10-27T07:08:36+00:00"
-        },
-        {
-          "name": "Analytics Insight",
-          "title": "Stock Market Update: Nifty 50 Opened 44.4 points Lower at 22,708, Sensex Fell 122 points Amid Elevated Oil Prices - Analytics Insight",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQVFkaVJhemRMWGZDdEwxQ2F1cWRhZTU0MlNOT0lTV1BmSEQyTVRnR00tUEE5QVYxN2VIdEllZlZBUHZXUmxyYVlmRGp1NGhNVEd6Tzh1UzlHSzNqUFFHVm04MVRpYUxRS0JRNmRBWHRPd2VUZzllY1MyMndxcUNuVnpuZ3MtVVNUQ3BCSGlnT01DOUZ3VDhRV3ZMTExPWl9pcXF2Vy1mbHI5Yl9ZMXVHaTctcUxCeTJOTWdxWmxFbWJsVnp0ZDBZeUVFc0JrSEFjaUdIS3hQY3dOQVZJVnlSUTdJa9IB8AFBVV95cUxNeS1Tbzllb1MtcG45U0VGT0RIRThVdm56YURTcE9pbHpDS2ZaSHdRbnM1ZG1TamJHTnhyNXJ4Z1ZuUkR4YnNqM0lqN1ZqOUpLVTdMcDMybTJhRHg0dEVNclNVTnhfNUNneGV3LVlQdURUUlNPVHdJM25Qb1loSlhJdFJnVTJ0ZTU0aWxWbkl6cnZrMlZwcnVfZFVJblFCMGgyWkxoUUpNdGFPQVdKYUZHd3FTdnc3UEhYNjdTMFVDVUx1QjNOaTFGd3RPZENvOUhKR2FDcmh3blBxeW1CcHpkeExaTm5BWWs0ZDNpTGpxTFE?oc=5",
-          "publishedAt": "2026-10-27T05:01:04+00:00"
-        },
-        {
-          "name": "HDFC Sky",
-          "title": "India VIX Slips to 16.92 as Sensex, Nifty Open Lower Today - HDFC Sky",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNei1wMUthNjQ4NHdua1NBeE1EQnRtUHRQU3hJYjMxXy1zTlhWRWxnS2JDdGNaZ2dtME9McGluelNrTWV6UC1zdGQ2c3F2R3JxNmhUTlp5a3VMSk9rREtJQmRUaFBUTk9HTlV0RkpsbnozejNSTlBfZjdYRFZWOW56TEpyaDhYNVNZcXozaGd0QUEyREREYWRKV0ZNczNDNzlmU0lxSVlJOW9NaWhyeFM5TVZ1Sm9TRFQ2OWxN?oc=5",
-          "publishedAt": "2026-10-27T04:50:31+00:00"
+          "name": "Equitymaster",
+          "title": "Sensex Today Ends Flat | Nifty Below 22,750 | Axis Bank & Asian Paints Top Losers - Equitymaster",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZnZSRWJxOEQyWXg1YVB1VXlXeUFVbTVicHBxMkxUbnJxbnhhTlZKU3p4V0c0dk1vbjY3NVBpOFNmRVUwNWVCSC00ZkNkTDNHRHUyOVFpWVZzMXVRQzNzbWtLMGEwQ3ZRaEZCVnl4MVN1WXQtTmNVa1Z3ZVFDTTJxeHZYQzJwQlpmQU9FTjRtRldzUXhGSkJFQ2tpRURXVnJ0UTNXUmE4SE5lLUdXSmNlYkVpRGpnVzI4akcxcENlcG83QWJTNE1RZEdDOGVNVncxTnM2Nw?oc=5",
+          "publishedAt": "2026-10-27T10:44:17+00:00"
         }
       ],
       "evidenceCount": 7
