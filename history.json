@@ -3,34 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-25T22:35:09.182035+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "7e28f982b25480",
-          "cat": "Indian Markets",
-          "title": "Market cap of eight top‑10 Indian firms falls by Rs 1.55 lakh crore; HDFC Bank, Bajaj Finance lag",
-          "summary": "The Economic Times reports that the market capitalisation of eight of India’s ten largest listed companies fell by roughly Rs 1.55 lakh crore. HDFC Bank and Bajaj Finance were the biggest laggards among the group. The erosion was noted across the large‑cap segment.",
-          "why": "The decline lowers the overall market value of India’s biggest listed firms.",
-          "publishedAt": "2026-10-25T08:27:13+00:00",
-          "firstSeen": "2026-10-25T08:27:13+00:00",
-          "importanceScore": 9.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-firms-erodes-by-rs-1-55-lakh-cr-hdfc-bank-bajaj-fin-biggest-laggards/articleshow/135186713.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-26T14:18:35.903303+00:00",
       "changeSummary": {
         "new": 7,
@@ -1435,60 +1407,163 @@
           "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "9dac1597527708": {
-      "id": "9dac1597527708",
-      "firstSeen": "2026-10-21T12:14:10+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-10-29T01:49:48.288199+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 3,
+        "continuing": 2
+      },
+      "stories": [
         {
-          "at": "2026-10-21T15:18:36.679155+00:00",
-          "title": "India aims to raise manufacturing share to 25% of GDP",
-          "summary": "India plans to increase manufacturing’s contribution from roughly 16% to 25% of GDP. In an Economic Times discussion, PwC India’s Vinod Kumar and JSW Group’s Srihari Kaninghat explained how AI is being used on the shop floor—particularly in steel production—to lower material costs and forecast equipment failures. They said AI could help make manufacturing more appealing to top engineering talent.",
-          "importanceScore": 15.0,
-          "sourceCount": 2,
+          "id": "e15e2a262b647f",
+          "cat": "Canada",
+          "title": "Bank of Canada raises benchmark rate to 2.5% to address inflation risk from energy prices",
+          "summary": "On Oct 28, the Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move was needed to lower the risk that elevated energy prices, which pushed September inflation to 3.1 percent, would spread to broader inflation, while noting the rate remains low enough not to restrain growth.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-10-28T12:33:56+00:00",
+          "firstSeen": "2026-10-28T12:33:56+00:00",
+          "importanceScore": 17.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss"
+        },
+        {
+          "id": "8ca9da7987bfb2",
+          "cat": "World",
+          "title": "Renfe high‑speed train collides with Iryo train between Mora and Orgaz after signalling error",
+          "summary": "At about 08:30 local time on a Wednesday, a Renfe high‑speed train carrying 397 passengers was ordered to proceed despite a computer failure that had halted all services on the Madrid‑Seville line. It struck the rear of an Iryo train with 147 passengers between the municipalities of Mora and Orgaz, roughly 140 km south of Madrid. Several passengers suffered injuries, including broken arms, broken noses and a rail that penetrated a carriage roof.",
+          "why": "The incident highlights the need for fail‑safe signalling and clear procedural controls to avoid train collisions.",
+          "publishedAt": "2026-10-28T21:24:41+00:00",
+          "firstSeen": "2026-10-28T21:24:41+00:00",
+          "importanceScore": 13.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "68b6a27f930121",
+          "cat": "World",
+          "title": "Girl seriously injured in wolf attack at Johannismühle wildlife park",
+          "summary": "An eight‑year‑old girl was seriously injured when a wolf attacked her inside an enclosure at the Johannismühle wildlife park in Brandenburg, south of Berlin. She was with a staff member and two other children at the time. The girl was air‑lifted to hospital by helicopter on Wednesday; no one else was injured and police are investigating the precise circumstances.",
+          "why": "The incident highlights safety and visitor‑protection concerns in wildlife parks.",
+          "publishedAt": "2026-10-28T22:08:52+00:00",
+          "firstSeen": "2026-10-28T22:08:52+00:00",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "d5f5920975b23b",
+          "cat": "Indian Markets",
+          "title": "RBI raises treasury bill auction cutoff yields by 20 basis points",
+          "summary": "The Reserve Bank of India announced that the cutoff yield for its most recent treasury bill auction was set 20 basis points higher than the yield used in the preceding auction. This change was disclosed in the RBI’s official auction results release. The higher cutoff establishes a new benchmark rate for short‑term government securities in the market.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-29T00:27:08+00:00",
+          "firstSeen": "2026-10-29T00:27:08+00:00",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/rbi-accepts-20-bps-higher-treasury-bill-cutoff-yields-than-last-auction/articleshow/135284706.cms"
         },
         {
-          "at": "2026-10-21T20:11:25.078127+00:00",
-          "title": "India targets 25% of GDP from manufacturing, AI seen as catalyst",
-          "summary": "In a video discussion, Vinod Kumar of PwC India and Srihari Kaninghat of JSW Group examined how artificial intelligence could help raise India’s manufacturing share of GDP from about 16 % to a stated goal of 25 %. They cited AI‑driven cost cuts, predictive maintenance of equipment and the aim to draw engineering talent back to industry. The speakers noted that most AI initiatives are still in pilot phases.",
-          "importanceScore": 14.0,
-          "sourceCount": 2,
+          "id": "465d3ba51ac11a",
+          "cat": "AI",
+          "title": "Microsoft discloses Azure Q3 revenue of $33.2 billion",
+          "summary": "Microsoft reported Azure generated $33.2 billion in the July‑September quarter, a 48% increase year‑over‑year and about $850 million above analysts’ $32.3 billion estimate. The revenue represented roughly 36% of Microsoft’s total quarterly revenue of $92.3 billion, putting Azure slightly ahead of Google Cloud’s $30.7 billion for the same period. The growth also exceeded the 44‑45% range forecast by CFO Amy Hood.",
+          "why": "Investors can now benchmark Azure directly against rival cloud providers that already disclose dollar revenue.",
+          "publishedAt": "2026-10-28T21:58:32+00:00",
+          "firstSeen": "2026-10-28T21:58:32+00:00",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+        },
+        {
+          "id": "e23790bc283973",
+          "cat": "India",
+          "title": "RBI Deputy Governor says India to cut debt‑to‑GDP ratio by 2031",
+          "summary": "The RBI Deputy Governor told the Economic Times that, based on current projections, India is the only major emerging economy expected to see its debt‑to‑GDP ratio decline by the year 2031, while other peers are projected to hold steady or rise. The statement was reported without additional quantitative details.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-28T14:59:48+00:00",
+          "firstSeen": "2026-10-28T14:59:48+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms"
+        },
+        {
+          "id": "de6b4f50af1c97",
+          "cat": "AI",
+          "title": "Microsoft reports $10 billion in OpenAI revenue for Q3",
+          "summary": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI in the quarter ended September 30, 2026, representing nearly 11% of its $92.3 billion quarterly total. Full-year 2026 OpenAI revenue was $24.1 billion, with annualized projections reaching $40 billion at the current pace. The company also reported $7.2 billion in outstanding receivables from OpenAI, up from $6 billion at end of June.",
+          "why": "It shows the scale of Microsoft's financial dependence on OpenAI despite growing competition.",
+          "publishedAt": "2026-10-28T21:34:30+00:00",
+          "firstSeen": "2026-10-28T21:34:30+00:00",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Material details changed since the previous brief."
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
         },
         {
-          "at": "2026-10-21T23:22:59.505423+00:00",
-          "title": "India targets 25 % manufacturing share of GDP, AI seen as key boost",
-          "summary": "In a discussion hosted by the Economic Times, PwC India partner Vinod Kumar and JSW Group chief digital officer Srihari Kaninghat examined India’s goal of raising manufacturing’s contribution from about 16 % to 25 % of GDP. They explained how AI on the shop floor can reduce material costs, forecast equipment failures, and improve the sector’s appeal to engineering talent, while noting that moving AI from pilots to broader deployment remains a hurdle.",
-          "importanceScore": 15.1,
-          "sourceCount": 2,
+          "id": "01066d3a8f8013",
+          "cat": "AI",
+          "title": "Nvidia releases free open‑weight transcription model Nemotron 3.5 Transcribe",
+          "summary": "Nvidia released Nemotron 3.5 Transcribe, a free open‑weight speech model that can transcribe audio in up to 40 languages, translate 31 languages to and from English, handle recordings up to an hour long, and distinguish up to eight speakers. The 30‑billion‑parameter model, which Nvidia says outperforms rivals on benchmarks such as Hugging Face’s Open ASR Leaderboard, can run on a single Nvidia chip and is aimed at developers building business‑meeting and medical‑transcription applications.",
+          "why": "It reduces technical and cost barriers for developers creating multilingual, speaker‑aware transcription tools for enterprise and healthcare use.",
+          "publishedAt": "2026-10-28T15:00:00+00:00",
+          "firstSeen": "2026-10-28T15:00:00+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Material details changed since the previous brief."
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
         }
-      ],
-      "lastSeen": "2026-10-21T23:22:59.505423+00:00",
-      "cat": "India",
-      "latestTitle": "India targets 25 % manufacturing share of GDP, AI seen as key boost",
-      "latestSummary": "In a discussion hosted by the Economic Times, PwC India partner Vinod Kumar and JSW Group chief digital officer Srihari Kaninghat examined India’s goal of raising manufacturing’s contribution from about 16 % to 25 % of GDP. They explained how AI on the shop floor can reduce material costs, forecast equipment failures, and improve the sector’s appeal to engineering talent, while noting that moving AI from pilots to broader deployment remains a hurdle.",
-      "why": "Achieving the target is a stated policy objective for expanding manufacturing’s role in the economy.",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/india-wants-manufacturing-at-25-of-gdp-will-ai-in-factories-help/videoshow/130171220.cms"
-    },
+      ]
+    }
+  ],
+  "events": {
     "2a37d0c0597d09": {
       "id": "2a37d0c0597d09",
       "firstSeen": "2026-10-21T12:26:43+00:00",
@@ -1667,56 +1742,6 @@
       "latestSummary": "The RBI’s Monetary Policy Committee increased the benchmark repo rate by 25 basis points to address rising inflation concerns. Governor Sanjay Malhotra said inflation is broadening, with many commodities above 4%, and Deputy Governor Poonam Gupta noted external supply‑side shocks adding to price pressures. External members warned that an aggressive hike could dampen economic growth.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-widening-inflation-risks-puts-rate-cuts-on-ice/articleshow/135100146.cms"
-    },
-    "118c43dfd3a573": {
-      "id": "118c43dfd3a573",
-      "firstSeen": "2026-10-21T13:35:50+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T23:22:59.505423+00:00",
-          "title": "Jio Platforms IPO analysis examines potential impact on Reliance Industries shareholders",
-          "summary": "A video from Economic Times examines how the upcoming Jio Platforms stock market listing could affect the value of Reliance Industries Ltd.’s shares. The discussion focuses on the holding‑company discount, estimates the worth of Reliance’s stake in Jio, and explains why the IPO might change investor perception of Reliance.",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T23:22:59.505423+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Jio Platforms IPO analysis examines potential impact on Reliance Industries shareholders",
-      "latestSummary": "A video from Economic Times examines how the upcoming Jio Platforms stock market listing could affect the value of Reliance Industries Ltd.’s shares. The discussion focuses on the holding‑company discount, estimates the worth of Reliance’s stake in Jio, and explains why the IPO might change investor perception of Reliance.",
-      "why": "Investors may need to reassess Reliance’s valuation based on the Jio IPO’s effect.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/can-jio-ipo-unlock-hidden-value-in-reliance-industries-shares/videoshow/135093782.cms"
-    },
-    "3d3e7a0d1eaf66": {
-      "id": "3d3e7a0d1eaf66",
-      "firstSeen": "2026-10-21T20:27:41+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-21T23:22:59.505423+00:00",
-          "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-          "summary": "Flint is a free coding model that can run on a laptop and was built largely with the help of AI. For now, Recursive’s version is more limited: an AI research assistant overseen by people that produced a model small enough for a laptop.",
-          "importanceScore": 11.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-21T23:22:59.505423+00:00",
-      "cat": "AI",
-      "latestTitle": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-      "latestSummary": "Flint is a free coding model that can run on a laptop and was built largely with the help of AI. For now, Recursive’s version is more limited: an AI research assistant overseen by people that produced a model small enough for a laptop.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
     },
     "bea2f04507ffe9": {
       "id": "bea2f04507ffe9",
@@ -4706,12 +4731,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-10-29T01:49:48.288199+00:00",
+          "title": "Bank of Canada raises benchmark rate to 2.5% to address inflation risk from energy prices",
+          "summary": "On Oct 28, the Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move was needed to lower the risk that elevated energy prices, which pushed September inflation to 3.1 percent, would spread to broader inflation, while noting the rate remains low enough not to restrain growth.",
+          "importanceScore": 17.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
+      "lastSeen": "2026-10-29T01:49:48.288199+00:00",
       "cat": "Canada",
-      "latestTitle": "Bank of Canada raises benchmark rate to 2.5%",
-      "latestSummary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, marking its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move is needed to lower the risk that elevated energy prices will spread to broader inflation, while keeping the rate low enough not to restrain growth. Canada’s annual inflation was 3.1 percent in September, driven largely by surging energy costs.",
+      "latestTitle": "Bank of Canada raises benchmark rate to 2.5% to address inflation risk from energy prices",
+      "latestSummary": "On Oct 28, the Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move was needed to lower the risk that elevated energy prices, which pushed September inflation to 3.1 percent, would spread to broader inflation, while noting the rate remains low enough not to restrain growth.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss"
     },
@@ -4744,12 +4782,25 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-29T01:49:48.288199+00:00",
+          "title": "RBI Deputy Governor says India to cut debt‑to‑GDP ratio by 2031",
+          "summary": "The RBI Deputy Governor told the Economic Times that, based on current projections, India is the only major emerging economy expected to see its debt‑to‑GDP ratio decline by the year 2031, while other peers are projected to hold steady or rise. The statement was reported without additional quantitative details.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
+      "lastSeen": "2026-10-29T01:49:48.288199+00:00",
       "cat": "India",
-      "latestTitle": "India projected to cut debt‑to‑GDP ratio by 2031, says RBI deputy governor",
-      "latestSummary": "RBI Deputy Governor said India is the only major emerging economy expected to lower its overall debt‑to‑GDP ratio by 2031. The statement was reported by The Economic Times. No further details on the projected ratio or the assumptions behind it were provided, but the comment highlights a contrast with other emerging markets that are expected to see stable or rising debt ratios over the same period.",
+      "latestTitle": "RBI Deputy Governor says India to cut debt‑to‑GDP ratio by 2031",
+      "latestSummary": "The RBI Deputy Governor told the Economic Times that, based on current projections, India is the only major emerging economy expected to see its debt‑to‑GDP ratio decline by the year 2031, while other peers are projected to hold steady or rise. The statement was reported without additional quantitative details.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms"
     },
@@ -4807,13 +4858,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-10-29T01:49:48.288199+00:00",
+          "title": "Nvidia releases free open‑weight transcription model Nemotron 3.5 Transcribe",
+          "summary": "Nvidia released Nemotron 3.5 Transcribe, a free open‑weight speech model that can transcribe audio in up to 40 languages, translate 31 languages to and from English, handle recordings up to an hour long, and distinguish up to eight speakers. The 30‑billion‑parameter model, which Nvidia says outperforms rivals on benchmarks such as Hugging Face’s Open ASR Leaderboard, can run on a single Nvidia chip and is aimed at developers building business‑meeting and medical‑transcription applications.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
+      "lastSeen": "2026-10-29T01:49:48.288199+00:00",
       "cat": "AI",
-      "latestTitle": "Voice AI in vogue: Nvidia releases new open transcription model",
-      "latestSummary": "Nvidia on Wednesday released Nemotron 3.5 Transcribe , a free, open-weight model that transcribes audio in up to 40 languages. Nvidia’s latest voice entry comes during a busy period of AI voice releases: Mistral shipped Voxtral 3 earlier this month; ElevenLabs launched Realtime for instant speech in voice agents; and Salesforce released Launa-Omni, its voice model.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "latestTitle": "Nvidia releases free open‑weight transcription model Nemotron 3.5 Transcribe",
+      "latestSummary": "Nvidia released Nemotron 3.5 Transcribe, a free open‑weight speech model that can transcribe audio in up to 40 languages, translate 31 languages to and from English, handle recordings up to an hour long, and distinguish up to eight speakers. The 30‑billion‑parameter model, which Nvidia says outperforms rivals on benchmarks such as Hugging Face’s Open ASR Leaderboard, can run on a single Nvidia chip and is aimed at developers building business‑meeting and medical‑transcription applications.",
+      "why": "It reduces technical and cost barriers for developers creating multilingual, speaker‑aware transcription tools for enterprise and healthcare use.",
       "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
     },
     "cc90b46a9d4883": {
@@ -4882,13 +4946,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-29T01:49:48.288199+00:00",
+          "title": "Renfe high‑speed train collides with Iryo train between Mora and Orgaz after signalling error",
+          "summary": "At about 08:30 local time on a Wednesday, a Renfe high‑speed train carrying 397 passengers was ordered to proceed despite a computer failure that had halted all services on the Madrid‑Seville line. It struck the rear of an Iryo train with 147 passengers between the municipalities of Mora and Orgaz, roughly 140 km south of Madrid. Several passengers suffered injuries, including broken arms, broken noses and a rail that penetrated a carriage roof.",
+          "importanceScore": 13.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
+      "lastSeen": "2026-10-29T01:49:48.288199+00:00",
       "cat": "World",
-      "latestTitle": "High‑speed Renfe train rear‑ends Iryo service after signalling error in Spain",
-      "latestSummary": "Two high‑speed trains traveling south from Madrid to Seville were stopped after a computer failure in the automatic signalling system. The Renfe train, carrying 397 passengers, was mistakenly ordered to proceed and collided with the preceding Iryo train, which had 147 passengers, between Mora and Orgaz about 140 km south of Madrid. The crash caused broken arms, broken noses and a rail to pierce a passenger’s roof.",
-      "why": "It shows how signalling and operational failures can jeopardize passenger safety.",
+      "latestTitle": "Renfe high‑speed train collides with Iryo train between Mora and Orgaz after signalling error",
+      "latestSummary": "At about 08:30 local time on a Wednesday, a Renfe high‑speed train carrying 397 passengers was ordered to proceed despite a computer failure that had halted all services on the Madrid‑Seville line. It struck the rear of an Iryo train with 147 passengers between the municipalities of Mora and Orgaz, roughly 140 km south of Madrid. Several passengers suffered injuries, including broken arms, broken noses and a rail that penetrated a carriage roof.",
+      "why": "The incident highlights the need for fail‑safe signalling and clear procedural controls to avoid train collisions.",
       "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
     },
     "de6b4f50af1c97": {
@@ -4907,13 +4984,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-29T01:49:48.288199+00:00",
+          "title": "Microsoft reports $10 billion in OpenAI revenue for Q3",
+          "summary": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI in the quarter ended September 30, 2026, representing nearly 11% of its $92.3 billion quarterly total. Full-year 2026 OpenAI revenue was $24.1 billion, with annualized projections reaching $40 billion at the current pace. The company also reported $7.2 billion in outstanding receivables from OpenAI, up from $6 billion at end of June.",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
+      "lastSeen": "2026-10-29T01:49:48.288199+00:00",
       "cat": "AI",
-      "latestTitle": "Microsoft reports $10 billion revenue from OpenAI in Q3 2026",
-      "latestSummary": "Microsoft said it earned $10 billion from commercial arrangements with OpenAI in the quarter ended September 30, 2026, about 11 % of its total quarterly revenue of $92.3 billion. For the full 2026 fiscal year, OpenAI‑related revenue was $24.1 billion, and the quarterly pace suggests an annualized $40 billion. Receivables from OpenAI stood at $7.2 billion at quarter‑end.",
-      "why": "The figure shows the scale of Microsoft’s financial exposure to OpenAI, which could affect both companies’ earnings and strategic decisions.",
+      "latestTitle": "Microsoft reports $10 billion in OpenAI revenue for Q3",
+      "latestSummary": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI in the quarter ended September 30, 2026, representing nearly 11% of its $92.3 billion quarterly total. Full-year 2026 OpenAI revenue was $24.1 billion, with annualized projections reaching $40 billion at the current pace. The company also reported $7.2 billion in outstanding receivables from OpenAI, up from $6 billion at end of June.",
+      "why": "It shows the scale of Microsoft's financial dependence on OpenAI despite growing competition.",
       "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
     },
     "f89f7ec9829002": {
@@ -4940,7 +5030,82 @@
       "latestSummary": "The Landscape of Green Finance in India, now in its fourth edition, maps actual finance flows or disbursements across sources, instruments, sectors, and subsectors for financial years 2022-23 and 2023-24. According to the report, while green finance has increased substantially between 2016-17 and 2023-24, financial flows remain concentrated in established sectors and technologies.",
       "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
       "url": "https://economictimes.indiatimes.com/news/economy/finance/green-financing-in-india-rises-to-82-billion-but-flows-mostly-to-established-sectors-report/articleshow/135279184.cms"
+    },
+    "68b6a27f930121": {
+      "id": "68b6a27f930121",
+      "firstSeen": "2026-10-28T22:08:52+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-29T01:49:48.288199+00:00",
+          "title": "Girl seriously injured in wolf attack at Johannismühle wildlife park",
+          "summary": "An eight‑year‑old girl was seriously injured when a wolf attacked her inside an enclosure at the Johannismühle wildlife park in Brandenburg, south of Berlin. She was with a staff member and two other children at the time. The girl was air‑lifted to hospital by helicopter on Wednesday; no one else was injured and police are investigating the precise circumstances.",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-29T01:49:48.288199+00:00",
+      "cat": "World",
+      "latestTitle": "Girl seriously injured in wolf attack at Johannismühle wildlife park",
+      "latestSummary": "An eight‑year‑old girl was seriously injured when a wolf attacked her inside an enclosure at the Johannismühle wildlife park in Brandenburg, south of Berlin. She was with a staff member and two other children at the time. The girl was air‑lifted to hospital by helicopter on Wednesday; no one else was injured and police are investigating the precise circumstances.",
+      "why": "The incident highlights safety and visitor‑protection concerns in wildlife parks.",
+      "url": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&at_campaign=rss"
+    },
+    "d5f5920975b23b": {
+      "id": "d5f5920975b23b",
+      "firstSeen": "2026-10-29T00:27:08+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-29T01:49:48.288199+00:00",
+          "title": "RBI raises treasury bill auction cutoff yields by 20 basis points",
+          "summary": "The Reserve Bank of India announced that the cutoff yield for its most recent treasury bill auction was set 20 basis points higher than the yield used in the preceding auction. This change was disclosed in the RBI’s official auction results release. The higher cutoff establishes a new benchmark rate for short‑term government securities in the market.",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-29T01:49:48.288199+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "RBI raises treasury bill auction cutoff yields by 20 basis points",
+      "latestSummary": "The Reserve Bank of India announced that the cutoff yield for its most recent treasury bill auction was set 20 basis points higher than the yield used in the preceding auction. This change was disclosed in the RBI’s official auction results release. The higher cutoff establishes a new benchmark rate for short‑term government securities in the market.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/rbi-accepts-20-bps-higher-treasury-bill-cutoff-yields-than-last-auction/articleshow/135284706.cms"
+    },
+    "465d3ba51ac11a": {
+      "id": "465d3ba51ac11a",
+      "firstSeen": "2026-10-28T21:58:32+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-29T01:49:48.288199+00:00",
+          "title": "Microsoft discloses Azure Q3 revenue of $33.2 billion",
+          "summary": "Microsoft reported Azure generated $33.2 billion in the July‑September quarter, a 48% increase year‑over‑year and about $850 million above analysts’ $32.3 billion estimate. The revenue represented roughly 36% of Microsoft’s total quarterly revenue of $92.3 billion, putting Azure slightly ahead of Google Cloud’s $30.7 billion for the same period. The growth also exceeded the 44‑45% range forecast by CFO Amy Hood.",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-29T01:49:48.288199+00:00",
+      "cat": "AI",
+      "latestTitle": "Microsoft discloses Azure Q3 revenue of $33.2 billion",
+      "latestSummary": "Microsoft reported Azure generated $33.2 billion in the July‑September quarter, a 48% increase year‑over‑year and about $850 million above analysts’ $32.3 billion estimate. The revenue represented roughly 36% of Microsoft’s total quarterly revenue of $92.3 billion, putting Azure slightly ahead of Google Cloud’s $30.7 billion for the same period. The growth also exceeded the 44‑45% range forecast by CFO Amy Hood.",
+      "why": "Investors can now benchmark Azure directly against rival cloud providers that already disclose dollar revenue.",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
     }
   },
-  "updated": "2026-10-28T21:40:27.456192+00:00"
+  "updated": "2026-10-29T01:49:48.288199+00:00"
 }
