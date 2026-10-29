@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T08:32:41.839826+00:00",
+  "updated": "2026-10-29T16:09:50.998259+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
@@ -8,111 +8,65 @@
     "nonNoiseCandidates": 80,
     "officialOrPrimaryCandidates": 20,
     "enrichedCandidates": 80,
-    "readableCandidates": 57,
-    "eventClusters": 57,
-    "materialEvents": 29,
-    "selectedEvents": 10,
-    "seededStories": 9,
+    "readableCandidates": 56,
+    "eventClusters": 56,
+    "materialEvents": 23,
+    "selectedEvents": 9,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "e15e2a262b647f",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Bank of Canada raises benchmark rate to 2.5% to curb inflation risk from energy prices",
-      "publishedAt": "2026-10-28T12:33:56+00:00",
-      "importanceScore": 17.7,
-      "sourceCount": 1,
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss",
-      "summary": "On Oct. 28, the Bank of Canada lifted its benchmark interest rate by a quarter‑point to 2.5%, ending seven consecutive meetings at 2.25% and marking its first hike since July 2023. Governor Tiff Macklem said the increase is needed to lower the risk that high energy prices, which pushed September inflation to 3.1%, will spread to broader inflation. He added the rate remains low enough not to restrain growth and should help return inflation to target more quickly.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "cbc.ca",
-          "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss",
-          "publishedAt": "2026-10-28T12:33:56+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T12:33:56+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-29T08:32:41.839826+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Bank of Canada raises benchmark rate to 2.5% to address inflation risk from energy prices",
-      "previousSummary": "On Oct 28, the Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move was needed to lower the risk that elevated energy prices, which pushed September inflation to 3.1 percent, would spread to broader inflation, while noting the rate remains low enough not to restrain growth.",
-      "previousPublishedAt": "2026-10-28T12:33:56+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 17.7,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "8ca9da7987bfb2",
+      "id": "ef6c3c3a66432d",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Renfe high‑speed train collides with Iryo train after signalling error",
-      "publishedAt": "2026-10-28T21:24:41+00:00",
-      "importanceScore": 13.8,
+      "title": "Russian drone strike kills 14 at Dnipro railway station",
+      "publishedAt": "2026-10-29T14:17:35+00:00",
+      "importanceScore": 14.0,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
-      "summary": "At about 08:30 local time on a Wednesday, a Renfe high‑speed train carrying 397 passengers was ordered to proceed despite an automatic signalling computer failure that had stopped traffic on the Madrid‑Seville line. The train struck the rear of an Iryo private‑operator train with 147 passengers between the municipalities of Mora and Orgaz, roughly 140 km south of Madrid. Injuries reported included broken arms, broken noses and a rail that pierced a passenger’s roof.",
-      "why": "The incident shows how signalling failures and procedural mistakes can lead to serious accidents on high‑speed rail networks.",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+      "summary": "A Russian jet‑powered drone hit a crowded platform at Dnipro’s main railway station, killing at least 14 people and wounding another 14, including an 11‑year‑old boy. The strike occurred while a passenger train bound for Zaporizhzhia was at the platform. Ukrainian officials said an elevated threat level had been announced before the attack; Russia’s military has not commented and Moscow denies deliberately targeting civilians.",
+      "why": "The attack shows how Ukraine’s rail network and civilian hubs remain vulnerable in the ongoing conflict.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-28T21:24:41+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-29T14:17:35+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T21:24:41+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-29T08:32:41.839826+00:00",
+      "firstSeen": "2026-10-29T14:17:35+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-29T16:09:50.998259+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Renfe high‑speed train collides with Iryo train between Mora and Orgaz after signalling error",
-      "previousSummary": "At about 08:30 local time on a Wednesday, a Renfe high‑speed train carrying 397 passengers was ordered to proceed despite a computer failure that had halted all services on the Madrid‑Seville line. It struck the rear of an Iryo train with 147 passengers between the municipalities of Mora and Orgaz, roughly 140 km south of Madrid. Several passengers suffered injuries, including broken arms, broken noses and a rail that penetrated a carriage roof.",
-      "previousPublishedAt": "2026-10-28T21:24:41+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.8,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
-      "id": "3f6d0288cbb368",
+      "id": "64bbd39168dcf4",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Vedanta Aluminium more than doubles profit; cost cuts in focus to drive earnings",
-      "publishedAt": "2026-10-29T06:42:31+00:00",
-      "importanceScore": 13.0,
+      "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
+      "publishedAt": "2026-10-29T12:23:33+00:00",
+      "importanceScore": 13.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/vedanta-aluminium-more-than-doubles-profit-cost-cuts-in-focus-to-drive-earnings/articleshow/135294042.cms",
-      "summary": "Vedanta Aluminium’s September-quarter net profit more than doubled, while revenue rose 41% and EBITDA surged 83% year-on-year. In the September quarter, record production of both aluminium and alumina, along with higher aluminium prices, boosted Vedanta Aluminium earnings.",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-80000-after-fed-holds-rates-signals-possibility-of-further-tightening/articleshow/135309957.cms",
+      "summary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -120,13 +74,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/vedanta-aluminium-more-than-doubles-profit-cost-cuts-in-focus-to-drive-earnings/articleshow/135294042.cms",
-          "publishedAt": "2026-10-29T06:42:31+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-80000-after-fed-holds-rates-signals-possibility-of-further-tightening/articleshow/135309957.cms",
+          "publishedAt": "2026-10-29T12:23:33+00:00"
         }
       ],
-      "firstSeen": "2026-10-29T06:42:31+00:00",
+      "firstSeen": "2026-10-29T12:23:33+00:00",
       "status": "New",
-      "lastChecked": "2026-10-29T08:32:41.839826+00:00",
+      "lastChecked": "2026-10-29T16:09:50.998259+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -136,180 +90,165 @@
       "lifecycle": "New"
     },
     {
-      "id": "6b9d0dd8f4a45d",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Alphabet stocks slide after earnings miss: 7 key takeaways",
-      "publishedAt": "2026-10-29T04:43:23+00:00",
-      "importanceScore": 13.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/alphabet-stocks-slide-after-earnings-miss-7-key-takeaways/slideshow/135290644.cms",
-      "summary": "Alphabet shares slumped more than 10% in extended trading on October 28 after the Google parent reported weaker-than-expected quarterly results. (Sources: CNBC, The Wall Street Journal, Reuters) Alphabet reported third-quarter revenue of $127.6 billion, up 25% from a year earlier but below Wall Street's estimate of $128.2 billion, according to Reuters.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/alphabet-stocks-slide-after-earnings-miss-7-key-takeaways/slideshow/135290644.cms",
-          "publishedAt": "2026-10-29T04:43:23+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-29T04:43:23+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-29T08:32:41.839826+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "de6b4f50af1c97",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
-      "publishedAt": "2026-10-28T21:34:30+00:00",
-      "importanceScore": 12.2,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-      "summary": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ended September 30, the company said in a regulatory filing on Wednesday. (Microsoft’s financial year begins in July, making the quarter ended September 30, 2026 the first quarter of its fiscal 2027.) For the full 2026 fiscal year, revenue from OpenAI hit $24.1 billion.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-          "publishedAt": "2026-10-28T21:34:30+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T21:34:30+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-29T08:32:41.839826+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Microsoft reports $10 billion in OpenAI revenue for Q3",
-      "previousSummary": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI in the quarter ended September 30, 2026, representing nearly 11% of its $92.3 billion quarterly total. Full-year 2026 OpenAI revenue was $24.1 billion, with annualized projections reaching $40 billion at the current pace. The company also reported $7.2 billion in outstanding receivables from OpenAI, up from $6 billion at end of June.",
-      "previousPublishedAt": "2026-10-28T21:34:30+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.2,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "465d3ba51ac11a",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Microsoft reports Azure revenue of $33.2 billion for Q3, up 48% YoY",
-      "publishedAt": "2026-10-28T21:58:32+00:00",
-      "importanceScore": 11.6,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-      "summary": "Microsoft disclosed that Azure generated $33.2 billion in revenue for the July‑September quarter, a 48% increase from the same period a year earlier. The result topped analysts’ expectations by roughly $850 million and placed Azure slightly ahead of Google Cloud’s reported $30.7 billion for the quarter, enabling direct comparison with rivals such as Amazon Web Services.",
-      "why": "Direct dollar reporting lets investors benchmark Microsoft’s cloud business against competitors, affecting valuation and strategic assessments.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-          "publishedAt": "2026-10-28T21:58:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T21:58:32+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-29T08:32:41.839826+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Microsoft discloses Azure Q3 revenue of $33.2 billion",
-      "previousSummary": "Microsoft reported Azure generated $33.2 billion in the July‑September quarter, a 48% increase year‑over‑year and about $850 million above analysts’ $32.3 billion estimate. The revenue represented roughly 36% of Microsoft’s total quarterly revenue of $92.3 billion, putting Azure slightly ahead of Google Cloud’s $30.7 billion for the same period. The growth also exceeded the 44‑45% range forecast by CFO Amy Hood.",
-      "previousPublishedAt": "2026-10-28T21:58:32+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.6,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "e23790bc283973",
+      "id": "912c4596848618",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India only major emerging economy set to reduce debt ratio by 2031: RBI Deputy Governor",
-      "publishedAt": "2026-10-28T14:59:48+00:00",
-      "importanceScore": 11.6,
+      "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
+      "publishedAt": "2026-10-29T15:54:18+00:00",
+      "importanceScore": 12.8,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms",
-      "summary": "KYC and KYB: Inside Damani’s DMart, the retail chain for the middle class. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms",
+      "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms",
-          "publishedAt": "2026-10-28T14:59:48+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms",
+          "publishedAt": "2026-10-29T15:54:18+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T14:59:48+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-29T08:32:41.839826+00:00",
+      "firstSeen": "2026-10-29T15:54:18+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-29T16:09:50.998259+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "RBI Deputy Governor says India to cut debt‑to‑GDP ratio by 2031",
-      "previousSummary": "The RBI Deputy Governor told the Economic Times that, based on current projections, India is the only major emerging economy expected to see its debt‑to‑GDP ratio decline by the year 2031, while other peers are projected to hold steady or rise. The statement was reported without additional quantitative details.",
-      "previousPublishedAt": "2026-10-28T14:59:48+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.5,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e3a85b09c0b98e",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
+      "publishedAt": "2026-10-29T09:04:04+00:00",
+      "importanceScore": 12.8,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms",
+      "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. Sign In What's Included Exclusive Stories Daily ePaper Access Smart Market Tools Curated Investment Ideas Ad-lite Experience Subscription Agencies",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms",
+          "publishedAt": "2026-10-29T09:04:04+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T09:04:04+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-29T16:09:50.998259+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "b841fed2ecacd6",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Ambuja Cements’ profit slumps 90% on higher costs, high previous-year base",
+      "publishedAt": "2026-10-29T14:54:27+00:00",
+      "importanceScore": 12.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ambuja-cements-profit-slumps-90-on-higher-costs-high-previous-year-base/articleshow/135320851.cms",
+      "summary": "Ambuja Cements reported a 90% year-on-year profit decline to ₹236 crore in Q2 FY27 as rising fuel, logistics and operating costs squeezed margins. Ambuja Cements’ quarterly profit plunged 90% amid rising input costs and shrinking margins, while the company pursued cost reductions and renewable energy investments.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ambuja-cements-profit-slumps-90-on-higher-costs-high-previous-year-base/articleshow/135320851.cms",
+          "publishedAt": "2026-10-29T14:54:27+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T14:54:27+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-29T16:09:50.998259+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "4301dc4cd64642",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Indian trade minister says US deal will protect all sensitive Indian interests",
+      "publishedAt": "2026-10-29T13:47:53+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms",
+      "summary": "Trade Minister Piyush Goyal stated that a pending trade agreement with the United States would safeguard all sensitive Indian interests. The comment was reported by The Economic Times. The article did not provide details on the deal’s specific terms, sectors covered, or concrete commitments.",
+      "why": "The statement highlights India’s emphasis on national‑security considerations in trade negotiations, which could shape the tone of future US‑India economic talks.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms",
+          "publishedAt": "2026-10-29T13:47:53+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:47:53+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-29T16:09:50.998259+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-29T01:49:48.288199+00:00",
+  "jarvisEditedCount": 2,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-29T08:32:41.839826+00:00",
   "changeSummary": {
-    "new": 2,
-    "updated": 4,
-    "continuing": 1
+    "new": 6,
+    "updated": 0,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-26T14:18:35.903303+00:00",
-    "updated": "2026-10-29T08:32:41.839826+00:00",
+    "availableFrom": "2026-10-26T20:30:52.114920+00:00",
+    "updated": "2026-10-29T16:09:50.998259+00:00",
     "snapshotCount": 13,
-    "eventCount": 84,
+    "eventCount": 87,
     "retentionHours": 72
   }
 }
