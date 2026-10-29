@@ -3,106 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-26T20:30:52.114920+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 3,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "8d9bce52b18a98",
-          "cat": "Canada",
-          "title": "Bank of Canada weighs rate move amid weak growth and rising inflation",
-          "summary": "Canada’s economy is described as weak while inflation rose to 3.1 % in the most recent month, with core‑inflation measures remaining subdued. The Bank of Canada will decide on interest‑rate policy on Wednesday; raising rates would further weaken growth, whereas cutting rates could let inflation accelerate. Governor Tiff Macklem was seen at a news conference in Ottawa on June 10, 2026.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-10-26T08:00:00+00:00",
-          "firstSeen": "2026-10-26T08:00:00+00:00",
-          "importanceScore": 15.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/armstrong-inflation-bank-of-canada-interest-rates-9.7393998?cmp=rss"
-        },
-        {
-          "id": "13ed7e296243be",
-          "cat": "Indian Markets",
-          "title": "US stocks rise as Anthropic IPO filing lifts AI sentiment, Tesla hits three‑month high",
-          "summary": "The S&P 500 gained 0.70% to close at 7,677.03, the Nasdaq Composite rose 0.83% to 26,169.38, and the Dow Jones Industrial Average added 0.28% to 52,361.76. Gains were driven by Anthropic’s IPO filing, which revived optimism for AI‑related stocks, while investors also focused on a busy earnings week and the Federal Reserve’s policy decision; Tesla reached a more‑than‑three‑month high.",
-          "why": "The rally reflects renewed confidence in AI companies, supporting broader equity market performance.",
-          "publishedAt": "2026-10-26T20:17:48+00:00",
-          "firstSeen": "2026-10-26T20:17:48+00:00",
-          "importanceScore": 14.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-higher-as-anthropic-ipo-filing-revives-ai-optimism-tesla-hits-3-month-high/articleshow/135219329.cms"
-        },
-        {
-          "id": "7a52f7cfd0ab60",
-          "cat": "World",
-          "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
-          "summary": "**US singer Chris Brown has avoided jail after striking a man twice in the head with a glass tequila bottle in a London nightclub.** The R&B star was given an eight-month prison sentence, suspended for 12 months, over the attack at private members' club Tape in Mayfair, in the early hours of 19 February 2023. Brown's vocal coach, rapper Omololu Akinlolu, who joined the attack, was sentenced to four months' imprisonment, suspended for 12 months.",
-          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-          "publishedAt": "2026-10-26T14:16:09+00:00",
-          "firstSeen": "2026-10-26T14:16:09+00:00",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "13f7bde1fd628c",
-          "cat": "World",
-          "title": "Nurse killed in attack while responding to Ebola alert in DR Congo",
-          "summary": "A nurse has been killed and another health worker seriously injured in an attack as they were responding to an Ebola alert in north-eastern Democratic Republic of Congo. More than 4,800 people have died and nearly 10,000 been infected in DR Congo since this outbreak began in May.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-26T14:27:32+00:00",
-          "firstSeen": "2026-10-26T12:57:58+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "c90620403993d7",
-          "cat": "Indian Markets",
-          "title": "Anthropic IPO puts AI spending under the spotlight as losses mount",
-          "summary": "The organization has impressively generated $16.29 billion in revenue during the first half of 2026. Yet, significant operational losses due to soaring computing costs pose a challenge, along with over $500 billion in cloud computing commitments.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-26T14:13:20+00:00",
-          "firstSeen": "2026-10-26T14:13:20+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropic-ipo-rising-costs-risks-rapid-growth-market-ai-frontrunner/articleshow/135213738.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-27T00:27:59.897678+00:00",
       "changeSummary": {
         "new": 3,
@@ -1679,6 +1579,160 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms"
         }
       ]
+    },
+    {
+      "at": "2026-10-29T21:09:34.282979+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 2,
+        "continuing": 3
+      },
+      "stories": [
+        {
+          "id": "ef6c3c3a66432d",
+          "cat": "World",
+          "title": "Drone strike kills at least 14 at Dnipro railway station",
+          "summary": "At least 14 people were killed and another 14 injured, including an 11‑year‑old boy, when a Russian jet‑powered drone struck a crowded platform at Dnipro’s main railway station. Ukrainian officials said a passenger train bound for Zaporizhzhia was on the platform at the time. The site has been sealed off as authorities investigate; Russia has not commented and denies targeting civilians.",
+          "why": "It highlights the risk to civilian transport infrastructure in the ongoing conflict.",
+          "publishedAt": "2026-10-29T14:17:35+00:00",
+          "firstSeen": "2026-10-29T14:17:35+00:00",
+          "importanceScore": 13.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "64bbd39168dcf4",
+          "cat": "Indian Markets",
+          "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
+          "summary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-29T12:23:33+00:00",
+          "firstSeen": "2026-10-29T12:23:33+00:00",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-80000-after-fed-holds-rates-signals-possibility-of-further-tightening/articleshow/135309957.cms"
+        },
+        {
+          "id": "bcbe145da19010",
+          "cat": "Indian Markets",
+          "title": "US Markets Today: US stocks end lower as Alphabet revenue miss revives AI capex jitters",
+          "summary": "The Nasdaq leads losses, while stronger-than-expected US GDP growth and rising inflation add to investor concerns. Software stocks tumble, while Eli Lilly, Ford and Merck gain after results.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-10-29T20:16:15+00:00",
+          "firstSeen": "2026-10-29T20:16:15+00:00",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-lower-as-alphabet-revenue-miss-revives-ai-capex-jitters/articleshow/135331051.cms"
+        },
+        {
+          "id": "912c4596848618",
+          "cat": "India",
+          "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
+          "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-10-29T15:54:18+00:00",
+          "firstSeen": "2026-10-29T15:54:18+00:00",
+          "importanceScore": 11.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms"
+        },
+        {
+          "id": "b841fed2ecacd6",
+          "cat": "Indian Markets",
+          "title": "Ambuja Cements profit drops ~90% YoY",
+          "summary": "Ambuja Cements reported that its net profit for the quarter fell about 90% compared with the same quarter a year earlier. The company said the decline was driven by higher input costs and by a strong profit base in the prior year. No detailed financial figures were provided in the source.",
+          "why": "The steep earnings drop signals cost pressure in the Indian cement sector and could influence investor sentiment.",
+          "publishedAt": "2026-10-29T14:54:27+00:00",
+          "firstSeen": "2026-10-29T14:54:27+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ambuja-cements-profit-slumps-90-on-higher-costs-high-previous-year-base/articleshow/135320851.cms"
+        },
+        {
+          "id": "e3a85b09c0b98e",
+          "cat": "India",
+          "title": "Finance ministry projects 7.35% GDP growth for India in Q2 FY27",
+          "summary": "The finance ministry’s nowcasting model estimates that India’s gross domestic product will expand by 7.35% in the second quarter of fiscal year 2027. This follows a 7.8% growth rate in the preceding quarter. The forecast attributes the acceleration to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
+          "why": "The projection signals sustained economic momentum, shaping policy decisions and market expectations.",
+          "publishedAt": "2026-10-29T09:04:04+00:00",
+          "firstSeen": "2026-10-29T09:04:04+00:00",
+          "importanceScore": 11.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
+        },
+        {
+          "id": "443c79dd5a58d9",
+          "cat": "India",
+          "title": "IMF says Super El Niño risks to India’s growth have not yet materialised",
+          "summary": "The International Monetary Fund noted that India remains a major driver of global growth. It warned that weather events such as a Super El Niño pose potential risks, but those risks have not yet materialised. The IMF also raised its growth forecasts for India to 7 % for fiscal years 2027‑28, citing strong domestic demand and a buoyant services sector.",
+          "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
+          "publishedAt": "2026-10-29T17:36:10+00:00",
+          "firstSeen": "2026-10-29T17:36:10+00:00",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-flags-super-el-nio-risks-to-indias-growth-says-impact-yet-to-materialise/articleshow/135325476.cms"
+        },
+        {
+          "id": "401f6ab4f8e9f7",
+          "cat": "AI",
+          "title": "Mistral releases weights for its trillion‑parameter open‑source model ML4",
+          "summary": "French AI company Mistral has released the weights for its trillion‑parameter open‑source model Mistral Large 4 (ML4), nicknamed “Le Chonk,” enabling businesses and governments to download and deploy the system themselves. The launch follows earlier announcements and is framed as a competitive alternative to closed‑model providers, highlighting the advantage of data control for cybersecurity workloads. Mistral says ML4 matches the performance of China’s GLM‑5.3 while using 47 percent fewer tokens per task, making it more economical.",
+          "why": "It lets organizations run a high‑capacity AI model in‑house, reducing reliance on external providers for sensitive cybersecurity tasks.",
+          "publishedAt": "2026-10-29T17:00:00+00:00",
+          "firstSeen": "2026-10-29T17:00:00+00:00",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+        }
+      ]
     }
   ],
   "events": {
@@ -1796,44 +1850,6 @@
       "latestSummary": "The Reserve Bank of India said the widening interest‑rate gap with G7 economies is a key factor as it evaluates rising inflation and input‑cost pressures. Recent data show Indian GDP growth staying resilient, supported by strong private consumption and exports. YES Bank projects that the RBI could implement a cumulative 50‑basis‑point rate increase.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms"
-    },
-    "0328f8e3bb7e46": {
-      "id": "0328f8e3bb7e46",
-      "firstSeen": "2026-10-22T12:20:06+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-22T15:20:52.860366+00:00",
-          "title": "Indian bond yields rise above 7.45% as oil hits $112.50 and RBI rate‑hike concerns grow",
-          "summary": "On Thursday, benchmark Indian government bond yields rose above 7.45% as crude oil prices climbed to $112.50 per barrel in Asian trading amid geopolitical tensions. The Reserve Bank of India had recently lifted its repo rate to 5.50%, fueling expectations of further tightening. Inflation concerns grew, with forecasts that retail inflation could exceed the central bank’s tolerance band.",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-22T20:09:24.293516+00:00",
-          "title": "Indian bond yields rise above 7.45% as oil prices hit $112.50 and RBI lifts repo rate",
-          "summary": "On Thursday the benchmark yield on Indian government bonds moved above 7.45%. In the same session crude oil prices climbed to $112.50 a barrel in Asian trading amid geopolitical tensions. The Reserve Bank of India raised its repo rate to 5.50% and signalled that further hikes are possible, prompting heightened inflation concerns.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Indian bond yields rise above 7.45% as oil prices hit $112.50 and RBI lifts repo rate",
-      "latestSummary": "On Thursday the benchmark yield on Indian government bonds moved above 7.45%. In the same session crude oil prices climbed to $112.50 a barrel in Asian trading amid geopolitical tensions. The Reserve Bank of India raised its repo rate to 5.50% and signalled that further hikes are possible, prompting heightened inflation concerns.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-tumble-on-oil-surge-rbi-rate-hike-fears/articleshow/135118875.cms"
     },
     "630ca04b1f8861": {
       "id": "630ca04b1f8861",
@@ -2038,31 +2054,6 @@
       "latestSummary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company . TypeSafe’s Jev model created a category for deep learning models that act as super classifiers: Given a set of options, they can quickly make choices and offer a confidence rating in their decision.",
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
-    },
-    "bd4ac176abdff7": {
-      "id": "bd4ac176abdff7",
-      "firstSeen": "2026-10-22T19:00:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-22T20:09:24.293516+00:00",
-          "title": "Canva launches its first AI image generation model, Canva Craft",
-          "summary": "Canva announced the release of Canva Craft, its first image‑generation model built by its research team. The model works in two stages: first it creates a plan that captures spatial relationships, scale, hierarchy and text details, then it generates images up to 2K resolution in about 30 aspect ratios. It is trained on human‑designed templates rather than photographs and allows precise edits without affecting other image parts.",
-          "importanceScore": 10.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-22T20:09:24.293516+00:00",
-      "cat": "AI",
-      "latestTitle": "Canva launches its first AI image generation model, Canva Craft",
-      "latestSummary": "Canva announced the release of Canva Craft, its first image‑generation model built by its research team. The model works in two stages: first it creates a plan that captures spatial relationships, scale, hierarchy and text details, then it generates images up to 2K resolution in about 30 aspect ratios. It is trained on human‑designed templates rather than photographs and allows precise edits without affecting other image parts.",
-      "why": "The launch gives Canva a direct AI‑generated image capability, positioning it to compete with established models from Google, OpenAI, ByteDance and Meta.",
-      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
     },
     "75ab97cd787667": {
       "id": "75ab97cd787667",
@@ -5088,13 +5079,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-29T21:09:34.282979+00:00",
+          "title": "Drone strike kills at least 14 at Dnipro railway station",
+          "summary": "At least 14 people were killed and another 14 injured, including an 11‑year‑old boy, when a Russian jet‑powered drone struck a crowded platform at Dnipro’s main railway station. Ukrainian officials said a passenger train bound for Zaporizhzhia was on the platform at the time. The site has been sealed off as authorities investigate; Russia has not commented and denies targeting civilians.",
+          "importanceScore": 13.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-29T16:09:50.998259+00:00",
+      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
       "cat": "World",
-      "latestTitle": "Russian drone strike kills 14 at Dnipro railway station",
-      "latestSummary": "A Russian jet‑powered drone hit a crowded platform at Dnipro’s main railway station, killing at least 14 people and wounding another 14, including an 11‑year‑old boy. The strike occurred while a passenger train bound for Zaporizhzhia was at the platform. Ukrainian officials said an elevated threat level had been announced before the attack; Russia’s military has not commented and Moscow denies deliberately targeting civilians.",
-      "why": "The attack shows how Ukraine’s rail network and civilian hubs remain vulnerable in the ongoing conflict.",
+      "latestTitle": "Drone strike kills at least 14 at Dnipro railway station",
+      "latestSummary": "At least 14 people were killed and another 14 injured, including an 11‑year‑old boy, when a Russian jet‑powered drone struck a crowded platform at Dnipro’s main railway station. Ukrainian officials said a passenger train bound for Zaporizhzhia was on the platform at the time. The site has been sealed off as authorities investigate; Russia has not commented and denies targeting civilians.",
+      "why": "It highlights the risk to civilian transport infrastructure in the ongoing conflict.",
       "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
     },
     "64bbd39168dcf4": {
@@ -5113,9 +5117,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-29T21:09:34.282979+00:00",
+          "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
+          "summary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-29T16:09:50.998259+00:00",
+      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
       "cat": "Indian Markets",
       "latestTitle": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
       "latestSummary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
@@ -5138,9 +5155,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-29T21:09:34.282979+00:00",
+          "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
+          "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
+          "importanceScore": 11.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-29T16:09:50.998259+00:00",
+      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
       "cat": "India",
       "latestTitle": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
       "latestSummary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
@@ -5163,13 +5193,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-29T21:09:34.282979+00:00",
+          "title": "Finance ministry projects 7.35% GDP growth for India in Q2 FY27",
+          "summary": "The finance ministry’s nowcasting model estimates that India’s gross domestic product will expand by 7.35% in the second quarter of fiscal year 2027. This follows a 7.8% growth rate in the preceding quarter. The forecast attributes the acceleration to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
+          "importanceScore": 11.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-29T16:09:50.998259+00:00",
+      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
       "cat": "India",
-      "latestTitle": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
-      "latestSummary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. Sign In What's Included Exclusive Stories Daily ePaper Access Smart Market Tools Curated Investment Ideas Ad-lite Experience Subscription Agencies",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "latestTitle": "Finance ministry projects 7.35% GDP growth for India in Q2 FY27",
+      "latestSummary": "The finance ministry’s nowcasting model estimates that India’s gross domestic product will expand by 7.35% in the second quarter of fiscal year 2027. This follows a 7.8% growth rate in the preceding quarter. The forecast attributes the acceleration to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
+      "why": "The projection signals sustained economic momentum, shaping policy decisions and market expectations.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
     },
     "b841fed2ecacd6": {
@@ -5188,13 +5231,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-29T21:09:34.282979+00:00",
+          "title": "Ambuja Cements profit drops ~90% YoY",
+          "summary": "Ambuja Cements reported that its net profit for the quarter fell about 90% compared with the same quarter a year earlier. The company said the decline was driven by higher input costs and by a strong profit base in the prior year. No detailed financial figures were provided in the source.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-29T16:09:50.998259+00:00",
+      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Ambuja Cements’ profit slumps 90% on higher costs, high previous-year base",
-      "latestSummary": "Ambuja Cements reported a 90% year-on-year profit decline to ₹236 crore in Q2 FY27 as rising fuel, logistics and operating costs squeezed margins. Ambuja Cements’ quarterly profit plunged 90% amid rising input costs and shrinking margins, while the company pursued cost reductions and renewable energy investments.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "latestTitle": "Ambuja Cements profit drops ~90% YoY",
+      "latestSummary": "Ambuja Cements reported that its net profit for the quarter fell about 90% compared with the same quarter a year earlier. The company said the decline was driven by higher input costs and by a strong profit base in the prior year. No detailed financial figures were provided in the source.",
+      "why": "The steep earnings drop signals cost pressure in the Indian cement sector and could influence investor sentiment.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ambuja-cements-profit-slumps-90-on-higher-costs-high-previous-year-base/articleshow/135320851.cms"
     },
     "4301dc4cd64642": {
@@ -5221,7 +5277,82 @@
       "latestSummary": "Trade Minister Piyush Goyal stated that a pending trade agreement with the United States would safeguard all sensitive Indian interests. The comment was reported by The Economic Times. The article did not provide details on the deal’s specific terms, sectors covered, or concrete commitments.",
       "why": "The statement highlights India’s emphasis on national‑security considerations in trade negotiations, which could shape the tone of future US‑India economic talks.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms"
+    },
+    "bcbe145da19010": {
+      "id": "bcbe145da19010",
+      "firstSeen": "2026-10-29T20:16:15+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-29T21:09:34.282979+00:00",
+          "title": "US Markets Today: US stocks end lower as Alphabet revenue miss revives AI capex jitters",
+          "summary": "The Nasdaq leads losses, while stronger-than-expected US GDP growth and rising inflation add to investor concerns. Software stocks tumble, while Eli Lilly, Ford and Merck gain after results.",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "US Markets Today: US stocks end lower as Alphabet revenue miss revives AI capex jitters",
+      "latestSummary": "The Nasdaq leads losses, while stronger-than-expected US GDP growth and rising inflation add to investor concerns. Software stocks tumble, while Eli Lilly, Ford and Merck gain after results.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-lower-as-alphabet-revenue-miss-revives-ai-capex-jitters/articleshow/135331051.cms"
+    },
+    "443c79dd5a58d9": {
+      "id": "443c79dd5a58d9",
+      "firstSeen": "2026-10-29T17:36:10+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-29T21:09:34.282979+00:00",
+          "title": "IMF says Super El Niño risks to India’s growth have not yet materialised",
+          "summary": "The International Monetary Fund noted that India remains a major driver of global growth. It warned that weather events such as a Super El Niño pose potential risks, but those risks have not yet materialised. The IMF also raised its growth forecasts for India to 7 % for fiscal years 2027‑28, citing strong domestic demand and a buoyant services sector.",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
+      "cat": "India",
+      "latestTitle": "IMF says Super El Niño risks to India’s growth have not yet materialised",
+      "latestSummary": "The International Monetary Fund noted that India remains a major driver of global growth. It warned that weather events such as a Super El Niño pose potential risks, but those risks have not yet materialised. The IMF also raised its growth forecasts for India to 7 % for fiscal years 2027‑28, citing strong domestic demand and a buoyant services sector.",
+      "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-flags-super-el-nio-risks-to-indias-growth-says-impact-yet-to-materialise/articleshow/135325476.cms"
+    },
+    "401f6ab4f8e9f7": {
+      "id": "401f6ab4f8e9f7",
+      "firstSeen": "2026-10-29T17:00:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-29T21:09:34.282979+00:00",
+          "title": "Mistral releases weights for its trillion‑parameter open‑source model ML4",
+          "summary": "French AI company Mistral has released the weights for its trillion‑parameter open‑source model Mistral Large 4 (ML4), nicknamed “Le Chonk,” enabling businesses and governments to download and deploy the system themselves. The launch follows earlier announcements and is framed as a competitive alternative to closed‑model providers, highlighting the advantage of data control for cybersecurity workloads. Mistral says ML4 matches the performance of China’s GLM‑5.3 while using 47 percent fewer tokens per task, making it more economical.",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
+      "cat": "AI",
+      "latestTitle": "Mistral releases weights for its trillion‑parameter open‑source model ML4",
+      "latestSummary": "French AI company Mistral has released the weights for its trillion‑parameter open‑source model Mistral Large 4 (ML4), nicknamed “Le Chonk,” enabling businesses and governments to download and deploy the system themselves. The launch follows earlier announcements and is framed as a competitive alternative to closed‑model providers, highlighting the advantage of data control for cybersecurity workloads. Mistral says ML4 matches the performance of China’s GLM‑5.3 while using 47 percent fewer tokens per task, making it more economical.",
+      "why": "It lets organizations run a high‑capacity AI model in‑house, reducing reliance on external providers for sensitive cybersecurity tasks.",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
     }
   },
-  "updated": "2026-10-29T16:09:50.998259+00:00"
+  "updated": "2026-10-29T21:09:34.282979+00:00"
 }
