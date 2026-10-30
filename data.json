@@ -1,58 +1,22 @@
 {
-  "updated": "2026-10-30T19:26:08.930994+00:00",
+  "updated": "2026-10-30T23:50:21.377005+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 23,
+    "officialOrPrimaryCandidates": 18,
     "enrichedCandidates": 79,
-    "readableCandidates": 55,
-    "eventClusters": 53,
-    "materialEvents": 18,
-    "selectedEvents": 9,
-    "seededStories": 6,
+    "readableCandidates": 59,
+    "eventClusters": 57,
+    "materialEvents": 17,
+    "selectedEvents": 8,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
-    {
-      "id": "ce4ce93e599bdb",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Hundreds evacuated from Russian‑occupied Oleshky after humanitarian ceasefire",
-      "publishedAt": "2026-10-30T16:26:11+00:00",
-      "importanceScore": 13.5,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Russian and Ukrainian authorities said that hundreds of residents were evacuated from the occupied city of Oleshky following a humanitarian ceasefire that the source attributes to U.S. First Lady Melania Trump. Russia’s human‑rights ombudsman Yana Lantratova described the operation as incident‑free and well organised. Ukrainian officials indicated the evacuees would travel through southern Russia and Belarus to reach Ukraine.",
-      "why": "The evacuation illustrates a rare instance of coordinated humanitarian action between the warring parties.",
-      "confidence": "low",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-30T16:26:11+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-30T16:26:11+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
     {
       "id": "61ff37d6f2d42e",
       "cat": "World",
@@ -60,14 +24,14 @@
       "categories": [
         "World"
       ],
-      "title": "Spain transport minister says he will not resign after high‑speed rail crash",
+      "title": "Spain transport minister says he will not resign after high‑speed rail collision",
       "publishedAt": "2026-10-30T15:03:39+00:00",
       "importanceScore": 12.7,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Spain’s transport minister Óscar Puente told a news conference in Madrid that he will not resign following the high‑speed rail collision that has left at least 69 people dead. He said he has “nothing to hide” and reiterated the government’s pledge to investigate the disaster fully. Puente emphasized that his priority is to resolve the problem rather than discuss his position.",
-      "why": "The statement influences public confidence in how the government is handling a major transportation tragedy.",
+      "summary": "Spain’s transport minister Óscar Puente told a news conference in Madrid that he will not resign following the high‑speed rail collision that has killed at least 69 people. He said he has “nothing to hide” and emphasized the government’s commitment to investigate the disaster fully. Puente added that his priority is to resolve the problem rather than discuss his position.",
+      "why": "The statement signals continuity in leadership while the investigation proceeds, affecting public confidence and the rail safety response.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -79,15 +43,61 @@
         }
       ],
       "firstSeen": "2026-10-30T15:03:39+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-30T23:50:21.377005+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Spain transport minister says he will not resign after high‑speed rail crash",
+      "previousSummary": "Spain’s transport minister Óscar Puente told a news conference in Madrid that he will not resign following the high‑speed rail collision that has left at least 69 people dead. He said he has “nothing to hide” and reiterated the government’s pledge to investigate the disaster fully. Puente emphasized that his priority is to resolve the problem rather than discuss his position.",
+      "previousPublishedAt": "2026-10-30T15:03:39+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "ce4ce93e599bdb",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+      "publishedAt": "2026-10-30T16:26:11+00:00",
+      "importanceScore": 12.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Hundreds of residents of the devastated Russian-occupied city of Oleshky have been evacuated, Russian and Ukrainian authorities have said, following a humanitarian ceasefire brokered by US First Lady Melania Trump. Ukrainian authorities confirmed the evacuees were on their way to southern Russia, from where they will travel on to Ukraine through Belarus.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-30T16:26:11+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T16:26:11+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-30T23:50:21.377005+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Hundreds evacuated from Russian‑occupied Oleshky after humanitarian ceasefire",
+      "previousSummary": "Russian and Ukrainian authorities said that hundreds of residents were evacuated from the occupied city of Oleshky following a humanitarian ceasefire that the source attributes to U.S. First Lady Melania Trump. Russia’s human‑rights ombudsman Yana Lantratova described the operation as incident‑free and well organised. Ukrainian officials indicated the evacuees would travel through southern Russia and Belarus to reach Ukraine.",
+      "previousPublishedAt": "2026-10-30T16:26:11+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.5,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "e05697a7bed6d2",
@@ -115,8 +125,121 @@
         }
       ],
       "firstSeen": "2026-10-30T15:09:07+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-30T23:50:21.377005+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "India's services trade surplus rises to $53.39 billion in Q2",
+      "previousSummary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
+      "previousPublishedAt": "2026-10-30T15:09:07+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.1,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "30cd640b843b43",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Reliance Retail Q2 Results: Revenue up 6%, but late festive season, digital spends hit profit",
+      "publishedAt": "2026-10-30T14:45:00+00:00",
+      "importanceScore": 11.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-retail-q2-results-net-profit-falls-24-yoy-to-rs-2611-crore-gross-revenue-rises-6/articleshow/135366729.cms",
+      "summary": "Reliance Retail Q2 Results: The company's gross revenue increased 6.4% YoY to Rs 91,716 crore in Q2FY27, compared with Rs 86,169 crore in the year-ago period. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-retail-q2-results-net-profit-falls-24-yoy-to-rs-2611-crore-gross-revenue-rises-6/articleshow/135366729.cms",
+          "publishedAt": "2026-10-30T14:45:00+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T14:45:00+00:00",
       "status": "New",
-      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
+      "lastChecked": "2026-10-30T23:50:21.377005+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "fec8cf4bba1c27",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Reliance Industries Q2 Results: Profit shoots up 41% YoY to Rs 25,548 crore, revenue surges 29%",
+      "publishedAt": "2026-10-30T14:16:49+00:00",
+      "importanceScore": 11.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-q2-results-profit-shoots-up-41-yoy-to-rs-25548-crore-revenue-up-12/articleshow/135361960.cms",
+      "summary": "Reliance Industries Q2 Results: Mukesh Ambani-led Reliance Industries Ltd (RIL) on Friday reported a 41% year-on-year (YoY) growth in consolidated net profit to Rs 25,548 crore for the September quarter of FY27, compared with Rs 18,165 crore in the corresponding period last year. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-q2-results-profit-shoots-up-41-yoy-to-rs-25548-crore-revenue-up-12/articleshow/135361960.cms",
+          "publishedAt": "2026-10-30T14:16:49+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T14:16:49+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-30T23:50:21.377005+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "4df7bfd30e86da",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Intel stock plunges 30% as weak PC demand and AI costs trigger global chip selloff",
+      "publishedAt": "2026-10-30T17:07:17+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/intel-plunges-25-as-weak-pc-demand-and-ai-costs-trigger-global-chip-selloff/articleshow/135371230.cms",
+      "summary": "Intel shares plunged 30% after the chipmaker issued a weak fourth-quarter revenue forecast and warned of negative cash flow for the year. The warning triggered a global semiconductor selloff, with Nvidia, AMD and other chip stocks declining as weak PC demand and rising AI infrastructure costs weighed on sentiment.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/intel-plunges-25-as-weak-pc-demand-and-ai-costs-trigger-global-chip-selloff/articleshow/135371230.cms",
+          "publishedAt": "2026-10-30T17:07:17+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T17:07:17+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-30T23:50:21.377005+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -132,17 +255,17 @@
       "categories": [
         "India"
       ],
-      "title": "RBI holds 625th Central Board meeting, discusses economic risks",
+      "title": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
       "publishedAt": "2026-10-30T15:13:38+00:00",
       "importanceScore": 11.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms",
-      "summary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra. The board deliberated on a range of economic risks facing the country. No further details on specific topics or outcomes were provided in the source.",
+      "summary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -151,15 +274,20 @@
         }
       ],
       "firstSeen": "2026-10-30T15:13:38+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-30T23:50:21.377005+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "source-backed",
+      "previousTitle": "RBI holds 625th Central Board meeting, discusses economic risks",
+      "previousSummary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra. The board deliberated on a range of economic risks facing the country. No further details on specific topics or outcomes were provided in the source.",
+      "previousPublishedAt": "2026-10-30T15:13:38+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.3,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "d52e04d55e06b3",
@@ -188,7 +316,7 @@
       ],
       "firstSeen": "2026-10-30T12:34:46+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
+      "lastChecked": "2026-10-30T23:50:21.377005+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -197,63 +325,27 @@
       "previousSummary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
       "previousPublishedAt": "2026-10-30T12:34:46+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 11.9,
+      "previousImportanceScore": 10.9,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
-    },
-    {
-      "id": "210c89744b7092",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Google launches first data‑center satellite, tests AI model in orbit",
-      "publishedAt": "2026-10-30T17:00:00+00:00",
-      "importanceScore": 10.3,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-      "summary": "Google’s Suncatcher prototype data‑center satellite was launched earlier this month on a SpaceX Falcon 9 ride‑share with more than 100 other spacecraft. The 1 kW satellite carries four TPUs and a pre‑loaded DeepMind Gemma 4 model, which engineers prompted to write a haiku and report orbital conditions after about three weeks of commissioning. Ongoing tests will evaluate TPU performance under space‑borne thermal stress and radiation, which can cause memory bit flips.",
-      "why": "Demonstrates that high‑power AI inference can operate in orbit, a step toward satellite‑based compute networks.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-          "publishedAt": "2026-10-30T17:00:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-30T17:00:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 4,
+  "jarvisEditedCount": 1,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-30T14:12:54.558754+00:00",
+  "previousUpdated": "2026-10-30T19:26:08.930994+00:00",
   "changeSummary": {
-    "new": 5,
-    "updated": 0,
-    "continuing": 1
+    "new": 3,
+    "updated": 1,
+    "continuing": 4
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-27T22:57:58.713386+00:00",
-    "updated": "2026-10-30T19:26:08.930994+00:00",
+    "availableFrom": "2026-10-28T02:18:34.075557+00:00",
+    "updated": "2026-10-30T23:50:21.377005+00:00",
     "snapshotCount": 13,
-    "eventCount": 88,
+    "eventCount": 89,
     "retentionHours": 72
   }
 }
