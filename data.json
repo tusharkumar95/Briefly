@@ -1,50 +1,122 @@
 {
-  "updated": "2026-10-30T14:12:54.558754+00:00",
+  "updated": "2026-10-30T19:26:08.930994+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 16,
+    "nonNoiseCandidates": 80,
+    "officialOrPrimaryCandidates": 23,
     "enrichedCandidates": 79,
-    "readableCandidates": 62,
-    "eventClusters": 57,
+    "readableCandidates": 55,
+    "eventClusters": 53,
     "materialEvents": 18,
-    "selectedEvents": 8,
-    "seededStories": 4,
+    "selectedEvents": 9,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "0f9eabdd4cf4df",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "ce4ce93e599bdb",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Indian Markets"
+        "World"
       ],
-      "title": "8 midcap stocks with over 100% profit growth in Q2FY27",
-      "publishedAt": "2026-10-30T11:06:25+00:00",
-      "importanceScore": 13.0,
+      "title": "Hundreds evacuated from Russian‑occupied Oleshky after humanitarian ceasefire",
+      "publishedAt": "2026-10-30T16:26:11+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Russian and Ukrainian authorities said that hundreds of residents were evacuated from the occupied city of Oleshky following a humanitarian ceasefire that the source attributes to U.S. First Lady Melania Trump. Russia’s human‑rights ombudsman Yana Lantratova described the operation as incident‑free and well organised. Ukrainian officials indicated the evacuees would travel through southern Russia and Belarus to reach Ukraine.",
+      "why": "The evacuation illustrates a rare instance of coordinated humanitarian action between the warring parties.",
+      "confidence": "low",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-30T16:26:11+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T16:26:11+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "61ff37d6f2d42e",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Spain transport minister says he will not resign after high‑speed rail crash",
+      "publishedAt": "2026-10-30T15:03:39+00:00",
+      "importanceScore": 12.7,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Spain’s transport minister Óscar Puente told a news conference in Madrid that he will not resign following the high‑speed rail collision that has left at least 69 people dead. He said he has “nothing to hide” and reiterated the government’s pledge to investigate the disaster fully. Puente emphasized that his priority is to resolve the problem rather than discuss his position.",
+      "why": "The statement influences public confidence in how the government is handling a major transportation tragedy.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-30T15:03:39+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T15:03:39+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e05697a7bed6d2",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India's services trade surplus rises to $53.39 billion in Q2",
+      "publishedAt": "2026-10-30T15:09:07+00:00",
+      "importanceScore": 12.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/8-midcap-stocks-with-over-100-profit-growth-in-q2fy27/slideshow/135358493.cms",
-      "summary": "Based on the latest September 2026 quarter results announced so far, data from StockEdge's profitability scan shows that, among NSE Midcap companies, the top 8 recorded more than 100% YoY growth in quarterly net profit in Q2FY27. Net profit jumped 976% year-on-year to Rs 226 crore in Q2FY27, from Rs 21 crore in the same quarter last year.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms",
+      "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/8-midcap-stocks-with-over-100-profit-growth-in-q2fy27/slideshow/135358493.cms",
-          "publishedAt": "2026-10-30T11:06:25+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms",
+          "publishedAt": "2026-10-30T15:09:07+00:00"
         }
       ],
-      "firstSeen": "2026-10-30T11:06:25+00:00",
+      "firstSeen": "2026-10-30T15:09:07+00:00",
       "status": "New",
-      "lastChecked": "2026-10-30T14:12:54.558754+00:00",
+      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -54,19 +126,19 @@
       "lifecycle": "New"
     },
     {
-      "id": "f296f6ffe0451d",
+      "id": "32868080ca4f59",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India’s foreign exchange reserves fall to $719.74 billion",
-      "publishedAt": "2026-10-30T11:36:41+00:00",
-      "importanceScore": 12.1,
+      "title": "RBI holds 625th Central Board meeting, discusses economic risks",
+      "publishedAt": "2026-10-30T15:13:38+00:00",
+      "importanceScore": 11.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-1-2-billion-to-719-74-billion-as-of-october-24/articleshow/135359323.cms",
-      "summary": "India’s foreign exchange reserves fell by $1.2 billion to $719.74 billion in the week ended 24 October, according to the RBI. The decline followed a $5 billion drop the previous week, when reserves were $721.02 billion, indicating ongoing pressure on the country’s foreign‑exchange buffer.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms",
+      "summary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra. The board deliberated on a range of economic risks facing the country. No further details on specific topics or outcomes were provided in the source.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -74,13 +146,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-1-2-billion-to-719-74-billion-as-of-october-24/articleshow/135359323.cms",
-          "publishedAt": "2026-10-30T11:36:41+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms",
+          "publishedAt": "2026-10-30T15:13:38+00:00"
         }
       ],
-      "firstSeen": "2026-10-30T11:36:41+00:00",
+      "firstSeen": "2026-10-30T15:13:38+00:00",
       "status": "New",
-      "lastChecked": "2026-10-30T14:12:54.558754+00:00",
+      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -98,7 +170,7 @@
       ],
       "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
       "publishedAt": "2026-10-30T12:34:46+00:00",
-      "importanceScore": 11.9,
+      "importanceScore": 10.9,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-pe/vc-investments-jump-45-to-7-billion-in-september-highest-in-over-two-years/articleshow/135362031.cms",
@@ -115,44 +187,49 @@
         }
       ],
       "firstSeen": "2026-10-30T12:34:46+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T14:12:54.558754+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
+      "previousSummary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
+      "previousPublishedAt": "2026-10-30T12:34:46+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.9,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
-      "id": "2de933d8ee6899",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "210c89744b7092",
+      "cat": "AI",
+      "icon": "✦",
       "categories": [
-        "India"
+        "AI"
       ],
-      "title": "India’s poverty rate falls from 27.1% to 2.6% between 2011‑2023",
-      "publishedAt": "2026-10-30T04:58:40+00:00",
-      "importanceScore": 11.8,
+      "title": "Google launches first data‑center satellite, tests AI model in orbit",
+      "publishedAt": "2026-10-30T17:00:00+00:00",
+      "importanceScore": 10.3,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-records-one-of-the-fastest-poverty-declines-in-the-world-poverty-down-from-27-1-to-2-6-world-bank/articleshow/135344552.cms",
-      "summary": "The World Bank report cited by the Economic Times says India’s poverty incidence dropped from 27.1 percent in 2011 to 2.6 percent in 2023, lifting about 496 million people out of poverty. Employment rose, especially among rural women, while youth unemployment, particularly among young rural women, increased. The report calls for continued creation of productive jobs to sustain the gains.",
-      "why": "Reducing poverty improves economic stability, social equity and guides policies for job creation.",
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "summary": "Google’s Suncatcher prototype data‑center satellite was launched earlier this month on a SpaceX Falcon 9 ride‑share with more than 100 other spacecraft. The 1 kW satellite carries four TPUs and a pre‑loaded DeepMind Gemma 4 model, which engineers prompted to write a haiku and report orbital conditions after about three weeks of commissioning. Ongoing tests will evaluate TPU performance under space‑borne thermal stress and radiation, which can cause memory bit flips.",
+      "why": "Demonstrates that high‑power AI inference can operate in orbit, a step toward satellite‑based compute networks.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-records-one-of-the-fastest-poverty-declines-in-the-world-poverty-down-from-27-1-to-2-6-world-bank/articleshow/135344552.cms",
-          "publishedAt": "2026-10-30T04:58:40+00:00"
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+          "publishedAt": "2026-10-30T17:00:00+00:00"
         }
       ],
-      "firstSeen": "2026-10-30T04:58:40+00:00",
+      "firstSeen": "2026-10-30T17:00:00+00:00",
       "status": "New",
-      "lastChecked": "2026-10-30T14:12:54.558754+00:00",
+      "lastChecked": "2026-10-30T19:26:08.930994+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -162,21 +239,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 4,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-30T07:10:13.254722+00:00",
+  "previousUpdated": "2026-10-30T14:12:54.558754+00:00",
   "changeSummary": {
-    "new": 4,
+    "new": 5,
     "updated": 0,
-    "continuing": 0
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-27T18:44:32.006608+00:00",
-    "updated": "2026-10-30T14:12:54.558754+00:00",
+    "availableFrom": "2026-10-27T22:57:58.713386+00:00",
+    "updated": "2026-10-30T19:26:08.930994+00:00",
     "snapshotCount": 13,
-    "eventCount": 86,
+    "eventCount": 88,
     "retentionHours": 72
   }
 }
