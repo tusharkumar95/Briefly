@@ -1,170 +1,57 @@
 {
-  "updated": "2026-10-30T01:03:23.939167+00:00",
+  "updated": "2026-10-30T07:10:13.254722+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 21,
+    "officialOrPrimaryCandidates": 19,
     "enrichedCandidates": 80,
     "readableCandidates": 55,
-    "eventClusters": 54,
-    "materialEvents": 21,
-    "selectedEvents": 10,
-    "seededStories": 7,
+    "eventClusters": 55,
+    "materialEvents": 24,
+    "selectedEvents": 7,
+    "seededStories": 4,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "dbdfed641c3a27",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Advance‑decline ratio hits seven‑month low as market breadth weakens",
-      "publishedAt": "2026-10-30T00:23:50+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-breadth-hits-seven-month-low-despite-nifty-sensex-gains/articleshow/135336784.cms",
-      "summary": "The advance‑decline ratio fell to its lowest level in seven months, signalling a weakening in market breadth. The metric, which compares the number of advancing stocks to declining ones, dropped sharply, indicating that a smaller proportion of stocks were moving higher. This contraction in breadth points to limited participation across the market.",
-      "why": "Thin breadth can signal underlying vulnerability in market moves.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-breadth-hits-seven-month-low-despite-nifty-sensex-gains/articleshow/135336784.cms",
-          "publishedAt": "2026-10-30T00:23:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-30T00:23:50+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T01:03:23.939167+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "38aa4ff285f525",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "G‑Sec 10‑year yields dip 5 bps to 7.39 % on Fed signals",
-      "publishedAt": "2026-10-30T00:26:03+00:00",
-      "importanceScore": 12.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/g-sec-10-year-yields-come-down-5-bps-to-7-39-on-fed-signals/articleshow/135335834.cms",
-      "summary": "India's 10‑year government bond yield slipped by five basis points, ending at 7.39 percent. The Economic Times article links the decline to recent signals from the U.S. Federal Reserve suggesting a more accommodative monetary stance. No additional causes are mentioned in the source.",
-      "why": "A lower yield may ease borrowing costs for Indian issuers and shift sentiment in the domestic bond market.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/g-sec-10-year-yields-come-down-5-bps-to-7-39-on-fed-signals/articleshow/135335834.cms",
-          "publishedAt": "2026-10-30T00:26:03+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-30T00:26:03+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T01:03:23.939167+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "676ba82d07b4b9",
+      "id": "ef6c3c3a66432d",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Ethiopia receives 12 Russian Su‑35 jets, plans S‑400 air‑defence purchase",
-      "publishedAt": "2026-10-29T08:23:31+00:00",
+      "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+      "publishedAt": "2026-10-29T14:17:35+00:00",
       "importanceScore": 12.0,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ethiopia has taken delivery of twelve Su‑35 fighter jets from Russia while fighting intensifies in northern Tigray near Eritrea. Prime Minister Abiy Ahmed, speaking at the Russia‑Africa summit, called the delivery a “milestone” for Ethiopia’s defence capacity. He also said Ethiopia intends to buy four S‑400 air‑defence systems from Moscow.",
-      "why": "The new aircraft and planned air‑defence systems could significantly strengthen Ethiopia’s military and affect regional security dynamics.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-29T08:23:31+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-29T08:23:31+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T01:03:23.939167+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "912c4596848618",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-      "publishedAt": "2026-10-29T15:54:18+00:00",
-      "importanceScore": 11.8,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms",
-      "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+      "summary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms",
-          "publishedAt": "2026-10-29T15:54:18+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-29T14:17:35+00:00"
         }
       ],
-      "firstSeen": "2026-10-29T15:54:18+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-30T01:03:23.939167+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "firstSeen": "2026-10-29T14:17:35+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-30T07:10:13.254722+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-      "previousSummary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-      "previousPublishedAt": "2026-10-29T15:54:18+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.8,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
       "id": "e3a85b09c0b98e",
@@ -173,17 +60,17 @@
       "categories": [
         "India"
       ],
-      "title": "India finance ministry projects 7.35% GDP growth in Q2 FY27",
+      "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
       "publishedAt": "2026-10-29T09:04:04+00:00",
       "importanceScore": 11.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms",
-      "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in the second quarter of fiscal year 2027, after a 7.8% increase in the previous quarter. The projection attributes the growth to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
-      "why": "The forecast indicates the near‑term pace of economic activity, informing policymakers, investors and businesses.",
-      "confidence": "medium",
+      "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -193,113 +80,36 @@
       ],
       "firstSeen": "2026-10-29T09:04:04+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-30T01:03:23.939167+00:00",
+      "lastChecked": "2026-10-30T07:10:13.254722+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Finance ministry projects 7.35% GDP growth for India in Q2 FY27",
-      "previousSummary": "The finance ministry’s nowcasting model estimates that India’s gross domestic product will expand by 7.35% in the second quarter of fiscal year 2027. This follows a 7.8% growth rate in the preceding quarter. The forecast attributes the acceleration to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
+      "verificationScope": "source-backed",
+      "previousTitle": "India finance ministry projects 7.35% GDP growth in Q2 FY27",
+      "previousSummary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in the second quarter of fiscal year 2027, after a 7.8% increase in the previous quarter. The projection attributes the growth to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
       "previousPublishedAt": "2026-10-29T09:04:04+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 11.6,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "4301dc4cd64642",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "US trade deal will protect all sensitive Indian interests, says Piyush Goyal",
-      "publishedAt": "2026-10-29T13:47:53+00:00",
-      "importanceScore": 10.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms",
-      "summary": "Commerce Minister Piyush Goyal said India’s trade deal with the US would protect sensitive interests, including those of farmers, and give the country a competitive advantage. He criticised opposition parties for questioning the agreement before its details were released, while defending India’s trade strategy and its decision to stay out of RCEP.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms",
-          "publishedAt": "2026-10-29T13:47:53+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-29T13:47:53+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-30T01:03:23.939167+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "401f6ab4f8e9f7",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "publishedAt": "2026-10-29T17:00:00+00:00",
-      "importanceScore": 10.2,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-      "summary": "French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves. However, Mistral’s model uses 47 percent fewer tokens per task, making it significantly more economical than GLM-5.3.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-          "publishedAt": "2026-10-29T17:00:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-29T17:00:00+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-30T01:03:23.939167+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Mistral releases weights for its trillion‑parameter open‑source model ML4",
-      "previousSummary": "French AI company Mistral has released the weights for its trillion‑parameter open‑source model Mistral Large 4 (ML4), nicknamed “Le Chonk,” enabling businesses and governments to download and deploy the system themselves. The launch follows earlier announcements and is framed as a competitive alternative to closed‑model providers, highlighting the advantage of data control for cybersecurity workloads. Mistral says ML4 matches the performance of China’s GLM‑5.3 while using 47 percent fewer tokens per task, making it more economical.",
-      "previousPublishedAt": "2026-10-29T17:00:00+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.2,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 4,
-  "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-29T21:09:34.282979+00:00",
+  "jarvisEditedCount": 0,
+  "finalRejectedCount": 1,
+  "previousUpdated": "2026-10-30T01:03:23.939167+00:00",
   "changeSummary": {
-    "new": 4,
-    "updated": 0,
-    "continuing": 3
+    "new": 1,
+    "updated": 1,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-27T06:19:22.152535+00:00",
-    "updated": "2026-10-30T01:03:23.939167+00:00",
+    "availableFrom": "2026-10-27T13:14:31.395664+00:00",
+    "updated": "2026-10-30T07:10:13.254722+00:00",
     "snapshotCount": 13,
-    "eventCount": 90,
+    "eventCount": 86,
     "retentionHours": 72
   }
 }

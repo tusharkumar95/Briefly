@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-27T06:19:22.152535+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 1,
-        "continuing": 3
-      },
-      "stories": [
-        {
-          "id": "8d9bce52b18a98",
-          "cat": "Canada",
-          "title": "Bank of Canada faces trade‑off between weak economy and rising inflation",
-          "summary": "Canada’s economy remains weak while inflation rose to 3.1 % in the most recent month. Core‑inflation measures that exclude volatile items stayed subdued, and the Bank of Canada must decide on Wednesday whether to raise rates, which would further weaken growth, or cut rates, which could let inflation rise further.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-10-26T08:00:00+00:00",
-          "firstSeen": "2026-10-26T08:00:00+00:00",
-          "importanceScore": 15.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/armstrong-inflation-bank-of-canada-interest-rates-9.7393998?cmp=rss"
-        },
-        {
-          "id": "7a52f7cfd0ab60",
-          "cat": "World",
-          "title": "Chris Brown receives suspended eight‑month sentence for London nightclub assault",
-          "summary": "US singer Chris Brown avoided immediate jail after being sentenced to eight months in prison, suspended for 12 months, for striking a man twice in the head with a glass tequila bottle at the private members’ club Tape in Mayfair during the early hours of 19 February 2023. His vocal coach, rapper Omololu Akinlolu, was given a four‑month suspended sentence; both pleaded guilty to affray and were ordered to pay £1,500 costs.",
-          "why": "The case shows that high‑profile individuals can face legal consequences for violent conduct in the UK.",
-          "publishedAt": "2026-10-26T14:16:09+00:00",
-          "firstSeen": "2026-10-26T14:16:09+00:00",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "13f7bde1fd628c",
-          "cat": "World",
-          "title": "Health worker killed and another injured in Ebola response attack in north‑eastern DRC",
-          "summary": "A nurse was killed and a second health worker seriously injured when local youths attacked them while they were responding to an Ebola alert in north‑eastern Democratic Republic of Congo. The youths accused the responders of contaminating water and spreading Ebola, according to UN‑backed Radio Okapi. The World Health Organization condemned the attack, and Uganda banned non‑essential travel to and from the DRC and will quarantine returning citizens for 21 days.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-26T14:27:32+00:00",
-          "firstSeen": "2026-10-26T12:57:58+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "8be5f021dfeac8",
-          "cat": "India",
-          "title": "RBI steps up liquidity support as tighter cash conditions push up borrowing rates: Report",
-          "summary": "Tightening liquidity in the banking system has pushed up short-term borrowing rates, prompting the Reserve Bank of India (RBI) to inject funds into banks, according to an ICICI Bank report. The report expects the 10-year benchmark bond yield to trade between 7.40% and 7.60% in the near term.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-27T02:36:22+00:00",
-          "firstSeen": "2026-10-27T02:36:22+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-steps-up-liquidity-support-as-tighter-cash-conditions-push-up-borrowing-rates-report/articleshow/135222948.cms"
-        },
-        {
-          "id": "1a26eb215c11a2",
-          "cat": "India",
-          "title": "India’s outward FDI falls 14% to $4.34 billion in September",
-          "summary": "Outward foreign direct investment from India declined by 14% in September, reaching $4.34 billion. The fall coincided with a reduction in outbound loans and guarantees during the same period, according to the Economic Times. The data reflect a slowdown in the country’s external capital deployment for that month.",
-          "why": "The decline influences India’s balance of payments and its overall participation in global investment flows.",
-          "publishedAt": "2026-10-26T14:20:51+00:00",
-          "firstSeen": "2026-10-26T14:20:51+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-outward-fdi-falls-14-to-4-34-billion-in-september-as-loans-guarantees-decline/articleshow/135213852.cms"
-        },
-        {
-          "id": "22f5dc2cb554ba",
-          "cat": "India",
-          "title": "FTA with India will be a game changer in supply chain management: EU ambassador to India",
-          "summary": "EU ambassador to India Jean-Eric Paquet further said, \"We are creating an economic space across India and the European internal market. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding One company, 2 words.",
-          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-          "publishedAt": "2026-10-26T18:26:01+00:00",
-          "firstSeen": "2026-10-26T18:26:01+00:00",
-          "importanceScore": 10.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/fta-with-india-will-be-a-game-changer-in-supply-chain-management-eu-ambassador-to-india/articleshow/135217927.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-27T13:14:31.395664+00:00",
       "changeSummary": {
         "new": 4,
@@ -1751,124 +1633,55 @@
           "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
         }
       ]
+    },
+    {
+      "at": "2026-10-30T07:10:13.254722+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 1,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "ef6c3c3a66432d",
+          "cat": "World",
+          "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+          "summary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
+          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+          "publishedAt": "2026-10-29T14:17:35+00:00",
+          "firstSeen": "2026-10-29T14:17:35+00:00",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "e3a85b09c0b98e",
+          "cat": "India",
+          "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
+          "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
+          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+          "publishedAt": "2026-10-29T09:04:04+00:00",
+          "firstSeen": "2026-10-29T09:04:04+00:00",
+          "importanceScore": 11.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
+        }
+      ]
     }
   ],
   "events": {
-    "bea2f04507ffe9": {
-      "id": "bea2f04507ffe9",
-      "firstSeen": "2026-10-22T03:48:14+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-22T04:52:37.503185+00:00",
-          "title": "Jio Platforms IPO day 2 sees 22% grey‑market premium, valuation up to Rs 10.3 lakh crore",
-          "summary": "On day two of its Rs 30,213 crore IPO, Jio Platforms recorded a grey‑market premium of about 22 percent. The issue, priced between Rs 1,065 and Rs 1,119 per share, is set to close on October 23. At the top of the price range the company’s market value is estimated at roughly Rs 10.3 lakh crore, with brokerages noting its telecom leadership and growth prospects in broadband and AI.",
-          "importanceScore": 14.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-23T04:55:09.813407+00:00",
-          "title": "Jio Platforms IPO enters third and final bidding day with ~22% grey‑market premium",
-          "summary": "Jio Platforms' IPO entered its third and final bidding day on 23 October 2026. In the grey market the issue traded at an approximate 22 % premium, reflecting strong investor demand. Brokerage analysts noted Jio’s dominant telecom position, improving profitability and growth prospects in broadband and artificial‑intelligence services.",
-          "importanceScore": 14.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-23T04:55:09.813407+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Jio Platforms IPO enters third and final bidding day with ~22% grey‑market premium",
-      "latestSummary": "Jio Platforms' IPO entered its third and final bidding day on 23 October 2026. In the grey market the issue traded at an approximate 22 % premium, reflecting strong investor demand. Brokerage analysts noted Jio’s dominant telecom position, improving profitability and growth prospects in broadband and artificial‑intelligence services.",
-      "why": "The premium and broker optimism indicate how the market may price India’s largest‑ever public offering.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-day-3-gmp-at-22-issue-subscribed-over-5x-check-brokerage-views-and-key-details/articleshow/135134397.cms"
-    },
-    "b694d05b4ae55b": {
-      "id": "b694d05b4ae55b",
-      "firstSeen": "2026-10-22T08:49:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-22T10:14:17.006925+00:00",
-          "title": "RBI weighs rate hike as India‑G7 interest‑rate gap and inflation risks rise",
-          "summary": "The Reserve Bank of India said its monetary‑policy outlook is being shaped by the interest‑rate gap with G7 economies and by rising inflation and input‑cost pressures. Recent GDP data show resilience, driven by strong private consumption and exports. YES Bank projects that the RBI could implement a cumulative 50‑basis‑point rate increase.",
-          "importanceScore": 14.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-22T15:20:52.860366+00:00",
-          "title": "RBI focuses on interest‑rate gap with G7 amid inflation concerns, YES Bank sees 50 bps hike",
-          "summary": "The Reserve Bank of India says its monetary policy is now shaped by the interest‑rate gap with major developed economies and by rising inflation and input‑cost pressures. Recent GDP data show resilience, supported by strong private consumption and exports. YES Bank predicts a cumulative 50‑basis‑point rate hike.",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-22T20:09:24.293516+00:00",
-          "title": "RBI weighs inflation risks as interest‑rate gap with G7 draws focus, YES Bank forecasts 50 bps hike",
-          "summary": "The RBI is assessing inflation risks as the interest‑rate gap with G7 economies draws attention. Recent GDP data show the Indian economy remains resilient, supported by strong private consumption and exports. YES Bank forecasts a cumulative 50‑basis‑point rate increase by the RBI in the near term.",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-22T23:24:40.938724+00:00",
-          "title": "RBI focuses on interest‑rate gap with G7 as inflation risks rise",
-          "summary": "The Reserve Bank of India is monitoring the interest‑rate gap with major G7 economies while assessing rising inflation and input‑cost pressures. Recent GDP data show resilience, supported by strong private consumption and exports. YES Bank forecasts a cumulative RBI policy‑rate increase of 50 basis points.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-23T04:55:09.813407+00:00",
-          "title": "RBI watches widening interest‑rate gap with G7 amid inflation concerns",
-          "summary": "The Reserve Bank of India said the widening interest‑rate gap with G7 economies is a key factor as it evaluates rising inflation and input‑cost pressures. Recent data show Indian GDP growth staying resilient, supported by strong private consumption and exports. YES Bank projects that the RBI could implement a cumulative 50‑basis‑point rate increase.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-23T04:55:09.813407+00:00",
-      "cat": "India",
-      "latestTitle": "RBI watches widening interest‑rate gap with G7 amid inflation concerns",
-      "latestSummary": "The Reserve Bank of India said the widening interest‑rate gap with G7 economies is a key factor as it evaluates rising inflation and input‑cost pressures. Recent data show Indian GDP growth staying resilient, supported by strong private consumption and exports. YES Bank projects that the RBI could implement a cumulative 50‑basis‑point rate increase.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms"
-    },
     "4cd65a8627ef20": {
       "id": "4cd65a8627ef20",
       "firstSeen": "2026-10-22T19:25:26+00:00",
@@ -1932,108 +1745,6 @@
       "latestSummary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Paris is extending a partial curfew restricting movement in parts of the city until Monday, as Marseille and Lyon impose a total ban on protests this weekend. France is still reeling from major disorder at the weekend, when large protests against the high cost of living and school conditions were overshadowed by riots and looting that saw business and historic buildings destroyed.",
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
-    },
-    "8f2f8c25fcf6bf": {
-      "id": "8f2f8c25fcf6bf",
-      "firstSeen": "2026-10-22T15:56:36+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-22T20:09:24.293516+00:00",
-          "title": "Premature twins displaced from Yemen village amid Houthi attack",
-          "summary": "Twins Raghad Hassan and her brother Raad were born premature just seven weeks ago. When Houthis reached their village in the Kahboub mountains, their family of seven fled amid bombs, missiles, and drone attacks, walking three days before being given a a lift to Aden.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-22T23:24:40.938724+00:00",
-          "title": "Premature twins struggle to survive after fleeing Houthi advance in Yemen’s Kahboub mountains",
-          "summary": "Seven‑week‑old twins Raghad Hassan and Raad, born prematurely, have been fighting for survival as fighting intensified in Yemen’s civil war. When Houthi forces reached their village in the Kahboub mountains, their family of seven fled on foot with only blankets. During the walk the twins grew weaker, with worsening vomiting and diarrhoea, their mother Lina said.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-23T04:55:09.813407+00:00",
-          "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
-          "summary": "When the Houthis reached their village in the Kahboub mountains in south-west Yemen, their family of seven was forced to flee amid bombs, missiles, and drone attacks – the twins protected only by blankets. Image caption, The twins' family walked for three days before being given a lift to Aden",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-23T04:55:09.813407+00:00",
-      "cat": "World",
-      "latestTitle": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
-      "latestSummary": "When the Houthis reached their village in the Kahboub mountains in south-west Yemen, their family of seven was forced to flee amid bombs, missiles, and drone attacks – the twins protected only by blankets. Image caption, The twins' family walked for three days before being given a lift to Aden",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
-    },
-    "e0887e433f86a8": {
-      "id": "e0887e433f86a8",
-      "firstSeen": "2026-10-22T19:00:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-22T20:09:24.293516+00:00",
-          "title": "OpenAI makes Decisions API widely available",
-          "summary": "OpenAI released its Decisions API to all customers, repurposing the ChatGPT Luna model to deliver faster, lower‑cost inference. The API cuts typical response times from one‑to‑three seconds to about 100‑180 ms and adds voice and visual modalities, with latency optimizations targeting inference resources worldwide. The launch follows TypeSafe’s Jev model, which created a market for rapid “super‑classifier” decision systems.",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-22T23:24:40.938724+00:00",
-          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-          "summary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company . TypeSafe’s Jev model created a category for deep learning models that act as super classifiers: Given a set of options, they can quickly make choices and offer a confidence rating in their decision.",
-          "importanceScore": 10.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-23T04:55:09.813407+00:00",
-          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-          "summary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company . TypeSafe’s Jev model created a category for deep learning models that act as super classifiers: Given a set of options, they can quickly make choices and offer a confidence rating in their decision.",
-          "importanceScore": 10.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-23T04:55:09.813407+00:00",
-      "cat": "AI",
-      "latestTitle": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "latestSummary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company . TypeSafe’s Jev model created a category for deep learning models that act as super classifiers: Given a set of options, they can quickly make choices and offer a confidence rating in their decision.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
     },
     "75ab97cd787667": {
       "id": "75ab97cd787667",
@@ -5072,13 +4783,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-30T07:10:13.254722+00:00",
+          "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+          "summary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
+      "lastSeen": "2026-10-30T07:10:13.254722+00:00",
       "cat": "World",
-      "latestTitle": "Drone strike kills at least 14 at Dnipro railway station",
-      "latestSummary": "At least 14 people were killed and another 14 injured, including an 11‑year‑old boy, when a Russian jet‑powered drone struck a crowded platform at Dnipro’s main railway station. Ukrainian officials said a passenger train bound for Zaporizhzhia was on the platform at the time. The site has been sealed off as authorities investigate; Russia has not commented and denies targeting civilians.",
-      "why": "It highlights the risk to civilian transport infrastructure in the ongoing conflict.",
+      "latestTitle": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+      "latestSummary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
     },
     "64bbd39168dcf4": {
@@ -5212,13 +4936,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-30T07:10:13.254722+00:00",
+          "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
+          "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
+          "importanceScore": 11.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-30T01:03:23.939167+00:00",
+      "lastSeen": "2026-10-30T07:10:13.254722+00:00",
       "cat": "India",
-      "latestTitle": "India finance ministry projects 7.35% GDP growth in Q2 FY27",
-      "latestSummary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in the second quarter of fiscal year 2027, after a 7.8% increase in the previous quarter. The projection attributes the growth to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
-      "why": "The forecast indicates the near‑term pace of economic activity, informing policymakers, investors and businesses.",
+      "latestTitle": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
+      "latestSummary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
     },
     "b841fed2ecacd6": {
@@ -5461,5 +5198,5 @@
       "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss"
     }
   },
-  "updated": "2026-10-30T01:03:23.939167+00:00"
+  "updated": "2026-10-30T07:10:13.254722+00:00"
 }
