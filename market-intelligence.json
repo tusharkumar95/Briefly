@@ -1,53 +1,63 @@
 {
-  "updated": "2026-10-30T06:27:38.219479+00:00",
+  "updated": "2026-10-30T13:35:08.935257+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite was little changed 0.04%",
-      "direction": "flat",
-      "move": "S&P/TSX Composite -0.04%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "headline": "TSX slides as tech, mining and energy stocks fall",
+      "direction": "down",
+      "move": "S&P/TSX Composite -1.27%",
+      "why": "Tech, mining and energy stocks dragged the index lower, with AI concerns and a gold sell‑off cited as specific catalysts",
       "drivers": [
         {
-          "label": "Gold selloff",
-          "detail": "Falling gold prices hurt mining companies, pulling the index lower.",
-          "kind": "context"
+          "label": "tech and mining shares fall",
+          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "AI concerns",
-          "detail": "Investor worries about artificial‑intelligence outlook weighed on technology stocks.",
-          "kind": "context"
+          "label": "gold selloff hits miners, AI concerns weigh on tech",
+          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Base metals weakness",
-          "detail": "Lower base‑metal prices dragged material‑sector shares down.",
-          "kind": "context"
+          "label": "Base Metals, Technology and Energy Stocks Drag",
+          "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Energy drag",
-          "detail": "Energy stocks underperformed, adding to the overall decline.",
-          "kind": "context"
+          "label": "Technology",
+          "detail": "Tech shares fell, partly due to AI concerns",
+          "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Technology",
+        "Mining",
+        "Energy"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36249.0,
-        "previousClose": 36265.1,
-        "change": -16.1,
-        "changePct": -0.04,
+        "price": 35787.53,
+        "previousClose": 36249.0,
+        "change": -461.47,
+        "changePct": -1.27,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-29T20:20:01+00:00",
+        "asOf": "2026-10-30T13:35:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
+        {
+          "name": "Reuters",
+          "title": "TSX inches lower as tech and mining shares fall - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTmx0bHpYVWdrRDdFMTd2a3o2SXVTM252RlZBSWVsRVVPTnYxdGZvMkc4b21zTXdUbS1YcGlfejNGQnI1MnV5TEliY1QzWjhHeXB2eEprbG5vcnpxMEtHdERMU2N4b2FBbWxHdmUtLUNiUzZmYm56ZnVtTWY4YXJDcy03QWtzam1JcmV2ZEQ0dUpUanlhOU4wZUE0YnJiRWxBNmJCVmxuMk1sOWhiY09r?oc=5",
+          "publishedAt": "2026-10-29T20:35:18+00:00"
+        },
         {
           "name": "Investing.com India",
           "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.04% By Investing.com - Investing.com India",
@@ -77,108 +87,105 @@
           "title": "TSX Closes Flat as Mining Losses Offset Bank Gains - TradingView",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY1pUTk9CNmJYeXpjb0hRbjVtWDlBNjhDZFhva3BmdnJ4QmZDTGtjOF94dnVrbzFiV196N0JHdXdTc2pGLWJlUi1PNjFZQ0gzWFdoYkhpcTBxb2JVNm5HR0lWakxmWXhjTlF4S2tZUHpZR3lqZGNBQkVEbVBMSWh3a09fYVlKZnlZT3RrNzRkN1g1ZWRNQnp2UkdocTZ0ekRqeDJr?oc=5",
           "publishedAt": "2026-10-29T20:26:46+00:00"
-        },
-        {
-          "name": "Yahoo Finance",
-          "title": "TSX Closer: The Index Closes Lower as Base Metals, Technology and Energy Stocks Drag - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdnRCTU9ZeVE0NkltN0VQeHp0RkpIRURzRHk0VDJFWFFJWVh5Ul9OdXRRbEVjM2dXRy1RZUNVWE1wOVcydjZCV013VFdQUk5PV0ZLdTlzekdkbi0wbTJ2MEJIWmJwa2U0djBrNTNpRERVY2lnME5seUxkaDBwcUQzTHpCcXZ5eGg0T2VYdEdDR1BLcGoxTWhnV2RHcGZ1X2hKVUJJ?oc=5",
-          "publishedAt": "2026-10-29T20:17:57+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.66%",
+      "headline": "Nifty 50 and Sensex closed modestly higher as IT and pharma stocks led the rally, but broad-based weakness capped gains",
       "direction": "up",
-      "move": "Nifty 50 +0.66%",
-      "why": "Same-day market coverage explicitly linked the final move to: IT Shares Advance; 20 Stocks to Announce Q2 Results Today; Nikkei Slumps; Crude Oil Gains Amid US Tech Sell-off as of October 30, 2026; Fed rate pause boosts market sentiment.",
+      "move": "Nifty 50 +0.51%",
+      "why": "IT and pharma stocks led the session, lifting both indices into the 23,000/300-point marks; however, weak broader market breadth limited the upside",
       "drivers": [
         {
-          "label": "IT Shares Advance; 20 Stocks to Announce Q2 Results Today",
+          "label": "IT and Pharma Lead, Trent Surges 5% on 25% Q2 Profit Growth, IndiGo Narrows Loss",
+          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "IT Stocks a Lead Rally",
           "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Nikkei Slumps; Crude Oil Gains Amid US Tech Sell-off as of October 30, 2026",
-          "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Fed rate pause boosts market sentiment",
+          "label": "gain of 0.5% as IT, pharma stocks rally; weak broader market limits gains",
           "detail": "ChiniMandi explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Realty and Utilities Lead Rally",
-          "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "IT Stocks Climb: Sensex Over 300 Points Up, Nifty Above 23,050",
+          "detail": "ABP Live English explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "medium",
+      "sectors": [
+        "IT",
+        "Pharma"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 23088.3,
+        "price": 23053.1,
         "previousClose": 22936.75,
-        "change": 151.55,
-        "changePct": 0.66,
+        "change": 116.35,
+        "changePct": 0.51,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-30T06:27:51+00:00",
+        "asOf": "2026-10-30T10:01:11+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 74522.24,
+        "price": 74459.53,
         "previousClose": 74151.04,
-        "change": 371.2,
-        "changePct": 0.5,
+        "change": 308.49,
+        "changePct": 0.42,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-30T06:12:50+00:00",
+        "asOf": "2026-10-30T10:02:30+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
+          "name": "India Infoline",
+          "title": "Closing Bell: Nifty Reclaims 23,000 as IT and Pharma Lead, Trent Surges 5% on 25% Q2 Profit Growth, IndiGo Narrows Loss - India Infoline",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVkppM2V0QjNjZHIwQ1V5bXpyNFVMcGZ3Y0JlN0w2VE1lSG40dEEtc2pHV3V2Rm1XWUFmODF3SllBLXludmd6bWh6N2xiWWpTLXNKUlI4MWoxVlFyN3daXzJRWjNYLXNKMzFyMVdpQnVydE1tNkZrZEthd0lkc3M4OEpIQnZ0S3NLS3hJaWRnclJCUmpiMU4tai1QMmFBQ1RSSU5xb1pnWFVtb1RKQUZjUDZHMF80T3AwVUZhUVIyWEEyZjJqcHc1N3ZrVXVjQUZuNlBTZkd4VHhITnlVTHN5TUF0RHJfZ3Z2OUFaaQ?oc=5",
+          "publishedAt": "2026-10-30T12:30:52+00:00"
+        },
+        {
           "name": "Dalal Street Investment Journal",
-          "title": "Opening Bell: Sensex Gains 5 Points, Nifty 50 Rises 3 Points as IT Shares Advance; 20 Stocks to Announce Q2 Results Today - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOEtiS2RlU0JHQjJRVktIV3FZeWM2c0RidjFITFhsNmRjOEh6N0pJbE5vS2kwRDI2Z0RuQjJMMUlTdUNFNVl5SnV6UEVjNzNTbFRpR3A3MDJDYUV2NkpmU0hYT3VzMXBxVDU5alh1N3JZcWFOUy1LMjEtd0E2R0xqX25wZ2lHa0prWTRPVWtRX1NLbklNRWVmYkd3WVk5cWZoWW5jQUY3NUd2RzZHUXJVcDlhR3lHVDVDQXFPakdQa0pFR2Rad2pWZE9TLWUtQVcxcnJNbVgyUUNNcG4xLWNGQ3FlYm5GUllidnc?oc=5",
-          "publishedAt": "2026-10-30T04:02:19+00:00"
+          "title": "Closing Bell: Sensex Gains 300 Points, Nifty Reclaims 23,000 Mark as IT Stocks a Lead Rally - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWmRkUkxrWFBGcW9fcUVPUnhZSWpZNUhEUXI2ZXljYkVWSTM3ZWJmdl9EeTZwOEktUlF1a0tod0VsR1pLOUlrODNydzdCTXhxU3ZsNzBXTUkydlkteG9uQVp5dmxNM2lfcG04ZUREZV9GQTg3NWxKd0F5cUFxX0Vzd2hZV2RqSnA2VndFWnV2NUEzSGxwdVZVVS00YjVGQmlVVzRnZDgtRTVUTXBNRG9zano2dTFvWkpSRVY3OFRkVVplbjRmTXQtZ01SeXZhWHh6ZW5B?oc=5",
+          "publishedAt": "2026-10-30T10:36:33+00:00"
         },
         {
-          "name": "Times Now",
-          "title": "Stock Market Today (October 30): Sensex, Nifty Open Flat; Rising Oil Prices, Geopolitical Tensions In Focus - Times Now",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPSkcyQktHdUYwRC1IRHJsakZFTVhZUHRvX2FiZDRnZmdVdy1jWkd3bkFRQWhkLWlQZHp2aE42MTYxU3ZvOURHQUFUdV9YTGdWb292M0xDWV9TekpLU0pNaEp5MnJDMXRDRFdnZHJDdi13VVM2Tzk0d3FyZmpfVHEtVEpaV29SN25RYS10SjV2SzRTV25uNmZRMjRvR2tXV0w5M1FqcUZVNEVXbFo1aHpyNm42VWQzbnVFY1Q3ZkhpRzF5YkIyWnBqM1JoNkZ2Q2tfc00wNnNKOEJlSW54LXFjSmVZNGlnTkRWS2Q0d2s2RlBQMUJwMnRSazdlaVhRak81d3NR0gGIAkFVX3lxTFBrc1lJc1k2dWYtM3dmcTRSNGZyS0htWEg4akV0MjhNU2dvRkMwTlg2a1poMk5sR0NCLURBNDBBMUwzZEJqa0ZPR1N5dWI1OHBWT3FYV2Itczh6Z2w1SEN0QjFHYTdNUlVEVmZza3F6aGtvSEhPZ19tZkNrQVVtcEFHdGFVNXhiQlJZR0RoTDBkdHBPTXE0WktPT21CQnFPWGQzUmM2b3I4bXBwbWQwX29QWEI2aVpyWk5fSmpYNHVtSWtRSkhmbU9ONHVrNThqQXVNT2dCUXY1R2NxaGQ1dkNTaHVqN1RmcHRTLXdOOEhTbkVncHVpYzNiSVVNY0dtUnhHOGthZF9YVQ?oc=5",
-          "publishedAt": "2026-10-30T03:51:04+00:00"
-        },
-        {
-          "name": "scanx.trade",
-          "title": "Trade Setup for Today: GIFT Nifty Dips as Nikkei Slumps; Crude Oil Gains Amid US Tech Sell-off as of October 30, 2026 - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQeUhWUGhDanRoREJtVkJFb3FJQUJRdlB1YmxIYkpkZmVuVGdhNmNBdzM5amZmXzNheFkwbUVucmw3SGhGZ3lpUF9IaEpqaDdVUzhOWTVLbFFmdjRCbkpkbEZPQmNYQ1RXM21iaEdBNzJHLU9oOXRadUdoc2FqWFJjemhObWZQZ0NIaTMwQWJBYXpxbmtVMVkyQk9DOUpHcy1DQVp4RHliajROOTBMN0hSWDVyWG1pc0Z3eW5KcWlBMkQyZUYtVlNidTdYOTFSN2VtNEhObEZENU9seXczclFsNVVxYlVxNTJnUEJYaVBmQkRMeXQyN2lpQ0h6RnEwUDJE?oc=5",
-          "publishedAt": "2026-10-30T02:54:20+00:00"
-        },
-        {
-          "name": "Analytics Insight",
-          "title": "Indian Stock Market: Nifty 50 Opens 27.75 Points Lower at 22,964.50, Sensex Falls 48.65 Points - Analytics Insight",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSUo2WDRCYU5YUkQyNzFZTVloNERWN1BhakczYk1FNjRiMTJnWGdyQ2tZcXFxb2oySlBJMjV5UmtlaXctaHRpQnFrT2xYYndmdzZReVVEblJBR1hDSzNGVmNpSjRBSlBxVWVFZkxJS1dScVd4SnkyQkR2QjdIcWNJbWswRXpRVk1PaFdfQXB2dXBQa2R2SW8xQXNBN2xyNDZXZFU2cDczSWo5Qmdxem55TWdwTkFiMUpIdWlxSlRxckFSd0dQbllz0gHUAUFVX3lxTE5nel9wX0M5amVhZ3hNZlVVdUJDbEVFZzJORGtMTHJOY1dhTFI2T3NFdkp2bWJYdWhYZUgzbVY2M3dOdldVU3RDMHE3RFdoVFFuZHN3eWtpTEJXOE54bFFtZXk1VWdBZjJxR0NJZXNxS1hGeFdlT05JejQxSlpJTHpiR2hXdEpvWUNSY2lDWDREeXVBb2ZIMUhQLVRueXJOcG02dEZOb0hXb1VQS0VXVVQzWUlzalhvNHRlMWFnTnNVQjZXN21laGRka2ZOcDF6bFAzNTNL?oc=5",
-          "publishedAt": "2026-10-30T05:12:14+00:00"
-        },
-        {
-          "name": "IndiaIPO",
-          "title": "Stock Market Today LIVE: GIFT Nifty signals quiet start; Brent crude at $111 - IndiaIPO",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVkZ2QnRqNU0xM0Y0anVKUjZmQzR4VHE5enhQc0N6WjgxMmhya3pGSzJmUEY5cHgyV09BRm5xUU9vMlU0RW9oM1BxeHBoalg3ZzhldWFJZUgyRlhkWXE5WjZnQzJfU05lSnhRU21jVEhMZ0dhcDNPZk5GWDd6aDNLVFhzNDVXSWJjQWpxTTA0YlZMdU5QcFpfNDVTUWVPVlR3YVB0Ti1pTW5MX19GWlE?oc=5",
-          "publishedAt": "2026-10-30T02:31:21+00:00"
+          "name": "Equitymaster",
+          "title": "Sensex Today Ends 308 Points Higher | Nifty Above 22,300 | Vedanta Oil and Gas Up 8% - Equitymaster",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa0xfS0R1dFFiRTdEaW5zbFpJQVdYNC1yNzlKN0xUU1NSaGJ5LUJKa3M1Z2lZWHlrVm5GR3F0WG4tQzh1OEhHZHNxYlU5ekRTODFKVU4wUDltbkdFd2NVOThobHFPVHVPdTNXc1BndmNxY3RwTXRwNEpPcUhPNjJ0MlBDalpJYm53MUctVjIyWWowdEFEY3JucEo2bU01RzdVVzZmMWk3MVRJYTRZMjBCZjN0NGx1WnRTUDE0OThSZWtMT0x5NExVS21OVnh6YmJ6aUJ6WW1RbjE?oc=5",
+          "publishedAt": "2026-10-30T10:28:55+00:00"
         },
         {
           "name": "ChiniMandi",
-          "title": "Sensex surges 905 points, Nifty closes 1.05% higher as Fed rate pause boosts market sentiment - ChiniMandi",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdmVOVV9YRWczTzZ3c0R5ZW54YW9CTFJWVXF3Rzk3Ym5jQ201NXpDa0RienhYa2xLWGZQNHVFb00wekxnam41Z0I0VkdiSml0M1pja000ZVR3MVVrbVN5Sk1xcmlmblFFSGl3RXFQbC13OWthbmVVVGxPRDRjZlFSblIzQ3NVOEtGQlNOYjhMZ2NjTTduV0FKb1hrMHJVZHdjZ1Mwc1JsRWdzQmkyTHdoeEJhS2p6THoyTmFr?oc=5",
-          "publishedAt": "2026-10-29T10:33:19+00:00"
+          "title": "Sensex, Nifty close with gain of 0.5% as IT, pharma stocks rally; weak broader market limits gains - ChiniMandi",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZW9rV0NJRXU2T002TkpGY3BBMWpjYWJMLXNYOUZ4bUQwZkw4UU1ZMmJLblFRZWhpdmZUc0VPYVp5WHVDMTRFZnRsNkZzQjFlMUdlMGgyQy05bVpVa0lhaU9PSTlXU2ZTYWdIUVF3ZEV2MFB1SGVtbk9LUWhPWWRQbVlCbHNTbVRZZW40QW45R1hVVkcwc3VWemxkRUdieTA1YmhHZVMybTBWNW5OTnJzcTgzOHVkbVlGbzBxSlpxUQ?oc=5",
+          "publishedAt": "2026-10-30T10:26:51+00:00"
+        },
+        {
+          "name": "ABP Live English",
+          "title": "Share Markets Close On A High As IT Stocks Climb: Sensex Over 300 Points Up, Nifty Above 23,050 - ABP Live English",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGlwN3M2ZlhraXVRUFd1dVprSDdLTWJabzE2cVlmbnFteVN5TVhqOTFZaEYxSmVSQzRHbzA1bzh5TVRxZm5GdTN1RlJRNVBQNXNXOXN0dTRVaDhGTGpBUmFEcFdBbHI5dlhxaGtZYUowLUxIVklkQ3FwT0JLQ3BCd2tiRkdDNXpwYVF5U0I5RjBoWG5zVGlNOU1zWl8yM1Nh0gGmAUFVX3lxTE8tNHc3WU0xTXNMVEtaTGpxemtjX2U2dV9uTG1EenJhYjc5a0dfU1RYMThGR1I3RS1SS3FHZU01bjVEbkpBNUx3aEQ4d3NuUXdMZjY2NXJud3N3RzZMYWJRdklGOHZHTEhUSFBlZG56c1BvRjdRWVlBR1Y2c0ViNkt4eXRtMWcxbk9PQXYzclRna1VFVElGNWV5VXN4RGJuRS16SmpUTVE?oc=5",
+          "publishedAt": "2026-10-30T10:03:26+00:00"
+        },
+        {
+          "name": "INDIA New England News",
+          "title": "Sensex Plunges 1,045 Points, Nifty Hits 2026 Low as Oil Prices Surge - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2w0OExuLXNXNkItVEJweDJtWkZCQlBkZUQ4LUYtNDlqVVRyQU5WemdBSUhnY3gwWGdza2Z2UXUwUC1MSE9SQzNkenpXR1RIWFpTdHctRE84dDlOWVEtYTNzS1Yzb09fZFlZTG1pMkc0N3lCQ2l3Rl96eFV4QnphVVhWTDVBUnhTSGo1LVgzWHhjbmZobWt0S3d6WQ?oc=5",
+          "publishedAt": "2026-10-30T07:58:05+00:00"
         }
       ],
       "evidenceCount": 7
