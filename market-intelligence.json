@@ -1,28 +1,33 @@
 {
-  "updated": "2026-10-29T19:54:12.859687+00:00",
+  "updated": "2026-10-30T00:23:38.486913+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite was little changed 0.08%",
+      "headline": "S&P/TSX Composite was little changed 0.04%",
       "direction": "flat",
-      "move": "S&P/TSX Composite -0.08%",
+      "move": "S&P/TSX Composite -0.04%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Bank stocks help lift S&P/TSX composite higher, U.S. stock markets down",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "Gold sell‑off",
+          "detail": "Gold price decline hit mining stocks.",
           "kind": "context"
         },
         {
-          "label": "TSX slips as gold miners tumble on earnings, US inflation data",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "AI concerns",
+          "detail": "Investor worries about artificial‑intelligence developments weighed on technology shares.",
           "kind": "context"
         },
         {
-          "label": "Why TSXV:NURS climbed on the TSX Venture Exchange as Canadian stocks closed higher",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "Base‑metals weakness",
+          "detail": "Falling base‑metals prices dragged materials stocks lower.",
+          "kind": "context"
+        },
+        {
+          "label": "Technology weakness",
+          "detail": "Technology stocks fell, contributing to the overall decline.",
           "kind": "context"
         }
       ],
@@ -31,53 +36,53 @@
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36235.44,
+        "price": 36249.03,
         "previousClose": 36265.1,
-        "change": -29.66,
-        "changePct": -0.08,
+        "change": -16.07,
+        "changePct": -0.04,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-29T19:54:01+00:00",
+        "asOf": "2026-10-29T20:20:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "BNN Bloomberg",
-          "title": "Bank stocks help lift S&P/TSX composite higher, U.S. stock markets down - BNN Bloomberg",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTVZSMlY1WF9Fam4yWUEzdGVJR3RENHJWN19RdHVobUd5V1k2ZlRuX2lsWEFIa18zZWw1VzVJdzFtNnNGc0d2dmJTTk9DdjBEVU14UUJha0pWaURyR0xrLVZiRHlMXzJKMFhKSmdSZnBxZG90MUt4Nkh1TjJKRzE3VHBxYzd6eTJkVVNzYlN2VjI4QjlSRWFhYzRKSERxVTgtSUMyWkltTGNkaHROMHZqRm95cDU?oc=5",
-          "publishedAt": "2026-10-29T15:40:24+00:00"
+          "name": "Investing.com Canada",
+          "title": "TSX closes lower as gold selloff hits miners, AI concerns weigh on tech - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUFlIZUNEdXlweWlNLWQtRGFmMkFVejdFazdsRnZJWWJKQjdYWU1iVjBtakpqUE9ySDk0bkJkY3hQbG1uUWdXd3RYaUNlTUlFTTd1MDBwcElwdmNHc1RIdmUyQ01CVDh4ak9ETGdXNGhBcmg3TnlyRXljVHB0VTRUN2NZbHVpSXkyR1NvV2JWYm5vd3FNRmIzclVYMFdrN05mN1oybFhMaXdJamZpVG54NVRyaGNUTVR5TnlTZkFrSQ?oc=5",
+          "publishedAt": "2026-10-29T21:31:01+00:00"
+        },
+        {
+          "name": "Investing.com",
+          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.04% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON0VYWTQ2VVdKVmg2U2stb2Z0aHNvQjhidzZqWm9WSXpkOW84d3pieGxVQ1RzZWgxUUZhaG1IMEhIQXBlNjg4SC1MMk9kYWNpOGV2X1FXbFFDcXlBdjZLZjd4YkRRRngtM2ptcUt5NnVMVEVsb0hFUjl5bkNkQUZiMVpGcnNuNndIc2FSUmxQVDlMRkpNYnk2N09XV1lacmF0NGFCTlZVd3ViQk0yamlmSjgwV2xNUERjLS00?oc=5",
+          "publishedAt": "2026-10-29T20:37:33+00:00"
+        },
+        {
+          "name": "Investing.com India",
+          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.04% By Investing.com - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2Q2Y3Rua1VvY2tsVDJJYVF4U040UW9uZ1B0WjJrVnppR2FpRmliQkVfbTNzNjRzZEVyMVJOT09oVXhqMXVQMVktN2NBOFFrSHh4ZXJ5YXBvaXZOeUFKeEU4eDZwd0ZfN1V4RXFsT0tSeU5FMldJVElESjZJaExGcHVYcTBIamNqOWVPTHFSenNEMjNscDNGZlJkQmIzR2V0dl9vVUVNeUpLb04tS1YwbnE1NG9weG5wSmc?oc=5",
+          "publishedAt": "2026-10-29T20:36:21+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.04% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONTNaRTkwaEttTzEtaEdxZm42TnVxQjVJa1BLMm9vd1dWLThyblRaTlBtdU0yVXdFTUozME9yUlRYWmRldEdjZDJqZ2J5T0xBckRRX2U3T0J2ZWREVXd0MVctYmU2cGxIeVpjczlzX2VMaFZJT2FiZlVraFRvY3JPN0ZkQm5ySVhVVF9fY0QyZUxmOFlnZ0ktcVNzV29DY21UcnJvZVZUaHRINVdKWVB1TDh6WG1NMDNLdUE?oc=5",
+          "publishedAt": "2026-10-29T20:30:00+00:00"
+        },
+        {
+          "name": "TradingView",
+          "title": "TSX Closes Flat as Mining Losses Offset Bank Gains - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY1pUTk9CNmJYeXpjb0hRbjVtWDlBNjhDZFhva3BmdnJ4QmZDTGtjOF94dnVrbzFiV196N0JHdXdTc2pGLWJlUi1PNjFZQ0gzWFdoYkhpcTBxb2JVNm5HR0lWakxmWXhjTlF4S2tZUHpZR3lqZGNBQkVEbVBMSWh3a09fYVlKZnlZT3RrNzRkN1g1ZWRNQnp2UkdocTZ0ekRqeDJr?oc=5",
+          "publishedAt": "2026-10-29T20:26:46+00:00"
         },
         {
           "name": "Yahoo Finance",
-          "title": "TSX slips as gold miners tumble on earnings, US inflation data - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVElxNWRtN3VxM1RQbGIyclZ1SHhHWmFYTEFENzdDMWl0S3BsVG1lMnNQNVkwUFNuYlJqNFRRYU83VlJnZldkeXY5OC10cnZJdGpqVkc5ckh3dGQwcDFJbzhnaW1Ga3Q0dE9oZ0IxRzUyR2NQeWVUb1NZZXpmVFYtWXpueEstM0FFcWtJTjY1bXViMVZYRlpUbQ?oc=5",
-          "publishedAt": "2026-10-29T16:00:10+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Why TSXV:NURS climbed on the TSX Venture Exchange as Canadian stocks closed higher - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX3dxWDI1Y045c1BTYlFRSWNSS3U0SWNfNnZKUVhnU0hKWE9FRngxaGQ2UWNweldfN1dfdnFPMnhEeUhFdmlhZ0hYRjZrU3RDTmNua3IyVW5DekZScG5nQjRUMjNSa3NZUUk5MHhmZ2VabHJLS1JxcElYcWpFaGpIWUJIMjdaeXQyaVN4TThQbm9aYjlPd3lZbUlWQVkyV0twd2dmcnFnRHg4ejNvOTBDYVhzcDRYcG8?oc=5",
-          "publishedAt": "2026-10-29T11:03:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Why CN:AIBZ.U jumped on the CSE as technology stocks led the TSX higher - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdExMaGJLYVQ2YWZIcDlROTVyLURSZjlrdDY0WkItN1Zxdm5UQnF3b3NOeTRnbFBNbWNhcXJiZGxoTlFLSjlhSUF4bllvWGJJRTJDN01hZDllaDJKanA0ZUN4emx5ZWdoV2tXVG5IbGZaZzRENXFnbEgzVXBJY3p5UGw0eUpMbll0UFNCSnJJMzNrME5EV2k0YTVwSmJHbmxBc3hrQTRmUE54OGZfbkRVbTdXa3lWN3hX?oc=5",
-          "publishedAt": "2026-10-29T11:03:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Why TSX:GMIN slid on the S&P/TSX Composite as gold prices pulled back - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcU9fVXNFTXRVdTZ2X1lSQkhhaXBScHJ6Z01NeEw1QjQ5Q3pWVHFSNlgtNVBTSmRzN05hYVNxTExJR0pTaEs1TEFMSXZjS2ZvcEo1MHdUWTBFT0NEOXBjcXNmSEdCekdaQVRBcDhxM1FpVEhhZkxQdXpJMVZNTWtPYWNLdVluZjh2Y2V3ZFBmaWpHaWpmZGJNalI4c0hVZw?oc=5",
-          "publishedAt": "2026-10-29T11:03:00+00:00"
-        },
-        {
-          "name": "www.marketscreener.com",
-          "title": "TSX Closer: The Index Closes Higher as Technology, Energy Stocks Gain Following Bank of Canada Rate Hike - www.marketscreener.com",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSG9KTXgtd3RkcDdHX1BQTWMxVDYwRnJhNnJ0NG9abU9RT08wbURCbm41ZEo3Q2NmUk00b3FtYk9TcUVJS3lIb042eUhya2FYbVNRRzRGQ0swZFl0WEs2OGhJQnNhWDE0NEtFZ2pIc21xTHFfamFxaFVTVnZkbnhmUkpEUzJtZUF2U1pFeHN2d1NWMUVQOFEyWU4xUmMwM2tmSjIwLXdjUXc1UEJjQk5RTEoxVFJ6TTVzNG5lOGNpc09MOWR6OTgxbmdBNFZ1Y1hfS1FDNG1XODZjNENlZURZS3g5RUM?oc=5",
-          "publishedAt": "2026-10-28T20:31:53+00:00"
+          "title": "TSX Closer: The Index Closes Lower as Base Metals, Technology and Energy Stocks Drag - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdnRCTU9ZeVE0NkltN0VQeHp0RkpIRURzRHk0VDJFWFFJWVh5Ul9OdXRRbEVjM2dXRy1RZUNVWE1wOVcydjZCV013VFdQUk5PV0ZLdTlzekdkbi0wbTJ2MEJIWmJwa2U0djBrNTNpRERVY2lnME5seUxkaDBwcUQzTHpCcXZ5eGg0T2VYdEdDR1BLcGoxTWhnV2RHcGZ1X2hKVUJJ?oc=5",
+          "publishedAt": "2026-10-29T20:17:57+00:00"
         }
       ],
       "evidenceCount": 7
@@ -95,12 +100,12 @@
           "kind": "context"
         },
         {
-          "label": "Sensex surges 905 points, Nifty closes 1.05% higher as Fed rate pause boosts market sentim",
+          "label": "Sensex claws back lost ground with 905-point surge",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         },
         {
-          "label": "BSE SENSEX Today: Sensex Jumps to 74,151.04 Amid US-Iran Negotiations and Russia-Ukraine P",
+          "label": "Sensex surges 905 points, Nifty closes 1.05% higher as Fed rate pause boosts market sentim",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
@@ -141,16 +146,22 @@
           "publishedAt": "2026-10-29T14:36:42+00:00"
         },
         {
+          "name": "The Hans India",
+          "title": "Sensex claws back lost ground with 905-point surge - The Hans India",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM0EtSE1mVkE4ODRtNi01UmkwMGc0MHhOam1pY0EzYWxFeTh1Qm0yS1U2Y0MzcEhfbUVKRzVPdHk3RWw5UDlHZHp3WFNKRldTZ1VKU3FkS29LR0J1eDJxYWpIaHRRcWU5WXdubmFja21WV2VwY2E0LVl1NWd2TFNBNlNGalFmd0NiSG1zMEpYblFOQk5DTVE2UEJ1eTI1YU5yRE83YjdrdGpjd3djR3NmRg?oc=5",
+          "publishedAt": "2026-10-29T22:01:11+00:00"
+        },
+        {
           "name": "ChiniMandi",
           "title": "Sensex surges 905 points, Nifty closes 1.05% higher as Fed rate pause boosts market sentiment - ChiniMandi",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdmVOVV9YRWczTzZ3c0R5ZW54YW9CTFJWVXF3Rzk3Ym5jQ201NXpDa0RienhYa2xLWGZQNHVFb00wekxnam41Z0I0VkdiSml0M1pja000ZVR3MVVrbVN5Sk1xcmlmblFFSGl3RXFQbC13OWthbmVVVGxPRDRjZlFSblIzQ3NVOEtGQlNOYjhMZ2NjTTduV0FKb1hrMHJVZHdjZ1Mwc1JsRWdzQmkyTHdoeEJhS2p6THoyTmFr?oc=5",
           "publishedAt": "2026-10-29T10:33:19+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Today: Sensex Jumps to 74,151.04 Amid US-Iran Negotiations and Russia-Ukraine Peace Talks - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObWhGdzB4OGRBRy1uRDZnTi11amRFRG04VXN6ZUIybTUyQmFJNU04Z3ZCTzBYb0d1M2RiUTBBT2ljTF9nX21uVmhDQml0blJVR0lzZmRIeC1zd2lWWWdlX0RwZ0tqbms5T0xscllOMWNrWXQwS01ub0NaRWJ3LU1icE1ZWElSbE9EYV9HYS1Udm5kelhPSUZ5WTJaTmJESmE4NjZzbzdhcTRsaHB5UlRUWUU3M3F4VXlmM09KTnBwN2poTE9jdGVzRGhOQmpkanpiQ2p1QVl3?oc=5",
-          "publishedAt": "2026-10-29T16:20:44+00:00"
+          "name": "scanx.trade",
+          "title": "Market Wrap: Nifty Gains 238 Points as Realty and Utilities Lead Rally - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNTVh0Q2UxRVp0M3M1SnJmVVdnSWxaRmtXYzFJX19zX2I1MXpoLU9PT21tLTl4Rmd1Ylkwd2lqYldlbFFOSGZScEtETkpXdTkwUDlVTXg0LUY4QmtOT0ZRUnZWVTNYSENxb1NvOUt5anJLVkVhb3lUMzRnTXN1ZmFqTTR3dTJMWlJ6OXpKUmlSMTgtbEdqU1lTZVBlZ1p3Z1dyN0w5MTFycVZleFdnVUVFam1hOFF6aldnd2JpRmxZd0RrRWRmenh0WEQzeE5fRHE0QVhVRElrU2RvdE5wb2Fzb25uZWt4LVdUbGxlOHotQnNGRWxhX0JLNndvZWN1c0JV?oc=5",
+          "publishedAt": "2026-10-29T10:24:13+00:00"
         },
         {
           "name": "Dalal Street Investment Journal",
@@ -159,16 +170,10 @@
           "publishedAt": "2026-10-29T07:04:48+00:00"
         },
         {
-          "name": "scanx.trade",
-          "title": "Trade Setup for Today: GIFT Nifty Points to Flat Open as Wall Street Gains Offset Soft Commodities as of October 29, 2026 - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQZVlvbVd5Qy1jbkdydFhUcksxX0pSQjNHTDNISTByY3U2Um5jM2pkMEhQTElBTEtUbzFmUVRJU01FVHVPS0RCeUszNjhNamF2UmQydTRkVDJOdHd1UjdvNm9mX1g4VHRPamVxN1NmWWxlWmR4SmU3MkdfckhMWDNLbnFpRW1Oa0g5Nm9mSkNyNkh3SWg3a3JuOGU5dDJDWDlBNG1zOFdRck5DUzFnT0ktRTZzelp2X3RyWG5BeGN6UFVVc2lNUTZ2dmF4eDM0eXZudTVtRUp1Rm9VOG1HR0V3UFdSN3UySmNpOVI1eDFZOWVaMVhpc3otdVJ4MTJieGt6?oc=5",
-          "publishedAt": "2026-10-29T02:38:31+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "D-St set for a negative opening as GIFT Nifty signals weak start - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZExNYmk0R2NfYTN5a0hoZEFmbDNvOXVLM0VDMjdKMjJOUWxrNVVCWEpKckRWOUI4QkwxODktREdiZnJaN0d5blFYNGRkZF9CRWlZVEVKZmhWc19QeEdNb2U2X1pxNnNOUEtQM1VKcWlXZG9rNzN3UnJZSWpBcTNubTRObzFTaGExT1E4ZjVhV1BxWllOcGp3V0tTMDEtRXJWMWROQXdBam13Q2tSNFlaaFBGWnBGcTMteUZKVnhhdVRhV1EwZV9Cd0Jwd2bSAdIBQVVfeXFMUEZxUTY2WnRqa29QeGdEWG40c204VmpVa0RGS2VSSmZ6dkNtSWdNUlhlQlR2YTNnNmNwVGhJWm1rMVk5ZmR3cmJoaE1HRWpoRGQ5Z3l5YnUzblVxN0xZaWlWelBGMEs4UTFPN3VjdVc5SEdjeXNuLWQ4RTgxaG9ZOGhfZ2NkX1NRZEVVTGpOY3A0Sm1ZaFZsQWFjRDlfaTlmOEJ5eXhZWldsZS0xREt2YUlORERBRmZ6Q2Q1bzFfdzN1a3hSSUNfTVRkU1RwanVpT2ZB?oc=5",
-          "publishedAt": "2026-10-29T00:30:00+00:00"
+          "name": "Analytics Insight",
+          "title": "Nifty 50 Opens 8 Points Lower at 22,690, Sensex Rises 22.4 Points Following Fed’s Rate Decision - Analytics Insight",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbzhEampHWEZLVnF6WU1YV2ZKVmRKbmdFWHJNb0ZOM1pOWXlIUDN4YllsS1l1cHoxZ0E3N3pmaFpzazZRaUxGcU9tNHg0eWdGdlFhQ0xwRnNwUmZsaXg5blNlb0JvWmptdE02ekM1cEZRSTl6UnR5QlNUYUk4SnkxYkxudy1wcXhYV0NKOGxwOF96cldXcUVJWWZsR3NPRjdJYmdTdXRVTk9MeUxOVHNmbElncmdOSUJLNWw0MDlyN3BadXVxbzlYeHdlc9IB2AFBVV95cUxQdHczcWczQ09tU1FpUlJJZ1JySXY0d3o5WHRQOVpraDJYbFlWMzl1eE4wdWIyeFptNEZZWjBwR05yZHpLWG51MVNONmhpNHZZd3RUaC14Sk8xS3A0dVgtZ2UxNTNZbTUzbENOWHVzeE1wMm54blg0UjVwQjU3T3RVUlNxZk1rQ1k0N2x0MWJFZ3dEX29jZ19qajNFZjcwNGc1OW1rZVdUd0lPbFgyMnFnRXlWdXVGMjM3Rm5kRWp1TFlIWnJBVjJqZ1lYeXdqbUhyWTBrSGlfMWc?oc=5",
+          "publishedAt": "2026-10-29T05:00:48+00:00"
         }
       ],
       "evidenceCount": 7
