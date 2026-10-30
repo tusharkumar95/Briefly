@@ -1,52 +1,52 @@
 {
-  "updated": "2026-10-30T07:10:13.254722+00:00",
+  "updated": "2026-10-30T14:12:54.558754+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 19,
-    "enrichedCandidates": 80,
-    "readableCandidates": 55,
-    "eventClusters": 55,
-    "materialEvents": 24,
-    "selectedEvents": 7,
+    "nonNoiseCandidates": 79,
+    "officialOrPrimaryCandidates": 16,
+    "enrichedCandidates": 79,
+    "readableCandidates": 62,
+    "eventClusters": 57,
+    "materialEvents": 18,
+    "selectedEvents": 8,
     "seededStories": 4,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "ef6c3c3a66432d",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "0f9eabdd4cf4df",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "World"
+        "Indian Markets"
       ],
-      "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-      "publishedAt": "2026-10-29T14:17:35+00:00",
-      "importanceScore": 12.0,
+      "title": "8 midcap stocks with over 100% profit growth in Q2FY27",
+      "publishedAt": "2026-10-30T11:06:25+00:00",
+      "importanceScore": 13.0,
       "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-      "summary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/8-midcap-stocks-with-over-100-profit-growth-in-q2fy27/slideshow/135358493.cms",
+      "summary": "Based on the latest September 2026 quarter results announced so far, data from StockEdge's profitability scan shows that, among NSE Midcap companies, the top 8 recorded more than 100% YoY growth in quarterly net profit in Q2FY27. Net profit jumped 976% year-on-year to Rs 226 crore in Q2FY27, from Rs 21 crore in the same quarter last year.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-29T14:17:35+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/8-midcap-stocks-with-over-100-profit-growth-in-q2fy27/slideshow/135358493.cms",
+          "publishedAt": "2026-10-30T11:06:25+00:00"
         }
       ],
-      "firstSeen": "2026-10-29T14:17:35+00:00",
+      "firstSeen": "2026-10-30T11:06:25+00:00",
       "status": "New",
-      "lastChecked": "2026-10-30T07:10:13.254722+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
+      "lastChecked": "2026-10-30T14:12:54.558754+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
       "changed": true,
@@ -54,60 +54,127 @@
       "lifecycle": "New"
     },
     {
-      "id": "e3a85b09c0b98e",
+      "id": "f296f6ffe0451d",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
-      "publishedAt": "2026-10-29T09:04:04+00:00",
-      "importanceScore": 11.6,
+      "title": "India’s foreign exchange reserves fall to $719.74 billion",
+      "publishedAt": "2026-10-30T11:36:41+00:00",
+      "importanceScore": 12.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms",
-      "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-1-2-billion-to-719-74-billion-as-of-october-24/articleshow/135359323.cms",
+      "summary": "India’s foreign exchange reserves fell by $1.2 billion to $719.74 billion in the week ended 24 October, according to the RBI. The decline followed a $5 billion drop the previous week, when reserves were $721.02 billion, indicating ongoing pressure on the country’s foreign‑exchange buffer.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-1-2-billion-to-719-74-billion-as-of-october-24/articleshow/135359323.cms",
+          "publishedAt": "2026-10-30T11:36:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T11:36:41+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-30T14:12:54.558754+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "d52e04d55e06b3",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
+      "publishedAt": "2026-10-30T12:34:46+00:00",
+      "importanceScore": 11.9,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-pe/vc-investments-jump-45-to-7-billion-in-september-highest-in-over-two-years/articleshow/135362031.cms",
+      "summary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms",
-          "publishedAt": "2026-10-29T09:04:04+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-pe/vc-investments-jump-45-to-7-billion-in-september-highest-in-over-two-years/articleshow/135362031.cms",
+          "publishedAt": "2026-10-30T12:34:46+00:00"
         }
       ],
-      "firstSeen": "2026-10-29T09:04:04+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-30T07:10:13.254722+00:00",
+      "firstSeen": "2026-10-30T12:34:46+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-30T14:12:54.558754+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "India finance ministry projects 7.35% GDP growth in Q2 FY27",
-      "previousSummary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in the second quarter of fiscal year 2027, after a 7.8% increase in the previous quarter. The projection attributes the growth to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
-      "previousPublishedAt": "2026-10-29T09:04:04+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.6,
       "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "2de933d8ee6899",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India’s poverty rate falls from 27.1% to 2.6% between 2011‑2023",
+      "publishedAt": "2026-10-30T04:58:40+00:00",
+      "importanceScore": 11.8,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-records-one-of-the-fastest-poverty-declines-in-the-world-poverty-down-from-27-1-to-2-6-world-bank/articleshow/135344552.cms",
+      "summary": "The World Bank report cited by the Economic Times says India’s poverty incidence dropped from 27.1 percent in 2011 to 2.6 percent in 2023, lifting about 496 million people out of poverty. Employment rose, especially among rural women, while youth unemployment, particularly among young rural women, increased. The report calls for continued creation of productive jobs to sustain the gains.",
+      "why": "Reducing poverty improves economic stability, social equity and guides policies for job creation.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-records-one-of-the-fastest-poverty-declines-in-the-world-poverty-down-from-27-1-to-2-6-world-bank/articleshow/135344552.cms",
+          "publishedAt": "2026-10-30T04:58:40+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T04:58:40+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-30T14:12:54.558754+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 0,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-10-30T01:03:23.939167+00:00",
+  "jarvisEditedCount": 2,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-10-30T07:10:13.254722+00:00",
   "changeSummary": {
-    "new": 1,
-    "updated": 1,
+    "new": 4,
+    "updated": 0,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-27T13:14:31.395664+00:00",
-    "updated": "2026-10-30T07:10:13.254722+00:00",
+    "availableFrom": "2026-10-27T18:44:32.006608+00:00",
+    "updated": "2026-10-30T14:12:54.558754+00:00",
     "snapshotCount": 13,
     "eventCount": 86,
     "retentionHours": 72
