@@ -3,70 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-28T09:43:18.420398+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "974b34962af1c8",
-          "cat": "India",
-          "title": "Indian banks' cash surplus shrinks as RBI tightens liquidity to curb rupee speculation",
-          "summary": "Indian banks' excess funds have fallen sharply as the Reserve Bank of India kept liquidity tight to deter speculation against the rupee, which has reached critical levels. The RBI capped its liquidity assistance at 1.5 trillion rupees, and overnight borrowing rates have risen close to the top of the policy corridor.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-28T02:26:28+00:00",
-          "firstSeen": "2026-10-28T02:26:28+00:00",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms"
-        },
-        {
-          "id": "d004d8bb9e7d70",
-          "cat": "World",
-          "title": "Ceasefire extended to cover Kherson region",
-          "summary": "A ceasefire that began on Tuesday to allow food and medicine into the Russian‑occupied city of Oleshky has been broadened to include the wider southern Kherson region, officials said. Several thousand Oleshky residents remain trapped without electricity, food or water, and all roads out are deemed unsafe. No violations of the truce have been reported since it started.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-27T22:11:08+00:00",
-          "firstSeen": "2026-10-27T22:11:08+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "46f91da8b9ae36",
-          "cat": "AI",
-          "title": "General Compute raises $100 million Series A, valuation $800 million",
-          "summary": "General Compute secured a $100 million Series A round led by Blackbird Ventures and Abstract Ventures after landing a $100 million annual recurring revenue contract with a large customer. The financing follows a $400 million chip purchase agreement with SambaNova and the addition of Positron and Cerebras as inference‑chip suppliers, bringing the post‑money valuation to $800 million. The company builds its cloud using specialized inference chips and repurposed data‑center space instead of large GPU‑centric facilities.",
-          "why": "The capital enables General Compute to scale its inference‑chip‑focused cloud model while other AI neoclouds face market pressure.",
-          "publishedAt": "2026-10-27T13:00:00+00:00",
-          "firstSeen": "2026-10-27T13:00:00+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
-        }
-      ]
-    },
-    {
       "at": "2026-10-28T16:39:46.025347+00:00",
       "changeSummary": {
         "new": 6,
@@ -1607,6 +1543,142 @@
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-pe/vc-investments-jump-45-to-7-billion-in-september-highest-in-over-two-years/articleshow/135362031.cms"
         }
       ]
+    },
+    {
+      "at": "2026-10-31T12:37:01.316326+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 2,
+        "continuing": 2
+      },
+      "stories": [
+        {
+          "id": "ff21767ceb6fa6",
+          "cat": "World",
+          "title": "69 killed in high‑speed rail collision south of Madrid",
+          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage on the tracks and an embankment in central Spain. The disaster follows a crash near Córdoba nine months earlier that killed 46 people. A formal investigation into the Toledo crash has just been opened, and the incident occurs weeks before a snap general election called by Prime Minister Pedro Sánchez.",
+          "why": "The tragedy threatens confidence in Spain’s rail system and may influence voter sentiment ahead of the upcoming election.",
+          "publishedAt": "2026-10-31T05:44:21+00:00",
+          "firstSeen": "2026-10-31T05:44:21+00:00",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "078f7d93f6d98a",
+          "cat": "Indian Markets",
+          "title": "Dalal Street Weak Ahead: Nifty stands on firmer footing, but can it break past 23,450?",
+          "summary": "The Nifty gained 2% last week, recovering above the crucial 200-week moving average at 22,700. Analysts identify 23,300–23,450 as immediate resistance and 22,750–22,525 as key support for the coming week.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-31T11:05:04+00:00",
+          "firstSeen": "2026-10-31T11:05:04+00:00",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms"
+        },
+        {
+          "id": "e05697a7bed6d2",
+          "cat": "India",
+          "title": "India's services trade surplus rises to $53.39 billion in Q2",
+          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
+          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+          "publishedAt": "2026-10-30T15:09:07+00:00",
+          "firstSeen": "2026-10-30T15:09:07+00:00",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms"
+        },
+        {
+          "id": "7b93b2a29bc35c",
+          "cat": "AI",
+          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+          "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-10-31T01:20:05+00:00",
+          "firstSeen": "2026-10-31T01:20:05+00:00",
+          "importanceScore": 10.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+        },
+        {
+          "id": "35ef422b48eb48",
+          "cat": "Canada",
+          "title": "Violent Toronto home invasion was ‘terrifying,’ real estate CEO says as police seek suspects",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-31T01:46:14+00:00",
+          "firstSeen": "2026-10-31T01:46:14+00:00",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12128478/violent-toronto-home-invasion-terrifying-ceo-family/"
+        },
+        {
+          "id": "32868080ca4f59",
+          "cat": "India",
+          "title": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
+          "summary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-30T15:13:38+00:00",
+          "firstSeen": "2026-10-30T15:13:38+00:00",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms"
+        },
+        {
+          "id": "1e4eed6fc7433f",
+          "cat": "India",
+          "title": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
+          "summary": "India's trade agreements are expected to provide exporters preferential access to markets with a combined GDP of $85 trillion, covering 76% of the global economy, Commerce Minister Piyush Goyal said. Piyush Goyal said India's expanding network of trade agreements will open access to an $85 trillion global market, urging domestic exporters to move beyond the home market and build global brands.",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-10-30T13:30:14+00:00",
+          "firstSeen": "2026-10-30T13:30:14+00:00",
+          "importanceScore": 9.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-ftas-to-open-access-to-85-trillion-market-piyush-goyal-urges-exporters-to-go-global/articleshow/135363629.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1687,82 +1759,6 @@
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
     },
-    "22281187a6132a": {
-      "id": "22281187a6132a",
-      "firstSeen": "2026-10-23T13:27:26+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-23T22:21:20.473309+00:00",
-          "title": "RBI Governor says inflation remains high and growth slows",
-          "summary": "The RBI governor, referred to as Malhotra in the source, said that inflation continues to be elevated while economic growth has decelerated, creating a larger challenge for policymakers. No quantitative data or direct quotations were provided.",
-          "importanceScore": 14.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-24T07:20:03.104914+00:00",
-          "title": "Inflation remains high, growth slows, says RBI Governor",
-          "summary": "RBI Governor Shaktikanta Malhotra told reporters that inflation continues to run above the target band and that the pace of economic growth is decelerating, warning that these twin pressures pose a larger challenge for the central bank in steering monetary policy. He emphasized that addressing inflation while supporting growth will require careful calibration of interest rates.",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
-      "cat": "India",
-      "latestTitle": "Inflation remains high, growth slows, says RBI Governor",
-      "latestSummary": "RBI Governor Shaktikanta Malhotra told reporters that inflation continues to run above the target band and that the pace of economic growth is decelerating, warning that these twin pressures pose a larger challenge for the central bank in steering monetary policy. He emphasized that addressing inflation while supporting growth will require careful calibration of interest rates.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/inflation-stays-high-growth-slows-central-bankers-face-a-bigger-challenge-says-rbi-guv-malhotra/articleshow/135147071.cms"
-    },
-    "27fe5471154cff": {
-      "id": "27fe5471154cff",
-      "firstSeen": "2026-10-23T11:37:11+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-23T22:21:20.473309+00:00",
-          "title": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
-          "summary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-24T07:20:03.104914+00:00",
-          "title": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
-          "summary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
-          "importanceScore": 9.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
-      "cat": "India",
-      "latestTitle": "India’s forex reserves fall $5 billion to $721.02 billion as of October 16",
-      "latestSummary": "India's foreign exchange reserves fell by $5 billion to reach $721.02 billion for the week ending October 16. Previously, reserves declined by $8.578 billion to an amount of $726.027 billion.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-5-billion-to-721-02-billion-as-of-october-16/articleshow/135144411.cms"
-    },
     "b4558c7c634094": {
       "id": "b4558c7c634094",
       "firstSeen": "2026-10-23T19:42:08+00:00",
@@ -1813,31 +1809,6 @@
       "latestSummary": "A shooter opened fire from his car in the Paris suburbs of Trappes and nearby La Verrière, killing one person and wounding five others. French President Emmanuel Macron described the incident as a “racist terrorist attack” and said it was the first random racial killing in the Republic. The attacker was arrested and prosecutors said the case appears to be murder linked to a terrorist enterprise.",
       "why": "It underscores concerns about racially motivated terrorism in France and may influence security policy.",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
-    },
-    "5f82c6b6a27a2d": {
-      "id": "5f82c6b6a27a2d",
-      "firstSeen": "2026-10-24T03:00:04+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-24T07:20:03.104914+00:00",
-          "title": "IndusInd Bank posts Rs 1,242 crore net profit on lower provisions",
-          "summary": "IndusInd Bank reported a net profit of Rs 1,242 crore for the quarter. The result was attributed to lower loan‑loss provisions, which reduced the bank’s expense line. Lower provisioning means a smaller amount was set aside for potential loan defaults.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-24T07:20:03.104914+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "IndusInd Bank posts Rs 1,242 crore net profit on lower provisions",
-      "latestSummary": "IndusInd Bank reported a net profit of Rs 1,242 crore for the quarter. The result was attributed to lower loan‑loss provisions, which reduced the bank’s expense line. Lower provisioning means a smaller amount was set aside for potential loan defaults.",
-      "why": "The profit figure signals the bank’s recent financial performance to investors and analysts.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indusind-bank-posts-rs-1242-crore-net-profit-on-lower-provisions/articleshow/135160532.cms"
     },
     "171a64b3c19e48": {
       "id": "171a64b3c19e48",
@@ -4952,9 +4923,22 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-31T12:37:01.316326+00:00",
+          "title": "India's services trade surplus rises to $53.39 billion in Q2",
+          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
+      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
       "cat": "India",
       "latestTitle": "India's services trade surplus rises to $53.39 billion in Q2",
       "latestSummary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
@@ -5003,12 +4987,25 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-31T12:37:01.316326+00:00",
+          "title": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
+          "summary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
+      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
       "cat": "India",
-      "latestTitle": "RBI discusses economic risks at 625th Central Board meeting",
-      "latestSummary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra, during which board members deliberated a range of economic risks facing the country. The Economic Times reported that the discussion centered on assessing macro‑economic challenges that could impact financial stability and credit conditions.",
+      "latestTitle": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
+      "latestSummary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms"
     },
@@ -5128,13 +5125,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-31T12:37:01.316326+00:00",
+          "title": "69 killed in high‑speed rail collision south of Madrid",
+          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage on the tracks and an embankment in central Spain. The disaster follows a crash near Córdoba nine months earlier that killed 46 people. A formal investigation into the Toledo crash has just been opened, and the incident occurs weeks before a snap general election called by Prime Minister Pedro Sánchez.",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
+      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
       "cat": "World",
-      "latestTitle": "69 killed in high‑speed train crash in central Spain",
-      "latestSummary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and an embankment in central Spain. The crash follows a similar accident near Córdoba nine months earlier. Authorities have opened a formal investigation into the Toledo train disaster.",
-      "why": "The disaster undermines public confidence in Spain’s rail system and comes weeks before a snap general election.",
+      "latestTitle": "69 killed in high‑speed rail collision south of Madrid",
+      "latestSummary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage on the tracks and an embankment in central Spain. The disaster follows a crash near Córdoba nine months earlier that killed 46 people. A formal investigation into the Toledo crash has just been opened, and the incident occurs weeks before a snap general election called by Prime Minister Pedro Sánchez.",
+      "why": "The tragedy threatens confidence in Spain’s rail system and may influence voter sentiment ahead of the upcoming election.",
       "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
     },
     "8b7ad34025a75c": {
@@ -5178,15 +5188,103 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-31T12:37:01.316326+00:00",
+          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+          "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
+          "importanceScore": 10.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
+      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
       "cat": "AI",
-      "latestTitle": "Nvidia in talks to co‑sign debt for Nscale’s West Virginia AI data center",
-      "latestSummary": "Nvidia is discussing a residual‑value guarantee that would co‑sign billions of dollars in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia. Under the proposal, Nvidia would step in if Nscale defaults on construction payments, temporarily take over the facility and help find a buyer or new tenant. Anthropic has signed a $44.6 billion contract for the first 460‑MW building, and a second deal of roughly $45 billion is also being discussed.",
-      "why": "It indicates Nvidia’s willingness to directly back AI infrastructure financing amid growing investor concerns about the cost of AI data‑center expansion.",
+      "latestTitle": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "latestSummary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+    },
+    "078f7d93f6d98a": {
+      "id": "078f7d93f6d98a",
+      "firstSeen": "2026-10-31T11:05:04+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-31T12:37:01.316326+00:00",
+          "title": "Dalal Street Weak Ahead: Nifty stands on firmer footing, but can it break past 23,450?",
+          "summary": "The Nifty gained 2% last week, recovering above the crucial 200-week moving average at 22,700. Analysts identify 23,300–23,450 as immediate resistance and 22,750–22,525 as key support for the coming week.",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Dalal Street Weak Ahead: Nifty stands on firmer footing, but can it break past 23,450?",
+      "latestSummary": "The Nifty gained 2% last week, recovering above the crucial 200-week moving average at 22,700. Analysts identify 23,300–23,450 as immediate resistance and 22,750–22,525 as key support for the coming week.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms"
+    },
+    "35ef422b48eb48": {
+      "id": "35ef422b48eb48",
+      "firstSeen": "2026-10-31T01:46:14+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-31T12:37:01.316326+00:00",
+          "title": "Violent Toronto home invasion was ‘terrifying,’ real estate CEO says as police seek suspects",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
+      "cat": "Canada",
+      "latestTitle": "Violent Toronto home invasion was ‘terrifying,’ real estate CEO says as police seek suspects",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12128478/violent-toronto-home-invasion-terrifying-ceo-family/"
+    },
+    "1e4eed6fc7433f": {
+      "id": "1e4eed6fc7433f",
+      "firstSeen": "2026-10-30T13:30:14+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-31T12:37:01.316326+00:00",
+          "title": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
+          "summary": "India's trade agreements are expected to provide exporters preferential access to markets with a combined GDP of $85 trillion, covering 76% of the global economy, Commerce Minister Piyush Goyal said. Piyush Goyal said India's expanding network of trade agreements will open access to an $85 trillion global market, urging domestic exporters to move beyond the home market and build global brands.",
+          "importanceScore": 9.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
+      "cat": "India",
+      "latestTitle": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
+      "latestSummary": "India's trade agreements are expected to provide exporters preferential access to markets with a combined GDP of $85 trillion, covering 76% of the global economy, Commerce Minister Piyush Goyal said. Piyush Goyal said India's expanding network of trade agreements will open access to an $85 trillion global market, urging domestic exporters to move beyond the home market and build global brands.",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-ftas-to-open-access-to-85-trillion-market-piyush-goyal-urges-exporters-to-go-global/articleshow/135363629.cms"
     }
   },
-  "updated": "2026-10-31T05:47:21.241159+00:00"
+  "updated": "2026-10-31T12:37:01.316326+00:00"
 }
