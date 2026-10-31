@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T01:31:07.253864+00:00",
+  "updated": "2026-10-31T01:32:20.807787+00:00",
   "retentionDays": 7,
   "dates": [
     "2026-10-30",
@@ -1375,7 +1375,28 @@
           "day": "2026-10-30"
         }
       ],
-      "canada": [],
+      "canada": [
+        {
+          "market": "Canada",
+          "investor": "Nemesia S.à.r.l.",
+          "company": "Faraday Copper Corp.",
+          "symbol": "FDY",
+          "exchange": "TSX",
+          "transactionDate": "2026-10-28",
+          "disclosureDate": "2026-10-30",
+          "shares": 971830,
+          "priceCAD": 4.4622,
+          "valueCAD": 4336500,
+          "type": "Open-market acquisition",
+          "direction": "BUY",
+          "status": "Completed",
+          "sourceUrl": "https://www.newswire.ca/news-releases/nemesia-sarl-acquires-shares-of-faraday-copper-corp-and-is-impacted-by-passive-dilution-890124103.html",
+          "sourceName": "Nemesia — Canada NewsWire original announcement",
+          "notes": "Purchases on October 28; disclosure on October 30. Despite new purchases, percentage ownership fell because the company's total share count increased (passive dilution).",
+          "day": "2026-10-30",
+          "verified": true
+        }
+      ],
       "canadaLeads": [],
       "alerts": [
         {
@@ -2466,7 +2487,7 @@
           "day": "2026-10-29",
           "headline": "Early Warning Press Release - Yahoo! Finance Canada",
           "source": "Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWTdEVl93QVhpQU1WNG9qTGMxaFpxWEl2RTRVYVZlU09fUnJHNnFzMloyY0Vub1FEYVpuZkUxcGkwQ2tTV2J0REFUcGhQd2lCeWl5WnFJTVZwblFTWUZZcDJ6N21WN3pTVjRGRGJmNjNiem9WYVByUGNMM0RPUC01aXB3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVlVFUS11d1hpMHc1cGlPLXNfc2t2ZlFzTDJQb0ZPRkpQY1AxTklTWFA2dXR1bXNOYy1sdmtLNXR0ZEh5N0FwckY4Y1pJNTE2OGNta0FoLThmek8tc01ncC0xYjZNMVE3eFQ1d19vYlFqRG5ybEw2bElnckZaSEJ3cy1n?oc=5",
           "verification": "Unverified — open original filing before acting"
         },
         {
@@ -3338,7 +3359,28 @@
           "day": "2026-10-28"
         }
       ],
-      "canada": [],
+      "canada": [
+        {
+          "market": "Canada",
+          "investor": "Hartree Partners, LP",
+          "company": "Lotus Creek Exploration Inc.",
+          "symbol": "LTC",
+          "exchange": "TSXV",
+          "transactionDate": "2026-10-27",
+          "disclosureDate": "2026-10-28",
+          "shares": 824300,
+          "priceCAD": 4.4986,
+          "valueCAD": 3708195.98,
+          "type": "Open-market acquisition",
+          "direction": "BUY",
+          "status": "Completed",
+          "sourceUrl": "https://www.newswire.ca/news-releases/hartree-partners-lp-provides-early-warning-disclosure-with-respect-to-securities-of-lotus-creek-exploration-inc--831972190.html",
+          "sourceName": "Hartree Partners — Canada NewsWire original announcement",
+          "notes": "Transaction October 27, disclosure October 28. Original issuer announcement identifies a completed TSXV open-market acquisition.",
+          "day": "2026-10-28",
+          "verified": true
+        }
+      ],
       "canadaLeads": [
         {
           "id": "lead:2026-10-28:2",
@@ -6806,6 +6848,46 @@
   "canadaArchive": [
     {
       "market": "Canada",
+      "investor": "Nemesia S.à.r.l.",
+      "company": "Faraday Copper Corp.",
+      "symbol": "FDY",
+      "exchange": "TSX",
+      "transactionDate": "2026-10-28",
+      "disclosureDate": "2026-10-30",
+      "shares": 971830,
+      "priceCAD": 4.4622,
+      "valueCAD": 4336500,
+      "type": "Open-market acquisition",
+      "direction": "BUY",
+      "status": "Completed",
+      "sourceUrl": "https://www.newswire.ca/news-releases/nemesia-sarl-acquires-shares-of-faraday-copper-corp-and-is-impacted-by-passive-dilution-890124103.html",
+      "sourceName": "Nemesia — Canada NewsWire original announcement",
+      "notes": "Purchases on October 28; disclosure on October 30. Despite new purchases, percentage ownership fell because the company's total share count increased (passive dilution).",
+      "day": "2026-10-30",
+      "verified": true
+    },
+    {
+      "market": "Canada",
+      "investor": "Hartree Partners, LP",
+      "company": "Lotus Creek Exploration Inc.",
+      "symbol": "LTC",
+      "exchange": "TSXV",
+      "transactionDate": "2026-10-27",
+      "disclosureDate": "2026-10-28",
+      "shares": 824300,
+      "priceCAD": 4.4986,
+      "valueCAD": 3708195.98,
+      "type": "Open-market acquisition",
+      "direction": "BUY",
+      "status": "Completed",
+      "sourceUrl": "https://www.newswire.ca/news-releases/hartree-partners-lp-provides-early-warning-disclosure-with-respect-to-securities-of-lotus-creek-exploration-inc--831972190.html",
+      "sourceName": "Hartree Partners — Canada NewsWire original announcement",
+      "notes": "Transaction October 27, disclosure October 28. Original issuer announcement identifies a completed TSXV open-market acquisition.",
+      "day": "2026-10-28",
+      "verified": true
+    },
+    {
+      "market": "Canada",
       "investor": "PowerOne Capital Corp. (joint actor of Pat DiCapo)",
       "company": "Verdera Energy Corp.",
       "symbol": "V",
@@ -6844,7 +6926,7 @@
   "sourceInfo": {
     "india": "NSE bulk/block disclosed transaction activity",
     "canada": "Verified Canadian deals and separately labeled unverified disclosure leads",
-    "canadaDiscoveryUpdated": "2026-10-31T01:31:07.034642+00:00",
+    "canadaDiscoveryUpdated": "2026-10-31T01:32:19.874741+00:00",
     "lastSevenDays": "Includes disclosure days in the previous seven calendar days, not just the current refresh"
   }
 }

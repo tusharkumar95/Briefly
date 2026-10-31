@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T01:31:07.209858+00:00",
+  "updated": "2026-10-31T01:32:20.740139+00:00",
   "engine": "Moves Intelligence v2",
   "policy": "Rank disclosed ownership activity by size, repetition, transaction type, participant type and source quality. This is research context, not a buy/sell recommendation.",
   "sources": {
@@ -892,6 +892,70 @@
         "accumulating"
       ],
       "whyNotable": "This is the 4th observed buy day for the same investor/company pair in Briefly's history."
+    },
+    {
+      "id": "545f0fce4b1fc45823",
+      "market": "Canada",
+      "direction": "BUY",
+      "company": "Faraday Copper Corp.",
+      "symbol": "FDY",
+      "investor": "Nemesia S.à.r.l.",
+      "actorType": "Significant shareholder / disclosed acquiror",
+      "role": "Significant shareholder / disclosed acquiror",
+      "date": "2026-10-28",
+      "transactionDate": "2026-10-28",
+      "disclosureDate": "2026-10-30",
+      "dealType": "Open-market acquisition",
+      "quantity": 971830,
+      "netQty": 971830,
+      "avgPrice": 4.4622,
+      "valueCAD": 4336500.0,
+      "currency": "CAD",
+      "moveScore": 54,
+      "strength": "Worth watching",
+      "signal": "Verified Acquisition",
+      "tags": [
+        "notable"
+      ],
+      "observedDays": 1,
+      "whyNotable": "This is a verified ownership change from a public disclosure; it is not treated as insider buying unless the filer role establishes that.",
+      "verified": true,
+      "source": "Nemesia — Canada NewsWire original announcement",
+      "sourceUrl": "https://www.newswire.ca/news-releases/nemesia-sarl-acquires-shares-of-faraday-copper-corp-and-is-impacted-by-passive-dilution-890124103.html",
+      "sourceQuality": "Primary/public disclosure",
+      "notes": "Purchases on October 28; disclosure on October 30. Despite new purchases, percentage ownership fell because the company's total share count increased (passive dilution)."
+    },
+    {
+      "id": "c7775a18bd3a350f74",
+      "market": "Canada",
+      "direction": "BUY",
+      "company": "Lotus Creek Exploration Inc.",
+      "symbol": "LTC",
+      "investor": "Hartree Partners, LP",
+      "actorType": "Significant shareholder / disclosed acquiror",
+      "role": "Significant shareholder / disclosed acquiror",
+      "date": "2026-10-27",
+      "transactionDate": "2026-10-27",
+      "disclosureDate": "2026-10-28",
+      "dealType": "Open-market acquisition",
+      "quantity": 824300,
+      "netQty": 824300,
+      "avgPrice": 4.4986,
+      "valueCAD": 3708195.98,
+      "currency": "CAD",
+      "moveScore": 54,
+      "strength": "Worth watching",
+      "signal": "Verified Acquisition",
+      "tags": [
+        "notable"
+      ],
+      "observedDays": 1,
+      "whyNotable": "This is a verified ownership change from a public disclosure; it is not treated as insider buying unless the filer role establishes that.",
+      "verified": true,
+      "source": "Hartree Partners — Canada NewsWire original announcement",
+      "sourceUrl": "https://www.newswire.ca/news-releases/hartree-partners-lp-provides-early-warning-disclosure-with-respect-to-securities-of-lotus-creek-exploration-inc--831972190.html",
+      "sourceQuality": "Primary/public disclosure",
+      "notes": "Transaction October 27, disclosure October 28. Original issuer announcement identifies a completed TSXV open-market acquisition."
     },
     {
       "id": "d947969fefc2ae57f2",
