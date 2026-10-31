@@ -1,43 +1,23 @@
 {
-  "updated": "2026-10-31T20:18:09.615416+00:00",
+  "updated": "2026-10-31T23:44:58.086789+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX slides 1.74% as gold falls, AI spending fears and tech selloff weigh",
+      "headline": "Canada shares lower as S&P/TSX Composite falls 1.74%",
       "direction": "down",
       "move": "S&P/TSX Composite -1.74%",
-      "why": "Multiple factors were explicitly linked to the decline: a drop in gold prices, concerns over AI spending, a slowdown in Canadian growth, a broad tech stock selloff, and losses in banking and mining stocks.",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "gold slides",
-          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "AI spending fears rattle tech stocks, Canadian growth slows",
-          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "tech stock selloff on both sides of the border",
-          "detail": "CTV News explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Gold slide",
-          "detail": "Gold prices fell, contributing to the steepest daily decline since June.",
-          "kind": "driver"
+          "label": "Canada shares lower at close of trade; S&P/TSX Composite down 1.74% By Investing.com",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
-      "sectors": [
-        "Technology",
-        "Financials",
-        "Materials",
-        "Commodities"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -54,50 +34,20 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Reuters",
-          "title": "TSX posts steepest daily decline since June as gold slides - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZnBybFZIbDVRQkI2RWRBMjctOHlDNFN3RndQUVltSExsX3hFVVdVY0dqNFRmalRCOFpYRWxQVGxNSUlJZ2VZbFFheDdMdEJCdElwTEd4Z0Z4WTU3NHBSa3I2QzQyVmJhRVBqblV2elhxUEp1enAwb25EcWFaaXMwb01wQWhfS2RDa2FmU2hoNDJ0UGFieVVYRVV4QnF1MHM?oc=5",
-          "publishedAt": "2026-10-30T20:39:26+00:00"
-        },
-        {
-          "name": "Investing.com Canada",
-          "title": "TSX falls as AI spending fears rattle tech stocks, Canadian growth slows - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYTdlTlhLaWxUeUV2Nmlmb2x5RDQ5aS1yOWY1aG9MYkZLMDlaVUtMV2twMy1VUXBxSUxOa1Yxai1JemZId2pPaEhWdGZDcml3Zk5JSm9JWEdfZVVkeks0amFEME1odnhYQUxpdm9oOHo1cTRtWjAxZ245Wmd3alRGdFJESjd2aHRrbUJCYWttU0RoaFFnY2wyMG1SeDluSXd6bmRQWUNnSmhIRG5CMjlZeGVGTDQwdw?oc=5",
-          "publishedAt": "2026-10-31T00:56:15+00:00"
-        },
-        {
           "name": "Investing.com India",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 1.74% - Investing.com India",
+          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 1.74% By Investing.com - Investing.com India",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdnNta1RPQk5pMmFsYmljbUtHTDNyeGdQWW9Rd0xEdURpR3ZaOHhaVnJoaHZESi1CaF90M285YzdRaTdhaXRkMV84YVNjRHducTVMZjJRVFQtTHlKY0pxRnEtMTBqWjhtR2lneGppa3ozaVpDb0ttdDg3ekpXbXNta3hYU0tqQy1sUGJsTnE1WjdHbzNUNkpzeWJIYU9vbndhbDJRWkNoRHdldndjdm4wYkxwcWtnd1NKd3c?oc=5",
           "publishedAt": "2026-10-31T00:01:57+00:00"
-        },
-        {
-          "name": "CTV News",
-          "title": "TSX falls 600 points amid tech stock selloff on both sides of the border - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSndMaTFjNnRWX1NKU1NhM3hJbEV0ZkRtT2x2cE9LUFIzdkdWcm1zbUtJeWkwX1ppRmhZUXlGd2dNTDFaY2tFLWJ4QnZkTno5eFdRZ1loanh1N1AyRjJvWW0tLUpWV1hOTTVjLWxoODRuYjNSdnFXbjJZMEtkbXRmLVRQanZJN3N3X1JMblFfYTVaV1FEWlNveVlyc0FLU1k2U1VWTHpQUUhUUQ?oc=5",
-          "publishedAt": "2026-10-30T21:02:47+00:00"
-        },
-        {
-          "name": "Investing.com",
-          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 1.74% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSGp5WVpieWo2d0w4SC0zSnZQbXRNYkhWdHNMQ1FZMzRVY2hUYU01YnVfb0g0eWhpZmphVGJ5XzJpTjlnRGJtT1BOaGFxSmJxYVFZSnlTbktiWUZzc2Y2ci1uRFJRWFRKNkVJVGY0OXVZU192STIxcEdPOFM3Y0JFNmtHemVXVndBVHBDZGRKSUpHUUhuWXdvZlp6TVhqdmlRNk56YU5ISWNfOWd3VGFRY3ZLckJOS1dhYXpN?oc=5",
-          "publishedAt": "2026-10-30T20:35:13+00:00"
-        },
-        {
-          "name": "ad-hoc-news.de",
-          "title": "S&P/ TSX Composite closes 1.74% lower at 35,620.03 - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2FOT3k0d2QyU2VGdkZUcnMweVo1My1uc1NGa1FGcDktc2EyLV81S0IySzZzcXdXS09JMWNKTFpqdGFRQl9fNGhacERVTFppNkpCcnRQSi13c0xXSXZFaXdJemE4UnduQUdHYW9YeE40MWRoNU5wVko1SjU5LW1pTzkzSG02cklJWklueGpNSll5ZHdnXzVXbjQ5RzdJb1FMRUhUUnZuYWFJQWJ2VTc0?oc=5",
-          "publishedAt": "2026-10-30T21:46:20+00:00"
         }
       ],
-      "evidenceCount": 7
+      "evidenceCount": 1
     },
     "India": {
       "label": "India",
       "headline": "Nifty 50 rose 0.51%",
       "direction": "up",
       "move": "Nifty 50 +0.51%",
-      "why": "Same-day market coverage explicitly linked the final move to: IT Stocks Defy the Global Tech Rout; renewed FII buying, easing bond yields; Rs 6,305-Cr Buying, Nifty Gains 2%.",
+      "why": "Same-day market coverage explicitly linked the final move to: IT Stocks Defy the Global Tech Rout; falling crude, easing geopolitical tension boost market sentiment.",
       "drivers": [
         {
           "label": "IT Stocks Defy the Global Tech Rout",
@@ -105,13 +55,8 @@
           "kind": "driver"
         },
         {
-          "label": "renewed FII buying, easing bond yields",
-          "detail": "The Hawk explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Rs 6,305-Cr Buying, Nifty Gains 2%",
-          "detail": "BW Businessworld explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "falling crude, easing geopolitical tension boost market sentiment",
+          "detail": "DD News explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -145,6 +90,12 @@
       },
       "sources": [
         {
+          "name": "DD India",
+          "title": "Sensex ends in red on selling in IT stocks, rising crude oil prices - DD India",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHdjeTlxY29wcTBTRVJKZlg0eklLVDZXX005c3AxOG1ueDdXV0NmcWJHNVFIaXBlX2FUaVI3SUhqaUY2RG9rc2JqWmppVnhPQzlPdjY5ODFFajZ2X0xLMnNwYWNIZXlXX205aTBRTm40WnJncDNOeFRPdWU4ZzhjNlVQSUNoWkxaSEZNU0E0aXAzZzlNalhkRWc1M1NXUQ?oc=5",
+          "publishedAt": "2026-10-31T16:21:55+00:00"
+        },
+        {
           "name": "Livemint",
           "title": "Stock market prediction Nov 2-6 week: Nifty, Sensex rebound from losses - Will bulls deliver a Diwali bonanza? Outlook - Livemint",
           "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZ3RiTUhTdmJRYzZZUUZqVG81ZWI3c0pQRUcyUW5sdFdhMzNHdW53T1ZTblVxOC00YUNsbzBiUF83eF91YWZpWVlaLWY5YlhjRUV4dzVyWUtpZjFObzBVWVBiNmZLNmtRMnlIRFFVb0lBZnFFNlM3U3VtMU1vYTZNNHp5Uy1qQzBnZ2ZEOVhKaU0wSThsNnVELVo4dFhsWFFyWVhDaHFVOUtmWVlDQldJUTl4ZVZNbFBLVm9MS3hBWmRRUUJLLVdnS2lvdlpKSDdkaDl2eXBTRWcxMHdWYVhxQW1KWDFvQjhHNlZHeUEtck1ZSFI4MUdGalRzTFgyTkRpbFh5WWJqcXZ4dlFJMkVPctIBlgJBVV95cUxNa202ZkZSQjFObUJrclVTOXlMVHRkVjBBX1N1QVR4UktMM1FIVEVKMTh5bW5naW5WYXg1UUljMTNkNlVyRzF0N1BON3hBVGlEcUFrcWk1WkU0VFUwZ2NtWjZzbWV3cDZ1bzEwbnVldmZHMzcteDFVRkk4QkE5elN6b3pZZXQwWDBoNnMxb1pINE40Sm8xYzFVc1BkRThGX3ctakUyWm9TLUtnb0NibDZNOXhqT01OOVJMeGJ0eENoMnFTaVVocWp3M3VJNjV3SldidXRMbk5DWGZYdFZLXzNBYndTd242c3JfTEVEYk5Td05CbXR4bXg3Qy16VHBPWkVhQlJUUWpaTFNwV3oxUUI5MkhUeDA0UQ?oc=5",
@@ -154,31 +105,25 @@
           "name": "BBN Times",
           "title": "BSE SENSEX Rises to 74,459.53 as IT Stocks Defy the Global Tech Rout - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMnFmRldDMzd3TnpFc0hrV1lTT1Z6VWJiMWtiTVE3LWwwcl9FX1NaT0l0dkw4Y0V0bVdRN2xCWDVHM29HS3pFbnZ4ZU5YYW5YRFBadU1VVV9URmJLZFZ0RGtYdUUwVGhqdlZLOHM0c2tjMnNERTlDMnRSN2Ztbk5rWm9fSTlaeXQ0VVh1VGpsaHVENGFNd0ZMVXZyaG4wNUROMnJTOGVISWxiMXRn?oc=5",
-          "publishedAt": "2026-10-31T10:51:30+00:00"
+          "publishedAt": "2026-10-31T10:53:29+00:00"
         },
         {
-          "name": "The Hawk",
-          "title": "Nifty, Sensex see nearly 2 pc gain amid renewed FII buying, easing bond yields - The Hawk",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNemlhZ1J5TlRMaFdseThaMHQtUGlXQ015dzZMUG1rZGUwME9DSTVOX2Q3a3hUbVRVYUtrdTBNM1lGMXVSS3ZEWjFtMEQ1Ti1OSjNwajBGeWc2TUd0MjZ3WWdEOFpILW1MX3Q2RFZJY0p1TlZQSDk1NUgyU2JvSy11U2JrdHhxcjNTOEtxaDNneUFFdmlDMzI1SURMVWlfWkxJVEFxczVJZ0FnWjJheGRkNVk3ZFlIa0ZjanpWZXMxY2RGX00?oc=5",
-          "publishedAt": "2026-10-31T06:48:44+00:00"
+          "name": "DD News",
+          "title": "Sensex, Nifty open higher as falling crude, easing geopolitical tension boost market sentiment - DD News",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWZ0QXNSVjlaX1pwQ0hscFRZb2FfeVpEd2JHaTNZcEZJZXdwckoxaXlINllmRFlKS0tLS2dkSmJIZTdRQk1INDNOTFE0YzBLc1ZiRVI3RDBOczNnVTVWNFFYNThUcW84UWRXRTI5bkYwWW9FNUpROXdpYzNLby14a3BZNWVRNHEyU3l4QmRWdDd4Z2hMcmp3ODdEcmgyNXdZdzl0SHk1czdrM3FUN2NwS0wyc2plM0FDemc?oc=5",
+          "publishedAt": "2026-10-31T09:10:20+00:00"
         },
         {
-          "name": "The Economic Times",
-          "title": "F&O Talk: Big break above 23,200 can open doors for 23,500 for Nifty; Sudeep Shah picks 6 stocks ahead of - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOTHhCcWdONE1udkM2ZHp0Q2dUWldEdHhIRkNCMHA2b1h2VlhFcXNMY1pYbzRvMEh2ZkpqOXY1V0s1bG9QU2JuUjlMMjNMOFpmZFVrelZxQlFid09Xd3ZTTjg2b0lDdmxrM2E4N2JMNUJKcVdNU0QtMHBWQy1sVklINGlIV29lemY4M3d5UTF6c0RYeDNFMzlfUktrTHR3ME9VYWN6LVJoMVBxb3lGNEF3dXRuVEM3S2tFUnFpRHpQYzJoSFFrSV9tZXh5dl9qd1hEdEctNS1JZ3E0cThSc0hKM3NDeGNITDFMbi1xTnZrSC1QX1ozTUpHcWJQQWZ6MWRyYWFnNWZNWnNTZnhPMGfSAZMCQVVfeXFMTVdjR09oeVVRU2RGdGpUY3Uxc1pZaTE3SEN4Qm16aUpSXzFJaFQ1SlFjX2ZpSnZlSkt1NDA3eVVZLUJUU0xwa2tPZnVZQUpRNUxFek1RRDZvQVZ5eHdqYTVjNVA4MEctRzB6N0xjeTlVTVRVTzFfUW9kSWFiaEpmZzB2ZnpYQ1RqU3k4cE1hVktOdjJ3djRNSTE4LURxUksxdndqVzNYWGRoMFdxV3ItZTl0QkFYMV9nbHIwUXhkWk1YMG8wNTVWdG1LMi1GRVJ1azU5YTN5ekJsc1kxdjQyRU56Z1ZHLUlqWU5wUy01Q1Bqb2stY3Q4VjY2dkx2SXBsWEQxWURfN2RFZF9zbUl3bjlqMEk?oc=5",
-          "publishedAt": "2026-10-31T06:15:44+00:00"
+          "name": "DD News",
+          "title": "Sensex falls 493 points, Nifty declines for sixth straight day as crude oil rises to USD 91/barrel - DD News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ0lnU29yZlJqaVpOWmlzNTc0XzJLUVpZZHh4VnNJSXdkV3FLN0hnS3NURjlnY3VwNHc4dlJ1dG90d0JyODQ5aENvaVZadlY2RzFJbGRZWlB1OWI0S0RZWjVlNEJlbzRlMHlGakFyY0xkdlR1dE1xV2pWdHhuX1NsZXA0MFU3Z0dVa29BU1hMblpFSUlkMzQ1bkhKMXBQQzZ6ZXdOYklraHNoWDNlQWRram9KUF9Qa21JTU5QWloxb1M?oc=5",
+          "publishedAt": "2026-10-31T09:10:01+00:00"
         },
         {
-          "name": "Business News This Week",
-          "title": "Indian Stock Market Weekly Update: Sensex, Nifty Witness Volatility as IT Selling and Rising Crude Oil Prices Weigh on Sentiment - Business News This Week",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSkJ1REJoMmg2RGhlWmc0X3ZQWW1FUnVSZkdVYlh6Tko3ODFIdmZkQ01YRk5RUjBaWkNFUjRwam9RUVNYcDBwSEJWRWhZSDd3MVJkY244bko2SWU5TVJyU2lLQVlJNk9TOVd5Ul8yTmZoMk5wZUhwU1BXcVh0X3B6eUN6VjhYWGMtSlpQUmFVOVJMOXN4ajlWVnpvV0hlRlZuUWI3b2htU0Z6RHQzNktqTndYN0tWVzFsR3llamoyZV83SGFGbFRtZklQNF9wMHVScndUYUlQdmNQTS1uZFI3R1VCdWxTS3I0ZURVMUw4RWY5QUhxQjZRYWlpVmVNZw?oc=5",
-          "publishedAt": "2026-10-31T05:16:13+00:00"
-        },
-        {
-          "name": "BW Businessworld",
-          "title": "FIIs End 10-Week Selling Streak With Rs 6,305-Cr Buying, Nifty Gains 2% - BW Businessworld",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVFSdDhkNFZKS3RTSmlPN3VlZUpKTkNMQnMyU0IxR2dwZk5ZLXVGZUJ6YW9ZRUhpWmJfNWZsVHhVeVVFdHpneXdncG82MGRNbzZ1Y3UzbTRTaElsVENOSkdZYWxiRHF4clpxdGJSQTRwejFiNlpEVndTTzMwd2dpSFd4STBoUGpoXy1OWjRDUmRYVkdQRWN5LUVabmpUWWczUjk0MzAyRHVhUThPbVVKS1A0UQ?oc=5",
-          "publishedAt": "2026-10-31T01:30:05+00:00"
+          "name": "DD News",
+          "title": "Sensex, Nifty slide nearly 1% as crude oil prices surge amid Iran conflict - DD News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS1BCT3dwVkVjQ2QyVU8xQ2VFYkVIV1RhUnUzeDY1R01OUzBJSGd3cmdPZVdsajN2WHRWQ2VKaEtJU1V2Tmd0dklfSXl2QkQ5OGk1dEEzZGo3YUJqRHBiUDl1bENkZHlWbXR4RzRqQ2F2SlM2Sm41SXV5MmtNUUk4WTU3bzg4M1U3TEZRWjBXX0hFMXBZYTUweUxRTXhaVDA?oc=5",
+          "publishedAt": "2026-10-31T08:18:40+00:00"
         }
       ],
       "evidenceCount": 7
