@@ -78,16 +78,6 @@
       (r.whyNotable?'<div class="move-why"><small>WHY NOTABLE</small><p>'+esc(r.whyNotable)+'</p></div>':"")+
       '<div class="move-source-v2"><span>'+esc(r.source||"Official/public disclosure")+' '+disclosure+'</span>'+sourceLink(r.sourceUrl)+'</div></article>';
   }
-  function pinnedView(){
-    const saved=(state.movesDaily?.pinned||[]).filter(r=>state.moveMarket==="All"||r.market===state.moveMarket);
-    if(!saved.length)return "";
-    return '<section class="moves-pinned-section"><h3>Saved historical Moves</h3>'+
-      '<p class="moves-description">Older verified transactions kept here by request. These are historical records, not new deals or fresh alerts.</p>'+
-      saved.map(r=>'<div class="moves-pinned-entry"><div class="moves-pinned-date">SAVED · ORIGINAL TRANSACTION '+fmt(r.day||"")+'</div>'+
-        activityCard(r)+'<p class="moves-pinned-note">'+esc(r.pinReason||"Historical exchange disclosure.")+'</p></div>').join("")+
-      '</section>';
-  }
-
   function leadsView(){
     if(state.moveMarket==="India")return "";
     const leads=allDays().flatMap(d=>d.canadaLeads||[]);
@@ -124,7 +114,12 @@
     const pending=state.movesTracking?.quoteFailures||[];
     const failure=pending.some(x=>x===track.market+":"+track.symbol||x.startsWith(track.market+":"+track.symbol+":"));
     return '<div class="moves-track-detail"><div class="moves-detail-heading"><h3>'+esc(track.company||track.symbol)+' <small>'+esc(track.symbol)+'</small></h3><span>'+marketIcon(track.market)+' '+esc(track.market)+'</span></div>'+
-      '<p class="moves-description">Signal: '+fmt(track.day)+' · '+countBuyers(track)+' distinct disclosed buyers. This tracks the market close, NOT their transaction price. A signal is not a buy recommendation.</p>'+
+      (track.manual
+        ? '<p class="moves-description"><strong>Historical trade · '+fmt(track.day)+'</strong> · Investor: '+esc((track.investors||[]).join(", "))+
+          ' · Bought '+Number(track.buyQty||0).toLocaleString("en-IN")+' shares at '+cash(track.disclosedAvgPrice,track.market)+
+          ', sold '+Number(track.sellQty||0).toLocaleString("en-IN")+', net bought '+Number(track.netBuyQty||0).toLocaleString("en-IN")+
+          '. Tracking below uses market closing prices, not execution prices. '+sourceLink(track.sourceUrl)+'</p>'
+        : '<p class="moves-description">Signal: '+fmt(track.day)+' · '+countBuyers(track)+' distinct disclosed buyers. This tracks the market close, NOT their transaction price. A signal is not a buy recommendation.</p>')+
       '<div class="moves-track-stats"><div><small>SIGNAL-DAY CLOSE</small><b>'+cash(baseline?.price,track.market)+'</b></div><div><small>LAST CLOSE</small><b>'+cash(last?.price,track.market)+'</b></div><div><small>CHANGE</small><b>'+percent(last?.price,baseline?.price)+'</b></div></div>'+
       '<div class="moves-table-wrap"><table class="moves-price-table"><thead><tr><th>Checkpoint</th><th>Close</th><th>Change</th><th>Session</th></tr></thead><tbody>'+
       MILESTONES.map(n=>{const p=milestone(series,track.day,n);return '<tr><td>D+'+n+'</td><td>'+cash(p?.price,track.market)+'</td><td>'+percent(p?.price,baseline?.price)+'</td><td>'+(p?fmt(p.day):"Pending")+'</td></tr>';}).join("")+
@@ -138,11 +133,12 @@
       (state.movesTracking?.quotesUpdatedAt?" · Refreshed "+esc(new Date(state.movesTracking.quotesUpdatedAt).toLocaleString("en-CA")):"")+'</p></div>';
   }
   function tracksView(){
-    const tracks=(state.movesTracking?.tracks||[]).filter(x=>state.moveMarket==="All"||state.moveMarket===x.market);
+    const tracks=(state.movesTracking?.tracks||[]).filter(x=>state.moveMarket==="All"||state.moveMarket===x.market)
+      .sort((a,b)=>Number(Boolean(b.manual))-Number(Boolean(a.manual))||String(b.day||"").localeCompare(String(a.day||"")));
     const active=tracks.find(x=>x.id===state.activeMoveTrack)||tracks[0];
     if(active&&!state.activeMoveTrack)state.activeMoveTrack=active.id;
-    return '<section class="moves-track-sheet"><h3>Automatic Track Sheet</h3><p class="moves-description">Each qualifying multi-buyer signal gets a dated price history, tracked independently as the stock changes. D+5/10/15/30 are calendar-day checkpoints using the next market close.</p>'+
-      (tracks.length?'<label class="moves-track-select"><span>Tracked signal</span><select onchange="selectMoveTrack(this.value)">'+tracks.map(x=>'<option value="'+esc(x.id)+'" '+(x.id===active?.id?"selected":"")+'>'+fmt(x.day)+' · '+marketIcon(x.market)+' '+esc(x.symbol)+' · '+countBuyers(x)+' buyers</option>').join("")+'</select></label>'+detailView(active):'<div class="moves-empty">No multi-buyer signals recorded yet.</div>')+'</section>';
+    return '<section class="moves-track-sheet"><h3>Track Sheet</h3><p class="moves-description">Multi-buyer signals are tracked automatically. Historical stocks added for tracking appear here too. D+5/10/15/30 use the next available market closing price after the calendar-day checkpoint.</p>'+
+      (tracks.length?'<label class="moves-track-select"><span>Tracked signal</span><select onchange="selectMoveTrack(this.value)">'+tracks.map(x=>'<option value="'+esc(x.id)+'" '+(x.id===active?.id?"selected":"")+'>'+fmt(x.day)+' · '+marketIcon(x.market)+' '+esc(x.symbol)+' · '+(x.manual?"Historical · 1 investor":countBuyers(x)+" buyers")+'</option>').join("")+'</select></label>'+detailView(active):'<div class="moves-empty">No multi-buyer signals recorded yet.</div>')+'</section>';
   }
   function unreadAlerts(){
     const today=localToday();
@@ -180,7 +176,6 @@
       (state.movesPanel==="tracks"?tracksView():
       '<label class="moves-date-picker"><span>Disclosure date · last 7 days</span><select onchange="setMoveDate(this.value)">'+
       (dates.length?dates.map(d=>'<option value="'+esc(d.date)+'" '+(d.date===state.moveDate?"selected":"")+'>'+fmt(d.date)+' · '+((d.india||[]).length+(d.canada||[]).length)+' verified transactions</option>').join(""):'<option>No activity</option>')+'</select></label>'+
-      pinnedView()+
       (alerts.length?'<div class="moves-alert-list"><h3>Multiple buyers detected</h3>'+alerts.map(signalCard).join("")+'</div>':"")+
       '<div class="move-mode-strip">'+modes.map(m=>'<button class="move-mode '+(state.moveMode===m?"active":"")+'" onclick="setMoveMode(\''+m+'\')">'+m+'</button>').join("")+'</div>'+
       '<div class="moves-filters">'+opts("investor",state.investorQuery,"setInvestorFilter","Investor / insider")+opts("company",state.companyQuery,"setCompanyFilter","Company")+'</div>'+
