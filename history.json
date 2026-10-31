@@ -3,142 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-28T21:40:27.456192+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 2,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "e15e2a262b647f",
-          "cat": "Canada",
-          "title": "Bank of Canada raises benchmark rate to 2.5%",
-          "summary": "The Bank of Canada increased its policy rate by a quarter‑point to 2.5 percent, marking its first change after seven consecutive meetings and the first hike since July 2023. Governor Tiff Macklem said the move is needed to lower the risk that elevated energy prices will spread to broader inflation, while keeping the rate low enough not to restrain growth. Canada’s annual inflation was 3.1 percent in September, driven largely by surging energy costs.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-10-28T12:33:56+00:00",
-          "firstSeen": "2026-10-28T12:33:56+00:00",
-          "importanceScore": 18.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/livestory/bank-of-canada-interest-rate-announcement-oct-28-9.7398140?cmp=rss"
-        },
-        {
-          "id": "8ca9da7987bfb2",
-          "cat": "World",
-          "title": "High‑speed Renfe train rear‑ends Iryo service after signalling error in Spain",
-          "summary": "Two high‑speed trains traveling south from Madrid to Seville were stopped after a computer failure in the automatic signalling system. The Renfe train, carrying 397 passengers, was mistakenly ordered to proceed and collided with the preceding Iryo train, which had 147 passengers, between Mora and Orgaz about 140 km south of Madrid. The crash caused broken arms, broken noses and a rail to pierce a passenger’s roof.",
-          "why": "It shows how signalling and operational failures can jeopardize passenger safety.",
-          "publishedAt": "2026-10-28T21:24:41+00:00",
-          "firstSeen": "2026-10-28T21:24:41+00:00",
-          "importanceScore": 14.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "de6b4f50af1c97",
-          "cat": "AI",
-          "title": "Microsoft reports $10 billion revenue from OpenAI in Q3 2026",
-          "summary": "Microsoft said it earned $10 billion from commercial arrangements with OpenAI in the quarter ended September 30, 2026, about 11 % of its total quarterly revenue of $92.3 billion. For the full 2026 fiscal year, OpenAI‑related revenue was $24.1 billion, and the quarterly pace suggests an annualized $40 billion. Receivables from OpenAI stood at $7.2 billion at quarter‑end.",
-          "why": "The figure shows the scale of Microsoft’s financial exposure to OpenAI, which could affect both companies’ earnings and strategic decisions.",
-          "publishedAt": "2026-10-28T21:34:30+00:00",
-          "firstSeen": "2026-10-28T21:34:30+00:00",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
-        },
-        {
-          "id": "e23790bc283973",
-          "cat": "India",
-          "title": "India projected to cut debt‑to‑GDP ratio by 2031, says RBI deputy governor",
-          "summary": "RBI Deputy Governor said India is the only major emerging economy expected to lower its overall debt‑to‑GDP ratio by 2031. The statement was reported by The Economic Times. No further details on the projected ratio or the assumptions behind it were provided, but the comment highlights a contrast with other emerging markets that are expected to see stable or rising debt ratios over the same period.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-28T14:59:48+00:00",
-          "firstSeen": "2026-10-28T14:59:48+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms"
-        },
-        {
-          "id": "f89f7ec9829002",
-          "cat": "India",
-          "title": "Green financing in India rises to $82 billion, but flows mostly to established sectors: Report",
-          "summary": "The Landscape of Green Finance in India, now in its fourth edition, maps actual finance flows or disbursements across sources, instruments, sectors, and subsectors for financial years 2022-23 and 2023-24. According to the report, while green finance has increased substantially between 2016-17 and 2023-24, financial flows remain concentrated in established sectors and technologies.",
-          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-          "publishedAt": "2026-10-28T19:41:20+00:00",
-          "firstSeen": "2026-10-28T19:41:20+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/green-financing-in-india-rises-to-82-billion-but-flows-mostly-to-established-sectors-report/articleshow/135279184.cms"
-        },
-        {
-          "id": "01066d3a8f8013",
-          "cat": "AI",
-          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
-          "summary": "Nvidia on Wednesday released Nemotron 3.5 Transcribe , a free, open-weight model that transcribes audio in up to 40 languages. Nvidia’s latest voice entry comes during a busy period of AI voice releases: Mistral shipped Voxtral 3 earlier this month; ElevenLabs launched Realtime for instant speech in voice agents; and Salesforce released Launa-Omni, its voice model.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-28T15:00:00+00:00",
-          "firstSeen": "2026-10-28T15:00:00+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
-        },
-        {
-          "id": "974b34962af1c8",
-          "cat": "India",
-          "title": "India’s record bank cash surplus fades as RBI curbs rupee bets",
-          "summary": "Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-28T02:26:28+00:00",
-          "firstSeen": "2026-10-28T02:26:28+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-29T01:49:48.288199+00:00",
       "changeSummary": {
         "new": 3,
@@ -1661,60 +1525,163 @@
           "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
         }
       ]
-    }
-  ],
-  "events": {
-    "171a64b3c19e48": {
-      "id": "171a64b3c19e48",
-      "firstSeen": "2026-10-24T01:55:15+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-10-31T21:38:13.173676+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 1,
+        "continuing": 4
+      },
+      "stories": [
         {
-          "at": "2026-10-24T07:20:03.104914+00:00",
-          "title": "Australian MP Helen Haines' condition stabilises after car attack",
-          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her Wangaratta electorate office in north‑east Victoria on Monday. She underwent emergency surgery that included bilateral leg amputation and was airlifted to Melbourne’s Alfred Hospital. On Saturday the hospital reported her condition had improved from critical to serious but stable.",
-          "importanceScore": 12.7,
+          "id": "ff21767ceb6fa6",
+          "cat": "World",
+          "title": "Spain high‑speed train crash kills 69 weeks before snap election",
+          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and down an embankment in central Spain. The disaster occurs weeks before the snap general election called by Prime Minister Pedro Sánchez, who is already facing public anger over alleged corruption and housing costs, and a formal investigation into the earlier Toledo train disaster has just been launched.",
+          "why": "The incident may influence public confidence in the rail system and the government ahead of the election.",
+          "publishedAt": "2026-10-31T05:44:21+00:00",
+          "firstSeen": "2026-10-31T05:44:21+00:00",
+          "importanceScore": 11.9,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
           "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "at": "2026-10-24T16:36:50.223391+00:00",
-          "title": "Australian MP Helen Haines' condition improves after car attack",
-          "summary": "Independent MP Helen Haines, 65, was struck by a car outside her electorate office in Wangaratta, north‑east Victoria, on a Monday. Authorities say the incident was a deliberate attack; both of her legs were amputated and she was airlifted to Melbourne’s Alfred Hospital in critical condition. Five days later the hospital reported her condition had improved to serious but stable.",
+          "id": "82e1223ac35a35",
+          "cat": "Indian Markets",
+          "title": "Turnaround Story: 8 stocks shift from loss to profit in September '26 quarter",
+          "summary": "The company reported a net profit of Rs 859 crore in the September 2026 quarter, compared with a net loss of Rs 16 crore in the corresponding quarter last year. The firm posted a net profit of Rs 71 crore in the September 2026 quarter, against a net loss of Rs 10 crore in the year-ago quarter.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-31T08:52:12+00:00",
+          "firstSeen": "2026-10-31T08:52:12+00:00",
           "importanceScore": 11.7,
           "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/turnaround-story-8-stocks-shift-from-loss-to-profit-in-september-26-quarter/slideshow/135395511.cms"
         },
         {
-          "at": "2026-10-24T19:30:36.027219+00:00",
-          "title": "Australian MP's condition improves after alleged car attack",
-          "summary": "Helen Haines had both her legs amputated after what authorities say was a deliberate attack The condition of Helen Haines, the Australian MP hit by a car five days ago in north-east Victoria, has improved from critical to serious but stable. The independent MP, 65, had both her legs amputated after what authorities say was a deliberate attack outside her electorate office in Wangaratta, north-east of Melbourne, on Monday.",
-          "importanceScore": 11.9,
+          "id": "14ff192ac6d77c",
+          "cat": "Indian Markets",
+          "title": "Indian Oil net profit triples YoY to 21,630 cr in Q2",
+          "summary": "Indian Oil experienced a remarkable surge in its net profit, which soared to ₹21,630 crore for the second quarter. Moreover, operational revenue increased by 29%, reaching ₹2,62,935 crore, with the firm's operating profit from petroleum product sales more than doubling.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-31T04:11:43+00:00",
+          "firstSeen": "2026-10-31T04:11:43+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indian-oil-net-profit-triples-yoy-to-21630-cr-in-q2/articleshow/135387471.cms"
+        },
+        {
+          "id": "8422707980f95e",
+          "cat": "World",
+          "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Hundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. The BBC Ukraine correspondent Dan Johnson explains how the ceasefire is going and what could happen next.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-30T23:19:17+00:00",
+          "firstSeen": "2026-10-30T23:19:17+00:00",
+          "importanceScore": 11.5,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": false,
           "confidence": "low",
           "lifecycle": "Continuing",
           "changed": false,
-          "change": "No material change since the previous brief."
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "3f5fed73397a92",
+          "cat": "AI",
+          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+          "summary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis. xAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-10-31T21:17:03+00:00",
+          "firstSeen": "2026-10-31T21:17:03+00:00",
+          "importanceScore": 11.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+        },
+        {
+          "id": "078f7d93f6d98a",
+          "cat": "Indian Markets",
+          "title": "Nifty rebounds 2% but faces resistance near 23,450",
+          "summary": "The Nifty index rose 2% last week, moving back above its 200‑week moving average of 22,700. Analysts see immediate resistance between 23,300 and 23,450 and key support in the 22,750‑22,525 range for the upcoming week. Easing volatility and buying at lower levels underpin the rebound, though bearish momentum indicators call for caution. Trending stocks include SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC.",
+          "why": "The identified support and resistance zones will guide short‑term trading decisions for market participants.",
+          "publishedAt": "2026-10-31T11:05:04+00:00",
+          "firstSeen": "2026-10-31T11:05:04+00:00",
+          "importanceScore": 11.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms"
+        },
+        {
+          "id": "7d04a34afdde14",
+          "cat": "Canada",
+          "title": "Suspect wanted in violent home invasion was also shot: Toronto police",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-10-31T14:41:32+00:00",
+          "firstSeen": "2026-10-31T14:41:32+00:00",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://globalnews.ca/news/12128691/toronto-home-invasion-suspect/"
+        },
+        {
+          "id": "7b93b2a29bc35c",
+          "cat": "AI",
+          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+          "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-10-31T01:20:05+00:00",
+          "firstSeen": "2026-10-31T01:20:05+00:00",
+          "importanceScore": 9.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
         }
-      ],
-      "lastSeen": "2026-10-24T19:30:36.027219+00:00",
-      "cat": "World",
-      "latestTitle": "Australian MP's condition improves after alleged car attack",
-      "latestSummary": "Helen Haines had both her legs amputated after what authorities say was a deliberate attack The condition of Helen Haines, the Australian MP hit by a car five days ago in north-east Victoria, has improved from critical to serious but stable. The independent MP, 65, had both her legs amputated after what authorities say was a deliberate attack outside her electorate office in Wangaratta, north-east of Melbourne, on Monday.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss"
-    },
+      ]
+    }
+  ],
+  "events": {
     "b066dc6a0ae9bb": {
       "id": "b066dc6a0ae9bb",
       "firstSeen": "2026-10-24T07:17:44+00:00",
@@ -1778,82 +1745,6 @@
       "latestSummary": "The White House announced that First Lady Melania Trump secured a cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky. The truce, intended to allow evacuation of civilians and delivery of aid, was said to start on 29 October, with both sides agreeing to halt firing at 01:00 GMT on 27 October. Oleshky has been under Russian control since February 2022 and has faced severe shortages of food, medicine and water.",
       "why": "The pause could enable humanitarian assistance and safe evacuation of residents in a city facing critical shortages.",
       "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
-    },
-    "6829e880561f4f": {
-      "id": "6829e880561f4f",
-      "firstSeen": "2026-10-24T09:33:10+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-24T12:42:36.258657+00:00",
-          "title": "Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026",
-          "summary": "Here are the top 10 stocks with market capitalisations above $5 billion that have fallen between 49% and 66% year to date, according to Vested Finance data. The Trade Desk has emerged as the biggest loser on this list, with shares plunging 65.75% in 2026, from $37.96 at the end of last year to $13.00.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-24T19:30:36.027219+00:00",
-          "title": "Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026",
-          "summary": "Here are the top 10 stocks with market capitalisations above $5 billion that have fallen between 49% and 66% year to date, according to Vested Finance data. The Trade Desk has emerged as the biggest loser on this list, with shares plunging 65.75% in 2026, from $37.96 at the end of last year to $13.00.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-24T19:30:36.027219+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Portfolio Killers: 10 US stocks that wiped out up to 66% of investors’ wealth in 2026",
-      "latestSummary": "Here are the top 10 stocks with market capitalisations above $5 billion that have fallen between 49% and 66% year to date, according to Vested Finance data. The Trade Desk has emerged as the biggest loser on this list, with shares plunging 65.75% in 2026, from $37.96 at the end of last year to $13.00.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/portfolio-killers-10-us-stocks-that-wiped-out-up-to-66-of-investors-wealth-in-2026/slideshow/135167355.cms"
-    },
-    "01a7e7ea823ddc": {
-      "id": "01a7e7ea823ddc",
-      "firstSeen": "2026-10-24T09:20:31+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-24T12:42:36.258657+00:00",
-          "title": "Govt of Singapore’s India portfolio: 10 stocks rally up to 100% in FY27 so far",
-          "summary": "In terms of stock performance, around 14 stocks in the portfolio have delivered positive returns so far in FY27, while nearly half have posted negative returns. (Data Source: ACE Equity, Trendlyne) The stock has surged 101% so far in FY27, climbing from Rs 1,511 to Rs 3,034.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-24T19:30:36.027219+00:00",
-          "title": "Govt of Singapore’s India portfolio: 10 stocks rally up to 100% in FY27 so far",
-          "summary": "In terms of stock performance, around 14 stocks in the portfolio have delivered positive returns so far in FY27, while nearly half have posted negative returns. (Data Source: ACE Equity, Trendlyne) The stock has surged 101% so far in FY27, climbing from Rs 1,511 to Rs 3,034.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-24T19:30:36.027219+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Govt of Singapore’s India portfolio: 10 stocks rally up to 100% in FY27 so far",
-      "latestSummary": "In terms of stock performance, around 14 stocks in the portfolio have delivered positive returns so far in FY27, while nearly half have posted negative returns. (Data Source: ACE Equity, Trendlyne) The stock has surged 101% so far in FY27, climbing from Rs 1,511 to Rs 3,034.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-of-singapores-india-portfolio-10-stocks-rally-up-to-100-in-fy27-so-far/slideshow/135167433.cms"
     },
     "582854707d03e7": {
       "id": "582854707d03e7",
@@ -4980,13 +4871,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-10-31T21:38:13.173676+00:00",
+          "title": "Spain high‑speed train crash kills 69 weeks before snap election",
+          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and down an embankment in central Spain. The disaster occurs weeks before the snap general election called by Prime Minister Pedro Sánchez, who is already facing public anger over alleged corruption and housing costs, and a formal investigation into the earlier Toledo train disaster has just been launched.",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T17:45:54.845192+00:00",
+      "lastSeen": "2026-10-31T21:38:13.173676+00:00",
       "cat": "World",
-      "latestTitle": "69 dead after high‑speed train collision south of Madrid",
-      "latestSummary": "A collision on the high‑speed rail line south of Madrid left 69 bodies recovered from wreckage strewn across the tracks and down an embankment in central Spain. The disaster comes weeks before a snap general election called by Prime Minister Pedro Sánchez, adding pressure to his government.",
-      "why": "The incident could erode public confidence in the rail network and influence voter sentiment ahead of the election.",
+      "latestTitle": "Spain high‑speed train crash kills 69 weeks before snap election",
+      "latestSummary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and down an embankment in central Spain. The disaster occurs weeks before the snap general election called by Prime Minister Pedro Sánchez, who is already facing public anger over alleged corruption and housing costs, and a formal investigation into the earlier Toledo train disaster has just been launched.",
+      "why": "The incident may influence public confidence in the rail system and the government ahead of the election.",
       "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
     },
     "8b7ad34025a75c": {
@@ -5056,13 +4960,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-10-31T21:38:13.173676+00:00",
+          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+          "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
+          "importanceScore": 9.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T17:45:54.845192+00:00",
+      "lastSeen": "2026-10-31T21:38:13.173676+00:00",
       "cat": "AI",
-      "latestTitle": "Nvidia in talks to co‑sign debt for Nscale’s West Virginia AI data center",
-      "latestSummary": "Nvidia is discussing a residual‑value guarantee that would back billions of dollars in debt financing for Nscale’s planned Anthropic data center in West Virginia. The arrangement would let Nscale secure funding for construction and electricity costs, with Nvidia stepping in if Nscale defaults, temporarily taking control of the facility and helping find a buyer or new tenant. Anthropic has a $44.6 billion contract for the first 460‑MW building, and a second deal of roughly $45 billion is being discussed.",
-      "why": "It illustrates Nvidia expanding its role from chip sales to directly underwriting AI‑infrastructure projects as investors grow wary of large‑scale build‑out spending.",
+      "latestTitle": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "latestSummary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
     },
     "078f7d93f6d98a": {
@@ -5081,13 +4998,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-31T21:38:13.173676+00:00",
+          "title": "Nifty rebounds 2% but faces resistance near 23,450",
+          "summary": "The Nifty index rose 2% last week, moving back above its 200‑week moving average of 22,700. Analysts see immediate resistance between 23,300 and 23,450 and key support in the 22,750‑22,525 range for the upcoming week. Easing volatility and buying at lower levels underpin the rebound, though bearish momentum indicators call for caution. Trending stocks include SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC.",
+          "importanceScore": 11.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
+      "lastSeen": "2026-10-31T21:38:13.173676+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Dalal Street Weak Ahead: Nifty stands on firmer footing, but can it break past 23,450?",
-      "latestSummary": "The Nifty gained 2% last week, recovering above the crucial 200-week moving average at 22,700. Analysts identify 23,300–23,450 as immediate resistance and 22,750–22,525 as key support for the coming week.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "latestTitle": "Nifty rebounds 2% but faces resistance near 23,450",
+      "latestSummary": "The Nifty index rose 2% last week, moving back above its 200‑week moving average of 22,700. Analysts see immediate resistance between 23,300 and 23,450 and key support in the 22,750‑22,525 range for the upcoming week. Easing volatility and buying at lower levels underpin the rebound, though bearish momentum indicators call for caution. Trending stocks include SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC.",
+      "why": "The identified support and resistance zones will guide short‑term trading decisions for market participants.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms"
     },
     "35ef422b48eb48": {
@@ -5181,9 +5111,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-31T21:38:13.173676+00:00",
+          "title": "Suspect wanted in violent home invasion was also shot: Toronto police",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T17:45:54.845192+00:00",
+      "lastSeen": "2026-10-31T21:38:13.173676+00:00",
       "cat": "Canada",
       "latestTitle": "Suspect wanted in violent home invasion was also shot: Toronto police",
       "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
@@ -5206,9 +5149,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-31T21:38:13.173676+00:00",
+          "title": "Indian Oil net profit triples YoY to 21,630 cr in Q2",
+          "summary": "Indian Oil experienced a remarkable surge in its net profit, which soared to ₹21,630 crore for the second quarter. Moreover, operational revenue increased by 29%, reaching ₹2,62,935 crore, with the firm's operating profit from petroleum product sales more than doubling.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T17:45:54.845192+00:00",
+      "lastSeen": "2026-10-31T21:38:13.173676+00:00",
       "cat": "Indian Markets",
       "latestTitle": "Indian Oil net profit triples YoY to 21,630 cr in Q2",
       "latestSummary": "Indian Oil experienced a remarkable surge in its net profit, which soared to ₹21,630 crore for the second quarter. Moreover, operational revenue increased by 29%, reaching ₹2,62,935 crore, with the firm's operating profit from petroleum product sales more than doubling.",
@@ -5231,9 +5187,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-10-31T21:38:13.173676+00:00",
+          "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Hundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. The BBC Ukraine correspondent Dan Johnson explains how the ceasefire is going and what could happen next.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-31T17:45:54.845192+00:00",
+      "lastSeen": "2026-10-31T21:38:13.173676+00:00",
       "cat": "World",
       "latestTitle": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
       "latestSummary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Hundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. The BBC Ukraine correspondent Dan Johnson explains how the ceasefire is going and what could happen next.",
@@ -5264,7 +5233,57 @@
       "latestSummary": "Amid the broader market rally, around 18 stocks from the BSE 500 index rose in each of the five consecutive trading sessions between October 26 and 30. Of these, we identified eight stocks that gained on all five days, delivering cumulative returns ranging from 10% to 21% during the period.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-that-gain-for-5-days-in-a-row/slideshow/135392399.cms"
+    },
+    "82e1223ac35a35": {
+      "id": "82e1223ac35a35",
+      "firstSeen": "2026-10-31T08:52:12+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-31T21:38:13.173676+00:00",
+          "title": "Turnaround Story: 8 stocks shift from loss to profit in September '26 quarter",
+          "summary": "The company reported a net profit of Rs 859 crore in the September 2026 quarter, compared with a net loss of Rs 16 crore in the corresponding quarter last year. The firm posted a net profit of Rs 71 crore in the September 2026 quarter, against a net loss of Rs 10 crore in the year-ago quarter.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-31T21:38:13.173676+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Turnaround Story: 8 stocks shift from loss to profit in September '26 quarter",
+      "latestSummary": "The company reported a net profit of Rs 859 crore in the September 2026 quarter, compared with a net loss of Rs 16 crore in the corresponding quarter last year. The firm posted a net profit of Rs 71 crore in the September 2026 quarter, against a net loss of Rs 10 crore in the year-ago quarter.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/turnaround-story-8-stocks-shift-from-loss-to-profit-in-september-26-quarter/slideshow/135395511.cms"
+    },
+    "3f5fed73397a92": {
+      "id": "3f5fed73397a92",
+      "firstSeen": "2026-10-31T21:17:03+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-31T21:38:13.173676+00:00",
+          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+          "summary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis. xAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile.",
+          "importanceScore": 11.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-31T21:38:13.173676+00:00",
+      "cat": "AI",
+      "latestTitle": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "latestSummary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis. xAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
     }
   },
-  "updated": "2026-10-31T17:45:54.845192+00:00"
+  "updated": "2026-10-31T21:38:13.173676+00:00"
 }
