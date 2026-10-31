@@ -9,7 +9,7 @@ on:
       - "moves-v2.js"
       - "moves-v3.js"
       - "moves-v3.css"
-      - "moves-pinned.json"
+      - "moves-tracking.json"
       - "scripts/build_moves_daily.py"
       - "scripts/refresh_moves_prices.py"
       - "scripts/fetch_canada_disclosures.py"
@@ -98,9 +98,10 @@ jobs:
           grep -q 'whyNotable' moves-v2.js
           python - <<'PY'
           import json
-          pinned=json.load(open('moves-pinned.json',encoding='utf-8'))['records']
-          assert pinned and all(r.get('day') and r.get('pinReason') and r.get('sourceUrl') for r in pinned)
-          print('Saved Move archive contract valid:',len(pinned))
+          tracking=json.load(open('moves-tracking.json',encoding='utf-8'))
+          manual=[r for r in tracking['tracks'] if r.get('manual')]
+          assert all(r.get('day') and r.get('sourceUrl') and r.get('symbol') for r in manual)
+          print('Historical Track Sheet contract valid:',len(manual))
           PY
       - name: Check Markets Intelligence contract
         run: |
@@ -141,8 +142,8 @@ jobs:
           grep -q 'trust-ui.js?v=1' index.html
           grep -q 'briefly-v2.css?v=1' index.html
           grep -q 'moves-v2.js?v=1' index.html
-          grep -q 'moves-v3.js?v=2' index.html
-          grep -q 'moves-v3.css?v=2' index.html
+          grep -q 'moves-v3.js?v=3' index.html
+          grep -q 'moves-v3.css?v=3' index.html
           grep -q 'moves-v2.css?v=1' index.html
           grep -q 'markets-v2.js?v=1' index.html
           grep -q 'markets-v2.css?v=1' index.html
