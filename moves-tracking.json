@@ -60,7 +60,7 @@
         "ANUJ AGARWAL",
         "NEO APEX SHARE BROKING SERVICES LLP"
       ],
-      "value": 8321792.0,
+      "value": 8321792,
       "currency": "INR",
       "disclosedAvgPrice": 32.305,
       "source": "Verified exchange/public disclosures",
@@ -141,7 +141,7 @@
         "L7 HITECH PRIVATE LIMITED",
         "MACH CONFERENCES AND EVENTS LIMITED"
       ],
-      "value": 8554248.0,
+      "value": 8554248,
       "currency": "INR",
       "disclosedAvgPrice": 54.005,
       "source": "Verified exchange/public disclosures",
@@ -183,7 +183,7 @@
         "DELTAX BROKING PRIVATE LIMITED",
         "L7 HITECH PRIVATE LIMITED"
       ],
-      "value": 415412650.0,
+      "value": 415412650,
       "currency": "INR",
       "disclosedAvgPrice": 330.765,
       "source": "Verified exchange/public disclosures",
@@ -203,9 +203,9 @@
         "DINESHKUMAR KRISHANKUMAR AGARWAL",
         "KHATRI HITESH RAJNIKANT"
       ],
-      "value": 5878800.0,
+      "value": 5878800,
       "currency": "INR",
-      "disclosedAvgPrice": 46.0,
+      "disclosedAvgPrice": 46,
       "source": "Verified exchange/public disclosures",
       "status": "Multiple buyers disclosed; not an investment recommendation",
       "firstDetectedAt": "2026-10-31T01:31:07.253864+00:00",
@@ -223,7 +223,7 @@
         "JAGID VANITABEN RAJENDRAPRASAD",
         "L7 HITECH PRIVATE LIMITED"
       ],
-      "value": 9344184.0,
+      "value": 9344184,
       "currency": "INR",
       "disclosedAvgPrice": 60.475,
       "source": "Verified exchange/public disclosures",
@@ -251,6 +251,32 @@
       "firstDetectedAt": "2026-10-31T01:31:07.253864+00:00",
       "firstBuyerCount": 2,
       "trackingSource": "Daily market closing prices (unadjusted)"
+    },
+    {
+      "id": "2026-10-06:India:DPWIRES:historical",
+      "day": "2026-10-06",
+      "market": "India",
+      "symbol": "DPWIRES",
+      "company": "D P Wires Limited",
+      "manual": true,
+      "trackingType": "Single disclosed investor — historical",
+      "buyers": 1,
+      "firstBuyerCount": 1,
+      "investors": [
+        "AMITABH HARIVANSH RAI BACHCHAN"
+      ],
+      "buyQty": 129000,
+      "sellQty": 60021,
+      "netBuyQty": 68979,
+      "disclosedAvgPrice": 223.58,
+      "disclosedSellAvgPrice": 227.57,
+      "value": 15422324.82,
+      "currency": "INR",
+      "source": "NSE bulk deals (October 6, 2026)",
+      "sourceUrl": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+      "status": "Historical single-investor transaction added to price tracking, not a multi-buyer alert",
+      "trackingSource": "Daily unadjusted market closes, independent of disclosed trade prices",
+      "firstDetectedAt": "2026-10-06T00:00:00+00:00"
     }
   ],
   "quotes": {
@@ -266,7 +292,7 @@
       "2026-10-26": 2573.3,
       "2026-10-27": 2830.6001,
       "2026-10-28": 2840.3,
-      "2026-10-29": 2836.0
+      "2026-10-29": 2836
     },
     "India:RATNAVEER": {
       "2026-10-23": 330.7,
