@@ -3,142 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-28T02:18:34.075557+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 3,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "57ad0d4f6f5d75",
-          "cat": "India",
-          "title": "Deutsche Bank forecasts RBI may lift repo rate to 6.25% by mid‑2027",
-          "summary": "Deutsche Bank expects the Reserve Bank of India to raise its policy repo rate to 6.25% by mid‑2027 as inflation pressures persist. The bank projects consumer‑price inflation averaging about 6% in late 2026 and easing to 4.7% by FY 28, while GDP growth is forecast above 7% in FY 27 and FY 28.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-27T08:58:23+00:00",
-          "firstSeen": "2026-10-27T08:58:23+00:00",
-          "importanceScore": 14.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-6-25-by-2027-amid-inflation-risks-deutsche-bank/articleshow/135229287.cms"
-        },
-        {
-          "id": "e3b75065c039b9",
-          "cat": "Indian Markets",
-          "title": "Max Financial Services reports massive profit growth of Rs 100 crore in Q2 FY26",
-          "summary": "Max Financial Services recorded a substantial rise in net profit during the second quarter to ₹100 crore. The company owns an 80% stake in Axis Max Life, contributing to its financial growth.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-28T00:53:21+00:00",
-          "firstSeen": "2026-10-28T00:53:21+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/max-financial-services-reports-massive-profit-growth-of-rs-100-crore-in-q2-fy26/articleshow/135248590.cms"
-        },
-        {
-          "id": "d004d8bb9e7d70",
-          "cat": "World",
-          "title": "Ceasefire extended across Kherson region",
-          "summary": "A ceasefire that began to bring food and medicine to the Russian‑occupied city of Oleshky has been expanded to cover the wider southern Kherson region, with no breaches reported since it started on Tuesday. Several thousand residents remain without electricity, food or water, and the broadened truce is intended to allow humanitarian convoys safe passage.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-27T22:11:08+00:00",
-          "firstSeen": "2026-10-27T22:11:08+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "46f91da8b9ae36",
-          "cat": "AI",
-          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-          "summary": "A deal with a large customer worth $100 million in annual recurring revenue has paved the way for the company to raise $100 million in Series A funding led by Blackbird Ventures and Abstract Ventures. Valued at $60 million after a May seed round , General Compute is now worth $800 million post-money to its investors.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-27T13:00:00+00:00",
-          "firstSeen": "2026-10-27T13:00:00+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
-        },
-        {
-          "id": "63205d8e782c95",
-          "cat": "World",
-          "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
-          "summary": "Syrian health officials told state media that five people, including women, children and an elderly man, were killed in the strike on a village in the southern Daraa province. Jordan said its fighter jets had killed and wounded \"several terrorists\", without giving further details.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-27T02:40:17+00:00",
-          "firstSeen": "2026-10-27T02:40:17+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "85e013113e4464",
-          "cat": "AI",
-          "title": "Google DeepMind releases Genie 4 world model with audio and real‑time editing",
-          "summary": "On Tuesday, Google DeepMind launched Genie 4 as a research‑preview world model that creates photorealistic, interactive environments and generates synchronized real‑time audio such as music, ambient sounds and dialogue. Users can type prompts during a simulation to change weather, camera angle, objects or characters, and the system can keep the scene consistent for up to two minutes, twice the duration of its predecessor. Gemini, Google’s AI model, is integrated as a director that plans steps while Genie 4 renders the visuals.",
-          "why": "The capability enables more immersive simulations and offers a way to test robotic or interactive scenarios in a virtual setting before real‑world deployment.",
-          "publishedAt": "2026-10-27T16:30:57+00:00",
-          "firstSeen": "2026-10-27T16:30:57+00:00",
-          "importanceScore": 10.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
-        },
-        {
-          "id": "ff95570ae7494a",
-          "cat": "India",
-          "title": "RBI Governor urges states to focus on quality spending and prudent borrowing",
-          "summary": "RBI Governor Sanjay Malhotra called on state governments to ensure that their expenditures are of high quality and that any borrowing is undertaken responsibly. The comment was published by The Economic Times. The remarks were reported in a brief news item without additional detail.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-27T14:52:25+00:00",
-          "firstSeen": "2026-10-27T14:52:25+00:00",
-          "importanceScore": 10.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-governor-sanjay-malhotra-urges-states-to-ensure-quality-spending-prudent-borrowing/articleshow/135238223.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-28T09:43:18.420398+00:00",
       "changeSummary": {
         "new": 1,
@@ -1589,6 +1453,160 @@
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-pe/vc-investments-jump-45-to-7-billion-in-september-highest-in-over-two-years/articleshow/135362031.cms"
         }
       ]
+    },
+    {
+      "at": "2026-10-31T05:47:21.241159+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 1,
+        "continuing": 4
+      },
+      "stories": [
+        {
+          "id": "ff21767ceb6fa6",
+          "cat": "World",
+          "title": "69 killed in high‑speed train crash in central Spain",
+          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and an embankment in central Spain. The crash follows a similar accident near Córdoba nine months earlier. Authorities have opened a formal investigation into the Toledo train disaster.",
+          "why": "The disaster undermines public confidence in Spain’s rail system and comes weeks before a snap general election.",
+          "publishedAt": "2026-10-31T05:44:21+00:00",
+          "firstSeen": "2026-10-31T05:44:21+00:00",
+          "importanceScore": 13.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "ce4ce93e599bdb",
+          "cat": "World",
+          "title": "Hundreds Evacuated from Russian‑Occupied Oleshky During Humanitarian Ceasefire",
+          "summary": "On Friday, hundreds of residents of Oleshky, a city under Russian occupation, were evacuated during a four‑hour humanitarian ceasefire that the BBC reports was brokered by U.S. First Lady Melania Trump. The evacuation took place despite ongoing shortages of electricity and water, and some residents chose to remain in the city.",
+          "why": "The evacuation underscores the severe humanitarian challenges in occupied zones and demonstrates how ceasefire agreements can create brief windows for civilian safety.",
+          "publishedAt": "2026-10-30T23:19:17+00:00",
+          "firstSeen": "2026-10-30T16:26:11+00:00",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "8b7ad34025a75c",
+          "cat": "Indian Markets",
+          "title": "New India slips into red with 1,267 cr loss in Q2",
+          "summary": "New India Assurance Company has revealed a concerning net loss of ₹1,267 crore for the September quarter, sharply contrasting with last year's profit of ₹63 crore. Despite this, gross written premiums showed a modest increase of 5.14% year-on-year, totaling ₹11,083 crore.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-10-31T04:30:20+00:00",
+          "firstSeen": "2026-10-31T04:30:20+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/new-india-slips-into-red-with-1267-cr-loss-in-q2/articleshow/135387922.cms"
+        },
+        {
+          "id": "61ff37d6f2d42e",
+          "cat": "World",
+          "title": "Spain transport minister says he will not resign after high‑speed rail crash",
+          "summary": "Spain's transport minister Óscar Puente told a Madrid news conference that he will not resign following the high‑speed rail collision that killed at least 69 people. He said he has “nothing to hide” and that his priority is to resolve the problem rather than discuss his position. He acknowledged ongoing calls for his resignation from political opponents, a trade union and protesters who demonstrated outside the ministry.",
+          "why": "It indicates how the government is handling political accountability while addressing the emergency response to a major transport disaster.",
+          "publishedAt": "2026-10-30T15:03:39+00:00",
+          "firstSeen": "2026-10-30T15:03:39+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "e05697a7bed6d2",
+          "cat": "India",
+          "title": "India's services trade surplus rises to $53.39 billion in Q2",
+          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
+          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+          "publishedAt": "2026-10-30T15:09:07+00:00",
+          "firstSeen": "2026-10-30T15:09:07+00:00",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms"
+        },
+        {
+          "id": "7b93b2a29bc35c",
+          "cat": "AI",
+          "title": "Nvidia in talks to co‑sign debt for Nscale’s West Virginia AI data center",
+          "summary": "Nvidia is discussing a residual‑value guarantee that would co‑sign billions of dollars in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia. Under the proposal, Nvidia would step in if Nscale defaults on construction payments, temporarily take over the facility and help find a buyer or new tenant. Anthropic has signed a $44.6 billion contract for the first 460‑MW building, and a second deal of roughly $45 billion is also being discussed.",
+          "why": "It indicates Nvidia’s willingness to directly back AI infrastructure financing amid growing investor concerns about the cost of AI data‑center expansion.",
+          "publishedAt": "2026-10-31T01:20:05+00:00",
+          "firstSeen": "2026-10-31T01:20:05+00:00",
+          "importanceScore": 10.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+        },
+        {
+          "id": "32868080ca4f59",
+          "cat": "India",
+          "title": "RBI discusses economic risks at 625th Central Board meeting",
+          "summary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra, during which board members deliberated a range of economic risks facing the country. The Economic Times reported that the discussion centered on assessing macro‑economic challenges that could impact financial stability and credit conditions.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-10-30T15:13:38+00:00",
+          "firstSeen": "2026-10-30T15:13:38+00:00",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms"
+        },
+        {
+          "id": "d52e04d55e06b3",
+          "cat": "India",
+          "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
+          "summary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-10-30T12:34:46+00:00",
+          "firstSeen": "2026-10-30T12:34:46+00:00",
+          "importanceScore": 9.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-pe/vc-investments-jump-45-to-7-billion-in-september-highest-in-over-two-years/articleshow/135362031.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1668,108 +1686,6 @@
       "latestSummary": "The Reserve Bank of India highlighted that ongoing conflict in West Asia and the expected El Nino weather pattern could push inflation higher, even as it noted the Indian economy remains resilient. The central bank’s commentary flagged these external factors as potential risks to price stability.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-rising-inflation-risks-from-west-asia-conflict-el-nino-despite-resilient-indian-economy/articleshow/135149993.cms"
-    },
-    "3ca27f28973fa5": {
-      "id": "3ca27f28973fa5",
-      "firstSeen": "2026-10-23T16:59:51+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-23T19:16:38.389874+00:00",
-          "title": "White House says Melania Trump helped broker Oleshky ceasefire",
-          "summary": "The White House said US First Lady Melania Trump secured a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, with the truce slated to start on 29 October. Both sides confirmed the agreement would allow evacuation of civilians and delivery of aid, and Moscow announced its troops would cease fire at 04:00 (02:00 GMT) on 27 October. Oleshky has been under Russian control since February 2022 and has faced severe shortages of food, medicine and water.",
-          "importanceScore": 14.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-23T22:21:20.473309+00:00",
-          "title": "White House says Melania Trump secured ceasefire in Oleshky, Ukraine",
-          "summary": "The White House announced that former First Lady Melania Trump had “successfully secured” a localized cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky, slated to begin on 29 October. Both sides reportedly agreed to stop firing at 02:00 GMT on 27 October and to allow evacuation of residents and delivery of aid. Oleshky has been under Russian control since February 2022 and residents have faced severe shortages.",
-          "importanceScore": 14.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-24T01:37:10.158040+00:00",
-          "title": "White House says Melania Trump secured ceasefire in Oleshky",
-          "summary": "The White House announced that former First Lady Melania Trump helped secure a cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky. Both sides said they would stop firing at 02:00 GMT on 27 October and work to evacuate residents and allow humanitarian aid. Oleshky has been under Russian control since February 2022, and residents have been facing severe shortages.",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
-      "cat": "World",
-      "latestTitle": "White House says Melania Trump secured ceasefire in Oleshky",
-      "latestSummary": "The White House announced that former First Lady Melania Trump helped secure a cease‑fire between Russian and Ukrainian forces in the occupied city of Oleshky. Both sides said they would stop firing at 02:00 GMT on 27 October and work to evacuate residents and allow humanitarian aid. Oleshky has been under Russian control since February 2022, and residents have been facing severe shortages.",
-      "why": "The pause could enable delivery of food, medicine and water to civilians in a city on the brink of disaster.",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
-    },
-    "37c75adc075113": {
-      "id": "37c75adc075113",
-      "firstSeen": "2026-10-23T12:17:45+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-23T19:16:38.389874+00:00",
-          "title": "Denmark to ban mink farming in government U-turn",
-          "summary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-23T22:21:20.473309+00:00",
-          "title": "Denmark to ban mink farming in government U-turn",
-          "summary": "Mink farming will end in Denmark by August 2029 after the government decided to drop plans to pursue an exemption to an EU-wide ban on the practice. Denmark was once the largest producer of mink fur in the world, but the industry has declined due to global bans on fur farming, a decline in the fur trade and an earlier outbreak of a Covid strain in the nation's mink population.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-24T01:37:10.158040+00:00",
-          "title": "Denmark to end mink farming by August 2029 after dropping EU exemption bid",
-          "summary": "Denmark will cease mink farming by August 2029 after the government decided not to pursue an exemption to the EU‑wide ban on the practice. The ban is scheduled to take effect on 7 August next year, followed by a two‑year transition period to wind down remaining operations. The decision reflects a shrinking fur market, a past Covid‑related outbreak in mink, and animal‑welfare concerns.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
-      "cat": "World",
-      "latestTitle": "Denmark to end mink farming by August 2029 after dropping EU exemption bid",
-      "latestSummary": "Denmark will cease mink farming by August 2029 after the government decided not to pursue an exemption to the EU‑wide ban on the practice. The ban is scheduled to take effect on 7 August next year, followed by a two‑year transition period to wind down remaining operations. The decision reflects a shrinking fur market, a past Covid‑related outbreak in mink, and animal‑welfare concerns.",
-      "why": "The policy ends Denmark’s mink‑fur sector, which had been the world’s largest producer, impacting animal welfare and related economic activity.",
-      "url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss"
     },
     "22281187a6132a": {
       "id": "22281187a6132a",
@@ -1897,31 +1813,6 @@
       "latestSummary": "A shooter opened fire from his car in the Paris suburbs of Trappes and nearby La Verrière, killing one person and wounding five others. French President Emmanuel Macron described the incident as a “racist terrorist attack” and said it was the first random racial killing in the Republic. The attacker was arrested and prosecutors said the case appears to be murder linked to a terrorist enterprise.",
       "why": "It underscores concerns about racially motivated terrorism in France and may influence security policy.",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
-    },
-    "1efe0dc5d3f80e": {
-      "id": "1efe0dc5d3f80e",
-      "firstSeen": "2026-10-23T19:08:33+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-24T01:37:10.158040+00:00",
-          "title": "Tata Motors CV posts Rs 2,138 crore Q2 profit",
-          "summary": "Tata Motors Ltd achieved a standalone net profit of ₹2,138 crore for the September quarter, reversing last year's loss. Consolidated profit also increased to ₹1,257 crore, aided by a drop in mark-to-market losses.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-24T01:37:10.158040+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Tata Motors CV posts Rs 2,138 crore Q2 profit",
-      "latestSummary": "Tata Motors Ltd achieved a standalone net profit of ₹2,138 crore for the September quarter, reversing last year's loss. Consolidated profit also increased to ₹1,257 crore, aided by a drop in mark-to-market losses.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-posts-rs-2138-crore-q2-profit/articleshow/135154453.cms"
     },
     "5f82c6b6a27a2d": {
       "id": "5f82c6b6a27a2d",
@@ -4870,9 +4761,22 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-31T05:47:21.241159+00:00",
+          "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
+          "summary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
+          "importanceScore": 9.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-30T23:50:21.377005+00:00",
+      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
       "cat": "India",
       "latestTitle": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
       "latestSummary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
@@ -4933,14 +4837,27 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-31T05:47:21.241159+00:00",
+          "title": "Hundreds Evacuated from Russian‑Occupied Oleshky During Humanitarian Ceasefire",
+          "summary": "On Friday, hundreds of residents of Oleshky, a city under Russian occupation, were evacuated during a four‑hour humanitarian ceasefire that the BBC reports was brokered by U.S. First Lady Melania Trump. The evacuation took place despite ongoing shortages of electricity and water, and some residents chose to remain in the city.",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-30T23:50:21.377005+00:00",
+      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
       "cat": "World",
-      "latestTitle": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-      "latestSummary": "Hundreds of residents of the devastated Russian-occupied city of Oleshky have been evacuated, Russian and Ukrainian authorities have said, following a humanitarian ceasefire brokered by US First Lady Melania Trump. Ukrainian authorities confirmed the evacuees were on their way to southern Russia, from where they will travel on to Ukraine through Belarus.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+      "latestTitle": "Hundreds Evacuated from Russian‑Occupied Oleshky During Humanitarian Ceasefire",
+      "latestSummary": "On Friday, hundreds of residents of Oleshky, a city under Russian occupation, were evacuated during a four‑hour humanitarian ceasefire that the BBC reports was brokered by U.S. First Lady Melania Trump. The evacuation took place despite ongoing shortages of electricity and water, and some residents chose to remain in the city.",
+      "why": "The evacuation underscores the severe humanitarian challenges in occupied zones and demonstrates how ceasefire agreements can create brief windows for civilian safety.",
+      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss"
     },
     "61ff37d6f2d42e": {
       "id": "61ff37d6f2d42e",
@@ -4971,13 +4888,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-31T05:47:21.241159+00:00",
+          "title": "Spain transport minister says he will not resign after high‑speed rail crash",
+          "summary": "Spain's transport minister Óscar Puente told a Madrid news conference that he will not resign following the high‑speed rail collision that killed at least 69 people. He said he has “nothing to hide” and that his priority is to resolve the problem rather than discuss his position. He acknowledged ongoing calls for his resignation from political opponents, a trade union and protesters who demonstrated outside the ministry.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-30T23:50:21.377005+00:00",
+      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
       "cat": "World",
-      "latestTitle": "Spain transport minister says he will not resign after high‑speed rail collision",
-      "latestSummary": "Spain’s transport minister Óscar Puente told a news conference in Madrid that he will not resign following the high‑speed rail collision that has killed at least 69 people. He said he has “nothing to hide” and emphasized the government’s commitment to investigate the disaster fully. Puente added that his priority is to resolve the problem rather than discuss his position.",
-      "why": "The statement signals continuity in leadership while the investigation proceeds, affecting public confidence and the rail safety response.",
+      "latestTitle": "Spain transport minister says he will not resign after high‑speed rail crash",
+      "latestSummary": "Spain's transport minister Óscar Puente told a Madrid news conference that he will not resign following the high‑speed rail collision that killed at least 69 people. He said he has “nothing to hide” and that his priority is to resolve the problem rather than discuss his position. He acknowledged ongoing calls for his resignation from political opponents, a trade union and protesters who demonstrated outside the ministry.",
+      "why": "It indicates how the government is handling political accountability while addressing the emergency response to a major transport disaster.",
       "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss"
     },
     "e05697a7bed6d2": {
@@ -5009,9 +4939,22 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-10-31T05:47:21.241159+00:00",
+          "title": "India's services trade surplus rises to $53.39 billion in Q2",
+          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-30T23:50:21.377005+00:00",
+      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
       "cat": "India",
       "latestTitle": "India's services trade surplus rises to $53.39 billion in Q2",
       "latestSummary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
@@ -5047,12 +4990,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-10-31T05:47:21.241159+00:00",
+          "title": "RBI discusses economic risks at 625th Central Board meeting",
+          "summary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra, during which board members deliberated a range of economic risks facing the country. The Economic Times reported that the discussion centered on assessing macro‑economic challenges that could impact financial stability and credit conditions.",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-10-30T23:50:21.377005+00:00",
+      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
       "cat": "India",
-      "latestTitle": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
-      "latestSummary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
+      "latestTitle": "RBI discusses economic risks at 625th Central Board meeting",
+      "latestSummary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra, during which board members deliberated a range of economic risks facing the country. The Economic Times reported that the discussion centered on assessing macro‑economic challenges that could impact financial stability and credit conditions.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms"
     },
@@ -5155,7 +5111,82 @@
       "latestSummary": "Intel shares plunged 30% after the chipmaker issued a weak fourth-quarter revenue forecast and warned of negative cash flow for the year. The warning triggered a global semiconductor selloff, with Nvidia, AMD and other chip stocks declining as weak PC demand and rising AI infrastructure costs weighed on sentiment.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/intel-plunges-25-as-weak-pc-demand-and-ai-costs-trigger-global-chip-selloff/articleshow/135371230.cms"
+    },
+    "ff21767ceb6fa6": {
+      "id": "ff21767ceb6fa6",
+      "firstSeen": "2026-10-31T05:44:21+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-31T05:47:21.241159+00:00",
+          "title": "69 killed in high‑speed train crash in central Spain",
+          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and an embankment in central Spain. The crash follows a similar accident near Córdoba nine months earlier. Authorities have opened a formal investigation into the Toledo train disaster.",
+          "importanceScore": 13.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
+      "cat": "World",
+      "latestTitle": "69 killed in high‑speed train crash in central Spain",
+      "latestSummary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and an embankment in central Spain. The crash follows a similar accident near Córdoba nine months earlier. Authorities have opened a formal investigation into the Toledo train disaster.",
+      "why": "The disaster undermines public confidence in Spain’s rail system and comes weeks before a snap general election.",
+      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
+    },
+    "8b7ad34025a75c": {
+      "id": "8b7ad34025a75c",
+      "firstSeen": "2026-10-31T04:30:20+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-31T05:47:21.241159+00:00",
+          "title": "New India slips into red with 1,267 cr loss in Q2",
+          "summary": "New India Assurance Company has revealed a concerning net loss of ₹1,267 crore for the September quarter, sharply contrasting with last year's profit of ₹63 crore. Despite this, gross written premiums showed a modest increase of 5.14% year-on-year, totaling ₹11,083 crore.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "New India slips into red with 1,267 cr loss in Q2",
+      "latestSummary": "New India Assurance Company has revealed a concerning net loss of ₹1,267 crore for the September quarter, sharply contrasting with last year's profit of ₹63 crore. Despite this, gross written premiums showed a modest increase of 5.14% year-on-year, totaling ₹11,083 crore.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/new-india-slips-into-red-with-1267-cr-loss-in-q2/articleshow/135387922.cms"
+    },
+    "7b93b2a29bc35c": {
+      "id": "7b93b2a29bc35c",
+      "firstSeen": "2026-10-31T01:20:05+00:00",
+      "snapshots": [
+        {
+          "at": "2026-10-31T05:47:21.241159+00:00",
+          "title": "Nvidia in talks to co‑sign debt for Nscale’s West Virginia AI data center",
+          "summary": "Nvidia is discussing a residual‑value guarantee that would co‑sign billions of dollars in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia. Under the proposal, Nvidia would step in if Nscale defaults on construction payments, temporarily take over the facility and help find a buyer or new tenant. Anthropic has signed a $44.6 billion contract for the first 460‑MW building, and a second deal of roughly $45 billion is also being discussed.",
+          "importanceScore": 10.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
+      "cat": "AI",
+      "latestTitle": "Nvidia in talks to co‑sign debt for Nscale’s West Virginia AI data center",
+      "latestSummary": "Nvidia is discussing a residual‑value guarantee that would co‑sign billions of dollars in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia. Under the proposal, Nvidia would step in if Nscale defaults on construction payments, temporarily take over the facility and help find a buyer or new tenant. Anthropic has signed a $44.6 billion contract for the first 460‑MW building, and a second deal of roughly $45 billion is also being discussed.",
+      "why": "It indicates Nvidia’s willingness to directly back AI infrastructure financing amid growing investor concerns about the cost of AI data‑center expansion.",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
     }
   },
-  "updated": "2026-10-30T23:50:21.377005+00:00"
+  "updated": "2026-10-31T05:47:21.241159+00:00"
 }
