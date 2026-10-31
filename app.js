@@ -2,7 +2,6 @@ const MAX_AGE_MS = 24 * 60 * 60 * 1000;
 
 const PAGE_WORLD = "world";
 const PAGE_MARKETS = "markets";
-const PAGE_MOVES = "moves";
 
 let state = {
   stories: [],
@@ -10,11 +9,7 @@ let state = {
   worldFilter: "All",
   updated: null,
   engine: "",
-  editor: "",
-  moves: [],
-  investorQuery: "",
-  companyQuery: "",
-  canadaMoves: []
+  editor: ""
 };
 
 const pageConfig = {
@@ -25,10 +20,6 @@ const pageConfig = {
   [PAGE_MARKETS]: {
     title: "Markets",
     subtitle: "The Canadian and Indian market developments worth knowing."
-  },
-  [PAGE_MOVES]: {
-    title: "Moves",
-    subtitle: "Meaningful investor buying from official market disclosures."
   }
 };
 
@@ -80,9 +71,6 @@ function nav(){
       </button>
       <button class="nav-btn ${state.page === PAGE_MARKETS ? "active" : ""}" onclick="setPage('${PAGE_MARKETS}')">
         <span class="nav-icon">↗</span><span>Markets</span>
-      </button>
-      <button class="nav-btn ${state.page === PAGE_MOVES ? "active" : ""}" onclick="setPage('${PAGE_MOVES}')">
-        <span class="nav-icon">◎</span><span>Moves</span>
       </button>
     </nav>
   `;
@@ -179,88 +167,13 @@ function sectionBlock(category, icon, label){
   `;
 }
 
-function moveCard(move){
-  const qty = Number(move.netBuyQty || 0).toLocaleString("en-IN");
-  const price = Number(move.avgBuyPrice || 0).toLocaleString("en-IN");
-  const value = Number(move.netBuyValueCr || 0).toLocaleString("en-IN");
-  return `
-    <article class="card move-card">
-      <div class="accent-dot"></div>
-      <div class="move-kicker"><span class="move-signal">${escapeHTML(move.signal || "Net Purchase")}</span><span class="move-date">${escapeHTML(move.date || "")}</span></div>
-      <h2 class="card-title">${escapeHTML(move.company)} <span class="ticker">${escapeHTML(move.symbol)}</span></h2>
-      <p class="move-investor">${escapeHTML(move.investor)}</p>
-      <div class="move-grid">
-        <div><small>NET BOUGHT</small><strong>${qty}</strong></div>
-        <div><small>AVG BUY</small><strong>₹${price}</strong></div>
-        <div><small>APPROX VALUE</small><strong>₹${value} Cr</strong></div>
-      </div>
-      <div class="move-source">NSE Bulk Deals · net of same-day disclosed sells</div>
-    </article>
-  `;
-}
-
-function setInvestorFilter(value){ state.investorQuery = value || ""; render(); }
-function setCompanyFilter(value){ state.companyQuery = value || ""; render(); }
-function clearMoveFilters(){ state.investorQuery = ""; state.companyQuery = ""; render(); }
 function setWorldFilter(value){ state.worldFilter = WORLD_FILTERS.includes(value) ? value : "All"; render(); }
-
-function moveFilterOptions(field){
-  const all = [...state.moves, ...state.canadaMoves];
-  return [...new Set(all.map(move => String(move[field] || "").trim()).filter(Boolean))].sort((a,b) => a.localeCompare(b, undefined, {sensitivity:"base"}));
-}
-
-function canadaMoveCard(move){
-  const qty = Number(move.shares || 0).toLocaleString("en-CA");
-  const value = Number(move.valueCAD || 0).toLocaleString("en-CA", {style:"currency", currency:"CAD", maximumFractionDigits:0});
-  const date = move.transactionDate ? "Traded " + move.transactionDate : "Trade date not disclosed";
-  return `
-    <article class="card move-card">
-      <div class="accent-dot"></div>
-      <div class="move-kicker"><span class="move-signal">Verified acquisition</span><span class="move-date">${escapeHTML(move.disclosureDate)}</span></div>
-      <h2 class="card-title">${escapeHTML(move.company)} <span class="ticker">${escapeHTML(move.symbol)}</span></h2>
-      <p class="move-investor">${escapeHTML(move.investor)}</p>
-      <div class="move-grid">
-        <div><small>SHARES</small><strong>${qty}</strong></div>
-        <div><small>PRICE</small><strong>C${Number(move.priceCAD || 0).toFixed(4)}</strong></div>
-        <div><small>VALUE</small><strong>${value}</strong></div>
-      </div>
-      <div class="move-source">${escapeHTML(date)} · Disclosed ${escapeHTML(move.disclosureDate)} · <a href="${escapeHTML(move.sourceUrl)}" target="_blank" rel="noopener noreferrer">Source ↗</a></div>
-    </article>
-  `;
-}
-
-function movesView(){
-  const investor = state.investorQuery;
-  const company = state.companyQuery;
-  const matches = move => (!investor || move.investor === investor) && (!company || move.company === company);
-  const india = state.moves.filter(matches);
-  const canada = state.canadaMoves.filter(matches);
-  const investorOptions = moveFilterOptions("investor");
-  const companyOptions = moveFilterOptions("company");
-  return `
-    <section class="news-section">
-      <div class="moves-filters">
-        <label class="moves-filter"><span>Investor</span><select id="investor-filter" onchange="setInvestorFilter(this.value)" aria-label="Filter by investor"><option value="">All investors</option>${investorOptions.map(value => `<option value="${escapeHTML(value)}" ${value === investor ? "selected" : ""}>${escapeHTML(value)}</option>`).join("")}</select></label>
-        <label class="moves-filter"><span>Company</span><select id="company-filter" onchange="setCompanyFilter(this.value)" aria-label="Filter by company"><option value="">All companies</option>${companyOptions.map(value => `<option value="${escapeHTML(value)}" ${value === company ? "selected" : ""}>${escapeHTML(value)}</option>`).join("")}</select></label>
-      </div>
-      ${investor || company ? `<div class="filter-status">${india.length + canada.length} matching disclosed moves <button type="button" class="moves-reset" onclick="clearMoveFilters()">Clear filters ×</button></div>` : ""}
-      <div class="section-heading"><div class="section-name"><span class="section-icon">🇨🇦</span><span>Canada · Verified</span></div><span class="section-count">${canada.length}</span></div>
-      <div class="moves-note">Completed acquisitions checked against public announcements. Transaction and disclosure dates are different; this is not a live insider-trading feed.</div>
-      ${canada.length ? canada.map(canadaMoveCard).join("") : '<div class="empty-section">No matching verified Canadian acquisitions.</div>'}
-      <div class="section-heading" style="margin-top:25px"><div class="section-name"><span class="section-icon">🇮🇳</span><span>India · NSE Bulk Deals</span></div><span class="section-count">${india.length}</span></div>
-      <div class="moves-note">End-of-day net disclosed bulk purchases, not live brokerage positions.</div>
-      ${india.length ? (investor || company ? india : india.slice(0,30)).map(moveCard).join("") : '<div class="empty-section">No matching Indian investor purchases.</div>'}
-    </section>
-  `;
-}
 
 function render(){
   let html = header();
   html += `<main class="content">`;
 
-  if(state.page === PAGE_MOVES){
-    html += movesView();
-  } else if(state.page === PAGE_MARKETS){
+  if(state.page === PAGE_MARKETS){
     html += sectionBlock("Canadian Markets", "CA", "Canadian Markets");
     html += sectionBlock("Indian Markets", "IN", "Indian Markets");
   } else {
@@ -270,7 +183,7 @@ function render(){
   if(state.updated){
     const updatedText = new Date(state.updated).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"});
     const newsFooter = `Updated ${updatedText} · 24-hour rolling window${state.editor ? ` · ${escapeHTML(state.editor)}` : ""}`;
-    html += `<div class="fresh">${state.page === PAGE_MOVES ? "Official/disclosed transaction feeds; not live brokerage positions." : newsFooter}</div>`;
+    html += `<div class="fresh">${newsFooter}</div>`;
   }
 
   html += `</main>${nav()}`;
@@ -295,19 +208,6 @@ async function loadNews(){
     state.updated = data.updated || null;
     state.engine = data.engine || "";
     state.editor = data.editor || "";
-
-    try{
-      const caResponse = await fetch(`moves-canada-verified.json?t=${Date.now()}`, {cache:"no-store"});
-      if(caResponse.ok){ const caData = await caResponse.json(); state.canadaMoves = caData.records || []; }
-    }catch(error){ console.warn("Canada Moves unavailable", error); }
-
-    try{
-      const movesResponse = await fetch(`moves.json?t=${Date.now()}`, {cache:"no-store"});
-      if(movesResponse.ok){
-        const movesData = await movesResponse.json();
-        state.moves = (movesData.records || []).filter(move => !String(move.symbol || "").endsWith("-RE") && Number(move.netBuyValueINR || 0) >= 500000);
-      }
-    }catch(error){ console.warn("Moves unavailable", error); }
 
     state.stories = (data.stories || [])
       .filter(story => {

@@ -6,12 +6,6 @@ on:
     paths:
       - "app.js"
       - "trust-ui.js"
-      - "moves-v2.js"
-      - "moves-v3.js"
-      - "moves-v3.css"
-      - "moves-tracking.json"
-      - "scripts/build_moves_daily.py"
-      - "scripts/refresh_moves_prices.py"
       - "scripts/fetch_canada_disclosures.py"
       - "markets-v2.js"
       - "story-detail.js"
@@ -22,15 +16,12 @@ on:
       - "scripts/finalize_feed.py"
       - "scripts/refine_feed.py"
       - "scripts/update_history.py"
-      - "scripts/fetch_moves.py"
       - "scripts/build_market_intelligence.py"
-      - "moves-intelligence.json"
       - "market-intelligence.json"
       - "history.json"
       - "index.html"
       - "style.css"
       - "briefly-v2.css"
-      - "moves-v2.css"
       - "markets-v2.css"
       - "story-detail.css"
       - ".github/workflows/quality-check.yml"
@@ -48,8 +39,6 @@ jobs:
         run: |
           node --check app.js
           node --check trust-ui.js
-          node --check moves-v2.js
-          node --check moves-v3.js
           node --check markets-v2.js
           node --check story-detail.js
       - name: Check Python engines syntax
@@ -61,9 +50,6 @@ jobs:
           python -m py_compile scripts/finalize_feed.py
           python -m py_compile scripts/refine_feed.py
           python -m py_compile scripts/update_history.py
-          python -m py_compile scripts/fetch_moves.py
-          python -m py_compile scripts/build_moves_daily.py
-          python -m py_compile scripts/refresh_moves_prices.py
           python -m py_compile scripts/fetch_canada_disclosures.py
           python -m py_compile scripts/build_market_intelligence.py
       - name: Check event-memory contract
@@ -76,33 +62,6 @@ jobs:
           grep -q 'timelineFor' story-detail.js
           grep -q 'history.json' story-detail.js
           echo "Briefly event-memory, detail timeline and corroboration contracts present."
-      - name: Check Moves Intelligence contract
-        run: |
-          python - <<'PY'
-          import json
-          with open('moves-intelligence.json', encoding='utf-8') as f:
-              data=json.load(f)
-          assert data.get('engine') == 'Moves Intelligence v2'
-          assert data.get('filters') == ['Notable','Accumulating','Insider Buying','Selling']
-          for r in data.get('records', []):
-              assert r.get('market') in ('India','Canada')
-              assert r.get('direction') in ('BUY','SELL')
-              assert 0 <= int(r.get('moveScore',0)) <= 100
-              assert r.get('strength') in ('Exceptional','Strong','Worth watching','Low signal')
-              assert r.get('sourceUrl')
-          print('Moves Intelligence contract valid:', len(data.get('records', [])), 'records')
-          PY
-          grep -q 'Block Deal' scripts/fetch_moves.py
-          grep -q 'moves-history.json' scripts/fetch_moves.py
-          grep -q 'Insider Buying' moves-v2.js
-          grep -q 'whyNotable' moves-v2.js
-          python - <<'PY'
-          import json
-          tracking=json.load(open('moves-tracking.json',encoding='utf-8'))
-          manual=[r for r in tracking['tracks'] if r.get('manual')]
-          assert all(r.get('day') and r.get('sourceUrl') and r.get('symbol') for r in manual)
-          print('Historical Track Sheet contract valid:',len(manual))
-          PY
       - name: Check Markets Intelligence contract
         run: |
           python - <<'PY'
@@ -129,24 +88,15 @@ jobs:
           test -f index.html
           test -f style.css
           test -f briefly-v2.css
-          test -f moves-v2.css
           test -f markets-v2.css
           test -f story-detail.css
           test -f trust-ui.js
-          test -f moves-v2.js
-          test -f moves-v3.js
-          test -f moves-v3.css
           test -f markets-v2.js
           test -f story-detail.js
-          grep -q 'app.js?v=2' index.html
+          grep -q 'app.js?v=3' index.html
           grep -q 'trust-ui.js?v=1' index.html
           grep -q 'briefly-v2.css?v=1' index.html
-          grep -q 'moves-v2.js?v=1' index.html
-          grep -q 'moves-v3.js?v=3' index.html
-          grep -q 'moves-v3.css?v=3' index.html
-          grep -q 'moves-v2.css?v=1' index.html
           grep -q 'markets-v2.js?v=1' index.html
           grep -q 'markets-v2.css?v=1' index.html
           grep -q 'story-detail.js?v=1' index.html
           grep -q 'story-detail.css?v=1' index.html
-          echo "Briefly UI, event detail, Moves and Markets assets present and syntax-valid."
