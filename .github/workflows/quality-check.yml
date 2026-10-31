@@ -11,6 +11,7 @@ on:
       - "moves-v3.css"
       - "scripts/build_moves_daily.py"
       - "scripts/refresh_moves_prices.py"
+      - "scripts/fetch_canada_disclosures.py"
       - "markets-v2.js"
       - "story-detail.js"
       - "scripts/fetch_news.py"
@@ -62,6 +63,7 @@ jobs:
           python -m py_compile scripts/fetch_moves.py
           python -m py_compile scripts/build_moves_daily.py
           python -m py_compile scripts/refresh_moves_prices.py
+          python -m py_compile scripts/fetch_canada_disclosures.py
           python -m py_compile scripts/build_market_intelligence.py
       - name: Check event-memory contract
         run: |
