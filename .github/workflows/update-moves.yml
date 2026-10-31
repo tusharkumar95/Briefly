@@ -95,6 +95,7 @@ jobs:
           git reset --hard origin/main
           python scripts/test_canada_discovery.py
           python scripts/audit_canada_moves.py
+          python scripts/fetch_canada_disclosures.py
           python scripts/fetch_moves.py
           python scripts/build_moves_daily.py
           python scripts/refresh_moves_prices.py
