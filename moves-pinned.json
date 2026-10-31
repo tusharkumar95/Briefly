@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "description": "Explicitly saved older disclosed Moves, shown separately from the last-seven-days feed. Original dates must never be changed.",
+  "records": [
+    {
+      "date": "06-OCT-2026",
+      "symbol": "DPWIRES",
+      "company": "D P Wires Limited",
+      "investor": "AMITABH HARIVANSH RAI BACHCHAN",
+      "buyQty": 129000,
+      "sellQty": 60021,
+      "buyValue": 28841820,
+      "sellValue": 13658978.97,
+      "netBuyQty": 68979,
+      "avgBuyPrice": 223.58,
+      "netBuyValueINR": 15422324.82,
+      "netBuyValueCr": 1.54,
+      "source": "NSE Bulk Deals",
+      "sourceUrl": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+      "id": "a28884d207e40a21",
+      "observedBuyDays": 1,
+      "signal": "Net Purchase",
+      "market": "India",
+      "direction": "BUY",
+      "day": "2026-10-06",
+      "archived": true,
+      "pinReason": "Requested historical transaction. Purchased 129,000 shares and sold 60,021 on October 6, 2026; net purchase 68,979 shares.",
+      "sourceQuality": "NSE official bulk deal disclosure, corroborated by published deal records"
+    }
+  ]
+}
