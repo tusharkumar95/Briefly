@@ -1,22 +1,58 @@
 {
-  "updated": "2026-10-31T12:37:01.316326+00:00",
+  "updated": "2026-10-31T17:45:54.845192+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 80,
-    "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 15,
-    "enrichedCandidates": 79,
-    "readableCandidates": 58,
-    "eventClusters": 57,
-    "materialEvents": 23,
-    "selectedEvents": 10,
+    "rawCandidates": 72,
+    "nonNoiseCandidates": 72,
+    "officialOrPrimaryCandidates": 9,
+    "enrichedCandidates": 72,
+    "readableCandidates": 55,
+    "eventClusters": 53,
+    "materialEvents": 21,
+    "selectedEvents": 8,
     "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "be3dc9258aca67",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Over 5,000 deaths reported in DRC’s deadliest Ebola outbreak",
+      "publishedAt": "2026-10-31T15:16:20+00:00",
+      "importanceScore": 14.0,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+      "summary": "More than 5,000 people have died from the ongoing Ebola outbreak in the Democratic Republic of Congo, according to government data. The outbreak began in May and became the country’s deadliest in August, with a current case fatality rate of 48.6%. The epicenter remains in the conflict‑affected Ituri province, complicating response efforts.",
+      "why": "The high death toll and difficulty accessing the conflict zone increase regional health risks and strain international containment resources.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-31T15:16:20+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-31T15:16:20+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-31T17:45:54.845192+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "ff21767ceb6fa6",
       "cat": "World",
@@ -24,14 +60,14 @@
       "categories": [
         "World"
       ],
-      "title": "69 killed in high‑speed rail collision south of Madrid",
+      "title": "69 dead after high‑speed train collision south of Madrid",
       "publishedAt": "2026-10-31T05:44:21+00:00",
-      "importanceScore": 12.9,
+      "importanceScore": 11.9,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-      "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage on the tracks and an embankment in central Spain. The disaster follows a crash near Córdoba nine months earlier that killed 46 people. A formal investigation into the Toledo crash has just been opened, and the incident occurs weeks before a snap general election called by Prime Minister Pedro Sánchez.",
-      "why": "The tragedy threatens confidence in Spain’s rail system and may influence voter sentiment ahead of the upcoming election.",
+      "summary": "A collision on the high‑speed rail line south of Madrid left 69 bodies recovered from wreckage strewn across the tracks and down an embankment in central Spain. The disaster comes weeks before a snap general election called by Prime Minister Pedro Sánchez, adding pressure to his government.",
+      "why": "The incident could erode public confidence in the rail network and influence voter sentiment ahead of the election.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -44,48 +80,48 @@
       ],
       "firstSeen": "2026-10-31T05:44:21+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-31T12:37:01.316326+00:00",
+      "lastChecked": "2026-10-31T17:45:54.845192+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "69 killed in high‑speed train crash in central Spain",
-      "previousSummary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and an embankment in central Spain. The crash follows a similar accident near Córdoba nine months earlier. Authorities have opened a formal investigation into the Toledo train disaster.",
+      "previousTitle": "69 killed in high‑speed rail collision south of Madrid",
+      "previousSummary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage on the tracks and an embankment in central Spain. The disaster follows a crash near Córdoba nine months earlier that killed 46 people. A formal investigation into the Toledo crash has just been opened, and the incident occurs weeks before a snap general election called by Prime Minister Pedro Sánchez.",
       "previousPublishedAt": "2026-10-31T05:44:21+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.9,
+      "previousImportanceScore": 12.9,
       "changed": true,
       "change": "Material facts or figures changed since the previous brief.",
       "lifecycle": "Updated"
     },
     {
-      "id": "078f7d93f6d98a",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "7d04a34afdde14",
+      "cat": "Canada",
+      "icon": "🇨🇦",
       "categories": [
-        "Indian Markets"
+        "Canada"
       ],
-      "title": "Dalal Street Weak Ahead: Nifty stands on firmer footing, but can it break past 23,450?",
-      "publishedAt": "2026-10-31T11:05:04+00:00",
-      "importanceScore": 12.0,
+      "title": "Suspect wanted in violent home invasion was also shot: Toronto police",
+      "publishedAt": "2026-10-31T14:41:32+00:00",
+      "importanceScore": 11.7,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms",
-      "summary": "The Nifty gained 2% last week, recovering above the crucial 200-week moving average at 22,700. Analysts identify 23,300–23,450 as immediate resistance and 22,750–22,525 as key support for the coming week.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12128691/toronto-home-invasion-suspect/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms",
-          "publishedAt": "2026-10-31T11:05:04+00:00"
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12128691/toronto-home-invasion-suspect/",
+          "publishedAt": "2026-10-31T14:41:32+00:00"
         }
       ],
-      "firstSeen": "2026-10-31T11:05:04+00:00",
+      "firstSeen": "2026-10-31T14:41:32+00:00",
       "status": "New",
-      "lastChecked": "2026-10-31T12:37:01.316326+00:00",
+      "lastChecked": "2026-10-31T17:45:54.845192+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -95,45 +131,112 @@
       "lifecycle": "New"
     },
     {
-      "id": "e05697a7bed6d2",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "14ff192ac6d77c",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "India"
+        "Indian Markets"
       ],
-      "title": "India's services trade surplus rises to $53.39 billion in Q2",
-      "publishedAt": "2026-10-30T15:09:07+00:00",
-      "importanceScore": 11.1,
+      "title": "Indian Oil net profit triples YoY to 21,630 cr in Q2",
+      "publishedAt": "2026-10-31T04:11:43+00:00",
+      "importanceScore": 11.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms",
-      "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indian-oil-net-profit-triples-yoy-to-21630-cr-in-q2/articleshow/135387471.cms",
+      "summary": "Indian Oil experienced a remarkable surge in its net profit, which soared to ₹21,630 crore for the second quarter. Moreover, operational revenue increased by 29%, reaching ₹2,62,935 crore, with the firm's operating profit from petroleum product sales more than doubling.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms",
-          "publishedAt": "2026-10-30T15:09:07+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indian-oil-net-profit-triples-yoy-to-21630-cr-in-q2/articleshow/135387471.cms",
+          "publishedAt": "2026-10-31T04:11:43+00:00"
         }
       ],
-      "firstSeen": "2026-10-30T15:09:07+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-31T12:37:01.316326+00:00",
+      "firstSeen": "2026-10-31T04:11:43+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-31T17:45:54.845192+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "India's services trade surplus rises to $53.39 billion in Q2",
-      "previousSummary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-      "previousPublishedAt": "2026-10-30T15:09:07+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.1,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "8422707980f95e",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+      "publishedAt": "2026-10-30T23:19:17+00:00",
+      "importanceScore": 11.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Hundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. The BBC Ukraine correspondent Dan Johnson explains how the ceasefire is going and what could happen next.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-30T23:19:17+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-30T23:19:17+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-31T17:45:54.845192+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "71b0a5f378d8a3",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Concurrent Gainers: 8 stocks that gain for 5 days in a row",
+      "publishedAt": "2026-10-31T07:00:17+00:00",
+      "importanceScore": 11.1,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-that-gain-for-5-days-in-a-row/slideshow/135392399.cms",
+      "summary": "Amid the broader market rally, around 18 stocks from the BSE 500 index rose in each of the five consecutive trading sessions between October 26 and 30. Of these, we identified eight stocks that gained on all five days, delivering cumulative returns ranging from 10% to 21% during the period.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-that-gain-for-5-days-in-a-row/slideshow/135392399.cms",
+          "publishedAt": "2026-10-31T07:00:17+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-31T07:00:17+00:00",
+      "status": "New",
+      "lastChecked": "2026-10-31T17:45:54.845192+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
       "id": "7b93b2a29bc35c",
@@ -142,17 +245,17 @@
       "categories": [
         "AI"
       ],
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "title": "Nvidia in talks to co‑sign debt for Nscale’s West Virginia AI data center",
       "publishedAt": "2026-10-31T01:20:05+00:00",
-      "importanceScore": 10.8,
+      "importanceScore": 9.8,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
+      "summary": "Nvidia is discussing a residual‑value guarantee that would back billions of dollars in debt financing for Nscale’s planned Anthropic data center in West Virginia. The arrangement would let Nscale secure funding for construction and electricity costs, with Nvidia stepping in if Nscale defaults, temporarily taking control of the facility and helping find a buyer or new tenant. Anthropic has a $44.6 billion contract for the first 460‑MW building, and a second deal of roughly $45 billion is being discussed.",
+      "why": "It illustrates Nvidia expanding its role from chip sales to directly underwriting AI‑infrastructure projects as investors grow wary of large‑scale build‑out spending.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -162,149 +265,36 @@
       ],
       "firstSeen": "2026-10-31T01:20:05+00:00",
       "status": "Updated",
-      "lastChecked": "2026-10-31T12:37:01.316326+00:00",
+      "lastChecked": "2026-10-31T17:45:54.845192+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Nvidia in talks to co‑sign debt for Nscale’s West Virginia AI data center",
-      "previousSummary": "Nvidia is discussing a residual‑value guarantee that would co‑sign billions of dollars in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia. Under the proposal, Nvidia would step in if Nscale defaults on construction payments, temporarily take over the facility and help find a buyer or new tenant. Anthropic has signed a $44.6 billion contract for the first 460‑MW building, and a second deal of roughly $45 billion is also being discussed.",
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "previousSummary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
       "previousPublishedAt": "2026-10-31T01:20:05+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 10.8,
       "changed": true,
       "change": "Material facts or figures changed since the previous brief.",
       "lifecycle": "Updated"
-    },
-    {
-      "id": "35ef422b48eb48",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Violent Toronto home invasion was ‘terrifying,’ real estate CEO says as police seek suspects",
-      "publishedAt": "2026-10-31T01:46:14+00:00",
-      "importanceScore": 10.7,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12128478/violent-toronto-home-invasion-terrifying-ceo-family/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12128478/violent-toronto-home-invasion-terrifying-ceo-family/",
-          "publishedAt": "2026-10-31T01:46:14+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-31T01:46:14+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-31T12:37:01.316326+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "32868080ca4f59",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
-      "publishedAt": "2026-10-30T15:13:38+00:00",
-      "importanceScore": 10.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms",
-      "summary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms",
-          "publishedAt": "2026-10-30T15:13:38+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-30T15:13:38+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-10-31T12:37:01.316326+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "RBI discusses economic risks at 625th Central Board meeting",
-      "previousSummary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra, during which board members deliberated a range of economic risks facing the country. The Economic Times reported that the discussion centered on assessing macro‑economic challenges that could impact financial stability and credit conditions.",
-      "previousPublishedAt": "2026-10-30T15:13:38+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "1e4eed6fc7433f",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
-      "publishedAt": "2026-10-30T13:30:14+00:00",
-      "importanceScore": 9.6,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-ftas-to-open-access-to-85-trillion-market-piyush-goyal-urges-exporters-to-go-global/articleshow/135363629.cms",
-      "summary": "India's trade agreements are expected to provide exporters preferential access to markets with a combined GDP of $85 trillion, covering 76% of the global economy, Commerce Minister Piyush Goyal said. Piyush Goyal said India's expanding network of trade agreements will open access to an $85 trillion global market, urging domestic exporters to move beyond the home market and build global brands.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-ftas-to-open-access-to-85-trillion-market-piyush-goyal-urges-exporters-to-go-global/articleshow/135363629.cms",
-          "publishedAt": "2026-10-30T13:30:14+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-30T13:30:14+00:00",
-      "status": "New",
-      "lastChecked": "2026-10-31T12:37:01.316326+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 1,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-10-31T05:47:21.241159+00:00",
+  "previousUpdated": "2026-10-31T12:37:01.316326+00:00",
   "changeSummary": {
-    "new": 3,
+    "new": 5,
     "updated": 2,
-    "continuing": 2
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-28T16:39:46.025347+00:00",
-    "updated": "2026-10-31T12:37:01.316326+00:00",
+    "availableFrom": "2026-10-28T21:40:27.456192+00:00",
+    "updated": "2026-10-31T17:45:54.845192+00:00",
     "snapshotCount": 13,
-    "eventCount": 89,
+    "eventCount": 91,
     "retentionHours": 72
   }
 }
