@@ -104,6 +104,7 @@ def create():
     intelligence = read("moves-intelligence.json", {}).get("records", [])
     verified = read("moves-canada-verified.json", {}).get("records", [])
     sedi = read("moves-canada-sedi.json", {}).get("records", [])
+    automated = read("moves-canada-auto.json", {}).get("records", [])
     by_id = {}
     for raw in history:
         if raw.get("market") not in ("India", None):
@@ -122,10 +123,10 @@ def create():
 
     # Canada records are always verified, and are displayed by DISCLOSURE date.
     ca_by_id = {}
-    for raw in [*verified, *sedi]:
+    for raw in [*automated, *verified, *sedi]:
         row = normalized_canada(raw)
         if row.get("company") and row.get("sourceUrl") and row.get("day"):
-            key = str(row.get("id") or (row["day"], row["company"], row.get("investor")))
+            key = str(row.get("sourceUrl") or row.get("id") or (row["day"], row["company"], row.get("investor")))
             ca_by_id[key] = row
     canada = sorted(ca_by_id.values(), key=lambda r: r["day"], reverse=True)
     leads = canadian_leads()
@@ -170,6 +171,8 @@ def create():
             "disclosedAvgPrice": round(sum(float(r.get("avgPrice") or r.get("priceCAD") or 0) for r in records) / len(records), 4),
             "source": "Verified exchange/public disclosures", "status": "Multiple buyers disclosed; not an investment recommendation"
         }
+        if market == "Canada":
+            alert["exchange"] = next((r.get("exchange") for r in records if r.get("exchange")), None)
         alerts.append(alert)
         if event_id not in tracks:
             tracks[event_id] = {
