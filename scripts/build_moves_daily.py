@@ -186,8 +186,16 @@ def create():
     existing["tracks"] = saved[:1000]
     write("moves-tracking.json", existing)
 
+    # Separately saved historical records remain visible without altering the
+    # seven-day date selector or triggering a fresh multi-buyer alert.
+    pinned = read("moves-pinned.json", {"records": []}).get("records", [])
+    if not isinstance(pinned, list):
+        raise ValueError("Invalid saved Moves archive")
+    pinned = [r for r in pinned if r.get("verified") is not False and r.get("sourceUrl") and r.get("day")]
+
     daily = {
         "schema": 1, "updated": NOW,
+        "pinned": pinned,
         "retentionDays": DAYS,
         "dates": dates,
         "days": [{
