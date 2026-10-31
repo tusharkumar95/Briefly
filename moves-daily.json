@@ -1,6 +1,33 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T01:34:48.302989+00:00",
+  "updated": "2026-10-31T02:10:24.516799+00:00",
+  "pinned": [
+    {
+      "date": "06-OCT-2026",
+      "symbol": "DPWIRES",
+      "company": "D P Wires Limited",
+      "investor": "AMITABH HARIVANSH RAI BACHCHAN",
+      "buyQty": 129000,
+      "sellQty": 60021,
+      "buyValue": 28841820,
+      "sellValue": 13658978.97,
+      "netBuyQty": 68979,
+      "avgBuyPrice": 223.58,
+      "netBuyValueINR": 15422324.82,
+      "netBuyValueCr": 1.54,
+      "source": "NSE Bulk Deals",
+      "sourceUrl": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+      "id": "a28884d207e40a21",
+      "observedBuyDays": 1,
+      "signal": "Net Purchase",
+      "market": "India",
+      "direction": "BUY",
+      "day": "2026-10-06",
+      "archived": true,
+      "pinReason": "Requested historical transaction. Purchased 129,000 shares and sold 60,021 on October 6, 2026; net purchase 68,979 shares.",
+      "sourceQuality": "NSE official bulk deal disclosure, corroborated by published deal records"
+    }
+  ],
   "retentionDays": 7,
   "dates": [
     "2026-10-30",
@@ -2487,7 +2514,7 @@
           "day": "2026-10-29",
           "headline": "Early Warning Press Release - Yahoo! Finance Canada",
           "source": "Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWTdEVl93QVhpQU1WNG9qTGMxaFpxWEl2RTRVYVZlU09fUnJHNnFzMloyY0Vub1FEYVpuZkUxcGkwQ2tTV2J0REFUcGhQd2lCeWl5WnFJTVZwblFTWUZZcDJ6N21WN3pTVjRGRGJmNjNiem9WYVByUGNMM0RPUC01aXB3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVlVFUS11d1hpMHc1cGlPLXNfc2t2ZlFzTDJQb0ZPRkpQY1AxTklTWFA2dXR1bXNOYy1sdmtLNXR0ZEh5N0FwckY4Y1pJNTE2OGNta0FoLThmek8tc01ncC0xYjZNMVE3eFQ1d19vYlFqRG5ybEw2bElnckZaSEJ3cy1n?oc=5",
           "verification": "Unverified — open original filing before acting"
         },
         {
@@ -6926,7 +6953,7 @@
   "sourceInfo": {
     "india": "NSE bulk/block disclosed transaction activity",
     "canada": "Verified Canadian deals and separately labeled unverified disclosure leads",
-    "canadaDiscoveryUpdated": "2026-10-31T01:34:46.452177+00:00",
+    "canadaDiscoveryUpdated": "2026-10-31T02:10:23.816077+00:00",
     "lastSevenDays": "Includes disclosure days in the previous seven calendar days, not just the current refresh"
   }
 }
