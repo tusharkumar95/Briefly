@@ -13,6 +13,7 @@ on:
       - "scripts/fetch_moves.py"
       - "scripts/build_moves_daily.py"
       - "scripts/refresh_moves_prices.py"
+      - "scripts/fetch_canada_disclosures.py"
       - "moves-canada-verified.json"
       - "moves-canada-sedi.json"
       - ".github/workflows/update-moves.yml"
@@ -36,11 +37,12 @@ jobs:
       - name: Install daily price reader
         run: python -m pip install --quiet "yfinance>=0.2.50,<2"
       - name: Check scripts
-        run: python -m py_compile scripts/fetch_moves.py scripts/build_moves_daily.py scripts/refresh_moves_prices.py scripts/test_canada_discovery.py scripts/audit_canada_moves.py
+        run: python -m py_compile scripts/fetch_moves.py scripts/build_moves_daily.py scripts/refresh_moves_prices.py scripts/fetch_canada_disclosures.py scripts/test_canada_discovery.py scripts/audit_canada_moves.py
       - name: Build Moves, Canadian discovery and tracked closes
         run: |
           python scripts/test_canada_discovery.py
           python scripts/audit_canada_moves.py
+          python scripts/fetch_canada_disclosures.py
           python scripts/fetch_moves.py
           python scripts/build_moves_daily.py
           python scripts/refresh_moves_prices.py
@@ -62,6 +64,9 @@ jobs:
           assert all(a['buyers']>=2 and len(set(a['investors']))>=2 for a in daily['alerts'])
           assert all(r.get('verification','').startswith('Unverified') for d in daily['days'] for r in d['canadaLeads'])
           assert isinstance(tracking['quotes'],dict)
+          canada_auto=json.load(open('moves-canada-auto.json',encoding='utf-8'))
+          assert isinstance(canada_auto.get('records'),list)
+          assert all(r.get('sourceUrl','').startswith('https://www.newswire.ca/') and r.get('transactionDate') and r.get('exchange') and r.get('priceCAD') for r in canada_auto['records'])
           print('Validated',len(daily['days']),'dates',len(daily['alerts']),'multi-buyer alerts',len(tracking['tracks']),'tracking cohorts')
           PY
       - name: Publish generated data with retry
@@ -72,7 +77,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           publish_once() {
-            git add moves.json moves-history.json moves-intelligence.json moves-daily.json moves-tracking.json moves-canada-discovery-test.json moves-canada-candidates.json moves-canada-audit.json
+            git add moves.json moves-history.json moves-intelligence.json moves-daily.json moves-tracking.json moves-canada-discovery-test.json moves-canada-candidates.json moves-canada-audit.json moves-canada-auto.json
             if git diff --cached --quiet; then
               echo "Moves data already current."
               return 0
@@ -91,7 +96,7 @@ jobs:
           python scripts/fetch_moves.py
           python scripts/build_moves_daily.py
           python scripts/refresh_moves_prices.py
-          git add moves.json moves-history.json moves-intelligence.json moves-daily.json moves-tracking.json moves-canada-discovery-test.json moves-canada-candidates.json moves-canada-audit.json
+          git add moves.json moves-history.json moves-intelligence.json moves-daily.json moves-tracking.json moves-canada-discovery-test.json moves-canada-candidates.json moves-canada-audit.json moves-canada-auto.json
           git diff --cached --quiet && exit 0
           git commit -m "Update Moves Intelligence and daily tracking"
           git push origin HEAD:main
