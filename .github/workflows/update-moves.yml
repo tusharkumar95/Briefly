@@ -17,7 +17,7 @@ on:
       - "scripts/refresh_moves_prices.py"
       - "scripts/fetch_canada_disclosures.py"
       - "moves-canada-verified.json"
-      - "moves-pinned.json"
+      - "moves-tracking.json"
       - "moves-canada-sedi.json"
       - ".github/workflows/update-moves.yml"
 
@@ -67,10 +67,9 @@ jobs:
           assert all(a['buyers']>=2 and len(set(a['investors']))>=2 for a in daily['alerts'])
           assert all(r.get('verification','').startswith('Unverified') for d in daily['days'] for r in d['canadaLeads'])
           assert isinstance(tracking['quotes'],dict)
-          pinned=json.load(open('moves-pinned.json',encoding='utf-8'))['records']
-          assert all(r.get('day') and r.get('sourceUrl') for r in pinned)
-          assert all(r in daily['pinned'] for r in pinned)
-          assert all(r.get('day') not in daily['dates'] or r.get('archived') for r in pinned)
+          manual=[r for r in tracking['tracks'] if r.get('manual')]
+          assert all(r.get('id') and r.get('day') and r.get('market') and r.get('symbol') for r in manual)
+          assert all(r['id'] not in {a['id'] for a in daily['alerts']} for r in manual)
           canada_auto=json.load(open('moves-canada-auto.json',encoding='utf-8'))
           assert isinstance(canada_auto.get('records'),list)
           assert all(r.get('sourceUrl','').startswith('https://www.newswire.ca/') and r.get('transactionDate') and r.get('exchange') and r.get('priceCAD') for r in canada_auto['records'])
