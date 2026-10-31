@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-31T09:57:22.735960+00:00",
+  "updated": "2026-10-31T15:52:45.952396+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls 1.74% as gold slides and tech stocks tumble amid AI spending worries",
+      "headline": "S&P/TSX Composite fell 1.74%",
       "direction": "down",
       "move": "S&P/TSX Composite -1.74%",
-      "why": "The decline was explicitly linked to a slide in gold prices, fears that AI spending would slow, a sell‑off in technology stocks, and weakness in base‑metal commodities; slower Canadian growth was also noted as a backdrop.",
+      "why": "Same-day market coverage explicitly linked the final move to: gold slides; AI spending fears rattle tech stocks, Canadian growth slows; tech stock selloff on both sides of the border.",
       "drivers": [
         {
           "label": "gold slides",
@@ -31,12 +31,8 @@
           "kind": "driver"
         }
       ],
-      "sectors": [
-        "Technology",
-        "Materials",
-        "Precious Metals"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -47,7 +43,7 @@
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-30T20:20:00+00:00",
+        "asOf": "2026-10-30T20:20:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
@@ -93,11 +89,16 @@
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.51%",
+      "headline": "Indian markets rise modestly as IT and pharma stocks lead, supported by foreign inflows and falling oil prices",
       "direction": "up",
       "move": "Nifty 50 +0.51%",
-      "why": "Same-day market coverage explicitly linked the final move to: foreign investors return; Oil Prices Surge; broader markets crash. Will D-Street bulls extend reco.",
+      "why": "IT stocks defied the global tech rout and led the Sensex rise; pharma stocks helped the recovery; foreign investors returned to the market; falling oil prices lifted Indian stocks",
       "drivers": [
+        {
+          "label": "IT Stocks Defy the Global Tech Rout",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "foreign investors return",
           "detail": "The Assam Tribune explicitly links the same-direction market move to this factor in its market headline.",
@@ -109,18 +110,17 @@
           "kind": "driver"
         },
         {
-          "label": "broader markets crash. Will D-Street bulls extend reco",
-          "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "IT and Pharma Lead, Trent Surges 5% on 25% Q2 Profit Growth, IndiGo Narrows Loss",
-          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "IT and Pharma Stocks Lead Recovery",
+          "detail": "The Indian Awaaz explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "medium",
+      "sectors": [
+        "Information Technology",
+        "Pharmaceuticals",
+        "Energy (Oil)"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -149,6 +149,12 @@
       },
       "sources": [
         {
+          "name": "BBN Times",
+          "title": "BSE SENSEX Rises to 74,459.53 as IT Stocks Defy the Global Tech Rout - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMnFmRldDMzd3TnpFc0hrV1lTT1Z6VWJiMWtiTVE3LWwwcl9FX1NaT0l0dkw4Y0V0bVdRN2xCWDVHM29HS3pFbnZ4ZU5YYW5YRFBadU1VVV9URmJLZFZ0RGtYdUUwVGhqdlZLOHM0c2tjMnNERTlDMnRSN2Ztbk5rWm9fSTlaeXQ0VVh1VGpsaHVENGFNd0ZMVXZyaG4wNUROMnJTOGVISWxiMXRn?oc=5",
+          "publishedAt": "2026-10-31T10:51:29+00:00"
+        },
+        {
           "name": "INDIA New England News",
           "title": "Sensex Falls 460 Points, Nifty Drops Below 22,700 as Rising Oil Prices Extend Market Losing Streak - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcXo4aFJjeUlWVTFzLWRmUnRMMWtxYUpUakdiUTZ2YTZPWGY3U0pGV1QzTG9qTTQtUF9TOGgyUGhtSmFySUNsd3A5RUJ6UF9ZOFFCWGVWQXpoZzdlT1VUOEo4ZVJVT1huVkZqS1VtTFB6OFV5bG5SN0d6WVY1M1NSdThLT3V3eVpnV0p0TGFDRXgyZTUwYkdmYzB6djJyVEllLTNWMzlvOW5XMS1UVDFZaks4Z0dwMXNFNFEzMUQ1TzNNN3M?oc=5",
@@ -168,21 +174,15 @@
         },
         {
           "name": "The Economic Times",
-          "title": "Sensex rises 308 points, Nifty above 23,000 even as broader markets crash. Will D-Street bulls extend reco - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQNmJGVmctZ1g5cDJKR0JQZ3doOTBWZXA5eTBMUDFPUHI2UVZEcmlybG1TWGVIb1RLUkcwbVh1QWpTSDVWcWhQM2hDT3EtbTdSRjYwdjBwS3JDdnY2WDNUb0tSUkd2dkNCeTJRc0Mwc0lLeTdTei1KZVp5WmZiYjVyUVYxYWpYY2drU1dpcUx2LUpsWGNzZ244RDJYYjB4VmJ1Wkp6X1F3T0NXVncxX2RITG1tZUFEZTRTVUhYMXFDYjZmUFlSLXdQZ3NNTUhJalZ5YnJmbUNyVS1xdXAyWkhHQzhlUVlKX21xMUNyVDdPbW5yNDRyOHRXQi04UGo4ZGZjOEhnWnUwLXNkMkt3UVUwOFRCQmhoYjB6aWR30gGgAkFVX3lxTE55RHpQVXVLRUxDYkNVYmFlZ2FlbU9vdnZVNTBvUXhZSFJBaHpKOXJ6dnE1aVpGSXlZeGdGaUtmMGN5TVdHX21JYkhuVXgyWmE5eW9UcEhMdmg0cGlJaGFRdEttaktQTlphMEs3Vml4cW1MMXY1eTU5S1dtbDRfRXREd2hmM3FRMGdBMVFjUmpqSlJZMUtOVjUzbTdaVTVUT3I1NDE5cWljc0NGaHFnZ1RVM0RWQUxBU0swOE1Ydk1HVDlvRU9GM0htOVdxeWZRRXRNWjVRbF96MVVZQzBsX2JfNlNLTDlaYk5HWm9fS2xQeExiWFNBMmh5UHlBdGUwYlozX0ZCU2ZxUzBjcmNQUG5PSzdkQW91cEppOWNsM1ZIWQ?oc=5",
-          "publishedAt": "2026-10-30T10:35:37+00:00"
+          "title": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5",
+          "publishedAt": "2026-10-30T20:53:27+00:00"
         },
         {
-          "name": "INDIA New England News",
-          "title": "Sensex, Nifty Fall for Third Straight Session as Oil Prices Rise - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV2hiaEl5eXFHREs5aW1QMklVdlBnbjVMY0RhUXZFVmtFQVBhQi14NFNGYVd6cTlXUXM4clpaY3k4MzFSNzlUalA4ejdPV0ZHX1pUX0FoX2gzcTd6QWZvRnlhUTlhWGFzUVJGbzJZSVlaVzllczJ4MzdaX1haeEJpX3lCQmxuMG0wamlCYWt5TGQzNzlHb2xV?oc=5",
-          "publishedAt": "2026-10-30T13:34:44+00:00"
-        },
-        {
-          "name": "India Infoline",
-          "title": "Closing Bell: Nifty Reclaims 23,000 as IT and Pharma Lead, Trent Surges 5% on 25% Q2 Profit Growth, IndiGo Narrows Loss - India Infoline",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVkppM2V0QjNjZHIwQ1V5bXpyNFVMcGZ3Y0JlN0w2VE1lSG40dEEtc2pHV3V2Rm1XWUFmODF3SllBLXludmd6bWh6N2xiWWpTLXNKUlI4MWoxVlFyN3daXzJRWjNYLXNKMzFyMVdpQnVydE1tNkZrZEthd0lkc3M4OEpIQnZ0S3NLS3hJaWRnclJCUmpiMU4tai1QMmFBQ1RSSU5xb1pnWFVtb1RKQUZjUDZHMF80T3AwVUZhUVIyWEEyZjJqcHc1N3ZrVXVjQUZuNlBTZkd4VHhITnlVTHN5TUF0RHJfZ3Z2OUFaaQ?oc=5",
-          "publishedAt": "2026-10-30T12:30:52+00:00"
+          "name": "The Indian Awaaz",
+          "title": "Sensex Gains 308 Points, Nifty Reclaims 23,000 as IT and Pharma Stocks Lead Recovery - The Indian Awaaz",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNlo0QnpXclVoY0VJMFg4c2FMUlRzOGpTcElSVzNscEh2Q18zdXpwZXIyVjh3bzAzZVNoNk1pSlNweFJ3TW1BMDVidmJLZzV0cU9KQnZYcjhjZ2VHQmtjUGlnRllmT3QydWdneklFSVQzdWlVdG5leVZCdEZ4NHdMOTZUX0ZCQ3daaXhSQWV4RGphRnJKMkJ2X0VSNlB2XzJIaTk5TE1PejdrOTZzX2N3?oc=5",
+          "publishedAt": "2026-10-30T16:10:11+00:00"
         }
       ],
       "evidenceCount": 7
