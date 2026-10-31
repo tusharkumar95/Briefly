@@ -78,6 +78,16 @@
       (r.whyNotable?'<div class="move-why"><small>WHY NOTABLE</small><p>'+esc(r.whyNotable)+'</p></div>':"")+
       '<div class="move-source-v2"><span>'+esc(r.source||"Official/public disclosure")+' '+disclosure+'</span>'+sourceLink(r.sourceUrl)+'</div></article>';
   }
+  function pinnedView(){
+    const saved=(state.movesDaily?.pinned||[]).filter(r=>state.moveMarket==="All"||r.market===state.moveMarket);
+    if(!saved.length)return "";
+    return '<section class="moves-pinned-section"><h3>Saved historical Moves</h3>'+
+      '<p class="moves-description">Older verified transactions kept here by request. These are historical records, not new deals or fresh alerts.</p>'+
+      saved.map(r=>'<div class="moves-pinned-entry"><div class="moves-pinned-date">SAVED · ORIGINAL TRANSACTION '+fmt(r.day||"")+'</div>'+
+        activityCard(r)+'<p class="moves-pinned-note">'+esc(r.pinReason||"Historical exchange disclosure.")+'</p></div>').join("")+
+      '</section>';
+  }
+
   function leadsView(){
     if(state.moveMarket==="India")return "";
     const leads=allDays().flatMap(d=>d.canadaLeads||[]);
@@ -170,6 +180,7 @@
       (state.movesPanel==="tracks"?tracksView():
       '<label class="moves-date-picker"><span>Disclosure date · last 7 days</span><select onchange="setMoveDate(this.value)">'+
       (dates.length?dates.map(d=>'<option value="'+esc(d.date)+'" '+(d.date===state.moveDate?"selected":"")+'>'+fmt(d.date)+' · '+((d.india||[]).length+(d.canada||[]).length)+' verified transactions</option>').join(""):'<option>No activity</option>')+'</select></label>'+
+      pinnedView()+
       (alerts.length?'<div class="moves-alert-list"><h3>Multiple buyers detected</h3>'+alerts.map(signalCard).join("")+'</div>':"")+
       '<div class="move-mode-strip">'+modes.map(m=>'<button class="move-mode '+(state.moveMode===m?"active":"")+'" onclick="setMoveMode(\''+m+'\')">'+m+'</button>').join("")+'</div>'+
       '<div class="moves-filters">'+opts("investor",state.investorQuery,"setInvestorFilter","Investor / insider")+opts("company",state.companyQuery,"setCompanyFilter","Company")+'</div>'+
