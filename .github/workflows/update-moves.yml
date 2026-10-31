@@ -2,13 +2,17 @@ name: Update Briefly Moves
 
 on:
   schedule:
+    # NSE disclosures, then Canada after the North American close (UTC).
     - cron: "30 12 * * 1-5"
     - cron: "30 14 * * 1-5"
+    - cron: "30 21 * * 1-5"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - "scripts/fetch_moves.py"
+      - "scripts/build_moves_daily.py"
+      - "scripts/refresh_moves_prices.py"
       - "moves-canada-verified.json"
       - "moves-canada-sedi.json"
       - ".github/workflows/update-moves.yml"
@@ -24,33 +28,43 @@ jobs:
   update-moves:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Check Python syntax
-        run: python -m py_compile scripts/fetch_moves.py
-      - name: Build Moves Intelligence
-        run: python scripts/fetch_moves.py
-      - name: Validate Moves output
+      - name: Install daily price reader
+        run: python -m pip install --quiet "yfinance>=0.2.50,<2"
+      - name: Check scripts
+        run: python -m py_compile scripts/fetch_moves.py scripts/build_moves_daily.py scripts/refresh_moves_prices.py scripts/test_canada_discovery.py scripts/audit_canada_moves.py
+      - name: Build Moves, Canadian discovery and tracked closes
+        run: |
+          python scripts/test_canada_discovery.py
+          python scripts/audit_canada_moves.py
+          python scripts/fetch_moves.py
+          python scripts/build_moves_daily.py
+          python scripts/refresh_moves_prices.py
+      - name: Validate published data
         run: |
           python - <<'PY'
           import json
-          with open('moves-intelligence.json', encoding='utf-8') as f:
-              data=json.load(f)
-          assert data.get('engine')=='Moves Intelligence v2'
-          records=data.get('records',[])
-          assert isinstance(records,list)
-          for r in records:
-              assert r.get('market') in ('India','Canada')
-              assert r.get('direction') in ('BUY','SELL')
-              assert 0 <= int(r.get('moveScore',0)) <= 100
-              assert r.get('strength') in ('Exceptional','Strong','Worth watching','Low signal')
+          intelligence=json.load(open('moves-intelligence.json',encoding='utf-8'))
+          assert intelligence['engine']=='Moves Intelligence v2'
+          for r in intelligence['records']:
+              assert r['market'] in ('India','Canada')
+              assert r['direction'] in ('BUY','SELL')
+              assert 0<=int(r['moveScore'])<=100
               assert r.get('sourceUrl')
-          print('Validated',len(records),'Moves Intelligence records')
+          daily=json.load(open('moves-daily.json',encoding='utf-8'))
+          tracking=json.load(open('moves-tracking.json',encoding='utf-8'))
+          assert daily['schema']==tracking['schema']==1
+          assert all(d['date']==d['date'][:10] for d in daily['days'])
+          assert all(a['buyers']>=2 and len(set(a['investors']))>=2 for a in daily['alerts'])
+          assert all(r.get('verification','').startswith('Unverified') for d in daily['days'] for r in d['canadaLeads'])
+          assert isinstance(tracking['quotes'],dict)
+          print('Validated',len(daily['days']),'dates',len(daily['alerts']),'multi-buyer alerts',len(tracking['tracks']),'tracking cohorts')
           PY
-      - name: Publish generated Moves data safely
+      - name: Publish generated data with retry
         shell: bash
         run: |
           set -euo pipefail
@@ -58,35 +72,26 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           publish_once() {
-            git add moves.json moves-history.json moves-intelligence.json
+            git add moves.json moves-history.json moves-intelligence.json moves-daily.json moves-tracking.json moves-canada-discovery-test.json moves-canada-candidates.json moves-canada-audit.json
             if git diff --cached --quiet; then
               echo "Moves data already current."
               return 0
             fi
-            git commit -m "Update Moves Intelligence"
+            git commit -m "Update Moves Intelligence and daily tracking"
             git push origin HEAD:main
           }
 
-          if publish_once; then
-            exit 0
-          fi
+          if publish_once; then exit 0; fi
 
-          echo "Main advanced while Moves was building. Regenerating from newest main instead of merging generated JSON."
+          echo "Main advanced during processing; regenerating from current main."
           git fetch origin main
           git reset --hard origin/main
+          python scripts/test_canada_discovery.py
+          python scripts/audit_canada_moves.py
           python scripts/fetch_moves.py
-          python - <<'PY'
-          import json
-          with open('moves-intelligence.json', encoding='utf-8') as f:
-              data=json.load(f)
-          assert data.get('engine')=='Moves Intelligence v2'
-          for r in data.get('records',[]):
-              assert r.get('market') in ('India','Canada')
-              assert r.get('direction') in ('BUY','SELL')
-              assert 0 <= int(r.get('moveScore',0)) <= 100
-              assert r.get('sourceUrl')
-          PY
-          git add moves.json moves-history.json moves-intelligence.json
+          python scripts/build_moves_daily.py
+          python scripts/refresh_moves_prices.py
+          git add moves.json moves-history.json moves-intelligence.json moves-daily.json moves-tracking.json moves-canada-discovery-test.json moves-canada-candidates.json moves-canada-audit.json
           git diff --cached --quiet && exit 0
-          git commit -m "Update Moves Intelligence"
+          git commit -m "Update Moves Intelligence and daily tracking"
           git push origin HEAD:main
