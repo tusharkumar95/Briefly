@@ -7,6 +7,10 @@ on:
       - "app.js"
       - "trust-ui.js"
       - "moves-v2.js"
+      - "moves-v3.js"
+      - "moves-v3.css"
+      - "scripts/build_moves_daily.py"
+      - "scripts/refresh_moves_prices.py"
       - "markets-v2.js"
       - "story-detail.js"
       - "scripts/fetch_news.py"
@@ -43,6 +47,7 @@ jobs:
           node --check app.js
           node --check trust-ui.js
           node --check moves-v2.js
+          node --check moves-v3.js
           node --check markets-v2.js
           node --check story-detail.js
       - name: Check Python engines syntax
@@ -55,6 +60,8 @@ jobs:
           python -m py_compile scripts/refine_feed.py
           python -m py_compile scripts/update_history.py
           python -m py_compile scripts/fetch_moves.py
+          python -m py_compile scripts/build_moves_daily.py
+          python -m py_compile scripts/refresh_moves_prices.py
           python -m py_compile scripts/build_market_intelligence.py
       - name: Check event-memory contract
         run: |
@@ -117,12 +124,16 @@ jobs:
           test -f story-detail.css
           test -f trust-ui.js
           test -f moves-v2.js
+          test -f moves-v3.js
+          test -f moves-v3.css
           test -f markets-v2.js
           test -f story-detail.js
           grep -q 'app.js?v=2' index.html
           grep -q 'trust-ui.js?v=1' index.html
           grep -q 'briefly-v2.css?v=1' index.html
           grep -q 'moves-v2.js?v=1' index.html
+          grep -q 'moves-v3.js?v=1' index.html
+          grep -q 'moves-v3.css?v=1' index.html
           grep -q 'moves-v2.css?v=1' index.html
           grep -q 'markets-v2.js?v=1' index.html
           grep -q 'markets-v2.css?v=1' index.html
