@@ -187,7 +187,11 @@ def canada_records():
     records=[]
     verified=load_json(CANADA_VERIFIED,{}).get("records",[])
     sedi=load_json(CANADA_SEDI,{}).get("records",[])
-    for r in [*sedi,*verified]:
+    automated=load_json("moves-canada-auto.json",{}).get("records",[])
+    unique={}
+    for item in [*automated,*sedi,*verified]:
+        unique[item.get("sourceUrl") or item.get("id") or str(item)]=item
+    for r in unique.values():
         direction=str(r.get("direction") or "BUY").upper()
         value=float(r.get("valueCAD") or 0)
         role=str(r.get("role") or r.get("insiderRole") or "Significant shareholder / disclosed acquiror")
