@@ -1,15 +1,20 @@
 {
-  "updated": "2026-10-30T23:14:20.634724+00:00",
+  "updated": "2026-10-31T02:43:07.841490+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX drops over 600 points as tech and base‑metals selloff drags market",
+      "headline": "TSX falls over 600 points as AI spending fears trigger tech selloff",
       "direction": "down",
       "move": "S&P/TSX Composite -1.74%",
-      "why": "A broad selloff in technology stocks, combined with falling base‑metals prices, pulled the S&P/TSX Composite sharply lower.",
+      "why": "Investors reacted to heightened concerns about AI spending and cash‑burn, which rattled technology stocks, while weaker Canadian growth and a slide in base‑metals prices added further pressure.",
       "drivers": [
+        {
+          "label": "AI spending fears rattle tech stocks, Canadian growth slows",
+          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "tech stock selloff on both sides of the border",
           "detail": "CTV News explicitly links the same-direction market move to this factor in its market headline.",
@@ -21,20 +26,15 @@
           "kind": "driver"
         },
         {
-          "label": "gold and silver prices fell",
-          "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Technology stocks selloff",
-          "detail": "CTV News reports the TSX fell 600 points amid tech stock selloff on both sides of the border.",
+          "label": "AI cash burn fears spark tech selloff",
+          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
       "sectors": [
         "Technology",
-        "Materials (Base Metals)",
-        "Precious Metals"
+        "Base Metals",
+        "Broad Market"
       ],
       "confidence": "high",
       "primaryIndex": {
@@ -52,6 +52,12 @@
       },
       "secondaryIndex": null,
       "sources": [
+        {
+          "name": "Investing.com Canada",
+          "title": "TSX falls as AI spending fears rattle tech stocks, Canadian growth slows - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYTdlTlhLaWxUeUV2Nmlmb2x5RDQ5aS1yOWY1aG9MYkZLMDlaVUtMV2twMy1VUXBxSUxOa1Yxai1JemZId2pPaEhWdGZDcml3Zk5JSm9JWEdfZVVkeks0amFEME1odnhYQUxpdm9oOHo1cTRtWjAxZ245Wmd3alRGdFJESjd2aHRrbUJCYWttU0RoaFFnY2wyMG1SeDluSXd6bmRQWUNnSmhIRG5CMjlZeGVGTDQwdw?oc=5",
+          "publishedAt": "2026-10-31T00:56:15+00:00"
+        },
         {
           "name": "CTV News",
           "title": "TSX falls 600 points amid tech stock selloff on both sides of the border - CTV News",
@@ -77,25 +83,19 @@
           "publishedAt": "2026-10-30T20:13:53+00:00"
         },
         {
-          "name": "Bloomberg.com",
-          "title": "TSX Has Worst Day Since June, Joining North American Retreat - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSkZNd3VnNzh0THloTTl0a2stRTdjNlktYVNCeWJ3MU41aXFDc3FfRVpLejNDZkJ4SmlvRGZmTnByOVBxazAzMVAxd2NmbVpTNUo5VlU3RkNSd21oVkk5Y0Y5MXA5WXY1WUYxVnFpZHh4N19TWkg4VlE3OEtTc1lPMmx1R0tSNVZsR0JPaVJMZktPb1NwVU92Ty04eTBoQ05ORGpISXo3bERqQmV3a1Q0?oc=5",
-          "publishedAt": "2026-10-30T20:17:27+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Why TSX:BMO led big bank stocks higher on the S&P/TSX Composite as falling oil eased rate fears - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeFFZQkg4b2NHbllsTUNIYS1EZFFKVWY0QUpIc0FBd2QzYWRIVERmQlBOcjZjSmdLNVBsM0RUMktXSjAyVFJDa1VrS20xdFhDSU5vTnNHZWdBeTAxdEhIQURRbFBia3ZVSTZONl9sdVdKV1YtT3JiWFJMcWctQ2Frd2NDYVhuV1p2SHA0VUpLX1lObUl6eXJ5Q1NCdjZDLUJwY3UwcGZkZ1dBZ3JFUExuVTE2MVA1UXluLTBuQ1ZZazc5YWk4?oc=5",
-          "publishedAt": "2026-10-30T14:40:00+00:00"
+          "name": "The Globe and Mail",
+          "title": "Nasdaq and TSX suffer worst day in nearly five months as AI cash burn fears spark tech selloff - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUlJHdnlQVHZrd3pNb1Jod3gtejA0aExYZnZ0V3FCbWFvMXU2dUhEdk1YQk9zOVhnMnluTW9CT3hrME0td1k5UW5pX1BkRWZ3NG1rMjlYcHBFajYtaWlkTFhFWnRLaVgwM1BFWFA5VFNfQVB2by13QVlhRkhTTkhjRldBMGFBd1NrYURkdkk0WEFsYmFlVGhoQ3h3VU9ReXpJWlo5elFKcjVFOXFZakUxWTU1SVpKUDdnTUowQkptSjc0US11UFZHU0M0MGU1UVRveVE2cFlla09teU12ZVFYTHBHaHVPM0lEaHc?oc=5",
+          "publishedAt": "2026-10-30T09:08:03+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 1.05%",
+      "headline": "Nifty 50 rose 0.51%",
       "direction": "up",
-      "move": "Nifty 50 +1.05%",
+      "move": "Nifty 50 +0.51%",
       "why": "Same-day market coverage explicitly linked the final move to: IT and Pharma Lead, Trent Surges 5% on 25% Q2 Profit Growth, IndiGo Narrows Loss; IT Stocks a Lead Rally; gain of 0.5% as IT, pharma stocks rally; weak broader market limits gains.",
       "drivers": [
         {
@@ -112,6 +112,11 @@
           "label": "gain of 0.5% as IT, pharma stocks rally; weak broader market limits gains",
           "detail": "ChiniMandi explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
+        },
+        {
+          "label": "IT Stocks Climb: Sensex Over 300 Points Up, Nifty Above 23,050",
+          "detail": "ABP Live English explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
@@ -119,10 +124,10 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 22936.75,
-        "previousClose": 22698.85,
-        "change": 237.9,
-        "changePct": 1.05,
+        "price": 23053.1,
+        "previousClose": 22936.75,
+        "change": 116.35,
+        "changePct": 0.51,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -132,10 +137,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 74151.04,
-        "previousClose": 73246.03,
-        "change": 905.01,
-        "changePct": 1.24,
+        "price": 74459.53,
+        "previousClose": 74151.04,
+        "change": 308.49,
+        "changePct": 0.42,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -162,12 +167,6 @@
           "publishedAt": "2026-10-30T12:30:52+00:00"
         },
         {
-          "name": "ad-hoc-news.de",
-          "title": "BSE Sensex closes at 74,459.53, up 0.42 percent - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTy0xenlncHpsZnpicUdMZ25GQmRhdW9ENnhXcTRCRDZrODJwcWtzX3NzUkdsQzVkV3ZPLWZld0RWUURzM20ta3BHUUtwM0pDOEpZRkJXeXZBclVxZXliQVhPQS0ycktrc3VMUEpHVHQtQzc2dTZMV1pSeHBPb2UwWWdmdjJBS2RwMy1GM1JvTmlDM3RJNlNGaDg2eU5uVzZXMzB3LUdXU1VzMF9M?oc=5",
-          "publishedAt": "2026-10-30T21:45:04+00:00"
-        },
-        {
           "name": "Dalal Street Investment Journal",
           "title": "Closing Bell: Sensex Gains 300 Points, Nifty Reclaims 23,000 Mark as IT Stocks a Lead Rally - Dalal Street Investment Journal",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWmRkUkxrWFBGcW9fcUVPUnhZSWpZNUhEUXI2ZXljYkVWSTM3ZWJmdl9EeTZwOEktUlF1a0tod0VsR1pLOUlrODNydzdCTXhxU3ZsNzBXTUkydlkteG9uQVp5dmxNM2lfcG04ZUREZV9GQTg3NWxKd0F5cUFxX0Vzd2hZV2RqSnA2VndFWnV2NUEzSGxwdVZVVS00YjVGQmlVVzRnZDgtRTVUTXBNRG9zano2dTFvWkpSRVY3OFRkVVplbjRmTXQtZ01SeXZhWHh6ZW5B?oc=5",
@@ -178,6 +177,12 @@
           "title": "Sensex Today Ends 308 Points Higher | Nifty Above 22,300 | Vedanta Oil and Gas Up 8% - Equitymaster",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaVVsSnlXUHFmTWxXVlZSNnRHcy1zRW1wbUdOZmZRWG1DQmlBbVVSWmJIdF83V0VObkV0NVh0T3kwQ0Z3U2VuV01NSUxTU1drMldDTnpjVXF5a0d1ZldaU2liWHNaRlMzazdiOHpiaDdFeVBrbGJORWN5MmtUTk44UVVGZVFmaDJZNXdmekEwS05XQzNDbGxPeDZsWFd1amQ1YUxQd2w3VGVZUGtaTHdGUGdoemFLVUlqcU1aZkhJMUFKQmlqU1pmcXdfMEc4ZHM5U25iX3NjOVY?oc=5",
           "publishedAt": "2026-10-30T10:28:55+00:00"
+        },
+        {
+          "name": "ChiniMandi",
+          "title": "Sensex, Nifty close with gain of 0.5% as IT, pharma stocks rally; weak broader market limits gains - ChiniMandi",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZW9rV0NJRXU2T002TkpGY3BBMWpjYWJMLXNYOUZ4bUQwZkw4UU1ZMmJLblFRZWhpdmZUc0VPYVp5WHVDMTRFZnRsNkZzQjFlMUdlMGgyQy05bVpVa0lhaU9PSTlXU2ZTYWdIUVF3ZEV2MFB1SGVtbk9LUWhPWWRQbVlCbHNTbVRZZW40QW45R1hVVkcwc3VWemxkRUdieTA1YmhHZVMybTBWNW5OTnJzcTgzOHVkbVlGbzBxSlpxUQ?oc=5",
+          "publishedAt": "2026-10-30T10:26:51+00:00"
         }
       ],
       "evidenceCount": 7
