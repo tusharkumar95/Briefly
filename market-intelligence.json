@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-01T19:12:27.572177+00:00",
+  "updated": "2026-11-01T23:05:34.699050+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite falls 1.74% on Oct 30, 2026",
+      "headline": "S&P/TSX Composite falls 1.74% to 35,620",
       "direction": "down",
       "move": "S&P/TSX Composite -1.74%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "BCE stock decline",
-          "detail": "BCE fell 0.178% to $28.04 on Oct 29, 2026",
+          "label": "BCE price decline",
+          "detail": "BCE Inc. fell 0.178% to $28.04 on October 29, 2026.",
           "kind": "context"
         }
       ],
@@ -44,10 +44,10 @@
     },
     "India": {
       "label": "India",
-      "headline": "India equity indices closed higher on Monday; modest gains",
+      "headline": "Nifty 50 rose 0.51%",
       "direction": "up",
       "move": "Nifty 50 +0.51%",
-      "why": "No supplied source explicitly links a specific factor to the observed rise; the increase is reported without stated cause.",
+      "why": "Same-day market coverage explicitly linked the final move to: rallying up to 2% last week? 4 factors to watch on Monday.",
       "drivers": [
         {
           "label": "rallying up to 2% last week? 4 factors to watch on Monday",
@@ -97,16 +97,10 @@
           "publishedAt": "2026-11-01T11:24:55+00:00"
         },
         {
-          "name": "TradingView",
-          "title": "Stock market prediction Nov 2-6 week: Nifty, Sensex rebound from losses - Will bulls deliver a Diwali bonanza? Outlook - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNTh1cHVqTlo4ckhCZkc5YWltUVdzRUl3ME1qR0ZQVFJQMFM2cHJ3UU8tRm9JMjY0MHJzX3NjdHQ2NlpITkFxQzhXMUJsWFF3dC1CQWE2a1NUZ0JaRkhBQktiRndkbmk2Ykdha2Q5UHBDeWMzVUllcFZkTXVldGNYT3ppNDFxZVd6UFJIaV9mT04xdkxjZlh5V3QxMk80MHlzNlNRcDd5ZTJYODBxN3Yyd0I1TnZHLWNrSFVCc2ZPUjkxODBuMHBVcUpRMVNtU1UtLUJReDBvWk9iNzFkUEYzVE5hUHl1UHNQNFgzUTgzSHo3ckYwMUhzWlkyUy1XUEE?oc=5",
-          "publishedAt": "2026-10-31T18:18:47+00:00"
-        },
-        {
           "name": "Liquide Blog",
           "title": "Share Market News: Nifty 50 Outlook & Prediction - Liquide Blog",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeVc1Wm5pRHZKQ2RzSTRkMnZoSmMzQ3BBQlBubHRuOFJ0ekxENlVlZFoyMGEzNGZRMjEyMDdQYTI1bTFrTTBCNm1POEd3dXVMdDM3RTh3MnhfbmQ5bTlQeTVHajlLTElzcl9XTjdaYlVlSjdlQm1yQ2QwSzVyQ3Qyc09qR21jQWZpc3J0N2xsbExoaUEzVkJza0lR?oc=5",
-          "publishedAt": "2026-11-01T14:15:00+00:00"
+          "publishedAt": "2026-11-01T14:15:05+00:00"
         },
         {
           "name": "Moneycontrol.com",
@@ -115,7 +109,7 @@
           "publishedAt": "2026-11-01T01:16:02+00:00"
         }
       ],
-      "evidenceCount": 5
+      "evidenceCount": 4
     }
   }
 }
