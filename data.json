@@ -1,58 +1,22 @@
 {
-  "updated": "2026-11-01T19:43:32.823382+00:00",
+  "updated": "2026-11-01T23:37:58.826617+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 45,
-    "nonNoiseCandidates": 44,
-    "officialOrPrimaryCandidates": 5,
-    "enrichedCandidates": 44,
-    "readableCandidates": 35,
-    "eventClusters": 35,
-    "materialEvents": 14,
-    "selectedEvents": 6,
-    "seededStories": 3,
+    "rawCandidates": 42,
+    "nonNoiseCandidates": 42,
+    "officialOrPrimaryCandidates": 3,
+    "enrichedCandidates": 42,
+    "readableCandidates": 34,
+    "eventClusters": 34,
+    "materialEvents": 15,
+    "selectedEvents": 7,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
-    {
-      "id": "2c2c91d09f6f49",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Armed police begin patrols in Sydney after Bondi Beach shooting",
-      "publishedAt": "2026-11-01T17:56:47+00:00",
-      "importanceScore": 13.7,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Heavily‑armed officers from New South Wales’ Armed Response Command have started patrolling Sydney’s streets and tourist precincts with long‑arm rifles. The deployment follows the December mass shooting at Bondi Beach that killed fifteen people, including a ten‑year‑old girl. Police say the units will also patrol major events such as sports matches and places of worship to deter and respond quickly to serious threats.",
-      "why": "It represents a notable escalation in public‑security tactics after Australia’s deadliest mass shooting in decades.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-01T17:56:47+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-01T17:56:47+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-01T19:43:32.823382+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
     {
       "id": "807707934f5625",
       "cat": "Canada",
@@ -62,11 +26,11 @@
       ],
       "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
       "publishedAt": "2026-11-01T17:14:12+00:00",
-      "importanceScore": 13.4,
+      "importanceScore": 12.8,
       "sourceCount": 1,
       "source": "globalnews.ca",
       "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Anonymous November 1, 2026 at 6:23 pm Yesterday Carney said Canada can wait until 2029 when Trump will be gone to make a deal with the US.",
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "confidence": "low",
       "verified": false,
@@ -79,8 +43,126 @@
         }
       ],
       "firstSeen": "2026-11-01T17:14:12+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-01T23:37:58.826617+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Carney says Canada, U.S. working in coming weeks towards trade deal",
+      "previousSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+      "previousPublishedAt": "2026-11-01T17:14:12+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.4,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "2c2c91d09f6f49",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
+      "publishedAt": "2026-11-01T17:56:47+00:00",
+      "importanceScore": 12.7,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Heavily‑armed officers from the New South Wales Armed Response Command have started patrolling Sydney’s busy tourist precincts, major events and places of worship, carrying long‑arm rifles. The deployment follows the December 2023 Bondi Beach shooting in which two gunmen killed fifteen people, including a ten‑year‑old girl, during a Hanukkah gathering. Police say the patrols aim to prevent, deter and quickly respond to serious threats such as active‑shooter incidents.",
+      "why": "It demonstrates the government’s direct response to Australia’s worst mass shooting in decades and the heightened focus on preventing hate‑motivated violence.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-01T17:56:47+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-01T17:56:47+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-01T23:37:58.826617+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Armed police begin patrols in Sydney after Bondi Beach shooting",
+      "previousSummary": "Heavily‑armed officers from New South Wales’ Armed Response Command have started patrolling Sydney’s streets and tourist precincts with long‑arm rifles. The deployment follows the December mass shooting at Bondi Beach that killed fifteen people, including a ten‑year‑old girl. Police say the units will also patrol major events such as sports matches and places of worship to deter and respond quickly to serious threats.",
+      "previousPublishedAt": "2026-11-01T17:56:47+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "d60d59f47eb43d",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Carlsberg files DRHP, Pernod Ricard and Coca‑Cola explore India IPOs",
+      "publishedAt": "2026-11-01T09:15:28+00:00",
+      "importanceScore": 12.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/global-beverage-majors-advance-india-ipo-plans-from-drhp-filing-to-board-approval/articleshow/135422834.cms",
+      "summary": "Carlsberg has filed an updated draft red‑herring prospectus for a potential IPO in India. Pernod Ricard is preparing a proposed listing of its Indian business and is awaiting board approval. Coca‑Cola is assessing a possible IPO of its Indian bottling operations, citing the market’s value.",
+      "why": "The moves show growing interest from multinational beverage firms in using Indian public markets to raise capital and expand their presence.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/global-beverage-majors-advance-india-ipo-plans-from-drhp-filing-to-board-approval/articleshow/135422834.cms",
+          "publishedAt": "2026-11-01T09:15:28+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-01T09:15:28+00:00",
       "status": "New",
-      "lastChecked": "2026-11-01T19:43:32.823382+00:00",
+      "lastChecked": "2026-11-01T23:37:58.826617+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "c71fff8e469756",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Good intentions, unintended consequences: The cost of regulation",
+      "publishedAt": "2026-11-01T09:26:29+00:00",
+      "importanceScore": 10.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/good-intentions-unintended-consequences-the-cost-of-regulation/articleshow/135422850.cms",
+      "summary": "Regulation is vital for protecting consumers and building trust, but unpredictable or poorly calibrated policy changes can disrupt business economics, valuations and investment. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/good-intentions-unintended-consequences-the-cost-of-regulation/articleshow/135422850.cms",
+          "publishedAt": "2026-11-01T09:26:29+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-01T09:26:29+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-01T23:37:58.826617+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -88,64 +170,23 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
-    },
-    {
-      "id": "3f5fed73397a92",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Judge lets NAACP lawsuit over xAI data‑center emissions proceed",
-      "publishedAt": "2026-10-31T21:17:03+00:00",
-      "importanceScore": 9.0,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-      "summary": "A federal judge denied xAI’s motion to dismiss an NAACP‑led suit that alleges the company installed and operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, in violation of the Clean Air Act. The Southern Environmental Law Center, representing the NAACP, argued the turbines are not “mobile sources” under Mississippi law, and Judge Debra M. Brown affirmed the plaintiffs have statutory standing and that the citizen‑suit claim is constitutional.",
-      "why": "The decision lets the lawsuit continue, which could require xAI to obtain permits and address alleged air‑pollution violations.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-          "publishedAt": "2026-10-31T21:17:03+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-31T21:17:03+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-01T19:43:32.823382+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Judge denies xAI motion to dismiss NAACP lawsuit over data‑center emissions",
-      "previousSummary": "A federal judge rejected xAI’s motion to dismiss a lawsuit brought by the NAACP and the Southern Environmental Law Center that alleges the SpaceX‑owned AI firm operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, violating the Clean Air Act. The decision affirmed the plaintiffs’ statutory standing and held that the turbines are not “mobile sources,” so the case will continue.",
-      "previousPublishedAt": "2026-10-31T21:17:03+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 9.0,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
     }
   ],
   "jarvisEditedCount": 2,
-  "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-01T15:13:07.692182+00:00",
+  "finalRejectedCount": 1,
+  "previousUpdated": "2026-11-01T19:43:32.823382+00:00",
   "changeSummary": {
     "new": 2,
     "updated": 0,
-    "continuing": 1
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-29T21:09:34.282979+00:00",
-    "updated": "2026-11-01T19:43:32.823382+00:00",
+    "availableFrom": "2026-10-30T01:03:23.939167+00:00",
+    "updated": "2026-11-01T23:37:58.826617+00:00",
     "snapshotCount": 14,
-    "eventCount": 82,
+    "eventCount": 83,
     "retentionHours": 72
   }
 }

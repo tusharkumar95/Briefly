@@ -3,160 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-29T21:09:34.282979+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 2,
-        "continuing": 3
-      },
-      "stories": [
-        {
-          "id": "ef6c3c3a66432d",
-          "cat": "World",
-          "title": "Drone strike kills at least 14 at Dnipro railway station",
-          "summary": "At least 14 people were killed and another 14 injured, including an 11‑year‑old boy, when a Russian jet‑powered drone struck a crowded platform at Dnipro’s main railway station. Ukrainian officials said a passenger train bound for Zaporizhzhia was on the platform at the time. The site has been sealed off as authorities investigate; Russia has not commented and denies targeting civilians.",
-          "why": "It highlights the risk to civilian transport infrastructure in the ongoing conflict.",
-          "publishedAt": "2026-10-29T14:17:35+00:00",
-          "firstSeen": "2026-10-29T14:17:35+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "64bbd39168dcf4",
-          "cat": "Indian Markets",
-          "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
-          "summary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-29T12:23:33+00:00",
-          "firstSeen": "2026-10-29T12:23:33+00:00",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-80000-after-fed-holds-rates-signals-possibility-of-further-tightening/articleshow/135309957.cms"
-        },
-        {
-          "id": "bcbe145da19010",
-          "cat": "Indian Markets",
-          "title": "US Markets Today: US stocks end lower as Alphabet revenue miss revives AI capex jitters",
-          "summary": "The Nasdaq leads losses, while stronger-than-expected US GDP growth and rising inflation add to investor concerns. Software stocks tumble, while Eli Lilly, Ford and Merck gain after results.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-10-29T20:16:15+00:00",
-          "firstSeen": "2026-10-29T20:16:15+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-lower-as-alphabet-revenue-miss-revives-ai-capex-jitters/articleshow/135331051.cms"
-        },
-        {
-          "id": "912c4596848618",
-          "cat": "India",
-          "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-29T15:54:18+00:00",
-          "firstSeen": "2026-10-29T15:54:18+00:00",
-          "importanceScore": 11.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms"
-        },
-        {
-          "id": "b841fed2ecacd6",
-          "cat": "Indian Markets",
-          "title": "Ambuja Cements profit drops ~90% YoY",
-          "summary": "Ambuja Cements reported that its net profit for the quarter fell about 90% compared with the same quarter a year earlier. The company said the decline was driven by higher input costs and by a strong profit base in the prior year. No detailed financial figures were provided in the source.",
-          "why": "The steep earnings drop signals cost pressure in the Indian cement sector and could influence investor sentiment.",
-          "publishedAt": "2026-10-29T14:54:27+00:00",
-          "firstSeen": "2026-10-29T14:54:27+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ambuja-cements-profit-slumps-90-on-higher-costs-high-previous-year-base/articleshow/135320851.cms"
-        },
-        {
-          "id": "e3a85b09c0b98e",
-          "cat": "India",
-          "title": "Finance ministry projects 7.35% GDP growth for India in Q2 FY27",
-          "summary": "The finance ministry’s nowcasting model estimates that India’s gross domestic product will expand by 7.35% in the second quarter of fiscal year 2027. This follows a 7.8% growth rate in the preceding quarter. The forecast attributes the acceleration to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
-          "why": "The projection signals sustained economic momentum, shaping policy decisions and market expectations.",
-          "publishedAt": "2026-10-29T09:04:04+00:00",
-          "firstSeen": "2026-10-29T09:04:04+00:00",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
-        },
-        {
-          "id": "443c79dd5a58d9",
-          "cat": "India",
-          "title": "IMF says Super El Niño risks to India’s growth have not yet materialised",
-          "summary": "The International Monetary Fund noted that India remains a major driver of global growth. It warned that weather events such as a Super El Niño pose potential risks, but those risks have not yet materialised. The IMF also raised its growth forecasts for India to 7 % for fiscal years 2027‑28, citing strong domestic demand and a buoyant services sector.",
-          "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
-          "publishedAt": "2026-10-29T17:36:10+00:00",
-          "firstSeen": "2026-10-29T17:36:10+00:00",
-          "importanceScore": 11.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-flags-super-el-nio-risks-to-indias-growth-says-impact-yet-to-materialise/articleshow/135325476.cms"
-        },
-        {
-          "id": "401f6ab4f8e9f7",
-          "cat": "AI",
-          "title": "Mistral releases weights for its trillion‑parameter open‑source model ML4",
-          "summary": "French AI company Mistral has released the weights for its trillion‑parameter open‑source model Mistral Large 4 (ML4), nicknamed “Le Chonk,” enabling businesses and governments to download and deploy the system themselves. The launch follows earlier announcements and is framed as a competitive alternative to closed‑model providers, highlighting the advantage of data control for cybersecurity workloads. Mistral says ML4 matches the performance of China’s GLM‑5.3 while using 47 percent fewer tokens per task, making it more economical.",
-          "why": "It lets organizations run a high‑capacity AI model in‑house, reducing reliance on external providers for sensitive cybersecurity tasks.",
-          "publishedAt": "2026-10-29T17:00:00+00:00",
-          "firstSeen": "2026-10-29T17:00:00+00:00",
-          "importanceScore": 10.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
-        }
-      ]
-    },
-    {
       "at": "2026-10-30T01:03:23.939167+00:00",
       "changeSummary": {
         "new": 4,
@@ -1563,34 +1409,91 @@
           "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
         }
       ]
-    }
-  ],
-  "events": {
-    "7e28f982b25480": {
-      "id": "7e28f982b25480",
-      "firstSeen": "2026-10-25T08:27:13+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-11-01T23:37:58.826617+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 0,
+        "continuing": 2
+      },
+      "stories": [
         {
-          "at": "2026-10-25T22:35:09.182035+00:00",
-          "title": "Market cap of eight top‑10 Indian firms falls by Rs 1.55 lakh crore; HDFC Bank, Bajaj Finance lag",
-          "summary": "The Economic Times reports that the market capitalisation of eight of India’s ten largest listed companies fell by roughly Rs 1.55 lakh crore. HDFC Bank and Bajaj Finance were the biggest laggards among the group. The erosion was noted across the large‑cap segment.",
-          "importanceScore": 9.7,
+          "id": "807707934f5625",
+          "cat": "Canada",
+          "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Anonymous November 1, 2026 at 6:23 pm Yesterday Carney said Canada can wait until 2029 when Trump will be gone to make a deal with the US.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-01T17:14:12+00:00",
+          "firstSeen": "2026-11-01T17:14:12+00:00",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/"
+        },
+        {
+          "id": "2c2c91d09f6f49",
+          "cat": "World",
+          "title": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
+          "summary": "Heavily‑armed officers from the New South Wales Armed Response Command have started patrolling Sydney’s busy tourist precincts, major events and places of worship, carrying long‑arm rifles. The deployment follows the December 2023 Bondi Beach shooting in which two gunmen killed fifteen people, including a ten‑year‑old girl, during a Hanukkah gathering. Police say the patrols aim to prevent, deter and quickly respond to serious threats such as active‑shooter incidents.",
+          "why": "It demonstrates the government’s direct response to Australia’s worst mass shooting in decades and the heightened focus on preventing hate‑motivated violence.",
+          "publishedAt": "2026-11-01T17:56:47+00:00",
+          "firstSeen": "2026-11-01T17:56:47+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "d60d59f47eb43d",
+          "cat": "Indian Markets",
+          "title": "Carlsberg files DRHP, Pernod Ricard and Coca‑Cola explore India IPOs",
+          "summary": "Carlsberg has filed an updated draft red‑herring prospectus for a potential IPO in India. Pernod Ricard is preparing a proposed listing of its Indian business and is awaiting board approval. Coca‑Cola is assessing a possible IPO of its Indian bottling operations, citing the market’s value.",
+          "why": "The moves show growing interest from multinational beverage firms in using Indian public markets to raise capital and expand their presence.",
+          "publishedAt": "2026-11-01T09:15:28+00:00",
+          "firstSeen": "2026-11-01T09:15:28+00:00",
+          "importanceScore": 12.0,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/global-beverage-majors-advance-india-ipo-plans-from-drhp-filing-to-board-approval/articleshow/135422834.cms"
+        },
+        {
+          "id": "c71fff8e469756",
+          "cat": "Indian Markets",
+          "title": "Good intentions, unintended consequences: The cost of regulation",
+          "summary": "Regulation is vital for protecting consumers and building trust, but unpredictable or poorly calibrated policy changes can disrupt business economics, valuations and investment. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-01T09:26:29+00:00",
+          "firstSeen": "2026-11-01T09:26:29+00:00",
+          "importanceScore": 10.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/good-intentions-unintended-consequences-the-cost-of-regulation/articleshow/135422850.cms"
         }
-      ],
-      "lastSeen": "2026-10-25T22:35:09.182035+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Market cap of eight top‑10 Indian firms falls by Rs 1.55 lakh crore; HDFC Bank, Bajaj Finance lag",
-      "latestSummary": "The Economic Times reports that the market capitalisation of eight of India’s ten largest listed companies fell by roughly Rs 1.55 lakh crore. HDFC Bank and Bajaj Finance were the biggest laggards among the group. The erosion was noted across the large‑cap segment.",
-      "why": "The decline lowers the overall market value of India’s biggest listed firms.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-firms-erodes-by-rs-1-55-lakh-cr-hdfc-bank-bajaj-fin-biggest-laggards/articleshow/135186713.cms"
-    },
+      ]
+    }
+  ],
+  "events": {
     "8d9bce52b18a98": {
       "id": "8d9bce52b18a98",
       "firstSeen": "2026-10-26T08:00:00+00:00",
@@ -4765,13 +4668,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-01T23:37:58.826617+00:00",
+          "title": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
+          "summary": "Heavily‑armed officers from the New South Wales Armed Response Command have started patrolling Sydney’s busy tourist precincts, major events and places of worship, carrying long‑arm rifles. The deployment follows the December 2023 Bondi Beach shooting in which two gunmen killed fifteen people, including a ten‑year‑old girl, during a Hanukkah gathering. Police say the patrols aim to prevent, deter and quickly respond to serious threats such as active‑shooter incidents.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-01T19:43:32.823382+00:00",
+      "lastSeen": "2026-11-01T23:37:58.826617+00:00",
       "cat": "World",
-      "latestTitle": "Armed police begin patrols in Sydney after Bondi Beach shooting",
-      "latestSummary": "Heavily‑armed officers from New South Wales’ Armed Response Command have started patrolling Sydney’s streets and tourist precincts with long‑arm rifles. The deployment follows the December mass shooting at Bondi Beach that killed fifteen people, including a ten‑year‑old girl. Police say the units will also patrol major events such as sports matches and places of worship to deter and respond quickly to serious threats.",
-      "why": "It represents a notable escalation in public‑security tactics after Australia’s deadliest mass shooting in decades.",
+      "latestTitle": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
+      "latestSummary": "Heavily‑armed officers from the New South Wales Armed Response Command have started patrolling Sydney’s busy tourist precincts, major events and places of worship, carrying long‑arm rifles. The deployment follows the December 2023 Bondi Beach shooting in which two gunmen killed fifteen people, including a ten‑year‑old girl, during a Hanukkah gathering. Police say the patrols aim to prevent, deter and quickly respond to serious threats such as active‑shooter incidents.",
+      "why": "It demonstrates the government’s direct response to Australia’s worst mass shooting in decades and the heightened focus on preventing hate‑motivated violence.",
       "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss"
     },
     "807707934f5625": {
@@ -4790,15 +4706,78 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-01T23:37:58.826617+00:00",
+          "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Anonymous November 1, 2026 at 6:23 pm Yesterday Carney said Canada can wait until 2029 when Trump will be gone to make a deal with the US.",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-01T19:43:32.823382+00:00",
+      "lastSeen": "2026-11-01T23:37:58.826617+00:00",
       "cat": "Canada",
       "latestTitle": "Carney says Canada, U.S. working in coming weeks towards trade deal",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Anonymous November 1, 2026 at 6:23 pm Yesterday Carney said Canada can wait until 2029 when Trump will be gone to make a deal with the US.",
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/"
+    },
+    "d60d59f47eb43d": {
+      "id": "d60d59f47eb43d",
+      "firstSeen": "2026-11-01T09:15:28+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-01T23:37:58.826617+00:00",
+          "title": "Carlsberg files DRHP, Pernod Ricard and Coca‑Cola explore India IPOs",
+          "summary": "Carlsberg has filed an updated draft red‑herring prospectus for a potential IPO in India. Pernod Ricard is preparing a proposed listing of its Indian business and is awaiting board approval. Coca‑Cola is assessing a possible IPO of its Indian bottling operations, citing the market’s value.",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-01T23:37:58.826617+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Carlsberg files DRHP, Pernod Ricard and Coca‑Cola explore India IPOs",
+      "latestSummary": "Carlsberg has filed an updated draft red‑herring prospectus for a potential IPO in India. Pernod Ricard is preparing a proposed listing of its Indian business and is awaiting board approval. Coca‑Cola is assessing a possible IPO of its Indian bottling operations, citing the market’s value.",
+      "why": "The moves show growing interest from multinational beverage firms in using Indian public markets to raise capital and expand their presence.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/global-beverage-majors-advance-india-ipo-plans-from-drhp-filing-to-board-approval/articleshow/135422834.cms"
+    },
+    "c71fff8e469756": {
+      "id": "c71fff8e469756",
+      "firstSeen": "2026-11-01T09:26:29+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-01T23:37:58.826617+00:00",
+          "title": "Good intentions, unintended consequences: The cost of regulation",
+          "summary": "Regulation is vital for protecting consumers and building trust, but unpredictable or poorly calibrated policy changes can disrupt business economics, valuations and investment. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "importanceScore": 10.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-01T23:37:58.826617+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Good intentions, unintended consequences: The cost of regulation",
+      "latestSummary": "Regulation is vital for protecting consumers and building trust, but unpredictable or poorly calibrated policy changes can disrupt business economics, valuations and investment. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/good-intentions-unintended-consequences-the-cost-of-regulation/articleshow/135422850.cms"
     }
   },
-  "updated": "2026-11-01T19:43:32.823382+00:00"
+  "updated": "2026-11-01T23:37:58.826617+00:00"
 }
