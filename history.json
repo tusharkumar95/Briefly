@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-29T16:09:50.998259+00:00",
-      "changeSummary": {
-        "new": 6,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "ef6c3c3a66432d",
-          "cat": "World",
-          "title": "Russian drone strike kills 14 at Dnipro railway station",
-          "summary": "A Russian jet‑powered drone hit a crowded platform at Dnipro’s main railway station, killing at least 14 people and wounding another 14, including an 11‑year‑old boy. The strike occurred while a passenger train bound for Zaporizhzhia was at the platform. Ukrainian officials said an elevated threat level had been announced before the attack; Russia’s military has not commented and Moscow denies deliberately targeting civilians.",
-          "why": "The attack shows how Ukraine’s rail network and civilian hubs remain vulnerable in the ongoing conflict.",
-          "publishedAt": "2026-10-29T14:17:35+00:00",
-          "firstSeen": "2026-10-29T14:17:35+00:00",
-          "importanceScore": 14.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "64bbd39168dcf4",
-          "cat": "Indian Markets",
-          "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
-          "summary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-29T12:23:33+00:00",
-          "firstSeen": "2026-10-29T12:23:33+00:00",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-80000-after-fed-holds-rates-signals-possibility-of-further-tightening/articleshow/135309957.cms"
-        },
-        {
-          "id": "912c4596848618",
-          "cat": "India",
-          "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-29T15:54:18+00:00",
-          "firstSeen": "2026-10-29T15:54:18+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms"
-        },
-        {
-          "id": "e3a85b09c0b98e",
-          "cat": "India",
-          "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
-          "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. Sign In What's Included Exclusive Stories Daily ePaper Access Smart Market Tools Curated Investment Ideas Ad-lite Experience Subscription Agencies",
-          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-          "publishedAt": "2026-10-29T09:04:04+00:00",
-          "firstSeen": "2026-10-29T09:04:04+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
-        },
-        {
-          "id": "b841fed2ecacd6",
-          "cat": "Indian Markets",
-          "title": "Ambuja Cements’ profit slumps 90% on higher costs, high previous-year base",
-          "summary": "Ambuja Cements reported a 90% year-on-year profit decline to ₹236 crore in Q2 FY27 as rising fuel, logistics and operating costs squeezed margins. Ambuja Cements’ quarterly profit plunged 90% amid rising input costs and shrinking margins, while the company pursued cost reductions and renewable energy investments.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-29T14:54:27+00:00",
-          "firstSeen": "2026-10-29T14:54:27+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ambuja-cements-profit-slumps-90-on-higher-costs-high-previous-year-base/articleshow/135320851.cms"
-        },
-        {
-          "id": "4301dc4cd64642",
-          "cat": "India",
-          "title": "Indian trade minister says US deal will protect all sensitive Indian interests",
-          "summary": "Trade Minister Piyush Goyal stated that a pending trade agreement with the United States would safeguard all sensitive Indian interests. The comment was reported by The Economic Times. The article did not provide details on the deal’s specific terms, sectors covered, or concrete commitments.",
-          "why": "The statement highlights India’s emphasis on national‑security considerations in trade negotiations, which could shape the tone of future US‑India economic talks.",
-          "publishedAt": "2026-10-29T13:47:53+00:00",
-          "firstSeen": "2026-10-29T13:47:53+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-29T21:09:34.282979+00:00",
       "changeSummary": {
         "new": 3,
@@ -1617,17 +1499,23 @@
           "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
         }
       ]
-    }
-  ],
-  "events": {
-    "92fba8d7bf89f9": {
-      "id": "92fba8d7bf89f9",
-      "firstSeen": "2026-10-25T14:39:47+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-11-01T19:43:32.823382+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 0,
+        "continuing": 1
+      },
+      "stories": [
         {
-          "at": "2026-10-25T16:25:56.083663+00:00",
-          "title": "Gabon lifts eight‑month social‑media ban",
-          "summary": "Gabon’s High Communication Authority announced on Saturday that the government has ended the social‑media block that began on 17 February. Authorities said the ban was intended to curb online content they claimed was fuelling conflict and deepening divisions. During the ban many users accessed platforms via VPNs.",
+          "id": "2c2c91d09f6f49",
+          "cat": "World",
+          "title": "Armed police begin patrols in Sydney after Bondi Beach shooting",
+          "summary": "Heavily‑armed officers from New South Wales’ Armed Response Command have started patrolling Sydney’s streets and tourist precincts with long‑arm rifles. The deployment follows the December mass shooting at Bondi Beach that killed fifteen people, including a ten‑year‑old girl. Police say the units will also patrol major events such as sports matches and places of worship to deter and respond quickly to serious threats.",
+          "why": "It represents a notable escalation in public‑security tactics after Australia’s deadliest mass shooting in decades.",
+          "publishedAt": "2026-11-01T17:56:47+00:00",
+          "firstSeen": "2026-11-01T17:56:47+00:00",
           "importanceScore": 13.7,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
@@ -1635,29 +1523,49 @@
           "confidence": "high",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "at": "2026-10-25T19:39:43.521031+00:00",
-          "title": "Gabon lifts eight‑month social‑media ban",
-          "summary": "Gabon’s High Communication Authority announced on Saturday that the nationwide ban on social‑media platforms, imposed on 17 February, has been lifted. The ban had been justified by authorities as a response to online content they said was fueling conflict and deepening divisions. During the restriction many users resorted to VPNs to access the sites.",
-          "importanceScore": 12.7,
+          "id": "807707934f5625",
+          "cat": "Canada",
+          "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-01T17:14:12+00:00",
+          "firstSeen": "2026-11-01T17:14:12+00:00",
+          "importanceScore": 13.4,
           "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/"
+        },
+        {
+          "id": "3f5fed73397a92",
+          "cat": "AI",
+          "title": "Judge lets NAACP lawsuit over xAI data‑center emissions proceed",
+          "summary": "A federal judge denied xAI’s motion to dismiss an NAACP‑led suit that alleges the company installed and operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, in violation of the Clean Air Act. The Southern Environmental Law Center, representing the NAACP, argued the turbines are not “mobile sources” under Mississippi law, and Judge Debra M. Brown affirmed the plaintiffs have statutory standing and that the citizen‑suit claim is constitutional.",
+          "why": "The decision lets the lawsuit continue, which could require xAI to obtain permits and address alleged air‑pollution violations.",
+          "publishedAt": "2026-10-31T21:17:03+00:00",
+          "firstSeen": "2026-10-31T21:17:03+00:00",
+          "importanceScore": 9.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
           "lifecycle": "Continuing",
           "changed": false,
-          "change": "No material change since the previous brief."
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
         }
-      ],
-      "lastSeen": "2026-10-25T19:39:43.521031+00:00",
-      "cat": "World",
-      "latestTitle": "Gabon lifts eight‑month social‑media ban",
-      "latestSummary": "Gabon’s High Communication Authority announced on Saturday that the nationwide ban on social‑media platforms, imposed on 17 February, has been lifted. The ban had been justified by authorities as a response to online content they said was fueling conflict and deepening divisions. During the restriction many users resorted to VPNs to access the sites.",
-      "why": "Restoring social‑media access restores a key channel for information, communication and civic engagement.",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss"
-    },
+      ]
+    }
+  ],
+  "events": {
     "7e28f982b25480": {
       "id": "7e28f982b25480",
       "firstSeen": "2026-10-25T08:27:13+00:00",
@@ -4819,15 +4727,78 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-01T19:43:32.823382+00:00",
+          "title": "Judge lets NAACP lawsuit over xAI data‑center emissions proceed",
+          "summary": "A federal judge denied xAI’s motion to dismiss an NAACP‑led suit that alleges the company installed and operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, in violation of the Clean Air Act. The Southern Environmental Law Center, representing the NAACP, argued the turbines are not “mobile sources” under Mississippi law, and Judge Debra M. Brown affirmed the plaintiffs have statutory standing and that the citizen‑suit claim is constitutional.",
+          "importanceScore": 9.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-01T15:13:07.692182+00:00",
+      "lastSeen": "2026-11-01T19:43:32.823382+00:00",
       "cat": "AI",
-      "latestTitle": "Judge denies xAI motion to dismiss NAACP lawsuit over data‑center emissions",
-      "latestSummary": "A federal judge rejected xAI’s motion to dismiss a lawsuit brought by the NAACP and the Southern Environmental Law Center that alleges the SpaceX‑owned AI firm operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, violating the Clean Air Act. The decision affirmed the plaintiffs’ statutory standing and held that the turbines are not “mobile sources,” so the case will continue.",
-      "why": "The ruling lets the Clean Air Act claims proceed, keeping xAI’s permitting practices subject to judicial scrutiny.",
+      "latestTitle": "Judge lets NAACP lawsuit over xAI data‑center emissions proceed",
+      "latestSummary": "A federal judge denied xAI’s motion to dismiss an NAACP‑led suit that alleges the company installed and operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, in violation of the Clean Air Act. The Southern Environmental Law Center, representing the NAACP, argued the turbines are not “mobile sources” under Mississippi law, and Judge Debra M. Brown affirmed the plaintiffs have statutory standing and that the citizen‑suit claim is constitutional.",
+      "why": "The decision lets the lawsuit continue, which could require xAI to obtain permits and address alleged air‑pollution violations.",
       "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+    },
+    "2c2c91d09f6f49": {
+      "id": "2c2c91d09f6f49",
+      "firstSeen": "2026-11-01T17:56:47+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-01T19:43:32.823382+00:00",
+          "title": "Armed police begin patrols in Sydney after Bondi Beach shooting",
+          "summary": "Heavily‑armed officers from New South Wales’ Armed Response Command have started patrolling Sydney’s streets and tourist precincts with long‑arm rifles. The deployment follows the December mass shooting at Bondi Beach that killed fifteen people, including a ten‑year‑old girl. Police say the units will also patrol major events such as sports matches and places of worship to deter and respond quickly to serious threats.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-01T19:43:32.823382+00:00",
+      "cat": "World",
+      "latestTitle": "Armed police begin patrols in Sydney after Bondi Beach shooting",
+      "latestSummary": "Heavily‑armed officers from New South Wales’ Armed Response Command have started patrolling Sydney’s streets and tourist precincts with long‑arm rifles. The deployment follows the December mass shooting at Bondi Beach that killed fifteen people, including a ten‑year‑old girl. Police say the units will also patrol major events such as sports matches and places of worship to deter and respond quickly to serious threats.",
+      "why": "It represents a notable escalation in public‑security tactics after Australia’s deadliest mass shooting in decades.",
+      "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss"
+    },
+    "807707934f5625": {
+      "id": "807707934f5625",
+      "firstSeen": "2026-11-01T17:14:12+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-01T19:43:32.823382+00:00",
+          "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-01T19:43:32.823382+00:00",
+      "cat": "Canada",
+      "latestTitle": "Carney says Canada, U.S. working in coming weeks towards trade deal",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/"
     }
   },
-  "updated": "2026-11-01T15:13:07.692182+00:00"
+  "updated": "2026-11-01T19:43:32.823382+00:00"
 }
