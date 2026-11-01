@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T06:51:43.461922+00:00",
+  "updated": "2026-11-01T14:31:22.174100+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -31,36 +31,19 @@
     },
     "India": {
       "label": "India",
-      "headline": "Indian markets edge higher after US Fed rate hike",
+      "headline": "Nifty 50 rose 0.51%",
       "direction": "up",
       "move": "Nifty 50 +0.51%",
-      "why": "Markets traded marginally higher after the US Federal Reserve announced a rate hike, with investors also watching a pending NSE IPO.",
+      "why": "Same-day market coverage explicitly linked the final move to: rallying up to 2% last week? 4 factors to watch on Monday.",
       "drivers": [
         {
           "label": "rallying up to 2% last week? 4 factors to watch on Monday",
           "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
-        },
-        {
-          "label": "US Fed rate hike; NSE IPO in focus",
-          "detail": "DD News explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "IT Stocks Defy the Global Tech Rout",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "US Fed rate hike",
-          "detail": "The Federal Reserve’s decision to raise rates was cited as the immediate catalyst for the modest gains in both indices.",
-          "kind": "driver"
         }
       ],
-      "sectors": [
-        "Broad market"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -95,37 +78,37 @@
           "publishedAt": "2026-11-01T06:37:22+00:00"
         },
         {
-          "name": "Investment Guru India",
-          "title": "Nifty & Bank Nifty Weekly Outlook 31-10-2026 by Choice Broking Ltd - Investment Guru India",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUmhUUHNpeVAwMmZHRFZGVExjOURtY1NpYUVCODdpV1RVQ290TzlsazZKU2g0NFAySHBYRDcwVkw5dmtsSlRGMnV0THVhLXMtRmNFNlVfdjUyWGFaMk9lYnMwU19PdW5lbWlEeW1IWVlzNVR3VU9FN2NQYlp1Mkc1eHk3cUNkaXdBMGYzaHVPbHFVRU4weU9sOFpudDFnUVhQcW5ySnlkSXU2clE0QnlFdGJtRQ?oc=5",
-          "publishedAt": "2026-11-01T05:28:07+00:00"
+          "name": "CNBC TV18",
+          "title": "Nifty Outlook for November 2: Can the 23,200 hurdle give way to a rally towards 23,500 this week? - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbktiNWhVVXpaNERYOG9IZWxHMU54M2NUeFpad3A1WEdFUndSYXZ4R0Y0RXNSLU1GX256UjVpbnFZdTkxSDluUmpDSFNXbzNKZVNSOVFsOTVFY0pIWU1jMHVOVElMZndkcG1wZnRWaEtnTVFEUmhtZ3FwYU9jbno3OThNYjlFVk5lbVMzS1NLMHE0MDc4MTFRZU9hVTBadHQzeG54VzZKNkZyaU9GWEhrZzc2WEZ5Y1JGWDVibERUWEhIMTJKTy1nSFBRVUVreWdZQXpnUtIB2gFBVV95cUxPQzh0bUdXZWdXdXo2WGstcW1GVng4dThOWTlBbGZBWVVBbU1ObHZJdnZ5MUp0aWUxcjE3TXZrYjZvcFhSaHNYWTJXek1fM1pza2dzb1I4SUJ3ZXJKSWRMMl9sakY4OU1HWnVKMW1FOGRhTmRCSHBHTmhBU0xYWmVCNmRsSW5oT3JDald5UWZXTFZKbjVqWFJaNy1rZzF4NjBmeVIteFBRdVVaMnRGN2ROcnhxWG1qQWRKdlZYUWxnaERlX1RRVHBkVjBNNUtWQ21Xd190QVFNeDZpdw?oc=5",
+          "publishedAt": "2026-11-01T14:15:03+00:00"
         },
         {
-          "name": "DD News",
-          "title": "Stock markets trade marginally higher after US Fed rate hike; NSE IPO in focus - DD News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjhEMjNJeEx2ckRNZnFTcEFOSFpQTjhwY21Pc0dEOGJ3dGNBVk5UZjkwYzBNbVFyNVpKUjBjNFAxa2E2ZlZ1SU9KcnlnaWM0ZTRkVVpDaXphaGJDMjUzNjB6YWpCR29yWjl3U2xjMUhhbk45MkxWaWMzTmN4RFBaSFM3SFhydzhxS05kT095dG9fVWQzc1ZCNllVZXFqWDhzVkwxajF3?oc=5",
-          "publishedAt": "2026-11-01T03:19:46+00:00"
+          "name": "Livemint",
+          "title": "From Wall Street to D-Street: What history suggests for S&P 500 returns, impact on India stock market, Sensex, Nifty - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPV0xyZVNiYVppTzN2MWxhaUt0MnBDUjVfcFRsQXBIaGVZNjBPT2R5SHRvX2JCem1FMjdoSUxmRTFObGxkbzBkZVdjRWxUSXVtV0RJdlo1MUF5NUxrRmg4NmpnR0RVaEl5eGpSUWxtZzRTM2hKRDVzZGR6VkkySnEyOXhPQlJuVmtPUjByV2drQnBuQ1N0UHVaa2dZN0YtQ0lpejhHNEJTMzlPSGphaTk2RHVyTUk0aWhWU3UxTWRxM0pmQW9zbmYxci1lUFFFMS1NaVh2c1JKSWNqbDNjWEthSUtyeXdQWGR3MGtsZ25WTGpLUXQxUkg4RDQwb2RwU1YzcHg1Mk9QOWliXzN3c3Nr0gGUAkFVX3lxTE9NakJ3M3dtd2MwcnRKUk5mQjFCcVJhQ3hJbDFtaklxbnExcUxFcVVtS3lkZDlHVUJtLTAzMExpQWxUWTZOeUdWaUxCZTI3NnY2cmxlemY0dW5qRmtyRWhPVnlxTlpWNGtNdkFfTndqSHFzZTZIZTdOZDdUQlVFTTJQclB5ZmI0blI4QmtMTlUzS1M0b3I5YXF2dTBsSEMwTHV4cXVSRnB1TTFZVFFwajVsZG5hX1U3d1VNSjZuMVdMX1B4QkJBeEEtWG1zQ0d3QjFPcWp5ZGpBUjZneTZPMjNZMFN1R2VsSnRxUmNXT253SHFXcUFRZDYzVTZ1MnZheWs1eDhneW1YT0lQVnhmVDR5YWRpbQ?oc=5",
+          "publishedAt": "2026-11-01T11:24:55+00:00"
         },
         {
-          "name": "DD India",
-          "title": "Sensex ends in red on selling in IT stocks, rising crude oil prices - DD India",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHdjeTlxY29wcTBTRVJKZlg0eklLVDZXX005c3AxOG1ueDdXV0NmcWJHNVFIaXBlX2FUaVI3SUhqaUY2RG9rc2JqWmppVnhPQzlPdjY5ODFFajZ2X0xLMnNwYWNIZXlXX205aTBRTm40WnJncDNOeFRPdWU4ZzhjNlVQSUNoWkxaSEZNU0E0aXAzZzlNalhkRWc1M1NXUQ?oc=5",
-          "publishedAt": "2026-10-31T16:21:55+00:00"
+          "name": "Livemint",
+          "title": "Stock market prediction Nov 2-6 week: Nifty, Sensex rebound from losses - Will bulls deliver a Diwali bonanza? Outlook - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZ3RiTUhTdmJRYzZZUUZqVG81ZWI3c0pQRUcyUW5sdFdhMzNHdW53T1ZTblVxOC00YUNsbzBiUF83eF91YWZpWVlaLWY5YlhjRUV4dzVyWUtpZjFObzBVWVBiNmZLNmtRMnlIRFFVb0lBZnFFNlM3U3VtMU1vYTZNNHp5Uy1qQzBnZ2ZEOVhKaU0wSThsNnVELVo4dFhsWFFyWVhDaHFVOUtmWVlDQldJUTl4ZVZNbFBLVm9MS3hBWmRRUUJLLVdnS2lvdlpKSDdkaDl2eXBTRWcxMHdWYVhxQW1KWDFvQjhHNlZHeUEtck1ZSFI4MUdGalRzTFgyTkRpbFh5WWJqcXZ4dlFJMkVPctIBlgJBVV95cUxNa202ZkZSQjFObUJrclVTOXlMVHRkVjBBX1N1QVR4UktMM1FIVEVKMTh5bW5naW5WYXg1UUljMTNkNlVyRzF0N1BON3hBVGlEcUFrcWk1WkU0VFUwZ2NtWjZzbWV3cDZ1bzEwbnVldmZHMzcteDFVRkk4QkE5elN6b3pZZXQwWDBoNnMxb1pINE40Sm8xYzFVc1BkRThGX3ctakUyWm9TLUtnb0NibDZNOXhqT01OOVJMeGJ0eENoMnFTaVVocWp3M3VJNjV3SldidXRMbk5DWGZYdFZLXzNBYndTd242c3JfTEVEYk5Td05CbXR4bXg3Qy16VHBPWkVhQlJUUWpaTFNwV3oxUUI5MkhUeDA0UQ?oc=5",
+          "publishedAt": "2026-10-31T15:11:02+00:00"
         },
         {
-          "name": "NDTV Profit",
-          "title": "Auto, Oil & Gas Stocks Drive Sensex Higher; Nifty Settles at 7,709 - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONmFjakNfNEoxY3JVTmp4ai1aUl9DZklkUXhaeUlmb3ZTNW4xVGVjUWN5WkpjWS1zSGVKZWdYQktfQzVKMHF6anN2eWk0ZjdXaktob0tqbF9GSVl6OTJwYlE4d2pJN2h2NWp2dU1Ua0lXS1M3UGZUUVdIS3ZxMzZTNk1OaHYySlVyMmlNeTYtb3ROaE03Wi1GMFNkbzFpV28xMG5faDZ6eF9mWU1tOGc?oc=5",
-          "publishedAt": "2026-10-31T14:54:49+00:00"
+          "name": "Liquide Blog",
+          "title": "Share Market News: Nifty 50 Outlook & Prediction - Liquide Blog",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeVc1Wm5pRHZKQ2RzSTRkMnZoSmMzQ3BBQlBubHRuOFJ0ekxENlVlZFoyMGEzNGZRMjEyMDdQYTI1bTFrTTBCNm1POEd3dXVMdDM3RTh3MnhfbmQ5bTlQeTVHajlLTElzcl9XTjdaYlVlSjdlQm1yQ2QwSzVyQ3Qyc09qR21jQWZpc3J0N2xsbExoaUEzVkJza0lR?oc=5",
+          "publishedAt": "2026-11-01T14:15:00+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Rises to 74,459.53 as IT Stocks Defy the Global Tech Rout - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMnFmRldDMzd3TnpFc0hrV1lTT1Z6VWJiMWtiTVE3LWwwcl9FX1NaT0l0dkw4Y0V0bVdRN2xCWDVHM29HS3pFbnZ4ZU5YYW5YRFBadU1VVV9URmJLZFZ0RGtYdUUwVGhqdlZLOHM0c2tjMnNERTlDMnRSN2Ztbk5rWm9fSTlaeXQ0VVh1VGpsaHVENGFNd0ZMVXZyaG4wNUROMnJTOGVISWxiMXRn?oc=5",
-          "publishedAt": "2026-10-31T10:53:29+00:00"
+          "name": "Moneycontrol.com",
+          "title": "Chartist Talk: Can confident bulls drive Nifty 50 beyond 23,500 next week? Sudeep Shah spots bullish... - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNeUZCQ1BKLURoM3VzWGFkWE5FSkZDTUNVaVJXeWI0bkswRDhiYXZqYy01aVphZERGVnpzSFpFRVVxbHpMOTNiOHYxc0pqTlJWVEFDang3d0RnNlNSRUVhOTh2cHp6bmFyNTNBVy1ZZ2NOc21OVnRqY2RYeXVnbEVmSlhHMm55OENhTmZHMnNGT2lQaEQzVnVrRnpJT3lUMkw2UFJFdDF2Y3F3ajBKQWRyT0NOc1dZVWhpNVZMLXRqeVhpZjdnVnMyQTdaVnZQdDJRVmFIY3pPZ3ViNVdCWGhjazBkbUFCMk9NdkdGRV9BZWpfdzQxSjVwU1l2NkltLUxOSkxoTklFV1kyNU1TT1Jaa0pB0gGXAkFVX3lxTE1XS3JwVXlpWExRN29BOHV0U3JYQld4ZVFJM1JFX2EtRzNYcElKdzVaNklrQnJkWTQ2OHRnTHFwQ2pqeVRRMF9RN3BWLWdkT3Q4cFlRUnpfWnk2dWF4Z21YQ01PZlNNY1FqY0Q5a2R3ZnBZRnpfMHNqUHZlcURzXzZfTnNqWUZjWVdOSE5SWTZpMHNMbWlHVTc5ZWZoT3l1bmNCZ3NyeG9RUnhLZ0NDZWxrN01RUDdWeGpodnJrd09xbmVlcnZYSUl1dlloR3pvMnVMQUZFQllmSlpUcmRFdlhpMmRxT192aXE3bzM4M3pkRXFaQlJqVWRCNDVQSHJsSzBGT2F0VmtvU2V6eEhCeDkxeS11Tktvcw?oc=5",
+          "publishedAt": "2026-11-01T01:16:02+00:00"
         }
       ],
-      "evidenceCount": 7
+      "evidenceCount": 6
     }
   }
 }
