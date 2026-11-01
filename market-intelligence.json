@@ -1,21 +1,15 @@
 {
-  "updated": "2026-10-31T23:44:58.086789+00:00",
+  "updated": "2026-11-01T06:51:43.461922+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "Canada shares lower as S&P/TSX Composite falls 1.74%",
+      "headline": "S&P/TSX Composite fell 1.74%",
       "direction": "down",
       "move": "S&P/TSX Composite -1.74%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
-      "drivers": [
-        {
-          "label": "Canada shares lower at close of trade; S&P/TSX Composite down 1.74% By Investing.com",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        }
-      ],
+      "drivers": [],
       "sectors": [],
       "confidence": "low",
       "primaryIndex": {
@@ -32,36 +26,41 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
-      "sources": [
-        {
-          "name": "Investing.com India",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 1.74% By Investing.com - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdnNta1RPQk5pMmFsYmljbUtHTDNyeGdQWW9Rd0xEdURpR3ZaOHhaVnJoaHZESi1CaF90M285YzdRaTdhaXRkMV84YVNjRHducTVMZjJRVFQtTHlKY0pxRnEtMTBqWjhtR2lneGppa3ozaVpDb0ttdDg3ekpXbXNta3hYU0tqQy1sUGJsTnE1WjdHbzNUNkpzeWJIYU9vbndhbDJRWkNoRHdldndjdm4wYkxwcWtnd1NKd3c?oc=5",
-          "publishedAt": "2026-10-31T00:01:57+00:00"
-        }
-      ],
-      "evidenceCount": 1
+      "sources": [],
+      "evidenceCount": 0
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.51%",
+      "headline": "Indian markets edge higher after US Fed rate hike",
       "direction": "up",
       "move": "Nifty 50 +0.51%",
-      "why": "Same-day market coverage explicitly linked the final move to: IT Stocks Defy the Global Tech Rout; falling crude, easing geopolitical tension boost market sentiment.",
+      "why": "Markets traded marginally higher after the US Federal Reserve announced a rate hike, with investors also watching a pending NSE IPO.",
       "drivers": [
+        {
+          "label": "rallying up to 2% last week? 4 factors to watch on Monday",
+          "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "US Fed rate hike; NSE IPO in focus",
+          "detail": "DD News explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "IT Stocks Defy the Global Tech Rout",
           "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "falling crude, easing geopolitical tension boost market sentiment",
-          "detail": "DD News explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "US Fed rate hike",
+          "detail": "The Federal Reserve’s decision to raise rates was cited as the immediate catalyst for the modest gains in both indices.",
           "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "medium",
+      "sectors": [
+        "Broad market"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -90,40 +89,40 @@
       },
       "sources": [
         {
+          "name": "The Economic Times",
+          "title": "Can Nifty, Sensex extend gains after rallying up to 2% last week? 4 factors to watch on Monday - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdzZqby1tUXlQQmJVTGsweUxROElpc0d2R3dWOUlqRDd2NURvTTF3TlZPcjVrLU9OMVRVTlR4elFBZlMtUW1FY2ZQTk5qS0xYdWZGR3ZrVFN4RHF3c0diazFsdzNSYldIejdDUzFTMDNuOXZsZGs5YjB6aDRMU1hEOHBSR1I1TGQ2YnJwVXo4dkRlOWFTVHNVSXBOYktoZ0hGaXpLdlh6SDZrVVIySWVwSTlJUUt5czc1UVJzcE5icHZ5X3ZrYUJraUxQZGktNHNYRU9HcWVBT1NzNC1fYjdBVXlXQXJ0RS1uVEhEMEF4c2lMbXJ5czlIbdIB_gFBVV95cUxOczFHeFpmSWo1T2JOb0dxR2FGcVgtZGhmWk96MVNuWXFjdWFDdGl6X3Z4Z0l2bjlmelZvSkQ4VnVjbVM2Z3YwR0ctRGJ1WVNud2tRQkpERmludGwxV3UtV2puTnRZeC0zOTJ6ejZTcWRndmw1T0xfcTlTTzFYUmRRY3huZksyZ19NN2d6NjB5ei1ORy1CQ3J5T3dHbnluR0pPeXlRbnpHYkwwVlRpNUJra0N3SHNwYXlHTEstRmdwRUJHRzA3cW42VFBzV09vczFBSlZWc1VaT2lnZ0xhb2tjRG1QMy1qVFk3cUgtQnQ2ZTVjTGRkMEUzWHB3MEVnQQ?oc=5",
+          "publishedAt": "2026-11-01T06:37:22+00:00"
+        },
+        {
+          "name": "Investment Guru India",
+          "title": "Nifty & Bank Nifty Weekly Outlook 31-10-2026 by Choice Broking Ltd - Investment Guru India",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUmhUUHNpeVAwMmZHRFZGVExjOURtY1NpYUVCODdpV1RVQ290TzlsazZKU2g0NFAySHBYRDcwVkw5dmtsSlRGMnV0THVhLXMtRmNFNlVfdjUyWGFaMk9lYnMwU19PdW5lbWlEeW1IWVlzNVR3VU9FN2NQYlp1Mkc1eHk3cUNkaXdBMGYzaHVPbHFVRU4weU9sOFpudDFnUVhQcW5ySnlkSXU2clE0QnlFdGJtRQ?oc=5",
+          "publishedAt": "2026-11-01T05:28:07+00:00"
+        },
+        {
+          "name": "DD News",
+          "title": "Stock markets trade marginally higher after US Fed rate hike; NSE IPO in focus - DD News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjhEMjNJeEx2ckRNZnFTcEFOSFpQTjhwY21Pc0dEOGJ3dGNBVk5UZjkwYzBNbVFyNVpKUjBjNFAxa2E2ZlZ1SU9KcnlnaWM0ZTRkVVpDaXphaGJDMjUzNjB6YWpCR29yWjl3U2xjMUhhbk45MkxWaWMzTmN4RFBaSFM3SFhydzhxS05kT095dG9fVWQzc1ZCNllVZXFqWDhzVkwxajF3?oc=5",
+          "publishedAt": "2026-11-01T03:19:46+00:00"
+        },
+        {
           "name": "DD India",
           "title": "Sensex ends in red on selling in IT stocks, rising crude oil prices - DD India",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHdjeTlxY29wcTBTRVJKZlg0eklLVDZXX005c3AxOG1ueDdXV0NmcWJHNVFIaXBlX2FUaVI3SUhqaUY2RG9rc2JqWmppVnhPQzlPdjY5ODFFajZ2X0xLMnNwYWNIZXlXX205aTBRTm40WnJncDNOeFRPdWU4ZzhjNlVQSUNoWkxaSEZNU0E0aXAzZzlNalhkRWc1M1NXUQ?oc=5",
           "publishedAt": "2026-10-31T16:21:55+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "Stock market prediction Nov 2-6 week: Nifty, Sensex rebound from losses - Will bulls deliver a Diwali bonanza? Outlook - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZ3RiTUhTdmJRYzZZUUZqVG81ZWI3c0pQRUcyUW5sdFdhMzNHdW53T1ZTblVxOC00YUNsbzBiUF83eF91YWZpWVlaLWY5YlhjRUV4dzVyWUtpZjFObzBVWVBiNmZLNmtRMnlIRFFVb0lBZnFFNlM3U3VtMU1vYTZNNHp5Uy1qQzBnZ2ZEOVhKaU0wSThsNnVELVo4dFhsWFFyWVhDaHFVOUtmWVlDQldJUTl4ZVZNbFBLVm9MS3hBWmRRUUJLLVdnS2lvdlpKSDdkaDl2eXBTRWcxMHdWYVhxQW1KWDFvQjhHNlZHeUEtck1ZSFI4MUdGalRzTFgyTkRpbFh5WWJqcXZ4dlFJMkVPctIBlgJBVV95cUxNa202ZkZSQjFObUJrclVTOXlMVHRkVjBBX1N1QVR4UktMM1FIVEVKMTh5bW5naW5WYXg1UUljMTNkNlVyRzF0N1BON3hBVGlEcUFrcWk1WkU0VFUwZ2NtWjZzbWV3cDZ1bzEwbnVldmZHMzcteDFVRkk4QkE5elN6b3pZZXQwWDBoNnMxb1pINE40Sm8xYzFVc1BkRThGX3ctakUyWm9TLUtnb0NibDZNOXhqT01OOVJMeGJ0eENoMnFTaVVocWp3M3VJNjV3SldidXRMbk5DWGZYdFZLXzNBYndTd242c3JfTEVEYk5Td05CbXR4bXg3Qy16VHBPWkVhQlJUUWpaTFNwV3oxUUI5MkhUeDA0UQ?oc=5",
-          "publishedAt": "2026-10-31T15:11:02+00:00"
+          "name": "NDTV Profit",
+          "title": "Auto, Oil & Gas Stocks Drive Sensex Higher; Nifty Settles at 7,709 - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONmFjakNfNEoxY3JVTmp4ai1aUl9DZklkUXhaeUlmb3ZTNW4xVGVjUWN5WkpjWS1zSGVKZWdYQktfQzVKMHF6anN2eWk0ZjdXaktob0tqbF9GSVl6OTJwYlE4d2pJN2h2NWp2dU1Ua0lXS1M3UGZUUVdIS3ZxMzZTNk1OaHYySlVyMmlNeTYtb3ROaE03Wi1GMFNkbzFpV28xMG5faDZ6eF9mWU1tOGc?oc=5",
+          "publishedAt": "2026-10-31T14:54:49+00:00"
         },
         {
           "name": "BBN Times",
           "title": "BSE SENSEX Rises to 74,459.53 as IT Stocks Defy the Global Tech Rout - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMnFmRldDMzd3TnpFc0hrV1lTT1Z6VWJiMWtiTVE3LWwwcl9FX1NaT0l0dkw4Y0V0bVdRN2xCWDVHM29HS3pFbnZ4ZU5YYW5YRFBadU1VVV9URmJLZFZ0RGtYdUUwVGhqdlZLOHM0c2tjMnNERTlDMnRSN2Ztbk5rWm9fSTlaeXQ0VVh1VGpsaHVENGFNd0ZMVXZyaG4wNUROMnJTOGVISWxiMXRn?oc=5",
           "publishedAt": "2026-10-31T10:53:29+00:00"
-        },
-        {
-          "name": "DD News",
-          "title": "Sensex, Nifty open higher as falling crude, easing geopolitical tension boost market sentiment - DD News",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWZ0QXNSVjlaX1pwQ0hscFRZb2FfeVpEd2JHaTNZcEZJZXdwckoxaXlINllmRFlKS0tLS2dkSmJIZTdRQk1INDNOTFE0YzBLc1ZiRVI3RDBOczNnVTVWNFFYNThUcW84UWRXRTI5bkYwWW9FNUpROXdpYzNLby14a3BZNWVRNHEyU3l4QmRWdDd4Z2hMcmp3ODdEcmgyNXdZdzl0SHk1czdrM3FUN2NwS0wyc2plM0FDemc?oc=5",
-          "publishedAt": "2026-10-31T09:10:20+00:00"
-        },
-        {
-          "name": "DD News",
-          "title": "Sensex falls 493 points, Nifty declines for sixth straight day as crude oil rises to USD 91/barrel - DD News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ0lnU29yZlJqaVpOWmlzNTc0XzJLUVpZZHh4VnNJSXdkV3FLN0hnS3NURjlnY3VwNHc4dlJ1dG90d0JyODQ5aENvaVZadlY2RzFJbGRZWlB1OWI0S0RZWjVlNEJlbzRlMHlGakFyY0xkdlR1dE1xV2pWdHhuX1NsZXA0MFU3Z0dVa29BU1hMblpFSUlkMzQ1bkhKMXBQQzZ6ZXdOYklraHNoWDNlQWRram9KUF9Qa21JTU5QWloxb1M?oc=5",
-          "publishedAt": "2026-10-31T09:10:01+00:00"
-        },
-        {
-          "name": "DD News",
-          "title": "Sensex, Nifty slide nearly 1% as crude oil prices surge amid Iran conflict - DD News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS1BCT3dwVkVjQ2QyVU8xQ2VFYkVIV1RhUnUzeDY1R01OUzBJSGd3cmdPZVdsajN2WHRWQ2VKaEtJU1V2Tmd0dklfSXl2QkQ5OGk1dEEzZGo3YUJqRHBiUDl1bENkZHlWbXR4RzRqQ2F2SlM2Sm41SXV5MmtNUUk4WTU3bzg4M1U3TEZRWjBXX0hFMXBZYTUweUxRTXhaVDA?oc=5",
-          "publishedAt": "2026-10-31T08:18:40+00:00"
         }
       ],
       "evidenceCount": 7
