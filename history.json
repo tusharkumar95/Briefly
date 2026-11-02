@@ -3,142 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-30T01:03:23.939167+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 0,
-        "continuing": 3
-      },
-      "stories": [
-        {
-          "id": "dbdfed641c3a27",
-          "cat": "Indian Markets",
-          "title": "Advance‑decline ratio hits seven‑month low as market breadth weakens",
-          "summary": "The advance‑decline ratio fell to its lowest level in seven months, signalling a weakening in market breadth. The metric, which compares the number of advancing stocks to declining ones, dropped sharply, indicating that a smaller proportion of stocks were moving higher. This contraction in breadth points to limited participation across the market.",
-          "why": "Thin breadth can signal underlying vulnerability in market moves.",
-          "publishedAt": "2026-10-30T00:23:50+00:00",
-          "firstSeen": "2026-10-30T00:23:50+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-breadth-hits-seven-month-low-despite-nifty-sensex-gains/articleshow/135336784.cms"
-        },
-        {
-          "id": "38aa4ff285f525",
-          "cat": "Indian Markets",
-          "title": "G‑Sec 10‑year yields dip 5 bps to 7.39 % on Fed signals",
-          "summary": "India's 10‑year government bond yield slipped by five basis points, ending at 7.39 percent. The Economic Times article links the decline to recent signals from the U.S. Federal Reserve suggesting a more accommodative monetary stance. No additional causes are mentioned in the source.",
-          "why": "A lower yield may ease borrowing costs for Indian issuers and shift sentiment in the domestic bond market.",
-          "publishedAt": "2026-10-30T00:26:03+00:00",
-          "firstSeen": "2026-10-30T00:26:03+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/g-sec-10-year-yields-come-down-5-bps-to-7-39-on-fed-signals/articleshow/135335834.cms"
-        },
-        {
-          "id": "676ba82d07b4b9",
-          "cat": "World",
-          "title": "Ethiopia receives 12 Russian Su‑35 jets, plans S‑400 air‑defence purchase",
-          "summary": "Ethiopia has taken delivery of twelve Su‑35 fighter jets from Russia while fighting intensifies in northern Tigray near Eritrea. Prime Minister Abiy Ahmed, speaking at the Russia‑Africa summit, called the delivery a “milestone” for Ethiopia’s defence capacity. He also said Ethiopia intends to buy four S‑400 air‑defence systems from Moscow.",
-          "why": "The new aircraft and planned air‑defence systems could significantly strengthen Ethiopia’s military and affect regional security dynamics.",
-          "publishedAt": "2026-10-29T08:23:31+00:00",
-          "firstSeen": "2026-10-29T08:23:31+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "912c4596848618",
-          "cat": "India",
-          "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-29T15:54:18+00:00",
-          "firstSeen": "2026-10-29T15:54:18+00:00",
-          "importanceScore": 11.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms"
-        },
-        {
-          "id": "e3a85b09c0b98e",
-          "cat": "India",
-          "title": "India finance ministry projects 7.35% GDP growth in Q2 FY27",
-          "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in the second quarter of fiscal year 2027, after a 7.8% increase in the previous quarter. The projection attributes the growth to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
-          "why": "The forecast indicates the near‑term pace of economic activity, informing policymakers, investors and businesses.",
-          "publishedAt": "2026-10-29T09:04:04+00:00",
-          "firstSeen": "2026-10-29T09:04:04+00:00",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
-        },
-        {
-          "id": "4301dc4cd64642",
-          "cat": "India",
-          "title": "US trade deal will protect all sensitive Indian interests, says Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal said India’s trade deal with the US would protect sensitive interests, including those of farmers, and give the country a competitive advantage. He criticised opposition parties for questioning the agreement before its details were released, while defending India’s trade strategy and its decision to stay out of RCEP.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-10-29T13:47:53+00:00",
-          "firstSeen": "2026-10-29T13:47:53+00:00",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms"
-        },
-        {
-          "id": "401f6ab4f8e9f7",
-          "cat": "AI",
-          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-          "summary": "French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves. However, Mistral’s model uses 47 percent fewer tokens per task, making it significantly more economical than GLM-5.3.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-29T17:00:00+00:00",
-          "firstSeen": "2026-10-29T17:00:00+00:00",
-          "importanceScore": 10.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
-        }
-      ]
-    },
-    {
       "at": "2026-10-30T07:10:13.254722+00:00",
       "changeSummary": {
         "new": 1,
@@ -1489,6 +1353,88 @@
           "changed": true,
           "change": "New high-signal event entered the brief.",
           "url": "https://economictimes.indiatimes.com/markets/stocks/news/good-intentions-unintended-consequences-the-cost-of-regulation/articleshow/135422850.cms"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-02T06:11:04.903800+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 2,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "de8d95a0bcc635",
+          "cat": "India",
+          "title": "China tightens export controls on tunnel‑boring machines, could affect Indian projects",
+          "summary": "China announced tighter export controls on tunnel‑boring machines and other specialised construction equipment. The move raises concerns that Indian infrastructure projects, especially those near the disputed Himalayan border, may face delays or higher costs. Analysts note that China's dominant position in this equipment market gives Beijing leverage over those projects.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-02T03:45:33+00:00",
+          "firstSeen": "2026-11-02T03:45:33+00:00",
+          "importanceScore": 14.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms"
+        },
+        {
+          "id": "2c2c91d09f6f49",
+          "cat": "World",
+          "title": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
+          "summary": "New South Wales police have deployed the Armed Response Command, sending specially trained officers with long‑arm rifles to patrol busy tourist areas, major sporting events and places of worship in Sydney. The deployment follows the December Bondi Beach attack in which two gunmen killed 15 people, including a 10‑year‑old girl, during a Hanukkah celebration. The shooting, Australia’s worst mass shooting in almost three decades, prompted sweeping gun‑law reforms and a crackdown on hate speech.",
+          "why": "The patrols are intended to deter and quickly respond to armed threats in high‑profile public spaces.",
+          "publishedAt": "2026-11-01T17:56:47+00:00",
+          "firstSeen": "2026-11-01T17:56:47+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "3e566da6217c6a",
+          "cat": "AI",
+          "title": "OpenAI may rename data centers as “AI compute campuses”",
+          "summary": "Axios reports that OpenAI is considering rebranding its data centers as “AI compute campuses” and is planning a public‑relations push after the upcoming midterm elections, which are expected to shift control of Congress to Democrats. Chief global affairs officer Chris Lehane told Axios the midterms will act like a “movie trailer” for the role AI will play in the 2028 presidential election.",
+          "why": "The naming change could shape how OpenAI presents its infrastructure to policymakers and the public ahead of heightened political scrutiny.",
+          "publishedAt": "2026-11-01T21:55:23+00:00",
+          "firstSeen": "2026-11-01T21:55:23+00:00",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+        },
+        {
+          "id": "807707934f5625",
+          "cat": "Canada",
+          "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
+          "summary": "and Canada will be working in the coming weeks to deliver a “mutually beneficial” trade deal after a conversation with President Donald Trump. “This builds on our recent constructive discussions on the outlines of a mutually beneficial trade deal that would create jobs for our workers, boost affordability for families, and fully respect Canada’s languages, culture, and sovereignty,” Carney said.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-01T17:14:12+00:00",
+          "firstSeen": "2026-11-01T17:14:12+00:00",
+          "importanceScore": 10.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/"
         }
       ]
     }
@@ -4681,13 +4627,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-02T06:11:04.903800+00:00",
+          "title": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
+          "summary": "New South Wales police have deployed the Armed Response Command, sending specially trained officers with long‑arm rifles to patrol busy tourist areas, major sporting events and places of worship in Sydney. The deployment follows the December Bondi Beach attack in which two gunmen killed 15 people, including a 10‑year‑old girl, during a Hanukkah celebration. The shooting, Australia’s worst mass shooting in almost three decades, prompted sweeping gun‑law reforms and a crackdown on hate speech.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-01T23:37:58.826617+00:00",
+      "lastSeen": "2026-11-02T06:11:04.903800+00:00",
       "cat": "World",
       "latestTitle": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
-      "latestSummary": "Heavily‑armed officers from the New South Wales Armed Response Command have started patrolling Sydney’s busy tourist precincts, major events and places of worship, carrying long‑arm rifles. The deployment follows the December 2023 Bondi Beach shooting in which two gunmen killed fifteen people, including a ten‑year‑old girl, during a Hanukkah gathering. Police say the patrols aim to prevent, deter and quickly respond to serious threats such as active‑shooter incidents.",
-      "why": "It demonstrates the government’s direct response to Australia’s worst mass shooting in decades and the heightened focus on preventing hate‑motivated violence.",
+      "latestSummary": "New South Wales police have deployed the Armed Response Command, sending specially trained officers with long‑arm rifles to patrol busy tourist areas, major sporting events and places of worship in Sydney. The deployment follows the December Bondi Beach attack in which two gunmen killed 15 people, including a 10‑year‑old girl, during a Hanukkah celebration. The shooting, Australia’s worst mass shooting in almost three decades, prompted sweeping gun‑law reforms and a crackdown on hate speech.",
+      "why": "The patrols are intended to deter and quickly respond to armed threats in high‑profile public spaces.",
       "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss"
     },
     "807707934f5625": {
@@ -4719,13 +4678,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-02T06:11:04.903800+00:00",
+          "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
+          "summary": "and Canada will be working in the coming weeks to deliver a “mutually beneficial” trade deal after a conversation with President Donald Trump. “This builds on our recent constructive discussions on the outlines of a mutually beneficial trade deal that would create jobs for our workers, boost affordability for families, and fully respect Canada’s languages, culture, and sovereignty,” Carney said.",
+          "importanceScore": 10.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-01T23:37:58.826617+00:00",
+      "lastSeen": "2026-11-02T06:11:04.903800+00:00",
       "cat": "Canada",
       "latestTitle": "Carney says Canada, U.S. working in coming weeks towards trade deal",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Anonymous November 1, 2026 at 6:23 pm Yesterday Carney said Canada can wait until 2029 when Trump will be gone to make a deal with the US.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "latestSummary": "and Canada will be working in the coming weeks to deliver a “mutually beneficial” trade deal after a conversation with President Donald Trump. “This builds on our recent constructive discussions on the outlines of a mutually beneficial trade deal that would create jobs for our workers, boost affordability for families, and fully respect Canada’s languages, culture, and sovereignty,” Carney said.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/"
     },
     "d60d59f47eb43d": {
@@ -4777,7 +4749,57 @@
       "latestSummary": "Regulation is vital for protecting consumers and building trust, but unpredictable or poorly calibrated policy changes can disrupt business economics, valuations and investment. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/good-intentions-unintended-consequences-the-cost-of-regulation/articleshow/135422850.cms"
+    },
+    "de8d95a0bcc635": {
+      "id": "de8d95a0bcc635",
+      "firstSeen": "2026-11-02T03:45:33+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-02T06:11:04.903800+00:00",
+          "title": "China tightens export controls on tunnel‑boring machines, could affect Indian projects",
+          "summary": "China announced tighter export controls on tunnel‑boring machines and other specialised construction equipment. The move raises concerns that Indian infrastructure projects, especially those near the disputed Himalayan border, may face delays or higher costs. Analysts note that China's dominant position in this equipment market gives Beijing leverage over those projects.",
+          "importanceScore": 14.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-02T06:11:04.903800+00:00",
+      "cat": "India",
+      "latestTitle": "China tightens export controls on tunnel‑boring machines, could affect Indian projects",
+      "latestSummary": "China announced tighter export controls on tunnel‑boring machines and other specialised construction equipment. The move raises concerns that Indian infrastructure projects, especially those near the disputed Himalayan border, may face delays or higher costs. Analysts note that China's dominant position in this equipment market gives Beijing leverage over those projects.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms"
+    },
+    "3e566da6217c6a": {
+      "id": "3e566da6217c6a",
+      "firstSeen": "2026-11-01T21:55:23+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-02T06:11:04.903800+00:00",
+          "title": "OpenAI may rename data centers as “AI compute campuses”",
+          "summary": "Axios reports that OpenAI is considering rebranding its data centers as “AI compute campuses” and is planning a public‑relations push after the upcoming midterm elections, which are expected to shift control of Congress to Democrats. Chief global affairs officer Chris Lehane told Axios the midterms will act like a “movie trailer” for the role AI will play in the 2028 presidential election.",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-02T06:11:04.903800+00:00",
+      "cat": "AI",
+      "latestTitle": "OpenAI may rename data centers as “AI compute campuses”",
+      "latestSummary": "Axios reports that OpenAI is considering rebranding its data centers as “AI compute campuses” and is planning a public‑relations push after the upcoming midterm elections, which are expected to shift control of Congress to Democrats. Chief global affairs officer Chris Lehane told Axios the midterms will act like a “movie trailer” for the role AI will play in the 2028 presidential election.",
+      "why": "The naming change could shape how OpenAI presents its infrastructure to policymakers and the public ahead of heightened political scrutiny.",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
     }
   },
-  "updated": "2026-11-01T23:37:58.826617+00:00"
+  "updated": "2026-11-02T06:11:04.903800+00:00"
 }
