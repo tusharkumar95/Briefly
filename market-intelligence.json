@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-02T02:45:19.512495+00:00",
+  "updated": "2026-11-02T11:41:55.932199+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls as gold miners slump after Bank of Canada rate hike",
+      "headline": "TSX slides as gold miners tumble after Bank of Canada rate hike",
       "direction": "down",
       "move": "S&P/TSX Composite -1.74%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Bank of Canada rate hike",
-          "detail": "The policy increase was cited as the trigger for the market’s downward move.",
+          "label": "Gold miners slump",
+          "detail": "Gold mining stocks dropped sharply, pulling the index down.",
           "kind": "context"
         },
         {
-          "label": "Gold miners slump",
-          "detail": "Gold‑mining shares fell sharply after the rate hike, weighing on the TSX.",
+          "label": "Bank of Canada rate hike",
+          "detail": "The central bank raised its policy rate the day before, adding pressure on equities.",
           "kind": "context"
         }
       ],
@@ -43,87 +43,103 @@
           "title": "Toronto Stock Exchange Today: TSX Edges Down to 36,249.03 as Gold Miners Slump a Day After the Bank of Canada Hike - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNXVUeDZuN20xMkh3S1BMcHdkU3haM1J5LTIyWlROMkpJajFVTEJBZUc4bDhaVENMZ3g1eEdsYUw3OWNBQVV3TDhtUkU3MndNaVF5MVFvVEFZR0JwZmxRbUhESk1HNmhiMkdfcWw0OGdrWnpFRE5sb0NFZG9JNHRnTlQ4a0FLZEhSaHY5Q0pjVnVwWm02cDg3elpmMWtiVktQNDNlU1VSWG1CeF9XNDZKSEVoN3J3NDYxMVJUN1JOWWhVZ2NwZUh3Zm80YmVmaHN0bTJ5WmdRZ1JuN1V0VWJJa0JXWk14TERE?oc=5",
           "publishedAt": "2026-11-02T00:35:26+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "Why Did BCE Inc. (TSX:BCE) Fall 0.178% to $28.04 on October 29, 2026? - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUldnRXZ3ODl0N1AxNGh5bTU0WVl0VlBxNU0xMmNab0hHWEx1YW9oVU8yV0Y4ZC14RTkxdlBRS3dqXzBZdmJqOEgzTkxfdHg0U1Y3emRha2xpdVI5anVkWHFUeVlGZXBxMW9FNFNka1RiRG52bFBMN080cWhjMWt0eEpHQS0wQnp1SGI3bmg5Qm1yRXI4QmREZkFR?oc=5",
+          "publishedAt": "2026-11-01T15:54:00+00:00"
         }
       ],
-      "evidenceCount": 1
+      "evidenceCount": 2
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.51%",
+      "headline": "Nifty 50 rose 1.68%",
       "direction": "up",
-      "move": "Nifty 50 +0.51%",
-      "why": "Same-day market coverage explicitly linked the final move to: rallying up to 2% last week? 4 factors to watch on Monday.",
+      "move": "Nifty 50 +1.68%",
+      "why": "Same-day market coverage explicitly linked the final move to: Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110; Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap; a bang: Sensex jumps 1,233 points, Nifty tops 23,400 as RIL leads rally.",
       "drivers": [
         {
-          "label": "rallying up to 2% last week? 4 factors to watch on Monday",
-          "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110",
+          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap",
+          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "a bang: Sensex jumps 1,233 points, Nifty tops 23,400 as RIL leads rally",
+          "detail": "NewsDrum explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 23053.1,
-        "previousClose": 22936.75,
-        "change": 116.35,
-        "changePct": 0.51,
+        "price": 23440.8,
+        "previousClose": 23053.1,
+        "change": 387.7,
+        "changePct": 1.68,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-30T10:01:11+00:00",
+        "asOf": "2026-11-02T10:01:12+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 74459.53,
-        "previousClose": 74151.04,
-        "change": 308.49,
-        "changePct": 0.42,
+        "price": 75692.78,
+        "previousClose": 74459.53,
+        "change": 1233.25,
+        "changePct": 1.66,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-10-30T10:02:30+00:00",
+        "asOf": "2026-11-02T10:02:28+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "The Economic Times",
-          "title": "Can Nifty, Sensex extend gains after rallying up to 2% last week? 4 factors to watch on Monday - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdzZqby1tUXlQQmJVTGsweUxROElpc0d2R3dWOUlqRDd2NURvTTF3TlZPcjVrLU9OMVRVTlR4elFBZlMtUW1FY2ZQTk5qS0xYdWZGR3ZrVFN4RHF3c0diazFsdzNSYldIejdDUzFTMDNuOXZsZGs5YjB6aDRMU1hEOHBSR1I1TGQ2YnJwVXo4dkRlOWFTVHNVSXBOYktoZ0hGaXpLdlh6SDZrVVIySWVwSTlJUUt5czc1UVJzcE5icHZ5X3ZrYUJraUxQZGktNHNYRU9HcWVBT1NzNC1fYjdBVXlXQXJ0RS1uVEhEMEF4c2lMbXJ5czlIbdIB_gFBVV95cUxOczFHeFpmSWo1T2JOb0dxR2FGcVgtZGhmWk96MVNuWXFjdWFDdGl6X3Z4Z0l2bjlmelZvSkQ4VnVjbVM2Z3YwR0ctRGJ1WVNud2tRQkpERmludGwxV3UtV2puTnRZeC0zOTJ6ejZTcWRndmw1T0xfcTlTTzFYUmRRY3huZksyZ19NN2d6NjB5ei1ORy1CQ3J5T3dHbnluR0pPeXlRbnpHYkwwVlRpNUJra0N3SHNwYXlHTEstRmdwRUJHRzA3cW42VFBzV09vczFBSlZWc1VaT2lnZ0xhb2tjRG1QMy1qVFk3cUgtQnQ2ZTVjTGRkMEUzWHB3MEVnQQ?oc=5",
-          "publishedAt": "2026-11-01T06:37:22+00:00"
+          "name": "Reuters",
+          "title": "Reliance earnings, lower oil prices power India's Sensex to near two-month high - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRV9nWF8tcV9tRkNYTENXRnRyTDhkcnRoZEJmMFJ1Wm1USDJwbDNxcEFuU0xNbE9JSnRJb2xScTBmWWVpZWJ5SmlhXzdBajNuSDhnOWdULWQ4UUZ2T3RRdjhpNWxZb08tcEQxR01tdks4dkhLTUN1WjJiZVFSa1JCbHBRdGVsZVZqNzFoQ2ZDdF9zbE9MeUlvRHhzZGRRM05SeGxlaFB1MFZjWVB3TVZjbTBfUlprRTZ2eTA3bFBFQVpLdw?oc=5",
+          "publishedAt": "2026-11-02T02:42:00+00:00"
+        },
+        {
+          "name": "India Infoline",
+          "title": "Closing Bell: Nifty Surges 1.68% to 23,441 as Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110 - India Infoline",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOLVZ6YnZHcGpwdG1Nb191NWxSRHNyQmpPR2l6Y2dETkpKdU1EREc1SDg5UnJPTUdCRWpTQ2xWLVFkbGtHaXdTQW1YYWRpd3pBTFFmSnN2RVcyYks2UXVjMm80VVFjZ29ibjZuelMwMHNTV3hXbzJDTUFaNnpJMGhoTjVXZW9kZlhJNnZocGx3VmtvQXVLTXlNZVQ3Y3FYb3oxVzRaSHVaSmY4c2pHb3FNUV8zeEd2clh0QS1rMUw0VVpTTVJwcmxOY2xIMEE3cHZvblNMR0hOUmlmVUNMVlRN?oc=5",
+          "publishedAt": "2026-11-02T11:04:28+00:00"
+        },
+        {
+          "name": "Dalal Street Investment Journal",
+          "title": "Closing Bell: Nifty Gains 1.68% to 1-Month High as Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX3ZuanZvZEdQR1dPekpHYzZNWUZNYXZKQTZ3YUlnMFlLODA2WUZEWHJkN3N0M0x4eEJPLTFNNm1nSFo2a3N6aTFtMjRBWFhGRDZyVUNKS1JZcmVaaU1td3d6RVZfQWNkU1hhNzRqeWYzUk9EMnRaZTdneTlGbFJZNUFkVU9ONlkyV3NIRE5NdEJQZ2FHVmV0V0JtejNHdlBPLXZqM0tZcUJSYk8zdFdZb01lVkNtWWthb3lpMGtqVWtLSENSMDMtV3k2WGFGb0ttZVUxenBQUmNGNlBxQ2c?oc=5",
+          "publishedAt": "2026-11-02T10:58:16+00:00"
+        },
+        {
+          "name": "Telegraph India",
+          "title": "Sensex gains 1,233 points, Nifty rises 388 as lower oil prices and Reliance rally lift markets - Telegraph India",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORXpNMFVYMEQ1M0ExSkd2RHdpSThWeFVTVTZzRWt6ZjRRVVRaZUVXX2RubkVFUlZmWHBOeEdwNGVTY3B3TV9pVXBHLTd4UW9vYUNiOE9tUEVNSU1wYVVULWZTX0kwdjdNbkJGRUtfMUVLTDV6OTRMb1JTbjg3UjdSV29LUXJIcnFLaUZLeG81ZjExS0xObzUyWlM1MnloYjdFR1pyWG5kYk91YjM5MmF4dGZQYjBRX2Z0N3ozeGtHT1h4NzA1dzlpdFN1YXREM1VuWXFycG9QWS1CRC1D0gHiAUFVX3lxTE9MdUtSNDdxQXRCY0ZEQkkxcnNGVFNuVThJSVRaellqYWtKSmFMOTVqc0liNGxvYUFPamctREZxUGVZNG15VWJFZ01NcEdwU25ZcHJ3WlUwNDBEelB4LWVDbnk4OVl2VGZCR2pHV3FFbllVb2xnUjQ0QWUyZkJjMUJyYnl1dVMybkNhQ1ZkcmFQLTBmUWs3MWhHd3JNSURTVlJuU19feUx5ZmY1cGcxcnUxeEJjVUljQXJBTGdFUjZCTERGNlphTGMtU0FoVndFdnQxeXVuV0d6ME1yU005RTB0Q3c?oc=5",
+          "publishedAt": "2026-11-02T10:54:18+00:00"
+        },
+        {
+          "name": "Telangana Today",
+          "title": "Sensex jumps 1,233 points, Nifty closes above 23,400 on oil price fall - Telangana Today",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbzdIQm9FclJQTFRZQkZxWnlJWFktUHloV1BxUUFyaXREZ0NoNW42Z0taUEx6NG9HOVNoaEU4TnFJTFpjcXhMQ3NnU3ItLWFOVUJCeGc1Q3l5U3BjOW1iZ0FERTU5Wm8tVlNTeF92T2FkblN5eVRvSFlPOUdnSnhxSjJaOFhRTWVYeHpiLVc3bmVic2cxUktZWXlB?oc=5",
+          "publishedAt": "2026-11-02T10:51:49+00:00"
         },
         {
           "name": "The Economic Times",
-          "title": "Indian stocks may recover on steady growth and earnings, Axis AMC says - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMkdXSzc2U0E2UHkyYlNNbjdqUVpOY0RYNVBteXZsWHBGa1lyNG5DTzB5ZDhQZmdlUU9PWS1RLWY4dHhKQkJFMGpLR3F4UGc5VXNaWVNrTHI0RWR4MC0yVGFkTHprXzlfTEhDQnJZbDZ2Qk1XQ3FScy1jdFR3bjZLdEttS0o1VC1SNElqODA4OUdKYmVsYmEwd1E3OWFEX1ltNThFbXliQXU4Sm93S19FSWhnZEZjZENwY0VING9YRlBUUy1DaVJuclI3aXJfUGZSYmVHY1BqdmVoWDjSAeABQVVfeXFMUHlRM1diQWxFb00ycThTWmZLS0ZuMVEyWkkzSEItWGRzR2tiUUJKaS1IMkotSy1PeEdjb3JBRTIyMmY3RDFxLUJvazl1NUpNVnJ2VmNISS01MXFRU00xOWIxRmUyM0lhWTZwbkt1YjZPZjZ2OFhaX2k5MGJKNTJFdTFpdk9UVWJ2RFFUaEVJd1RaUTE0LWxOZi1DWXp1dXFmai10M2Y1Z3I5QkVoeS00djA3NWgtY3ZCRkRMVXZCYUdsX0JNVVdGVHh6UnlFUEMtdTg1RDhuZ2NnUFYxMzdNZGM?oc=5",
-          "publishedAt": "2026-11-02T02:09:23+00:00"
-        },
-        {
-          "name": "NDTV Profit",
-          "title": "Stock Market Today: Gift Nifty, Tech Stocks Selloff To Oil Prices; Five Key Factors For Sensex, Nifty 50 On Nov 2 - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ1ZLTF9TSHA1V19ZM1E4YlZEU3VUek5xaVNZcFg0MTljUTYzTzZxOS1ma2xYZjExV1g4NEtxZlBlU1hPaWhsMmh6WUZzMER3eGZqWUlla3VkdkJlQWR5MDlhNTJJSHNYaHVRMy1aMUduU2FmOVlUazNWY21BdXlrXzBlQ1lCaEdlUk1GcFd6ektBbm9CeFEyenNBaGpBMWxCcVdtQ1NETnVvOGg5T3IteUdPSlEwX3ZTZm5VS3gyR3o4SWFEbHFUblpJc25SLW9ySnJxRVM2Y3l0bDA5T3N1Z3hjemtFS2ZSVDNDblVSU1EzNnpyd3ZNQjFKdmZSZ9IBhgJBVV95cUxNN3hEdE5ZaDVDdlFsZVhOYldBR2FiVzZfc0FISTd3TVNwTEJONGkxVlpuWGtJQTRwckRETlBGbkJsTnd0N0xnTGZUem1pcmx6V0xoRi0wLVB2alIzVkNRSHlHbTFyZGNLNUtRd3pHNzNhVkMtSU50dkZ3ZnR5NXpNNHZaWGxGRzkxbXlSa0pILXpoVjMxZXU3RlJsdTBvVzVQdEI1by1NLV8wRTA4RjhVQ1JNWDJYYlU4MTg4aGVLejBLM2ZhTjFtRGlKVmsxc3N1VnU3OG1OeGVrWV9uWGtLN3p1eFlZYklqN2VuSlMzU2M5WVBuS190eVNKWDhnQkpib01BcHVB?oc=5",
-          "publishedAt": "2026-11-02T01:29:17+00:00"
-        },
-        {
-          "name": "Livemint",
-          "title": "Stock market outlook today, 2 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTlFfOXJmNXYteGRXMGlYQkU2QWtCMlFRbWF4X0FNa05FYlFSbldpcU1xWUlEOEFBN2ZnQVgzU1BUUHRYYm5BZ0tNREpnY0d0Rk50WlktMUxIOEVVUXl0czc2UVJZcG0yeUc1U0JBZ29GS01JeW1rNkpjWk42RDFNRXNLc2x2YnVjcU5rUkpXZmdTS19pY21QdXdKb0V2X3ZraTQxT3lWT0pRSUlJWG5VRVRyc202eDJMZWhaSGw5SjBWUExkZFkwX2F5N252YUcxeWxsUTVQSVhxQndVemRBWm1MYnEtQ0xWcGVSRld6M09tY1UzQzZlUU5nR2htOUM1LWdv0gGIAkFVX3lxTE1UaV9xRDAxeW9XVEtUWW82NWRuVFpVN3gxaXktLVBtNVVoalBkX0hRMzI3OFA3RGNRMkVDT3MzdWxZX1N4Q24tWVJQMnpsRmo4ZU5OemVyNVFPeVNNbTkxdktPZFhwYU1icmtmWTlma0dzWlhjREZBeGY0djVGYWFDVHVoTFhsY1VkRXJiS01BUGRkSlFhV1N4Y2h2ZlRPRG1ZTGZZZGJRalJEVUxmc1F3NXlqaHM0N3BJRFVzLXhaQjkwa001YUxiQUZxY1VzVVp2bE5zNGQ0aERLdVJjWjdxdm5aUmVvcXdjV3pRaEl5VExpOV82d3BsNzdnY3A1c0dhd0lpWURoUQ?oc=5",
-          "publishedAt": "2026-11-02T01:22:54+00:00"
-        },
-        {
-          "name": "NDTV Profit",
-          "title": "Trade Setup For Nov. 2: Nifty Eyes Resistance At 23,200; Can Bulls Push Index Above 24,000? - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRHE0TVJGZURIYkh0UXhBdHRPcktZYTNOeGxyU09OZll2RnFSeVdvWERZcXRXNGVDZ2NzSFBKbmhLbjFMU1B3TnA5WmtUazRqblJCdVVQa2N2SlU4UzNZSDJ0b2tQLVBrNFR0eVd1OUJ5NXlKeHZTZUpOZS02S3B6WXNQVlNBUndMU0FHVEIzQk10WUZEZk42OTcyMlZ5QTRUY1B2a2FDWTU0UkliQVlwbWZZaUJzRVRMdFhHUVhPemR3TFo0LTBYdml1Y9IB0wFBVV95cUxOUXdsMENaTllhLXpFOUNHczBIMEJNemxZRGJiTDFkRmRIeFF0TDBNNWJCRFpyUG1OTjhiN1FsejNOX19WZmk5c0tpdG9BNjI2VmxYemVGTmRmQTN6amNNYzdqbVdDYy1xN3hISzJLSmFZc0o5MFI3T18zRTJySmpRNTE3bW5ZaUVlU0VFcF9qOVlCRzI1QkFfZWU3cmVpNmpiRXAzOGZYTXNHTU9JOGNiX2JzUDJrZkJmdGJ1dEdCQUU5QXVPRnJ4c0NWZWxYUFhyQUhR?oc=5",
-          "publishedAt": "2026-11-01T16:33:07+00:00"
-        },
-        {
-          "name": "CNBC TV18",
-          "title": "Nifty Outlook for November 2: Can the 23,200 hurdle give way to a rally towards 23,500 this week? - CNBC TV18",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbktiNWhVVXpaNERYOG9IZWxHMU54M2NUeFpad3A1WEdFUndSYXZ4R0Y0RXNSLU1GX256UjVpbnFZdTkxSDluUmpDSFNXbzNKZVNSOVFsOTVFY0pIWU1jMHVOVElMZndkcG1wZnRWaEtnTVFEUmhtZ3FwYU9jbno3OThNYjlFVk5lbVMzS1NLMHE0MDc4MTFRZU9hVTBadHQzeG54VzZKNkZyaU9GWEhrZzc2WEZ5Y1JGWDVibERUWEhIMTJKTy1nSFBRVUVreWdZQXpnUtIB2gFBVV95cUxPQzh0bUdXZWdXdXo2WGstcW1GVng4dThOWTlBbGZBWVVBbU1ObHZJdnZ5MUp0aWUxcjE3TXZrYjZvcFhSaHNYWTJXek1fM1pza2dzb1I4SUJ3ZXJKSWRMMl9sakY4OU1HWnVKMW1FOGRhTmRCSHBHTmhBU0xYWmVCNmRsSW5oT3JDald5UWZXTFZKbjVqWFJaNy1rZzF4NjBmeVIteFBRdVVaMnRGN2ROcnhxWG1qQWRKdlZYUWxnaERlX1RRVHBkVjBNNUtWQ21Xd190QVFNeDZpdw?oc=5",
-          "publishedAt": "2026-11-01T14:15:03+00:00"
+          "title": "Why did market rally today? Sensex soars 1,233 pts, Nifty ends above 23,400. 7 factors behind Rs 8 lakh cr - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRzBnWE5lN3R4SHNYbkF1czZ0NFlrd1BZYzRXeUNrQXNMYWx1UER5c2tKT0J3VzhTdmU1Zi1BNC1SbEp1ci02Z1hRYmVTZkdQM1JlU1QzOVl3UjF2UFhYdEwxbUVPM0RGSDJ4RlFDWUFybjI3VWdlbkNwZjA3cWt6ejV1ZFVVRUthUW9XRkJWaDhYUEFHTTlVS1dja29FTnlub2c1eV9MN21kcjZlVjQ0ODhRNDZFSlNNak9INlBEOU5BakxpUWM3NE1mVlZ2b3VLa2c2V1RwYWVzSHZ3aXg3U2F2YUMwT3NtZUxva2g0LTBicjd1U08wSlFlSUY4T2RLN1Zmek5DSElkTDRfbGhvNTRYWDRJc1lBMUlHSEpn0gGjAkFVX3lxTE1DRk9KV1EzdnVGbVV0R1hEd3BwemlzQ1ZUa0p3WDhqQjV2NFlOTHNTdkY0WE9ENkxvSEs0M0NONEpmejVsMlU0akItWlZ5MG5ldmZtbTlITTNKWGdDOWJZcDJfZEpqLXV3OEdMdzhra3JHWHBHTURkeVZDXzlibEh2cUd6VHY2a3M1aUtwS1RtcXV5Zi1zRkRPUkVYYm1xNmhFY1lDc0o4ejVoemdqUGdfNzlybFdWQmlvejVYVTZSY09lZzNzYjRGZWs4Z0hGTXY1RkdHc1M0emkzRHZROXpqVkliXzlvUm1pMWNZWllxdmREY3RlUmRPZ0VjMGJiMHlzNTM5alU1UFdxU2tEYXY3MGl6T3ctOHFmNVZTZmN6Z3FxSQ?oc=5",
+          "publishedAt": "2026-11-02T10:40:18+00:00"
         }
       ],
       "evidenceCount": 7
