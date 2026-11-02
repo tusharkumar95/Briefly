@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-02T15:59:46.259550+00:00",
+  "updated": "2026-11-02T23:33:51.152735+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 5,
-    "enrichedCandidates": 77,
-    "readableCandidates": 59,
-    "eventClusters": 56,
-    "materialEvents": 22,
+    "officialOrPrimaryCandidates": 13,
+    "enrichedCandidates": 78,
+    "readableCandidates": 60,
+    "eventClusters": 58,
+    "materialEvents": 30,
     "selectedEvents": 10,
     "seededStories": 8,
     "corroboratedStories": 0,
@@ -18,60 +18,168 @@
   },
   "stories": [
     {
-      "id": "f2120a0704360b",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "5c212d44847379",
+      "cat": "Canada",
+      "icon": "🇨🇦",
       "categories": [
-        "Indian Markets"
+        "Canada"
       ],
-      "title": "US stocks rise as AI shares stabilize and oil falls on peace hopes",
-      "publishedAt": "2026-11-02T14:39:18+00:00",
-      "importanceScore": 14.6,
+      "title": "Canada’s next budget to include affordability measures, tax incentives and infrastructure spending",
+      "publishedAt": "2026-11-02T09:00:00+00:00",
+      "importanceScore": 15.3,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-ai-trade-steadies-oil-falls/articleshow/135465480.cms",
-      "summary": "On Monday U.S. equities opened higher, with the Dow Jones up 0.78% to 52,173.40, the S&P 500 up 0.45% to 7,613.87, and the Nasdaq Composite up 0.63% to 25,596.07. Crude oil prices fell sharply as hopes grew for a U.S.–Iran peace deal and for Iran‑mediated talks to reopen the Strait of Hormuz. Alphabet announced a €6 billion euro‑bond sale that drew €17.1 billion of orders.",
-      "why": "The moves illustrate how geopolitical developments and major corporate financing can quickly shift market sentiment.",
-      "confidence": "medium",
-      "verified": false,
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss",
+      "summary": "Prime Minister Mark Carney’s second budget is set to be unveiled on Thursday and will contain new affordability measures, business tax incentives and investments in infrastructure, defence and culture, according to a senior government source. The budget will also provide details on private investment in Canada’s four largest airports, an early‑balanced operational budget, foreign‑direct‑investment flows and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
+      "why": "The measures outline the government’s fiscal priorities that will affect Canadians’ cost of living, business environment and national development projects.",
+      "confidence": "high",
+      "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-ai-trade-steadies-oil-falls/articleshow/135465480.cms",
-          "publishedAt": "2026-11-02T14:39:18+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-us-midterm-elections-ai-stocks-tech-stocks-openai-anthropic-intel-amd-apple-alphabet-spacex-earnings-oil-prices-treasury-yields-news-2nd-november-2026/liveblog/135463461.cms",
-          "publishedAt": "2026-11-02T13:11:31+00:00"
+          "name": "cbc.ca",
+          "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss",
+          "publishedAt": "2026-11-02T09:00:00+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T14:39:18+00:00",
+      "firstSeen": "2026-11-02T09:00:00+00:00",
       "status": "New",
-      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "strong-source-or-corroborated",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "ff7a668d0b13d4",
+      "id": "9938164208165a",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
-      "publishedAt": "2026-11-02T14:35:38+00:00",
-      "importanceScore": 13.5,
+      "title": "Combat resumes in Kherson after six‑day ceasefire",
+      "publishedAt": "2026-11-02T17:33:19+00:00",
+      "importanceScore": 14.4,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ireland Scotland Wales Isle of Man Guernsey Jersey Local News Wizz Air flight from Luton in emergency landing after bomb threat A file photo of a Wizz Air plane on the tarmac at Ferenc Liszt International Airport in Budapest",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fighting restarted in Ukraine’s Kherson region after a six‑day truce, the longest since Russia’s full‑scale invasion in 2022. The pause enabled the evacuation of hundreds of residents from the Russian‑occupied town of Oleshky. On Monday, authorities said Russian forces struck a medical facility in Kherson city centre and a drone attack injured a 62‑year‑old woman and a 73‑year‑old man. Ukraine alleges Moscow used the ceasefire to reinforce positions, rotate troops and move ammunition.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-02T17:33:19+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-02T17:33:19+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "81553b64d9fdbd",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Ukraine alert system issues nuclear‑strike warning, many doubt authenticity",
+      "publishedAt": "2026-11-02T18:34:24+00:00",
+      "importanceScore": 14.1,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
+      "summary": "On Sunday night Ukraine’s emergency alert system broadcast a succession of messages that escalated from warnings of Russian drones and missiles to threats of imminent nuclear strikes, chemical attacks and street combat. Many citizens did not take the alerts seriously and questioned their authenticity. Sofia Kochmar, a 34‑year‑old mother in Lviv, said she was initially concerned but quickly began to doubt the messages.",
+      "why": "The episode illustrates how uncertain or potentially false alerts can undermine public trust in emergency warning systems.",
+      "confidence": "medium",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-02T18:34:24+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-02T18:34:24+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "de8d95a0bcc635",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "China’s 5,000-ton digging machines are a trade war risk to India",
+      "publishedAt": "2026-11-02T03:45:33+00:00",
+      "importanceScore": 13.4,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms",
+      "summary": "China is tightening export controls on tunnel-boring machines and other specialised construction equipment, raising concerns tha",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms",
+          "publishedAt": "2026-11-02T03:45:33+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-02T03:45:33+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "China tightens export controls on tunnel‑boring machines, raising trade‑war risk for India",
+      "previousSummary": "China is tightening export controls on tunnel‑boring machines and other specialised construction equipment. The move has raised concerns that the restrictions could disrupt India’s infrastructure projects, particularly those along the disputed Himalayan border. Beijing’s dominance in tunnel‑boring equipment is seen as giving it leverage over India’s construction sector.",
+      "previousPublishedAt": "2026-11-02T03:45:33+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.3,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "973b43b999bb14",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Shop freezers in seven European countries hit by cyber-attack",
+      "publishedAt": "2026-11-02T17:38:11+00:00",
+      "importanceScore": 12.7,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Dozens of supermarkets across seven European countries have been hit by a cyber-attack affecting their refrigerators and freezers. Around 40 Delhaize supermarkets in Belgium and Luxembourg were affected, while a smaller number of shops were hit in Sweden, Ireland, the Netherlands, Estonia and Finland.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "confidence": "low",
       "verified": false,
@@ -79,13 +187,13 @@
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-02T14:35:38+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-02T17:38:11+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T14:35:38+00:00",
+      "firstSeen": "2026-11-02T17:38:11+00:00",
       "status": "New",
-      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
+      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -101,17 +209,17 @@
       "categories": [
         "AI"
       ],
-      "title": "Omen AI acquires Aquatic Labs for $16 million to enhance water‑sensor technology",
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
       "publishedAt": "2026-11-02T15:00:00+00:00",
-      "importanceScore": 13.3,
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "summary": "Omen AI, a startup founded in 2024 to monitor cooling‑water systems in data centers, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity sensor, creating a more comprehensive real‑time water‑quality solution. The combined technology aims to reduce reliance on slow, off‑site lab testing.",
-      "why": "It could lower water consumption and operational costs for AI data centers by improving real‑time cooling‑fluid monitoring.",
-      "confidence": "medium",
+      "summary": "After raising a $31 million Series A in June, Omen is now acquiring competitor Aquatic Labs in a $16 million cash-and-stock deal. The deal came together after Omen founder Zach Laberge was introduced to Aquatic Labs’ CEO Allan Adams by an investor in the filtration space.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -120,66 +228,35 @@
         }
       ],
       "firstSeen": "2026-11-02T15:00:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "source-backed",
+      "previousTitle": "Omen AI acquires Aquatic Labs for $16 million to enhance water‑sensor technology",
+      "previousSummary": "Omen AI, a startup founded in 2024 to monitor cooling‑water systems in data centers, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity sensor, creating a more comprehensive real‑time water‑quality solution. The combined technology aims to reduce reliance on slow, off‑site lab testing.",
+      "previousPublishedAt": "2026-11-02T15:00:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.3,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "2d1b3f6ed72f83",
+      "id": "70bd26abd09222",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Fusion Finance posts Rs 86.5 crore profit as asset quality improves",
-      "publishedAt": "2026-11-02T14:43:13+00:00",
-      "importanceScore": 12.3,
+      "title": "Market wrap: RIL, Tata Steel, Infosys, ICICI Bank top gainers and losers on Nifty and Sensex on Monday",
+      "publishedAt": "2026-11-02T13:04:35+00:00",
+      "importanceScore": 11.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fusion-finance-swings-to-rs-86-5-crore-profit-as-asset-quality-improves/articleshow/135465579.cms",
-      "summary": "Fusion Finance reported a profit of Rs 86.5 crore for the most recent reporting period. The Economic Times headline notes a swing to profit, implying a reversal from earlier losses. The company linked the profit to an improvement in asset quality.",
-      "why": "The profit swing suggests a potential turnaround in financial performance, which could influence investor sentiment.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fusion-finance-swings-to-rs-86-5-crore-profit-as-asset-quality-improves/articleshow/135465579.cms",
-          "publishedAt": "2026-11-02T14:43:13+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-02T14:43:13+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "fe2b58d2b6284e",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Coforge among 4 stocks that hit 52-week highs and rallied up to 15% in a month",
-      "publishedAt": "2026-11-02T13:31:31+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/slideshow/135463866.cms",
-      "summary": "Four stocks from the BSE 100 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-ril-tata-steel-infosys-icici-bank-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135462862.cms",
+      "summary": "Indian markets rallied sharply, with Sensex gaining 1.66% to 75,693 and Nifty rising 1.68% to 23,441. Strong quarterly earnings lifted investor sentiment, led by Reliance Industries, metals and oil and gas stocks, while market breadth remained positive.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -187,13 +264,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/slideshow/135463866.cms",
-          "publishedAt": "2026-11-02T13:31:31+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-ril-tata-steel-infosys-icici-bank-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135462862.cms",
+          "publishedAt": "2026-11-02T13:04:35+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T13:31:31+00:00",
+      "firstSeen": "2026-11-02T13:04:35+00:00",
       "status": "New",
-      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
+      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -201,105 +278,23 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
-    },
-    {
-      "id": "de8d95a0bcc635",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "China tightens export controls on tunnel‑boring machines, raising trade‑war risk for India",
-      "publishedAt": "2026-11-02T03:45:33+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms",
-      "summary": "China is tightening export controls on tunnel‑boring machines and other specialised construction equipment. The move has raised concerns that the restrictions could disrupt India’s infrastructure projects, particularly those along the disputed Himalayan border. Beijing’s dominance in tunnel‑boring equipment is seen as giving it leverage over India’s construction sector.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms",
-          "publishedAt": "2026-11-02T03:45:33+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-02T03:45:33+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "China tightens export controls on tunnel‑boring machines, could affect Indian projects",
-      "previousSummary": "China announced tighter export controls on tunnel‑boring machines and other specialised construction equipment. The move raises concerns that Indian infrastructure projects, especially those near the disputed Himalayan border, may face delays or higher costs. Analysts note that China's dominant position in this equipment market gives Beijing leverage over those projects.",
-      "previousPublishedAt": "2026-11-02T03:45:33+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 14.3,
-      "changed": true,
-      "change": "Its significance score fell as the evidence changed.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "3e566da6217c6a",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "publishedAt": "2026-11-01T21:55:23+00:00",
-      "importanceScore": 9.2,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "summary": "Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . So OpenAI is to influence the AI debate moving forward, with Lehane discussing several proposals, including the development of AI “speed limits” ; finding ways to help people see AI as empowering them in their daily lives; pushing the U.S.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-          "publishedAt": "2026-11-01T21:55:23+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-01T21:55:23+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "OpenAI may rename data centers as “AI compute campuses”",
-      "previousSummary": "Axios reports that OpenAI is considering rebranding its data centers as “AI compute campuses” and is planning a public‑relations push after the upcoming midterm elections, which are expected to shift control of Congress to Democrats. Chief global affairs officer Chris Lehane told Axios the midterms will act like a “movie trailer” for the role AI will play in the 2028 presidential election.",
-      "previousPublishedAt": "2026-11-01T21:55:23+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.2,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 4,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-11-02T06:11:04.903800+00:00",
+  "jarvisEditedCount": 3,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-02T15:59:46.259550+00:00",
   "changeSummary": {
     "new": 5,
-    "updated": 2,
-    "continuing": 0
+    "updated": 1,
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-30T19:26:08.930994+00:00",
-    "updated": "2026-11-02T15:59:46.259550+00:00",
+    "availableFrom": "2026-10-30T23:50:21.377005+00:00",
+    "updated": "2026-11-02T23:33:51.152735+00:00",
     "snapshotCount": 13,
-    "eventCount": 87,
+    "eventCount": 90,
     "retentionHours": 72
   }
 }

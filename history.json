@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-30T19:26:08.930994+00:00",
-      "changeSummary": {
-        "new": 5,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "ce4ce93e599bdb",
-          "cat": "World",
-          "title": "Hundreds evacuated from Russian‑occupied Oleshky after humanitarian ceasefire",
-          "summary": "Russian and Ukrainian authorities said that hundreds of residents were evacuated from the occupied city of Oleshky following a humanitarian ceasefire that the source attributes to U.S. First Lady Melania Trump. Russia’s human‑rights ombudsman Yana Lantratova described the operation as incident‑free and well organised. Ukrainian officials indicated the evacuees would travel through southern Russia and Belarus to reach Ukraine.",
-          "why": "The evacuation illustrates a rare instance of coordinated humanitarian action between the warring parties.",
-          "publishedAt": "2026-10-30T16:26:11+00:00",
-          "firstSeen": "2026-10-30T16:26:11+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "61ff37d6f2d42e",
-          "cat": "World",
-          "title": "Spain transport minister says he will not resign after high‑speed rail crash",
-          "summary": "Spain’s transport minister Óscar Puente told a news conference in Madrid that he will not resign following the high‑speed rail collision that has left at least 69 people dead. He said he has “nothing to hide” and reiterated the government’s pledge to investigate the disaster fully. Puente emphasized that his priority is to resolve the problem rather than discuss his position.",
-          "why": "The statement influences public confidence in how the government is handling a major transportation tragedy.",
-          "publishedAt": "2026-10-30T15:03:39+00:00",
-          "firstSeen": "2026-10-30T15:03:39+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "e05697a7bed6d2",
-          "cat": "India",
-          "title": "India's services trade surplus rises to $53.39 billion in Q2",
-          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-          "publishedAt": "2026-10-30T15:09:07+00:00",
-          "firstSeen": "2026-10-30T15:09:07+00:00",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms"
-        },
-        {
-          "id": "32868080ca4f59",
-          "cat": "India",
-          "title": "RBI holds 625th Central Board meeting, discusses economic risks",
-          "summary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra. The board deliberated on a range of economic risks facing the country. No further details on specific topics or outcomes were provided in the source.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-30T15:13:38+00:00",
-          "firstSeen": "2026-10-30T15:13:38+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms"
-        },
-        {
-          "id": "d52e04d55e06b3",
-          "cat": "India",
-          "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
-          "summary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
-          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-          "publishedAt": "2026-10-30T12:34:46+00:00",
-          "firstSeen": "2026-10-30T12:34:46+00:00",
-          "importanceScore": 10.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-pe/vc-investments-jump-45-to-7-billion-in-september-highest-in-over-two-years/articleshow/135362031.cms"
-        },
-        {
-          "id": "210c89744b7092",
-          "cat": "AI",
-          "title": "Google launches first data‑center satellite, tests AI model in orbit",
-          "summary": "Google’s Suncatcher prototype data‑center satellite was launched earlier this month on a SpaceX Falcon 9 ride‑share with more than 100 other spacecraft. The 1 kW satellite carries four TPUs and a pre‑loaded DeepMind Gemma 4 model, which engineers prompted to write a haiku and report orbital conditions after about three weeks of commissioning. Ongoing tests will evaluate TPU performance under space‑borne thermal stress and radiation, which can cause memory bit flips.",
-          "why": "Demonstrates that high‑power AI inference can operate in orbit, a step toward satellite‑based compute networks.",
-          "publishedAt": "2026-10-30T17:00:00+00:00",
-          "firstSeen": "2026-10-30T17:00:00+00:00",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
-        }
-      ]
-    },
-    {
       "at": "2026-10-30T23:50:21.377005+00:00",
       "changeSummary": {
         "new": 3,
@@ -1445,6 +1327,142 @@
           "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
         }
       ]
+    },
+    {
+      "at": "2026-11-02T23:33:51.152735+00:00",
+      "changeSummary": {
+        "new": 5,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "5c212d44847379",
+          "cat": "Canada",
+          "title": "Canada’s next budget to include affordability measures, tax incentives and infrastructure spending",
+          "summary": "Prime Minister Mark Carney’s second budget is set to be unveiled on Thursday and will contain new affordability measures, business tax incentives and investments in infrastructure, defence and culture, according to a senior government source. The budget will also provide details on private investment in Canada’s four largest airports, an early‑balanced operational budget, foreign‑direct‑investment flows and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
+          "why": "The measures outline the government’s fiscal priorities that will affect Canadians’ cost of living, business environment and national development projects.",
+          "publishedAt": "2026-11-02T09:00:00+00:00",
+          "firstSeen": "2026-11-02T09:00:00+00:00",
+          "importanceScore": 15.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss"
+        },
+        {
+          "id": "9938164208165a",
+          "cat": "World",
+          "title": "Combat resumes in Kherson after six‑day ceasefire",
+          "summary": "Fighting restarted in Ukraine’s Kherson region after a six‑day truce, the longest since Russia’s full‑scale invasion in 2022. The pause enabled the evacuation of hundreds of residents from the Russian‑occupied town of Oleshky. On Monday, authorities said Russian forces struck a medical facility in Kherson city centre and a drone attack injured a 62‑year‑old woman and a 73‑year‑old man. Ukraine alleges Moscow used the ceasefire to reinforce positions, rotate troops and move ammunition.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-02T17:33:19+00:00",
+          "firstSeen": "2026-11-02T17:33:19+00:00",
+          "importanceScore": 14.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "81553b64d9fdbd",
+          "cat": "World",
+          "title": "Ukraine alert system issues nuclear‑strike warning, many doubt authenticity",
+          "summary": "On Sunday night Ukraine’s emergency alert system broadcast a succession of messages that escalated from warnings of Russian drones and missiles to threats of imminent nuclear strikes, chemical attacks and street combat. Many citizens did not take the alerts seriously and questioned their authenticity. Sofia Kochmar, a 34‑year‑old mother in Lviv, said she was initially concerned but quickly began to doubt the messages.",
+          "why": "The episode illustrates how uncertain or potentially false alerts can undermine public trust in emergency warning systems.",
+          "publishedAt": "2026-11-02T18:34:24+00:00",
+          "firstSeen": "2026-11-02T18:34:24+00:00",
+          "importanceScore": 14.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "de8d95a0bcc635",
+          "cat": "India",
+          "title": "China’s 5,000-ton digging machines are a trade war risk to India",
+          "summary": "China is tightening export controls on tunnel-boring machines and other specialised construction equipment, raising concerns tha",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-02T03:45:33+00:00",
+          "firstSeen": "2026-11-02T03:45:33+00:00",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms"
+        },
+        {
+          "id": "973b43b999bb14",
+          "cat": "World",
+          "title": "Shop freezers in seven European countries hit by cyber-attack",
+          "summary": "Dozens of supermarkets across seven European countries have been hit by a cyber-attack affecting their refrigerators and freezers. Around 40 Delhaize supermarkets in Belgium and Luxembourg were affected, while a smaller number of shops were hit in Sweden, Ireland, the Netherlands, Estonia and Finland.",
+          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+          "publishedAt": "2026-11-02T17:38:11+00:00",
+          "firstSeen": "2026-11-02T17:38:11+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "d908c90d702868",
+          "cat": "AI",
+          "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+          "summary": "After raising a $31 million Series A in June, Omen is now acquiring competitor Aquatic Labs in a $16 million cash-and-stock deal. The deal came together after Omen founder Zach Laberge was introduced to Aquatic Labs’ CEO Allan Adams by an investor in the filtration space.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-02T15:00:00+00:00",
+          "firstSeen": "2026-11-02T15:00:00+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
+        },
+        {
+          "id": "70bd26abd09222",
+          "cat": "Indian Markets",
+          "title": "Market wrap: RIL, Tata Steel, Infosys, ICICI Bank top gainers and losers on Nifty and Sensex on Monday",
+          "summary": "Indian markets rallied sharply, with Sensex gaining 1.66% to 75,693 and Nifty rising 1.68% to 23,441. Strong quarterly earnings lifted investor sentiment, led by Reliance Industries, metals and oil and gas stocks, while market breadth remained positive.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-02T13:04:35+00:00",
+          "firstSeen": "2026-11-02T13:04:35+00:00",
+          "importanceScore": 11.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-ril-tata-steel-infosys-icici-bank-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135462862.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1677,56 +1695,6 @@
       "latestSummary": "Bilateral trade rose 25% to $15.21 billion in 2025, with Lula setting a target of $30 billion. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding One company, 2 words.",
       "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-dear-friend-lula-da-silva-is-back-in-power-in-brazil-and-a-30-billion-trade-opportunity-is-on-the-table/articleshow/135206421.cms"
-    },
-    "13ed7e296243be": {
-      "id": "13ed7e296243be",
-      "firstSeen": "2026-10-26T20:17:48+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-26T20:30:52.114920+00:00",
-          "title": "US stocks rise as Anthropic IPO filing lifts AI sentiment, Tesla hits three‑month high",
-          "summary": "The S&P 500 gained 0.70% to close at 7,677.03, the Nasdaq Composite rose 0.83% to 26,169.38, and the Dow Jones Industrial Average added 0.28% to 52,361.76. Gains were driven by Anthropic’s IPO filing, which revived optimism for AI‑related stocks, while investors also focused on a busy earnings week and the Federal Reserve’s policy decision; Tesla reached a more‑than‑three‑month high.",
-          "importanceScore": 14.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-26T20:30:52.114920+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "US stocks rise as Anthropic IPO filing lifts AI sentiment, Tesla hits three‑month high",
-      "latestSummary": "The S&P 500 gained 0.70% to close at 7,677.03, the Nasdaq Composite rose 0.83% to 26,169.38, and the Dow Jones Industrial Average added 0.28% to 52,361.76. Gains were driven by Anthropic’s IPO filing, which revived optimism for AI‑related stocks, while investors also focused on a busy earnings week and the Federal Reserve’s policy decision; Tesla reached a more‑than‑three‑month high.",
-      "why": "The rally reflects renewed confidence in AI companies, supporting broader equity market performance.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-higher-as-anthropic-ipo-filing-revives-ai-optimism-tesla-hits-3-month-high/articleshow/135219329.cms"
-    },
-    "c90620403993d7": {
-      "id": "c90620403993d7",
-      "firstSeen": "2026-10-26T14:13:20+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-26T20:30:52.114920+00:00",
-          "title": "Anthropic IPO puts AI spending under the spotlight as losses mount",
-          "summary": "The organization has impressively generated $16.29 billion in revenue during the first half of 2026. Yet, significant operational losses due to soaring computing costs pose a challenge, along with over $500 billion in cloud computing commitments.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-26T20:30:52.114920+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Anthropic IPO puts AI spending under the spotlight as losses mount",
-      "latestSummary": "The organization has impressively generated $16.29 billion in revenue during the first half of 2026. Yet, significant operational losses due to soaring computing costs pose a challenge, along with over $500 billion in cloud computing commitments.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropic-ipo-rising-costs-risks-rapid-growth-market-ai-frontrunner/articleshow/135213738.cms"
     },
     "1a26eb215c11a2": {
       "id": "1a26eb215c11a2",
@@ -4712,12 +4680,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Its significance score fell as the evidence changed."
+        },
+        {
+          "at": "2026-11-02T23:33:51.152735+00:00",
+          "title": "China’s 5,000-ton digging machines are a trade war risk to India",
+          "summary": "China is tightening export controls on tunnel-boring machines and other specialised construction equipment, raising concerns tha",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-02T15:59:46.259550+00:00",
+      "lastSeen": "2026-11-02T23:33:51.152735+00:00",
       "cat": "India",
-      "latestTitle": "China tightens export controls on tunnel‑boring machines, raising trade‑war risk for India",
-      "latestSummary": "China is tightening export controls on tunnel‑boring machines and other specialised construction equipment. The move has raised concerns that the restrictions could disrupt India’s infrastructure projects, particularly those along the disputed Himalayan border. Beijing’s dominance in tunnel‑boring equipment is seen as giving it leverage over India’s construction sector.",
+      "latestTitle": "China’s 5,000-ton digging machines are a trade war risk to India",
+      "latestSummary": "China is tightening export controls on tunnel-boring machines and other specialised construction equipment, raising concerns tha",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms"
     },
@@ -4825,13 +4806,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-02T23:33:51.152735+00:00",
+          "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+          "summary": "After raising a $31 million Series A in June, Omen is now acquiring competitor Aquatic Labs in a $16 million cash-and-stock deal. The deal came together after Omen founder Zach Laberge was introduced to Aquatic Labs’ CEO Allan Adams by an investor in the filtration space.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-02T15:59:46.259550+00:00",
+      "lastSeen": "2026-11-02T23:33:51.152735+00:00",
       "cat": "AI",
-      "latestTitle": "Omen AI acquires Aquatic Labs for $16 million to enhance water‑sensor technology",
-      "latestSummary": "Omen AI, a startup founded in 2024 to monitor cooling‑water systems in data centers, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity sensor, creating a more comprehensive real‑time water‑quality solution. The combined technology aims to reduce reliance on slow, off‑site lab testing.",
-      "why": "It could lower water consumption and operational costs for AI data centers by improving real‑time cooling‑fluid monitoring.",
+      "latestTitle": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "latestSummary": "After raising a $31 million Series A in June, Omen is now acquiring competitor Aquatic Labs in a $16 million cash-and-stock deal. The deal came together after Omen founder Zach Laberge was introduced to Aquatic Labs’ CEO Allan Adams by an investor in the filtration space.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
     },
     "2d1b3f6ed72f83": {
@@ -4883,7 +4877,132 @@
       "latestSummary": "Four stocks from the BSE 100 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/slideshow/135463866.cms"
+    },
+    "5c212d44847379": {
+      "id": "5c212d44847379",
+      "firstSeen": "2026-11-02T09:00:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-02T23:33:51.152735+00:00",
+          "title": "Canada’s next budget to include affordability measures, tax incentives and infrastructure spending",
+          "summary": "Prime Minister Mark Carney’s second budget is set to be unveiled on Thursday and will contain new affordability measures, business tax incentives and investments in infrastructure, defence and culture, according to a senior government source. The budget will also provide details on private investment in Canada’s four largest airports, an early‑balanced operational budget, foreign‑direct‑investment flows and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
+          "importanceScore": 15.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-02T23:33:51.152735+00:00",
+      "cat": "Canada",
+      "latestTitle": "Canada’s next budget to include affordability measures, tax incentives and infrastructure spending",
+      "latestSummary": "Prime Minister Mark Carney’s second budget is set to be unveiled on Thursday and will contain new affordability measures, business tax incentives and investments in infrastructure, defence and culture, according to a senior government source. The budget will also provide details on private investment in Canada’s four largest airports, an early‑balanced operational budget, foreign‑direct‑investment flows and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
+      "why": "The measures outline the government’s fiscal priorities that will affect Canadians’ cost of living, business environment and national development projects.",
+      "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss"
+    },
+    "9938164208165a": {
+      "id": "9938164208165a",
+      "firstSeen": "2026-11-02T17:33:19+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-02T23:33:51.152735+00:00",
+          "title": "Combat resumes in Kherson after six‑day ceasefire",
+          "summary": "Fighting restarted in Ukraine’s Kherson region after a six‑day truce, the longest since Russia’s full‑scale invasion in 2022. The pause enabled the evacuation of hundreds of residents from the Russian‑occupied town of Oleshky. On Monday, authorities said Russian forces struck a medical facility in Kherson city centre and a drone attack injured a 62‑year‑old woman and a 73‑year‑old man. Ukraine alleges Moscow used the ceasefire to reinforce positions, rotate troops and move ammunition.",
+          "importanceScore": 14.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-02T23:33:51.152735+00:00",
+      "cat": "World",
+      "latestTitle": "Combat resumes in Kherson after six‑day ceasefire",
+      "latestSummary": "Fighting restarted in Ukraine’s Kherson region after a six‑day truce, the longest since Russia’s full‑scale invasion in 2022. The pause enabled the evacuation of hundreds of residents from the Russian‑occupied town of Oleshky. On Monday, authorities said Russian forces struck a medical facility in Kherson city centre and a drone attack injured a 62‑year‑old woman and a 73‑year‑old man. Ukraine alleges Moscow used the ceasefire to reinforce positions, rotate troops and move ammunition.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
+    },
+    "81553b64d9fdbd": {
+      "id": "81553b64d9fdbd",
+      "firstSeen": "2026-11-02T18:34:24+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-02T23:33:51.152735+00:00",
+          "title": "Ukraine alert system issues nuclear‑strike warning, many doubt authenticity",
+          "summary": "On Sunday night Ukraine’s emergency alert system broadcast a succession of messages that escalated from warnings of Russian drones and missiles to threats of imminent nuclear strikes, chemical attacks and street combat. Many citizens did not take the alerts seriously and questioned their authenticity. Sofia Kochmar, a 34‑year‑old mother in Lviv, said she was initially concerned but quickly began to doubt the messages.",
+          "importanceScore": 14.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-02T23:33:51.152735+00:00",
+      "cat": "World",
+      "latestTitle": "Ukraine alert system issues nuclear‑strike warning, many doubt authenticity",
+      "latestSummary": "On Sunday night Ukraine’s emergency alert system broadcast a succession of messages that escalated from warnings of Russian drones and missiles to threats of imminent nuclear strikes, chemical attacks and street combat. Many citizens did not take the alerts seriously and questioned their authenticity. Sofia Kochmar, a 34‑year‑old mother in Lviv, said she was initially concerned but quickly began to doubt the messages.",
+      "why": "The episode illustrates how uncertain or potentially false alerts can undermine public trust in emergency warning systems.",
+      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss"
+    },
+    "973b43b999bb14": {
+      "id": "973b43b999bb14",
+      "firstSeen": "2026-11-02T17:38:11+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-02T23:33:51.152735+00:00",
+          "title": "Shop freezers in seven European countries hit by cyber-attack",
+          "summary": "Dozens of supermarkets across seven European countries have been hit by a cyber-attack affecting their refrigerators and freezers. Around 40 Delhaize supermarkets in Belgium and Luxembourg were affected, while a smaller number of shops were hit in Sweden, Ireland, the Netherlands, Estonia and Finland.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-02T23:33:51.152735+00:00",
+      "cat": "World",
+      "latestTitle": "Shop freezers in seven European countries hit by cyber-attack",
+      "latestSummary": "Dozens of supermarkets across seven European countries have been hit by a cyber-attack affecting their refrigerators and freezers. Around 40 Delhaize supermarkets in Belgium and Luxembourg were affected, while a smaller number of shops were hit in Sweden, Ireland, the Netherlands, Estonia and Finland.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+    },
+    "70bd26abd09222": {
+      "id": "70bd26abd09222",
+      "firstSeen": "2026-11-02T13:04:35+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-02T23:33:51.152735+00:00",
+          "title": "Market wrap: RIL, Tata Steel, Infosys, ICICI Bank top gainers and losers on Nifty and Sensex on Monday",
+          "summary": "Indian markets rallied sharply, with Sensex gaining 1.66% to 75,693 and Nifty rising 1.68% to 23,441. Strong quarterly earnings lifted investor sentiment, led by Reliance Industries, metals and oil and gas stocks, while market breadth remained positive.",
+          "importanceScore": 11.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-02T23:33:51.152735+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Market wrap: RIL, Tata Steel, Infosys, ICICI Bank top gainers and losers on Nifty and Sensex on Monday",
+      "latestSummary": "Indian markets rallied sharply, with Sensex gaining 1.66% to 75,693 and Nifty rising 1.68% to 23,441. Strong quarterly earnings lifted investor sentiment, led by Reliance Industries, metals and oil and gas stocks, while market breadth remained positive.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-ril-tata-steel-infosys-icici-bank-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135462862.cms"
     }
   },
-  "updated": "2026-11-02T15:59:46.259550+00:00"
+  "updated": "2026-11-02T23:33:51.152735+00:00"
 }
