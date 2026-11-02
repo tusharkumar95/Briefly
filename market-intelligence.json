@@ -1,78 +1,120 @@
 {
-  "updated": "2026-11-02T11:41:55.932199+00:00",
+  "updated": "2026-11-02T21:56:06.076859+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX slides as gold miners tumble after Bank of Canada rate hike",
-      "direction": "down",
-      "move": "S&P/TSX Composite -1.74%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "headline": "TSX climbs as oil pullback lifts industrials and mining stocks",
+      "direction": "up",
+      "move": "S&P/TSX Composite +0.51%",
+      "why": "Falling oil prices and strong mining/materials shares were explicitly cited as the reasons the index rebounded.",
       "drivers": [
         {
-          "label": "Gold miners slump",
-          "detail": "Gold mining stocks dropped sharply, pulling the index down.",
+          "label": "oil pullback boosts industrials, mining shares",
+          "detail": "Livemint explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Trump teases ’Concept’ of Canada trade deal",
+          "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Oil price decline",
+          "detail": "A pullback in oil prices was said to boost industrials and reduce energy‑related pressure, helping the TSX rise.",
           "kind": "context"
         },
         {
-          "label": "Bank of Canada rate hike",
-          "detail": "The central bank raised its policy rate the day before, adding pressure on equities.",
-          "kind": "context"
+          "label": "Mining and materials stocks",
+          "detail": "Materials and mining shares led gains, providing the primary lift for the index.",
+          "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Materials",
+        "Industrials"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35620.0,
-        "previousClose": 36249.0,
-        "change": -629.0,
-        "changePct": -1.74,
+        "price": 35801.09,
+        "previousClose": 35620.0,
+        "change": 181.09,
+        "changePct": 0.51,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-10-30T20:20:01+00:00",
+        "asOf": "2026-11-02T21:20:00+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange Today: TSX Edges Down to 36,249.03 as Gold Miners Slump a Day After the Bank of Canada Hike - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNXVUeDZuN20xMkh3S1BMcHdkU3haM1J5LTIyWlROMkpJajFVTEJBZUc4bDhaVENMZ3g1eEdsYUw3OWNBQVV3TDhtUkU3MndNaVF5MVFvVEFZR0JwZmxRbUhESk1HNmhiMkdfcWw0OGdrWnpFRE5sb0NFZG9JNHRnTlQ4a0FLZEhSaHY5Q0pjVnVwWm02cDg3elpmMWtiVktQNDNlU1VSWG1CeF9XNDZKSEVoN3J3NDYxMVJUN1JOWWhVZ2NwZUh3Zm80YmVmaHN0bTJ5WmdRZ1JuN1V0VWJJa0JXWk14TERE?oc=5",
-          "publishedAt": "2026-11-02T00:35:26+00:00"
+          "name": "Livemint",
+          "title": "TSX rebounds as oil pullback boosts industrials, mining shares - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcXo5NV9oOUlXbzZYQmlES2Q3YUxlVUt6M0lhWUFueVZMSU5wSXc0TG84V0VFbWlHRnRTcGNQWGVBZVNnV3g1S2NDbzNvR1c2RHE4SnJrYk1rR0oyMVVCNG9pS0M1b0NrVkhOam5DZ21RRmE4ZjBXYjNPSU8ycWl0a2g1aGhaQV96WEd5UU5zZVZpTGJQU2VDeVZmSVdKVkpjMTQxQzRxbHNCQWZlYzByVm9Naw?oc=5",
+          "publishedAt": "2026-11-02T21:39:46+00:00"
         },
         {
-          "name": "kalkine.ca",
-          "title": "Why Did BCE Inc. (TSX:BCE) Fall 0.178% to $28.04 on October 29, 2026? - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUldnRXZ3ODl0N1AxNGh5bTU0WVl0VlBxNU0xMmNab0hHWEx1YW9oVU8yV0Y4ZC14RTkxdlBRS3dqXzBZdmJqOEgzTkxfdHg0U1Y3emRha2xpdVI5anVkWHFUeVlGZXBxMW9FNFNka1RiRG52bFBMN080cWhjMWt0eEpHQS0wQnp1SGI3bmg5Qm1yRXI4QmREZkFR?oc=5",
-          "publishedAt": "2026-11-01T15:54:00+00:00"
+          "name": "Finimize",
+          "title": "Canada’s TSX Rose As Oil Fell And Miners Led - Finimize",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1udUxqazRoVmRCbTJSVU1uZXk5a01VTUdZYWJySVNuOFpEclRFM1hLSmRqQ0xDZWN2Z29DVEJmTnpOaklLbDNmbEVTTHA0Ym1vRkhBcEJFUnpiWmJZSkdoVXhCY3JFWkk4UllyNE9MMDJxb2xHemRPdjdib2I?oc=5",
+          "publishedAt": "2026-11-02T21:04:07+00:00"
+        },
+        {
+          "name": "Investing.com",
+          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.73% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTGVrN1RBTTJyWnVlVzd4S3JUYzNHSElodnRNUGNwZzJ6ZU55VXpIaW5Tb3E1SThOTWhtT1lVNGNPeGRuZzlTM0NSZUlwbWpIWnBLc2JCU2VoeU5kYXNRemhIWVhyY054QUtFUjBIRlFYZi1tb3VKSGRaQVZEU3RQMkRLYnUyZUxObDR2YkVnQmt5b2RFM1JpSTMyZDN4YnRLSWM3bzRRSnlYNkljQUpNVTZHMFB2NW9QMFE?oc=5",
+          "publishedAt": "2026-11-02T20:53:16+00:00"
+        },
+        {
+          "name": "Investing.com India",
+          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.70% By Investing.com - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOEdHZTJtejZCVjRDdGcwcUptTGIwY0NEQmlLSktTcjFUQXExLWxGaE0yQkVocjY4Q1JBb2hKUzhkUGNwYk8xWE95aGVPOGJ5VWc0ZDhHWDBJQzlPa3RSTC1SMGM5VlhSc3FhSGsxRUxrYm9DY2ZGdnJ6dkVwbDJFTlBKUnI0ajV4bHc3Wkx6TmxBS0hJSXdnT1NfaDdQWVRpVE1NZ1RfTHBHSGU1UTlHQWxNVi1qWFBQ?oc=5",
+          "publishedAt": "2026-11-02T20:37:30+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.70% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWVhERV8ydzgwd3liVXVUSkYwR2F4M1FfZ2pDZzVuWVpyXzBrdElSQThjMXdPdVpOUFBmNm9kb2g2SjlOZlFrWGNhTVRadTNjNTY4WlYzamwwMHNoQnlmQW5ra2ZtUlJWb0tmNXlObXZjamRUUktvU0xLUG5QUkYwMF91RS1BYndFZHkxMFZzZ1JXWDgwSlVIZTdLQ2I1SGlSZElqd25tSjliU2d5MmNUUW0xTlV6cWx2?oc=5",
+          "publishedAt": "2026-11-02T20:30:00+00:00"
+        },
+        {
+          "name": "The Globe and Mail",
+          "title": "S&P 500 ends down; TSX up on materials stocks - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVFh4QkJoTU56ZmxXZlVGWXNfbk16c29QRWlCSlJxTEVpcVNmWlFQeVZUM2JqWnlRMkFMa0hGcWIzZWtVRkNWVmZPZHVQbkhIck52SnkwQzdaVXlBM05WMnpYdGo3MHRrODVHemFiY2huUEhmWkk4NzZsRlVlaGxGdk9OUHpmaTBMX2xDYnpIc1pTWURWaUdDSUsyNEYxVl9yY0J3OE9hRG9hSm9RVUZ2TkRIUEowMkF5TTBXSFQ1S0pqLWV0eEdMNGZDQTZmWnhZVmJCYU1XM284anlMcEE?oc=5",
+          "publishedAt": "2026-11-02T10:02:03+00:00"
         }
       ],
-      "evidenceCount": 2
+      "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 1.68%",
+      "headline": "Nifty 50 rose 0.51%",
       "direction": "up",
-      "move": "Nifty 50 +1.68%",
-      "why": "Same-day market coverage explicitly linked the final move to: Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110; Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap; a bang: Sensex jumps 1,233 points, Nifty tops 23,400 as RIL leads rally.",
+      "move": "Nifty 50 +0.51%",
+      "why": "Same-day market coverage explicitly linked the final move to: Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap; Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110; Oil Retreat Lifts Risk Appetite.",
       "drivers": [
-        {
-          "label": "Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110",
-          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
         {
           "label": "Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap",
           "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "a bang: Sensex jumps 1,233 points, Nifty tops 23,400 as RIL leads rally",
-          "detail": "NewsDrum explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110",
+          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Oil Retreat Lifts Risk Appetite",
+          "detail": "Multibagg AI explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Reliance Industries gains 11.6%",
+          "detail": "ET Now explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -81,10 +123,10 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 23440.8,
-        "previousClose": 23053.1,
-        "change": 387.7,
-        "changePct": 1.68,
+        "price": 23053.1,
+        "previousClose": 22936.75,
+        "change": 116.35,
+        "changePct": 0.51,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -94,10 +136,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 75692.78,
-        "previousClose": 74459.53,
-        "change": 1233.25,
-        "changePct": 1.66,
+        "price": 74459.53,
+        "previousClose": 74151.04,
+        "change": 308.49,
+        "changePct": 0.42,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -112,16 +154,22 @@
           "publishedAt": "2026-11-02T02:42:00+00:00"
         },
         {
+          "name": "Dalal Street Investment Journal",
+          "title": "Closing Bell: Nifty Gains 1.68% to 1-Month High as Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX3ZuanZvZEdQR1dPekpHYzZNWUZNYXZKQTZ3YUlnMFlLODA2WUZEWHJkN3N0M0x4eEJPLTFNNm1nSFo2a3N6aTFtMjRBWFhGRDZyVUNKS1JZcmVaaU1td3d6RVZfQWNkU1hhNzRqeWYzUk9EMnRaZTdneTlGbFJZNUFkVU9ONlkyV3NIRE5NdEJQZ2FHVmV0V0JtejNHdlBPLXZqM0tZcUJSYk8zdFdZb01lVkNtWWthb3lpMGtqVWtLSENSMDMtV3k2WGFGb0ttZVUxenBQUmNGNlBxQ2c?oc=5",
+          "publishedAt": "2026-11-02T11:04:35+00:00"
+        },
+        {
           "name": "India Infoline",
           "title": "Closing Bell: Nifty Surges 1.68% to 23,441 as Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110 - India Infoline",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOLVZ6YnZHcGpwdG1Nb191NWxSRHNyQmpPR2l6Y2dETkpKdU1EREc1SDg5UnJPTUdCRWpTQ2xWLVFkbGtHaXdTQW1YYWRpd3pBTFFmSnN2RVcyYks2UXVjMm80VVFjZ29ibjZuelMwMHNTV3hXbzJDTUFaNnpJMGhoTjVXZW9kZlhJNnZocGx3VmtvQXVLTXlNZVQ3Y3FYb3oxVzRaSHVaSmY4c2pHb3FNUV8zeEd2clh0QS1rMUw0VVpTTVJwcmxOY2xIMEE3cHZvblNMR0hOUmlmVUNMVlRN?oc=5",
           "publishedAt": "2026-11-02T11:04:28+00:00"
         },
         {
-          "name": "Dalal Street Investment Journal",
-          "title": "Closing Bell: Nifty Gains 1.68% to 1-Month High as Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX3ZuanZvZEdQR1dPekpHYzZNWUZNYXZKQTZ3YUlnMFlLODA2WUZEWHJkN3N0M0x4eEJPLTFNNm1nSFo2a3N6aTFtMjRBWFhGRDZyVUNKS1JZcmVaaU1td3d6RVZfQWNkU1hhNzRqeWYzUk9EMnRaZTdneTlGbFJZNUFkVU9ONlkyV3NIRE5NdEJQZ2FHVmV0V0JtejNHdlBPLXZqM0tZcUJSYk8zdFdZb01lVkNtWWthb3lpMGtqVWtLSENSMDMtV3k2WGFGb0ttZVUxenBQUmNGNlBxQ2c?oc=5",
-          "publishedAt": "2026-11-02T10:58:16+00:00"
+          "name": "Multibagg AI",
+          "title": "Sensex Today Rises 1.3% as Oil Retreat Lifts Risk Appetite - Multibagg AI",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYWdsZlZOeHg1d01VenlrVDNkal9NTElRbWx3SU13anduQ29FZDVabVB5ZkFpY1hCNUt6RGJPemhxNlkxcGxudW5WQUh5bzJZSWQ1R3FlYWY4MGFVQVYtdzJDZ2hISEtnLXNFVV8yelllYkRKUHZXODZRTnJGaXlBbHJXREhUOHdyTmFxRXBzeW1ickJSUXpnem5ZOWFpQQ?oc=5",
+          "publishedAt": "2026-11-02T11:01:46+00:00"
         },
         {
           "name": "Telegraph India",
@@ -130,16 +178,10 @@
           "publishedAt": "2026-11-02T10:54:18+00:00"
         },
         {
-          "name": "Telangana Today",
-          "title": "Sensex jumps 1,233 points, Nifty closes above 23,400 on oil price fall - Telangana Today",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbzdIQm9FclJQTFRZQkZxWnlJWFktUHloV1BxUUFyaXREZ0NoNW42Z0taUEx6NG9HOVNoaEU4TnFJTFpjcXhMQ3NnU3ItLWFOVUJCeGc1Q3l5U3BjOW1iZ0FERTU5Wm8tVlNTeF92T2FkblN5eVRvSFlPOUdnSnhxSjJaOFhRTWVYeHpiLVc3bmVic2cxUktZWXlB?oc=5",
-          "publishedAt": "2026-11-02T10:51:49+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "Why did market rally today? Sensex soars 1,233 pts, Nifty ends above 23,400. 7 factors behind Rs 8 lakh cr - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRzBnWE5lN3R4SHNYbkF1czZ0NFlrd1BZYzRXeUNrQXNMYWx1UER5c2tKT0J3VzhTdmU1Zi1BNC1SbEp1ci02Z1hRYmVTZkdQM1JlU1QzOVl3UjF2UFhYdEwxbUVPM0RGSDJ4RlFDWUFybjI3VWdlbkNwZjA3cWt6ejV1ZFVVRUthUW9XRkJWaDhYUEFHTTlVS1dja29FTnlub2c1eV9MN21kcjZlVjQ0ODhRNDZFSlNNak9INlBEOU5BakxpUWM3NE1mVlZ2b3VLa2c2V1RwYWVzSHZ3aXg3U2F2YUMwT3NtZUxva2g0LTBicjd1U08wSlFlSUY4T2RLN1Zmek5DSElkTDRfbGhvNTRYWDRJc1lBMUlHSEpn0gGjAkFVX3lxTE1DRk9KV1EzdnVGbVV0R1hEd3BwemlzQ1ZUa0p3WDhqQjV2NFlOTHNTdkY0WE9ENkxvSEs0M0NONEpmejVsMlU0akItWlZ5MG5ldmZtbTlITTNKWGdDOWJZcDJfZEpqLXV3OEdMdzhra3JHWHBHTURkeVZDXzlibEh2cUd6VHY2a3M1aUtwS1RtcXV5Zi1zRkRPUkVYYm1xNmhFY1lDc0o4ejVoemdqUGdfNzlybFdWQmlvejVYVTZSY09lZzNzYjRGZWs4Z0hGTXY1RkdHc1M0emkzRHZROXpqVkliXzlvUm1pMWNZWllxdmREY3RlUmRPZ0VjMGJiMHlzNTM5alU1UFdxU2tEYXY3MGl6T3ctOHFmNVZTZmN6Z3FxSQ?oc=5",
-          "publishedAt": "2026-11-02T10:40:18+00:00"
+          "name": "ET Now",
+          "title": "Stock market closing: Bulls charge D-Street! Sensex, Nifty ends over 1.6% higher as Reliance Industries gains 11.6% - ET Now",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPT1ZGcjB6bWtRQ3dLanFBNkpVbmlQRV9lOU4wbkQxZEtFTktGaHVZNV91RW1DWW9BeERwY2RKRWRvTzJfZVc3TWNQTjc1aW9OYVZLcWVMUzQzYzQxUHVTUC12SUlINVJoVEQzV3Bma2NndFdhMkx2Sm9qQWQ5QW5vdXgxQ0REM200X2hPenNoUW81c0NZRnNBbmNCM1ZHazE2STAydkQyVlR6R1luSUVXVUt0V3BNLUVMSTBLRkFDZG12djl1T0NxOXp1NkoyZWRmWV9tN2VmVUZKQ2tUSG1GbHhhZWJxMm_SAewBQVVfeXFMTURKaHVkekxDRjZTWjU5aGJHVWRVR2I1MU1wQTI2aTdreFhxRm9USVV6OVhZVXpYQ1c0TnN5ekZDeWR5Z2YwanF6WnpnX2VUYmxxQVdHUnRLMlNjQXUzclVISjh6SWI5UFFVTkxCUkc1SkExYXl3ZDBXZjJJYTI4aFVtNnBicjF3ejM4UzVlM2hOazU2WFp1TGhPVERnbzRiWWlWaXpvOTNCNmxUT2V4eHNfczR2ZFVGODBERjVaU1pJRGpLOTJyaGVadWk3V3lSVFBlNFVkRnZXbHFrRndVRmZ0THptYWMyWk9yVW0?oc=5",
+          "publishedAt": "2026-11-02T10:19:12+00:00"
         }
       ],
       "evidenceCount": 7
