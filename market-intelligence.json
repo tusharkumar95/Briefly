@@ -1,18 +1,23 @@
 {
-  "updated": "2026-11-01T23:05:34.699050+00:00",
+  "updated": "2026-11-02T02:45:19.512495+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite falls 1.74% to 35,620",
+      "headline": "TSX falls as gold miners slump after Bank of Canada rate hike",
       "direction": "down",
       "move": "S&P/TSX Composite -1.74%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "BCE price decline",
-          "detail": "BCE Inc. fell 0.178% to $28.04 on October 29, 2026.",
+          "label": "Bank of Canada rate hike",
+          "detail": "The policy increase was cited as the trigger for the market’s downward move.",
+          "kind": "context"
+        },
+        {
+          "label": "Gold miners slump",
+          "detail": "Gold‑mining shares fell sharply after the rate hike, weighing on the TSX.",
           "kind": "context"
         }
       ],
@@ -34,10 +39,10 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "kalkine.ca",
-          "title": "Why Did BCE Inc. (TSX:BCE) Fall 0.178% to $28.04 on October 29, 2026? - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUldnRXZ3ODl0N1AxNGh5bTU0WVl0VlBxNU0xMmNab0hHWEx1YW9oVU8yV0Y4ZC14RTkxdlBRS3dqXzBZdmJqOEgzTkxfdHg0U1Y3emRha2xpdVI5anVkWHFUeVlGZXBxMW9FNFNka1RiRG52bFBMN080cWhjMWt0eEpHQS0wQnp1SGI3bmg5Qm1yRXI4QmREZkFR?oc=5",
-          "publishedAt": "2026-11-01T15:54:00+00:00"
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange Today: TSX Edges Down to 36,249.03 as Gold Miners Slump a Day After the Bank of Canada Hike - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNXVUeDZuN20xMkh3S1BMcHdkU3haM1J5LTIyWlROMkpJajFVTEJBZUc4bDhaVENMZ3g1eEdsYUw3OWNBQVV3TDhtUkU3MndNaVF5MVFvVEFZR0JwZmxRbUhESk1HNmhiMkdfcWw0OGdrWnpFRE5sb0NFZG9JNHRnTlQ4a0FLZEhSaHY5Q0pjVnVwWm02cDg3elpmMWtiVktQNDNlU1VSWG1CeF9XNDZKSEVoN3J3NDYxMVJUN1JOWWhVZ2NwZUh3Zm80YmVmaHN0bTJ5WmdRZ1JuN1V0VWJJa0JXWk14TERE?oc=5",
+          "publishedAt": "2026-11-02T00:35:26+00:00"
         }
       ],
       "evidenceCount": 1
@@ -91,25 +96,37 @@
           "publishedAt": "2026-11-01T06:37:22+00:00"
         },
         {
+          "name": "The Economic Times",
+          "title": "Indian stocks may recover on steady growth and earnings, Axis AMC says - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMkdXSzc2U0E2UHkyYlNNbjdqUVpOY0RYNVBteXZsWHBGa1lyNG5DTzB5ZDhQZmdlUU9PWS1RLWY4dHhKQkJFMGpLR3F4UGc5VXNaWVNrTHI0RWR4MC0yVGFkTHprXzlfTEhDQnJZbDZ2Qk1XQ3FScy1jdFR3bjZLdEttS0o1VC1SNElqODA4OUdKYmVsYmEwd1E3OWFEX1ltNThFbXliQXU4Sm93S19FSWhnZEZjZENwY0VING9YRlBUUy1DaVJuclI3aXJfUGZSYmVHY1BqdmVoWDjSAeABQVVfeXFMUHlRM1diQWxFb00ycThTWmZLS0ZuMVEyWkkzSEItWGRzR2tiUUJKaS1IMkotSy1PeEdjb3JBRTIyMmY3RDFxLUJvazl1NUpNVnJ2VmNISS01MXFRU00xOWIxRmUyM0lhWTZwbkt1YjZPZjZ2OFhaX2k5MGJKNTJFdTFpdk9UVWJ2RFFUaEVJd1RaUTE0LWxOZi1DWXp1dXFmai10M2Y1Z3I5QkVoeS00djA3NWgtY3ZCRkRMVXZCYUdsX0JNVVdGVHh6UnlFUEMtdTg1RDhuZ2NnUFYxMzdNZGM?oc=5",
+          "publishedAt": "2026-11-02T02:09:23+00:00"
+        },
+        {
+          "name": "NDTV Profit",
+          "title": "Stock Market Today: Gift Nifty, Tech Stocks Selloff To Oil Prices; Five Key Factors For Sensex, Nifty 50 On Nov 2 - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ1ZLTF9TSHA1V19ZM1E4YlZEU3VUek5xaVNZcFg0MTljUTYzTzZxOS1ma2xYZjExV1g4NEtxZlBlU1hPaWhsMmh6WUZzMER3eGZqWUlla3VkdkJlQWR5MDlhNTJJSHNYaHVRMy1aMUduU2FmOVlUazNWY21BdXlrXzBlQ1lCaEdlUk1GcFd6ektBbm9CeFEyenNBaGpBMWxCcVdtQ1NETnVvOGg5T3IteUdPSlEwX3ZTZm5VS3gyR3o4SWFEbHFUblpJc25SLW9ySnJxRVM2Y3l0bDA5T3N1Z3hjemtFS2ZSVDNDblVSU1EzNnpyd3ZNQjFKdmZSZ9IBhgJBVV95cUxNN3hEdE5ZaDVDdlFsZVhOYldBR2FiVzZfc0FISTd3TVNwTEJONGkxVlpuWGtJQTRwckRETlBGbkJsTnd0N0xnTGZUem1pcmx6V0xoRi0wLVB2alIzVkNRSHlHbTFyZGNLNUtRd3pHNzNhVkMtSU50dkZ3ZnR5NXpNNHZaWGxGRzkxbXlSa0pILXpoVjMxZXU3RlJsdTBvVzVQdEI1by1NLV8wRTA4RjhVQ1JNWDJYYlU4MTg4aGVLejBLM2ZhTjFtRGlKVmsxc3N1VnU3OG1OeGVrWV9uWGtLN3p1eFlZYklqN2VuSlMzU2M5WVBuS190eVNKWDhnQkpib01BcHVB?oc=5",
+          "publishedAt": "2026-11-02T01:29:17+00:00"
+        },
+        {
           "name": "Livemint",
-          "title": "From Wall Street to D-Street: What history suggests for S&P 500 returns, impact on India stock market, Sensex, Nifty - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPV0xyZVNiYVppTzN2MWxhaUt0MnBDUjVfcFRsQXBIaGVZNjBPT2R5SHRvX2JCem1FMjdoSUxmRTFObGxkbzBkZVdjRWxUSXVtV0RJdlo1MUF5NUxrRmg4NmpnR0RVaEl5eGpSUWxtZzRTM2hKRDVzZGR6VkkySnEyOXhPQlJuVmtPUjByV2drQnBuQ1N0UHVaa2dZN0YtQ0lpejhHNEJTMzlPSGphaTk2RHVyTUk0aWhWU3UxTWRxM0pmQW9zbmYxci1lUFFFMS1NaVh2c1JKSWNqbDNjWEthSUtyeXdQWGR3MGtsZ25WTGpLUXQxUkg4RDQwb2RwU1YzcHg1Mk9QOWliXzN3c3Nr0gGUAkFVX3lxTE9NakJ3M3dtd2MwcnRKUk5mQjFCcVJhQ3hJbDFtaklxbnExcUxFcVVtS3lkZDlHVUJtLTAzMExpQWxUWTZOeUdWaUxCZTI3NnY2cmxlemY0dW5qRmtyRWhPVnlxTlpWNGtNdkFfTndqSHFzZTZIZTdOZDdUQlVFTTJQclB5ZmI0blI4QmtMTlUzS1M0b3I5YXF2dTBsSEMwTHV4cXVSRnB1TTFZVFFwajVsZG5hX1U3d1VNSjZuMVdMX1B4QkJBeEEtWG1zQ0d3QjFPcWp5ZGpBUjZneTZPMjNZMFN1R2VsSnRxUmNXT253SHFXcUFRZDYzVTZ1MnZheWs1eDhneW1YT0lQVnhmVDR5YWRpbQ?oc=5",
-          "publishedAt": "2026-11-01T11:24:55+00:00"
+          "title": "Stock market outlook today, 2 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTlFfOXJmNXYteGRXMGlYQkU2QWtCMlFRbWF4X0FNa05FYlFSbldpcU1xWUlEOEFBN2ZnQVgzU1BUUHRYYm5BZ0tNREpnY0d0Rk50WlktMUxIOEVVUXl0czc2UVJZcG0yeUc1U0JBZ29GS01JeW1rNkpjWk42RDFNRXNLc2x2YnVjcU5rUkpXZmdTS19pY21QdXdKb0V2X3ZraTQxT3lWT0pRSUlJWG5VRVRyc202eDJMZWhaSGw5SjBWUExkZFkwX2F5N252YUcxeWxsUTVQSVhxQndVemRBWm1MYnEtQ0xWcGVSRld6M09tY1UzQzZlUU5nR2htOUM1LWdv0gGIAkFVX3lxTE1UaV9xRDAxeW9XVEtUWW82NWRuVFpVN3gxaXktLVBtNVVoalBkX0hRMzI3OFA3RGNRMkVDT3MzdWxZX1N4Q24tWVJQMnpsRmo4ZU5OemVyNVFPeVNNbTkxdktPZFhwYU1icmtmWTlma0dzWlhjREZBeGY0djVGYWFDVHVoTFhsY1VkRXJiS01BUGRkSlFhV1N4Y2h2ZlRPRG1ZTGZZZGJRalJEVUxmc1F3NXlqaHM0N3BJRFVzLXhaQjkwa001YUxiQUZxY1VzVVp2bE5zNGQ0aERLdVJjWjdxdm5aUmVvcXdjV3pRaEl5VExpOV82d3BsNzdnY3A1c0dhd0lpWURoUQ?oc=5",
+          "publishedAt": "2026-11-02T01:22:54+00:00"
         },
         {
-          "name": "Liquide Blog",
-          "title": "Share Market News: Nifty 50 Outlook & Prediction - Liquide Blog",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeVc1Wm5pRHZKQ2RzSTRkMnZoSmMzQ3BBQlBubHRuOFJ0ekxENlVlZFoyMGEzNGZRMjEyMDdQYTI1bTFrTTBCNm1POEd3dXVMdDM3RTh3MnhfbmQ5bTlQeTVHajlLTElzcl9XTjdaYlVlSjdlQm1yQ2QwSzVyQ3Qyc09qR21jQWZpc3J0N2xsbExoaUEzVkJza0lR?oc=5",
-          "publishedAt": "2026-11-01T14:15:05+00:00"
+          "name": "NDTV Profit",
+          "title": "Trade Setup For Nov. 2: Nifty Eyes Resistance At 23,200; Can Bulls Push Index Above 24,000? - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRHE0TVJGZURIYkh0UXhBdHRPcktZYTNOeGxyU09OZll2RnFSeVdvWERZcXRXNGVDZ2NzSFBKbmhLbjFMU1B3TnA5WmtUazRqblJCdVVQa2N2SlU4UzNZSDJ0b2tQLVBrNFR0eVd1OUJ5NXlKeHZTZUpOZS02S3B6WXNQVlNBUndMU0FHVEIzQk10WUZEZk42OTcyMlZ5QTRUY1B2a2FDWTU0UkliQVlwbWZZaUJzRVRMdFhHUVhPemR3TFo0LTBYdml1Y9IB0wFBVV95cUxOUXdsMENaTllhLXpFOUNHczBIMEJNemxZRGJiTDFkRmRIeFF0TDBNNWJCRFpyUG1OTjhiN1FsejNOX19WZmk5c0tpdG9BNjI2VmxYemVGTmRmQTN6amNNYzdqbVdDYy1xN3hISzJLSmFZc0o5MFI3T18zRTJySmpRNTE3bW5ZaUVlU0VFcF9qOVlCRzI1QkFfZWU3cmVpNmpiRXAzOGZYTXNHTU9JOGNiX2JzUDJrZkJmdGJ1dEdCQUU5QXVPRnJ4c0NWZWxYUFhyQUhR?oc=5",
+          "publishedAt": "2026-11-01T16:33:07+00:00"
         },
         {
-          "name": "Moneycontrol.com",
-          "title": "Chartist Talk: Can confident bulls drive Nifty 50 beyond 23,500 next week? Sudeep Shah spots bullish... - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNeUZCQ1BKLURoM3VzWGFkWE5FSkZDTUNVaVJXeWI0bkswRDhiYXZqYy01aVphZERGVnpzSFpFRVVxbHpMOTNiOHYxc0pqTlJWVEFDang3d0RnNlNSRUVhOTh2cHp6bmFyNTNBVy1ZZ2NOc21OVnRqY2RYeXVnbEVmSlhHMm55OENhTmZHMnNGT2lQaEQzVnVrRnpJT3lUMkw2UFJFdDF2Y3F3ajBKQWRyT0NOc1dZVWhpNVZMLXRqeVhpZjdnVnMyQTdaVnZQdDJRVmFIY3pPZ3ViNVdCWGhjazBkbUFCMk9NdkdGRV9BZWpfdzQxSjVwU1l2NkltLUxOSkxoTklFV1kyNU1TT1Jaa0pB0gGXAkFVX3lxTE1XS3JwVXlpWExRN29BOHV0U3JYQld4ZVFJM1JFX2EtRzNYcElKdzVaNklrQnJkWTQ2OHRnTHFwQ2pqeVRRMF9RN3BWLWdkT3Q4cFlRUnpfWnk2dWF4Z21YQ01PZlNNY1FqY0Q5a2R3ZnBZRnpfMHNqUHZlcURzXzZfTnNqWUZjWVdOSE5SWTZpMHNMbWlHVTc5ZWZoT3l1bmNCZ3NyeG9RUnhLZ0NDZWxrN01RUDdWeGpodnJrd09xbmVlcnZYSUl1dlloR3pvMnVMQUZFQllmSlpUcmRFdlhpMmRxT192aXE3bzM4M3pkRXFaQlJqVWRCNDVQSHJsSzBGT2F0VmtvU2V6eEhCeDkxeS11Tktvcw?oc=5",
-          "publishedAt": "2026-11-01T01:16:02+00:00"
+          "name": "CNBC TV18",
+          "title": "Nifty Outlook for November 2: Can the 23,200 hurdle give way to a rally towards 23,500 this week? - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbktiNWhVVXpaNERYOG9IZWxHMU54M2NUeFpad3A1WEdFUndSYXZ4R0Y0RXNSLU1GX256UjVpbnFZdTkxSDluUmpDSFNXbzNKZVNSOVFsOTVFY0pIWU1jMHVOVElMZndkcG1wZnRWaEtnTVFEUmhtZ3FwYU9jbno3OThNYjlFVk5lbVMzS1NLMHE0MDc4MTFRZU9hVTBadHQzeG54VzZKNkZyaU9GWEhrZzc2WEZ5Y1JGWDVibERUWEhIMTJKTy1nSFBRVUVreWdZQXpnUtIB2gFBVV95cUxPQzh0bUdXZWdXdXo2WGstcW1GVng4dThOWTlBbGZBWVVBbU1ObHZJdnZ5MUp0aWUxcjE3TXZrYjZvcFhSaHNYWTJXek1fM1pza2dzb1I4SUJ3ZXJKSWRMMl9sakY4OU1HWnVKMW1FOGRhTmRCSHBHTmhBU0xYWmVCNmRsSW5oT3JDald5UWZXTFZKbjVqWFJaNy1rZzF4NjBmeVIteFBRdVVaMnRGN2ROcnhxWG1qQWRKdlZYUWxnaERlX1RRVHBkVjBNNUtWQ21Xd190QVFNeDZpdw?oc=5",
+          "publishedAt": "2026-11-01T14:15:03+00:00"
         }
       ],
-      "evidenceCount": 4
+      "evidenceCount": 7
     }
   }
 }
