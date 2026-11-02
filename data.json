@@ -1,22 +1,207 @@
 {
-  "updated": "2026-11-02T06:11:04.903800+00:00",
+  "updated": "2026-11-02T15:59:46.259550+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 59,
-    "nonNoiseCandidates": 59,
+    "rawCandidates": 80,
+    "nonNoiseCandidates": 79,
     "officialOrPrimaryCandidates": 5,
-    "enrichedCandidates": 59,
-    "readableCandidates": 45,
-    "eventClusters": 45,
-    "materialEvents": 27,
-    "selectedEvents": 8,
-    "seededStories": 5,
+    "enrichedCandidates": 77,
+    "readableCandidates": 59,
+    "eventClusters": 56,
+    "materialEvents": 22,
+    "selectedEvents": 10,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "f2120a0704360b",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "US stocks rise as AI shares stabilize and oil falls on peace hopes",
+      "publishedAt": "2026-11-02T14:39:18+00:00",
+      "importanceScore": 14.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-ai-trade-steadies-oil-falls/articleshow/135465480.cms",
+      "summary": "On Monday U.S. equities opened higher, with the Dow Jones up 0.78% to 52,173.40, the S&P 500 up 0.45% to 7,613.87, and the Nasdaq Composite up 0.63% to 25,596.07. Crude oil prices fell sharply as hopes grew for a U.S.–Iran peace deal and for Iran‑mediated talks to reopen the Strait of Hormuz. Alphabet announced a €6 billion euro‑bond sale that drew €17.1 billion of orders.",
+      "why": "The moves illustrate how geopolitical developments and major corporate financing can quickly shift market sentiment.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-ai-trade-steadies-oil-falls/articleshow/135465480.cms",
+          "publishedAt": "2026-11-02T14:39:18+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-us-midterm-elections-ai-stocks-tech-stocks-openai-anthropic-intel-amd-apple-alphabet-spacex-earnings-oil-prices-treasury-yields-news-2nd-november-2026/liveblog/135463461.cms",
+          "publishedAt": "2026-11-02T13:11:31+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-02T14:39:18+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "ff7a668d0b13d4",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
+      "publishedAt": "2026-11-02T14:35:38+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ireland Scotland Wales Isle of Man Guernsey Jersey Local News Wizz Air flight from Luton in emergency landing after bomb threat A file photo of a Wizz Air plane on the tarmac at Ferenc Liszt International Airport in Budapest",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-02T14:35:38+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-02T14:35:38+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "d908c90d702868",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Omen AI acquires Aquatic Labs for $16 million to enhance water‑sensor technology",
+      "publishedAt": "2026-11-02T15:00:00+00:00",
+      "importanceScore": 13.3,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "summary": "Omen AI, a startup founded in 2024 to monitor cooling‑water systems in data centers, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity sensor, creating a more comprehensive real‑time water‑quality solution. The combined technology aims to reduce reliance on slow, off‑site lab testing.",
+      "why": "It could lower water consumption and operational costs for AI data centers by improving real‑time cooling‑fluid monitoring.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+          "publishedAt": "2026-11-02T15:00:00+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-02T15:00:00+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "2d1b3f6ed72f83",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Fusion Finance posts Rs 86.5 crore profit as asset quality improves",
+      "publishedAt": "2026-11-02T14:43:13+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fusion-finance-swings-to-rs-86-5-crore-profit-as-asset-quality-improves/articleshow/135465579.cms",
+      "summary": "Fusion Finance reported a profit of Rs 86.5 crore for the most recent reporting period. The Economic Times headline notes a swing to profit, implying a reversal from earlier losses. The company linked the profit to an improvement in asset quality.",
+      "why": "The profit swing suggests a potential turnaround in financial performance, which could influence investor sentiment.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fusion-finance-swings-to-rs-86-5-crore-profit-as-asset-quality-improves/articleshow/135465579.cms",
+          "publishedAt": "2026-11-02T14:43:13+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-02T14:43:13+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "fe2b58d2b6284e",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Coforge among 4 stocks that hit 52-week highs and rallied up to 15% in a month",
+      "publishedAt": "2026-11-02T13:31:31+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/slideshow/135463866.cms",
+      "summary": "Four stocks from the BSE 100 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/slideshow/135463866.cms",
+          "publishedAt": "2026-11-02T13:31:31+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-02T13:31:31+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "de8d95a0bcc635",
       "cat": "India",
@@ -24,13 +209,13 @@
       "categories": [
         "India"
       ],
-      "title": "China tightens export controls on tunnel‑boring machines, could affect Indian projects",
+      "title": "China tightens export controls on tunnel‑boring machines, raising trade‑war risk for India",
       "publishedAt": "2026-11-02T03:45:33+00:00",
-      "importanceScore": 14.3,
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms",
-      "summary": "China announced tighter export controls on tunnel‑boring machines and other specialised construction equipment. The move raises concerns that Indian infrastructure projects, especially those near the disputed Himalayan border, may face delays or higher costs. Analysts note that China's dominant position in this equipment market gives Beijing leverage over those projects.",
+      "summary": "China is tightening export controls on tunnel‑boring machines and other specialised construction equipment. The move has raised concerns that the restrictions could disrupt India’s infrastructure projects, particularly those along the disputed Himalayan border. Beijing’s dominance in tunnel‑boring equipment is seen as giving it leverage over India’s construction sector.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -43,55 +228,19 @@
         }
       ],
       "firstSeen": "2026-11-02T03:45:33+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-02T06:11:04.903800+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "2c2c91d09f6f49",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
-      "publishedAt": "2026-11-01T17:56:47+00:00",
-      "importanceScore": 11.7,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-      "summary": "New South Wales police have deployed the Armed Response Command, sending specially trained officers with long‑arm rifles to patrol busy tourist areas, major sporting events and places of worship in Sydney. The deployment follows the December Bondi Beach attack in which two gunmen killed 15 people, including a 10‑year‑old girl, during a Hanukkah celebration. The shooting, Australia’s worst mass shooting in almost three decades, prompted sweeping gun‑law reforms and a crackdown on hate speech.",
-      "why": "The patrols are intended to deter and quickly respond to armed threats in high‑profile public spaces.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-01T17:56:47+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-01T17:56:47+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-02T06:11:04.903800+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
-      "previousSummary": "Heavily‑armed officers from the New South Wales Armed Response Command have started patrolling Sydney’s busy tourist precincts, major events and places of worship, carrying long‑arm rifles. The deployment follows the December 2023 Bondi Beach shooting in which two gunmen killed fifteen people, including a ten‑year‑old girl, during a Hanukkah gathering. Police say the patrols aim to prevent, deter and quickly respond to serious threats such as active‑shooter incidents.",
-      "previousPublishedAt": "2026-11-01T17:56:47+00:00",
+      "previousTitle": "China tightens export controls on tunnel‑boring machines, could affect Indian projects",
+      "previousSummary": "China announced tighter export controls on tunnel‑boring machines and other specialised construction equipment. The move raises concerns that Indian infrastructure projects, especially those near the disputed Himalayan border, may face delays or higher costs. Analysts note that China's dominant position in this equipment market gives Beijing leverage over those projects.",
+      "previousPublishedAt": "2026-11-02T03:45:33+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.7,
+      "previousImportanceScore": 14.3,
       "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
+      "change": "Its significance score fell as the evidence changed.",
       "lifecycle": "Updated"
     },
     {
@@ -101,17 +250,17 @@
       "categories": [
         "AI"
       ],
-      "title": "OpenAI may rename data centers as “AI compute campuses”",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
       "publishedAt": "2026-11-01T21:55:23+00:00",
-      "importanceScore": 10.2,
+      "importanceScore": 9.2,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "summary": "Axios reports that OpenAI is considering rebranding its data centers as “AI compute campuses” and is planning a public‑relations push after the upcoming midterm elections, which are expected to shift control of Congress to Democrats. Chief global affairs officer Chris Lehane told Axios the midterms will act like a “movie trailer” for the role AI will play in the 2028 presidential election.",
-      "why": "The naming change could shape how OpenAI presents its infrastructure to policymakers and the public ahead of heightened political scrutiny.",
-      "confidence": "medium",
+      "summary": "Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . So OpenAI is to influence the AI debate moving forward, with Lehane discussing several proposals, including the development of AI “speed limits” ; finding ways to help people see AI as empowering them in their daily lives; pushing the U.S.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -120,73 +269,37 @@
         }
       ],
       "firstSeen": "2026-11-01T21:55:23+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-02T06:11:04.903800+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "807707934f5625",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
-      "publishedAt": "2026-11-01T17:14:12+00:00",
-      "importanceScore": 10.0,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/",
-      "summary": "and Canada will be working in the coming weeks to deliver a “mutually beneficial” trade deal after a conversation with President Donald Trump. “This builds on our recent constructive discussions on the outlines of a mutually beneficial trade deal that would create jobs for our workers, boost affordability for families, and fully respect Canada’s languages, culture, and sovereignty,” Carney said.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/",
-          "publishedAt": "2026-11-01T17:14:12+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-01T17:14:12+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-02T06:11:04.903800+00:00",
+      "lastChecked": "2026-11-02T15:59:46.259550+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "Carney says Canada, U.S. working in coming weeks towards trade deal",
-      "previousSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Anonymous November 1, 2026 at 6:23 pm Yesterday Carney said Canada can wait until 2029 when Trump will be gone to make a deal with the US.",
-      "previousPublishedAt": "2026-11-01T17:14:12+00:00",
+      "previousTitle": "OpenAI may rename data centers as “AI compute campuses”",
+      "previousSummary": "Axios reports that OpenAI is considering rebranding its data centers as “AI compute campuses” and is planning a public‑relations push after the upcoming midterm elections, which are expected to shift control of Congress to Democrats. Chief global affairs officer Chris Lehane told Axios the midterms will act like a “movie trailer” for the role AI will play in the 2028 presidential election.",
+      "previousPublishedAt": "2026-11-01T21:55:23+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.8,
+      "previousImportanceScore": 10.2,
       "changed": true,
       "change": "Material details changed since the previous brief.",
       "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 3,
-  "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-01T23:37:58.826617+00:00",
+  "jarvisEditedCount": 4,
+  "finalRejectedCount": 1,
+  "previousUpdated": "2026-11-02T06:11:04.903800+00:00",
   "changeSummary": {
-    "new": 2,
+    "new": 5,
     "updated": 2,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-30T07:10:13.254722+00:00",
-    "updated": "2026-11-02T06:11:04.903800+00:00",
-    "snapshotCount": 14,
-    "eventCount": 85,
+    "availableFrom": "2026-10-30T19:26:08.930994+00:00",
+    "updated": "2026-11-02T15:59:46.259550+00:00",
+    "snapshotCount": 13,
+    "eventCount": 87,
     "retentionHours": 72
   }
 }
