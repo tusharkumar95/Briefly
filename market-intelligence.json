@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-03T03:42:07.524850+00:00",
+  "updated": "2026-11-03T12:22:09.686334+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 0.51%",
+      "headline": "TSX climbs as oil price drop lifts industrials and miners, aided by trade‑deal optimism",
       "direction": "up",
       "move": "S&P/TSX Composite +0.51%",
-      "why": "Same-day market coverage explicitly linked the final move to: oil pullback boosts industrials, mining shares; Trade Deal Hopes Offset Energy Slump; oil slump lifts broader market.",
+      "why": "Falling oil prices boosted industrial and mining stocks, a gold rebound lifted materials shares, and optimism about a Canada‑U.S. trade deal offset the energy slump.",
       "drivers": [
         {
           "label": "oil pullback boosts industrials, mining shares",
-          "detail": "Livemint explicitly links the same-direction market move to this factor in its market headline.",
+          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -21,19 +21,28 @@
           "kind": "driver"
         },
         {
-          "label": "oil slump lifts broader market",
-          "detail": "ad-hoc-news.de explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "oil slump eases inflation worries, gold rebound lifts materials",
+          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Trump teases ’Concept’ of Canada trade deal",
+          "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "medium",
+      "sectors": [
+        "Energy",
+        "Industrials",
+        "Materials"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35801.09,
+        "price": 35801.1,
         "previousClose": 35620.0,
-        "change": 181.09,
+        "change": 181.1,
         "changePct": 0.51,
         "currency": "CAD",
         "exchange": "TSI",
@@ -44,10 +53,10 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Livemint",
-          "title": "TSX rebounds as oil pullback boosts industrials, mining shares - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcXo5NV9oOUlXbzZYQmlES2Q3YUxlVUt6M0lhWUFueVZMSU5wSXc0TG84V0VFbWlHRnRTcGNQWGVBZVNnV3g1S2NDbzNvR1c2RHE4SnJrYk1rR0oyMVVCNG9pS0M1b0NrVkhOam5DZ21RRmE4ZjBXYjNPSU8ycWl0a2g1aGhaQV96WEd5UU5zZVZpTGJQU2VDeVZmSVdKVkpjMTQxQzRxbHNCQWZlYzByVm9Na9IBuAFBVV95cUxPRGJzMnBsNFNWY2F1UW9Hc0ozMWJyS0F3THUxeEdIeU1JcmJBeElMamhPLTA1VmRpVzhhVHg4Q1U3a3RNZGgxRVJXWmd1SUVWNXFwN2E5SnVscld6WGJoaTNCY2N1WGV1TlJSQjVMdExuckpFT05SMDhqOEJkNjZLTmczV0xSU1lhWFRzYTB1RWljVF8tUUFhSjJQY2lGV0ZTYjNrLTlDNGM0dkRvTkVyeHd6WlBYdk40?oc=5",
-          "publishedAt": "2026-11-02T21:39:46+00:00"
+          "name": "Reuters",
+          "title": "TSX rebounds as oil pullback boosts industrials, mining shares - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmk5ay1rLUx4aURIYmtJVlFHeWl1VXBhelo0Xzk2U0t3VEhZbDFidEp3aVEwTnp1YVBmMGw0UktRaDdkdGQ0RWltWUhldzFIOXZXb3BRVHZQNUhTcnBwWHJaX25veW5MM1dqQzNOMjhYUmRsYXNHVllpeFNiOW1ERGk2aEpNbHFVTFJhOWxPTVNOZXdtdnhDbm1qRUhmMmc?oc=5",
+          "publishedAt": "2026-11-02T21:37:50+00:00"
         },
         {
           "name": "Investing.com",
@@ -62,46 +71,41 @@
           "publishedAt": "2026-11-03T00:08:31+00:00"
         },
         {
-          "name": "The Globe and Mail",
-          "title": "S&P 500 ends down as oil tumbles; TSX up on materials stocks - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVFh4QkJoTU56ZmxXZlVGWXNfbk16c29QRWlCSlJxTEVpcVNmWlFQeVZUM2JqWnlRMkFMa0hGcWIzZWtVRkNWVmZPZHVQbkhIck52SnkwQzdaVXlBM05WMnpYdGo3MHRrODVHemFiY2huUEhmWkk4NzZsRlVlaGxGdk9OUHpmaTBMX2xDYnpIc1pTWURWaUdDSUsyNEYxVl9yY0J3OE9hRG9hSm9RVUZ2TkRIUEowMkF5TTBXSFQ1S0pqLWV0eEdMNGZDQTZmWnhZVmJCYU1XM284anlMcEE?oc=5",
-          "publishedAt": "2026-11-02T10:02:03+00:00"
-        },
-        {
           "name": "Finimize",
           "title": "Canada’s TSX Rose As Oil Fell And Miners Led - Finimize",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1udUxqazRoVmRCbTJSVU1uZXk5a01VTUdZYWJySVNuOFpEclRFM1hLSmRqQ0xDZWN2Z29DVEJmTnpOaklLbDNmbEVTTHA0Ym1vRkhBcEJFUnpiWmJZSkdoVXhCY3JFWkk4UllyNE9MMDJxb2xHemRPdjdib2I?oc=5",
-          "publishedAt": "2026-11-02T22:09:31+00:00"
+          "publishedAt": "2026-11-02T22:48:07+00:00"
         },
         {
-          "name": "ad-hoc-news.de",
-          "title": "S&P/ TSX Composite gains 0.73% as oil slump lifts broader market - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZHYyUV9IUzhCanU3ZEpud1ZldlZQczNZOXdoNXpxWjEtYVFVcnVVRFhZRk5tYmZmeklwcU91MndsUG1DeXZoS2UzZEhMNnVGUUtVc1FDb0gzZVlzU2VubF9GMXROb2M1U2NYaDNtTzJrcjJsTC1xNGExM0laX3MzQ3p0N0ZLcUtMZzJoWUpCV3pnQmltaVB0T2tDckVFeUVMTm1tTTQ1SmpzLUk2OFQzVm5pQ2FqUlRsd0ZGaDZMRnRGdw?oc=5",
-          "publishedAt": "2026-11-02T21:59:16+00:00"
+          "name": "Investing.com Canada",
+          "title": "TSX ends higher as oil slump eases inflation worries, gold rebound lifts materials - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaDQ2d0lNTVI0RDRHeVhrV09KM0VsQzBvRHhMYW9mVnBLaUdFdDJobFkyaktsSGx3MGlOMGRnN2lDRVZNa09nSTloZHhvelpGX2lYQ3F1TWZsRUxlZlh4ZWJGUzYwWlVjUFFVdWw0OWpHOHF4WUJkam5HNGlXWGg2M01HQzRXdDY5TktlUzl4UHFfZlpKZnpMZ09GTzZKa0JyZW83a1UyWWxNeWFPdU00Ql9PZXNLWWJ5?oc=5",
+          "publishedAt": "2026-11-02T18:29:09+00:00"
+        },
+        {
+          "name": "Yahoo Finance",
+          "title": "TSX futures rise as Trump teases ’Concept’ of Canada trade deal - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSHlNOVFLeEctZXN0czBMLUpDS1FXQlVkZ2U0dDNObnktS1BVWlNrRnYzMDl5SGNWd0dUZFZTemhlaFZaY0hGQ09XWU9wV2s4VU0wUDhXMURBUF9hZzQxbGVPMEtDSkQzZW41dnpLU2xiY1FraktIUnA1Q1RDU2l6T2Z0TzRRWGxMX2xvU2NSRXZqcEVNMTl6MjJB?oc=5",
+          "publishedAt": "2026-11-02T13:04:23+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.60%",
+      "headline": "Nifty 50 rose 1.58%",
       "direction": "up",
-      "move": "Nifty 50 +0.60%",
-      "why": "Same-day market coverage explicitly linked the final move to: Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap; Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110; Oil Retreat Lifts Risk Appetite.",
+      "move": "Nifty 50 +1.58%",
+      "why": "Same-day market coverage explicitly linked the final move to: FMCG and Banking Stocks Rally; FMCG and Realty Stocks Lead Gains.",
       "drivers": [
         {
-          "label": "Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap",
+          "label": "FMCG and Banking Stocks Rally",
           "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110",
-          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Oil Retreat Lifts Risk Appetite",
-          "detail": "Multibagg AI explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "FMCG and Realty Stocks Lead Gains",
+          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -110,65 +114,65 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 23582.25,
+        "price": 23810.85,
         "previousClose": 23440.8,
-        "change": 141.45,
-        "changePct": 0.6,
+        "change": 370.05,
+        "changePct": 1.58,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-03T03:42:16+00:00",
+        "asOf": "2026-11-03T10:01:39+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 75692.78,
-        "previousClose": 74459.53,
-        "change": 1233.25,
-        "changePct": 1.66,
+        "price": 76917.85,
+        "previousClose": 75692.78,
+        "change": 1225.07,
+        "changePct": 1.62,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-02T10:02:28+00:00",
+        "asOf": "2026-11-03T10:02:29+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "Trade Brains",
-          "title": "Sensex & Nifty 50 | Stock Market Live Updates Today: GIFT Nifty Up Over 100 Points as Lower Crude Supports Sentiment, US Tech Weakness Hits - Trade Brains",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQQjF5MmFBbFhBSWJyYkhxZ3dvQzlnWGhKcGs3Ri00dWtseEw5ZEh5R0VXTGRWRnB6QjhzdTVZTV82UXNqa0NzdF9jVFJEUjMxT1dRVldsa1hVM1NYVEIzam5wNHFvY3BvLXBZeU5TczVVWWZfeDExUTVsT25zWXpneUVfTWM4RUtHT3JqVDlON3ltd0IzcnZHWG1ZNnJkRW50VzV3dVV1TnNjYWg5Q0FJelBBcnVRSXIzS3EtVWNhNkJvUDRjbVlkRmxOMVdNZzgyU0I1RXp0ZjdSNnFlZVl1a1JHLURvVG5pM1EtNTdENVJwaWtveEFvcGJuczF0ZlBCYVdkR3FZR2NmY01hSjRseFNNUTMtNzdrU29r?oc=5",
-          "publishedAt": "2026-11-03T03:38:20+00:00"
+          "name": "Dalal Street Investment Journal",
+          "title": "Closing Bell: Sensex Surges 1,200 Points, Nifty 50 Closes Above 23,800 as FMCG and Banking Stocks Rally - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSlJtRGR4d0Jib21ZTE1ZeFEtVmxIaHdwcE9ORjIxUmFQUEFXWkZTN2hDZ0ExNnpvZmVjNUU5eFE2Z1FyQVoteHA5MVV5SjRZaW9YMEZlNGJkd25FRzBmbVhUanBSZ19Lb2Vzd2pHN0dPSmN0LWZrX01pV1dHeXZCZmZXMllEV1RxVmR3WEpWVkhNQTFPUW9kcG54Tld4RGVoTFJFMVUxelZ6QVZ6UkxFNFhyeTN2bkxNUUFxNjZjUDlqLUdjZ19nSGJyRm9MSnJrTnpsM3dNSHVEanBOOGRkdnhR?oc=5",
+          "publishedAt": "2026-11-03T10:35:15+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "Stock market outlook today, 3 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Taiwan cues - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaDdMaDUzR01qLWVBZWlVWVhzMWYzeVV6c3JxY3JMOW9ZbUhEWDc0NldZbllmcHlXQW10MUpEVkhZZTNaUHhRWndfaVNfdk1uUmNmblRwcVNMbFoyQVo2R1QtenNabk1wV3dJS3BtbTZKQnhuR1IxaFVmdm9PUzBzVGp4aTNRU3JPQXNfNUNxaUtraG5CTEZWbzFjX2Q3dWlLR0NmXy1WNUdud0FteVp2SzFWNE9tY0wtMm92OXhtaC1qY3F3U0dIdjhMdlJUQS0wcmw4ZGVqcXNnWnpSY0tveDEyTl9kRUV5R3lSYWZ4VVBiWG9iNzFyV3YyRGpDVXQx0gGGAkFVX3lxTFBSbFFLcUpud2tGZ2VFV0lLcnFFQUQ4V3B6U1JocGtNNm5fOVZBR0J5bUZhVkNoVFZaaTcwbkVuS2pjdEx3U1EyVEFObUdlWU1vd2JaRDRqMm1DYWZzUHVObUhBMDBlelhoclhRbkxXU0lQc1B4WUM5M2xHcjU0bGVsZmlGN253S0J5bjlIOXJ3MGJ2ODdtMkh5M3lMbEFPUDMwVHVYcHVjWjRtaG9GZmlDRWt4SlVDQjFnaFJkZ09tX2JkZnhVeUFCeU1idzVlOWFUUUdfOUQ4M2JCNW9kemtXczlIdXZJU1RsQ3JZWUtlUkt2UGFISnNZcGdhdGxiNEUxNm5WZXc?oc=5",
-          "publishedAt": "2026-11-03T01:14:54+00:00"
+          "name": "The Tribune",
+          "title": "Market rally continues on FII inflows, Sensex closes 1,225 points higher; Nifty gains 1.58% - The Tribune",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOUZOQVdwWTVaczNPa1VRam1uUlZlUi1IVllqRjVmbjdDVlFNbGFQMk5YclV2dzdMeWR6U3dCM2FQZDdlbENsa2ZVa0hmWHZ1OVRCVFFJM01UaHlhUzRqY1dXejNTaWNBbkw0enBMUy1HVENJY1JUMlFkc1RuMWstQ21RN3dINDlDZGdLTkdMTjZlWVNxTTNyZ2stTlpzNGNXWm0tQ2wzRm5TbUFILWpaNTFkRk15aVpTZHBVWWdHM2VWR0NWbnV3dHFTVdIBzwFBVV95cUxOV0ZQdnRoQUtkeW1wSDNmZ1UwdTQ3bmUzWF9MWGNjLUFGcXFhcjdXMFR1NklKcElBaTVZT1NZYUJNOTc3SWtJM0xaeFB5QmpsUWZVSTRtVWVsWkNONWJNUGc5cExfVnZQRVV3UTRIcFgwc0lpM0R4RmhoNkN3NFg0dDZzaXhBekFwUVl5QmtlRlB6SzlTamxuNGpKUkk3X3pCdDhNbno5c3VsbXhZbkIwbFhxTjZjMnlMcFpzQnpqbUk1MW5ULVdwWVB0MDk5RFE?oc=5",
+          "publishedAt": "2026-11-03T10:22:27+00:00"
         },
         {
           "name": "Dalal Street Investment Journal",
-          "title": "Closing Bell: Nifty Gains 1.68% to 1-Month High as Reliance Surges 11.6%; NSE Reclaims $5 Trillion Market Cap - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX3ZuanZvZEdQR1dPekpHYzZNWUZNYXZKQTZ3YUlnMFlLODA2WUZEWHJkN3N0M0x4eEJPLTFNNm1nSFo2a3N6aTFtMjRBWFhGRDZyVUNKS1JZcmVaaU1td3d6RVZfQWNkU1hhNzRqeWYzUk9EMnRaZTdneTlGbFJZNUFkVU9ONlkyV3NIRE5NdEJQZ2FHVmV0V0JtejNHdlBPLXZqM0tZcUJSYk8zdFdZb01lVkNtWWthb3lpMGtqVWtLSENSMDMtV3k2WGFGb0ttZVUxenBQUmNGNlBxQ2c?oc=5",
-          "publishedAt": "2026-11-02T11:04:35+00:00"
+          "title": "Sensex Surges 917 Points, Nifty 50 Rises 267 Points as FMCG and Realty Stocks Lead Gains - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa3AwMFY2YVZ2UHJja0hQUHV2QVhacERVUmNVdkJTcGJxVm5DRklNZ2Rzc2V5d2VzWWtpeW9lbHBFQTFzdXJnWEFJLVJiV1FEZmlTWm9sUmR3eXQxdXZmbjEtZlNDZ0FKRE5ON1g1c2U5QWdpTy00dHd4a0tQM1psWFd4dzJLYWF2UmtROHlkV1JsR2NyTXJqZVUydmNPeFlfWnZvUkpZaHJ4OW1EZEt2MnJtY3pGZ1lnNXRyS2RUN1RPQ2JQSDJGUHdIWE9adWJTNFE?oc=5",
+          "publishedAt": "2026-11-03T09:06:08+00:00"
         },
         {
-          "name": "India Infoline",
-          "title": "Closing Bell: Nifty Surges 1.68% to 23,441 as Reliance Rallies 11.6% on Record Profit, Crude Cools Below $110 - India Infoline",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOLVZ6YnZHcGpwdG1Nb191NWxSRHNyQmpPR2l6Y2dETkpKdU1EREc1SDg5UnJPTUdCRWpTQ2xWLVFkbGtHaXdTQW1YYWRpd3pBTFFmSnN2RVcyYks2UXVjMm80VVFjZ29ibjZuelMwMHNTV3hXbzJDTUFaNnpJMGhoTjVXZW9kZlhJNnZocGx3VmtvQXVLTXlNZVQ3Y3FYb3oxVzRaSHVaSmY4c2pHb3FNUV8zeEd2clh0QS1rMUw0VVpTTVJwcmxOY2xIMEE3cHZvblNMR0hOUmlmVUNMVlRN?oc=5",
-          "publishedAt": "2026-11-02T11:04:28+00:00"
+          "name": "The Economic Times",
+          "title": "Why did market rally today? Sensex jumps 1,225 pts, Nifty closes above 23,800. 6 key factors behind today' - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQaEZiV2ZOampxdnFVOC1OM25FaGIzdFJSb0JvYkVsZmlKNnl0cGlpQUtLbnlYSi0tMnNNWHpNamVybnVQZklBVC1KdVpTbHg5V056SDdaTFROdE9SZERISm11bTVqbXBZcmI4TWt2NTNicHh4YzZKR1JSSDhIaExNQmRYb2JJY0liVzM1Y3pWcWdQeERjQ1lqTHYxa094UmMwUmo4TnVwY0liSlZwRmRvLW5NNFhOVVFab0ZNUExKTVRHX1FpY0czdVNtcXE1MXFkUXVpWkhxVkRQeTBEcjdCbmZxNy1sR3pNMjM3N2t5cXhxdUZCa3BfS3h6QjRnaHlGa1F1OTNmRUVNRGJNWExuYXhDcU9QOTI1YXBvd9IBogJBVV95cUxObmJ4YWdqaWZSSjhaWGI5Y1VwcHFfSUt4bTRuX3NWRy0wMVFHTDZnbkhIRTRTN1BncDlHeHM1SUxUbFctTzM3eTFjMnFjMTBHLUZlLWV1WWd2Wi1DVWk3X2U0cTc1SEs5c2dEbld4TTVXQ19VV2lQOWVsb0pac3hiTTRfRm5rcTA0YTNyVERUYmg0ZXZDY0IyMTUxZUJsYm90ZEhjbll4di1qN1BZNkNZWktwREJpVHhTbVk1ZWtTb1BNbFVSalI4NWtyZUFIQjM0UERCemd1b3lYQTlSNVVsY1l5aElQMkt2SVV4bWljeUxocklVZEZieGlIV2M2ODY3UGhNLW1tVEE0OGg1ZF9BYlZudEVjSGE2RVRVLWhnYlk0dw?oc=5",
+          "publishedAt": "2026-11-03T04:32:11+00:00"
         },
         {
-          "name": "Multibagg AI",
-          "title": "Sensex Today Rises 1.3% as Oil Retreat Lifts Risk Appetite - Multibagg AI",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYWdsZlZOeHg1d01VenlrVDNkal9NTElRbWx3SU13anduQ29FZDVabVB5ZkFpY1hCNUt6RGJPemhxNlkxcGxudW5WQUh5bzJZSWQ1R3FlYWY4MGFVQVYtdzJDZ2hISEtnLXNFVV8yelllYkRKUHZXODZRTnJGaXlBbHJXREhUOHdyTmFxRXBzeW1ickJSUXpnem5ZOWFpQQ?oc=5",
-          "publishedAt": "2026-11-02T11:01:46+00:00"
+          "name": "Liquide Blog",
+          "title": "Share Market Today: Nifty 50, Bank Nifty | Nov 03, 2026 - Liquide Blog",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZDVsMzhLX1ZCZjdVYll1aG9va1FreHRVS29vUVZIRHlyYS1YR2I2d25OekpHMEFlR2dGdEF2VzkwU0hSeVA0NEdTdlRjNVpsWXAtbFJ1VkRicXFtenNRYm5GTmlyYjNzYVFTUmk5UmdaSktWVlRKbVBjSlFRRW80Z0xjV1NhSnZ6cVVCQnpFWXZVUmhuSmMyM2MxbDExUm9KdWxBVm9OVi03UXBsSHZRaGFkc012MTFoNUFNeTNxbTdMbC1KaExlbjQzZ1pCZXc?oc=5",
+          "publishedAt": "2026-11-03T11:32:17+00:00"
         },
         {
-          "name": "Telegraph India",
-          "title": "Sensex gains 1,233 points, Nifty rises 388 as lower oil prices and Reliance rally lift markets - Telegraph India",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORXpNMFVYMEQ1M0ExSkd2RHdpSThWeFVTVTZzRWt6ZjRRVVRaZUVXX2RubkVFUlZmWHBOeEdwNGVTY3B3TV9pVXBHLTd4UW9vYUNiOE9tUEVNSU1wYVVULWZTX0kwdjdNbkJGRUtfMUVLTDV6OTRMb1JTbjg3UjdSV29LUXJIcnFLaUZLeG81ZjExS0xObzUyWlM1MnloYjdFR1pyWG5kYk91YjM5MmF4dGZQYjBRX2Z0N3ozeGtHT1h4NzA1dzlpdFN1YXREM1VuWXFycG9QWS1CRC1D0gHiAUFVX3lxTE9MdUtSNDdxQXRCY0ZEQkkxcnNGVFNuVThJSVRaellqYWtKSmFMOTVqc0liNGxvYUFPamctREZxUGVZNG15VWJFZ01NcEdwU25ZcHJ3WlUwNDBEelB4LWVDbnk4OVl2VGZCR2pHV3FFbllVb2xnUjQ0QWUyZkJjMUJyYnl1dVMybkNhQ1ZkcmFQLTBmUWs3MWhHd3JNSURTVlJuU19feUx5ZmY1cGcxcnUxeEJjVUljQXJBTGdFUjZCTERGNlphTGMtU0FoVndFdnQxeXVuV0d6ME1yU005RTB0Q3c?oc=5",
-          "publishedAt": "2026-11-02T10:54:18+00:00"
+          "name": "Equitymaster",
+          "title": "Sensex Today Rallies 1,225 Points | Nifty Above 23,800 | 3 Reasons Why Indian Stock Markets Are Rising - Equitymaster",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYTRYTDR2aEpfUXNCTUFCRjI3TDJvanJmQ0JwRDBMQ2FxeGw2Mll4RXFCWWdtejlvU2VGenVBX2JvU3RSY3VVNnB1aVZILUJIQUw0V1lDSkZPbXFsdWFfTFNUNUkzTDF2em5teWlRWEY1bTR3WEpaZFhyV3U1VzdFaGc2cWFMOUg5TGtNLXpjS190VWJ5ZEJMc3NjTVk2SkdtaVBCQlN4eVhHOGF3emZvbTcxc2VxdFZRMU55RnBiWjNBTmQxYVRqRmtoQ2k2ZFg4cWVFZG16XzUtSEZuVXlDNmJCRTZvLThuTTlBSGp5YjM?oc=5",
+          "publishedAt": "2026-11-03T11:07:29+00:00"
         }
       ],
       "evidenceCount": 7
