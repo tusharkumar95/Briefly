@@ -1,91 +1,50 @@
 {
-  "updated": "2026-11-03T06:52:15.826577+00:00",
+  "updated": "2026-11-03T15:12:12.787472+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 78,
+    "nonNoiseCandidates": 80,
     "officialOrPrimaryCandidates": 15,
-    "enrichedCandidates": 78,
-    "readableCandidates": 56,
-    "eventClusters": 55,
-    "materialEvents": 31,
-    "selectedEvents": 10,
-    "seededStories": 6,
+    "enrichedCandidates": 80,
+    "readableCandidates": 62,
+    "eventClusters": 59,
+    "materialEvents": 22,
+    "selectedEvents": 8,
+    "seededStories": 4,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "5c212d44847379",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Canada’s next budget to be unveiled Thursday with affordability, tax and investment measures",
-      "publishedAt": "2026-11-02T09:00:00+00:00",
-      "importanceScore": 15.3,
-      "sourceCount": 1,
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss",
-      "summary": "The federal budget, to be presented on Thursday, will contain new affordability measures, business tax incentives and spending on infrastructure, defence and culture, a senior government source said. It will also give further detail on private investment in Canada’s four largest airports, the government’s plan to balance the operational budget a year early, foreign direct investment flows, and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
-      "why": "The budget outlines fiscal priorities that will affect Canadians’ cost of living, business environment and national infrastructure development.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "cbc.ca",
-          "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss",
-          "publishedAt": "2026-11-02T09:00:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-02T09:00:00+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Canada’s next budget to include affordability measures, tax incentives and infrastructure spending",
-      "previousSummary": "Prime Minister Mark Carney’s second budget is set to be unveiled on Thursday and will contain new affordability measures, business tax incentives and investments in infrastructure, defence and culture, according to a senior government source. The budget will also provide details on private investment in Canada’s four largest airports, an early‑balanced operational budget, foreign‑direct‑investment flows and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
-      "previousPublishedAt": "2026-11-02T09:00:00+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 15.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "340f11b8af6f29",
+      "id": "c196b504cdeb78",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Anthropic reports third-quarter revenue near $17 billion, up from $1.4 billion a year earlier",
-      "publishedAt": "2026-11-03T05:12:51+00:00",
-      "importanceScore": 13.3,
+      "title": "DuPont lifts annual profit outlook on healthcare, aerospace demand",
+      "publishedAt": "2026-11-03T14:14:08+00:00",
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-what-its-latest-financial-filing-reveals-about-ai-growth/slideshow/135484180.cms",
-      "summary": "Anthropic disclosed in an amended IPO filing that its third‑quarter revenue was almost $17 billion, a sharp increase from $1.4 billion in the same quarter a year earlier. The filing provides the first detailed financials as the company prepares for a potential IPO. Sources cited are CNBC and Reuters.",
-      "why": "The figures give investors concrete data to evaluate Anthropic’s valuation ahead of its planned stock market debut.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dupont-raises-annual-profit-forecasts-on-strong-healthcare-aerospace-demand/articleshow/135502681.cms",
+      "summary": "DuPont said it is raising its annual profit forecast, attributing the upward revision to strong demand in its healthcare and aerospace businesses. The company indicated that growth in these segments is improving its earnings outlook for the coming year. No additional financial details were disclosed in the source.",
+      "why": "The upgraded outlook could strengthen investor sentiment and influence the stock’s valuation.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-what-its-latest-financial-filing-reveals-about-ai-growth/slideshow/135484180.cms",
-          "publishedAt": "2026-11-03T05:12:51+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dupont-raises-annual-profit-forecasts-on-strong-healthcare-aerospace-demand/articleshow/135502681.cms",
+          "publishedAt": "2026-11-03T14:14:08+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T05:12:51+00:00",
+      "firstSeen": "2026-11-03T14:14:08+00:00",
       "status": "New",
-      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
+      "lastChecked": "2026-11-03T15:12:12.787472+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -95,110 +54,105 @@
       "lifecycle": "New"
     },
     {
-      "id": "a0e5b0d5b1e24b",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "0d9dd33b0e1ed7",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "World"
+        "Indian Markets"
       ],
-      "title": "US to remove South Africa and Rwanda from AGOA in 2027",
-      "publishedAt": "2026-11-03T03:00:36+00:00",
-      "importanceScore": 13.3,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Trump administration has notified Congress that it intends to withdraw South Africa and Rwanda from the African Growth and Opportunity Act (AGOA) preferential trade programme, effective 1 January 2027. US Trade Representative Jamieson Greer said an annual review found both countries were engaging in practices inconsistent with AGOA eligibility, and the two nations have been formally notified of the decision.",
-      "why": "The removal will end duty‑free access for many African exports to the United States, potentially reducing trade volumes and harming the economies of the affected countries.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-03T03:00:36+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-03T03:00:36+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "d908c90d702868",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Omen AI acquires Aquatic Labs for $16 million",
-      "publishedAt": "2026-11-02T15:00:00+00:00",
-      "importanceScore": 11.3,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "summary": "Omen AI, founded in 2024 to monitor cooling water in data‑center chips, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round raised in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity‑testing technology to provide a richer real‑time view of cooling fluids.",
-      "why": "The combined sensor can improve water‑use monitoring, potentially reducing consumption and operational costs in AI data centers.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-          "publishedAt": "2026-11-02T15:00:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-02T15:00:00+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-      "previousSummary": "After raising a $31 million Series A in June, Omen is now acquiring competitor Aquatic Labs in a $16 million cash-and-stock deal. The deal came together after Omen founder Zach Laberge was introduced to Aquatic Labs’ CEO Allan Adams by an investor in the filtration space.",
-      "previousPublishedAt": "2026-11-02T15:00:00+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.3,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "08194c4c2aa674",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "Pakistan suffered $40 billion in economic losses due to suspension of trade with India: PIBC chief",
-      "publishedAt": "2026-11-02T14:43:40+00:00",
-      "importanceScore": 11.2,
+      "title": "Indian Hotels Company among 6 stocks that hit 52-week highs and rallied up to 16% in a month",
+      "publishedAt": "2026-11-03T12:33:10+00:00",
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/pakistan-suffered-40-billion-in-economic-losses-due-to-suspension-of-trade-with-india-pibc-chief/articleshow/135465534.cms",
-      "summary": "Lahore has faced an estimated USD 40 billion in economic losses since trade with India paused in 2019. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-hotels-company-among-6-stocks-that-hit-52-week-highs-and-rallied-up-to-16-in-a-month/slideshow/135499922.cms",
+      "summary": "Riding the market rally, six stocks from the BSE 200 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/pakistan-suffered-40-billion-in-economic-losses-due-to-suspension-of-trade-with-india-pibc-chief/articleshow/135465534.cms",
-          "publishedAt": "2026-11-02T14:43:40+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-hotels-company-among-6-stocks-that-hit-52-week-highs-and-rallied-up-to-16-in-a-month/slideshow/135499922.cms",
+          "publishedAt": "2026-11-03T12:33:10+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T14:43:40+00:00",
+      "firstSeen": "2026-11-03T12:33:10+00:00",
       "status": "New",
-      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
+      "lastChecked": "2026-11-03T15:12:12.787472+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "6d5c40e5ddcb9a",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India will become the world’s largest economy by end of the century, predicts top economist Jeffrey D Sachs",
+      "publishedAt": "2026-11-03T13:50:00+00:00",
+      "importanceScore": 11.8,
+      "sourceCount": 2,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-will-become-the-worlds-largest-economy-by-end-of-the-century-predicts-top-economist-jeffrey-d-sachs/articleshow/135480470.cms",
+      "summary": "Renowned economist Jeffrey D Sachs said India could become the world’s largest economy by the end of the century, with a population twice that of China. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-will-become-the-worlds-largest-economy-by-end-of-the-century-predicts-top-economist-jeffrey-d-sachs/articleshow/135480470.cms",
+          "publishedAt": "2026-11-03T03:36:13+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-03T13:50:00+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-03T15:12:12.787472+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "78c6a80c93cade",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "No water to sow, no respite at the grocery store: India's prolonged food inflation worry",
+      "publishedAt": "2026-11-03T06:38:44+00:00",
+      "importanceScore": 11.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/no-water-to-sow-no-respite-at-the-grocery-store-indias-prolonged-food-inflation-worry/articleshow/135485480.cms",
+      "summary": "Food inflation could worsen as key staples see rising prices, aggravating the economic strain on households. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/no-water-to-sow-no-respite-at-the-grocery-store-indias-prolonged-food-inflation-worry/articleshow/135485480.cms",
+          "publishedAt": "2026-11-03T06:38:44+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-03T06:38:44+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-03T15:12:12.787472+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -208,21 +162,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 4,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-11-02T23:33:51.152735+00:00",
+  "jarvisEditedCount": 1,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-03T06:52:15.826577+00:00",
   "changeSummary": {
-    "new": 3,
-    "updated": 1,
-    "continuing": 1
+    "new": 4,
+    "updated": 0,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-31T12:37:01.316326+00:00",
-    "updated": "2026-11-03T06:52:15.826577+00:00",
+    "availableFrom": "2026-10-31T17:45:54.845192+00:00",
+    "updated": "2026-11-03T15:12:12.787472+00:00",
     "snapshotCount": 12,
-    "eventCount": 86,
+    "eventCount": 89,
     "retentionHours": 72
   }
 }

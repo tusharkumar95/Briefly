@@ -3,142 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-31T12:37:01.316326+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 2,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "ff21767ceb6fa6",
-          "cat": "World",
-          "title": "69 killed in high‑speed rail collision south of Madrid",
-          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage on the tracks and an embankment in central Spain. The disaster follows a crash near Córdoba nine months earlier that killed 46 people. A formal investigation into the Toledo crash has just been opened, and the incident occurs weeks before a snap general election called by Prime Minister Pedro Sánchez.",
-          "why": "The tragedy threatens confidence in Spain’s rail system and may influence voter sentiment ahead of the upcoming election.",
-          "publishedAt": "2026-10-31T05:44:21+00:00",
-          "firstSeen": "2026-10-31T05:44:21+00:00",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "078f7d93f6d98a",
-          "cat": "Indian Markets",
-          "title": "Dalal Street Weak Ahead: Nifty stands on firmer footing, but can it break past 23,450?",
-          "summary": "The Nifty gained 2% last week, recovering above the crucial 200-week moving average at 22,700. Analysts identify 23,300–23,450 as immediate resistance and 22,750–22,525 as key support for the coming week.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-31T11:05:04+00:00",
-          "firstSeen": "2026-10-31T11:05:04+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms"
-        },
-        {
-          "id": "e05697a7bed6d2",
-          "cat": "India",
-          "title": "India's services trade surplus rises to $53.39 billion in Q2",
-          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-          "publishedAt": "2026-10-30T15:09:07+00:00",
-          "firstSeen": "2026-10-30T15:09:07+00:00",
-          "importanceScore": 11.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms"
-        },
-        {
-          "id": "7b93b2a29bc35c",
-          "cat": "AI",
-          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-          "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-31T01:20:05+00:00",
-          "firstSeen": "2026-10-31T01:20:05+00:00",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
-        },
-        {
-          "id": "35ef422b48eb48",
-          "cat": "Canada",
-          "title": "Violent Toronto home invasion was ‘terrifying,’ real estate CEO says as police seek suspects",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-31T01:46:14+00:00",
-          "firstSeen": "2026-10-31T01:46:14+00:00",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12128478/violent-toronto-home-invasion-terrifying-ceo-family/"
-        },
-        {
-          "id": "32868080ca4f59",
-          "cat": "India",
-          "title": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
-          "summary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-10-30T15:13:38+00:00",
-          "firstSeen": "2026-10-30T15:13:38+00:00",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms"
-        },
-        {
-          "id": "1e4eed6fc7433f",
-          "cat": "India",
-          "title": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
-          "summary": "India's trade agreements are expected to provide exporters preferential access to markets with a combined GDP of $85 trillion, covering 76% of the global economy, Commerce Minister Piyush Goyal said. Piyush Goyal said India's expanding network of trade agreements will open access to an $85 trillion global market, urging domestic exporters to move beyond the home market and build global brands.",
-          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-          "publishedAt": "2026-10-30T13:30:14+00:00",
-          "firstSeen": "2026-10-30T13:30:14+00:00",
-          "importanceScore": 9.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-ftas-to-open-access-to-85-trillion-market-piyush-goyal-urges-exporters-to-go-global/articleshow/135363629.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-10-31T17:45:54.845192+00:00",
       "changeSummary": {
         "new": 5,
@@ -1255,47 +1119,91 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/pakistan-suffered-40-billion-in-economic-losses-due-to-suspension-of-trade-with-india-pibc-chief/articleshow/135465534.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "8be5f021dfeac8": {
-      "id": "8be5f021dfeac8",
-      "firstSeen": "2026-10-27T02:36:22+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-11-03T15:12:12.787472+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
         {
-          "at": "2026-10-27T06:19:22.152535+00:00",
-          "title": "RBI steps up liquidity support as tighter cash conditions push up borrowing rates: Report",
-          "summary": "Tightening liquidity in the banking system has pushed up short-term borrowing rates, prompting the Reserve Bank of India (RBI) to inject funds into banks, according to an ICICI Bank report. The report expects the 10-year benchmark bond yield to trade between 7.40% and 7.60% in the near term.",
-          "importanceScore": 11.9,
+          "id": "c196b504cdeb78",
+          "cat": "Indian Markets",
+          "title": "DuPont lifts annual profit outlook on healthcare, aerospace demand",
+          "summary": "DuPont said it is raising its annual profit forecast, attributing the upward revision to strong demand in its healthcare and aerospace businesses. The company indicated that growth in these segments is improving its earnings outlook for the coming year. No additional financial details were disclosed in the source.",
+          "why": "The upgraded outlook could strengthen investor sentiment and influence the stock’s valuation.",
+          "publishedAt": "2026-11-03T14:14:08+00:00",
+          "firstSeen": "2026-11-03T14:14:08+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dupont-raises-annual-profit-forecasts-on-strong-healthcare-aerospace-demand/articleshow/135502681.cms"
+        },
+        {
+          "id": "0d9dd33b0e1ed7",
+          "cat": "Indian Markets",
+          "title": "Indian Hotels Company among 6 stocks that hit 52-week highs and rallied up to 16% in a month",
+          "summary": "Riding the market rally, six stocks from the BSE 200 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-03T12:33:10+00:00",
+          "firstSeen": "2026-11-03T12:33:10+00:00",
+          "importanceScore": 12.3,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "low",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-hotels-company-among-6-stocks-that-hit-52-week-highs-and-rallied-up-to-16-in-a-month/slideshow/135499922.cms"
         },
         {
-          "at": "2026-10-27T13:14:31.395664+00:00",
-          "title": "RBI steps up liquidity support as tighter cash conditions push up borrowing rates: Report",
-          "summary": "Tightening liquidity in the banking system has pushed up short-term borrowing rates, prompting the Reserve Bank of India (RBI) to inject funds into banks, according to an ICICI Bank report. The report expects the 10-year benchmark bond yield to trade between 7.40% and 7.60% in the near term.",
-          "importanceScore": 10.9,
+          "id": "6d5c40e5ddcb9a",
+          "cat": "India",
+          "title": "India will become the world’s largest economy by end of the century, predicts top economist Jeffrey D Sachs",
+          "summary": "Renowned economist Jeffrey D Sachs said India could become the world’s largest economy by the end of the century, with a population twice that of China. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-11-03T13:50:00+00:00",
+          "firstSeen": "2026-11-03T13:50:00+00:00",
+          "importanceScore": 11.8,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-will-become-the-worlds-largest-economy-by-end-of-the-century-predicts-top-economist-jeffrey-d-sachs/articleshow/135480470.cms"
+        },
+        {
+          "id": "78c6a80c93cade",
+          "cat": "India",
+          "title": "No water to sow, no respite at the grocery store: India's prolonged food inflation worry",
+          "summary": "Food inflation could worsen as key staples see rising prices, aggravating the economic strain on households. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-03T06:38:44+00:00",
+          "firstSeen": "2026-11-03T06:38:44+00:00",
+          "importanceScore": 11.7,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/no-water-to-sow-no-respite-at-the-grocery-store-indias-prolonged-food-inflation-worry/articleshow/135485480.cms"
         }
-      ],
-      "lastSeen": "2026-10-27T13:14:31.395664+00:00",
-      "cat": "India",
-      "latestTitle": "RBI steps up liquidity support as tighter cash conditions push up borrowing rates: Report",
-      "latestSummary": "Tightening liquidity in the banking system has pushed up short-term borrowing rates, prompting the Reserve Bank of India (RBI) to inject funds into banks, according to an ICICI Bank report. The report expects the 10-year benchmark bond yield to trade between 7.40% and 7.60% in the near term.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-steps-up-liquidity-support-as-tighter-cash-conditions-push-up-borrowing-rates-report/articleshow/135222948.cms"
-    },
+      ]
+    }
+  ],
+  "events": {
     "57ad0d4f6f5d75": {
       "id": "57ad0d4f6f5d75",
       "firstSeen": "2026-10-27T08:58:23+00:00",
@@ -4577,7 +4485,107 @@
       "latestSummary": "Lahore has faced an estimated USD 40 billion in economic losses since trade with India paused in 2019. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
       "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/pakistan-suffered-40-billion-in-economic-losses-due-to-suspension-of-trade-with-india-pibc-chief/articleshow/135465534.cms"
+    },
+    "c196b504cdeb78": {
+      "id": "c196b504cdeb78",
+      "firstSeen": "2026-11-03T14:14:08+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-03T15:12:12.787472+00:00",
+          "title": "DuPont lifts annual profit outlook on healthcare, aerospace demand",
+          "summary": "DuPont said it is raising its annual profit forecast, attributing the upward revision to strong demand in its healthcare and aerospace businesses. The company indicated that growth in these segments is improving its earnings outlook for the coming year. No additional financial details were disclosed in the source.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-03T15:12:12.787472+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "DuPont lifts annual profit outlook on healthcare, aerospace demand",
+      "latestSummary": "DuPont said it is raising its annual profit forecast, attributing the upward revision to strong demand in its healthcare and aerospace businesses. The company indicated that growth in these segments is improving its earnings outlook for the coming year. No additional financial details were disclosed in the source.",
+      "why": "The upgraded outlook could strengthen investor sentiment and influence the stock’s valuation.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dupont-raises-annual-profit-forecasts-on-strong-healthcare-aerospace-demand/articleshow/135502681.cms"
+    },
+    "0d9dd33b0e1ed7": {
+      "id": "0d9dd33b0e1ed7",
+      "firstSeen": "2026-11-03T12:33:10+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-03T15:12:12.787472+00:00",
+          "title": "Indian Hotels Company among 6 stocks that hit 52-week highs and rallied up to 16% in a month",
+          "summary": "Riding the market rally, six stocks from the BSE 200 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-03T15:12:12.787472+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Indian Hotels Company among 6 stocks that hit 52-week highs and rallied up to 16% in a month",
+      "latestSummary": "Riding the market rally, six stocks from the BSE 200 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-hotels-company-among-6-stocks-that-hit-52-week-highs-and-rallied-up-to-16-in-a-month/slideshow/135499922.cms"
+    },
+    "6d5c40e5ddcb9a": {
+      "id": "6d5c40e5ddcb9a",
+      "firstSeen": "2026-11-03T13:50:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-03T15:12:12.787472+00:00",
+          "title": "India will become the world’s largest economy by end of the century, predicts top economist Jeffrey D Sachs",
+          "summary": "Renowned economist Jeffrey D Sachs said India could become the world’s largest economy by the end of the century, with a population twice that of China. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "importanceScore": 11.8,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-03T15:12:12.787472+00:00",
+      "cat": "India",
+      "latestTitle": "India will become the world’s largest economy by end of the century, predicts top economist Jeffrey D Sachs",
+      "latestSummary": "Renowned economist Jeffrey D Sachs said India could become the world’s largest economy by the end of the century, with a population twice that of China. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-will-become-the-worlds-largest-economy-by-end-of-the-century-predicts-top-economist-jeffrey-d-sachs/articleshow/135480470.cms"
+    },
+    "78c6a80c93cade": {
+      "id": "78c6a80c93cade",
+      "firstSeen": "2026-11-03T06:38:44+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-03T15:12:12.787472+00:00",
+          "title": "No water to sow, no respite at the grocery store: India's prolonged food inflation worry",
+          "summary": "Food inflation could worsen as key staples see rising prices, aggravating the economic strain on households. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-03T15:12:12.787472+00:00",
+      "cat": "India",
+      "latestTitle": "No water to sow, no respite at the grocery store: India's prolonged food inflation worry",
+      "latestSummary": "Food inflation could worsen as key staples see rising prices, aggravating the economic strain on households. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/no-water-to-sow-no-respite-at-the-grocery-store-indias-prolonged-food-inflation-worry/articleshow/135485480.cms"
     }
   },
-  "updated": "2026-11-03T06:52:15.826577+00:00"
+  "updated": "2026-11-03T15:12:12.787472+00:00"
 }
