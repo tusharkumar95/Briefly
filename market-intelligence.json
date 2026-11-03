@@ -1,57 +1,56 @@
 {
-  "updated": "2026-11-03T12:22:09.686334+00:00",
+  "updated": "2026-11-03T19:49:45.593437+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX climbs as oil price drop lifts industrials and miners, aided by trade‑deal optimism",
-      "direction": "up",
-      "move": "S&P/TSX Composite +0.51%",
-      "why": "Falling oil prices boosted industrial and mining stocks, a gold rebound lifted materials shares, and optimism about a Canada‑U.S. trade deal offset the energy slump.",
+      "headline": "TSX falls as Shopify drags tech sector amid US midterm anticipation",
+      "direction": "down",
+      "move": "S&P/TSX Composite -0.63%",
+      "why": "Shopify’s share weakness pulled down the technology sector, and investors were cautious ahead of the upcoming U.S. midterm elections, together weighing on the index.",
       "drivers": [
         {
-          "label": "oil pullback boosts industrials, mining shares",
-          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Shopify drags tech sector; investors await U..S midterms",
+          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Trade Deal Hopes Offset Energy Slump",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Shopify weakness",
+          "detail": "Shopify shares fell, dragging the technology sector lower, which the Globe and Mail directly linked to the TSX decline.",
           "kind": "driver"
         },
         {
-          "label": "oil slump eases inflation worries, gold rebound lifts materials",
-          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Trump teases ’Concept’ of Canada trade deal",
-          "detail": "Yahoo Finance explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "US midterm election uncertainty",
+          "detail": "Market participants were awaiting the U.S. midterm elections, creating caution that the Globe and Mail cited as a factor in the drop.",
+          "kind": "context"
         }
       ],
       "sectors": [
-        "Energy",
-        "Industrials",
-        "Materials"
+        "Technology"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35801.1,
-        "previousClose": 35620.0,
-        "change": 181.1,
-        "changePct": 0.51,
+        "price": 35574.36,
+        "previousClose": 35801.1,
+        "change": -226.74,
+        "changePct": -0.63,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-02T21:20:00+00:00",
+        "asOf": "2026-11-03T19:49:31+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
+        {
+          "name": "The Globe and Mail",
+          "title": "TSX falls as Shopify drags tech sector; investors await U..S midterms - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUkd6amR1eWt4UmlKdnhZbFR4NVRWalZveDllV3RRRDF3eGFaMnF1elozZnJ0WEJqdzl0OThkUGhpa04wX3ZkWmg1Yk9BX1RMamtoTkRNR3VWbHVUb2RyV1AzUjJRNHdGZkNfeDZnWU5XSnVrelNvc2s1di1VVnRVeFlPVldwajhFd19XOFlCVFBlTTJSQlVlcWYxVEh0MXJNZUFPWmxMb0NROUJwZ1JHMzVSR1FWSFpPRVRiUXpBMDhjQ3M5by1ndjBYOUhkZW91bS1NWko1ck5uZjRqWHVkQWNEQW41MVFvNDRZQ2RNbVg?oc=5",
+          "publishedAt": "2026-11-03T10:06:36+00:00"
+        },
         {
           "name": "Reuters",
           "title": "TSX rebounds as oil pullback boosts industrials, mining shares - Reuters",
@@ -59,45 +58,44 @@
           "publishedAt": "2026-11-02T21:37:50+00:00"
         },
         {
-          "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.73% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTGVrN1RBTTJyWnVlVzd4S3JUYzNHSElodnRNUGNwZzJ6ZU55VXpIaW5Tb3E1SThOTWhtT1lVNGNPeGRuZzlTM0NSZUlwbWpIWnBLc2JCU2VoeU5kYXNRemhIWVhyY054QUtFUjBIRlFYZi1tb3VKSGRaQVZEU3RQMkRLYnUyZUxObDR2YkVnQmt5b2RFM1JpSTMyZDN4YnRLSWM3bzRRSnlYNkljQUpNVTZHMFB2NW9QMFE?oc=5",
-          "publishedAt": "2026-11-03T02:26:37+00:00"
+          "name": "Kalkine Media",
+          "title": "Cogeco (TSX:CGO) Posts a Higher Quarterly Surplus as Radio Revenue Slides - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdGdGaXMzUHl1dkZjdVQ4WTdfelRBcWRSekFKWlNMM3otTThzampTNkVNZzhZb0swS19sX0UtRl9GTDBlV3AzVm04M3hGaHgzaHBpc0hOeXhDOHE5SUR5VkVVVVdZRGhXdG9YRmNCSUthMERkM2VQUkFyOW9fdE4tLUstOS1EMDhRN3pmVElhTG1vdkNkc2pnbkw2OGVyNjN2MVBRd1ZJWkwtYnlpOHpISWRzQkNHclFVQ1pv?oc=5",
+          "publishedAt": "2026-11-03T16:37:00+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange Today: S&P/TSX Composite Rises 0.51% to 35,801.09 as Trade Deal Hopes Offset Energy Slump - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSHZodUJELXZsT25Ibk9mdEJEVmZyRVdoZ05LdlE2cjZ2Zk51WkdzOEhWT0JBVXkxUFFQeXF0bk4zd3dOVkh5M1dPZGFBV1pUeXdRdUF5d3lnUlBJNTBVUzVIeGVfWXRJaDAxb3IxUHg1Y1RRVFp1YXFuSjFqWnNPV2d1eDJVdzBGVTlYYkZpaFg0VG5lRlZBUE5vcnBEZ1hLMDJnWlJvSlp4b1ZKd3M5WXZ1NHhzbUdxeWpwNmtlZW94cHoxbW9OTkVOSTJ2QXdHMGp1YTlzNzNROXhPRnc?oc=5",
-          "publishedAt": "2026-11-03T00:08:31+00:00"
-        },
-        {
-          "name": "Finimize",
-          "title": "Canada’s TSX Rose As Oil Fell And Miners Led - Finimize",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1udUxqazRoVmRCbTJSVU1uZXk5a01VTUdZYWJySVNuOFpEclRFM1hLSmRqQ0xDZWN2Z29DVEJmTnpOaklLbDNmbEVTTHA0Ym1vRkhBcEJFUnpiWmJZSkdoVXhCY3JFWkk4UllyNE9MMDJxb2xHemRPdjdib2I?oc=5",
-          "publishedAt": "2026-11-02T22:48:07+00:00"
-        },
-        {
-          "name": "Investing.com Canada",
-          "title": "TSX ends higher as oil slump eases inflation worries, gold rebound lifts materials - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaDQ2d0lNTVI0RDRHeVhrV09KM0VsQzBvRHhMYW9mVnBLaUdFdDJobFkyaktsSGx3MGlOMGRnN2lDRVZNa09nSTloZHhvelpGX2lYQ3F1TWZsRUxlZlh4ZWJGUzYwWlVjUFFVdWw0OWpHOHF4WUJkam5HNGlXWGg2M01HQzRXdDY5TktlUzl4UHFfZlpKZnpMZ09GTzZKa0JyZW83a1UyWWxNeWFPdU00Ql9PZXNLWWJ5?oc=5",
-          "publishedAt": "2026-11-02T18:29:09+00:00"
+          "name": "TradingView",
+          "title": "TSX Rises as Oil Prices Retreat - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRXBoRmVtOTBzOENCZkdUVGFpUEZZay1UWl9rVF9aMDVrb19qcDhFczZlZFVOdjRWeGhjLUE4d1pGLXVJRTZjTWhicDVvZ2E0MXN3WVlWYTFxMGZROFRsWkh3bzluNDNQRHg3M1VvX3plaVphdEpvYzdXd3ZIZlpzZnIwR1l6Q2o5NHc?oc=5",
+          "publishedAt": "2026-11-03T14:37:35+00:00"
         },
         {
           "name": "Yahoo Finance",
-          "title": "TSX futures rise as Trump teases ’Concept’ of Canada trade deal - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSHlNOVFLeEctZXN0czBMLUpDS1FXQlVkZ2U0dDNObnktS1BVWlNrRnYzMDl5SGNWd0dUZFZTemhlaFZaY0hGQ09XWU9wV2s4VU0wUDhXMURBUF9hZzQxbGVPMEtDSkQzZW41dnpLU2xiY1FraktIUnA1Q1RDU2l6T2Z0TzRRWGxMX2xvU2NSRXZqcEVNMTl6MjJB?oc=5",
-          "publishedAt": "2026-11-02T13:04:23+00:00"
+          "title": "TSX futures drop amid rise in oil prices; U.S. midterm elections ahead - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc0F0dXNYTjlnUWU4X05kSW9FZ0NBeDE1b3FMYlVwclhjNGlUdlVIR1RITUVLWXFaUi00ZmpGYXZIa0dLLWxUUVBvakplMmFmS1QyTVRfZkNlWlFwY2dyTFZwNnktWGVEOGNnSTFnbWdxajk4SmZ3T18xNDdnQlpDNHJQX1dCemYza0d4bkJVWU9XWmp5dGc?oc=5",
+          "publishedAt": "2026-11-03T13:10:11+00:00"
+        },
+        {
+          "name": "ad-hoc-news.de",
+          "title": "S&P/ TSX Composite: Futures Point Lower After Monday Gain - ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSmtBUjNvb3ZES0lUemxqSk1SSkg4TDRQM2FWbDlhYUJTNHV5Tm03emU0WGxINEhrVUR5WHB2a09DSGkwZk5sRElWcUFfRXVhT0w1LU51aEZxSDhSX1FsRUhua3FTWi02Q0FFbkRHMTh1QTVTQ0pVaXhpdFRfNTl0TU9Damg3R3NyQkZNOXd1Z2dDX2VOSjg4V1NfTHVjYWs5bnh4NjZVMmVmOU1pbm1ueEdkZFk3NWdI?oc=5",
+          "publishedAt": "2026-11-03T12:43:55+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 1.58%",
+      "headline": "Nifty 50 rose 1.68%",
       "direction": "up",
-      "move": "Nifty 50 +1.58%",
-      "why": "Same-day market coverage explicitly linked the final move to: FMCG and Banking Stocks Rally; FMCG and Realty Stocks Lead Gains.",
+      "move": "Nifty 50 +1.68%",
+      "why": "Same-day market coverage explicitly linked the final move to: LTCG Tax Relief Expectations Rise; FMCG and Banking Stocks Rally; FMCG and Realty Stocks Lead Gains.",
       "drivers": [
+        {
+          "label": "LTCG Tax Relief Expectations Rise",
+          "detail": "Multibagg AI explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "FMCG and Banking Stocks Rally",
           "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
@@ -114,10 +112,10 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 23810.85,
-        "previousClose": 23440.8,
-        "change": 370.05,
-        "changePct": 1.58,
+        "price": 23440.8,
+        "previousClose": 23053.1,
+        "change": 387.7,
+        "changePct": 1.68,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -127,10 +125,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 76917.85,
-        "previousClose": 75692.78,
-        "change": 1225.07,
-        "changePct": 1.62,
+        "price": 75692.78,
+        "previousClose": 74459.53,
+        "change": 1233.25,
+        "changePct": 1.66,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -139,16 +137,22 @@
       },
       "sources": [
         {
+          "name": "Multibagg AI",
+          "title": "NSE Nifty 50 Gains 1.6% as LTCG Tax Relief Expectations Rise - Multibagg AI",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON1BQdDQ3NDN5Zmt5UHhZYVQyOExzX0h3WWJ0ZnZ2RWpQWjd5ZVE5VTVCYzBxTnZFWHVoYVp1UGQxWWhPUWJjTUNDYXFiLTY3c1U1bTA3OEVhTFRIcXJaZ3hUWWVVN0ROWFo0NV9XTzNoVGhRc0xnM0U4eHBzRThjRG5VaHNQdkhjS3dfNTZBSnZ0RVg1dkhUTXNhSl9lSUVkYXJVNWZB?oc=5",
+          "publishedAt": "2026-11-03T15:05:16+00:00"
+        },
+        {
           "name": "Dalal Street Investment Journal",
           "title": "Closing Bell: Sensex Surges 1,200 Points, Nifty 50 Closes Above 23,800 as FMCG and Banking Stocks Rally - Dalal Street Investment Journal",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSlJtRGR4d0Jib21ZTE1ZeFEtVmxIaHdwcE9ORjIxUmFQUEFXWkZTN2hDZ0ExNnpvZmVjNUU5eFE2Z1FyQVoteHA5MVV5SjRZaW9YMEZlNGJkd25FRzBmbVhUanBSZ19Lb2Vzd2pHN0dPSmN0LWZrX01pV1dHeXZCZmZXMllEV1RxVmR3WEpWVkhNQTFPUW9kcG54Tld4RGVoTFJFMVUxelZ6QVZ6UkxFNFhyeTN2bkxNUUFxNjZjUDlqLUdjZ19nSGJyRm9MSnJrTnpsM3dNSHVEanBOOGRkdnhR?oc=5",
-          "publishedAt": "2026-11-03T10:35:15+00:00"
+          "publishedAt": "2026-11-03T10:41:52+00:00"
         },
         {
-          "name": "The Tribune",
-          "title": "Market rally continues on FII inflows, Sensex closes 1,225 points higher; Nifty gains 1.58% - The Tribune",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOUZOQVdwWTVaczNPa1VRam1uUlZlUi1IVllqRjVmbjdDVlFNbGFQMk5YclV2dzdMeWR6U3dCM2FQZDdlbENsa2ZVa0hmWHZ1OVRCVFFJM01UaHlhUzRqY1dXejNTaWNBbkw0enBMUy1HVENJY1JUMlFkc1RuMWstQ21RN3dINDlDZGdLTkdMTjZlWVNxTTNyZ2stTlpzNGNXWm0tQ2wzRm5TbUFILWpaNTFkRk15aVpTZHBVWWdHM2VWR0NWbnV3dHFTVdIBzwFBVV95cUxOV0ZQdnRoQUtkeW1wSDNmZ1UwdTQ3bmUzWF9MWGNjLUFGcXFhcjdXMFR1NklKcElBaTVZT1NZYUJNOTc3SWtJM0xaeFB5QmpsUWZVSTRtVWVsWkNONWJNUGc5cExfVnZQRVV3UTRIcFgwc0lpM0R4RmhoNkN3NFg0dDZzaXhBekFwUVl5QmtlRlB6SzlTamxuNGpKUkk3X3pCdDhNbno5c3VsbXhZbkIwbFhxTjZjMnlMcFpzQnpqbUk1MW5ULVdwWVB0MDk5RFE?oc=5",
-          "publishedAt": "2026-11-03T10:22:27+00:00"
+          "name": "ANI News",
+          "title": "Market rally continues on FII inflows, Sensex closes 1,225 points higher; Nifty gains 1.58% - ANI News",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSlp3Y3dXNEZrRU1uUVNTX1Z6OHkzMFZXUUxzRGV6dlZCRXQyci1aMUdqNnZFbHY2TDdZQWplMXhqOFdNYlNrRnh3QzcxaHZOSjRmTXoxcnZPOURGVUFsUWhWMExvRHJYYUFyWmRsR0FFUS11WjZTZXRueFl2WGdvZkVhRkp0TTZrVnRseVNybFVwNGlybXJxdjB3N29Bd3pDVDJFcWVFVk9IRDJlSUg2OWxxSzVlTUxzT0FLMlNjQ2NCVnJfY2phT2tBdDAtcXRNcmlB?oc=5",
+          "publishedAt": "2026-11-03T10:17:00+00:00"
         },
         {
           "name": "Dalal Street Investment Journal",
@@ -166,13 +170,7 @@
           "name": "Liquide Blog",
           "title": "Share Market Today: Nifty 50, Bank Nifty | Nov 03, 2026 - Liquide Blog",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZDVsMzhLX1ZCZjdVYll1aG9va1FreHRVS29vUVZIRHlyYS1YR2I2d25OekpHMEFlR2dGdEF2VzkwU0hSeVA0NEdTdlRjNVpsWXAtbFJ1VkRicXFtenNRYm5GTmlyYjNzYVFTUmk5UmdaSktWVlRKbVBjSlFRRW80Z0xjV1NhSnZ6cVVCQnpFWXZVUmhuSmMyM2MxbDExUm9KdWxBVm9OVi03UXBsSHZRaGFkc012MTFoNUFNeTNxbTdMbC1KaExlbjQzZ1pCZXc?oc=5",
-          "publishedAt": "2026-11-03T11:32:17+00:00"
-        },
-        {
-          "name": "Equitymaster",
-          "title": "Sensex Today Rallies 1,225 Points | Nifty Above 23,800 | 3 Reasons Why Indian Stock Markets Are Rising - Equitymaster",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYTRYTDR2aEpfUXNCTUFCRjI3TDJvanJmQ0JwRDBMQ2FxeGw2Mll4RXFCWWdtejlvU2VGenVBX2JvU3RSY3VVNnB1aVZILUJIQUw0V1lDSkZPbXFsdWFfTFNUNUkzTDF2em5teWlRWEY1bTR3WEpaZFhyV3U1VzdFaGc2cWFMOUg5TGtNLXpjS190VWJ5ZEJMc3NjTVk2SkdtaVBCQlN4eVhHOGF3emZvbTcxc2VxdFZRMU55RnBiWjNBTmQxYVRqRmtoQ2k2ZFg4cWVFZG16XzUtSEZuVXlDNmJCRTZvLThuTTlBSGp5YjM?oc=5",
-          "publishedAt": "2026-11-03T11:07:29+00:00"
+          "publishedAt": "2026-11-03T11:32:01+00:00"
         }
       ],
       "evidenceCount": 7
