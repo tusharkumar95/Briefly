@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-02T23:33:51.152735+00:00",
+  "updated": "2026-11-03T06:52:15.826577+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 13,
+    "nonNoiseCandidates": 78,
+    "officialOrPrimaryCandidates": 15,
     "enrichedCandidates": 78,
-    "readableCandidates": 60,
-    "eventClusters": 58,
-    "materialEvents": 30,
+    "readableCandidates": 56,
+    "eventClusters": 55,
+    "materialEvents": 31,
     "selectedEvents": 10,
-    "seededStories": 8,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,14 +24,14 @@
       "categories": [
         "Canada"
       ],
-      "title": "Canada’s next budget to include affordability measures, tax incentives and infrastructure spending",
+      "title": "Canada’s next budget to be unveiled Thursday with affordability, tax and investment measures",
       "publishedAt": "2026-11-02T09:00:00+00:00",
       "importanceScore": 15.3,
       "sourceCount": 1,
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss",
-      "summary": "Prime Minister Mark Carney’s second budget is set to be unveiled on Thursday and will contain new affordability measures, business tax incentives and investments in infrastructure, defence and culture, according to a senior government source. The budget will also provide details on private investment in Canada’s four largest airports, an early‑balanced operational budget, foreign‑direct‑investment flows and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
-      "why": "The measures outline the government’s fiscal priorities that will affect Canadians’ cost of living, business environment and national development projects.",
+      "summary": "The federal budget, to be presented on Thursday, will contain new affordability measures, business tax incentives and spending on infrastructure, defence and culture, a senior government source said. It will also give further detail on private investment in Canada’s four largest airports, the government’s plan to balance the operational budget a year early, foreign direct investment flows, and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
+      "why": "The budget outlines fiscal priorities that will affect Canadians’ cost of living, business environment and national infrastructure development.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -43,161 +43,89 @@
         }
       ],
       "firstSeen": "2026-11-02T09:00:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Canada’s next budget to include affordability measures, tax incentives and infrastructure spending",
+      "previousSummary": "Prime Minister Mark Carney’s second budget is set to be unveiled on Thursday and will contain new affordability measures, business tax incentives and investments in infrastructure, defence and culture, according to a senior government source. The budget will also provide details on private investment in Canada’s four largest airports, an early‑balanced operational budget, foreign‑direct‑investment flows and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
+      "previousPublishedAt": "2026-11-02T09:00:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 15.3,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "340f11b8af6f29",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Anthropic reports third-quarter revenue near $17 billion, up from $1.4 billion a year earlier",
+      "publishedAt": "2026-11-03T05:12:51+00:00",
+      "importanceScore": 13.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-what-its-latest-financial-filing-reveals-about-ai-growth/slideshow/135484180.cms",
+      "summary": "Anthropic disclosed in an amended IPO filing that its third‑quarter revenue was almost $17 billion, a sharp increase from $1.4 billion in the same quarter a year earlier. The filing provides the first detailed financials as the company prepares for a potential IPO. Sources cited are CNBC and Reuters.",
+      "why": "The figures give investors concrete data to evaluate Anthropic’s valuation ahead of its planned stock market debut.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-what-its-latest-financial-filing-reveals-about-ai-growth/slideshow/135484180.cms",
+          "publishedAt": "2026-11-03T05:12:51+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-03T05:12:51+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "9938164208165a",
+      "id": "a0e5b0d5b1e24b",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Combat resumes in Kherson after six‑day ceasefire",
-      "publishedAt": "2026-11-02T17:33:19+00:00",
-      "importanceScore": 14.4,
+      "title": "US to remove South Africa and Rwanda from AGOA in 2027",
+      "publishedAt": "2026-11-03T03:00:36+00:00",
+      "importanceScore": 13.3,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Fighting restarted in Ukraine’s Kherson region after a six‑day truce, the longest since Russia’s full‑scale invasion in 2022. The pause enabled the evacuation of hundreds of residents from the Russian‑occupied town of Oleshky. On Monday, authorities said Russian forces struck a medical facility in Kherson city centre and a drone attack injured a 62‑year‑old woman and a 73‑year‑old man. Ukraine alleges Moscow used the ceasefire to reinforce positions, rotate troops and move ammunition.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Trump administration has notified Congress that it intends to withdraw South Africa and Rwanda from the African Growth and Opportunity Act (AGOA) preferential trade programme, effective 1 January 2027. US Trade Representative Jamieson Greer said an annual review found both countries were engaging in practices inconsistent with AGOA eligibility, and the two nations have been formally notified of the decision.",
+      "why": "The removal will end duty‑free access for many African exports to the United States, potentially reducing trade volumes and harming the economies of the affected countries.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-02T17:33:19+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-03T03:00:36+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T17:33:19+00:00",
+      "firstSeen": "2026-11-03T03:00:36+00:00",
       "status": "New",
-      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
+      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "81553b64d9fdbd",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Ukraine alert system issues nuclear‑strike warning, many doubt authenticity",
-      "publishedAt": "2026-11-02T18:34:24+00:00",
-      "importanceScore": 14.1,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
-      "summary": "On Sunday night Ukraine’s emergency alert system broadcast a succession of messages that escalated from warnings of Russian drones and missiles to threats of imminent nuclear strikes, chemical attacks and street combat. Many citizens did not take the alerts seriously and questioned their authenticity. Sofia Kochmar, a 34‑year‑old mother in Lviv, said she was initially concerned but quickly began to doubt the messages.",
-      "why": "The episode illustrates how uncertain or potentially false alerts can undermine public trust in emergency warning systems.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-02T18:34:24+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-02T18:34:24+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "de8d95a0bcc635",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "China’s 5,000-ton digging machines are a trade war risk to India",
-      "publishedAt": "2026-11-02T03:45:33+00:00",
-      "importanceScore": 13.4,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms",
-      "summary": "China is tightening export controls on tunnel-boring machines and other specialised construction equipment, raising concerns tha",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms",
-          "publishedAt": "2026-11-02T03:45:33+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-02T03:45:33+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "China tightens export controls on tunnel‑boring machines, raising trade‑war risk for India",
-      "previousSummary": "China is tightening export controls on tunnel‑boring machines and other specialised construction equipment. The move has raised concerns that the restrictions could disrupt India’s infrastructure projects, particularly those along the disputed Himalayan border. Beijing’s dominance in tunnel‑boring equipment is seen as giving it leverage over India’s construction sector.",
-      "previousPublishedAt": "2026-11-02T03:45:33+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "973b43b999bb14",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Shop freezers in seven European countries hit by cyber-attack",
-      "publishedAt": "2026-11-02T17:38:11+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Dozens of supermarkets across seven European countries have been hit by a cyber-attack affecting their refrigerators and freezers. Around 40 Delhaize supermarkets in Belgium and Luxembourg were affected, while a smaller number of shops were hit in Sweden, Ireland, the Netherlands, Estonia and Finland.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-02T17:38:11+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-02T17:38:11+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -209,17 +137,17 @@
       "categories": [
         "AI"
       ],
-      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "title": "Omen AI acquires Aquatic Labs for $16 million",
       "publishedAt": "2026-11-02T15:00:00+00:00",
-      "importanceScore": 12.3,
+      "importanceScore": 11.3,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "summary": "After raising a $31 million Series A in June, Omen is now acquiring competitor Aquatic Labs in a $16 million cash-and-stock deal. The deal came together after Omen founder Zach Laberge was introduced to Aquatic Labs’ CEO Allan Adams by an investor in the filtration space.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
+      "summary": "Omen AI, founded in 2024 to monitor cooling water in data‑center chips, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round raised in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity‑testing technology to provide a richer real‑time view of cooling fluids.",
+      "why": "The combined sensor can improve water‑use monitoring, potentially reducing consumption and operational costs in AI data centers.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -229,48 +157,48 @@
       ],
       "firstSeen": "2026-11-02T15:00:00+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
+      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Omen AI acquires Aquatic Labs for $16 million to enhance water‑sensor technology",
-      "previousSummary": "Omen AI, a startup founded in 2024 to monitor cooling‑water systems in data centers, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity sensor, creating a more comprehensive real‑time water‑quality solution. The combined technology aims to reduce reliance on slow, off‑site lab testing.",
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "previousSummary": "After raising a $31 million Series A in June, Omen is now acquiring competitor Aquatic Labs in a $16 million cash-and-stock deal. The deal came together after Omen founder Zach Laberge was introduced to Aquatic Labs’ CEO Allan Adams by an investor in the filtration space.",
       "previousPublishedAt": "2026-11-02T15:00:00+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.3,
+      "previousImportanceScore": 12.3,
       "changed": true,
       "change": "Material details changed since the previous brief.",
       "lifecycle": "Updated"
     },
     {
-      "id": "70bd26abd09222",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "08194c4c2aa674",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "Indian Markets"
+        "India"
       ],
-      "title": "Market wrap: RIL, Tata Steel, Infosys, ICICI Bank top gainers and losers on Nifty and Sensex on Monday",
-      "publishedAt": "2026-11-02T13:04:35+00:00",
-      "importanceScore": 11.6,
+      "title": "Pakistan suffered $40 billion in economic losses due to suspension of trade with India: PIBC chief",
+      "publishedAt": "2026-11-02T14:43:40+00:00",
+      "importanceScore": 11.2,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-ril-tata-steel-infosys-icici-bank-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135462862.cms",
-      "summary": "Indian markets rallied sharply, with Sensex gaining 1.66% to 75,693 and Nifty rising 1.68% to 23,441. Strong quarterly earnings lifted investor sentiment, led by Reliance Industries, metals and oil and gas stocks, while market breadth remained positive.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/pakistan-suffered-40-billion-in-economic-losses-due-to-suspension-of-trade-with-india-pibc-chief/articleshow/135465534.cms",
+      "summary": "Lahore has faced an estimated USD 40 billion in economic losses since trade with India paused in 2019. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-ril-tata-steel-infosys-icici-bank-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135462862.cms",
-          "publishedAt": "2026-11-02T13:04:35+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/pakistan-suffered-40-billion-in-economic-losses-due-to-suspension-of-trade-with-india-pibc-chief/articleshow/135465534.cms",
+          "publishedAt": "2026-11-02T14:43:40+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T13:04:35+00:00",
+      "firstSeen": "2026-11-02T14:43:40+00:00",
       "status": "New",
-      "lastChecked": "2026-11-02T23:33:51.152735+00:00",
+      "lastChecked": "2026-11-03T06:52:15.826577+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -280,21 +208,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
-  "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-02T15:59:46.259550+00:00",
+  "jarvisEditedCount": 4,
+  "finalRejectedCount": 1,
+  "previousUpdated": "2026-11-02T23:33:51.152735+00:00",
   "changeSummary": {
-    "new": 5,
+    "new": 3,
     "updated": 1,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-30T23:50:21.377005+00:00",
-    "updated": "2026-11-02T23:33:51.152735+00:00",
-    "snapshotCount": 13,
-    "eventCount": 90,
+    "availableFrom": "2026-10-31T12:37:01.316326+00:00",
+    "updated": "2026-11-03T06:52:15.826577+00:00",
+    "snapshotCount": 12,
+    "eventCount": 86,
     "retentionHours": 72
   }
 }
