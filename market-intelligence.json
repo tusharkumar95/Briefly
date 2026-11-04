@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-04T00:54:34.787991+00:00",
+  "updated": "2026-11-04T08:00:23.082496+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX slides as Shopify, Thomson Reuters and miners pull down market",
+      "headline": "TSX slides as Shopify and Thomson Reuters drop",
       "direction": "down",
       "move": "S&P/TSX Composite -0.75%",
-      "why": "The decline was driven by falling shares of Shopify and Thomson Reuters, together with losses in miner stocks, which dragged technology, base‑metals and financial sectors lower.",
+      "why": "The index fell after declines in major constituents such as Shopify and Thomson Reuters, alongside losses in mining, technology and financial stocks, as explicitly reported by multiple news sources.",
       "drivers": [
         {
           "label": "Shopify And Thomson Reuters Drop",
@@ -26,23 +26,23 @@
           "kind": "driver"
         },
         {
-          "label": "Shopify decline",
-          "detail": "Shopify shares dropped, directly cited as a cause of the TSX slide.",
+          "label": "Shopify slides",
+          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
       "sectors": [
         "Technology",
-        "Base Metals",
+        "Mining",
         "Financials"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35532.28,
+        "price": 35532.3,
         "previousClose": 35801.1,
-        "change": -268.82,
+        "change": -268.8,
         "changePct": -0.75,
         "currency": "CAD",
         "exchange": "TSI",
@@ -56,7 +56,7 @@
           "name": "Finimize",
           "title": "Canada’s TSX Slides As Shopify And Thomson Reuters Drop - Finimize",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbTNFa1lRSzFzMEZsalNCVjhscFZTT25GazY5a0Q1UmxZMm1ocVJpN3lsVkpDblo1WklZWXltSXBBbmthNFRUaDZTa0txeU1sRDJacVNMcHBaUkhmcnlrRGVTdzhFQXJyNmVmTndGdm9PM2QzMjUzZFdjaDJNLUsxNTg0TV9ydEVQR0Jj?oc=5",
-          "publishedAt": "2026-11-03T22:03:09+00:00"
+          "publishedAt": "2026-11-03T22:12:09+00:00"
         },
         {
           "name": "TradingView",
@@ -80,7 +80,7 @@
           "name": "Investing.com India",
           "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.62% By Investing.com - Investing.com India",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa29Md283SU5URUJtS203dUtsQVNESjZoMzBRV3dmZmd6WUZxM3NHcVZ5eEdYSlFPY1E5LTJjVGo1bG00X2pFOXRER2dRRWZlNDRXZnNBQVpROXlqMzlUWjlZYmtTalduMmhYX25uMUotR2ZiU3dPRzRjN1ljN1dnTHhpbUxCS2RMd01HSURNLXlnNVRkVDZFLTNUX2FkV0hZdEZOc01zX29lQTAyaGdGZ3lSSUNUVF9feVE?oc=5",
-          "publishedAt": "2026-11-03T20:37:30+00:00"
+          "publishedAt": "2026-11-03T20:38:32+00:00"
         },
         {
           "name": "Investing.com UK",
@@ -93,11 +93,21 @@
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 and Sensex close higher on LTCG tax relief expectations, FII inflows, easing crude oil and sector rallies",
+      "headline": "Nifty 50 rose 0.23%",
       "direction": "up",
-      "move": "Nifty 50 +1.68%",
-      "why": "Investors priced in expectations of long‑term capital gains tax relief, strong foreign institutional inflows, lower crude‑oil prices and robust buying in FMCG, banking and realty stocks, all of which were explicitly linked to the rally in the sources.",
+      "move": "Nifty 50 +0.23%",
+      "why": "Same-day market coverage explicitly linked the final move to: Sensex Gains 1,225 Points; FIIs Pour In; Nikkei Slumps, Crude Retreats as of November 4, 2026; LTCG Tax Relief Expectations Rise.",
       "drivers": [
+        {
+          "label": "Sensex Gains 1,225 Points",
+          "detail": "Multibagg AI explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "FIIs Pour In; Nikkei Slumps, Crude Retreats as of November 4, 2026",
+          "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "LTCG Tax Relief Expectations Rise",
           "detail": "Multibagg AI explicitly links the same-direction market move to this factor in its market headline.",
@@ -107,51 +117,55 @@
           "label": "FMCG and Banking Stocks Rally",
           "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
-        },
-        {
-          "label": "FMCG and Realty Stocks Lead Gains",
-          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "LTCG tax relief expectations",
-          "detail": "Expectations of long‑term capital gains tax relief were cited as boosting sentiment",
-          "kind": "driver"
         }
       ],
-      "sectors": [
-        "FMCG",
-        "Banking",
-        "Realty"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 23440.8,
-        "previousClose": 23053.1,
-        "change": 387.7,
-        "changePct": 1.68,
+        "price": 23864.7,
+        "previousClose": 23810.85,
+        "change": 53.85,
+        "changePct": 0.23,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-03T10:01:39+00:00",
+        "asOf": "2026-11-04T08:00:38+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 75692.78,
-        "previousClose": 74459.53,
-        "change": 1233.25,
-        "changePct": 1.66,
+        "price": 77031.92,
+        "previousClose": 76917.85,
+        "change": 114.07,
+        "changePct": 0.15,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-03T10:02:29+00:00",
+        "asOf": "2026-11-04T07:45:37+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
+        {
+          "name": "IBTimes India",
+          "title": "Sensex, Nifty trade higher in early deals despite mixed global cues - IBTimes India",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWFNpbE5XanNPN2pfdGlaTGlqMlMyYmVYaGRUdTVTTjhJWFBiOFAtOUVjNXZnYzY1U1RPUzZRU3FRMXFRUDhmaGFYX3hESGhxX25oRFBlaU9wVldGTkNTOWd6V2dTcnlrTWE0VURRUUl4WnRVZ2hmY1JaTHp4QVg3aG03eDJsWGRvQmhUeGhsU3o4eE1hbzZhTXFJSnI?oc=5",
+          "publishedAt": "2026-11-04T06:22:38+00:00"
+        },
+        {
+          "name": "Multibagg AI",
+          "title": "Indian Stock Market Extends Rally as Sensex Gains 1,225 Points - Multibagg AI",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRzlodjFha2pWUWQxVnBXaU1PazNhbGtTbmhnbFk0bFl4SDZJREdpY0ppZ1ZfOU9qa1NMT1NqSHE5dXhkRTJ5cDFXMW1UY05OeXA4RXdWRkVwQ0RFMGg3Z2VQRkpxZGVEcmZvR1BseUxLb2FmR2x1S3h1TzZfdFFOYUhrcHVYX0g2YW5QTzJnSTFVRFBxdnFBTHdDbUczek9ZSjJ0RlhuTnpTYTg?oc=5",
+          "publishedAt": "2026-11-04T03:01:26+00:00"
+        },
+        {
+          "name": "scanx.trade",
+          "title": "Trade Setup for Today: GIFT Nifty Surges 2% as FIIs Pour In; Nikkei Slumps, Crude Retreats as of November 4, 2026 - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdFg4Q19GVHh3YkltMGg3Ty1SZ2ZESEl5MDVMck9aTk5EUzZ4b01veWZ1TGdRWFBPZ0ZwZmFvUHlzaXJ5c3ZrdDlVWkNtWUFOS25ZRGxXaU4yZHdfZmx0NWRGWVdTSU9xOWJrQzVEelhkNWI1OWxFNTduMnpqMkxNSXpyMWhoWXBtMGZRYkY0bVdBQUR1ZGJfeVYtaXRsaXBFMk5ON1J6OV8tRzl0YjJXTXNBVFlMcDJBN2paZTR4aUhHczR2U2ljVnVwQ1hSN1RVNnVVaGJIM2JRNWxvTGRBVE95MG95Nk11VWRFZmJUc1h6eU9TX1lMNVB6Q3pqeTZ2?oc=5",
+          "publishedAt": "2026-11-04T02:44:30+00:00"
+        },
         {
           "name": "Multibagg AI",
           "title": "NSE Nifty 50 Gains 1.6% as LTCG Tax Relief Expectations Rise - Multibagg AI",
@@ -169,24 +183,6 @@
           "title": "Market rally continues on FII inflows, Sensex closes 1,225 points higher; Nifty gains 1.58% - ANI News",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSlp3Y3dXNEZrRU1uUVNTX1Z6OHkzMFZXUUxzRGV6dlZCRXQyci1aMUdqNnZFbHY2TDdZQWplMXhqOFdNYlNrRnh3QzcxaHZOSjRmTXoxcnZPOURGVUFsUWhWMExvRHJYYUFyWmRsR0FFUS11WjZTZXRueFl2WGdvZkVhRkp0TTZrVnRseVNybFVwNGlybXJxdjB3N29Bd3pDVDJFcWVFVk9IRDJlSUg2OWxxSzVlTUxzT0FLMlNjQ2NCVnJfY2phT2tBdDAtcXRNcmlB?oc=5",
           "publishedAt": "2026-11-03T10:17:00+00:00"
-        },
-        {
-          "name": "Dalal Street Investment Journal",
-          "title": "Sensex Surges 917 Points, Nifty 50 Rises 267 Points as FMCG and Realty Stocks Lead Gains - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa3AwMFY2YVZ2UHJja0hQUHV2QVhacERVUmNVdkJTcGJxVm5DRklNZ2Rzc2V5d2VzWWtpeW9lbHBFQTFzdXJnWEFJLVJiV1FEZmlTWm9sUmR3eXQxdXZmbjEtZlNDZ0FKRE5ON1g1c2U5QWdpTy00dHd4a0tQM1psWFd4dzJLYWF2UmtROHlkV1JsR2NyTXJqZVUydmNPeFlfWnZvUkpZaHJ4OW1EZEt2MnJtY3pGZ1lnNXRyS2RUN1RPQ2JQSDJGUHdIWE9adWJTNFE?oc=5",
-          "publishedAt": "2026-11-03T09:06:08+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "Why did market rally today? Sensex jumps 1,225 pts, Nifty closes above 23,800. 6 key factors behind today' - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQaEZiV2ZOampxdnFVOC1OM25FaGIzdFJSb0JvYkVsZmlKNnl0cGlpQUtLbnlYSi0tMnNNWHpNamVybnVQZklBVC1KdVpTbHg5V056SDdaTFROdE9SZERISm11bTVqbXBZcmI4TWt2NTNicHh4YzZKR1JSSDhIaExNQmRYb2JJY0liVzM1Y3pWcWdQeERjQ1lqTHYxa094UmMwUmo4TnVwY0liSlZwRmRvLW5NNFhOVVFab0ZNUExKTVRHX1FpY0czdVNtcXE1MXFkUXVpWkhxVkRQeTBEcjdCbmZxNy1sR3pNMjM3N2t5cXhxdUZCa3BfS3h6QjRnaHlGa1F1OTNmRUVNRGJNWExuYXhDcU9QOTI1YXBvd9IBogJBVV95cUxObmJ4YWdqaWZSSjhaWGI5Y1VwcHFfSUt4bTRuX3NWRy0wMVFHTDZnbkhIRTRTN1BncDlHeHM1SUxUbFctTzM3eTFjMnFjMTBHLUZlLWV1WWd2Wi1DVWk3X2U0cTc1SEs5c2dEbld4TTVXQ19VV2lQOWVsb0pac3hiTTRfRm5rcTA0YTNyVERUYmg0ZXZDY0IyMTUxZUJsYm90ZEhjbll4di1qN1BZNkNZWktwREJpVHhTbVk1ZWtTb1BNbFVSalI4NWtyZUFIQjM0UERCemd1b3lYQTlSNVVsY1l5aElQMkt2SVV4bWljeUxocklVZEZieGlIV2M2ODY3UGhNLW1tVEE0OGg1ZF9BYlZudEVjSGE2RVRVLWhnYlk0dw?oc=5",
-          "publishedAt": "2026-11-03T04:32:11+00:00"
-        },
-        {
-          "name": "Moneycontrol.com",
-          "title": "Sensex settles 1,200 pts higher, Nifty ends above 23,800: Easing crude oil ‌prices among key factors... - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZHZBQWNmQTdjZTAwS1VFcUFSazdJS2wwYzAxMGdGMkR2TThVeGdBVjZVZHZEblM5OUo2cG1CbmphOGtOUFJRVWxsUXRvMHFuaFUyd1NDb3hDam9xc25CTEhZU2x0UFdCVXBHaGFtQzQza25tSzkwdjNURU03OUNuMVV3MExkdlVCQjJUWWVteWdVMHdGYU9rZThDQkl3dDdNZUpNc0FaOWlKYm5tOTFYVlVleFVVWHU0ZFU0Vl82VGJYMjFzM3Jrd3RONjkwUXdIdGxpNE15QzNMZnVLbEI2TlV2SGI0MFpfNWwxc1ZqNUhJbGJQZVpjT9IB_gFBVV95cUxPQzMwbGlINlFCU2hCb3FaZTFKcDhRUl9qMlZDUktFbmVDaG43X0l0eVZmQUJZb2h6QnA4cXRGdzRwdEJ5cGNOVXI2VXB1QUpFZ0R0ZWJKTk82YUVXVlp5RDVUZnA3UFNIeG9XTlU1UXBVZVVBcnVwTWhSRXhGNW1xMTJCX2YtSUluc0xRMnk3by1PTlRXMzBKLXA0eEVvR241dG9yQm1hamlCRi1UWEo2TXRweUhkNDROSHplT3dhM2p4czlPaGdyb0tUd2RHeGFqQWUzYlMwZDJEMkJRVkJpQ0tHREZXNXNGNlZLQWVjRHZiZERoMmxSRUFxZDJ3Zw?oc=5",
-          "publishedAt": "2026-11-03T04:16:10+00:00"
         }
       ],
       "evidenceCount": 7
