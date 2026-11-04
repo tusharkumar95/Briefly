@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><defs><radialGradient id="bg"><stop stop-color="#282225"/><stop offset=".75" stop-color="#0d121b"/><stop offset="1" stop-color="#080d16"/></radialGradient><linearGradient id="edge" x2="1" y2="1"><stop stop-color="#ffc45b"/><stop offset=".35" stop-color="#555a70"/><stop offset=".75" stop-color="#161a25"/><stop offset="1" stop-color="#ff9800"/></linearGradient><linearGradient id="paper" x2="0.1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a8a6aa"/></linearGradient><linearGradient id="tab" x2="0" y2="1"><stop stop-color="#ffca50"/><stop offset="1" stop-color="#ff8b00"/></linearGradient></defs>
+<rect x="20" y="20" width="472" height="472" rx="113" fill="url(#bg)" stroke="url(#edge)" stroke-width="7"/>
+<path d="M40 168 Q60 40 200 35" fill="none" stroke="#ffae38" stroke-width="9" opacity=".6" stroke-linecap="round"/>
+<path d="M257 485 Q440 467 484 289" fill="none" stroke="#ff8b00" stroke-width="9" opacity=".54" stroke-linecap="round"/>
+<rect x="130" y="97" width="296" height="321" rx="29" fill="#10141c" stroke="#b47116" stroke-width="6"/>
+<rect x="91" y="137" width="332" height="290" rx="29" fill="#101721" stroke="#e29a22" stroke-width="4"/>
+<path d="M102 169 Q102 149 122 149 H390 Q412 149 412 170 V241 H102Z" fill="#0c0e13"/>
+<path d="M121 145 L155 145 L125 174 L97 174Z" fill="url(#tab)"/>
+<text x="257" y="224" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle" font-size="63" font-style="italic" font-weight="900" letter-spacing="-2" fill="#f9fbff">BRIEFLY</text>
+<rect x="102" y="256" width="310" height="153" rx="16" fill="url(#paper)"/>
+<g fill="#111b28">
+<rect x="123" y="276" width="260" height="14" rx="7"/>
+<rect x="123" y="312" width="258" height="12" rx="6"/>
+<rect x="123" y="345" width="145" height="12" rx="6"/>
+<rect x="123" y="376" width="218" height="11" rx="6"/>
+</g>
+<path d="M366 409 L409 366 V401 Q407 411 395 411Z" fill="#ffe4ad" opacity=".8"/></svg>
