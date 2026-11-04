@@ -3,52 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-01T15:13:07.692182+00:00",
-      "changeSummary": {
-        "new": 0,
-        "updated": 0,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "be3dc9258aca67",
-          "cat": "World",
-          "title": "More than 5,000 die in DR Congo's deadliest Ebola outbreak",
-          "summary": "Government data show that more than 5,000 people have died since the Ebola outbreak began in May, making it the deadliest in the Democratic Republic of Congo’s history. The case fatality rate is reported at 48.6% and the epicentre remains in the conflict‑affected Ituri province. It is the country’s 17th outbreak and the second largest recorded worldwide, with WHO urging expanded control measures and community outreach.",
-          "why": "The high death toll and ongoing spread in a conflict zone create a serious public‑health emergency that threatens regional stability.",
-          "publishedAt": "2026-10-31T15:16:20+00:00",
-          "firstSeen": "2026-10-31T15:16:20+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "3f5fed73397a92",
-          "cat": "AI",
-          "title": "Judge denies xAI motion to dismiss NAACP lawsuit over data‑center emissions",
-          "summary": "A federal judge rejected xAI’s motion to dismiss a lawsuit brought by the NAACP and the Southern Environmental Law Center that alleges the SpaceX‑owned AI firm operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, violating the Clean Air Act. The decision affirmed the plaintiffs’ statutory standing and held that the turbines are not “mobile sources,” so the case will continue.",
-          "why": "The ruling lets the Clean Air Act claims proceed, keeping xAI’s permitting practices subject to judicial scrutiny.",
-          "publishedAt": "2026-10-31T21:17:03+00:00",
-          "firstSeen": "2026-10-31T21:17:03+00:00",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-01T19:43:32.823382+00:00",
       "changeSummary": {
         "new": 2,
@@ -993,150 +947,91 @@
           "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
         }
       ]
+    },
+    {
+      "at": "2026-11-04T17:59:37.132603+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 1,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "12d1d6fd594aec",
+          "cat": "World",
+          "title": "Democrats win US midterms in Michigan, Maine; Canada sees hopeful trade outlook",
+          "summary": "Democratic candidates won decisively in Michigan and Maine on Tuesday, with U.S. tariffs on Canada a prominent campaign issue in both states. Ontario Premier Doug Ford called the result a “victory for Canada,” while analysts said the outcome is unlikely to bring immediate tariff relief but may improve the environment for Ottawa to negotiate better terms as trade talks resume.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-04T17:02:44+00:00",
+          "firstSeen": "2026-11-04T17:02:44+00:00",
+          "importanceScore": 14.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "ec89f71b64a199",
+          "cat": "Indian Markets",
+          "title": "Ather Energy among 15 stocks that hit 52-week highs and rallied up to 30% in a month",
+          "summary": "Amid the market rally, 15 stocks from the BSE 500 Index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous year and can indicate increased market activity and investor interest.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-04T13:37:19+00:00",
+          "firstSeen": "2026-11-04T13:37:19+00:00",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-among-15-stocks-that-hit-52-week-highs-and-rallied-up-to-30-in-a-month/slideshow/135541189.cms"
+        },
+        {
+          "id": "f05ff71d5935b8",
+          "cat": "India",
+          "title": "RBI sets up technical consultative committee to review market infrastructure",
+          "summary": "The Reserve Bank of India has established a technical consultative committee comprising seven external members drawn from various financial institutions. The committee will engage with banks and other market participants to examine the functioning and efficiency of money and related derivative markets, and to assess domestic and international developments that affect market infrastructure.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-04T06:51:26+00:00",
+          "firstSeen": "2026-11-04T06:51:26+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Its significance score fell as the evidence changed.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-sets-up-panel-with-banks-market-players-to-review-financial-market-issues/articleshow/135528321.cms"
+        },
+        {
+          "id": "b5fe26902e18ce",
+          "cat": "India",
+          "title": "Trump's midterm setback may put India under pressure for quick trade deal on US terms: GTRI",
+          "summary": "Amid electoral challenges, US President Donald Trump is likely to ramp up pressure on India to seal a trade deal. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-04T07:44:28+00:00",
+          "firstSeen": "2026-11-04T07:44:28+00:00",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-setback-may-put-india-under-pressure-for-quick-trade-deal-on-us-terms-gtri/articleshow/135529851.cms"
+        }
+      ]
     }
   ],
   "events": {
-    "46f91da8b9ae36": {
-      "id": "46f91da8b9ae36",
-      "firstSeen": "2026-10-27T13:00:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-27T13:14:31.395664+00:00",
-          "title": "General Compute raises $100 million Series A at $800 million valuation",
-          "summary": "General Compute announced a $100 million Series A round led by Blackbird Ventures and Abstract Ventures, bringing its post‑money valuation to about $800 million. The round follows a $100 million annual recurring revenue contract with a large customer and a $400 million chip purchase agreement with SambaNova, and adds supply from Positron and Cerebras. The company builds its AI inference cloud using specialized inference chips and repurposed bitcoin‑mining sites rather than large proprietary data centers.",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-27T18:44:32.006608+00:00",
-          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-          "summary": "A deal with a large customer worth $100 million in annual recurring revenue has paved the way for the company to raise $100 million in Series A funding led by Blackbird Ventures and Abstract Ventures. Valued at $60 million after a May seed round , General Compute is now worth $800 million post-money to its investors.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-27T22:57:58.713386+00:00",
-          "title": "General Compute raises $100 million Series A and secures $400 million chip deal",
-          "summary": "General Compute announced a $100 million Series A round led by Blackbird Ventures and Abstract Ventures, valuing the startup at $800 million post‑money after a $60 million seed round in May. The round follows a $400 million agreement to purchase inference chips from SambaNova and the addition of Positron and Cerebras to its supplier portfolio, alongside a $100 million annual recurring revenue contract with a large customer.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-28T02:18:34.075557+00:00",
-          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-          "summary": "A deal with a large customer worth $100 million in annual recurring revenue has paved the way for the company to raise $100 million in Series A funding led by Blackbird Ventures and Abstract Ventures. Valued at $60 million after a May seed round , General Compute is now worth $800 million post-money to its investors.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-28T09:43:18.420398+00:00",
-          "title": "General Compute raises $100 million Series A, valuation $800 million",
-          "summary": "General Compute secured a $100 million Series A round led by Blackbird Ventures and Abstract Ventures after landing a $100 million annual recurring revenue contract with a large customer. The financing follows a $400 million chip purchase agreement with SambaNova and the addition of Positron and Cerebras as inference‑chip suppliers, bringing the post‑money valuation to $800 million. The company builds its cloud using specialized inference chips and repurposed data‑center space instead of large GPU‑centric facilities.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-28T09:43:18.420398+00:00",
-      "cat": "AI",
-      "latestTitle": "General Compute raises $100 million Series A, valuation $800 million",
-      "latestSummary": "General Compute secured a $100 million Series A round led by Blackbird Ventures and Abstract Ventures after landing a $100 million annual recurring revenue contract with a large customer. The financing follows a $400 million chip purchase agreement with SambaNova and the addition of Positron and Cerebras as inference‑chip suppliers, bringing the post‑money valuation to $800 million. The company builds its cloud using specialized inference chips and repurposed data‑center space instead of large GPU‑centric facilities.",
-      "why": "The capital enables General Compute to scale its inference‑chip‑focused cloud model while other AI neoclouds face market pressure.",
-      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
-    },
-    "d004d8bb9e7d70": {
-      "id": "d004d8bb9e7d70",
-      "firstSeen": "2026-10-27T22:11:08+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-27T22:57:58.713386+00:00",
-          "title": "Ceasefire extended to wider Kherson region to aid Oleshky",
-          "summary": "A ceasefire that started early on Tuesday to allow food and medicine into the Russian‑occupied city of Oleshky has been broadened to cover the broader southern Kherson region. Several thousand residents of Oleshky remain without electricity, food or water, and all road routes out are considered unsafe. No reported violations of the truce have occurred since it began.",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-28T02:18:34.075557+00:00",
-          "title": "Ceasefire extended across Kherson region",
-          "summary": "A ceasefire that began to bring food and medicine to the Russian‑occupied city of Oleshky has been expanded to cover the wider southern Kherson region, with no breaches reported since it started on Tuesday. Several thousand residents remain without electricity, food or water, and the broadened truce is intended to allow humanitarian convoys safe passage.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-28T09:43:18.420398+00:00",
-          "title": "Ceasefire extended to cover Kherson region",
-          "summary": "A ceasefire that began on Tuesday to allow food and medicine into the Russian‑occupied city of Oleshky has been broadened to include the wider southern Kherson region, officials said. Several thousand Oleshky residents remain trapped without electricity, food or water, and all roads out are deemed unsafe. No violations of the truce have been reported since it started.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-28T16:39:46.025347+00:00",
-          "title": "Ceasefire extended to wider Kherson region",
-          "summary": "A ceasefire that began early Tuesday to allow food and medicine deliveries to the Russian‑occupied city of Oleshky has been broadened to cover the larger Kherson region, officials said. Several thousand residents of Oleshky remain without electricity, food or water, and all road routes out are considered unsafe. No violations of the truce have been reported so far.",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
-      "cat": "World",
-      "latestTitle": "Ceasefire extended to wider Kherson region",
-      "latestSummary": "A ceasefire that began early Tuesday to allow food and medicine deliveries to the Russian‑occupied city of Oleshky has been broadened to cover the larger Kherson region, officials said. Several thousand residents of Oleshky remain without electricity, food or water, and all road routes out are considered unsafe. No violations of the truce have been reported so far.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
-    },
     "974b34962af1c8": {
       "id": "974b34962af1c8",
       "firstSeen": "2026-10-28T02:26:28+00:00",
@@ -1316,31 +1211,6 @@
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-only-major-emerging-economy-set-to-reduce-debt-ratio-by-2031-rbi-deputy-governor/articleshow/135270631.cms"
     },
-    "d0afcbbff873e0": {
-      "id": "d0afcbbff873e0",
-      "firstSeen": "2026-10-28T13:39:22+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-28T16:39:46.025347+00:00",
-          "title": "US stocks today: US stocks turn choppy as megacaps offset chip gains before Fed meet",
-          "summary": "US stocks trade in a narrow range as chip gains after strong SK Hynix results are offset by losses in heavyweight technology stocks, while investors await the Fed decision and key earnings. In an October 15 letter sent following a state AI safety panel, the company advocated for judicial oversight over prospective releases while opposing mandatory \"kill switches\" that can shut down entire AI models, favoring more targeted measures like disabling specific problematic agents or user access instead.",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "US stocks today: US stocks turn choppy as megacaps offset chip gains before Fed meet",
-      "latestSummary": "US stocks trade in a narrow range as chip gains after strong SK Hynix results are offset by losses in heavyweight technology stocks, while investors await the Fed decision and key earnings. In an October 15 letter sent following a state AI safety panel, the company advocated for judicial oversight over prospective releases while opposing mandatory \"kill switches\" that can shut down entire AI models, favoring more targeted measures like disabling specific problematic agents or user access instead.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-sk-hynix-lifts-chips-fed-meet-in-focus/articleshow/135267943.cms"
-    },
     "01066d3a8f8013": {
       "id": "01066d3a8f8013",
       "firstSeen": "2026-10-28T15:00:00+00:00",
@@ -1391,56 +1261,6 @@
       "latestSummary": "Nvidia released Nemotron 3.5 Transcribe, a free open‑weight speech model that can transcribe audio in up to 40 languages, translate 31 languages to and from English, handle recordings up to an hour long, and distinguish up to eight speakers. The 30‑billion‑parameter model, which Nvidia says outperforms rivals on benchmarks such as Hugging Face’s Open ASR Leaderboard, can run on a single Nvidia chip and is aimed at developers building business‑meeting and medical‑transcription applications.",
       "why": "It reduces technical and cost barriers for developers creating multilingual, speaker‑aware transcription tools for enterprise and healthcare use.",
       "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
-    },
-    "cc90b46a9d4883": {
-      "id": "cc90b46a9d4883",
-      "firstSeen": "2026-10-28T13:44:25+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-28T16:39:46.025347+00:00",
-          "title": "Acutaas Chemicals among 5 stocks hitting 52-week highs; rallied up to 18% in a month",
-          "summary": "Despite the market decline, five stocks from the BSE 500 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Acutaas Chemicals among 5 stocks hitting 52-week highs; rallied up to 18% in a month",
-      "latestSummary": "Despite the market decline, five stocks from the BSE 500 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/acutaas-chemicals-among-5-stocks-hitting-52-week-highs-rallied-up-to-18-in-a-month/slideshow/135268346.cms"
-    },
-    "43a2dba8c3212a": {
-      "id": "43a2dba8c3212a",
-      "firstSeen": "2026-10-28T15:11:10+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-28T16:39:46.025347+00:00",
-          "title": "Canada not near trade deal with U.S. before midterms, Carney says",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. joan October 28, 2026 at 11:53 am Amber M., Spoken like a true MAGA person.",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-28T16:39:46.025347+00:00",
-      "cat": "Canada",
-      "latestTitle": "Canada not near trade deal with U.S. before midterms, Carney says",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. joan October 28, 2026 at 11:53 am Amber M., Spoken like a true MAGA person.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://globalnews.ca/news/12124110/mark-carney-trade-deal-not-right-now-us-midterms/"
     },
     "8ca9da7987bfb2": {
       "id": "8ca9da7987bfb2",
@@ -4166,12 +3986,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-04T17:59:37.132603+00:00",
+          "title": "RBI sets up technical consultative committee to review market infrastructure",
+          "summary": "The Reserve Bank of India has established a technical consultative committee comprising seven external members drawn from various financial institutions. The committee will engage with banks and other market participants to examine the functioning and efficiency of money and related derivative markets, and to assess domestic and international developments that affect market infrastructure.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Its significance score fell as the evidence changed."
         }
       ],
-      "lastSeen": "2026-11-04T09:18:34.984683+00:00",
+      "lastSeen": "2026-11-04T17:59:37.132603+00:00",
       "cat": "India",
-      "latestTitle": "RBI forms technical consultative committee to review market infrastructure",
-      "latestSummary": "The Reserve Bank of India has created a technical consultative committee that includes seven external members from banks and other financial institutions. The committee will engage with market participants to examine the functioning and efficiency of money and related derivative markets, and to assess both domestic and international developments that affect market infrastructure.",
+      "latestTitle": "RBI sets up technical consultative committee to review market infrastructure",
+      "latestSummary": "The Reserve Bank of India has established a technical consultative committee comprising seven external members drawn from various financial institutions. The committee will engage with banks and other market participants to examine the functioning and efficiency of money and related derivative markets, and to assess domestic and international developments that affect market infrastructure.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-sets-up-panel-with-banks-market-players-to-review-financial-market-issues/articleshow/135528321.cms"
     },
@@ -4199,7 +4032,82 @@
       "latestSummary": "(Sources: Reuters, Quartz, KuCoin) Super Micro reported first-quarter fiscal 2027 revenue of $19.95 billion, compared with $5.02 billion a year earlier. Super Micro forecasts second-quarter revenue of $19.5 billion to $21.5 billion, exceeding Wall Street's estimate of $17.14 billion, according to Reuters.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/super-micro-stock-soars-ai-server-boom-drives-record-earnings/slideshow/135529517.cms"
+    },
+    "12d1d6fd594aec": {
+      "id": "12d1d6fd594aec",
+      "firstSeen": "2026-11-04T17:02:44+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-04T17:59:37.132603+00:00",
+          "title": "Democrats win US midterms in Michigan, Maine; Canada sees hopeful trade outlook",
+          "summary": "Democratic candidates won decisively in Michigan and Maine on Tuesday, with U.S. tariffs on Canada a prominent campaign issue in both states. Ontario Premier Doug Ford called the result a “victory for Canada,” while analysts said the outcome is unlikely to bring immediate tariff relief but may improve the environment for Ottawa to negotiate better terms as trade talks resume.",
+          "importanceScore": 14.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-04T17:59:37.132603+00:00",
+      "cat": "World",
+      "latestTitle": "Democrats win US midterms in Michigan, Maine; Canada sees hopeful trade outlook",
+      "latestSummary": "Democratic candidates won decisively in Michigan and Maine on Tuesday, with U.S. tariffs on Canada a prominent campaign issue in both states. Ontario Premier Doug Ford called the result a “victory for Canada,” while analysts said the outcome is unlikely to bring immediate tariff relief but may improve the environment for Ottawa to negotiate better terms as trade talks resume.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
+    },
+    "ec89f71b64a199": {
+      "id": "ec89f71b64a199",
+      "firstSeen": "2026-11-04T13:37:19+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-04T17:59:37.132603+00:00",
+          "title": "Ather Energy among 15 stocks that hit 52-week highs and rallied up to 30% in a month",
+          "summary": "Amid the market rally, 15 stocks from the BSE 500 Index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous year and can indicate increased market activity and investor interest.",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-04T17:59:37.132603+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Ather Energy among 15 stocks that hit 52-week highs and rallied up to 30% in a month",
+      "latestSummary": "Amid the market rally, 15 stocks from the BSE 500 Index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous year and can indicate increased market activity and investor interest.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-among-15-stocks-that-hit-52-week-highs-and-rallied-up-to-30-in-a-month/slideshow/135541189.cms"
+    },
+    "b5fe26902e18ce": {
+      "id": "b5fe26902e18ce",
+      "firstSeen": "2026-11-04T07:44:28+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-04T17:59:37.132603+00:00",
+          "title": "Trump's midterm setback may put India under pressure for quick trade deal on US terms: GTRI",
+          "summary": "Amid electoral challenges, US President Donald Trump is likely to ramp up pressure on India to seal a trade deal. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-04T17:59:37.132603+00:00",
+      "cat": "India",
+      "latestTitle": "Trump's midterm setback may put India under pressure for quick trade deal on US terms: GTRI",
+      "latestSummary": "Amid electoral challenges, US President Donald Trump is likely to ramp up pressure on India to seal a trade deal. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-setback-may-put-india-under-pressure-for-quick-trade-deal-on-us-terms-gtri/articleshow/135529851.cms"
     }
   },
-  "updated": "2026-11-04T09:18:34.984683+00:00"
+  "updated": "2026-11-04T17:59:37.132603+00:00"
 }
