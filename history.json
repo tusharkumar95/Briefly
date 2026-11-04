@@ -3,152 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-01T19:43:32.823382+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "2c2c91d09f6f49",
-          "cat": "World",
-          "title": "Armed police begin patrols in Sydney after Bondi Beach shooting",
-          "summary": "Heavily‑armed officers from New South Wales’ Armed Response Command have started patrolling Sydney’s streets and tourist precincts with long‑arm rifles. The deployment follows the December mass shooting at Bondi Beach that killed fifteen people, including a ten‑year‑old girl. Police say the units will also patrol major events such as sports matches and places of worship to deter and respond quickly to serious threats.",
-          "why": "It represents a notable escalation in public‑security tactics after Australia’s deadliest mass shooting in decades.",
-          "publishedAt": "2026-11-01T17:56:47+00:00",
-          "firstSeen": "2026-11-01T17:56:47+00:00",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "807707934f5625",
-          "cat": "Canada",
-          "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-01T17:14:12+00:00",
-          "firstSeen": "2026-11-01T17:14:12+00:00",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/"
-        },
-        {
-          "id": "3f5fed73397a92",
-          "cat": "AI",
-          "title": "Judge lets NAACP lawsuit over xAI data‑center emissions proceed",
-          "summary": "A federal judge denied xAI’s motion to dismiss an NAACP‑led suit that alleges the company installed and operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, in violation of the Clean Air Act. The Southern Environmental Law Center, representing the NAACP, argued the turbines are not “mobile sources” under Mississippi law, and Judge Debra M. Brown affirmed the plaintiffs have statutory standing and that the citizen‑suit claim is constitutional.",
-          "why": "The decision lets the lawsuit continue, which could require xAI to obtain permits and address alleged air‑pollution violations.",
-          "publishedAt": "2026-10-31T21:17:03+00:00",
-          "firstSeen": "2026-10-31T21:17:03+00:00",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-01T23:37:58.826617+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 0,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "807707934f5625",
-          "cat": "Canada",
-          "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Anonymous November 1, 2026 at 6:23 pm Yesterday Carney said Canada can wait until 2029 when Trump will be gone to make a deal with the US.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-01T17:14:12+00:00",
-          "firstSeen": "2026-11-01T17:14:12+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://globalnews.ca/news/12129201/mark-carney-us-trade-deal-talks-ongoing/"
-        },
-        {
-          "id": "2c2c91d09f6f49",
-          "cat": "World",
-          "title": "Heavily‑armed police begin patrols in Sydney after Bondi Beach shooting",
-          "summary": "Heavily‑armed officers from the New South Wales Armed Response Command have started patrolling Sydney’s busy tourist precincts, major events and places of worship, carrying long‑arm rifles. The deployment follows the December 2023 Bondi Beach shooting in which two gunmen killed fifteen people, including a ten‑year‑old girl, during a Hanukkah gathering. Police say the patrols aim to prevent, deter and quickly respond to serious threats such as active‑shooter incidents.",
-          "why": "It demonstrates the government’s direct response to Australia’s worst mass shooting in decades and the heightened focus on preventing hate‑motivated violence.",
-          "publishedAt": "2026-11-01T17:56:47+00:00",
-          "firstSeen": "2026-11-01T17:56:47+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "d60d59f47eb43d",
-          "cat": "Indian Markets",
-          "title": "Carlsberg files DRHP, Pernod Ricard and Coca‑Cola explore India IPOs",
-          "summary": "Carlsberg has filed an updated draft red‑herring prospectus for a potential IPO in India. Pernod Ricard is preparing a proposed listing of its Indian business and is awaiting board approval. Coca‑Cola is assessing a possible IPO of its Indian bottling operations, citing the market’s value.",
-          "why": "The moves show growing interest from multinational beverage firms in using Indian public markets to raise capital and expand their presence.",
-          "publishedAt": "2026-11-01T09:15:28+00:00",
-          "firstSeen": "2026-11-01T09:15:28+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/global-beverage-majors-advance-india-ipo-plans-from-drhp-filing-to-board-approval/articleshow/135422834.cms"
-        },
-        {
-          "id": "c71fff8e469756",
-          "cat": "Indian Markets",
-          "title": "Good intentions, unintended consequences: The cost of regulation",
-          "summary": "Regulation is vital for protecting consumers and building trust, but unpredictable or poorly calibrated policy changes can disrupt business economics, valuations and investment. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-01T09:26:29+00:00",
-          "firstSeen": "2026-11-01T09:26:29+00:00",
-          "importanceScore": 10.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/good-intentions-unintended-consequences-the-cost-of-regulation/articleshow/135422850.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-02T06:11:04.903800+00:00",
       "changeSummary": {
         "new": 2,
@@ -1029,60 +883,91 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-setback-may-put-india-under-pressure-for-quick-trade-deal-on-us-terms-gtri/articleshow/135529851.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "974b34962af1c8": {
-      "id": "974b34962af1c8",
-      "firstSeen": "2026-10-28T02:26:28+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-11-04T23:42:04.290077+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 2,
+        "continuing": 1
+      },
+      "stories": [
         {
-          "at": "2026-10-28T09:43:18.420398+00:00",
-          "title": "Indian banks' cash surplus shrinks as RBI tightens liquidity to curb rupee speculation",
-          "summary": "Indian banks' excess funds have fallen sharply as the Reserve Bank of India kept liquidity tight to deter speculation against the rupee, which has reached critical levels. The RBI capped its liquidity assistance at 1.5 trillion rupees, and overnight borrowing rates have risen close to the top of the policy corridor.",
-          "importanceScore": 13.6,
+          "id": "12d1d6fd594aec",
+          "cat": "World",
+          "title": "Democrats win US midterms; Canadians view result as hopeful for tariff relief",
+          "summary": "Democratic candidates won decisively in Michigan and Maine, where US tariffs on Canada were a prominent campaign issue. Ontario Premier Doug Ford called the outcome “a victory for Canada,” while analysts note that immediate tariff relief is unlikely. The results may create a more favourable environment for renewed US‑Canada trade talks, and a September Cato Institute survey found about 75 % of US voters believe the tariffs have raised prices.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-04T18:01:31+00:00",
+          "firstSeen": "2026-11-04T17:02:44+00:00",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "ec89f71b64a199",
+          "cat": "Indian Markets",
+          "title": "Ather Energy joins 15 stocks hitting 52‑week highs, up to 30% rally in a month",
+          "summary": "Ather Energy was listed among fifteen Indian equities that reached their 52‑week price highs, according to Economic Times. The article notes that the group of stocks, including Ather Energy, posted price gains of up to 30 % over the preceding month. The piece highlights a broad rally across these shares.",
+          "why": "The strong price performance may draw additional investor interest and trading activity in Ather Energy.",
+          "publishedAt": "2026-11-04T13:37:19+00:00",
+          "firstSeen": "2026-11-04T13:37:19+00:00",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-among-15-stocks-that-hit-52-week-highs-and-rallied-up-to-30-in-a-month/slideshow/135541189.cms"
+        },
+        {
+          "id": "5968c63e9b0717",
+          "cat": "India",
+          "title": "US sanctions Indian and Turkish firms and individuals for aiding Iran",
+          "summary": "The U.S. Treasury announced sanctions targeting several Indian and Turkish companies and individuals accused of supporting Iran’s oil‑sale activities. The measures are part of the Trump administration’s “Operation Economic Outcast,” which seeks to curb Iran’s oil revenue used to fund its war with the United States and Israel. The announcement came a day after Democrats secured control of both houses of Congress in the recent mid‑term elections.",
+          "why": "The sanctions could disrupt the listed firms’ trade operations and increase economic pressure on Iran’s oil financing.",
+          "publishedAt": "2026-11-04T18:24:05+00:00",
+          "firstSeen": "2026-11-04T18:24:05+00:00",
+          "importanceScore": 12.0,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/articleshow/135548791.cms"
         },
         {
-          "at": "2026-10-28T16:39:46.025347+00:00",
-          "title": "India’s record bank cash surplus fades as RBI curbs rupee bets",
-          "summary": "By Pratigya Vajpayee and Siddhi Nayak, Bloomberg Last Updated: Oct 28, 2026, 07:56:00 AM IST Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
-          "importanceScore": 12.6,
+          "id": "f05ff71d5935b8",
+          "cat": "India",
+          "title": "RBI sets up panel with banks, market players to review financial market issues",
+          "summary": "India's central bank has formed a technical consultative committee to engage with market participants on financial issues. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-04T06:51:26+00:00",
+          "firstSeen": "2026-11-04T06:51:26+00:00",
+          "importanceScore": 10.7,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "low",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-28T21:40:27.456192+00:00",
-          "title": "India’s record bank cash surplus fades as RBI curbs rupee bets",
-          "summary": "Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-sets-up-panel-with-banks-market-players-to-review-financial-market-issues/articleshow/135528321.cms"
         }
-      ],
-      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
-      "cat": "India",
-      "latestTitle": "India’s record bank cash surplus fades as RBI curbs rupee bets",
-      "latestSummary": "Indian banks have seen their excess funds drop significantly as the Reserve Bank of India maintains liquidity tightness. The central bank has provided limited liquidity support and capped assistance at 1.5 trillion rupees.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets/articleshow/135249529.cms"
-    },
+      ]
+    }
+  ],
+  "events": {
     "e15e2a262b647f": {
       "id": "e15e2a262b647f",
       "firstSeen": "2026-10-28T12:33:56+00:00",
@@ -1363,31 +1248,6 @@
       "latestSummary": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ended September 30, the company said in a regulatory filing on Wednesday. (Microsoft’s financial year begins in July, making the quarter ended September 30, 2026 the first quarter of its fiscal 2027.) For the full 2026 fiscal year, revenue from OpenAI hit $24.1 billion.",
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
-    },
-    "f89f7ec9829002": {
-      "id": "f89f7ec9829002",
-      "firstSeen": "2026-10-28T19:41:20+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-28T21:40:27.456192+00:00",
-          "title": "Green financing in India rises to $82 billion, but flows mostly to established sectors: Report",
-          "summary": "The Landscape of Green Finance in India, now in its fourth edition, maps actual finance flows or disbursements across sources, instruments, sectors, and subsectors for financial years 2022-23 and 2023-24. According to the report, while green finance has increased substantially between 2016-17 and 2023-24, financial flows remain concentrated in established sectors and technologies.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-28T21:40:27.456192+00:00",
-      "cat": "India",
-      "latestTitle": "Green financing in India rises to $82 billion, but flows mostly to established sectors: Report",
-      "latestSummary": "The Landscape of Green Finance in India, now in its fourth edition, maps actual finance flows or disbursements across sources, instruments, sectors, and subsectors for financial years 2022-23 and 2023-24. According to the report, while green finance has increased substantially between 2016-17 and 2023-24, financial flows remain concentrated in established sectors and technologies.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "url": "https://economictimes.indiatimes.com/news/economy/finance/green-financing-in-india-rises-to-82-billion-but-flows-mostly-to-established-sectors-report/articleshow/135279184.cms"
     },
     "68b6a27f930121": {
       "id": "68b6a27f930121",
@@ -3999,12 +3859,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Its significance score fell as the evidence changed."
+        },
+        {
+          "at": "2026-11-04T23:42:04.290077+00:00",
+          "title": "RBI sets up panel with banks, market players to review financial market issues",
+          "summary": "India's central bank has formed a technical consultative committee to engage with market participants on financial issues. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-04T17:59:37.132603+00:00",
+      "lastSeen": "2026-11-04T23:42:04.290077+00:00",
       "cat": "India",
-      "latestTitle": "RBI sets up technical consultative committee to review market infrastructure",
-      "latestSummary": "The Reserve Bank of India has established a technical consultative committee comprising seven external members drawn from various financial institutions. The committee will engage with banks and other market participants to examine the functioning and efficiency of money and related derivative markets, and to assess domestic and international developments that affect market infrastructure.",
+      "latestTitle": "RBI sets up panel with banks, market players to review financial market issues",
+      "latestSummary": "India's central bank has formed a technical consultative committee to engage with market participants on financial issues. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-sets-up-panel-with-banks-market-players-to-review-financial-market-issues/articleshow/135528321.cms"
     },
@@ -4049,12 +3922,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-04T23:42:04.290077+00:00",
+          "title": "Democrats win US midterms; Canadians view result as hopeful for tariff relief",
+          "summary": "Democratic candidates won decisively in Michigan and Maine, where US tariffs on Canada were a prominent campaign issue. Ontario Premier Doug Ford called the outcome “a victory for Canada,” while analysts note that immediate tariff relief is unlikely. The results may create a more favourable environment for renewed US‑Canada trade talks, and a September Cato Institute survey found about 75 % of US voters believe the tariffs have raised prices.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-04T17:59:37.132603+00:00",
+      "lastSeen": "2026-11-04T23:42:04.290077+00:00",
       "cat": "World",
-      "latestTitle": "Democrats win US midterms in Michigan, Maine; Canada sees hopeful trade outlook",
-      "latestSummary": "Democratic candidates won decisively in Michigan and Maine on Tuesday, with U.S. tariffs on Canada a prominent campaign issue in both states. Ontario Premier Doug Ford called the result a “victory for Canada,” while analysts said the outcome is unlikely to bring immediate tariff relief but may improve the environment for Ottawa to negotiate better terms as trade talks resume.",
+      "latestTitle": "Democrats win US midterms; Canadians view result as hopeful for tariff relief",
+      "latestSummary": "Democratic candidates won decisively in Michigan and Maine, where US tariffs on Canada were a prominent campaign issue. Ontario Premier Doug Ford called the outcome “a victory for Canada,” while analysts note that immediate tariff relief is unlikely. The results may create a more favourable environment for renewed US‑Canada trade talks, and a September Cato Institute survey found about 75 % of US voters believe the tariffs have raised prices.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
     },
@@ -4074,13 +3960,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-04T23:42:04.290077+00:00",
+          "title": "Ather Energy joins 15 stocks hitting 52‑week highs, up to 30% rally in a month",
+          "summary": "Ather Energy was listed among fifteen Indian equities that reached their 52‑week price highs, according to Economic Times. The article notes that the group of stocks, including Ather Energy, posted price gains of up to 30 % over the preceding month. The piece highlights a broad rally across these shares.",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-04T17:59:37.132603+00:00",
+      "lastSeen": "2026-11-04T23:42:04.290077+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Ather Energy among 15 stocks that hit 52-week highs and rallied up to 30% in a month",
-      "latestSummary": "Amid the market rally, 15 stocks from the BSE 500 Index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous year and can indicate increased market activity and investor interest.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "latestTitle": "Ather Energy joins 15 stocks hitting 52‑week highs, up to 30% rally in a month",
+      "latestSummary": "Ather Energy was listed among fifteen Indian equities that reached their 52‑week price highs, according to Economic Times. The article notes that the group of stocks, including Ather Energy, posted price gains of up to 30 % over the preceding month. The piece highlights a broad rally across these shares.",
+      "why": "The strong price performance may draw additional investor interest and trading activity in Ather Energy.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-among-15-stocks-that-hit-52-week-highs-and-rallied-up-to-30-in-a-month/slideshow/135541189.cms"
     },
     "b5fe26902e18ce": {
@@ -4107,7 +4006,32 @@
       "latestSummary": "Amid electoral challenges, US President Donald Trump is likely to ramp up pressure on India to seal a trade deal. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-setback-may-put-india-under-pressure-for-quick-trade-deal-on-us-terms-gtri/articleshow/135529851.cms"
+    },
+    "5968c63e9b0717": {
+      "id": "5968c63e9b0717",
+      "firstSeen": "2026-11-04T18:24:05+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-04T23:42:04.290077+00:00",
+          "title": "US sanctions Indian and Turkish firms and individuals for aiding Iran",
+          "summary": "The U.S. Treasury announced sanctions targeting several Indian and Turkish companies and individuals accused of supporting Iran’s oil‑sale activities. The measures are part of the Trump administration’s “Operation Economic Outcast,” which seeks to curb Iran’s oil revenue used to fund its war with the United States and Israel. The announcement came a day after Democrats secured control of both houses of Congress in the recent mid‑term elections.",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-04T23:42:04.290077+00:00",
+      "cat": "India",
+      "latestTitle": "US sanctions Indian and Turkish firms and individuals for aiding Iran",
+      "latestSummary": "The U.S. Treasury announced sanctions targeting several Indian and Turkish companies and individuals accused of supporting Iran’s oil‑sale activities. The measures are part of the Trump administration’s “Operation Economic Outcast,” which seeks to curb Iran’s oil revenue used to fund its war with the United States and Israel. The announcement came a day after Democrats secured control of both houses of Congress in the recent mid‑term elections.",
+      "why": "The sanctions could disrupt the listed firms’ trade operations and increase economic pressure on Iran’s oil financing.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/articleshow/135548791.cms"
     }
   },
-  "updated": "2026-11-04T17:59:37.132603+00:00"
+  "updated": "2026-11-04T23:42:04.290077+00:00"
 }

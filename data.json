@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-04T17:59:37.132603+00:00",
+  "updated": "2026-11-04T23:42:04.290077+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 22,
-    "enrichedCandidates": 77,
-    "readableCandidates": 53,
-    "eventClusters": 53,
-    "materialEvents": 24,
+    "officialOrPrimaryCandidates": 24,
+    "enrichedCandidates": 79,
+    "readableCandidates": 55,
+    "eventClusters": 55,
+    "materialEvents": 23,
     "selectedEvents": 8,
     "seededStories": 5,
     "corroboratedStories": 0,
@@ -24,13 +24,13 @@
       "categories": [
         "World"
       ],
-      "title": "Democrats win US midterms in Michigan, Maine; Canada sees hopeful trade outlook",
-      "publishedAt": "2026-11-04T17:02:44+00:00",
-      "importanceScore": 14.7,
+      "title": "Democrats win US midterms; Canadians view result as hopeful for tariff relief",
+      "publishedAt": "2026-11-04T18:01:31+00:00",
+      "importanceScore": 13.7,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Democratic candidates won decisively in Michigan and Maine on Tuesday, with U.S. tariffs on Canada a prominent campaign issue in both states. Ontario Premier Doug Ford called the result a “victory for Canada,” while analysts said the outcome is unlikely to bring immediate tariff relief but may improve the environment for Ottawa to negotiate better terms as trade talks resume.",
+      "summary": "Democratic candidates won decisively in Michigan and Maine, where US tariffs on Canada were a prominent campaign issue. Ontario Premier Doug Ford called the outcome “a victory for Canada,” while analysts note that immediate tariff relief is unlikely. The results may create a more favourable environment for renewed US‑Canada trade talks, and a September Cato Institute survey found about 75 % of US voters believe the tariffs have raised prices.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "high",
       "verified": true,
@@ -39,19 +39,24 @@
         {
           "name": "feeds.bbci.co.uk",
           "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-04T17:02:44+00:00"
+          "publishedAt": "2026-11-04T18:01:31+00:00"
         }
       ],
       "firstSeen": "2026-11-04T17:02:44+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-04T17:59:37.132603+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-04T23:42:04.290077+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Democrats win US midterms in Michigan, Maine; Canada sees hopeful trade outlook",
+      "previousSummary": "Democratic candidates won decisively in Michigan and Maine on Tuesday, with U.S. tariffs on Canada a prominent campaign issue in both states. Ontario Premier Doug Ford called the result a “victory for Canada,” while analysts said the outcome is unlikely to bring immediate tariff relief but may improve the environment for Ottawa to negotiate better terms as trade talks resume.",
+      "previousPublishedAt": "2026-11-04T17:02:44+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "ec89f71b64a199",
@@ -60,17 +65,17 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "Ather Energy among 15 stocks that hit 52-week highs and rallied up to 30% in a month",
+      "title": "Ather Energy joins 15 stocks hitting 52‑week highs, up to 30% rally in a month",
       "publishedAt": "2026-11-04T13:37:19+00:00",
       "importanceScore": 12.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-among-15-stocks-that-hit-52-week-highs-and-rallied-up-to-30-in-a-month/slideshow/135541189.cms",
-      "summary": "Amid the market rally, 15 stocks from the BSE 500 Index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous year and can indicate increased market activity and investor interest.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
+      "summary": "Ather Energy was listed among fifteen Indian equities that reached their 52‑week price highs, according to Economic Times. The article notes that the group of stocks, including Ather Energy, posted price gains of up to 30 % over the preceding month. The piece highlights a broad rally across these shares.",
+      "why": "The strong price performance may draw additional investor interest and trading activity in Ather Energy.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -79,12 +84,53 @@
         }
       ],
       "firstSeen": "2026-11-04T13:37:19+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-04T17:59:37.132603+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-04T23:42:04.290077+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Ather Energy among 15 stocks that hit 52-week highs and rallied up to 30% in a month",
+      "previousSummary": "Amid the market rally, 15 stocks from the BSE 500 Index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous year and can indicate increased market activity and investor interest.",
+      "previousPublishedAt": "2026-11-04T13:37:19+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.1,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "5968c63e9b0717",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "US sanctions Indian and Turkish firms and individuals for aiding Iran",
+      "publishedAt": "2026-11-04T18:24:05+00:00",
+      "importanceScore": 12.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/articleshow/135548791.cms",
+      "summary": "The U.S. Treasury announced sanctions targeting several Indian and Turkish companies and individuals accused of supporting Iran’s oil‑sale activities. The measures are part of the Trump administration’s “Operation Economic Outcast,” which seeks to curb Iran’s oil revenue used to fund its war with the United States and Israel. The announcement came a day after Democrats secured control of both houses of Congress in the recent mid‑term elections.",
+      "why": "The sanctions could disrupt the listed firms’ trade operations and increase economic pressure on Iran’s oil financing.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/articleshow/135548791.cms",
+          "publishedAt": "2026-11-04T18:24:05+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-04T18:24:05+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-04T23:42:04.290077+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -96,17 +142,17 @@
       "categories": [
         "India"
       ],
-      "title": "RBI sets up technical consultative committee to review market infrastructure",
+      "title": "RBI sets up panel with banks, market players to review financial market issues",
       "publishedAt": "2026-11-04T06:51:26+00:00",
-      "importanceScore": 11.7,
+      "importanceScore": 10.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-sets-up-panel-with-banks-market-players-to-review-financial-market-issues/articleshow/135528321.cms",
-      "summary": "The Reserve Bank of India has established a technical consultative committee comprising seven external members drawn from various financial institutions. The committee will engage with banks and other market participants to examine the functioning and efficiency of money and related derivative markets, and to assess domestic and international developments that affect market infrastructure.",
+      "summary": "India's central bank has formed a technical consultative committee to engage with market participants on financial issues. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -116,72 +162,36 @@
       ],
       "firstSeen": "2026-11-04T06:51:26+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-04T17:59:37.132603+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "RBI forms technical consultative committee to review market infrastructure",
-      "previousSummary": "The Reserve Bank of India has created a technical consultative committee that includes seven external members from banks and other financial institutions. The committee will engage with market participants to examine the functioning and efficiency of money and related derivative markets, and to assess both domestic and international developments that affect market infrastructure.",
-      "previousPublishedAt": "2026-11-04T06:51:26+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.8,
-      "changed": true,
-      "change": "Its significance score fell as the evidence changed.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "b5fe26902e18ce",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "Trump's midterm setback may put India under pressure for quick trade deal on US terms: GTRI",
-      "publishedAt": "2026-11-04T07:44:28+00:00",
-      "importanceScore": 10.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-setback-may-put-india-under-pressure-for-quick-trade-deal-on-us-terms-gtri/articleshow/135529851.cms",
-      "summary": "Amid electoral challenges, US President Donald Trump is likely to ramp up pressure on India to seal a trade deal. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-setback-may-put-india-under-pressure-for-quick-trade-deal-on-us-terms-gtri/articleshow/135529851.cms",
-          "publishedAt": "2026-11-04T07:44:28+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-04T07:44:28+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-04T17:59:37.132603+00:00",
+      "lastChecked": "2026-11-04T23:42:04.290077+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
+      "previousTitle": "RBI sets up technical consultative committee to review market infrastructure",
+      "previousSummary": "The Reserve Bank of India has established a technical consultative committee comprising seven external members drawn from various financial institutions. The committee will engage with banks and other market participants to examine the functioning and efficiency of money and related derivative markets, and to assess domestic and international developments that affect market infrastructure.",
+      "previousPublishedAt": "2026-11-04T06:51:26+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.7,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-04T09:18:34.984683+00:00",
+  "previousUpdated": "2026-11-04T17:59:37.132603+00:00",
   "changeSummary": {
-    "new": 3,
-    "updated": 1,
-    "continuing": 0
+    "new": 1,
+    "updated": 2,
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-01T19:43:32.823382+00:00",
-    "updated": "2026-11-04T17:59:37.132603+00:00",
-    "snapshotCount": 11,
-    "eventCount": 83,
+    "availableFrom": "2026-11-02T06:11:04.903800+00:00",
+    "updated": "2026-11-04T23:42:04.290077+00:00",
+    "snapshotCount": 10,
+    "eventCount": 82,
     "retentionHours": 72
   }
 }
