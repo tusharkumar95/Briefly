@@ -3,278 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-10-31T21:38:13.173676+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 4
-      },
-      "stories": [
-        {
-          "id": "ff21767ceb6fa6",
-          "cat": "World",
-          "title": "Spain high‑speed train crash kills 69 weeks before snap election",
-          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage strewn across the tracks and down an embankment in central Spain. The disaster occurs weeks before the snap general election called by Prime Minister Pedro Sánchez, who is already facing public anger over alleged corruption and housing costs, and a formal investigation into the earlier Toledo train disaster has just been launched.",
-          "why": "The incident may influence public confidence in the rail system and the government ahead of the election.",
-          "publishedAt": "2026-10-31T05:44:21+00:00",
-          "firstSeen": "2026-10-31T05:44:21+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "82e1223ac35a35",
-          "cat": "Indian Markets",
-          "title": "Turnaround Story: 8 stocks shift from loss to profit in September '26 quarter",
-          "summary": "The company reported a net profit of Rs 859 crore in the September 2026 quarter, compared with a net loss of Rs 16 crore in the corresponding quarter last year. The firm posted a net profit of Rs 71 crore in the September 2026 quarter, against a net loss of Rs 10 crore in the year-ago quarter.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-31T08:52:12+00:00",
-          "firstSeen": "2026-10-31T08:52:12+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/turnaround-story-8-stocks-shift-from-loss-to-profit-in-september-26-quarter/slideshow/135395511.cms"
-        },
-        {
-          "id": "14ff192ac6d77c",
-          "cat": "Indian Markets",
-          "title": "Indian Oil net profit triples YoY to 21,630 cr in Q2",
-          "summary": "Indian Oil experienced a remarkable surge in its net profit, which soared to ₹21,630 crore for the second quarter. Moreover, operational revenue increased by 29%, reaching ₹2,62,935 crore, with the firm's operating profit from petroleum product sales more than doubling.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-31T04:11:43+00:00",
-          "firstSeen": "2026-10-31T04:11:43+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indian-oil-net-profit-triples-yoy-to-21630-cr-in-q2/articleshow/135387471.cms"
-        },
-        {
-          "id": "8422707980f95e",
-          "cat": "World",
-          "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Hundreds of residents of the Russian-occupied city of Oleshky were evacuated and driven to safety on Friday, following a humanitarian ceasefire brokered by US First Lady Melania Trump. The BBC Ukraine correspondent Dan Johnson explains how the ceasefire is going and what could happen next.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-30T23:19:17+00:00",
-          "firstSeen": "2026-10-30T23:19:17+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "3f5fed73397a92",
-          "cat": "AI",
-          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-          "summary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis. xAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-31T21:17:03+00:00",
-          "firstSeen": "2026-10-31T21:17:03+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
-        },
-        {
-          "id": "078f7d93f6d98a",
-          "cat": "Indian Markets",
-          "title": "Nifty rebounds 2% but faces resistance near 23,450",
-          "summary": "The Nifty index rose 2% last week, moving back above its 200‑week moving average of 22,700. Analysts see immediate resistance between 23,300 and 23,450 and key support in the 22,750‑22,525 range for the upcoming week. Easing volatility and buying at lower levels underpin the rebound, though bearish momentum indicators call for caution. Trending stocks include SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC.",
-          "why": "The identified support and resistance zones will guide short‑term trading decisions for market participants.",
-          "publishedAt": "2026-10-31T11:05:04+00:00",
-          "firstSeen": "2026-10-31T11:05:04+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms"
-        },
-        {
-          "id": "7d04a34afdde14",
-          "cat": "Canada",
-          "title": "Suspect wanted in violent home invasion was also shot: Toronto police",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-31T14:41:32+00:00",
-          "firstSeen": "2026-10-31T14:41:32+00:00",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://globalnews.ca/news/12128691/toronto-home-invasion-suspect/"
-        },
-        {
-          "id": "7b93b2a29bc35c",
-          "cat": "AI",
-          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-          "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-31T01:20:05+00:00",
-          "firstSeen": "2026-10-31T01:20:05+00:00",
-          "importanceScore": 9.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-01T01:13:35.638751+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 1,
-        "continuing": 3
-      },
-      "stories": [
-        {
-          "id": "be3dc9258aca67",
-          "cat": "World",
-          "title": "Over 5,000 deaths in DRC's deadliest Ebola outbreak",
-          "summary": "More than 5,000 people have died from the ongoing Ebola outbreak in the Democratic Republic of Congo, which began in May and became the country’s deadliest in August. The health ministry reports a current case‑fatality rate of 48.6% and says the epicentre remains in the conflict‑ridden Ituri province in the north‑east, hampering containment.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-10-31T15:16:20+00:00",
-          "firstSeen": "2026-10-31T15:16:20+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "ff21767ceb6fa6",
-          "cat": "World",
-          "title": "Spain high‑speed train crash kills dozens, 69 bodies recovered",
-          "summary": "A collision on the high‑speed rail line south of Madrid resulted in 69 bodies being recovered from wreckage and an embankment, marking a second major rail disaster in Spain within nine months after a crash near Córdoba that killed 46 people. The incident has eroded public confidence in the rail network and the Socialist‑led government of Prime Minister Pedro Sánchez, and a formal investigation has just been launched.",
-          "why": "The crash occurs weeks before a snap general election, raising political stakes for the Sánchez government.",
-          "publishedAt": "2026-10-31T05:44:21+00:00",
-          "firstSeen": "2026-10-31T05:44:21+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "82e1223ac35a35",
-          "cat": "Indian Markets",
-          "title": "Turnaround Story: 8 stocks shift from loss to profit in September '26 quarter",
-          "summary": "The company reported a net profit of Rs 859 crore in the September 2026 quarter, compared with a net loss of Rs 16 crore in the corresponding quarter last year. The firm posted a net profit of Rs 71 crore in the September 2026 quarter, against a net loss of Rs 10 crore in the year-ago quarter.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-31T08:52:12+00:00",
-          "firstSeen": "2026-10-31T08:52:12+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/turnaround-story-8-stocks-shift-from-loss-to-profit-in-september-26-quarter/slideshow/135395511.cms"
-        },
-        {
-          "id": "3f5fed73397a92",
-          "cat": "AI",
-          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-          "summary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis. xAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-31T21:17:03+00:00",
-          "firstSeen": "2026-10-31T21:17:03+00:00",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
-        },
-        {
-          "id": "8b7ad34025a75c",
-          "cat": "Indian Markets",
-          "title": "New India slips into red with 1,267 cr loss in Q2",
-          "summary": "New India Assurance Company has revealed a concerning net loss of ₹1,267 crore for the September quarter, sharply contrasting with last year's profit of ₹63 crore. Despite this, gross written premiums showed a modest increase of 5.14% year-on-year, totaling ₹11,083 crore.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-10-31T04:30:20+00:00",
-          "firstSeen": "2026-10-31T04:30:20+00:00",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/new-india-slips-into-red-with-1267-cr-loss-in-q2/articleshow/135387922.cms"
-        },
-        {
-          "id": "7b93b2a29bc35c",
-          "cat": "AI",
-          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-          "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday. Anthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-10-31T01:20:05+00:00",
-          "firstSeen": "2026-10-31T01:20:05+00:00",
-          "importanceScore": 9.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-01T07:37:00.989973+00:00",
       "changeSummary": {
         "new": 0,
@@ -1165,6 +893,106 @@
           "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss"
         }
       ]
+    },
+    {
+      "at": "2026-11-04T01:24:55.991717+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 1,
+        "continuing": 2
+      },
+      "stories": [
+        {
+          "id": "82d3fcfcc14e26",
+          "cat": "India",
+          "title": "RBI launches three surveys on inflation expectations and consumer confidence ahead of December meeting",
+          "summary": "The Reserve Bank of India announced the launch of three separate surveys to gather information on households’ inflation expectations and overall consumer confidence. The surveys are being carried out before the RBI’s policy meeting slated for December, providing the central bank with fresh data on price outlooks and sentiment.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-03T15:10:10+00:00",
+          "firstSeen": "2026-11-03T15:10:10+00:00",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-launches-3-surveys-to-capture-inflation-expectations-consumer-confidence-ahead-of-december-policy-meeting/articleshow/135504173.cms"
+        },
+        {
+          "id": "6bbcd72d78a763",
+          "cat": "AI",
+          "title": "Anthropic is still grappling with the economics of compute",
+          "summary": "In particular, the company is finally disclosing more about the economics of compute, and how much of Anthropic’s skyrocketing revenue is being lost to compute costs. Broadly, Anthropic had a good quarter: revenue reached $17 billion, up from $11.5 billion in the previous quarter, suggesting durable growth.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-03T17:07:01+00:00",
+          "firstSeen": "2026-11-03T17:07:01+00:00",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+        },
+        {
+          "id": "60c5dad65b8750",
+          "cat": "Indian Markets",
+          "title": "RBI eases forex rules for services exports and imports",
+          "summary": "The Reserve Bank of India has eased foreign exchange reporting rules for services exports and imports, reducing compliance requirements for resident individuals and setting a ₹1 million threshold for certain transactions. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-03T19:23:04+00:00",
+          "firstSeen": "2026-11-03T19:23:04+00:00",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms"
+        },
+        {
+          "id": "cf51b9ef58c83d",
+          "cat": "Indian Markets",
+          "title": "Global Market Today: Asian shares retreat as US futures slide on Midterm election bets",
+          "summary": "Contracts for the S&P 500 Index dropped 0.3%, erasing an initial gain of 0.5%, while those for the Nasdaq 100 declined 0.6%. The dollar dropped against most of its Group-of-10 peers and the yield on the benchmark 10-year Treasury note fell four basis points to 4.92%.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-04T01:00:42+00:00",
+          "firstSeen": "2026-11-04T01:00:42+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-as-us-tech-stocks-rebound-midterm-results-awaited/articleshow/135517317.cms"
+        },
+        {
+          "id": "78c6a80c93cade",
+          "cat": "India",
+          "title": "Weak monsoon hampers winter sowing, raising food inflation concerns in India",
+          "summary": "Indian farmers are struggling to sow winter crops because a weak monsoon has left water supplies low, and Amarsingh Gushinge’s village reports a significant rainfall deficit. The shortfall threatens planting decisions and could push food inflation higher as staple prices rise, adding financial pressure on households. The Reserve Bank of India may consider interest‑rate hikes to curb the inflationary pressure.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-03T06:38:44+00:00",
+          "firstSeen": "2026-11-03T06:38:44+00:00",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/no-water-to-sow-no-respite-at-the-grocery-store-indias-prolonged-food-inflation-worry/articleshow/135485480.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1347,120 +1175,6 @@
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss"
     },
-    "079d2ce7ba34d4": {
-      "id": "079d2ce7ba34d4",
-      "firstSeen": "2026-10-27T15:41:46+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-27T18:44:32.006608+00:00",
-          "title": "Western states warn of worsening food security and famine risk in Sudan",
-          "summary": "The United States and 30 other Western countries issued a joint statement warning of an alarming deterioration in Sudan’s food security as the civil war continues. The World Health Organization estimates more than 33 million Sudanese need assistance, and the conflict has damaged critical infrastructure and disrupted food production. Yusuf Roble of Islamic Relief East Africa said people returning to Omdurman find homes destroyed or looted and have “very little to survive on.”",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-27T22:57:58.713386+00:00",
-          "title": "Western nations warn of worsening food security in Sudan amid civil war",
-          "summary": "The war in Sudan has created a severe humanitarian crisis, with the World Health Organization reporting more than 33 million people need assistance. The United States and 30 other Western states issued a joint statement warning of an “alarming deterioration” in Sudan’s food security and urging the warring parties to remove obstacles to aid to prevent famine. Yusuf Roble of Islamic Relief said people returning to Omdurman found homes destroyed or looted and had very little to survive on.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-27T22:57:58.713386+00:00",
-      "cat": "World",
-      "latestTitle": "Western nations warn of worsening food security in Sudan amid civil war",
-      "latestSummary": "The war in Sudan has created a severe humanitarian crisis, with the World Health Organization reporting more than 33 million people need assistance. The United States and 30 other Western states issued a joint statement warning of an “alarming deterioration” in Sudan’s food security and urging the warring parties to remove obstacles to aid to prevent famine. Yusuf Roble of Islamic Relief said people returning to Omdurman found homes destroyed or looted and had very little to survive on.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss"
-    },
-    "c0617e31003d4a": {
-      "id": "c0617e31003d4a",
-      "firstSeen": "2026-10-27T15:41:07+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-27T18:44:32.006608+00:00",
-          "title": "Tata Capital Q2 FY27 net profit jumps 51% to Rs 1,660 crore",
-          "summary": "Tata Capital reported a 51% year‑on‑year rise in second‑quarter FY27 net profit to Rs 1,660 crore, helped by higher interest income and loan growth. Assets under management grew 26% to Rs 3.08 lakh crore and net interest income rose 23%. The firm highlighted floating‑rate loan adjustments and margin improvement as ongoing priorities.",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-27T22:57:58.713386+00:00",
-          "title": "Tata Capital Q2 net profit rises 51% on higher income",
-          "summary": "Tata Capital’s second-quarter net profit rose 51% year-on-year to Rs 1,660 crore, supported by higher interest income and loan growth. Tata Capital posted 51% profit growth in Q2 FY27 as assets under management reached Rs 3.08 lakh crore, with floating-rate loan hikes planned.",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-27T22:57:58.713386+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Tata Capital Q2 net profit rises 51% on higher income",
-      "latestSummary": "Tata Capital’s second-quarter net profit rose 51% year-on-year to Rs 1,660 crore, supported by higher interest income and loan growth. Tata Capital posted 51% profit growth in Q2 FY27 as assets under management reached Rs 3.08 lakh crore, with floating-rate loan hikes planned.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-capital-q2-net-profit-rises-51-on-higher-income/articleshow/135239343.cms"
-    },
-    "90424cb0547925": {
-      "id": "90424cb0547925",
-      "firstSeen": "2026-10-27T17:19:02+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-27T18:44:32.006608+00:00",
-          "title": "Prediction market Kalshi expands safeguards for young traders",
-          "summary": "Kalshi is tightening safeguards for traders aged 18 to 20, introducing a $2,500 monthly deposit limit and alerts for users who put a large share of their funds into one trade. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-27T22:57:58.713386+00:00",
-          "title": "Prediction market Kalshi expands safeguards for young traders",
-          "summary": "Kalshi is tightening safeguards for traders aged 18 to 20, introducing a $2,500 monthly deposit limit and alerts for users who put a large share of their funds into one trade. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
-          "importanceScore": 10.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-27T22:57:58.713386+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Prediction market Kalshi expands safeguards for young traders",
-      "latestSummary": "Kalshi is tightening safeguards for traders aged 18 to 20, introducing a $2,500 monthly deposit limit and alerts for users who put a large share of their funds into one trade. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/prediction-market-kalshi-expands-safeguards-for-young-traders/articleshow/135241699.cms"
-    },
     "85e013113e4464": {
       "id": "85e013113e4464",
       "firstSeen": "2026-10-27T16:30:57+00:00",
@@ -1613,56 +1327,6 @@
       "latestSummary": "A ceasefire that began early Tuesday to allow food and medicine deliveries to the Russian‑occupied city of Oleshky has been broadened to cover the larger Kherson region, officials said. Several thousand residents of Oleshky remain without electricity, food or water, and all road routes out are considered unsafe. No violations of the truce have been reported so far.",
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
-    },
-    "4eac47c805c632": {
-      "id": "4eac47c805c632",
-      "firstSeen": "2026-10-27T13:21:14+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-27T22:57:58.713386+00:00",
-          "title": "Coca-Cola raises profit forecast as premium drinks, sodas hold strong",
-          "summary": "Coca-Cola has lifted its annual profit forecast, driven by robust demand for a range of beverages, particularly zero-sugar options. Their third-quarter revenue soared to $13.38 billion, exceeding analysts' expectations, while Coca-Cola's strong showing stands in sharp contrast to PepsiCo's recent downgrades and cost-cutting plans.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-27T22:57:58.713386+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Coca-Cola raises profit forecast as premium drinks, sodas hold strong",
-      "latestSummary": "Coca-Cola has lifted its annual profit forecast, driven by robust demand for a range of beverages, particularly zero-sugar options. Their third-quarter revenue soared to $13.38 billion, exceeding analysts' expectations, while Coca-Cola's strong showing stands in sharp contrast to PepsiCo's recent downgrades and cost-cutting plans.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/coca-cola-raises-profit-forecast-as-premium-drinks-sodas-hold-strong/articleshow/135235940.cms"
-    },
-    "6be3916339fd92": {
-      "id": "6be3916339fd92",
-      "firstSeen": "2026-10-27T19:21:09+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-27T22:57:58.713386+00:00",
-          "title": "RCMP probes Alberta health procurement for possible fraud, breach of trust and money laundering",
-          "summary": "Court documents filed this month in a wrongful‑dismissal lawsuit by former Alberta Health Services head Athana Mentzelopoulos state that the RCMP is investigating potential fraud, breach of trust and money‑laundering in provincial health‑care procurement contracts. The RCMP confirmed last year it was examining health‑care procurement but did not disclose details. Mentzelopoulos alleges she was dismissed for exposing “sweetheart” deals, while the government says she was fired for poor performance.",
-          "importanceScore": 9.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-27T22:57:58.713386+00:00",
-      "cat": "Canada",
-      "latestTitle": "RCMP probes Alberta health procurement for possible fraud, breach of trust and money laundering",
-      "latestSummary": "Court documents filed this month in a wrongful‑dismissal lawsuit by former Alberta Health Services head Athana Mentzelopoulos state that the RCMP is investigating potential fraud, breach of trust and money‑laundering in provincial health‑care procurement contracts. The RCMP confirmed last year it was examining health‑care procurement but did not disclose details. Mentzelopoulos alleges she was dismissed for exposing “sweetheart” deals, while the government says she was fired for poor performance.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://globalnews.ca/news/12123134/rcmp-investigating-alberta-health-procurement-for-possible-fraud-money-laundering/"
     },
     "e3b75065c039b9": {
       "id": "e3b75065c039b9",
@@ -4478,12 +4142,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-04T01:24:55.991717+00:00",
+          "title": "Weak monsoon hampers winter sowing, raising food inflation concerns in India",
+          "summary": "Indian farmers are struggling to sow winter crops because a weak monsoon has left water supplies low, and Amarsingh Gushinge’s village reports a significant rainfall deficit. The shortfall threatens planting decisions and could push food inflation higher as staple prices rise, adding financial pressure on households. The Reserve Bank of India may consider interest‑rate hikes to curb the inflationary pressure.",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-03T15:12:12.787472+00:00",
+      "lastSeen": "2026-11-04T01:24:55.991717+00:00",
       "cat": "India",
-      "latestTitle": "No water to sow, no respite at the grocery store: India's prolonged food inflation worry",
-      "latestSummary": "Food inflation could worsen as key staples see rising prices, aggravating the economic strain on households. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "latestTitle": "Weak monsoon hampers winter sowing, raising food inflation concerns in India",
+      "latestSummary": "Indian farmers are struggling to sow winter crops because a weak monsoon has left water supplies low, and Amarsingh Gushinge’s village reports a significant rainfall deficit. The shortfall threatens planting decisions and could push food inflation higher as staple prices rise, adding financial pressure on households. The Reserve Bank of India may consider interest‑rate hikes to curb the inflationary pressure.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/no-water-to-sow-no-respite-at-the-grocery-store-indias-prolonged-food-inflation-worry/articleshow/135485480.cms"
     },
@@ -4503,14 +4180,27 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-04T01:24:55.991717+00:00",
+          "title": "RBI eases forex rules for services exports and imports",
+          "summary": "The Reserve Bank of India has eased foreign exchange reporting rules for services exports and imports, reducing compliance requirements for resident individuals and setting a ₹1 million threshold for certain transactions. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-03T21:01:52.682040+00:00",
-      "cat": "India",
-      "latestTitle": "RBI eases forex reporting rules for service exports and imports",
-      "latestSummary": "The Reserve Bank of India on Tuesday announced that, effective 1 October 2026, foreign‑exchange reporting requirements for service‑related exports and imports are being relaxed. Transactions up to Rs 10 lakh are exempt from filing a separate Export Declaration Form, and for resident individuals the form is deemed submitted once the authorised dealer bank receives the payment‑credit information, with no value threshold for them.",
+      "lastSeen": "2026-11-04T01:24:55.991717+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "RBI eases forex rules for services exports and imports",
+      "latestSummary": "The Reserve Bank of India has eased foreign exchange reporting rules for services exports and imports, reducing compliance requirements for resident individuals and setting a ₹1 million threshold for certain transactions. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms"
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms"
     },
     "6bbcd72d78a763": {
       "id": "6bbcd72d78a763",
@@ -4528,9 +4218,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-04T01:24:55.991717+00:00",
+          "title": "Anthropic is still grappling with the economics of compute",
+          "summary": "In particular, the company is finally disclosing more about the economics of compute, and how much of Anthropic’s skyrocketing revenue is being lost to compute costs. Broadly, Anthropic had a good quarter: revenue reached $17 billion, up from $11.5 billion in the previous quarter, suggesting durable growth.",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-03T21:01:52.682040+00:00",
+      "lastSeen": "2026-11-04T01:24:55.991717+00:00",
       "cat": "AI",
       "latestTitle": "Anthropic is still grappling with the economics of compute",
       "latestSummary": "In particular, the company is finally disclosing more about the economics of compute, and how much of Anthropic’s skyrocketing revenue is being lost to compute costs. Broadly, Anthropic had a good quarter: revenue reached $17 billion, up from $11.5 billion in the previous quarter, suggesting durable growth.",
@@ -4578,12 +4281,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-04T01:24:55.991717+00:00",
+          "title": "RBI launches three surveys on inflation expectations and consumer confidence ahead of December meeting",
+          "summary": "The Reserve Bank of India announced the launch of three separate surveys to gather information on households’ inflation expectations and overall consumer confidence. The surveys are being carried out before the RBI’s policy meeting slated for December, providing the central bank with fresh data on price outlooks and sentiment.",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-03T21:01:52.682040+00:00",
+      "lastSeen": "2026-11-04T01:24:55.991717+00:00",
       "cat": "India",
       "latestTitle": "RBI launches three surveys on inflation expectations and consumer confidence ahead of December meeting",
-      "latestSummary": "The Reserve Bank of India announced the launch of three separate surveys designed to gather information on consumers' expectations about future price movements and their overall confidence in the economy. The surveys are being rolled out ahead of the RBI's policy meeting scheduled for December, providing fresh data for the central bank's considerations.",
+      "latestSummary": "The Reserve Bank of India announced the launch of three separate surveys to gather information on households’ inflation expectations and overall consumer confidence. The surveys are being carried out before the RBI’s policy meeting slated for December, providing the central bank with fresh data on price outlooks and sentiment.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-launches-3-surveys-to-capture-inflation-expectations-consumer-confidence-ahead-of-december-policy-meeting/articleshow/135504173.cms"
     },
@@ -4611,7 +4327,32 @@
       "latestSummary": "Reddit and a digital‑rights group argued before the High Court that the social‑media ban for children, introduced in December, is unconstitutional and infringes free‑communication rights. The hearing follows a change in the plaintiff lineup, with teen Noah Jones no longer a plaintiff but attending. The ban is part of the government’s broader online‑safety reforms.",
       "why": "The decision will decide if the ban stays in force, shaping Australia’s future approach to protecting minors online.",
       "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss"
+    },
+    "cf51b9ef58c83d": {
+      "id": "cf51b9ef58c83d",
+      "firstSeen": "2026-11-04T01:00:42+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-04T01:24:55.991717+00:00",
+          "title": "Global Market Today: Asian shares retreat as US futures slide on Midterm election bets",
+          "summary": "Contracts for the S&P 500 Index dropped 0.3%, erasing an initial gain of 0.5%, while those for the Nasdaq 100 declined 0.6%. The dollar dropped against most of its Group-of-10 peers and the yield on the benchmark 10-year Treasury note fell four basis points to 4.92%.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-04T01:24:55.991717+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Global Market Today: Asian shares retreat as US futures slide on Midterm election bets",
+      "latestSummary": "Contracts for the S&P 500 Index dropped 0.3%, erasing an initial gain of 0.5%, while those for the Nasdaq 100 declined 0.6%. The dollar dropped against most of its Group-of-10 peers and the yield on the benchmark 10-year Treasury note fell four basis points to 4.92%.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-as-us-tech-stocks-rebound-midterm-results-awaited/articleshow/135517317.cms"
     }
   },
-  "updated": "2026-11-03T21:01:52.682040+00:00"
+  "updated": "2026-11-04T01:24:55.991717+00:00"
 }

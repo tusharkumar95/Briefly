@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-03T21:01:52.682040+00:00",
+  "updated": "2026-11-04T01:24:55.991717+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 14,
-    "enrichedCandidates": 79,
-    "readableCandidates": 61,
-    "eventClusters": 59,
-    "materialEvents": 26,
+    "officialOrPrimaryCandidates": 19,
+    "enrichedCandidates": 80,
+    "readableCandidates": 59,
+    "eventClusters": 57,
+    "materialEvents": 27,
     "selectedEvents": 9,
     "seededStories": 5,
     "corroboratedStories": 0,
@@ -18,19 +18,19 @@
   },
   "stories": [
     {
-      "id": "60c5dad65b8750",
+      "id": "82d3fcfcc14e26",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "RBI eases forex reporting rules for service exports and imports",
-      "publishedAt": "2026-11-03T19:23:04+00:00",
-      "importanceScore": 14.2,
+      "title": "RBI launches three surveys on inflation expectations and consumer confidence ahead of December meeting",
+      "publishedAt": "2026-11-03T15:10:10+00:00",
+      "importanceScore": 13.1,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms",
-      "summary": "The Reserve Bank of India on Tuesday announced that, effective 1 October 2026, foreign‑exchange reporting requirements for service‑related exports and imports are being relaxed. Transactions up to Rs 10 lakh are exempt from filing a separate Export Declaration Form, and for resident individuals the form is deemed submitted once the authorised dealer bank receives the payment‑credit information, with no value threshold for them.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-launches-3-surveys-to-capture-inflation-expectations-consumer-confidence-ahead-of-december-policy-meeting/articleshow/135504173.cms",
+      "summary": "The Reserve Bank of India announced the launch of three separate surveys to gather information on households’ inflation expectations and overall consumer confidence. The surveys are being carried out before the RBI’s policy meeting slated for December, providing the central bank with fresh data on price outlooks and sentiment.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -38,25 +38,25 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms",
-          "publishedAt": "2026-11-03T19:23:04+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/india-eases-forex-reporting-rules-for-small-value-service-exports-imports/articleshow/135492748.cms",
-          "publishedAt": "2026-11-03T10:39:33+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-launches-3-surveys-to-capture-inflation-expectations-consumer-confidence-ahead-of-december-policy-meeting/articleshow/135504173.cms",
+          "publishedAt": "2026-11-03T15:10:10+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T19:23:04+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-03T21:01:52.682040+00:00",
+      "firstSeen": "2026-11-03T15:10:10+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-04T01:24:55.991717+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "RBI launches three surveys on inflation expectations and consumer confidence ahead of December meeting",
+      "previousSummary": "The Reserve Bank of India announced the launch of three separate surveys designed to gather information on consumers' expectations about future price movements and their overall confidence in the economy. The surveys are being rolled out ahead of the RBI's policy meeting scheduled for December, providing fresh data for the central bank's considerations.",
+      "previousPublishedAt": "2026-11-03T15:10:10+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.3,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "6bbcd72d78a763",
@@ -67,7 +67,7 @@
       ],
       "title": "Anthropic is still grappling with the economics of compute",
       "publishedAt": "2026-11-03T17:07:01+00:00",
-      "importanceScore": 13.8,
+      "importanceScore": 12.8,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
@@ -84,8 +84,96 @@
         }
       ],
       "firstSeen": "2026-11-03T17:07:01+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-04T01:24:55.991717+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Anthropic is still grappling with the economics of compute",
+      "previousSummary": "In particular, the company is finally disclosing more about the economics of compute, and how much of Anthropic’s skyrocketing revenue is being lost to compute costs. Broadly, Anthropic had a good quarter: revenue reached $17 billion, up from $11.5 billion in the previous quarter, suggesting durable growth.",
+      "previousPublishedAt": "2026-11-03T17:07:01+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.8,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "60c5dad65b8750",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets",
+        "India"
+      ],
+      "title": "RBI eases forex rules for services exports and imports",
+      "publishedAt": "2026-11-03T19:23:04+00:00",
+      "importanceScore": 12.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms",
+      "summary": "The Reserve Bank of India has eased foreign exchange reporting rules for services exports and imports, reducing compliance requirements for resident individuals and setting a ₹1 million threshold for certain transactions. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms",
+          "publishedAt": "2026-11-03T19:23:04+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/india-eases-forex-reporting-rules-for-small-value-service-exports-imports/articleshow/135492748.cms",
+          "publishedAt": "2026-11-03T10:39:33+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-03T19:23:04+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-04T01:24:55.991717+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "RBI eases forex reporting rules for service exports and imports",
+      "previousSummary": "The Reserve Bank of India on Tuesday announced that, effective 1 October 2026, foreign‑exchange reporting requirements for service‑related exports and imports are being relaxed. Transactions up to Rs 10 lakh are exempt from filing a separate Export Declaration Form, and for resident individuals the form is deemed submitted once the authorised dealer bank receives the payment‑credit information, with no value threshold for them.",
+      "previousPublishedAt": "2026-11-03T19:23:04+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.2,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "cf51b9ef58c83d",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Global Market Today: Asian shares retreat as US futures slide on Midterm election bets",
+      "publishedAt": "2026-11-04T01:00:42+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-as-us-tech-stocks-rebound-midterm-results-awaited/articleshow/135517317.cms",
+      "summary": "Contracts for the S&P 500 Index dropped 0.3%, erasing an initial gain of 0.5%, while those for the Nasdaq 100 declined 0.6%. The dollar dropped against most of its Group-of-10 peers and the yield on the benchmark 10-year Treasury note fell four basis points to 4.92%.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-as-us-tech-stocks-rebound-midterm-results-awaited/articleshow/135517317.cms",
+          "publishedAt": "2026-11-04T01:00:42+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-04T01:00:42+00:00",
       "status": "New",
-      "lastChecked": "2026-11-03T21:01:52.682040+00:00",
+      "lastChecked": "2026-11-04T01:24:55.991717+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -95,69 +183,33 @@
       "lifecycle": "New"
     },
     {
-      "id": "68d58bfcfc586c",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Utkarsh Small Finance Bank posts Rs 70 crore loss in Q2, sixth straight quarterly loss",
-      "publishedAt": "2026-11-03T16:24:16+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/utkarsh-small-finance-bank-reports-sixth-consecutive-quarterly-loss/articleshow/135506409.cms",
-      "summary": "The bank recorded a net loss of Rs 70 crore in the second quarter, marking its sixth consecutive quarterly loss. Operating profit was Rs 85 crore, but provisions of Rs 166 crore resulted in the net loss. The gross non‑performing asset ratio eased to 5.96% and the loan book grew 7.5% year‑on‑year to Rs 20,062 crore.",
-      "why": "Ongoing losses raise concerns about profitability and capital adequacy, which matter to investors and borrowers.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/utkarsh-small-finance-bank-reports-sixth-consecutive-quarterly-loss/articleshow/135506409.cms",
-          "publishedAt": "2026-11-03T16:24:16+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-03T16:24:16+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-03T21:01:52.682040+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "82d3fcfcc14e26",
+      "id": "78c6a80c93cade",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "RBI launches three surveys on inflation expectations and consumer confidence ahead of December meeting",
-      "publishedAt": "2026-11-03T15:10:10+00:00",
-      "importanceScore": 12.3,
+      "title": "Weak monsoon hampers winter sowing, raising food inflation concerns in India",
+      "publishedAt": "2026-11-03T06:38:44+00:00",
+      "importanceScore": 10.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-launches-3-surveys-to-capture-inflation-expectations-consumer-confidence-ahead-of-december-policy-meeting/articleshow/135504173.cms",
-      "summary": "The Reserve Bank of India announced the launch of three separate surveys designed to gather information on consumers' expectations about future price movements and their overall confidence in the economy. The surveys are being rolled out ahead of the RBI's policy meeting scheduled for December, providing fresh data for the central bank's considerations.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/no-water-to-sow-no-respite-at-the-grocery-store-indias-prolonged-food-inflation-worry/articleshow/135485480.cms",
+      "summary": "Indian farmers are struggling to sow winter crops because a weak monsoon has left water supplies low, and Amarsingh Gushinge’s village reports a significant rainfall deficit. The shortfall threatens planting decisions and could push food inflation higher as staple prices rise, adding financial pressure on households. The Reserve Bank of India may consider interest‑rate hikes to curb the inflationary pressure.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-launches-3-surveys-to-capture-inflation-expectations-consumer-confidence-ahead-of-december-policy-meeting/articleshow/135504173.cms",
-          "publishedAt": "2026-11-03T15:10:10+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/no-water-to-sow-no-respite-at-the-grocery-store-indias-prolonged-food-inflation-worry/articleshow/135485480.cms",
+          "publishedAt": "2026-11-03T06:38:44+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T15:10:10+00:00",
+      "firstSeen": "2026-11-03T06:38:44+00:00",
       "status": "New",
-      "lastChecked": "2026-11-03T21:01:52.682040+00:00",
+      "lastChecked": "2026-11-04T01:24:55.991717+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -165,59 +217,23 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
-    },
-    {
-      "id": "57e301d6b3355e",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "High Court hears challenge to Australia’s child social media ban",
-      "publishedAt": "2026-11-03T07:53:38+00:00",
-      "importanceScore": 11.5,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Reddit and a digital‑rights group argued before the High Court that the social‑media ban for children, introduced in December, is unconstitutional and infringes free‑communication rights. The hearing follows a change in the plaintiff lineup, with teen Noah Jones no longer a plaintiff but attending. The ban is part of the government’s broader online‑safety reforms.",
-      "why": "The decision will decide if the ban stays in force, shaping Australia’s future approach to protecting minors online.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-03T07:53:38+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-03T07:53:38+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-03T21:01:52.682040+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 4,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-03T15:12:12.787472+00:00",
+  "previousUpdated": "2026-11-03T21:01:52.682040+00:00",
   "changeSummary": {
-    "new": 5,
-    "updated": 0,
-    "continuing": 0
+    "new": 2,
+    "updated": 1,
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-10-31T21:38:13.173676+00:00",
-    "updated": "2026-11-03T21:01:52.682040+00:00",
-    "snapshotCount": 12,
-    "eventCount": 92,
+    "availableFrom": "2026-11-01T07:37:00.989973+00:00",
+    "updated": "2026-11-04T01:24:55.991717+00:00",
+    "snapshotCount": 11,
+    "eventCount": 88,
     "retentionHours": 72
   }
 }
