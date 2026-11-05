@@ -3,142 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-02T15:59:46.259550+00:00",
-      "changeSummary": {
-        "new": 5,
-        "updated": 2,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "f2120a0704360b",
-          "cat": "Indian Markets",
-          "title": "US stocks rise as AI shares stabilize and oil falls on peace hopes",
-          "summary": "On Monday U.S. equities opened higher, with the Dow Jones up 0.78% to 52,173.40, the S&P 500 up 0.45% to 7,613.87, and the Nasdaq Composite up 0.63% to 25,596.07. Crude oil prices fell sharply as hopes grew for a U.S.–Iran peace deal and for Iran‑mediated talks to reopen the Strait of Hormuz. Alphabet announced a €6 billion euro‑bond sale that drew €17.1 billion of orders.",
-          "why": "The moves illustrate how geopolitical developments and major corporate financing can quickly shift market sentiment.",
-          "publishedAt": "2026-11-02T14:39:18+00:00",
-          "firstSeen": "2026-11-02T14:39:18+00:00",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-ai-trade-steadies-oil-falls/articleshow/135465480.cms"
-        },
-        {
-          "id": "ff7a668d0b13d4",
-          "cat": "World",
-          "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
-          "summary": "Ireland Scotland Wales Isle of Man Guernsey Jersey Local News Wizz Air flight from Luton in emergency landing after bomb threat A file photo of a Wizz Air plane on the tarmac at Ferenc Liszt International Airport in Budapest",
-          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-          "publishedAt": "2026-11-02T14:35:38+00:00",
-          "firstSeen": "2026-11-02T14:35:38+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "d908c90d702868",
-          "cat": "AI",
-          "title": "Omen AI acquires Aquatic Labs for $16 million to enhance water‑sensor technology",
-          "summary": "Omen AI, a startup founded in 2024 to monitor cooling‑water systems in data centers, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity sensor, creating a more comprehensive real‑time water‑quality solution. The combined technology aims to reduce reliance on slow, off‑site lab testing.",
-          "why": "It could lower water consumption and operational costs for AI data centers by improving real‑time cooling‑fluid monitoring.",
-          "publishedAt": "2026-11-02T15:00:00+00:00",
-          "firstSeen": "2026-11-02T15:00:00+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
-        },
-        {
-          "id": "2d1b3f6ed72f83",
-          "cat": "Indian Markets",
-          "title": "Fusion Finance posts Rs 86.5 crore profit as asset quality improves",
-          "summary": "Fusion Finance reported a profit of Rs 86.5 crore for the most recent reporting period. The Economic Times headline notes a swing to profit, implying a reversal from earlier losses. The company linked the profit to an improvement in asset quality.",
-          "why": "The profit swing suggests a potential turnaround in financial performance, which could influence investor sentiment.",
-          "publishedAt": "2026-11-02T14:43:13+00:00",
-          "firstSeen": "2026-11-02T14:43:13+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fusion-finance-swings-to-rs-86-5-crore-profit-as-asset-quality-improves/articleshow/135465579.cms"
-        },
-        {
-          "id": "fe2b58d2b6284e",
-          "cat": "Indian Markets",
-          "title": "Coforge among 4 stocks that hit 52-week highs and rallied up to 15% in a month",
-          "summary": "Four stocks from the BSE 100 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-02T13:31:31+00:00",
-          "firstSeen": "2026-11-02T13:31:31+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/slideshow/135463866.cms"
-        },
-        {
-          "id": "de8d95a0bcc635",
-          "cat": "India",
-          "title": "China tightens export controls on tunnel‑boring machines, raising trade‑war risk for India",
-          "summary": "China is tightening export controls on tunnel‑boring machines and other specialised construction equipment. The move has raised concerns that the restrictions could disrupt India’s infrastructure projects, particularly those along the disputed Himalayan border. Beijing’s dominance in tunnel‑boring equipment is seen as giving it leverage over India’s construction sector.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-02T03:45:33+00:00",
-          "firstSeen": "2026-11-02T03:45:33+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Its significance score fell as the evidence changed.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms"
-        },
-        {
-          "id": "3e566da6217c6a",
-          "cat": "AI",
-          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-          "summary": "Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . So OpenAI is to influence the AI debate moving forward, with Lehane discussing several proposals, including the development of AI “speed limits” ; finding ways to help people see AI as empowering them in their daily lives; pushing the U.S.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-01T21:55:23+00:00",
-          "firstSeen": "2026-11-01T21:55:23+00:00",
-          "importanceScore": 9.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-02T23:33:51.152735+00:00",
       "changeSummary": {
         "new": 5,
@@ -993,6 +857,124 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-05T22:01:33.433106+00:00",
+      "changeSummary": {
+        "new": 5,
+        "updated": 1,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "6f4b12e3623350",
+          "cat": "Canada",
+          "title": "Canada proposes ban on fees for moving investment accounts",
+          "summary": "The federal government has released draft regulations to stop banks from charging fees when a client moves an investment account to another financial institution. The change would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis notes the fees are typically about $150 per account.",
+          "why": "It would reduce costs for Canadians who switch providers, potentially increasing competition in the banking sector.",
+          "publishedAt": "2026-11-05T20:22:23+00:00",
+          "firstSeen": "2026-11-05T20:22:23+00:00",
+          "importanceScore": 14.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
+        },
+        {
+          "id": "a86203ea83aaac",
+          "cat": "Indian Markets",
+          "title": "US stocks tumble as AI regulation fears trigger steep Nasdaq drop",
+          "summary": "The Nasdaq Composite fell 5.46% (down 1,421.5 points to 24,315.02), its biggest one‑day decline in 19 months, while the S&P 500 lost 4.32% (down 331.94 points to 7,353.65) and the Dow Jones slipped 3.45% (down 1,842.69 points to 51,513.43). The sell‑off was driven by concerns that tighter AI regulation from a Democrat‑controlled Congress could curb chipmaker and data‑centre investment, and by Fed officials’ comments on possible further rate hikes.",
+          "why": "The decline raises risk concerns for AI‑related and broader equities, influencing global investors and Indian market sentiment.",
+          "publishedAt": "2026-11-05T13:10:30+00:00",
+          "firstSeen": "2026-11-05T13:10:30+00:00",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-qualcomm-nvidia-coreweave-tesla-amazon-meta-ai-stocks-data-center-stocks-semiconductor-stocks-brent-crude-us-jobs-report-federal-reserve-treasury-yield-news-5th-november-2026/liveblog/135575228.cms"
+        },
+        {
+          "id": "7d680535fae4b6",
+          "cat": "India",
+          "title": "US sanctions India-based couple, companies over alleged support for Iran's Shadow oil fleet",
+          "summary": "The United States imposed sanctions on Suniel Kumar Sharma and Jaspreet Preeti Shahid for aiding Iran's shadow fleet. Several companies linked to the couple also received sanctions under Executive Order 13902.",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-11-05T01:41:13+00:00",
+          "firstSeen": "2026-11-05T01:41:13+00:00",
+          "importanceScore": 10.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms"
+        },
+        {
+          "id": "42ba335d100ea4",
+          "cat": "AI",
+          "title": "OpenAI released a new cybersecurity model. Is that enough?",
+          "summary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-05T19:06:12+00:00",
+          "firstSeen": "2026-11-05T19:06:12+00:00",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+        },
+        {
+          "id": "29c994bd572e45",
+          "cat": "India",
+          "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
+          "summary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-11-05T05:05:52+00:00",
+          "firstSeen": "2026-11-05T05:05:52+00:00",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
+        },
+        {
+          "id": "b465189d1af1ea",
+          "cat": "India",
+          "title": "US midterm victory unlikely to affect India‑US interim trade deal",
+          "summary": "Sources said the Democrats’ sweeping win in the U.S. midterm elections is not expected to impact the India‑U.S. interim trade agreement because the pact does not require formal Congressional ratification. The deal could still face challenges from ongoing U.S. Section 301 investigations into forced‑labour practices and excess industrial capacity that may affect tariff policy and finalisation.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-05T13:38:14+00:00",
+          "firstSeen": "2026-11-05T13:38:14+00:00",
+          "importanceScore": 10.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1046,44 +1028,6 @@
       "latestSummary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-    },
-    "64bbd39168dcf4": {
-      "id": "64bbd39168dcf4",
-      "firstSeen": "2026-10-29T12:23:33+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T16:09:50.998259+00:00",
-          "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
-          "summary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-29T21:09:34.282979+00:00",
-          "title": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
-          "summary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Bitcoin trades near $80,000 after Fed holds rates, signals possibility of further tightening",
-      "latestSummary": "Bitcoin traded near $80,000 after the US Federal Reserve held interest rates at 3.75%-4%, while the possibility of further tightening weighed on sentiment. Analysts flagged resistance near $81,500-$82,000, citing weak technical indicators and subdued institutional demand.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-80000-after-fed-holds-rates-signals-possibility-of-further-tightening/articleshow/135309957.cms"
     },
     "912c4596848618": {
       "id": "912c4596848618",
@@ -1200,44 +1144,6 @@
       "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
     },
-    "b841fed2ecacd6": {
-      "id": "b841fed2ecacd6",
-      "firstSeen": "2026-10-29T14:54:27+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T16:09:50.998259+00:00",
-          "title": "Ambuja Cements’ profit slumps 90% on higher costs, high previous-year base",
-          "summary": "Ambuja Cements reported a 90% year-on-year profit decline to ₹236 crore in Q2 FY27 as rising fuel, logistics and operating costs squeezed margins. Ambuja Cements’ quarterly profit plunged 90% amid rising input costs and shrinking margins, while the company pursued cost reductions and renewable energy investments.",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-29T21:09:34.282979+00:00",
-          "title": "Ambuja Cements profit drops ~90% YoY",
-          "summary": "Ambuja Cements reported that its net profit for the quarter fell about 90% compared with the same quarter a year earlier. The company said the decline was driven by higher input costs and by a strong profit base in the prior year. No detailed financial figures were provided in the source.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Ambuja Cements profit drops ~90% YoY",
-      "latestSummary": "Ambuja Cements reported that its net profit for the quarter fell about 90% compared with the same quarter a year earlier. The company said the decline was driven by higher input costs and by a strong profit base in the prior year. No detailed financial figures were provided in the source.",
-      "why": "The steep earnings drop signals cost pressure in the Indian cement sector and could influence investor sentiment.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/ambuja-cements-profit-slumps-90-on-higher-costs-high-previous-year-base/articleshow/135320851.cms"
-    },
     "4301dc4cd64642": {
       "id": "4301dc4cd64642",
       "firstSeen": "2026-10-29T13:47:53+00:00",
@@ -1275,56 +1181,6 @@
       "latestSummary": "Commerce Minister Piyush Goyal said India’s trade deal with the US would protect sensitive interests, including those of farmers, and give the country a competitive advantage. He criticised opposition parties for questioning the agreement before its details were released, while defending India’s trade strategy and its decision to stay out of RCEP.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms"
-    },
-    "bcbe145da19010": {
-      "id": "bcbe145da19010",
-      "firstSeen": "2026-10-29T20:16:15+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T21:09:34.282979+00:00",
-          "title": "US Markets Today: US stocks end lower as Alphabet revenue miss revives AI capex jitters",
-          "summary": "The Nasdaq leads losses, while stronger-than-expected US GDP growth and rising inflation add to investor concerns. Software stocks tumble, while Eli Lilly, Ford and Merck gain after results.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "US Markets Today: US stocks end lower as Alphabet revenue miss revives AI capex jitters",
-      "latestSummary": "The Nasdaq leads losses, while stronger-than-expected US GDP growth and rising inflation add to investor concerns. Software stocks tumble, while Eli Lilly, Ford and Merck gain after results.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-lower-as-alphabet-revenue-miss-revives-ai-capex-jitters/articleshow/135331051.cms"
-    },
-    "443c79dd5a58d9": {
-      "id": "443c79dd5a58d9",
-      "firstSeen": "2026-10-29T17:36:10+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T21:09:34.282979+00:00",
-          "title": "IMF says Super El Niño risks to India’s growth have not yet materialised",
-          "summary": "The International Monetary Fund noted that India remains a major driver of global growth. It warned that weather events such as a Super El Niño pose potential risks, but those risks have not yet materialised. The IMF also raised its growth forecasts for India to 7 % for fiscal years 2027‑28, citing strong domestic demand and a buoyant services sector.",
-          "importanceScore": 11.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-29T21:09:34.282979+00:00",
-      "cat": "India",
-      "latestTitle": "IMF says Super El Niño risks to India’s growth have not yet materialised",
-      "latestSummary": "The International Monetary Fund noted that India remains a major driver of global growth. It warned that weather events such as a Super El Niño pose potential risks, but those risks have not yet materialised. The IMF also raised its growth forecasts for India to 7 % for fiscal years 2027‑28, citing strong domestic demand and a buoyant services sector.",
-      "why": "The IMF’s assessment can influence confidence in India’s economic data, policy credibility and macroeconomic outlook.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-flags-super-el-nio-risks-to-indias-growth-says-impact-yet-to-materialise/articleshow/135325476.cms"
     },
     "401f6ab4f8e9f7": {
       "id": "401f6ab4f8e9f7",
@@ -3695,12 +3551,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-05T22:01:33.433106+00:00",
+          "title": "US sanctions India-based couple, companies over alleged support for Iran's Shadow oil fleet",
+          "summary": "The United States imposed sanctions on Suniel Kumar Sharma and Jaspreet Preeti Shahid for aiding Iran's shadow fleet. Several companies linked to the couple also received sanctions under Executive Order 13902.",
+          "importanceScore": 10.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-05T06:51:48.614454+00:00",
+      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
       "cat": "India",
       "latestTitle": "US sanctions India-based couple, companies over alleged support for Iran's Shadow oil fleet",
-      "latestSummary": "US sanctions India-based couple, companies over alleged support for Iran's Shadow",
+      "latestSummary": "The United States imposed sanctions on Suniel Kumar Sharma and Jaspreet Preeti Shahid for aiding Iran's shadow fleet. Several companies linked to the couple also received sanctions under Executive Order 13902.",
       "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms"
     },
@@ -3745,15 +3614,128 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-05T22:01:33.433106+00:00",
+          "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
+          "summary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-05T15:29:53.156756+00:00",
+      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
       "cat": "India",
-      "latestTitle": "US midterm results give limited relief to India, oil and Russia sanctions stay key risks",
-      "latestSummary": "A report states that the United States midterm election outcome offers only limited relief to India’s economic outlook. It also points out that high oil prices and the ongoing sanctions on Russia continue to be significant risk factors for the Indian economy.",
-      "why": "These geopolitical and energy‑related uncertainties could restrain India’s growth despite any favorable US political changes.",
+      "latestTitle": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
+      "latestSummary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
+    },
+    "6f4b12e3623350": {
+      "id": "6f4b12e3623350",
+      "firstSeen": "2026-11-05T20:22:23+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-05T22:01:33.433106+00:00",
+          "title": "Canada proposes ban on fees for moving investment accounts",
+          "summary": "The federal government has released draft regulations to stop banks from charging fees when a client moves an investment account to another financial institution. The change would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis notes the fees are typically about $150 per account.",
+          "importanceScore": 14.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
+      "cat": "Canada",
+      "latestTitle": "Canada proposes ban on fees for moving investment accounts",
+      "latestSummary": "The federal government has released draft regulations to stop banks from charging fees when a client moves an investment account to another financial institution. The change would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis notes the fees are typically about $150 per account.",
+      "why": "It would reduce costs for Canadians who switch providers, potentially increasing competition in the banking sector.",
+      "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
+    },
+    "a86203ea83aaac": {
+      "id": "a86203ea83aaac",
+      "firstSeen": "2026-11-05T13:10:30+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-05T22:01:33.433106+00:00",
+          "title": "US stocks tumble as AI regulation fears trigger steep Nasdaq drop",
+          "summary": "The Nasdaq Composite fell 5.46% (down 1,421.5 points to 24,315.02), its biggest one‑day decline in 19 months, while the S&P 500 lost 4.32% (down 331.94 points to 7,353.65) and the Dow Jones slipped 3.45% (down 1,842.69 points to 51,513.43). The sell‑off was driven by concerns that tighter AI regulation from a Democrat‑controlled Congress could curb chipmaker and data‑centre investment, and by Fed officials’ comments on possible further rate hikes.",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "US stocks tumble as AI regulation fears trigger steep Nasdaq drop",
+      "latestSummary": "The Nasdaq Composite fell 5.46% (down 1,421.5 points to 24,315.02), its biggest one‑day decline in 19 months, while the S&P 500 lost 4.32% (down 331.94 points to 7,353.65) and the Dow Jones slipped 3.45% (down 1,842.69 points to 51,513.43). The sell‑off was driven by concerns that tighter AI regulation from a Democrat‑controlled Congress could curb chipmaker and data‑centre investment, and by Fed officials’ comments on possible further rate hikes.",
+      "why": "The decline raises risk concerns for AI‑related and broader equities, influencing global investors and Indian market sentiment.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-qualcomm-nvidia-coreweave-tesla-amazon-meta-ai-stocks-data-center-stocks-semiconductor-stocks-brent-crude-us-jobs-report-federal-reserve-treasury-yield-news-5th-november-2026/liveblog/135575228.cms"
+    },
+    "42ba335d100ea4": {
+      "id": "42ba335d100ea4",
+      "firstSeen": "2026-11-05T19:06:12+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-05T22:01:33.433106+00:00",
+          "title": "OpenAI released a new cybersecurity model. Is that enough?",
+          "summary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
+      "cat": "AI",
+      "latestTitle": "OpenAI released a new cybersecurity model. Is that enough?",
+      "latestSummary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+    },
+    "b465189d1af1ea": {
+      "id": "b465189d1af1ea",
+      "firstSeen": "2026-11-05T13:38:14+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-05T22:01:33.433106+00:00",
+          "title": "US midterm victory unlikely to affect India‑US interim trade deal",
+          "summary": "Sources said the Democrats’ sweeping win in the U.S. midterm elections is not expected to impact the India‑U.S. interim trade agreement because the pact does not require formal Congressional ratification. The deal could still face challenges from ongoing U.S. Section 301 investigations into forced‑labour practices and excess industrial capacity that may affect tariff policy and finalisation.",
+          "importanceScore": 10.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
+      "cat": "India",
+      "latestTitle": "US midterm victory unlikely to affect India‑US interim trade deal",
+      "latestSummary": "Sources said the Democrats’ sweeping win in the U.S. midterm elections is not expected to impact the India‑U.S. interim trade agreement because the pact does not require formal Congressional ratification. The deal could still face challenges from ongoing U.S. Section 301 investigations into forced‑labour practices and excess industrial capacity that may affect tariff policy and finalisation.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
     }
   },
-  "updated": "2026-11-05T15:29:53.156756+00:00"
+  "updated": "2026-11-05T22:01:33.433106+00:00"
 }

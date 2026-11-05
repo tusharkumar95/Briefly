@@ -1,22 +1,166 @@
 {
-  "updated": "2026-11-05T15:29:53.156756+00:00",
+  "updated": "2026-11-05T22:01:33.433106+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 20,
+    "officialOrPrimaryCandidates": 21,
     "enrichedCandidates": 79,
-    "readableCandidates": 57,
-    "eventClusters": 57,
-    "materialEvents": 27,
-    "selectedEvents": 7,
-    "seededStories": 5,
+    "readableCandidates": 55,
+    "eventClusters": 55,
+    "materialEvents": 22,
+    "selectedEvents": 9,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "6f4b12e3623350",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Canada proposes ban on fees for moving investment accounts",
+      "publishedAt": "2026-11-05T20:22:23+00:00",
+      "importanceScore": 14.6,
+      "sourceCount": 1,
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss",
+      "summary": "The federal government has released draft regulations to stop banks from charging fees when a client moves an investment account to another financial institution. The change would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis notes the fees are typically about $150 per account.",
+      "why": "It would reduce costs for Canadians who switch providers, potentially increasing competition in the banking sector.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "cbc.ca",
+          "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss",
+          "publishedAt": "2026-11-05T20:22:23+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-05T20:22:23+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-05T22:01:33.433106+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "a86203ea83aaac",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "US stocks tumble as AI regulation fears trigger steep Nasdaq drop",
+      "publishedAt": "2026-11-05T13:10:30+00:00",
+      "importanceScore": 13.4,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-qualcomm-nvidia-coreweave-tesla-amazon-meta-ai-stocks-data-center-stocks-semiconductor-stocks-brent-crude-us-jobs-report-federal-reserve-treasury-yield-news-5th-november-2026/liveblog/135575228.cms",
+      "summary": "The Nasdaq Composite fell 5.46% (down 1,421.5 points to 24,315.02), its biggest one‑day decline in 19 months, while the S&P 500 lost 4.32% (down 331.94 points to 7,353.65) and the Dow Jones slipped 3.45% (down 1,842.69 points to 51,513.43). The sell‑off was driven by concerns that tighter AI regulation from a Democrat‑controlled Congress could curb chipmaker and data‑centre investment, and by Fed officials’ comments on possible further rate hikes.",
+      "why": "The decline raises risk concerns for AI‑related and broader equities, influencing global investors and Indian market sentiment.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-qualcomm-nvidia-coreweave-tesla-amazon-meta-ai-stocks-data-center-stocks-semiconductor-stocks-brent-crude-us-jobs-report-federal-reserve-treasury-yield-news-5th-november-2026/liveblog/135575228.cms",
+          "publishedAt": "2026-11-05T13:10:30+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-05T13:10:30+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-05T22:01:33.433106+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "7d680535fae4b6",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "US sanctions India-based couple, companies over alleged support for Iran's Shadow oil fleet",
+      "publishedAt": "2026-11-05T01:41:13+00:00",
+      "importanceScore": 10.9,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms",
+      "summary": "The United States imposed sanctions on Suniel Kumar Sharma and Jaspreet Preeti Shahid for aiding Iran's shadow fleet. Several companies linked to the couple also received sanctions under Executive Order 13902.",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms",
+          "publishedAt": "2026-11-05T01:41:13+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-05T01:41:13+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-05T22:01:33.433106+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "42ba335d100ea4",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "publishedAt": "2026-11-05T19:06:12+00:00",
+      "importanceScore": 10.7,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "summary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+          "publishedAt": "2026-11-05T19:06:12+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-05T19:06:12+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-05T22:01:33.433106+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "29c994bd572e45",
       "cat": "India",
@@ -24,17 +168,17 @@
       "categories": [
         "India"
       ],
-      "title": "US midterm results give limited relief to India, oil and Russia sanctions stay key risks",
+      "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
       "publishedAt": "2026-11-05T05:05:52+00:00",
-      "importanceScore": 12.8,
+      "importanceScore": 10.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms",
-      "summary": "A report states that the United States midterm election outcome offers only limited relief to India’s economic outlook. It also points out that high oil prices and the ongoing sanctions on Russia continue to be significant risk factors for the Indian economy.",
-      "why": "These geopolitical and energy‑related uncertainties could restrain India’s growth despite any favorable US political changes.",
-      "confidence": "medium",
+      "summary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -43,8 +187,49 @@
         }
       ],
       "firstSeen": "2026-11-05T05:05:52+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-05T22:01:33.433106+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "US midterm results give limited relief to India, oil and Russia sanctions stay key risks",
+      "previousSummary": "A report states that the United States midterm election outcome offers only limited relief to India’s economic outlook. It also points out that high oil prices and the ongoing sanctions on Russia continue to be significant risk factors for the Indian economy.",
+      "previousPublishedAt": "2026-11-05T05:05:52+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.8,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "b465189d1af1ea",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "US midterm victory unlikely to affect India‑US interim trade deal",
+      "publishedAt": "2026-11-05T13:38:14+00:00",
+      "importanceScore": 10.1,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms",
+      "summary": "Sources said the Democrats’ sweeping win in the U.S. midterm elections is not expected to impact the India‑U.S. interim trade agreement because the pact does not require formal Congressional ratification. The deal could still face challenges from ongoing U.S. Section 301 investigations into forced‑labour practices and excess industrial capacity that may affect tariff policy and finalisation.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms",
+          "publishedAt": "2026-11-05T13:38:14+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-05T13:38:14+00:00",
       "status": "New",
-      "lastChecked": "2026-11-05T15:29:53.156756+00:00",
+      "lastChecked": "2026-11-05T22:01:33.433106+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -54,19 +239,19 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 2,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-11-05T06:51:48.614454+00:00",
+  "jarvisEditedCount": 3,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-05T15:29:53.156756+00:00",
   "changeSummary": {
-    "new": 1,
-    "updated": 0,
+    "new": 5,
+    "updated": 1,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-02T15:59:46.259550+00:00",
-    "updated": "2026-11-05T15:29:53.156756+00:00",
+    "availableFrom": "2026-11-02T23:33:51.152735+00:00",
+    "updated": "2026-11-05T22:01:33.433106+00:00",
     "snapshotCount": 11,
     "eventCount": 76,
     "retentionHours": 72
