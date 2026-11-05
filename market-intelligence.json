@@ -1,99 +1,107 @@
 {
-  "updated": "2026-11-05T11:29:49.777293+00:00",
+  "updated": "2026-11-05T18:58:27.508834+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX Composite up 2.28% as Democrats sweep US midterms and miners gain",
-      "direction": "up",
-      "move": "S&P/TSX Composite +2.28%",
-      "why": "The rise was linked to Democrats sweeping the U.S. midterm elections and strong performance in mining stocks, both cited as reasons for the market’s advance.",
+      "headline": "S&P/TSX Composite fell 1.86%",
+      "direction": "down",
+      "move": "S&P/TSX Composite -1.86%",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Democrats sweep US midterms; miners gain",
-          "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "U.S. midterm election results",
-          "detail": "Democrats swept the U.S. midterms, lifting sentiment and contributing to a higher TSX opening.",
+          "label": "Canadian Apartment Properties Real Estate Investment Trust (TSX:CAR.UN) Could Be 22% Under",
+          "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         },
         {
-          "label": "Mining sector gains",
-          "detail": "Mining stocks posted gains, supporting the index’s advance.",
+          "label": "How Close Is Denison Mines (TSX:DML) To Phoenix Production?",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "S&P/TSX Composite Watch: National Bank of Canada (TSX:NA) — Can Growth Stay Ahead of Credi",
+          "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
       ],
-      "sectors": [
-        "Materials (Mining)"
-      ],
-      "confidence": "medium",
+      "sectors": [],
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36341.4,
-        "previousClose": 35532.3,
-        "change": 809.1,
-        "changePct": 2.28,
+        "price": 35665.73,
+        "previousClose": 36341.4,
+        "change": -675.67,
+        "changePct": -1.86,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-04T21:20:00+00:00",
+        "asOf": "2026-11-05T18:58:16+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 2.39% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM1ZaN0Fia1d2YUFRaExCUkNub005YmRaVUdPN3ZQay1GUm44bFZHamQ4NUVVM2xMbFVfWlByUGRGSzBZN0VVUUtRYnZtb0tCME5WMzBNMTk1RHk4RFM4Q3lFYzJ0enBfa2JaTW13N19ZNlcySTdIRVROLXkta1BCaG16ZW9USlhJY0xLUG1LUXEzRVhyTmFYRVU5YW8xUm9oak04VDY4T282ZjZKRV85dktZOTlQMjdfQVE?oc=5",
-          "publishedAt": "2026-11-05T08:37:30+00:00"
+          "name": "Simply Wall St",
+          "title": "Canadian Apartment Properties Real Estate Investment Trust (TSX:CAR.UN) Could Be 22% Undervalued As Losses Rise - Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPbVRiaEhKTW4wTVdISmYxMTJIeTduMHhWSTFpT3hvZFJ6WXVPTkFxcDE4WjB5VUs2b05jNjJlSjZ2WjlNZk93ejdGbGFXUlQ2VGktZmg4ZDdDblRsbENhQ2NxODFVT0FHd0k3OThyOFRaSE5uaE1ia1NUT0VKaVNqYkNhT2c5aFJERDhVaHBxOE5GamNxN1lKSEdGc29OU1JYYzQ1VGExaVlKaEpZNG9Jc2g5d05mbW4xTGoyVk9tcHk5Vkc5dDhzUEZXMXRhZk5oM0R3Y3pZRWJrV2UwaE5QNEh4NWdIRm5UWmpzeEpNb2xySUUzMXdMUktSUUxNaFhLcU9tRmZTNGZLZzFnMk9BdmFGakgwa2fSAZwCQVVfeXFMTmNETGRvNzVYVjZianpITm1nOVpBMnhTY0pZVEkySDZQUWNRNWFKRElKazZJbW5fWWpCLVRBTVBGQjlEUkRTdDJRUVZEY1pwQlBqNGk1VW1XWGtxak9FalFPQkJudFNySG5ZUUpwYmNXQW96djBCOGYxOFVEOTQ0TE9ZbllPdGZpcmFTT1hMMjY3RkgtbWNoSTNTckF3SmxyYXJVaW9PY0dybGhKNEg2Q3pPbjZ4UkQ1NmNxVW5EbHVHQWNRNlNla25tM2VMdmV2UDR1SVRoYVZ0ZGJxVWVJcENqaksyX3h5eHlxZ2t0THB4QkFoV2dLbkVhdi1sM181bWpmbmgwY2JJTklKdmRsQ3lOMmxEQVJScmw3bHc?oc=5",
+          "publishedAt": "2026-11-05T17:28:40+00:00"
         },
         {
-          "name": "Investing.com India",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 2.39% By Investing.com - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLWNVbEVmN3c4QTd4NlJFQXZvakN2OURWNlozMkwyNE9WS1Y3c3RWYjJKRU0wTklicUtwOE5nMnZKZWRyOWhzYUpNaWRVNnZhMXN1VFg0Z2Vkc2VRR2FfQlo5WHEtVTJtUEJfanhUQ1NRbEVtZUpBMzNZTmZ5VU5qazFqMzRmdlRQbTh3RUVuT01OTVo0Zl8tWmpHblUzTkU1Y1VXeURsVDNkZGZVaXFlWGhQUko0MFl0?oc=5",
-          "publishedAt": "2026-11-05T01:53:04+00:00"
+          "name": "Kalkine Media",
+          "title": "How Close Is Denison Mines (TSX:DML) To Phoenix Production? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUjVXSldsaUVwcE5CSW1PMFRqMjJvZDNicWhsbnRXOFZHZXRoRmtfZUxpUFByMmE4MEk4dXVrX01DajJpT09sYURpdHVzWWFXNVk4OEMwVVd1bHRWVmxtUzRDcVRfWWpOX3JhV2NQMEdTbjhHUnZNSDhyczl3ZzZ2WENJZC1iZERUcDBWcjNSbTBxT3ZsVXNFd2t3d1g2QQ?oc=5",
+          "publishedAt": "2026-11-05T18:30:00+00:00"
         },
         {
-          "name": "Investing.com UK",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 2.39% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTi1YTGNUcGkzMGJxTFEzMWtUbEtlTlNqMVdfQkVSaHhtS2lXNFJLR1pCYkRIWF9IRW9XWlo5aWdJcXVpSzNHZUVqbWtFSmMzUnNzY2ZvWVE5ZlphVlhSNGVJZVFFcl91SWlNbkJwMjQySkhHanlhQjNWd2JMOVhYemFId2hjdEVyWlN1RVRTUjFuQ2lXdVdBeWRyMG9jSlhvQVk2MG4xVHFCUGZ3Wm5LbEo2bndxeDJT?oc=5",
-          "publishedAt": "2026-11-04T20:30:00+00:00"
+          "name": "kalkine.ca",
+          "title": "S&P/TSX Composite Watch: National Bank of Canada (TSX:NA) — Can Growth Stay Ahead of Credit Costs? - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYXRhM0lTSm95NU5naDJYLUp2Ukpvc3RkZG0wMk5DTDhlRF9wYVRBaXZoVXBpbmRsM1paYWxmbkxOLS1IUWpkSVRwbmRzeXRWc1V2RE9oZkE2bXU1TElkcnljYXlvMWJGQUhLelZTalRIYUhMZWJsRWdQeS1CWFV0Qm1iM2pRLVp2ZnFHNWcycmVJZk5KdHpRTE4xNjNjcFMxMnZ0SEtzMjNGcFp0VGktQTNwMFhDMkdEVTVWVXUzVEI?oc=5",
+          "publishedAt": "2026-11-05T17:24:00+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "Insurance and wealth trends keep iA Financial in the TSX spotlight as S&P/TSX Composite Investors Reassess the Outlook (TSX:IAG) - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY0d6Mk1iMU51b2RVSVlUQlJsRXdzNDhNalhrMmF2dm96YkE5RXBNTHBzOTlhdWh2eU5VRjdFVG93VGdRYmFlYmd4MUd1aVZVeHpPQWhHYVVLS1BRVHczdTNBX2cxbHMxUDZIblNqQmtnQ3lYQ2p3NDdMNmZuWk1zak1LeVdzeTZZYm9EMnhvcXMzYURoOV8zVGNUMlllMFROOHdsR1BPem00bnBtb0prQVF2TExxam1teHJXd3RrWkd6UHRjTGhsYTY5ZXcyNWhwWFJwczh1ZktmRG1UZ0dnRjA1SVdseFRxWGYxb1ln?oc=5",
+          "publishedAt": "2026-11-05T17:24:00+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "Recurring fleet services meet a new investment cycle for vehicles as S&P/TSX Composite Investors Reassess the Outlook (TSX:EFN) - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSGpvUi02dmhCTi1ZbXFHZFdEZ2hLTnF5ZlBBVndoaEV0R2FWMHhCZnRIeXBNV0otbGZpQnFwNDFSWWNhUHpVcFBUazF3NklrMGtBLVN1NFJQc3lteHhhcEh6TUljb0hkSXdzc0FpVmoxS21BdDBOQVBaVFl4VXkzd1JHRmZzUEVCRVR3ZmE1QXZSNkVzY1EzUHBFdnQzX1FQUUZqd1Zra2Y1VHozSU9CTVVvdjVvMG5HTTd1X3hmTzA5UmtGRV84NzlDV1RkSGtpQUh3ZkVzaHNsUkdYaHA1MDduNEx0Z01LVnBiZw?oc=5",
+          "publishedAt": "2026-11-05T17:24:00+00:00"
         },
         {
           "name": "Yahoo! Finance Canada",
-          "title": "TSX opens higher as Democrats sweep US midterms; miners gain - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRmxtdEFwMnpMVVBEdVFrbEVsNDJRNC0yY0s4UHlSV0VuZHhhcUV2bE9wSVZ5WFhFcjlOWW5KYldYaXJITjV6dDZtbnR5S1VvMko5WER6SEVxTGJaSVM4ZUZ5QnFsV003RlVaRERBdzNtQjN3OW1Ob2ptZmp6Y2VwU1RhaWV1XzRF?oc=5",
-          "publishedAt": "2026-11-04T14:34:55+00:00"
-        },
-        {
-          "name": "Simply Wall St",
-          "title": "Canadian Stock Market Today: TSX Futures Edge Higher On Oil Strength And Jobs Watch - Simply Wall St",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPLW5QQVZRWm9ORkVUVFFSa21Kc3N5TGNHSHh0WnJrV3lIek5CSks0TUt0RFhrb1BSTzY5Sm05Q1NZbFZkUUo5d3d2OGdJeTFNZmpTbE1uTFFBMk43ODRvaFZ4N3FyU3FnTVFJNWhfV3BWLUxOVTBxZ3drc2l0YllkQ0R0YmFSd0UyRmdYNEhKVC1NQUd0a0NydW1vQ1hLMFZiR1VETWUxUkltSlpvTVN1OFBGSVVNYkhOTzBfSzdzR1QxTTJyOUhSaGc3cFJoTVA5ZzFMLVFIeHB6bThoZWlabDhQaW1tTjVNQUlN0gHwAUFVX3lxTE1TUEo0cVZYTnloY1luTTNFVVdKSjkwYnQ3U3QtZDVDbFJqTExLYkViQzg3ZVBpU1ZPbmppcHd0UC1qNzFQUGVXVVVncW5Id2R5NWxNaWFJZnZXeEJPNlJJVzdmenFpUlV1MTZ0TFVrYnFyUjI1amRVTS10UVQxeG1JeGthMEhCQUl6d0JldW04aUJOVG9vMThfeGEtTU15TE44dm1FdFg1NzZTZkZGa0VOYWdWYVFjM1phalRPanNKazZUN3dmTjZlOUhaVGxfbEJrMENkZ0I0RVZUQjZudDF4akhTRUhyOWh6b1VKY1owbw?oc=5",
-          "publishedAt": "2026-11-04T13:15:42+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange Today: TSX Edges Down to 36,249.03 as Gold Miners Slump a Day After the Bank of Canada Hike - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNXVUeDZuN20xMkh3S1BMcHdkU3haM1J5LTIyWlROMkpJajFVTEJBZUc4bDhaVENMZ3g1eEdsYUw3OWNBQVV3TDhtUkU3MndNaVF5MVFvVEFZR0JwZmxRbUhESk1HNmhiMkdfcWw0OGdrWnpFRE5sb0NFZG9JNHRnTlQ4a0FLZEhSaHY5Q0pjVnVwWm02cDg3elpmMWtiVktQNDNlU1VSWG1CeF9XNDZKSEVoN3J3NDYxMVJUN1JOWWhVZ2NwZUh3Zm80YmVmaHN0bTJ5WmdRZ1JuN1V0VWJJa0JXWk14TERE?oc=5",
-          "publishedAt": "2026-11-05T04:58:06+00:00"
+          "title": "S&P/TSX composite down nearly 500 points, U.S. stock markets also fall - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVU5mbFlkcktkR2dGRk9qWWRFZDVaMWtCUUxhMDAwbkhocml1NGhsTWE2enlwMkNJazd2SDd5a1FMVVdJQ242c04wOVRuQzBJeWpWcXFMVHByUnpLX0w3VGE3TUh2andWQzAwTUNGdWlzTU5xdmpMWUlMMDdVZjFOTkFB?oc=5",
+          "publishedAt": "2026-11-05T16:38:00+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 2.40%",
+      "headline": "Nifty 50 rose 0.63%",
       "direction": "up",
-      "move": "Nifty 50 +2.40%",
-      "why": "Same-day market coverage explicitly linked the final move to: sixth consecutive days of rally; will Nifty be able to hit 25,000?; oil hits 2-month low after US Democratic win.",
+      "move": "Nifty 50 +0.63%",
+      "why": "Same-day market coverage explicitly linked the final move to: bulls charge ahead of Diwali; rally in financial, realty and bank stocks; easing oil prices, Democrats' US midterm gains lift sentiment.",
       "drivers": [
         {
-          "label": "sixth consecutive days of rally; will Nifty be able to hit 25,000?",
-          "detail": "Upstox explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "bulls charge ahead of Diwali",
+          "detail": "ET Now explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "rally in financial, realty and bank stocks",
+          "detail": "India TV News explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "easing oil prices, Democrats' US midterm gains lift sentiment",
+          "detail": "www.indiagazette.com explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -107,10 +115,10 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 24536.6,
-        "previousClose": 23960.6,
-        "change": 576.0,
-        "changePct": 2.4,
+        "price": 23960.6,
+        "previousClose": 23810.85,
+        "change": 149.75,
+        "changePct": 0.63,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -120,10 +128,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 79310.01,
-        "previousClose": 77301.4,
-        "change": 2008.61,
-        "changePct": 2.6,
+        "price": 77301.4,
+        "previousClose": 76917.85,
+        "change": 383.55,
+        "changePct": 0.5,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -132,40 +140,40 @@
       },
       "sources": [
         {
+          "name": "ET Now",
+          "title": "Stock market closing: Sensex skyrockets 2,000 pts, investors gain Rs 8 lakh crore as bulls charge ahead of Diwali - ET Now",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLWZxN0ljQmVrWVJhaEZCR21xX2JhSEh0SlVrYkRlUUJYV05zNXVHaU9CNTNQc0Y2cXR0cW1EVElIVVY2RWhER2lmZ2lHQi14b05hR2xzeWNvT2tIVEkzdS1kM0ZYcmhGUkpuaXBnTTNsc0h4NWhnQWpvdVJQaWQyeGxYTkNralc2MGs5Q3JNeUNkS3B0VEpoREY1OUlQcHoxNmVuLTRrVjdjc1hDRW8wd3RkSFNrTE8xZkMtX0tQQUd5NDlfN2xpa0JidjUtamc2QUZIeFNudkg0Z9IB3wFBVV95cUxOWGhMdnM0UW4zSGhIN0wxclNUdFcwUEx6cjFod0VmSWlySlNxNzBMUjFycFV0UkFfdmdleTBPT3BnblJkQTJ0aDZNNWVPNWJhVVo2WkpWUXVwakpKanBwR2lGeTlvOVFMTjBTZmNyamg5Rk4zUTFRSEg1SUdLZUQ3aXJzY3JkN3htUndyNTQxZmZ3MHFKa00yR1pSMEVtaWZvZHNWa29zZjBOaGZzSGZjZ1ItRnJoN3I3OHBraG1yNzVFb3REZmliM0ZXNXRrSF9HREI5cWVpZmJ3LUw5cy1Z?oc=5",
+          "publishedAt": "2026-11-05T10:20:01+00:00"
+        },
+        {
+          "name": "NiftyTrader",
+          "title": "Samvat 2083: Can Earnings Turn Nifty’s 8% Rebound Into a 27,000 Rally? - NiftyTrader",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbld6QnQtalZWRWVidUhDNjlaZU9udHBwd0Zmd091UVUwOFRxdmFkeEE0Sk9PYnlscGV3amdiM3Byal83U2liT0VLVGxaMlYwR3pUTGxVTndJeTFnczFseUdyZjdjdXE5TENrcHZaU3lWdHM0RVZ3SjJiQWlFT19Ienpzc0J5MVlU?oc=5",
+          "publishedAt": "2026-11-05T10:18:00+00:00"
+        },
+        {
+          "name": "India TV News",
+          "title": "Sensex surges 2,000 points, Nifty tops 24,500 amid rally in financial, realty and bank stocks - India TV News",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTmREbkFrWWlzVFhYcl94ZDBIeVFaQ2VsX1hRY3lNM3JvazlBR21KdUl4dTM5eUhlVU9SZmc0X1ljdFZXUjdJcHBUbUhVYXlXS1FKNTdIVHQyaXZjR2NIcGU2bFVvWS1zQnpKaUxQU00xQUlMdkZZTm40YjlNV1g1cjg1TDJtOVN3NE1sRkpsNlVNV0c2WV9uNWZfeGdtQ3l1Tks4VWtXSjZuX3Z1eHdrMnFXN0kydWtQZlVlUzBlU2ppcVBXNFN2cW9icWJxa29jcXhuUldtRUpsVTl5WDF4eEN3T1IzVmlsczM00gHwAUFVX3lxTE04UURlaWNQVFlBYTRHWkJYTW94Qk9XYVJMUHRGS0RtNDRBLU5hUWZtVjRITnpMbkNJdjdKQVBWTC04WFJ4T3FMRzBNb2tRbHFzai1JOGhFUTQ2RGtkTS1mcVZCS0ltUXdQM2U4djB3bHgzcWg2UUJITUl0aHVjQzQ1N09FUEpWMzFEcTZSckdrUWhHVVZsT29BZ3dDQ2hvbDVmMUFmUnZNbHpaaERvN0tERm1qWHB6R0VmckJFczJyTkdheGUyOEJEWVdCZFc4czM3SGFsSXc1WmlPVEhJZUJJckI3REF2eVVkU0V4UmxFTg?oc=5",
+          "publishedAt": "2026-11-05T10:09:21+00:00"
+        },
+        {
+          "name": "www.indiagazette.com",
+          "title": "Sensex surges over 2,000 points, Nifty tops 24,500 as easing oil prices, Democrats' US midterm gains lift sentiment - www.indiagazette.com",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaEZkMm55U1hPWFBpSjIyS05HbnRmcDl4UmJTeEplc1EwNGpIdkU5SFRYdi1RY29ET1hMU0hleGVadnBWaGUyM1NuUnNLemhPTG5qNUNUcW5WelYza0ctWnF4OTN2UkZ2dW53VFBiMTRJMHNBQXNRaC1qYzBCYlFxeXh0YTUtekd3R2k1bnhEZ2NpLUwwSDhsNkdaRGIzWjUzNmVySkNvRnRfZ05wVnRXV1FfV1haZVVGZUJKQkh3MWs4LTB6UGsyMkV5aGFDa1l4SkJqbGdYRWotLVlGejJuZ2tsM25mNUszVGc?oc=5",
+          "publishedAt": "2026-11-05T08:29:00+00:00"
+        },
+        {
           "name": "The Economic Times",
-          "title": "Why did market rally today? Sensex zooms 2,009 pts, Nifty above 24,500. Trump’s setback, 6 other factors b - The Economic Times",
+          "title": "Why did market rally today? Sensex zooms 2,009 pts, Nifty ends above 24,500. Trump’s setback, 6 other fact - The Economic Times",
           "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZDNtNklfbXozSW5uMVB1a21Yc2Q3eHlNc0lfOEE0SVMxRXFEUFRFb19MZ0R5NGNOUTQ1bjBoWENqX0Zwb1g3OHljN2loM3FuOXFqaEowMHhIMkloVGNuRkcwR1ZwVmFHWTFuZXR1MzRyV3VndkdTdm9tbmtXd1o5X05zRjB0Z2VwQlZtQ2dNSUlVMlZmX25lOEVCRUpiSGRka2p6dV9Pa2QyeWNlTFkxanA0ZG11dmh5alVlbEVlY0NSQzFTYWRobUFDMlR0TTNNYkFISndQY1lzVFczODAySVFlZ2EwVHk2QnJBRnlDN0hka0dFQmc4Rzl30gH_AUFVX3lxTE1sdWJnN1hJZEsxOGZpZndac0FINU9aYVNISXRRQVJJcmQ3Q0ZlWVlrMW1PeUlocUVOMjJhMkF2LXRFaVFHNk5JcGswdE9wOW5CNVR5clI2bVVwR3ROZG1jNnRxWmdKWjFkdG4yVlZSNDZWck9ibkdyczJMRS0wUS1NWWpZM0hyanBOZTVSQzdaVUlNMnkwd3BZOVdHVGZnQ1B3OU9USE1UZU44WDkxazE1azQzcEZUejJrUUM0TnVFOVdEUWpRelNpMGpmV254dS0tV2E5eW0yMmpuMGc2U0Vxa3BHazBUdU9YTnM0ZjhEN20yZTQ3amlMajk3YlNOZw?oc=5",
-          "publishedAt": "2026-11-05T10:24:25+00:00"
-        },
-        {
-          "name": "Upstox",
-          "title": "NIFTY50 gains 7.6%, SENSEX up 5,755 points after sixth consecutive days of rally; will Nifty be able to hit 25,000? - Upstox",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZUwzTWRpYXhMNk8xblZMQS1PTE5RTzVuSFp0bGwyajNLZm1lMkVud0w5TVNvdTh5ZmFHb2pzSTV0YURmR1FfSkVfZ1N1REFRSU00MmFHV0RQVDMyN0lkUG1QZFkxb05abG9obEF2NkNHcFpLcDFVbDEtRlQtdU1RVnNHYUVJZnlZek5MaDNCZTJIVDZjSVJLRVZ2YUlsUE03VDdxdzNxVTdxWW1JeW9lbFlSei1Ed1EtSDlVV0ZKUWstMC1yNXJwSDBYVEZGNXBTSHJ0SEZfRk9kZ0UwMWk5MEdfTjh6Qmc4WWctLVdaRWswVl9jTFU2VVNtQmVJWWFI?oc=5",
-          "publishedAt": "2026-11-05T07:08:11+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "Rs 40,000 crore in 13 days! Is the great FII reversal finally here to save Nifty bulls? - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWG0xS2JDcExfRy05QmpoNXhVWWlPMXlPSkJKbUU1UldSTmZSTVFfYmd1aG9ZbE9DS0ZOUDZlYXVTWjVmdWVKZmJTQkd4RllDekRNU0xjQ1pta3kzTEl0V2ZBYUE4SHZmX0MzS01ZWU1MTFkwdXBVV3V0MndoYW1ZSkVnS0NRM0t5VVUwYmVOT256d3JESVRrSmZ3RkN4aGhwNGN6MkwwOEstd2tNQXZTN3JUTnk0VHpQS3RXclNDdkEyMkZIRVptSWRfdC16X3FTbnAtb3czZlUyNGtXdGdEbjlmTGRrb2RjdlJIZ20ya9IB9AFBVV95cUxNRklGSlhFSkRnVjM5SDloY1RER2xYbW5UamUwaVFtTWlJWkdMQWYtd1d4NnBlVmM2NXZYSGV6YzlsVnZjRFhzSjJqbzJRY01lVXdoSGJZRVFqS2tlcGpxNUlOZFdXQi1KMzhXVktpUExOUkhyYU8xc25SUk16N1B1YWNOaEJzMDUyVkpuSmVLMk1PRTRqUU9rVkVkZnljalJYYkk5cG5tM2E1LTBoMEJLVmJGemNQYURsclkzODQtelFHYy1ha1hBTGk2b1ZwcnBjN3ZlOHBCQWFMQlRXWk1yRzRWQ21rRXBPc051VXN2a1k3RVpS?oc=5",
-          "publishedAt": "2026-11-05T06:57:53+00:00"
-        },
-        {
-          "name": "Business Standard",
-          "title": "Fireworks on D-St! Sensex zooms 2100 pts intraday: Key reasons behind rally - Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTzUzNFRPUGRpTWwtR244QUtuUTg0QWlMQUdGUDZYMVFPa2ZCcmFqZGs5LTBfc2YzS2IzX3Bna0E5OTU5c05jcWhDckJVTktyUC1LMzNOT3AwZWx0TnI0RHNvQnVkWThybXp0ajJfVnRjNDFQWkUta2lxNWVFYzR3Y29qRXNTT0pvcjRXNWRhMmZzakVIVXo3WHA4b3RTZ3pXMVIyUkJ2dGJ4NTByeXdqRHh0OThYMFN3S2o3OXZjeHUyUzgtcTMyYWZIeldhNlnSAdQBQVVfeXFMTU5OQ3ctWVFhWnU4aTZiM1I3bm9tRGgxNWhFaE15SHd4bFpOR0xQREtxOXI3M2N3cmhkRWlQTURfbTRCUFhfLXItU1hnQ0MtWUlYTFZuV0t4X3BrVEtGX1hZUF9TZ2tJd1BEZ0N2MFc5OG81dUtYWlZHQzNZaVcxbF9fV3J2dFhqNHBoWVZfemVaaHJCem5hdWxMMHVGZGVtay1lQi0xN28ySFRNb2p0cnNXX3EwYkRhd0UtOG1wTm50SS1pczFpc0N3VGo4em5TNmhKc2M?oc=5",
-          "publishedAt": "2026-11-05T04:14:01+00:00"
+          "publishedAt": "2026-11-05T04:02:14+00:00"
         },
         {
           "name": "Livemint",
           "title": "Indian shares set to open higher as oil hits 2-month low after US Democratic win - Livemint",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaThlWGlUQkZScmFBYlhySE94ekhWSU5jeTR0S3lnVGtuX2VFUUYxeEdrRjRwZ3p0c0NrdnlmZjJYZnVucXpSSGFDMi0tYmd5cWtPNGQwcFpEODY1T1htYmtoX29POGpiSGRhSnZfOFJiRzB6LUV2VWtkS01hUUx6eWVOVmt1YTFhdHdwbERwWDdhUkpYdUVIcHJuU2d6dVJ3MExpLUJVcXVsMFBEaW9wdXFfLWVrTXpnSnVpdUJBSW91UDRkQUpGS25fQmUyTlBmbVNRMEozQ1BXaVB2clQ1SThfejXSAeoBQVVfeXFMTi1qMVIyZnZ1NVdlVmN3TnJjRGlWNjBrWHlPeU1CQWxWanAzOVRBTl9HUDNjYi1TQUc5QW04NGsyTTMzQjZDUXp3U1BucFgyV01SUnpTWmowLWwtbnJsY1psSktHQmJuWV9SUUdlUGwzYzg4YmpDTW5UeGthZTNWMU1UU01hNlhMV1h6VkpFekJiZ19sLUQ1OTlGdVo3QjVfRnptdHMwaFlLX011ZW9WdmlRaTU5c0FHb25xYl96cUkzUE5KTnN3NW4xeGQ1SUl3d005UlJMZ3d5Uk9CQzdPWXdJbXBDeWdtM0hB?oc=5",
           "publishedAt": "2026-11-05T02:39:18+00:00"
-        },
-        {
-          "name": "Equitymaster",
-          "title": "Sensex Today Rallies 2,009 Points | Nifty Above 24,500 | 3 Reasons Why Indian Share Markets Are Falling - Equitymaster",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNcGtiU0RTcWNBam01LTdXTEc2bTUzaGhMR0hhbGlCRW42QWVyTVJtbUhldjdORkwwWU0wand2TFVZSWtQOVloeXc2WFZ0MWdBZjNlamdTZ0FSM0tYLWpuV0JLV1ZDTDZrT1lSNVZvY25IRlI4SkFOWmIzZ1hUOVYyY2JLaDRvYVVMNTE5MC0zVmNVc0d0WTFXeUVFSm5oWFFxQURkV0lQQUlmQlRSelpneU03aFZGZWVtNWs4QjlYanRsM0otX2VtazlzVTF3Zi1zaU5Ma0lVeXdVLU1lS2QyTzdKVUNJeXB3S1RLUENZZGI?oc=5",
-          "publishedAt": "2026-11-05T11:10:48+00:00"
         }
       ],
       "evidenceCount": 7
