@@ -1,197 +1,74 @@
 {
-  "updated": "2026-11-05T06:51:48.614454+00:00",
+  "updated": "2026-11-05T15:29:53.156756+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 19,
-    "enrichedCandidates": 80,
+    "officialOrPrimaryCandidates": 20,
+    "enrichedCandidates": 79,
     "readableCandidates": 57,
-    "eventClusters": 51,
-    "materialEvents": 23,
-    "selectedEvents": 9,
-    "seededStories": 7,
+    "eventClusters": 57,
+    "materialEvents": 27,
+    "selectedEvents": 7,
+    "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "16fc83c9cdc082",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "IndusInd Bank Share Price Live Updates: IndusInd Bank Stock Details",
-      "publishedAt": "2026-11-05T03:23:49+00:00",
-      "importanceScore": 16.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/divis-labs-share-price-today-live-05-nov-2026/liveblog/135557282.cms",
-      "summary": "Explore the latest details on Divis Labs, including: Last traded price 10099.0, Market capitalization: 268229.45, Volume: 448409, Price-to-earnings ratio 91.63, Earnings per share 110.18. Stay ahead of the market with our in-depth coverage of Britannia, including: Last traded price 4984.5, Market capitalization: 120019.85, Volume: 121094, Price-to-earnings ratio 46.14, Earnings per share 108.11.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/divis-labs-share-price-today-live-05-nov-2026/liveblog/135557282.cms",
-          "publishedAt": "2026-11-05T03:23:49+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/britannia-stock-price-live-updates-05-nov-2026/liveblog/135557274.cms",
-          "publishedAt": "2026-11-05T03:23:28+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/indusind-bank-stock-price-live-updates-05-nov-2026/liveblog/135557166.cms",
-          "publishedAt": "2026-11-05T03:16:11+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-05T03:23:49+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-05T06:51:48.614454+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "7d680535fae4b6",
+      "id": "29c994bd572e45",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "US sanctions India-based couple, companies over alleged support for Iran's Shadow oil fleet",
-      "publishedAt": "2026-11-05T01:41:13+00:00",
+      "title": "US midterm results give limited relief to India, oil and Russia sanctions stay key risks",
+      "publishedAt": "2026-11-05T05:05:52+00:00",
       "importanceScore": 12.8,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms",
-      "summary": "US sanctions India-based couple, companies over alleged support for Iran's Shadow",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms",
-          "publishedAt": "2026-11-05T01:41:13+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-05T01:41:13+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-05T06:51:48.614454+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "1a55d7040ed8c9",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Qualcomm Earnings: 5 key takeaways from Q4 results",
-      "publishedAt": "2026-11-05T05:31:44+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/qualcomm-earnings-5-key-takeaways-from-q4-results/slideshow/135560535.cms",
-      "summary": "Adjusted earnings stood at $2.17 per share, marginally above analysts' estimates of $2.16.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/qualcomm-earnings-5-key-takeaways-from-q4-results/slideshow/135560535.cms",
-          "publishedAt": "2026-11-05T05:31:44+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-05T05:31:44+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-05T06:51:48.614454+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "5968c63e9b0717",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "US sanctions Indian and Turkish entities for aiding Iran",
-      "publishedAt": "2026-11-04T18:24:05+00:00",
-      "importanceScore": 9.9,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/articleshow/135548791.cms",
-      "summary": "The U.S. Treasury announced sanctions targeting several Indian and Turkish firms and individuals accused of facilitating Iran’s oil sales. The measures are part of the Trump administration’s “Operation Economic Outcast,” intended to limit Iran’s ability to fund its conflict with the United States and Israel. The announcement came a day after Democrats secured control of both chambers of Congress in the midterm elections, amid public concern over the Iran war and inflation.",
-      "why": "The sanctions aim to cut off Iran’s oil revenue, increasing pressure on its war financing and reflecting a U.S. policy response aligned with recent domestic political shifts.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms",
+      "summary": "A report states that the United States midterm election outcome offers only limited relief to India’s economic outlook. It also points out that high oil prices and the ongoing sanctions on Russia continue to be significant risk factors for the Indian economy.",
+      "why": "These geopolitical and energy‑related uncertainties could restrain India’s growth despite any favorable US political changes.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/articleshow/135548791.cms",
-          "publishedAt": "2026-11-04T18:24:05+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms",
+          "publishedAt": "2026-11-05T05:05:52+00:00"
         }
       ],
-      "firstSeen": "2026-11-04T18:24:05+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-05T06:51:48.614454+00:00",
+      "firstSeen": "2026-11-05T05:05:52+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-05T15:29:53.156756+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "US sanctions Indian and Turkish firms and individuals for aiding Iran",
-      "previousSummary": "The U.S. Treasury announced sanctions targeting several Indian and Turkish companies and individuals accused of supporting Iran’s oil‑sale activities. The measures are part of the Trump administration’s “Operation Economic Outcast,” which seeks to curb Iran’s oil revenue used to fund its war with the United States and Israel. The announcement came a day after Democrats secured control of both houses of Congress in the recent mid‑term elections.",
-      "previousPublishedAt": "2026-11-04T18:24:05+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.0,
       "changed": true,
-      "change": "Its significance score fell as the evidence changed.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 1,
-  "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-04T23:42:04.290077+00:00",
+  "jarvisEditedCount": 2,
+  "finalRejectedCount": 1,
+  "previousUpdated": "2026-11-05T06:51:48.614454+00:00",
   "changeSummary": {
-    "new": 3,
-    "updated": 1,
+    "new": 1,
+    "updated": 0,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-11-02T15:59:46.259550+00:00",
-    "updated": "2026-11-05T06:51:48.614454+00:00",
-    "snapshotCount": 10,
-    "eventCount": 82,
+    "updated": "2026-11-05T15:29:53.156756+00:00",
+    "snapshotCount": 11,
+    "eventCount": 76,
     "retentionHours": 72
   }
 }
