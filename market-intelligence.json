@@ -1,28 +1,28 @@
 {
-  "updated": "2026-11-06T15:23:24.605853+00:00",
+  "updated": "2026-11-06T21:04:10.644185+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 0.19%",
+      "headline": "S&P/TSX Composite up 0.5% at close",
       "direction": "up",
-      "move": "S&P/TSX Composite +0.19%",
+      "move": "S&P/TSX Composite +0.52%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "S&P/TSX Composite Index Closes Sharply Lower Amid Broad-Based Selling",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "Intra‑day broad‑based selling",
+          "detail": "Earlier in the session the index fell sharply amid broad‑based selling (kalkine.ca, 2026‑11‑06 11:24)",
           "kind": "context"
         },
         {
-          "label": "S&P/TSX Composite Index Volatility Puts Lundin Mining Corporation (TSX:LUN) in Focus as In",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "AI‑related selloff spillover",
+          "detail": "The previous day's AI selloff on Wall Street was noted as a drag on sentiment (BBN Times, 2026‑11‑05)",
           "kind": "context"
         },
         {
-          "label": "Royal Bank of Canada (TSX:RY) in Focus as S&P/TSX Investors Watch Earnings, Credit and Cap",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "Volatility focus on financials and mining",
+          "detail": "Mid‑day articles highlighted risk repricing for Lundin Mining, National Bank and Bank of Montreal (kalkine.ca, 2026‑11‑06 14:42‑14:45)",
           "kind": "context"
         }
       ],
@@ -31,23 +31,41 @@
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35671.41,
+        "price": 35789.09,
         "previousClose": 35605.3,
-        "change": 66.11,
-        "changePct": 0.19,
+        "change": 183.79,
+        "changePct": 0.52,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-06T15:23:16+00:00",
+        "asOf": "2026-11-06T21:04:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "Investing.com",
+          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.60% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbjBLM25hNkdKdjRCcjBWdmdzTHpzUEd4aFFESUNyTWFfMmdMWEYyLWlpU19mRXFYbHhpN2c1YTNyOG1XSWpjTmgyN0FNZjFfWHJwdkZZdW0zbGY2cWxXal91SVFWd09jSGU5ZkptYzN0N202YUpvNTZ2alI2cVJ0Z2xPbW9LTDZULW82a1BFYzdyZW9xdVZISUNYZ3pKNlk3NlBVMzM2UzIzLUZ6WmRqby04Ym80WEFoc1E?oc=5",
+          "publishedAt": "2026-11-06T20:37:30+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTmRhcEJnM0h2TklGTUgxUjEzZC0zLWF1dlBfWXFDcW9LWDI2NVA5amRvM05xZUNoT1pUZXRJYlpndnNKS1ZrdFZ5eHRDYk1jQ2YzY2JwU2tfOS1uSnVQMm81QnpxUEdnajN1MDRaTjVMV3NUOW1EMzhIYVhWUHJ3VzAzcE1hVXNQQUpMR3JBM2tZaEVFVTlYeFhzcktKRHNEM0hLT09NRXE5a2phbWNMUnZuUFZ5akd0?oc=5",
+          "publishedAt": "2026-11-06T20:30:00+00:00"
+        },
+        {
           "name": "kalkine.ca",
           "title": "S&P/TSX Composite Index Closes Sharply Lower Amid Broad-Based Selling - kalkine.ca",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORW5ITDBVb29uMWp6QW5VMm5sN0l2RkppNWtWRW05dDBQdzhCMmJfeHEySHlxM293eGNCQ21UdEhiWkxibW9MN3R1R3N4aFFObngxdW5IT05uTjNROVlZU3pMcTFSWkJabk03ekxKZFRjSGI2X19QbzZMU0NSQUhmNVVnbHRlMk9nOW9KWDhueHpTSUJWLS0xT3dweGF3TXJvbHFvdw?oc=5",
           "publishedAt": "2026-11-06T11:24:03+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange: S&P/TSX Composite Drops to 35,640.99 as Wall Street's AI Selloff Spreads - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORmtwVngzVjl1eXptN05wVDhXZFpid2lWMjdBUkxtZngwSktmdTczNks5RDZCQXBoMVd0ZXVGclFhTW0wWWUxUjZJS3hqTHZwbG9PWkFKV0ItODNwczZCaEJQNzJzMkN3clRRdUZieFVTVjZyeGY1SDRqRlVlMlZPSzVFUktoTWphcXRfMDRMMnE5WWJfM29YemI0US1feWVUOF9CSzQ1RHlsTXI4MVcycDdGekQzRlN4LS1GdU00WG5RY2F3VlRBZVlCSVJ3UTlk?oc=5",
+          "publishedAt": "2026-11-05T23:19:54+00:00"
         },
         {
           "name": "kalkine.ca",
@@ -57,38 +75,25 @@
         },
         {
           "name": "kalkine.ca",
-          "title": "Royal Bank of Canada (TSX:RY) in Focus as S&P/TSX Investors Watch Earnings, Credit and Capital - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcEJ4RzJTMmtQZ2pURHIzQjV2YXMzaWVmZ1Y2VmJQcGtXZk1hNXFIM1ZZQno4N3pBSjJ5RGp1RzVHd080eUVfRXAxME56VUV4TG9VUzNGQ1VDMTRrb09KY0docUctbG16UE81TV9DeWFFWWlKN3Z5NnBEUU9HNVZ4X01FbHhXbEpTQVB1WjhtRXFrZHhGTGw2Q0tNLW9jV0NRaDV1YThlNGlIQmIwNk9yUlZ0MV91TWJrcDhtOGFVcw?oc=5",
-          "publishedAt": "2026-11-06T14:45:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
           "title": "S&P/TSX Composite Index Volatility Puts National Bank of Canada (TSX:NA) in Focus as Investors Reprice Risk - kalkine.ca",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVDJ4a000VmRzM1VGTGtmbGdsMWxVdGY4ZUZ0SnpwdGlLM3Z6TU51SUc4c0U1X1lQeFBPaXczSDZBcm5jZGRHR2NqT1IyTEt0dVdzVkZhVXJYaG9pdThYdlBiTmttdWcwT2RBbWp1TkxlaFlwREUtRGtlS1NkZ2Z3OENtLXVlZkdSR0diNllELWVkVEw5QkdaQ1l2d2pCZXVKM3BJSXFuckRKWDY2RGg3OUZYLVN2Rmh3b1NxRUozaHVWaVFoRnFyYnNPeWNiZi12VWc?oc=5",
           "publishedAt": "2026-11-06T14:45:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "S&P/TSX Composite Index Volatility Puts Agnico Eagle Mines Limited (TSX:AEM) in Focus as Investors Reprice Risk - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT1I1dXV5RGZ0TVpqY3hxaGFIUXByaFNIcDBScElZbHctNUo1OHYwbjZib0p1VkJhWGFMS0QzaElqd0lQbU5nSUpTUXhqY3ZOeGp0QUNYMTI0bnVPZ0RZT0o5azB6ZUtuRnAwRmU4bWFnSWd5dDFKNFhpU0s4VGdIb1JUdGw1NFZnS0tKaU5zb1Jtb2pjVlJuT2NGRGctX1JPc3d5c0JfTWQyYWZsV1RHRVF6NWtueXoxV3k2azBDdnNBSW1fVWQydVRzV2ZXZlhScUJn?oc=5",
-          "publishedAt": "2026-11-06T14:42:00+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange: S&P/TSX Composite Drops to 35,640.99 as Wall Street's AI Selloff Spreads - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORmtwVngzVjl1eXptN05wVDhXZFpid2lWMjdBUkxtZngwSktmdTczNks5RDZCQXBoMVd0ZXVGclFhTW0wWWUxUjZJS3hqTHZwbG9PWkFKV0ItODNwczZCaEJQNzJzMkN3clRRdUZieFVTVjZyeGY1SDRqRlVlMlZPSzVFUktoTWphcXRfMDRMMnE5WWJfM29YemI0US1feWVUOF9CSzQ1RHlsTXI4MVcycDdGekQzRlN4LS1GdU00WG5RY2F3VlRBZVlCSVJ3UTlk?oc=5",
-          "publishedAt": "2026-11-05T23:19:54+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 2.01%",
+      "headline": "Nifty 50 rose 2.40%",
       "direction": "up",
-      "move": "Nifty 50 +2.01%",
-      "why": "Same-day market coverage explicitly linked the final move to: D-Street concludes bump; Global AI Investment Concerns; muted open; TCS, Infosys, other IT stocks power gains.",
+      "move": "Nifty 50 +2.40%",
+      "why": "Same-day market coverage explicitly linked the final move to: Strong Foreign Inflows, Easing Crude Oil and Robust Bank Earnings; D-Street concludes bump; Global AI Investment Concerns.",
       "drivers": [
+        {
+          "label": "Strong Foreign Inflows, Easing Crude Oil and Robust Bank Earnings",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "D-Street concludes bump",
           "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
@@ -98,11 +103,6 @@
           "label": "Global AI Investment Concerns",
           "detail": "Analytics Insight explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
-        },
-        {
-          "label": "muted open; TCS, Infosys, other IT stocks power gains",
-          "detail": "Upstox explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
         }
       ],
       "sectors": [],
@@ -110,10 +110,10 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25030.35,
-        "previousClose": 24536.6,
-        "change": 493.75,
-        "changePct": 2.01,
+        "price": 24536.6,
+        "previousClose": 23960.6,
+        "change": 576.0,
+        "changePct": 2.4,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -123,10 +123,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 81028.02,
-        "previousClose": 79310.01,
-        "change": 1718.02,
-        "changePct": 2.17,
+        "price": 79310.01,
+        "previousClose": 77301.4,
+        "change": 2008.61,
+        "changePct": 2.6,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -135,10 +135,28 @@
       },
       "sources": [
         {
+          "name": "BBN Times",
+          "title": "BSE SENSEX Jumps to 81,028.02, Seventh Straight Gain Amid Strong Foreign Inflows, Easing Crude Oil and Robust Bank Earnings - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSjgtdEJNTGF3LU44RGppY0RCYmpnQnhTYlV5d0pkRXBfQ01nMDlRaDQwajFuNDJiSjNSODRvdGY1MVg0UWU3eTh6b3NJeDIyT1VkRDdTRnNKaFZuaUlkc0RpVjZKQkhJTzQta2stem1JYWFXUkoyOGlrdmN4QWZRZU5RQ1k1dmx6WE1OdW42Ml9sVmVlT0pzRFdmdEtmWkVnb2lXLU5JbUk2aGJ2b01yM2ItY1p3VUxjbzZ5dDRnb1BfbHU0c091Qjg2YlMwMDJQaHdRcUg3czhEQWlHbktWYlZjT1kwT0ZtUHZSMQ?oc=5",
+          "publishedAt": "2026-11-06T19:08:07+00:00"
+        },
+        {
+          "name": "Reuters",
+          "title": "Indian shares log biggest gains in seven months on oil slide, foreign flows - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
+          "publishedAt": "2026-11-06T11:50:15+00:00"
+        },
+        {
           "name": "The Economic Times",
           "title": "Why did market rally today? Sensex ends 1,718 pts higher, Nifty reclaims 25,000 as D-Street concludes bump - The Economic Times",
           "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQYjgzRlphQU5IMzdEZThwOWpEdDFjcjVQWVAzMUMtc2pRbFBJT3hxdU5CbGlYQ2s1ZV8xaHBZRTVHdkhGZlRPVHBYYU5OUC1GSzN1aGlSUFR2Z2I3b3NXYk9hOTZlSldlWnBzMDFIbnh3YkRYa3I0RjhEdWRZR3I4YWxnVDhKXzd3b21PR2hfc2YwY0tONVN3d1dfMjc5OWRsNTFQamNWTHJTT05OS25lRnNEZlNOQndZNXJJS3lFUGpIRWU3NlJ1Zk5uUExfdC1jS1pkel8yM0x1ZXNiUnBKTnNHcjFxNDlXcTRfbUxyY24xa2hveGdBSkp2em5UenlPNllCaTE1VW1xWnQwUl9kT2lyaGtlTng1bGpVN3VPQnfSAaYCQVVfeXFMTWVvRmx3YnFFRnVSWjVjUFNTYTREcHVBeXAwdDZIN1ROOE96NzNjWXlsbjVHUEF0d0FxQXQ2SG1WN1dEUTg4VTNYeFBGX1FVTjlfeUROQkxERzRRQlo5ZDBJUjhDbkFPNjdhYUQ2UG82UnJBcXd2YVpnV0RrdkdoSTNoOVRzRWxmQ2thelBvSUVxdG44X1NVU0JKYVZvSFE2bGpYQWZoT3VJSV90VkNpVWlTQXBJcndEVDVfczhkNXpTR05kNUo3Qjlwc1FvUVQ2NU1tandLRWNqTFdMbDBiX3JOTzAxMlJGZkd5VUQzNFJ1YktWdHFaRXJhb0dZRlZjcy1MX2RfMWpMRUhydzkzcE11ejdVTElFOEdLWURNVXJUNHlqQlJn?oc=5",
           "publishedAt": "2026-11-06T05:18:30+00:00"
+        },
+        {
+          "name": "scanx.trade",
+          "title": "Nifty Soars 2% to 25,030; Sensex Gains 1,718 Points on Consumer Durables Rally - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOSWdrVFNkOS1LbnRpZVZnU0s4QUd1R0JKOTRzQy02WFMzUGUwSFZ5QjJXUGpEeC1jbkhwZDk4Z1V4T0h1ZnFmb2tsZFJyWkYxS1MwV0tDYS1qYnVKTWlDTkkyNUFnYkFNYXJsSmZMTmtNdjBnUEk3ZEMxaWR4bUlHNnRRVDhnMjVZSzJkX2pDdHM3T1BTVlptOWhwUU1TR245V2ZuUzFfYUNWRDktWGpWbVdVVV9nNXlNLVRRWHI1ckNkR2NxVURVcFFveE56alp6YTVWeE1UbHBuZ3IzTVBVU3U1NTkzRmIwVnZfZXRZVnVFX1licThZRnJNRmZMMFd3?oc=5",
+          "publishedAt": "2026-11-06T10:20:04+00:00"
         },
         {
           "name": "Analytics Insight",
@@ -147,28 +165,10 @@
           "publishedAt": "2026-11-06T05:14:15+00:00"
         },
         {
-          "name": "Upstox",
-          "title": "SENSEX gains 600 pts, NIFTY50 recovers to trade higher after muted open; TCS, Infosys, other IT stocks power gains - Upstox",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWUlvRDd0SUZTV25ibFcxcVBHWGZsSU9qSHBqd3c5eTNvMlRIYmNmMUFCckoteXU2TzdDeGRLWnd4MGczTXRJZG1UX2xzZ1BOOXpUcFU1WEZ3QlN4WGlmVnJ1RUZPMHo2cXNLQmhnY0VrU3JteFdFc0Y3ejZVY0ZySjBiRktqYUFVOU55VlFTclA4Nzh1azVKQ3ZvMkhBOTE4T3RIZ1ZPOW5YUy10RkJrRVVXc09kNlkzcmRzV291T0ZYTzVFa3JfT3RWZFdBS3lvX25wVlQyR0hwYmtfSzNuWUdHYWpnVEhjQjlZLVZZUG1Uc2VIeG1VdmJkNHdweEk?oc=5",
-          "publishedAt": "2026-11-06T04:01:51+00:00"
-        },
-        {
-          "name": "ad-hoc-news.de",
-          "title": "BSE Sensex closes at 81,028.02, up 2.17 percent - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRFVzQVFiY2JGU21PTHFleEd0T21tV0VOcTY1T3NVUVRsU0FMSDJYSTY5SkVGVU1BZEU3OFRVWHJkNGxuX3lnU3JpV0E2MVV1ZFd1cTNuNERGN2ZOXzBzajlDaF9CeXlmdVhQZDkyeHY5S29xa1F4V09RWGxOTGo2cURNcEIwcTlYeGtJdlF6OTdSNmV6Tk5TbEEwLWlVV216QkE1dWkwVEMwcjRX?oc=5",
-          "publishedAt": "2026-11-06T12:05:56+00:00"
-        },
-        {
           "name": "The Economic Times",
           "title": "Indian stocks set for pullback after sharp rally on oil slide, foreign inflows - The Economic Times",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVXJjcnpEdjZaVmpPYjNHX1pPOTZRa1hkcjZOY1hwaUQ0RmNZUEt6TzU0dzV6eUJpQ0xhVGhaTjVVU05rbTJMZWdaelo3MEx4djZwWWt6ajNXYU1mc3VaU0hweWNLcndwODBnZjVvNmN6b2dxV0l0UnNTaEF5U3c0aHQ0aE5XZ0V0M21yVFlBSTlvVl8yeGJwZnQtUk8wazc2NkZOTW5CaU84MkRlc3FBVzZWRVlhdEdINnV4MDd2QjBHdWhZaWxXbFNHMmJCRmR0SWxkMHNtZVlZUGZTQTlkeWFHcE8xZ9IB6wFBVV95cUxQa28wVkowa3Q2TW96MGJFWU0wYlF0SkhzdEhQbktTWDJEazNuMjhVcXY1OU5wM2xheDlxbXB2MlFUclk5eFhjdnhGWUdrV1d5emRuc1cxdmRqN3RCMVZJMWlRQXFBRGs2M0lfazc3U0Q0NDBRSGQ5V0ZxclBVU3lTeVBIb3c5V29NS09SZGlmT0czaDNEbE1FUjhCa3Y1M0xRaXpKSWJmTS1hNEVKdDM4bGJER0phYWU2MzdGYzBHM1hkbGFPUGJJTndjYnFiSFdtME5CaV9oTHVtZmpFM2JOX0NVOC1CSTRpWmxz?oc=5",
           "publishedAt": "2026-11-06T02:38:08+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Surges to 79,310.01 for Sixth Straight Gain as Crude Slides - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeEN3NVdsUE9SYjlTUDV4ZU9DYmFBT1hzZlZEQ0dXeTliekVQeGYyNVNfd0xfb0tEdTFtM3g5UlhkNGFlbFlzaVhMY3lBTElvWW9WRXgxVVdIUkFuUWpjZzR3SVhOVGZRNXdqS1kzTjNYdlVIVGhUd0NDRzRtUXBfY0ptMzJBT1owbEg3amdyZG1hNzJyTVI0TXgxbVJab0hjcGFIaVk4cklUTG9seHFz?oc=5",
-          "publishedAt": "2026-11-05T23:02:52+00:00"
         }
       ],
       "evidenceCount": 7
