@@ -3,142 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-02T23:33:51.152735+00:00",
-      "changeSummary": {
-        "new": 5,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "5c212d44847379",
-          "cat": "Canada",
-          "title": "Canada’s next budget to include affordability measures, tax incentives and infrastructure spending",
-          "summary": "Prime Minister Mark Carney’s second budget is set to be unveiled on Thursday and will contain new affordability measures, business tax incentives and investments in infrastructure, defence and culture, according to a senior government source. The budget will also provide details on private investment in Canada’s four largest airports, an early‑balanced operational budget, foreign‑direct‑investment flows and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
-          "why": "The measures outline the government’s fiscal priorities that will affect Canadians’ cost of living, business environment and national development projects.",
-          "publishedAt": "2026-11-02T09:00:00+00:00",
-          "firstSeen": "2026-11-02T09:00:00+00:00",
-          "importanceScore": 15.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss"
-        },
-        {
-          "id": "9938164208165a",
-          "cat": "World",
-          "title": "Combat resumes in Kherson after six‑day ceasefire",
-          "summary": "Fighting restarted in Ukraine’s Kherson region after a six‑day truce, the longest since Russia’s full‑scale invasion in 2022. The pause enabled the evacuation of hundreds of residents from the Russian‑occupied town of Oleshky. On Monday, authorities said Russian forces struck a medical facility in Kherson city centre and a drone attack injured a 62‑year‑old woman and a 73‑year‑old man. Ukraine alleges Moscow used the ceasefire to reinforce positions, rotate troops and move ammunition.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-02T17:33:19+00:00",
-          "firstSeen": "2026-11-02T17:33:19+00:00",
-          "importanceScore": 14.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "81553b64d9fdbd",
-          "cat": "World",
-          "title": "Ukraine alert system issues nuclear‑strike warning, many doubt authenticity",
-          "summary": "On Sunday night Ukraine’s emergency alert system broadcast a succession of messages that escalated from warnings of Russian drones and missiles to threats of imminent nuclear strikes, chemical attacks and street combat. Many citizens did not take the alerts seriously and questioned their authenticity. Sofia Kochmar, a 34‑year‑old mother in Lviv, said she was initially concerned but quickly began to doubt the messages.",
-          "why": "The episode illustrates how uncertain or potentially false alerts can undermine public trust in emergency warning systems.",
-          "publishedAt": "2026-11-02T18:34:24+00:00",
-          "firstSeen": "2026-11-02T18:34:24+00:00",
-          "importanceScore": 14.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "de8d95a0bcc635",
-          "cat": "India",
-          "title": "China’s 5,000-ton digging machines are a trade war risk to India",
-          "summary": "China is tightening export controls on tunnel-boring machines and other specialised construction equipment, raising concerns tha",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-02T03:45:33+00:00",
-          "firstSeen": "2026-11-02T03:45:33+00:00",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms"
-        },
-        {
-          "id": "973b43b999bb14",
-          "cat": "World",
-          "title": "Shop freezers in seven European countries hit by cyber-attack",
-          "summary": "Dozens of supermarkets across seven European countries have been hit by a cyber-attack affecting their refrigerators and freezers. Around 40 Delhaize supermarkets in Belgium and Luxembourg were affected, while a smaller number of shops were hit in Sweden, Ireland, the Netherlands, Estonia and Finland.",
-          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-          "publishedAt": "2026-11-02T17:38:11+00:00",
-          "firstSeen": "2026-11-02T17:38:11+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "d908c90d702868",
-          "cat": "AI",
-          "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-          "summary": "After raising a $31 million Series A in June, Omen is now acquiring competitor Aquatic Labs in a $16 million cash-and-stock deal. The deal came together after Omen founder Zach Laberge was introduced to Aquatic Labs’ CEO Allan Adams by an investor in the filtration space.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-02T15:00:00+00:00",
-          "firstSeen": "2026-11-02T15:00:00+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
-        },
-        {
-          "id": "70bd26abd09222",
-          "cat": "Indian Markets",
-          "title": "Market wrap: RIL, Tata Steel, Infosys, ICICI Bank top gainers and losers on Nifty and Sensex on Monday",
-          "summary": "Indian markets rallied sharply, with Sensex gaining 1.66% to 75,693 and Nifty rising 1.68% to 23,441. Strong quarterly earnings lifted investor sentiment, led by Reliance Industries, metals and oil and gas stocks, while market breadth remained positive.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-02T13:04:35+00:00",
-          "firstSeen": "2026-11-02T13:04:35+00:00",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-ril-tata-steel-infosys-icici-bank-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135462862.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-03T06:52:15.826577+00:00",
       "changeSummary": {
         "new": 3,
@@ -975,6 +839,106 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-06T02:29:24.511335+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 0,
+        "continuing": 4
+      },
+      "stories": [
+        {
+          "id": "6f4b12e3623350",
+          "cat": "Canada",
+          "title": "Canada to ban fees for moving investment accounts",
+          "summary": "The federal government has released draft regulations that would prohibit banks from charging fees when a client transfers an investment account to another financial institution. The ban would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis estimates the eliminated fees are typically about $150 per account.",
+          "why": "It lowers costs for savers, particularly lower‑income Canadians, and helps smaller institutions compete.",
+          "publishedAt": "2026-11-05T20:22:23+00:00",
+          "firstSeen": "2026-11-05T20:22:23+00:00",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
+        },
+        {
+          "id": "29c994bd572e45",
+          "cat": "India",
+          "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
+          "summary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-11-05T05:05:52+00:00",
+          "firstSeen": "2026-11-05T05:05:52+00:00",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
+        },
+        {
+          "id": "42ba335d100ea4",
+          "cat": "AI",
+          "title": "OpenAI released a new cybersecurity model. Is that enough?",
+          "summary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-05T19:06:12+00:00",
+          "firstSeen": "2026-11-05T19:06:12+00:00",
+          "importanceScore": 9.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+        },
+        {
+          "id": "b465189d1af1ea",
+          "cat": "India",
+          "title": "American midterm results will not have an impact on India-US interim trade deal: Sources",
+          "summary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-05T13:38:14+00:00",
+          "firstSeen": "2026-11-05T13:38:14+00:00",
+          "importanceScore": 9.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
+        },
+        {
+          "id": "b336ac97731799",
+          "cat": "India",
+          "title": "Trump's midterm election setback may fast-track India-US trade deal within two months says founder, GTRI",
+          "summary": "Ajay Srivastava, Founder of the Global Trade Research Initiative (GTRI) said the election results could push Trump to focus more on trade negotiations and expedite the proposed agreement with India. Senior officials and ministers from both countries had been engaged in discussions and that negotiations were close to completion, although some differences remained.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-05T11:41:22+00:00",
+          "firstSeen": "2026-11-05T11:41:22+00:00",
+          "importanceScore": 9.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-election-setback-may-fast-track-india-us-trade-deal-within-two-months-says-founder-gtri/articleshow/135571786.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1028,57 +992,6 @@
       "latestSummary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-    },
-    "912c4596848618": {
-      "id": "912c4596848618",
-      "firstSeen": "2026-10-29T15:54:18+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T16:09:50.998259+00:00",
-          "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-29T21:09:34.282979+00:00",
-          "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-          "importanceScore": 11.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-30T01:03:23.939167+00:00",
-          "title": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-          "importanceScore": 11.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T01:03:23.939167+00:00",
-      "cat": "India",
-      "latestTitle": "India can achieve $1 trillion exports target this fiscal despite global headwinds: Piyush Goyal",
-      "latestSummary": "Commerce Minister Piyush Goyal expressed confidence that India would achieve its $1 trillion exports target in 2026-27 despite global uncertainties. He said nine FTAs could open preferential market access to economies with a combined GDP of $60 trillion.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-can-achieve-1-trillion-exports-target-this-fiscal-despite-global-headwinds-piyush-goyal/articleshow/135322112.cms"
     },
     "e3a85b09c0b98e": {
       "id": "e3a85b09c0b98e",
@@ -1143,157 +1056,6 @@
       "latestSummary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
       "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
-    },
-    "4301dc4cd64642": {
-      "id": "4301dc4cd64642",
-      "firstSeen": "2026-10-29T13:47:53+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T16:09:50.998259+00:00",
-          "title": "Indian trade minister says US deal will protect all sensitive Indian interests",
-          "summary": "Trade Minister Piyush Goyal stated that a pending trade agreement with the United States would safeguard all sensitive Indian interests. The comment was reported by The Economic Times. The article did not provide details on the deal’s specific terms, sectors covered, or concrete commitments.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-30T01:03:23.939167+00:00",
-          "title": "US trade deal will protect all sensitive Indian interests, says Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal said India’s trade deal with the US would protect sensitive interests, including those of farmers, and give the country a competitive advantage. He criticised opposition parties for questioning the agreement before its details were released, while defending India’s trade strategy and its decision to stay out of RCEP.",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T01:03:23.939167+00:00",
-      "cat": "India",
-      "latestTitle": "US trade deal will protect all sensitive Indian interests, says Piyush Goyal",
-      "latestSummary": "Commerce Minister Piyush Goyal said India’s trade deal with the US would protect sensitive interests, including those of farmers, and give the country a competitive advantage. He criticised opposition parties for questioning the agreement before its details were released, while defending India’s trade strategy and its decision to stay out of RCEP.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-will-protect-all-sensitive-indian-interests-says-piyush-goyal/articleshow/135318000.cms"
-    },
-    "401f6ab4f8e9f7": {
-      "id": "401f6ab4f8e9f7",
-      "firstSeen": "2026-10-29T17:00:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T21:09:34.282979+00:00",
-          "title": "Mistral releases weights for its trillion‑parameter open‑source model ML4",
-          "summary": "French AI company Mistral has released the weights for its trillion‑parameter open‑source model Mistral Large 4 (ML4), nicknamed “Le Chonk,” enabling businesses and governments to download and deploy the system themselves. The launch follows earlier announcements and is framed as a competitive alternative to closed‑model providers, highlighting the advantage of data control for cybersecurity workloads. Mistral says ML4 matches the performance of China’s GLM‑5.3 while using 47 percent fewer tokens per task, making it more economical.",
-          "importanceScore": 10.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-30T01:03:23.939167+00:00",
-          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-          "summary": "French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves. However, Mistral’s model uses 47 percent fewer tokens per task, making it significantly more economical than GLM-5.3.",
-          "importanceScore": 10.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T01:03:23.939167+00:00",
-      "cat": "AI",
-      "latestTitle": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "latestSummary": "French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves. However, Mistral’s model uses 47 percent fewer tokens per task, making it significantly more economical than GLM-5.3.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
-    },
-    "dbdfed641c3a27": {
-      "id": "dbdfed641c3a27",
-      "firstSeen": "2026-10-30T00:23:50+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T01:03:23.939167+00:00",
-          "title": "Advance‑decline ratio hits seven‑month low as market breadth weakens",
-          "summary": "The advance‑decline ratio fell to its lowest level in seven months, signalling a weakening in market breadth. The metric, which compares the number of advancing stocks to declining ones, dropped sharply, indicating that a smaller proportion of stocks were moving higher. This contraction in breadth points to limited participation across the market.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T01:03:23.939167+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Advance‑decline ratio hits seven‑month low as market breadth weakens",
-      "latestSummary": "The advance‑decline ratio fell to its lowest level in seven months, signalling a weakening in market breadth. The metric, which compares the number of advancing stocks to declining ones, dropped sharply, indicating that a smaller proportion of stocks were moving higher. This contraction in breadth points to limited participation across the market.",
-      "why": "Thin breadth can signal underlying vulnerability in market moves.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-breadth-hits-seven-month-low-despite-nifty-sensex-gains/articleshow/135336784.cms"
-    },
-    "38aa4ff285f525": {
-      "id": "38aa4ff285f525",
-      "firstSeen": "2026-10-30T00:26:03+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T01:03:23.939167+00:00",
-          "title": "G‑Sec 10‑year yields dip 5 bps to 7.39 % on Fed signals",
-          "summary": "India's 10‑year government bond yield slipped by five basis points, ending at 7.39 percent. The Economic Times article links the decline to recent signals from the U.S. Federal Reserve suggesting a more accommodative monetary stance. No additional causes are mentioned in the source.",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T01:03:23.939167+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "G‑Sec 10‑year yields dip 5 bps to 7.39 % on Fed signals",
-      "latestSummary": "India's 10‑year government bond yield slipped by five basis points, ending at 7.39 percent. The Economic Times article links the decline to recent signals from the U.S. Federal Reserve suggesting a more accommodative monetary stance. No additional causes are mentioned in the source.",
-      "why": "A lower yield may ease borrowing costs for Indian issuers and shift sentiment in the domestic bond market.",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/g-sec-10-year-yields-come-down-5-bps-to-7-39-on-fed-signals/articleshow/135335834.cms"
-    },
-    "676ba82d07b4b9": {
-      "id": "676ba82d07b4b9",
-      "firstSeen": "2026-10-29T08:23:31+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T01:03:23.939167+00:00",
-          "title": "Ethiopia receives 12 Russian Su‑35 jets, plans S‑400 air‑defence purchase",
-          "summary": "Ethiopia has taken delivery of twelve Su‑35 fighter jets from Russia while fighting intensifies in northern Tigray near Eritrea. Prime Minister Abiy Ahmed, speaking at the Russia‑Africa summit, called the delivery a “milestone” for Ethiopia’s defence capacity. He also said Ethiopia intends to buy four S‑400 air‑defence systems from Moscow.",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T01:03:23.939167+00:00",
-      "cat": "World",
-      "latestTitle": "Ethiopia receives 12 Russian Su‑35 jets, plans S‑400 air‑defence purchase",
-      "latestSummary": "Ethiopia has taken delivery of twelve Su‑35 fighter jets from Russia while fighting intensifies in northern Tigray near Eritrea. Prime Minister Abiy Ahmed, speaking at the Russia‑Africa summit, called the delivery a “milestone” for Ethiopia’s defence capacity. He also said Ethiopia intends to buy four S‑400 air‑defence systems from Moscow.",
-      "why": "The new aircraft and planned air‑defence systems could significantly strengthen Ethiopia’s military and affect regional security dynamics.",
-      "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss"
     },
     "0f9eabdd4cf4df": {
       "id": "0f9eabdd4cf4df",
@@ -3627,9 +3389,22 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-06T02:29:24.511335+00:00",
+          "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
+          "summary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
+      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
       "cat": "India",
       "latestTitle": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
       "latestSummary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
@@ -3652,13 +3427,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-06T02:29:24.511335+00:00",
+          "title": "Canada to ban fees for moving investment accounts",
+          "summary": "The federal government has released draft regulations that would prohibit banks from charging fees when a client transfers an investment account to another financial institution. The ban would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis estimates the eliminated fees are typically about $150 per account.",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
+      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
       "cat": "Canada",
-      "latestTitle": "Canada proposes ban on fees for moving investment accounts",
-      "latestSummary": "The federal government has released draft regulations to stop banks from charging fees when a client moves an investment account to another financial institution. The change would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis notes the fees are typically about $150 per account.",
-      "why": "It would reduce costs for Canadians who switch providers, potentially increasing competition in the banking sector.",
+      "latestTitle": "Canada to ban fees for moving investment accounts",
+      "latestSummary": "The federal government has released draft regulations that would prohibit banks from charging fees when a client transfers an investment account to another financial institution. The ban would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis estimates the eliminated fees are typically about $150 per account.",
+      "why": "It lowers costs for savers, particularly lower‑income Canadians, and helps smaller institutions compete.",
       "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
     },
     "a86203ea83aaac": {
@@ -3702,9 +3490,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-06T02:29:24.511335+00:00",
+          "title": "OpenAI released a new cybersecurity model. Is that enough?",
+          "summary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
+          "importanceScore": 9.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
+      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
       "cat": "AI",
       "latestTitle": "OpenAI released a new cybersecurity model. Is that enough?",
       "latestSummary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
@@ -3727,15 +3528,53 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-06T02:29:24.511335+00:00",
+          "title": "American midterm results will not have an impact on India-US interim trade deal: Sources",
+          "summary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
+          "importanceScore": 9.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
+      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
       "cat": "India",
-      "latestTitle": "US midterm victory unlikely to affect India‑US interim trade deal",
-      "latestSummary": "Sources said the Democrats’ sweeping win in the U.S. midterm elections is not expected to impact the India‑U.S. interim trade agreement because the pact does not require formal Congressional ratification. The deal could still face challenges from ongoing U.S. Section 301 investigations into forced‑labour practices and excess industrial capacity that may affect tariff policy and finalisation.",
+      "latestTitle": "American midterm results will not have an impact on India-US interim trade deal: Sources",
+      "latestSummary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
+    },
+    "b336ac97731799": {
+      "id": "b336ac97731799",
+      "firstSeen": "2026-11-05T11:41:22+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T02:29:24.511335+00:00",
+          "title": "Trump's midterm election setback may fast-track India-US trade deal within two months says founder, GTRI",
+          "summary": "Ajay Srivastava, Founder of the Global Trade Research Initiative (GTRI) said the election results could push Trump to focus more on trade negotiations and expedite the proposed agreement with India. Senior officials and ministers from both countries had been engaged in discussions and that negotiations were close to completion, although some differences remained.",
+          "importanceScore": 9.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
+      "cat": "India",
+      "latestTitle": "Trump's midterm election setback may fast-track India-US trade deal within two months says founder, GTRI",
+      "latestSummary": "Ajay Srivastava, Founder of the Global Trade Research Initiative (GTRI) said the election results could push Trump to focus more on trade negotiations and expedite the proposed agreement with India. Senior officials and ministers from both countries had been engaged in discussions and that negotiations were close to completion, although some differences remained.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-election-setback-may-fast-track-india-us-trade-deal-within-two-months-says-founder-gtri/articleshow/135571786.cms"
     }
   },
-  "updated": "2026-11-05T22:01:33.433106+00:00"
+  "updated": "2026-11-06T02:29:24.511335+00:00"
 }
