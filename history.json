@@ -3,106 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-03T06:52:15.826577+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "5c212d44847379",
-          "cat": "Canada",
-          "title": "Canada’s next budget to be unveiled Thursday with affordability, tax and investment measures",
-          "summary": "The federal budget, to be presented on Thursday, will contain new affordability measures, business tax incentives and spending on infrastructure, defence and culture, a senior government source said. It will also give further detail on private investment in Canada’s four largest airports, the government’s plan to balance the operational budget a year early, foreign direct investment flows, and an update on the Canada Strong Fund. Finance Minister François‑Philippe Champagne has already posted the budget’s title and cover on social media.",
-          "why": "The budget outlines fiscal priorities that will affect Canadians’ cost of living, business environment and national infrastructure development.",
-          "publishedAt": "2026-11-02T09:00:00+00:00",
-          "firstSeen": "2026-11-02T09:00:00+00:00",
-          "importanceScore": 15.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss"
-        },
-        {
-          "id": "340f11b8af6f29",
-          "cat": "Indian Markets",
-          "title": "Anthropic reports third-quarter revenue near $17 billion, up from $1.4 billion a year earlier",
-          "summary": "Anthropic disclosed in an amended IPO filing that its third‑quarter revenue was almost $17 billion, a sharp increase from $1.4 billion in the same quarter a year earlier. The filing provides the first detailed financials as the company prepares for a potential IPO. Sources cited are CNBC and Reuters.",
-          "why": "The figures give investors concrete data to evaluate Anthropic’s valuation ahead of its planned stock market debut.",
-          "publishedAt": "2026-11-03T05:12:51+00:00",
-          "firstSeen": "2026-11-03T05:12:51+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-what-its-latest-financial-filing-reveals-about-ai-growth/slideshow/135484180.cms"
-        },
-        {
-          "id": "a0e5b0d5b1e24b",
-          "cat": "World",
-          "title": "US to remove South Africa and Rwanda from AGOA in 2027",
-          "summary": "The Trump administration has notified Congress that it intends to withdraw South Africa and Rwanda from the African Growth and Opportunity Act (AGOA) preferential trade programme, effective 1 January 2027. US Trade Representative Jamieson Greer said an annual review found both countries were engaging in practices inconsistent with AGOA eligibility, and the two nations have been formally notified of the decision.",
-          "why": "The removal will end duty‑free access for many African exports to the United States, potentially reducing trade volumes and harming the economies of the affected countries.",
-          "publishedAt": "2026-11-03T03:00:36+00:00",
-          "firstSeen": "2026-11-03T03:00:36+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "d908c90d702868",
-          "cat": "AI",
-          "title": "Omen AI acquires Aquatic Labs for $16 million",
-          "summary": "Omen AI, founded in 2024 to monitor cooling water in data‑center chips, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round raised in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity‑testing technology to provide a richer real‑time view of cooling fluids.",
-          "why": "The combined sensor can improve water‑use monitoring, potentially reducing consumption and operational costs in AI data centers.",
-          "publishedAt": "2026-11-02T15:00:00+00:00",
-          "firstSeen": "2026-11-02T15:00:00+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
-        },
-        {
-          "id": "08194c4c2aa674",
-          "cat": "India",
-          "title": "Pakistan suffered $40 billion in economic losses due to suspension of trade with India: PIBC chief",
-          "summary": "Lahore has faced an estimated USD 40 billion in economic losses since trade with India paused in 2019. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-          "publishedAt": "2026-11-02T14:43:40+00:00",
-          "firstSeen": "2026-11-02T14:43:40+00:00",
-          "importanceScore": 11.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/pakistan-suffered-40-billion-in-economic-losses-due-to-suspension-of-trade-with-india-pibc-chief/articleshow/135465534.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-03T15:12:12.787472+00:00",
       "changeSummary": {
         "new": 4,
@@ -939,124 +839,163 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-election-setback-may-fast-track-india-us-trade-deal-within-two-months-says-founder-gtri/articleshow/135571786.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-06T10:57:16.507519+00:00",
+      "changeSummary": {
+        "new": 5,
+        "updated": 1,
+        "continuing": 2
+      },
+      "stories": [
+        {
+          "id": "b95043b4b2f8bf",
+          "cat": "India",
+          "title": "India October consumer inflation likely near RBI's top target, poll says",
+          "summary": "A Reuters poll reported by the Economic Times says India's consumer price inflation for October is expected to be close to the upper end of the Reserve Bank of India's inflation target. The poll attributes the upward pressure mainly to higher food prices. No specific inflation rate or poll details were provided.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-06T07:51:18+00:00",
+          "firstSeen": "2026-11-06T07:51:18+00:00",
+          "importanceScore": 14.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-consumer-inflation-soars-as-food-prices-surge-october-predictions-near-rbis-max-target/articleshow/135599213.cms"
+        },
+        {
+          "id": "e42f6559f926b9",
+          "cat": "Indian Markets",
+          "title": "IPO multibaggers: 13 stocks that delivered up to 193% returns since last Dhanteras",
+          "summary": "From the last Dhanteras in October 2025 to the latest festive season in November 2026, these 13 IPO stocks have generated returns of over 100% over their offer prices. ESDS Software Solution has delivered a 178.29% return over its IPO issue price of Rs 429, with shares climbing to Rs 1,193.85.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-06T04:41:27+00:00",
+          "firstSeen": "2026-11-06T04:41:27+00:00",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ipo-multibaggers-13-stocks-that-delivered-up-to-193-returns-since-last-dhanteras/slideshow/135594462.cms"
+        },
+        {
+          "id": "b53f9b939c26b3",
+          "cat": "World",
+          "title": "Families of Britons killed in Spanish wildfire demand inquiry after officials block investigation",
+          "summary": "A wildfire on 9 July swept through the hillside village of Bédar in Almería, Spain, killing 15 people, including nine British nationals. Relatives said they are disgusted that regional politicians blocked an official commission of inquiry and criticised the lack of an emergency mobile‑phone alert that could have warned residents. The governing People’s Party and Vox rejected the opposition Socialist party’s request for an inquiry.",
+          "why": "The case highlights concerns about emergency warning systems and political accountability in disaster response.",
+          "publishedAt": "2026-11-06T06:00:46+00:00",
+          "firstSeen": "2026-11-06T06:00:46+00:00",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "bf45370e69b695",
+          "cat": "Indian Markets",
+          "title": "Micron Technology shares fall 17% on Nov. 5 amid AI chip selloff",
+          "summary": "Micron Technology's stock fell 17.46% to close at $656.39 on November 5, its lowest level in nearly six months, after touching an intraday low of $650. Investors dumped semiconductor and AI-related stocks as concerns grew over the outlook for the AI trade. (Sources: TradingKey, Benzinga)",
+          "why": "The decline reflects growing investor unease about the outlook for AI-related semiconductors.",
+          "publishedAt": "2026-11-06T05:44:39+00:00",
+          "firstSeen": "2026-11-06T05:44:39+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/micron-stock-tanks-17-as-ai-chip-selloff-deepens-whats-next/slideshow/135595811.cms"
+        },
+        {
+          "id": "6f4b12e3623350",
+          "cat": "Canada",
+          "title": "Canada proposes ban on fees for moving investment accounts",
+          "summary": "The federal government has released draft regulations that would prohibit Canadian banks from charging fees when a client transfers an investment account to another financial institution. The proposal covers registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts, and the regulatory impact analysis notes that the fees being eliminated are typically about $150 per account.",
+          "why": "Eliminating the fees lowers costs for consumers, particularly lower‑income Canadians, and may improve competition for smaller financial firms.",
+          "publishedAt": "2026-11-05T20:22:23+00:00",
+          "firstSeen": "2026-11-05T20:22:23+00:00",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
+        },
+        {
+          "id": "d2a73f573f0fb0",
+          "cat": "World",
+          "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+          "summary": "At least 12 other military sites, including missile complexes and air bases, appear to show signs of repairs. New roofs have been built on destroyed buildings at the Kermanshah missile base in western Iran, near the border with Iraq, while damaged buildings and debris have been cleared at the Parchin military complex - which has been repeatedly repaired despite a succession of air strikes - east of the capital.",
+          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+          "publishedAt": "2026-11-06T07:33:41+00:00",
+          "firstSeen": "2026-11-06T07:33:41+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "b465189d1af1ea",
+          "cat": "India",
+          "title": "American midterm results will not have an impact on India-US interim trade deal: Sources",
+          "summary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-05T13:38:14+00:00",
+          "firstSeen": "2026-11-05T13:38:14+00:00",
+          "importanceScore": 9.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
+        },
+        {
+          "id": "42ba335d100ea4",
+          "cat": "AI",
+          "title": "OpenAI’s GPT‑5.6 Sol helps discover Ubuntu server vulnerability",
+          "summary": "Max Justicz, CTO of Charge Robotics, used OpenAI’s GPT‑5.6 Sol (released in July through the Daybreak Blue program) to locate a severe vulnerability in Ubuntu that could let attackers take control of servers. He reported the flaw to the Debian Project, which issued a patch; there is no known evidence that the bug has been exploited.",
+          "why": "Demonstrates that advanced AI models can quickly identify critical software bugs, affecting both defensive security practices and potential attack vectors.",
+          "publishedAt": "2026-11-05T19:06:12+00:00",
+          "firstSeen": "2026-11-05T19:06:12+00:00",
+          "importanceScore": 8.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+        }
+      ]
     }
   ],
   "events": {
-    "ef6c3c3a66432d": {
-      "id": "ef6c3c3a66432d",
-      "firstSeen": "2026-10-29T14:17:35+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T16:09:50.998259+00:00",
-          "title": "Russian drone strike kills 14 at Dnipro railway station",
-          "summary": "A Russian jet‑powered drone hit a crowded platform at Dnipro’s main railway station, killing at least 14 people and wounding another 14, including an 11‑year‑old boy. The strike occurred while a passenger train bound for Zaporizhzhia was at the platform. Ukrainian officials said an elevated threat level had been announced before the attack; Russia’s military has not commented and Moscow denies deliberately targeting civilians.",
-          "importanceScore": 14.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-29T21:09:34.282979+00:00",
-          "title": "Drone strike kills at least 14 at Dnipro railway station",
-          "summary": "At least 14 people were killed and another 14 injured, including an 11‑year‑old boy, when a Russian jet‑powered drone struck a crowded platform at Dnipro’s main railway station. Ukrainian officials said a passenger train bound for Zaporizhzhia was on the platform at the time. The site has been sealed off as authorities investigate; Russia has not commented and denies targeting civilians.",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-30T07:10:13.254722+00:00",
-          "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-          "summary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T07:10:13.254722+00:00",
-      "cat": "World",
-      "latestTitle": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-      "latestSummary": "The site of the drone strike has been sealed off, as Ukrainian authorities continue their investigation At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said. Dnipropetrovsk regional head Oleksandr Hanzha said at least 14 others were wounded in the attack, including an 11-year-old boy.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-    },
-    "e3a85b09c0b98e": {
-      "id": "e3a85b09c0b98e",
-      "firstSeen": "2026-10-29T09:04:04+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-29T16:09:50.998259+00:00",
-          "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
-          "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. Sign In What's Included Exclusive Stories Daily ePaper Access Smart Market Tools Curated Investment Ideas Ad-lite Experience Subscription Agencies",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-29T21:09:34.282979+00:00",
-          "title": "Finance ministry projects 7.35% GDP growth for India in Q2 FY27",
-          "summary": "The finance ministry’s nowcasting model estimates that India’s gross domestic product will expand by 7.35% in the second quarter of fiscal year 2027. This follows a 7.8% growth rate in the preceding quarter. The forecast attributes the acceleration to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-10-30T01:03:23.939167+00:00",
-          "title": "India finance ministry projects 7.35% GDP growth in Q2 FY27",
-          "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in the second quarter of fiscal year 2027, after a 7.8% increase in the previous quarter. The projection attributes the growth to stronger industrial output, higher energy consumption, increased port traffic, rising GST collections and robust automobile sales.",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-30T07:10:13.254722+00:00",
-          "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
-          "summary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T07:10:13.254722+00:00",
-      "cat": "India",
-      "latestTitle": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
-      "latestSummary": "The finance ministry’s nowcasting model estimates India’s GDP will grow 7.35% in Q2 FY27, following 7.8% growth in the previous quarter, supported by stronger industrial output, energy consumption, port traffic, GST collections and automobile sales. KYB and KYC: Business behind the wealth creator called ‘Divi’s Lab’ – Part 2, concluding",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/finance-ministry-estimates-indias-q2-fy27-gdp-growth-at-7-35/articleshow/135298426.cms"
-    },
     "0f9eabdd4cf4df": {
       "id": "0f9eabdd4cf4df",
       "firstSeen": "2026-10-30T11:06:25+00:00",
@@ -3440,13 +3379,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-06T10:57:16.507519+00:00",
+          "title": "Canada proposes ban on fees for moving investment accounts",
+          "summary": "The federal government has released draft regulations that would prohibit Canadian banks from charging fees when a client transfers an investment account to another financial institution. The proposal covers registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts, and the regulatory impact analysis notes that the fees being eliminated are typically about $150 per account.",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
+      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
       "cat": "Canada",
-      "latestTitle": "Canada to ban fees for moving investment accounts",
-      "latestSummary": "The federal government has released draft regulations that would prohibit banks from charging fees when a client transfers an investment account to another financial institution. The ban would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis estimates the eliminated fees are typically about $150 per account.",
-      "why": "It lowers costs for savers, particularly lower‑income Canadians, and helps smaller institutions compete.",
+      "latestTitle": "Canada proposes ban on fees for moving investment accounts",
+      "latestSummary": "The federal government has released draft regulations that would prohibit Canadian banks from charging fees when a client transfers an investment account to another financial institution. The proposal covers registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts, and the regulatory impact analysis notes that the fees being eliminated are typically about $150 per account.",
+      "why": "Eliminating the fees lowers costs for consumers, particularly lower‑income Canadians, and may improve competition for smaller financial firms.",
       "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
     },
     "a86203ea83aaac": {
@@ -3503,13 +3455,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-06T10:57:16.507519+00:00",
+          "title": "OpenAI’s GPT‑5.6 Sol helps discover Ubuntu server vulnerability",
+          "summary": "Max Justicz, CTO of Charge Robotics, used OpenAI’s GPT‑5.6 Sol (released in July through the Daybreak Blue program) to locate a severe vulnerability in Ubuntu that could let attackers take control of servers. He reported the flaw to the Debian Project, which issued a patch; there is no known evidence that the bug has been exploited.",
+          "importanceScore": 8.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
+      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
       "cat": "AI",
-      "latestTitle": "OpenAI released a new cybersecurity model. Is that enough?",
-      "latestSummary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "latestTitle": "OpenAI’s GPT‑5.6 Sol helps discover Ubuntu server vulnerability",
+      "latestSummary": "Max Justicz, CTO of Charge Robotics, used OpenAI’s GPT‑5.6 Sol (released in July through the Daybreak Blue program) to locate a severe vulnerability in Ubuntu that could let attackers take control of servers. He reported the flaw to the Debian Project, which issued a patch; there is no known evidence that the bug has been exploited.",
+      "why": "Demonstrates that advanced AI models can quickly identify critical software bugs, affecting both defensive security practices and potential attack vectors.",
       "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
     },
     "b465189d1af1ea": {
@@ -3541,9 +3506,22 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-06T10:57:16.507519+00:00",
+          "title": "American midterm results will not have an impact on India-US interim trade deal: Sources",
+          "summary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
+          "importanceScore": 9.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
+      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
       "cat": "India",
       "latestTitle": "American midterm results will not have an impact on India-US interim trade deal: Sources",
       "latestSummary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
@@ -3574,7 +3552,132 @@
       "latestSummary": "Ajay Srivastava, Founder of the Global Trade Research Initiative (GTRI) said the election results could push Trump to focus more on trade negotiations and expedite the proposed agreement with India. Senior officials and ministers from both countries had been engaged in discussions and that negotiations were close to completion, although some differences remained.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-election-setback-may-fast-track-india-us-trade-deal-within-two-months-says-founder-gtri/articleshow/135571786.cms"
+    },
+    "b95043b4b2f8bf": {
+      "id": "b95043b4b2f8bf",
+      "firstSeen": "2026-11-06T07:51:18+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T10:57:16.507519+00:00",
+          "title": "India October consumer inflation likely near RBI's top target, poll says",
+          "summary": "A Reuters poll reported by the Economic Times says India's consumer price inflation for October is expected to be close to the upper end of the Reserve Bank of India's inflation target. The poll attributes the upward pressure mainly to higher food prices. No specific inflation rate or poll details were provided.",
+          "importanceScore": 14.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
+      "cat": "India",
+      "latestTitle": "India October consumer inflation likely near RBI's top target, poll says",
+      "latestSummary": "A Reuters poll reported by the Economic Times says India's consumer price inflation for October is expected to be close to the upper end of the Reserve Bank of India's inflation target. The poll attributes the upward pressure mainly to higher food prices. No specific inflation rate or poll details were provided.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-consumer-inflation-soars-as-food-prices-surge-october-predictions-near-rbis-max-target/articleshow/135599213.cms"
+    },
+    "e42f6559f926b9": {
+      "id": "e42f6559f926b9",
+      "firstSeen": "2026-11-06T04:41:27+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T10:57:16.507519+00:00",
+          "title": "IPO multibaggers: 13 stocks that delivered up to 193% returns since last Dhanteras",
+          "summary": "From the last Dhanteras in October 2025 to the latest festive season in November 2026, these 13 IPO stocks have generated returns of over 100% over their offer prices. ESDS Software Solution has delivered a 178.29% return over its IPO issue price of Rs 429, with shares climbing to Rs 1,193.85.",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "IPO multibaggers: 13 stocks that delivered up to 193% returns since last Dhanteras",
+      "latestSummary": "From the last Dhanteras in October 2025 to the latest festive season in November 2026, these 13 IPO stocks have generated returns of over 100% over their offer prices. ESDS Software Solution has delivered a 178.29% return over its IPO issue price of Rs 429, with shares climbing to Rs 1,193.85.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ipo-multibaggers-13-stocks-that-delivered-up-to-193-returns-since-last-dhanteras/slideshow/135594462.cms"
+    },
+    "b53f9b939c26b3": {
+      "id": "b53f9b939c26b3",
+      "firstSeen": "2026-11-06T06:00:46+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T10:57:16.507519+00:00",
+          "title": "Families of Britons killed in Spanish wildfire demand inquiry after officials block investigation",
+          "summary": "A wildfire on 9 July swept through the hillside village of Bédar in Almería, Spain, killing 15 people, including nine British nationals. Relatives said they are disgusted that regional politicians blocked an official commission of inquiry and criticised the lack of an emergency mobile‑phone alert that could have warned residents. The governing People’s Party and Vox rejected the opposition Socialist party’s request for an inquiry.",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
+      "cat": "World",
+      "latestTitle": "Families of Britons killed in Spanish wildfire demand inquiry after officials block investigation",
+      "latestSummary": "A wildfire on 9 July swept through the hillside village of Bédar in Almería, Spain, killing 15 people, including nine British nationals. Relatives said they are disgusted that regional politicians blocked an official commission of inquiry and criticised the lack of an emergency mobile‑phone alert that could have warned residents. The governing People’s Party and Vox rejected the opposition Socialist party’s request for an inquiry.",
+      "why": "The case highlights concerns about emergency warning systems and political accountability in disaster response.",
+      "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss"
+    },
+    "bf45370e69b695": {
+      "id": "bf45370e69b695",
+      "firstSeen": "2026-11-06T05:44:39+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T10:57:16.507519+00:00",
+          "title": "Micron Technology shares fall 17% on Nov. 5 amid AI chip selloff",
+          "summary": "Micron Technology's stock fell 17.46% to close at $656.39 on November 5, its lowest level in nearly six months, after touching an intraday low of $650. Investors dumped semiconductor and AI-related stocks as concerns grew over the outlook for the AI trade. (Sources: TradingKey, Benzinga)",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Micron Technology shares fall 17% on Nov. 5 amid AI chip selloff",
+      "latestSummary": "Micron Technology's stock fell 17.46% to close at $656.39 on November 5, its lowest level in nearly six months, after touching an intraday low of $650. Investors dumped semiconductor and AI-related stocks as concerns grew over the outlook for the AI trade. (Sources: TradingKey, Benzinga)",
+      "why": "The decline reflects growing investor unease about the outlook for AI-related semiconductors.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/micron-stock-tanks-17-as-ai-chip-selloff-deepens-whats-next/slideshow/135595811.cms"
+    },
+    "d2a73f573f0fb0": {
+      "id": "d2a73f573f0fb0",
+      "firstSeen": "2026-11-06T07:33:41+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T10:57:16.507519+00:00",
+          "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+          "summary": "At least 12 other military sites, including missile complexes and air bases, appear to show signs of repairs. New roofs have been built on destroyed buildings at the Kermanshah missile base in western Iran, near the border with Iraq, while damaged buildings and debris have been cleared at the Parchin military complex - which has been repeatedly repaired despite a succession of air strikes - east of the capital.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
+      "cat": "World",
+      "latestTitle": "Major construction ongoing near Iran missile bases, satellite images suggest",
+      "latestSummary": "At least 12 other military sites, including missile complexes and air bases, appear to show signs of repairs. New roofs have been built on destroyed buildings at the Kermanshah missile base in western Iran, near the border with Iraq, while damaged buildings and debris have been cleared at the Parchin military complex - which has been repeatedly repaired despite a succession of air strikes - east of the capital.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
     }
   },
-  "updated": "2026-11-06T02:29:24.511335+00:00"
+  "updated": "2026-11-06T10:57:16.507519+00:00"
 }
