@@ -3,106 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-03T21:01:52.682040+00:00",
-      "changeSummary": {
-        "new": 5,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "60c5dad65b8750",
-          "cat": "India",
-          "title": "RBI eases forex reporting rules for service exports and imports",
-          "summary": "The Reserve Bank of India on Tuesday announced that, effective 1 October 2026, foreign‑exchange reporting requirements for service‑related exports and imports are being relaxed. Transactions up to Rs 10 lakh are exempt from filing a separate Export Declaration Form, and for resident individuals the form is deemed submitted once the authorised dealer bank receives the payment‑credit information, with no value threshold for them.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-03T19:23:04+00:00",
-          "firstSeen": "2026-11-03T19:23:04+00:00",
-          "importanceScore": 14.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms"
-        },
-        {
-          "id": "6bbcd72d78a763",
-          "cat": "AI",
-          "title": "Anthropic is still grappling with the economics of compute",
-          "summary": "In particular, the company is finally disclosing more about the economics of compute, and how much of Anthropic’s skyrocketing revenue is being lost to compute costs. Broadly, Anthropic had a good quarter: revenue reached $17 billion, up from $11.5 billion in the previous quarter, suggesting durable growth.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-03T17:07:01+00:00",
-          "firstSeen": "2026-11-03T17:07:01+00:00",
-          "importanceScore": 13.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
-        },
-        {
-          "id": "68d58bfcfc586c",
-          "cat": "Indian Markets",
-          "title": "Utkarsh Small Finance Bank posts Rs 70 crore loss in Q2, sixth straight quarterly loss",
-          "summary": "The bank recorded a net loss of Rs 70 crore in the second quarter, marking its sixth consecutive quarterly loss. Operating profit was Rs 85 crore, but provisions of Rs 166 crore resulted in the net loss. The gross non‑performing asset ratio eased to 5.96% and the loan book grew 7.5% year‑on‑year to Rs 20,062 crore.",
-          "why": "Ongoing losses raise concerns about profitability and capital adequacy, which matter to investors and borrowers.",
-          "publishedAt": "2026-11-03T16:24:16+00:00",
-          "firstSeen": "2026-11-03T16:24:16+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/utkarsh-small-finance-bank-reports-sixth-consecutive-quarterly-loss/articleshow/135506409.cms"
-        },
-        {
-          "id": "82d3fcfcc14e26",
-          "cat": "India",
-          "title": "RBI launches three surveys on inflation expectations and consumer confidence ahead of December meeting",
-          "summary": "The Reserve Bank of India announced the launch of three separate surveys designed to gather information on consumers' expectations about future price movements and their overall confidence in the economy. The surveys are being rolled out ahead of the RBI's policy meeting scheduled for December, providing fresh data for the central bank's considerations.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-03T15:10:10+00:00",
-          "firstSeen": "2026-11-03T15:10:10+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-launches-3-surveys-to-capture-inflation-expectations-consumer-confidence-ahead-of-december-policy-meeting/articleshow/135504173.cms"
-        },
-        {
-          "id": "57e301d6b3355e",
-          "cat": "World",
-          "title": "High Court hears challenge to Australia’s child social media ban",
-          "summary": "Reddit and a digital‑rights group argued before the High Court that the social‑media ban for children, introduced in December, is unconstitutional and infringes free‑communication rights. The hearing follows a change in the plaintiff lineup, with teen Noah Jones no longer a plaintiff but attending. The ban is part of the government’s broader online‑safety reforms.",
-          "why": "The decision will decide if the ban stays in force, shaping Australia’s future approach to protecting minors online.",
-          "publishedAt": "2026-11-03T07:53:38+00:00",
-          "firstSeen": "2026-11-03T07:53:38+00:00",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-11-04T01:24:55.991717+00:00",
       "changeSummary": {
         "new": 2,
@@ -1083,6 +983,142 @@
           "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
         }
       ]
+    },
+    {
+      "at": "2026-11-06T23:11:48.681827+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 3,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "e9e68eea47ae36",
+          "cat": "Canada",
+          "title": "Canada loses 4,700 jobs in October, unemployment rises to 6.7%",
+          "summary": "Statistics Canada said the economy shed 4,700 jobs in October, raising the unemployment rate to 6.7% from 6.5% in September. The loss follows back‑to‑back declines in August and September that together removed more than 100,000 jobs. Economists had forecast a gain of about 13,600 jobs for October.",
+          "why": "The job loss may affect the Bank of Canada's policy outlook.",
+          "publishedAt": "2026-11-06T13:40:12+00:00",
+          "firstSeen": "2026-11-06T13:40:12+00:00",
+          "importanceScore": 16.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/canada-jobs-report-oct-2026-statscan-9.7411830?cmp=rss"
+        },
+        {
+          "id": "5b478824b2d51a",
+          "cat": "World",
+          "title": "EU opens fraud probe into Spanish high‑speed rail upgrades after deadly crash",
+          "summary": "European Union prosecutors have started an investigation into possible misuse of EU funds earmarked for upgrading the Madrid‑Seville high‑speed line after a crash on 28 October killed 69 people. The inquiry, conducted with Spain’s Guardia Civil, is focused on the rail infrastructure authority Adif and the safety agency AESF. It is the second fatal accident on the line this year and the second EU fraud probe, following a January crash that killed 46.",
+          "why": "The probe raises questions about the proper use of EU funding and the effectiveness of railway safety oversight.",
+          "publishedAt": "2026-11-06T17:44:02+00:00",
+          "firstSeen": "2026-11-06T17:44:02+00:00",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "9ad4c028e64fa3",
+          "cat": "AI",
+          "title": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
+          "summary": "Bloomberg, as reported by TechCrunch, says OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion. The round has not closed yet and is expected to finish in the coming weeks, with total commitments potentially reaching about $20 billion. Earlier reports indicated a $30 billion target, which the current amount does not meet.",
+          "why": "The capital gives OpenAI additional resources to continue its AI development and operational expansion.",
+          "publishedAt": "2026-11-06T22:53:46+00:00",
+          "firstSeen": "2026-11-06T22:53:46+00:00",
+          "importanceScore": 12.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        },
+        {
+          "id": "e42f6559f926b9",
+          "cat": "Indian Markets",
+          "title": "13 Indian IPOs double issue price, top gainer 192.6% since Oct 2025",
+          "summary": "From the Dhanteras period in October 2025 through November 2026, 13 newly listed Indian IPOs have posted returns above 100% versus their issue prices, according to Prime Database. Omnitech Engineering led with a 192.62% gain, trading at Rs 664.25 on Nov 4 2026 versus its Rs 227 issue price. ESDS Software Solution (178.29%), KSH International (156.41%) and INDO‑MIM (155.75%) were also among the top performers.",
+          "why": "Highlights strong post‑IPO price appreciation, signalling robust investor demand for recent listings.",
+          "publishedAt": "2026-11-06T04:41:27+00:00",
+          "firstSeen": "2026-11-06T04:41:27+00:00",
+          "importanceScore": 12.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ipo-multibaggers-13-stocks-that-delivered-up-to-193-returns-since-last-dhanteras/slideshow/135594462.cms"
+        },
+        {
+          "id": "d5cde75f0e48b4",
+          "cat": "Canada",
+          "title": "Alek Minassian, convicted in deadly 2018 Toronto van attack, drops appeal",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-06T21:54:38+00:00",
+          "firstSeen": "2026-11-06T21:54:38+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12140631/alek-minassian-convicted-in-deadly-2018-toronto-van-attack-drops-appeal/"
+        },
+        {
+          "id": "bf45370e69b695",
+          "cat": "Indian Markets",
+          "title": "Micron Technology shares plunge 17% amid AI chip selloff",
+          "summary": "On November 5, Micron Technology’s shares fell 17.46% to close at $656.39, their lowest level in nearly six months, after touching an intraday low of $650. The decline came as investors sold semiconductor and AI‑related stocks amid growing concerns about the outlook for the AI trade.",
+          "why": "The drop signals heightened market risk for AI‑related semiconductor equities, affecting broader investor sentiment and portfolio decisions.",
+          "publishedAt": "2026-11-06T05:44:39+00:00",
+          "firstSeen": "2026-11-06T05:44:39+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/micron-stock-tanks-17-as-ai-chip-selloff-deepens-whats-next/slideshow/135595811.cms"
+        },
+        {
+          "id": "d2a73f573f0fb0",
+          "cat": "World",
+          "title": "Iran expands and repairs missile bases, satellite images reveal",
+          "summary": "Satellite imagery taken in November shows new digging and construction at the Garmdareh military base near Tehran and the Shahroud base in northern Iran, indicating significant work at two major missile sites. Analysts also note repairs at the Kermanshah missile base in the west and debris clearance at the Parchin complex east of the capital, with signs of refurbishment at at least a dozen other military locations.",
+          "why": "The activity shows Iran is rebuilding missile infrastructure that was damaged by recent air strikes.",
+          "publishedAt": "2026-11-06T07:33:41+00:00",
+          "firstSeen": "2026-11-06T07:33:41+00:00",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "events": {
@@ -1379,31 +1415,6 @@
       "latestSummary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms"
-    },
-    "210c89744b7092": {
-      "id": "210c89744b7092",
-      "firstSeen": "2026-10-30T17:00:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T19:26:08.930994+00:00",
-          "title": "Google launches first data‑center satellite, tests AI model in orbit",
-          "summary": "Google’s Suncatcher prototype data‑center satellite was launched earlier this month on a SpaceX Falcon 9 ride‑share with more than 100 other spacecraft. The 1 kW satellite carries four TPUs and a pre‑loaded DeepMind Gemma 4 model, which engineers prompted to write a haiku and report orbital conditions after about three weeks of commissioning. Ongoing tests will evaluate TPU performance under space‑borne thermal stress and radiation, which can cause memory bit flips.",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-30T19:26:08.930994+00:00",
-      "cat": "AI",
-      "latestTitle": "Google launches first data‑center satellite, tests AI model in orbit",
-      "latestSummary": "Google’s Suncatcher prototype data‑center satellite was launched earlier this month on a SpaceX Falcon 9 ride‑share with more than 100 other spacecraft. The 1 kW satellite carries four TPUs and a pre‑loaded DeepMind Gemma 4 model, which engineers prompted to write a haiku and report orbital conditions after about three weeks of commissioning. Ongoing tests will evaluate TPU performance under space‑borne thermal stress and radiation, which can cause memory bit flips.",
-      "why": "Demonstrates that high‑power AI inference can operate in orbit, a step toward satellite‑based compute networks.",
-      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
     },
     "30cd640b843b43": {
       "id": "30cd640b843b43",
@@ -3661,13 +3672,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-11-06T23:11:48.681827+00:00",
+          "title": "13 Indian IPOs double issue price, top gainer 192.6% since Oct 2025",
+          "summary": "From the Dhanteras period in October 2025 through November 2026, 13 newly listed Indian IPOs have posted returns above 100% versus their issue prices, according to Prime Database. Omnitech Engineering led with a 192.62% gain, trading at Rs 664.25 on Nov 4 2026 versus its Rs 227 issue price. ESDS Software Solution (178.29%), KSH International (156.41%) and INDO‑MIM (155.75%) were also among the top performers.",
+          "importanceScore": 12.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-06T17:59:43.673994+00:00",
+      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Indian IPOs produce 13 multibaggers with up to 193% returns since October 2025",
-      "latestSummary": "Over the past year, India's IPO market generated several large winners, with 13 newly listed companies delivering returns exceeding 100% on their offer prices between the last Dhanteras in October 2025 and November 2026. Omnitech Engineering led the list, gaining 192.62% (Rs 227 issue price to Rs 664.25 on 4 Nov 2026), followed by ESDS Software Solution (178.29% gain) and KSH International (156.41% gain). The companies raised between Rs 583 crore and Rs 3,812 crore in their public issues and have traded well above both issue and listing prices.",
-      "why": "The strong post‑IPO performance highlights robust investor appetite for new listings and may influence future capital‑raising strategies in Indian equities.",
+      "latestTitle": "13 Indian IPOs double issue price, top gainer 192.6% since Oct 2025",
+      "latestSummary": "From the Dhanteras period in October 2025 through November 2026, 13 newly listed Indian IPOs have posted returns above 100% versus their issue prices, according to Prime Database. Omnitech Engineering led with a 192.62% gain, trading at Rs 664.25 on Nov 4 2026 versus its Rs 227 issue price. ESDS Software Solution (178.29%), KSH International (156.41%) and INDO‑MIM (155.75%) were also among the top performers.",
+      "why": "Highlights strong post‑IPO price appreciation, signalling robust investor demand for recent listings.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/ipo-multibaggers-13-stocks-that-delivered-up-to-193-returns-since-last-dhanteras/slideshow/135594462.cms"
     },
     "b53f9b939c26b3": {
@@ -3737,13 +3761,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-11-06T23:11:48.681827+00:00",
+          "title": "Micron Technology shares plunge 17% amid AI chip selloff",
+          "summary": "On November 5, Micron Technology’s shares fell 17.46% to close at $656.39, their lowest level in nearly six months, after touching an intraday low of $650. The decline came as investors sold semiconductor and AI‑related stocks amid growing concerns about the outlook for the AI trade.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-06T17:59:43.673994+00:00",
+      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Micron shares fall 17% amid AI chip selloff",
-      "latestSummary": "Micron Technology shares fell 17.46% on November 5, closing at $656.39, their lowest level in nearly six months, after touching an intraday low of $650. The decline erased more than 30% of the stock's gains from its October 28 peak near $990, with trading volume roughly doubling the recent average. Investors sold semiconductor and AI-related stocks over concerns that potential restrictions on data centre construction could slow AI infrastructure expansion and weaken future demand for high-bandwidth memory.",
-      "why": "This sharp decline signals growing investor worry that AI infrastructure spending may face sustainability and capacity constraints.",
+      "latestTitle": "Micron Technology shares plunge 17% amid AI chip selloff",
+      "latestSummary": "On November 5, Micron Technology’s shares fell 17.46% to close at $656.39, their lowest level in nearly six months, after touching an intraday low of $650. The decline came as investors sold semiconductor and AI‑related stocks amid growing concerns about the outlook for the AI trade.",
+      "why": "The drop signals heightened market risk for AI‑related semiconductor equities, affecting broader investor sentiment and portfolio decisions.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/micron-stock-tanks-17-as-ai-chip-selloff-deepens-whats-next/slideshow/135595811.cms"
     },
     "d2a73f573f0fb0": {
@@ -3775,13 +3812,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-06T23:11:48.681827+00:00",
+          "title": "Iran expands and repairs missile bases, satellite images reveal",
+          "summary": "Satellite imagery taken in November shows new digging and construction at the Garmdareh military base near Tehran and the Shahroud base in northern Iran, indicating significant work at two major missile sites. Analysts also note repairs at the Kermanshah missile base in the west and debris clearance at the Parchin complex east of the capital, with signs of refurbishment at at least a dozen other military locations.",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-06T17:59:43.673994+00:00",
+      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
       "cat": "World",
-      "latestTitle": "Iran constructs and repairs missile sites, satellite images show",
-      "latestSummary": "Satellite imagery taken in November shows new digging and buildings at the Garmdareh military base near Tehran and the Shahroud base in northern Iran, indicating fresh construction near two major missile sites. The images also reveal repairs such as new roofs at the Kermanshah missile base and cleared debris at the Parchin complex, with similar work evident at about a dozen other military locations.",
-      "why": "The activity suggests Iran is strengthening its missile infrastructure despite recent air strikes, influencing regional security dynamics.",
+      "latestTitle": "Iran expands and repairs missile bases, satellite images reveal",
+      "latestSummary": "Satellite imagery taken in November shows new digging and construction at the Garmdareh military base near Tehran and the Shahroud base in northern Iran, indicating significant work at two major missile sites. Analysts also note repairs at the Kermanshah missile base in the west and debris clearance at the Parchin complex east of the capital, with signs of refurbishment at at least a dozen other military locations.",
+      "why": "The activity shows Iran is rebuilding missile infrastructure that was damaged by recent air strikes.",
       "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
     },
     "e9e68eea47ae36": {
@@ -3800,13 +3850,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-06T23:11:48.681827+00:00",
+          "title": "Canada loses 4,700 jobs in October, unemployment rises to 6.7%",
+          "summary": "Statistics Canada said the economy shed 4,700 jobs in October, raising the unemployment rate to 6.7% from 6.5% in September. The loss follows back‑to‑back declines in August and September that together removed more than 100,000 jobs. Economists had forecast a gain of about 13,600 jobs for October.",
+          "importanceScore": 16.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-06T17:59:43.673994+00:00",
+      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
       "cat": "Canada",
       "latestTitle": "Canada loses 4,700 jobs in October, unemployment rises to 6.7%",
-      "latestSummary": "Statistics Canada reported that the Canadian economy shed 4,700 jobs in October 2026, raising the national unemployment rate to 6.7% from 6.5% in September. The loss follows large declines in August and September, when more than 100,000 positions were eliminated combined. Economists surveyed before the release had expected a gain of 13,600 jobs for the month.",
-      "why": "The rise in unemployment is a key labour‑market signal that policymakers and businesses monitor when assessing economic health.",
+      "latestSummary": "Statistics Canada said the economy shed 4,700 jobs in October, raising the unemployment rate to 6.7% from 6.5% in September. The loss follows back‑to‑back declines in August and September that together removed more than 100,000 jobs. Economists had forecast a gain of about 13,600 jobs for October.",
+      "why": "The job loss may affect the Bank of Canada's policy outlook.",
       "url": "https://www.cbc.ca/news/business/canada-jobs-report-oct-2026-statscan-9.7411830?cmp=rss"
     },
     "0f396aee0681b6": {
@@ -3833,7 +3896,82 @@
       "latestSummary": "The Nasdaq gained 1.73% as Nvidia, AMD, Intel and Micron recovered from Thursday’s AI‑driven selloff. Stronger‑than‑expected October jobs data revived worries about a possible December Federal Reserve rate increase. Airbnb shares rose after it lifted its full‑year revenue‑growth forecast, while Atlassian shares fell.",
       "why": "The shift highlights the impact of AI‑related stocks and macro data on markets that Indian investors watch through US‑linked assets.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-opens-higher-as-chips-pare-losses-rate-hike-fears-linger/articleshow/135611515.cms"
+    },
+    "5b478824b2d51a": {
+      "id": "5b478824b2d51a",
+      "firstSeen": "2026-11-06T17:44:02+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T23:11:48.681827+00:00",
+          "title": "EU opens fraud probe into Spanish high‑speed rail upgrades after deadly crash",
+          "summary": "European Union prosecutors have started an investigation into possible misuse of EU funds earmarked for upgrading the Madrid‑Seville high‑speed line after a crash on 28 October killed 69 people. The inquiry, conducted with Spain’s Guardia Civil, is focused on the rail infrastructure authority Adif and the safety agency AESF. It is the second fatal accident on the line this year and the second EU fraud probe, following a January crash that killed 46.",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
+      "cat": "World",
+      "latestTitle": "EU opens fraud probe into Spanish high‑speed rail upgrades after deadly crash",
+      "latestSummary": "European Union prosecutors have started an investigation into possible misuse of EU funds earmarked for upgrading the Madrid‑Seville high‑speed line after a crash on 28 October killed 69 people. The inquiry, conducted with Spain’s Guardia Civil, is focused on the rail infrastructure authority Adif and the safety agency AESF. It is the second fatal accident on the line this year and the second EU fraud probe, following a January crash that killed 46.",
+      "why": "The probe raises questions about the proper use of EU funding and the effectiveness of railway safety oversight.",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss"
+    },
+    "9ad4c028e64fa3": {
+      "id": "9ad4c028e64fa3",
+      "firstSeen": "2026-11-06T22:53:46+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T23:11:48.681827+00:00",
+          "title": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
+          "summary": "Bloomberg, as reported by TechCrunch, says OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion. The round has not closed yet and is expected to finish in the coming weeks, with total commitments potentially reaching about $20 billion. Earlier reports indicated a $30 billion target, which the current amount does not meet.",
+          "importanceScore": 12.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
+      "cat": "AI",
+      "latestTitle": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
+      "latestSummary": "Bloomberg, as reported by TechCrunch, says OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion. The round has not closed yet and is expected to finish in the coming weeks, with total commitments potentially reaching about $20 billion. Earlier reports indicated a $30 billion target, which the current amount does not meet.",
+      "why": "The capital gives OpenAI additional resources to continue its AI development and operational expansion.",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    },
+    "d5cde75f0e48b4": {
+      "id": "d5cde75f0e48b4",
+      "firstSeen": "2026-11-06T21:54:38+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-06T23:11:48.681827+00:00",
+          "title": "Alek Minassian, convicted in deadly 2018 Toronto van attack, drops appeal",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
+      "cat": "Canada",
+      "latestTitle": "Alek Minassian, convicted in deadly 2018 Toronto van attack, drops appeal",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12140631/alek-minassian-convicted-in-deadly-2018-toronto-van-attack-drops-appeal/"
     }
   },
-  "updated": "2026-11-06T17:59:43.673994+00:00"
+  "updated": "2026-11-06T23:11:48.681827+00:00"
 }
