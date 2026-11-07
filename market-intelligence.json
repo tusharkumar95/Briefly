@@ -1,33 +1,36 @@
 {
-  "updated": "2026-11-07T07:47:03.371343+00:00",
+  "updated": "2026-11-07T15:09:10.179825+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 0.52%",
+      "headline": "TSX ends higher as tech stocks recover, Celestica gains 2% after global selloff",
       "direction": "up",
       "move": "S&P/TSX Composite +0.52%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "why": "Tech stocks recovered, which was explicitly cited as the reason the TSX closed higher.",
       "drivers": [
         {
-          "label": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% By Investing.com",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "metal mining shares rally",
+          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Tech stocks recovery",
+          "detail": "Technology stocks rebounded, helping the TSX end higher.",
           "kind": "context"
         },
         {
-          "label": "TSX ends higher as tech stocks recover, Celestica gains 2% after global selloff",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.60%",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "Metal mining rally",
+          "detail": "Metal mining shares rallied, contributing to a weekly gain but not directly linked to the daily close.",
           "kind": "context"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Information Technology",
+        "Materials (Mining)"
+      ],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -38,16 +41,22 @@
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-06T21:20:01+00:00",
+        "asOf": "2026-11-06T21:20:00+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "Reuters",
+          "title": "TSX posts weekly gain as metal mining shares rally - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM3JTcXVCSDQwUlM2T1FfVkQtLVBISm1yaDdQWVg5QTN6RkgzcTEyRHNuRnctZ1RQRkRVcDAwdlE4TEhfbmdWNjV1VmJRXzBNeGJfbHZ1VkpzQkhHZ3NXNkdIOEFKVXdKeFBYLWdveXlqdWJ6QmxycVNhZ0xRNGpRWThkZmlCckVCS29yb2FSdU5kNkZnZ2VyV2R2dURDeFZLaGpCM19B?oc=5",
+          "publishedAt": "2026-11-06T21:51:54+00:00"
+        },
+        {
           "name": "Investing.com India",
           "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% By Investing.com - Investing.com India",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY1dGM2hteDlnQnVJelNVaUFXQTJsR204YTJLUmlYMnlQbmtrQldIcFBZcFhWb0s5TFlDcVY4VnRnMVVkUEc3Y0I1TC1XU2JJNHBra1RzZWVlWFBqVXZ1bHZ6S2VHbERwdXVzeGp5WlRhT1RkLUtUbkxNcWZ5NkxJem1seDN6Q0hyUTNwZXVnVUp3R0J4aW9qVkt0WWZPRkVsM09wOUtRR2wxeEU1RXl5NkpERlZxWkZC?oc=5",
-          "publishedAt": "2026-11-07T02:37:30+00:00"
+          "publishedAt": "2026-11-07T08:32:10+00:00"
         },
         {
           "name": "Investing.com",
@@ -68,30 +77,24 @@
           "publishedAt": "2026-11-06T20:30:00+00:00"
         },
         {
-          "name": "The Globe and Mail",
-          "title": "Nasdaq rebounds but posts fourth straight weekly decline; TSX up on tech strength - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcTZpaXdXYTJ4a1d4ZS1STUI5VkZBTUR2eXZyLVZnWVhsRjBzMEUxRl90dmlwc2V6bTU3RjgxWHJ2Skk5U0swSmwwNEpwMW5kemZKeGpqZzhrRXRvS3B4SEtPS1RVZW5Lb1I5WmxqU2VTTUdWV3hvT21ub1BzTzRHeTlSMUxhMWlkcDN6azVVN01QVmQ5REVFcGgtTUVxWHM5MllaRThMdkxONXg1dWptcUJrRlY3Y3Zja2pRWnozUkUxSXl0TXhGcllLTFhFa3NOU2FncjJJV2d1Tk5pT2M3czJjeFpFX1FDVVdBWQ?oc=5",
-          "publishedAt": "2026-11-06T09:45:06+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "S&P/TSX Composite Index Closes Sharply Lower Amid Broad-Based Selling - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORW5ITDBVb29uMWp6QW5VMm5sN0l2RkppNWtWRW05dDBQdzhCMmJfeHEySHlxM293eGNCQ21UdEhiWkxibW9MN3R1R3N4aFFObngxdW5IT05uTjNROVlZU3pMcTFSWkJabk03ekxKZFRjSGI2X19QbzZMU0NSQUhmNVVnbHRlMk9nOW9KWDhueHpTSUJWLS0xT3dweGF3TXJvbHFvdw?oc=5",
-          "publishedAt": "2026-11-06T11:24:03+00:00"
+          "name": "CTV News",
+          "title": "S&P/TSX composite up more than 150 points, U.S. stock markets mixed - CTV News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTnJaRng1M0EtcmVaN3Z4c0VzWkEtcmxvMlUtQTJFMTNNdGd2YU5FcXRrV1B5SUR1cWlqYUhxS0w4SnhreHJtRU8xZ2RVaU5KeFNOYVpQQ0ZtS19nVWlPUVpQZXUwMTFXZ1dYdzBkUWNuVzVnbWNnUkZZMDM5MEIwejBfd1MxM3FhV0FaVWNtaVAxM3pob2pvSGJwSnQxREVWQU9WNGx2VVc?oc=5",
+          "publishedAt": "2026-11-06T21:30:56+00:00"
         }
       ],
-      "evidenceCount": 7
+      "evidenceCount": 6
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 and Sensex surge; Nifty up 2.01% to 25,030.35 and Sensex up 2.17% to 81,028.02 on strong foreign inflows, easing crude oil, robust bank earnings and a consumer‑durables ra",
+      "headline": "Sensex and Nifty close higher on strong foreign inflows, easing crude oil and robust bank earnings",
       "direction": "up",
       "move": "Nifty 50 +2.01%",
-      "why": "Multiple sources tie the gains to strong foreign inflows (including a notable FII comeback), easing crude‑oil prices, robust earnings from banks and a rally in consumer‑durables stocks. The Economic Times notes the bullish technical structure remains intact after the best weekly performance in five years, and Business Standard highlights the fiscal year ending on a high, providing broader market context.",
+      "why": "The rally was driven by strong foreign portfolio inflows, easing crude‑oil prices and robust earnings from banks, and it occurred despite global technology‑sector turbulence.",
       "drivers": [
         {
-          "label": "Sensex, Nifty rally",
-          "detail": "Business Standard explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Sensex, nifty defy global tech turmoil | Business News",
+          "detail": "Hindustan Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -100,19 +103,19 @@
           "kind": "driver"
         },
         {
-          "label": "Strong foreign inflows (FII comeback)",
-          "detail": "India TV News and BBN Times both cite strong foreign institutional inflows as a primary catalyst for the rally.",
+          "label": "1,718-point rally",
+          "detail": "ad-hoc-news.de explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Easing crude oil",
-          "detail": "BBN Times attributes part of the market lift to lower crude‑oil prices, which reduce cost pressures for Indian companies.",
+          "label": "Foreign inflows",
+          "detail": "Strong foreign portfolio inflows supported the rally",
           "kind": "driver"
         }
       ],
       "sectors": [
-        "Consumer Durables",
-        "Banking/Financial Services"
+        "Banking",
+        "Energy"
       ],
       "confidence": "high",
       "primaryIndex": {
@@ -143,40 +146,40 @@
       },
       "sources": [
         {
+          "name": "Livemint",
+          "title": "Muhurat trading 2026: 80% to 90% — will Sensex, Nifty improve decadal strike rate on ceremonial Diwali session? - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQT3ZXSDhhUDJzSGx3SzVualpwSVFieEZsOTFDemNzUmNqcHFPTXdoOW9Bc21QVUhfLXA1UzdEUXhfQ29rRS1qS3pEWDY5NGNKZGxKaEVxelo5M242ZmFxUnc3VnItNllSbGdpOFd4amlYcUlRMjdxMWdyUS1aa1NWMDlSODYzaTF4UWpicmtzNkU2Nnp4UGU1ZVBZdzNHQWZjOEpYTktqUk0wR0xWckhCSm9ZYzM1S0hPR3BSbTdrdFF6M19WNnpUQUk4cW4tME1qcXVlWXZVQ1ZzTlY1OXI1NkJJZ2J6MjFvdERjRXZ3VkRBaU4zbW1iRWdYeVZMTE1ueHBON9IBigJBVV95cUxOdlltWVFxUXhtNjFnY3BRM0NfbEZwMjRXTUtYcFFRaE1SYllBeWN0UmtSUVJyVkl2WG1xYTFPbUp5ZkNwOXhndjJnS0FpckVUYXRpaTBmYkVmX044akpNWXU5dGEtdWx0ZDJuY0t6Rmd1cnNFakdLN1Q2cnJ6dlVjbzB5ZHpTZUF2N1JlNUtTZ2pXc09CNldnTFVrTEg0dGF1a1VBb3BoV0VoaDdvWWwyNEFoM05XUzBrUHJjdWdvRDdieVFWa19ZY2FRSjdIVU9uN2dzd1BHMnpGN0NUWWQ1YWRGbWRIVUdrVm9wTTVaZzR4NEJPMUpkQk9MaFJ2YkhYR1dJLVRub1hqZw?oc=5",
+          "publishedAt": "2026-11-07T12:06:39+00:00"
+        },
+        {
+          "name": "Livemint",
+          "title": "From Diwali 2025 to Diwali 2026: How Sensex, Nifty 50, rupee, crude oil changed in Samvat 2082 | What lies ahead? - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPX3JOeW5Td3pxS3RrQ3BMODFYRHI0VnhlS1B3TjFaZ2Y0VkhhekJReGhFeWQ5b0hPUUVZVDRRVFd5NEJoWHVzUnFOQzZsNmhkMk9rNzJwS193U0tBdWVoRjlMVDRMa3pzMTFFbzlqUGJFcXZabk5iekVnZmlZWXRBQkpRQ0o5eW5Rc3ZTa2xVM2NwS1lFYkRNU2lKa3VjTVprMEdVSWVVQ1M2TEZfcURON2ZJaFBCM2ozeHpmTDFkYnN2Z1pkQmNWUUl6eUxMRUczclhLTGJ4ME9CQ2lnRTZZM2RpaFl3SDFQbWpQMUN2dWJ6blJBY3JQY0IxUlU3MW0xVl8yVlBQZ9IBjAJBVV95cUxPd0lZSl9aYzJWTWpkWDczTk5LdEV4c3hXbnZ2Z1MtaHZsQ1ZEZ3FoM2stRERLTVd6QUlmSzVUa1I0SnBUU3BHMXJuUmZ3ZTFBTHNHSjFiQUpkRlVpX3pPQzM1OVM1TXFvN3hyUnptLTJqNXFPNm1VWFlzSl9Da3Q4WElLN2tLQWdod2dVMkpSSkItanZsYUo3dm5HX1lXOXRISHZzVDVvRHE5VDZIUzRMN0pQZDlqeGtrQmtoX1JocXBRRVRsZVF0MEVXZFBwU21YRThtb2x6V3A3MjcxXzlOZV91Znc4UjNsSEY5OFJBUlo2SjExQzVHVC10ZnJtS0N0OEFKVTBubGNCeERw?oc=5",
+          "publishedAt": "2026-11-07T11:18:52+00:00"
+        },
+        {
+          "name": "Hindustan Times",
+          "title": "Indian markets surge as Sensex, nifty defy global tech turmoil | Business News - Hindustan Times",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdFZ1bmRFRzM3RUkwcWxGbHRMak9BTmRHNjJWRVY1SHpLaXQtaTNuQU9XQnhJVVUzYTdGVlE3V2VWR2xMZXl3UGNqR0VzZ19kVkk5SFBzbTJZM0VxM1h1azY1dmI0QWdUaXJlX1d0WmkwNlhraTdOV0UxMW54dHVyY21ZQWFsLWRIMkxiOHFMTmQ4bTIzeUFlYk1RYml0a0Z6bjNpRUFhVEZWN1RHT3pobjhPNGJsZHJQOVBzV3gxSdIBxAFBVV95cUxNeHF1aWg5cDF2RGgxWTRRN0tmMUVVSm1ydzR2Rk9MSUNrLWN1ZDZ4SG1VUnp3emJTVURCTG02NFEtbWJwWS12TmFXU3BYcDdBV3RQdXllaWZEdkJscVJKU1Y1bnpUMXQyTzBhUVNfRndDSnZiZW1EbXJZU0d5dWIwNTBkRGJmMkp5eEZvQ1NMQW5oeXpReWJlcDlBVmdveFd6aTJTWm1DdUo2MjJFdk5tZC00dlpldld6aFBiRDY3SnVwMGRx?oc=5",
+          "publishedAt": "2026-11-07T07:58:38+00:00"
+        },
+        {
           "name": "The Economic Times",
           "title": "F&O Talk: Nifty’s bullish structure intact after best week in 5 years; Sudeep Shah on HDFC Bank strategy, - The Economic Times",
           "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZ2c3NVZRaXc5cnRSWmZKckNoVWZZYkp2TG1ZV25YM2hZRUh2TzZGWGR3WVBVUjdnMGpDM0VYWElwVVRUcEV0X0hGZUYxZ1BOV1RDTWJqVVJqZVNNNXpESVNVT2lCTjZwcXdYNTJhcTZvcTJUWm16YWhQa2lMLWpOQnNxTzVfbFdIcXU4R0U2QkR5QWpYVWY2NXpRUjdON25qaUZhZVpodDBHbFRaNEd1TzcxeDBfTGJNRm5ITUo1UVc3QmpjOWxNUUZWdTRGVFdpQUgzV3J3QUhiakZ1dUR3TXhhc3JheTRoYXFnTkxKb0VLV2tRTThMYmxZWF80RlVWMTZfcUthNHp3WE11blprWk1PdW80LXdQTlFmR05YVF95Wlh4c0pLUHRlS2JuMXQxTVF30gG4AkFVX3lxTFBHbi11QXZQOW1uZF91YlZRdW8ta2hvZ0pxM1RBcG1oa0J6WGwyaGM1N2ZrSC1hOWVQV0g0N3NoRTV1NFpsanhFQWEzTmFXWDA3NjdPYk1KTG5pOWdnSEQ0ZXZnaTZhVmtSMFBzeG9CbDJGVWZhNnh4YUtJelAwN2JCUEhqbjg1V3l3d0x4T2lveGFjRmhYOFp1Z0Fmell3QjlKb1RoaU5yMnBoTUU3Y1M2NHJHcmZwVWZIS0d3akY5U2FRclJyNDRsM2pQNDdIamN2MXFIMUVmVVd6Ym9FN2hfRTk0RWFKNnFFOU5ZZTBRV3o0WVlSM1VJUUxPc2F1b1hSMG4xUjZQOG1RTkJ5Y1hJT0ZOUkJRR055bDJNUXdyZnVFNlZwZnFZTF9iYmozbXpMeGFPVU9NYw?oc=5",
           "publishedAt": "2026-11-07T05:55:30+00:00"
         },
         {
-          "name": "Business Standard",
-          "title": "Weakest Samvat in 15 years ends on a high for mkts as Sensex, Nifty rally - Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdG5zLVItTU0wcU1ZWXMzUjJyS2trZmVPOFpkTWNXeVYzQk5fRzE0WVI2dnFicE5JNG9Dd2hySnJMSl9qSHpUb3hRMWNmZ2dIdnpUOUt6VGNQYjBSbXYyR0puU0RPUEZzTEF0ODhyc3pDVkFBSXQ3cmUtaUFNNzJaZDdVbEhZRUlCM0hLMHdQRXdwaXlKd296Q0hkVTYydUhpVWxIUnY5VC1sSl8xLTVPNld2dExjOXZWMjV2ZmRfODZOTzJ0aFZrNjEyX3ZaN09VcXBfWnVB0gHbAUFVX3lxTFBQWEZwaHlTSWh0dDhLZGplbkdCeTFtOWVTTnJ5TkRhOFA1QWFFMElaajR6UDNJQ2poRTlrUnQ1ck8tMy04b1RfOVp6VEVBajVibU9PSnp2THoyN2dWYk9oTTlSc1VnQUtnbTcwUnN3WmVEUmROd0J2TXZ0SWNRNGYtZUFHZUZIZFloYnRGaXB3MEJrVDZTQWlGbjM5T20zMVhHczlSQl90YS1iRk9rSmk3MHdLMDBQbzBUSEFHamU4cUdFa2xPWVBOLWkyWklMbWRfNFJCckhNNGg2WQ?oc=5",
-          "publishedAt": "2026-11-06T17:52:49+00:00"
+          "name": "The Economic Times",
+          "title": "Muhurat Trading 2026: Sensex, Nifty has 80% strike rate. Will this trend continue as Samvat 2083 kicks off - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxON0dGZFMxclAxRE1GTFUzWUtsdG9hMmdlWFNBM0t6T1lXQ1BSY29zQmtFUlkwSXlBem55M0M5STd2STZXMjczajZHUGU2SnJIN3JJYnFraHBZVHBEM0lLRGsxY1c3anJscngtLU9BTkR3UnNUUjVrZGN4NmJfNzRJWVdSQWdBSW53UzdHX2FjQnktUm1MT0NwNFRHNFZHVkpTbmdqdGdQdWh4U0dGVE1uclZPbXFQdnFkYWJxVlBYODdIcWFiVENXeDFlZEdJamVBMndnMGE2MTR1WjN4UzZnaXVSb1ZyN0NwMmtZTnk4UEtIai1lR0pkWkVOQjZxWDVUcGhjLWJOMNIBjAJBVV95cUxPbE15bUhzMXhkT0pnTGZNTW5YVVlCQWMxQXhwNmdpMWVRNi1VRXRZaWozY3RVa2lNeXMzSlBDMkFFWmY0Y19ZcENMNEtIelBEcUNPZVN3V09uMFZ3Tm9KT09UU1cxSi1QT3ZsZE44UFNwRVZZWjlOZTJIV3Zwck1BODUzcElCaWNoM2c0WGx2cUkwTTcyT2w1Ql9VUlNhQ085dUdfZDRPRDRjQWJSX1FxRFZhem9ESWN3NUNqekhFcUdrVWxoVHQ0WDA1WVJkM2lSRWVyVVBJbzA1Z2VtaGEtT3dySXk5b29KMnVkTUJSMEpUMHFXQTRxY0VkZ0RkNTFPYnQ1ZGN1ck9iQ3lv?oc=5",
+          "publishedAt": "2026-11-07T04:56:39+00:00"
         },
         {
           "name": "BBN Times",
           "title": "BSE SENSEX Jumps to 81,028.02, Seventh Straight Gain Amid Strong Foreign Inflows, Easing Crude Oil and Robust Bank Earnings - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSjgtdEJNTGF3LU44RGppY0RCYmpnQnhTYlV5d0pkRXBfQ01nMDlRaDQwajFuNDJiSjNSODRvdGY1MVg0UWU3eTh6b3NJeDIyT1VkRDdTRnNKaFZuaUlkc0RpVjZKQkhJTzQta2stem1JYWFXUkoyOGlrdmN4QWZRZU5RQ1k1dmx6WE1OdW42Ml9sVmVlT0pzRFdmdEtmWkVnb2lXLU5JbUk2aGJ2b01yM2ItY1p3VUxjbzZ5dDRnb1BfbHU0c091Qjg2YlMwMDJQaHdRcUg3czhEQWlHbktWYlZjT1kwT0ZtUHZSMQ?oc=5",
           "publishedAt": "2026-11-06T19:08:10+00:00"
-        },
-        {
-          "name": "scanx.trade",
-          "title": "Nifty Soars 2% to 25,030; Sensex Gains 1,718 Points on Consumer Durables Rally - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOSWdrVFNkOS1LbnRpZVZnU0s4QUd1R0JKOTRzQy02WFMzUGUwSFZ5QjJXUGpEeC1jbkhwZDk4Z1V4T0h1ZnFmb2tsZFJyWkYxS1MwV0tDYS1qYnVKTWlDTkkyNUFnYkFNYXJsSmZMTmtNdjBnUEk3ZEMxaWR4bUlHNnRRVDhnMjVZSzJkX2pDdHM3T1BTVlptOWhwUU1TR245V2ZuUzFfYUNWRDktWGpWbVdVVV9nNXlNLVRRWHI1ckNkR2NxVURVcFFveE56alp6YTVWeE1UbHBuZ3IzTVBVU3U1NTkzRmIwVnZfZXRZVnVFX1licThZRnJNRmZMMFd3?oc=5",
-          "publishedAt": "2026-11-06T10:20:04+00:00"
-        },
-        {
-          "name": "India TV News",
-          "title": "Bull run continues, Sensex surges over 1,700 points, Nifty reclaims 25,000 on strong FII comeback - India TV News",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ2s3TmtZZzFvZEtTT3pSdG5iSEp4azdiOUhvNWNMcng1OTNiNU9YZlpWZ2k5NU1kZ3N1anJmdDVlN2RFcnR2eHpSc25vdUxDU08xTmMzT2lvM1o2NkxuRndySWZyS3kwQnk4UEZlT3piNDh1Wnp0ZnFVQ3o4M0hrMl9nelMyb0ZJZWFKSzNjMGpwaDlkQzVORU9wRUpBam9mMTFURlBYQWVzTmVPSmRpZGtlOFg2dzQxWk9VVmtKYjdsMUFYQU5BczU5N09XZ9IB0wFBVV95cUxPcFpxNkhqazBuOHNqd0JaZ0NWVUR1ZWhHNm9LVjBZUVkzcVVfOHRhcVlzRFFEek1XUDZXc2ttSjlyTEllLWRBZ1ZNUW81UmtpeUtmNjBwN09ULXJfVFUwbmx4Xy1jb2NRekRkeEZMX2pWSzdqakFrYl9FLVEwblFFMnRPbHBFUXNLVVJPM1BjNzVvcVBaSm1tMVh5VmJyNk1hS3JRVWw3VmFaOUhjazNkTTllVDVyR29FRTQ2UXBlbFpTVm11bDNKaHg2RDFtSlJWRTE0?oc=5",
-          "publishedAt": "2026-11-06T10:11:39+00:00"
-        },
-        {
-          "name": "Univest",
-          "title": "Stock Market Prediction for Monday: 9 Nov Levels, Nifty 25,030 - Univest",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tSkxiMER6bmdycEdzWDhIQTFlYVF6a0JJY3h0VWNFTGEzOG5raUFyNG1Wb0dWSFdNaFJHZURjQi1rVDEzeHFEUWtJdmlZeHU5SkxOYnNZMWM5OTlnY1ZDWkR5ekQwcnZwby1SaDl2bkQ?oc=5",
-          "publishedAt": "2026-11-07T03:52:43+00:00"
         }
       ],
       "evidenceCount": 7
