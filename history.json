@@ -3,70 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-04T09:18:34.984683+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "f05ff71d5935b8",
-          "cat": "India",
-          "title": "RBI forms technical consultative committee to review market infrastructure",
-          "summary": "The Reserve Bank of India has created a technical consultative committee that includes seven external members from banks and other financial institutions. The committee will engage with market participants to examine the functioning and efficiency of money and related derivative markets, and to assess both domestic and international developments that affect market infrastructure.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-04T06:51:26+00:00",
-          "firstSeen": "2026-11-04T06:51:26+00:00",
-          "importanceScore": 13.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-sets-up-panel-with-banks-market-players-to-review-financial-market-issues/articleshow/135528321.cms"
-        },
-        {
-          "id": "cec0f040136fde",
-          "cat": "Indian Markets",
-          "title": "Super Micro stock soars: AI server boom drives record earnings",
-          "summary": "(Sources: Reuters, Quartz, KuCoin) Super Micro reported first-quarter fiscal 2027 revenue of $19.95 billion, compared with $5.02 billion a year earlier. Super Micro forecasts second-quarter revenue of $19.5 billion to $21.5 billion, exceeding Wall Street's estimate of $17.14 billion, according to Reuters.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-04T06:50:29+00:00",
-          "firstSeen": "2026-11-04T06:50:29+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/super-micro-stock-soars-ai-server-boom-drives-record-earnings/slideshow/135529517.cms"
-        },
-        {
-          "id": "6bbcd72d78a763",
-          "cat": "AI",
-          "title": "Anthropic is still grappling with the economics of compute",
-          "summary": "In particular, the company is finally disclosing more about the economics of compute, and how much of Anthropic’s skyrocketing revenue is being lost to compute costs. Broadly, Anthropic had a good quarter: revenue reached $17 billion, up from $11.5 billion in the previous quarter, suggesting durable growth.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-03T17:07:01+00:00",
-          "firstSeen": "2026-11-03T17:07:01+00:00",
-          "importanceScore": 11.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-04T17:59:37.132603+00:00",
       "changeSummary": {
         "new": 3,
@@ -1155,175 +1091,109 @@
           "url": "https://globalnews.ca/news/12140631/alek-minassian-convicted-in-deadly-2018-toronto-van-attack-drops-appeal/"
         }
       ]
+    },
+    {
+      "at": "2026-11-07T10:15:49.710814+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 1,
+        "continuing": 2
+      },
+      "stories": [
+        {
+          "id": "e9e68eea47ae36",
+          "cat": "Canada",
+          "title": "Canada loses 4,700 jobs in October, unemployment rises to 6.7%",
+          "summary": "Statistics Canada reported that the Canadian economy shed 4,700 jobs in October 2026, while the unemployment rate increased to 6.7% from 6.5% in September. The loss follows large back‑to‑back job cuts in August and September that together removed more than 100,000 positions. Economists surveyed before the release had expected a gain of about 13,600 jobs for October.",
+          "why": "The higher unemployment rate signals a weakening labour market.",
+          "publishedAt": "2026-11-06T13:40:12+00:00",
+          "firstSeen": "2026-11-06T13:40:12+00:00",
+          "importanceScore": 15.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/canada-jobs-report-oct-2026-statscan-9.7411830?cmp=rss"
+        },
+        {
+          "id": "5b478824b2d51a",
+          "cat": "World",
+          "title": "EU launches fraud probe into Spanish rail authorities after deadly high‑speed crash",
+          "summary": "European Union prosecutors have opened a fraud investigation into possible misuse of EU funds for upgrading Spain’s high‑speed rail network after the 28 October Madrid‑Seville crash that killed 69 people. The inquiry is focused on the rail infrastructure authority Adif and the safety agency AESF. It follows a similar EU fraud probe after a January crash on the same line that killed 46 people.",
+          "why": "It highlights concerns over how EU funding is used and the oversight of railway safety.",
+          "publishedAt": "2026-11-06T17:44:02+00:00",
+          "firstSeen": "2026-11-06T17:44:02+00:00",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "9ad4c028e64fa3",
+          "cat": "AI",
+          "title": "OpenAI raises $11 billion, valuation $1.25 trillion",
+          "summary": "OpenAI has reportedly secured $11 billion in a funding round that values the company at $1.25 trillion. The round is still open and Bloomberg expects it could close in the coming weeks with total commitments around $20 billion, below the earlier September target of $30 billion. TechCrunch has asked OpenAI for comment and is awaiting a response.",
+          "why": "The influx of capital and trillion‑plus valuation underscore strong investor confidence in generative‑AI and may shift competitive dynamics in the sector.",
+          "publishedAt": "2026-11-06T22:53:46+00:00",
+          "firstSeen": "2026-11-06T22:53:46+00:00",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        },
+        {
+          "id": "8acd95a80755f2",
+          "cat": "Canada",
+          "title": "U.S. Treasury sanctions Canadian firms connected to Ryan Wedding and Iran",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-06T23:25:19+00:00",
+          "firstSeen": "2026-11-06T23:25:19+00:00",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://globalnews.ca/news/12140771/us-canada-sanctions-iran-ryan-wedding/"
+        },
+        {
+          "id": "4bd712baa6ab43",
+          "cat": "AI",
+          "title": "Google buys unfinished Wyoming data center project from Crusoe",
+          "summary": "Denver‑based data center developer Crusoe confirmed it has sold an unfinished data center project in southeastern Wyoming to Google. The project, announced last year with Blackstone‑backed Tallgrass and planned to eventually reach 10 GW of power capacity, faced cost and timeline concerns under Crusoe’s management. Google did not disclose the purchase price but announced a $17 billion investment to develop the campus.",
+          "why": "The deal highlights the difficulty independent developers have delivering large‑scale data center projects on time and within budget.",
+          "publishedAt": "2026-11-07T01:40:28+00:00",
+          "firstSeen": "2026-11-07T01:40:28+00:00",
+          "importanceScore": 9.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        }
+      ]
     }
   ],
   "events": {
-    "d52e04d55e06b3": {
-      "id": "d52e04d55e06b3",
-      "firstSeen": "2026-10-30T12:34:46+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T14:12:54.558754+00:00",
-          "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
-          "summary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-30T19:26:08.930994+00:00",
-          "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
-          "summary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
-          "importanceScore": 10.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-30T23:50:21.377005+00:00",
-          "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
-          "summary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
-          "importanceScore": 10.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-31T05:47:21.241159+00:00",
-          "title": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
-          "summary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
-          "importanceScore": 9.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
-      "cat": "India",
-      "latestTitle": "India PE/VC investments jump 45% to $7 billion in September, highest in over two years",
-      "latestSummary": "Private equity and venture capital investments in India saw significant growth in September 2026. Large-value deals accounted for 76% of the total investments during the July-September quarter.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-pe/vc-investments-jump-45-to-7-billion-in-september-highest-in-over-two-years/articleshow/135362031.cms"
-    },
-    "ce4ce93e599bdb": {
-      "id": "ce4ce93e599bdb",
-      "firstSeen": "2026-10-30T16:26:11+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T19:26:08.930994+00:00",
-          "title": "Hundreds evacuated from Russian‑occupied Oleshky after humanitarian ceasefire",
-          "summary": "Russian and Ukrainian authorities said that hundreds of residents were evacuated from the occupied city of Oleshky following a humanitarian ceasefire that the source attributes to U.S. First Lady Melania Trump. Russia’s human‑rights ombudsman Yana Lantratova described the operation as incident‑free and well organised. Ukrainian officials indicated the evacuees would travel through southern Russia and Belarus to reach Ukraine.",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-30T23:50:21.377005+00:00",
-          "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-          "summary": "Hundreds of residents of the devastated Russian-occupied city of Oleshky have been evacuated, Russian and Ukrainian authorities have said, following a humanitarian ceasefire brokered by US First Lady Melania Trump. Ukrainian authorities confirmed the evacuees were on their way to southern Russia, from where they will travel on to Ukraine through Belarus.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-31T05:47:21.241159+00:00",
-          "title": "Hundreds Evacuated from Russian‑Occupied Oleshky During Humanitarian Ceasefire",
-          "summary": "On Friday, hundreds of residents of Oleshky, a city under Russian occupation, were evacuated during a four‑hour humanitarian ceasefire that the BBC reports was brokered by U.S. First Lady Melania Trump. The evacuation took place despite ongoing shortages of electricity and water, and some residents chose to remain in the city.",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
-      "cat": "World",
-      "latestTitle": "Hundreds Evacuated from Russian‑Occupied Oleshky During Humanitarian Ceasefire",
-      "latestSummary": "On Friday, hundreds of residents of Oleshky, a city under Russian occupation, were evacuated during a four‑hour humanitarian ceasefire that the BBC reports was brokered by U.S. First Lady Melania Trump. The evacuation took place despite ongoing shortages of electricity and water, and some residents chose to remain in the city.",
-      "why": "The evacuation underscores the severe humanitarian challenges in occupied zones and demonstrates how ceasefire agreements can create brief windows for civilian safety.",
-      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss"
-    },
-    "61ff37d6f2d42e": {
-      "id": "61ff37d6f2d42e",
-      "firstSeen": "2026-10-30T15:03:39+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T19:26:08.930994+00:00",
-          "title": "Spain transport minister says he will not resign after high‑speed rail crash",
-          "summary": "Spain’s transport minister Óscar Puente told a news conference in Madrid that he will not resign following the high‑speed rail collision that has left at least 69 people dead. He said he has “nothing to hide” and reiterated the government’s pledge to investigate the disaster fully. Puente emphasized that his priority is to resolve the problem rather than discuss his position.",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-30T23:50:21.377005+00:00",
-          "title": "Spain transport minister says he will not resign after high‑speed rail collision",
-          "summary": "Spain’s transport minister Óscar Puente told a news conference in Madrid that he will not resign following the high‑speed rail collision that has killed at least 69 people. He said he has “nothing to hide” and emphasized the government’s commitment to investigate the disaster fully. Puente added that his priority is to resolve the problem rather than discuss his position.",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-31T05:47:21.241159+00:00",
-          "title": "Spain transport minister says he will not resign after high‑speed rail crash",
-          "summary": "Spain's transport minister Óscar Puente told a Madrid news conference that he will not resign following the high‑speed rail collision that killed at least 69 people. He said he has “nothing to hide” and that his priority is to resolve the problem rather than discuss his position. He acknowledged ongoing calls for his resignation from political opponents, a trade union and protesters who demonstrated outside the ministry.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-31T05:47:21.241159+00:00",
-      "cat": "World",
-      "latestTitle": "Spain transport minister says he will not resign after high‑speed rail crash",
-      "latestSummary": "Spain's transport minister Óscar Puente told a Madrid news conference that he will not resign following the high‑speed rail collision that killed at least 69 people. He said he has “nothing to hide” and that his priority is to resolve the problem rather than discuss his position. He acknowledged ongoing calls for his resignation from political opponents, a trade union and protesters who demonstrated outside the ministry.",
-      "why": "It indicates how the government is handling political accountability while addressing the emergency response to a major transport disaster.",
-      "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss"
-    },
     "e05697a7bed6d2": {
       "id": "e05697a7bed6d2",
       "firstSeen": "2026-10-30T15:09:07+00:00",
@@ -3876,13 +3746,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-11-07T10:15:49.710814+00:00",
+          "title": "Canada loses 4,700 jobs in October, unemployment rises to 6.7%",
+          "summary": "Statistics Canada reported that the Canadian economy shed 4,700 jobs in October 2026, while the unemployment rate increased to 6.7% from 6.5% in September. The loss follows large back‑to‑back job cuts in August and September that together removed more than 100,000 positions. Economists surveyed before the release had expected a gain of about 13,600 jobs for October.",
+          "importanceScore": 15.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-07T02:50:28.319139+00:00",
+      "lastSeen": "2026-11-07T10:15:49.710814+00:00",
       "cat": "Canada",
       "latestTitle": "Canada loses 4,700 jobs in October, unemployment rises to 6.7%",
-      "latestSummary": "Statistics Canada reported a loss of 4,700 jobs in October 2026, pushing the national unemployment rate up to 6.7% from 6.5% in September. The decline follows larger back‑to‑back job losses in August and September that together eliminated more than 100,000 positions. Economists had previously forecast a gain of 13,600 jobs for October.",
-      "why": "The rise in unemployment signals a weakening labour market, which can affect consumer spending and policy decisions.",
+      "latestSummary": "Statistics Canada reported that the Canadian economy shed 4,700 jobs in October 2026, while the unemployment rate increased to 6.7% from 6.5% in September. The loss follows large back‑to‑back job cuts in August and September that together removed more than 100,000 positions. Economists surveyed before the release had expected a gain of about 13,600 jobs for October.",
+      "why": "The higher unemployment rate signals a weakening labour market.",
       "url": "https://www.cbc.ca/news/business/canada-jobs-report-oct-2026-statscan-9.7411830?cmp=rss"
     },
     "0f396aee0681b6": {
@@ -3926,13 +3809,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-07T10:15:49.710814+00:00",
+          "title": "EU launches fraud probe into Spanish rail authorities after deadly high‑speed crash",
+          "summary": "European Union prosecutors have opened a fraud investigation into possible misuse of EU funds for upgrading Spain’s high‑speed rail network after the 28 October Madrid‑Seville crash that killed 69 people. The inquiry is focused on the rail infrastructure authority Adif and the safety agency AESF. It follows a similar EU fraud probe after a January crash on the same line that killed 46 people.",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
+      "lastSeen": "2026-11-07T10:15:49.710814+00:00",
       "cat": "World",
-      "latestTitle": "EU opens fraud probe into Spanish high‑speed rail upgrades after deadly crash",
-      "latestSummary": "European Union prosecutors have started an investigation into possible misuse of EU funds earmarked for upgrading the Madrid‑Seville high‑speed line after a crash on 28 October killed 69 people. The inquiry, conducted with Spain’s Guardia Civil, is focused on the rail infrastructure authority Adif and the safety agency AESF. It is the second fatal accident on the line this year and the second EU fraud probe, following a January crash that killed 46.",
-      "why": "The probe raises questions about the proper use of EU funding and the effectiveness of railway safety oversight.",
+      "latestTitle": "EU launches fraud probe into Spanish rail authorities after deadly high‑speed crash",
+      "latestSummary": "European Union prosecutors have opened a fraud investigation into possible misuse of EU funds for upgrading Spain’s high‑speed rail network after the 28 October Madrid‑Seville crash that killed 69 people. The inquiry is focused on the rail infrastructure authority Adif and the safety agency AESF. It follows a similar EU fraud probe after a January crash on the same line that killed 46 people.",
+      "why": "It highlights concerns over how EU funding is used and the oversight of railway safety.",
       "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss"
     },
     "9ad4c028e64fa3": {
@@ -3964,13 +3860,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-07T10:15:49.710814+00:00",
+          "title": "OpenAI raises $11 billion, valuation $1.25 trillion",
+          "summary": "OpenAI has reportedly secured $11 billion in a funding round that values the company at $1.25 trillion. The round is still open and Bloomberg expects it could close in the coming weeks with total commitments around $20 billion, below the earlier September target of $30 billion. TechCrunch has asked OpenAI for comment and is awaiting a response.",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-07T02:50:28.319139+00:00",
+      "lastSeen": "2026-11-07T10:15:49.710814+00:00",
       "cat": "AI",
-      "latestTitle": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "latestSummary": "OpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion. Bloomberg writes that some potential buyers believe Anthropic’s valuation could be as low as $1.1 trillion, compared with the $2 trillion that investors were said to be expecting roughly a month ago.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "latestTitle": "OpenAI raises $11 billion, valuation $1.25 trillion",
+      "latestSummary": "OpenAI has reportedly secured $11 billion in a funding round that values the company at $1.25 trillion. The round is still open and Bloomberg expects it could close in the coming weeks with total commitments around $20 billion, below the earlier September target of $30 billion. TechCrunch has asked OpenAI for comment and is awaiting a response.",
+      "why": "The influx of capital and trillion‑plus valuation underscore strong investor confidence in generative‑AI and may shift competitive dynamics in the sector.",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
     },
     "d5cde75f0e48b4": {
@@ -4027,15 +3936,53 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-07T10:15:49.710814+00:00",
+          "title": "U.S. Treasury sanctions Canadian firms connected to Ryan Wedding and Iran",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-07T02:50:28.319139+00:00",
+      "lastSeen": "2026-11-07T10:15:49.710814+00:00",
       "cat": "Canada",
       "latestTitle": "U.S. Treasury sanctions Canadian firms connected to Ryan Wedding and Iran",
       "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
       "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://globalnews.ca/news/12140771/us-canada-sanctions-iran-ryan-wedding/"
+    },
+    "4bd712baa6ab43": {
+      "id": "4bd712baa6ab43",
+      "firstSeen": "2026-11-07T01:40:28+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-07T10:15:49.710814+00:00",
+          "title": "Google buys unfinished Wyoming data center project from Crusoe",
+          "summary": "Denver‑based data center developer Crusoe confirmed it has sold an unfinished data center project in southeastern Wyoming to Google. The project, announced last year with Blackstone‑backed Tallgrass and planned to eventually reach 10 GW of power capacity, faced cost and timeline concerns under Crusoe’s management. Google did not disclose the purchase price but announced a $17 billion investment to develop the campus.",
+          "importanceScore": 9.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-07T10:15:49.710814+00:00",
+      "cat": "AI",
+      "latestTitle": "Google buys unfinished Wyoming data center project from Crusoe",
+      "latestSummary": "Denver‑based data center developer Crusoe confirmed it has sold an unfinished data center project in southeastern Wyoming to Google. The project, announced last year with Blackstone‑backed Tallgrass and planned to eventually reach 10 GW of power capacity, faced cost and timeline concerns under Crusoe’s management. Google did not disclose the purchase price but announced a $17 billion investment to develop the campus.",
+      "why": "The deal highlights the difficulty independent developers have delivering large‑scale data center projects on time and within budget.",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
     }
   },
-  "updated": "2026-11-07T02:50:28.319139+00:00"
+  "updated": "2026-11-07T10:15:49.710814+00:00"
 }
