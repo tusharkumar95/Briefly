@@ -1191,137 +1191,55 @@
           "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
         }
       ]
+    },
+    {
+      "at": "2026-11-07T16:31:00.979460+00:00",
+      "changeSummary": {
+        "new": 0,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "9ad4c028e64fa3",
+          "cat": "AI",
+          "title": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
+          "summary": "OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion, according to Bloomberg as reported by TechCrunch. The $11 billion is part of a larger round that has not yet closed and may total about $20 billion, below the $30 billion target mentioned in September. OpenAI has not responded to comment requests.",
+          "why": "The funding could enable OpenAI to expand development and deployment of its advanced AI models.",
+          "publishedAt": "2026-11-06T22:53:46+00:00",
+          "firstSeen": "2026-11-06T22:53:46+00:00",
+          "importanceScore": 10.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        },
+        {
+          "id": "4bd712baa6ab43",
+          "cat": "AI",
+          "title": "Google buys unfinished Wyoming data center project from Crusoe",
+          "summary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it sold its unfinished data‑center project in southeastern Wyoming to Google. Google, which Crusoe had previously tried to win as a customer, will take over development and has announced a $17 billion investment to build the campus. The project was originally announced with Tallgrass to eventually reach 10 GW of capacity.",
+          "why": "The transaction illustrates the challenges independent developers face delivering large‑scale data‑center projects and shows Google’s commitment to expanding its infrastructure capacity.",
+          "publishedAt": "2026-11-07T01:40:28+00:00",
+          "firstSeen": "2026-11-07T01:40:28+00:00",
+          "importanceScore": 8.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        }
+      ]
     }
   ],
   "events": {
-    "e05697a7bed6d2": {
-      "id": "e05697a7bed6d2",
-      "firstSeen": "2026-10-30T15:09:07+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T19:26:08.930994+00:00",
-          "title": "India's services trade surplus rises to $53.39 billion in Q2",
-          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-30T23:50:21.377005+00:00",
-          "title": "India's services trade surplus rises to $53.39 billion in Q2",
-          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-31T05:47:21.241159+00:00",
-          "title": "India's services trade surplus rises to $53.39 billion in Q2",
-          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-          "importanceScore": 11.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-31T12:37:01.316326+00:00",
-          "title": "India's services trade surplus rises to $53.39 billion in Q2",
-          "summary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-          "importanceScore": 11.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
-      "cat": "India",
-      "latestTitle": "India's services trade surplus rises to $53.39 billion in Q2",
-      "latestSummary": "The country received $113.029 billion under this head during the three months while it paid $59.637 billion, the data showed. September saw the biggest surplus at $19.208 billion while it was $17.647 billion and $16.537 billion in July and August respectively.",
-      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-services-trade-surplus-rises-to-53-39-billion-in-q2/articleshow/135367632.cms"
-    },
-    "32868080ca4f59": {
-      "id": "32868080ca4f59",
-      "firstSeen": "2026-10-30T15:13:38+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-30T19:26:08.930994+00:00",
-          "title": "RBI holds 625th Central Board meeting, discusses economic risks",
-          "summary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra. The board deliberated on a range of economic risks facing the country. No further details on specific topics or outcomes were provided in the source.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-10-30T23:50:21.377005+00:00",
-          "title": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
-          "summary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-10-31T05:47:21.241159+00:00",
-          "title": "RBI discusses economic risks at 625th Central Board meeting",
-          "summary": "The Reserve Bank of India convened its 625th Central Board meeting, chaired by Governor Sanjay Malhotra, during which board members deliberated a range of economic risks facing the country. The Economic Times reported that the discussion centered on assessing macro‑economic challenges that could impact financial stability and credit conditions.",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-10-31T12:37:01.316326+00:00",
-          "title": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
-          "summary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
-      "cat": "India",
-      "latestTitle": "RBI deliberates economic risks at 625th Central Board meeting chaired by Governor Sanjay Malhotra",
-      "latestSummary": "The Reserve Bank of India conducted its 625th Central Board meeting under Governor Sanjay Malhotra. The board reviewed economic conditions and potential risks facing India’s economy while evaluating the Deposit Insurance and Credit Guarantee Corporation’s activities.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-deliberates-economic-risks-at-625th-central-board-meeting-chaired-by-governor-sanjay-malhotra/articleshow/135367509.cms"
-    },
     "ff21767ceb6fa6": {
       "id": "ff21767ceb6fa6",
       "firstSeen": "2026-10-31T05:44:21+00:00",
@@ -1551,56 +1469,6 @@
       "latestSummary": "The Nifty index rose 2% last week, moving back above its 200‑week moving average of 22,700. Analysts see immediate resistance between 23,300 and 23,450 and key support in the 22,750‑22,525 range for the upcoming week. Easing volatility and buying at lower levels underpin the rebound, though bearish momentum indicators call for caution. Trending stocks include SBI, Axis Bank, HDFC Bank, Infosys, Wipro and NTPC.",
       "why": "The identified support and resistance zones will guide short‑term trading decisions for market participants.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-weak-ahead-nifty-stands-on-firmer-footing-but-can-it-break-past-23450/articleshow/135396431.cms"
-    },
-    "35ef422b48eb48": {
-      "id": "35ef422b48eb48",
-      "firstSeen": "2026-10-31T01:46:14+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-31T12:37:01.316326+00:00",
-          "title": "Violent Toronto home invasion was ‘terrifying,’ real estate CEO says as police seek suspects",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
-      "cat": "Canada",
-      "latestTitle": "Violent Toronto home invasion was ‘terrifying,’ real estate CEO says as police seek suspects",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://globalnews.ca/news/12128478/violent-toronto-home-invasion-terrifying-ceo-family/"
-    },
-    "1e4eed6fc7433f": {
-      "id": "1e4eed6fc7433f",
-      "firstSeen": "2026-10-30T13:30:14+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-31T12:37:01.316326+00:00",
-          "title": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
-          "summary": "India's trade agreements are expected to provide exporters preferential access to markets with a combined GDP of $85 trillion, covering 76% of the global economy, Commerce Minister Piyush Goyal said. Piyush Goyal said India's expanding network of trade agreements will open access to an $85 trillion global market, urging domestic exporters to move beyond the home market and build global brands.",
-          "importanceScore": 9.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-10-31T12:37:01.316326+00:00",
-      "cat": "India",
-      "latestTitle": "India’s FTAs to open access to $85 trillion market; Piyush Goyal urges exporters to go global",
-      "latestSummary": "India's trade agreements are expected to provide exporters preferential access to markets with a combined GDP of $85 trillion, covering 76% of the global economy, Commerce Minister Piyush Goyal said. Piyush Goyal said India's expanding network of trade agreements will open access to an $85 trillion global market, urging domestic exporters to move beyond the home market and build global brands.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-ftas-to-open-access-to-85-trillion-market-piyush-goyal-urges-exporters-to-go-global/articleshow/135363629.cms"
     },
     "be3dc9258aca67": {
       "id": "be3dc9258aca67",
@@ -3873,13 +3741,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-07T16:31:00.979460+00:00",
+          "title": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
+          "summary": "OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion, according to Bloomberg as reported by TechCrunch. The $11 billion is part of a larger round that has not yet closed and may total about $20 billion, below the $30 billion target mentioned in September. OpenAI has not responded to comment requests.",
+          "importanceScore": 10.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-07T10:15:49.710814+00:00",
+      "lastSeen": "2026-11-07T16:31:00.979460+00:00",
       "cat": "AI",
-      "latestTitle": "OpenAI raises $11 billion, valuation $1.25 trillion",
-      "latestSummary": "OpenAI has reportedly secured $11 billion in a funding round that values the company at $1.25 trillion. The round is still open and Bloomberg expects it could close in the coming weeks with total commitments around $20 billion, below the earlier September target of $30 billion. TechCrunch has asked OpenAI for comment and is awaiting a response.",
-      "why": "The influx of capital and trillion‑plus valuation underscore strong investor confidence in generative‑AI and may shift competitive dynamics in the sector.",
+      "latestTitle": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
+      "latestSummary": "OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion, according to Bloomberg as reported by TechCrunch. The $11 billion is part of a larger round that has not yet closed and may total about $20 billion, below the $30 billion target mentioned in September. OpenAI has not responded to comment requests.",
+      "why": "The funding could enable OpenAI to expand development and deployment of its advanced AI models.",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
     },
     "d5cde75f0e48b4": {
@@ -3974,15 +3855,28 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-07T16:31:00.979460+00:00",
+          "title": "Google buys unfinished Wyoming data center project from Crusoe",
+          "summary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it sold its unfinished data‑center project in southeastern Wyoming to Google. Google, which Crusoe had previously tried to win as a customer, will take over development and has announced a $17 billion investment to build the campus. The project was originally announced with Tallgrass to eventually reach 10 GW of capacity.",
+          "importanceScore": 8.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-07T10:15:49.710814+00:00",
+      "lastSeen": "2026-11-07T16:31:00.979460+00:00",
       "cat": "AI",
       "latestTitle": "Google buys unfinished Wyoming data center project from Crusoe",
-      "latestSummary": "Denver‑based data center developer Crusoe confirmed it has sold an unfinished data center project in southeastern Wyoming to Google. The project, announced last year with Blackstone‑backed Tallgrass and planned to eventually reach 10 GW of power capacity, faced cost and timeline concerns under Crusoe’s management. Google did not disclose the purchase price but announced a $17 billion investment to develop the campus.",
-      "why": "The deal highlights the difficulty independent developers have delivering large‑scale data center projects on time and within budget.",
+      "latestSummary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it sold its unfinished data‑center project in southeastern Wyoming to Google. Google, which Crusoe had previously tried to win as a customer, will take over development and has announced a $17 billion investment to build the campus. The project was originally announced with Tallgrass to eventually reach 10 GW of capacity.",
+      "why": "The transaction illustrates the challenges independent developers face delivering large‑scale data‑center projects and shows Google’s commitment to expanding its infrastructure capacity.",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
     }
   },
-  "updated": "2026-11-07T10:15:49.710814+00:00"
+  "updated": "2026-11-07T16:31:00.979460+00:00"
 }
