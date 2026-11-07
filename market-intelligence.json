@@ -1,31 +1,28 @@
 {
-  "updated": "2026-11-07T19:37:15.845892+00:00",
+  "updated": "2026-11-07T23:02:06.883117+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX rises 0.5% as metal mining and tech stocks lift market",
+      "headline": "TSX rises as tech stocks rebound, Celestica jumps 2%",
       "direction": "up",
       "move": "S&P/TSX Composite +0.52%",
-      "why": "The index gained as metal mining shares rallied, driving the weekly advance, and technology stocks recovered, highlighted by Celestica’s 2% gain after a global sell‑off.",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "metal mining shares rally",
-          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Tech stocks recovery",
+          "detail": "Broad tech sector rallied, contributing to the index rise.",
+          "kind": "context"
         },
         {
-          "label": "Tech stocks recovery",
-          "detail": "Technology sector rebounded, with Celestica up 2% after a global sell‑off, supporting the index",
+          "label": "Celestica gain",
+          "detail": "Celestica shares rose 2% after the global selloff, adding upward pressure.",
           "kind": "context"
         }
       ],
-      "sectors": [
-        "Materials",
-        "Technology"
-      ],
-      "confidence": "medium",
+      "sectors": [],
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -42,12 +39,6 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Reuters",
-          "title": "TSX posts weekly gain as metal mining shares rally - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM3JTcXVCSDQwUlM2T1FfVkQtLVBISm1yaDdQWVg5QTN6RkgzcTEyRHNuRnctZ1RQRkRVcDAwdlE4TEhfbmdWNjV1VmJRXzBNeGJfbHZ1VkpzQkhHZ3NXNkdIOEFKVXdKeFBYLWdveXlqdWJ6QmxycVNhZ0xRNGpRWThkZmlCckVCS29yb2FSdU5kNkZnZ2VyV2R2dURDeFZLaGpCM19B?oc=5",
-          "publishedAt": "2026-11-06T21:51:54+00:00"
-        },
-        {
           "name": "Investing.com India",
           "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% By Investing.com - Investing.com India",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY1dGM2hteDlnQnVJelNVaUFXQTJsR204YTJLUmlYMnlQbmtrQldIcFBZcFhWb0s5TFlDcVY4VnRnMVVkUEc3Y0I1TC1XU2JJNHBra1RzZWVlWFBqVXZ1bHZ6S2VHbERwdXVzeGp5WlRhT1RkLUtUbkxNcWZ5NkxJem1seDN6Q0hyUTNwZXVnVUp3R0J4aW9qVkt0WWZPRkVsM09wOUtRR2wxeEU1RXl5NkpERlZxWkZC?oc=5",
@@ -58,27 +49,9 @@
           "title": "TSX ends higher as tech stocks recover, Celestica gains 2% after global selloff - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQk9vTUZwSWk5emFuajRSNi1lcXNGVXVranBBTlVKZWJFclI5TjhrWlJWSWdkeHhKR2UzcmZkOHBuY2oxOFIzTWdyU25aQVpQNmw4ZkZscUU2QzlkQThScTBLcm1NZDFSRHcyTXlCSmQ4akRaS3lKZGFDU1hHNldwQVI5dS1IRzZ3aG1oRnNMZ1ZvOVRCU3JZd1VTSFFBNW0xV2hVUlJjRUZ1Zk1uTnlad1lRZmg4VWpfM1E?oc=5",
           "publishedAt": "2026-11-07T00:31:24+00:00"
-        },
-        {
-          "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.60% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbjBLM25hNkdKdjRCcjBWdmdzTHpzUEd4aFFESUNyTWFfMmdMWEYyLWlpU19mRXFYbHhpN2c1YTNyOG1XSWpjTmgyN0FNZjFfWHJwdkZZdW0zbGY2cWxXal91SVFWd09jSGU5ZkptYzN0N202YUpvNTZ2alI2cVJ0Z2xPbW9LTDZULW82a1BFYzdyZW9xdVZISUNYZ3pKNlk3NlBVMzM2UzIzLUZ6WmRqby04Ym80WEFoc1E?oc=5",
-          "publishedAt": "2026-11-06T21:03:52+00:00"
-        },
-        {
-          "name": "Investing.com UK",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTmRhcEJnM0h2TklGTUgxUjEzZC0zLWF1dlBfWXFDcW9LWDI2NVA5amRvM05xZUNoT1pUZXRJYlpndnNKS1ZrdFZ5eHRDYk1jQ2YzY2JwU2tfOS1uSnVQMm81QnpxUEdnajN1MDRaTjVMV3NUOW1EMzhIYVhWUHJ3VzAzcE1hVXNQQUpMR3JBM2tZaEVFVTlYeFhzcktKRHNEM0hLT09NRXE5a2phbWNMUnZuUFZ5akd0?oc=5",
-          "publishedAt": "2026-11-06T20:30:00+00:00"
-        },
-        {
-          "name": "ad-hoc-news.de",
-          "title": "S&P/ TSX Composite Ends November 6 Down 0.21% - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMWU2VVV4dFl2YnA0UjNBbmljanlQdzR1Wi1KTkl6bE5hZHFQQlNnWmZfa0c5enRXREpMTHlURHgxYTdtcGFVVlQ3Q0lrM2dCbFB2SXZpMko3OUxRcFhKcXZaS1VwMFNUMDFjaE5sOXQ2Q1FSWWZKQkZ4OTR6a21UQ2FBZnM0NlhFNlJKQUVONl9VNG5Kcm5sOVh5NWpCVmR2d1hXYVgtMG0?oc=5",
-          "publishedAt": "2026-11-06T21:41:21+00:00"
         }
       ],
-      "evidenceCount": 7
+      "evidenceCount": 2
     },
     "India": {
       "label": "India",
@@ -123,12 +96,6 @@
       },
       "sources": [
         {
-          "name": "Traders Union",
-          "title": "NSE sees increased stock market activity as Nifty 50 closes the week up 2.01% - Traders Union",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc29CSzZCTnZscmRIYTFob1pQa3gzWXNWOVpzZHZsMkticUNhQVBOTU9FczVxaW5EQkU5U01HT3VNWjhXRWE4dWFPcS1ZUVZ3aTlJbXpENmQxTlB1VlZ6ejVXTUhYaDNwV1Z6d3pHU0VsLWtjODU5NlFyVXBDSzJ1c0RpYVA?oc=5",
-          "publishedAt": "2026-11-07T14:23:52+00:00"
-        },
-        {
           "name": "Livemint",
           "title": "Muhurat trading 2026: 80% to 90% — will Sensex, Nifty improve decadal strike rate on ceremonial Diwali session? - Livemint",
           "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQT3ZXSDhhUDJzSGx3SzVualpwSVFieEZsOTFDemNzUmNqcHFPTXdoOW9Bc21QVUhfLXA1UzdEUXhfQ29rRS1qS3pEWDY5NGNKZGxKaEVxelo5M242ZmFxUnc3VnItNllSbGdpOFd4amlYcUlRMjdxMWdyUS1aa1NWMDlSODYzaTF4UWpicmtzNkU2Nnp4UGU1ZVBZdzNHQWZjOEpYTktqUk0wR0xWckhCSm9ZYzM1S0hPR3BSbTdrdFF6M19WNnpUQUk4cW4tME1qcXVlWXZVQ1ZzTlY1OXI1NkJJZ2J6MjFvdERjRXZ3VkRBaU4zbW1iRWdYeVZMTE1ueHBON9IBigJBVV95cUxOdlltWVFxUXhtNjFnY3BRM0NfbEZwMjRXTUtYcFFRaE1SYllBeWN0UmtSUVJyVkl2WG1xYTFPbUp5ZkNwOXhndjJnS0FpckVUYXRpaTBmYkVmX044akpNWXU5dGEtdWx0ZDJuY0t6Rmd1cnNFakdLN1Q2cnJ6dlVjbzB5ZHpTZUF2N1JlNUtTZ2pXc09CNldnTFVrTEg0dGF1a1VBb3BoV0VoaDdvWWwyNEFoM05XUzBrUHJjdWdvRDdieVFWa19ZY2FRSjdIVU9uN2dzd1BHMnpGN0NUWWQ1YWRGbWRIVUdrVm9wTTVaZzR4NEJPMUpkQk9MaFJ2YkhYR1dJLVRub1hqZw?oc=5",
@@ -157,6 +124,12 @@
           "title": "Diwali Rally Lifts Sensex 8.82%, Nifty 8.58% In Best Weekly Gain Since 2021 - TradingView",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWXRQc1I2QkZiR1VBcTlSNVZmV0ZzdG11cGM3dGZPS1FXWUczb0NneDlpU0MxaVNwcFF1Q00zdnlFbHJHblB4cG03OUE2MGd0cTU0YklwQkMyQktiTjBIRjBPNkZHOE1iTDZTQTkteDJLbkp1ZEw4em5fdEFyV2JxdENHeHkwQmFsbFpWZUJYa2IzVUxldjFBeDFxYWdDd1RGSlFKRmo3Nm9PTHdpUFQ4UXNEVGI0RTBPR1FvUUlPRnRaZ0VwWDlZSg?oc=5",
           "publishedAt": "2026-11-07T10:31:23+00:00"
+        },
+        {
+          "name": "Livemint",
+          "title": "Diwali 2026: Stock market enters Samvat 2083 with Nifty 50 above 25,000: Key support, resistance levels. Targets to know - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRXR1dWwyVzZQY0pjN2dJOGJrZTJjYmQ0Z0tPMjFUYWF5cTN2Q3dVSm1Gd0twRVhhRENPdzdmT1RFZExDTUVVaDRNcEY5LTEtVVNTekg3UDhGd2dZbUZ3ZkV0U3RNNXhmdjBWTHdTN3JocjZhdGtyVUlxQUpaUTdZRElTVnZCdlN1N2x1U01Zcms5bElEaGRZRU5DOVZ2OEhwMHpZbnp6ZV9RMUpDeTBtMzQ3d0tpNGllR01Sd2dTeWJJQlJtTE9KV21JUFJwdzEwRHY2MWkyZ0NMajFoOTFQN0NoWWlEY1dVYnpXQi1fUW9zcmxuTUZqN2hMOTXSAYICQVVfeXFMTXdrSG4wSjNxd0hGQ25LcXgwS2lOT0RVTU9INGR1T24wNnZVeV9SaTQxZlJsVE1TQUgzY2hFNjViQmhpOW5xTm1lRTdyWk1fUjVIaU1VdkdfLXc1cUd4TEZzenZJRFN4bVUwS1BLOU1PdjBvbU5kWWo3azR4TmF3cERpVWI3N0lBelRPN0dEbnhkaEJidlJ5S2Jlck82VTZrUl9VZkVPSXBfbnl4ZWh1SHVQQlFkNS05bkxoUzYzV3JJVnhaaVdPZTdyZWVpTldlOFpJYURTYWtRTE5iVXdfdVpyY0RJV0l1TVNSVEVEZC1jc29abTdVUzU4X1lnU2NTamhn?oc=5",
+          "publishedAt": "2026-11-07T09:19:13+00:00"
         }
       ],
       "evidenceCount": 7
