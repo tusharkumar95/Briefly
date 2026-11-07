@@ -1,22 +1,94 @@
 {
-  "updated": "2026-11-07T16:31:00.979460+00:00",
+  "updated": "2026-11-07T20:55:06.920755+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 56,
-    "nonNoiseCandidates": 56,
+    "rawCandidates": 55,
+    "nonNoiseCandidates": 55,
     "officialOrPrimaryCandidates": 19,
-    "enrichedCandidates": 56,
-    "readableCandidates": 31,
-    "eventClusters": 30,
-    "materialEvents": 12,
-    "selectedEvents": 6,
-    "seededStories": 2,
+    "enrichedCandidates": 55,
+    "readableCandidates": 32,
+    "eventClusters": 31,
+    "materialEvents": 13,
+    "selectedEvents": 7,
+    "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "378276ef2f260c",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "US offers up to $20 million for tips on Iran's nuclear programme",
+      "publishedAt": "2026-11-07T18:14:38+00:00",
+      "importanceScore": 15.3,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "summary": "The U.S. State Department announced a Rewards for Justice offer of up to $20 million for information on Iran’s nuclear programme, and said the informant could be offered relocation assistance. The announcement follows former President Donald Trump’s claim that a U.S.–Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, maintaining its programme is peaceful. The U.S. military also said it is forming a task force to curb the movement of weapons and sanctioned material across Iran’s borders.",
+      "why": "The reward is intended to generate intelligence that could aid U.S. efforts to monitor and counter Iran’s nuclear activities.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-07T18:14:38+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-07T18:14:38+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-07T20:55:06.920755+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "a721cf30eda08d",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Quebec confirms infected cow as outbreak of raccoon rabies continues",
+      "publishedAt": "2026-11-07T17:12:26+00:00",
+      "importanceScore": 12.1,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12141204/rabies-outbreak-cow-quebec/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Cows graze on a dairy farm in Granby, Que., on Thursday, July 23, 2026.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12141204/rabies-outbreak-cow-quebec/",
+          "publishedAt": "2026-11-07T17:12:26+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-07T17:12:26+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-07T20:55:06.920755+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "9ad4c028e64fa3",
       "cat": "AI",
@@ -24,14 +96,14 @@
       "categories": [
         "AI"
       ],
-      "title": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
+      "title": "OpenAI raises $11 billion in new funding round, valuation $1.25 trillion",
       "publishedAt": "2026-11-06T22:53:46+00:00",
       "importanceScore": 10.4,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "summary": "OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion, according to Bloomberg as reported by TechCrunch. The $11 billion is part of a larger round that has not yet closed and may total about $20 billion, below the $30 billion target mentioned in September. OpenAI has not responded to comment requests.",
-      "why": "The funding could enable OpenAI to expand development and deployment of its advanced AI models.",
+      "summary": "Bloomberg reported, via TechCrunch, that OpenAI has secured $11 billion so far in an ongoing financing round that values the company at $1.25 trillion. The round has not closed and Bloomberg said it could total about $20 billion, below the roughly $30 billion target mentioned in September. TechCrunch has asked OpenAI for comment.",
+      "why": "The capital could fund OpenAI’s product development and affect its competitive positioning.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -44,19 +116,55 @@
       ],
       "firstSeen": "2026-11-06T22:53:46+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-07T16:31:00.979460+00:00",
+      "lastChecked": "2026-11-07T20:55:06.920755+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "OpenAI raises $11 billion, valuation $1.25 trillion",
-      "previousSummary": "OpenAI has reportedly secured $11 billion in a funding round that values the company at $1.25 trillion. The round is still open and Bloomberg expects it could close in the coming weeks with total commitments around $20 billion, below the earlier September target of $30 billion. TechCrunch has asked OpenAI for comment and is awaiting a response.",
+      "previousTitle": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
+      "previousSummary": "OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion, according to Bloomberg as reported by TechCrunch. The $11 billion is part of a larger round that has not yet closed and may total about $20 billion, below the $30 billion target mentioned in September. OpenAI has not responded to comment requests.",
       "previousPublishedAt": "2026-11-06T22:53:46+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 11.4,
+      "previousImportanceScore": 10.4,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
+    },
+    {
+      "id": "71b0a5f378d8a3",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Concurrent Gainers: 9 stocks gain for 5 days in a row",
+      "publishedAt": "2026-11-07T08:11:56+00:00",
+      "importanceScore": 10.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms",
+      "summary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms",
+          "publishedAt": "2026-11-07T08:11:56+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-07T08:11:56+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-07T20:55:06.920755+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
       "id": "4bd712baa6ab43",
@@ -65,14 +173,14 @@
       "categories": [
         "AI"
       ],
-      "title": "Google buys unfinished Wyoming data center project from Crusoe",
+      "title": "Crusoe sells unfinished Wyoming data center project to Google",
       "publishedAt": "2026-11-07T01:40:28+00:00",
       "importanceScore": 8.3,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "summary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it sold its unfinished data‑center project in southeastern Wyoming to Google. Google, which Crusoe had previously tried to win as a customer, will take over development and has announced a $17 billion investment to build the campus. The project was originally announced with Tallgrass to eventually reach 10 GW of capacity.",
-      "why": "The transaction illustrates the challenges independent developers face delivering large‑scale data‑center projects and shows Google’s commitment to expanding its infrastructure capacity.",
+      "summary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it has sold an unfinished data‑center project in southeastern Wyoming to Google. Google, which had previously tried to become a customer, is taking over the development after raising concerns about cost and timeline under Crusoe’s management. Google announced a $17 billion investment to build the campus, a project originally announced with Tallgrass and intended to scale to 10 GW of power capacity.",
+      "why": "The deal illustrates the difficulties independent developers face with large‑scale data‑center builds and signals Google’s ongoing expansion of its infrastructure footprint.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -85,36 +193,36 @@
       ],
       "firstSeen": "2026-11-07T01:40:28+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-07T16:31:00.979460+00:00",
+      "lastChecked": "2026-11-07T20:55:06.920755+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
       "previousTitle": "Google buys unfinished Wyoming data center project from Crusoe",
-      "previousSummary": "Denver‑based data center developer Crusoe confirmed it has sold an unfinished data center project in southeastern Wyoming to Google. The project, announced last year with Blackstone‑backed Tallgrass and planned to eventually reach 10 GW of power capacity, faced cost and timeline concerns under Crusoe’s management. Google did not disclose the purchase price but announced a $17 billion investment to develop the campus.",
+      "previousSummary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it sold its unfinished data‑center project in southeastern Wyoming to Google. Google, which Crusoe had previously tried to win as a customer, will take over development and has announced a $17 billion investment to build the campus. The project was originally announced with Tallgrass to eventually reach 10 GW of capacity.",
       "previousPublishedAt": "2026-11-07T01:40:28+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 9.3,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
+      "previousImportanceScore": 8.3,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-07T10:15:49.710814+00:00",
+  "previousUpdated": "2026-11-07T16:31:00.979460+00:00",
   "changeSummary": {
-    "new": 0,
-    "updated": 1,
-    "continuing": 1
+    "new": 3,
+    "updated": 0,
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-04T17:59:37.132603+00:00",
-    "updated": "2026-11-07T16:31:00.979460+00:00",
+    "availableFrom": "2026-11-04T23:42:04.290077+00:00",
+    "updated": "2026-11-07T20:55:06.920755+00:00",
     "snapshotCount": 12,
-    "eventCount": 67,
+    "eventCount": 69,
     "retentionHours": 72
   }
 }

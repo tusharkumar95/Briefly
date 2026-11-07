@@ -3,88 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-04T17:59:37.132603+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "12d1d6fd594aec",
-          "cat": "World",
-          "title": "Democrats win US midterms in Michigan, Maine; Canada sees hopeful trade outlook",
-          "summary": "Democratic candidates won decisively in Michigan and Maine on Tuesday, with U.S. tariffs on Canada a prominent campaign issue in both states. Ontario Premier Doug Ford called the result a “victory for Canada,” while analysts said the outcome is unlikely to bring immediate tariff relief but may improve the environment for Ottawa to negotiate better terms as trade talks resume.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-04T17:02:44+00:00",
-          "firstSeen": "2026-11-04T17:02:44+00:00",
-          "importanceScore": 14.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "ec89f71b64a199",
-          "cat": "Indian Markets",
-          "title": "Ather Energy among 15 stocks that hit 52-week highs and rallied up to 30% in a month",
-          "summary": "Amid the market rally, 15 stocks from the BSE 500 Index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the previous year and can indicate increased market activity and investor interest.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-04T13:37:19+00:00",
-          "firstSeen": "2026-11-04T13:37:19+00:00",
-          "importanceScore": 12.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-among-15-stocks-that-hit-52-week-highs-and-rallied-up-to-30-in-a-month/slideshow/135541189.cms"
-        },
-        {
-          "id": "f05ff71d5935b8",
-          "cat": "India",
-          "title": "RBI sets up technical consultative committee to review market infrastructure",
-          "summary": "The Reserve Bank of India has established a technical consultative committee comprising seven external members drawn from various financial institutions. The committee will engage with banks and other market participants to examine the functioning and efficiency of money and related derivative markets, and to assess domestic and international developments that affect market infrastructure.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-04T06:51:26+00:00",
-          "firstSeen": "2026-11-04T06:51:26+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Its significance score fell as the evidence changed.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-sets-up-panel-with-banks-market-players-to-review-financial-market-issues/articleshow/135528321.cms"
-        },
-        {
-          "id": "b5fe26902e18ce",
-          "cat": "India",
-          "title": "Trump's midterm setback may put India under pressure for quick trade deal on US terms: GTRI",
-          "summary": "Amid electoral challenges, US President Donald Trump is likely to ramp up pressure on India to seal a trade deal. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-04T07:44:28+00:00",
-          "firstSeen": "2026-11-04T07:44:28+00:00",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-setback-may-put-india-under-pressure-for-quick-trade-deal-on-us-terms-gtri/articleshow/135529851.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-04T23:42:04.290077+00:00",
       "changeSummary": {
         "new": 1,
@@ -1237,6 +1155,106 @@
           "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
         }
       ]
+    },
+    {
+      "at": "2026-11-07T20:55:06.920755+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 0,
+        "continuing": 2
+      },
+      "stories": [
+        {
+          "id": "378276ef2f260c",
+          "cat": "World",
+          "title": "US offers up to $20 million for tips on Iran's nuclear programme",
+          "summary": "The U.S. State Department announced a Rewards for Justice offer of up to $20 million for information on Iran’s nuclear programme, and said the informant could be offered relocation assistance. The announcement follows former President Donald Trump’s claim that a U.S.–Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, maintaining its programme is peaceful. The U.S. military also said it is forming a task force to curb the movement of weapons and sanctioned material across Iran’s borders.",
+          "why": "The reward is intended to generate intelligence that could aid U.S. efforts to monitor and counter Iran’s nuclear activities.",
+          "publishedAt": "2026-11-07T18:14:38+00:00",
+          "firstSeen": "2026-11-07T18:14:38+00:00",
+          "importanceScore": 15.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "a721cf30eda08d",
+          "cat": "Canada",
+          "title": "Quebec confirms infected cow as outbreak of raccoon rabies continues",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Cows graze on a dairy farm in Granby, Que., on Thursday, July 23, 2026.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-07T17:12:26+00:00",
+          "firstSeen": "2026-11-07T17:12:26+00:00",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12141204/rabies-outbreak-cow-quebec/"
+        },
+        {
+          "id": "9ad4c028e64fa3",
+          "cat": "AI",
+          "title": "OpenAI raises $11 billion in new funding round, valuation $1.25 trillion",
+          "summary": "Bloomberg reported, via TechCrunch, that OpenAI has secured $11 billion so far in an ongoing financing round that values the company at $1.25 trillion. The round has not closed and Bloomberg said it could total about $20 billion, below the roughly $30 billion target mentioned in September. TechCrunch has asked OpenAI for comment.",
+          "why": "The capital could fund OpenAI’s product development and affect its competitive positioning.",
+          "publishedAt": "2026-11-06T22:53:46+00:00",
+          "firstSeen": "2026-11-06T22:53:46+00:00",
+          "importanceScore": 10.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        },
+        {
+          "id": "71b0a5f378d8a3",
+          "cat": "Indian Markets",
+          "title": "Concurrent Gainers: 9 stocks gain for 5 days in a row",
+          "summary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-07T08:11:56+00:00",
+          "firstSeen": "2026-11-07T08:11:56+00:00",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms"
+        },
+        {
+          "id": "4bd712baa6ab43",
+          "cat": "AI",
+          "title": "Crusoe sells unfinished Wyoming data center project to Google",
+          "summary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it has sold an unfinished data‑center project in southeastern Wyoming to Google. Google, which had previously tried to become a customer, is taking over the development after raising concerns about cost and timeline under Crusoe’s management. Google announced a $17 billion investment to build the campus, a project originally announced with Tallgrass and intended to scale to 10 GW of power capacity.",
+          "why": "The deal illustrates the difficulties independent developers face with large‑scale data‑center builds and signals Google’s ongoing expansion of its infrastructure footprint.",
+          "publishedAt": "2026-11-07T01:40:28+00:00",
+          "firstSeen": "2026-11-07T01:40:28+00:00",
+          "importanceScore": 8.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        }
+      ]
     }
   ],
   "events": {
@@ -1664,14 +1682,27 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-07T20:55:06.920755+00:00",
+          "title": "Concurrent Gainers: 9 stocks gain for 5 days in a row",
+          "summary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-10-31T17:45:54.845192+00:00",
+      "lastSeen": "2026-11-07T20:55:06.920755+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Concurrent Gainers: 8 stocks that gain for 5 days in a row",
-      "latestSummary": "Amid the broader market rally, around 18 stocks from the BSE 500 index rose in each of the five consecutive trading sessions between October 26 and 30. Of these, we identified eight stocks that gained on all five days, delivering cumulative returns ranging from 10% to 21% during the period.",
+      "latestTitle": "Concurrent Gainers: 9 stocks gain for 5 days in a row",
+      "latestSummary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-that-gain-for-5-days-in-a-row/slideshow/135392399.cms"
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms"
     },
     "82e1223ac35a35": {
       "id": "82e1223ac35a35",
@@ -3754,13 +3785,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-07T20:55:06.920755+00:00",
+          "title": "OpenAI raises $11 billion in new funding round, valuation $1.25 trillion",
+          "summary": "Bloomberg reported, via TechCrunch, that OpenAI has secured $11 billion so far in an ongoing financing round that values the company at $1.25 trillion. The round has not closed and Bloomberg said it could total about $20 billion, below the roughly $30 billion target mentioned in September. TechCrunch has asked OpenAI for comment.",
+          "importanceScore": 10.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-07T16:31:00.979460+00:00",
+      "lastSeen": "2026-11-07T20:55:06.920755+00:00",
       "cat": "AI",
-      "latestTitle": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
-      "latestSummary": "OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion, according to Bloomberg as reported by TechCrunch. The $11 billion is part of a larger round that has not yet closed and may total about $20 billion, below the $30 billion target mentioned in September. OpenAI has not responded to comment requests.",
-      "why": "The funding could enable OpenAI to expand development and deployment of its advanced AI models.",
+      "latestTitle": "OpenAI raises $11 billion in new funding round, valuation $1.25 trillion",
+      "latestSummary": "Bloomberg reported, via TechCrunch, that OpenAI has secured $11 billion so far in an ongoing financing round that values the company at $1.25 trillion. The round has not closed and Bloomberg said it could total about $20 billion, below the roughly $30 billion target mentioned in September. TechCrunch has asked OpenAI for comment.",
+      "why": "The capital could fund OpenAI’s product development and affect its competitive positioning.",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
     },
     "d5cde75f0e48b4": {
@@ -3868,15 +3912,78 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-11-07T20:55:06.920755+00:00",
+          "title": "Crusoe sells unfinished Wyoming data center project to Google",
+          "summary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it has sold an unfinished data‑center project in southeastern Wyoming to Google. Google, which had previously tried to become a customer, is taking over the development after raising concerns about cost and timeline under Crusoe’s management. Google announced a $17 billion investment to build the campus, a project originally announced with Tallgrass and intended to scale to 10 GW of power capacity.",
+          "importanceScore": 8.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-07T16:31:00.979460+00:00",
+      "lastSeen": "2026-11-07T20:55:06.920755+00:00",
       "cat": "AI",
-      "latestTitle": "Google buys unfinished Wyoming data center project from Crusoe",
-      "latestSummary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it sold its unfinished data‑center project in southeastern Wyoming to Google. Google, which Crusoe had previously tried to win as a customer, will take over development and has announced a $17 billion investment to build the campus. The project was originally announced with Tallgrass to eventually reach 10 GW of capacity.",
-      "why": "The transaction illustrates the challenges independent developers face delivering large‑scale data‑center projects and shows Google’s commitment to expanding its infrastructure capacity.",
+      "latestTitle": "Crusoe sells unfinished Wyoming data center project to Google",
+      "latestSummary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it has sold an unfinished data‑center project in southeastern Wyoming to Google. Google, which had previously tried to become a customer, is taking over the development after raising concerns about cost and timeline under Crusoe’s management. Google announced a $17 billion investment to build the campus, a project originally announced with Tallgrass and intended to scale to 10 GW of power capacity.",
+      "why": "The deal illustrates the difficulties independent developers face with large‑scale data‑center builds and signals Google’s ongoing expansion of its infrastructure footprint.",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+    },
+    "378276ef2f260c": {
+      "id": "378276ef2f260c",
+      "firstSeen": "2026-11-07T18:14:38+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-07T20:55:06.920755+00:00",
+          "title": "US offers up to $20 million for tips on Iran's nuclear programme",
+          "summary": "The U.S. State Department announced a Rewards for Justice offer of up to $20 million for information on Iran’s nuclear programme, and said the informant could be offered relocation assistance. The announcement follows former President Donald Trump’s claim that a U.S.–Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, maintaining its programme is peaceful. The U.S. military also said it is forming a task force to curb the movement of weapons and sanctioned material across Iran’s borders.",
+          "importanceScore": 15.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-07T20:55:06.920755+00:00",
+      "cat": "World",
+      "latestTitle": "US offers up to $20 million for tips on Iran's nuclear programme",
+      "latestSummary": "The U.S. State Department announced a Rewards for Justice offer of up to $20 million for information on Iran’s nuclear programme, and said the informant could be offered relocation assistance. The announcement follows former President Donald Trump’s claim that a U.S.–Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, maintaining its programme is peaceful. The U.S. military also said it is forming a task force to curb the movement of weapons and sanctioned material across Iran’s borders.",
+      "why": "The reward is intended to generate intelligence that could aid U.S. efforts to monitor and counter Iran’s nuclear activities.",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss"
+    },
+    "a721cf30eda08d": {
+      "id": "a721cf30eda08d",
+      "firstSeen": "2026-11-07T17:12:26+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-07T20:55:06.920755+00:00",
+          "title": "Quebec confirms infected cow as outbreak of raccoon rabies continues",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Cows graze on a dairy farm in Granby, Que., on Thursday, July 23, 2026.",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-07T20:55:06.920755+00:00",
+      "cat": "Canada",
+      "latestTitle": "Quebec confirms infected cow as outbreak of raccoon rabies continues",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Cows graze on a dairy farm in Granby, Que., on Thursday, July 23, 2026.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12141204/rabies-outbreak-cow-quebec/"
     }
   },
-  "updated": "2026-11-07T16:31:00.979460+00:00"
+  "updated": "2026-11-07T20:55:06.920755+00:00"
 }
