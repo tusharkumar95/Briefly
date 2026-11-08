@@ -1,15 +1,26 @@
 {
-  "updated": "2026-11-08T17:14:27.534723+00:00",
+  "updated": "2026-11-08T21:22:52.419860+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 0.52%",
+      "headline": "TSX Composite edges up to 35,789 despite tech rout and weak jobs data",
       "direction": "up",
       "move": "S&P/TSX Composite +0.52%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
-      "drivers": [],
+      "drivers": [
+        {
+          "label": "Tech sector weakness",
+          "detail": "A rout in technology stocks was observed, acting as a negative backdrop",
+          "kind": "context"
+        },
+        {
+          "label": "Weak jobs data",
+          "detail": "Labor market data came in weaker than expected, providing additional negative context",
+          "kind": "context"
+        }
+      ],
       "sectors": [],
       "confidence": "low",
       "primaryIndex": {
@@ -26,8 +37,21 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
-      "sources": [],
-      "evidenceCount": 0
+      "sources": [
+        {
+          "name": "Simply Wall St",
+          "title": "TerraVest Industries (TSX:TVK) Could Be 71% Undervalued After Its Valuation Pullback - Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOempiMHRFb0Y4YUx3a2FFUmJpOGhSOUZDWXh2MVl5aExaVzBCaWs2aXAtWjVFNVNyTWFfeWkwX2dDNi1jRGJFc1JkV2hjNld0MDllS2s3UF9uMnA2alF0YlFocWZuXzRVRXNnLVhjc2xDbFZOYVpMWUF1cmZZOVA1RVNTYy11Y1Y0cU1SazQ4ZVFya2FzT0FRTlp4NTFLcUExbmRwYUdfOEhHTUlTZGIxc1pNSVhpWndna3JWSmxZZzI1N1VRSk9VaUFRTy1kZ0Z2UTlIQTFoMNIB3AFBVV95cUxNOHNDcE1td2psQnZ1X3JyVEhqNHoybmpMWGlBWDlkLUhFcE5kU29NM3BwNmJXVTVSMVFQSFE3d0VyNjI3OGZkNWdFS2NwZVJ1RjFCSVVndGh3UHNydUFnLWFxczNRNVV1dDYtNGxJZnRMVmZ5eGRmLVg4cGhXdHlaSTZnSDdRYmRwcUJhY3BCV2ZTQ2s3cDRsY2l6eEFXWFlRZy1RSGtiaEMwV3Y1cks2SFYzY0xGZkN1enc4bWIwUmo0RUtsVWUwc0d5c1BYejZ3cFVEWGswdjBTcXhX?oc=5",
+          "publishedAt": "2026-11-08T20:23:04+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange Weekly Review: TSX Edges Up to 35,789.09 Despite a Tech Rout and Weak Jobs Data - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTERnZDhsa3JVUnpGMkVtSHZrXzlhQXJ1LXlCWF9tMVpwV3d5bFJIWFBwVUxBTUwydWNmNnE0NXNZU0JMZEdXcWpIaTJrWUJ1eERicnZvREhEcFNDbFoxbTVxeGtyQXNrZjRLcFdtelNJb0VHdGtmS2tBNzFyQVBCWm9nbmtYanpQTEo2aXFlTTl6aS1BMW1NdE53X2Q0ejYwMjdGZXdaUHBsV21KOGxXRHA4NDJMM1ZDc3BOaTZSTklRN09OUVpwSERZa09aSnZnQkE?oc=5",
+          "publishedAt": "2026-11-08T20:17:01+00:00"
+        }
+      ],
+      "evidenceCount": 2
     },
     "India": {
       "label": "India",
@@ -78,6 +102,12 @@
           "publishedAt": "2026-11-08T10:23:22+00:00"
         },
         {
+          "name": "www.nationpathindia.com",
+          "title": "Muhurat Trading Ends Nearly Flat After Seven-Day Rally; Sensex Closes at 80,999, Nifty at 24,986 - www.nationpathindia.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUHFLcEFTd1Fleng0dzk2YXU0M1hmLWljaG5uYW05ZUU0NUdmbDJsTTRodk9fV2QxeGNJMlhySXRqOTgwU3QyY19XejhYLUxWR0dfa2hVOTJHb2d1X1pLVndOd2RkeXE2WXhReE1ReHdsX2JoYTBnbGVia3ZIRHR5Wlh6Zm56UkxyNjctdldxRndhMjM3VGc?oc=5",
+          "publishedAt": "2026-11-08T21:18:46+00:00"
+        },
+        {
           "name": "Livemint",
           "title": "A rare red Diwali: Sensex ends Muhurat trading lower for only the eighth time in 30 years - Livemint",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTTZSdmhwNUg4OXR0akowOEJxX3FvQ3Q0ZU4xTFROVnEwaFgzbWoxQnpWcy11TnZDeTFCQzJmZlVHTzdScjVWMFkyQ2E0dE1hcF9IMDdMekZycHBqQm1tMWJMNURxZ0dhNExOZ2s2dlIxbnRZbDB3d2hXQmlialA2RTc0SXhrOTBNWXNzbndyZjdSLWMtcTUxU3M4eWVRSVNvU2lEWEFKOVVPYlA3WlNYTS1nUUpDcU44ckZOZk1iWW9YQdIBxwFBVV95cUxNdnhhRXFzYVVyVmI5aWlObVRYWFVMbVRiVHgxQzZWeTQxOExJeDN5Xy1JaVJEMm50WFVXdmEzRUIycXBvcmN3S3JIQmcyTmFWenBqTjNPM1JhQXRwN0VTYlloNHlyMGFfRzQ2QWRBbDU0bHVjdWN5cmtUMDNCYm02Sy1QLXZpQWpKWnFIWHRCTWJQYk41NzV6YkdhX24wVEJfQ3VKd2pYellGcHhqcmw3cl96UFJ6S21fR1d3dXBlamw4djFxNktR?oc=5",
@@ -100,12 +130,6 @@
           "title": "Muhurat Trade: Sensex, Nifty End Marginally Lower Despite FPI Inflow, Positive Outlook for New Samvat - Lokmat Times",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYVJjeGJwMnZsX1puSEFmem1LdF8tdjJaNWQxdWplQzgtNGVPNnBFbE5uN0FJRmk1YXh0ZGdCWF9HMUpDMWVJcTgyeEx3QTJ5M2VEcDl3SlE1U19lNEJLWm02ZlA1RjBiRDlBMkJwTGo0YXh1MzVtSnJYVkpFbVU3Q3BVa25aQjFENE1XbnpyUkpoNjUxUEJiRktTTjdQdWMzT3VrRnNqaHhCSC0xcG4xamF0OFR4NjFLc2VXTzI2bU9jNDZ0MzViVDlSaVU0Zlh6V2R3dnVYTkJSNlZ6c0HSAeMBQVVfeXFMUGgtbEN0Ukh2aUxBWkVhMkpCdDdKZ0RxOHd6Nm1tSkJBdlM4dHV5bm43TlNjT0V2QnVCS2VVZUZFVXdNVUxQYVZHbmVucDl2QUd2dXhTSi10Mm5Xa01YVEUtZVpGZmlncERBN2pnYW8zTkUweWlpelo2TnlZbHJQaTVNaDdrU3NDN3FvbjFFYkU3bVk0dktBQ1I5ZEJ1V2tqMk04bjl2c1ZSMklUWURSZEJXbnZpRHNqcWRFTVRRbzBDMmNuN3FhSnk0UExmVUxNOVVieEcwTmdnSDZadXphZnJQRm8?oc=5",
           "publishedAt": "2026-11-08T10:57:27+00:00"
-        },
-        {
-          "name": "Lokmat Times",
-          "title": "Muhurat Trading 2026: Sensex Slips Below 81,000, Nifty Ends Below 25,000 as Markets Close Lower on Diwali - Lokmat Times",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY3FHckthZmJzN1hfR19kcGZwdkFMeFRaLWhfNGl3VFpzbjc3bE9lRi1QYzFTcndkQXltTERucGh2c0xuT1J5R0xjUk9LbHpFT0IzVm5ibXlveUxsSFNQNWw4NWZuYVo1NVI2dS05YmJ0VXpOUXgzRWhVdE9tYTMxNkpNR2pPQWFkVEVuUGR1NVg2eUtvWVM4NEtoR0xNTHYwNkh0ZV9vNktLV3lBQkFuYzdHTTJPTTVlenZxX3VZQmhNU3I3UUhPSTR4b2s5eV9Kb255S0Y4RUpLakdS0gHiAUFVX3lxTE90V1hCVVlVSnp1Smt3SkhXTWlJNXdpWC1PbGpYWmV4TEg2Q3F5dE5JR2RiX1pUR1Y2TEdBUXNVOXVDX0VNTjR4eV8xWUpyUW03Y0F4Y2VKODFOZXJvaWN2SVR5ZkJlYmhGdFpPLUl0RGZYMllUaEpYRG5YRUVUSGxkX05Bc1pTQ1RMUVdnWTMwRkV1S1V1ZUdlLTVaMkNvY3EwWktON2d3Mm4xZjFVZC1XcXZJcHdQcjR1d2Rpd25pV2R3X2pZc3dfRFhpNjlrdW45WkRsWkk2Q2F5WkVRTUpVX0E?oc=5",
-          "publishedAt": "2026-11-08T10:34:37+00:00"
         }
       ],
       "evidenceCount": 7
