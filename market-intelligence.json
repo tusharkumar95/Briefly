@@ -1,23 +1,18 @@
 {
-  "updated": "2026-11-07T23:02:06.883117+00:00",
+  "updated": "2026-11-08T02:42:46.661010+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX rises as tech stocks rebound, Celestica jumps 2%",
+      "headline": "Canada shares close higher as S&P/TSX Composite rises",
       "direction": "up",
       "move": "S&P/TSX Composite +0.52%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Tech stocks recovery",
-          "detail": "Broad tech sector rallied, contributing to the index rise.",
-          "kind": "context"
-        },
-        {
-          "label": "Celestica gain",
-          "detail": "Celestica shares rose 2% after the global selloff, adding upward pressure.",
+          "label": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% By Investing.com",
+          "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
       ],
@@ -43,27 +38,31 @@
           "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% By Investing.com - Investing.com India",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY1dGM2hteDlnQnVJelNVaUFXQTJsR204YTJLUmlYMnlQbmtrQldIcFBZcFhWb0s5TFlDcVY4VnRnMVVkUEc3Y0I1TC1XU2JJNHBra1RzZWVlWFBqVXZ1bHZ6S2VHbERwdXVzeGp5WlRhT1RkLUtUbkxNcWZ5NkxJem1seDN6Q0hyUTNwZXVnVUp3R0J4aW9qVkt0WWZPRkVsM09wOUtRR2wxeEU1RXl5NkpERlZxWkZC?oc=5",
           "publishedAt": "2026-11-07T08:32:10+00:00"
-        },
-        {
-          "name": "Investing.com",
-          "title": "TSX ends higher as tech stocks recover, Celestica gains 2% after global selloff - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQk9vTUZwSWk5emFuajRSNi1lcXNGVXVranBBTlVKZWJFclI5TjhrWlJWSWdkeHhKR2UzcmZkOHBuY2oxOFIzTWdyU25aQVpQNmw4ZkZscUU2QzlkQThScTBLcm1NZDFSRHcyTXlCSmQ4akRaS3lKZGFDU1hHNldwQVI5dS1IRzZ3aG1oRnNMZ1ZvOVRCU3JZd1VTSFFBNW0xV2hVUlJjRUZ1Zk1uTnlad1lRZmg4VWpfM1E?oc=5",
-          "publishedAt": "2026-11-07T00:31:24+00:00"
         }
       ],
-      "evidenceCount": 2
+      "evidenceCount": 1
     },
     "India": {
       "label": "India",
       "headline": "Nifty 50 rose 2.01%",
       "direction": "up",
       "move": "Nifty 50 +2.01%",
-      "why": "Same-day market coverage explicitly linked the final move to: Sensex, nifty defy global tech turmoil | Business News.",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Sensex, nifty defy global tech turmoil | Business News",
-          "detail": "Hindustan Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Muhurat trading 2026: 80% to 90% — will Sensex, Nifty improve decadal strike rate on cerem",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "From Diwali 2025 to Diwali 2026: How Sensex, Nifty 50, rupee, crude oil changed in Samvat ",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "F&O Talk: Nifty’s bullish structure intact after best week in 5 years; Sudeep Shah on HDFC",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
       "sectors": [],
@@ -108,16 +107,16 @@
           "publishedAt": "2026-11-07T11:18:52+00:00"
         },
         {
-          "name": "Hindustan Times",
-          "title": "Indian markets surge as Sensex, nifty defy global tech turmoil | Business News - Hindustan Times",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdFZ1bmRFRzM3RUkwcWxGbHRMak9BTmRHNjJWRVY1SHpLaXQtaTNuQU9XQnhJVVUzYTdGVlE3V2VWR2xMZXl3UGNqR0VzZ19kVkk5SFBzbTJZM0VxM1h1azY1dmI0QWdUaXJlX1d0WmkwNlhraTdOV0UxMW54dHVyY21ZQWFsLWRIMkxiOHFMTmQ4bTIzeUFlYk1RYml0a0Z6bjNpRUFhVEZWN1RHT3pobjhPNGJsZHJQOVBzV3gxSdIBxAFBVV95cUxNeHF1aWg5cDF2RGgxWTRRN0tmMUVVSm1ydzR2Rk9MSUNrLWN1ZDZ4SG1VUnp3emJTVURCTG02NFEtbWJwWS12TmFXU3BYcDdBV3RQdXllaWZEdkJscVJKU1Y1bnpUMXQyTzBhUVNfRndDSnZiZW1EbXJZU0d5dWIwNTBkRGJmMkp5eEZvQ1NMQW5oeXpReWJlcDlBVmdveFd6aTJTWm1DdUo2MjJFdk5tZC00dlpldld6aFBiRDY3SnVwMGRx?oc=5",
-          "publishedAt": "2026-11-07T07:58:38+00:00"
-        },
-        {
           "name": "The Economic Times",
           "title": "F&O Talk: Nifty’s bullish structure intact after best week in 5 years; Sudeep Shah on HDFC Bank strategy, - The Economic Times",
           "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZ2c3NVZRaXc5cnRSWmZKckNoVWZZYkp2TG1ZV25YM2hZRUh2TzZGWGR3WVBVUjdnMGpDM0VYWElwVVRUcEV0X0hGZUYxZ1BOV1RDTWJqVVJqZVNNNXpESVNVT2lCTjZwcXdYNTJhcTZvcTJUWm16YWhQa2lMLWpOQnNxTzVfbFdIcXU4R0U2QkR5QWpYVWY2NXpRUjdON25qaUZhZVpodDBHbFRaNEd1TzcxeDBfTGJNRm5ITUo1UVc3QmpjOWxNUUZWdTRGVFdpQUgzV3J3QUhiakZ1dUR3TXhhc3JheTRoYXFnTkxKb0VLV2tRTThMYmxZWF80RlVWMTZfcUthNHp3WE11blprWk1PdW80LXdQTlFmR05YVF95Wlh4c0pLUHRlS2JuMXQxTVF30gG4AkFVX3lxTFBHbi11QXZQOW1uZF91YlZRdW8ta2hvZ0pxM1RBcG1oa0J6WGwyaGM1N2ZrSC1hOWVQV0g0N3NoRTV1NFpsanhFQWEzTmFXWDA3NjdPYk1KTG5pOWdnSEQ0ZXZnaTZhVmtSMFBzeG9CbDJGVWZhNnh4YUtJelAwN2JCUEhqbjg1V3l3d0x4T2lveGFjRmhYOFp1Z0Fmell3QjlKb1RoaU5yMnBoTUU3Y1M2NHJHcmZwVWZIS0d3akY5U2FRclJyNDRsM2pQNDdIamN2MXFIMUVmVVd6Ym9FN2hfRTk0RWFKNnFFOU5ZZTBRV3o0WVlSM1VJUUxPc2F1b1hSMG4xUjZQOG1RTkJ5Y1hJT0ZOUkJRR055bDJNUXdyZnVFNlZwZnFZTF9iYmozbXpMeGFPVU9NYw?oc=5",
           "publishedAt": "2026-11-07T05:55:30+00:00"
+        },
+        {
+          "name": "IndiaIPO",
+          "title": "Samvat to Samvat: Nifty ends lower, while pharma and metals shine - IndiaIPO",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNktRLTZMRnA0a2hkN2VObzNjZWR2ZThxSkp1TTVtZG1talprWWVJbWdEY3dmZ1FLVzlfSC1XejZ4ZGQzWmgxVzFha3VKVlMtUWp0UGtYelpTZWtHcS1qNWtOcU9WckdxWTBZdWtHYXQxRm5uZmVMejBOOEtzcklNU0hGeExGN0pEUWpmcWtTMDB3MkNLcklUaWhLMS0zMS0x?oc=5",
+          "publishedAt": "2026-11-07T14:32:48+00:00"
         },
         {
           "name": "TradingView",
