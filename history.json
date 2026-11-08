@@ -3,34 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-05T15:29:53.156756+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "29c994bd572e45",
-          "cat": "India",
-          "title": "US midterm results give limited relief to India, oil and Russia sanctions stay key risks",
-          "summary": "A report states that the United States midterm election outcome offers only limited relief to India’s economic outlook. It also points out that high oil prices and the ongoing sanctions on Russia continue to be significant risk factors for the Indian economy.",
-          "why": "These geopolitical and energy‑related uncertainties could restrain India’s growth despite any favorable US political changes.",
-          "publishedAt": "2026-11-05T05:05:52+00:00",
-          "firstSeen": "2026-11-05T05:05:52+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-05T22:01:33.433106+00:00",
       "changeSummary": {
         "new": 5,
@@ -1373,6 +1345,52 @@
           "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/diwali-muhurat-trading-2026-live-date-time-sensex-nifty-50-stock-market-check-stocks-to-buy-nse-bse/liveblog/135652392.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-08T19:45:04.568952+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 0,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "f694977ee5e77c",
+          "cat": "Indian Markets",
+          "title": "Indian markets open higher in Muhurat session, Sensex up 320 points, Nifty above 25,100",
+          "summary": "On Sunday, November 8, the Indian stock market opened a special Muhurat trading session for Samvat 2083, with the Sensex gaining 320 points at the opening bell and the Nifty moving above the 25,100 level. Tata Steel and Sun Pharma were among the top gainers. The Nifty had closed the previous Friday at 25,030.35, already above key support levels.",
+          "why": "The rise signals bullish sentiment at the start of the Samvat year, a factor investors monitor.",
+          "publishedAt": "2026-11-08T09:35:11+00:00",
+          "firstSeen": "2026-11-08T09:35:11+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/muhurat-trading-sensex-up-320-pts-nifty-crosses-25100-tata-steel-sun-pharma-among-top-gainers/videoshow/135656015.cms"
+        },
+        {
+          "id": "960c71d4fff2e2",
+          "cat": "Indian Markets",
+          "title": "Indian economy to grow faster, foreign capital returning to markets: NSE CEO Ashishkumar Chauhan",
+          "summary": "Domestic financial savings have significantly increased, reaching nearly USD 1.4 trillion annually. Furthermore, foreign institutional investors are showing renewed enthusiasm for Indian markets ahead of the new Samvat year.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-08T09:40:45+00:00",
+          "firstSeen": "2026-11-08T09:40:45+00:00",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-economy-to-grow-faster-foreign-capital-returning-to-markets-nse-ceo-ashishkumar-chauhan/articleshow/135656058.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1426,83 +1444,6 @@
       "latestSummary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms"
-    },
-    "3f5fed73397a92": {
-      "id": "3f5fed73397a92",
-      "firstSeen": "2026-10-31T21:17:03+00:00",
-      "snapshots": [
-        {
-          "at": "2026-10-31T21:38:13.173676+00:00",
-          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-          "summary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis. xAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile.",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-01T01:13:35.638751+00:00",
-          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-          "summary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis. xAI sought to have the lawsuit dismissed, claiming that the turbines are exempt from permitting requirements because they’re mobile.",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-01T07:37:00.989973+00:00",
-          "title": "Judge denies xAI motion to dismiss NAACP data‑center emissions lawsuit",
-          "summary": "A federal judge denied xAI’s request to dismiss a lawsuit filed by the NAACP and the Southern Environmental Law Center, which alleges the SpaceX‑owned company operated at least 35 combustion turbines at its Colossus data center outside Memphis without required pre‑construction or operating air permits, violating the Clean Air Act. The court held that the plaintiffs have statutory standing and that the turbines are not “mobile sources” under Mississippi law, so the case will move forward.",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-01T15:13:07.692182+00:00",
-          "title": "Judge denies xAI motion to dismiss NAACP lawsuit over data‑center emissions",
-          "summary": "A federal judge rejected xAI’s motion to dismiss a lawsuit brought by the NAACP and the Southern Environmental Law Center that alleges the SpaceX‑owned AI firm operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, violating the Clean Air Act. The decision affirmed the plaintiffs’ statutory standing and held that the turbines are not “mobile sources,” so the case will continue.",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-01T19:43:32.823382+00:00",
-          "title": "Judge lets NAACP lawsuit over xAI data‑center emissions proceed",
-          "summary": "A federal judge denied xAI’s motion to dismiss an NAACP‑led suit that alleges the company installed and operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, in violation of the Clean Air Act. The Southern Environmental Law Center, representing the NAACP, argued the turbines are not “mobile sources” under Mississippi law, and Judge Debra M. Brown affirmed the plaintiffs have statutory standing and that the citizen‑suit claim is constitutional.",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-01T19:43:32.823382+00:00",
-      "cat": "AI",
-      "latestTitle": "Judge lets NAACP lawsuit over xAI data‑center emissions proceed",
-      "latestSummary": "A federal judge denied xAI’s motion to dismiss an NAACP‑led suit that alleges the company installed and operated at least 35 combustion turbines at its Colossus data center outside Memphis without the required pre‑construction or operating air permits, in violation of the Clean Air Act. The Southern Environmental Law Center, representing the NAACP, argued the turbines are not “mobile sources” under Mississippi law, and Judge Debra M. Brown affirmed the plaintiffs have statutory standing and that the citizen‑suit claim is constitutional.",
-      "why": "The decision lets the lawsuit continue, which could require xAI to obtain permits and address alleged air‑pollution violations.",
-      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
     },
     "2c2c91d09f6f49": {
       "id": "2c2c91d09f6f49",
@@ -3875,13 +3816,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-08T19:45:04.568952+00:00",
+          "title": "Indian markets open higher in Muhurat session, Sensex up 320 points, Nifty above 25,100",
+          "summary": "On Sunday, November 8, the Indian stock market opened a special Muhurat trading session for Samvat 2083, with the Sensex gaining 320 points at the opening bell and the Nifty moving above the 25,100 level. Tata Steel and Sun Pharma were among the top gainers. The Nifty had closed the previous Friday at 25,030.35, already above key support levels.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-08T15:15:17.366276+00:00",
+      "lastSeen": "2026-11-08T19:45:04.568952+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Sensex up 320 points, Nifty crosses 25,100 in Muhurat session",
-      "latestSummary": "The BSE Sensex opened 320 points higher and the NSE Nifty moved above 25,100 in the special Muhurat trading session on Sunday, November 8, as investors marked the start of Samvat 2083. The Nifty had closed Friday at 25,030.35. Tata Steel and Sun Pharma were among the top gainers.",
-      "why": "The rise reflects investor optimism at the beginning of the new Samvat year, which may influence short‑term market sentiment.",
+      "latestTitle": "Indian markets open higher in Muhurat session, Sensex up 320 points, Nifty above 25,100",
+      "latestSummary": "On Sunday, November 8, the Indian stock market opened a special Muhurat trading session for Samvat 2083, with the Sensex gaining 320 points at the opening bell and the Nifty moving above the 25,100 level. Tata Steel and Sun Pharma were among the top gainers. The Nifty had closed the previous Friday at 25,030.35, already above key support levels.",
+      "why": "The rise signals bullish sentiment at the start of the Samvat year, a factor investors monitor.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/muhurat-trading-sensex-up-320-pts-nifty-crosses-25100-tata-steel-sun-pharma-among-top-gainers/videoshow/135656015.cms"
     },
     "c199b1ddfff778": {
@@ -3908,7 +3862,32 @@
       "latestSummary": "Diwali Muhurat Trading 2026 Highlights: Indian stock and commodity markets hold a special Muhurat trading session on Sunday, November 8, marking the beginning of Samvat 2083. Sensex, Nifty end Muhurat Trading session in red for first time in 9 years Sensex and Nifty erased all early gains and closed in the red following the Muhurat Trading session on Sunday, marking the first time the benchmark indices ended with losses during the special Diwali session in 9 years.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/diwali-muhurat-trading-2026-live-date-time-sensex-nifty-50-stock-market-check-stocks-to-buy-nse-bse/liveblog/135652392.cms"
+    },
+    "960c71d4fff2e2": {
+      "id": "960c71d4fff2e2",
+      "firstSeen": "2026-11-08T09:40:45+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-08T19:45:04.568952+00:00",
+          "title": "Indian economy to grow faster, foreign capital returning to markets: NSE CEO Ashishkumar Chauhan",
+          "summary": "Domestic financial savings have significantly increased, reaching nearly USD 1.4 trillion annually. Furthermore, foreign institutional investors are showing renewed enthusiasm for Indian markets ahead of the new Samvat year.",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-08T19:45:04.568952+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Indian economy to grow faster, foreign capital returning to markets: NSE CEO Ashishkumar Chauhan",
+      "latestSummary": "Domestic financial savings have significantly increased, reaching nearly USD 1.4 trillion annually. Furthermore, foreign institutional investors are showing renewed enthusiasm for Indian markets ahead of the new Samvat year.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-economy-to-grow-faster-foreign-capital-returning-to-markets-nse-ceo-ashishkumar-chauhan/articleshow/135656058.cms"
     }
   },
-  "updated": "2026-11-08T15:15:17.366276+00:00"
+  "updated": "2026-11-08T19:45:04.568952+00:00"
 }
