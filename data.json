@@ -1,22 +1,114 @@
 {
-  "updated": "2026-11-08T00:40:26.590197+00:00",
+  "updated": "2026-11-08T07:24:35.938170+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 49,
-    "nonNoiseCandidates": 49,
-    "officialOrPrimaryCandidates": 14,
-    "enrichedCandidates": 49,
-    "readableCandidates": 32,
-    "eventClusters": 31,
-    "materialEvents": 13,
-    "selectedEvents": 7,
-    "seededStories": 7,
+    "rawCandidates": 48,
+    "nonNoiseCandidates": 48,
+    "officialOrPrimaryCandidates": 5,
+    "enrichedCandidates": 48,
+    "readableCandidates": 40,
+    "eventClusters": 26,
+    "materialEvents": 12,
+    "selectedEvents": 5,
+    "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "db9bb2015a3158",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Cipla shares trade at 1,411 rupees on Nov 8, 2026",
+      "publishedAt": "2026-11-08T04:33:33+00:00",
+      "importanceScore": 14.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-livestock-price-today-live-updates-08-nov-2026/liveblog/135651441.cms",
+      "summary": "At 11:45:45 AM IST on 8 Nov 2026, Cipla’s last traded price was 1,411.0 rupees. The market capitalisation was 113,990.54 million rupees, trading volume 1,567,019 shares, price‑to‑earnings ratio 39.35, and earnings per share 35.86 rupees.",
+      "why": "The figures provide a snapshot of Cipla’s valuation and liquidity for investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-livestock-price-today-live-updates-08-nov-2026/liveblog/135651441.cms",
+          "publishedAt": "2026-11-08T04:33:33+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-share-price-today-live-08-nov-2026/liveblog/135651420.cms",
+          "publishedAt": "2026-11-08T04:32:42+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-stock-price-today-live-08-nov-2026/liveblog/135650076.cms",
+          "publishedAt": "2026-11-08T03:01:56+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-08T04:33:33+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "8f2f193e89c5d1",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "RIL Share Price Live Updates: RIL's Performance Overview",
+      "publishedAt": "2026-11-08T03:45:07+00:00",
+      "importanceScore": 14.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-stock-price-today-live-08-nov-2026/liveblog/135650532.cms",
+      "summary": "Stay ahead of the market with our in-depth coverage of RIL, including: Last traded price 1320.0, Market capitalization: 1786295.11, Volume: 22768301, Price-to-earnings ratio 21.75, Earnings per share 60.68. Stay in the know with the latest information about L&T, including: Last traded price 4117.7, Market capitalization: 566552.28, Volume: 3396323, Price-to-earnings ratio 31.71, Earnings per share 129.85.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-stock-price-today-live-08-nov-2026/liveblog/135650532.cms",
+          "publishedAt": "2026-11-08T03:45:07+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/lt-share-price-today-live-updates-08-nov-2026/liveblog/135650111.cms",
+          "publishedAt": "2026-11-08T03:05:06+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/mm-share-price-live-08-nov-2026/liveblog/135650050.cms",
+          "publishedAt": "2026-11-08T03:00:54+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-08T03:45:07+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "378276ef2f260c",
       "cat": "World",
@@ -26,12 +118,12 @@
       ],
       "title": "US offers up to $20 million for tips on Iran's nuclear programme",
       "publishedAt": "2026-11-07T18:14:38+00:00",
-      "importanceScore": 14.3,
+      "importanceScore": 13.3,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "summary": "The United States announced a reward of up to $20 million for information about Iran’s nuclear programme, with the State Department’s Rewards for Justice also offering possible relocation for the informant. The announcement follows former President Donald Trump’s claim that Iran’s nuclear facilities had been completely destroyed in a US‑Israel bombing campaign, a claim Iran denies, saying its programme is peaceful. The US military said it is forming a task force to restrict Iran’s movement of weapons and sanctioned material across its borders.",
-      "why": "The reward aims to generate intelligence that could clarify Iran’s nuclear activities and inform U.S. non‑proliferation policy.",
+      "summary": "The U.S. State Department announced a Rewards for Justice bounty of up to $20 million for information on Iran’s nuclear programme and said the person providing the intelligence could be offered relocation assistance. The offer follows former President Donald Trump’s claim that a 2023 U.S.-Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, insisting its programme is peaceful. The U.S. military said it is forming a task force to curb Iran’s movement of weapons and sanctioned material across its borders.",
+      "why": "The reward aims to encourage intelligence that could help the United States and partners impede Iran’s potential nuclear weapons development.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -44,19 +136,19 @@
       ],
       "firstSeen": "2026-11-07T18:14:38+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-08T00:40:26.590197+00:00",
+      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
       "previousTitle": "US offers up to $20 million for tips on Iran's nuclear programme",
-      "previousSummary": "The U.S. State Department announced a Rewards for Justice offer of up to $20 million for information on Iran’s nuclear programme, and said the informant could be offered relocation assistance. The announcement follows former President Donald Trump’s claim that a U.S.–Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, maintaining its programme is peaceful. The U.S. military also said it is forming a task force to curb the movement of weapons and sanctioned material across Iran’s borders.",
+      "previousSummary": "The United States announced a reward of up to $20 million for information about Iran’s nuclear programme, with the State Department’s Rewards for Justice also offering possible relocation for the informant. The announcement follows former President Donald Trump’s claim that Iran’s nuclear facilities had been completely destroyed in a US‑Israel bombing campaign, a claim Iran denies, saying its programme is peaceful. The US military said it is forming a task force to restrict Iran’s movement of weapons and sanctioned material across its borders.",
       "previousPublishedAt": "2026-11-07T18:14:38+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 15.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "previousImportanceScore": 14.3,
+      "changed": true,
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "94dd27a0e85733",
@@ -65,172 +157,90 @@
       "categories": [
         "World"
       ],
-      "title": "Gunman kills at least six in Krakow market square, three bodies found at his home",
-      "publishedAt": "2026-11-07T22:58:49+00:00",
-      "importanceScore": 14.2,
+      "title": "What we know so far after Krakow gun attack",
+      "publishedAt": "2026-11-08T01:47:41+00:00",
+      "importanceScore": 13.2,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least six people were killed and several others injured when a gunman, suspected of far‑right ties, drove into Krakow’s Main Market Square shortly before 15:00 local time and opened fire from his vehicle. Police later searched the suspect’s residence and discovered three bodies. The incident occurred in Poland’s second‑largest city and involved random shooting of pedestrians.",
-      "why": "The attack underscores the threat of extremist violence in a major European city and raises public‑safety concerns.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "At least six people were killed and more than a dozen others injured when a gunman suspected to have ties to the far-right opened fire in central Krakow, the second largest city in Poland. The attack began shortly before 15:00 local time (14:00 GMT) in Krakow's Main Market Square, the bustling central point of the city which is popular with tourists.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
           "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-07T22:58:49+00:00"
+          "publishedAt": "2026-11-08T01:47:41+00:00"
         }
       ],
       "firstSeen": "2026-11-07T22:58:49+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-08T00:40:26.590197+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a721cf30eda08d",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Quebec confirms cow infected with rabies amid ongoing raccoon outbreak",
-      "publishedAt": "2026-11-07T17:12:26+00:00",
-      "importanceScore": 11.6,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12141204/rabies-outbreak-cow-quebec/",
-      "summary": "Quebec health officials have confirmed that a cow tested positive for rabies, adding a new case to the province’s current raccoon‑rabies outbreak. The discovery shows that the wildlife‑borne virus continues to spread and can affect domestic livestock, prompting ongoing surveillance and precautionary measures.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12141204/rabies-outbreak-cow-quebec/",
-          "publishedAt": "2026-11-07T17:12:26+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-07T17:12:26+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-08T00:40:26.590197+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Quebec confirms infected cow as outbreak of raccoon rabies continues",
-      "previousSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Cows graze on a dairy farm in Granby, Que., on Thursday, July 23, 2026.",
-      "previousPublishedAt": "2026-11-07T17:12:26+00:00",
+      "verificationScope": "source-backed",
+      "previousTitle": "Gunman kills at least six in Krakow market square, three bodies found at his home",
+      "previousSummary": "At least six people were killed and several others injured when a gunman, suspected of far‑right ties, drove into Krakow’s Main Market Square shortly before 15:00 local time and opened fire from his vehicle. Police later searched the suspect’s residence and discovered three bodies. The incident occurred in Poland’s second‑largest city and involved random shooting of pedestrians.",
+      "previousPublishedAt": "2026-11-07T22:58:49+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.1,
+      "previousImportanceScore": 14.2,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
+      "change": "Material facts or figures changed since the previous brief.",
       "lifecycle": "Updated"
     },
     {
-      "id": "71b0a5f378d8a3",
+      "id": "421a32550a13a0",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Concurrent Gainers: 9 stocks gain for 5 days in a row",
-      "publishedAt": "2026-11-07T08:11:56+00:00",
-      "importanceScore": 10.3,
+      "title": "Diwali 2025 winners: 8 BSE 500 stocks more than doubled",
+      "publishedAt": "2026-11-08T05:28:18+00:00",
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms",
-      "summary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-turned-lucky-for-these-8-stocks-investors-wealth-more-than-doubled-returns-soar-up-to-191/slideshow/135652712.cms",
+      "summary": "Eight stocks in the BSE 500 posted gains exceeding 100% since Diwali 2025, with some rising as much as 191%, according to ACE Equities data. During the same period, the broader Nifty 50 declined nearly 3%, while 190 index constituents posted positive returns overall. The outperforming group stood out even as most of the index moved sideways or lower.",
+      "why": "Highlights rare index outperformance in a broadly mixed market.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms",
-          "publishedAt": "2026-11-07T08:11:56+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-turned-lucky-for-these-8-stocks-investors-wealth-more-than-doubled-returns-soar-up-to-191/slideshow/135652712.cms",
+          "publishedAt": "2026-11-08T05:28:18+00:00"
         }
       ],
-      "firstSeen": "2026-11-07T08:11:56+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-08T00:40:26.590197+00:00",
+      "firstSeen": "2026-11-08T05:28:18+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Concurrent Gainers: 9 stocks gain for 5 days in a row",
-      "previousSummary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
-      "previousPublishedAt": "2026-11-07T08:11:56+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "4bd712baa6ab43",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "publishedAt": "2026-11-07T01:40:28+00:00",
-      "importanceScore": 8.3,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "summary": "Crusoe, an eight-year-old, Denver-based data center developer recently valued at $30.9 billion , confirmed Friday it has sold an unfinished data center project in southeastern Wyoming to Google. Google did not disclose how much it paid Crusoe for the unfinished project, but it announced plans to invest $17 billion to develop the data center campus.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-          "publishedAt": "2026-11-07T01:40:28+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-07T01:40:28+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-08T00:40:26.590197+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Crusoe sells unfinished Wyoming data center project to Google",
-      "previousSummary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it has sold an unfinished data‑center project in southeastern Wyoming to Google. Google, which had previously tried to become a customer, is taking over the development after raising concerns about cost and timeline under Crusoe’s management. Google announced a $17 billion investment to build the campus, a project originally announced with Tallgrass and intended to scale to 10 GW of power capacity.",
-      "previousPublishedAt": "2026-11-07T01:40:28+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 8.3,
+      "verificationScope": "single-source-reviewed",
       "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
   "jarvisEditedCount": 3,
-  "finalRejectedCount": 2,
-  "previousUpdated": "2026-11-07T20:55:06.920755+00:00",
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-08T00:40:26.590197+00:00",
   "changeSummary": {
-    "new": 1,
+    "new": 3,
     "updated": 2,
-    "continuing": 2
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-05T06:51:48.614454+00:00",
-    "updated": "2026-11-08T00:40:26.590197+00:00",
+    "availableFrom": "2026-11-05T15:29:53.156756+00:00",
+    "updated": "2026-11-08T07:24:35.938170+00:00",
     "snapshotCount": 12,
     "eventCount": 66,
     "retentionHours": 72
