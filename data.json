@@ -1,40 +1,81 @@
 {
-  "updated": "2026-11-08T07:24:35.938170+00:00",
+  "updated": "2026-11-08T15:15:17.366276+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 48,
-    "nonNoiseCandidates": 48,
-    "officialOrPrimaryCandidates": 5,
-    "enrichedCandidates": 48,
-    "readableCandidates": 40,
-    "eventClusters": 26,
-    "materialEvents": 12,
+    "rawCandidates": 60,
+    "nonNoiseCandidates": 59,
+    "officialOrPrimaryCandidates": 6,
+    "enrichedCandidates": 58,
+    "readableCandidates": 38,
+    "eventClusters": 21,
+    "materialEvents": 9,
     "selectedEvents": 5,
-    "seededStories": 5,
+    "seededStories": 4,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "db9bb2015a3158",
+      "id": "94dd27a0e85733",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Six killed and more than a dozen injured in gun attack on Krakow’s Main Market Square",
+      "publishedAt": "2026-11-08T14:32:52+00:00",
+      "importanceScore": 14.2,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least six people were killed and more than a dozen injured when a gunman, suspected of far‑right ties, drove into Krakow’s Main Market Square and fired at random from his car shortly before 15:00 local time (14:00 GMT). Police later found three bodies at the suspect’s home during a search. Video showed panic as people fled the scene.",
+      "why": "The attack highlights public‑safety risks in a major tourist area.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-08T14:32:52+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-07T22:58:49+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-08T15:15:17.366276+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "What we know so far after Krakow gun attack",
+      "previousSummary": "At least six people were killed and more than a dozen others injured when a gunman suspected to have ties to the far-right opened fire in central Krakow, the second largest city in Poland. The attack began shortly before 15:00 local time (14:00 GMT) in Krakow's Main Market Square, the bustling central point of the city which is popular with tourists.",
+      "previousPublishedAt": "2026-11-08T01:47:41+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.2,
+      "changed": true,
+      "change": "Jarvis verification is now available for this event.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "603fcd2d88618b",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Cipla shares trade at 1,411 rupees on Nov 8, 2026",
+      "title": "LTIMindtree Share Price Highlights: LTIMindtree Stock Price History",
       "publishedAt": "2026-11-08T04:33:33+00:00",
-      "importanceScore": 14.6,
+      "importanceScore": 13.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-livestock-price-today-live-updates-08-nov-2026/liveblog/135651441.cms",
-      "summary": "At 11:45:45 AM IST on 8 Nov 2026, Cipla’s last traded price was 1,411.0 rupees. The market capitalisation was 113,990.54 million rupees, trading volume 1,567,019 shares, price‑to‑earnings ratio 39.35, and earnings per share 35.86 rupees.",
-      "why": "The figures provide a snapshot of Cipla’s valuation and liquidity for investors.",
-      "confidence": "medium",
+      "summary": "Dive into the current details of LTIMindtree, including: Last traded price 4324.2, Market capitalization: 128674.33, Volume: 16460, Price-to-earnings ratio 24.62, Earnings per share 176.22. Our liveblog offers a complete overview of LTIMindtree through a blend of fundamental and technical indicators.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -48,13 +89,49 @@
         },
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-stock-price-today-live-08-nov-2026/liveblog/135650076.cms",
-          "publishedAt": "2026-11-08T03:01:56+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-today-live-updates-08-nov-2026/liveblog/135651405.cms",
+          "publishedAt": "2026-11-08T04:32:29+00:00"
         }
       ],
       "firstSeen": "2026-11-08T04:33:33+00:00",
       "status": "New",
-      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
+      "lastChecked": "2026-11-08T15:15:17.366276+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "f694977ee5e77c",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Sensex up 320 points, Nifty crosses 25,100 in Muhurat session",
+      "publishedAt": "2026-11-08T09:35:11+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/muhurat-trading-sensex-up-320-pts-nifty-crosses-25100-tata-steel-sun-pharma-among-top-gainers/videoshow/135656015.cms",
+      "summary": "The BSE Sensex opened 320 points higher and the NSE Nifty moved above 25,100 in the special Muhurat trading session on Sunday, November 8, as investors marked the start of Samvat 2083. The Nifty had closed Friday at 25,030.35. Tata Steel and Sun Pharma were among the top gainers.",
+      "why": "The rise reflects investor optimism at the beginning of the new Samvat year, which may influence short‑term market sentiment.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/muhurat-trading-sensex-up-320-pts-nifty-crosses-25100-tata-steel-sun-pharma-among-top-gainers/videoshow/135656015.cms",
+          "publishedAt": "2026-11-08T09:35:11+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-08T09:35:11+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-08T15:15:17.366276+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -64,19 +141,19 @@
       "lifecycle": "New"
     },
     {
-      "id": "8f2f193e89c5d1",
+      "id": "c199b1ddfff778",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "RIL Share Price Live Updates: RIL's Performance Overview",
-      "publishedAt": "2026-11-08T03:45:07+00:00",
-      "importanceScore": 14.0,
+      "title": "Muhurat Trading 2026 Highlights | Closing Bell: Sensex ends Muhurat Trading marginally lower, Nifty below 25,000; Divi's Labs surges 7%",
+      "publishedAt": "2026-11-08T05:25:03+00:00",
+      "importanceScore": 11.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-stock-price-today-live-08-nov-2026/liveblog/135650532.cms",
-      "summary": "Stay ahead of the market with our in-depth coverage of RIL, including: Last traded price 1320.0, Market capitalization: 1786295.11, Volume: 22768301, Price-to-earnings ratio 21.75, Earnings per share 60.68. Stay in the know with the latest information about L&T, including: Last traded price 4117.7, Market capitalization: 566552.28, Volume: 3396323, Price-to-earnings ratio 31.71, Earnings per share 129.85.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/diwali-muhurat-trading-2026-live-date-time-sensex-nifty-50-stock-market-check-stocks-to-buy-nse-bse/liveblog/135652392.cms",
+      "summary": "Diwali Muhurat Trading 2026 Highlights: Indian stock and commodity markets hold a special Muhurat trading session on Sunday, November 8, marking the beginning of Samvat 2083. Sensex, Nifty end Muhurat Trading session in red for first time in 9 years Sensex and Nifty erased all early gains and closed in the red following the Muhurat Trading session on Sunday, marking the first time the benchmark indices ended with losses during the special Diwali session in 9 years.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -84,165 +161,37 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-stock-price-today-live-08-nov-2026/liveblog/135650532.cms",
-          "publishedAt": "2026-11-08T03:45:07+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/lt-share-price-today-live-updates-08-nov-2026/liveblog/135650111.cms",
-          "publishedAt": "2026-11-08T03:05:06+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/mm-share-price-live-08-nov-2026/liveblog/135650050.cms",
-          "publishedAt": "2026-11-08T03:00:54+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/diwali-muhurat-trading-2026-live-date-time-sensex-nifty-50-stock-market-check-stocks-to-buy-nse-bse/liveblog/135652392.cms",
+          "publishedAt": "2026-11-08T05:25:03+00:00"
         }
       ],
-      "firstSeen": "2026-11-08T03:45:07+00:00",
+      "firstSeen": "2026-11-08T05:25:03+00:00",
       "status": "New",
-      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
+      "lastChecked": "2026-11-08T15:15:17.366276+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "378276ef2f260c",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "US offers up to $20 million for tips on Iran's nuclear programme",
-      "publishedAt": "2026-11-07T18:14:38+00:00",
-      "importanceScore": 13.3,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "summary": "The U.S. State Department announced a Rewards for Justice bounty of up to $20 million for information on Iran’s nuclear programme and said the person providing the intelligence could be offered relocation assistance. The offer follows former President Donald Trump’s claim that a 2023 U.S.-Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, insisting its programme is peaceful. The U.S. military said it is forming a task force to curb Iran’s movement of weapons and sanctioned material across its borders.",
-      "why": "The reward aims to encourage intelligence that could help the United States and partners impede Iran’s potential nuclear weapons development.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-07T18:14:38+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-07T18:14:38+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "US offers up to $20 million for tips on Iran's nuclear programme",
-      "previousSummary": "The United States announced a reward of up to $20 million for information about Iran’s nuclear programme, with the State Department’s Rewards for Justice also offering possible relocation for the informant. The announcement follows former President Donald Trump’s claim that Iran’s nuclear facilities had been completely destroyed in a US‑Israel bombing campaign, a claim Iran denies, saying its programme is peaceful. The US military said it is forming a task force to restrict Iran’s movement of weapons and sanctioned material across its borders.",
-      "previousPublishedAt": "2026-11-07T18:14:38+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 14.3,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "94dd27a0e85733",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "What we know so far after Krakow gun attack",
-      "publishedAt": "2026-11-08T01:47:41+00:00",
-      "importanceScore": 13.2,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least six people were killed and more than a dozen others injured when a gunman suspected to have ties to the far-right opened fire in central Krakow, the second largest city in Poland. The attack began shortly before 15:00 local time (14:00 GMT) in Krakow's Main Market Square, the bustling central point of the city which is popular with tourists.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-08T01:47:41+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-07T22:58:49+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Gunman kills at least six in Krakow market square, three bodies found at his home",
-      "previousSummary": "At least six people were killed and several others injured when a gunman, suspected of far‑right ties, drove into Krakow’s Main Market Square shortly before 15:00 local time and opened fire from his vehicle. Police later searched the suspect’s residence and discovered three bodies. The incident occurred in Poland’s second‑largest city and involved random shooting of pedestrians.",
-      "previousPublishedAt": "2026-11-07T22:58:49+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 14.2,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "421a32550a13a0",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Diwali 2025 winners: 8 BSE 500 stocks more than doubled",
-      "publishedAt": "2026-11-08T05:28:18+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-turned-lucky-for-these-8-stocks-investors-wealth-more-than-doubled-returns-soar-up-to-191/slideshow/135652712.cms",
-      "summary": "Eight stocks in the BSE 500 posted gains exceeding 100% since Diwali 2025, with some rising as much as 191%, according to ACE Equities data. During the same period, the broader Nifty 50 declined nearly 3%, while 190 index constituents posted positive returns overall. The outperforming group stood out even as most of the index moved sideways or lower.",
-      "why": "Highlights rare index outperformance in a broadly mixed market.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-turned-lucky-for-these-8-stocks-investors-wealth-more-than-doubled-returns-soar-up-to-191/slideshow/135652712.cms",
-          "publishedAt": "2026-11-08T05:28:18+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-08T05:28:18+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-08T07:24:35.938170+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-08T00:40:26.590197+00:00",
+  "previousUpdated": "2026-11-08T07:24:35.938170+00:00",
   "changeSummary": {
     "new": 3,
-    "updated": 2,
+    "updated": 1,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-11-05T15:29:53.156756+00:00",
-    "updated": "2026-11-08T07:24:35.938170+00:00",
-    "snapshotCount": 12,
-    "eventCount": 66,
+    "updated": "2026-11-08T15:15:17.366276+00:00",
+    "snapshotCount": 13,
+    "eventCount": 67,
     "retentionHours": 72
   }
 }
