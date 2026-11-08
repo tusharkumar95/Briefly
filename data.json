@@ -1,22 +1,68 @@
 {
-  "updated": "2026-11-08T19:45:04.568952+00:00",
+  "updated": "2026-11-08T23:45:22.103136+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 59,
-    "nonNoiseCandidates": 58,
-    "officialOrPrimaryCandidates": 4,
-    "enrichedCandidates": 57,
-    "readableCandidates": 38,
-    "eventClusters": 21,
+    "nonNoiseCandidates": 59,
+    "officialOrPrimaryCandidates": 5,
+    "enrichedCandidates": 58,
+    "readableCandidates": 37,
+    "eventClusters": 20,
     "materialEvents": 7,
     "selectedEvents": 3,
-    "seededStories": 2,
+    "seededStories": 3,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "603fcd2d88618b",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "LTIMindtree Share Price Highlights: LTIMindtree Stock Price History",
+      "publishedAt": "2026-11-08T04:33:33+00:00",
+      "importanceScore": 12.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-livestock-price-today-live-updates-08-nov-2026/liveblog/135651441.cms",
+      "summary": "Dive into the current details of LTIMindtree, including: Last traded price 4324.2, Market capitalization: 128674.33, Volume: 16460, Price-to-earnings ratio 24.62, Earnings per share 176.22. Our liveblog offers a complete overview of LTIMindtree through a blend of fundamental and technical indicators.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-livestock-price-today-live-updates-08-nov-2026/liveblog/135651441.cms",
+          "publishedAt": "2026-11-08T04:33:33+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-share-price-today-live-08-nov-2026/liveblog/135651420.cms",
+          "publishedAt": "2026-11-08T04:32:42+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-today-live-updates-08-nov-2026/liveblog/135651405.cms",
+          "publishedAt": "2026-11-08T04:32:29+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-08T04:33:33+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-08T23:45:22.103136+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "f694977ee5e77c",
       "cat": "Indian Markets",
@@ -24,14 +70,14 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "Indian markets open higher in Muhurat session, Sensex up 320 points, Nifty above 25,100",
+      "title": "Indian markets rise in Muhurat trading as Sensex up 320 points, Nifty above 25,100",
       "publishedAt": "2026-11-08T09:35:11+00:00",
-      "importanceScore": 11.3,
+      "importanceScore": 10.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/muhurat-trading-sensex-up-320-pts-nifty-crosses-25100-tata-steel-sun-pharma-among-top-gainers/videoshow/135656015.cms",
-      "summary": "On Sunday, November 8, the Indian stock market opened a special Muhurat trading session for Samvat 2083, with the Sensex gaining 320 points at the opening bell and the Nifty moving above the 25,100 level. Tata Steel and Sun Pharma were among the top gainers. The Nifty had closed the previous Friday at 25,030.35, already above key support levels.",
-      "why": "The rise signals bullish sentiment at the start of the Samvat year, a factor investors monitor.",
+      "summary": "On Sunday, November 8, the Indian stock market opened higher in a special Muhurat trading session marking the start of Samvat 2083. The Sensex rose about 320 points at the opening bell and the Nifty moved above the 25,100 level after closing Friday at 25,030.35. Tata Steel and Sun Pharma were among the top gainers.",
+      "why": "The advance gives a positive start to Samvat 2083, supporting market confidence.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -44,13 +90,13 @@
       ],
       "firstSeen": "2026-11-08T09:35:11+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-08T19:45:04.568952+00:00",
+      "lastChecked": "2026-11-08T23:45:22.103136+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "Sensex up 320 points, Nifty crosses 25,100 in Muhurat session",
-      "previousSummary": "The BSE Sensex opened 320 points higher and the NSE Nifty moved above 25,100 in the special Muhurat trading session on Sunday, November 8, as investors marked the start of Samvat 2083. The Nifty had closed Friday at 25,030.35. Tata Steel and Sun Pharma were among the top gainers.",
+      "previousTitle": "Indian markets open higher in Muhurat session, Sensex up 320 points, Nifty above 25,100",
+      "previousSummary": "On Sunday, November 8, the Indian stock market opened a special Muhurat trading session for Samvat 2083, with the Sensex gaining 320 points at the opening bell and the Nifty moving above the 25,100 level. Tata Steel and Sun Pharma were among the top gainers. The Nifty had closed the previous Friday at 25,030.35, already above key support levels.",
       "previousPublishedAt": "2026-11-08T09:35:11+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 11.3,
@@ -59,19 +105,19 @@
       "lifecycle": "Continuing"
     },
     {
-      "id": "960c71d4fff2e2",
+      "id": "421a32550a13a0",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Indian economy to grow faster, foreign capital returning to markets: NSE CEO Ashishkumar Chauhan",
-      "publishedAt": "2026-11-08T09:40:45+00:00",
-      "importanceScore": 10.5,
+      "title": "Diwali turned lucky for these 8 stocks! Investors' wealth more than doubled, returns soar up to 191%",
+      "publishedAt": "2026-11-08T05:28:18+00:00",
+      "importanceScore": 10.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-economy-to-grow-faster-foreign-capital-returning-to-markets-nse-ceo-ashishkumar-chauhan/articleshow/135656058.cms",
-      "summary": "Domestic financial savings have significantly increased, reaching nearly USD 1.4 trillion annually. Furthermore, foreign institutional investors are showing renewed enthusiasm for Indian markets ahead of the new Samvat year.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-turned-lucky-for-these-8-stocks-investors-wealth-more-than-doubled-returns-soar-up-to-191/slideshow/135652712.cms",
+      "summary": "A select group of 8 BSE 500 stocks delivered exceptional returns since Diwali 2025, more than doubling investors' wealth with gains of up to 191%, even as the Nifty 50 declined nearly 3%. Aditya Infotech led the list of top-performing BSE 500 stocks, delivering an impressive return of 191.39% since Diwali 2025, according to ACE Equities data.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -79,13 +125,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-economy-to-grow-faster-foreign-capital-returning-to-markets-nse-ceo-ashishkumar-chauhan/articleshow/135656058.cms",
-          "publishedAt": "2026-11-08T09:40:45+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-turned-lucky-for-these-8-stocks-investors-wealth-more-than-doubled-returns-soar-up-to-191/slideshow/135652712.cms",
+          "publishedAt": "2026-11-08T05:28:18+00:00"
         }
       ],
-      "firstSeen": "2026-11-08T09:40:45+00:00",
+      "firstSeen": "2026-11-08T05:28:18+00:00",
       "status": "New",
-      "lastChecked": "2026-11-08T19:45:04.568952+00:00",
+      "lastChecked": "2026-11-08T23:45:22.103136+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -97,19 +143,19 @@
   ],
   "jarvisEditedCount": 1,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-08T15:15:17.366276+00:00",
+  "previousUpdated": "2026-11-08T19:45:04.568952+00:00",
   "changeSummary": {
-    "new": 1,
+    "new": 2,
     "updated": 0,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-05T22:01:33.433106+00:00",
-    "updated": "2026-11-08T19:45:04.568952+00:00",
+    "availableFrom": "2026-11-06T02:29:24.511335+00:00",
+    "updated": "2026-11-08T23:45:22.103136+00:00",
     "snapshotCount": 13,
-    "eventCount": 67,
+    "eventCount": 65,
     "retentionHours": 72
   }
 }
