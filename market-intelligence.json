@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T10:46:41.665107+00:00",
+  "updated": "2026-11-08T17:14:27.534723+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -34,21 +34,16 @@
       "headline": "Nifty 50 fell 0.18%",
       "direction": "down",
       "move": "Nifty 50 -0.18%",
-      "why": "Same-day market coverage explicitly linked the final move to: Markets Close Lower on Diwali; banking stocks drag.",
+      "why": "Same-day market coverage explicitly linked the final move to: Markets Close Lower on Diwali.",
       "drivers": [
         {
           "label": "Markets Close Lower on Diwali",
           "detail": "Lokmat Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
-        },
-        {
-          "label": "banking stocks drag",
-          "detail": "IANS LIVE explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -83,34 +78,34 @@
           "publishedAt": "2026-11-08T10:23:22+00:00"
         },
         {
+          "name": "Livemint",
+          "title": "A rare red Diwali: Sensex ends Muhurat trading lower for only the eighth time in 30 years - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTTZSdmhwNUg4OXR0akowOEJxX3FvQ3Q0ZU4xTFROVnEwaFgzbWoxQnpWcy11TnZDeTFCQzJmZlVHTzdScjVWMFkyQ2E0dE1hcF9IMDdMekZycHBqQm1tMWJMNURxZ0dhNExOZ2s2dlIxbnRZbDB3d2hXQmlialA2RTc0SXhrOTBNWXNzbndyZjdSLWMtcTUxU3M4eWVRSVNvU2lEWEFKOVVPYlA3WlNYTS1nUUpDcU44ckZOZk1iWW9YQdIBxwFBVV95cUxNdnhhRXFzYVVyVmI5aWlObVRYWFVMbVRiVHgxQzZWeTQxOExJeDN5Xy1JaVJEMm50WFVXdmEzRUIycXBvcmN3S3JIQmcyTmFWenBqTjNPM1JhQXRwN0VTYlloNHlyMGFfRzQ2QWRBbDU0bHVjdWN5cmtUMDNCYm02Sy1QLXZpQWpKWnFIWHRCTWJQYk41NzV6YkdhX24wVEJfQ3VKd2pYellGcHhqcmw3cl96UFJ6S21fR1d3dXBlamw4djFxNktR?oc=5",
+          "publishedAt": "2026-11-08T12:36:23+00:00"
+        },
+        {
+          "name": "Rediff",
+          "title": "Muhurat Trading: Sensex, Nifty End Marginally Lower After Seven-Day Rally - Rediff",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUlU1cUZjQllWeGVHN1ItbVRQS0FwSF9leG0yMHktWnQ0c0piOUFmSWlrVXZXRm9pTU9MNlhBRUxDbXFSTHZ1ZlY1bVltdVNSZEUyMDJtUllNemV5d2tqODZTbVd0QUs0dERRVk1iVXFqMlhQSWR1aVZ0eXVnQ0RPWGNMdjhoeWh2d2dzNlhXdUdYTG1HWm1OYXotdmN0TEwtS1BTS2I4b3EwSEVRUnJXS2x5b1hsbFFCUWljaGpJZmt2Z9IBxAFBVV95cUxNUXVPLVlEamhsUkRibkpMcm5vYXRybTY4aEpuSkNTZ1ppcTFjQ3hMR2hiY0ZMX0NTcnE1RldFTFBCUjgtVTRFZGlJSWRUb3poZUtweEEtdHlBOXNvdm40alhzbjBKN05SeWlKY0hhUDJUeHFGTmJKbnVwNU9pZjh5TXB5YV9wTm5fN250ZTdzc2xXUFAxU3VTNE9NV2RzT1RneVFmSmVYdlpFUG1BZDRiTnhURmRkTy05NnMteDdRQkpwNE8t?oc=5",
+          "publishedAt": "2026-11-08T11:32:41+00:00"
+        },
+        {
+          "name": "ET Auto",
+          "title": "Auto, pharma, defence, energy indices buck market trend as Sensex, Nifty end Muhurat session in red - ET Auto",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNT0dyRVRYT1ZOYUFmRFRWaUw4SWJFVVh2UmY3UWlHS3Y1Nlo2QW1wY0Fvc08taHp5WmktRGpHbTNhd25sWUtudTk2LUNaM01DZW5qTGZpcjd3Y3otcjdZdXB3Z0tVbmdxLUFlR3FKOFdPUTUxQmhwT1E2dWZycXBfMnVEQzA3WUx5UWo4cG8tTWFWTnc0enpJY29CM25HUnVHendkbGJnNkdiOXNnU2VZNjVnVkFXeFFVMWtaU2NrelZ1c2JPWHc4WDRWSjlDTTdTeVIzQUFER1E5cEhEMzVfYzJ2N2JCN1dXTW5BdnFYNVhRY0XSAfgBQVVfeXFMUHYxaW9Od3R6OTMyNU5hRVZRVFR4bjdIOFdoU2NxYW5jbDVUUmtxQzA3azFhZlV2el9Hb2tZLWdaaElSOXFJZXhaNnM0dkoxbXNRRGlzVDJJUjd0OTVWV2pxaW9ISmo1QlBWeHd3MWYzYUhqR2xkNW5ndExJVlhFaDh4T0JfaUFYMkdlUlU5b0VaOHZyVjhINzFpX0o1cW90RFJKWmExRHp3UnFzMnotcXNSUDVMRzRMeTVmT1lDbGNvZ21UVm9FNFJxZEVEU2NCMFdUVHRRLVlJYS1USGdEX3JtREZHMDljNGtUel9hcXRjREx1NC1zQlc?oc=5",
+          "publishedAt": "2026-11-08T11:06:53+00:00"
+        },
+        {
+          "name": "Lokmat Times",
+          "title": "Muhurat Trade: Sensex, Nifty End Marginally Lower Despite FPI Inflow, Positive Outlook for New Samvat - Lokmat Times",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYVJjeGJwMnZsX1puSEFmem1LdF8tdjJaNWQxdWplQzgtNGVPNnBFbE5uN0FJRmk1YXh0ZGdCWF9HMUpDMWVJcTgyeEx3QTJ5M2VEcDl3SlE1U19lNEJLWm02ZlA1RjBiRDlBMkJwTGo0YXh1MzVtSnJYVkpFbVU3Q3BVa25aQjFENE1XbnpyUkpoNjUxUEJiRktTTjdQdWMzT3VrRnNqaHhCSC0xcG4xamF0OFR4NjFLc2VXTzI2bU9jNDZ0MzViVDlSaVU0Zlh6V2R3dnVYTkJSNlZ6c0HSAeMBQVVfeXFMUGgtbEN0Ukh2aUxBWkVhMkpCdDdKZ0RxOHd6Nm1tSkJBdlM4dHV5bm43TlNjT0V2QnVCS2VVZUZFVXdNVUxQYVZHbmVucDl2QUd2dXhTSi10Mm5Xa01YVEUtZVpGZmlncERBN2pnYW8zTkUweWlpelo2TnlZbHJQaTVNaDdrU3NDN3FvbjFFYkU3bVk0dktBQ1I5ZEJ1V2tqMk04bjl2c1ZSMklUWURSZEJXbnZpRHNqcWRFTVRRbzBDMmNuN3FhSnk0UExmVUxNOVVieEcwTmdnSDZadXphZnJQRm8?oc=5",
+          "publishedAt": "2026-11-08T10:57:27+00:00"
+        },
+        {
           "name": "Lokmat Times",
           "title": "Muhurat Trading 2026: Sensex Slips Below 81,000, Nifty Ends Below 25,000 as Markets Close Lower on Diwali - Lokmat Times",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY3FHckthZmJzN1hfR19kcGZwdkFMeFRaLWhfNGl3VFpzbjc3bE9lRi1QYzFTcndkQXltTERucGh2c0xuT1J5R0xjUk9LbHpFT0IzVm5ibXlveUxsSFNQNWw4NWZuYVo1NVI2dS05YmJ0VXpOUXgzRWhVdE9tYTMxNkpNR2pPQWFkVEVuUGR1NVg2eUtvWVM4NEtoR0xNTHYwNkh0ZV9vNktLV3lBQkFuYzdHTTJPTTVlenZxX3VZQmhNU3I3UUhPSTR4b2s5eV9Kb255S0Y4RUpLakdS0gHiAUFVX3lxTE90V1hCVVlVSnp1Smt3SkhXTWlJNXdpWC1PbGpYWmV4TEg2Q3F5dE5JR2RiX1pUR1Y2TEdBUXNVOXVDX0VNTjR4eV8xWUpyUW03Y0F4Y2VKODFOZXJvaWN2SVR5ZkJlYmhGdFpPLUl0RGZYMllUaEpYRG5YRUVUSGxkX05Bc1pTQ1RMUVdnWTMwRkV1S1V1ZUdlLTVaMkNvY3EwWktON2d3Mm4xZjFVZC1XcXZJcHdQcjR1d2Rpd25pV2R3X2pZc3dfRFhpNjlrdW45WkRsWkk2Q2F5WkVRTUpVX0E?oc=5",
           "publishedAt": "2026-11-08T10:34:37+00:00"
-        },
-        {
-          "name": "IANS LIVE",
-          "title": "Sensex, Nifty end lower in Diwali special trading session as banking stocks drag - IANS LIVE",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJCY3FjbFFWSlJtMnliY2pyWUI3ejR4WXFxck9CUUdxR0RkeFNvWTBGTXhZc2M3UkY3bHE1RU1iUzhET1I0VGwwNGx1MTlrdDFmTmRZelgxM1hXY1daWlNYZTkwTi1IbVA4Q1ZSQ1F0QlhVeE1fSm9JTmltbXFVRENJY3dTT2VEUzhyNEFSVEtTaFFRdnJjWndjR0RsSTVSZ2htVVBZRmF6RlJUc25hTmhDazFIQQ?oc=5",
-          "publishedAt": "2026-11-08T10:17:00+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "Nifty bulls reclaim 25,000 mark as FIIs step up India buying: 5 factors that will determine D-Street's fat - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPVnh1QVQwQXppTncweDNHamR2MVY0MUE4bW0tdVZadVFpRG1fakZXWkttcTJHaFZ1UDktLUhEcl9jQzFGQ01Ga3FwWGxPNUI4cmhBd3g4cWFhYXJjOTFDc2x2dDFYaTVkZDJPMUdXNmN6ZVJGUkdkU2tnb0NmLUVnSF9fdlpnSXp2d1VuVk9aTHpMXzZ2cnVLQ0tHYmtpMXZLRjNBcXl3WWhMSjNqYWF3djNBVldTTXVlemdwQk45Vl9QTWhtbmZnTFRCOTZ6ZG5iVEJIckhuNy1sYWhTekcwc25sdkREVXhyRzRFT0lxbkl6b1gzSlpaXzc3ZTctYW1scDluSUdUczc1M09kc1lQZF9vLWd6NGfSAZwCQVVfeXFMTV9VVEpJOG42V1lqZENDLWpKcXM0eDZHcWpUT1ZRU2JDTHZSbkFoZ0tBdjdZcXJudDh6Vi05VTlGaFhyMS1vTGlSb2YxSkkzWXo4bUNoY0RzTlBuNlFJUDZ3ZDY2SExReHFyTWNzNGVQX0VDcnlqZURJcEFXNDN4QkVVRlhtUW1PNXNNZ1F1bnRxUThQOENXSjhEMHptT2FYTzhERFhCTFN0WjJpcVpXclhUUUwtbHJlc1VhT2FBY1pSR0VtRjBqb0hvdUtYc3puVzNkcXVNMjBNVlE5YTI2Zkc1a09vRHZGamxzNnVMTzIzRERRUU4ydDY5X3V0dlFLTXE5UjUxZ25hSzFlT1JjSklCMUFjWUtCV2xlSlk?oc=5",
-          "publishedAt": "2026-11-08T06:43:07+00:00"
-        },
-        {
-          "name": "Dainik Jagran MP CG",
-          "title": "Muhurat Trading 2026: Sensex Falls 29 Points, Nifty Slips 44; First Loss Since 2017 - Dainik Jagran MP CG",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNHdfMFA0eUNIVWRZOFQ0YmkxdVU3aVhDTVhIVnFWMUs3TXRYbnVqM29jNGo2eF94UFhNdUcyN2xHV1J2c2tNeUVZOG1lNmRFM1VlWGVoSEZxczB2ekVnTThRa0xuTkYtOExJSExFcWMxUmE3ZmhmTTJMd2VqMlg4VTQxbGhlbFc4NEZ3S1RaS0hBWFZYdTFvVFpUazBrZ0tGWXFSQWNjekI4M3o3NlFF?oc=5",
-          "publishedAt": "2026-11-08T10:24:32+00:00"
-        },
-        {
-          "name": "Goodreturns",
-          "title": "Diwali Muhurat Trading 2026 LIVE: Nifty Erases 25,000 Mark To Close 44 Pts Lower, Sensex Ends Below 81,000 - Goodreturns",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUVZTb1hlTWZPSXloLVc0Mmo1WmI1QUQzek5tWFM0cUdSLXpCT2dQV09aSmlVcEhzdXFKU1MtMmFxM19EWjBTUkZIb0hNbmozSk54NmVkSU05SWV4YXQzYkdQeWlZVHVkRTk4Z3V5ZlRNMHZ0bTE4cG9QWFN5ZVNTb0RYTWE2NUVhekhIeGdCZ3pwWmdaX0J4SUJxMUxCckE1SUFlVklVUFBBZzVjeGh0Wi1uLTVFR0tMUVU5c1hlNnZqZjZzYTN0bE5TbjZXeXhJbnc5bE5kZjlYa2li?oc=5",
-          "publishedAt": "2026-11-08T10:24:12+00:00"
         }
       ],
       "evidenceCount": 7
