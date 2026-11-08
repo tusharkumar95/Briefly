@@ -1,21 +1,15 @@
 {
-  "updated": "2026-11-08T02:42:46.661010+00:00",
+  "updated": "2026-11-08T10:46:41.665107+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "Canada shares close higher as S&P/TSX Composite rises",
+      "headline": "S&P/TSX Composite rose 0.52%",
       "direction": "up",
       "move": "S&P/TSX Composite +0.52%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
-      "drivers": [
-        {
-          "label": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% By Investing.com",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        }
-      ],
+      "drivers": [],
       "sectors": [],
       "confidence": "low",
       "primaryIndex": {
@@ -32,103 +26,91 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
-      "sources": [
-        {
-          "name": "Investing.com India",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.61% By Investing.com - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY1dGM2hteDlnQnVJelNVaUFXQTJsR204YTJLUmlYMnlQbmtrQldIcFBZcFhWb0s5TFlDcVY4VnRnMVVkUEc3Y0I1TC1XU2JJNHBra1RzZWVlWFBqVXZ1bHZ6S2VHbERwdXVzeGp5WlRhT1RkLUtUbkxNcWZ5NkxJem1seDN6Q0hyUTNwZXVnVUp3R0J4aW9qVkt0WWZPRkVsM09wOUtRR2wxeEU1RXl5NkpERlZxWkZC?oc=5",
-          "publishedAt": "2026-11-07T08:32:10+00:00"
-        }
-      ],
-      "evidenceCount": 1
+      "sources": [],
+      "evidenceCount": 0
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 2.01%",
-      "direction": "up",
-      "move": "Nifty 50 +2.01%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "headline": "Nifty 50 fell 0.18%",
+      "direction": "down",
+      "move": "Nifty 50 -0.18%",
+      "why": "Same-day market coverage explicitly linked the final move to: Markets Close Lower on Diwali; banking stocks drag.",
       "drivers": [
         {
-          "label": "Muhurat trading 2026: 80% to 90% — will Sensex, Nifty improve decadal strike rate on cerem",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "Markets Close Lower on Diwali",
+          "detail": "Lokmat Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "From Diwali 2025 to Diwali 2026: How Sensex, Nifty 50, rupee, crude oil changed in Samvat ",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "F&O Talk: Nifty’s bullish structure intact after best week in 5 years; Sudeep Shah on HDFC",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "banking stocks drag",
+          "detail": "IANS LIVE explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25030.35,
-        "previousClose": 24536.6,
-        "change": 493.75,
-        "changePct": 2.01,
+        "price": 24986.4,
+        "previousClose": 25030.35,
+        "change": -43.95,
+        "changePct": -0.18,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-06T10:01:22+00:00",
+        "asOf": "2026-11-08T10:03:15+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 81028.02,
-        "previousClose": 79310.01,
-        "change": 1718.02,
-        "changePct": 2.17,
+        "price": 80999.4,
+        "previousClose": 81028.02,
+        "change": -28.62,
+        "changePct": -0.04,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-06T10:02:33+00:00",
+        "asOf": "2026-11-08T10:02:16+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
           "name": "Livemint",
-          "title": "Muhurat trading 2026: 80% to 90% — will Sensex, Nifty improve decadal strike rate on ceremonial Diwali session? - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQT3ZXSDhhUDJzSGx3SzVualpwSVFieEZsOTFDemNzUmNqcHFPTXdoOW9Bc21QVUhfLXA1UzdEUXhfQ29rRS1qS3pEWDY5NGNKZGxKaEVxelo5M242ZmFxUnc3VnItNllSbGdpOFd4amlYcUlRMjdxMWdyUS1aa1NWMDlSODYzaTF4UWpicmtzNkU2Nnp4UGU1ZVBZdzNHQWZjOEpYTktqUk0wR0xWckhCSm9ZYzM1S0hPR3BSbTdrdFF6M19WNnpUQUk4cW4tME1qcXVlWXZVQ1ZzTlY1OXI1NkJJZ2J6MjFvdERjRXZ3VkRBaU4zbW1iRWdYeVZMTE1ueHBON9IBigJBVV95cUxOdlltWVFxUXhtNjFnY3BRM0NfbEZwMjRXTUtYcFFRaE1SYllBeWN0UmtSUVJyVkl2WG1xYTFPbUp5ZkNwOXhndjJnS0FpckVUYXRpaTBmYkVmX044akpNWXU5dGEtdWx0ZDJuY0t6Rmd1cnNFakdLN1Q2cnJ6dlVjbzB5ZHpTZUF2N1JlNUtTZ2pXc09CNldnTFVrTEg0dGF1a1VBb3BoV0VoaDdvWWwyNEFoM05XUzBrUHJjdWdvRDdieVFWa19ZY2FRSjdIVU9uN2dzd1BHMnpGN0NUWWQ1YWRGbWRIVUdrVm9wTTVaZzR4NEJPMUpkQk9MaFJ2YkhYR1dJLVRub1hqZw?oc=5",
-          "publishedAt": "2026-11-07T12:06:39+00:00"
+          "title": "Muhurat Trading 2026: Samvat 2082 ends, Samvat 2083 begins - Sensex, Nifty end in red first time after 2017 | Reasons - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUUtWQlpyYnJMUEhnRVF3OXBrNzllMU10RFdNMUpBM1BnemtpV0t5Q3Q4MjBpV2NVbUMxbjl2d3ZuQmN0U1E2bUlSTFFHQ3p0bXFiTDRFMTBwcVRoRUNBMThLVHcweTZIS1ZTQ0Q4MHZpLW5PVHdXajdWRzVqbDhGWUNmVGg2M1gxemxKVVJSakVvTlR5ZDd4VlA4T1lfU1NMNEllci1BZF9GZlR6RVFfZ3dQeENEVFNNNl9xY0lNYzN2eGlrcnFFSjItSlJDZkc5OEF1VWdWTUtYdHdscjlOcktQVEFSczJrSG5UcmZrc180cGRRT0NzS1A4V21fSFkyTmlaZHBrbEI1a0lr0gGSAkFVX3lxTE01NmlDV1lQY1pUSEVlRjFOMEtRSmprSEUxak4zU1pwSURzX0t1TTBvdG1BVm01SU15b1Fyb3B0OC1va0xLTldsSU5CaVhZb3FxTUFMS1pRZHdEa0pvaU5uUzYxN200QzVMT0tjbUlKbzlOMUJjOHdudXBEYi1RaTc0UzUyRmh3VmlhRzlrcV9WYWlSU2lSaWlyeHYwTk9vbHI0Y3BPUnk4Z3NoeUdDNEVDTFJIeVdJelRnZy03UXVycmpqUjl6LVRiaG1kUzYzbzFoeUhaRUhReDdpTjNuTkJZajVQdkNPUEozaTBLNTFuNEtqaHJrZGtVQTg2aDdvd1o2N05zRmU3QVZKQVNfTVJzLWc?oc=5",
+          "publishedAt": "2026-11-08T10:23:22+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "From Diwali 2025 to Diwali 2026: How Sensex, Nifty 50, rupee, crude oil changed in Samvat 2082 | What lies ahead? - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPX3JOeW5Td3pxS3RrQ3BMODFYRHI0VnhlS1B3TjFaZ2Y0VkhhekJReGhFeWQ5b0hPUUVZVDRRVFd5NEJoWHVzUnFOQzZsNmhkMk9rNzJwS193U0tBdWVoRjlMVDRMa3pzMTFFbzlqUGJFcXZabk5iekVnZmlZWXRBQkpRQ0o5eW5Rc3ZTa2xVM2NwS1lFYkRNU2lKa3VjTVprMEdVSWVVQ1M2TEZfcURON2ZJaFBCM2ozeHpmTDFkYnN2Z1pkQmNWUUl6eUxMRUczclhLTGJ4ME9CQ2lnRTZZM2RpaFl3SDFQbWpQMUN2dWJ6blJBY3JQY0IxUlU3MW0xVl8yVlBQZ9IBjAJBVV95cUxPd0lZSl9aYzJWTWpkWDczTk5LdEV4c3hXbnZ2Z1MtaHZsQ1ZEZ3FoM2stRERLTVd6QUlmSzVUa1I0SnBUU3BHMXJuUmZ3ZTFBTHNHSjFiQUpkRlVpX3pPQzM1OVM1TXFvN3hyUnptLTJqNXFPNm1VWFlzSl9Da3Q4WElLN2tLQWdod2dVMkpSSkItanZsYUo3dm5HX1lXOXRISHZzVDVvRHE5VDZIUzRMN0pQZDlqeGtrQmtoX1JocXBRRVRsZVF0MEVXZFBwU21YRThtb2x6V3A3MjcxXzlOZV91Znc4UjNsSEY5OFJBUlo2SjExQzVHVC10ZnJtS0N0OEFKVTBubGNCeERw?oc=5",
-          "publishedAt": "2026-11-07T11:18:52+00:00"
+          "name": "Lokmat Times",
+          "title": "Muhurat Trading 2026: Sensex Slips Below 81,000, Nifty Ends Below 25,000 as Markets Close Lower on Diwali - Lokmat Times",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY3FHckthZmJzN1hfR19kcGZwdkFMeFRaLWhfNGl3VFpzbjc3bE9lRi1QYzFTcndkQXltTERucGh2c0xuT1J5R0xjUk9LbHpFT0IzVm5ibXlveUxsSFNQNWw4NWZuYVo1NVI2dS05YmJ0VXpOUXgzRWhVdE9tYTMxNkpNR2pPQWFkVEVuUGR1NVg2eUtvWVM4NEtoR0xNTHYwNkh0ZV9vNktLV3lBQkFuYzdHTTJPTTVlenZxX3VZQmhNU3I3UUhPSTR4b2s5eV9Kb255S0Y4RUpLakdS0gHiAUFVX3lxTE90V1hCVVlVSnp1Smt3SkhXTWlJNXdpWC1PbGpYWmV4TEg2Q3F5dE5JR2RiX1pUR1Y2TEdBUXNVOXVDX0VNTjR4eV8xWUpyUW03Y0F4Y2VKODFOZXJvaWN2SVR5ZkJlYmhGdFpPLUl0RGZYMllUaEpYRG5YRUVUSGxkX05Bc1pTQ1RMUVdnWTMwRkV1S1V1ZUdlLTVaMkNvY3EwWktON2d3Mm4xZjFVZC1XcXZJcHdQcjR1d2Rpd25pV2R3X2pZc3dfRFhpNjlrdW45WkRsWkk2Q2F5WkVRTUpVX0E?oc=5",
+          "publishedAt": "2026-11-08T10:34:37+00:00"
+        },
+        {
+          "name": "IANS LIVE",
+          "title": "Sensex, Nifty end lower in Diwali special trading session as banking stocks drag - IANS LIVE",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFJCY3FjbFFWSlJtMnliY2pyWUI3ejR4WXFxck9CUUdxR0RkeFNvWTBGTXhZc2M3UkY3bHE1RU1iUzhET1I0VGwwNGx1MTlrdDFmTmRZelgxM1hXY1daWlNYZTkwTi1IbVA4Q1ZSQ1F0QlhVeE1fSm9JTmltbXFVRENJY3dTT2VEUzhyNEFSVEtTaFFRdnJjWndjR0RsSTVSZ2htVVBZRmF6RlJUc25hTmhDazFIQQ?oc=5",
+          "publishedAt": "2026-11-08T10:17:00+00:00"
         },
         {
           "name": "The Economic Times",
-          "title": "F&O Talk: Nifty’s bullish structure intact after best week in 5 years; Sudeep Shah on HDFC Bank strategy, - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZ2c3NVZRaXc5cnRSWmZKckNoVWZZYkp2TG1ZV25YM2hZRUh2TzZGWGR3WVBVUjdnMGpDM0VYWElwVVRUcEV0X0hGZUYxZ1BOV1RDTWJqVVJqZVNNNXpESVNVT2lCTjZwcXdYNTJhcTZvcTJUWm16YWhQa2lMLWpOQnNxTzVfbFdIcXU4R0U2QkR5QWpYVWY2NXpRUjdON25qaUZhZVpodDBHbFRaNEd1TzcxeDBfTGJNRm5ITUo1UVc3QmpjOWxNUUZWdTRGVFdpQUgzV3J3QUhiakZ1dUR3TXhhc3JheTRoYXFnTkxKb0VLV2tRTThMYmxZWF80RlVWMTZfcUthNHp3WE11blprWk1PdW80LXdQTlFmR05YVF95Wlh4c0pLUHRlS2JuMXQxTVF30gG4AkFVX3lxTFBHbi11QXZQOW1uZF91YlZRdW8ta2hvZ0pxM1RBcG1oa0J6WGwyaGM1N2ZrSC1hOWVQV0g0N3NoRTV1NFpsanhFQWEzTmFXWDA3NjdPYk1KTG5pOWdnSEQ0ZXZnaTZhVmtSMFBzeG9CbDJGVWZhNnh4YUtJelAwN2JCUEhqbjg1V3l3d0x4T2lveGFjRmhYOFp1Z0Fmell3QjlKb1RoaU5yMnBoTUU3Y1M2NHJHcmZwVWZIS0d3akY5U2FRclJyNDRsM2pQNDdIamN2MXFIMUVmVVd6Ym9FN2hfRTk0RWFKNnFFOU5ZZTBRV3o0WVlSM1VJUUxPc2F1b1hSMG4xUjZQOG1RTkJ5Y1hJT0ZOUkJRR055bDJNUXdyZnVFNlZwZnFZTF9iYmozbXpMeGFPVU9NYw?oc=5",
-          "publishedAt": "2026-11-07T05:55:30+00:00"
+          "title": "Nifty bulls reclaim 25,000 mark as FIIs step up India buying: 5 factors that will determine D-Street's fat - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPVnh1QVQwQXppTncweDNHamR2MVY0MUE4bW0tdVZadVFpRG1fakZXWkttcTJHaFZ1UDktLUhEcl9jQzFGQ01Ga3FwWGxPNUI4cmhBd3g4cWFhYXJjOTFDc2x2dDFYaTVkZDJPMUdXNmN6ZVJGUkdkU2tnb0NmLUVnSF9fdlpnSXp2d1VuVk9aTHpMXzZ2cnVLQ0tHYmtpMXZLRjNBcXl3WWhMSjNqYWF3djNBVldTTXVlemdwQk45Vl9QTWhtbmZnTFRCOTZ6ZG5iVEJIckhuNy1sYWhTekcwc25sdkREVXhyRzRFT0lxbkl6b1gzSlpaXzc3ZTctYW1scDluSUdUczc1M09kc1lQZF9vLWd6NGfSAZwCQVVfeXFMTV9VVEpJOG42V1lqZENDLWpKcXM0eDZHcWpUT1ZRU2JDTHZSbkFoZ0tBdjdZcXJudDh6Vi05VTlGaFhyMS1vTGlSb2YxSkkzWXo4bUNoY0RzTlBuNlFJUDZ3ZDY2SExReHFyTWNzNGVQX0VDcnlqZURJcEFXNDN4QkVVRlhtUW1PNXNNZ1F1bnRxUThQOENXSjhEMHptT2FYTzhERFhCTFN0WjJpcVpXclhUUUwtbHJlc1VhT2FBY1pSR0VtRjBqb0hvdUtYc3puVzNkcXVNMjBNVlE5YTI2Zkc1a09vRHZGamxzNnVMTzIzRERRUU4ydDY5X3V0dlFLTXE5UjUxZ25hSzFlT1JjSklCMUFjWUtCV2xlSlk?oc=5",
+          "publishedAt": "2026-11-08T06:43:07+00:00"
         },
         {
-          "name": "IndiaIPO",
-          "title": "Samvat to Samvat: Nifty ends lower, while pharma and metals shine - IndiaIPO",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNktRLTZMRnA0a2hkN2VObzNjZWR2ZThxSkp1TTVtZG1talprWWVJbWdEY3dmZ1FLVzlfSC1XejZ4ZGQzWmgxVzFha3VKVlMtUWp0UGtYelpTZWtHcS1qNWtOcU9WckdxWTBZdWtHYXQxRm5uZmVMejBOOEtzcklNU0hGeExGN0pEUWpmcWtTMDB3MkNLcklUaWhLMS0zMS0x?oc=5",
-          "publishedAt": "2026-11-07T14:32:48+00:00"
+          "name": "Dainik Jagran MP CG",
+          "title": "Muhurat Trading 2026: Sensex Falls 29 Points, Nifty Slips 44; First Loss Since 2017 - Dainik Jagran MP CG",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNHdfMFA0eUNIVWRZOFQ0YmkxdVU3aVhDTVhIVnFWMUs3TXRYbnVqM29jNGo2eF94UFhNdUcyN2xHV1J2c2tNeUVZOG1lNmRFM1VlWGVoSEZxczB2ekVnTThRa0xuTkYtOExJSExFcWMxUmE3ZmhmTTJMd2VqMlg4VTQxbGhlbFc4NEZ3S1RaS0hBWFZYdTFvVFpUazBrZ0tGWXFSQWNjekI4M3o3NlFF?oc=5",
+          "publishedAt": "2026-11-08T10:24:32+00:00"
         },
         {
-          "name": "TradingView",
-          "title": "Diwali Rally Lifts Sensex 8.82%, Nifty 8.58% In Best Weekly Gain Since 2021 - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWXRQc1I2QkZiR1VBcTlSNVZmV0ZzdG11cGM3dGZPS1FXWUczb0NneDlpU0MxaVNwcFF1Q00zdnlFbHJHblB4cG03OUE2MGd0cTU0YklwQkMyQktiTjBIRjBPNkZHOE1iTDZTQTkteDJLbkp1ZEw4em5fdEFyV2JxdENHeHkwQmFsbFpWZUJYa2IzVUxldjFBeDFxYWdDd1RGSlFKRmo3Nm9PTHdpUFQ4UXNEVGI0RTBPR1FvUUlPRnRaZ0VwWDlZSg?oc=5",
-          "publishedAt": "2026-11-07T10:31:23+00:00"
-        },
-        {
-          "name": "Livemint",
-          "title": "Diwali 2026: Stock market enters Samvat 2083 with Nifty 50 above 25,000: Key support, resistance levels. Targets to know - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRXR1dWwyVzZQY0pjN2dJOGJrZTJjYmQ0Z0tPMjFUYWF5cTN2Q3dVSm1Gd0twRVhhRENPdzdmT1RFZExDTUVVaDRNcEY5LTEtVVNTekg3UDhGd2dZbUZ3ZkV0U3RNNXhmdjBWTHdTN3JocjZhdGtyVUlxQUpaUTdZRElTVnZCdlN1N2x1U01Zcms5bElEaGRZRU5DOVZ2OEhwMHpZbnp6ZV9RMUpDeTBtMzQ3d0tpNGllR01Sd2dTeWJJQlJtTE9KV21JUFJwdzEwRHY2MWkyZ0NMajFoOTFQN0NoWWlEY1dVYnpXQi1fUW9zcmxuTUZqN2hMOTXSAYICQVVfeXFMTXdrSG4wSjNxd0hGQ25LcXgwS2lOT0RVTU9INGR1T24wNnZVeV9SaTQxZlJsVE1TQUgzY2hFNjViQmhpOW5xTm1lRTdyWk1fUjVIaU1VdkdfLXc1cUd4TEZzenZJRFN4bVUwS1BLOU1PdjBvbU5kWWo3azR4TmF3cERpVWI3N0lBelRPN0dEbnhkaEJidlJ5S2Jlck82VTZrUl9VZkVPSXBfbnl4ZWh1SHVQQlFkNS05bkxoUzYzV3JJVnhaaVdPZTdyZWVpTldlOFpJYURTYWtRTE5iVXdfdVpyY0RJV0l1TVNSVEVEZC1jc29abTdVUzU4X1lnU2NTamhn?oc=5",
-          "publishedAt": "2026-11-07T09:19:13+00:00"
+          "name": "Goodreturns",
+          "title": "Diwali Muhurat Trading 2026 LIVE: Nifty Erases 25,000 Mark To Close 44 Pts Lower, Sensex Ends Below 81,000 - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUVZTb1hlTWZPSXloLVc0Mmo1WmI1QUQzek5tWFM0cUdSLXpCT2dQV09aSmlVcEhzdXFKU1MtMmFxM19EWjBTUkZIb0hNbmozSk54NmVkSU05SWV4YXQzYkdQeWlZVHVkRTk4Z3V5ZlRNMHZ0bTE4cG9QWFN5ZVNTb0RYTWE2NUVhekhIeGdCZ3pwWmdaX0J4SUJxMUxCckE1SUFlVklVUFBBZzVjeGh0Wi1uLTVFR0tMUVU5c1hlNnZqZjZzYTN0bE5TbjZXeXhJbnc5bE5kZjlYa2li?oc=5",
+          "publishedAt": "2026-11-08T10:24:12+00:00"
         }
       ],
       "evidenceCount": 7
