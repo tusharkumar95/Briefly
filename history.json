@@ -3,160 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-06T10:57:16.507519+00:00",
-      "changeSummary": {
-        "new": 5,
-        "updated": 1,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "b95043b4b2f8bf",
-          "cat": "India",
-          "title": "India October consumer inflation likely near RBI's top target, poll says",
-          "summary": "A Reuters poll reported by the Economic Times says India's consumer price inflation for October is expected to be close to the upper end of the Reserve Bank of India's inflation target. The poll attributes the upward pressure mainly to higher food prices. No specific inflation rate or poll details were provided.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-06T07:51:18+00:00",
-          "firstSeen": "2026-11-06T07:51:18+00:00",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-consumer-inflation-soars-as-food-prices-surge-october-predictions-near-rbis-max-target/articleshow/135599213.cms"
-        },
-        {
-          "id": "e42f6559f926b9",
-          "cat": "Indian Markets",
-          "title": "IPO multibaggers: 13 stocks that delivered up to 193% returns since last Dhanteras",
-          "summary": "From the last Dhanteras in October 2025 to the latest festive season in November 2026, these 13 IPO stocks have generated returns of over 100% over their offer prices. ESDS Software Solution has delivered a 178.29% return over its IPO issue price of Rs 429, with shares climbing to Rs 1,193.85.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-06T04:41:27+00:00",
-          "firstSeen": "2026-11-06T04:41:27+00:00",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ipo-multibaggers-13-stocks-that-delivered-up-to-193-returns-since-last-dhanteras/slideshow/135594462.cms"
-        },
-        {
-          "id": "b53f9b939c26b3",
-          "cat": "World",
-          "title": "Families of Britons killed in Spanish wildfire demand inquiry after officials block investigation",
-          "summary": "A wildfire on 9 July swept through the hillside village of Bédar in Almería, Spain, killing 15 people, including nine British nationals. Relatives said they are disgusted that regional politicians blocked an official commission of inquiry and criticised the lack of an emergency mobile‑phone alert that could have warned residents. The governing People’s Party and Vox rejected the opposition Socialist party’s request for an inquiry.",
-          "why": "The case highlights concerns about emergency warning systems and political accountability in disaster response.",
-          "publishedAt": "2026-11-06T06:00:46+00:00",
-          "firstSeen": "2026-11-06T06:00:46+00:00",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "bf45370e69b695",
-          "cat": "Indian Markets",
-          "title": "Micron Technology shares fall 17% on Nov. 5 amid AI chip selloff",
-          "summary": "Micron Technology's stock fell 17.46% to close at $656.39 on November 5, its lowest level in nearly six months, after touching an intraday low of $650. Investors dumped semiconductor and AI-related stocks as concerns grew over the outlook for the AI trade. (Sources: TradingKey, Benzinga)",
-          "why": "The decline reflects growing investor unease about the outlook for AI-related semiconductors.",
-          "publishedAt": "2026-11-06T05:44:39+00:00",
-          "firstSeen": "2026-11-06T05:44:39+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/micron-stock-tanks-17-as-ai-chip-selloff-deepens-whats-next/slideshow/135595811.cms"
-        },
-        {
-          "id": "6f4b12e3623350",
-          "cat": "Canada",
-          "title": "Canada proposes ban on fees for moving investment accounts",
-          "summary": "The federal government has released draft regulations that would prohibit Canadian banks from charging fees when a client transfers an investment account to another financial institution. The proposal covers registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts, and the regulatory impact analysis notes that the fees being eliminated are typically about $150 per account.",
-          "why": "Eliminating the fees lowers costs for consumers, particularly lower‑income Canadians, and may improve competition for smaller financial firms.",
-          "publishedAt": "2026-11-05T20:22:23+00:00",
-          "firstSeen": "2026-11-05T20:22:23+00:00",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
-        },
-        {
-          "id": "d2a73f573f0fb0",
-          "cat": "World",
-          "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
-          "summary": "At least 12 other military sites, including missile complexes and air bases, appear to show signs of repairs. New roofs have been built on destroyed buildings at the Kermanshah missile base in western Iran, near the border with Iraq, while damaged buildings and debris have been cleared at the Parchin military complex - which has been repeatedly repaired despite a succession of air strikes - east of the capital.",
-          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-          "publishedAt": "2026-11-06T07:33:41+00:00",
-          "firstSeen": "2026-11-06T07:33:41+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "b465189d1af1ea",
-          "cat": "India",
-          "title": "American midterm results will not have an impact on India-US interim trade deal: Sources",
-          "summary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-05T13:38:14+00:00",
-          "firstSeen": "2026-11-05T13:38:14+00:00",
-          "importanceScore": 9.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
-        },
-        {
-          "id": "42ba335d100ea4",
-          "cat": "AI",
-          "title": "OpenAI’s GPT‑5.6 Sol helps discover Ubuntu server vulnerability",
-          "summary": "Max Justicz, CTO of Charge Robotics, used OpenAI’s GPT‑5.6 Sol (released in July through the Daybreak Blue program) to locate a severe vulnerability in Ubuntu that could let attackers take control of servers. He reported the flaw to the Debian Project, which issued a patch; there is no known evidence that the bug has been exploited.",
-          "why": "Demonstrates that advanced AI models can quickly identify critical software bugs, affecting both defensive security practices and potential attack vectors.",
-          "publishedAt": "2026-11-05T19:06:12+00:00",
-          "firstSeen": "2026-11-05T19:06:12+00:00",
-          "importanceScore": 8.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-06T17:59:43.673994+00:00",
       "changeSummary": {
         "new": 2,
@@ -1301,6 +1147,52 @@
           "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-stock-price-livestock-price-today-live-updates-09-nov-2026/liveblog/135670110.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-09T17:33:05.615857+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "388884289d4d98",
+          "cat": "Indian Markets",
+          "title": "IndusInd Bank Share Price Highlights: IndusInd Bank Stock Price History",
+          "summary": "Stay in the know with the latest information about Coal India, including: Last traded price 401.5, Market capitalization: 247433.54, Volume: 7329368, Price-to-earnings ratio 7.42, Earnings per share 54.14. Explore the latest updates on BPCL stock, including: Last traded price 316.0, Market capitalization: 137096.77, Volume: 6532648, Price-to-earnings ratio 8.68, Earnings per share 36.43.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-09T04:36:43+00:00",
+          "firstSeen": "2026-11-09T04:36:43+00:00",
+          "importanceScore": 14.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/coal-india-ltd-stock-price-today-live-09-nov-2026/liveblog/135671037.cms"
+        },
+        {
+          "id": "c94e6b32a47aef",
+          "cat": "Indian Markets",
+          "title": "Indian bonds flat as oil steadies, inflation data awaited",
+          "summary": "Indian government bonds moved little as crude oil prices steadied. Investors stayed cautious ahead of inflation data releases in the United States and India, and a bond auction of 290.5 billion rupees scheduled for later in the day. Analysts said the 10‑year yield could range between 7.10% and 7.30% with focus on India’s October inflation report due Thursday.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-09T07:33:21+00:00",
+          "firstSeen": "2026-11-09T07:33:21+00:00",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-with-oil-inflation-data-in-focus/articleshow/135674915.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1406,94 +1298,6 @@
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/chinas-5000-ton-digging-machines-are-a-trade-war-risk-to-india/articleshow/135443848.cms"
     },
-    "3e566da6217c6a": {
-      "id": "3e566da6217c6a",
-      "firstSeen": "2026-11-01T21:55:23+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-02T06:11:04.903800+00:00",
-          "title": "OpenAI may rename data centers as “AI compute campuses”",
-          "summary": "Axios reports that OpenAI is considering rebranding its data centers as “AI compute campuses” and is planning a public‑relations push after the upcoming midterm elections, which are expected to shift control of Congress to Democrats. Chief global affairs officer Chris Lehane told Axios the midterms will act like a “movie trailer” for the role AI will play in the 2028 presidential election.",
-          "importanceScore": 10.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-02T15:59:46.259550+00:00",
-          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-          "summary": "Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . So OpenAI is to influence the AI debate moving forward, with Lehane discussing several proposals, including the development of AI “speed limits” ; finding ways to help people see AI as empowering them in their daily lives; pushing the U.S.",
-          "importanceScore": 9.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-02T15:59:46.259550+00:00",
-      "cat": "AI",
-      "latestTitle": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "latestSummary": "Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . So OpenAI is to influence the AI debate moving forward, with Lehane discussing several proposals, including the development of AI “speed limits” ; finding ways to help people see AI as empowering them in their daily lives; pushing the U.S.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
-    },
-    "f2120a0704360b": {
-      "id": "f2120a0704360b",
-      "firstSeen": "2026-11-02T14:39:18+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-02T15:59:46.259550+00:00",
-          "title": "US stocks rise as AI shares stabilize and oil falls on peace hopes",
-          "summary": "On Monday U.S. equities opened higher, with the Dow Jones up 0.78% to 52,173.40, the S&P 500 up 0.45% to 7,613.87, and the Nasdaq Composite up 0.63% to 25,596.07. Crude oil prices fell sharply as hopes grew for a U.S.–Iran peace deal and for Iran‑mediated talks to reopen the Strait of Hormuz. Alphabet announced a €6 billion euro‑bond sale that drew €17.1 billion of orders.",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-02T15:59:46.259550+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "US stocks rise as AI shares stabilize and oil falls on peace hopes",
-      "latestSummary": "On Monday U.S. equities opened higher, with the Dow Jones up 0.78% to 52,173.40, the S&P 500 up 0.45% to 7,613.87, and the Nasdaq Composite up 0.63% to 25,596.07. Crude oil prices fell sharply as hopes grew for a U.S.–Iran peace deal and for Iran‑mediated talks to reopen the Strait of Hormuz. Alphabet announced a €6 billion euro‑bond sale that drew €17.1 billion of orders.",
-      "why": "The moves illustrate how geopolitical developments and major corporate financing can quickly shift market sentiment.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-higher-as-ai-trade-steadies-oil-falls/articleshow/135465480.cms"
-    },
-    "ff7a668d0b13d4": {
-      "id": "ff7a668d0b13d4",
-      "firstSeen": "2026-11-02T14:35:38+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-02T15:59:46.259550+00:00",
-          "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
-          "summary": "Ireland Scotland Wales Isle of Man Guernsey Jersey Local News Wizz Air flight from Luton in emergency landing after bomb threat A file photo of a Wizz Air plane on the tarmac at Ferenc Liszt International Airport in Budapest",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-02T15:59:46.259550+00:00",
-      "cat": "World",
-      "latestTitle": "Wizz Air flight from Luton in emergency landing after bomb threat",
-      "latestSummary": "Ireland Scotland Wales Isle of Man Guernsey Jersey Local News Wizz Air flight from Luton in emergency landing after bomb threat A file photo of a Wizz Air plane on the tarmac at Ferenc Liszt International Airport in Budapest",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss"
-    },
     "d908c90d702868": {
       "id": "d908c90d702868",
       "firstSeen": "2026-11-02T15:00:00+00:00",
@@ -1544,56 +1348,6 @@
       "latestSummary": "Omen AI, founded in 2024 to monitor cooling water in data‑center chips, announced a $16 million cash‑and‑stock acquisition of competitor Aquatic Labs. The deal follows Omen’s $31 million Series A round raised in June and combines Omen’s element‑detection sensors with Aquatic Labs’ alkalinity‑testing technology to provide a richer real‑time view of cooling fluids.",
       "why": "The combined sensor can improve water‑use monitoring, potentially reducing consumption and operational costs in AI data centers.",
       "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
-    },
-    "2d1b3f6ed72f83": {
-      "id": "2d1b3f6ed72f83",
-      "firstSeen": "2026-11-02T14:43:13+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-02T15:59:46.259550+00:00",
-          "title": "Fusion Finance posts Rs 86.5 crore profit as asset quality improves",
-          "summary": "Fusion Finance reported a profit of Rs 86.5 crore for the most recent reporting period. The Economic Times headline notes a swing to profit, implying a reversal from earlier losses. The company linked the profit to an improvement in asset quality.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-02T15:59:46.259550+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Fusion Finance posts Rs 86.5 crore profit as asset quality improves",
-      "latestSummary": "Fusion Finance reported a profit of Rs 86.5 crore for the most recent reporting period. The Economic Times headline notes a swing to profit, implying a reversal from earlier losses. The company linked the profit to an improvement in asset quality.",
-      "why": "The profit swing suggests a potential turnaround in financial performance, which could influence investor sentiment.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fusion-finance-swings-to-rs-86-5-crore-profit-as-asset-quality-improves/articleshow/135465579.cms"
-    },
-    "fe2b58d2b6284e": {
-      "id": "fe2b58d2b6284e",
-      "firstSeen": "2026-11-02T13:31:31+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-02T15:59:46.259550+00:00",
-          "title": "Coforge among 4 stocks that hit 52-week highs and rallied up to 15% in a month",
-          "summary": "Four stocks from the BSE 100 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-02T15:59:46.259550+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Coforge among 4 stocks that hit 52-week highs and rallied up to 15% in a month",
-      "latestSummary": "Four stocks from the BSE 100 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has traded over the preceding 12 months and may indicate increased market activity and investor interest.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/slideshow/135463866.cms"
     },
     "5c212d44847379": {
       "id": "5c212d44847379",
@@ -3747,7 +3501,57 @@
       "latestSummary": "At 11:00:26 AM IST on 9 Nov 2026, ITC’s last traded price was 279.75 rupees. The stock’s market capitalization was reported at 351,481.0, with a volume of 3,458,160 shares. Its price‑to‑earnings ratio was 18.61 and earnings per share were 15.07 rupees.",
       "why": "Investors need current price and valuation data to assess ITC’s market performance.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-stock-price-livestock-price-today-live-updates-09-nov-2026/liveblog/135670110.cms"
+    },
+    "388884289d4d98": {
+      "id": "388884289d4d98",
+      "firstSeen": "2026-11-09T04:36:43+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-09T17:33:05.615857+00:00",
+          "title": "IndusInd Bank Share Price Highlights: IndusInd Bank Stock Price History",
+          "summary": "Stay in the know with the latest information about Coal India, including: Last traded price 401.5, Market capitalization: 247433.54, Volume: 7329368, Price-to-earnings ratio 7.42, Earnings per share 54.14. Explore the latest updates on BPCL stock, including: Last traded price 316.0, Market capitalization: 137096.77, Volume: 6532648, Price-to-earnings ratio 8.68, Earnings per share 36.43.",
+          "importanceScore": 14.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-09T17:33:05.615857+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "IndusInd Bank Share Price Highlights: IndusInd Bank Stock Price History",
+      "latestSummary": "Stay in the know with the latest information about Coal India, including: Last traded price 401.5, Market capitalization: 247433.54, Volume: 7329368, Price-to-earnings ratio 7.42, Earnings per share 54.14. Explore the latest updates on BPCL stock, including: Last traded price 316.0, Market capitalization: 137096.77, Volume: 6532648, Price-to-earnings ratio 8.68, Earnings per share 36.43.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/coal-india-ltd-stock-price-today-live-09-nov-2026/liveblog/135671037.cms"
+    },
+    "c94e6b32a47aef": {
+      "id": "c94e6b32a47aef",
+      "firstSeen": "2026-11-09T07:33:21+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-09T17:33:05.615857+00:00",
+          "title": "Indian bonds flat as oil steadies, inflation data awaited",
+          "summary": "Indian government bonds moved little as crude oil prices steadied. Investors stayed cautious ahead of inflation data releases in the United States and India, and a bond auction of 290.5 billion rupees scheduled for later in the day. Analysts said the 10‑year yield could range between 7.10% and 7.30% with focus on India’s October inflation report due Thursday.",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-09T17:33:05.615857+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Indian bonds flat as oil steadies, inflation data awaited",
+      "latestSummary": "Indian government bonds moved little as crude oil prices steadied. Investors stayed cautious ahead of inflation data releases in the United States and India, and a bond auction of 290.5 billion rupees scheduled for later in the day. Analysts said the 10‑year yield could range between 7.10% and 7.30% with focus on India’s October inflation report due Thursday.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-with-oil-inflation-data-in-focus/articleshow/135674915.cms"
     }
   },
-  "updated": "2026-11-09T06:38:18.067314+00:00"
+  "updated": "2026-11-09T17:33:05.615857+00:00"
 }
