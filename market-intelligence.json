@@ -1,74 +1,121 @@
 {
-  "updated": "2026-11-09T08:39:58.403069+00:00",
+  "updated": "2026-11-09T19:12:55.522996+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX Composite edges up 0.5% despite tech rout and weak jobs data",
+      "headline": "TSX jumps 1.9% as mining and technology stocks lead rebound",
       "direction": "up",
-      "move": "S&P/TSX Composite +0.52%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "move": "S&P/TSX Composite +1.90%",
+      "why": "Mining shares and technology stocks were explicitly cited as leading the market rebound, pushing the index higher.",
       "drivers": [
         {
-          "label": "Tech Rout",
-          "detail": "Technology stocks fell, but the broader index still rose",
-          "kind": "context"
+          "label": "mining shares lead rebound",
+          "detail": "ad-hoc-news.de explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Weak Jobs Data",
-          "detail": "Recent employment figures were weaker, yet did not prevent the index from edging higher",
-          "kind": "context"
+          "label": "Materials and Technology Lead Gains",
+          "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Mining shares",
+          "detail": "Mining shares were cited as leading the rebound in the TSX composite.",
+          "kind": "driver"
+        },
+        {
+          "label": "Technology stocks",
+          "detail": "Technology stocks were cited as leading gains that helped the index recover.",
+          "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Materials",
+        "Technology"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35789.1,
-        "previousClose": 35605.3,
-        "change": 183.8,
-        "changePct": 0.52,
+        "price": 36469.01,
+        "previousClose": 35789.1,
+        "change": 679.91,
+        "changePct": 1.9,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-06T21:20:00+00:00",
+        "asOf": "2026-11-09T19:12:46+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Simply Wall St",
-          "title": "TerraVest Industries (TSX:TVK) Could Be 71% Undervalued After Its Valuation Pullback - Simply Wall St",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOempiMHRFb0Y4YUx3a2FFUmJpOGhSOUZDWXh2MVl5aExaVzBCaWs2aXAtWjVFNVNyTWFfeWkwX2dDNi1jRGJFc1JkV2hjNld0MDllS2s3UF9uMnA2alF0YlFocWZuXzRVRXNnLVhjc2xDbFZOYVpMWUF1cmZZOVA1RVNTYy11Y1Y0cU1SazQ4ZVFya2FzT0FRTlp4NTFLcUExbmRwYUdfOEhHTUlTZGIxc1pNSVhpWndna3JWSmxZZzI1N1VRSk9VaUFRTy1kZ0Z2UTlIQTFoMNIB3AFBVV95cUxNOHNDcE1td2psQnZ1X3JyVEhqNHoybmpMWGlBWDlkLUhFcE5kU29NM3BwNmJXVTVSMVFQSFE3d0VyNjI3OGZkNWdFS2NwZVJ1RjFCSVVndGh3UHNydUFnLWFxczNRNVV1dDYtNGxJZnRMVmZ5eGRmLVg4cGhXdHlaSTZnSDdRYmRwcUJhY3BCV2ZTQ2s3cDRsY2l6eEFXWFlRZy1RSGtiaEMwV3Y1cks2SFYzY0xGZkN1enc4bWIwUmo0RUtsVWUwc0d5c1BYejZ3cFVEWGswdjBTcXhX?oc=5",
-          "publishedAt": "2026-11-08T20:23:04+00:00"
+          "name": "ad-hoc-news.de",
+          "title": "S&P/ TSX Composite rises 1.3% as mining shares lead rebound - ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRWsxRXFoN2o0QVBQd191TkRBT2FvSGhUR0hSNldoVWxuRDBtaGxoc1IySnFFQk1QOW1PWXdPYThkeDJEaWkwXzA0alpDY2NZTC1RamVZUXZiMG42Wnk2SWU5dGJpbkFBVWt6b01QU084UXpnc0kzX3EwV1ZVTDBuaWlBYTFqOVVvczJxMFd1QUVpSzNvZ2ZEN1h5WnRfaFVLc1dxLUVMb01HLXpISjZ2NWM0QlEyZDhoM1JJ?oc=5",
+          "publishedAt": "2026-11-09T17:35:58+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange Weekly Review: TSX Edges Up to 35,789.09 Despite a Tech Rout and Weak Jobs Data - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTERnZDhsa3JVUnpGMkVtSHZrXzlhQXJ1LXlCWF9tMVpwV3d5bFJIWFBwVUxBTUwydWNmNnE0NXNZU0JMZEdXcWpIaTJrWUJ1eERicnZvREhEcFNDbFoxbTVxeGtyQXNrZjRLcFdtelNJb0VHdGtmS2tBNzFyQVBCWm9nbmtYanpQTEo2aXFlTTl6aS1BMW1NdE53X2Q0ejYwMjdGZXdaUHBsV21KOGxXRHA4NDJMM1ZDc3BOaTZSTklRN09OUVpwSERZa09aSnZnQkE?oc=5",
-          "publishedAt": "2026-11-08T20:17:06+00:00"
+          "name": "Yahoo Finance",
+          "title": "Canadian Stock Market Today: TSX Futures Edge Lower As Jobs Slowdown Tempers Rate Bets - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV1ZXRFdWU21kc3lhamRmMENxUi1fR2ZZWE1PbjgyTnhhcF9yRXFlT0t6T1Bma1A1bU44ZHFlZHBDSlFQaUZudVg1MFRlTXdPZzF1MzJvREREcU14Tjhabm1KaHl0amdLUFlTTlIyRjJkcHFnVlRCWldIY0NKMEdvWnpPOEF5TDBpV0gzeGI4OGFFdnJaWGY1dGc0RDk?oc=5",
+          "publishedAt": "2026-11-09T13:12:16+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "S&P/TSX Composite Index Rebounds as Materials and Technology Lead Gains - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUDJxbUU3ZHNJNVZpRUJsTnplNlN4MDJIcDFEOFRJZnVzaVhoMmFzSU14WEdpWGwzR1REd3gyZVhJUWpMWHdtb3JkUG8wSnhNNmFrdllqM2VFbExjUHNwdmxKQXBwUG5JbUVLUFpjSkZ3V3ZVWXFQd0d3MG1tc3lFV2gzaHJ2b1ZDYVM4LUR2c2FpdnhLazZ4RDVfQ1N4b0ZERHBTMjA5OA?oc=5",
+          "publishedAt": "2026-11-09T11:03:00+00:00"
+        },
+        {
+          "name": "CTV News",
+          "title": "S&P/TSX composite up more than 500 points, U.S. stock markets also head higher - CTV News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ0JsU0ZKdmNlNXJ4NXBxQ1FqZGJEMVdKalc1NDUzd0VQcWlhbXBqWXA0S1MyampCdGE0bVVUZjljcG41SVZxVi10QWticktNUE8ydEFVMDE2QjNVd3RiMWQtN1o4elpjSFhBUHc5cUoza3k0VjhZQ19qd19sX3pMeGwyQmJ6WnZ0YjdPck92RG5ZRm92YmRLYUExZWRMRUtrcHVRTF85RDhFSURJT3Y1NU82N1o?oc=5",
+          "publishedAt": "2026-11-09T16:46:32+00:00"
+        },
+        {
+          "name": "The Globe and Mail",
+          "title": "3 Canadian Stocks to Watch Today: Celestica, Air Canada and Barrick Mining Lead Investor Interest - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQWEZJaXNfUkliX0htUUw0T2ZXc1E0ankwUE8xZTg5NWQtQWdPYXpqcDAyQ2p4ZEgzSlFxR3F1TEZpQnVWaVFvYXRRNGZTVXNXLXZaYlZfbGM1UnI5SDBDLWlKOXBDMGRsSWhVUVpPZUkwUGdhcjloWFlHYUlFY181aFZzQ1BjdTdlOFF4U2piRWxNQ0xSOUYybEhxWWxmanBFT2lGOWdoU2pqdmF1YnpYTnBOOFN6NjhhUGZPS0VpLWpoVkY3TG1HV0FXMS1XUllacU1PUEI1WU1HV0c2ckpZMjh0U0R3TkNtNU5WX2Jyc0JhNklvVngzNnY5SU5qbExJMUpET3RNY2FUbl95eHc?oc=5",
+          "publishedAt": "2026-11-09T18:07:01+00:00"
+        },
+        {
+          "name": "Business Upturn",
+          "title": "S&P/TSX Composite Rises at Monday Open - Business Upturn",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOczJxQndJdGdmQ05naER2X0FOUEhKdHlxaW5kMF8tdjlndVdsRnFzOURZaThMTktJNXlYVU5ZSjljZEZvLVdJT25sa0R3MHBqcGxuZUx3TXlXOEZMR2NTaVpFS3BIbHNLTE1oSjdpZFNxOEZWQnNHWTF1MU53M0tuOE9YdVg5LVlLZGNBdjBpZVZSbVd6M2Zqb1F0T1hoQQ?oc=5",
+          "publishedAt": "2026-11-09T14:45:00+00:00"
         }
       ],
-      "evidenceCount": 2
+      "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty and Sensex slip in Muhurat trade, first decline since 2017",
-      "direction": "down",
-      "move": "Nifty 50 -0.32%",
-      "why": "Indices fell during Muhurat trade for first time since 2017",
+      "headline": "Nifty 50 rose 2.01%",
+      "direction": "up",
+      "move": "Nifty 50 +2.01%",
+      "why": "Same-day market coverage explicitly linked the final move to: GIFT Nifty signals gains; Volatile Session; roller-coaster session, late recovery erases sharp intraday losses.",
       "drivers": [
         {
-          "label": "Muhurat trade red",
-          "detail": "Sensex & Nifty fell in Muhurat trade for first time since 2017 (The Economic Times).",
+          "label": "GIFT Nifty signals gains",
+          "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Context: prior rally and Citi view",
-          "detail": "Muhurat trading had ended nearly flat after a seven-day rally (nationpathindia), and Citi remains bullish on Indian equities with a target of 28,000 by end-2027; neither factor is tied to the final negative close.",
-          "kind": "context"
+          "label": "Volatile Session",
+          "detail": "ad-hoc-news.de explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "roller-coaster session, late recovery erases sharp intraday losses",
+          "detail": "IBTimes India explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Sensex Gains 107 Points; PSU Banks Rally 3.73%",
+          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
@@ -76,27 +123,27 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 24950.9,
-        "previousClose": 25030.35,
-        "change": -79.45,
-        "changePct": -0.32,
+        "price": 25030.35,
+        "previousClose": 24536.6,
+        "change": 493.75,
+        "changePct": 2.01,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-09T08:40:12+00:00",
+        "asOf": "2026-11-09T10:01:27+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 80874.55,
-        "previousClose": 81028.02,
-        "change": -153.48,
-        "changePct": -0.19,
+        "price": 81028.02,
+        "previousClose": 79310.01,
+        "change": 1718.02,
+        "changePct": 2.17,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-09T08:25:11+00:00",
+        "asOf": "2026-11-09T10:02:31+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
@@ -113,28 +160,28 @@
           "publishedAt": "2026-11-09T00:30:00+00:00"
         },
         {
-          "name": "The Economic Times",
-          "title": "Citi bullish on Indian equities, sees Nifty at 28,000 by end-2027 - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUklZMjBNaXdoX3RTRHlRSmdPQ05NUld3bFJuckpSSzRGVjNuUUhqVjdsN3lpZ0J0Wll6emEwRVU2TURiWEZZSldJLXRKRUJxRW1zSmIwZU1Yb1RmZXBHNktfc0I2Y2dJMTVGMjBIVzhXZ0hhdHFPTzFNLVQyT3daOFBKOC10UVZXVG9MVi12ckl3blNVWXRrOFdoRU9TZDNBRFFFV2NCTW9ZcmZUeWpiWTNqZ29yTlcyYjU1SGFhWXN4V3NSdTAwbUVGN1NhQ29zT2E00gHYAUFVX3lxTE41MTlmUFVvcFRScHpBZXBFNFU4bmVYeTlNY1VOT2l1c0luWURIeG10MnVjem5EMlRCVVJfSEZkc056eE0wLUNIRndMY2xUSHJJNEJTLXlIaUNJdl9rRm53bV9fVWVPMkhFb3Jhb0xIZ0lLeXZkR3dCakM2ZHQ1V1ZNUFdKYkpSTnhMWGVDN3E4WUZfTkVZMFFGRlBCMGdibFJvMDBNRWRnSlBPYVpRY0d0Q195ZmlRSDRlYlVEeU5OLWQ3SDlnbVRTNURrX0N4S1Y5WFdVX0lxTA?oc=5",
-          "publishedAt": "2026-11-09T04:45:45+00:00"
+          "name": "ad-hoc-news.de",
+          "title": "BSE Sensex Closes 0.13 Percent Higher at 81,106.65 After Volatile Session - ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXBrMDkteTV0STFRUmVTOU04eVBRUlZWTEhyQ3lnZV9PaFd4a0NaTnFDZ0FWSnBhMFR0ZjRsR3podVdseWEzeGtVdWNJdmRoQ3JDMkthREpucXFuMWNqbDdMY3pHU3dhR1NGS1ZqOG15SERhT2tvWndlVHdzYS1lcmFXaHhLSUJmU3d4MGw3d3lMcXZsVDJYT1dkRVhSVW92OXQzSFBvenpuY0lmbXM1dktvc013Z29pOWFDVUVMekRwMVBvN0pJUVhMeWY2NnZr?oc=5",
+          "publishedAt": "2026-11-09T12:08:32+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "Muhurat Trading 2026: Samvat 2082 ends, Samvat 2083 begins - Sensex, Nifty end in red first time after 2017 | Reasons - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUUtWQlpyYnJMUEhnRVF3OXBrNzllMU10RFdNMUpBM1BnemtpV0t5Q3Q4MjBpV2NVbUMxbjl2d3ZuQmN0U1E2bUlSTFFHQ3p0bXFiTDRFMTBwcVRoRUNBMThLVHcweTZIS1ZTQ0Q4MHZpLW5PVHdXajdWRzVqbDhGWUNmVGg2M1gxemxKVVJSakVvTlR5ZDd4VlA4T1lfU1NMNEllci1BZF9GZlR6RVFfZ3dQeENEVFNNNl9xY0lNYzN2eGlrcnFFSjItSlJDZkc5OEF1VWdWTUtYdHdscjlOcktQVEFSczJrSG5UcmZrc180cGRRT0NzS1A4V21fSFkyTmlaZHBrbEI1a0lr0gGSAkFVX3lxTE01NmlDV1lQY1pUSEVlRjFOMEtRSmprSEUxak4zU1pwSURzX0t1TTBvdG1BVm01SU15b1Fyb3B0OC1va0xLTldsSU5CaVhZb3FxTUFMS1pRZHdEa0pvaU5uUzYxN200QzVMT0tjbUlKbzlOMUJjOHdudXBEYi1RaTc0UzUyRmh3VmlhRzlrcV9WYWlSU2lSaWlyeHYwTk9vbHI0Y3BPUnk4Z3NoeUdDNEVDTFJIeVdJelRnZy03UXVycmpqUjl6LVRiaG1kUzYzbzFoeUhaRUhReDdpTjNuTkJZajVQdkNPUEozaTBLNTFuNEtqaHJrZGtVQTg2aDdvd1o2N05zRmU3QVZKQVNfTVJzLWc?oc=5",
-          "publishedAt": "2026-11-08T10:23:22+00:00"
+          "name": "IBTimes India",
+          "title": "Sensex, Nifty close higher after roller-coaster session, late recovery erases sharp intraday losses - IBTimes India",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWlg3ZXctbGQzTjNtX01fWG9qVFNpQXhoOUFsRTVDR3ExTEY0SFRkNEQ1amFmWjhvUXRmZnRCYzNybDRsdUZpMUtIMXdmM2ozcHJ4NXhJY2cwM203SEtkNFpvWlBxRjRUUk1lUXM2WWxlV19rTTZzclhGNV9TaU5RZ2xLZ1BZYzZSNjY2WFJxTnVLR1A2MHBjbHJlY3ZzXzdKNk45cXp2RklFcElvcUtXMlNUSm9OS05LTGtaNVEyWk9hUTgzRFJGS2V3?oc=5",
+          "publishedAt": "2026-11-09T11:01:00+00:00"
         },
         {
-          "name": "scanx.trade",
-          "title": "Trade Setup for Today: Nikkei Surge and Gold Rally Signal Positive Start as GIFT Nifty Hovers Near 25,060 as of November 9, 2026 - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWW55TXpvYUd1YjFoMHROa1YzWHZqTHFWSWtPRkJ0ZTA1ZGlCYWo0ekVYblYweHZLX3lJMXh6WUkxcHFwZVMzVnhydjNYZGtXcUtIMXNKSTdKSFNTWG4yNFZEbGh1S0d2UXZhWDJDWDBnVWRnNDF1VzBiS3NtVVczeVJDc0xKV1RsbWxHREJ6TVV4ZGJsSWdPX2pvMUFTRjNBcXVNR0xibnUzT0VhWXVUV1p5MmZqaFpOS1phbUVNWmJTWUdnczBhTGxEWnVVOERTc3d5ZnVuYnRBRlNVa3JHMUhDRVlrVXA2YUZfU3ZJN0ZNYWNWb0xyWDZaQWQ1cEpE?oc=5",
-          "publishedAt": "2026-11-09T02:39:12+00:00"
+          "name": "Dalal Street Investment Journal",
+          "title": "Closing Bell: Nifty 50 Closes Above 25,000 as Sensex Gains 107 Points; PSU Banks Rally 3.73% - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeFREbVJReS14WVRmVjJ2TVE4NWpnV1VoX0hlZmVJNlNCd0t5ZW9xUWdQbTdwU2I4cWxMTnpTQ0lJSE43Q1I5bGVBYWw0aDVfV2IzYXlVYXlkT1QwZDNOWTB4aGVBTXVva2lUbFF4emx1MzFySTZSUzBxcWxhdmJqLXgwUnV0UEJ5Qlo1UVRSOS1ZRzFQaDByWWxCd0dhU3FKcHE1N0FNeWhGaXVxSnd2NnY4WFRvcWVsczhESU54cVpzNWVHQm1Kb3Z2YXMyd0lBWWc?oc=5",
+          "publishedAt": "2026-11-09T10:33:17+00:00"
         },
         {
-          "name": "www.nationpathindia.com",
-          "title": "Muhurat Trading Ends Nearly Flat After Seven-Day Rally; Sensex Closes at 80,999, Nifty at 24,986 - www.nationpathindia.com",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU0V3TUd1SWRGLWpmUGItRHNXcFAxQ0Y4dEFvS1ZESVJ4TTEwNWVOOUZwZEtqcDEydzBta3g4NG55OVN1VmtKUkhIQU9SMjVESHA5Wkx6YWdmU1FSZ0ZSMzBZcF9Ib1VfRm1ETk9DNkluMW55OXRpdXJYbkZiRGNsUFVkelBPYnNLS3RSTWIzZXU?oc=5",
-          "publishedAt": "2026-11-08T21:18:46+00:00"
+          "name": "NDTV Profit",
+          "title": "Stock Market Highlights: Nifty Reclaims 25,000 After Muhurat Dip; Sensex Ends 100 Pts Higher. Check Key Gainers - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZmxRSVlEM2EzLVNFZjNYSjlPMG9ONXZVOGJoQ3BJMkJEZWU5Y2Q5MklUVDl3ZGVwemNuTG1IVWtrbTFCRDJHTEpnZmZNWnVDcTVFZmtJYjdreno3RlVCRWVMbjJuMGUyZldEeUNjUWVCTXRDSkMwaFE0WE1CbkdFT0hxTmVLMTZFWVBxMHlZYXhFZFhRNTVIaVVfV19Md0VHQ1N1SXp5dkRabjN0M3lOTHE4WWNEVkJqRFkyOXRaNEN4c05qSHdpaEFJU00td3REU0RBUUFOUnZWSHfSAeMBQVVfeXFMUE1vNVZkR0pETG9lU0JzR2VNVVhMcFRtMVZwTEJnenQ5NGIwRlh3LUhFVlZCYllKQVhtcXNUNkw1dlFGMzFBM0pPYldOcExJdHd6alJZS2h4ODdSZVNOYmNXQk9USGdRSEhFZFplcGdLcnhfLWVjLUFvLTJpSHlsU0FZZzJLTVoxbE5yQ1gxT04ybUQzTmo0YkhTWlpJR1BaWVoyZWRXV2RBT2ZFYWVPMGcwaVZEdFRxc0VzTXRJT0toeHJVWFk5MEtZWkxzTHNDNjgtZEpCY2Y3WnhnZmdrLThzNEE?oc=5",
+          "publishedAt": "2026-11-09T10:25:07+00:00"
         }
       ],
       "evidenceCount": 7
