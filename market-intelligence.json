@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-09T01:13:32.279420+00:00",
+  "updated": "2026-11-09T08:39:58.403069+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX edges up modestly despite tech rout and weak jobs data",
+      "headline": "TSX Composite edges up 0.5% despite tech rout and weak jobs data",
       "direction": "up",
       "move": "S&P/TSX Composite +0.52%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Tech sector weakness",
-          "detail": "Technology stocks fell, but the index still edged higher.",
+          "label": "Tech Rout",
+          "detail": "Technology stocks fell, but the broader index still rose",
           "kind": "context"
         },
         {
-          "label": "Weak jobs data",
-          "detail": "Canadian employment figures were weaker than expected, yet the index rose.",
+          "label": "Weak Jobs Data",
+          "detail": "Recent employment figures were weaker, yet did not prevent the index from edging higher",
           "kind": "context"
         }
       ],
@@ -48,60 +48,55 @@
           "name": "BBN Times",
           "title": "Toronto Stock Exchange Weekly Review: TSX Edges Up to 35,789.09 Despite a Tech Rout and Weak Jobs Data - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTERnZDhsa3JVUnpGMkVtSHZrXzlhQXJ1LXlCWF9tMVpwV3d5bFJIWFBwVUxBTUwydWNmNnE0NXNZU0JMZEdXcWpIaTJrWUJ1eERicnZvREhEcFNDbFoxbTVxeGtyQXNrZjRLcFdtelNJb0VHdGtmS2tBNzFyQVBCWm9nbmtYanpQTEo2aXFlTTl6aS1BMW1NdE53X2Q0ejYwMjdGZXdaUHBsV21KOGxXRHA4NDJMM1ZDc3BOaTZSTklRN09OUVpwSERZa09aSnZnQkE?oc=5",
-          "publishedAt": "2026-11-08T20:17:01+00:00"
+          "publishedAt": "2026-11-08T20:17:06+00:00"
         }
       ],
       "evidenceCount": 2
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.18%",
+      "headline": "Nifty and Sensex slip in Muhurat trade, first decline since 2017",
       "direction": "down",
-      "move": "Nifty 50 -0.18%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "move": "Nifty 50 -0.32%",
+      "why": "Indices fell during Muhurat trade for first time since 2017",
       "drivers": [
         {
-          "label": "Sensex & Nifty fall in Muhurat trade for first time since 2017",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "Muhurat trade red",
+          "detail": "Sensex & Nifty fell in Muhurat trade for first time since 2017 (The Economic Times).",
+          "kind": "driver"
         },
         {
-          "label": "Muhurat Trading Ends Nearly Flat After Seven-Day Rally; Sensex Closes at 80,999, Nifty at ",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Muhurat Trading 2026: Samvat 2082 ends, Samvat 2083 begins - Sensex, Nifty end in red firs",
-          "detail": "Relevant same-day market context from the collected source.",
+          "label": "Context: prior rally and Citi view",
+          "detail": "Muhurat trading had ended nearly flat after a seven-day rally (nationpathindia), and Citi remains bullish on Indian equities with a target of 28,000 by end-2027; neither factor is tied to the final negative close.",
           "kind": "context"
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 24986.4,
+        "price": 24950.9,
         "previousClose": 25030.35,
-        "change": -43.95,
-        "changePct": -0.18,
+        "change": -79.45,
+        "changePct": -0.32,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-08T10:03:15+00:00",
+        "asOf": "2026-11-09T08:40:12+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 80999.4,
+        "price": 80874.55,
         "previousClose": 81028.02,
-        "change": -28.62,
-        "changePct": -0.04,
+        "change": -153.48,
+        "changePct": -0.19,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-08T10:02:16+00:00",
+        "asOf": "2026-11-09T08:25:11+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
@@ -112,10 +107,16 @@
           "publishedAt": "2026-11-09T00:48:25+00:00"
         },
         {
-          "name": "www.nationpathindia.com",
-          "title": "Muhurat Trading Ends Nearly Flat After Seven-Day Rally; Sensex Closes at 80,999, Nifty at 24,986 - www.nationpathindia.com",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUHFLcEFTd1Fleng0dzk2YXU0M1hmLWljaG5uYW05ZUU0NUdmbDJsTTRodk9fV2QxeGNJMlhySXRqOTgwU3QyY19XejhYLUxWR0dfa2hVOTJHb2d1X1pLVndOd2RkeXE2WXhReE1ReHdsX2JoYTBnbGVia3ZIRHR5Wlh6Zm56UkxyNjctdldxRndhMjM3VGc?oc=5",
-          "publishedAt": "2026-11-08T21:18:46+00:00"
+          "name": "The Economic Times",
+          "title": "D-Street poised for positive start as GIFT Nifty signals gains - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQN0szWFowMlJlN29ObDNBNmVLOHRDSUhJRmtxNC1XWWRpWVFPR0Z5RmRGc1ZOVmRMQTRtZm9zcTVWOEVNYW14Y3hOR3R4ZE5jQVhMM0ttUExCaVd3X20zRjVrSEt6LWhfWUZQaGpSTjVWTnpoVGk4dWg1bGlSSDh4OHhUYlFnWGtQa1YxUGxNR0h0MjlLYTBYSlQyc19famQtNGw2cnZBWXlIZFlIakdpSHZUWWNBcV9CNDJ2bG9SRlE0R0REUENHZFk3WU7SAdIBQVVfeXFMT2EtcTRxTmk4M0R3QWVsRUZMVkNKcHhMaDllcXNJR1Q1R2dTa0RHYnJEMmYtUjFfYkRhdWFzb0JNb3VZNVZTamg5NUxSRzZZX010TnlxMkx4TllnYTl0d1dIR0phNnRQcFBuT05PQW54Rk90Y1BqQjFrc1Y0ZDgzUFp6T1htcFc5X3RaWXVSMUhLODY5WnpQZHJnbGNid19UdlBKRVpxNnFleTNQYWVYR3F6NVFjbmN3YTF1VWVrTF9hcHhoRE1lMnc0RWNZR0k1ZzRn?oc=5",
+          "publishedAt": "2026-11-09T00:30:00+00:00"
+        },
+        {
+          "name": "The Economic Times",
+          "title": "Citi bullish on Indian equities, sees Nifty at 28,000 by end-2027 - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUklZMjBNaXdoX3RTRHlRSmdPQ05NUld3bFJuckpSSzRGVjNuUUhqVjdsN3lpZ0J0Wll6emEwRVU2TURiWEZZSldJLXRKRUJxRW1zSmIwZU1Yb1RmZXBHNktfc0I2Y2dJMTVGMjBIVzhXZ0hhdHFPTzFNLVQyT3daOFBKOC10UVZXVG9MVi12ckl3blNVWXRrOFdoRU9TZDNBRFFFV2NCTW9ZcmZUeWpiWTNqZ29yTlcyYjU1SGFhWXN4V3NSdTAwbUVGN1NhQ29zT2E00gHYAUFVX3lxTE41MTlmUFVvcFRScHpBZXBFNFU4bmVYeTlNY1VOT2l1c0luWURIeG10MnVjem5EMlRCVVJfSEZkc056eE0wLUNIRndMY2xUSHJJNEJTLXlIaUNJdl9rRm53bV9fVWVPMkhFb3Jhb0xIZ0lLeXZkR3dCakM2ZHQ1V1ZNUFdKYkpSTnhMWGVDN3E4WUZfTkVZMFFGRlBCMGdibFJvMDBNRWRnSlBPYVpRY0d0Q195ZmlRSDRlYlVEeU5OLWQ3SDlnbVRTNURrX0N4S1Y5WFdVX0lxTA?oc=5",
+          "publishedAt": "2026-11-09T04:45:45+00:00"
         },
         {
           "name": "Livemint",
@@ -124,22 +125,16 @@
           "publishedAt": "2026-11-08T10:23:22+00:00"
         },
         {
-          "name": "The Times of India",
-          "title": "For the first time since 2017, Sensex and Nifty end Muhurat trading in the red - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVENMVjFfbUI0dHh2dUdPWmNuVUxOTzJ5UXFDUXRsbmQ2a3UzMHF6YUN4dDNfd1AzUWt1bnAwT2JRajhRM291Y201bUhIQ3VoaTQ5V296bDMwVnNEUWVtLV9RaGdxWXE1a1FPQkh2Z2R6X1p2Zi10b3RrYlpiQm5PSENWLU4zU25rNWtzanpueXhza0JVbm51ZVVPMGdOLTBTY295cGlqbjhfaFBZTVFfaGNDSXVscGlDSTlqZ29falJrNmZTWnhDQkFJVEEzMnh0eU9sMjIwRTJxTVNfT3I0VDVEU2pNYXZNRGoyRkpxSDJUZmZ4bXfSAfsBQVVfeXFMTTR2NlRGWjQ0U2N6V3lORmd0NWhIMDB4ekVBeHV0UEJNeTVXcWNLUGJ4NUZJZzZoQ090dmlYZHNTeE9ITUtfZmNydmE1blpxdjk0U1FqaEo4RFJKXzc4NnV6YW42OUdiNmNLY1ppX0JzeTlVaUF0Tjh6Yk96Y0RZd0c4RTJFcjB3cnJUaFJFeU10NkFOSUN3d2tYRnM2ZFZRMUNJV09JVEpiYV9xWnlfdHNfam1Vb1ZuMUxmMzNBa3hKWFlmeksyb3hpSXlqNFBwZHVLVWVUV3ZIUVlWZ3h1OUFfdGM4WFlxcG1SNE42UnNXLTFVNkxsSFB3NGs?oc=5",
-          "publishedAt": "2026-11-09T00:55:00+00:00"
+          "name": "scanx.trade",
+          "title": "Trade Setup for Today: Nikkei Surge and Gold Rally Signal Positive Start as GIFT Nifty Hovers Near 25,060 as of November 9, 2026 - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWW55TXpvYUd1YjFoMHROa1YzWHZqTHFWSWtPRkJ0ZTA1ZGlCYWo0ekVYblYweHZLX3lJMXh6WUkxcHFwZVMzVnhydjNYZGtXcUtIMXNKSTdKSFNTWG4yNFZEbGh1S0d2UXZhWDJDWDBnVWRnNDF1VzBiS3NtVVczeVJDc0xKV1RsbWxHREJ6TVV4ZGJsSWdPX2pvMUFTRjNBcXVNR0xibnUzT0VhWXVUV1p5MmZqaFpOS1phbUVNWmJTWUdnczBhTGxEWnVVOERTc3d5ZnVuYnRBRlNVa3JHMUhDRVlrVXA2YUZfU3ZJN0ZNYWNWb0xyWDZaQWQ1cEpE?oc=5",
+          "publishedAt": "2026-11-09T02:39:12+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "A rare red Diwali: Sensex ends Muhurat trading lower for only the eighth time in 30 years - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTTZSdmhwNUg4OXR0akowOEJxX3FvQ3Q0ZU4xTFROVnEwaFgzbWoxQnpWcy11TnZDeTFCQzJmZlVHTzdScjVWMFkyQ2E0dE1hcF9IMDdMekZycHBqQm1tMWJMNURxZ0dhNExOZ2s2dlIxbnRZbDB3d2hXQmlialA2RTc0SXhrOTBNWXNzbndyZjdSLWMtcTUxU3M4eWVRSVNvU2lEWEFKOVVPYlA3WlNYTS1nUUpDcU44ckZOZk1iWW9YQdIBxwFBVV95cUxNdnhhRXFzYVVyVmI5aWlObVRYWFVMbVRiVHgxQzZWeTQxOExJeDN5Xy1JaVJEMm50WFVXdmEzRUIycXBvcmN3S3JIQmcyTmFWenBqTjNPM1JhQXRwN0VTYlloNHlyMGFfRzQ2QWRBbDU0bHVjdWN5cmtUMDNCYm02Sy1QLXZpQWpKWnFIWHRCTWJQYk41NzV6YkdhX24wVEJfQ3VKd2pYellGcHhqcmw3cl96UFJ6S21fR1d3dXBlamw4djFxNktR?oc=5",
-          "publishedAt": "2026-11-08T12:36:23+00:00"
-        },
-        {
-          "name": "Rediff",
-          "title": "Muhurat Trading: Sensex, Nifty End Marginally Lower After Seven-Day Rally - Rediff",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUlU1cUZjQllWeGVHN1ItbVRQS0FwSF9leG0yMHktWnQ0c0piOUFmSWlrVXZXRm9pTU9MNlhBRUxDbXFSTHZ1ZlY1bVltdVNSZEUyMDJtUllNemV5d2tqODZTbVd0QUs0dERRVk1iVXFqMlhQSWR1aVZ0eXVnQ0RPWGNMdjhoeWh2d2dzNlhXdUdYTG1HWm1OYXotdmN0TEwtS1BTS2I4b3EwSEVRUnJXS2x5b1hsbFFCUWljaGpJZmt2Z9IBxAFBVV95cUxNUXVPLVlEamhsUkRibkpMcm5vYXRybTY4aEpuSkNTZ1ppcTFjQ3hMR2hiY0ZMX0NTcnE1RldFTFBCUjgtVTRFZGlJSWRUb3poZUtweEEtdHlBOXNvdm40alhzbjBKN05SeWlKY0hhUDJUeHFGTmJKbnVwNU9pZjh5TXB5YV9wTm5fN250ZTdzc2xXUFAxU3VTNE9NV2RzT1RneVFmSmVYdlpFUG1BZDRiTnhURmRkTy05NnMteDdRQkpwNE8t?oc=5",
-          "publishedAt": "2026-11-08T11:32:41+00:00"
+          "name": "www.nationpathindia.com",
+          "title": "Muhurat Trading Ends Nearly Flat After Seven-Day Rally; Sensex Closes at 80,999, Nifty at 24,986 - www.nationpathindia.com",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU0V3TUd1SWRGLWpmUGItRHNXcFAxQ0Y4dEFvS1ZESVJ4TTEwNWVOOUZwZEtqcDEydzBta3g4NG55OVN1VmtKUkhIQU9SMjVESHA5Wkx6YWdmU1FSZ0ZSMzBZcF9Ib1VfRm1ETk9DNkluMW55OXRpdXJYbkZiRGNsUFVkelBPYnNLS3RSTWIzZXU?oc=5",
+          "publishedAt": "2026-11-08T21:18:46+00:00"
         }
       ],
       "evidenceCount": 7
