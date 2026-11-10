@@ -1,36 +1,108 @@
 {
-  "updated": "2026-11-10T09:54:08.758329+00:00",
+  "updated": "2026-11-10T17:52:46.865877+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 23,
-    "enrichedCandidates": 80,
-    "readableCandidates": 52,
-    "eventClusters": 52,
-    "materialEvents": 18,
-    "selectedEvents": 5,
-    "seededStories": 3,
+    "officialOrPrimaryCandidates": 19,
+    "enrichedCandidates": 79,
+    "readableCandidates": 57,
+    "eventClusters": 57,
+    "materialEvents": 16,
+    "selectedEvents": 6,
+    "seededStories": 4,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "6d5b6ff4332f9b",
+      "id": "d0e353da860036",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India's unemployment rate falls to 5.1% in July‑September",
+      "publishedAt": "2026-11-10T12:03:58+00:00",
+      "importanceScore": 13.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-falls-to-5-1-in-july-september-as-rural-joblessness-declines/articleshow/135709920.cms",
+      "summary": "The Economic Times reported that India's overall unemployment rate declined to 5.1% in the July‑September quarter. The headline notes that the drop was linked to reduced joblessness in rural areas. No further quantitative details were provided.",
+      "why": "A lower unemployment rate indicates easing labour‑market pressure, especially for rural workers.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-falls-to-5-1-in-july-september-as-rural-joblessness-declines/articleshow/135709920.cms",
+          "publishedAt": "2026-11-10T12:03:58+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-10T12:03:58+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-10T17:52:46.865877+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e84674844299f5",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Google unveils two new TPU chips for confidential inference and expanded memory",
+      "publishedAt": "2026-11-10T15:54:08+00:00",
+      "importanceScore": 13.3,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units—TPU 8tx and TPU 8i Max—aimed at confidential AI workloads and larger memory capacity. TPU 8tx, designed with AMD, builds security into the hardware to keep data and model weights protected and adds a custom inferencing network that enables on‑the‑fly model distillation. TPU 8i Max combines two TPU 8i chips in a single package, doubling memory, processing power and bandwidth for handling larger query data sets.",
+      "why": "The chips expand Google’s in‑house AI hardware portfolio, lowering reliance on external chip suppliers while improving security and performance for cloud AI customers.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "publishedAt": "2026-11-10T15:54:08+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-10T15:54:08+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-10T17:52:46.865877+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "2452aff01a301a",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Why Rocket Lab shares fell despite record revenue and booming Neutron demand",
-      "publishedAt": "2026-11-10T06:17:40+00:00",
-      "importanceScore": 13.0,
+      "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
+      "publishedAt": "2026-11-10T02:18:28+00:00",
+      "importanceScore": 12.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms",
-      "summary": "Rocket Lab shares fell more than 6% in after-hours trading on November 9 after the space company reported a wider-than-expected quarterly loss. The decline came despite record revenue, a growing order backlog and rising demand for its upcoming Neutron rocket.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms",
+      "summary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -38,13 +110,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms",
-          "publishedAt": "2026-11-10T06:17:40+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms",
+          "publishedAt": "2026-11-10T02:18:28+00:00"
         }
       ],
-      "firstSeen": "2026-11-10T06:17:40+00:00",
+      "firstSeen": "2026-11-10T02:18:28+00:00",
       "status": "New",
-      "lastChecked": "2026-11-10T09:54:08.758329+00:00",
+      "lastChecked": "2026-11-10T17:52:46.865877+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -54,62 +126,57 @@
       "lifecycle": "New"
     },
     {
-      "id": "8c159cb181d89f",
-      "cat": "AI",
-      "icon": "✦",
+      "id": "ab08375d742201",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "AI"
+        "India"
       ],
-      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-      "publishedAt": "2026-11-09T18:00:00+00:00",
-      "importanceScore": 9.0,
+      "title": "India on track to hit $1 trillion export goal by FY27, says commerce minister",
+      "publishedAt": "2026-11-10T17:05:33+00:00",
+      "importanceScore": 11.9,
       "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-      "summary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. Given the emphasis on low cost and accuracy at scale, Ember is designed to pair with a larger model like Meta’s Muse Wonder in an agentic harness.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms",
+      "summary": "Commerce Minister Piyush Goyal said India is on track to reach its $1 trillion goods and services export target for fiscal year 2027, having recorded nearly $480 billion in exports between April and September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships to boost exports, investment and employment.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-          "publishedAt": "2026-11-09T18:00:00+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms",
+          "publishedAt": "2026-11-10T17:05:33+00:00"
         }
       ],
-      "firstSeen": "2026-11-09T18:00:00+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-10T09:54:08.758329+00:00",
+      "firstSeen": "2026-11-10T17:05:33+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-10T17:52:46.865877+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Meta releases Muse Ember, a new lightweight model for agent execution",
-      "previousSummary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. Given the emphasis on low cost and accuracy at scale, Ember is designed to pair with a larger model like Meta’s Muse Wonder in an agentic harness.",
-      "previousPublishedAt": "2026-11-09T18:00:00+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.0,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 0,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-11-10T01:34:45.542411+00:00",
+  "jarvisEditedCount": 3,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-10T09:54:08.758329+00:00",
   "changeSummary": {
-    "new": 1,
+    "new": 4,
     "updated": 0,
-    "continuing": 1
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-07T10:15:49.710814+00:00",
-    "updated": "2026-11-10T09:54:08.758329+00:00",
-    "snapshotCount": 12,
-    "eventCount": 59,
+    "availableFrom": "2026-11-07T20:55:06.920755+00:00",
+    "updated": "2026-11-10T17:52:46.865877+00:00",
+    "snapshotCount": 11,
+    "eventCount": 60,
     "retentionHours": 72
   }
 }

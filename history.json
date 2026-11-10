@@ -3,152 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-07T10:15:49.710814+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 1,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "e9e68eea47ae36",
-          "cat": "Canada",
-          "title": "Canada loses 4,700 jobs in October, unemployment rises to 6.7%",
-          "summary": "Statistics Canada reported that the Canadian economy shed 4,700 jobs in October 2026, while the unemployment rate increased to 6.7% from 6.5% in September. The loss follows large back‑to‑back job cuts in August and September that together removed more than 100,000 positions. Economists surveyed before the release had expected a gain of about 13,600 jobs for October.",
-          "why": "The higher unemployment rate signals a weakening labour market.",
-          "publishedAt": "2026-11-06T13:40:12+00:00",
-          "firstSeen": "2026-11-06T13:40:12+00:00",
-          "importanceScore": 15.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/canada-jobs-report-oct-2026-statscan-9.7411830?cmp=rss"
-        },
-        {
-          "id": "5b478824b2d51a",
-          "cat": "World",
-          "title": "EU launches fraud probe into Spanish rail authorities after deadly high‑speed crash",
-          "summary": "European Union prosecutors have opened a fraud investigation into possible misuse of EU funds for upgrading Spain’s high‑speed rail network after the 28 October Madrid‑Seville crash that killed 69 people. The inquiry is focused on the rail infrastructure authority Adif and the safety agency AESF. It follows a similar EU fraud probe after a January crash on the same line that killed 46 people.",
-          "why": "It highlights concerns over how EU funding is used and the oversight of railway safety.",
-          "publishedAt": "2026-11-06T17:44:02+00:00",
-          "firstSeen": "2026-11-06T17:44:02+00:00",
-          "importanceScore": 12.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "9ad4c028e64fa3",
-          "cat": "AI",
-          "title": "OpenAI raises $11 billion, valuation $1.25 trillion",
-          "summary": "OpenAI has reportedly secured $11 billion in a funding round that values the company at $1.25 trillion. The round is still open and Bloomberg expects it could close in the coming weeks with total commitments around $20 billion, below the earlier September target of $30 billion. TechCrunch has asked OpenAI for comment and is awaiting a response.",
-          "why": "The influx of capital and trillion‑plus valuation underscore strong investor confidence in generative‑AI and may shift competitive dynamics in the sector.",
-          "publishedAt": "2026-11-06T22:53:46+00:00",
-          "firstSeen": "2026-11-06T22:53:46+00:00",
-          "importanceScore": 11.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-        },
-        {
-          "id": "8acd95a80755f2",
-          "cat": "Canada",
-          "title": "U.S. Treasury sanctions Canadian firms connected to Ryan Wedding and Iran",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-06T23:25:19+00:00",
-          "firstSeen": "2026-11-06T23:25:19+00:00",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://globalnews.ca/news/12140771/us-canada-sanctions-iran-ryan-wedding/"
-        },
-        {
-          "id": "4bd712baa6ab43",
-          "cat": "AI",
-          "title": "Google buys unfinished Wyoming data center project from Crusoe",
-          "summary": "Denver‑based data center developer Crusoe confirmed it has sold an unfinished data center project in southeastern Wyoming to Google. The project, announced last year with Blackstone‑backed Tallgrass and planned to eventually reach 10 GW of power capacity, faced cost and timeline concerns under Crusoe’s management. Google did not disclose the purchase price but announced a $17 billion investment to develop the campus.",
-          "why": "The deal highlights the difficulty independent developers have delivering large‑scale data center projects on time and within budget.",
-          "publishedAt": "2026-11-07T01:40:28+00:00",
-          "firstSeen": "2026-11-07T01:40:28+00:00",
-          "importanceScore": 9.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-07T16:31:00.979460+00:00",
-      "changeSummary": {
-        "new": 0,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "9ad4c028e64fa3",
-          "cat": "AI",
-          "title": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
-          "summary": "OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion, according to Bloomberg as reported by TechCrunch. The $11 billion is part of a larger round that has not yet closed and may total about $20 billion, below the $30 billion target mentioned in September. OpenAI has not responded to comment requests.",
-          "why": "The funding could enable OpenAI to expand development and deployment of its advanced AI models.",
-          "publishedAt": "2026-11-06T22:53:46+00:00",
-          "firstSeen": "2026-11-06T22:53:46+00:00",
-          "importanceScore": 10.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-        },
-        {
-          "id": "4bd712baa6ab43",
-          "cat": "AI",
-          "title": "Google buys unfinished Wyoming data center project from Crusoe",
-          "summary": "Crusoe, a Denver‑based data‑center developer valued at $30.9 billion, confirmed it sold its unfinished data‑center project in southeastern Wyoming to Google. Google, which Crusoe had previously tried to win as a customer, will take over development and has announced a $17 billion investment to build the campus. The project was originally announced with Tallgrass to eventually reach 10 GW of capacity.",
-          "why": "The transaction illustrates the challenges independent developers face delivering large‑scale data‑center projects and shows Google’s commitment to expanding its infrastructure capacity.",
-          "publishedAt": "2026-11-07T01:40:28+00:00",
-          "firstSeen": "2026-11-07T01:40:28+00:00",
-          "importanceScore": 8.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-07T20:55:06.920755+00:00",
       "changeSummary": {
         "new": 3,
@@ -913,6 +767,88 @@
           "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
         }
       ]
+    },
+    {
+      "at": "2026-11-10T17:52:46.865877+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "d0e353da860036",
+          "cat": "India",
+          "title": "India's unemployment rate falls to 5.1% in July‑September",
+          "summary": "The Economic Times reported that India's overall unemployment rate declined to 5.1% in the July‑September quarter. The headline notes that the drop was linked to reduced joblessness in rural areas. No further quantitative details were provided.",
+          "why": "A lower unemployment rate indicates easing labour‑market pressure, especially for rural workers.",
+          "publishedAt": "2026-11-10T12:03:58+00:00",
+          "firstSeen": "2026-11-10T12:03:58+00:00",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-falls-to-5-1-in-july-september-as-rural-joblessness-declines/articleshow/135709920.cms"
+        },
+        {
+          "id": "e84674844299f5",
+          "cat": "AI",
+          "title": "Google unveils two new TPU chips for confidential inference and expanded memory",
+          "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units—TPU 8tx and TPU 8i Max—aimed at confidential AI workloads and larger memory capacity. TPU 8tx, designed with AMD, builds security into the hardware to keep data and model weights protected and adds a custom inferencing network that enables on‑the‑fly model distillation. TPU 8i Max combines two TPU 8i chips in a single package, doubling memory, processing power and bandwidth for handling larger query data sets.",
+          "why": "The chips expand Google’s in‑house AI hardware portfolio, lowering reliance on external chip suppliers while improving security and performance for cloud AI customers.",
+          "publishedAt": "2026-11-10T15:54:08+00:00",
+          "firstSeen": "2026-11-10T15:54:08+00:00",
+          "importanceScore": 13.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
+        },
+        {
+          "id": "2452aff01a301a",
+          "cat": "Indian Markets",
+          "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
+          "summary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-10T02:18:28+00:00",
+          "firstSeen": "2026-11-10T02:18:28+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms"
+        },
+        {
+          "id": "ab08375d742201",
+          "cat": "India",
+          "title": "India on track to hit $1 trillion export goal by FY27, says commerce minister",
+          "summary": "Commerce Minister Piyush Goyal said India is on track to reach its $1 trillion goods and services export target for fiscal year 2027, having recorded nearly $480 billion in exports between April and September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships to boost exports, investment and employment.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-10T17:05:33+00:00",
+          "firstSeen": "2026-11-10T17:05:33+00:00",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -966,81 +902,6 @@
       "latestSummary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms"
-    },
-    "c196b504cdeb78": {
-      "id": "c196b504cdeb78",
-      "firstSeen": "2026-11-03T14:14:08+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-03T15:12:12.787472+00:00",
-          "title": "DuPont lifts annual profit outlook on healthcare, aerospace demand",
-          "summary": "DuPont said it is raising its annual profit forecast, attributing the upward revision to strong demand in its healthcare and aerospace businesses. The company indicated that growth in these segments is improving its earnings outlook for the coming year. No additional financial details were disclosed in the source.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-03T15:12:12.787472+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "DuPont lifts annual profit outlook on healthcare, aerospace demand",
-      "latestSummary": "DuPont said it is raising its annual profit forecast, attributing the upward revision to strong demand in its healthcare and aerospace businesses. The company indicated that growth in these segments is improving its earnings outlook for the coming year. No additional financial details were disclosed in the source.",
-      "why": "The upgraded outlook could strengthen investor sentiment and influence the stock’s valuation.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dupont-raises-annual-profit-forecasts-on-strong-healthcare-aerospace-demand/articleshow/135502681.cms"
-    },
-    "0d9dd33b0e1ed7": {
-      "id": "0d9dd33b0e1ed7",
-      "firstSeen": "2026-11-03T12:33:10+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-03T15:12:12.787472+00:00",
-          "title": "Indian Hotels Company among 6 stocks that hit 52-week highs and rallied up to 16% in a month",
-          "summary": "Riding the market rally, six stocks from the BSE 200 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-03T15:12:12.787472+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Indian Hotels Company among 6 stocks that hit 52-week highs and rallied up to 16% in a month",
-      "latestSummary": "Riding the market rally, six stocks from the BSE 200 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-hotels-company-among-6-stocks-that-hit-52-week-highs-and-rallied-up-to-16-in-a-month/slideshow/135499922.cms"
-    },
-    "6d5c40e5ddcb9a": {
-      "id": "6d5c40e5ddcb9a",
-      "firstSeen": "2026-11-03T13:50:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-03T15:12:12.787472+00:00",
-          "title": "India will become the world’s largest economy by end of the century, predicts top economist Jeffrey D Sachs",
-          "summary": "Renowned economist Jeffrey D Sachs said India could become the world’s largest economy by the end of the century, with a population twice that of China. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-          "importanceScore": 11.8,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-03T15:12:12.787472+00:00",
-      "cat": "India",
-      "latestTitle": "India will become the world’s largest economy by end of the century, predicts top economist Jeffrey D Sachs",
-      "latestSummary": "Renowned economist Jeffrey D Sachs said India could become the world’s largest economy by the end of the century, with a population twice that of China. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-will-become-the-worlds-largest-economy-by-end-of-the-century-predicts-top-economist-jeffrey-d-sachs/articleshow/135480470.cms"
     },
     "78c6a80c93cade": {
       "id": "78c6a80c93cade",
@@ -3144,7 +3005,107 @@
       "latestSummary": "Rocket Lab shares fell more than 6% in after-hours trading on November 9 after the space company reported a wider-than-expected quarterly loss. The decline came despite record revenue, a growing order backlog and rising demand for its upcoming Neutron rocket.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms"
+    },
+    "d0e353da860036": {
+      "id": "d0e353da860036",
+      "firstSeen": "2026-11-10T12:03:58+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-10T17:52:46.865877+00:00",
+          "title": "India's unemployment rate falls to 5.1% in July‑September",
+          "summary": "The Economic Times reported that India's overall unemployment rate declined to 5.1% in the July‑September quarter. The headline notes that the drop was linked to reduced joblessness in rural areas. No further quantitative details were provided.",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-10T17:52:46.865877+00:00",
+      "cat": "India",
+      "latestTitle": "India's unemployment rate falls to 5.1% in July‑September",
+      "latestSummary": "The Economic Times reported that India's overall unemployment rate declined to 5.1% in the July‑September quarter. The headline notes that the drop was linked to reduced joblessness in rural areas. No further quantitative details were provided.",
+      "why": "A lower unemployment rate indicates easing labour‑market pressure, especially for rural workers.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-falls-to-5-1-in-july-september-as-rural-joblessness-declines/articleshow/135709920.cms"
+    },
+    "e84674844299f5": {
+      "id": "e84674844299f5",
+      "firstSeen": "2026-11-10T15:54:08+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-10T17:52:46.865877+00:00",
+          "title": "Google unveils two new TPU chips for confidential inference and expanded memory",
+          "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units—TPU 8tx and TPU 8i Max—aimed at confidential AI workloads and larger memory capacity. TPU 8tx, designed with AMD, builds security into the hardware to keep data and model weights protected and adds a custom inferencing network that enables on‑the‑fly model distillation. TPU 8i Max combines two TPU 8i chips in a single package, doubling memory, processing power and bandwidth for handling larger query data sets.",
+          "importanceScore": 13.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-10T17:52:46.865877+00:00",
+      "cat": "AI",
+      "latestTitle": "Google unveils two new TPU chips for confidential inference and expanded memory",
+      "latestSummary": "Google announced two new variants of its eighth‑generation Tensor Processing Units—TPU 8tx and TPU 8i Max—aimed at confidential AI workloads and larger memory capacity. TPU 8tx, designed with AMD, builds security into the hardware to keep data and model weights protected and adds a custom inferencing network that enables on‑the‑fly model distillation. TPU 8i Max combines two TPU 8i chips in a single package, doubling memory, processing power and bandwidth for handling larger query data sets.",
+      "why": "The chips expand Google’s in‑house AI hardware portfolio, lowering reliance on external chip suppliers while improving security and performance for cloud AI customers.",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
+    },
+    "2452aff01a301a": {
+      "id": "2452aff01a301a",
+      "firstSeen": "2026-11-10T02:18:28+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-10T17:52:46.865877+00:00",
+          "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
+          "summary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-10T17:52:46.865877+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
+      "latestSummary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms"
+    },
+    "ab08375d742201": {
+      "id": "ab08375d742201",
+      "firstSeen": "2026-11-10T17:05:33+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-10T17:52:46.865877+00:00",
+          "title": "India on track to hit $1 trillion export goal by FY27, says commerce minister",
+          "summary": "Commerce Minister Piyush Goyal said India is on track to reach its $1 trillion goods and services export target for fiscal year 2027, having recorded nearly $480 billion in exports between April and September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships to boost exports, investment and employment.",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-10T17:52:46.865877+00:00",
+      "cat": "India",
+      "latestTitle": "India on track to hit $1 trillion export goal by FY27, says commerce minister",
+      "latestSummary": "Commerce Minister Piyush Goyal said India is on track to reach its $1 trillion goods and services export target for fiscal year 2027, having recorded nearly $480 billion in exports between April and September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships to boost exports, investment and employment.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms"
     }
   },
-  "updated": "2026-11-10T09:54:08.758329+00:00"
+  "updated": "2026-11-10T17:52:46.865877+00:00"
 }
