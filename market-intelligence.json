@@ -1,48 +1,48 @@
 {
-  "updated": "2026-11-10T02:23:42.747304+00:00",
+  "updated": "2026-11-10T10:25:48.631814+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX jumps 1.8% as gold miners, banks and mining shares rally, oil price decline noted",
+      "headline": "TSX jumps over 650 points as US markets rise, gold miners and banks lead, oil falls",
       "direction": "up",
       "move": "S&P/TSX Composite +1.84%",
-      "why": "Gains in gold miners, broader mining stocks and banks drove the rally, with falling oil prices also cited as a factor.",
+      "why": "The rally was driven by a rise in U.S. equities, strong performance from gold miners and banks, and a backdrop of falling oil prices.",
       "drivers": [
+        {
+          "label": "Pending Acquisition Nears Closing",
+          "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "Gold Miners and Banks Power a Broad Rally",
           "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "mining shares lead rebound",
-          "detail": "ad-hoc-news.de explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "US market rally",
+          "detail": "U.S. stock markets also rose, supporting TSX gains.",
           "kind": "driver"
         },
         {
-          "label": "Gold miners",
-          "detail": "Gold mining stocks were highlighted as a primary source of strength.",
-          "kind": "driver"
-        },
-        {
-          "label": "Banks",
-          "detail": "Banking sector shares added to the broad market advance.",
+          "label": "Gold miners and banks",
+          "detail": "Gold mining and banking stocks powered a broad rally.",
           "kind": "driver"
         }
       ],
       "sectors": [
+        "Energy",
         "Materials",
-        "Financials",
-        "Energy"
+        "Financials"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36446.26,
+        "price": 36446.3,
         "previousClose": 35789.1,
-        "change": 657.16,
+        "change": 657.2,
         "changePct": 1.84,
         "currency": "CAD",
         "exchange": "TSI",
@@ -53,40 +53,40 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Simply Wall St",
-          "title": "Black Diamond Group (TSX:BDI) On Earnings And A Higher Dividend Looks Close To Fair Value - Simply Wall St",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMlZaNGVUOEhXdUp6Z0xWSXYxRU1VZEVlOVhOVkR6NzRLWUpmNE43NUd4YVhPWHBSMzNySkNwWldYWUxyWi10VGFXdEhxaXNoOFd4WEJycjVBd2ZLS2VCTVItUEIwRUhDd0ZKeEgxTWZicjdDT1JQenJFZVNKU1FiZElyNFNrU3ltd29YVUNyTWhrblBsUnYtQkdZb21DajlLMVUtQ3llRjNfUEVMRllNb2p2VHdKcm1vazh0MmVGVlhQV1p6S0tha1RkeGQwTEtEa2NBUzRMUWZqV1lWNmNqaFNYajR6VTDSAewBQVVfeXFMTUhPM0d5QmMxSmFBUWYzLVhhOGthS05aaFJzWkRDXzBnd19YeV91N0ZZblNjdmlIdmlFQ2xURURmcE1aRnViWVJKZXRndVlJZXQzaEZVR1loYS12MTJlckV4NnJfQXB6cWpOanNqQWd4QmczaXUyMkpoSVJBYzVGbk96OHIxeHhnb3lackdiT0RkTmw1Y1A1VmctSXkyYWZVT0drLTdSNkVFTEVKQkRIS1RMZEdLM3cyZHMtUUVWWW44S2dRSGs0U2FKRFNZcFA5VHNJLWczVHlxekhQTUNOM2ZrNC11R0lHVERVblM?oc=5",
-          "publishedAt": "2026-11-09T23:32:51+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange Today: TSX Climbs About 1.6% Above 36,300 as Gold Miners and Banks Power a Broad Rally - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWFItUGNPRWRjVlpYelh3eGN5eTBVX0lUeWRkTmxfZW5QYXJkdkRFM012MFJqczdGdnB5dVdNdjZrMzVXMEI0MjN1OC11YzdlNXhDQmszRUU4b0RtRHhRelZkdFNvZjBBeVhHMV9hN2JPTHRoc3pZQm9iell1U1ZwUGpDVGhncmhxNkNXYi1HUzFmdDQ0NEd4aTRJQkdmOG14cXM4TUNlLV9yUFdKWGV5MnV3RlliZkNVczRqcmpGaGs0bzhCdXBNQkxsVjFybzZqOG9EVG91b2hSLVlNS2lZUg?oc=5",
-          "publishedAt": "2026-11-09T22:10:27+00:00"
-        },
-        {
-          "name": "Investing.com India",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 1.84% By Investing.com - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQampTMElvYzJlVEVzXzVGbWZURm1RYTlPb2VlbkhhVkZZZVM2MUloT0tzQmljOHpkbFF3cFVVWkQzNTZaTFhFaDRaVjRVV1h5dVZhaWhzbW1vcld1OE9Tc3YyZ0FIZFVnbFlCMTVESmlIRFFtUWpkQ3pIcjg0eUtNaHlNSm9kWk5idWczNXJyMnB0VnJlS2VGcDZjVDhfX2Z3ekRMRjBBN0o5S3ozNkpUNzFROVZIOFA3?oc=5",
-          "publishedAt": "2026-11-09T21:34:55+00:00"
+          "name": "kalkine.ca",
+          "title": "First Capital Real Estate Investment Trust (TSX:FCR.UN) Reports Higher Third-Quarter Operating FFO and Record Net Rental Rate as Pending Acquisition Nears Closing - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQM3VXeHAyVmdhUnFVdjhMRTF4cW1nUVlxa0g4TFpUT3E1dFhBT1lPWUlpMVd3VERHRTFUX2dMRlF5Nk5FVDhmWXIyMlVXbnMzeHJsbTE5VlJwamN5MG94VVRFaGFKREcyWnJMaTg0em53MTRxZFFUVUFaQzVaVzRFaG5GblZLSHctXy1zNEh6WG1qYzgzLW96blNmbndoUnlsaURYN0k4WE1hRkY5ZjZCU2g1emRBajdsWE5mbVlNMXNlTFZ3enU5MWhtc1NhM3BpbXRWSmM1eHE5MDhpQVFBUTRWMWYtRWtOcDkxX2hpQU9sbW0tQTd4R1RhcjFjZjE1ODZtUkhlaEMzZW9iQVZHdHhfckJ5c0VGaTE5dWF5MA?oc=5",
+          "publishedAt": "2026-11-10T09:34:00+00:00"
         },
         {
           "name": "Investing.com",
           "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 1.84% - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTTQ3aVdkY3g4YjNKeVY4TEtpT3VSUFQzOGhEbExNYVVvWGpZT3NEV3YwNHdhd3NCcms3cjhoaE0xUkN2bDhxYWwzcW1SR0dacTd1a3dsaGtqWHZlRkZnUWp1VWw0WGduNEdDZkExRm9HVUpyd1FOZFF2N0RocFVqYkdZam9qUHp6SURxeTRNZ1kxSUpDMWtab0c3ZXlCaWltVXdyemlWS1h0aHk0eUxtWXg1Z1A3Rng4THc?oc=5",
-          "publishedAt": "2026-11-09T21:33:45+00:00"
-        },
-        {
-          "name": "Investing.com UK",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 1.84% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQkJReDlhblZHWG43emVHM2dOUlVXSHRoYWdVVE8wZjlMWmthNzU2SmdUMmN6eGZFV2NtU29hV3E3WjhZMTJoOTVMU3p0aUg2a3JONDg1MFhpVFd2ZWJrdy0xRU5lMkViVTA0eTV4cTExUFhrb2s4VUd1bjBGekxXMkl2WjZUNVNrWTlRaHNxSmNYM1VLOXBabTlRbHF6NXRkNnAzODNDODFyQkhGcW9aazFuQ0tnMnZw?oc=5",
-          "publishedAt": "2026-11-09T21:30:00+00:00"
+          "publishedAt": "2026-11-10T03:06:06+00:00"
         },
         {
           "name": "Finimize",
           "title": "Canada’s TSX Hit A Two-Month High As Oil Fell - Finimize",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmblFiNFJFRjZUQXhiTGFYN3k5M2lWMWhpX0pJSmpCbFdONjhMV1Ywa0hmV2xndkI4a0FZVjEtRVpkNmhnc1F1aDBOWHlmMXp1SXpwOUtSX3YzV3RmbWYzc1JwRGhYYmpUN2IxdXdPOGFMTTMwSWlLUjBRbWQydw?oc=5",
-          "publishedAt": "2026-11-09T21:04:59+00:00"
+          "publishedAt": "2026-11-09T22:39:20+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "Granite Real Estate Investment Trust (TSX:GRT.UN) Reports Higher Third-Quarter FFO, Closes $270.5 Million of Acquisitions and Lifts Distribution 4.2% - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOQjI3Tmp1a0JmVHk3VUM3My1kUVNQM19MMENpNndwei1XcW0xTG1jQTltVTlfRm9NNjFEckhIaDRWNEJ0UVZIT1A4SGRvc0pGNHZfUDRVTTdlSUlWWVp3R2NqQXFXekJxSmZKeFlhd1hrTFdxRzVjT2lNZDJtYW42WFNTLTV3U2ppLWZEdW1pdTVtTjRCeV9qaTdEUVBFc3F1eXhreXhWZVdfNHRrbXI2WWlBMTIwYVhiOEdqMFY1VUN4dUZvWGl3VWJSZE00V2cxUEstU0U1dzNwZENsam9Sb2NCY2VrZGV6LW1mT0Z2dHVCc0pYR3VnTFRUeGJaUzBLZW10cFd1bw?oc=5",
+          "publishedAt": "2026-11-10T09:34:00+00:00"
+        },
+        {
+          "name": "BNN Bloomberg",
+          "title": "S&P/TSX composite up more than 650 points, U.S. stock markets also rise - BNN Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSDQ4TjhoLURValVQZHE1MURSWDJBZE5XRk4tcW9OVjRNRExCb3Q0VU5sSmZoM3MxemhGc2VjXy1jeVhHNHB3Nlh0WUcwOGxtS3A3WDZMU1Juc0ZHbDBYNm5ESGo1akJBSVBSVnp0a1BzaFFKbUlHUkFTUWlfNkZKc2llQTRKcWJkbDZQdnkyN3lhUXRGbl9PNEhHNVpIM1J2ckF1RkFaZVM2WHlJeFpHbktfVkF5dXZGM1dic2N3?oc=5",
+          "publishedAt": "2026-11-09T21:27:45+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange Today: TSX Climbs About 1.6% Above 36,300 as Gold Miners and Banks Power a Broad Rally - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWFItUGNPRWRjVlpYelh3eGN5eTBVX0lUeWRkTmxfZW5QYXJkdkRFM012MFJqczdGdnB5dVdNdjZrMzVXMEI0MjN1OC11YzdlNXhDQmszRUU4b0RtRHhRelZkdFNvZjBBeVhHMV9hN2JPTHRoc3pZQm9iell1U1ZwUGpDVGhncmhxNkNXYi1HUzFmdDQ0NEd4aTRJQkdmOG14cXM4TUNlLV9yUFdKWGV5MnV3RlliZkNVczRqcmpGaGs0bzhCdXBNQkxsVjFybzZqOG9EVG91b2hSLVlNS2lZUg?oc=5",
+          "publishedAt": "2026-11-09T22:11:16+00:00"
         }
       ],
       "evidenceCount": 7
@@ -99,17 +99,17 @@
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Sensex, Nifty close higher after roller-coaster session, late recovery erases sharp intrad",
+          "label": "Sensex, Nifty 50 rise over 6% in past 5 sessions: More rally from tomorrow or profit booki",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         },
         {
-          "label": "Closing Bell: Nifty 50 Closes Above 25,000 as Sensex Gains 107 Points; PSU Banks Rally 3.7",
+          "label": "When is next stock market holiday? Check date for Nov weekday; NSE-BSE closed for Prakash ",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         },
         {
-          "label": "Stock Market Highlights: Nifty Reclaims 25,000 After Muhurat Dip; Sensex Ends 100 Pts High",
+          "label": "BSE Sensex Closes 0.13 Percent Higher at 81,106.65 After Volatile Session",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
@@ -132,10 +132,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 81028.02,
-        "previousClose": 79310.01,
-        "change": 1718.02,
-        "changePct": 2.17,
+        "price": 81106.65,
+        "previousClose": 81028.02,
+        "change": 78.62,
+        "changePct": 0.1,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -143,6 +143,30 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
+        {
+          "name": "Livemint",
+          "title": "Sensex, Nifty 50 rise over 6% in past 5 sessions: More rally from tomorrow or profit booking will dent returns hopes? - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNU2JaVU1faHREb1BSVUFrZ0hzNnU2TE1DTmV1MEd1NlZHQ3RJYnZNWGNnVGFxZ3h5Rm5wdWIzVmxkS1h4VGdSVndCZ3dDTjZ6d1MxWG5JRlpRTnMtTGRBaFZ6b2lZcmo0dEtGckFqR09Yd0FkendCYnRvM2w5WDA3X3ZlWnVPZXRqd3NidWkxRHd6RHJHS3ZHTGR5ZmgwQVlDcEtYQXpxNUdMME01SE83Qlp4cGdRaHRmcUZGbVNqM3cxS3FpbDBaQzdiN2ZvQmw3UDdMWl80a0hHdzR2ZThzV3I4eHZsY1RDQmZmOWpLNml6OXk2SGdtdmJDbnF0RTdUUTNhZzJVbGlFdkN5LVUzWdIBlgJBVV95cUxPTGV3VkxMRU5yR3FPRVdfT0NEVnFqMno4TzdEWExzUUJLNXMwRlNHQk51M25XSlh0QWFzdFBtbFFXeFVpVmdWR2ZJT3RLLURrRDkxWkpqRl9TOENDQXI1R1l6WHBEU1R2WDNwMHhCbGdLQ1VLd2lfNVYxQ3g1bUw2NVJKRElaTndZX3F1T05HWVRaQkhZajF5S2FJSWxBOVV5Umxtb0tZVDNnVVp4TFRwWlRKOEltNlRxTnV4NXdzaEk4YjJpbmJGTUtfa25FcXdFV1pHSC05ekkzODhjdXFYTE9xQXdHbHNSV2dSRzc5eVpYdUxUWTduU1JseVhEY0pkU0Z0a2JqeFZTN3dFd2Ztc0hFYlJGZw?oc=5",
+          "publishedAt": "2026-11-10T07:13:11+00:00"
+        },
+        {
+          "name": "Livemint",
+          "title": "When is next stock market holiday? Check date for Nov weekday; NSE-BSE closed for Prakash Gurpurab Sri Guru Nanak Dev Ji - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNb3pSeGQ4S2VVNEIySmRHZW5RdmhIN0VERmI5b1VnSzQ3Q3ZhY2U5d3oyR0h3S1V2RWNieFgzNW9SMnZQSmdsSEVkNk91YlIzRFhQQlhrUjlSTENyZ2pBaXlUcXJOVGFNdjdIYXlzUjd3UzZUY0hyUHloX1VqU1J3RmkyemNfRy1zN1pzWFpEYm1lN2dSbS0wVlFsLUtCbHJLWUZVeFRhWF9nRXpHb1U1al9rNFphVENwSnA1QjR3MGpBc0QzX2pzZ3FQZDU2aW0xTnNWUXo1WHpJcW5QWEtoTUZRU3VYLVgybnQtWUpPOUFxT3FGb1BFakttVXp6WG5rdVYzVHBOdDJteV9lTUMwek5SakJqNXfSAZwCQVVfeXFMT1p4QVpzWTVvU09QbkJKSUE5XzZtRnc0QzY4ZC1ZRkNLZ2E1QzkxeDJNUWxTc2c4ZHFaTDBsOHNrSzl6QzFqQjU3bmlHbW1MUnVwanhGdE1vYjZXN1NBTHdlR2RQcEFWZ1ZvTElDN3ctX1hGQ1FvQnhHZldMODRXLXJvWnVhTDFOSlJpNGFMQ2J5QTcyWjFRS1pUTnhCZzZQeXltdC00TmNoRkRncUNXRmtsZG5YRXI2WmFJNnMzcFFac09uVzZ3UDFtT2pqTXhUZlVrVlRhSmptRDM5UFJEc1ZtYWMybUFWeEp5LUNJSldpVmdEZlJBRU52UC1pcmtReUgtYWtUNjRKZnNIUm90ZmlpcWxydGthNzhxV0c?oc=5",
+          "publishedAt": "2026-11-10T09:34:32+00:00"
+        },
+        {
+          "name": "ad-hoc-news.de",
+          "title": "BSE Sensex Closes 0.13 Percent Higher at 81,106.65 After Volatile Session - ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXBrMDkteTV0STFRUmVTOU04eVBRUlZWTEhyQ3lnZV9PaFd4a0NaTnFDZ0FWSnBhMFR0ZjRsR3podVdseWEzeGtVdWNJdmRoQ3JDMkthREpucXFuMWNqbDdMY3pHU3dhR1NGS1ZqOG15SERhT2tvWndlVHdzYS1lcmFXaHhLSUJmU3d4MGw3d3lMcXZsVDJYT1dkRVhSVW92OXQzSFBvenpuY0lmbXM1dktvc013Z29pOWFDVUVMekRwMVBvN0pJUVhMeWY2NnZr?oc=5",
+          "publishedAt": "2026-11-09T12:08:32+00:00"
+        },
+        {
+          "name": "HDFC Sky",
+          "title": "Gift Nifty Signals Flat Start; Crude Weak, Asia Mixed - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZVpnZ3U0WDJHQ2RscDZKaE5BME9zOVo1cDFWaDBkbXprZ20wbEZjUFJacGl1dTdfOFlTVjRCWHRQVFNlX0JMaXFGaWNaMUpRWG1QZDIwbnQxX1E0eTVwcUVqSVU2SWIzdFJGZFJySFRUczJKUTAwSVVGbjFvUHdORlY1WHZ1by1GRVVyek5n?oc=5",
+          "publishedAt": "2026-11-09T11:32:43+00:00"
+        },
         {
           "name": "IBTimes India",
           "title": "Sensex, Nifty close higher after roller-coaster session, late recovery erases sharp intraday losses - IBTimes India",
@@ -154,30 +178,6 @@
           "title": "Closing Bell: Nifty 50 Closes Above 25,000 as Sensex Gains 107 Points; PSU Banks Rally 3.73% - Dalal Street Investment Journal",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeFREbVJReS14WVRmVjJ2TVE4NWpnV1VoX0hlZmVJNlNCd0t5ZW9xUWdQbTdwU2I4cWxMTnpTQ0lJSE43Q1I5bGVBYWw0aDVfV2IzYXlVYXlkT1QwZDNOWTB4aGVBTXVva2lUbFF4emx1MzFySTZSUzBxcWxhdmJqLXgwUnV0UEJ5Qlo1UVRSOS1ZRzFQaDByWWxCd0dhU3FKcHE1N0FNeWhGaXVxSnd2NnY4WFRvcWVsczhESU54cVpzNWVHQm1Kb3Z2YXMyd0lBWWc?oc=5",
           "publishedAt": "2026-11-09T10:33:17+00:00"
-        },
-        {
-          "name": "NDTV Profit",
-          "title": "Stock Market Highlights: Nifty Reclaims 25,000 After Muhurat Dip; Sensex Ends 100 Pts Higher. Check Key Gainers - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZmxRSVlEM2EzLVNFZjNYSjlPMG9ONXZVOGJoQ3BJMkJEZWU5Y2Q5MklUVDl3ZGVwemNuTG1IVWtrbTFCRDJHTEpnZmZNWnVDcTVFZmtJYjdreno3RlVCRWVMbjJuMGUyZldEeUNjUWVCTXRDSkMwaFE0WE1CbkdFT0hxTmVLMTZFWVBxMHlZYXhFZFhRNTVIaVVfV19Md0VHQ1N1SXp5dkRabjN0M3lOTHE4WWNEVkJqRFkyOXRaNEN4c05qSHdpaEFJU00td3REU0RBUUFOUnZWSHfSAeMBQVVfeXFMUE1vNVZkR0pETG9lU0JzR2VNVVhMcFRtMVZwTEJnenQ5NGIwRlh3LUhFVlZCYllKQVhtcXNUNkw1dlFGMzFBM0pPYldOcExJdHd6alJZS2h4ODdSZVNOYmNXQk9USGdRSEhFZFplcGdLcnhfLWVjLUFvLTJpSHlsU0FZZzJLTVoxbE5yQ1gxT04ybUQzTmo0YkhTWlpJR1BaWVoyZWRXV2RBT2ZFYWVPMGcwaVZEdFRxc0VzTXRJT0toeHJVWFk5MEtZWkxzTHNDNjgtZEpCY2Y3WnhnZmdrLThzNEE?oc=5",
-          "publishedAt": "2026-11-09T10:25:07+00:00"
-        },
-        {
-          "name": "Pragativadi",
-          "title": "Sensex Closes 107 Points Higher, Nifty Reclaims 25,000 as PSU Banks Surge 3.7% While IT Slides - Pragativadi",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQmJCTEo4aUR2VGkzSjZpNzZJX0N6d1c5R3ZFelI4eUZvOHNmcEU4SWNsLWt4WDBvNFlqUm5aYXFtSDRHanNnRUFtaUNlQ1dEWTJaV0hmNzlCLU9YNXpFQ0JTdk9SMmswQTNvZDdvdE9iZFIzekNhOUFUNVotTEZPNGR6TXRJTFQwUklxbmpCVUhEUDZsSC1Gd0FNbnFhdm5Hc2ozQ1kyUEdrQWFkMGlHYTlpQmpGb3M?oc=5",
-          "publishedAt": "2026-11-09T10:18:12+00:00"
-        },
-        {
-          "name": "ET Now",
-          "title": "Stock market closing: Choppy markets end higher! Sensex closes 100 points higher, Nifty above 25,000; Nifty Bank up 1.5% - ET Now",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTWlBVEVsTXlfNWRIeDVEUFZ1WUZIaGVkTG4zWDNZcXJXSEExd2ZEbk9YMTV5YmpVRkg1Z3F5VkRSYThjdnFFOEhxTGI5dmxqV2VDaHhsTUZHeVc2bWVCMUU5U3dod05mVXpDekRRd2RrZjVmMm1ITWdFYThzcmIyNHF6Z3Jnby1nWEVOaFR6ZTdPRVpwbklFRWpJOHZ1cmFRY0xCUElhMU1rTkdwV3VMRlc3Sl9WdW5aNEluRVl1bmZMUnN3RlpsWTlZVUVHa3pXdXNMY3haVktRbkRKZmtrWW9uUkZWelJtVVpiMFp0eDd3NnhadmFN0gH8AUFVX3lxTE0wcG1SMWtaZEpHeVF1UzV1RklVNjFSaFdVazh3ZmJfS0xvSklfTFlGLU5JVXRxbVRtQjlDalZmS3pSaTE0aVRQQzF1UWgyU0p3bEltUHhKVnd0NTBQNzlmbWVIdGNHYUZGV3c5dmpJd3dPTGpQYUR3dGVKWHkwek1lRWNwUWhPbHZpUW9rS2ZuUjk1aVpQTzBtX05vQmQ3SU1YNFFTQWt5bUZ5TlZsSkNCQXBGcGFfUlhrRnpKRUtsYnZ0TVpTNDU0UGV0aERjOFlNOU42U2paSm1jOGxUZHl5VU9wZ3dKdEVUTHNpU1Y4REYyaURVeWlYQlo3SA?oc=5",
-          "publishedAt": "2026-11-09T10:11:37+00:00"
-        },
-        {
-          "name": "Upstox",
-          "title": "NIFTY, SENSEX continue to trade lower in noon deals; HDFC Bank, SBI, L&T, PVR Inox, Divi's Labs among top buzzing stocks - Upstox",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmpvWTEtVzZQaFRJT0YtMm5SVnh0VDV4QTJBTXczT2FtcnJPS0tlUm9YRUd2RlZzaHI4dWJ6QVRlLWVPYlpvTUFTYzBPWDZwemtBQ0lPVnd1bVphSWszdW1ublpubThqYTdvbUQwY2JlZm5fTFIweUJINHFYT3dIdTJ3OHVITUdXejg0LTduQXUzRF9mY2ljNnAzZWRpMEVRTXFpeUlGZjdKUS1TTGZwNXVSODZ3bVJ1d09rSC1Cb0VEbUVmOWN6dVJaaHlFeDl0T250QVdRQ2NGUmxTZ19z?oc=5",
-          "publishedAt": "2026-11-09T06:36:23+00:00"
         }
       ],
       "evidenceCount": 7
