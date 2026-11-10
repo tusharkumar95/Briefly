@@ -1,20 +1,15 @@
 {
-  "updated": "2026-11-10T18:16:28.347489+00:00",
+  "updated": "2026-11-10T23:43:31.782776+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls as oil price tumble drags energy stocks lower",
+      "headline": "Canada TSX Composite closes down 0.76%",
       "direction": "down",
-      "move": "S&P/TSX Composite -0.82%",
-      "why": "Oil prices fell on Iran peace hopes and after Trump said more Iran strikes were unlikely, causing energy stocks VET, AAV and SU to slide, while financial stocks rose, leading to an overall decline in the index.",
+      "move": "S&P/TSX Composite -0.76%",
+      "why": "No source explicitly linked a factor to the overall market decline; the index closed 0.76% lower.",
       "drivers": [
-        {
-          "label": "lower oil prices ease inflation concerns",
-          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
         {
           "label": "oil prices tumbled on Iran peace hopes",
           "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
@@ -26,42 +21,47 @@
           "kind": "driver"
         },
         {
-          "label": "Oil price decline",
-          "detail": "Oil prices fell on Iran peace hopes (Source 5) and after Trump said more Iran strikes were unlikely (Source 6), prompting energy stocks VET, AAV and SU to slide on the S&P/TSX Composite.",
-          "kind": "driver"
+          "label": "Oil price tumble (Iran peace hopes)",
+          "detail": "Oil prices fell amid hopes for Iran peace and comments that further Iran strikes were unlikely, which was cited as a factor for energy stocks sliding on the TSX",
+          "kind": "context"
+        },
+        {
+          "label": "Financial stocks rise",
+          "detail": "Major banks (RY, TD, BMO, CM, BNS) rose as oil fell and inflation fears eased, providing some offsetting strength",
+          "kind": "context"
         }
       ],
       "sectors": [
         "Energy",
         "Financials"
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36146.37,
+        "price": 36170.45,
         "previousClose": 36446.3,
-        "change": -299.93,
-        "changePct": -0.82,
+        "change": -275.85,
+        "changePct": -0.76,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-10T18:16:16+00:00",
+        "asOf": "2026-11-10T21:20:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Reuters",
-          "title": "TSX hits two-month high as lower oil prices ease inflation concerns - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHNCWkUxNTkzcUw4ekkzZlVkWlFzWldVaVk0TnFpbUUySjMyUG50OUw3QXFEOXJ5X1FteGZXSGJ6aWlkS0VzaFJrR25ualRLaGstYjdtQ0RMTUk1REttd0VZZTQ3YndFYnp0TjRYQ3dxbnFlY2tNd1VDdFlKakVaMWI3WVBLR1RoNFpkVVhNZGlZYkVwYWxXUzBhODJ6NWFDSFRQaFlkT0tnTldrekxJckdveTJVNzRqT2d2ZnV4enI?oc=5",
-          "publishedAt": "2026-11-09T21:29:42+00:00"
+          "name": "Investing.com India",
+          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.76% By Investing.com - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPamNNUUJUWHdnLURrbHBSV2hQSEY0VHFhdHZTVFZzZXA3QWdJanNkeHFSeDVzeVRXUm15Y2k2QWw2NDJiaUV4Zkw0c3pTczd1c3FzMDBLM2VsaEZ2OGM1eVRSSE5ucXJ0eEdfWkZmcnBlUU9HU2Q1eGE3UDM0d2Y0aGd6d1hVLWxJRC1ZdzhxblBWNnBaWHFXVFFMSWFaNkJFeHlaeG1jdnV6SEJzUEhJSWZjMDFiQW9oWWc?oc=5",
+          "publishedAt": "2026-11-10T21:45:37+00:00"
         },
         {
-          "name": "The Globe and Mail",
-          "title": "Barlow’s Research Roundup: High-yielding telco stocks set to recover and the ‘puzzling’ investor response to TSX earnings - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeWdCQ3IxV0h1N1E4UnFXUWFlRkpoZXBqckpPcWZCUFRaWVpWa2RRcTd6c1RraDFPRnhWbjk0UkZDb2FhQWV5RC1uZjh1allHNTNndzgtY0cybXVJQmhpTHJJdlFGdGEzYVp2cTlQdWdfQlhRM05TV0hwNEZ4eXNndkVkVXVJR3JFbl9iSWVPUE5RMkJMajllMHlYUHBfNGFXcmRDblcwMzRTSTJ4ZDMzNVEta3RhdGc3U1JkdmNlZjFzaEMwTHJUZzJTVEI4RU50NEVkYjFwUmFPdnVO?oc=5",
-          "publishedAt": "2026-11-10T13:24:14+00:00"
+          "name": "Investing.com",
+          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.76% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMmRrbjlhUFZWajg2Zk5RdXM1c3laSEZjV1MtanNhOW5HeVY0cjZ6T01XM3dIMnN6dWZxT0ZxTVVpdmxiUXh0d0hNSWlWLVBFVUtOUE1GSjhPcWpSdDBJWlZGdWV1V0lTWHVxaThUM3lCS0RuMVZFV185TTBjaWdBdDNmWVZkNi1YSTNxZVZISjhTdHpPOVo5cE5TOFJJWEVhcUhxWUI4VGd3aXQ5REUybmNvZGE2X0JIWk9B?oc=5",
+          "publishedAt": "2026-11-10T21:33:11+00:00"
         },
         {
           "name": "Yahoo Finance Singapore",
@@ -108,7 +108,7 @@
           "kind": "context"
         },
         {
-          "label": "Sensex and Nifty Extend Gains as Large Caps Lead Market Rally",
+          "label": "GIFT Nifty gains 0.6% as falling crude prices lift sentiment; US futures subdued ahead of ",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
@@ -155,10 +155,10 @@
           "publishedAt": "2026-11-10T06:47:15+00:00"
         },
         {
-          "name": "MarketsMojo",
-          "title": "Sensex and Nifty Extend Gains as Large Caps Lead Market Rally - MarketsMojo",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNkZ4a0Y5dzY5aUFWQkFTX1BoekczeHBpNDJfNzNnQ2tCLTdJcTI2YUFPVUFxYTZOa3o1VU1kRDZEdEpxQS01azFBaWNkYjUxdlFpMjA3ZTA2aGRXS2V1V2h5NzB5Mk5CT0dUT0NhNFpnSGdEQ3BuNlFsSllGNG1hOE93V2JQaFFNeWg2SHdWQXZnZ2wzdnhVdmZUNVg5LXBkeFNxSG5yc3YweG5LSXY0bUtwOGVsTWVYT0xZXw?oc=5",
-          "publishedAt": "2026-11-10T04:55:56+00:00"
+          "name": "Moneycontrol.com",
+          "title": "GIFT Nifty gains 0.6% as falling crude prices lift sentiment; US futures subdued ahead of inflation data - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOcVYyU2RCVlZpeFBncmctRkhkd2Iyc2w2OUc2Yk45WS1kY1VkaHpRbl80eXRIdUVXUWhLaDF3Zlh6MWFpUUdlY1BZOVVTeVdudnJHRkhzdy1RTUpuYTBoVDB0YzMyUEFfdWFHR0FDTlljZkFQSnJWRG9ZZGtiWl9JM3lBVXVMaVl6dWlKalQ0T0ZWRmk2M0hrYi1BaDJRR0w5LUhGUDZXVWRhRE1lZ2hxbFhHaFQ2RG9ObV9zeDdoTGwzQlJpbTZkcDZqc3RmN250elYtb1NtT3A1RzRZendDdzJtNzVYakJKcDAwaWZadC1xZ3hFLXdEc2pvd9IBgAJBVV95cUxPZzZhR2s3a3JYVnN6SG81WWJnY0FXdnZXdkhtbHdRVF9vcmJQcnVxUmVaZ0EyYldtRXRCQkVWaXVDa05GaUM0MUFleHFnc1o2Tk5vWDJmZzRIYzRmRjVUWWZFRDhTcDBLTEloRDRQV0JpN0FOb2pkdFhDVHBhOF81a1FPYWZQUjVyNy10SW9YckJua0ltcFVfMl9nSXRWeTNtSzd0UWQ3SUVkUjJmOGpXMndHNW9CSDFuNUh0Ulhob0s3X1hkVnVyME9SeG5LTVhlTGVNaWJBcEw4cENWZExGcEhsSEpZendtVnZfSXNfMW13QmtlRnMxbllGWFpRNE9G?oc=5",
+          "publishedAt": "2026-11-10T05:14:37+00:00"
         },
         {
           "name": "Investing.com India",
@@ -173,10 +173,10 @@
           "publishedAt": "2026-11-10T03:50:46+00:00"
         },
         {
-          "name": "The Assam Tribune",
-          "title": "GIFT Nifty climbs over 1% ahead of strong Indian market opening - The Assam Tribune",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcW1yQms5YXJIeDJySGJYNVBBRWNyaHZQaU1mNlQ2VTdFM2Rhb1AzUHNYOE0xM1gxOURSUkEzMU11WEw2OG5jblBpbF9MRWlBaFZTY19SRXFtTDR0SnhkZHNRb0xqUjJ2WUp6WEp4UTJIeWRZMEpyLTQ1b0xDUG1hYk92dGR2VGdBYmMzVDF3cUxwR3E0MUV3Zl9mcXdidGkyMXktTmtzWdIBrAFBVV95cUxPU29XMWpZZ040Vmk4eXI5UTczVlZsRTZCZktvOVQ4b3NsbGVYSW95Q2tfYXZwZEtIN1hUb3BjRDJOQ3Y5RnVrbVFpeXg0RWlJUkYzelppbXYxaEN6NEdQa2hxUzhtWllVVEs0Rzl4NFRfelZHZkMzVm9NTUx3SWRGNXAtd2JodG5tNVVBbHE3Tk0zLWM5QXBPdXAyUmFOOFhpT0hjUUk4VExQdm8y?oc=5",
-          "publishedAt": "2026-11-10T10:14:57+00:00"
+          "name": "The Economic Times",
+          "title": "Stock Radar: BSE stock up over 10% in a month, technical charts hint at a bottom? - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcGlNQ05NVlJFV3plYTZBWUtxTEFjWl9ncWt2d1Y3ZkZuUktVYTg4b1JFazdDeFN6LVo4RVhBNi1tdnd1RC1pa0loZW5TZGY1c0dEUWRaa1dzTFp5Ym1CaHBrUWNlWHdxWWgwdkxGZlB3MGl2ZnFfb0QyRXBPX3o2a2tQYl8zRUNGa1ZCaGVnR3o4TW9VcmZqUHpFSVVIcHRqNXQxQ3dHU0I5UkpEaW9raFZyaldLTDJTbThhbFZ1bnRObF85c0FPalkwWTJUdllwUFBYVWl2OTAwakM4NnRObHF4TFVBd9IB6wFBVV95cUxQZlpDZjJlZGR0UUxaT1dYRE1tSFBUV0lFczJ1TnhzTlJsWUlEenhqeFE4YmdHcThQZlhIMUZtWnJOcl9MVUdma3dLTkx6NUpOenVRVHNqRVpPSHIzVTZIcmlRY2lYbURmSXFuakRkcjkxcUl2dnhxOFM4UV85UHhZRUNZSFlQZEJFOXNfQ0tGU3VfdFhCUldpWURaNFJqR0RaSHJKLTlyTnM1anBobTlsaDg3dTBrN0txanlzMFpkU1Z6enB1Q0FVQ3JZSllMTWwtYjBPdzZKcTNmUzBOdFZXOWttT3U4UkNheWhv?oc=5",
+          "publishedAt": "2026-11-10T23:30:00+00:00"
         }
       ],
       "evidenceCount": 7
