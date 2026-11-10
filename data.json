@@ -1,22 +1,58 @@
 {
-  "updated": "2026-11-10T17:52:46.865877+00:00",
+  "updated": "2026-11-10T23:25:15.986188+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 19,
+    "officialOrPrimaryCandidates": 20,
     "enrichedCandidates": 79,
-    "readableCandidates": 57,
-    "eventClusters": 57,
-    "materialEvents": 16,
-    "selectedEvents": 6,
-    "seededStories": 4,
+    "readableCandidates": 55,
+    "eventClusters": 55,
+    "materialEvents": 22,
+    "selectedEvents": 10,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "e028a175b2b8f5",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Bank of Canada staying cautious but considering more rate hikes: summary",
+      "publishedAt": "2026-11-10T21:01:02+00:00",
+      "importanceScore": 14.8,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12144994/bank-of-canada-rate-hike-summary/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Gord Hasay November 10, 2026 at 4:16 pm “The Bank of Canada’s governing council thinks it might need to raise interest rates” It means they are causing higher inflation by making things more expensive.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12144994/bank-of-canada-rate-hike-summary/",
+          "publishedAt": "2026-11-10T21:01:02+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-10T21:01:02+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-10T23:25:15.986188+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "d0e353da860036",
       "cat": "India",
@@ -24,14 +60,14 @@
       "categories": [
         "India"
       ],
-      "title": "India's unemployment rate falls to 5.1% in July‑September",
+      "title": "India's unemployment rate falls to 5.1% in July-September quarter",
       "publishedAt": "2026-11-10T12:03:58+00:00",
       "importanceScore": 13.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-falls-to-5-1-in-july-september-as-rural-joblessness-declines/articleshow/135709920.cms",
-      "summary": "The Economic Times reported that India's overall unemployment rate declined to 5.1% in the July‑September quarter. The headline notes that the drop was linked to reduced joblessness in rural areas. No further quantitative details were provided.",
-      "why": "A lower unemployment rate indicates easing labour‑market pressure, especially for rural workers.",
+      "summary": "India's unemployment rate fell to 5.1% in the July-September quarter, according to The Economic Times, with rural joblessness declining. The report does not provide prior-quarter comparisons or methodology details.",
+      "why": "The decline suggests easing labor-market pressure and could affect policy and economic outlook.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -43,44 +79,49 @@
         }
       ],
       "firstSeen": "2026-11-10T12:03:58+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-10T17:52:46.865877+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-10T23:25:15.986188+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "India's unemployment rate falls to 5.1% in July‑September",
+      "previousSummary": "The Economic Times reported that India's overall unemployment rate declined to 5.1% in the July‑September quarter. The headline notes that the drop was linked to reduced joblessness in rural areas. No further quantitative details were provided.",
+      "previousPublishedAt": "2026-11-10T12:03:58+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.6,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
-      "id": "e84674844299f5",
+      "id": "eb019b66c6765a",
       "cat": "AI",
       "icon": "✦",
       "categories": [
         "AI"
       ],
-      "title": "Google unveils two new TPU chips for confidential inference and expanded memory",
-      "publishedAt": "2026-11-10T15:54:08+00:00",
-      "importanceScore": 13.3,
+      "title": "New York launches registration portal for large AI developers under RAISE Act",
+      "publishedAt": "2026-11-10T20:52:13+00:00",
+      "importanceScore": 13.2,
       "sourceCount": 1,
       "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-      "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units—TPU 8tx and TPU 8i Max—aimed at confidential AI workloads and larger memory capacity. TPU 8tx, designed with AMD, builds security into the hardware to keep data and model weights protected and adds a custom inferencing network that enables on‑the‑fly model distillation. TPU 8i Max combines two TPU 8i chips in a single package, doubling memory, processing power and bandwidth for handling larger query data sets.",
-      "why": "The chips expand Google’s in‑house AI hardware portfolio, lowering reliance on external chip suppliers while improving security and performance for cloud AI customers.",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "summary": "New York opened a registration portal on Tuesday, requiring “large frontier” AI developers—companies with over $500 million in annual revenue such as Anthropic and OpenAI—to register by Jan 1 2027. The RAISE Act, effective at the start of the year, requires them to publish safety frameworks, report critical safety incidents within 72 hours, and issue model‑transparency reports. The new Office of Digital Innovation, Governance, Integrity, and Trust (DIGIT) will enforce the law, with penalties up to $1 million for a first violation and $3 million for later ones.",
+      "why": "It establishes enforceable safety and transparency standards that could shape how leading AI firms develop and deploy models.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-          "publishedAt": "2026-11-10T15:54:08+00:00"
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "publishedAt": "2026-11-10T20:52:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-10T15:54:08+00:00",
+      "firstSeen": "2026-11-10T20:52:13+00:00",
       "status": "New",
-      "lastChecked": "2026-11-10T17:52:46.865877+00:00",
+      "lastChecked": "2026-11-10T23:25:15.986188+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -115,8 +156,49 @@
         }
       ],
       "firstSeen": "2026-11-10T02:18:28+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-10T23:25:15.986188+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
+      "previousSummary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each.",
+      "previousPublishedAt": "2026-11-10T02:18:28+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "3f4f85a0ec4423",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Canadian businesses have ‘cushion’ to absorb costs, limit inflation: report",
+      "publishedAt": "2026-11-10T21:21:57+00:00",
+      "importanceScore": 12.5,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12144324/canadian-consumer-prices-inflation-cibc-report/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Global News Morning: Your Money Matters: What the Bank of Canada rate hike means for you",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12144324/canadian-consumer-prices-inflation-cibc-report/",
+          "publishedAt": "2026-11-10T21:21:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-10T21:21:57+00:00",
       "status": "New",
-      "lastChecked": "2026-11-10T17:52:46.865877+00:00",
+      "lastChecked": "2026-11-10T23:25:15.986188+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -126,23 +208,64 @@
       "lifecycle": "New"
     },
     {
+      "id": "e84674844299f5",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "publishedAt": "2026-11-10T15:54:08+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "summary": "Google is notching up its chipmaking game as the company seeks to reduce its dependence on chips made by other companies for its cloud computing business. Google on Monday unveiled two new variants of its tensor processing units (TPUs), in-house-developed chips meant for AI workloads, that broaden its chip portfolio to additional use cases: confidential inference and more memory capacity for large workloads.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "publishedAt": "2026-11-10T15:54:08+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-10T15:54:08+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-10T23:25:15.986188+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Google unveils two new TPU chips for confidential inference and expanded memory",
+      "previousSummary": "Google announced two new variants of its eighth‑generation Tensor Processing Units—TPU 8tx and TPU 8i Max—aimed at confidential AI workloads and larger memory capacity. TPU 8tx, designed with AMD, builds security into the hardware to keep data and model weights protected and adds a custom inferencing network that enables on‑the‑fly model distillation. TPU 8i Max combines two TPU 8i chips in a single package, doubling memory, processing power and bandwidth for handling larger query data sets.",
+      "previousPublishedAt": "2026-11-10T15:54:08+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.3,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
       "id": "ab08375d742201",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India on track to hit $1 trillion export goal by FY27, says commerce minister",
+      "title": "India well on track to achieve $1 trillion exports target for FY27: Piyush Goyal",
       "publishedAt": "2026-11-10T17:05:33+00:00",
-      "importanceScore": 11.9,
+      "importanceScore": 10.9,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms",
-      "summary": "Commerce Minister Piyush Goyal said India is on track to reach its $1 trillion goods and services export target for fiscal year 2027, having recorded nearly $480 billion in exports between April and September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships to boost exports, investment and employment.",
+      "summary": "Commerce Minister Piyush Goyal said India is on track to achieve its $1 trillion goods and services export target in FY27, having already recorded nearly $480 billion in exports during April-September. Goyal urged manufacturers to expand globally, boost competitiveness and leverage international partnerships to drive exports, investment and employment.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -151,8 +274,49 @@
         }
       ],
       "firstSeen": "2026-11-10T17:05:33+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-10T23:25:15.986188+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "India on track to hit $1 trillion export goal by FY27, says commerce minister",
+      "previousSummary": "Commerce Minister Piyush Goyal said India is on track to reach its $1 trillion goods and services export target for fiscal year 2027, having recorded nearly $480 billion in exports between April and September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships to boost exports, investment and employment.",
+      "previousPublishedAt": "2026-11-10T17:05:33+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.9,
+      "changed": true,
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "89ba01493d3be1",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India may get a better trade deal: Samir Saran on renegotiating with the US",
+      "publishedAt": "2026-11-10T12:49:29+00:00",
+      "importanceScore": 10.1,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-may-get-a-better-trade-deal-samir-saran-on-renegotiating-with-the-us/articleshow/135711398.cms",
+      "summary": "Following the U.S. midterm elections, Samir Saran said India should negotiate with patience, noting that aggressive U.S. tariff threats are usually part of broader talks rather than immediate policy shifts. He pointed to bipartisan support in Congress and India’s large market as factors that could help secure more favorable terms.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-may-get-a-better-trade-deal-samir-saran-on-renegotiating-with-the-us/articleshow/135711398.cms",
+          "publishedAt": "2026-11-10T12:49:29+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-10T12:49:29+00:00",
       "status": "New",
-      "lastChecked": "2026-11-10T17:52:46.865877+00:00",
+      "lastChecked": "2026-11-10T23:25:15.986188+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -164,19 +328,19 @@
   ],
   "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-10T09:54:08.758329+00:00",
+  "previousUpdated": "2026-11-10T17:52:46.865877+00:00",
   "changeSummary": {
     "new": 4,
-    "updated": 0,
-    "continuing": 0
+    "updated": 2,
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-07T20:55:06.920755+00:00",
-    "updated": "2026-11-10T17:52:46.865877+00:00",
+    "availableFrom": "2026-11-08T00:40:26.590197+00:00",
+    "updated": "2026-11-10T23:25:15.986188+00:00",
     "snapshotCount": 11,
-    "eventCount": 60,
+    "eventCount": 62,
     "retentionHours": 72
   }
 }
