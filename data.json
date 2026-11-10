@@ -1,155 +1,36 @@
 {
-  "updated": "2026-11-10T01:34:45.542411+00:00",
+  "updated": "2026-11-10T09:54:08.758329+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 22,
+    "officialOrPrimaryCandidates": 23,
     "enrichedCandidates": 80,
-    "readableCandidates": 55,
+    "readableCandidates": 52,
     "eventClusters": 52,
-    "materialEvents": 20,
-    "selectedEvents": 8,
-    "seededStories": 6,
+    "materialEvents": 18,
+    "selectedEvents": 5,
+    "seededStories": 3,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "da264ede5b95aa",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "AI",
-        "World"
-      ],
-      "title": "Nvidia shares fall about 4% as company begins probe into CEO’s alleged spy‑linked affair",
-      "publishedAt": "2026-11-09T22:46:09+00:00",
-      "importanceScore": 16.0,
-      "sourceCount": 2,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-      "summary": "Nvidia’s stock slipped roughly 4% by the close of trade on Monday after the company announced an independent investigation into CEO Jensen Huang’s extramarital relationship with Alice Huang, who is alleged to have ties to Chinese intelligence. U.S. officials have suggested the affair could be part of a Chinese espionage effort, a claim that China’s foreign ministry has called “entirely groundless, speculative and intended to smear and malign China.”",
-      "why": "The investigation creates governance and national‑security concerns that may affect investor confidence and the company’s valuation.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-09T19:58:01+00:00"
-        },
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-09T14:50:35+00:00"
-        },
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-09T07:10:11+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-09T22:46:09+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-10T01:34:45.542411+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 3,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "f3bad94c4b5b78",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Canada extends tariff relief program beyond U.S. steel imports",
-      "publishedAt": "2026-11-09T22:19:52+00:00",
-      "importanceScore": 13.7,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12143554/canada-tariff-relief-steel-imports-other-goods/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu A truck waits to cross at the United States and Canada border in Surrey B.C., on Tuesday, March 4, 2025.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12143554/canada-tariff-relief-steel-imports-other-goods/",
-          "publishedAt": "2026-11-09T22:19:52+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-09T22:19:52+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-10T01:34:45.542411+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "efea87d193224f",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "What Winnipeg can learn from Toronto’s housing model",
-      "publishedAt": "2026-11-10T00:04:43+00:00",
-      "importanceScore": 13.6,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12143498/what-winnipeg-can-learn-from-torontos-housing-model/",
-      "summary": "A new mental health and addictions hospital and 2,000 housing units will be built in Winnipeg replicating a housing project based in Toronto that saw a decrease in ER visits and millions of savings. Dunn House, the housing project in Toronto that Winnipeg will , reported a 52 per cent reduction in emergency room visits and more than $2 million of savings, according to the budget.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12143498/what-winnipeg-can-learn-from-torontos-housing-model/",
-          "publishedAt": "2026-11-10T00:04:43+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-10T00:04:43+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-10T01:34:45.542411+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "753d807ee25f83",
+      "id": "6d5b6ff4332f9b",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Global Market Today: Asian stocks rally after US tech surge, oil slump",
-      "publishedAt": "2026-11-10T00:45:50+00:00",
-      "importanceScore": 12.4,
+      "title": "Why Rocket Lab shares fell despite record revenue and booming Neutron demand",
+      "publishedAt": "2026-11-10T06:17:40+00:00",
+      "importanceScore": 13.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rally-after-us-tech-surge-oil-slump/articleshow/135696042.cms",
-      "summary": "South Korea’s Kospi Index jumped more than 5% in early trading while Japan’s Nikkei 225 rose nearly 3%. A broader gauge of Asian shares advanced 1.5% while futures for US benchmarks edged higher.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms",
+      "summary": "Rocket Lab shares fell more than 6% in after-hours trading on November 9 after the space company reported a wider-than-expected quarterly loss. The decline came despite record revenue, a growing order backlog and rising demand for its upcoming Neutron rocket.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -157,49 +38,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rally-after-us-tech-surge-oil-slump/articleshow/135696042.cms",
-          "publishedAt": "2026-11-10T00:45:50+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms",
+          "publishedAt": "2026-11-10T06:17:40+00:00"
         }
       ],
-      "firstSeen": "2026-11-10T00:45:50+00:00",
+      "firstSeen": "2026-11-10T06:17:40+00:00",
       "status": "New",
-      "lastChecked": "2026-11-10T01:34:45.542411+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "9144d832be8822",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India's investment outlook strengthens as credit, exports rebound; inflation relief likely: HSBC",
-      "publishedAt": "2026-11-09T11:14:30+00:00",
-      "importanceScore": 12.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-investment-outlook-strengthens-as-credit-exports-rebound-inflation-relief-likely-hsbc/articleshow/135680029.cms",
-      "summary": "India's investment outlook is improving as credit growth and corporate revenue increase, pointing towards stronger private capital spending. The report from HSBC highlights that funds to the commercial sector have risen significantly compared to previous years.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-investment-outlook-strengthens-as-credit-exports-rebound-inflation-relief-likely-hsbc/articleshow/135680029.cms",
-          "publishedAt": "2026-11-09T11:14:30+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-09T11:14:30+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-10T01:34:45.542411+00:00",
+      "lastChecked": "2026-11-10T09:54:08.758329+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -217,7 +62,7 @@
       ],
       "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
       "publishedAt": "2026-11-09T18:00:00+00:00",
-      "importanceScore": 10.0,
+      "importanceScore": 9.0,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
@@ -234,32 +79,37 @@
         }
       ],
       "firstSeen": "2026-11-09T18:00:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-10T01:34:45.542411+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-10T09:54:08.758329+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "previousSummary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. Given the emphasis on low cost and accuracy at scale, Ember is designed to pair with a larger model like Meta’s Muse Wonder in an agentic harness.",
+      "previousPublishedAt": "2026-11-09T18:00:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 10.0,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 1,
-  "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-09T17:33:05.615857+00:00",
+  "jarvisEditedCount": 0,
+  "finalRejectedCount": 1,
+  "previousUpdated": "2026-11-10T01:34:45.542411+00:00",
   "changeSummary": {
-    "new": 6,
+    "new": 1,
     "updated": 0,
-    "continuing": 0
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-07T02:50:28.319139+00:00",
-    "updated": "2026-11-10T01:34:45.542411+00:00",
+    "availableFrom": "2026-11-07T10:15:49.710814+00:00",
+    "updated": "2026-11-10T09:54:08.758329+00:00",
     "snapshotCount": 12,
-    "eventCount": 63,
+    "eventCount": 59,
     "retentionHours": 72
   }
 }
