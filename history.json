@@ -3,52 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-08T19:45:04.568952+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "f694977ee5e77c",
-          "cat": "Indian Markets",
-          "title": "Indian markets open higher in Muhurat session, Sensex up 320 points, Nifty above 25,100",
-          "summary": "On Sunday, November 8, the Indian stock market opened a special Muhurat trading session for Samvat 2083, with the Sensex gaining 320 points at the opening bell and the Nifty moving above the 25,100 level. Tata Steel and Sun Pharma were among the top gainers. The Nifty had closed the previous Friday at 25,030.35, already above key support levels.",
-          "why": "The rise signals bullish sentiment at the start of the Samvat year, a factor investors monitor.",
-          "publishedAt": "2026-11-08T09:35:11+00:00",
-          "firstSeen": "2026-11-08T09:35:11+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/muhurat-trading-sensex-up-320-pts-nifty-crosses-25100-tata-steel-sun-pharma-among-top-gainers/videoshow/135656015.cms"
-        },
-        {
-          "id": "960c71d4fff2e2",
-          "cat": "Indian Markets",
-          "title": "Indian economy to grow faster, foreign capital returning to markets: NSE CEO Ashishkumar Chauhan",
-          "summary": "Domestic financial savings have significantly increased, reaching nearly USD 1.4 trillion annually. Furthermore, foreign institutional investors are showing renewed enthusiasm for Indian markets ahead of the new Samvat year.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-08T09:40:45+00:00",
-          "firstSeen": "2026-11-08T09:40:45+00:00",
-          "importanceScore": 10.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-economy-to-grow-faster-foreign-capital-returning-to-markets-nse-ceo-ashishkumar-chauhan/articleshow/135656058.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-08T23:45:22.103136+00:00",
       "changeSummary": {
         "new": 2,
@@ -821,6 +775,124 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-11T22:02:11.002786+00:00",
+      "changeSummary": {
+        "new": 6,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "05ba6d4f0625e1",
+          "cat": "World",
+          "title": "Abu Dhabi trilateral talks end without breakthrough, POW exchange planned",
+          "summary": "Trilateral talks in Abu Dhabi between Russia, Ukraine and the United States concluded after a second day without any breakthrough on ending the war. The American side said it saw “some openings”, but no concrete agreement was reached to halt the nearly five‑year conflict sparked by Russia’s invasion. Moscow and Kyiv said a large‑scale prisoner‑of‑war exchange is being prepared and could be carried out soon.",
+          "why": "The stalemate shows diplomatic progress remains limited, while a POW exchange could improve humanitarian conditions for those captured.",
+          "publishedAt": "2026-11-11T18:04:58+00:00",
+          "firstSeen": "2026-11-11T18:04:58+00:00",
+          "importanceScore": 14.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "edf28127a9b8b2",
+          "cat": "AI",
+          "title": "British AI chip startup Fractile raises $720 million Series C",
+          "summary": "Fractile, a UK‑based AI‑chip developer, announced a $720 million Series C round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners and Redpoint, with participation from Britain’s Sovereign AI Fund. The financing values the company at over £5 billion (roughly $7 billion) and supports its full‑stack approach that pairs a machine‑learning compiler with a DRAM‑stacked chip design aimed at lowering inference costs.",
+          "why": "The funding strengthens the UK’s position in AI‑hardware development and may speed the deployment of more cost‑effective AI inference solutions.",
+          "publishedAt": "2026-11-11T19:34:55+00:00",
+          "firstSeen": "2026-11-11T19:34:55+00:00",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+        },
+        {
+          "id": "a9b4c563535594",
+          "cat": "Indian Markets",
+          "title": "Anthropic’s IPO is said to be multiple times oversubscribed",
+          "summary": "Anthropic PBC is witnessing an overwhelming response for its initial public offering, potentially accumulating up to $90.4 billion. With a significant revenue run rate of $81 billion as of October 31, investor enthusiasm remains high.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-11T16:25:21+00:00",
+          "firstSeen": "2026-11-11T16:25:21+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms"
+        },
+        {
+          "id": "8bd6588949da94",
+          "cat": "Indian Markets",
+          "title": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
+          "summary": "In the first nine months of 2026, a notable drop in land acquisition activities by Indian real estate firms has been observed. Anarock attributes this decline to developers adopting a cautious strategy, influenced by rising costs and emphasized selectivity in land purchases.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-11T12:10:24+00:00",
+          "firstSeen": "2026-11-11T12:10:24+00:00",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firms-land-acquisition-falls-56-to-1445-acres-in-jan-sep-anarock/articleshow/135736891.cms"
+        },
+        {
+          "id": "204dce4c26a0f4",
+          "cat": "Canada",
+          "title": "Vancouver Island war museum closing as visitors drop",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Canada Vancouver Island war museum closing as visitors drop — but staff not giving up hope",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-11T20:43:41+00:00",
+          "firstSeen": "2026-11-11T20:43:41+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12146698/vancouver-island-hmcs-alberni-museum-memorial-closure/"
+        },
+        {
+          "id": "fe4d19670ba3fa",
+          "cat": "AI",
+          "title": "Why the data center you dread might never even be built",
+          "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-11T20:15:15+00:00",
+          "firstSeen": "2026-11-11T20:15:15+00:00",
+          "importanceScore": 9.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
+        }
+      ]
     }
   ],
   "events": {
@@ -1001,31 +1073,6 @@
       "latestSummary": "Ather Energy was listed among fifteen Indian equities that reached their 52‑week price highs, according to Economic Times. The article notes that the group of stocks, including Ather Energy, posted price gains of up to 30 % over the preceding month. The piece highlights a broad rally across these shares.",
       "why": "The strong price performance may draw additional investor interest and trading activity in Ather Energy.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-among-15-stocks-that-hit-52-week-highs-and-rallied-up-to-30-in-a-month/slideshow/135541189.cms"
-    },
-    "b5fe26902e18ce": {
-      "id": "b5fe26902e18ce",
-      "firstSeen": "2026-11-04T07:44:28+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-04T17:59:37.132603+00:00",
-          "title": "Trump's midterm setback may put India under pressure for quick trade deal on US terms: GTRI",
-          "summary": "Amid electoral challenges, US President Donald Trump is likely to ramp up pressure on India to seal a trade deal. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-04T17:59:37.132603+00:00",
-      "cat": "India",
-      "latestTitle": "Trump's midterm setback may put India under pressure for quick trade deal on US terms: GTRI",
-      "latestSummary": "Amid electoral challenges, US President Donald Trump is likely to ramp up pressure on India to seal a trade deal. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-setback-may-put-india-under-pressure-for-quick-trade-deal-on-us-terms-gtri/articleshow/135529851.cms"
     },
     "5968c63e9b0717": {
       "id": "5968c63e9b0717",
@@ -3142,7 +3189,157 @@
       "latestSummary": "Wall Street opened higher after CoreWeave reported robust earnings, with the Dow Jones up 27.13 points (0.05%), the S&P 500 up 73.02 points (0.97%) and the Nasdaq up 385.17 points (1.54%). The gains were seen as a counterbalance to concerns about rising AI spending.",
       "why": "Positive AI‑related earnings helped improve market sentiment.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-coreweave-lifts-ai-trade/articleshow/135741336.cms"
+    },
+    "05ba6d4f0625e1": {
+      "id": "05ba6d4f0625e1",
+      "firstSeen": "2026-11-11T18:04:58+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-11T22:02:11.002786+00:00",
+          "title": "Abu Dhabi trilateral talks end without breakthrough, POW exchange planned",
+          "summary": "Trilateral talks in Abu Dhabi between Russia, Ukraine and the United States concluded after a second day without any breakthrough on ending the war. The American side said it saw “some openings”, but no concrete agreement was reached to halt the nearly five‑year conflict sparked by Russia’s invasion. Moscow and Kyiv said a large‑scale prisoner‑of‑war exchange is being prepared and could be carried out soon.",
+          "importanceScore": 14.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-11T22:02:11.002786+00:00",
+      "cat": "World",
+      "latestTitle": "Abu Dhabi trilateral talks end without breakthrough, POW exchange planned",
+      "latestSummary": "Trilateral talks in Abu Dhabi between Russia, Ukraine and the United States concluded after a second day without any breakthrough on ending the war. The American side said it saw “some openings”, but no concrete agreement was reached to halt the nearly five‑year conflict sparked by Russia’s invasion. Moscow and Kyiv said a large‑scale prisoner‑of‑war exchange is being prepared and could be carried out soon.",
+      "why": "The stalemate shows diplomatic progress remains limited, while a POW exchange could improve humanitarian conditions for those captured.",
+      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+    },
+    "edf28127a9b8b2": {
+      "id": "edf28127a9b8b2",
+      "firstSeen": "2026-11-11T19:34:55+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-11T22:02:11.002786+00:00",
+          "title": "British AI chip startup Fractile raises $720 million Series C",
+          "summary": "Fractile, a UK‑based AI‑chip developer, announced a $720 million Series C round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners and Redpoint, with participation from Britain’s Sovereign AI Fund. The financing values the company at over £5 billion (roughly $7 billion) and supports its full‑stack approach that pairs a machine‑learning compiler with a DRAM‑stacked chip design aimed at lowering inference costs.",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-11T22:02:11.002786+00:00",
+      "cat": "AI",
+      "latestTitle": "British AI chip startup Fractile raises $720 million Series C",
+      "latestSummary": "Fractile, a UK‑based AI‑chip developer, announced a $720 million Series C round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners and Redpoint, with participation from Britain’s Sovereign AI Fund. The financing values the company at over £5 billion (roughly $7 billion) and supports its full‑stack approach that pairs a machine‑learning compiler with a DRAM‑stacked chip design aimed at lowering inference costs.",
+      "why": "The funding strengthens the UK’s position in AI‑hardware development and may speed the deployment of more cost‑effective AI inference solutions.",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+    },
+    "a9b4c563535594": {
+      "id": "a9b4c563535594",
+      "firstSeen": "2026-11-11T16:25:21+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-11T22:02:11.002786+00:00",
+          "title": "Anthropic’s IPO is said to be multiple times oversubscribed",
+          "summary": "Anthropic PBC is witnessing an overwhelming response for its initial public offering, potentially accumulating up to $90.4 billion. With a significant revenue run rate of $81 billion as of October 31, investor enthusiasm remains high.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-11T22:02:11.002786+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Anthropic’s IPO is said to be multiple times oversubscribed",
+      "latestSummary": "Anthropic PBC is witnessing an overwhelming response for its initial public offering, potentially accumulating up to $90.4 billion. With a significant revenue run rate of $81 billion as of October 31, investor enthusiasm remains high.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms"
+    },
+    "8bd6588949da94": {
+      "id": "8bd6588949da94",
+      "firstSeen": "2026-11-11T12:10:24+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-11T22:02:11.002786+00:00",
+          "title": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
+          "summary": "In the first nine months of 2026, a notable drop in land acquisition activities by Indian real estate firms has been observed. Anarock attributes this decline to developers adopting a cautious strategy, influenced by rising costs and emphasized selectivity in land purchases.",
+          "importanceScore": 12.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-11T22:02:11.002786+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
+      "latestSummary": "In the first nine months of 2026, a notable drop in land acquisition activities by Indian real estate firms has been observed. Anarock attributes this decline to developers adopting a cautious strategy, influenced by rising costs and emphasized selectivity in land purchases.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firms-land-acquisition-falls-56-to-1445-acres-in-jan-sep-anarock/articleshow/135736891.cms"
+    },
+    "204dce4c26a0f4": {
+      "id": "204dce4c26a0f4",
+      "firstSeen": "2026-11-11T20:43:41+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-11T22:02:11.002786+00:00",
+          "title": "Vancouver Island war museum closing as visitors drop",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Canada Vancouver Island war museum closing as visitors drop — but staff not giving up hope",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-11T22:02:11.002786+00:00",
+      "cat": "Canada",
+      "latestTitle": "Vancouver Island war museum closing as visitors drop",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Canada Vancouver Island war museum closing as visitors drop — but staff not giving up hope",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12146698/vancouver-island-hmcs-alberni-museum-memorial-closure/"
+    },
+    "fe4d19670ba3fa": {
+      "id": "fe4d19670ba3fa",
+      "firstSeen": "2026-11-11T20:15:15+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-11T22:02:11.002786+00:00",
+          "title": "Why the data center you dread might never even be built",
+          "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
+          "importanceScore": 9.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-11T22:02:11.002786+00:00",
+      "cat": "AI",
+      "latestTitle": "Why the data center you dread might never even be built",
+      "latestSummary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
     }
   },
-  "updated": "2026-11-11T15:16:21.338237+00:00"
+  "updated": "2026-11-11T22:02:11.002786+00:00"
 }

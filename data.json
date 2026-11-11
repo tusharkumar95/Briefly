@@ -1,149 +1,216 @@
 {
-  "updated": "2026-11-11T15:16:21.338237+00:00",
+  "updated": "2026-11-11T22:02:11.002786+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 20,
-    "enrichedCandidates": 78,
+    "nonNoiseCandidates": 80,
+    "officialOrPrimaryCandidates": 19,
+    "enrichedCandidates": 80,
     "readableCandidates": 56,
-    "eventClusters": 54,
-    "materialEvents": 27,
-    "selectedEvents": 7,
-    "seededStories": 5,
+    "eventClusters": 55,
+    "materialEvents": 28,
+    "selectedEvents": 8,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "658d020f87be68",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "05ba6d4f0625e1",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Indian Markets"
+        "World"
       ],
-      "title": "Anthropic prepares IPO with potential $1.4 trillion valuation",
-      "publishedAt": "2026-11-11T12:51:21+00:00",
-      "importanceScore": 14.4,
+      "title": "Abu Dhabi trilateral talks end without breakthrough, POW exchange planned",
+      "publishedAt": "2026-11-11T18:04:58+00:00",
+      "importanceScore": 14.9,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/anthropic-ipo-a-1-4-trillion-bet-on-the-future-of-ai/videoshow/135738282.cms",
-      "summary": "Anthropic is preparing an initial public offering that could be among the largest ever, with a projected market valuation of about $1.4 trillion. The company cites strong demand for its Claude AI models, rapid revenue growth, and backing from major technology firms as the main drivers of the planned listing. The IPO is presented as a notable event for the global AI sector.",
-      "why": "The offering could bring significant capital to the AI industry and influence investor sentiment in technology markets.",
-      "confidence": "medium",
-      "verified": false,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Trilateral talks in Abu Dhabi between Russia, Ukraine and the United States concluded after a second day without any breakthrough on ending the war. The American side said it saw “some openings”, but no concrete agreement was reached to halt the nearly five‑year conflict sparked by Russia’s invasion. Moscow and Kyiv said a large‑scale prisoner‑of‑war exchange is being prepared and could be carried out soon.",
+      "why": "The stalemate shows diplomatic progress remains limited, while a POW exchange could improve humanitarian conditions for those captured.",
+      "confidence": "high",
+      "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/anthropic-ipo-a-1-4-trillion-bet-on-the-future-of-ai/videoshow/135738282.cms",
-          "publishedAt": "2026-11-11T12:51:21+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-11T18:04:58+00:00"
         }
       ],
-      "firstSeen": "2026-11-11T12:51:21+00:00",
+      "firstSeen": "2026-11-11T18:04:58+00:00",
       "status": "New",
-      "lastChecked": "2026-11-11T15:16:21.338237+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "lastChecked": "2026-11-11T22:02:11.002786+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "strong-source-or-corroborated",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "aac6712e55599f",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "US stocks rise as CoreWeave earnings lift AI trade",
-      "publishedAt": "2026-11-11T14:56:26+00:00",
-      "importanceScore": 12.9,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-coreweave-lifts-ai-trade/articleshow/135741336.cms",
-      "summary": "Wall Street opened higher after CoreWeave reported robust earnings, with the Dow Jones up 27.13 points (0.05%), the S&P 500 up 73.02 points (0.97%) and the Nasdaq up 385.17 points (1.54%). The gains were seen as a counterbalance to concerns about rising AI spending.",
-      "why": "Positive AI‑related earnings helped improve market sentiment.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-coreweave-lifts-ai-trade/articleshow/135741336.cms",
-          "publishedAt": "2026-11-11T14:56:26+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-11T14:56:26+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-11T15:16:21.338237+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "e84674844299f5",
+      "id": "edf28127a9b8b2",
       "cat": "AI",
       "icon": "✦",
       "categories": [
         "AI"
       ],
-      "title": "Google unveils TPU 8tx and TPU 8i Max chips",
-      "publishedAt": "2026-11-10T15:54:08+00:00",
-      "importanceScore": 11.3,
+      "title": "British AI chip startup Fractile raises $720 million Series C",
+      "publishedAt": "2026-11-11T19:34:55+00:00",
+      "importanceScore": 12.8,
       "sourceCount": 1,
       "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-      "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units, the TPU 8tx and TPU 8i Max. The TPU 8tx, designed with AMD, adds hardware‑level security that keeps data and model weights protected during training and inference and includes a custom inference network that can distill and train small models on the fly, allowing work on proprietary data without moving it. The TPU 8i Max combines two TPU 8i chips into a single package, doubling memory capacity, compute power and bandwidth, enabling larger models to handle more information per query.",
-      "why": "The chips let Google Cloud customers run sensitive AI workloads and larger models while reducing dependence on external chip suppliers.",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "summary": "Fractile, a UK‑based AI‑chip developer, announced a $720 million Series C round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners and Redpoint, with participation from Britain’s Sovereign AI Fund. The financing values the company at over £5 billion (roughly $7 billion) and supports its full‑stack approach that pairs a machine‑learning compiler with a DRAM‑stacked chip design aimed at lowering inference costs.",
+      "why": "The funding strengthens the UK’s position in AI‑hardware development and may speed the deployment of more cost‑effective AI inference solutions.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-          "publishedAt": "2026-11-10T15:54:08+00:00"
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "publishedAt": "2026-11-11T19:34:55+00:00"
         }
       ],
-      "firstSeen": "2026-11-10T15:54:08+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-11T15:16:21.338237+00:00",
+      "firstSeen": "2026-11-11T19:34:55+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-11T22:02:11.002786+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "Google broadens its AI hardware portfolio with two new specialized chips",
-      "previousSummary": "Google is notching up its chipmaking game as the company seeks to reduce its dependence on chips made by other companies for its cloud computing business. Google on Monday unveiled two new variants of its tensor processing units (TPUs), in-house-developed chips meant for AI workloads, that broaden its chip portfolio to additional use cases: confidential inference and more memory capacity for large workloads.",
-      "previousPublishedAt": "2026-11-10T15:54:08+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.3,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
-      "id": "eb019b66c6765a",
+      "id": "a9b4c563535594",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Anthropic’s IPO is said to be multiple times oversubscribed",
+      "publishedAt": "2026-11-11T16:25:21+00:00",
+      "importanceScore": 12.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms",
+      "summary": "Anthropic PBC is witnessing an overwhelming response for its initial public offering, potentially accumulating up to $90.4 billion. With a significant revenue run rate of $81 billion as of October 31, investor enthusiasm remains high.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms",
+          "publishedAt": "2026-11-11T16:25:21+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-11T16:25:21+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-11T22:02:11.002786+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "8bd6588949da94",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
+      "publishedAt": "2026-11-11T12:10:24+00:00",
+      "importanceScore": 12.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firms-land-acquisition-falls-56-to-1445-acres-in-jan-sep-anarock/articleshow/135736891.cms",
+      "summary": "In the first nine months of 2026, a notable drop in land acquisition activities by Indian real estate firms has been observed. Anarock attributes this decline to developers adopting a cautious strategy, influenced by rising costs and emphasized selectivity in land purchases.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firms-land-acquisition-falls-56-to-1445-acres-in-jan-sep-anarock/articleshow/135736891.cms",
+          "publishedAt": "2026-11-11T12:10:24+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-11T12:10:24+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-11T22:02:11.002786+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "204dce4c26a0f4",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Vancouver Island war museum closing as visitors drop",
+      "publishedAt": "2026-11-11T20:43:41+00:00",
+      "importanceScore": 11.7,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12146698/vancouver-island-hmcs-alberni-museum-memorial-closure/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Canada Vancouver Island war museum closing as visitors drop — but staff not giving up hope",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12146698/vancouver-island-hmcs-alberni-museum-memorial-closure/",
+          "publishedAt": "2026-11-11T20:43:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-11T20:43:41+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-11T22:02:11.002786+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "fe4d19670ba3fa",
       "cat": "AI",
       "icon": "✦",
       "categories": [
         "AI"
       ],
-      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "publishedAt": "2026-11-10T20:52:13+00:00",
-      "importanceScore": 11.2,
+      "title": "Why the data center you dread might never even be built",
+      "publishedAt": "2026-11-11T20:15:15+00:00",
+      "importanceScore": 9.6,
       "sourceCount": 1,
       "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-      "summary": "The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports.",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "confidence": "low",
       "verified": false,
@@ -151,78 +218,37 @@
       "sources": [
         {
           "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-          "publishedAt": "2026-11-10T20:52:13+00:00"
+          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+          "publishedAt": "2026-11-11T20:15:15+00:00"
         }
       ],
-      "firstSeen": "2026-11-10T20:52:13+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-11T15:16:21.338237+00:00",
+      "firstSeen": "2026-11-11T20:15:15+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-11T22:02:11.002786+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "previousSummary": "The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports.",
-      "previousPublishedAt": "2026-11-10T20:52:13+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.2,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "ab08375d742201",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India on track to achieve $1 trillion export target by FY27, says commerce minister",
-      "publishedAt": "2026-11-10T17:05:33+00:00",
-      "importanceScore": 9.9,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms",
-      "summary": "Commerce Minister Piyush Goyal said India is on track to meet its $1 trillion goods and services export target for fiscal year 2027, after recording nearly $480 billion in exports from April to September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms",
-          "publishedAt": "2026-11-10T17:05:33+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-10T17:05:33+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-11T15:16:21.338237+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 4,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-11T06:28:48.202442+00:00",
+  "previousUpdated": "2026-11-11T15:16:21.338237+00:00",
   "changeSummary": {
-    "new": 3,
-    "updated": 1,
-    "continuing": 1
+    "new": 6,
+    "updated": 0,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-08T19:45:04.568952+00:00",
-    "updated": "2026-11-11T15:16:21.338237+00:00",
+    "availableFrom": "2026-11-08T23:45:22.103136+00:00",
+    "updated": "2026-11-11T22:02:11.002786+00:00",
     "snapshotCount": 10,
-    "eventCount": 60,
+    "eventCount": 65,
     "retentionHours": 72
   }
 }
