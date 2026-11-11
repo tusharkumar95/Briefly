@@ -1,104 +1,118 @@
 {
-  "updated": "2026-11-11T15:37:17.390721+00:00",
+  "updated": "2026-11-11T22:16:31.597680+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite rose 0.45%",
+      "headline": "TSX climbs as energy, tech and base metals recover",
       "direction": "up",
-      "move": "S&P/TSX Composite +0.45%",
-      "why": "Same-day market coverage explicitly linked the final move to: CoreWeave's Blowout Quarter Revives AI Confidence.",
+      "move": "S&P/TSX Composite +0.67%",
+      "why": "Recovery in energy, technology and base metals stocks lifted the index.",
       "drivers": [
         {
-          "label": "CoreWeave's Blowout Quarter Revives AI Confidence",
-          "detail": "BigGo Finance explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Energy, Tech and Base Metals Recover",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
+        },
+        {
+          "label": "Sector recovery",
+          "detail": "Energy, technology and base metals stocks rallied, driving the TSX higher.",
+          "kind": "context"
         }
       ],
-      "sectors": [],
-      "confidence": "low",
+      "sectors": [
+        "Energy",
+        "Technology",
+        "Base Metals"
+      ],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36332.59,
+        "price": 36411.72,
         "previousClose": 36170.5,
-        "change": 162.09,
-        "changePct": 0.45,
+        "change": 241.22,
+        "changePct": 0.67,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-11T15:37:16+00:00",
+        "asOf": "2026-11-11T21:20:00+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "Investing.com India",
+          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.67% By Investing.com - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTHExNDhXUmFINTlFNUl6UFN6RFRjNEMxZWN6MXlkT1ZuMnAwcENsUUFqTFprNG1PRlFKNEs3aGJGQklKel9xWk9xcXhkU0VYcDdSa0hIS2hTQVhXZkxtVTdjQV9OczdjZUdlUDJ5MXFiSmxrYjBGRFFPSk5FaGhOeTFrT0dKRjVwX1NOOGtjUTFDTVpPdldweXVRWXdXVUdIZy1LWXZhNk1zODZPODhhbEE1M1d4WEV5?oc=5",
+          "publishedAt": "2026-11-11T21:37:55+00:00"
+        },
+        {
+          "name": "Investing.com",
+          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.67% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLUZXWUV2MDhXNlBMbVhtUGZSd215ZVNfOGpvUWtkX29nOWp2Y0h6OHdOcm1SOXpTb25UR2FJWHNIdlNzY3VrLW9zNnY5OXR2M21Ya3o4ZDJCYXE2WkhvSlJlVnVFd1dZYWxJUkZnaUdRbUV0N2U4NFY0SFY0ZFFETEdXRE5jYy1wZ05PTUJhNHFXalA0NlZWNEdXb2dEYkJXZExVTEZFRDB2ZlBnRFZmUEpfX1RrdVF3cGc?oc=5",
+          "publishedAt": "2026-11-11T21:36:37+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.67% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRWgtYlBTRlhuRTN1OENxLU1xN2w2d3NPcUhOVWsxVUlIUTUzMm8zRFVQbkU2YS1mcDBYc1BrenA2UkZxbThWZDZrdU1POHZFWDdMTFR0VlNOYUhwSDNPcm81eG5aczVYbjEtcWNnWXFXdGxkaG0wNjVoRE1YdVpwWHIwSVNaekIySzNvaEZKWWpQRFdBb3drV0s1SHdqM0dSZ2lSMzVXa3BNM1Vudk43VFpmSEVqVDlC?oc=5",
+          "publishedAt": "2026-11-11T21:30:00+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange: TSX Climbs as Energy, Tech and Base Metals Recover - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWV9HVFdaQWNXQVIyQmw0cGFKVVBkaGJ0UjNaSnNXdXJIYWhFWTF6OTZEc2ljTWVzcmJmQi1EOUpQWUJxaXdGYk41NVBSLUZHbl9Qb1N6dGRQUzRMOV9YY2ppQWtXbFQ3Snh6LTUyeFdObnppV2t1UUdSSzhSaDdwTGZsVFdhTGpFY3ZqUmpXNFo3MTNINnNtY0t2TnRzdE5iZndyWWtiTlpLT25sS2tmeWVR?oc=5",
+          "publishedAt": "2026-11-11T19:54:31+00:00"
+        },
+        {
+          "name": "Kalkine Media",
+          "title": "Why Did TFI International (TSX:TFII) Slide After a Soft Year-End Outlook? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUzFjWE9mWnFUMkNKdzBtYWN0WTJnZmt4QTlxaXNOMF9ySmNrdjRFaDBYQy02S1Q3Slg4bEREaTlnMTZFNTVzeEtEeHA4LUpRX1AyNVQ5aXlsN1h0TndUZWRrcGlPOWdXS3pPaEFONWNvUG1PRWFMWVhTd1lsVFNxaW85ZkZXenBfWTNYNHhkUV9keFFSeFpaMHNNTndhSm5RaHVlMmg4ZVB3Z3k1akoySzZLZw?oc=5",
+          "publishedAt": "2026-11-11T15:17:00+00:00"
+        },
+        {
           "name": "Simply Wall St",
           "title": "Canadian Stock Market Today: TSX Futures Edge Lower On Hot US Inflation Data - Simply Wall St",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZjV6MFFxS3BTcTJVODdtR0l6bnEzSVRsLWpEYlB6TzA3RngwcGJoRHI1OVctZFQyRl81MW1ZZHBKbGZpUHVvVGRWTVVVUlFlbHJiMzJoN1g2QmdxT1g0c3VmUmRMTjFVMzFPenBveGhmT2FwR3ZfWUh0eVJFWGpwMzRhMlh2Y3E2OUJGekZESmZPajltZTQtOTFUZWZOV3FwMDNhdzRfdFhrZkRpbHU2blFhd2xBeE51ZGI4bkNZVGRaTTItVkZnSVVQUmZhNDNnNTNaOElHdnBnVTNaTFdocGJ6T2XSAeoBQVVfeXFMTVA5YWdSLTJDSjlSS1BLZ1pnaTNiTkc3QXJlNkozLUhTVFV0cXVvUnFyeU12VUFxekZDU2FXUzRtU0hvTUxmN1NZOGdSRjREYjZlNl9hRmxYcmxweTUxQlhYMUhCSWhMbWVEQk1BdmY1Vi1yTWppZWt1SEMyTXJFYzNjTlhHd1pSd2wxVEFhMjA5MHAxN2ZmeFc0NHM3RHFzM05wOXY4NFBOLUt3clIxZjZMbDBxbTllXzRWZVpXZVprM2xKNWtORFZxMGJHU01NNGdJeVNRTF9DTmdVRXh0Rm9qRE5JdEU5REZR?oc=5",
           "publishedAt": "2026-11-11T13:20:21+00:00"
-        },
-        {
-          "name": "Yahoo Finance Singapore",
-          "title": "TSX futures rise as CoreWeave outlook provides relief after bond market selloff - Yahoo Finance Singapore",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQlgwNzM2bkxSZWJZZUhxTUY0b1o5WU41VzBEUFdvOVh0Q0RvWHlvWF96ZkdiYmg2THNwdmhWT1pQUmJYRkk1N1VkYmRJU3Bka2pnVVdta0pTVWUyVGlOMUM3WnFTQkc4ZDYtaGdqaElzODZDSkx0V3dMa3l1RVJpOVQzUGZSbkx3WUlR?oc=5",
-          "publishedAt": "2026-11-11T12:32:17+00:00"
-        },
-        {
-          "name": "BigGo Finance",
-          "title": "TSX Futures Climb as CoreWeave's Blowout Quarter Revives AI Confidence - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1pYmRydTVPRlFla1FOalM4Tm9leFBZVGY5WjFSbHdDT3Y2Vk9FWjFTd1RVOEQtaEZNaThzbmFwd3dyZXpoc0lKem9HbHhiZFZoN0U5dS1leTBFWEZRRlB1dWhDWW9INURSWFNQeXd0TkN5SGR0SFE?oc=5",
-          "publishedAt": "2026-11-11T12:25:00+00:00"
-        },
-        {
-          "name": "Reuters",
-          "title": "TSX retreats from two-month high as US inflation data spooks investors - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSmFWYndqejEyTkh3dEFJMVZnUS1JblU2dDBFWDdBREJkelV5NXBneTRMdkVFQXBTQ284UXU5bjF1RWZ5NWFPTjBKek90OXpScVlnSEZVT09kajZ0UW55bUZEd0lyUTl4VUhYYl96U0NoODVXWW9vSDZFM29RUDZkMHZrNklZN0hVSGVPRGpzeE9oMmZNaTdFWHQtTTNmUQ?oc=5",
-          "publishedAt": "2026-11-10T21:26:50+00:00"
-        },
-        {
-          "name": "Kalkine Media",
-          "title": "Is the Clearwater the Prize as Tamarack Valley (TSX:TVE) Nears a Big Merger? - Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYTdqSmVBdlJPUWxjV3NaQi1ZZUZHc3ZLazhzZFVwMEZYNG9wczFvOEluVmtnM2hKY1VGQ0tscmxMUnJ0WFR5aE4yem55ZHBweWdSekFta1pFR3NrV0RsLURiUEpkYUdZWm9zQkxDRHhmVVV3MTBKRDlkSDRQazMtOEVUamNhcEJKUG5qQjNiSUFOc05QQTJOSkozOF8xdk4zUU1FMUsyY2ZKc25IOFNwNk53Vmc?oc=5",
-          "publishedAt": "2026-11-11T13:42:00+00:00"
-        },
-        {
-          "name": "Investing.com Canada",
-          "title": "TSX closes lower as U.S. inflation, Bank of Canada minutes stoke rate hike concern - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObFFfUHpHYVdtQjdaV2NkVXJYazFZSm9PcmpNSkhxQTJQTWNkOUJVUHZXNTFCYW5aNE84QmdFajU2T3QtblNmVUZBeXBzaE9jdFFDWGFHb05kcE0yUlF3VEJpaWVUbUxqLTdCRnVMUXdOVVJMTDBHTG9kUWUyZ0RfWVRPTEdjOVVYVFRTU3h3U19xeHpkc3NUU3dIX09BOGZpcUFLd2hNeC1sRmxfSHQtOUNzanVfTXAwR290c1ROMG5ZQQ?oc=5",
-          "publishedAt": "2026-11-10T23:16:41+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.84%",
-      "direction": "up",
-      "move": "Nifty 50 +0.84%",
-      "why": "Same-day market coverage explicitly linked the final move to: Banking Stocks Rally; Asian Markets Diverge and Precious Metals Rally as of November 11, 2026.",
+      "headline": "Nifty 50 was little changed 0.06%",
+      "direction": "flat",
+      "move": "Nifty 50 +0.06%",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Banking Stocks Rally",
-          "detail": "Free Press Journal explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "BSE SENSEX Jumps 773 Points to 81,879.40 as Autos and PSU Banks Lead the Rally",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "Asian Markets Diverge and Precious Metals Rally as of November 11, 2026",
-          "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Sensex climbs 773 points, Nifty tops 25,250 as lower oil prices boost sentiment",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "Market wrap: M&M, InterGlobe, Adani Ports SEZ, ICICI Bank top gainers and losers on Nifty ",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25255.05,
-        "previousClose": 25044.65,
-        "change": 210.4,
-        "changePct": 0.84,
+        "price": 25044.65,
+        "previousClose": 25030.35,
+        "change": 14.3,
+        "changePct": 0.06,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -108,10 +122,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 81879.4,
-        "previousClose": 81106.65,
-        "change": 772.75,
-        "changePct": 0.95,
+        "price": 81106.65,
+        "previousClose": 81028.02,
+        "change": 78.62,
+        "changePct": 0.1,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -119,6 +133,12 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
+        {
+          "name": "BBN Times",
+          "title": "BSE SENSEX Jumps 773 Points to 81,879.40 as Autos and PSU Banks Lead the Rally - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS1VXaWoyaldkNW93YWVROFkzelFlSXdaNFZPMFBqMW4tT19GakFHa29wVVRlZ3FBMUJOc0RFbnpiY1d3dTlZaE1zdU9KR2h0MTQxWjFtNDNFUXJxVWVYZU1HQzBhd3VrSUJrbXRrRVYwR3hwcy1pQlFZdkNoZEdlYzdJWVhwWmhVMnZlaFBXckhUNzAwdFFoRzkzRko5dlZTUVFDSUlHVWc4QjF6bS02OEYtcw?oc=5",
+          "publishedAt": "2026-11-11T19:57:51+00:00"
+        },
         {
           "name": "IBTimes India",
           "title": "Sensex climbs 773 points, Nifty tops 25,250 as lower oil prices boost sentiment - IBTimes India",
@@ -148,12 +168,6 @@
           "title": "Hidden pain! Why did investors lose money in 750 smallcaps when Nifty rallied 2500 points? - The Economic Times",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbmtHejNtMzEwcTJwRVVZUEhvZTFub0tYak02S2lxekMzT20tcXhFWkt0S2J0N3dyMHd5UU5yTGJ6bUhWdWoyUXZvN2t3aUZSU0tTQ1lMcU9TNHlSTmxNLXg3QVlaeU1uVUhHVTRZcTBhWHIzR1FqLV9tS0VhaGNMYnVuUVRqQV9nNGxZQldaN1RORTJENUhpSEN6eHR3aDI4VnlxMHlsRFZZRV9hVGJaS3VXc3RJLUtGSUZiN2EwSk9JSWZPQXNaZHZocGZKM0w5TnBOWWt6aC1MeFBzb2d0MEJhQVRrbEx2Y1FxRWZJc2NaNjJH0gH6AUFVX3lxTE1rOG45VVVWUXp1ZzRFanYzQXFaZWY2NTYweU1VblNPVE5HYTVya1ZWNEpQcHAxTDBDU1FVTmhSRzRpbTNEa0x6eC1NVEtmbzZ6X0Y4LXJCS0pSVmN1UHdkSE1yaGRuZ1pFNld5bDlUV004QUsxVXc0WE0teUMyMEJ2a183TFYwMjlQa2VRWHFJbnpqNTVSb011WVl3T1VSNWZSSVhlcnhmNVU1bUlMRF9GdmQwdjJJa1J0WGxjOVJyMEJzTmZpN3B5S2JWYllXdndPQk10M1lNNl9tMUhjZ0l3VENjb2V3X3A3MUJCWHJ0TVBSRmhSRmtFckE?oc=5",
           "publishedAt": "2026-11-11T03:22:04+00:00"
-        },
-        {
-          "name": "scanx.trade",
-          "title": "Trade Setup for Today: GIFT Nifty Holds Steady as Asian Markets Diverge and Precious Metals Rally as of November 11, 2026 - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdlZKSHZfVmhYOVhPRTVjdktBQVFZek5teEFUNXhOcEJwUTVnalhPX1d2TlNKV2pjWUxScGJCR3JWQV9sNVhQQ2Q4ZzVkbXV4NUg0NklSSzc1MXAzeGlTM0VRNWJhYnIxbE5FcjNGYXRzOW1uOVIycGFJeE9LbGQxaGthNTYxOEpGeF83S05zRk1oUHBlTF8wVEhzOW04QVMwVmRJZXNLZEw2aEJ5eGJVZ0kwck1aTkhkRmZyZzZzMmJjVGlVSjdjTjJTOXUyNUtBYWFHb1h5MmxfTWxHRHhOVWJTcWluTzR6QkdPc01RcldCcVBkVVhxYlA3dFlaazFv?oc=5",
-          "publishedAt": "2026-11-11T02:36:24+00:00"
         }
       ],
       "evidenceCount": 7
