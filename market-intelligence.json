@@ -1,110 +1,87 @@
 {
-  "updated": "2026-11-11T07:09:20.669823+00:00",
+  "updated": "2026-11-11T15:37:17.390721+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls as US inflation data, BoC minutes stoke rate‑hike worries and mining stocks drag",
-      "direction": "down",
-      "move": "S&P/TSX Composite -0.76%",
-      "why": "U.S. inflation numbers and Bank of Canada minutes raised concerns about further rate hikes, while weakness in gold and base‑metal mining stocks pulled the index lower.",
+      "headline": "S&P/TSX Composite rose 0.45%",
+      "direction": "up",
+      "move": "S&P/TSX Composite +0.45%",
+      "why": "Same-day market coverage explicitly linked the final move to: CoreWeave's Blowout Quarter Revives AI Confidence.",
       "drivers": [
         {
-          "label": "U.S. inflation, Bank of Canada minutes stoke rate hike concern",
-          "detail": "Investing.com Canada explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Gold and Base Metal Miners Drag",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "US inflation & BoC minutes",
-          "detail": "U.S. inflation data and Bank of Canada meeting minutes stoked concerns over additional rate hikes, weighing on equities.",
-          "kind": "driver"
-        },
-        {
-          "label": "Gold & base‑metal miners",
-          "detail": "Gold and base‑metal mining stocks declined, dragging the broader index down.",
+          "label": "CoreWeave's Blowout Quarter Revives AI Confidence",
+          "detail": "BigGo Finance explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
-      "sectors": [
-        "Materials",
-        "Financials"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 36170.5,
-        "previousClose": 36446.3,
-        "change": -275.8,
-        "changePct": -0.76,
+        "price": 36332.59,
+        "previousClose": 36170.5,
+        "change": 162.09,
+        "changePct": 0.45,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-10T21:20:01+00:00",
+        "asOf": "2026-11-11T15:37:16+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Investing.com",
-          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.76% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMmRrbjlhUFZWajg2Zk5RdXM1c3laSEZjV1MtanNhOW5HeVY0cjZ6T01XM3dIMnN6dWZxT0ZxTVVpdmxiUXh0d0hNSWlWLVBFVUtOUE1GSjhPcWpSdDBJWlZGdWV1V0lTWHVxaThUM3lCS0RuMVZFV185TTBjaWdBdDNmWVZkNi1YSTNxZVZISjhTdHpPOVo5cE5TOFJJWEVhcUhxWUI4VGd3aXQ5REUybmNvZGE2X0JIWk9B?oc=5",
-          "publishedAt": "2026-11-11T03:31:13+00:00"
+          "name": "Simply Wall St",
+          "title": "Canadian Stock Market Today: TSX Futures Edge Lower On Hot US Inflation Data - Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZjV6MFFxS3BTcTJVODdtR0l6bnEzSVRsLWpEYlB6TzA3RngwcGJoRHI1OVctZFQyRl81MW1ZZHBKbGZpUHVvVGRWTVVVUlFlbHJiMzJoN1g2QmdxT1g0c3VmUmRMTjFVMzFPenBveGhmT2FwR3ZfWUh0eVJFWGpwMzRhMlh2Y3E2OUJGekZESmZPajltZTQtOTFUZWZOV3FwMDNhdzRfdFhrZkRpbHU2blFhd2xBeE51ZGI4bkNZVGRaTTItVkZnSVVQUmZhNDNnNTNaOElHdnBnVTNaTFdocGJ6T2XSAeoBQVVfeXFMTVA5YWdSLTJDSjlSS1BLZ1pnaTNiTkc3QXJlNkozLUhTVFV0cXVvUnFyeU12VUFxekZDU2FXUzRtU0hvTUxmN1NZOGdSRjREYjZlNl9hRmxYcmxweTUxQlhYMUhCSWhMbWVEQk1BdmY1Vi1yTWppZWt1SEMyTXJFYzNjTlhHd1pSd2wxVEFhMjA5MHAxN2ZmeFc0NHM3RHFzM05wOXY4NFBOLUt3clIxZjZMbDBxbTllXzRWZVpXZVprM2xKNWtORFZxMGJHU01NNGdJeVNRTF9DTmdVRXh0Rm9qRE5JdEU5REZR?oc=5",
+          "publishedAt": "2026-11-11T13:20:21+00:00"
+        },
+        {
+          "name": "Yahoo Finance Singapore",
+          "title": "TSX futures rise as CoreWeave outlook provides relief after bond market selloff - Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQlgwNzM2bkxSZWJZZUhxTUY0b1o5WU41VzBEUFdvOVh0Q0RvWHlvWF96ZkdiYmg2THNwdmhWT1pQUmJYRkk1N1VkYmRJU3Bka2pnVVdta0pTVWUyVGlOMUM3WnFTQkc4ZDYtaGdqaElzODZDSkx0V3dMa3l1RVJpOVQzUGZSbkx3WUlR?oc=5",
+          "publishedAt": "2026-11-11T12:32:17+00:00"
+        },
+        {
+          "name": "BigGo Finance",
+          "title": "TSX Futures Climb as CoreWeave's Blowout Quarter Revives AI Confidence - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1pYmRydTVPRlFla1FOalM4Tm9leFBZVGY5WjFSbHdDT3Y2Vk9FWjFTd1RVOEQtaEZNaThzbmFwd3dyZXpoc0lKem9HbHhiZFZoN0U5dS1leTBFWEZRRlB1dWhDWW9INURSWFNQeXd0TkN5SGR0SFE?oc=5",
+          "publishedAt": "2026-11-11T12:25:00+00:00"
+        },
+        {
+          "name": "Reuters",
+          "title": "TSX retreats from two-month high as US inflation data spooks investors - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSmFWYndqejEyTkh3dEFJMVZnUS1JblU2dDBFWDdBREJkelV5NXBneTRMdkVFQXBTQ284UXU5bjF1RWZ5NWFPTjBKek90OXpScVlnSEZVT09kajZ0UW55bUZEd0lyUTl4VUhYYl96U0NoODVXWW9vSDZFM29RUDZkMHZrNklZN0hVSGVPRGpzeE9oMmZNaTdFWHQtTTNmUQ?oc=5",
+          "publishedAt": "2026-11-10T21:26:50+00:00"
+        },
+        {
+          "name": "Kalkine Media",
+          "title": "Is the Clearwater the Prize as Tamarack Valley (TSX:TVE) Nears a Big Merger? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYTdqSmVBdlJPUWxjV3NaQi1ZZUZHc3ZLazhzZFVwMEZYNG9wczFvOEluVmtnM2hKY1VGQ0tscmxMUnJ0WFR5aE4yem55ZHBweWdSekFta1pFR3NrV0RsLURiUEpkYUdZWm9zQkxDRHhmVVV3MTBKRDlkSDRQazMtOEVUamNhcEJKUG5qQjNiSUFOc05QQTJOSkozOF8xdk4zUU1FMUsyY2ZKc25IOFNwNk53Vmc?oc=5",
+          "publishedAt": "2026-11-11T13:42:00+00:00"
         },
         {
           "name": "Investing.com Canada",
           "title": "TSX closes lower as U.S. inflation, Bank of Canada minutes stoke rate hike concern - Investing.com Canada",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObFFfUHpHYVdtQjdaV2NkVXJYazFZSm9PcmpNSkhxQTJQTWNkOUJVUHZXNTFCYW5aNE84QmdFajU2T3QtblNmVUZBeXBzaE9jdFFDWGFHb05kcE0yUlF3VEJpaWVUbUxqLTdCRnVMUXdOVVJMTDBHTG9kUWUyZ0RfWVRPTEdjOVVYVFRTU3h3U19xeHpkc3NUU3dIX09BOGZpcUFLd2hNeC1sRmxfSHQtOUNzanVfTXAwR290c1ROMG5ZQQ?oc=5",
           "publishedAt": "2026-11-10T23:16:41+00:00"
-        },
-        {
-          "name": "Investing.com India",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.76% By Investing.com - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPamNNUUJUWHdnLURrbHBSV2hQSEY0VHFhdHZTVFZzZXA3QWdJanNkeHFSeDVzeVRXUm15Y2k2QWw2NDJiaUV4Zkw0c3pTczd1c3FzMDBLM2VsaEZ2OGM1eVRSSE5ucXJ0eEdfWkZmcnBlUU9HU2Q1eGE3UDM0d2Y0aGd6d1hVLWxJRC1ZdzhxblBWNnBaWHFXVFFMSWFaNkJFeHlaeG1jdnV6SEJzUEhJSWZjMDFiQW9oWWc?oc=5",
-          "publishedAt": "2026-11-10T22:16:35+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange: S&P/TSX Composite Falls to 36,170.45 as Gold and Base Metal Miners Drag - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYmEtM0JiSng2bnFUdVAzMXNrTk52SDY0dzR0NW92QjB0VVNBNTBIT0tBWk5qM1FOajBYaTRmQW8xUlhaSFRtV0ZoZnhHTnVtSWJMMzdpdGZ2NEFzbzhpTnRKbnRPalJwLVZHV1JxNDZoQnF5b1RvV3pMWWR3RkpBMHA5a2ZEVzd4QXJ5U083eHJ0OHhKR1dULVUtNVdmT1g5YUdaMW9zTFZoa1pmOWp0VGpsc2VpN0FlZVNLVjNMX2pESTNVNVpaQg?oc=5",
-          "publishedAt": "2026-11-10T21:46:29+00:00"
-        },
-        {
-          "name": "Investing.com UK",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.76% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0hhLWtPOFlNYnIwellnUkdHYXFaV05pSXV0Wk1hNnVOMnprR3g2dm9yVmVGT3puZUJmY1ZTQ1R6NkRLWVBMSXR4QXRoU0VNQjZ5TVFYYXRWUVQtc2stMy1HbXNzc3dzNFU2RmJVc3J6RVgwNUozTUJIVTZ4SkFxWGJhRWwwclREbThzb1NyZ2ZtOEFSOW10dUxJYXBFQXRlR05hQ200Xy1lSHpKbHN3MnlRVENBRktNT3c?oc=5",
-          "publishedAt": "2026-11-10T21:30:00+00:00"
-        },
-        {
-          "name": "Yahoo Finance Singapore",
-          "title": "Canadian Stock Market Today: TSX Futures Nudge Higher On Crucial US Inflation Test - Yahoo Finance Singapore",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcnpYN25Pa2xpOUNVdW1yOG1VRmxIVkYxWG5xRU82RGlBckMxQ0RYS3hjWllJdG5RcTExdVFMQ1R0dXUxMjh2b2lMcGwzTTBPRm5LTHV5RGQ0LTdyS1JlMU9KMjJISTFOMldNeFhMLW1lc2lITmdBSUxBeVNFcEsza2VrbHpIM2s?oc=5",
-          "publishedAt": "2026-11-10T13:08:17+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.92%",
+      "headline": "Nifty 50 rose 0.84%",
       "direction": "up",
-      "move": "Nifty 50 +0.92%",
-      "why": "Same-day market coverage explicitly linked the final move to: Indian stock market rallies after Diwali; Diwali closure | Business News; Asian Markets Diverge and Precious Metals Rally as of November 11, 2026.",
+      "move": "Nifty 50 +0.84%",
+      "why": "Same-day market coverage explicitly linked the final move to: Banking Stocks Rally; Asian Markets Diverge and Precious Metals Rally as of November 11, 2026.",
       "drivers": [
         {
-          "label": "Indian stock market rallies after Diwali",
-          "detail": "NewsBytes explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Diwali closure | Business News",
-          "detail": "Hindustan Times explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Banking Stocks Rally",
+          "detail": "Free Press Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -118,47 +95,53 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25274.85,
+        "price": 25255.05,
         "previousClose": 25044.65,
-        "change": 230.2,
-        "changePct": 0.92,
+        "change": 210.4,
+        "changePct": 0.84,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-11T07:09:34+00:00",
+        "asOf": "2026-11-11T10:01:28+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 82178.84,
+        "price": 81879.4,
         "previousClose": 81106.65,
-        "change": 1072.2,
-        "changePct": 1.32,
+        "change": 772.75,
+        "changePct": 0.95,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-11T06:54:34+00:00",
+        "asOf": "2026-11-11T10:02:32+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "Analytics Insight",
-          "title": "Stock Market Update: Nifty 50 Opens 293.15 points Higher, Sensex Rises 1,142 points Amid Decline in Oil Prices - Analytics Insight",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYVNZakI1d0hQV0h6d1I3VGVXMG85QndPOVEwQzh0NGtGZFdkRnpmRm1Kb2tiSTZpeDV1dnA4Z1l4RjhCOVZJaVVRWjlucDBDRS01c1hySzJqLUdQNVBiQ080dThzTVFqajYxQl9sVmdUMGdRVFJRbUNSX2FfTTMycmRaMXJubEw2ekpNVDN6T1A1dGQwNkE0M1l4bWtEOUZyZ1pZaUVIczR0Z0NQanJob2VtTm1KYjhEQXA3VnF5LUxrNkhjbkZzY2dNVTI4UTRqdG1LTzNhbVlNemxiM0RN0gHsAUFVX3lxTE41d0pBMng0THczSGRCaDFmN1J3bmYxUjlTNW5qdFl3VzNYTGc1a0ZqRDh2b1RmcEU1ZWRpNDZndzlPWkZLOHVNYXlteVBBY2JONi04S1Z3QTNVN19tX0dRbWRoQTFUbVpkdnZ6NElYSDhxU20wcjJKd2FMOWtXVm9QMWxXekltT09UalRsOHg0eG9kQWVqbGRjT1duVVU2YkN6RVNUM2R3UFMxdE1Ea1lkSlZ2QURwQ1NfX1BDX0dGWi00Q0hkM1ZONURkRVR2LVAwWjRyMzJtSVhGd1pWaWhUUmFaNkx0dnFFcTNQ?oc=5",
-          "publishedAt": "2026-11-11T05:06:32+00:00"
+          "name": "IBTimes India",
+          "title": "Sensex climbs 773 points, Nifty tops 25,250 as lower oil prices boost sentiment - IBTimes India",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcTRydWxSZElEdHZUOU1TVm5qZmp3ME1BcVdUUEdLSFlraWRUeU9Qd0pFNXoyYUkybU9WNFFVejNHM1hBek1GVlZKVWZMRllZUU9OSFdRTGVEUlBqdjZFUXAtaVZBcnViR0dJUVZCWVIwTWNKWXNpbGs5bXNCeVhDYVdXNXZ2MWZkbzNYenBaNlMxdzRPYmFJbURBOHNzT3hlNjc0ZGI0UG9FZlE?oc=5",
+          "publishedAt": "2026-11-11T13:27:36+00:00"
         },
         {
-          "name": "NewsBytes",
-          "title": "Sensex jumps 1,142 as Indian stock market rallies after Diwali - NewsBytes",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd3pTRlBqSlFxWnFuX2FqbGM5WEhEd3B2Z2g1dWxHeWF1dUdwTG9aaTZCUFAzLUQ4MGt4c0F1dVpmc09KVUtLdU1ZZVgwMm5RQW10WHFZUjNUNk1VWVVOVTJHckdiaDNJYzBXWmQ2d1pSOGFUeWt4MWhBNnZKeFN5YnI0QnJtZ3FaakIwUXBxQkJfb0lUeEh6UVdaOUpXOGV3U21TWTlqNEhWSmdRV0E?oc=5",
-          "publishedAt": "2026-11-11T03:59:22+00:00"
+          "name": "The Economic Times",
+          "title": "Market wrap: M&M, InterGlobe, Adani Ports SEZ, ICICI Bank top gainers and losers on Nifty and Sensex on We - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQbDhweEs4SkhWMlBPQlRpbDQyODd5WWZveEVSeVF0OXFuOVlob19GQnd0Zi1WTm5uVTRCTjJRNDNkMk84TmNJNXV6c0pic1c3M0JvVkdyNTA3bDJ6TzVDb2F2VUlHUkQ1MlIyUjRzUmlVRGp3bnRFX3BzVkE4SWF0NTJCSURUXzBPOU5CT2cxbnM0R3JEbmkySm9EY3MybHA0NjhhUG1wX1h1V0d4S0FHanU3LW5zMTA2ekdTXzgyUDhsdkJkRXNVTWdfb3psQWVFalpaQWtsNVMyRFVrSktVN1Frd2dxQ0dtLWNTRDZVQnhVcFEzN1hEQmlsT3EwSzhEX0hOeW0zNmhtUmZPQTdz0gGUAkFVX3lxTE1wa3F1Q2ZSTTR1b3ZwaUhkdnJadGJhTWF6b3YtYkhrY013RVRlc0Q4aG9UVDBROWNxVFFBZmtTcDNxLTJ4aUVRaTVyMmxWLV9UOUE4d1ZodGVzS2VVR2lDV3VCV2VwVTItMmJ1Y2hPY0FXQ1MxNGVLank1MkJoWVN3SmcwcDFBQVY5b3VfUnpmVlFjOF9nOVRobHQxS1FUSk40cGhLMWlJT3U1VGJCYkV1OVcyMW42OThSLW1hUkFjd0tkZTVwajUxMHhVd2RJbTJhZkhFUHdjdUg2d1hRSDh1ZUVQQlB0ai1wSVB4eHExRFc2Nmk5SDAxTnJ6V3lnUVRsTFFpUFBRTkdWVnBWeUJ6Mi1xNw?oc=5",
+          "publishedAt": "2026-11-11T12:26:53+00:00"
         },
         {
-          "name": "Hindustan Times",
-          "title": "Stock market today: Sensex, Nifty open higher day after Diwali closure | Business News - Hindustan Times",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRjdDOUxhMXdUY3hNT0pBMmg3UjdaSmdwXzBBemVIQmI1c2g3cmNkeDdtbjktdjlIcTd6a1RvS0pNZV9OQTNLUEM0VG9lVTJyMWcxaE5vaS1pTWhzNERJcFVCZDJIMXg3aHowVXlxUzFFTGp4U1dYUGJteFBrS2VRa2pSeXVrUlc5dVpPUl8yR25Odml6dVVRcUYxc3pUdmUtME1wNW5vb2IxY0VIN3B5N2hFQ3Q1bExGUmJfMXNNbVZDTXJVanpYR9IBzgFBVV95cUxNd1ViYkFVMkNKTnVyY1VNcTdUQy1VVnpST3hadDNLaWctWFVMd1FodVpnLURpRklESEg0V2F1aVgxYnB2V05ESmxtOU5Cd1pfS2NldURUcHpXM2F3UC0tNE5HNVJ1LWNzLWRSWm5WWE93U1g0YlRrWlh2ZTY3VjVqLThrWU5aeW12RVg3bE5NTEVvWjUxLTdqemI2MUJWMTNfVjZxcEhmODZaRWVDVk5ESkRQeTBWc1RydE4tZkZncEpzVUJTdDRzTVZtdHdqQQ?oc=5",
-          "publishedAt": "2026-11-11T03:46:43+00:00"
+          "name": "ThePrint",
+          "title": "Sensex rallies 772 pts to hit near 9-month high, Nifty closes above 25,250 on FII inflows, low crude - ThePrint",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSmRzU0lMdF84ZnRYTk9TSFh4emMxRy1yRW1ScnltY1BRTVpGQm5sV1M5RzRmbjhSZklvUk9QcTNCa3k1cVZrZ1M0NFc5NERlMkNiMmt2OEdwcXppMHU3TGV6RmxqcVFMbERXYnNFdWhxd09qSU5DNjhGd0xaZW51ZmRhY3VXOE9hbk9NOWVQTUtsdmNOak1CLVFZWHl1b05JQTRKdk5aa1l0TkpZMHNYTHQ2aFpvYTlzeHYydHFtRWhlRzlJc2pwU2J2ZVpYMmPSAdQBQVVfeXFMUG9lWkNkcllFZXp5LWJrNFhDS3FwWTExMURqcTU3dHkxeUdPa3RUWXRUajMzQnJkaWZfc3BIc1oxVnBIUUhLcEJQS2hBQl9uNkV4Y0t6dVY1NFgxNERsV0RTMFlETHo2YzA2MkxuVENvVndNWnlSeEdRTnpsaUlzUWJKZzhyNjhta2UxOTlBQWtoLUw5X2NYVkFlRGE5blExLTFlcU44ck9wd3kyNFFDT290RW4zcTZfczlfeTRzQzR0dm1DLWgtWUtjM0tfSzdPZm1kTWg?oc=5",
+          "publishedAt": "2026-11-11T11:45:04+00:00"
+        },
+        {
+          "name": "Free Press Journal",
+          "title": "Bank Nifty Surges Nearly 1200 Points, Just 240 Points Away From All-Time High As Banking Stocks Rally - Free Press Journal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUVZCY2JDaDk4c0htNjRvN2FON1Q2bDZDREdRelJXY21Zakh6NWg2bGxSRTlMUWU3TF9HbDV1by1NaWNITVcxd1pBRF84WWpMXzRCaEpFWmNVVEliN0NnajBnN0tUMnBTQ0NmX3E4N095LTJNMjM3U0xuZWo1b0t2bHFZUzZ0SkZMU3lxOEhkMUlYMWVHZFNDZTZtakU4UWRmaEJFemRwa2ZPTzBZWERrYmhnUGJRZk5EanhCcUF4bzIyUUFWS0pBR0pldGs5c0tmd001eC1BRkZHWjQ1MlHSAd4BQVVfeXFMT1FWQmNiQ2g5OHNIbTY0bzdhTjdUNmw2Q0RHUXpSV2NtWWpIejVoNmxsUkU5TFFlN0xfR2w1dW8tTWljSE1XMXdaQURfOFlqTF80QmhKRVpjVVRJYjdDZ2owZzdLVDJwU0NDZl9xODdPeS0yTTIzN1NMbmVqNW9LdmxxWVM2dEpGTFN5cThIZDFJWDFlR2RTQ2U2bWpFOFFkZmhCRXpkcGtmT08wWVhEa2JoZ1BiUWZORGp4QnFBeG8yMlFBVktKQUdKZXRrOXNLZndNNXgtQUZGR1o0NTJR?oc=5",
+          "publishedAt": "2026-11-11T07:35:16+00:00"
         },
         {
           "name": "The Economic Times",
@@ -171,12 +154,6 @@
           "title": "Trade Setup for Today: GIFT Nifty Holds Steady as Asian Markets Diverge and Precious Metals Rally as of November 11, 2026 - scanx.trade",
           "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdlZKSHZfVmhYOVhPRTVjdktBQVFZek5teEFUNXhOcEJwUTVnalhPX1d2TlNKV2pjWUxScGJCR3JWQV9sNVhQQ2Q4ZzVkbXV4NUg0NklSSzc1MXAzeGlTM0VRNWJhYnIxbE5FcjNGYXRzOW1uOVIycGFJeE9LbGQxaGthNTYxOEpGeF83S05zRk1oUHBlTF8wVEhzOW04QVMwVmRJZXNLZEw2aEJ5eGJVZ0kwck1aTkhkRmZyZzZzMmJjVGlVSjdjTjJTOXUyNUtBYWFHb1h5MmxfTWxHRHhOVWJTcWluTzR6QkdPc01RcldCcVBkVVhxYlA3dFlaazFv?oc=5",
           "publishedAt": "2026-11-11T02:36:24+00:00"
-        },
-        {
-          "name": "Dalal Street Investment Journal",
-          "title": "Pre-Market Update: GIFT Nifty Signals Higher Opening; US Inflation, Treasury Yields and Q2 Earnings in Focus - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNT0YzM3BfQmpJcWpGX1Zvclg1SW8yb2dJYlBmNnVfVWpUb25hSmhCTDNZUTVvQlhtTnFqMWRtUm1LdUh4WnRHYUdJQ0pnYzNZOEJmMm40OTV2M2hCVXQ4cG8wVU13X2JIQmx4NUdBeHJ6dlJHUkxQN19obEF3MVpzSjBUNnUxLW1oZFk4YWhfaHhzOW0wTzFPWjVrYlVUeDJOd3p5dUFyTnZrVWJTaWs0V3lrRzZBdzFSMDhBb3RQWkJHM3UxNFRaNU1zYVJMYjNBMWxfOFZwOE1QZGR2ejVfMmZxV3dseTAwdWc?oc=5",
-          "publishedAt": "2026-11-11T02:14:10+00:00"
         }
       ],
       "evidenceCount": 7
