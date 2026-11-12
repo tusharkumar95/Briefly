@@ -3,52 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-09T17:33:05.615857+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "388884289d4d98",
-          "cat": "Indian Markets",
-          "title": "IndusInd Bank Share Price Highlights: IndusInd Bank Stock Price History",
-          "summary": "Stay in the know with the latest information about Coal India, including: Last traded price 401.5, Market capitalization: 247433.54, Volume: 7329368, Price-to-earnings ratio 7.42, Earnings per share 54.14. Explore the latest updates on BPCL stock, including: Last traded price 316.0, Market capitalization: 137096.77, Volume: 6532648, Price-to-earnings ratio 8.68, Earnings per share 36.43.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-09T04:36:43+00:00",
-          "firstSeen": "2026-11-09T04:36:43+00:00",
-          "importanceScore": 14.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/coal-india-ltd-stock-price-today-live-09-nov-2026/liveblog/135671037.cms"
-        },
-        {
-          "id": "c94e6b32a47aef",
-          "cat": "Indian Markets",
-          "title": "Indian bonds flat as oil steadies, inflation data awaited",
-          "summary": "Indian government bonds moved little as crude oil prices steadied. Investors stayed cautious ahead of inflation data releases in the United States and India, and a bond auction of 290.5 billion rupees scheduled for later in the day. Analysts said the 10‑year yield could range between 7.10% and 7.30% with focus on India’s October inflation report due Thursday.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-11-09T07:33:21+00:00",
-          "firstSeen": "2026-11-09T07:33:21+00:00",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-with-oil-inflation-data-in-focus/articleshow/135674915.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-10T01:34:45.542411+00:00",
       "changeSummary": {
         "new": 6,
@@ -963,6 +917,106 @@
           "changed": false,
           "change": "No material change since the previous brief.",
           "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-12T19:57:19.530012+00:00",
+      "changeSummary": {
+        "new": 5,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "20be96325024b4",
+          "cat": "AI",
+          "title": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
+          "summary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
+          "why": "The excess turbine bookings tie up capital and influence the financial outlook of SoftBank’s energy ventures.",
+          "publishedAt": "2026-11-12T17:00:52+00:00",
+          "firstSeen": "2026-11-12T17:00:52+00:00",
+          "importanceScore": 14.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+        },
+        {
+          "id": "766b96c11377c7",
+          "cat": "World",
+          "title": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
+          "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
+          "why": "It publicly recognises the guard’s role and underscores the importance of adhering to ceremonial protocol at a national memorial.",
+          "publishedAt": "2026-11-12T18:47:35+00:00",
+          "firstSeen": "2026-11-12T18:47:35+00:00",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "baaf26e229aebf",
+          "cat": "Indian Markets",
+          "title": "Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+          "summary": "Four stocks from the BSE 100 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-12T12:21:16+00:00",
+          "firstSeen": "2026-11-12T12:21:16+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms"
+        },
+        {
+          "id": "ef3bc6414e12e8",
+          "cat": "AI",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+          "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-12T15:02:28+00:00",
+          "firstSeen": "2026-11-12T15:02:28+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        },
+        {
+          "id": "2e77a7fdb037c6",
+          "cat": "AI",
+          "title": "Nectar launches Creator Agent to automate influencer discovery and outreach",
+          "summary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
+          "why": "It lets brands scale creator programs while cutting the time and resources needed for manual discovery and outreach.",
+          "publishedAt": "2026-11-12T19:11:00+00:00",
+          "firstSeen": "2026-11-12T19:11:00+00:00",
+          "importanceScore": 11.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
         }
       ]
     }
@@ -3374,7 +3428,132 @@
       "latestSummary": "Dive into the current details of Axis Bank, including: Last traded price 1342.9, Market capitalization: 418137.4, Volume: 7842954, Price-to-earnings ratio 13.96, Earnings per share 96.19. Our liveblog offers a complete overview of Axis Bank through a blend of fundamental and technical indicators.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-livestock-price-today-live-updates-12-nov-2026/liveblog/135753811.cms"
+    },
+    "20be96325024b4": {
+      "id": "20be96325024b4",
+      "firstSeen": "2026-11-12T17:00:52+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-12T19:57:19.530012+00:00",
+          "title": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
+          "summary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
+          "importanceScore": 14.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "cat": "AI",
+      "latestTitle": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
+      "latestSummary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
+      "why": "The excess turbine bookings tie up capital and influence the financial outlook of SoftBank’s energy ventures.",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+    },
+    "766b96c11377c7": {
+      "id": "766b96c11377c7",
+      "firstSeen": "2026-11-12T18:47:35+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-12T19:57:19.530012+00:00",
+          "title": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
+          "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "cat": "World",
+      "latestTitle": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
+      "latestSummary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
+      "why": "It publicly recognises the guard’s role and underscores the importance of adhering to ceremonial protocol at a national memorial.",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
+    },
+    "baaf26e229aebf": {
+      "id": "baaf26e229aebf",
+      "firstSeen": "2026-11-12T12:21:16+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-12T19:57:19.530012+00:00",
+          "title": "Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+          "summary": "Four stocks from the BSE 100 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+      "latestSummary": "Four stocks from the BSE 100 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms"
+    },
+    "ef3bc6414e12e8": {
+      "id": "ef3bc6414e12e8",
+      "firstSeen": "2026-11-12T15:02:28+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-12T19:57:19.530012+00:00",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+          "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "cat": "AI",
+      "latestTitle": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "latestSummary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+    },
+    "2e77a7fdb037c6": {
+      "id": "2e77a7fdb037c6",
+      "firstSeen": "2026-11-12T19:11:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-12T19:57:19.530012+00:00",
+          "title": "Nectar launches Creator Agent to automate influencer discovery and outreach",
+          "summary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
+          "importanceScore": 11.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "cat": "AI",
+      "latestTitle": "Nectar launches Creator Agent to automate influencer discovery and outreach",
+      "latestSummary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
+      "why": "It lets brands scale creator programs while cutting the time and resources needed for manual discovery and outreach.",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
     }
   },
-  "updated": "2026-11-12T11:18:27.150823+00:00"
+  "updated": "2026-11-12T19:57:19.530012+00:00"
 }

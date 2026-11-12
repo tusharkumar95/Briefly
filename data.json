@@ -1,82 +1,108 @@
 {
-  "updated": "2026-11-12T11:18:27.150823+00:00",
+  "updated": "2026-11-12T19:57:19.530012+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 12,
+    "officialOrPrimaryCandidates": 15,
     "enrichedCandidates": 80,
-    "readableCandidates": 63,
-    "eventClusters": 59,
-    "materialEvents": 23,
-    "selectedEvents": 7,
-    "seededStories": 4,
+    "readableCandidates": 56,
+    "eventClusters": 55,
+    "materialEvents": 22,
+    "selectedEvents": 10,
+    "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "0dde4e005b4d02",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "20be96325024b4",
+      "cat": "AI",
+      "icon": "✦",
       "categories": [
-        "Indian Markets"
+        "AI"
       ],
-      "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Current Market Position",
-      "publishedAt": "2026-11-12T04:06:09+00:00",
-      "importanceScore": 13.0,
+      "title": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
+      "publishedAt": "2026-11-12T17:00:52+00:00",
+      "importanceScore": 14.5,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-today-live-updates-12-nov-2026/liveblog/135754851.cms",
-      "summary": "Get the latest details on Tech Mahindra, including: Last traded price 1774.0, Market capitalization: 173517.56, Volume: 2159991, Price-to-earnings ratio 31.46, Earnings per share 56.38. Get the latest details on Hindalco, including: Last traded price 964.0, Market capitalization: 216632.64, Volume: 12785033, Price-to-earnings ratio 11.29, Earnings per share 85.4.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "summary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
+      "why": "The excess turbine bookings tie up capital and influence the financial outlook of SoftBank’s energy ventures.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-today-live-updates-12-nov-2026/liveblog/135754851.cms",
-          "publishedAt": "2026-11-12T04:06:09+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hindalco-share-price-today-live-updates-12-nov-2026/liveblog/135753389.cms",
-          "publishedAt": "2026-11-12T03:10:05+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-today-live-12-nov-2026/liveblog/135753318.cms",
-          "publishedAt": "2026-11-12T03:05:29+00:00"
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+          "publishedAt": "2026-11-12T17:00:52+00:00"
         }
       ],
-      "firstSeen": "2026-11-12T04:06:09+00:00",
+      "firstSeen": "2026-11-12T17:00:52+00:00",
       "status": "New",
-      "lastChecked": "2026-11-12T11:18:27.150823+00:00",
+      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "3343f44f188877",
+      "id": "766b96c11377c7",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
+      "publishedAt": "2026-11-12T18:47:35+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+      "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
+      "why": "It publicly recognises the guard’s role and underscores the importance of adhering to ceremonial protocol at a national memorial.",
+      "confidence": "medium",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-12T18:47:35+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-12T18:47:35+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "baaf26e229aebf",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Axis Bank Share Price Live Updates: Axis Bank Price Movement Analysis",
-      "publishedAt": "2026-11-12T03:30:41+00:00",
+      "title": "Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+      "publishedAt": "2026-11-12T12:21:16+00:00",
       "importanceScore": 12.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-livestock-price-today-live-updates-12-nov-2026/liveblog/135753811.cms",
-      "summary": "Dive into the current details of Axis Bank, including: Last traded price 1342.9, Market capitalization: 418137.4, Volume: 7842954, Price-to-earnings ratio 13.96, Earnings per share 96.19. Our liveblog offers a complete overview of Axis Bank through a blend of fundamental and technical indicators.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms",
+      "summary": "Four stocks from the BSE 100 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -84,18 +110,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-livestock-price-today-live-updates-12-nov-2026/liveblog/135753811.cms",
-          "publishedAt": "2026-11-12T03:30:41+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/axis-bank-share-price-live-12-nov-2026/liveblog/135753254.cms",
-          "publishedAt": "2026-11-12T03:02:00+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms",
+          "publishedAt": "2026-11-12T12:21:16+00:00"
         }
       ],
-      "firstSeen": "2026-11-12T03:30:41+00:00",
+      "firstSeen": "2026-11-12T12:21:16+00:00",
       "status": "New",
-      "lastChecked": "2026-11-12T11:18:27.150823+00:00",
+      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -105,19 +126,19 @@
       "lifecycle": "New"
     },
     {
-      "id": "edf28127a9b8b2",
+      "id": "ef3bc6414e12e8",
       "cat": "AI",
       "icon": "✦",
       "categories": [
         "AI"
       ],
-      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-      "publishedAt": "2026-11-11T19:34:55+00:00",
-      "importanceScore": 10.8,
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "publishedAt": "2026-11-12T15:02:28+00:00",
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-      "summary": "Fractile , a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. Alongside the likes of Axelera , Etched , and OLIX , this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips.",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "confidence": "low",
       "verified": false,
@@ -125,83 +146,73 @@
       "sources": [
         {
           "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-          "publishedAt": "2026-11-11T19:34:55+00:00"
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+          "publishedAt": "2026-11-12T15:02:28+00:00"
         }
       ],
-      "firstSeen": "2026-11-11T19:34:55+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-12T11:18:27.150823+00:00",
+      "firstSeen": "2026-11-12T15:02:28+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-      "previousSummary": "Fractile, a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. Alongside the likes of Axelera, Etched, and OLIX, this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips.",
-      "previousPublishedAt": "2026-11-11T19:34:55+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.8,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
-      "id": "fe4d19670ba3fa",
+      "id": "2e77a7fdb037c6",
       "cat": "AI",
       "icon": "✦",
       "categories": [
         "AI"
       ],
-      "title": "Why the data center you dread might never even be built",
-      "publishedAt": "2026-11-11T20:15:15+00:00",
-      "importanceScore": 7.6,
+      "title": "Nectar launches Creator Agent to automate influencer discovery and outreach",
+      "publishedAt": "2026-11-12T19:11:00+00:00",
+      "importanceScore": 11.2,
       "sourceCount": 1,
       "source": "techcrunch.com",
-      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
-      "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "summary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
+      "why": "It lets brands scale creator programs while cutting the time and resources needed for manual discovery and outreach.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "techcrunch.com",
-          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
-          "publishedAt": "2026-11-11T20:15:15+00:00"
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+          "publishedAt": "2026-11-12T19:11:00+00:00"
         }
       ],
-      "firstSeen": "2026-11-11T20:15:15+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-12T11:18:27.150823+00:00",
+      "firstSeen": "2026-11-12T19:11:00+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Why the data center you dread might never even be built",
-      "previousSummary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-      "previousPublishedAt": "2026-11-11T20:15:15+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 8.6,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 0,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-12T03:03:10.522822+00:00",
+  "previousUpdated": "2026-11-12T11:18:27.150823+00:00",
   "changeSummary": {
-    "new": 2,
+    "new": 5,
     "updated": 0,
-    "continuing": 2
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-09T17:33:05.615857+00:00",
-    "updated": "2026-11-12T11:18:27.150823+00:00",
+    "availableFrom": "2026-11-10T01:34:45.542411+00:00",
+    "updated": "2026-11-12T19:57:19.530012+00:00",
     "snapshotCount": 10,
-    "eventCount": 63,
+    "eventCount": 68,
     "retentionHours": 72
   }
 }
