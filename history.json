@@ -3,88 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-10T17:52:46.865877+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "d0e353da860036",
-          "cat": "India",
-          "title": "India's unemployment rate falls to 5.1% in July‑September",
-          "summary": "The Economic Times reported that India's overall unemployment rate declined to 5.1% in the July‑September quarter. The headline notes that the drop was linked to reduced joblessness in rural areas. No further quantitative details were provided.",
-          "why": "A lower unemployment rate indicates easing labour‑market pressure, especially for rural workers.",
-          "publishedAt": "2026-11-10T12:03:58+00:00",
-          "firstSeen": "2026-11-10T12:03:58+00:00",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-falls-to-5-1-in-july-september-as-rural-joblessness-declines/articleshow/135709920.cms"
-        },
-        {
-          "id": "e84674844299f5",
-          "cat": "AI",
-          "title": "Google unveils two new TPU chips for confidential inference and expanded memory",
-          "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units—TPU 8tx and TPU 8i Max—aimed at confidential AI workloads and larger memory capacity. TPU 8tx, designed with AMD, builds security into the hardware to keep data and model weights protected and adds a custom inferencing network that enables on‑the‑fly model distillation. TPU 8i Max combines two TPU 8i chips in a single package, doubling memory, processing power and bandwidth for handling larger query data sets.",
-          "why": "The chips expand Google’s in‑house AI hardware portfolio, lowering reliance on external chip suppliers while improving security and performance for cloud AI customers.",
-          "publishedAt": "2026-11-10T15:54:08+00:00",
-          "firstSeen": "2026-11-10T15:54:08+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
-        },
-        {
-          "id": "2452aff01a301a",
-          "cat": "Indian Markets",
-          "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
-          "summary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-10T02:18:28+00:00",
-          "firstSeen": "2026-11-10T02:18:28+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms"
-        },
-        {
-          "id": "ab08375d742201",
-          "cat": "India",
-          "title": "India on track to hit $1 trillion export goal by FY27, says commerce minister",
-          "summary": "Commerce Minister Piyush Goyal said India is on track to reach its $1 trillion goods and services export target for fiscal year 2027, having recorded nearly $480 billion in exports between April and September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships to boost exports, investment and employment.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-10T17:05:33+00:00",
-          "firstSeen": "2026-11-10T17:05:33+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-10T23:25:15.986188+00:00",
       "changeSummary": {
         "new": 4,
@@ -1191,6 +1109,142 @@
           "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
         }
       ]
+    },
+    {
+      "at": "2026-11-13T22:40:21.488865+00:00",
+      "changeSummary": {
+        "new": 6,
+        "updated": 0,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "36469d71bbd2b4",
+          "cat": "AI",
+          "title": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
+          "summary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-13T18:40:30+00:00",
+          "firstSeen": "2026-11-13T18:40:30+00:00",
+          "importanceScore": 14.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        },
+        {
+          "id": "b1068451715230",
+          "cat": "India",
+          "title": "US pledges lower tariffs for India in pending trade deal",
+          "summary": "The United States told India it will apply tariffs lower than those imposed on other trading partners under the proposed agreement. The first phase will cover goods, with services to be negotiated later. The negotiations have been ongoing for nearly two years and are reported to be close to finalisation with most key issues resolved.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-13T13:47:53+00:00",
+          "firstSeen": "2026-11-13T13:47:53+00:00",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
+        },
+        {
+          "id": "2554de1631aa85",
+          "cat": "Indian Markets",
+          "title": "India 10‑year bond yield recovers half of prior week’s drop",
+          "summary": "The yield on India’s 10‑year government bond rose, wiping out roughly half of the decline recorded the week before, as the market responded to still‑elevated inflation. The headline linked the move to inflation concerns, and no specific yield level or percentage change was provided in the source. This represents a partial reversal of the earlier fall.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-13T12:51:07+00:00",
+          "firstSeen": "2026-11-13T12:51:07+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms"
+        },
+        {
+          "id": "f0f8c16eb80e70",
+          "cat": "Indian Markets",
+          "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
+          "summary": "Razorpay Software Ltd and Sembcorp Green Infra recently received approval from Sebi for their initial public offerings, marking a major milestone in their growth journeys. Razorpay aims to secure Rs 5,000-6,000 crore to enhance its financial services platform, while Sembcorp Green Infra plans to raise Rs 3,750 crore to bolster its renewable energy initiatives.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-13T12:24:01+00:00",
+          "firstSeen": "2026-11-13T12:24:01+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms"
+        },
+        {
+          "id": "6e8facfd09ae10",
+          "cat": "World",
+          "title": "Pro-government forces control Mekelle amid civilian hardship",
+          "summary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
+          "why": "It shows how quickly the conflict has disrupted civilian livelihoods and created urgent humanitarian concerns.",
+          "publishedAt": "2026-11-13T00:20:24+00:00",
+          "firstSeen": "2026-11-13T00:20:24+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "19bf025da197e5",
+          "cat": "India",
+          "title": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
+          "summary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-13T03:35:34+00:00",
+          "firstSeen": "2026-11-13T03:35:34+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
+        },
+        {
+          "id": "f50da2e22de5af",
+          "cat": "AI",
+          "title": "Democrats open inquiry into Trump-era Nvidia chip export approvals",
+          "summary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-12T22:42:51+00:00",
+          "firstSeen": "2026-11-12T22:42:51+00:00",
+          "importanceScore": 8.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
+        }
+      ]
     }
   ],
   "events": {
@@ -1244,134 +1298,6 @@
       "latestSummary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms"
-    },
-    "6f4b12e3623350": {
-      "id": "6f4b12e3623350",
-      "firstSeen": "2026-11-05T20:22:23+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-05T22:01:33.433106+00:00",
-          "title": "Canada proposes ban on fees for moving investment accounts",
-          "summary": "The federal government has released draft regulations to stop banks from charging fees when a client moves an investment account to another financial institution. The change would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis notes the fees are typically about $150 per account.",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-06T02:29:24.511335+00:00",
-          "title": "Canada to ban fees for moving investment accounts",
-          "summary": "The federal government has released draft regulations that would prohibit banks from charging fees when a client transfers an investment account to another financial institution. The ban would cover registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts held at Canadian banks. A regulatory impact analysis estimates the eliminated fees are typically about $150 per account.",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-06T10:57:16.507519+00:00",
-          "title": "Canada proposes ban on fees for moving investment accounts",
-          "summary": "The federal government has released draft regulations that would prohibit Canadian banks from charging fees when a client transfers an investment account to another financial institution. The proposal covers registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts, and the regulatory impact analysis notes that the fees being eliminated are typically about $150 per account.",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-06T17:59:43.673994+00:00",
-          "title": "Canada proposes ban on fees for moving investment accounts",
-          "summary": "The federal government has issued draft regulations that would prohibit banks from charging fees when clients transfer investment accounts to another financial institution. The change would apply to registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts. A regulatory impact analysis notes that such transfer fees are typically about $150 per account.",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-06T17:59:43.673994+00:00",
-      "cat": "Canada",
-      "latestTitle": "Canada proposes ban on fees for moving investment accounts",
-      "latestSummary": "The federal government has issued draft regulations that would prohibit banks from charging fees when clients transfer investment accounts to another financial institution. The change would apply to registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts. A regulatory impact analysis notes that such transfer fees are typically about $150 per account.",
-      "why": "It removes a cost barrier, helping Canadians—especially lower‑income households—switch providers and encouraging competition among financial institutions.",
-      "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
-    },
-    "42ba335d100ea4": {
-      "id": "42ba335d100ea4",
-      "firstSeen": "2026-11-05T19:06:12+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-05T22:01:33.433106+00:00",
-          "title": "OpenAI released a new cybersecurity model. Is that enough?",
-          "summary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-06T02:29:24.511335+00:00",
-          "title": "OpenAI released a new cybersecurity model. Is that enough?",
-          "summary": "Max Justicz, the chief technology officer and co-founder of the startup Charge Robotics, used an OpenAI model to find a severe vulnerability that — if exploited — could allow hackers to take control of servers running Ubuntu, a widely used open source Linux-based operating system. Justicz, who has a hobbyist’s interest in cybersecurity and previously found a vulnerability in the same codebase, told TechCrunch that he found this issue using GPT 5.6 Sol, released in July, through the AI maker’s Daybreak Blue, a program that gives cybersecurity defenders access to powerful frontier models.",
-          "importanceScore": 9.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-06T10:57:16.507519+00:00",
-          "title": "OpenAI’s GPT‑5.6 Sol helps discover Ubuntu server vulnerability",
-          "summary": "Max Justicz, CTO of Charge Robotics, used OpenAI’s GPT‑5.6 Sol (released in July through the Daybreak Blue program) to locate a severe vulnerability in Ubuntu that could let attackers take control of servers. He reported the flaw to the Debian Project, which issued a patch; there is no known evidence that the bug has been exploited.",
-          "importanceScore": 8.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-06T17:59:43.673994+00:00",
-          "title": "OpenAI model helps discover critical Ubuntu vulnerability, prompting patch",
-          "summary": "Max Justicz, CTO of Charge Robotics, used OpenAI’s GPT 5.6 Sol—released in July via the Daybreak Blue program—to locate a severe Ubuntu flaw that could let attackers take over servers. He reported it to the Debian Project, which issued a patch; no exploitation has been confirmed.",
-          "importanceScore": 8.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-06T17:59:43.673994+00:00",
-      "cat": "AI",
-      "latestTitle": "OpenAI model helps discover critical Ubuntu vulnerability, prompting patch",
-      "latestSummary": "Max Justicz, CTO of Charge Robotics, used OpenAI’s GPT 5.6 Sol—released in July via the Daybreak Blue program—to locate a severe Ubuntu flaw that could let attackers take over servers. He reported it to the Debian Project, which issued a patch; no exploitation has been confirmed.",
-      "why": "Shows frontier AI can accelerate discovery of serious software bugs with real security impact.",
-      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
     },
     "b95043b4b2f8bf": {
       "id": "b95043b4b2f8bf",
@@ -1487,44 +1413,6 @@
       "latestSummary": "An Economic Times slideshow lists 13 companies that listed from October 2025 to November 2026 and posted returns above 100% on their IPO issue prices, with gains ranging from about 156% to 193%. Omnitech Engineering recorded the highest gain at 192.62% (issue price Rs 227 to Rs 664.25), while ESDS Software Solution, KSH International and INDO‑MIM each delivered returns above 150%. The piece includes each firm’s issue price, listing‑day price and amount raised.",
       "why": "Demonstrates that recent Indian IPOs have produced substantial short‑term price appreciation, a factor investors may consider when evaluating new listings.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/ipo-multibaggers-13-stocks-that-delivered-up-to-193-returns-since-last-dhanteras/slideshow/135594462.cms"
-    },
-    "b53f9b939c26b3": {
-      "id": "b53f9b939c26b3",
-      "firstSeen": "2026-11-06T06:00:46+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T10:57:16.507519+00:00",
-          "title": "Families of Britons killed in Spanish wildfire demand inquiry after officials block investigation",
-          "summary": "A wildfire on 9 July swept through the hillside village of Bédar in Almería, Spain, killing 15 people, including nine British nationals. Relatives said they are disgusted that regional politicians blocked an official commission of inquiry and criticised the lack of an emergency mobile‑phone alert that could have warned residents. The governing People’s Party and Vox rejected the opposition Socialist party’s request for an inquiry.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-06T17:59:43.673994+00:00",
-          "title": "British families demand inquiry after Spain wildfire kills nine Britons",
-          "summary": "Nine British nationals were among 15 people killed when a wildfire swept through the hillside village of Bédar in Almería, Spain, on 9 July. Relatives said they are disgusted that the Andalusian People’s Party and Vox rejected a commission of inquiry proposed by the opposition Socialist party, and they criticised the absence of an emergency mobile‑phone alert that could have warned residents.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-06T17:59:43.673994+00:00",
-      "cat": "World",
-      "latestTitle": "British families demand inquiry after Spain wildfire kills nine Britons",
-      "latestSummary": "Nine British nationals were among 15 people killed when a wildfire swept through the hillside village of Bédar in Almería, Spain, on 9 July. Relatives said they are disgusted that the Andalusian People’s Party and Vox rejected a commission of inquiry proposed by the opposition Socialist party, and they criticised the absence of an emergency mobile‑phone alert that could have warned residents.",
-      "why": "It highlights possible failures in emergency warning systems and political resistance to accountability after a deadly disaster.",
-      "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss"
     },
     "bf45370e69b695": {
       "id": "bf45370e69b695",
@@ -1704,31 +1592,6 @@
       "latestSummary": "Statistics Canada reported that the Canadian economy shed 4,700 jobs in October 2026, while the unemployment rate increased to 6.7% from 6.5% in September. The loss follows large back‑to‑back job cuts in August and September that together removed more than 100,000 positions. Economists surveyed before the release had expected a gain of about 13,600 jobs for October.",
       "why": "The higher unemployment rate signals a weakening labour market.",
       "url": "https://www.cbc.ca/news/business/canada-jobs-report-oct-2026-statscan-9.7411830?cmp=rss"
-    },
-    "0f396aee0681b6": {
-      "id": "0f396aee0681b6",
-      "firstSeen": "2026-11-06T14:40:26+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T17:59:43.673994+00:00",
-          "title": "Nasdaq rises 1.73% as chip makers rebound, Fed rate‑hike concerns linger",
-          "summary": "The Nasdaq gained 1.73% as Nvidia, AMD, Intel and Micron recovered from Thursday’s AI‑driven selloff. Stronger‑than‑expected October jobs data revived worries about a possible December Federal Reserve rate increase. Airbnb shares rose after it lifted its full‑year revenue‑growth forecast, while Atlassian shares fell.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-06T17:59:43.673994+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Nasdaq rises 1.73% as chip makers rebound, Fed rate‑hike concerns linger",
-      "latestSummary": "The Nasdaq gained 1.73% as Nvidia, AMD, Intel and Micron recovered from Thursday’s AI‑driven selloff. Stronger‑than‑expected October jobs data revived worries about a possible December Federal Reserve rate increase. Airbnb shares rose after it lifted its full‑year revenue‑growth forecast, while Atlassian shares fell.",
-      "why": "The shift highlights the impact of AI‑related stocks and macro data on markets that Indian investors watch through US‑linked assets.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-opens-higher-as-chips-pare-losses-rate-hike-fears-linger/articleshow/135611515.cms"
     },
     "5b478824b2d51a": {
       "id": "5b478824b2d51a",
@@ -3669,13 +3532,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-13T22:40:21.488865+00:00",
+          "title": "Pro-government forces control Mekelle amid civilian hardship",
+          "summary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-13T16:28:05.275958+00:00",
+      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
       "cat": "World",
-      "latestTitle": "Pro-government forces take Mekelle, residents report hardship",
-      "latestSummary": "Within two weeks of the war’s start, pro-government troops entered Mekelle, the capital of Ethiopia’s Tigray region, and the city is now under national army control. Salon owner Firut Me’ar says residents are struggling to meet basic needs, with little money, low morale and almost no business, describing daily life as far from normal despite the change in control.",
-      "why": "Shows how the conflict’s rapid advance is affecting civilians in a major regional centre.",
+      "latestTitle": "Pro-government forces control Mekelle amid civilian hardship",
+      "latestSummary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
+      "why": "It shows how quickly the conflict has disrupted civilian livelihoods and created urgent humanitarian concerns.",
       "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
     },
     "44160da900136a": {
@@ -3794,12 +3670,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-13T22:40:21.488865+00:00",
+          "title": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
+          "summary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
+      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
       "cat": "India",
-      "latestTitle": "Report warns uneven monsoons and El Nino could raise inflation, prompting possible RBI rate hike",
-      "latestSummary": "A recent report cautions that irregular monsoon patterns combined with the El Nino climate phenomenon may increase inflationary pressures in India. It notes that this heightened inflation risk could lead the Reserve Bank of India to consider an additional interest‑rate hike in the near term.",
+      "latestTitle": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
+      "latestSummary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
     },
@@ -3852,7 +3741,132 @@
       "latestSummary": "India's gold imports fell 39.9% to $24.78 billion during April-October 2026, down from $41.24 billion a year ago, according to Commerce Ministry data. October imports plunged 62.57% year-on-year to $5.51 billion amid a correction in global gold prices.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-gold-imports-plunge-62-57-to-5-51-billion-in-october-as-prices-fall-below-4000/oz/articleshow/135798822.cms"
+    },
+    "36469d71bbd2b4": {
+      "id": "36469d71bbd2b4",
+      "firstSeen": "2026-11-13T18:40:30+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T22:40:21.488865+00:00",
+          "title": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
+          "summary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
+          "importanceScore": 14.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
+      "cat": "AI",
+      "latestTitle": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
+      "latestSummary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+    },
+    "b1068451715230": {
+      "id": "b1068451715230",
+      "firstSeen": "2026-11-13T13:47:53+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T22:40:21.488865+00:00",
+          "title": "US pledges lower tariffs for India in pending trade deal",
+          "summary": "The United States told India it will apply tariffs lower than those imposed on other trading partners under the proposed agreement. The first phase will cover goods, with services to be negotiated later. The negotiations have been ongoing for nearly two years and are reported to be close to finalisation with most key issues resolved.",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
+      "cat": "India",
+      "latestTitle": "US pledges lower tariffs for India in pending trade deal",
+      "latestSummary": "The United States told India it will apply tariffs lower than those imposed on other trading partners under the proposed agreement. The first phase will cover goods, with services to be negotiated later. The negotiations have been ongoing for nearly two years and are reported to be close to finalisation with most key issues resolved.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
+    },
+    "2554de1631aa85": {
+      "id": "2554de1631aa85",
+      "firstSeen": "2026-11-13T12:51:07+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T22:40:21.488865+00:00",
+          "title": "India 10‑year bond yield recovers half of prior week’s drop",
+          "summary": "The yield on India’s 10‑year government bond rose, wiping out roughly half of the decline recorded the week before, as the market responded to still‑elevated inflation. The headline linked the move to inflation concerns, and no specific yield level or percentage change was provided in the source. This represents a partial reversal of the earlier fall.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "India 10‑year bond yield recovers half of prior week’s drop",
+      "latestSummary": "The yield on India’s 10‑year government bond rose, wiping out roughly half of the decline recorded the week before, as the market responded to still‑elevated inflation. The headline linked the move to inflation concerns, and no specific yield level or percentage change was provided in the source. This represents a partial reversal of the earlier fall.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms"
+    },
+    "f0f8c16eb80e70": {
+      "id": "f0f8c16eb80e70",
+      "firstSeen": "2026-11-13T12:24:01+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T22:40:21.488865+00:00",
+          "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
+          "summary": "Razorpay Software Ltd and Sembcorp Green Infra recently received approval from Sebi for their initial public offerings, marking a major milestone in their growth journeys. Razorpay aims to secure Rs 5,000-6,000 crore to enhance its financial services platform, while Sembcorp Green Infra plans to raise Rs 3,750 crore to bolster its renewable energy initiatives.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
+      "latestSummary": "Razorpay Software Ltd and Sembcorp Green Infra recently received approval from Sebi for their initial public offerings, marking a major milestone in their growth journeys. Razorpay aims to secure Rs 5,000-6,000 crore to enhance its financial services platform, while Sembcorp Green Infra plans to raise Rs 3,750 crore to bolster its renewable energy initiatives.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms"
+    },
+    "f50da2e22de5af": {
+      "id": "f50da2e22de5af",
+      "firstSeen": "2026-11-12T22:42:51+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T22:40:21.488865+00:00",
+          "title": "Democrats open inquiry into Trump-era Nvidia chip export approvals",
+          "summary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
+          "importanceScore": 8.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
+      "cat": "AI",
+      "latestTitle": "Democrats open inquiry into Trump-era Nvidia chip export approvals",
+      "latestSummary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
     }
   },
-  "updated": "2026-11-13T16:28:05.275958+00:00"
+  "updated": "2026-11-13T22:40:21.488865+00:00"
 }

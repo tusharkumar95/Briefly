@@ -1,50 +1,50 @@
 {
-  "updated": "2026-11-13T16:28:05.275958+00:00",
+  "updated": "2026-11-13T22:40:21.488865+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 78,
-    "officialOrPrimaryCandidates": 20,
+    "nonNoiseCandidates": 77,
+    "officialOrPrimaryCandidates": 16,
     "enrichedCandidates": 77,
-    "readableCandidates": 54,
-    "eventClusters": 54,
-    "materialEvents": 31,
-    "selectedEvents": 10,
-    "seededStories": 5,
+    "readableCandidates": 58,
+    "eventClusters": 58,
+    "materialEvents": 30,
+    "selectedEvents": 9,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "5c978aa3f1e6d7",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "36469d71bbd2b4",
+      "cat": "AI",
+      "icon": "✦",
       "categories": [
-        "Indian Markets"
+        "AI"
       ],
-      "title": "US Dow, S&P 500, Nasdaq fall as softer producer prices and Fed tightening outlook weigh",
-      "publishedAt": "2026-11-13T13:11:45+00:00",
-      "importanceScore": 13.9,
+      "title": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
+      "publishedAt": "2026-11-13T18:40:30+00:00",
+      "importanceScore": 14.8,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-microsoft-cerebras-amd-micron-treasury-yield-news-13th-november-2026/liveblog/135804970.cms",
-      "summary": "On Friday, November 13 2026, the Dow Jones Industrial Average slipped 192.16 points (‑0.37%) to 52,104.93, the S&P 500 dropped 73.80 points (‑0.97%) to 7,518.60, and the Nasdaq Composite fell 367.05 points (‑1.45%) to 24,999.04. The decline followed October producer‑price data that showed a moderated month‑over‑month increase but a 6.5% year‑over‑year rise—the strongest since November 2022—and remarks from Boston Fed President Susan Collins that additional rate hikes are likely, pushing two‑year Treasury yields toward their biggest weekly jump in two years.",
-      "why": "The move underscores how U.S. inflation data and Fed policy expectations can shift risk appetite and capital flows, which matters for Indian investors tracking global market sentiment.",
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "summary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-microsoft-cerebras-amd-micron-treasury-yield-news-13th-november-2026/liveblog/135804970.cms",
-          "publishedAt": "2026-11-13T13:11:45+00:00"
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "publishedAt": "2026-11-13T18:40:30+00:00"
         }
       ],
-      "firstSeen": "2026-11-13T13:11:45+00:00",
+      "firstSeen": "2026-11-13T18:40:30+00:00",
       "status": "New",
-      "lastChecked": "2026-11-13T16:28:05.275958+00:00",
+      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -54,74 +54,105 @@
       "lifecycle": "New"
     },
     {
-      "id": "20be96325024b4",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "publishedAt": "2026-11-12T17:00:52+00:00",
-      "importanceScore": 12.5,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "summary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-          "publishedAt": "2026-11-12T17:00:52+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-12T17:00:52+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-13T16:28:05.275958+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "previousSummary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
-      "previousPublishedAt": "2026-11-12T17:00:52+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.5,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "a649b043f9bf3d",
+      "id": "b1068451715230",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India's gold imports plunge 62.57% to $5.51 billion in October as prices fall below $4,000/oz",
-      "publishedAt": "2026-11-13T10:23:27+00:00",
-      "importanceScore": 12.1,
+      "title": "US pledges lower tariffs for India in pending trade deal",
+      "publishedAt": "2026-11-13T13:47:53+00:00",
+      "importanceScore": 13.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-gold-imports-plunge-62-57-to-5-51-billion-in-october-as-prices-fall-below-4000/oz/articleshow/135798822.cms",
-      "summary": "India's gold imports fell 39.9% to $24.78 billion during April-October 2026, down from $41.24 billion a year ago, according to Commerce Ministry data. October imports plunged 62.57% year-on-year to $5.51 billion amid a correction in global gold prices.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms",
+      "summary": "The United States told India it will apply tariffs lower than those imposed on other trading partners under the proposed agreement. The first phase will cover goods, with services to be negotiated later. The negotiations have been ongoing for nearly two years and are reported to be close to finalisation with most key issues resolved.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms",
+          "publishedAt": "2026-11-13T13:47:53+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-13T13:47:53+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "2554de1631aa85",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "India 10‑year bond yield recovers half of prior week’s drop",
+      "publishedAt": "2026-11-13T12:51:07+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms",
+      "summary": "The yield on India’s 10‑year government bond rose, wiping out roughly half of the decline recorded the week before, as the market responded to still‑elevated inflation. The headline linked the move to inflation concerns, and no specific yield level or percentage change was provided in the source. This represents a partial reversal of the earlier fall.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms",
+          "publishedAt": "2026-11-13T12:51:07+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-13T12:51:07+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "f0f8c16eb80e70",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
+      "publishedAt": "2026-11-13T12:24:01+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms",
+      "summary": "Razorpay Software Ltd and Sembcorp Green Infra recently received approval from Sebi for their initial public offerings, marking a major milestone in their growth journeys. Razorpay aims to secure Rs 5,000-6,000 crore to enhance its financial services platform, while Sembcorp Green Infra plans to raise Rs 3,750 crore to bolster its renewable energy initiatives.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-gold-imports-plunge-62-57-to-5-51-billion-in-october-as-prices-fall-below-4000/oz/articleshow/135798822.cms",
-          "publishedAt": "2026-11-13T10:23:27+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms",
+          "publishedAt": "2026-11-13T12:24:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-13T10:23:27+00:00",
+      "firstSeen": "2026-11-13T12:24:01+00:00",
       "status": "New",
-      "lastChecked": "2026-11-13T16:28:05.275958+00:00",
+      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -137,14 +168,14 @@
       "categories": [
         "World"
       ],
-      "title": "Pro-government forces take Mekelle, residents report hardship",
+      "title": "Pro-government forces control Mekelle amid civilian hardship",
       "publishedAt": "2026-11-13T00:20:24+00:00",
       "importanceScore": 11.7,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-      "summary": "Within two weeks of the war’s start, pro-government troops entered Mekelle, the capital of Ethiopia’s Tigray region, and the city is now under national army control. Salon owner Firut Me’ar says residents are struggling to meet basic needs, with little money, low morale and almost no business, describing daily life as far from normal despite the change in control.",
-      "why": "Shows how the conflict’s rapid advance is affecting civilians in a major regional centre.",
+      "summary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
+      "why": "It shows how quickly the conflict has disrupted civilian livelihoods and created urgent humanitarian concerns.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -156,68 +187,109 @@
         }
       ],
       "firstSeen": "2026-11-13T00:20:24+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-13T16:28:05.275958+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Pro-government forces take Mekelle, residents report hardship",
+      "previousSummary": "Within two weeks of the war’s start, pro-government troops entered Mekelle, the capital of Ethiopia’s Tigray region, and the city is now under national army control. Salon owner Firut Me’ar says residents are struggling to meet basic needs, with little money, low morale and almost no business, describing daily life as far from normal despite the change in control.",
+      "previousPublishedAt": "2026-11-13T00:20:24+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "19bf025da197e5",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
+      "publishedAt": "2026-11-13T03:35:34+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms",
+      "summary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms",
+          "publishedAt": "2026-11-13T03:35:34+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-13T03:35:34+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "766b96c11377c7",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "f50da2e22de5af",
+      "cat": "AI",
+      "icon": "✦",
       "categories": [
-        "World"
+        "AI"
       ],
-      "title": "US Defence Secretary presents medal to Arlington guard after protocol breach",
-      "publishedAt": "2026-11-12T18:47:35+00:00",
-      "importanceScore": 11.5,
+      "title": "Democrats open inquiry into Trump-era Nvidia chip export approvals",
+      "publishedAt": "2026-11-12T22:42:51+00:00",
+      "importanceScore": 8.0,
       "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-      "summary": "A video from a Veterans Day ceremony showed Defence Secretary Pete Hegseth, his wife and senior advisers laughing and posing in front of the Tomb of the Unknown Soldier before a guard asked them to be quiet. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb. Photos posted on the secretary’s X account show the presentation with members of the 3rd US Infantry Regiment (the Old Guard).",
-      "why": "It illustrates the Pentagon’s response to a high‑profile breach of ceremony protocol at a national memorial.",
-      "confidence": "high",
-      "verified": true,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "summary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-12T18:47:35+00:00"
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+          "publishedAt": "2026-11-12T22:42:51+00:00"
         }
       ],
-      "firstSeen": "2026-11-12T18:47:35+00:00",
+      "firstSeen": "2026-11-12T22:42:51+00:00",
       "status": "New",
-      "lastChecked": "2026-11-13T16:28:05.275958+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
+      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 6,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-13T08:01:35.146532+00:00",
+  "previousUpdated": "2026-11-13T16:28:05.275958+00:00",
   "changeSummary": {
-    "new": 4,
+    "new": 6,
     "updated": 0,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-10T17:52:46.865877+00:00",
-    "updated": "2026-11-13T16:28:05.275958+00:00",
+    "availableFrom": "2026-11-10T23:25:15.986188+00:00",
+    "updated": "2026-11-13T22:40:21.488865+00:00",
     "snapshotCount": 11,
-    "eventCount": 71,
+    "eventCount": 72,
     "retentionHours": 72
   }
 }
