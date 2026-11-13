@@ -1,22 +1,58 @@
 {
-  "updated": "2026-11-12T19:57:19.530012+00:00",
+  "updated": "2026-11-13T01:06:50.297241+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 15,
+    "officialOrPrimaryCandidates": 21,
     "enrichedCandidates": 80,
-    "readableCandidates": 56,
-    "eventClusters": 55,
-    "materialEvents": 22,
+    "readableCandidates": 52,
+    "eventClusters": 51,
+    "materialEvents": 24,
     "selectedEvents": 10,
-    "seededStories": 5,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "6e8facfd09ae10",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Pro-government forces seize Mekelle, Tigray’s capital",
+      "publishedAt": "2026-11-13T00:20:24+00:00",
+      "importanceScore": 13.7,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+      "summary": "Within two weeks of the war’s start, pro‑government troops entered Mekelle and the city came under national army control. Residents, including salon owner Firut Me’ar, say daily life remains far from normal, with little money, low morale and almost no business activity. Basic needs such as food are still unaffordable for many families.",
+      "why": "The takeover shows the immediate humanitarian and economic impact on civilians when a major urban centre changes hands in conflict.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-13T00:20:24+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-13T00:20:24+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "20be96325024b4",
       "cat": "AI",
@@ -24,14 +60,14 @@
       "categories": [
         "AI"
       ],
-      "title": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
+      "title": "SoftBank overbooks turbines for $33 bn natural‑gas power project",
       "publishedAt": "2026-11-12T17:00:52+00:00",
-      "importanceScore": 14.5,
+      "importanceScore": 13.5,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "summary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
-      "why": "The excess turbine bookings tie up capital and influence the financial outlook of SoftBank’s energy ventures.",
+      "summary": "SoftBank’s SB Energy unit announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Over the prior two years it placed deposits for more than 13 gigawatts of turbines—about 50 % above the capacity needed—to secure supply and keep projects on schedule. The strategy follows SoftBank’s $30 billion investment in OpenAI made in early 2025.",
+      "why": "Over‑ordering ties up capital and could limit funds for future AI initiatives.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -43,15 +79,20 @@
         }
       ],
       "firstSeen": "2026-11-12T17:00:52+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
+      "previousSummary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
+      "previousPublishedAt": "2026-11-12T17:00:52+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.5,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "766b96c11377c7",
@@ -60,15 +101,15 @@
       "categories": [
         "World"
       ],
-      "title": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
+      "title": "US Defence Secretary awards medal to Arlington guard after protocol breach",
       "publishedAt": "2026-11-12T18:47:35+00:00",
-      "importanceScore": 13.5,
+      "importanceScore": 12.5,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-      "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
-      "why": "It publicly recognises the guard’s role and underscores the importance of adhering to ceremonial protocol at a national memorial.",
-      "confidence": "medium",
+      "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were seen laughing and posing for photos in front of the Tomb of the Unknown Soldier. A guard asked the group to be quiet, and later the Pentagon announced that Hegseth presented Specialist Thomas Iglesias with a Joint Service Commendation Medal for his duties at the Tomb, with photos of the presentation posted on the secretary’s X account.",
+      "why": "It highlights the Pentagon’s emphasis on maintaining decorum at national memorials and acknowledges the guard’s role in enforcing protocol.",
+      "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
@@ -79,51 +120,20 @@
         }
       ],
       "firstSeen": "2026-11-12T18:47:35+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "baaf26e229aebf",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
-      "publishedAt": "2026-11-12T12:21:16+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms",
-      "summary": "Four stocks from the BSE 100 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms",
-          "publishedAt": "2026-11-12T12:21:16+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-12T12:21:16+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
+      "previousSummary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
+      "previousPublishedAt": "2026-11-12T18:47:35+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.5,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "ef3bc6414e12e8",
@@ -132,17 +142,17 @@
       "categories": [
         "AI"
       ],
-      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "title": "Fireworks AI breach exposes some Notion AI chat transcripts",
       "publishedAt": "2026-11-12T15:02:28+00:00",
       "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "confidence": "low",
+      "summary": "A cyberattack on Fireworks AI let attackers breach its cloud provider and reach a Fireworks development system, where they took customer billing information and some datasets. Notion confirmed that the incident affected around 1% of its customers, with stolen data including chat transcripts from its Notion AI \"Insights\" feature. Notion said it disconnected from Fireworks on November 3, deleted data stored in its systems, and stopped all connectivity between the two.",
+      "why": "The incident shows how a breach at a third-party AI model provider can expose sensitive user data held by its customers.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -151,8 +161,49 @@
         }
       ],
       "firstSeen": "2026-11-12T15:02:28+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "previousSummary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+      "previousPublishedAt": "2026-11-12T15:02:28+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.3,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "44160da900136a",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "publishedAt": "2026-11-12T21:27:10+00:00",
+      "importanceScore": 10.5,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "summary": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. Nebius’ contract with Microsoft is worth up to $19.4 billion, but it’s already letting deadlines slip.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+          "publishedAt": "2026-11-12T21:27:10+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-12T21:27:10+00:00",
       "status": "New",
-      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
+      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -162,33 +213,33 @@
       "lifecycle": "New"
     },
     {
-      "id": "2e77a7fdb037c6",
-      "cat": "AI",
-      "icon": "✦",
+      "id": "8313b4b36bb6b0",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "AI"
+        "India"
       ],
-      "title": "Nectar launches Creator Agent to automate influencer discovery and outreach",
-      "publishedAt": "2026-11-12T19:11:00+00:00",
-      "importanceScore": 11.2,
+      "title": "RBI plans curbs on private equity control of multiple non-bank lenders: Report",
+      "publishedAt": "2026-11-12T09:15:10+00:00",
+      "importanceScore": 10.5,
       "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "summary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
-      "why": "It lets brands scale creator programs while cutting the time and resources needed for manual discovery and outreach.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms",
+      "summary": "The Economic Times reports that the Reserve Bank of India is planning curbs on private equity firms controlling stakes in multiple non-bank financial companies (NBFCs). The report cites unspecified sources and provides no details on the specific measures, thresholds, or a timeline. No official RBI notification or statement has been confirmed in the source material.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-          "publishedAt": "2026-11-12T19:11:00+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms",
+          "publishedAt": "2026-11-12T09:15:10+00:00"
         }
       ],
-      "firstSeen": "2026-11-12T19:11:00+00:00",
+      "firstSeen": "2026-11-12T09:15:10+00:00",
       "status": "New",
-      "lastChecked": "2026-11-12T19:57:19.530012+00:00",
+      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -198,21 +249,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 5,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-12T11:18:27.150823+00:00",
+  "previousUpdated": "2026-11-12T19:57:19.530012+00:00",
   "changeSummary": {
-    "new": 5,
-    "updated": 0,
-    "continuing": 0
+    "new": 3,
+    "updated": 2,
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-11-10T01:34:45.542411+00:00",
-    "updated": "2026-11-12T19:57:19.530012+00:00",
-    "snapshotCount": 10,
-    "eventCount": 68,
+    "updated": "2026-11-13T01:06:50.297241+00:00",
+    "snapshotCount": 11,
+    "eventCount": 69,
     "retentionHours": 72
   }
 }

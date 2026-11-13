@@ -1019,6 +1019,124 @@
           "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
         }
       ]
+    },
+    {
+      "at": "2026-11-13T01:06:50.297241+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 2,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "6e8facfd09ae10",
+          "cat": "World",
+          "title": "Pro-government forces seize Mekelle, Tigray’s capital",
+          "summary": "Within two weeks of the war’s start, pro‑government troops entered Mekelle and the city came under national army control. Residents, including salon owner Firut Me’ar, say daily life remains far from normal, with little money, low morale and almost no business activity. Basic needs such as food are still unaffordable for many families.",
+          "why": "The takeover shows the immediate humanitarian and economic impact on civilians when a major urban centre changes hands in conflict.",
+          "publishedAt": "2026-11-13T00:20:24+00:00",
+          "firstSeen": "2026-11-13T00:20:24+00:00",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "20be96325024b4",
+          "cat": "AI",
+          "title": "SoftBank overbooks turbines for $33 bn natural‑gas power project",
+          "summary": "SoftBank’s SB Energy unit announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Over the prior two years it placed deposits for more than 13 gigawatts of turbines—about 50 % above the capacity needed—to secure supply and keep projects on schedule. The strategy follows SoftBank’s $30 billion investment in OpenAI made in early 2025.",
+          "why": "Over‑ordering ties up capital and could limit funds for future AI initiatives.",
+          "publishedAt": "2026-11-12T17:00:52+00:00",
+          "firstSeen": "2026-11-12T17:00:52+00:00",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+        },
+        {
+          "id": "766b96c11377c7",
+          "cat": "World",
+          "title": "US Defence Secretary awards medal to Arlington guard after protocol breach",
+          "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were seen laughing and posing for photos in front of the Tomb of the Unknown Soldier. A guard asked the group to be quiet, and later the Pentagon announced that Hegseth presented Specialist Thomas Iglesias with a Joint Service Commendation Medal for his duties at the Tomb, with photos of the presentation posted on the secretary’s X account.",
+          "why": "It highlights the Pentagon’s emphasis on maintaining decorum at national memorials and acknowledges the guard’s role in enforcing protocol.",
+          "publishedAt": "2026-11-12T18:47:35+00:00",
+          "firstSeen": "2026-11-12T18:47:35+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "ef3bc6414e12e8",
+          "cat": "AI",
+          "title": "Fireworks AI breach exposes some Notion AI chat transcripts",
+          "summary": "A cyberattack on Fireworks AI let attackers breach its cloud provider and reach a Fireworks development system, where they took customer billing information and some datasets. Notion confirmed that the incident affected around 1% of its customers, with stolen data including chat transcripts from its Notion AI \"Insights\" feature. Notion said it disconnected from Fireworks on November 3, deleted data stored in its systems, and stopped all connectivity between the two.",
+          "why": "The incident shows how a breach at a third-party AI model provider can expose sensitive user data held by its customers.",
+          "publishedAt": "2026-11-12T15:02:28+00:00",
+          "firstSeen": "2026-11-12T15:02:28+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        },
+        {
+          "id": "44160da900136a",
+          "cat": "AI",
+          "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+          "summary": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. Nebius’ contract with Microsoft is worth up to $19.4 billion, but it’s already letting deadlines slip.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-12T21:27:10+00:00",
+          "firstSeen": "2026-11-12T21:27:10+00:00",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+        },
+        {
+          "id": "8313b4b36bb6b0",
+          "cat": "India",
+          "title": "RBI plans curbs on private equity control of multiple non-bank lenders: Report",
+          "summary": "The Economic Times reports that the Reserve Bank of India is planning curbs on private equity firms controlling stakes in multiple non-bank financial companies (NBFCs). The report cites unspecified sources and provides no details on the specific measures, thresholds, or a timeline. No official RBI notification or statement has been confirmed in the source material.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-12T09:15:10+00:00",
+          "firstSeen": "2026-11-12T09:15:10+00:00",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1072,44 +1190,6 @@
       "latestSummary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms"
-    },
-    "7d680535fae4b6": {
-      "id": "7d680535fae4b6",
-      "firstSeen": "2026-11-05T01:41:13+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-05T06:51:48.614454+00:00",
-          "title": "US sanctions India-based couple, companies over alleged support for Iran's Shadow oil fleet",
-          "summary": "US sanctions India-based couple, companies over alleged support for Iran's Shadow",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-05T22:01:33.433106+00:00",
-          "title": "US sanctions India-based couple, companies over alleged support for Iran's Shadow oil fleet",
-          "summary": "The United States imposed sanctions on Suniel Kumar Sharma and Jaspreet Preeti Shahid for aiding Iran's shadow fleet. Several companies linked to the couple also received sanctions under Executive Order 13902.",
-          "importanceScore": 10.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
-      "cat": "India",
-      "latestTitle": "US sanctions India-based couple, companies over alleged support for Iran's Shadow oil fleet",
-      "latestSummary": "The United States imposed sanctions on Suniel Kumar Sharma and Jaspreet Preeti Shahid for aiding Iran's shadow fleet. Several companies linked to the couple also received sanctions under Executive Order 13902.",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms"
     },
     "29c994bd572e45": {
       "id": "29c994bd572e45",
@@ -1225,31 +1305,6 @@
       "latestSummary": "The federal government has issued draft regulations that would prohibit banks from charging fees when clients transfer investment accounts to another financial institution. The change would apply to registered accounts such as RRSPs, TFSAs and RESPs, as well as non‑registered investment accounts. A regulatory impact analysis notes that such transfer fees are typically about $150 per account.",
       "why": "It removes a cost barrier, helping Canadians—especially lower‑income households—switch providers and encouraging competition among financial institutions.",
       "url": "https://www.cbc.ca/news/business/investment-account-fees-ban-9.7410914?cmp=rss"
-    },
-    "a86203ea83aaac": {
-      "id": "a86203ea83aaac",
-      "firstSeen": "2026-11-05T13:10:30+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-05T22:01:33.433106+00:00",
-          "title": "US stocks tumble as AI regulation fears trigger steep Nasdaq drop",
-          "summary": "The Nasdaq Composite fell 5.46% (down 1,421.5 points to 24,315.02), its biggest one‑day decline in 19 months, while the S&P 500 lost 4.32% (down 331.94 points to 7,353.65) and the Dow Jones slipped 3.45% (down 1,842.69 points to 51,513.43). The sell‑off was driven by concerns that tighter AI regulation from a Democrat‑controlled Congress could curb chipmaker and data‑centre investment, and by Fed officials’ comments on possible further rate hikes.",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-05T22:01:33.433106+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "US stocks tumble as AI regulation fears trigger steep Nasdaq drop",
-      "latestSummary": "The Nasdaq Composite fell 5.46% (down 1,421.5 points to 24,315.02), its biggest one‑day decline in 19 months, while the S&P 500 lost 4.32% (down 331.94 points to 7,353.65) and the Dow Jones slipped 3.45% (down 1,842.69 points to 51,513.43). The sell‑off was driven by concerns that tighter AI regulation from a Democrat‑controlled Congress could curb chipmaker and data‑centre investment, and by Fed officials’ comments on possible further rate hikes.",
-      "why": "The decline raises risk concerns for AI‑related and broader equities, influencing global investors and Indian market sentiment.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-qualcomm-nvidia-coreweave-tesla-amazon-meta-ai-stocks-data-center-stocks-semiconductor-stocks-brent-crude-us-jobs-report-federal-reserve-treasury-yield-news-5th-november-2026/liveblog/135575228.cms"
     },
     "42ba335d100ea4": {
       "id": "42ba335d100ea4",
@@ -3445,13 +3500,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-13T01:06:50.297241+00:00",
+          "title": "SoftBank overbooks turbines for $33 bn natural‑gas power project",
+          "summary": "SoftBank’s SB Energy unit announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Over the prior two years it placed deposits for more than 13 gigawatts of turbines—about 50 % above the capacity needed—to secure supply and keep projects on schedule. The strategy follows SoftBank’s $30 billion investment in OpenAI made in early 2025.",
+          "importanceScore": 13.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
       "cat": "AI",
-      "latestTitle": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
-      "latestSummary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
-      "why": "The excess turbine bookings tie up capital and influence the financial outlook of SoftBank’s energy ventures.",
+      "latestTitle": "SoftBank overbooks turbines for $33 bn natural‑gas power project",
+      "latestSummary": "SoftBank’s SB Energy unit announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Over the prior two years it placed deposits for more than 13 gigawatts of turbines—about 50 % above the capacity needed—to secure supply and keep projects on schedule. The strategy follows SoftBank’s $30 billion investment in OpenAI made in early 2025.",
+      "why": "Over‑ordering ties up capital and could limit funds for future AI initiatives.",
       "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
     },
     "766b96c11377c7": {
@@ -3470,13 +3538,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-13T01:06:50.297241+00:00",
+          "title": "US Defence Secretary awards medal to Arlington guard after protocol breach",
+          "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were seen laughing and posing for photos in front of the Tomb of the Unknown Soldier. A guard asked the group to be quiet, and later the Pentagon announced that Hegseth presented Specialist Thomas Iglesias with a Joint Service Commendation Medal for his duties at the Tomb, with photos of the presentation posted on the secretary’s X account.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
       "cat": "World",
-      "latestTitle": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
-      "latestSummary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
-      "why": "It publicly recognises the guard’s role and underscores the importance of adhering to ceremonial protocol at a national memorial.",
+      "latestTitle": "US Defence Secretary awards medal to Arlington guard after protocol breach",
+      "latestSummary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were seen laughing and posing for photos in front of the Tomb of the Unknown Soldier. A guard asked the group to be quiet, and later the Pentagon announced that Hegseth presented Specialist Thomas Iglesias with a Joint Service Commendation Medal for his duties at the Tomb, with photos of the presentation posted on the secretary’s X account.",
+      "why": "It highlights the Pentagon’s emphasis on maintaining decorum at national memorials and acknowledges the guard’s role in enforcing protocol.",
       "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
     },
     "baaf26e229aebf": {
@@ -3520,13 +3601,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-13T01:06:50.297241+00:00",
+          "title": "Fireworks AI breach exposes some Notion AI chat transcripts",
+          "summary": "A cyberattack on Fireworks AI let attackers breach its cloud provider and reach a Fireworks development system, where they took customer billing information and some datasets. Notion confirmed that the incident affected around 1% of its customers, with stolen data including chat transcripts from its Notion AI \"Insights\" feature. Notion said it disconnected from Fireworks on November 3, deleted data stored in its systems, and stopped all connectivity between the two.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
       "cat": "AI",
-      "latestTitle": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-      "latestSummary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "latestTitle": "Fireworks AI breach exposes some Notion AI chat transcripts",
+      "latestSummary": "A cyberattack on Fireworks AI let attackers breach its cloud provider and reach a Fireworks development system, where they took customer billing information and some datasets. Notion confirmed that the incident affected around 1% of its customers, with stolen data including chat transcripts from its Notion AI \"Insights\" feature. Notion said it disconnected from Fireworks on November 3, deleted data stored in its systems, and stopped all connectivity between the two.",
+      "why": "The incident shows how a breach at a third-party AI model provider can expose sensitive user data held by its customers.",
       "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
     },
     "2e77a7fdb037c6": {
@@ -3553,7 +3647,82 @@
       "latestSummary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
       "why": "It lets brands scale creator programs while cutting the time and resources needed for manual discovery and outreach.",
       "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+    },
+    "6e8facfd09ae10": {
+      "id": "6e8facfd09ae10",
+      "firstSeen": "2026-11-13T00:20:24+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T01:06:50.297241+00:00",
+          "title": "Pro-government forces seize Mekelle, Tigray’s capital",
+          "summary": "Within two weeks of the war’s start, pro‑government troops entered Mekelle and the city came under national army control. Residents, including salon owner Firut Me’ar, say daily life remains far from normal, with little money, low morale and almost no business activity. Basic needs such as food are still unaffordable for many families.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
+      "cat": "World",
+      "latestTitle": "Pro-government forces seize Mekelle, Tigray’s capital",
+      "latestSummary": "Within two weeks of the war’s start, pro‑government troops entered Mekelle and the city came under national army control. Residents, including salon owner Firut Me’ar, say daily life remains far from normal, with little money, low morale and almost no business activity. Basic needs such as food are still unaffordable for many families.",
+      "why": "The takeover shows the immediate humanitarian and economic impact on civilians when a major urban centre changes hands in conflict.",
+      "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
+    },
+    "44160da900136a": {
+      "id": "44160da900136a",
+      "firstSeen": "2026-11-12T21:27:10+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T01:06:50.297241+00:00",
+          "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+          "summary": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. Nebius’ contract with Microsoft is worth up to $19.4 billion, but it’s already letting deadlines slip.",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
+      "cat": "AI",
+      "latestTitle": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "latestSummary": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. Nebius’ contract with Microsoft is worth up to $19.4 billion, but it’s already letting deadlines slip.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+    },
+    "8313b4b36bb6b0": {
+      "id": "8313b4b36bb6b0",
+      "firstSeen": "2026-11-12T09:15:10+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T01:06:50.297241+00:00",
+          "title": "RBI plans curbs on private equity control of multiple non-bank lenders: Report",
+          "summary": "The Economic Times reports that the Reserve Bank of India is planning curbs on private equity firms controlling stakes in multiple non-bank financial companies (NBFCs). The report cites unspecified sources and provides no details on the specific measures, thresholds, or a timeline. No official RBI notification or statement has been confirmed in the source material.",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
+      "cat": "India",
+      "latestTitle": "RBI plans curbs on private equity control of multiple non-bank lenders: Report",
+      "latestSummary": "The Economic Times reports that the Reserve Bank of India is planning curbs on private equity firms controlling stakes in multiple non-bank financial companies (NBFCs). The report cites unspecified sources and provides no details on the specific measures, thresholds, or a timeline. No official RBI notification or statement has been confirmed in the source material.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms"
     }
   },
-  "updated": "2026-11-12T19:57:19.530012+00:00"
+  "updated": "2026-11-13T01:06:50.297241+00:00"
 }
