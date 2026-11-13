@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-10T01:34:45.542411+00:00",
-      "changeSummary": {
-        "new": 6,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "da264ede5b95aa",
-          "cat": "World",
-          "title": "Nvidia shares fall about 4% as company begins probe into CEO’s alleged spy‑linked affair",
-          "summary": "Nvidia’s stock slipped roughly 4% by the close of trade on Monday after the company announced an independent investigation into CEO Jensen Huang’s extramarital relationship with Alice Huang, who is alleged to have ties to Chinese intelligence. U.S. officials have suggested the affair could be part of a Chinese espionage effort, a claim that China’s foreign ministry has called “entirely groundless, speculative and intended to smear and malign China.”",
-          "why": "The investigation creates governance and national‑security concerns that may affect investor confidence and the company’s valuation.",
-          "publishedAt": "2026-11-09T22:46:09+00:00",
-          "firstSeen": "2026-11-09T22:46:09+00:00",
-          "importanceScore": 16.0,
-          "sourceCount": 2,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "f3bad94c4b5b78",
-          "cat": "Canada",
-          "title": "Canada extends tariff relief program beyond U.S. steel imports",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu A truck waits to cross at the United States and Canada border in Surrey B.C., on Tuesday, March 4, 2025.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-09T22:19:52+00:00",
-          "firstSeen": "2026-11-09T22:19:52+00:00",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12143554/canada-tariff-relief-steel-imports-other-goods/"
-        },
-        {
-          "id": "efea87d193224f",
-          "cat": "Canada",
-          "title": "What Winnipeg can learn from Toronto’s housing model",
-          "summary": "A new mental health and addictions hospital and 2,000 housing units will be built in Winnipeg replicating a housing project based in Toronto that saw a decrease in ER visits and millions of savings. Dunn House, the housing project in Toronto that Winnipeg will , reported a 52 per cent reduction in emergency room visits and more than $2 million of savings, according to the budget.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-10T00:04:43+00:00",
-          "firstSeen": "2026-11-10T00:04:43+00:00",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12143498/what-winnipeg-can-learn-from-torontos-housing-model/"
-        },
-        {
-          "id": "753d807ee25f83",
-          "cat": "Indian Markets",
-          "title": "Global Market Today: Asian stocks rally after US tech surge, oil slump",
-          "summary": "South Korea’s Kospi Index jumped more than 5% in early trading while Japan’s Nikkei 225 rose nearly 3%. A broader gauge of Asian shares advanced 1.5% while futures for US benchmarks edged higher.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-10T00:45:50+00:00",
-          "firstSeen": "2026-11-10T00:45:50+00:00",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rally-after-us-tech-surge-oil-slump/articleshow/135696042.cms"
-        },
-        {
-          "id": "9144d832be8822",
-          "cat": "India",
-          "title": "India's investment outlook strengthens as credit, exports rebound; inflation relief likely: HSBC",
-          "summary": "India's investment outlook is improving as credit growth and corporate revenue increase, pointing towards stronger private capital spending. The report from HSBC highlights that funds to the commercial sector have risen significantly compared to previous years.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-11-09T11:14:30+00:00",
-          "firstSeen": "2026-11-09T11:14:30+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-investment-outlook-strengthens-as-credit-exports-rebound-inflation-relief-likely-hsbc/articleshow/135680029.cms"
-        },
-        {
-          "id": "8c159cb181d89f",
-          "cat": "AI",
-          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-          "summary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. Given the emphasis on low cost and accuracy at scale, Ember is designed to pair with a larger model like Meta’s Muse Wonder in an agentic harness.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-09T18:00:00+00:00",
-          "firstSeen": "2026-11-09T18:00:00+00:00",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-10T09:54:08.758329+00:00",
       "changeSummary": {
         "new": 1,
@@ -1137,6 +1019,124 @@
           "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-13T08:01:35.146532+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 2,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "9aa32a321dab1b",
+          "cat": "Indian Markets",
+          "title": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Details",
+          "summary": "Stay in the know with the latest information about Eicher Motors, including: Last traded price 7591.0, Market capitalization: 208897.29, Volume: 249494, Price-to-earnings ratio 36.18, Earnings per share 210.28. Dive into the current details of Tata Motors PV, including: Last traded price 292.15, Market capitalization: 107119.83, Volume: 4964919, Price-to-earnings ratio 1.35, Earnings per share 215.16.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-13T03:31:24+00:00",
+          "firstSeen": "2026-11-13T03:31:24+00:00",
+          "importanceScore": 15.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135788075.cms"
+        },
+        {
+          "id": "27043615af3ee0",
+          "cat": "Indian Markets",
+          "title": "ICICI Bank Share Price Live Updates: ICICI Bank's Current Market Position",
+          "summary": "Stay ahead of the market with our in-depth coverage of ONGC, including: Last traded price 226.2, Market capitalization: 284402.37, Volume: 4938573, Price-to-earnings ratio 5.74, Earnings per share 39.33. Stay ahead of the market with our in-depth coverage of Power Grid, including: Last traded price 257.85, Market capitalization: 239769.57, Volume: 2987865, Price-to-earnings ratio 14.8, Earnings per share 17.41.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-13T03:27:19+00:00",
+          "firstSeen": "2026-11-13T03:27:19+00:00",
+          "importanceScore": 15.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-13-nov-2026/liveblog/135787990.cms"
+        },
+        {
+          "id": "19bf025da197e5",
+          "cat": "India",
+          "title": "Report warns uneven monsoons and El Nino could raise inflation, prompting possible RBI rate hike",
+          "summary": "A recent report cautions that irregular monsoon patterns combined with the El Nino climate phenomenon may increase inflationary pressures in India. It notes that this heightened inflation risk could lead the Reserve Bank of India to consider an additional interest‑rate hike in the near term.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-13T03:35:34+00:00",
+          "firstSeen": "2026-11-13T03:35:34+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
+        },
+        {
+          "id": "20be96325024b4",
+          "cat": "AI",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "summary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-12T17:00:52+00:00",
+          "firstSeen": "2026-11-12T17:00:52+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+        },
+        {
+          "id": "ef3bc6414e12e8",
+          "cat": "AI",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+          "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-12T15:02:28+00:00",
+          "firstSeen": "2026-11-12T15:02:28+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        },
+        {
+          "id": "2e77a7fdb037c6",
+          "cat": "AI",
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "summary": "Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manage social media, customer conversations, content moderation, creator partnerships, and competitor research. Nectar says its Creator Agent searches more than 300 million creator profiles to find potential partners, including smaller creators who may not yet have a large following but are gaining traction.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-12T19:11:00+00:00",
+          "firstSeen": "2026-11-12T19:11:00+00:00",
+          "importanceScore": 9.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+        }
+      ]
     }
   ],
   "events": {
@@ -1190,57 +1190,6 @@
       "latestSummary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms"
-    },
-    "29c994bd572e45": {
-      "id": "29c994bd572e45",
-      "firstSeen": "2026-11-05T05:05:52+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-05T15:29:53.156756+00:00",
-          "title": "US midterm results give limited relief to India, oil and Russia sanctions stay key risks",
-          "summary": "A report states that the United States midterm election outcome offers only limited relief to India’s economic outlook. It also points out that high oil prices and the ongoing sanctions on Russia continue to be significant risk factors for the Indian economy.",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-05T22:01:33.433106+00:00",
-          "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
-          "summary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-06T02:29:24.511335+00:00",
-          "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
-          "summary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
-      "cat": "India",
-      "latestTitle": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
-      "latestSummary": "The outcome of the US midterm elections is expected to offer only marginal relief to India. Part 2 of 3 KYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
     },
     "6f4b12e3623350": {
       "id": "6f4b12e3623350",
@@ -1420,31 +1369,6 @@
       "latestSummary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
-    },
-    "b336ac97731799": {
-      "id": "b336ac97731799",
-      "firstSeen": "2026-11-05T11:41:22+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T02:29:24.511335+00:00",
-          "title": "Trump's midterm election setback may fast-track India-US trade deal within two months says founder, GTRI",
-          "summary": "Ajay Srivastava, Founder of the Global Trade Research Initiative (GTRI) said the election results could push Trump to focus more on trade negotiations and expedite the proposed agreement with India. Senior officials and ministers from both countries had been engaged in discussions and that negotiations were close to completion, although some differences remained.",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-06T02:29:24.511335+00:00",
-      "cat": "India",
-      "latestTitle": "Trump's midterm election setback may fast-track India-US trade deal within two months says founder, GTRI",
-      "latestSummary": "Ajay Srivastava, Founder of the Global Trade Research Initiative (GTRI) said the election results could push Trump to focus more on trade negotiations and expedite the proposed agreement with India. Senior officials and ministers from both countries had been engaged in discussions and that negotiations were close to completion, although some differences remained.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/trumps-midterm-election-setback-may-fast-track-india-us-trade-deal-within-two-months-says-founder-gtri/articleshow/135571786.cms"
     },
     "b95043b4b2f8bf": {
       "id": "b95043b4b2f8bf",
@@ -3513,13 +3437,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-11-13T08:01:35.146532+00:00",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "summary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
+      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
       "cat": "AI",
-      "latestTitle": "SoftBank overbooks turbines for $33 bn natural‑gas power project",
-      "latestSummary": "SoftBank’s SB Energy unit announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Over the prior two years it placed deposits for more than 13 gigawatts of turbines—about 50 % above the capacity needed—to secure supply and keep projects on schedule. The strategy follows SoftBank’s $30 billion investment in OpenAI made in early 2025.",
-      "why": "Over‑ordering ties up capital and could limit funds for future AI initiatives.",
+      "latestTitle": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "latestSummary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
     },
     "766b96c11377c7": {
@@ -3614,13 +3551,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-13T08:01:35.146532+00:00",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+          "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
+      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
       "cat": "AI",
-      "latestTitle": "Fireworks AI breach exposes some Notion AI chat transcripts",
-      "latestSummary": "A cyberattack on Fireworks AI let attackers breach its cloud provider and reach a Fireworks development system, where they took customer billing information and some datasets. Notion confirmed that the incident affected around 1% of its customers, with stolen data including chat transcripts from its Notion AI \"Insights\" feature. Notion said it disconnected from Fireworks on November 3, deleted data stored in its systems, and stopped all connectivity between the two.",
-      "why": "The incident shows how a breach at a third-party AI model provider can expose sensitive user data held by its customers.",
+      "latestTitle": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "latestSummary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
     },
     "2e77a7fdb037c6": {
@@ -3639,13 +3589,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-13T08:01:35.146532+00:00",
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "summary": "Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manage social media, customer conversations, content moderation, creator partnerships, and competitor research. Nectar says its Creator Agent searches more than 300 million creator profiles to find potential partners, including smaller creators who may not yet have a large following but are gaining traction.",
+          "importanceScore": 9.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-12T19:57:19.530012+00:00",
+      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
       "cat": "AI",
-      "latestTitle": "Nectar launches Creator Agent to automate influencer discovery and outreach",
-      "latestSummary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
-      "why": "It lets brands scale creator programs while cutting the time and resources needed for manual discovery and outreach.",
+      "latestTitle": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "latestSummary": "Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manage social media, customer conversations, content moderation, creator partnerships, and competitor research. Nectar says its Creator Agent searches more than 300 million creator profiles to find potential partners, including smaller creators who may not yet have a large following but are gaining traction.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
     },
     "6e8facfd09ae10": {
@@ -3722,7 +3685,82 @@
       "latestSummary": "The Economic Times reports that the Reserve Bank of India is planning curbs on private equity firms controlling stakes in multiple non-bank financial companies (NBFCs). The report cites unspecified sources and provides no details on the specific measures, thresholds, or a timeline. No official RBI notification or statement has been confirmed in the source material.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms"
+    },
+    "9aa32a321dab1b": {
+      "id": "9aa32a321dab1b",
+      "firstSeen": "2026-11-13T03:31:24+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T08:01:35.146532+00:00",
+          "title": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Details",
+          "summary": "Stay in the know with the latest information about Eicher Motors, including: Last traded price 7591.0, Market capitalization: 208897.29, Volume: 249494, Price-to-earnings ratio 36.18, Earnings per share 210.28. Dive into the current details of Tata Motors PV, including: Last traded price 292.15, Market capitalization: 107119.83, Volume: 4964919, Price-to-earnings ratio 1.35, Earnings per share 215.16.",
+          "importanceScore": 15.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Details",
+      "latestSummary": "Stay in the know with the latest information about Eicher Motors, including: Last traded price 7591.0, Market capitalization: 208897.29, Volume: 249494, Price-to-earnings ratio 36.18, Earnings per share 210.28. Dive into the current details of Tata Motors PV, including: Last traded price 292.15, Market capitalization: 107119.83, Volume: 4964919, Price-to-earnings ratio 1.35, Earnings per share 215.16.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135788075.cms"
+    },
+    "27043615af3ee0": {
+      "id": "27043615af3ee0",
+      "firstSeen": "2026-11-13T03:27:19+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T08:01:35.146532+00:00",
+          "title": "ICICI Bank Share Price Live Updates: ICICI Bank's Current Market Position",
+          "summary": "Stay ahead of the market with our in-depth coverage of ONGC, including: Last traded price 226.2, Market capitalization: 284402.37, Volume: 4938573, Price-to-earnings ratio 5.74, Earnings per share 39.33. Stay ahead of the market with our in-depth coverage of Power Grid, including: Last traded price 257.85, Market capitalization: 239769.57, Volume: 2987865, Price-to-earnings ratio 14.8, Earnings per share 17.41.",
+          "importanceScore": 15.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "ICICI Bank Share Price Live Updates: ICICI Bank's Current Market Position",
+      "latestSummary": "Stay ahead of the market with our in-depth coverage of ONGC, including: Last traded price 226.2, Market capitalization: 284402.37, Volume: 4938573, Price-to-earnings ratio 5.74, Earnings per share 39.33. Stay ahead of the market with our in-depth coverage of Power Grid, including: Last traded price 257.85, Market capitalization: 239769.57, Volume: 2987865, Price-to-earnings ratio 14.8, Earnings per share 17.41.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-13-nov-2026/liveblog/135787990.cms"
+    },
+    "19bf025da197e5": {
+      "id": "19bf025da197e5",
+      "firstSeen": "2026-11-13T03:35:34+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T08:01:35.146532+00:00",
+          "title": "Report warns uneven monsoons and El Nino could raise inflation, prompting possible RBI rate hike",
+          "summary": "A recent report cautions that irregular monsoon patterns combined with the El Nino climate phenomenon may increase inflationary pressures in India. It notes that this heightened inflation risk could lead the Reserve Bank of India to consider an additional interest‑rate hike in the near term.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
+      "cat": "India",
+      "latestTitle": "Report warns uneven monsoons and El Nino could raise inflation, prompting possible RBI rate hike",
+      "latestSummary": "A recent report cautions that irregular monsoon patterns combined with the El Nino climate phenomenon may increase inflationary pressures in India. It notes that this heightened inflation risk could lead the Reserve Bank of India to consider an additional interest‑rate hike in the near term.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
     }
   },
-  "updated": "2026-11-13T01:06:50.297241+00:00"
+  "updated": "2026-11-13T08:01:35.146532+00:00"
 }

@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-13T01:06:50.297241+00:00",
+  "updated": "2026-11-13T08:01:35.146532+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 21,
-    "enrichedCandidates": 80,
+    "officialOrPrimaryCandidates": 16,
+    "enrichedCandidates": 79,
     "readableCandidates": 52,
-    "eventClusters": 51,
-    "materialEvents": 24,
+    "eventClusters": 42,
+    "materialEvents": 25,
     "selectedEvents": 10,
     "seededStories": 6,
     "corroboratedStories": 0,
@@ -18,37 +18,129 @@
   },
   "stories": [
     {
-      "id": "6e8facfd09ae10",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "9aa32a321dab1b",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "World"
+        "Indian Markets"
       ],
-      "title": "Pro-government forces seize Mekelle, Tigray’s capital",
-      "publishedAt": "2026-11-13T00:20:24+00:00",
-      "importanceScore": 13.7,
+      "title": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Details",
+      "publishedAt": "2026-11-13T03:31:24+00:00",
+      "importanceScore": 15.0,
       "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-      "summary": "Within two weeks of the war’s start, pro‑government troops entered Mekelle and the city came under national army control. Residents, including salon owner Firut Me’ar, say daily life remains far from normal, with little money, low morale and almost no business activity. Basic needs such as food are still unaffordable for many families.",
-      "why": "The takeover shows the immediate humanitarian and economic impact on civilians when a major urban centre changes hands in conflict.",
-      "confidence": "high",
-      "verified": true,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135788075.cms",
+      "summary": "Stay in the know with the latest information about Eicher Motors, including: Last traded price 7591.0, Market capitalization: 208897.29, Volume: 249494, Price-to-earnings ratio 36.18, Earnings per share 210.28. Dive into the current details of Tata Motors PV, including: Last traded price 292.15, Market capitalization: 107119.83, Volume: 4964919, Price-to-earnings ratio 1.35, Earnings per share 215.16.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135788075.cms",
+          "publishedAt": "2026-11-13T03:31:24+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-live-13-nov-2026/liveblog/135787967.cms",
+          "publishedAt": "2026-11-13T03:25:50+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-stock-price-live-updates-13-nov-2026/liveblog/135787960.cms",
+          "publishedAt": "2026-11-13T03:25:29+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-13T03:31:24+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-13T08:01:35.146532+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "27043615af3ee0",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "ICICI Bank Share Price Live Updates: ICICI Bank's Current Market Position",
+      "publishedAt": "2026-11-13T03:27:19+00:00",
+      "importanceScore": 15.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-13-nov-2026/liveblog/135787990.cms",
+      "summary": "Stay ahead of the market with our in-depth coverage of ONGC, including: Last traded price 226.2, Market capitalization: 284402.37, Volume: 4938573, Price-to-earnings ratio 5.74, Earnings per share 39.33. Stay ahead of the market with our in-depth coverage of Power Grid, including: Last traded price 257.85, Market capitalization: 239769.57, Volume: 2987865, Price-to-earnings ratio 14.8, Earnings per share 17.41.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-13-nov-2026/liveblog/135787990.cms",
+          "publishedAt": "2026-11-13T03:27:19+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/power-grid-share-price-today-live-13-nov-2026/liveblog/135787691.cms",
+          "publishedAt": "2026-11-13T03:15:47+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-stock-price-today-live-13-nov-2026/liveblog/135787655.cms",
+          "publishedAt": "2026-11-13T03:15:26+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-13T03:27:19+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-13T08:01:35.146532+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "19bf025da197e5",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Report warns uneven monsoons and El Nino could raise inflation, prompting possible RBI rate hike",
+      "publishedAt": "2026-11-13T03:35:34+00:00",
+      "importanceScore": 12.5,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms",
+      "summary": "A recent report cautions that irregular monsoon patterns combined with the El Nino climate phenomenon may increase inflationary pressures in India. It notes that this heightened inflation risk could lead the Reserve Bank of India to consider an additional interest‑rate hike in the near term.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-13T00:20:24+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms",
+          "publishedAt": "2026-11-13T03:35:34+00:00"
         }
       ],
-      "firstSeen": "2026-11-13T00:20:24+00:00",
+      "firstSeen": "2026-11-13T03:35:34+00:00",
       "status": "New",
-      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
+      "lastChecked": "2026-11-13T08:01:35.146532+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -60,17 +152,17 @@
       "categories": [
         "AI"
       ],
-      "title": "SoftBank overbooks turbines for $33 bn natural‑gas power project",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
       "publishedAt": "2026-11-12T17:00:52+00:00",
-      "importanceScore": 13.5,
+      "importanceScore": 12.5,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "summary": "SoftBank’s SB Energy unit announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Over the prior two years it placed deposits for more than 13 gigawatts of turbines—about 50 % above the capacity needed—to secure supply and keep projects on schedule. The strategy follows SoftBank’s $30 billion investment in OpenAI made in early 2025.",
-      "why": "Over‑ordering ties up capital and could limit funds for future AI initiatives.",
-      "confidence": "medium",
+      "summary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -80,60 +172,19 @@
       ],
       "firstSeen": "2026-11-12T17:00:52+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
+      "lastChecked": "2026-11-13T08:01:35.146532+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
-      "previousSummary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
+      "verificationScope": "source-backed",
+      "previousTitle": "SoftBank overbooks turbines for $33 bn natural‑gas power project",
+      "previousSummary": "SoftBank’s SB Energy unit announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Over the prior two years it placed deposits for more than 13 gigawatts of turbines—about 50 % above the capacity needed—to secure supply and keep projects on schedule. The strategy follows SoftBank’s $30 billion investment in OpenAI made in early 2025.",
       "previousPublishedAt": "2026-11-12T17:00:52+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 14.5,
+      "previousImportanceScore": 13.5,
       "changed": true,
       "change": "Material facts or figures changed since the previous brief.",
       "lifecycle": "Updated"
-    },
-    {
-      "id": "766b96c11377c7",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "US Defence Secretary awards medal to Arlington guard after protocol breach",
-      "publishedAt": "2026-11-12T18:47:35+00:00",
-      "importanceScore": 12.5,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-      "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were seen laughing and posing for photos in front of the Tomb of the Unknown Soldier. A guard asked the group to be quiet, and later the Pentagon announced that Hegseth presented Specialist Thomas Iglesias with a Joint Service Commendation Medal for his duties at the Tomb, with photos of the presentation posted on the secretary’s X account.",
-      "why": "It highlights the Pentagon’s emphasis on maintaining decorum at national memorials and acknowledges the guard’s role in enforcing protocol.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-12T18:47:35+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-12T18:47:35+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
-      "previousSummary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
-      "previousPublishedAt": "2026-11-12T18:47:35+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.5,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
     },
     {
       "id": "ef3bc6414e12e8",
@@ -142,17 +193,17 @@
       "categories": [
         "AI"
       ],
-      "title": "Fireworks AI breach exposes some Notion AI chat transcripts",
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
       "publishedAt": "2026-11-12T15:02:28+00:00",
-      "importanceScore": 12.3,
+      "importanceScore": 11.3,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "summary": "A cyberattack on Fireworks AI let attackers breach its cloud provider and reach a Fireworks development system, where they took customer billing information and some datasets. Notion confirmed that the incident affected around 1% of its customers, with stolen data including chat transcripts from its Notion AI \"Insights\" feature. Notion said it disconnected from Fireworks on November 3, deleted data stored in its systems, and stopped all connectivity between the two.",
-      "why": "The incident shows how a breach at a third-party AI model provider can expose sensitive user data held by its customers.",
-      "confidence": "medium",
+      "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -162,13 +213,13 @@
       ],
       "firstSeen": "2026-11-12T15:02:28+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
+      "lastChecked": "2026-11-13T08:01:35.146532+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-      "previousSummary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
+      "verificationScope": "source-backed",
+      "previousTitle": "Fireworks AI breach exposes some Notion AI chat transcripts",
+      "previousSummary": "A cyberattack on Fireworks AI let attackers breach its cloud provider and reach a Fireworks development system, where they took customer billing information and some datasets. Notion confirmed that the incident affected around 1% of its customers, with stolen data including chat transcripts from its Notion AI \"Insights\" feature. Notion said it disconnected from Fireworks on November 3, deleted data stored in its systems, and stopped all connectivity between the two.",
       "previousPublishedAt": "2026-11-12T15:02:28+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 12.3,
@@ -177,19 +228,19 @@
       "lifecycle": "Updated"
     },
     {
-      "id": "44160da900136a",
+      "id": "2e77a7fdb037c6",
       "cat": "AI",
       "icon": "✦",
       "categories": [
         "AI"
       ],
-      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-      "publishedAt": "2026-11-12T21:27:10+00:00",
-      "importanceScore": 10.5,
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "publishedAt": "2026-11-12T19:11:00+00:00",
+      "importanceScore": 9.2,
       "sourceCount": 1,
       "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-      "summary": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. Nebius’ contract with Microsoft is worth up to $19.4 billion, but it’s already letting deadlines slip.",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "summary": "Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manage social media, customer conversations, content moderation, creator partnerships, and competitor research. Nectar says its Creator Agent searches more than 300 million creator profiles to find potential partners, including smaller creators who may not yet have a large following but are gaining traction.",
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "confidence": "low",
       "verified": false,
@@ -197,13 +248,13 @@
       "sources": [
         {
           "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-          "publishedAt": "2026-11-12T21:27:10+00:00"
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+          "publishedAt": "2026-11-12T19:11:00+00:00"
         }
       ],
-      "firstSeen": "2026-11-12T21:27:10+00:00",
+      "firstSeen": "2026-11-12T19:11:00+00:00",
       "status": "New",
-      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
+      "lastChecked": "2026-11-13T08:01:35.146532+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -211,59 +262,23 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
-    },
-    {
-      "id": "8313b4b36bb6b0",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "RBI plans curbs on private equity control of multiple non-bank lenders: Report",
-      "publishedAt": "2026-11-12T09:15:10+00:00",
-      "importanceScore": 10.5,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms",
-      "summary": "The Economic Times reports that the Reserve Bank of India is planning curbs on private equity firms controlling stakes in multiple non-bank financial companies (NBFCs). The report cites unspecified sources and provides no details on the specific measures, thresholds, or a timeline. No official RBI notification or statement has been confirmed in the source material.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms",
-          "publishedAt": "2026-11-12T09:15:10+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-12T09:15:10+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-13T01:06:50.297241+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 5,
+  "jarvisEditedCount": 1,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-12T19:57:19.530012+00:00",
+  "previousUpdated": "2026-11-13T01:06:50.297241+00:00",
   "changeSummary": {
-    "new": 3,
+    "new": 4,
     "updated": 2,
-    "continuing": 1
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-10T01:34:45.542411+00:00",
-    "updated": "2026-11-13T01:06:50.297241+00:00",
+    "availableFrom": "2026-11-10T09:54:08.758329+00:00",
+    "updated": "2026-11-13T08:01:35.146532+00:00",
     "snapshotCount": 11,
-    "eventCount": 69,
+    "eventCount": 70,
     "retentionHours": 72
   }
 }
