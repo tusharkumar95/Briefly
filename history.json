@@ -3,52 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-10T09:54:08.758329+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "6d5b6ff4332f9b",
-          "cat": "Indian Markets",
-          "title": "Why Rocket Lab shares fell despite record revenue and booming Neutron demand",
-          "summary": "Rocket Lab shares fell more than 6% in after-hours trading on November 9 after the space company reported a wider-than-expected quarterly loss. The decline came despite record revenue, a growing order backlog and rising demand for its upcoming Neutron rocket.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-10T06:17:40+00:00",
-          "firstSeen": "2026-11-10T06:17:40+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms"
-        },
-        {
-          "id": "8c159cb181d89f",
-          "cat": "AI",
-          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-          "summary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. Given the emphasis on low cost and accuracy at scale, Ember is designed to pair with a larger model like Meta’s Muse Wonder in an agentic harness.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-09T18:00:00+00:00",
-          "firstSeen": "2026-11-09T18:00:00+00:00",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-10T17:52:46.865877+00:00",
       "changeSummary": {
         "new": 4,
@@ -1137,6 +1091,106 @@
           "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
         }
       ]
+    },
+    {
+      "at": "2026-11-13T16:28:05.275958+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 0,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "5c978aa3f1e6d7",
+          "cat": "Indian Markets",
+          "title": "US Dow, S&P 500, Nasdaq fall as softer producer prices and Fed tightening outlook weigh",
+          "summary": "On Friday, November 13 2026, the Dow Jones Industrial Average slipped 192.16 points (‑0.37%) to 52,104.93, the S&P 500 dropped 73.80 points (‑0.97%) to 7,518.60, and the Nasdaq Composite fell 367.05 points (‑1.45%) to 24,999.04. The decline followed October producer‑price data that showed a moderated month‑over‑month increase but a 6.5% year‑over‑year rise—the strongest since November 2022—and remarks from Boston Fed President Susan Collins that additional rate hikes are likely, pushing two‑year Treasury yields toward their biggest weekly jump in two years.",
+          "why": "The move underscores how U.S. inflation data and Fed policy expectations can shift risk appetite and capital flows, which matters for Indian investors tracking global market sentiment.",
+          "publishedAt": "2026-11-13T13:11:45+00:00",
+          "firstSeen": "2026-11-13T13:11:45+00:00",
+          "importanceScore": 13.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-microsoft-cerebras-amd-micron-treasury-yield-news-13th-november-2026/liveblog/135804970.cms"
+        },
+        {
+          "id": "20be96325024b4",
+          "cat": "AI",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "summary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-12T17:00:52+00:00",
+          "firstSeen": "2026-11-12T17:00:52+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+        },
+        {
+          "id": "a649b043f9bf3d",
+          "cat": "India",
+          "title": "India's gold imports plunge 62.57% to $5.51 billion in October as prices fall below $4,000/oz",
+          "summary": "India's gold imports fell 39.9% to $24.78 billion during April-October 2026, down from $41.24 billion a year ago, according to Commerce Ministry data. October imports plunged 62.57% year-on-year to $5.51 billion amid a correction in global gold prices.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-13T10:23:27+00:00",
+          "firstSeen": "2026-11-13T10:23:27+00:00",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-gold-imports-plunge-62-57-to-5-51-billion-in-october-as-prices-fall-below-4000/oz/articleshow/135798822.cms"
+        },
+        {
+          "id": "6e8facfd09ae10",
+          "cat": "World",
+          "title": "Pro-government forces take Mekelle, residents report hardship",
+          "summary": "Within two weeks of the war’s start, pro-government troops entered Mekelle, the capital of Ethiopia’s Tigray region, and the city is now under national army control. Salon owner Firut Me’ar says residents are struggling to meet basic needs, with little money, low morale and almost no business, describing daily life as far from normal despite the change in control.",
+          "why": "Shows how the conflict’s rapid advance is affecting civilians in a major regional centre.",
+          "publishedAt": "2026-11-13T00:20:24+00:00",
+          "firstSeen": "2026-11-13T00:20:24+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "766b96c11377c7",
+          "cat": "World",
+          "title": "US Defence Secretary presents medal to Arlington guard after protocol breach",
+          "summary": "A video from a Veterans Day ceremony showed Defence Secretary Pete Hegseth, his wife and senior advisers laughing and posing in front of the Tomb of the Unknown Soldier before a guard asked them to be quiet. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb. Photos posted on the secretary’s X account show the presentation with members of the 3rd US Infantry Regiment (the Old Guard).",
+          "why": "It illustrates the Pentagon’s response to a high‑profile breach of ceremony protocol at a national memorial.",
+          "publishedAt": "2026-11-12T18:47:35+00:00",
+          "firstSeen": "2026-11-12T18:47:35+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "events": {
@@ -1318,57 +1372,6 @@
       "latestSummary": "Max Justicz, CTO of Charge Robotics, used OpenAI’s GPT 5.6 Sol—released in July via the Daybreak Blue program—to locate a severe Ubuntu flaw that could let attackers take over servers. He reported it to the Debian Project, which issued a patch; no exploitation has been confirmed.",
       "why": "Shows frontier AI can accelerate discovery of serious software bugs with real security impact.",
       "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
-    },
-    "b465189d1af1ea": {
-      "id": "b465189d1af1ea",
-      "firstSeen": "2026-11-05T13:38:14+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-05T22:01:33.433106+00:00",
-          "title": "US midterm victory unlikely to affect India‑US interim trade deal",
-          "summary": "Sources said the Democrats’ sweeping win in the U.S. midterm elections is not expected to impact the India‑U.S. interim trade agreement because the pact does not require formal Congressional ratification. The deal could still face challenges from ongoing U.S. Section 301 investigations into forced‑labour practices and excess industrial capacity that may affect tariff policy and finalisation.",
-          "importanceScore": 10.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-06T02:29:24.511335+00:00",
-          "title": "American midterm results will not have an impact on India-US interim trade deal: Sources",
-          "summary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
-          "importanceScore": 9.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-06T10:57:16.507519+00:00",
-          "title": "American midterm results will not have an impact on India-US interim trade deal: Sources",
-          "summary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
-          "importanceScore": 9.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-06T10:57:16.507519+00:00",
-      "cat": "India",
-      "latestTitle": "American midterm results will not have an impact on India-US interim trade deal: Sources",
-      "latestSummary": "The Democrats' sweeping victory in the US midterm elections is unlikely to affect the India-US interim trade agreement, as the pact does not require formal Congressional ratification, sources said. The US midterm election results are unlikely to derail the India-US interim trade deal, but ongoing American tariff investigations remain a key hurdle to finalising the agreement.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/american-midterm-results-will-not-have-an-impact-on-india-us-interim-trade-deal-sources/articleshow/135575578.cms"
     },
     "b95043b4b2f8bf": {
       "id": "b95043b4b2f8bf",
@@ -3450,9 +3453,22 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-11-13T16:28:05.275958+00:00",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "summary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
+      "lastSeen": "2026-11-13T16:28:05.275958+00:00",
       "cat": "AI",
       "latestTitle": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
       "latestSummary": "Witness its $30 billion bet on OpenAI in early 2025 or its announcement in February that its SB Energy subsidiary would spend $33 billion on a 9.2-gigawatt natural gas power plant. Starting about two years ago, SoftBank reportedly put down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
@@ -3488,13 +3504,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-13T16:28:05.275958+00:00",
+          "title": "US Defence Secretary presents medal to Arlington guard after protocol breach",
+          "summary": "A video from a Veterans Day ceremony showed Defence Secretary Pete Hegseth, his wife and senior advisers laughing and posing in front of the Tomb of the Unknown Soldier before a guard asked them to be quiet. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb. Photos posted on the secretary’s X account show the presentation with members of the 3rd US Infantry Regiment (the Old Guard).",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
+      "lastSeen": "2026-11-13T16:28:05.275958+00:00",
       "cat": "World",
-      "latestTitle": "US Defence Secretary awards medal to Arlington guard after protocol breach",
-      "latestSummary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were seen laughing and posing for photos in front of the Tomb of the Unknown Soldier. A guard asked the group to be quiet, and later the Pentagon announced that Hegseth presented Specialist Thomas Iglesias with a Joint Service Commendation Medal for his duties at the Tomb, with photos of the presentation posted on the secretary’s X account.",
-      "why": "It highlights the Pentagon’s emphasis on maintaining decorum at national memorials and acknowledges the guard’s role in enforcing protocol.",
+      "latestTitle": "US Defence Secretary presents medal to Arlington guard after protocol breach",
+      "latestSummary": "A video from a Veterans Day ceremony showed Defence Secretary Pete Hegseth, his wife and senior advisers laughing and posing in front of the Tomb of the Unknown Soldier before a guard asked them to be quiet. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb. Photos posted on the secretary’s X account show the presentation with members of the 3rd US Infantry Regiment (the Old Guard).",
+      "why": "It illustrates the Pentagon’s response to a high‑profile breach of ceremony protocol at a national memorial.",
       "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
     },
     "baaf26e229aebf": {
@@ -3627,13 +3656,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-13T16:28:05.275958+00:00",
+          "title": "Pro-government forces take Mekelle, residents report hardship",
+          "summary": "Within two weeks of the war’s start, pro-government troops entered Mekelle, the capital of Ethiopia’s Tigray region, and the city is now under national army control. Salon owner Firut Me’ar says residents are struggling to meet basic needs, with little money, low morale and almost no business, describing daily life as far from normal despite the change in control.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-13T01:06:50.297241+00:00",
+      "lastSeen": "2026-11-13T16:28:05.275958+00:00",
       "cat": "World",
-      "latestTitle": "Pro-government forces seize Mekelle, Tigray’s capital",
-      "latestSummary": "Within two weeks of the war’s start, pro‑government troops entered Mekelle and the city came under national army control. Residents, including salon owner Firut Me’ar, say daily life remains far from normal, with little money, low morale and almost no business activity. Basic needs such as food are still unaffordable for many families.",
-      "why": "The takeover shows the immediate humanitarian and economic impact on civilians when a major urban centre changes hands in conflict.",
+      "latestTitle": "Pro-government forces take Mekelle, residents report hardship",
+      "latestSummary": "Within two weeks of the war’s start, pro-government troops entered Mekelle, the capital of Ethiopia’s Tigray region, and the city is now under national army control. Salon owner Firut Me’ar says residents are struggling to meet basic needs, with little money, low morale and almost no business, describing daily life as far from normal despite the change in control.",
+      "why": "Shows how the conflict’s rapid advance is affecting civilians in a major regional centre.",
       "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
     },
     "44160da900136a": {
@@ -3760,7 +3802,57 @@
       "latestSummary": "A recent report cautions that irregular monsoon patterns combined with the El Nino climate phenomenon may increase inflationary pressures in India. It notes that this heightened inflation risk could lead the Reserve Bank of India to consider an additional interest‑rate hike in the near term.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
+    },
+    "5c978aa3f1e6d7": {
+      "id": "5c978aa3f1e6d7",
+      "firstSeen": "2026-11-13T13:11:45+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T16:28:05.275958+00:00",
+          "title": "US Dow, S&P 500, Nasdaq fall as softer producer prices and Fed tightening outlook weigh",
+          "summary": "On Friday, November 13 2026, the Dow Jones Industrial Average slipped 192.16 points (‑0.37%) to 52,104.93, the S&P 500 dropped 73.80 points (‑0.97%) to 7,518.60, and the Nasdaq Composite fell 367.05 points (‑1.45%) to 24,999.04. The decline followed October producer‑price data that showed a moderated month‑over‑month increase but a 6.5% year‑over‑year rise—the strongest since November 2022—and remarks from Boston Fed President Susan Collins that additional rate hikes are likely, pushing two‑year Treasury yields toward their biggest weekly jump in two years.",
+          "importanceScore": 13.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T16:28:05.275958+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "US Dow, S&P 500, Nasdaq fall as softer producer prices and Fed tightening outlook weigh",
+      "latestSummary": "On Friday, November 13 2026, the Dow Jones Industrial Average slipped 192.16 points (‑0.37%) to 52,104.93, the S&P 500 dropped 73.80 points (‑0.97%) to 7,518.60, and the Nasdaq Composite fell 367.05 points (‑1.45%) to 24,999.04. The decline followed October producer‑price data that showed a moderated month‑over‑month increase but a 6.5% year‑over‑year rise—the strongest since November 2022—and remarks from Boston Fed President Susan Collins that additional rate hikes are likely, pushing two‑year Treasury yields toward their biggest weekly jump in two years.",
+      "why": "The move underscores how U.S. inflation data and Fed policy expectations can shift risk appetite and capital flows, which matters for Indian investors tracking global market sentiment.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-microsoft-cerebras-amd-micron-treasury-yield-news-13th-november-2026/liveblog/135804970.cms"
+    },
+    "a649b043f9bf3d": {
+      "id": "a649b043f9bf3d",
+      "firstSeen": "2026-11-13T10:23:27+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-13T16:28:05.275958+00:00",
+          "title": "India's gold imports plunge 62.57% to $5.51 billion in October as prices fall below $4,000/oz",
+          "summary": "India's gold imports fell 39.9% to $24.78 billion during April-October 2026, down from $41.24 billion a year ago, according to Commerce Ministry data. October imports plunged 62.57% year-on-year to $5.51 billion amid a correction in global gold prices.",
+          "importanceScore": 12.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-13T16:28:05.275958+00:00",
+      "cat": "India",
+      "latestTitle": "India's gold imports plunge 62.57% to $5.51 billion in October as prices fall below $4,000/oz",
+      "latestSummary": "India's gold imports fell 39.9% to $24.78 billion during April-October 2026, down from $41.24 billion a year ago, according to Commerce Ministry data. October imports plunged 62.57% year-on-year to $5.51 billion amid a correction in global gold prices.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-gold-imports-plunge-62-57-to-5-51-billion-in-october-as-prices-fall-below-4000/oz/articleshow/135798822.cms"
     }
   },
-  "updated": "2026-11-13T08:01:35.146532+00:00"
+  "updated": "2026-11-13T16:28:05.275958+00:00"
 }
