@@ -1,18 +1,28 @@
 {
-  "updated": "2026-11-13T22:52:39.071898+00:00",
+  "updated": "2026-11-14T03:33:34.609554+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX dips as AI stocks tumble, Nvidia uncertainty drags market",
+      "headline": "S&P/TSX Composite was little changed 0.09%",
       "direction": "flat",
       "move": "S&P/TSX Composite -0.09%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "AI stock decline",
-          "detail": "Falling AI‑related stocks were cited as the primary factor behind the TSX’s lower close.",
+          "label": "Nvidia uncertainty",
+          "detail": "Sources report that uncertainty around Nvidia weighed on tech shares, contributing to the TSX’s decline.",
+          "kind": "context"
+        },
+        {
+          "label": "Falling AI stocks",
+          "detail": "Falling AI stocks in the U.S. markets were cited as a factor that pulled the TSX lower.",
+          "kind": "context"
+        },
+        {
+          "label": "Utilities and telecoms offset",
+          "detail": "Utilities and telecoms gains partially offset tech and base metals losses, but were not enough to prevent the overall slip.",
           "kind": "context"
         }
       ],
@@ -34,10 +44,22 @@
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "The Globe and Mail",
+          "title": "TSX, S&P 500, and Nasdaq end lower as Nvidia uncertainty weighs on tech shares - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdUozR1pzbGZxX2ZDS05rTGpmMFRSaGhpREFpZGFMc1drWGF0UlRQN3ZFX0FMUC1fcGppMUpxUWJ2bUVBWWgyYmlOVmZkY3hadG5EejBLTERZcE52R2ViQ1dHSmNtekpWTzY2bWZ4Zl92dWswWjVuRTV4aW1vWElZZ2w0RGd2TXB0Rk1jcFFmdmhSVWF5LUNzSS04MlV4YlVxSnJZWDJjQWVhZ2xVeVdhRGFyREpwbURmTDlFX2tNRGRKTU52WnpLMWM0Mkc0Y0NFaVB4QUtYLXJrdm13TWlCNUJlNGFNSVNOektCMno1VV8?oc=5",
+          "publishedAt": "2026-11-13T10:01:24+00:00"
+        },
+        {
           "name": "Yahoo! Finance Canada",
           "title": "TSX finishes lower Friday as falling AI stocks weigh on U.S. markets - Yahoo! Finance Canada",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaTFoVlJ6YkFpQS1rV2ZjRnVEMnRORm9lVktlSWxhWGplRXZHdkFaaGczTklJMzl3NTBWMTNvb3h4bU10REJOM3Z6cWlRMXYwU2FUQzdsVTZKM3hhNEVQRGVIby1zS3gtMkx5UWtBWjhzUU1MMDN1ZmFRRFJqZjQ5LXhJNnRYUQ?oc=5",
           "publishedAt": "2026-11-13T22:01:43+00:00"
+        },
+        {
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange Today: S&P/TSX Composite Slips to 36,105.90 as Utilities and Telecoms Offset Tech and Base Metals - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNR2VnTmd1UFVDYk5VM2NLNmhFWFdUbUhHOUxkSlRhU2h4c05ZNFJWQzlHclkzRVQyYU42RU85YmFRM280dy1JemtsR3hBN1dBbGp3alV1T0Z2ZGE2cDJST0gyR3ZsMGtvQWNJUGJVWkk2LUhFRm9TeE5RRmtyQ0hCYnB3X1R4UGZFNG1zaWU0V0ZNdnoyZHNJbXN0ekdmeUw3TkU1TkJRYWdSdzRxcUdwWnRpUjF0ZFlXN3NwbEhDMGJaSFRpRkYwWDVieVBlcnoyZk8ycTlSOExSUEtVRW1QMjBpV1FJUjhuUF9EV1ljMEQ?oc=5",
+          "publishedAt": "2026-11-13T21:57:44+00:00"
         },
         {
           "name": "Investing.com",
@@ -56,54 +78,42 @@
           "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.09% - Investing.com UK",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSC1XbW1SaXl2T1E3a2g2VF92dG0yLWFuWmg2dUJpb1pFR0YyNC0yUEhfXzN3N3dPS25Hd19CTVgzNWI5b3gzcEMzblZXcGpQV2c4U0NBa1FEV1pGZV9DQkkxZFhYX1hXQWl6TE1tc3RyZ2pyT1BxWEJqQmM4c2lyTHZEVktmanYzQmJ0RlRMekQ5WmRBRy0tN1pWS1BZODhJXy00cTJGME96SnpsbWIyZmEzbDlSNHQ0c1E?oc=5",
           "publishedAt": "2026-11-13T21:30:00+00:00"
-        },
-        {
-          "name": "The Globe and Mail",
-          "title": "TSX, S&P 500, and Nasdaq end lower as Nvidia uncertainty weighs on tech shares - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdUozR1pzbGZxX2ZDS05rTGpmMFRSaGhpREFpZGFMc1drWGF0UlRQN3ZFX0FMUC1fcGppMUpxUWJ2bUVBWWgyYmlOVmZkY3hadG5EejBLTERZcE52R2ViQ1dHSmNtekpWTzY2bWZ4Zl92dWswWjVuRTV4aW1vWElZZ2w0RGd2TXB0Rk1jcFFmdmhSVWF5LUNzSS04MlV4YlVxSnJZWDJjQWVhZ2xVeVdhRGFyREpwbURmTDlFX2tNRGRKTU52WnpLMWM0Mkc0Y0NFaVB4QUtYLXJrdm13TWlCNUJlNGFNSVNOektCMno1VV8?oc=5",
-          "publishedAt": "2026-11-13T10:01:24+00:00"
-        },
-        {
-          "name": "Kitco",
-          "title": "TSX futures muted as gold edges higher; investors assess Nvidia CEO's exit - Kitco",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM2QxQkdDLTNWckZhUTZqSEtDd213Qnd5cWhfeGxuMnktd0NTZllGd0ticHpnR2llOEoydG9fM2JDRURKOVZkNFI1d2NkaDlMcURrRy0tendubzFLUjhHWXdzRkxnRWJvUXVLYTBDVlZLbnJFUTlUeV9zdzFjQk9KOXltNTdTT3JwUG5wcTZRMXkxNlRXWE1KQ2ZsMm52MjlwenN5X2lReDRoLWJJOXVOTWliZXI2dmRhVkJOMA?oc=5",
-          "publishedAt": "2026-11-13T14:10:54+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.18%",
-      "direction": "up",
-      "move": "Nifty 50 +0.18%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "headline": "Nifty 50 fell 0.61%",
+      "direction": "down",
+      "move": "Nifty 50 -0.61%",
+      "why": "Same-day market coverage explicitly linked the final move to: Nifty Ends at 25,144, Snapping a Winning Streak; profit booking; Bank Nifty slips 0.8%: Why did market fall today?; Inflation Hits 2-Year High.",
       "drivers": [
         {
-          "label": "BSE Sensex closes at 81,592.45 as inflation and crude weigh",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "Nifty Ends at 25,144, Snapping a Winning Streak",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Defence stock ends session 8% higher even as Sensex, Nifty drop amid profit booking",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "profit booking; Bank Nifty slips 0.8%: Why did market fall today?",
+          "detail": "Zee Business explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Closing Bell: Sensex, Nifty close lower after profit booking; Bank Nifty slips 0.8%: Why d",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "Inflation Hits 2-Year High",
+          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25299.35,
-        "previousClose": 25255.05,
-        "change": 44.3,
-        "changePct": 0.18,
+        "price": 25144.3,
+        "previousClose": 25299.35,
+        "change": -155.05,
+        "changePct": -0.61,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -113,10 +123,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 81911.01,
-        "previousClose": 81879.4,
-        "change": 31.61,
-        "changePct": 0.04,
+        "price": 81592.45,
+        "previousClose": 81911.01,
+        "change": -318.55,
+        "changePct": -0.39,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -124,6 +134,12 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
+        {
+          "name": "BBN Times",
+          "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcWhfcXNmcy03Y2JVZVlqS2wzTVFUU2NnTWJmbVJLQkZBbHhoTlkxb0x4X1R4MGNZNk5OM25YYW1NN0JWQ25FclJCX1pUaEVadE9XaFdiVmM1eFZvSTM0N0lCNzFDRkNSQnF3MmJDc3I2OXNOTFB0N19wbXdMeUdNYzZZZGlMQV9NUk9QRG41MjZ5ZkMzY1hLWkt5ODJjTDlMQW5RbEF4MXRtUmtxUzBTVGNjRDVFVWxZX0VwRENNT0FqQXo1Z2c?oc=5",
+          "publishedAt": "2026-11-13T21:32:29+00:00"
+        },
         {
           "name": "ad-hoc-news.de",
           "title": "BSE Sensex closes at 81,592.45 as inflation and crude weigh - ad-hoc-news.de",
@@ -149,16 +165,10 @@
           "publishedAt": "2026-11-13T10:03:15+00:00"
         },
         {
-          "name": "ETV Bharat",
-          "title": "Stock Market Today: Sensex, Nifty Decline After 3-Day Rally Amid Profit Booking, High Inflation Figures - ETV Bharat",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY3ZYMTdiR192LUZLcUhvOWxGY3ZybGtsWUM3Sm5jSTBLZXRpOEVOMHNyMzBxV3AxOWZYN084N3FwRU0zTTRONDdCbEFpWVlWQkFCT2djSXZSWlNHYm9nNUdLZmJwNE9yUUxzMm1NWnNXMWgySTJIeXNsR2Y4UGZvd3hVcXZvaWlLWUJLbEI4N0lVZlkxNVF3TG5rRW1nU1BYWWkyMVJqN2xxTHRySkhtdUdJYmdmQlNJQXV4c3JVd0k0ZGF00gHKAUFVX3lxTFBMdy1DUUtBZGpSS0hiRGhNdmZLT2tIdWNGODJVNlNrbk50RlY5ejNSNk0zallueXZkTUdCZV9ZSExUMi04TXcwanFzNkZXVURRYzJOS3dpUUFYV3A0YVF6amJlZkNKY1hPbFQ0SGJRdVp6U1pNM18xWTJ0ZmdEVEpIMV9PdnZTalVTcW14NDNfa3MyTmR4VnZmOUJZMlZ5MzhQSTg5eFVROXdZRDVaSlIyeGMyNVl0dXoweVRIVE9pRUxueEl2VV9lQnc?oc=5",
-          "publishedAt": "2026-11-13T04:53:16+00:00"
-        },
-        {
           "name": "Dalal Street Investment Journal",
-          "title": "Nifty 50, Sensex Fall Up to 0.7% as Inflation Hits 2-Year High of 6.09% in October - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMmNtVDZpS0lLTzBYbDA1cFBtUlZRMms0dHFuSnR0SlFhME9XdzdRcVE0azE3TFdCWUh4aFFKbmJxYXR3U0toZXFOczZFTTBkODVOenRacVBSaXZCQ1lmclIxM0d6U01jZWwzRlNPWGhkaS1Scy04MENYNFBOYWl5UGVBWm5LdDFMdjNfQ2U2SGNIYkplR0g1OXM0cTVNRm1xZU5MUFcwZmhaRG43TmdqdGVmMDB6Wk9HUVJ1SjlSRXpGazhp?oc=5",
-          "publishedAt": "2026-11-13T04:05:54+00:00"
+          "title": "Sensex Falls 528 Points, Nifty 50 Drops 217 Points as Inflation Hits 2-Year High - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ19vSjRDQjVpbzVySmNlVWRkOHBmbGJaSHhOYWxfanNwdGlLRHFIaDEzeUFNSTNPMjN5elE5T0VySkh0dDRWdlBOMXg1UVFDXzh6SXdnREFSYlNpNEhkbUdzVXVMQnI2TVpQVlc3aEFzZ04tWWNIUVE0OG5KM2RmcFE4ZEs2aUJPQ3F3U1NTRHhEeEFadkxkaFdIYnFsN3c4bE9rV1hkT3NZYnVjYWlLRlNaNkhvRDBLUWdIbm9VS3ExYjQzLWZB?oc=5",
+          "publishedAt": "2026-11-13T08:56:21+00:00"
         }
       ],
       "evidenceCount": 7
