@@ -3,160 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-10T23:25:15.986188+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 2,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "e028a175b2b8f5",
-          "cat": "Canada",
-          "title": "Bank of Canada staying cautious but considering more rate hikes: summary",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Gord Hasay November 10, 2026 at 4:16 pm “The Bank of Canada’s governing council thinks it might need to raise interest rates” It means they are causing higher inflation by making things more expensive.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-10T21:01:02+00:00",
-          "firstSeen": "2026-11-10T21:01:02+00:00",
-          "importanceScore": 14.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12144994/bank-of-canada-rate-hike-summary/"
-        },
-        {
-          "id": "d0e353da860036",
-          "cat": "India",
-          "title": "India's unemployment rate falls to 5.1% in July-September quarter",
-          "summary": "India's unemployment rate fell to 5.1% in the July-September quarter, according to The Economic Times, with rural joblessness declining. The report does not provide prior-quarter comparisons or methodology details.",
-          "why": "The decline suggests easing labor-market pressure and could affect policy and economic outlook.",
-          "publishedAt": "2026-11-10T12:03:58+00:00",
-          "firstSeen": "2026-11-10T12:03:58+00:00",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-falls-to-5-1-in-july-september-as-rural-joblessness-declines/articleshow/135709920.cms"
-        },
-        {
-          "id": "eb019b66c6765a",
-          "cat": "AI",
-          "title": "New York launches registration portal for large AI developers under RAISE Act",
-          "summary": "New York opened a registration portal on Tuesday, requiring “large frontier” AI developers—companies with over $500 million in annual revenue such as Anthropic and OpenAI—to register by Jan 1 2027. The RAISE Act, effective at the start of the year, requires them to publish safety frameworks, report critical safety incidents within 72 hours, and issue model‑transparency reports. The new Office of Digital Innovation, Governance, Integrity, and Trust (DIGIT) will enforce the law, with penalties up to $1 million for a first violation and $3 million for later ones.",
-          "why": "It establishes enforceable safety and transparency standards that could shape how leading AI firms develop and deploy models.",
-          "publishedAt": "2026-11-10T20:52:13+00:00",
-          "firstSeen": "2026-11-10T20:52:13+00:00",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
-        },
-        {
-          "id": "2452aff01a301a",
-          "cat": "Indian Markets",
-          "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
-          "summary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-10T02:18:28+00:00",
-          "firstSeen": "2026-11-10T02:18:28+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms"
-        },
-        {
-          "id": "3f4f85a0ec4423",
-          "cat": "Canada",
-          "title": "Canadian businesses have ‘cushion’ to absorb costs, limit inflation: report",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Global News Morning: Your Money Matters: What the Bank of Canada rate hike means for you",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-10T21:21:57+00:00",
-          "firstSeen": "2026-11-10T21:21:57+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12144324/canadian-consumer-prices-inflation-cibc-report/"
-        },
-        {
-          "id": "e84674844299f5",
-          "cat": "AI",
-          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-          "summary": "Google is notching up its chipmaking game as the company seeks to reduce its dependence on chips made by other companies for its cloud computing business. Google on Monday unveiled two new variants of its tensor processing units (TPUs), in-house-developed chips meant for AI workloads, that broaden its chip portfolio to additional use cases: confidential inference and more memory capacity for large workloads.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-10T15:54:08+00:00",
-          "firstSeen": "2026-11-10T15:54:08+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
-        },
-        {
-          "id": "ab08375d742201",
-          "cat": "India",
-          "title": "India well on track to achieve $1 trillion exports target for FY27: Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal said India is on track to achieve its $1 trillion goods and services export target in FY27, having already recorded nearly $480 billion in exports during April-September. Goyal urged manufacturers to expand globally, boost competitiveness and leverage international partnerships to drive exports, investment and employment.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-10T17:05:33+00:00",
-          "firstSeen": "2026-11-10T17:05:33+00:00",
-          "importanceScore": 10.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms"
-        },
-        {
-          "id": "89ba01493d3be1",
-          "cat": "India",
-          "title": "India may get a better trade deal: Samir Saran on renegotiating with the US",
-          "summary": "Following the U.S. midterm elections, Samir Saran said India should negotiate with patience, noting that aggressive U.S. tariff threats are usually part of broader talks rather than immediate policy shifts. He pointed to bipartisan support in Congress and India’s large market as factors that could help secure more favorable terms.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-10T12:49:29+00:00",
-          "firstSeen": "2026-11-10T12:49:29+00:00",
-          "importanceScore": 10.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-may-get-a-better-trade-deal-samir-saran-on-renegotiating-with-the-us/articleshow/135711398.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-11T06:28:48.202442+00:00",
       "changeSummary": {
         "new": 2,
@@ -1245,6 +1091,124 @@
           "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
         }
       ]
+    },
+    {
+      "at": "2026-11-14T03:19:08.560446+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 2,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "8b7ae855cfbd18",
+          "cat": "India",
+          "title": "India food inflation expected to stay high as RBI plans 25 bps rate hike",
+          "summary": "Food inflation in India is projected to remain elevated in the coming months due to a shortfall in crops. The Reserve Bank of India is anticipated to raise interest rates by 25 basis points in December to manage retail inflation. Weak monsoon conditions and high energy prices are contributing to upward price pressure on essential food items.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-13T04:36:54+00:00",
+          "firstSeen": "2026-11-13T04:36:54+00:00",
+          "importanceScore": 14.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms"
+        },
+        {
+          "id": "36469d71bbd2b4",
+          "cat": "AI",
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+          "summary": "The leading open-weight models developed by Chinese companies were trained on Nvidia chips that the U.S. Nvidia CEO Jensen Huang left the company this week after admitting to his affair with Alice Huang, executive of Megaspeed, a company implicated in smuggling Nvidia chips into China.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-13T18:40:30+00:00",
+          "firstSeen": "2026-11-13T18:40:30+00:00",
+          "importanceScore": 13.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        },
+        {
+          "id": "1c93a37e7bc599",
+          "cat": "Indian Markets",
+          "title": "India bonds under pressure before debt supply; hot inflation prints pinch further",
+          "summary": "Indian government bonds experienced significant selling pressure ahead of a major auction for the benchmark paper. The yield on the 6.94% 2036 bond rose notably due to rising inflation in both India and the United States.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-13T04:46:04+00:00",
+          "firstSeen": "2026-11-13T04:46:04+00:00",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-under-pressure-before-debt-supply-hot-inflation-prints-pinch-further/articleshow/135789760.cms"
+        },
+        {
+          "id": "b1068451715230",
+          "cat": "India",
+          "title": "US assures India lower tariffs than peers in trade deal",
+          "summary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates that are lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods, while tariff arrangements for services will be negotiated in a later phase.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-13T13:47:53+00:00",
+          "firstSeen": "2026-11-13T13:47:53+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
+        },
+        {
+          "id": "4520ef3c096477",
+          "cat": "Indian Markets",
+          "title": "Carlsberg said to start road show for $600 million India IPO",
+          "summary": "Carlsberg is preparing a potential $600 million IPO of its Indian business, targeting a $4 billion valuation. Strong IPO demand in India supports the listing outlook, with Carlsberg India reporting robust revenue.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-13T05:15:15+00:00",
+          "firstSeen": "2026-11-13T05:15:15+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-said-to-start-road-show-for-600-million-india-ipo/articleshow/135790402.cms"
+        },
+        {
+          "id": "19bf025da197e5",
+          "cat": "India",
+          "title": "Report says uneven monsoons and El Nino raise upside inflation risks, could trigger RBI rate hike",
+          "summary": "A report warned that uneven monsoon rainfall across India and the emergence of an El Nino pattern create upside risks to consumer‑price inflation. It noted that these risks could increase the likelihood of the Reserve Bank of India implementing another interest‑rate hike to contain price pressures.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-13T03:35:34+00:00",
+          "firstSeen": "2026-11-13T03:35:34+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1298,236 +1262,6 @@
       "latestSummary": "Amid this broad-based rally, around 45 stocks from the BSE 200 index advanced in all five consecutive sessions from November 2 to 6. Of these, we shortlisted 9 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 15% to 20%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-9-stocks-gain-for-5-days-in-a-row/slideshow/135631187.cms"
-    },
-    "b95043b4b2f8bf": {
-      "id": "b95043b4b2f8bf",
-      "firstSeen": "2026-11-06T07:51:18+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T10:57:16.507519+00:00",
-          "title": "India October consumer inflation likely near RBI's top target, poll says",
-          "summary": "A Reuters poll reported by the Economic Times says India's consumer price inflation for October is expected to be close to the upper end of the Reserve Bank of India's inflation target. The poll attributes the upward pressure mainly to higher food prices. No specific inflation rate or poll details were provided.",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-06T17:59:43.673994+00:00",
-          "title": "India October consumer inflation expected to rise, driven by food price surge",
-          "summary": "Economists expect India's overall consumer price inflation to increase in October, primarily due to a sharp rise in food prices. Food inflation is projected at about 8.2%, while the RBI projects average inflation of 5.2% for the current fiscal year. A rate hike is likely at the central bank's next policy meeting.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-07T02:50:28.319139+00:00",
-          "title": "India's October consumer inflation likely nears top of RBI target on food costs",
-          "summary": "A Reuters poll reported by the Economic Times projects that October consumer price inflation will be close to the upper end of the Reserve Bank of India's 2‑6% target range, with food price increases identified as the main driver. The forecast puts inflation near the 6% ceiling.",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-07T02:50:28.319139+00:00",
-      "cat": "India",
-      "latestTitle": "India's October consumer inflation likely nears top of RBI target on food costs",
-      "latestSummary": "A Reuters poll reported by the Economic Times projects that October consumer price inflation will be close to the upper end of the Reserve Bank of India's 2‑6% target range, with food price increases identified as the main driver. The forecast puts inflation near the 6% ceiling.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-consumer-inflation-soars-as-food-prices-surge-october-predictions-near-rbis-max-target/articleshow/135599213.cms"
-    },
-    "e42f6559f926b9": {
-      "id": "e42f6559f926b9",
-      "firstSeen": "2026-11-06T04:41:27+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T10:57:16.507519+00:00",
-          "title": "IPO multibaggers: 13 stocks that delivered up to 193% returns since last Dhanteras",
-          "summary": "From the last Dhanteras in October 2025 to the latest festive season in November 2026, these 13 IPO stocks have generated returns of over 100% over their offer prices. ESDS Software Solution has delivered a 178.29% return over its IPO issue price of Rs 429, with shares climbing to Rs 1,193.85.",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-06T17:59:43.673994+00:00",
-          "title": "Indian IPOs produce 13 multibaggers with up to 193% returns since October 2025",
-          "summary": "Over the past year, India's IPO market generated several large winners, with 13 newly listed companies delivering returns exceeding 100% on their offer prices between the last Dhanteras in October 2025 and November 2026. Omnitech Engineering led the list, gaining 192.62% (Rs 227 issue price to Rs 664.25 on 4 Nov 2026), followed by ESDS Software Solution (178.29% gain) and KSH International (156.41% gain). The companies raised between Rs 583 crore and Rs 3,812 crore in their public issues and have traded well above both issue and listing prices.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-06T23:11:48.681827+00:00",
-          "title": "13 Indian IPOs double issue price, top gainer 192.6% since Oct 2025",
-          "summary": "From the Dhanteras period in October 2025 through November 2026, 13 newly listed Indian IPOs have posted returns above 100% versus their issue prices, according to Prime Database. Omnitech Engineering led with a 192.62% gain, trading at Rs 664.25 on Nov 4 2026 versus its Rs 227 issue price. ESDS Software Solution (178.29%), KSH International (156.41%) and INDO‑MIM (155.75%) were also among the top performers.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-07T02:50:28.319139+00:00",
-          "title": "13 Indian IPOs double issue price between Oct 2025‑Nov 2026",
-          "summary": "An Economic Times slideshow lists 13 companies that listed from October 2025 to November 2026 and posted returns above 100% on their IPO issue prices, with gains ranging from about 156% to 193%. Omnitech Engineering recorded the highest gain at 192.62% (issue price Rs 227 to Rs 664.25), while ESDS Software Solution, KSH International and INDO‑MIM each delivered returns above 150%. The piece includes each firm’s issue price, listing‑day price and amount raised.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-07T02:50:28.319139+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "13 Indian IPOs double issue price between Oct 2025‑Nov 2026",
-      "latestSummary": "An Economic Times slideshow lists 13 companies that listed from October 2025 to November 2026 and posted returns above 100% on their IPO issue prices, with gains ranging from about 156% to 193%. Omnitech Engineering recorded the highest gain at 192.62% (issue price Rs 227 to Rs 664.25), while ESDS Software Solution, KSH International and INDO‑MIM each delivered returns above 150%. The piece includes each firm’s issue price, listing‑day price and amount raised.",
-      "why": "Demonstrates that recent Indian IPOs have produced substantial short‑term price appreciation, a factor investors may consider when evaluating new listings.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ipo-multibaggers-13-stocks-that-delivered-up-to-193-returns-since-last-dhanteras/slideshow/135594462.cms"
-    },
-    "bf45370e69b695": {
-      "id": "bf45370e69b695",
-      "firstSeen": "2026-11-06T05:44:39+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T10:57:16.507519+00:00",
-          "title": "Micron Technology shares fall 17% on Nov. 5 amid AI chip selloff",
-          "summary": "Micron Technology's stock fell 17.46% to close at $656.39 on November 5, its lowest level in nearly six months, after touching an intraday low of $650. Investors dumped semiconductor and AI-related stocks as concerns grew over the outlook for the AI trade. (Sources: TradingKey, Benzinga)",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-06T17:59:43.673994+00:00",
-          "title": "Micron shares fall 17% amid AI chip selloff",
-          "summary": "Micron Technology shares fell 17.46% on November 5, closing at $656.39, their lowest level in nearly six months, after touching an intraday low of $650. The decline erased more than 30% of the stock's gains from its October 28 peak near $990, with trading volume roughly doubling the recent average. Investors sold semiconductor and AI-related stocks over concerns that potential restrictions on data centre construction could slow AI infrastructure expansion and weaken future demand for high-bandwidth memory.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-06T23:11:48.681827+00:00",
-          "title": "Micron Technology shares plunge 17% amid AI chip selloff",
-          "summary": "On November 5, Micron Technology’s shares fell 17.46% to close at $656.39, their lowest level in nearly six months, after touching an intraday low of $650. The decline came as investors sold semiconductor and AI‑related stocks amid growing concerns about the outlook for the AI trade.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-07T02:50:28.319139+00:00",
-          "title": "Micron stock tanks 17% as AI chip selloff deepens: What's next?",
-          "summary": "Micron Technology shares witnessed a massive selloff on November 5, plunging 17.46% to close at $656.39, their lowest level in nearly six months. The stock also touched an intraday low of $650 as investors dumped semiconductor and AI-related stocks amid growing concerns over the outlook for the AI trade.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-07T02:50:28.319139+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Micron stock tanks 17% as AI chip selloff deepens: What's next?",
-      "latestSummary": "Micron Technology shares witnessed a massive selloff on November 5, plunging 17.46% to close at $656.39, their lowest level in nearly six months. The stock also touched an intraday low of $650 as investors dumped semiconductor and AI-related stocks amid growing concerns over the outlook for the AI trade.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/micron-stock-tanks-17-as-ai-chip-selloff-deepens-whats-next/slideshow/135595811.cms"
-    },
-    "d2a73f573f0fb0": {
-      "id": "d2a73f573f0fb0",
-      "firstSeen": "2026-11-06T07:33:41+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T10:57:16.507519+00:00",
-          "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
-          "summary": "At least 12 other military sites, including missile complexes and air bases, appear to show signs of repairs. New roofs have been built on destroyed buildings at the Kermanshah missile base in western Iran, near the border with Iraq, while damaged buildings and debris have been cleared at the Parchin military complex - which has been repeatedly repaired despite a succession of air strikes - east of the capital.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-06T17:59:43.673994+00:00",
-          "title": "Iran constructs and repairs missile sites, satellite images show",
-          "summary": "Satellite imagery taken in November shows new digging and buildings at the Garmdareh military base near Tehran and the Shahroud base in northern Iran, indicating fresh construction near two major missile sites. The images also reveal repairs such as new roofs at the Kermanshah missile base and cleared debris at the Parchin complex, with similar work evident at about a dozen other military locations.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-06T23:11:48.681827+00:00",
-          "title": "Iran expands and repairs missile bases, satellite images reveal",
-          "summary": "Satellite imagery taken in November shows new digging and construction at the Garmdareh military base near Tehran and the Shahroud base in northern Iran, indicating significant work at two major missile sites. Analysts also note repairs at the Kermanshah missile base in the west and debris clearance at the Parchin complex east of the capital, with signs of refurbishment at at least a dozen other military locations.",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-06T23:11:48.681827+00:00",
-      "cat": "World",
-      "latestTitle": "Iran expands and repairs missile bases, satellite images reveal",
-      "latestSummary": "Satellite imagery taken in November shows new digging and construction at the Garmdareh military base near Tehran and the Shahroud base in northern Iran, indicating significant work at two major missile sites. Analysts also note repairs at the Kermanshah missile base in the west and debris clearance at the Parchin complex east of the capital, with signs of refurbishment at at least a dozen other military locations.",
-      "why": "The activity shows Iran is rebuilding missile infrastructure that was damaged by recent air strikes.",
-      "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
     },
     "e9e68eea47ae36": {
       "id": "e9e68eea47ae36",
@@ -1707,44 +1441,6 @@
       "latestSummary": "Bloomberg reported, via TechCrunch, that OpenAI has secured $11 billion so far in an ongoing financing round that values the company at $1.25 trillion. The round has not closed and Bloomberg said it could total about $20 billion, below the roughly $30 billion target mentioned in September. TechCrunch has asked OpenAI for comment.",
       "why": "The capital could fund OpenAI’s product development and affect its competitive positioning.",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-    },
-    "d5cde75f0e48b4": {
-      "id": "d5cde75f0e48b4",
-      "firstSeen": "2026-11-06T21:54:38+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T23:11:48.681827+00:00",
-          "title": "Alek Minassian, convicted in deadly 2018 Toronto van attack, drops appeal",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-07T02:50:28.319139+00:00",
-          "title": "Alek Minassian, convicted in deadly 2018 Toronto van attack, drops appeal",
-          "summary": "Ontario’s top court says Alek Minassian has abandoned the appeal of his convictions on 10 counts of first-degree murder and 16 of attempted murder. Eight women and two men died on April 23, 2018, when Minassian — enraged that women wouldn’t sleep with him and radicalized online — deliberately drove a rented van down a crowded sidewalk in his quest for infamy.",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-07T02:50:28.319139+00:00",
-      "cat": "Canada",
-      "latestTitle": "Alek Minassian, convicted in deadly 2018 Toronto van attack, drops appeal",
-      "latestSummary": "Ontario’s top court says Alek Minassian has abandoned the appeal of his convictions on 10 counts of first-degree murder and 16 of attempted murder. Eight women and two men died on April 23, 2018, when Minassian — enraged that women wouldn’t sleep with him and radicalized online — deliberately drove a rented van down a crowded sidewalk in his quest for infamy.",
-      "why": "This matters because it could affect Canada’s economy, major industries, investment, jobs or household costs.",
-      "url": "https://globalnews.ca/news/12140631/alek-minassian-convicted-in-deadly-2018-toronto-van-attack-drops-appeal/"
     },
     "8acd95a80755f2": {
       "id": "8acd95a80755f2",
@@ -3683,12 +3379,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-14T03:19:08.560446+00:00",
+          "title": "Report says uneven monsoons and El Nino raise upside inflation risks, could trigger RBI rate hike",
+          "summary": "A report warned that uneven monsoon rainfall across India and the emergence of an El Nino pattern create upside risks to consumer‑price inflation. It noted that these risks could increase the likelihood of the Reserve Bank of India implementing another interest‑rate hike to contain price pressures.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
+      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
       "cat": "India",
-      "latestTitle": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
-      "latestSummary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
+      "latestTitle": "Report says uneven monsoons and El Nino raise upside inflation risks, could trigger RBI rate hike",
+      "latestSummary": "A report warned that uneven monsoon rainfall across India and the emergence of an El Nino pattern create upside risks to consumer‑price inflation. It noted that these risks could increase the likelihood of the Reserve Bank of India implementing another interest‑rate hike to contain price pressures.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
     },
@@ -3758,12 +3467,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-14T03:19:08.560446+00:00",
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+          "summary": "The leading open-weight models developed by Chinese companies were trained on Nvidia chips that the U.S. Nvidia CEO Jensen Huang left the company this week after admitting to his affair with Alice Huang, executive of Megaspeed, a company implicated in smuggling Nvidia chips into China.",
+          "importanceScore": 13.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
+      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
       "cat": "AI",
-      "latestTitle": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
-      "latestSummary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
+      "latestTitle": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "latestSummary": "The leading open-weight models developed by Chinese companies were trained on Nvidia chips that the U.S. Nvidia CEO Jensen Huang left the company this week after admitting to his affair with Alice Huang, executive of Megaspeed, a company implicated in smuggling Nvidia chips into China.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
     },
@@ -3783,12 +3505,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-14T03:19:08.560446+00:00",
+          "title": "US assures India lower tariffs than peers in trade deal",
+          "summary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates that are lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods, while tariff arrangements for services will be negotiated in a later phase.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
+      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
       "cat": "India",
-      "latestTitle": "US pledges lower tariffs for India in pending trade deal",
-      "latestSummary": "The United States told India it will apply tariffs lower than those imposed on other trading partners under the proposed agreement. The first phase will cover goods, with services to be negotiated later. The negotiations have been ongoing for nearly two years and are reported to be close to finalisation with most key issues resolved.",
+      "latestTitle": "US assures India lower tariffs than peers in trade deal",
+      "latestSummary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates that are lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods, while tariff arrangements for services will be negotiated in a later phase.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
     },
@@ -3866,7 +3601,82 @@
       "latestSummary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
+    },
+    "8b7ae855cfbd18": {
+      "id": "8b7ae855cfbd18",
+      "firstSeen": "2026-11-13T04:36:54+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-14T03:19:08.560446+00:00",
+          "title": "India food inflation expected to stay high as RBI plans 25 bps rate hike",
+          "summary": "Food inflation in India is projected to remain elevated in the coming months due to a shortfall in crops. The Reserve Bank of India is anticipated to raise interest rates by 25 basis points in December to manage retail inflation. Weak monsoon conditions and high energy prices are contributing to upward price pressure on essential food items.",
+          "importanceScore": 14.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
+      "cat": "India",
+      "latestTitle": "India food inflation expected to stay high as RBI plans 25 bps rate hike",
+      "latestSummary": "Food inflation in India is projected to remain elevated in the coming months due to a shortfall in crops. The Reserve Bank of India is anticipated to raise interest rates by 25 basis points in December to manage retail inflation. Weak monsoon conditions and high energy prices are contributing to upward price pressure on essential food items.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms"
+    },
+    "1c93a37e7bc599": {
+      "id": "1c93a37e7bc599",
+      "firstSeen": "2026-11-13T04:46:04+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-14T03:19:08.560446+00:00",
+          "title": "India bonds under pressure before debt supply; hot inflation prints pinch further",
+          "summary": "Indian government bonds experienced significant selling pressure ahead of a major auction for the benchmark paper. The yield on the 6.94% 2036 bond rose notably due to rising inflation in both India and the United States.",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "India bonds under pressure before debt supply; hot inflation prints pinch further",
+      "latestSummary": "Indian government bonds experienced significant selling pressure ahead of a major auction for the benchmark paper. The yield on the 6.94% 2036 bond rose notably due to rising inflation in both India and the United States.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-under-pressure-before-debt-supply-hot-inflation-prints-pinch-further/articleshow/135789760.cms"
+    },
+    "4520ef3c096477": {
+      "id": "4520ef3c096477",
+      "firstSeen": "2026-11-13T05:15:15+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-14T03:19:08.560446+00:00",
+          "title": "Carlsberg said to start road show for $600 million India IPO",
+          "summary": "Carlsberg is preparing a potential $600 million IPO of its Indian business, targeting a $4 billion valuation. Strong IPO demand in India supports the listing outlook, with Carlsberg India reporting robust revenue.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Carlsberg said to start road show for $600 million India IPO",
+      "latestSummary": "Carlsberg is preparing a potential $600 million IPO of its Indian business, targeting a $4 billion valuation. Strong IPO demand in India supports the listing outlook, with Carlsberg India reporting robust revenue.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-said-to-start-road-show-for-600-million-india-ipo/articleshow/135790402.cms"
     }
   },
-  "updated": "2026-11-13T22:40:21.488865+00:00"
+  "updated": "2026-11-14T03:19:08.560446+00:00"
 }

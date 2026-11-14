@@ -1,22 +1,58 @@
 {
-  "updated": "2026-11-13T22:40:21.488865+00:00",
+  "updated": "2026-11-14T03:19:08.560446+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 77,
-    "officialOrPrimaryCandidates": 16,
-    "enrichedCandidates": 77,
-    "readableCandidates": 58,
-    "eventClusters": 58,
+    "nonNoiseCandidates": 78,
+    "officialOrPrimaryCandidates": 17,
+    "enrichedCandidates": 78,
+    "readableCandidates": 59,
+    "eventClusters": 59,
     "materialEvents": 30,
-    "selectedEvents": 9,
-    "seededStories": 7,
+    "selectedEvents": 7,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "8b7ae855cfbd18",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India food inflation expected to stay high as RBI plans 25 bps rate hike",
+      "publishedAt": "2026-11-13T04:36:54+00:00",
+      "importanceScore": 14.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms",
+      "summary": "Food inflation in India is projected to remain elevated in the coming months due to a shortfall in crops. The Reserve Bank of India is anticipated to raise interest rates by 25 basis points in December to manage retail inflation. Weak monsoon conditions and high energy prices are contributing to upward price pressure on essential food items.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms",
+          "publishedAt": "2026-11-13T04:36:54+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-13T04:36:54+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-14T03:19:08.560446+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "36469d71bbd2b4",
       "cat": "AI",
@@ -24,17 +60,17 @@
       "categories": [
         "AI"
       ],
-      "title": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
       "publishedAt": "2026-11-13T18:40:30+00:00",
-      "importanceScore": 14.8,
+      "importanceScore": 13.8,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "summary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
+      "summary": "The leading open-weight models developed by Chinese companies were trained on Nvidia chips that the U.S. Nvidia CEO Jensen Huang left the company this week after admitting to his affair with Alice Huang, executive of Megaspeed, a company implicated in smuggling Nvidia chips into China.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
@@ -43,12 +79,53 @@
         }
       ],
       "firstSeen": "2026-11-13T18:40:30+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-14T03:19:08.560446+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "source-backed",
+      "previousTitle": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
+      "previousSummary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
+      "previousPublishedAt": "2026-11-13T18:40:30+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.8,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "1c93a37e7bc599",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "India bonds under pressure before debt supply; hot inflation prints pinch further",
+      "publishedAt": "2026-11-13T04:46:04+00:00",
+      "importanceScore": 11.9,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-under-pressure-before-debt-supply-hot-inflation-prints-pinch-further/articleshow/135789760.cms",
+      "summary": "Indian government bonds experienced significant selling pressure ahead of a major auction for the benchmark paper. The yield on the 6.94% 2036 bond rose notably due to rising inflation in both India and the United States.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-under-pressure-before-debt-supply-hot-inflation-prints-pinch-further/articleshow/135789760.cms",
+          "publishedAt": "2026-11-13T04:46:04+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-13T04:46:04+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-14T03:19:08.560446+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -60,13 +137,13 @@
       "categories": [
         "India"
       ],
-      "title": "US pledges lower tariffs for India in pending trade deal",
+      "title": "US assures India lower tariffs than peers in trade deal",
       "publishedAt": "2026-11-13T13:47:53+00:00",
-      "importanceScore": 13.6,
+      "importanceScore": 11.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms",
-      "summary": "The United States told India it will apply tariffs lower than those imposed on other trading partners under the proposed agreement. The first phase will cover goods, with services to be negotiated later. The negotiations have been ongoing for nearly two years and are reported to be close to finalisation with most key issues resolved.",
+      "summary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates that are lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods, while tariff arrangements for services will be negotiated in a later phase.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -79,66 +156,35 @@
         }
       ],
       "firstSeen": "2026-11-13T13:47:53+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-14T03:19:08.560446+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "US pledges lower tariffs for India in pending trade deal",
+      "previousSummary": "The United States told India it will apply tariffs lower than those imposed on other trading partners under the proposed agreement. The first phase will cover goods, with services to be negotiated later. The negotiations have been ongoing for nearly two years and are reported to be close to finalisation with most key issues resolved.",
+      "previousPublishedAt": "2026-11-13T13:47:53+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.6,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
-      "id": "2554de1631aa85",
+      "id": "4520ef3c096477",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "India 10‑year bond yield recovers half of prior week’s drop",
-      "publishedAt": "2026-11-13T12:51:07+00:00",
-      "importanceScore": 12.3,
+      "title": "Carlsberg said to start road show for $600 million India IPO",
+      "publishedAt": "2026-11-13T05:15:15+00:00",
+      "importanceScore": 11.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms",
-      "summary": "The yield on India’s 10‑year government bond rose, wiping out roughly half of the decline recorded the week before, as the market responded to still‑elevated inflation. The headline linked the move to inflation concerns, and no specific yield level or percentage change was provided in the source. This represents a partial reversal of the earlier fall.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms",
-          "publishedAt": "2026-11-13T12:51:07+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-13T12:51:07+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "f0f8c16eb80e70",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
-      "publishedAt": "2026-11-13T12:24:01+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms",
-      "summary": "Razorpay Software Ltd and Sembcorp Green Infra recently received approval from Sebi for their initial public offerings, marking a major milestone in their growth journeys. Razorpay aims to secure Rs 5,000-6,000 crore to enhance its financial services platform, while Sembcorp Green Infra plans to raise Rs 3,750 crore to bolster its renewable energy initiatives.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-said-to-start-road-show-for-600-million-india-ipo/articleshow/135790402.cms",
+      "summary": "Carlsberg is preparing a potential $600 million IPO of its Indian business, targeting a $4 billion valuation. Strong IPO demand in India supports the listing outlook, with Carlsberg India reporting robust revenue.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -146,13 +192,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms",
-          "publishedAt": "2026-11-13T12:24:01+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-said-to-start-road-show-for-600-million-india-ipo/articleshow/135790402.cms",
+          "publishedAt": "2026-11-13T05:15:15+00:00"
         }
       ],
-      "firstSeen": "2026-11-13T12:24:01+00:00",
+      "firstSeen": "2026-11-13T05:15:15+00:00",
       "status": "New",
-      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
+      "lastChecked": "2026-11-14T03:19:08.560446+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -162,60 +208,19 @@
       "lifecycle": "New"
     },
     {
-      "id": "6e8facfd09ae10",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Pro-government forces control Mekelle amid civilian hardship",
-      "publishedAt": "2026-11-13T00:20:24+00:00",
-      "importanceScore": 11.7,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-      "summary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
-      "why": "It shows how quickly the conflict has disrupted civilian livelihoods and created urgent humanitarian concerns.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-13T00:20:24+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-13T00:20:24+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Pro-government forces take Mekelle, residents report hardship",
-      "previousSummary": "Within two weeks of the war’s start, pro-government troops entered Mekelle, the capital of Ethiopia’s Tigray region, and the city is now under national army control. Salon owner Firut Me’ar says residents are struggling to meet basic needs, with little money, low morale and almost no business, describing daily life as far from normal despite the change in control.",
-      "previousPublishedAt": "2026-11-13T00:20:24+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.7,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
       "id": "19bf025da197e5",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
+      "title": "Report says uneven monsoons and El Nino raise upside inflation risks, could trigger RBI rate hike",
       "publishedAt": "2026-11-13T03:35:34+00:00",
       "importanceScore": 11.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms",
-      "summary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
+      "summary": "A report warned that uneven monsoon rainfall across India and the emergence of an El Nino pattern create upside risks to consumer‑price inflation. It noted that these risks could increase the likelihood of the Reserve Bank of India implementing another interest‑rate hike to contain price pressures.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -228,68 +233,37 @@
         }
       ],
       "firstSeen": "2026-11-13T03:35:34+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-14T03:19:08.560446+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
+      "previousSummary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
+      "previousPublishedAt": "2026-11-13T03:35:34+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.3,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "f50da2e22de5af",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Democrats open inquiry into Trump-era Nvidia chip export approvals",
-      "publishedAt": "2026-11-12T22:42:51+00:00",
-      "importanceScore": 8.0,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "summary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-          "publishedAt": "2026-11-12T22:42:51+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-12T22:42:51+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-13T22:40:21.488865+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 6,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-13T16:28:05.275958+00:00",
+  "previousUpdated": "2026-11-13T22:40:21.488865+00:00",
   "changeSummary": {
-    "new": 6,
-    "updated": 0,
+    "new": 3,
+    "updated": 2,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-10T23:25:15.986188+00:00",
-    "updated": "2026-11-13T22:40:21.488865+00:00",
+    "availableFrom": "2026-11-11T06:28:48.202442+00:00",
+    "updated": "2026-11-14T03:19:08.560446+00:00",
     "snapshotCount": 11,
-    "eventCount": 72,
+    "eventCount": 70,
     "retentionHours": 72
   }
 }
