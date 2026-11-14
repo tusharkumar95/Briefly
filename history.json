@@ -3,106 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-11T15:16:21.338237+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "658d020f87be68",
-          "cat": "Indian Markets",
-          "title": "Anthropic prepares IPO with potential $1.4 trillion valuation",
-          "summary": "Anthropic is preparing an initial public offering that could be among the largest ever, with a projected market valuation of about $1.4 trillion. The company cites strong demand for its Claude AI models, rapid revenue growth, and backing from major technology firms as the main drivers of the planned listing. The IPO is presented as a notable event for the global AI sector.",
-          "why": "The offering could bring significant capital to the AI industry and influence investor sentiment in technology markets.",
-          "publishedAt": "2026-11-11T12:51:21+00:00",
-          "firstSeen": "2026-11-11T12:51:21+00:00",
-          "importanceScore": 14.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/anthropic-ipo-a-1-4-trillion-bet-on-the-future-of-ai/videoshow/135738282.cms"
-        },
-        {
-          "id": "aac6712e55599f",
-          "cat": "Indian Markets",
-          "title": "US stocks rise as CoreWeave earnings lift AI trade",
-          "summary": "Wall Street opened higher after CoreWeave reported robust earnings, with the Dow Jones up 27.13 points (0.05%), the S&P 500 up 73.02 points (0.97%) and the Nasdaq up 385.17 points (1.54%). The gains were seen as a counterbalance to concerns about rising AI spending.",
-          "why": "Positive AI‑related earnings helped improve market sentiment.",
-          "publishedAt": "2026-11-11T14:56:26+00:00",
-          "firstSeen": "2026-11-11T14:56:26+00:00",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-coreweave-lifts-ai-trade/articleshow/135741336.cms"
-        },
-        {
-          "id": "e84674844299f5",
-          "cat": "AI",
-          "title": "Google unveils TPU 8tx and TPU 8i Max chips",
-          "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units, the TPU 8tx and TPU 8i Max. The TPU 8tx, designed with AMD, adds hardware‑level security that keeps data and model weights protected during training and inference and includes a custom inference network that can distill and train small models on the fly, allowing work on proprietary data without moving it. The TPU 8i Max combines two TPU 8i chips into a single package, doubling memory capacity, compute power and bandwidth, enabling larger models to handle more information per query.",
-          "why": "The chips let Google Cloud customers run sensitive AI workloads and larger models while reducing dependence on external chip suppliers.",
-          "publishedAt": "2026-11-10T15:54:08+00:00",
-          "firstSeen": "2026-11-10T15:54:08+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
-        },
-        {
-          "id": "eb019b66c6765a",
-          "cat": "AI",
-          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-          "summary": "The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-10T20:52:13+00:00",
-          "firstSeen": "2026-11-10T20:52:13+00:00",
-          "importanceScore": 11.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
-        },
-        {
-          "id": "ab08375d742201",
-          "cat": "India",
-          "title": "India on track to achieve $1 trillion export target by FY27, says commerce minister",
-          "summary": "Commerce Minister Piyush Goyal said India is on track to meet its $1 trillion goods and services export target for fiscal year 2027, after recording nearly $480 billion in exports from April to September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-10T17:05:33+00:00",
-          "firstSeen": "2026-11-10T17:05:33+00:00",
-          "importanceScore": 9.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-11T22:02:11.002786+00:00",
       "changeSummary": {
         "new": 6,
@@ -1189,6 +1089,106 @@
           "changed": false,
           "change": "No material change since the previous brief.",
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-14T18:07:31.366778+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "36469d71bbd2b4",
+          "cat": "AI",
+          "title": "Chinese open‑weight AI models show fingerprints of U.S. export‑banned Nvidia Blackwell GPUs",
+          "summary": "A research analysis by Will DePue of Unemployment Labs found that open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax, and Ant Group—contain weight patterns that match training on Nvidia’s Blackwell GPUs, which are prohibited from export to China. The study cites fingerprint evidence in Moonshot’s Kimi K3 and DeepSeek’s V4 models, indicating the chips were used despite U.S. export controls.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-13T18:40:30+00:00",
+          "firstSeen": "2026-11-13T18:40:30+00:00",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        },
+        {
+          "id": "44d39b9b61022d",
+          "cat": "Indian Markets",
+          "title": "Nvidia posts worst weekly decline since 2018 Trump tariff sell‑off as CEO Jensen Huang exits",
+          "summary": "Nvidia’s shares recorded their steepest weekly loss since the 2018 market sell‑off triggered by Trump‑era tariffs. The decline occurred in the same week that the company announced the departure of its chief executive Jensen Huang. The stock’s performance marked a notable reversal after a period of strong gains.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-14T04:28:50+00:00",
+          "firstSeen": "2026-11-14T04:28:50+00:00",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms"
+        },
+        {
+          "id": "3c572bb35d331d",
+          "cat": "Canada",
+          "title": "Canada-U.S. trade deal must include viable auto sector, Carney says",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-14T17:20:17+00:00",
+          "firstSeen": "2026-11-14T17:20:17+00:00",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12151109/canada-us-trade-deal-conditions/"
+        },
+        {
+          "id": "320b04ca4c0ded",
+          "cat": "India",
+          "title": "FICCI urges India‑Africa comprehensive trade framework",
+          "summary": "FICCI urged India and African nations to negotiate a comprehensive, predictable trade framework aimed at lowering barriers and encouraging investment. Secretary General Anant Swarup said the two regions should explore a broader arrangement, and the call comes as Commerce Minister Piyush Goyal prepares to visit Egypt, a strategic hub for Indian companies.",
+          "why": "A formal framework could expand bilateral commerce and investment, supporting economic growth in both regions.",
+          "publishedAt": "2026-11-14T06:11:08+00:00",
+          "firstSeen": "2026-11-14T06:11:08+00:00",
+          "importanceScore": 11.0,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms"
+        },
+        {
+          "id": "e2426ff356f0c1",
+          "cat": "India",
+          "title": "India and US resolve most trade deal issues, pact could be sealed soon, says Jaishankar",
+          "summary": "Indian Foreign Minister S. Jaishankar said that India and the United States have resolved the bulk of outstanding issues in their proposed trade agreement and that the pact could be sealed in the near future. His comment indicates that negotiations have moved past major sticking points.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-14T09:59:26+00:00",
+          "firstSeen": "2026-11-14T09:59:26+00:00",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms"
         }
       ]
     }
@@ -3348,13 +3348,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-14T18:07:31.366778+00:00",
+          "title": "Chinese open‑weight AI models show fingerprints of U.S. export‑banned Nvidia Blackwell GPUs",
+          "summary": "A research analysis by Will DePue of Unemployment Labs found that open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax, and Ant Group—contain weight patterns that match training on Nvidia’s Blackwell GPUs, which are prohibited from export to China. The study cites fingerprint evidence in Moonshot’s Kimi K3 and DeepSeek’s V4 models, indicating the chips were used despite U.S. export controls.",
+          "importanceScore": 12.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-14T11:31:08.308508+00:00",
+      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
       "cat": "AI",
-      "latestTitle": "Chinese open‑weight AI models show evidence of training on U.S.-banned Nvidia Blackwell GPUs",
-      "latestSummary": "A study by Will DePue of the nonprofit Unemployment Labs examined the weight matrices of open‑weight large language models released by DeepSeek, Moonshot AI, MiniMax and Ant Group. The analysis identified patterns that match the configurations of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The article also notes that Nvidia CEO Jensen Huang left the company after an affair was disclosed, and that Nvidia may still ship its less powerful H200 chip to China via a circuitous route permitted under existing export rules.",
-      "why": "It suggests possible violations of U.S. export controls, raising security and competitive concerns for the United States.",
+      "latestTitle": "Chinese open‑weight AI models show fingerprints of U.S. export‑banned Nvidia Blackwell GPUs",
+      "latestSummary": "A research analysis by Will DePue of Unemployment Labs found that open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax, and Ant Group—contain weight patterns that match training on Nvidia’s Blackwell GPUs, which are prohibited from export to China. The study cites fingerprint evidence in Moonshot’s Kimi K3 and DeepSeek’s V4 models, indicating the chips were used despite U.S. export controls.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
     },
     "b1068451715230": {
@@ -3574,15 +3587,103 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-14T18:07:31.366778+00:00",
+          "title": "FICCI urges India‑Africa comprehensive trade framework",
+          "summary": "FICCI urged India and African nations to negotiate a comprehensive, predictable trade framework aimed at lowering barriers and encouraging investment. Secretary General Anant Swarup said the two regions should explore a broader arrangement, and the call comes as Commerce Minister Piyush Goyal prepares to visit Egypt, a strategic hub for Indian companies.",
+          "importanceScore": 11.0,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-14T11:31:08.308508+00:00",
+      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
       "cat": "India",
-      "latestTitle": "FICCI calls for comprehensive India‑Africa trade framework ahead of minister’s Egypt visit",
-      "latestSummary": "The Federation of Indian Chambers of Commerce and Industry (FICCI) urged India and African nations to develop a comprehensive trade arrangement that would provide a predictable framework, reduce barriers and attract investment. FICCI Secretary General Anant Swarup highlighted the need for broader cooperation. The call was made as Commerce Minister Piyush Goyal prepares for a visit to Egypt, which FICCI sees as an opportunity to strengthen ties.",
-      "why": "A clear India‑Africa trade framework could increase bilateral trade and investment, supporting economic growth in both regions.",
+      "latestTitle": "FICCI urges India‑Africa comprehensive trade framework",
+      "latestSummary": "FICCI urged India and African nations to negotiate a comprehensive, predictable trade framework aimed at lowering barriers and encouraging investment. Secretary General Anant Swarup said the two regions should explore a broader arrangement, and the call comes as Commerce Minister Piyush Goyal prepares to visit Egypt, a strategic hub for Indian companies.",
+      "why": "A formal framework could expand bilateral commerce and investment, supporting economic growth in both regions.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms"
+    },
+    "44d39b9b61022d": {
+      "id": "44d39b9b61022d",
+      "firstSeen": "2026-11-14T04:28:50+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-14T18:07:31.366778+00:00",
+          "title": "Nvidia posts worst weekly decline since 2018 Trump tariff sell‑off as CEO Jensen Huang exits",
+          "summary": "Nvidia’s shares recorded their steepest weekly loss since the 2018 market sell‑off triggered by Trump‑era tariffs. The decline occurred in the same week that the company announced the departure of its chief executive Jensen Huang. The stock’s performance marked a notable reversal after a period of strong gains.",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Nvidia posts worst weekly decline since 2018 Trump tariff sell‑off as CEO Jensen Huang exits",
+      "latestSummary": "Nvidia’s shares recorded their steepest weekly loss since the 2018 market sell‑off triggered by Trump‑era tariffs. The decline occurred in the same week that the company announced the departure of its chief executive Jensen Huang. The stock’s performance marked a notable reversal after a period of strong gains.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms"
+    },
+    "3c572bb35d331d": {
+      "id": "3c572bb35d331d",
+      "firstSeen": "2026-11-14T17:20:17+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-14T18:07:31.366778+00:00",
+          "title": "Canada-U.S. trade deal must include viable auto sector, Carney says",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
+      "cat": "Canada",
+      "latestTitle": "Canada-U.S. trade deal must include viable auto sector, Carney says",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12151109/canada-us-trade-deal-conditions/"
+    },
+    "e2426ff356f0c1": {
+      "id": "e2426ff356f0c1",
+      "firstSeen": "2026-11-14T09:59:26+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-14T18:07:31.366778+00:00",
+          "title": "India and US resolve most trade deal issues, pact could be sealed soon, says Jaishankar",
+          "summary": "Indian Foreign Minister S. Jaishankar said that India and the United States have resolved the bulk of outstanding issues in their proposed trade agreement and that the pact could be sealed in the near future. His comment indicates that negotiations have moved past major sticking points.",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
+      "cat": "India",
+      "latestTitle": "India and US resolve most trade deal issues, pact could be sealed soon, says Jaishankar",
+      "latestSummary": "Indian Foreign Minister S. Jaishankar said that India and the United States have resolved the bulk of outstanding issues in their proposed trade agreement and that the pact could be sealed in the near future. His comment indicates that negotiations have moved past major sticking points.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms"
     }
   },
-  "updated": "2026-11-14T11:31:08.308508+00:00"
+  "updated": "2026-11-14T18:07:31.366778+00:00"
 }

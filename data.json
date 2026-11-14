@@ -1,58 +1,22 @@
 {
-  "updated": "2026-11-14T11:31:08.308508+00:00",
+  "updated": "2026-11-14T18:07:31.366778+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 16,
-    "enrichedCandidates": 78,
-    "readableCandidates": 58,
-    "eventClusters": 58,
-    "materialEvents": 31,
-    "selectedEvents": 7,
+    "rawCandidates": 77,
+    "nonNoiseCandidates": 77,
+    "officialOrPrimaryCandidates": 15,
+    "enrichedCandidates": 77,
+    "readableCandidates": 54,
+    "eventClusters": 54,
+    "materialEvents": 25,
+    "selectedEvents": 8,
     "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
-    {
-      "id": "320b04ca4c0ded",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "FICCI calls for comprehensive India‑Africa trade framework ahead of minister’s Egypt visit",
-      "publishedAt": "2026-11-14T06:11:08+00:00",
-      "importanceScore": 12.9,
-      "sourceCount": 2,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms",
-      "summary": "The Federation of Indian Chambers of Commerce and Industry (FICCI) urged India and African nations to develop a comprehensive trade arrangement that would provide a predictable framework, reduce barriers and attract investment. FICCI Secretary General Anant Swarup highlighted the need for broader cooperation. The call was made as Commerce Minister Piyush Goyal prepares for a visit to Egypt, which FICCI sees as an opportunity to strengthen ties.",
-      "why": "A clear India‑Africa trade framework could increase bilateral trade and investment, supporting economic growth in both regions.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms",
-          "publishedAt": "2026-11-14T05:28:35+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-14T06:11:08+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-14T11:31:08.308508+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
     {
       "id": "36469d71bbd2b4",
       "cat": "AI",
@@ -60,14 +24,14 @@
       "categories": [
         "AI"
       ],
-      "title": "Chinese open‑weight AI models show evidence of training on U.S.-banned Nvidia Blackwell GPUs",
+      "title": "Chinese open‑weight AI models show fingerprints of U.S. export‑banned Nvidia Blackwell GPUs",
       "publishedAt": "2026-11-13T18:40:30+00:00",
       "importanceScore": 12.8,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "summary": "A study by Will DePue of the nonprofit Unemployment Labs examined the weight matrices of open‑weight large language models released by DeepSeek, Moonshot AI, MiniMax and Ant Group. The analysis identified patterns that match the configurations of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The article also notes that Nvidia CEO Jensen Huang left the company after an affair was disclosed, and that Nvidia may still ship its less powerful H200 chip to China via a circuitous route permitted under existing export rules.",
-      "why": "It suggests possible violations of U.S. export controls, raising security and competitive concerns for the United States.",
+      "summary": "A research analysis by Will DePue of Unemployment Labs found that open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax, and Ant Group—contain weight patterns that match training on Nvidia’s Blackwell GPUs, which are prohibited from export to China. The study cites fingerprint evidence in Moonshot’s Kimi K3 and DeepSeek’s V4 models, indicating the chips were used despite U.S. export controls.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -80,48 +44,84 @@
       ],
       "firstSeen": "2026-11-13T18:40:30+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-14T11:31:08.308508+00:00",
+      "lastChecked": "2026-11-14T18:07:31.366778+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "previousSummary": "The leading open-weight models developed by Chinese companies were trained on Nvidia chips that the U.S. Nvidia CEO Jensen Huang left the company this week after admitting to his affair with Alice Huang, executive of Megaspeed, a company implicated in smuggling Nvidia chips into China.",
+      "previousTitle": "Chinese open‑weight AI models show evidence of training on U.S.-banned Nvidia Blackwell GPUs",
+      "previousSummary": "A study by Will DePue of the nonprofit Unemployment Labs examined the weight matrices of open‑weight large language models released by DeepSeek, Moonshot AI, MiniMax and Ant Group. The analysis identified patterns that match the configurations of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The article also notes that Nvidia CEO Jensen Huang left the company after an affair was disclosed, and that Nvidia may still ship its less powerful H200 chip to China via a circuitous route permitted under existing export rules.",
       "previousPublishedAt": "2026-11-13T18:40:30+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.8,
+      "previousImportanceScore": 12.8,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
+      "change": "Material facts or figures changed since the previous brief.",
       "lifecycle": "Updated"
     },
     {
-      "id": "71b0a5f378d8a3",
+      "id": "44d39b9b61022d",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Concurrent Gainers: 8 stocks gain for 5 days in a row",
-      "publishedAt": "2026-11-14T09:15:57+00:00",
-      "importanceScore": 12.3,
+      "title": "Nvidia posts worst weekly decline since 2018 Trump tariff sell‑off as CEO Jensen Huang exits",
+      "publishedAt": "2026-11-14T04:28:50+00:00",
+      "importanceScore": 11.4,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms",
-      "summary": "Around 23 stocks from the BSE 200 index advanced in all five consecutive sessions from November 8 to 13. Of these, we shortlisted 8 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 7% to 11%.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms",
+      "summary": "Nvidia’s shares recorded their steepest weekly loss since the 2018 market sell‑off triggered by Trump‑era tariffs. The decline occurred in the same week that the company announced the departure of its chief executive Jensen Huang. The stock’s performance marked a notable reversal after a period of strong gains.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms",
+          "publishedAt": "2026-11-14T04:28:50+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-14T04:28:50+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-14T18:07:31.366778+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "3c572bb35d331d",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Canada-U.S. trade deal must include viable auto sector, Carney says",
+      "publishedAt": "2026-11-14T17:20:17+00:00",
+      "importanceScore": 11.1,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12151109/canada-us-trade-deal-conditions/",
+      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms",
-          "publishedAt": "2026-11-14T09:15:57+00:00"
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12151109/canada-us-trade-deal-conditions/",
+          "publishedAt": "2026-11-14T17:20:17+00:00"
         }
       ],
-      "firstSeen": "2026-11-14T09:15:57+00:00",
+      "firstSeen": "2026-11-14T17:20:17+00:00",
       "status": "New",
-      "lastChecked": "2026-11-14T11:31:08.308508+00:00",
+      "lastChecked": "2026-11-14T18:07:31.366778+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -131,19 +131,60 @@
       "lifecycle": "New"
     },
     {
-      "id": "b1068451715230",
+      "id": "320b04ca4c0ded",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "US assures India lower tariffs than peers in trade deal",
-      "publishedAt": "2026-11-13T13:47:53+00:00",
-      "importanceScore": 11.7,
+      "title": "FICCI urges India‑Africa comprehensive trade framework",
+      "publishedAt": "2026-11-14T06:11:08+00:00",
+      "importanceScore": 11.0,
+      "sourceCount": 2,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms",
+      "summary": "FICCI urged India and African nations to negotiate a comprehensive, predictable trade framework aimed at lowering barriers and encouraging investment. Secretary General Anant Swarup said the two regions should explore a broader arrangement, and the call comes as Commerce Minister Piyush Goyal prepares to visit Egypt, a strategic hub for Indian companies.",
+      "why": "A formal framework could expand bilateral commerce and investment, supporting economic growth in both regions.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms",
+          "publishedAt": "2026-11-14T05:28:35+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-14T06:11:08+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-14T18:07:31.366778+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "FICCI calls for comprehensive India‑Africa trade framework ahead of minister’s Egypt visit",
+      "previousSummary": "The Federation of Indian Chambers of Commerce and Industry (FICCI) urged India and African nations to develop a comprehensive trade arrangement that would provide a predictable framework, reduce barriers and attract investment. FICCI Secretary General Anant Swarup highlighted the need for broader cooperation. The call was made as Commerce Minister Piyush Goyal prepares for a visit to Egypt, which FICCI sees as an opportunity to strengthen ties.",
+      "previousPublishedAt": "2026-11-14T06:11:08+00:00",
+      "previousSourceCount": 2,
+      "previousImportanceScore": 12.9,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "e2426ff356f0c1",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India and US resolve most trade deal issues, pact could be sealed soon, says Jaishankar",
+      "publishedAt": "2026-11-14T09:59:26+00:00",
+      "importanceScore": 10.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms",
-      "summary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods only. Tariff terms for services are slated to be negotiated in a later phase.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms",
+      "summary": "Indian Foreign Minister S. Jaishankar said that India and the United States have resolved the bulk of outstanding issues in their proposed trade agreement and that the pact could be sealed in the near future. His comment indicates that negotiations have moved past major sticking points.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -151,42 +192,37 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms",
-          "publishedAt": "2026-11-13T13:47:53+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms",
+          "publishedAt": "2026-11-14T09:59:26+00:00"
         }
       ],
-      "firstSeen": "2026-11-13T13:47:53+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-14T11:31:08.308508+00:00",
+      "firstSeen": "2026-11-14T09:59:26+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-14T18:07:31.366778+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "US assures India lower tariffs than peers in trade deal",
-      "previousSummary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates that are lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods, while tariff arrangements for services will be negotiated in a later phase.",
-      "previousPublishedAt": "2026-11-13T13:47:53+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.7,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-11-14T03:19:08.560446+00:00",
+  "jarvisEditedCount": 4,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-14T11:31:08.308508+00:00",
   "changeSummary": {
-    "new": 2,
+    "new": 3,
     "updated": 1,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-11T15:16:21.338237+00:00",
-    "updated": "2026-11-14T11:31:08.308508+00:00",
+    "availableFrom": "2026-11-11T22:02:11.002786+00:00",
+    "updated": "2026-11-14T18:07:31.366778+00:00",
     "snapshotCount": 11,
-    "eventCount": 68,
+    "eventCount": 71,
     "retentionHours": 72
   }
 }
