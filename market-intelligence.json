@@ -1,28 +1,23 @@
 {
-  "updated": "2026-11-14T03:33:34.609554+00:00",
+  "updated": "2026-11-14T10:56:31.195446+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite was little changed 0.09%",
+      "headline": "TSX dips as falling AI stocks weigh on markets",
       "direction": "flat",
       "move": "S&P/TSX Composite -0.09%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Nvidia uncertainty",
-          "detail": "Sources report that uncertainty around Nvidia weighed on tech shares, contributing to the TSX’s decline.",
+          "label": "AI stocks decline",
+          "detail": "Falling AI stocks weighed on U.S. markets and contributed to the TSX closing lower.",
           "kind": "context"
         },
         {
-          "label": "Falling AI stocks",
-          "detail": "Falling AI stocks in the U.S. markets were cited as a factor that pulled the TSX lower.",
-          "kind": "context"
-        },
-        {
-          "label": "Utilities and telecoms offset",
-          "detail": "Utilities and telecoms gains partially offset tech and base metals losses, but were not enough to prevent the overall slip.",
+          "label": "Sector offset",
+          "detail": "Utilities and telecoms gains offset losses in tech and base metals, providing mixed sector context.",
           "kind": "context"
         }
       ],
@@ -44,10 +39,10 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "The Globe and Mail",
-          "title": "TSX, S&P 500, and Nasdaq end lower as Nvidia uncertainty weighs on tech shares - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdUozR1pzbGZxX2ZDS05rTGpmMFRSaGhpREFpZGFMc1drWGF0UlRQN3ZFX0FMUC1fcGppMUpxUWJ2bUVBWWgyYmlOVmZkY3hadG5EejBLTERZcE52R2ViQ1dHSmNtekpWTzY2bWZ4Zl92dWswWjVuRTV4aW1vWElZZ2w0RGd2TXB0Rk1jcFFmdmhSVWF5LUNzSS04MlV4YlVxSnJZWDJjQWVhZ2xVeVdhRGFyREpwbURmTDlFX2tNRGRKTU52WnpLMWM0Mkc0Y0NFaVB4QUtYLXJrdm13TWlCNUJlNGFNSVNOektCMno1VV8?oc=5",
-          "publishedAt": "2026-11-13T10:01:24+00:00"
+          "name": "Investing.com",
+          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.09% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHRYbDVBWlBUbWJER1JJWGljdC16M0doZnlCWWhQdmszQVlGTDM3LTd3NDQ1emNpN3BBeVhQME9lTW45T3JoTFRWWWF2RzZuYzZTX21jTFg4ejV1bl9ld0hpVG9Eai1hX0JiQndkNUVhRzRWOXZJUVpDWlV1a0RKdHFBdnUwYTNmZ2w4MU1QdzFFU0JaZERaLWtCeXZER2RMX1V3ZWhZeEpDazBScmNOWFJwejZDazJoMXNN?oc=5",
+          "publishedAt": "2026-11-14T08:54:00+00:00"
         },
         {
           "name": "Yahoo! Finance Canada",
@@ -62,12 +57,6 @@
           "publishedAt": "2026-11-13T21:57:44+00:00"
         },
         {
-          "name": "Investing.com",
-          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.09% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHRYbDVBWlBUbWJER1JJWGljdC16M0doZnlCWWhQdmszQVlGTDM3LTd3NDQ1emNpN3BBeVhQME9lTW45T3JoTFRWWWF2RzZuYzZTX21jTFg4ejV1bl9ld0hpVG9Eai1hX0JiQndkNUVhRzRWOXZJUVpDWlV1a0RKdHFBdnUwYTNmZ2w4MU1QdzFFU0JaZERaLWtCeXZER2RMX1V3ZWhZeEpDazBScmNOWFJwejZDazJoMXNN?oc=5",
-          "publishedAt": "2026-11-13T21:37:52+00:00"
-        },
-        {
           "name": "Investing.com India",
           "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.09% By Investing.com - Investing.com India",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVnUzSVI0ckMwOHRmNFRJQV9PT3B1ZWlnTGFPcU53a1pSUFpRS3ZHR3VhVW1ERmJ5c2pkTnFvY1g4TUhUWEZWM1RzcE9XSHUzR21YQVh0V1dkdDZEbHozdXZRckh1R2dYOF9vdmJjNURrSzFHWXpfemZsbV9qUEZ2bjhaT1hjcUh4M2ZERHNTa3FqaHNqd0Y0em1zMVJxdmFJM2xJWlQxeC1EQ3dySXp4N0FFUzczNkxJN2c?oc=5",
@@ -78,16 +67,22 @@
           "title": "Canada shares lower at close of trade; S&P/TSX Composite down 0.09% - Investing.com UK",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSC1XbW1SaXl2T1E3a2g2VF92dG0yLWFuWmg2dUJpb1pFR0YyNC0yUEhfXzN3N3dPS25Hd19CTVgzNWI5b3gzcEMzblZXcGpQV2c4U0NBa1FEV1pGZV9DQkkxZFhYX1hXQWl6TE1tc3RyZ2pyT1BxWEJqQmM4c2lyTHZEVktmanYzQmJ0RlRMekQ5WmRBRy0tN1pWS1BZODhJXy00cTJGME96SnpsbWIyZmEzbDlSNHQ0c1E?oc=5",
           "publishedAt": "2026-11-13T21:30:00+00:00"
+        },
+        {
+          "name": "Kitco",
+          "title": "TSX futures muted as gold edges higher; investors assess Nvidia CEO's exit - Kitco",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM2QxQkdDLTNWckZhUTZqSEtDd213Qnd5cWhfeGxuMnktd0NTZllGd0ticHpnR2llOEoydG9fM2JDRURKOVZkNFI1d2NkaDlMcURrRy0tendubzFLUjhHWXdzRkxnRWJvUXVLYTBDVlZLbnJFUTlUeV9zdzFjQk9KOXltNTdTT3JwUG5wcTZRMXkxNlRXWE1KQ2ZsMm52MjlwenN5X2lReDRoLWJJOXVOTWliZXI2dmRhVkJOMA?oc=5",
+          "publishedAt": "2026-11-13T14:10:54+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.61%",
+      "headline": "Indian markets close lower as crude oil spike and inflation pressures weigh",
       "direction": "down",
       "move": "Nifty 50 -0.61%",
-      "why": "Same-day market coverage explicitly linked the final move to: Nifty Ends at 25,144, Snapping a Winning Streak; profit booking; Bank Nifty slips 0.8%: Why did market fall today?; Inflation Hits 2-Year High.",
+      "why": "A sharp rise in crude oil prices, coupled with heightened inflation concerns, weighed on the market, leading to a sell‑off.",
       "drivers": [
         {
           "label": "Nifty Ends at 25,144, Snapping a Winning Streak",
@@ -95,18 +90,23 @@
           "kind": "driver"
         },
         {
-          "label": "profit booking; Bank Nifty slips 0.8%: Why did market fall today?",
-          "detail": "Zee Business explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Crude Oil And Inflation Pressures Weigh On Markets",
+          "detail": "TradingView explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Inflation Hits 2-Year High",
-          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Crude oil price spike",
+          "detail": "DD News and TradingView explicitly linked the market decline to a spike in crude oil prices.",
+          "kind": "context"
+        },
+        {
+          "label": "Inflation pressures",
+          "detail": "TradingView cited inflation pressures as a factor weighing on the market.",
           "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -135,40 +135,40 @@
       },
       "sources": [
         {
+          "name": "Zee Business",
+          "title": "Sensex, Nifty surge 7% in Nov as FIIs pour Rs 79,300 crore into D-Street: 10 factors driving investors' comeback - Zee Business",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNc0thLTF3T1FPWG1mNmNDaDNLOVNINTFQd0didHBZdzFOZGRPUEotcXN0a3RkZjhlcTlwMDdvV1RabHpvVVZKN3RtOU9WZmNlOVFZMkRURDFYTGVKNjNldkpTa25yTmhlcWZsbEJUb0JQNUJQQ3p5bXF3b2lpcHljSDF4eTFfaEkzRGFnZmttZjNFQ2lnYjM4MnhYN0NLa0t5RFdYb1U1S3ZhZHVVbWRKQ1cyU2RHYm1TVDVfNTdsak12LTcyaEp5RlBTd0NVdkc5UWNwUHV3NFF6Wm80RFhEVzBqVGZGRHgtUXhVUFVIaw?oc=5",
+          "publishedAt": "2026-11-14T05:51:00+00:00"
+        },
+        {
+          "name": "Business News This Week",
+          "title": "Indian Stock Market Ends Volatile Week on a Positive Note as Sensex and Nifty Extend Gains - Business News This Week",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVng4bXNtd3RkdFRwMHpVdUpjemwzbTIxcHlfajlWWS1hYjlsTmVva0RhZHdteVZCaTJBSVZVWUlfOFBlaVRiYWtWTU9RZng2b2s0T3NmTno1U3UtcFpvSExpU2VrWmEybmJlMlA3QmY0ZTAzR2lTcGpMZjhJd193WVRiNllRbXd5TzF0RVRkSzQzMi1YZVFNMUluQjJ2NEJZUFB0Uzk4Ni1PalRVTm9OajJvSUVTYlVydXlva1BBWWRrTlY4M3daM0JsWFFVUQ?oc=5",
+          "publishedAt": "2026-11-14T05:15:04+00:00"
+        },
+        {
+          "name": "Upstox",
+          "title": "Market weekly wrap: NIFTY50, SENSEX extend rally for 3rd week; PSU Banks top sectoral gainers - Upstox",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOMWlBS0s0Y09Oa1J6eHpzYXcyZjgyQllHcnFVeFJCNTgtOWtMZ2RPdzhNNWxVSG5NYThGWDQ1cTZGQ0dBQXJPM1BPUG5pYVZPRHhmaDhlVmxHZDM2X1ZOaUd4QWtGZ2p4TFdtLXA3SzFrM1VtSHNqRlNTdkhlWjNXNy02eWs2eTFBc3Q3eFpXOFN3cmlRbnd0aUtvaHc4bmloWWc1eG9udDBNNnRCQTJiMXdkNk5LVDBpc01kTmJxNzlKREt1MFBMaElOMkx5UjUwTWVSMzJPMmk2Nlp3M1NkbTFkWXZGTUxmZk1ERUhTU19zSDg1MFM5QzQ2OGpGSVNpWENSOXhSdWFFZw?oc=5",
+          "publishedAt": "2026-11-14T04:51:14+00:00"
+        },
+        {
+          "name": "HDFC Sky",
+          "title": "Sensex, Nifty Gain for Third Straight Week as FIIs Buy - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOFA0ckZudHU4QmNFMWo2bFU4dEQtY3BDZ2tWNmVCaWxmVGplY3VocWZLMlNoRUJZeGIxaDg3QUZnNHBNTE9PdDl2bWVNc3FqRVFUeDdrdHFiX0k1d1laNjNNdFp5dVQ3S0cycFJtNHYtOWNCbnF6QXAzUHdUcDU5eEJQZDQ4cnpBNnRSZVJhX0xlSFhHUDhYWUt4QlZYemQ5aDR1VEMzSUdLTEprTDhUcVFUOHNKOEM5OHVNdktKQTBMdWJHRmRXVzBlS2JxSDYxSFhpdXpndVNVNi05X0RmVTNPQnhhZw?oc=5",
+          "publishedAt": "2026-11-14T02:57:58+00:00"
+        },
+        {
           "name": "BBN Times",
           "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcWhfcXNmcy03Y2JVZVlqS2wzTVFUU2NnTWJmbVJLQkZBbHhoTlkxb0x4X1R4MGNZNk5OM25YYW1NN0JWQ25FclJCX1pUaEVadE9XaFdiVmM1eFZvSTM0N0lCNzFDRkNSQnF3MmJDc3I2OXNOTFB0N19wbXdMeUdNYzZZZGlMQV9NUk9QRG41MjZ5ZkMzY1hLWkt5ODJjTDlMQW5RbEF4MXRtUmtxUzBTVGNjRDVFVWxZX0VwRENNT0FqQXo1Z2c?oc=5",
           "publishedAt": "2026-11-13T21:32:29+00:00"
         },
         {
-          "name": "ad-hoc-news.de",
-          "title": "BSE Sensex closes at 81,592.45 as inflation and crude weigh - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUk5yT2Y3c0V4bGhHdUdkUDJUMjJsOEhMZ1NUQWFPeUFmVXRGVlA1VmdybFNQQm0tdnVBVi1ORG1CSnFVNHo5RzZWMXNTbFhLS3VVLWdJVDhTVEtpa1Vodi1Ga1p0eW90WFd1RlVNTHZqbGRUaTJOUnpESExjWVpYaXhXTjlMVUdzVGNzUHJQb0lNeFFOeFFqTjVsOEluc3NQdTFkM2RQR1VfRVdRaUlkSjlLSTQ4YnZaTXlvT1NB?oc=5",
-          "publishedAt": "2026-11-13T12:05:57+00:00"
-        },
-        {
-          "name": "India TV News",
-          "title": "Defence stock ends session 8% higher even as Sensex, Nifty drop amid profit booking - India TV News",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNHdCWXJyN05KR2FCVE1oNWVkTEx5X25yS2EwcTNwS3hHOVdFZU1lZWdhV0NJdVpEdHh0eGdvVDFVV25SUGNDdHBjaG1UNU9UUmhocEJFbTA1WkRqdkE2OWtNamNMcXlXWTZFVXFwOVUwalZfNkh6NENfMFk4eGdkRHozcVlScW9aVHVtalpEcEFIWVVSaDlLRm5kejNoTl9ic00zR1l1REQ3STEzRmtqbTV6dHB5OVlZcEtSRFhqTE5VeWg2cHlZNnlLVE1mQTdfOVJ5ZVFjdlJWTHBoaHfSAeMBQVVfeXFMTlFmSVdUX1lwc2d0c3lWQ2ZlV3hWc1gyOUwzc2J6U3lGTDMtUF9GbXZDMVlpalk3VE1Ra1IzN2JLaGtId2Y0TjlDd2k0d1ZfRGg3M1dWa0VHckJiMHNTajkxZDZCT1NzTUhrSW9IMU56cXhYeG1fakZLNTFVTWltOW03dGR2SU14LUUzTm93WjF6clVtLUpLakxoZ3lzLVhXZU9INU9vT0d3LS1zNWo1WWp2VWxFTGQ3RXZaV2NFVjEwOVF0eHozU0ZBQWlQTk9LeGNDdUxUYUJFel9mc0FxZkllN28?oc=5",
-          "publishedAt": "2026-11-13T10:51:55+00:00"
-        },
-        {
-          "name": "Zee Business",
-          "title": "Closing Bell: Sensex, Nifty close lower after profit booking; Bank Nifty slips 0.8%: Why did market fall today? - Zee Business",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOV0xhSTB4aUZYenQ4ejh6QVMxdHN6OXJ3OTdpdVdQQjV5dGE3dG1lWk9UdG93NE54YWVjY1RmeTdseGNBSzR0NmNHQUtEdXRJVWJvNTB3aXk5WXA4YkZDX1pSa2FGY3l3dmR6R0NOTUNpZnJyd0JmNWFNY21iN1hBUU03eTdqVFRsemExanFqYVlZcmpwVGdmNkd2RXNGb2hxbmdFZUc5amdia2xHNDREMGkzSUhSWk1rOHBxbnYxdTBqMXRjUHVxVjVPR3dNd0U0YTh3SzJKbFVqalYtaDVJSWxadGtvc3IwaVJv?oc=5",
-          "publishedAt": "2026-11-13T10:05:23+00:00"
-        },
-        {
-          "name": "ABP Live English",
-          "title": "Inflation Hits Two-Year High, Dalal Street Sees Red: Sensex Ends 300 Points Down, Nifty Under 25,150 - ABP Live English",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVTlTaC02c3BLRy1jd2pUbEtlRWpFSXcybzNZVGRLUEozV2JiMXBGdXpocFlMR0xLRGZHdHR6UHcwTlhncWhXT0k0S3RwRUhaV1hKN2lJbm03d2xBT3RuN29pQU9nUlBrZngwNGN6M3Nxck9lVnUtOGp1bWFtY05Tbzd5VVFkdDdSVG9Ra3hNSU40UDBrYUZkYTBmS1ZpSHhNaFk1dmQ4Vld2cXMzMmtRbFFzeEdyakZyMGxYVE1RTm1DSjB4Y1HSAcsBQVVfeXFMUG1JaC1iQVNlSjBqX2Y0RnByRTNUSUdQQW1GZktUZXZzcGpKeWdBMW1ONHM3ZmpGOUJMeWQxUmFJaVhnVXZsbk9nNVFYdXlhY1ZUZEtKS1BkaHJQZEJCUG9jODhqeTZ5cnR2Z0pabzI4Zlh1UjJNSHJjSHA2Q2NPMzhhMWtDTEdWTkktT3duMnd6R2JUb1dodmFQNWN4VDBMdXdzakdleGhKNmZOWlR6TnZpN2RmTW1HVlktSF8zR1FqeTV4YzAwaEFseDA?oc=5",
-          "publishedAt": "2026-11-13T10:03:15+00:00"
-        },
-        {
-          "name": "Dalal Street Investment Journal",
-          "title": "Sensex Falls 528 Points, Nifty 50 Drops 217 Points as Inflation Hits 2-Year High - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ19vSjRDQjVpbzVySmNlVWRkOHBmbGJaSHhOYWxfanNwdGlLRHFIaDEzeUFNSTNPMjN5elE5T0VySkh0dDRWdlBOMXg1UVFDXzh6SXdnREFSYlNpNEhkbUdzVXVMQnI2TVpQVlc3aEFzZ04tWWNIUVE0OG5KM2RmcFE4ZEs2aUJPQ3F3U1NTRHhEeEFadkxkaFdIYnFsN3c4bE9rV1hkT3NZYnVjYWlLRlNaNkhvRDBLUWdIbm9VS3ExYjQzLWZB?oc=5",
-          "publishedAt": "2026-11-13T08:56:21+00:00"
+          "name": "DD News",
+          "title": "Sensex closes in red, Nifty settles below 23,100 on spike in crude oil - DD News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRlVKbFBuMkxHMWVDMkdLbkxzWUwtTDdWN0hqT2xXdHBBR1dhb1Z3M3pUcThKdTBQN2kzS3NVWFF5QmUtVXozWERsQ0pnTlhpZXE3WUt3enhReWljNy1JbkR2Mm95Z3BIYk00Zk05Wlg5RUJ6elBGZ1Z3dWNDQUE3V2VBam8wYzlCOHUxdVd3MDF5dXVUcWV3MzFn?oc=5",
+          "publishedAt": "2026-11-13T19:27:16+00:00"
         }
       ],
       "evidenceCount": 7
