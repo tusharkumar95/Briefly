@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-11T22:02:11.002786+00:00",
-      "changeSummary": {
-        "new": 6,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "05ba6d4f0625e1",
-          "cat": "World",
-          "title": "Abu Dhabi trilateral talks end without breakthrough, POW exchange planned",
-          "summary": "Trilateral talks in Abu Dhabi between Russia, Ukraine and the United States concluded after a second day without any breakthrough on ending the war. The American side said it saw “some openings”, but no concrete agreement was reached to halt the nearly five‑year conflict sparked by Russia’s invasion. Moscow and Kyiv said a large‑scale prisoner‑of‑war exchange is being prepared and could be carried out soon.",
-          "why": "The stalemate shows diplomatic progress remains limited, while a POW exchange could improve humanitarian conditions for those captured.",
-          "publishedAt": "2026-11-11T18:04:58+00:00",
-          "firstSeen": "2026-11-11T18:04:58+00:00",
-          "importanceScore": 14.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "edf28127a9b8b2",
-          "cat": "AI",
-          "title": "British AI chip startup Fractile raises $720 million Series C",
-          "summary": "Fractile, a UK‑based AI‑chip developer, announced a $720 million Series C round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners and Redpoint, with participation from Britain’s Sovereign AI Fund. The financing values the company at over £5 billion (roughly $7 billion) and supports its full‑stack approach that pairs a machine‑learning compiler with a DRAM‑stacked chip design aimed at lowering inference costs.",
-          "why": "The funding strengthens the UK’s position in AI‑hardware development and may speed the deployment of more cost‑effective AI inference solutions.",
-          "publishedAt": "2026-11-11T19:34:55+00:00",
-          "firstSeen": "2026-11-11T19:34:55+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
-        },
-        {
-          "id": "a9b4c563535594",
-          "cat": "Indian Markets",
-          "title": "Anthropic’s IPO is said to be multiple times oversubscribed",
-          "summary": "Anthropic PBC is witnessing an overwhelming response for its initial public offering, potentially accumulating up to $90.4 billion. With a significant revenue run rate of $81 billion as of October 31, investor enthusiasm remains high.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-11T16:25:21+00:00",
-          "firstSeen": "2026-11-11T16:25:21+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms"
-        },
-        {
-          "id": "8bd6588949da94",
-          "cat": "Indian Markets",
-          "title": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
-          "summary": "In the first nine months of 2026, a notable drop in land acquisition activities by Indian real estate firms has been observed. Anarock attributes this decline to developers adopting a cautious strategy, influenced by rising costs and emphasized selectivity in land purchases.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-11T12:10:24+00:00",
-          "firstSeen": "2026-11-11T12:10:24+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firms-land-acquisition-falls-56-to-1445-acres-in-jan-sep-anarock/articleshow/135736891.cms"
-        },
-        {
-          "id": "204dce4c26a0f4",
-          "cat": "Canada",
-          "title": "Vancouver Island war museum closing as visitors drop",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Canada Vancouver Island war museum closing as visitors drop — but staff not giving up hope",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-11T20:43:41+00:00",
-          "firstSeen": "2026-11-11T20:43:41+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12146698/vancouver-island-hmcs-alberni-museum-memorial-closure/"
-        },
-        {
-          "id": "fe4d19670ba3fa",
-          "cat": "AI",
-          "title": "Why the data center you dread might never even be built",
-          "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-11T20:15:15+00:00",
-          "firstSeen": "2026-11-11T20:15:15+00:00",
-          "importanceScore": 9.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-12T03:03:10.522822+00:00",
       "changeSummary": {
         "new": 2,
@@ -1191,6 +1073,106 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-14T22:27:54.637630+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 3,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "44d39b9b61022d",
+          "cat": "Indian Markets",
+          "title": "Nvidia posts worst week since Trump tariff sell‑off as Jensen Huang exits",
+          "summary": "Nvidia recorded its sharpest weekly decline since the Trump‑era tariff sell‑off, and the slide occurred as Jensen Huang announced his departure from the company. The source provides no specific performance numbers or exact dates for the week in question.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-14T04:28:50+00:00",
+          "firstSeen": "2026-11-14T04:28:50+00:00",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms"
+        },
+        {
+          "id": "320b04ca4c0ded",
+          "cat": "India",
+          "title": "FICCI urges comprehensive India‑Africa trade framework",
+          "summary": "The Federation of Indian Chambers of Commerce and Industry (FICCI) called for a comprehensive trade arrangement between India and African nations to improve economic cooperation, stressing the need for a predictable framework to lower trade barriers and attract investment. The appeal coincides with Commerce Minister Piyush Goyal’s upcoming visit to Egypt, which FICCI views as a strategic gateway for Indian firms in various sectors.",
+          "why": "Strengthening India‑Africa trade can open new markets and investment opportunities for businesses in both regions.",
+          "publishedAt": "2026-11-14T06:11:08+00:00",
+          "firstSeen": "2026-11-14T06:11:08+00:00",
+          "importanceScore": 11.0,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms"
+        },
+        {
+          "id": "2e5d60321c05f2",
+          "cat": "India",
+          "title": "India's consumption story remains strong, but rural demand faces inflation risks: Report",
+          "summary": "India's consumption growth is projected to be robust, driven by a young population and digital adoption. Despite this, rural income pressures and food inflation could pose challenges for near-term demand.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-14T09:55:00+00:00",
+          "firstSeen": "2026-11-14T09:55:00+00:00",
+          "importanceScore": 10.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-consumption-story-remains-strong-but-rural-demand-faces-inflation-risks-report/articleshow/135829300.cms"
+        },
+        {
+          "id": "3c572bb35d331d",
+          "cat": "Canada",
+          "title": "Canada-U.S. trade deal must include viable auto sector, Carney says",
+          "summary": "are making progress, but Ottawa won’t accept a deal that doesn’t allow for a viable auto sector. “This is one of the fundamental issues in our trade negotiation, and we are making progress toward that,” he said of the auto sector, adding it was also “one of the most challenging issues” in the talks.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-14T17:20:17+00:00",
+          "firstSeen": "2026-11-14T17:20:17+00:00",
+          "importanceScore": 9.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://globalnews.ca/news/12151109/canada-us-trade-deal-conditions/"
+        },
+        {
+          "id": "e2426ff356f0c1",
+          "cat": "India",
+          "title": "India, US have resolved bulk of trade deal issues, pact could be sealed soon: Jaishankar",
+          "summary": "India and the US have nearly resolved issues regarding the proposed trade deal. Securing this trade pact would significantly benefit India’s economy in the large context.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-14T09:59:26+00:00",
+          "firstSeen": "2026-11-14T09:59:26+00:00",
+          "importanceScore": 9.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1257,83 +1239,6 @@
       "latestSummary": "Around 23 stocks from the BSE 200 index advanced in all five consecutive sessions from November 8 to 13. Of these, we shortlisted 8 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 7% to 11%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms"
-    },
-    "9ad4c028e64fa3": {
-      "id": "9ad4c028e64fa3",
-      "firstSeen": "2026-11-06T22:53:46+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-06T23:11:48.681827+00:00",
-          "title": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
-          "summary": "Bloomberg, as reported by TechCrunch, says OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion. The round has not closed yet and is expected to finish in the coming weeks, with total commitments potentially reaching about $20 billion. Earlier reports indicated a $30 billion target, which the current amount does not meet.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-07T02:50:28.319139+00:00",
-          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-          "summary": "OpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion. Bloomberg writes that some potential buyers believe Anthropic’s valuation could be as low as $1.1 trillion, compared with the $2 trillion that investors were said to be expecting roughly a month ago.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-07T10:15:49.710814+00:00",
-          "title": "OpenAI raises $11 billion, valuation $1.25 trillion",
-          "summary": "OpenAI has reportedly secured $11 billion in a funding round that values the company at $1.25 trillion. The round is still open and Bloomberg expects it could close in the coming weeks with total commitments around $20 billion, below the earlier September target of $30 billion. TechCrunch has asked OpenAI for comment and is awaiting a response.",
-          "importanceScore": 11.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-07T16:31:00.979460+00:00",
-          "title": "OpenAI raises $11 billion in funding round valuing it at $1.25 trillion",
-          "summary": "OpenAI has secured $11 billion so far in a new funding round that values the company at $1.25 trillion, according to Bloomberg as reported by TechCrunch. The $11 billion is part of a larger round that has not yet closed and may total about $20 billion, below the $30 billion target mentioned in September. OpenAI has not responded to comment requests.",
-          "importanceScore": 10.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-07T20:55:06.920755+00:00",
-          "title": "OpenAI raises $11 billion in new funding round, valuation $1.25 trillion",
-          "summary": "Bloomberg reported, via TechCrunch, that OpenAI has secured $11 billion so far in an ongoing financing round that values the company at $1.25 trillion. The round has not closed and Bloomberg said it could total about $20 billion, below the roughly $30 billion target mentioned in September. TechCrunch has asked OpenAI for comment.",
-          "importanceScore": 10.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-07T20:55:06.920755+00:00",
-      "cat": "AI",
-      "latestTitle": "OpenAI raises $11 billion in new funding round, valuation $1.25 trillion",
-      "latestSummary": "Bloomberg reported, via TechCrunch, that OpenAI has secured $11 billion so far in an ongoing financing round that values the company at $1.25 trillion. The round has not closed and Bloomberg said it could total about $20 billion, below the roughly $30 billion target mentioned in September. TechCrunch has asked OpenAI for comment.",
-      "why": "The capital could fund OpenAI’s product development and affect its competitive positioning.",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
     },
     "4bd712baa6ab43": {
       "id": "4bd712baa6ab43",
@@ -3600,13 +3505,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-14T22:27:54.637630+00:00",
+          "title": "FICCI urges comprehensive India‑Africa trade framework",
+          "summary": "The Federation of Indian Chambers of Commerce and Industry (FICCI) called for a comprehensive trade arrangement between India and African nations to improve economic cooperation, stressing the need for a predictable framework to lower trade barriers and attract investment. The appeal coincides with Commerce Minister Piyush Goyal’s upcoming visit to Egypt, which FICCI views as a strategic gateway for Indian firms in various sectors.",
+          "importanceScore": 11.0,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
+      "lastSeen": "2026-11-14T22:27:54.637630+00:00",
       "cat": "India",
-      "latestTitle": "FICCI urges India‑Africa comprehensive trade framework",
-      "latestSummary": "FICCI urged India and African nations to negotiate a comprehensive, predictable trade framework aimed at lowering barriers and encouraging investment. Secretary General Anant Swarup said the two regions should explore a broader arrangement, and the call comes as Commerce Minister Piyush Goyal prepares to visit Egypt, a strategic hub for Indian companies.",
-      "why": "A formal framework could expand bilateral commerce and investment, supporting economic growth in both regions.",
+      "latestTitle": "FICCI urges comprehensive India‑Africa trade framework",
+      "latestSummary": "The Federation of Indian Chambers of Commerce and Industry (FICCI) called for a comprehensive trade arrangement between India and African nations to improve economic cooperation, stressing the need for a predictable framework to lower trade barriers and attract investment. The appeal coincides with Commerce Minister Piyush Goyal’s upcoming visit to Egypt, which FICCI views as a strategic gateway for Indian firms in various sectors.",
+      "why": "Strengthening India‑Africa trade can open new markets and investment opportunities for businesses in both regions.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms"
     },
     "44d39b9b61022d": {
@@ -3625,12 +3543,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-14T22:27:54.637630+00:00",
+          "title": "Nvidia posts worst week since Trump tariff sell‑off as Jensen Huang exits",
+          "summary": "Nvidia recorded its sharpest weekly decline since the Trump‑era tariff sell‑off, and the slide occurred as Jensen Huang announced his departure from the company. The source provides no specific performance numbers or exact dates for the week in question.",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
+      "lastSeen": "2026-11-14T22:27:54.637630+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Nvidia posts worst weekly decline since 2018 Trump tariff sell‑off as CEO Jensen Huang exits",
-      "latestSummary": "Nvidia’s shares recorded their steepest weekly loss since the 2018 market sell‑off triggered by Trump‑era tariffs. The decline occurred in the same week that the company announced the departure of its chief executive Jensen Huang. The stock’s performance marked a notable reversal after a period of strong gains.",
+      "latestTitle": "Nvidia posts worst week since Trump tariff sell‑off as Jensen Huang exits",
+      "latestSummary": "Nvidia recorded its sharpest weekly decline since the Trump‑era tariff sell‑off, and the slide occurred as Jensen Huang announced his departure from the company. The source provides no specific performance numbers or exact dates for the week in question.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms"
     },
@@ -3650,13 +3581,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-14T22:27:54.637630+00:00",
+          "title": "Canada-U.S. trade deal must include viable auto sector, Carney says",
+          "summary": "are making progress, but Ottawa won’t accept a deal that doesn’t allow for a viable auto sector. “This is one of the fundamental issues in our trade negotiation, and we are making progress toward that,” he said of the auto sector, adding it was also “one of the most challenging issues” in the talks.",
+          "importanceScore": 9.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
+      "lastSeen": "2026-11-14T22:27:54.637630+00:00",
       "cat": "Canada",
       "latestTitle": "Canada-U.S. trade deal must include viable auto sector, Carney says",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "latestSummary": "are making progress, but Ottawa won’t accept a deal that doesn’t allow for a viable auto sector. “This is one of the fundamental issues in our trade negotiation, and we are making progress toward that,” he said of the auto sector, adding it was also “one of the most challenging issues” in the talks.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://globalnews.ca/news/12151109/canada-us-trade-deal-conditions/"
     },
     "e2426ff356f0c1": {
@@ -3675,15 +3619,53 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-14T22:27:54.637630+00:00",
+          "title": "India, US have resolved bulk of trade deal issues, pact could be sealed soon: Jaishankar",
+          "summary": "India and the US have nearly resolved issues regarding the proposed trade deal. Securing this trade pact would significantly benefit India’s economy in the large context.",
+          "importanceScore": 9.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
+      "lastSeen": "2026-11-14T22:27:54.637630+00:00",
       "cat": "India",
-      "latestTitle": "India and US resolve most trade deal issues, pact could be sealed soon, says Jaishankar",
-      "latestSummary": "Indian Foreign Minister S. Jaishankar said that India and the United States have resolved the bulk of outstanding issues in their proposed trade agreement and that the pact could be sealed in the near future. His comment indicates that negotiations have moved past major sticking points.",
+      "latestTitle": "India, US have resolved bulk of trade deal issues, pact could be sealed soon: Jaishankar",
+      "latestSummary": "India and the US have nearly resolved issues regarding the proposed trade deal. Securing this trade pact would significantly benefit India’s economy in the large context.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms"
+    },
+    "2e5d60321c05f2": {
+      "id": "2e5d60321c05f2",
+      "firstSeen": "2026-11-14T09:55:00+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-14T22:27:54.637630+00:00",
+          "title": "India's consumption story remains strong, but rural demand faces inflation risks: Report",
+          "summary": "India's consumption growth is projected to be robust, driven by a young population and digital adoption. Despite this, rural income pressures and food inflation could pose challenges for near-term demand.",
+          "importanceScore": 10.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-14T22:27:54.637630+00:00",
+      "cat": "India",
+      "latestTitle": "India's consumption story remains strong, but rural demand faces inflation risks: Report",
+      "latestSummary": "India's consumption growth is projected to be robust, driven by a young population and digital adoption. Despite this, rural income pressures and food inflation could pose challenges for near-term demand.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-consumption-story-remains-strong-but-rural-demand-faces-inflation-risks-report/articleshow/135829300.cms"
     }
   },
-  "updated": "2026-11-14T18:07:31.366778+00:00"
+  "updated": "2026-11-14T22:27:54.637630+00:00"
 }
