@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T15:52:30.646792+00:00",
+  "updated": "2026-11-15T21:17:16.701522+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -9,7 +9,18 @@
       "direction": "flat",
       "move": "S&P/TSX Composite -0.09%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
-      "drivers": [],
+      "drivers": [
+        {
+          "label": "Cenovus Energy record oil sands output",
+          "detail": "Kalkine Media article discusses Cenovus' record production but does not tie it to the TSX move.",
+          "kind": "context"
+        },
+        {
+          "label": "Gran Tierra Energy strategic shift",
+          "detail": "Kalkine Media article covers Gran Tierra's plans to exit South America, yet no connection to the index change is provided.",
+          "kind": "context"
+        }
+      ],
       "sectors": [],
       "confidence": "low",
       "primaryIndex": {
@@ -26,8 +37,21 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
-      "sources": [],
-      "evidenceCount": 0
+      "sources": [
+        {
+          "name": "Kalkine Media",
+          "title": "Can Cenovus Energy (TSX:CVE) Keep Its Momentum After Record Oil Sands Output? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYmNwMTRBaFMxRm9MZTdocDVtWGhiR3d6bGpQV1pmV3NVOWR1bUpSSW1McGdRM1NLS19NX2JTLUFrOGdieDBwczZMVWlTN3A4TzZrMDZVNkFsQ1BTMnlubTlLU2pPaHVsMUdyNjNJMy1UaHRlNWxUREZ6VUJZYWhGeERsYU5KRjZsSTNlMmFySWlOamZ4aF9sZzRGR0hqWkZuQXZKUzNNXzN4NUMtX0x0dXE4Q2VmZw?oc=5",
+          "publishedAt": "2026-11-15T20:34:00+00:00"
+        },
+        {
+          "name": "Kalkine Media",
+          "title": "What Comes Next for Gran Tierra Energy (TSX:GTE) as It Prepares to Exit South America? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRzJBNmQ0V3VyV0p2amxJYlV2aWZ5eFJkWGhsWEpjTmlKTnYzci1SakIyVEZoZ3hNZ1lKbGJBR0JFd1puOWpJOXlldU5jS0NJOFJrc2VsTC1pYUk1aGVkNldfeEVlS0R5U2ZkRlRQVnBQUktYZ0RaY25lZzlvampxTVNmcXBKM2NpQS1EWUZqR185alk2eHlHSUN4R09nZWlqQ1V0UzU2TTN0QkdYQmxZVS10U0d5Z3ZxUXlGVHB3LTQxcXM?oc=5",
+          "publishedAt": "2026-11-15T17:51:00+00:00"
+        }
+      ],
+      "evidenceCount": 2
     },
     "India": {
       "label": "India",
@@ -90,7 +114,7 @@
         {
           "name": "Livemint",
           "title": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June - Rally ahead or a pause? - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNamlINk51VS1kMjBDSTV3MmxfSDlrVTZZTjFwNDlVdUJMS1BLZGhmMXNQWDVIc2lqUzMzYXI0bDJuTGRXT19heTUwSzVSZWJpbVpNcVRHOGdibE5wRUZiVXdMN1JCeDN2S3IwMEh5eHlYUlpSZEtlVFRVNTI3UzNXcFN4UHBZYWZob01yckd3YUdoaXRNNWFYZVhJSFZucHl2eFREYkpHd05DTnhEdUI3UUtNMGQzbXp1enRYSUczeTAwY2ZlTm4yc2FobHpFUGw1X0lzOWVaZXNDdHgxdUJjQzRDODNSYk90RUdtQzhHYTJ2bERQbzNJNnJHbV9ycS1ZSUZ6cHN4VzI5d3B3NWFv0gGPAkFVX3lxTE1qaUg2TnVVLWQyMENJNXcybF9IOWtVNllOMXA0OVV1QkxLUEtkaGYxc1BYNUhzaWpTMzNhcjRsMm5MZFdPX2F5NTBLNVJlYmltWk1xVEc4Z2JsTnBFRmJVd0w3UkJ4M3ZLcjAwSHl4eVhSWlJkS2VUVFU1MjdTM1dwU3hQcFlhZmhvTXJyR3dhR2hpdE01YVhlWElIVm5weXZ4VERiSkd3TkNOeER1QjdRS00wZDNtenV6dFhJRzN5MDBjZmVObjJzYWhsekVQbDVfSXM5ZVplc0N0eDF1QmNDNEM4M1JiT3RFR21DOEdhMnZsRFBvM0k2ckdtX3JxLVlJRnpwc3hXMjl3cHc1YW8?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSlZYSUtBR0s4RVlweHlOTEg0WXA3Vk5TanpTNERnX1BXN0lMV1lUVHlMdURYV2tIRTB2T2lTYTVDRm1iOXVLTVZsdlAxV2RhTHQ2SS1iMjMtZGpVWV9VeUZIMDBVX3JYLUJ0ZmpBcERvbnF1MFBaMTVIemFsdHpvUmJNbm5FQmVFSmxOZHJqQkpSaTl0LWhlZ2ZfZmZQY29pczlRTFhkOENaTnpJSXVVZmJHZEFoNm1tSlpuMzd4X0dOMFd5RzVSVW1mRXAxYWtPZTMyWFJ2WnNZYWRYM3pBclByODd6bjkzUnM2RDYxa190RXNkUlFPU1BRVG96ZXA0ZUdCT1VyTXFnZ9IBjwJBVV95cUxNamlINk51VS1kMjBDSTV3MmxfSDlrVTZZTjFwNDlVdUJMS1BLZGhmMXNQWDVIc2lqUzMzYXI0bDJuTGRXT19heTUwSzVSZWJpbVpNcVRHOGdibE5wRUZiVXdMN1JCeDN2S3IwMEh5eHlYUlpSZEtlVFRVNTI3UzNXcFN4UHBZYWZob01yckd3YUdoaXRNNWFYZVhJSFZucHl2eFREYkpHd05DTnhEdUI3UUtNMGQzbXp1enRYSUczeTAwY2ZlTm4yc2FobHpFUGw1X0lzOWVaZXNDdHgxdUJjQzRDODNSYk90RUdtQzhHYTJ2bERQbzNJNnJHbV9ycS1ZSUZ6cHN4VzI5d3B3NWFv?oc=5",
           "publishedAt": "2026-11-15T11:49:46+00:00"
         },
         {
