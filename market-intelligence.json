@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T08:27:25.181179+00:00",
+  "updated": "2026-11-15T15:52:30.646792+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -9,13 +9,7 @@
       "direction": "flat",
       "move": "S&P/TSX Composite -0.09%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
-      "drivers": [
-        {
-          "label": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.09%",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        }
-      ],
+      "drivers": [],
       "sectors": [],
       "confidence": "low",
       "primaryIndex": {
@@ -32,15 +26,8 @@
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
-      "sources": [
-        {
-          "name": "Investing.com",
-          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.09% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHRYbDVBWlBUbWJER1JJWGljdC16M0doZnlCWWhQdmszQVlGTDM3LTd3NDQ1emNpN3BBeVhQME9lTW45T3JoTFRWWWF2RzZuYzZTX21jTFg4ejV1bl9ld0hpVG9Eai1hX0JiQndkNUVhRzRWOXZJUVpDWlV1a0RKdHFBdnUwYTNmZ2w4MU1QdzFFU0JaZERaLWtCeXZER2RMX1V3ZWhZeEpDazBScmNOWFJwejZDazJoMXNN?oc=5",
-          "publishedAt": "2026-11-14T08:54:00+00:00"
-        }
-      ],
-      "evidenceCount": 1
+      "sources": [],
+      "evidenceCount": 0
     },
     "India": {
       "label": "India",
@@ -50,17 +37,17 @@
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
+          "label": "Trade Setup For Nov 16: Nifty Likely To Resume Rally Despite Friday's Sell-Off; Key Levels",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June -",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
           "label": "Smallcaps jump 3.6%, PSU banks surge 7.5% as Sensex, Nifty extend weekly gains; what lies ",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Sensex, Nifty Extend Gains For Third Straight Week Amid Strong Foreign Inflows",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Strong FII Buying Extends For Third Week As Nifty Gains 0.6 Pc",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
@@ -95,40 +82,40 @@
       },
       "sources": [
         {
+          "name": "NDTV Profit",
+          "title": "Trade Setup For Nov 16: Nifty Likely To Resume Rally Despite Friday's Sell-Off; Key Levels To Watch - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSVNwTFpxOGc1WjIyVkRFbWEweGU5eFl0QVF5eHhCOFpDTmVoVjhSWnhjcjMza2R6SWhDOFFtNDhpbUszSnNGRzZ6UXVEZllzdDVNdDBmYVNDQ3RsbTF5S3hmWkFlZlJiZlhxSDdJRlVTbUQxSG9vR1k2N0pqMHdYSG1zaHQwOXZpbzRoSUVVUlg4VWx5cndiaF9FWjFSNjNGTzVpSjFvMWVLYl9kam1YTEktd3l0RFZmLUFwV2ItcThscU01WEx5akY1Nkp6bTBjTGFKNHMwWdIB3wFBVV95cUxPLXV5VFpoc283T2JwdWZ5d05IRnhvZ1QwT0t5OFVoU0VNS2tVWXo4SFRyX1ZQdVRXTVNyQmFFSzFyeWVaQU9Jdm9WTTJ1aGhCc0V0TU5NQzZmY01NQjhKTllmQnU4eS11OWRUTHdDM1JlMkNfeWZiYjJDa2RqMlUxMHVQYi1rVUVySXBKYmVEZkxRR3lWemJ1RW9VLUVYQ2NjbGZrNE1yMFZWTjhlMXVlSXVCODlhWlBaTXc1TWdJTG1hakV0OWduekIzRHJSZU5ORzZkb1FVdXJmUGlnYzJj?oc=5",
+          "publishedAt": "2026-11-15T14:18:27+00:00"
+        },
+        {
+          "name": "Livemint",
+          "title": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June - Rally ahead or a pause? - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNamlINk51VS1kMjBDSTV3MmxfSDlrVTZZTjFwNDlVdUJMS1BLZGhmMXNQWDVIc2lqUzMzYXI0bDJuTGRXT19heTUwSzVSZWJpbVpNcVRHOGdibE5wRUZiVXdMN1JCeDN2S3IwMEh5eHlYUlpSZEtlVFRVNTI3UzNXcFN4UHBZYWZob01yckd3YUdoaXRNNWFYZVhJSFZucHl2eFREYkpHd05DTnhEdUI3UUtNMGQzbXp1enRYSUczeTAwY2ZlTm4yc2FobHpFUGw1X0lzOWVaZXNDdHgxdUJjQzRDODNSYk90RUdtQzhHYTJ2bERQbzNJNnJHbV9ycS1ZSUZ6cHN4VzI5d3B3NWFv0gGPAkFVX3lxTE1qaUg2TnVVLWQyMENJNXcybF9IOWtVNllOMXA0OVV1QkxLUEtkaGYxc1BYNUhzaWpTMzNhcjRsMm5MZFdPX2F5NTBLNVJlYmltWk1xVEc4Z2JsTnBFRmJVd0w3UkJ4M3ZLcjAwSHl4eVhSWlJkS2VUVFU1MjdTM1dwU3hQcFlhZmhvTXJyR3dhR2hpdE01YVhlWElIVm5weXZ4VERiSkd3TkNOeER1QjdRS00wZDNtenV6dFhJRzN5MDBjZmVObjJzYWhsekVQbDVfSXM5ZVplc0N0eDF1QmNDNEM4M1JiT3RFR21DOEdhMnZsRFBvM0k2ckdtX3JxLVlJRnpwc3hXMjl3cHc1YW8?oc=5",
+          "publishedAt": "2026-11-15T11:49:46+00:00"
+        },
+        {
           "name": "TradingView",
           "title": "Smallcaps jump 3.6%, PSU banks surge 7.5% as Sensex, Nifty extend weekly gains; what lies ahead? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeWdwb3k5NVFXM3B3b2FxM2xMUFJEX2FobS1qd1ItcDBOQTJqR09rUHNOU2w2eGU3U3pnbVFrUmRxUjdRWmhybzNpaWtYZDlBV0V5UllvMnFyNTctWnJtOHA3cVZCbmJnNW90di0xUFVPZGtzVVNKUDlGdjFPbERWbGU1RmxiUkx0TTNuN2czcnVibTZmV21RV3M3clpvSlJFQXIza0tqcG9fU19Sa1JGWEJDYzVYQWt5aG5RS2hDTUNnbEg5a3JoV1VueTNVVnd1cERTZDNFYmZZUGEzOWtuYTNJdkFpMXdL?oc=5",
           "publishedAt": "2026-11-15T04:14:00+00:00"
         },
         {
-          "name": "Ommcom News",
-          "title": "Sensex, Nifty Extend Gains For Third Straight Week Amid Strong Foreign Inflows - Ommcom News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPekN6VmN0YXBqcGpfVHU1em5jWHlua29jWURBYWk0bHdRajNjdm1RSXlMTFotajVpVHlzNVVGSFdBNVVsYmVCdjRzbi10YWZDeDVCcC1rNngwZ0tMUzNKbjJ1aWZiaE5FWmRsVWZvMTViaV9QODZSQlo1dEhHVUFGQUI3VHc0ME1fRWJSMEdrdWhUYURMZGlUSzRUSUtYTDlkaHFDLWJvMzlZcExYQzd4d25ScXdadw?oc=5",
-          "publishedAt": "2026-11-14T10:06:40+00:00"
+          "name": "INDIA New England News",
+          "title": "Indian Stock Markets Extend Winning Streak to Seven Sessions as Sensex Surges 1,718 Points - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVHJDT0hWamk1V0lZRGpKUzBNZmtlZlpKYnc3MlNyU0FGUk5FWXpYTVBoRjluUGN2dTJQdVhDMnR2enFDZUFCU2lHNnVOREdWV3JaOEdfY19CMG81Qm81SkIyeHVsbktMUDNrSGEzR1g3cXpYV0tEdGNWZmxoMklkYUN0REhQNEQyUFJ0NmV5MF84cUNDa1lGR0ZwSmpVSlo4VUUybjJYMzZSclBSZlltX0hvQ0pEd2NRWWc?oc=5",
+          "publishedAt": "2026-11-15T04:05:27+00:00"
         },
         {
-          "name": "Ommcom News",
-          "title": "Strong FII Buying Extends For Third Week As Nifty Gains 0.6 Pc - Ommcom News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2c4Z1haTlhiVnlHSjYzbUZncFZyLW5vRGtZMVA0c1Nxd0ZmUDhzZUkzNm9sLTh5bTU3b1dUNUozTko4dFZhbDFrcFZuMUczc0Jta0E1RnlSWHlFaGsxd3NzcmN6ZTNhQndLWlNaa3ZfNzZHNU9xOHVLQmduUVNaMEl2RXZsVm0zZ2dJUm1VNE5oWmUyOFk3a0xHMGhMWVQzS0E?oc=5",
-          "publishedAt": "2026-11-14T09:21:40+00:00"
+          "name": "Social News XYZ",
+          "title": "Sensex, Nifty extend gains for third straight week amid strong foreign inflows - Social News XYZ",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU3BYcFlSaHRxSnFnNHBHZ295RDVEMG5VMXViUUJ2Q0pQdWYxSXF1UzZQYmpLZjhtNWhSc3EwWEhjU0d2dnIyemJrcW9KZzhyM3h6eVN2SFNVTENKTWVrb05ROUY1Y0pEaDlaMFlZcXRFM0tzbEVHeGhtaWQ5SDNCeHVJQ0x3Z3JPY1hxNDlRdVhJU2VKWGJrbnRGMHV1bjM0YnhJTVBEV09tWmJjaV9qdG1MR0hpc2fSAbcBQVVfeXFMTVNwWHBZUmh0cUpxZzRwR2dveUQ1RDBuVTF1YlFCdkNKUHVmMUlxdVM2UGJqS2Y4bTVoUnNxMFhIY1NHdnZyMnpia3FvSmc4cjN4enlTdkhTVUxDSk1la29OUTlGNWNKRGg5WjBZWXF0RTNLc2xFR3hobWlkOUgzQnh1SUNMd2dyT2NYcTQ5UXVYSVNlSlhia250RjB1dW4zNGJ4SU1QRFdPbVpiY2lfanRtTEdIaXNn?oc=5",
+          "publishedAt": "2026-11-14T21:41:00+00:00"
         },
         {
-          "name": "The Economic Times",
-          "title": "Will Sensex, Nifty continue their bull run or consolidate? 4 factors to watch out for this week - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYzlYZ3lsM3BwLU1MTTNUSk55QlFZOTlIY3FHSWtyREhoQXJKbUQyRW9xdXl6akdHTEI0ZXI3VFJEaVI1UUdjcFdDUVlUaXRhSHhITkg3QUc3TEdDSmFibklCZ1dnZlkzdGZwVnhTMnljeGRaRWFOTlkzMUF0XzExRS1FdGhtWXg0aW8zZy10aDY0MEhHVUFFXzZoZkd6VWVNQXVaM1VickdpNldpMjJ5Qm1GTDB6enBvYTg4a0pZZDZlMTltMEFwX3ZMa0FlRFFGTXZLdmtZN3lIMndPSEwyTjdKa2VNZ2NWa242bGNEWGRmeEhnM2tnWF9vSdIBgAJBVV95cUxQOG52UTBkNDlYME8xVEdjTkxDTld3RFRxcmhSRDFRVkVXQ3FheERGWWxVbUdxWE5KNU1XRGstbk9LazR6c3FsUUVGRkdMN3MxODdPQ0ExT2hIUDhMM1BlX3hnSXNUQmN3cHhENFFHWUswajNVeHVqOFd0UlJ4VTAyV2h5WEZYcHJVUXczOENpVWUxM0pSVC1wNThTV0dtODQ4ZE5VN04waldCY0x0TnBpek1LUElYOFVnV2tabGotN25BWjF6MzFLVmstU2VYZXFlU2N5bElqTVJHYVdoOE9LaDVLbDRJb1dONTQ5ZnJLSkM3VGdHaW41XzN6Qnk0bVBz?oc=5",
-          "publishedAt": "2026-11-15T03:52:52+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "ICICI Bank Share Price Today, ICICI Bank Stock Price Live NSE/BSE Updates - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX203dWxrZzRtNEZVQVFkRUVXMVdIblBYdzRjQmw5em14S3g4MVlqQkZreTRzdUtfR2oxdEplVnQ3dW1WSWl3bjNPeG5EWVhwU3dBanNmT2RReDRoRWZnRkdOamNfdTdDMUJaYmFreW0tUEduS1NmRjFUX1dyelVSbXd5bw?oc=5",
-          "publishedAt": "2026-11-14T23:09:26+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Today: Sensex Edges Up 0.13% to 81,106.65, Its Highest Close in More Than Eight Months - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSDFhSThvQUEwVVB0RnhSZXp0UUpwa01RdmlMdzRoSlpYWWtoVjI1RU9BQlhqME9DajhqVGcwd09ra0VFYlpKRTVxTjA3cVF1V3JJNkZUZU94bExaV2thdlVkT21UM0FITHFubGJJWVotNDZsWDU0MUFUcmdmcWtQU19MS2cxMVdOQ3JCZXZRWlNWbGVSQkRwVDdFdThISnNUQU5KSkhrbmRuOWstUWR6S3JMYURueDRvUWE5c3U3ZUtlWVdYQnd0V3FMVU95eDQ?oc=5",
-          "publishedAt": "2026-11-14T18:41:26+00:00"
+          "name": "Livemint",
+          "title": "Nifty 50 above 25,000, holds key moving averages: Is Buy-On-Dips right strategy? Here's what stock market experts say - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNTlp2MHBfQU12V0NHY2F2dUZ0end3dlhEOXVhUUd3NjYxN2RuYjNlUHVsYWRZQTBpdmc1LXhUOFZZdm12Rzk1R2JmYVFtZ3VFSXhzTlJMWlZPd3BIWFJkTDdGZlZkX2NQeHF1QkxFVXptLUFubFpQcnVkYm9mTUhfckV0TTdMZldmNkt2MGtON05qRzB5NWpyazRIZ2JVN29PZkNPSS1TZm9XM21Cd3VtVzJlTkVMVTJMM2hFT21fTHRHTVdObWtncEtndHJCeGQ3Qm9UVGs3NWFjSDJUdFBiVUsyMVpyTWppYV81UG1Uc3ZuMVFsOG96UEQ3SXpScG12WWtQS2hSME5pUDg0Q2RuSNIBlgJBVV95cUxNM3NSX0JCampQTVVjVmtUSEphbnpDSGs1QVhNQ0JKZmUwOXg4ZW0tU3d2VzZyRmkzbXJ5el9YRjc0dU0yS1N1OTVIZUh5NGdXVk9xQmRJVEJQM1d2d2lLZWE4SXlkYVA5SWJBNXNKWjFKckZiYWFsWW92NVVPU2UtNkRyM2pHd2lKZTZreTJ2TFRiUWd3UWE0RHdRQ0ZfZVJlekpNcVRpTnVLdFc0T050eDRrZXRvUDBkUjMteDZCblVMLS04ejRRUWUxdzVyZVFPaEtKUDlqdDRReTk3eDVjWHVJWWd4bmFlTVFqajJVd1pZemVUNVhIOXpZNFdyR1plcUJENmE1Y2pRcUQyRUJzeEd6MXpKdw?oc=5",
+          "publishedAt": "2026-11-15T08:38:41+00:00"
         }
       ],
       "evidenceCount": 7
