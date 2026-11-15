@@ -3,206 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-12T03:03:10.522822+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 2,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "05ba6d4f0625e1",
-          "cat": "World",
-          "title": "Abu Dhabi trilateral talks end without breakthrough",
-          "summary": "Trilateral talks in Abu Dhabi involving Russia, Ukraine and the United States concluded after a second day without any concrete agreement to end the war that began with Russia’s 2022 invasion. The U.S. side said it saw “some openings,” but no breakthrough was announced. On Thursday, Steve Witkoff and Jared Kushner are scheduled to travel to Moscow and Dublin for separate meetings with the Russian and Ukrainian presidents.",
-          "why": "The talks are a high‑level diplomatic channel that could shape future attempts to resolve the Russia‑Ukraine conflict.",
-          "publishedAt": "2026-11-11T18:04:58+00:00",
-          "firstSeen": "2026-11-11T18:04:58+00:00",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "d9efa7a78ce7e3",
-          "cat": "Canada",
-          "title": "Alberta issues wildfire advisories and warnings in November",
-          "summary": "A Global News report notes that unusually warm conditions in November have prompted Alberta to issue wildfire advisories and warnings. The province maintains an Alberta wildfire status page and uses its emergency alert system to inform residents about fire risk and ongoing fire activity.",
-          "why": "Timely alerts help residents take protective actions and enable authorities to allocate resources effectively.",
-          "publishedAt": "2026-11-11T23:40:19+00:00",
-          "firstSeen": "2026-11-11T23:40:19+00:00",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://globalnews.ca/news/12146834/alberta-november-wildfire-risk/"
-        },
-        {
-          "id": "a9b4c563535594",
-          "cat": "Indian Markets",
-          "title": "Anthropic IPO draws overwhelming demand, could raise up to $90.4 billion",
-          "summary": "Anthropic PBC’s initial public offering has attracted an overwhelming response, with investor demand potentially amounting to $90.4 billion. The company is projecting a market valuation of about $1.4 trillion and reported a revenue run‑rate of $81 billion as of 31 October. Goldman Sachs is acting as the lead manager for the offering.",
-          "why": "The strong demand signals high investor confidence in Anthropic and could bring significant capital into the AI sector.",
-          "publishedAt": "2026-11-11T16:25:21+00:00",
-          "firstSeen": "2026-11-11T16:25:21+00:00",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms"
-        },
-        {
-          "id": "a83a7b92d2e9b9",
-          "cat": "Indian Markets",
-          "title": "Global Market Today: Asian stocks mixed as Nvidia turmoil hits AI-linked shares",
-          "summary": "Nasdaq 100 futures fell over 1% and S&P 500 contracts lost 0.5% after Nvidia tumbled about 10% in late trading. The New York Times also reported Wednesday that Huang had a relationship with Nvidia healthcare vice president Kimberly Powell, citing multiple people who worked at the company.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-12T01:33:51+00:00",
-          "firstSeen": "2026-11-12T01:33:51+00:00",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-us-stock-futures-fall-as-nvidia-turmoil-deepens/articleshow/135751953.cms"
-        },
-        {
-          "id": "edf28127a9b8b2",
-          "cat": "AI",
-          "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-          "summary": "Fractile, a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. Alongside the likes of Axelera, Etched, and OLIX, this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-11T19:34:55+00:00",
-          "firstSeen": "2026-11-11T19:34:55+00:00",
-          "importanceScore": 11.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
-        },
-        {
-          "id": "fe4d19670ba3fa",
-          "cat": "AI",
-          "title": "Why the data center you dread might never even be built",
-          "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-11T20:15:15+00:00",
-          "firstSeen": "2026-11-11T20:15:15+00:00",
-          "importanceScore": 8.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-12T11:18:27.150823+00:00",
-      "changeSummary": {
-        "new": 2,
-        "updated": 0,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "0dde4e005b4d02",
-          "cat": "Indian Markets",
-          "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Current Market Position",
-          "summary": "Get the latest details on Tech Mahindra, including: Last traded price 1774.0, Market capitalization: 173517.56, Volume: 2159991, Price-to-earnings ratio 31.46, Earnings per share 56.38. Get the latest details on Hindalco, including: Last traded price 964.0, Market capitalization: 216632.64, Volume: 12785033, Price-to-earnings ratio 11.29, Earnings per share 85.4.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-12T04:06:09+00:00",
-          "firstSeen": "2026-11-12T04:06:09+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-today-live-updates-12-nov-2026/liveblog/135754851.cms"
-        },
-        {
-          "id": "3343f44f188877",
-          "cat": "Indian Markets",
-          "title": "Axis Bank Share Price Live Updates: Axis Bank Price Movement Analysis",
-          "summary": "Dive into the current details of Axis Bank, including: Last traded price 1342.9, Market capitalization: 418137.4, Volume: 7842954, Price-to-earnings ratio 13.96, Earnings per share 96.19. Our liveblog offers a complete overview of Axis Bank through a blend of fundamental and technical indicators.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-12T03:30:41+00:00",
-          "firstSeen": "2026-11-12T03:30:41+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-livestock-price-today-live-updates-12-nov-2026/liveblog/135753811.cms"
-        },
-        {
-          "id": "edf28127a9b8b2",
-          "cat": "AI",
-          "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-          "summary": "Fractile , a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. Alongside the likes of Axelera , Etched , and OLIX , this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-11T19:34:55+00:00",
-          "firstSeen": "2026-11-11T19:34:55+00:00",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
-        },
-        {
-          "id": "fe4d19670ba3fa",
-          "cat": "AI",
-          "title": "Why the data center you dread might never even be built",
-          "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-11T20:15:15+00:00",
-          "firstSeen": "2026-11-11T20:15:15+00:00",
-          "importanceScore": 7.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-12T19:57:19.530012+00:00",
       "changeSummary": {
         "new": 5,
@@ -1255,6 +1055,34 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-15T17:44:49.892660+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "d464f54f3dae7f",
+          "cat": "World",
+          "title": "Iran launches six‑drone attack on US radar base in Bahrain, intercepted",
+          "summary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
+          "why": "The attack raises regional tension and could further affect shipping through the strategically vital Strait of Hormuz.",
+          "publishedAt": "2026-11-15T13:42:58+00:00",
+          "firstSeen": "2026-11-15T13:42:58+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "events": {
@@ -1321,158 +1149,6 @@
       "latestSummary": "Around 23 stocks from the BSE 200 index advanced in all five consecutive sessions from November 8 to 13. Of these, we shortlisted 8 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 7% to 11%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms"
-    },
-    "378276ef2f260c": {
-      "id": "378276ef2f260c",
-      "firstSeen": "2026-11-07T18:14:38+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-07T20:55:06.920755+00:00",
-          "title": "US offers up to $20 million for tips on Iran's nuclear programme",
-          "summary": "The U.S. State Department announced a Rewards for Justice offer of up to $20 million for information on Iran’s nuclear programme, and said the informant could be offered relocation assistance. The announcement follows former President Donald Trump’s claim that a U.S.–Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, maintaining its programme is peaceful. The U.S. military also said it is forming a task force to curb the movement of weapons and sanctioned material across Iran’s borders.",
-          "importanceScore": 15.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-08T00:40:26.590197+00:00",
-          "title": "US offers up to $20 million for tips on Iran's nuclear programme",
-          "summary": "The United States announced a reward of up to $20 million for information about Iran’s nuclear programme, with the State Department’s Rewards for Justice also offering possible relocation for the informant. The announcement follows former President Donald Trump’s claim that Iran’s nuclear facilities had been completely destroyed in a US‑Israel bombing campaign, a claim Iran denies, saying its programme is peaceful. The US military said it is forming a task force to restrict Iran’s movement of weapons and sanctioned material across its borders.",
-          "importanceScore": 14.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-08T07:24:35.938170+00:00",
-          "title": "US offers up to $20 million for tips on Iran's nuclear programme",
-          "summary": "The U.S. State Department announced a Rewards for Justice bounty of up to $20 million for information on Iran’s nuclear programme and said the person providing the intelligence could be offered relocation assistance. The offer follows former President Donald Trump’s claim that a 2023 U.S.-Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, insisting its programme is peaceful. The U.S. military said it is forming a task force to curb Iran’s movement of weapons and sanctioned material across its borders.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-08T07:24:35.938170+00:00",
-      "cat": "World",
-      "latestTitle": "US offers up to $20 million for tips on Iran's nuclear programme",
-      "latestSummary": "The U.S. State Department announced a Rewards for Justice bounty of up to $20 million for information on Iran’s nuclear programme and said the person providing the intelligence could be offered relocation assistance. The offer follows former President Donald Trump’s claim that a 2023 U.S.-Israel bombing campaign had completely destroyed Iran’s nuclear facilities, a claim Iran rejects, insisting its programme is peaceful. The U.S. military said it is forming a task force to curb Iran’s movement of weapons and sanctioned material across its borders.",
-      "why": "The reward aims to encourage intelligence that could help the United States and partners impede Iran’s potential nuclear weapons development.",
-      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss"
-    },
-    "94dd27a0e85733": {
-      "id": "94dd27a0e85733",
-      "firstSeen": "2026-11-07T22:58:49+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-08T00:40:26.590197+00:00",
-          "title": "Gunman kills at least six in Krakow market square, three bodies found at his home",
-          "summary": "At least six people were killed and several others injured when a gunman, suspected of far‑right ties, drove into Krakow’s Main Market Square shortly before 15:00 local time and opened fire from his vehicle. Police later searched the suspect’s residence and discovered three bodies. The incident occurred in Poland’s second‑largest city and involved random shooting of pedestrians.",
-          "importanceScore": 14.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-08T07:24:35.938170+00:00",
-          "title": "What we know so far after Krakow gun attack",
-          "summary": "At least six people were killed and more than a dozen others injured when a gunman suspected to have ties to the far-right opened fire in central Krakow, the second largest city in Poland. The attack began shortly before 15:00 local time (14:00 GMT) in Krakow's Main Market Square, the bustling central point of the city which is popular with tourists.",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-08T15:15:17.366276+00:00",
-          "title": "Six killed and more than a dozen injured in gun attack on Krakow’s Main Market Square",
-          "summary": "At least six people were killed and more than a dozen injured when a gunman, suspected of far‑right ties, drove into Krakow’s Main Market Square and fired at random from his car shortly before 15:00 local time (14:00 GMT). Police later found three bodies at the suspect’s home during a search. Video showed panic as people fled the scene.",
-          "importanceScore": 14.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Jarvis verification is now available for this event."
-        }
-      ],
-      "lastSeen": "2026-11-08T15:15:17.366276+00:00",
-      "cat": "World",
-      "latestTitle": "Six killed and more than a dozen injured in gun attack on Krakow’s Main Market Square",
-      "latestSummary": "At least six people were killed and more than a dozen injured when a gunman, suspected of far‑right ties, drove into Krakow’s Main Market Square and fired at random from his car shortly before 15:00 local time (14:00 GMT). Police later found three bodies at the suspect’s home during a search. Video showed panic as people fled the scene.",
-      "why": "The attack highlights public‑safety risks in a major tourist area.",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
-    },
-    "db9bb2015a3158": {
-      "id": "db9bb2015a3158",
-      "firstSeen": "2026-11-08T04:33:33+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-08T07:24:35.938170+00:00",
-          "title": "Cipla shares trade at 1,411 rupees on Nov 8, 2026",
-          "summary": "At 11:45:45 AM IST on 8 Nov 2026, Cipla’s last traded price was 1,411.0 rupees. The market capitalisation was 113,990.54 million rupees, trading volume 1,567,019 shares, price‑to‑earnings ratio 39.35, and earnings per share 35.86 rupees.",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-08T07:24:35.938170+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Cipla shares trade at 1,411 rupees on Nov 8, 2026",
-      "latestSummary": "At 11:45:45 AM IST on 8 Nov 2026, Cipla’s last traded price was 1,411.0 rupees. The market capitalisation was 113,990.54 million rupees, trading volume 1,567,019 shares, price‑to‑earnings ratio 39.35, and earnings per share 35.86 rupees.",
-      "why": "The figures provide a snapshot of Cipla’s valuation and liquidity for investors.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-livestock-price-today-live-updates-08-nov-2026/liveblog/135651441.cms"
-    },
-    "8f2f193e89c5d1": {
-      "id": "8f2f193e89c5d1",
-      "firstSeen": "2026-11-08T03:45:07+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-08T07:24:35.938170+00:00",
-          "title": "RIL Share Price Live Updates: RIL's Performance Overview",
-          "summary": "Stay ahead of the market with our in-depth coverage of RIL, including: Last traded price 1320.0, Market capitalization: 1786295.11, Volume: 22768301, Price-to-earnings ratio 21.75, Earnings per share 60.68. Stay in the know with the latest information about L&T, including: Last traded price 4117.7, Market capitalization: 566552.28, Volume: 3396323, Price-to-earnings ratio 31.71, Earnings per share 129.85.",
-          "importanceScore": 14.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-08T07:24:35.938170+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "RIL Share Price Live Updates: RIL's Performance Overview",
-      "latestSummary": "Stay ahead of the market with our in-depth coverage of RIL, including: Last traded price 1320.0, Market capitalization: 1786295.11, Volume: 22768301, Price-to-earnings ratio 21.75, Earnings per share 60.68. Stay in the know with the latest information about L&T, including: Last traded price 4117.7, Market capitalization: 566552.28, Volume: 3396323, Price-to-earnings ratio 31.71, Earnings per share 129.85.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-stock-price-today-live-08-nov-2026/liveblog/135650532.cms"
     },
     "421a32550a13a0": {
       "id": "421a32550a13a0",
@@ -1613,31 +1289,6 @@
       "latestSummary": "On Sunday, November 8, the Indian stock market opened higher in a special Muhurat trading session marking the start of Samvat 2083. The Sensex rose about 320 points at the opening bell and the Nifty moved above the 25,100 level after closing Friday at 25,030.35. Tata Steel and Sun Pharma were among the top gainers.",
       "why": "The advance gives a positive start to Samvat 2083, supporting market confidence.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/muhurat-trading-sensex-up-320-pts-nifty-crosses-25100-tata-steel-sun-pharma-among-top-gainers/videoshow/135656015.cms"
-    },
-    "c199b1ddfff778": {
-      "id": "c199b1ddfff778",
-      "firstSeen": "2026-11-08T05:25:03+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-08T15:15:17.366276+00:00",
-          "title": "Muhurat Trading 2026 Highlights | Closing Bell: Sensex ends Muhurat Trading marginally lower, Nifty below 25,000; Divi's Labs surges 7%",
-          "summary": "Diwali Muhurat Trading 2026 Highlights: Indian stock and commodity markets hold a special Muhurat trading session on Sunday, November 8, marking the beginning of Samvat 2083. Sensex, Nifty end Muhurat Trading session in red for first time in 9 years Sensex and Nifty erased all early gains and closed in the red following the Muhurat Trading session on Sunday, marking the first time the benchmark indices ended with losses during the special Diwali session in 9 years.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-08T15:15:17.366276+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Muhurat Trading 2026 Highlights | Closing Bell: Sensex ends Muhurat Trading marginally lower, Nifty below 25,000; Divi's Labs surges 7%",
-      "latestSummary": "Diwali Muhurat Trading 2026 Highlights: Indian stock and commodity markets hold a special Muhurat trading session on Sunday, November 8, marking the beginning of Samvat 2083. Sensex, Nifty end Muhurat Trading session in red for first time in 9 years Sensex and Nifty erased all early gains and closed in the red following the Muhurat Trading session on Sunday, marking the first time the benchmark indices ended with losses during the special Diwali session in 9 years.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/diwali-muhurat-trading-2026-live-date-time-sensex-nifty-50-stock-market-check-stocks-to-buy-nse-bse/liveblog/135652392.cms"
     },
     "960c71d4fff2e2": {
       "id": "960c71d4fff2e2",
@@ -3709,7 +3360,32 @@
       "latestSummary": "Robinhood Markets has filed an appeal with the US Supreme Court concerning a class action lawsuit brought forth by investors. The lawsuit claims the company misled investors ahead of its IPO in July 2021 by not revealing how reduced trading volumes would affect their investments.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-supreme-court-to-consider-lawsuit-over-robinhoods-2021-ipo/articleshow/135821666.cms"
+    },
+    "d464f54f3dae7f": {
+      "id": "d464f54f3dae7f",
+      "firstSeen": "2026-11-15T13:42:58+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-15T17:44:49.892660+00:00",
+          "title": "Iran launches six‑drone attack on US radar base in Bahrain, intercepted",
+          "summary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-15T17:44:49.892660+00:00",
+      "cat": "World",
+      "latestTitle": "Iran launches six‑drone attack on US radar base in Bahrain, intercepted",
+      "latestSummary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
+      "why": "The attack raises regional tension and could further affect shipping through the strategically vital Strait of Hormuz.",
+      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
     }
   },
-  "updated": "2026-11-15T02:42:28.778994+00:00"
+  "updated": "2026-11-15T17:44:49.892660+00:00"
 }

@@ -1,197 +1,74 @@
 {
-  "updated": "2026-11-15T02:42:28.778994+00:00",
+  "updated": "2026-11-15T17:44:49.892660+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 65,
-    "nonNoiseCandidates": 65,
-    "officialOrPrimaryCandidates": 6,
-    "enrichedCandidates": 65,
-    "readableCandidates": 46,
-    "eventClusters": 46,
-    "materialEvents": 23,
-    "selectedEvents": 6,
-    "seededStories": 4,
+    "rawCandidates": 43,
+    "nonNoiseCandidates": 41,
+    "officialOrPrimaryCandidates": 4,
+    "enrichedCandidates": 41,
+    "readableCandidates": 25,
+    "eventClusters": 25,
+    "materialEvents": 1,
+    "selectedEvents": 1,
+    "seededStories": 1,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "320b04ca4c0ded",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "d464f54f3dae7f",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "India"
+        "World"
       ],
-      "title": "FICCI calls for comprehensive India‑Africa trade framework ahead of minister’s Egypt visit",
-      "publishedAt": "2026-11-14T06:11:08+00:00",
-      "importanceScore": 11.0,
-      "sourceCount": 2,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms",
-      "summary": "FICCI has urged India and African countries to negotiate a comprehensive trade arrangement that would lower barriers and promote investment. The appeal comes as Commerce Minister Piyush Goyal is set to visit Egypt, whose location is viewed as a strategic entry point for Indian firms expanding into Africa.",
-      "why": "A predictable framework could increase bilateral commerce and attract investment, supporting growth in both regions.",
-      "confidence": "medium",
-      "verified": false,
+      "title": "Iran launches six‑drone attack on US radar base in Bahrain, intercepted",
+      "publishedAt": "2026-11-15T13:42:58+00:00",
+      "importanceScore": 12.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
+      "why": "The attack raises regional tension and could further affect shipping through the strategically vital Strait of Hormuz.",
+      "confidence": "high",
+      "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms",
-          "publishedAt": "2026-11-14T05:28:35+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-15T13:42:58+00:00"
         }
       ],
-      "firstSeen": "2026-11-14T06:11:08+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-15T02:42:28.778994+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "FICCI urges comprehensive India‑Africa trade framework",
-      "previousSummary": "The Federation of Indian Chambers of Commerce and Industry (FICCI) called for a comprehensive trade arrangement between India and African nations to improve economic cooperation, stressing the need for a predictable framework to lower trade barriers and attract investment. The appeal coincides with Commerce Minister Piyush Goyal’s upcoming visit to Egypt, which FICCI views as a strategic gateway for Indian firms in various sectors.",
-      "previousPublishedAt": "2026-11-14T06:11:08+00:00",
-      "previousSourceCount": 2,
-      "previousImportanceScore": 11.0,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "e6bcbf2ead0cf3",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "US Supreme Court to consider lawsuit over Robinhood's 2021 IPO",
-      "publishedAt": "2026-11-14T03:44:05+00:00",
-      "importanceScore": 11.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-supreme-court-to-consider-lawsuit-over-robinhoods-2021-ipo/articleshow/135821666.cms",
-      "summary": "Robinhood Markets has filed an appeal with the US Supreme Court concerning a class action lawsuit brought forth by investors. The lawsuit claims the company misled investors ahead of its IPO in July 2021 by not revealing how reduced trading volumes would affect their investments.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-supreme-court-to-consider-lawsuit-over-robinhoods-2021-ipo/articleshow/135821666.cms",
-          "publishedAt": "2026-11-14T03:44:05+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-14T03:44:05+00:00",
+      "firstSeen": "2026-11-15T13:42:58+00:00",
       "status": "New",
-      "lastChecked": "2026-11-15T02:42:28.778994+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "lastChecked": "2026-11-15T17:44:49.892660+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "strong-source-or-corroborated",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
-    },
-    {
-      "id": "2e5d60321c05f2",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India’s consumption stays strong, but rural demand faces inflation risk",
-      "publishedAt": "2026-11-14T09:55:00+00:00",
-      "importanceScore": 10.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-consumption-story-remains-strong-but-rural-demand-faces-inflation-risks-report/articleshow/135829300.cms",
-      "summary": "The Economic Times reported that a recent report said India’s overall consumption remains robust, while rural demand is vulnerable to inflation pressures. The article did not provide further details about the report’s data, scope, or timing. No additional context was given in the source.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-consumption-story-remains-strong-but-rural-demand-faces-inflation-risks-report/articleshow/135829300.cms",
-          "publishedAt": "2026-11-14T09:55:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-14T09:55:00+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-15T02:42:28.778994+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India's consumption story remains strong, but rural demand faces inflation risks: Report",
-      "previousSummary": "India's consumption growth is projected to be robust, driven by a young population and digital adoption. Despite this, rural income pressures and food inflation could pose challenges for near-term demand.",
-      "previousPublishedAt": "2026-11-14T09:55:00+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.9,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "e2426ff356f0c1",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India, US resolve most trade deal issues, pact near completion, says Jaishankar",
-      "publishedAt": "2026-11-14T09:59:26+00:00",
-      "importanceScore": 9.5,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms",
-      "summary": "Indian Foreign Minister S. Jaishankar said that India and the United States have resolved the bulk of outstanding issues in their pending trade agreement and expect the pact to be finalized soon. The statement was reported by the Economic Times. Both sides are moving toward sealing the deal.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms",
-          "publishedAt": "2026-11-14T09:59:26+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-14T09:59:26+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-15T02:42:28.778994+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India, US have resolved bulk of trade deal issues, pact could be sealed soon: Jaishankar",
-      "previousSummary": "India and the US have nearly resolved issues regarding the proposed trade deal. Securing this trade pact would significantly benefit India’s economy in the large context.",
-      "previousPublishedAt": "2026-11-14T09:59:26+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 9.5,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 1,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-14T22:27:54.637630+00:00",
+  "previousUpdated": "2026-11-15T02:42:28.778994+00:00",
   "changeSummary": {
     "new": 1,
-    "updated": 2,
-    "continuing": 1
+    "updated": 0,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-12T03:03:10.522822+00:00",
-    "updated": "2026-11-15T02:42:28.778994+00:00",
-    "snapshotCount": 12,
-    "eventCount": 70,
+    "availableFrom": "2026-11-12T19:57:19.530012+00:00",
+    "updated": "2026-11-15T17:44:49.892660+00:00",
+    "snapshotCount": 11,
+    "eventCount": 66,
     "retentionHours": 72
   }
 }
