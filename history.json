@@ -3,106 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-12T19:57:19.530012+00:00",
-      "changeSummary": {
-        "new": 5,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "20be96325024b4",
-          "cat": "AI",
-          "title": "SoftBank overbooks turbines, deposits on over 13 GW for natural‑gas projects",
-          "summary": "SoftBank’s SB Energy subsidiary announced a $33 billion plan to build a 9.2‑gigawatt natural‑gas power plant. Starting about two years ago, it placed deposits on more than 13 gigawatts of turbines—about 50 % more capacity than needed—to secure equipment quickly. Noreva CEO Peter Gardett said the over‑booking was required to obtain turbines promptly and keep projects on schedule.",
-          "why": "The excess turbine bookings tie up capital and influence the financial outlook of SoftBank’s energy ventures.",
-          "publishedAt": "2026-11-12T17:00:52+00:00",
-          "firstSeen": "2026-11-12T17:00:52+00:00",
-          "importanceScore": 14.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
-        },
-        {
-          "id": "766b96c11377c7",
-          "cat": "World",
-          "title": "Defence Secretary Pete Hegseth presents medal to Tomb guard",
-          "summary": "At a Veterans Day ceremony at Arlington National Cemetery, Defence Secretary Pete Hegseth, his wife and senior advisers were asked to be quiet by a guard stationed at the Tomb of the Unknown Soldier. The Pentagon later announced that Hegseth awarded Specialist Thomas Iglesias a Joint Service Commendation Medal for his duties at the Tomb, and photos from the secretary’s X account show the presentation alongside members of the 3rd US Infantry Regiment (the Old Guard).",
-          "why": "It publicly recognises the guard’s role and underscores the importance of adhering to ceremonial protocol at a national memorial.",
-          "publishedAt": "2026-11-12T18:47:35+00:00",
-          "firstSeen": "2026-11-12T18:47:35+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "baaf26e229aebf",
-          "cat": "Indian Markets",
-          "title": "Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
-          "summary": "Four stocks from the BSE 100 index hit fresh 52-week highs, touching their highest price levels in the past 12 months. A 52-week high represents the highest price at which a stock has traded over the last year and may indicate heightened market activity and investor interest.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-12T12:21:16+00:00",
-          "firstSeen": "2026-11-12T12:21:16+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms"
-        },
-        {
-          "id": "ef3bc6414e12e8",
-          "cat": "AI",
-          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-          "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-12T15:02:28+00:00",
-          "firstSeen": "2026-11-12T15:02:28+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
-        },
-        {
-          "id": "2e77a7fdb037c6",
-          "cat": "AI",
-          "title": "Nectar launches Creator Agent to automate influencer discovery and outreach",
-          "summary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
-          "why": "It lets brands scale creator programs while cutting the time and resources needed for manual discovery and outreach.",
-          "publishedAt": "2026-11-12T19:11:00+00:00",
-          "firstSeen": "2026-11-12T19:11:00+00:00",
-          "importanceScore": 11.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-13T01:06:50.297241+00:00",
       "changeSummary": {
         "new": 3,
@@ -1083,6 +983,34 @@
           "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
         }
       ]
+    },
+    {
+      "at": "2026-11-15T22:51:29.991460+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "6e07c4417ad835",
+          "cat": "World",
+          "title": "Paris police impose five‑day protest ban near schools and universities",
+          "summary": "Paris police have issued a five‑day ban on protests within 100 metres of ten secondary schools and five universities from 16 to 20 November. The order aims to curb weeks of blockades, property damage and clashes that have accompanied protests that began in September over school conditions and broader cost‑of‑living grievances.",
+          "why": "The measure is intended to protect students, staff and public order by limiting further disruption and violence at educational sites.",
+          "publishedAt": "2026-11-15T22:28:54+00:00",
+          "firstSeen": "2026-11-15T22:28:54+00:00",
+          "importanceScore": 14.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "events": {
@@ -1289,31 +1217,6 @@
       "latestSummary": "On Sunday, November 8, the Indian stock market opened higher in a special Muhurat trading session marking the start of Samvat 2083. The Sensex rose about 320 points at the opening bell and the Nifty moved above the 25,100 level after closing Friday at 25,030.35. Tata Steel and Sun Pharma were among the top gainers.",
       "why": "The advance gives a positive start to Samvat 2083, supporting market confidence.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/muhurat-trading-sensex-up-320-pts-nifty-crosses-25100-tata-steel-sun-pharma-among-top-gainers/videoshow/135656015.cms"
-    },
-    "960c71d4fff2e2": {
-      "id": "960c71d4fff2e2",
-      "firstSeen": "2026-11-08T09:40:45+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-08T19:45:04.568952+00:00",
-          "title": "Indian economy to grow faster, foreign capital returning to markets: NSE CEO Ashishkumar Chauhan",
-          "summary": "Domestic financial savings have significantly increased, reaching nearly USD 1.4 trillion annually. Furthermore, foreign institutional investors are showing renewed enthusiasm for Indian markets ahead of the new Samvat year.",
-          "importanceScore": 10.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-08T19:45:04.568952+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Indian economy to grow faster, foreign capital returning to markets: NSE CEO Ashishkumar Chauhan",
-      "latestSummary": "Domestic financial savings have significantly increased, reaching nearly USD 1.4 trillion annually. Furthermore, foreign institutional investors are showing renewed enthusiasm for Indian markets ahead of the new Samvat year.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-economy-to-grow-faster-foreign-capital-returning-to-markets-nse-ceo-ashishkumar-chauhan/articleshow/135656058.cms"
     },
     "78a152cf55d6c5": {
       "id": "78a152cf55d6c5",
@@ -3385,7 +3288,32 @@
       "latestSummary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
       "why": "The attack raises regional tension and could further affect shipping through the strategically vital Strait of Hormuz.",
       "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
+    },
+    "6e07c4417ad835": {
+      "id": "6e07c4417ad835",
+      "firstSeen": "2026-11-15T22:28:54+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-15T22:51:29.991460+00:00",
+          "title": "Paris police impose five‑day protest ban near schools and universities",
+          "summary": "Paris police have issued a five‑day ban on protests within 100 metres of ten secondary schools and five universities from 16 to 20 November. The order aims to curb weeks of blockades, property damage and clashes that have accompanied protests that began in September over school conditions and broader cost‑of‑living grievances.",
+          "importanceScore": 14.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-15T22:51:29.991460+00:00",
+      "cat": "World",
+      "latestTitle": "Paris police impose five‑day protest ban near schools and universities",
+      "latestSummary": "Paris police have issued a five‑day ban on protests within 100 metres of ten secondary schools and five universities from 16 to 20 November. The order aims to curb weeks of blockades, property damage and clashes that have accompanied protests that began in September over school conditions and broader cost‑of‑living grievances.",
+      "why": "The measure is intended to protect students, staff and public order by limiting further disruption and violence at educational sites.",
+      "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
     }
   },
-  "updated": "2026-11-15T17:44:49.892660+00:00"
+  "updated": "2026-11-15T22:51:29.991460+00:00"
 }

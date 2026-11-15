@@ -1,50 +1,50 @@
 {
-  "updated": "2026-11-15T17:44:49.892660+00:00",
+  "updated": "2026-11-15T22:51:29.991460+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 43,
-    "nonNoiseCandidates": 41,
+    "rawCandidates": 35,
+    "nonNoiseCandidates": 34,
     "officialOrPrimaryCandidates": 4,
-    "enrichedCandidates": 41,
-    "readableCandidates": 25,
-    "eventClusters": 25,
-    "materialEvents": 1,
-    "selectedEvents": 1,
+    "enrichedCandidates": 34,
+    "readableCandidates": 18,
+    "eventClusters": 18,
+    "materialEvents": 2,
+    "selectedEvents": 2,
     "seededStories": 1,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "d464f54f3dae7f",
+      "id": "6e07c4417ad835",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Iran launches six‑drone attack on US radar base in Bahrain, intercepted",
-      "publishedAt": "2026-11-15T13:42:58+00:00",
-      "importanceScore": 12.5,
+      "title": "Paris police impose five‑day protest ban near schools and universities",
+      "publishedAt": "2026-11-15T22:28:54+00:00",
+      "importanceScore": 14.0,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
-      "why": "The attack raises regional tension and could further affect shipping through the strategically vital Strait of Hormuz.",
+      "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Paris police have issued a five‑day ban on protests within 100 metres of ten secondary schools and five universities from 16 to 20 November. The order aims to curb weeks of blockades, property damage and clashes that have accompanied protests that began in September over school conditions and broader cost‑of‑living grievances.",
+      "why": "The measure is intended to protect students, staff and public order by limiting further disruption and violence at educational sites.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-15T13:42:58+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-15T22:28:54+00:00"
         }
       ],
-      "firstSeen": "2026-11-15T13:42:58+00:00",
+      "firstSeen": "2026-11-15T22:28:54+00:00",
       "status": "New",
-      "lastChecked": "2026-11-15T17:44:49.892660+00:00",
+      "lastChecked": "2026-11-15T22:51:29.991460+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -56,7 +56,7 @@
   ],
   "jarvisEditedCount": 1,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-15T02:42:28.778994+00:00",
+  "previousUpdated": "2026-11-15T17:44:49.892660+00:00",
   "changeSummary": {
     "new": 1,
     "updated": 0,
@@ -65,8 +65,8 @@
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-12T19:57:19.530012+00:00",
-    "updated": "2026-11-15T17:44:49.892660+00:00",
+    "availableFrom": "2026-11-13T01:06:50.297241+00:00",
+    "updated": "2026-11-15T22:51:29.991460+00:00",
     "snapshotCount": 11,
     "eventCount": 66,
     "retentionHours": 72
