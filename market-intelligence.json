@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T01:19:41.937227+00:00",
+  "updated": "2026-11-15T08:27:25.181179+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -50,17 +50,17 @@
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
+          "label": "Smallcaps jump 3.6%, PSU banks surge 7.5% as Sensex, Nifty extend weekly gains; what lies ",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
           "label": "Sensex, Nifty Extend Gains For Third Straight Week Amid Strong Foreign Inflows",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         },
         {
           "label": "Strong FII Buying Extends For Third Week As Nifty Gains 0.6 Pc",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Sensex, Nifty surge 7% in Nov as FIIs pour Rs 79,300 crore into D-Street: 10 factors drivi",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
@@ -95,6 +95,12 @@
       },
       "sources": [
         {
+          "name": "TradingView",
+          "title": "Smallcaps jump 3.6%, PSU banks surge 7.5% as Sensex, Nifty extend weekly gains; what lies ahead? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeWdwb3k5NVFXM3B3b2FxM2xMUFJEX2FobS1qd1ItcDBOQTJqR09rUHNOU2w2eGU3U3pnbVFrUmRxUjdRWmhybzNpaWtYZDlBV0V5UllvMnFyNTctWnJtOHA3cVZCbmJnNW90di0xUFVPZGtzVVNKUDlGdjFPbERWbGU1RmxiUkx0TTNuN2czcnVibTZmV21RV3M3clpvSlJFQXIza0tqcG9fU19Sa1JGWEJDYzVYQWt5aG5RS2hDTUNnbEg5a3JoV1VueTNVVnd1cERTZDNFYmZZUGEzOWtuYTNJdkFpMXdL?oc=5",
+          "publishedAt": "2026-11-15T04:14:00+00:00"
+        },
+        {
           "name": "Ommcom News",
           "title": "Sensex, Nifty Extend Gains For Third Straight Week Amid Strong Foreign Inflows - Ommcom News",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPekN6VmN0YXBqcGpfVHU1em5jWHlua29jWURBYWk0bHdRajNjdm1RSXlMTFotajVpVHlzNVVGSFdBNVVsYmVCdjRzbi10YWZDeDVCcC1rNngwZ0tMUzNKbjJ1aWZiaE5FWmRsVWZvMTViaV9QODZSQlo1dEhHVUFGQUI3VHc0ME1fRWJSMEdrdWhUYURMZGlUSzRUSUtYTDlkaHFDLWJvMzlZcExYQzd4d25ScXdadw?oc=5",
@@ -107,28 +113,22 @@
           "publishedAt": "2026-11-14T09:21:40+00:00"
         },
         {
-          "name": "Zee Business",
-          "title": "Sensex, Nifty surge 7% in Nov as FIIs pour Rs 79,300 crore into D-Street: 10 factors driving investors' comeback - Zee Business",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNc0thLTF3T1FPWG1mNmNDaDNLOVNINTFQd0didHBZdzFOZGRPUEotcXN0a3RkZjhlcTlwMDdvV1RabHpvVVZKN3RtOU9WZmNlOVFZMkRURDFYTGVKNjNldkpTa25yTmhlcWZsbEJUb0JQNUJQQ3p5bXF3b2lpcHljSDF4eTFfaEkzRGFnZmttZjNFQ2lnYjM4MnhYN0NLa0t5RFdYb1U1S3ZhZHVVbWRKQ1cyU2RHYm1TVDVfNTdsak12LTcyaEp5RlBTd0NVdkc5UWNwUHV3NFF6Wm80RFhEVzBqVGZGRHgtUXhVUFVIaw?oc=5",
-          "publishedAt": "2026-11-14T05:51:00+00:00"
+          "name": "The Economic Times",
+          "title": "Will Sensex, Nifty continue their bull run or consolidate? 4 factors to watch out for this week - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYzlYZ3lsM3BwLU1MTTNUSk55QlFZOTlIY3FHSWtyREhoQXJKbUQyRW9xdXl6akdHTEI0ZXI3VFJEaVI1UUdjcFdDUVlUaXRhSHhITkg3QUc3TEdDSmFibklCZ1dnZlkzdGZwVnhTMnljeGRaRWFOTlkzMUF0XzExRS1FdGhtWXg0aW8zZy10aDY0MEhHVUFFXzZoZkd6VWVNQXVaM1VickdpNldpMjJ5Qm1GTDB6enBvYTg4a0pZZDZlMTltMEFwX3ZMa0FlRFFGTXZLdmtZN3lIMndPSEwyTjdKa2VNZ2NWa242bGNEWGRmeEhnM2tnWF9vSdIBgAJBVV95cUxQOG52UTBkNDlYME8xVEdjTkxDTld3RFRxcmhSRDFRVkVXQ3FheERGWWxVbUdxWE5KNU1XRGstbk9LazR6c3FsUUVGRkdMN3MxODdPQ0ExT2hIUDhMM1BlX3hnSXNUQmN3cHhENFFHWUswajNVeHVqOFd0UlJ4VTAyV2h5WEZYcHJVUXczOENpVWUxM0pSVC1wNThTV0dtODQ4ZE5VN04waldCY0x0TnBpek1LUElYOFVnV2tabGotN25BWjF6MzFLVmstU2VYZXFlU2N5bElqTVJHYVdoOE9LaDVLbDRJb1dONTQ5ZnJLSkM3VGdHaW41XzN6Qnk0bVBz?oc=5",
+          "publishedAt": "2026-11-15T03:52:52+00:00"
         },
         {
-          "name": "Upstox",
-          "title": "Market weekly wrap: NIFTY50, SENSEX extend rally for 3rd week; PSU Banks top sectoral gainers - Upstox",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOMWlBS0s0Y09Oa1J6eHpzYXcyZjgyQllHcnFVeFJCNTgtOWtMZ2RPdzhNNWxVSG5NYThGWDQ1cTZGQ0dBQXJPM1BPUG5pYVZPRHhmaDhlVmxHZDM2X1ZOaUd4QWtGZ2p4TFdtLXA3SzFrM1VtSHNqRlNTdkhlWjNXNy02eWs2eTFBc3Q3eFpXOFN3cmlRbnd0aUtvaHc4bmloWWc1eG9udDBNNnRCQTJiMXdkNk5LVDBpc01kTmJxNzlKREt1MFBMaElOMkx5UjUwTWVSMzJPMmk2Nlp3M1NkbTFkWXZGTUxmZk1ERUhTU19zSDg1MFM5QzQ2OGpGSVNpWENSOXhSdWFFZw?oc=5",
-          "publishedAt": "2026-11-14T04:51:14+00:00"
+          "name": "The Economic Times",
+          "title": "ICICI Bank Share Price Today, ICICI Bank Stock Price Live NSE/BSE Updates - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX203dWxrZzRtNEZVQVFkRUVXMVdIblBYdzRjQmw5em14S3g4MVlqQkZreTRzdUtfR2oxdEplVnQ3dW1WSWl3bjNPeG5EWVhwU3dBanNmT2RReDRoRWZnRkdOamNfdTdDMUJaYmFreW0tUEduS1NmRjFUX1dyelVSbXd5bw?oc=5",
+          "publishedAt": "2026-11-14T23:09:26+00:00"
         },
         {
           "name": "BBN Times",
           "title": "BSE SENSEX Today: Sensex Edges Up 0.13% to 81,106.65, Its Highest Close in More Than Eight Months - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSDFhSThvQUEwVVB0RnhSZXp0UUpwa01RdmlMdzRoSlpYWWtoVjI1RU9BQlhqME9DajhqVGcwd09ra0VFYlpKRTVxTjA3cVF1V3JJNkZUZU94bExaV2thdlVkT21UM0FITHFubGJJWVotNDZsWDU0MUFUcmdmcWtQU19MS2cxMVdOQ3JCZXZRWlNWbGVSQkRwVDdFdThISnNUQU5KSkhrbmRuOWstUWR6S3JMYURueDRvUWE5c3U3ZUtlWVdYQnd0V3FMVU95eDQ?oc=5",
           "publishedAt": "2026-11-14T18:41:26+00:00"
-        },
-        {
-          "name": "The Economic Times",
-          "title": "ICICI Bank Share Price Today, ICICI Bank Stock Price Live NSE/BSE Updates - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX203dWxrZzRtNEZVQVFkRUVXMVdIblBYdzRjQmw5em14S3g4MVlqQkZreTRzdUtfR2oxdEplVnQ3dW1WSWl3bjNPeG5EWVhwU3dBanNmT2RReDRoRWZnRkdOamNfdTdDMUJaYmFreW0tUEduS1NmRjFUX1dyelVSbXd5bw?oc=5",
-          "publishedAt": "2026-11-14T16:09:42+00:00"
         }
       ],
       "evidenceCount": 7
