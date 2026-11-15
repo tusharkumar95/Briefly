@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T21:40:33.558982+00:00",
+  "updated": "2026-11-15T01:19:41.937227+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -11,13 +11,8 @@
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "AI stock decline",
-          "detail": "Falling AI stocks dragged the TSX lower, as reported by Yahoo! Finance Canada.",
-          "kind": "context"
-        },
-        {
-          "label": "Utilities and telecoms weakness",
-          "detail": "Utilities and telecoms underperformed, offsetting gains in tech and base metals, contributing to the slip, as reported by BBN Times.",
+          "label": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.09%",
+          "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
       ],
@@ -43,52 +38,35 @@
           "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.09% - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHRYbDVBWlBUbWJER1JJWGljdC16M0doZnlCWWhQdmszQVlGTDM3LTd3NDQ1emNpN3BBeVhQME9lTW45T3JoTFRWWWF2RzZuYzZTX21jTFg4ejV1bl9ld0hpVG9Eai1hX0JiQndkNUVhRzRWOXZJUVpDWlV1a0RKdHFBdnUwYTNmZ2w4MU1QdzFFU0JaZERaLWtCeXZER2RMX1V3ZWhZeEpDazBScmNOWFJwejZDazJoMXNN?oc=5",
           "publishedAt": "2026-11-14T08:54:00+00:00"
-        },
-        {
-          "name": "Yahoo! Finance Canada",
-          "title": "TSX finishes lower Friday as falling AI stocks weigh on U.S. markets - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaTFoVlJ6YkFpQS1rV2ZjRnVEMnRORm9lVktlSWxhWGplRXZHdkFaaGczTklJMzl3NTBWMTNvb3h4bU10REJOM3Z6cWlRMXYwU2FUQzdsVTZKM3hhNEVQRGVIby1zS3gtMkx5UWtBWjhzUU1MMDN1ZmFRRFJqZjQ5LXhJNnRYUQ?oc=5",
-          "publishedAt": "2026-11-13T22:01:43+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange Today: S&P/TSX Composite Slips to 36,105.90 as Utilities and Telecoms Offset Tech and Base Metals - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNR2VnTmd1UFVDYk5VM2NLNmhFWFdUbUhHOUxkSlRhU2h4c05ZNFJWQzlHclkzRVQyYU42RU85YmFRM280dy1JemtsR3hBN1dBbGp3alV1T0Z2ZGE2cDJST0gyR3ZsMGtvQWNJUGJVWkk2LUhFRm9TeE5RRmtyQ0hCYnB3X1R4UGZFNG1zaWU0V0ZNdnoyZHNJbXN0ekdmeUw3TkU1TkJRYWdSdzRxcUdwWnRpUjF0ZFlXN3NwbEhDMGJaSFRpRkYwWDVieVBlcnoyZk8ycTlSOExSUEtVRW1QMjBpV1FJUjhuUF9EV1ljMEQ?oc=5",
-          "publishedAt": "2026-11-13T21:57:44+00:00"
         }
       ],
-      "evidenceCount": 3
+      "evidenceCount": 1
     },
     "India": {
       "label": "India",
-      "headline": "Sensex, Nifty fall as crude oil and inflation pressures weigh on markets",
+      "headline": "Nifty 50 fell 0.61%",
       "direction": "down",
       "move": "Nifty 50 -0.61%",
-      "why": "Supplied headlines dated 2026-11-13 explicitly attribute the decline in Sensex and Nifty to crude oil prices and inflation pressures weighing on markets.",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Crude Oil And Inflation Pressures Weigh On Markets",
-          "detail": "BW Businessworld explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Sensex, Nifty Extend Gains For Third Straight Week Amid Strong Foreign Inflows",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "inflation and oil concerns weigh",
-          "detail": "ad-hoc-news.de explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Strong FII Buying Extends For Third Week As Nifty Gains 0.6 Pc",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "Crude oil price pressure",
-          "detail": "BW Businessworld and ad-hoc-news.de headlines explicitly cite crude oil concerns as weighing on the market during the session.",
-          "kind": "driver"
-        },
-        {
-          "label": "Inflation concerns",
-          "detail": "Both same-day sources explicitly name inflation pressures as a factor behind the Sensex and Nifty decline.",
-          "kind": "driver"
+          "label": "Sensex, Nifty surge 7% in Nov as FIIs pour Rs 79,300 crore into D-Street: 10 factors drivi",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
       "sectors": [],
-      "confidence": "high",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -123,12 +101,6 @@
           "publishedAt": "2026-11-14T10:06:40+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Today: Sensex Edges Up 0.13% to 81,106.65, Its Highest Close in More Than Eight Months - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSDFhSThvQUEwVVB0RnhSZXp0UUpwa01RdmlMdzRoSlpYWWtoVjI1RU9BQlhqME9DajhqVGcwd09ra0VFYlpKRTVxTjA3cVF1V3JJNkZUZU94bExaV2thdlVkT21UM0FITHFubGJJWVotNDZsWDU0MUFUcmdmcWtQU19MS2cxMVdOQ3JCZXZRWlNWbGVSQkRwVDdFdThISnNUQU5KSkhrbmRuOWstUWR6S3JMYURueDRvUWE5c3U3ZUtlWVdYQnd0V3FMVU95eDQ?oc=5",
-          "publishedAt": "2026-11-14T18:41:26+00:00"
-        },
-        {
           "name": "Ommcom News",
           "title": "Strong FII Buying Extends For Third Week As Nifty Gains 0.6 Pc - Ommcom News",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2c4Z1haTlhiVnlHSjYzbUZncFZyLW5vRGtZMVA0c1Nxd0ZmUDhzZUkzNm9sLTh5bTU3b1dUNUozTko4dFZhbDFrcFZuMUczc0Jta0E1RnlSWHlFaGsxd3NzcmN6ZTNhQndLWlNaa3ZfNzZHNU9xOHVLQmduUVNaMEl2RXZsVm0zZ2dJUm1VNE5oWmUyOFk3a0xHMGhMWVQzS0E?oc=5",
@@ -147,10 +119,16 @@
           "publishedAt": "2026-11-14T04:51:14+00:00"
         },
         {
-          "name": "BW Businessworld",
-          "title": "Sensex, Nifty Fall As Crude Oil And Inflation Pressures Weigh On Markets - BW Businessworld",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaEJETGY0Y1h5UXNxbFBiWUJfREZnTXcxakxiZmpMYlk1NV9EcXFvMDhnUW02V3N2aWhTamYtMTEwcTVBZ1BPcXhtQ0NsakEwYjR5UUtQR3p1c0dqYVFtZkdRdDZVaGR0SkZuTlZWRGNGbUs1UXRFcHQwS0pGV3FXajZqTkNDVVlQVkx6Vi1oQ2FRbkpTcW53YVB6M0lBdF9JRnJDQWExVzV3Y1VwRTZWUnhaX3c5QQ?oc=5",
-          "publishedAt": "2026-11-13T22:58:12+00:00"
+          "name": "BBN Times",
+          "title": "BSE SENSEX Today: Sensex Edges Up 0.13% to 81,106.65, Its Highest Close in More Than Eight Months - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSDFhSThvQUEwVVB0RnhSZXp0UUpwa01RdmlMdzRoSlpYWWtoVjI1RU9BQlhqME9DajhqVGcwd09ra0VFYlpKRTVxTjA3cVF1V3JJNkZUZU94bExaV2thdlVkT21UM0FITHFubGJJWVotNDZsWDU0MUFUcmdmcWtQU19MS2cxMVdOQ3JCZXZRWlNWbGVSQkRwVDdFdThISnNUQU5KSkhrbmRuOWstUWR6S3JMYURueDRvUWE5c3U3ZUtlWVdYQnd0V3FMVU95eDQ?oc=5",
+          "publishedAt": "2026-11-14T18:41:26+00:00"
+        },
+        {
+          "name": "The Economic Times",
+          "title": "ICICI Bank Share Price Today, ICICI Bank Stock Price Live NSE/BSE Updates - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX203dWxrZzRtNEZVQVFkRUVXMVdIblBYdzRjQmw5em14S3g4MVlqQkZreTRzdUtfR2oxdEplVnQ3dW1WSWl3bjNPeG5EWVhwU3dBanNmT2RReDRoRWZnRkdOamNfdTdDMUJaYmFreW0tUEduS1NmRjFUX1dyelVSbXd5bw?oc=5",
+          "publishedAt": "2026-11-14T16:09:42+00:00"
         }
       ],
       "evidenceCount": 7
