@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T01:23:33.561303+00:00",
+  "updated": "2026-11-16T08:35:49.722474+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -11,13 +11,18 @@
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Cenovus Energy record output article",
-          "detail": "Kalkine Media discussed Cenovus Energy's record oil sands output and momentum, but did not connect it to the TSX move.",
+          "label": "Cenovus record oil sands output",
+          "detail": "Cenovus Energy reported record oil‑sands production, but the article does not tie this to the TSX move.",
           "kind": "context"
         },
         {
-          "label": "Gran Tierra Energy exit plan article",
-          "detail": "Kalkine Media reported Gran Tierra Energy's plan to exit South America, without tying it to the broader market direction.",
+          "label": "Nutrien facility closures after record potash",
+          "detail": "Nutrien announced closures of facilities following a record potash shipment, without a direct link to the index change.",
+          "kind": "context"
+        },
+        {
+          "label": "Gran Tierra preparing to exit South America",
+          "detail": "Gran Tierra Energy is planning an exit from South America, and the piece does not connect it to the TSX performance.",
           "kind": "context"
         }
       ],
@@ -46,100 +51,101 @@
         },
         {
           "name": "Kalkine Media",
+          "title": "Why Is Nutrien (TSX:NTR) Closing Facilities After Shipping Record Potash? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcXRoS3FvaURpODZMX3NKdF9SazMyVVVwYUhUdnkyVDdKMXdsOXJOZy1vMno3QVExN3p2bHBWWkt6TFVteDZELXBwZ0gwdEtJUGk0UDdUX3c0NHZVM1h1eHVQTmJ4cE8xTFNLRFpOSUpib3dYTjllM1g2bko1NG5ENlRhbTdOQWZsTXBqb1ZzdHVWZ2tzVVVwaG9DQnVza1lvN2VfODRWc21VWUR0dERVc1Zycw?oc=5",
+          "publishedAt": "2026-11-15T17:52:00+00:00"
+        },
+        {
+          "name": "Kalkine Media",
           "title": "What Comes Next for Gran Tierra Energy (TSX:GTE) as It Prepares to Exit South America? - Kalkine Media",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRzJBNmQ0V3VyV0p2amxJYlV2aWZ5eFJkWGhsWEpjTmlKTnYzci1SakIyVEZoZ3hNZ1lKbGJBR0JFd1puOWpJOXlldU5jS0NJOFJrc2VsTC1pYUk1aGVkNldfeEVlS0R5U2ZkRlRQVnBQUktYZ0RaY25lZzlvampxTVNmcXBKM2NpQS1EWUZqR185alk2eHlHSUN4R09nZWlqQ1V0UzU2TTN0QkdYQmxZVS10U0d5Z3ZxUXlGVHB3LTQxcXM?oc=5",
           "publishedAt": "2026-11-15T17:51:00+00:00"
         }
       ],
-      "evidenceCount": 2
+      "evidenceCount": 3
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.61%",
-      "direction": "down",
-      "move": "Nifty 50 -0.61%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "headline": "Nifty 50 rose 0.16%",
+      "direction": "up",
+      "move": "Nifty 50 +0.16%",
+      "why": "Same-day market coverage explicitly linked the final move to: GIFT Nifty signals gains; GIFT Nifty Rises 84 Points; Tata Motors, Eicher Motors, Godrej Industries And 7 Other Stoc.",
       "drivers": [
         {
-          "label": "Trade Setup For Nov 16: Nifty Likely To Resume Rally Despite Friday's Sell-Off; Key Levels",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "GIFT Nifty signals gains",
+          "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Stock market outlook today,16 Nov: Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty,",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
-        },
-        {
-          "label": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June -",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "GIFT Nifty Rises 84 Points; Tata Motors, Eicher Motors, Godrej Industries And 7 Other Stoc",
+          "detail": "The Sunday Guardian explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25144.3,
-        "previousClose": 25299.35,
-        "change": -155.05,
-        "changePct": -0.61,
+        "price": 25185.15,
+        "previousClose": 25144.3,
+        "change": 40.85,
+        "changePct": 0.16,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-13T10:01:20+00:00",
+        "asOf": "2026-11-16T08:36:02+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 81592.45,
-        "previousClose": 81911.01,
-        "change": -318.55,
-        "changePct": -0.39,
+        "price": 81969.64,
+        "previousClose": 81592.45,
+        "change": 377.19,
+        "changePct": 0.46,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-13T10:02:31+00:00",
+        "asOf": "2026-11-16T08:21:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
+          "name": "The Economic Times",
+          "title": "D-Street poised for positive start as GIFT Nifty signals gains - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSDNvUERaVUdrdUd2UzJNamx1dndVV3FCMjluOUlxak1sTEtmNW9rYm9rQVo4bm5tdExFekNtNzc4LWp5SmpGRzd3YXIxM3VSQ1BIeUR3bGJiSmxCOXFPUWRoSk1od0cyZTJNYno4SG1hUldrQnEtX0xiT3IzTDYwWm5FXzc0andPN2Qtb29aUUJuWlFHYlQ1QWl1MVViSHgtb0R0NWNwV09OYTM2bkcycEtvMFVIeFJKLTNXZ1hPMEMxVUhwdkw3cWFNQm_SAdIBQVVfeXFMUERsOG5zbGVveERPenRJanpHbnA4NDM4cnk5MEdmLXpiSm9nSlp2TjNtX3U0M3RRT2VPSG05ZUJkYng5NnVtcWh4LUJfVHpkTTRIWmVrYUpPZXhUUWRyaFBKN0NBVkFPOXN0S1V0WHRGenhJNVZUUTZPeUl4VFZyTmJOa3ZJck4xQ0V2V2I0M3pLNlZfUGtKanVpdFFpYXlpOU1fWlBZTnlCZVBJVHdBWXYxSWlET29GVDA2cGVfWWdKY3JjekZCclVXUmx4MHZycHRR?oc=5",
+          "publishedAt": "2026-11-16T00:30:00+00:00"
+        },
+        {
+          "name": "JournalArta",
+          "title": "Sensex and Nifty Set for Positive Start as Asian Stocks Fall - JournalArta",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWG9GN3J2OFB6RkMyZWVZWHRNM2ozZ2hpNS1ld3pEVlhyWnJNX1JRSFNCNmE4TXdaSDhMWDByb2JLaW4tZUgxcFRiQ1RGQVZEN1BfaHRnMHJMYzlDRW95SFVjQkU2cTlBc0dTWkJfNk5jXzgwNzBieTlkNkdRUGNOX0FobUJ5OFk2bnVjamZzYUc?oc=5",
+          "publishedAt": "2026-11-16T04:49:29+00:00"
+        },
+        {
+          "name": "Moneycontrol.com",
+          "title": "Sensex gains 600 pts, Nifty above 25,300: Strong FII inflows among key factors behind market rise - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPRHNnRU9ZTFNMekpOSTVEdTNfVjlZb01DMU0tejBSZVhITXdLUmsxYmF3aS1RMERQOXM4YlJGaVpPVHR0RlJnZ1UyVG1ieW0yMHUtSm5UdmZsX3RDWkd4RTdRd3J4T1IyekF1TkdkajVaN0xZYmt0VHlRYVNDNTgwMWZFdHZScHFOMG1YUXZNWlFuN3diV3owY09xdEs5SzVPU1g3ZG1DdHV4X25EMEVqRDl5dXBpX29zOGZ2MUVOTFhEaEJiUkE3MGZYMXpoR2pxRHA5NjZKVTItQ1ZRNnJkTUtOUVM3SERmWWxLN0hqTWE3QdIB9wFBVV95cUxPOVZIS0o5c3QwR0o0cTNBbHo3Rmh1NzJmZXJGX1l0OTZSY3pIMmJYSmNSbDlIRGI5UzdQNUN3el82S3FrQkMyc1hkbXEtbmdPWUNuZktZb2RPOWNNbDF1eDh3dHNxTVg0ZzB4V2VLOUd2MTJQa2dZaW9nWFZSa1RadmxDS2o2YTdsdVJVZ2ZQVDFHZDBjUjkzYjkyZHRLc1FJcmd1MVZWblhocFBVN1N2T0ZMd09sTUlJWkhhTEhDVVhqUWtTWFRCdTFkR3BMU0pEdkFPS3o4U1hwbzN1MFgyTzFLYk5mNndUSTNZYkhiUWtDRk1qeW13?oc=5",
+          "publishedAt": "2026-11-16T04:05:23+00:00"
+        },
+        {
+          "name": "The Sunday Guardian",
+          "title": "Stocks To Watch Today, November 16: Sensex, Nifty Eye Positive Opening As GIFT Nifty Rises 84 Points; Tata Motors, Eicher Motors, Godrej Industries And 7 Other Stocks To Watch - The Sunday Guardian",
+          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNWXpzMDJRS1NiS0RhVEFNSTIxTmI1QmVONENvWnZmclR6MGlDcWJqMUoxS0xaYWpNRzdlNmVkQzJobE5neFFULVFScUJOYVNXUS1nWG9iYm9TRklUQ2YzbFZvY3RNdjh5b2ZyeUh4cXNLTWdSN0xUeVl1ZExoLVpyUVhpYzVUdmVhYWtCZ0lkSFhPZFFUMEp3d3BEWEhEUTR5d243V2poX1laU2hKTVpuNlZZaXNfYmpxZi1JMW5MYktwQVNlck1aVHFnRkhIOHZXZnlidHl3WjZ3bmVvbktuamtYM2NadElicVNPWDhYdkkxRUQweHNsd1ZIQ01MTmIwRDVQOEdiQkZEZkxySkhjQ1dfU3MzNmt0SGZybzVfWU5EQ3NlUDdONnI3bTVWRXlQQlpYZDlQYnlQQXZSVUHSAcMCQVVfeXFMUGlQWVJ4OExTaXpZZWdVY3pqMnhkdWgzSDJ6cUNIR081MlYyUGsxTFhlZjVaVXd2VDNIaVNzM3JmYzNDMFhtTXRwY2xNT2VlYUNEbVhsaWgxVFdqaGRpSUdEM3AwbWc2cTg1RWl2THIzNFN2VHM1SGN3aXZlaUUzQUVEc0J0VDVOSHlMZmR0Wk5DdWdqMERYaFVtTHUyd2dtSHJGc0dyenJHRkV6TFBqX1RYOGJUXzJrMWlKTVdtUFVhNU00LVVWdG9yUDZNcmFwNmtvMmZ1U0xNamgxT0RMNk93bHZkWlBPNDJsOHA1QllrZE1pQnRTOGYxVjdlZHdvRURYRERkaGFWVS03UTBvNnRCSEx0QnhDLUNLUm9IVkVTTEJQZUtMbGFjR0JWUndaMFEwQWVIZ2h3TzZfSG14ZkJjN2s?oc=5",
+          "publishedAt": "2026-11-16T03:23:09+00:00"
+        },
+        {
           "name": "NDTV Profit",
-          "title": "Trade Setup For Nov 16: Nifty Likely To Resume Rally Despite Friday's Sell-Off; Key Levels To Watch - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSVNwTFpxOGc1WjIyVkRFbWEweGU5eFl0QVF5eHhCOFpDTmVoVjhSWnhjcjMza2R6SWhDOFFtNDhpbUszSnNGRzZ6UXVEZllzdDVNdDBmYVNDQ3RsbTF5S3hmWkFlZlJiZlhxSDdJRlVTbUQxSG9vR1k2N0pqMHdYSG1zaHQwOXZpbzRoSUVVUlg4VWx5cndiaF9FWjFSNjNGTzVpSjFvMWVLYl9kam1YTEktd3l0RFZmLUFwV2ItcThscU01WEx5akY1Nkp6bTBjTGFKNHMwWdIB3wFBVV95cUxPLXV5VFpoc283T2JwdWZ5d05IRnhvZ1QwT0t5OFVoU0VNS2tVWXo4SFRyX1ZQdVRXTVNyQmFFSzFyeWVaQU9Jdm9WTTJ1aGhCc0V0TU5NQzZmY01NQjhKTllmQnU4eS11OWRUTHdDM1JlMkNfeWZiYjJDa2RqMlUxMHVQYi1rVUVySXBKYmVEZkxRR3lWemJ1RW9VLUVYQ2NjbGZrNE1yMFZWTjhlMXVlSXVCODlhWlBaTXc1TWdJTG1hakV0OWduekIzRHJSZU5ORzZkb1FVdXJmUGlnYzJj?oc=5",
-          "publishedAt": "2026-11-15T14:18:27+00:00"
+          "title": "Stock Market Today: Sensex Zooms 500 Points, Nifty 50 Near 25,300; ITC Gains 4%, Tata Motors PV Down 8% - NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPYjNnY3ZXU2JxaGNwekotVmVYd3YzZEJhbHZlVkU1LUk1N0RuazRxelo0VkI0VkFBSVlQZ1k0cEtBbUhWZVJvTXk1cHNYbHFIV3RqZnNDZk9rWlJ1ZzVMb0VUeVAzVVM2ZGt1VnRBUFpnYW1sTlZyczN5SGwtT1ppT3dCX0ZKeFd4QUpDRWIxd2NyLUMyY1BxQ3Z2c1JIdEdEajJxZS1UcG43akQtejdQaUlkSzl0TnNzb1FxaFc0cFRreUdaMGVzbUc2U0NWeDFfb1gtUWJSYzY1QWxVbUV3dWpwb3RHYWFXdm9xSElHV1pfajd4OFNkdjVON29Mc2lvZFdCNXAyaVFncHpaTFF6OE1WNGXSAZwCQVVfeXFMTzBtLXJKeHVQNEFDWVdoSUNKVFdrVF9HUllPaUFlVWNZV0NwT0hYY2ZIT3FQZEJRS1A0Q2FfVE8wWXpWVzdzaVkxdUF2U1ZjN0I5akxvc2J4LW4yc25nWVUwa19iN2FQa09ZQlRkWm50cHNSMTQwWHRjS1RrNWx1MWdFZGZjMzZzTUNDcVc1cEVEbEdiVjlSMnBXbHlxb1cxZ01ud2FZNHJyZVlwTmZVeEV6dldyZ3hPbGRWT1FITi16Z0RoMmRrS3VEVVhvc19JTG5NXzBOc3RsOW1OUDZ1UzBEbEZtazJlMXVfOHZXRFloUzBTZnlySEstNTlJaDhXUWdNVFEwWmFKT1A4NURGVW5ycm9pdlF5V2FpS3Y?oc=5",
+          "publishedAt": "2026-11-16T07:09:31+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "Stock market outlook today,16 Nov: Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQZ0k3c3lyNVA0N2VzMEtudWx4aHpVWXptWjZQT1B3VnAxN2xIMFlGS3h6d1p2TWVUNUtyNFUtVjJPYnVJQThQWjRQNHlMVkV0MkdNWHlqcnB6QWhia0JRdjFHRzFQd2hWTi1meWVLYlVzRWhrTTlld2pDd1RNTVpmbmZDN2l5bzU0VlN1Y2FmVjZIaE16SFllYW5yMF9yY3VFVC1NOWtfWUVGdUJjT1BxTjl2OGJjeEtLTGZkQndMc2ZNbDRvLUg4VWxUS0pmTUZ5VUxHM0NtbFV4UjF5WGlPMXRKTjdIZm1SVjJGdzdaakJrTl9paGE1OVNtS205dkw2eUdMd9IBigJBVV95cUxPeHROLTNJdWlVUUJPWEFrcVJHeDZTWUFibjVGZUZ0bmhxR09Kb2ZqZ1hZNWV1ay12UlgtTjdCczBybXpSRmEtVVl0TXpwWEhfSUkwQ1lfemZ5OHZKS011RmpjTFRyZlhYQjIyNkxCRU8yNUpOQ24teXRPQ0NuWHJ1S2RNY1Z3Mjl4VEZQZE9IT0JPZWZmWEc3cEdpZlpwY1NfaHlIMzlod1JRUWhvREhDeklBZHdPNkdLc1EyV2tCd1dhT1NJLXBUT2hVWVM0aEltVmkzRGd6UnlSUHZFM0JSekJaT25IRUJUaVR4Rk5VTHAwelhkWW8tZG5WYjlsdVotbnZWQXdETGlvQQ?oc=5",
-          "publishedAt": "2026-11-16T01:12:05+00:00"
-        },
-        {
-          "name": "Livemint",
-          "title": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June - Rally ahead or a pause? - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSlZYSUtBR0s4RVlweHlOTEg0WXA3Vk5TanpTNERnX1BXN0lMV1lUVHlMdURYV2tIRTB2T2lTYTVDRm1iOXVLTVZsdlAxV2RhTHQ2SS1iMjMtZGpVWV9VeUZIMDBVX3JYLUJ0ZmpBcERvbnF1MFBaMTVIemFsdHpvUmJNbm5FQmVFSmxOZHJqQkpSaTl0LWhlZ2ZfZmZQY29pczlRTFhkOENaTnpJSXVVZmJHZEFoNm1tSlpuMzd4X0dOMFd5RzVSVW1mRXAxYWtPZTMyWFJ2WnNZYWRYM3pBclByODd6bjkzUnM2RDYxa190RXNkUlFPU1BRVG96ZXA0ZUdCT1VyTXFnZ9IBjwJBVV95cUxNamlINk51VS1kMjBDSTV3MmxfSDlrVTZZTjFwNDlVdUJMS1BLZGhmMXNQWDVIc2lqUzMzYXI0bDJuTGRXT19heTUwSzVSZWJpbVpNcVRHOGdibE5wRUZiVXdMN1JCeDN2S3IwMEh5eHlYUlpSZEtlVFRVNTI3UzNXcFN4UHBZYWZob01yckd3YUdoaXRNNWFYZVhJSFZucHl2eFREYkpHd05DTnhEdUI3UUtNMGQzbXp1enRYSUczeTAwY2ZlTm4yc2FobHpFUGw1X0lzOWVaZXNDdHgxdUJjQzRDODNSYk90RUdtQzhHYTJ2bERQbzNJNnJHbV9ycS1ZSUZ6cHN4VzI5d3B3NWFv?oc=5",
-          "publishedAt": "2026-11-15T11:49:46+00:00"
-        },
-        {
-          "name": "TradingView",
-          "title": "Smallcaps jump 3.6%, PSU banks surge 7.5% as Sensex, Nifty extend weekly gains; what lies ahead? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeWdwb3k5NVFXM3B3b2FxM2xMUFJEX2FobS1qd1ItcDBOQTJqR09rUHNOU2w2eGU3U3pnbVFrUmRxUjdRWmhybzNpaWtYZDlBV0V5UllvMnFyNTctWnJtOHA3cVZCbmJnNW90di0xUFVPZGtzVVNKUDlGdjFPbERWbGU1RmxiUkx0TTNuN2czcnVibTZmV21RV3M3clpvSlJFQXIza0tqcG9fU19Sa1JGWEJDYzVYQWt5aG5RS2hDTUNnbEg5a3JoV1VueTNVVnd1cERTZDNFYmZZUGEzOWtuYTNJdkFpMXdL?oc=5",
-          "publishedAt": "2026-11-15T04:14:00+00:00"
-        },
-        {
-          "name": "INDIA New England News",
-          "title": "Indian Stock Markets Extend Winning Streak to Seven Sessions as Sensex Surges 1,718 Points - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVHJDT0hWamk1V0lZRGpKUzBNZmtlZlpKYnc3MlNyU0FGUk5FWXpYTVBoRjluUGN2dTJQdVhDMnR2enFDZUFCU2lHNnVOREdWV3JaOEdfY19CMG81Qm81SkIyeHVsbktMUDNrSGEzR1g3cXpYV0tEdGNWZmxoMklkYUN0REhQNEQyUFJ0NmV5MF84cUNDa1lGR0ZwSmpVSlo4VUUybjJYMzZSclBSZlltX0hvQ0pEd2NRWWc?oc=5",
-          "publishedAt": "2026-11-15T04:05:27+00:00"
-        },
-        {
-          "name": "Livemint",
-          "title": "Nifty 50 above 25,000, holds key moving averages: Is Buy-On-Dips right strategy? Here's what stock market experts say - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNTlp2MHBfQU12V0NHY2F2dUZ0end3dlhEOXVhUUd3NjYxN2RuYjNlUHVsYWRZQTBpdmc1LXhUOFZZdm12Rzk1R2JmYVFtZ3VFSXhzTlJMWlZPd3BIWFJkTDdGZlZkX2NQeHF1QkxFVXptLUFubFpQcnVkYm9mTUhfckV0TTdMZldmNkt2MGtON05qRzB5NWpyazRIZ2JVN29PZkNPSS1TZm9XM21Cd3VtVzJlTkVMVTJMM2hFT21fTHRHTVdObWtncEtndHJCeGQ3Qm9UVGs3NWFjSDJUdFBiVUsyMVpyTWppYV81UG1Uc3ZuMVFsOG96UEQ3SXpScG12WWtQS2hSME5pUDg0Q2RuSNIBlgJBVV95cUxNM3NSX0JCampQTVVjVmtUSEphbnpDSGs1QVhNQ0JKZmUwOXg4ZW0tU3d2VzZyRmkzbXJ5el9YRjc0dU0yS1N1OTVIZUh5NGdXVk9xQmRJVEJQM1d2d2lLZWE4SXlkYVA5SWJBNXNKWjFKckZiYWFsWW92NVVPU2UtNkRyM2pHd2lKZTZreTJ2TFRiUWd3UWE0RHdRQ0ZfZVJlekpNcVRpTnVLdFc0T050eDRrZXRvUDBkUjMteDZCblVMLS04ejRRUWUxdzVyZVFPaEtKUDlqdDRReTk3eDVjWHVJWWd4bmFlTVFqajJVd1pZemVUNVhIOXpZNFdyR1plcUJENmE1Y2pRcUQyRUJzeEd6MXpKdw?oc=5",
-          "publishedAt": "2026-11-15T08:38:41+00:00"
+          "name": "Analytics Insight",
+          "title": "Stock Market Update: Nifty 50 Opens 61 Points Higher at 25,206; Sensex Rises 218 Points - Analytics Insight",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSTNnM0J6Yy1kUTNjR1h6Z2ZVU1EzQ1F2MUFrOFNKdWdIWTVWTER6Z2xVbW1mZWJ6Njk5S01qR0lYY2Z6R1M3V2xFYjlpd3BjdDM5Tk1OT241NXFtSHJZdUJXRTlPTnNSV1pSRzJmZDJ4RDNSNGFjT0pKRDVWX1I3VzY4Q3JMX3U1czY4bWJqYURjM3VCYk1FbHV0RkhzTnlOV19GNjNRWFpZUDJqaTlDRVZFODB5QjdxQlBWMEFjTjQxd9IBzwFBVV95cUxPdHZLSGE0cTl0TV9QOXAyOE91aEEtQlJaaVhUMEhmM0ZQTGlUOGRrMnAtOHNuM3hWd05aVkFIVllFUXA5YkFJckY3OHNvY090anZHanhQS2JDVjc3XzZxbWxhdkVHcjYzUkZ0TzZITDJ0YXVEdHVoMHVhOU1TdU1rY3FreHdONjc4Q3hleG5nTmNSeXRSeEhDTWwxcjQ2VW1MWE1DZ2EwVk9sQWJWeWRPX3M4TlY0YnlNYVE5M1dSRVROMFNEeEFUMFdFdU02NVE?oc=5",
+          "publishedAt": "2026-11-16T05:11:14+00:00"
         }
       ],
       "evidenceCount": 7
