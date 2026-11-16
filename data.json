@@ -1,22 +1,191 @@
 {
-  "updated": "2026-11-16T02:45:34.196953+00:00",
+  "updated": "2026-11-16T11:26:29.746420+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 35,
-    "nonNoiseCandidates": 35,
-    "officialOrPrimaryCandidates": 8,
-    "enrichedCandidates": 35,
-    "readableCandidates": 18,
-    "eventClusters": 18,
-    "materialEvents": 4,
-    "selectedEvents": 4,
-    "seededStories": 4,
+    "rawCandidates": 75,
+    "nonNoiseCandidates": 74,
+    "officialOrPrimaryCandidates": 11,
+    "enrichedCandidates": 71,
+    "readableCandidates": 47,
+    "eventClusters": 39,
+    "materialEvents": 20,
+    "selectedEvents": 7,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "08f4b4cdd9ab03",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Prince Harry makes surprise two‑day visit to Lviv to meet injured Ukrainian veterans",
+      "publishedAt": "2026-11-16T09:21:31+00:00",
+      "importanceScore": 13.7,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Prince Harry spent two days in Lviv, Ukraine, where he met injured service men and women, including Ukrainian competitors in his Invictus Games, and watched a wheelchair‑rugby match. He told the audience “You’re going to win the war” and toured projects that support treatment and rehabilitation for the country’s more than 150,000 wounded veterans. A press blackout was kept until he left the country, which continues to face missile attacks from Russia.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-16T09:21:31+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-15T22:00:13+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-16T11:26:29.746420+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Prince Harry makes surprise visit to Lviv to meet injured Ukrainian veterans",
+      "previousSummary": "Prince Harry made a surprise two‑day visit to Lviv, Ukraine, where he met injured Ukrainian service members and competitors from his Invictus Games. He was applauded by veterans, toured projects that provide treatment and rehabilitation, and said, “You’re going to win the war.” A press blackout was maintained for security while the country faced ongoing Russian missile attacks.",
+      "previousPublishedAt": "2026-11-15T22:00:13+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "de70b21d288075",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Maruti Suzuki Share Price Live Updates: Maruti Suzuki's Stock Price Analysis",
+      "publishedAt": "2026-11-16T03:35:24+00:00",
+      "importanceScore": 13.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-16-nov-2026/liveblog/135871604.cms",
+      "summary": "Stay informed with the Maruti Suzuki Stock Liveblog, your comprehensive resource for real-time updates and in-depth analysis of a leading stock. Get the latest details on Maruti Suzuki, including: Last traded price 12571.0, Market capitalization: 395235.48, Volume: 662372, Price-to-earnings ratio 29.38, Earnings per share 427.83.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-16-nov-2026/liveblog/135871604.cms",
+          "publishedAt": "2026-11-16T03:35:24+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-stock-price-live-updates-16-nov-2026/liveblog/135871462.cms",
+          "publishedAt": "2026-11-16T03:31:16+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sbi-life-share-price-live-16-nov-2026/liveblog/135870981.cms",
+          "publishedAt": "2026-11-16T03:05:44+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-16T03:35:24+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-16T11:26:29.746420+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "6f33ab7edf4157",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Stock Price and Volume Insights",
+      "publishedAt": "2026-11-16T03:21:15+00:00",
+      "importanceScore": 13.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-live-16-nov-2026/liveblog/135871297.cms",
+      "summary": "Keep track of Tech Mahindra's latest details, including: Last traded price 1776.4, Market capitalization: 174115.46, Volume: 1535420, Price-to-earnings ratio 31.51, Earnings per share 56.38. Explore the latest updates on HCL Tech stock, including: Last traded price 1384.6, Market capitalization: 375734.07, Volume: 2124094, Price-to-earnings ratio 20.51, Earnings per share 67.51.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-live-16-nov-2026/liveblog/135871297.cms",
+          "publishedAt": "2026-11-16T03:21:15+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hcl-tech-share-price-live-updates-16-nov-2026/liveblog/135870988.cms",
+          "publishedAt": "2026-11-16T03:06:04+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-16-nov-2026/liveblog/135870936.cms",
+          "publishedAt": "2026-11-16T03:02:54+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-16T03:21:15+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-16T11:26:29.746420+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "d29a7a88ce4720",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India’s unemployment rate eases to 4.9% in October",
+      "publishedAt": "2026-11-16T10:52:48+00:00",
+      "importanceScore": 13.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-eases-to-4-9-in-october/articleshow/135884988.cms",
+      "summary": "Government data released on Monday show that the unemployment rate for people aged 15 and above fell to 4.9% in October, down from 5.0% in September and below the 5.1% forecast in a Reuters poll. The figures represent a 0.1‑percentage‑point decline from the previous month.",
+      "why": "The modest decline may ease labour‑market pressure, informing policymakers and investors about the health of the Indian economy.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-eases-to-4-9-in-october/articleshow/135884988.cms",
+          "publishedAt": "2026-11-16T10:52:48+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-16T10:52:48+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-16T11:26:29.746420+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "2bfa41fe47c45a",
       "cat": "World",
@@ -24,14 +193,14 @@
       "categories": [
         "World"
       ],
-      "title": "Australian MP Helen Haines discharged after losing both legs in alleged car attack",
-      "publishedAt": "2026-11-16T01:53:19+00:00",
-      "importanceScore": 13.9,
+      "title": "Independent MP Helen Haines released from hospital after alleged car attack",
+      "publishedAt": "2026-11-16T03:09:49+00:00",
+      "importanceScore": 12.7,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
-      "summary": "Independent MP Helen Haines, who lost both legs after a white Toyota LandCruiser was driven into her outside her Wangaratta electorate office on 19 October, has been released from hospital. Police have charged 43‑year‑old Brendan Nugent with dangerous driving causing serious injury, intentionally causing serious injury and the federal offence of causing harm to a public official, and he has not yet entered a plea.",
-      "why": "The case highlights the legal response to violent attacks on elected officials.",
+      "summary": "Independent MP Helen Haines was released from hospital four weeks after being struck by a vehicle in an alleged attack outside her electorate office in Wangaratta, north‑east of Melbourne, on 19 October. The attack left her a double amputee, and she said she is “full of gratitude” upon discharge.",
+      "why": "The incident raises concerns about the safety of elected officials and the risk of politically‑motivated violence.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -39,59 +208,23 @@
         {
           "name": "feeds.bbci.co.uk",
           "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-16T01:53:19+00:00"
+          "publishedAt": "2026-11-16T03:09:49+00:00"
         }
       ],
       "firstSeen": "2026-11-16T01:53:19+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-16T02:45:34.196953+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "6e07c4417ad835",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Paris police ban protests near 10 schools and five universities for five days",
-      "publishedAt": "2026-11-15T22:28:54+00:00",
-      "importanceScore": 13.0,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Paris police have issued a five‑day ban on unauthorised gatherings within 100 metres of ten secondary schools and five universities, effective 16–20 November. The order was announced by police chief Patrice Faure, who said it was needed because of numerous disruptions, blockades and persistent violence around the sites. The protests, which began in September over secondary‑school conditions, have spread to universities, workers and the yellow‑vest movement.",
-      "why": "The ban restricts demonstrations near educational institutions, aiming to reduce disruptions and violence that have affected schools and universities.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-15T22:28:54+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-15T22:28:54+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-16T02:45:34.196953+00:00",
+      "lastChecked": "2026-11-16T11:26:29.746420+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Paris police impose five‑day protest ban near schools and universities",
-      "previousSummary": "Paris police have issued a five‑day ban on protests within 100 metres of ten secondary schools and five universities from 16 to 20 November. The order aims to curb weeks of blockades, property damage and clashes that have accompanied protests that began in September over school conditions and broader cost‑of‑living grievances.",
-      "previousPublishedAt": "2026-11-15T22:28:54+00:00",
+      "previousTitle": "Australian MP Helen Haines discharged after losing both legs in alleged car attack",
+      "previousSummary": "Independent MP Helen Haines, who lost both legs after a white Toyota LandCruiser was driven into her outside her Wangaratta electorate office on 19 October, has been released from hospital. Police have charged 43‑year‑old Brendan Nugent with dangerous driving causing serious injury, intentionally causing serious injury and the federal offence of causing harm to a public official, and he has not yet entered a plea.",
+      "previousPublishedAt": "2026-11-16T01:53:19+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 14.0,
+      "previousImportanceScore": 13.9,
       "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
+      "change": "Material details changed since the previous brief.",
       "lifecycle": "Updated"
     },
     {
@@ -103,12 +236,12 @@
       ],
       "title": "Indian chip startup Bharat Semi raises $24 million seed round for AI image sensors",
       "publishedAt": "2026-11-15T23:30:00+00:00",
-      "importanceScore": 12.8,
+      "importanceScore": 11.8,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-      "summary": "Bharat Semi, an Indian semiconductor startup of almost five years, announced a $24 million seed funding round to develop AI‑enabled programmable image sensors. The company says it has secured design wins with U.S. defense firm General Atomics and India’s Kaynes Semicon, and it aims to begin commercial production of its single‑chip sensor that combines capture, processing and AI in 2027. Co‑founder Vrinda Kapoor claims the chip could cut system costs by at least 70 % versus conventional multi‑chip solutions.",
-      "why": "The capital will speed development of low‑cost, AI‑ready vision chips that could help Indian and global firms diversify semiconductor supply chains.",
+      "summary": "Bharat Semi, a nearly five‑year‑old pre‑revenue semiconductor startup in New Delhi, announced a $24 million seed funding round to develop programmable AI‑enabled image sensors. The company says it has secured design wins with U.S. defense firm General Atomics and Indian firm Kaynes Semicon, and aims to begin commercial production in 2027. Co‑founder Vrinda Kapoor claims the sensors could reduce system costs by at least 70 % versus conventional sensor‑processor‑SoC configurations.",
+      "why": "The capital could help India expand its domestic chip ecosystem and offer cost‑effective AI vision solutions to global customers.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -120,66 +253,35 @@
         }
       ],
       "firstSeen": "2026-11-15T23:30:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-16T02:45:34.196953+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-16T11:26:29.746420+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "08f4b4cdd9ab03",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Prince Harry makes surprise visit to Lviv to meet injured Ukrainian veterans",
-      "publishedAt": "2026-11-15T22:00:13+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Prince Harry made a surprise two‑day visit to Lviv, Ukraine, where he met injured Ukrainian service members and competitors from his Invictus Games. He was applauded by veterans, toured projects that provide treatment and rehabilitation, and said, “You’re going to win the war.” A press blackout was maintained for security while the country faced ongoing Russian missile attacks.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-15T22:00:13+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-15T22:00:13+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-16T02:45:34.196953+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Indian chip startup Bharat Semi raises $24 million seed round for AI image sensors",
+      "previousSummary": "Bharat Semi, an Indian semiconductor startup of almost five years, announced a $24 million seed funding round to develop AI‑enabled programmable image sensors. The company says it has secured design wins with U.S. defense firm General Atomics and India’s Kaynes Semicon, and it aims to begin commercial production of its single‑chip sensor that combines capture, processing and AI in 2027. Co‑founder Vrinda Kapoor claims the chip could cut system costs by at least 70 % versus conventional multi‑chip solutions.",
+      "previousPublishedAt": "2026-11-15T23:30:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.8,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 4,
-  "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-15T22:51:29.991460+00:00",
+  "jarvisEditedCount": 5,
+  "finalRejectedCount": 1,
+  "previousUpdated": "2026-11-16T02:45:34.196953+00:00",
   "changeSummary": {
     "new": 3,
     "updated": 1,
-    "continuing": 0
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-13T08:01:35.146532+00:00",
-    "updated": "2026-11-16T02:45:34.196953+00:00",
+    "availableFrom": "2026-11-13T16:28:05.275958+00:00",
+    "updated": "2026-11-16T11:26:29.746420+00:00",
     "snapshotCount": 11,
     "eventCount": 67,
     "retentionHours": 72
