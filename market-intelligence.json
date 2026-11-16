@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T21:17:16.701522+00:00",
+  "updated": "2026-11-16T01:23:33.561303+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
@@ -11,13 +11,13 @@
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Cenovus Energy record oil sands output",
-          "detail": "Kalkine Media article discusses Cenovus' record production but does not tie it to the TSX move.",
+          "label": "Cenovus Energy record output article",
+          "detail": "Kalkine Media discussed Cenovus Energy's record oil sands output and momentum, but did not connect it to the TSX move.",
           "kind": "context"
         },
         {
-          "label": "Gran Tierra Energy strategic shift",
-          "detail": "Kalkine Media article covers Gran Tierra's plans to exit South America, yet no connection to the index change is provided.",
+          "label": "Gran Tierra Energy exit plan article",
+          "detail": "Kalkine Media reported Gran Tierra Energy's plan to exit South America, without tying it to the broader market direction.",
           "kind": "context"
         }
       ],
@@ -66,12 +66,12 @@
           "kind": "context"
         },
         {
-          "label": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June -",
+          "label": "Stock market outlook today,16 Nov: Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty,",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         },
         {
-          "label": "Smallcaps jump 3.6%, PSU banks surge 7.5% as Sensex, Nifty extend weekly gains; what lies ",
+          "label": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June -",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
@@ -113,6 +113,12 @@
         },
         {
           "name": "Livemint",
+          "title": "Stock market outlook today,16 Nov: Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQZ0k3c3lyNVA0N2VzMEtudWx4aHpVWXptWjZQT1B3VnAxN2xIMFlGS3h6d1p2TWVUNUtyNFUtVjJPYnVJQThQWjRQNHlMVkV0MkdNWHlqcnB6QWhia0JRdjFHRzFQd2hWTi1meWVLYlVzRWhrTTlld2pDd1RNTVpmbmZDN2l5bzU0VlN1Y2FmVjZIaE16SFllYW5yMF9yY3VFVC1NOWtfWUVGdUJjT1BxTjl2OGJjeEtLTGZkQndMc2ZNbDRvLUg4VWxUS0pmTUZ5VUxHM0NtbFV4UjF5WGlPMXRKTjdIZm1SVjJGdzdaakJrTl9paGE1OVNtS205dkw2eUdMd9IBigJBVV95cUxPeHROLTNJdWlVUUJPWEFrcVJHeDZTWUFibjVGZUZ0bmhxR09Kb2ZqZ1hZNWV1ay12UlgtTjdCczBybXpSRmEtVVl0TXpwWEhfSUkwQ1lfemZ5OHZKS011RmpjTFRyZlhYQjIyNkxCRU8yNUpOQ24teXRPQ0NuWHJ1S2RNY1Z3Mjl4VEZQZE9IT0JPZWZmWEc3cEdpZlpwY1NfaHlIMzlod1JRUWhvREhDeklBZHdPNkdLc1EyV2tCd1dhT1NJLXBUT2hVWVM0aEltVmkzRGd6UnlSUHZFM0JSekJaT25IRUJUaVR4Rk5VTHAwelhkWW8tZG5WYjlsdVotbnZWQXdETGlvQQ?oc=5",
+          "publishedAt": "2026-11-16T01:12:05+00:00"
+        },
+        {
+          "name": "Livemint",
           "title": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June - Rally ahead or a pause? - Livemint",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSlZYSUtBR0s4RVlweHlOTEg0WXA3Vk5TanpTNERnX1BXN0lMV1lUVHlMdURYV2tIRTB2T2lTYTVDRm1iOXVLTVZsdlAxV2RhTHQ2SS1iMjMtZGpVWV9VeUZIMDBVX3JYLUJ0ZmpBcERvbnF1MFBaMTVIemFsdHpvUmJNbm5FQmVFSmxOZHJqQkpSaTl0LWhlZ2ZfZmZQY29pczlRTFhkOENaTnpJSXVVZmJHZEFoNm1tSlpuMzd4X0dOMFd5RzVSVW1mRXAxYWtPZTMyWFJ2WnNZYWRYM3pBclByODd6bjkzUnM2RDYxa190RXNkUlFPU1BRVG96ZXA0ZUdCT1VyTXFnZ9IBjwJBVV95cUxNamlINk51VS1kMjBDSTV3MmxfSDlrVTZZTjFwNDlVdUJMS1BLZGhmMXNQWDVIc2lqUzMzYXI0bDJuTGRXT19heTUwSzVSZWJpbVpNcVRHOGdibE5wRUZiVXdMN1JCeDN2S3IwMEh5eHlYUlpSZEtlVFRVNTI3UzNXcFN4UHBZYWZob01yckd3YUdoaXRNNWFYZVhJSFZucHl2eFREYkpHd05DTnhEdUI3UUtNMGQzbXp1enRYSUczeTAwY2ZlTm4yc2FobHpFUGw1X0lzOWVaZXNDdHgxdUJjQzRDODNSYk90RUdtQzhHYTJ2bERQbzNJNnJHbV9ycS1ZSUZ6cHN4VzI5d3B3NWFv?oc=5",
           "publishedAt": "2026-11-15T11:49:46+00:00"
@@ -128,12 +134,6 @@
           "title": "Indian Stock Markets Extend Winning Streak to Seven Sessions as Sensex Surges 1,718 Points - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVHJDT0hWamk1V0lZRGpKUzBNZmtlZlpKYnc3MlNyU0FGUk5FWXpYTVBoRjluUGN2dTJQdVhDMnR2enFDZUFCU2lHNnVOREdWV3JaOEdfY19CMG81Qm81SkIyeHVsbktMUDNrSGEzR1g3cXpYV0tEdGNWZmxoMklkYUN0REhQNEQyUFJ0NmV5MF84cUNDa1lGR0ZwSmpVSlo4VUUybjJYMzZSclBSZlltX0hvQ0pEd2NRWWc?oc=5",
           "publishedAt": "2026-11-15T04:05:27+00:00"
-        },
-        {
-          "name": "Social News XYZ",
-          "title": "Sensex, Nifty extend gains for third straight week amid strong foreign inflows - Social News XYZ",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU3BYcFlSaHRxSnFnNHBHZ295RDVEMG5VMXViUUJ2Q0pQdWYxSXF1UzZQYmpLZjhtNWhSc3EwWEhjU0d2dnIyemJrcW9KZzhyM3h6eVN2SFNVTENKTWVrb05ROUY1Y0pEaDlaMFlZcXRFM0tzbEVHeGhtaWQ5SDNCeHVJQ0x3Z3JPY1hxNDlRdVhJU2VKWGJrbnRGMHV1bjM0YnhJTVBEV09tWmJjaV9qdG1MR0hpc2fSAbcBQVVfeXFMTVNwWHBZUmh0cUpxZzRwR2dveUQ1RDBuVTF1YlFCdkNKUHVmMUlxdVM2UGJqS2Y4bTVoUnNxMFhIY1NHdnZyMnpia3FvSmc4cjN4enlTdkhTVUxDSk1la29OUTlGNWNKRGg5WjBZWXF0RTNLc2xFR3hobWlkOUgzQnh1SUNMd2dyT2NYcTQ5UXVYSVNlSlhia250RjB1dW4zNGJ4SU1QRFdPbVpiY2lfanRtTEdIaXNn?oc=5",
-          "publishedAt": "2026-11-14T21:41:00+00:00"
         },
         {
           "name": "Livemint",
