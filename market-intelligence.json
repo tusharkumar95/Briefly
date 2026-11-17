@@ -1,18 +1,23 @@
 {
-  "updated": "2026-11-17T11:11:27.792718+00:00",
+  "updated": "2026-11-17T20:00:22.129113+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls 1.06% as energy, miners and materials stocks slide",
+      "headline": "S&P/TSX Composite fell 1.39%",
       "direction": "down",
-      "move": "S&P/TSX Composite -1.06%",
-      "why": "Energy and mining shares dropped sharply, materials stocks weighed on the index, and steady 3.1% inflation kept sentiment subdued, while a concurrent slide in U.S. markets added pressure.",
+      "move": "S&P/TSX Composite -1.39%",
+      "why": "Same-day market coverage explicitly linked the final move to: investors prepare for Nvidia earnings; Sector Weakness; energy and gold mining shares slide.",
       "drivers": [
         {
-          "label": "Energy and Miners Slide After Steady 3.1% Inflation",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "investors prepare for Nvidia earnings",
+          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Sector Weakness",
+          "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
@@ -21,48 +26,39 @@
           "kind": "driver"
         },
         {
-          "label": "Energy sector decline",
-          "detail": "Energy stocks slid, contributing directly to the TSX drop.",
-          "kind": "context"
-        },
-        {
-          "label": "Mining sector decline",
-          "detail": "Gold mining and broader miners shares fell, pulling the index lower.",
-          "kind": "context"
+          "label": "Energy and Miners Slide After Steady 3.1% Inflation",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
-      "sectors": [
-        "Energy",
-        "Materials",
-        "Mining"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 35722.1,
-        "previousClose": 36105.9,
-        "change": -383.8,
-        "changePct": -1.06,
+        "price": 35225.67,
+        "previousClose": 35722.1,
+        "change": -496.43,
+        "changePct": -1.39,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-16T21:20:00+00:00",
+        "asOf": "2026-11-17T20:00:16+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Investing.com India",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 1.06% By Investing.com - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEdCYVk4YWx5dDl2UnBWekdUZ1dieGN3bExpUl8yT3RNRno5VFpoTkU4eXhJTG1Ha1I5WEVoVDNTcXVkc2xUTzc4VVREMzdsSERPRk1JZ1NnR29VT1FnZC1DSzRwdU5Ea0xiVFF6SHlaczltQUYwWlJaVDZBclNQeGFXNEgzMGhVSXlVRExmWjRIc2ctRFRBdjU1bUVSd2k5X0VYQmkwZ0xyZ3BtUVNaQnNnVVk0RG9MaWc?oc=5",
-          "publishedAt": "2026-11-17T03:18:46+00:00"
+          "name": "The Globe and Mail",
+          "title": "Financial, tech stocks push TSX lower as investors prepare for Nvidia earnings - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQWZ3UEV4LUdqOFJaZ09vWE5oQWVBNW9XOERnRDhNei1HeWVBMHp6WGJNekZmd184RUxYTGtmT0ZfTW5TUmo5aUVzZ0pSckl5MlFBb29IT0lCb3JBUTV6NGFwd3VHdmtUVUFfSlBhOGxLekRmQ3Y5akptQnhsVlFDQ3Q4Q3V0Z2pCYjFMMDR2aXFOVXA5OTE5S3N3TDZSeHdyVTZ0OURwbzA0cXlMMWtvMFZjVTdWbDVZSmM5aTFJME9KMTRnTjdvRHdPbHN4R1F4UUhXalk4N2RXQQ?oc=5",
+          "publishedAt": "2026-11-17T10:00:43+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange: TSX Falls 1.06% to 35,722.13 as Energy and Miners Slide After Steady 3.1% Inflation - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVTRnVm9DendvNlM4eFFFRG1pSVJFdEpJNm5UaVN6cXZ5bUpqTEtvcC1RUWpET3Eya1R2YXJNWldKYUF4YmdnTS0xV3ZEVG0yRm8wbVU1LXVQejNKU2poOWNsZXFPNTlmbzZZNGlZVFl1Ny1JWktVZkhDc2xLODZQSG02MXJoS0RhdkJtWXg3amdRWlFzb0x5ZXVxQ3ZoeDdOeTVmN1FKdTYyakI4djVob01ZU2pIUXpjeTRsdkpZYXhrQlFFdUxFeGROMUZzRnp1RVRLb1dVRXNsNzRF?oc=5",
-          "publishedAt": "2026-11-16T23:33:21+00:00"
+          "name": "kalkine.ca",
+          "title": "S&P/TSX Composite Index Set for a Lower Opening Amid Sector Weakness - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWnhSWkhFdDgxS09Ia3htY2VhYnVZRWpMbFZCSGVsZmN0LTFNc2lxbERHVktQR3JnbEpIZXpfOTVQZ09sWEVadktqblZpT0dmZFQ2eVA4T0drdk8xWm5NWHFSRVRQWE9YdXJvY1k4cHlDRVZHbC1VMFh1bmVsTEZGRjhlVmhraGo0Yy1HS2xZVGlKLWdVbk5NalJ2RFFsa2piazhZ?oc=5",
+          "publishedAt": "2026-11-17T11:11:24+00:00"
         },
         {
           "name": "Reuters",
@@ -71,33 +67,43 @@
           "publishedAt": "2026-11-16T21:21:53+00:00"
         },
         {
-          "name": "Investing.com UK",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 1.06% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWjlZeHNpV3dmdDA2c0J5TXlUbHFWR3l1ZC1xRFhSZVZkQ2Rkd01uSlhkQnJfMW5rN1RUTUd3RnowV3dGUkJ5ZWNUMVF2bERlOXRVMzRBVC1TM0JiR0RGZWNtc3pfTElrTjNYY0RGYXVlWEtOaVBoNnMyT0hYM0VlUDFYcHo5OEdFWUlNUTVYTk1Tbk1YOXFoeGo1c29aZnAzMTQwUkdWRnZjUFRCeHdxbUlsdXhSMS13b3c?oc=5",
-          "publishedAt": "2026-11-16T21:30:00+00:00"
+          "name": "Yahoo! Finance Canada",
+          "title": "S&P/TSX composite down more than 300 points, U.S. stock markets also lower - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrWmhlbm5QTkFXcVZOSjhiOWhhQmVoZ0VGcWQySkoyVjNuNWRNZkw3Z0dPZGVJM0plMUxFelROaWRueWhmdFZIalNRd01TVy05aEk3OG5oN0s2RGdfekhDQ0VlSldTMFFHQU5venMtQ2hiS0NEZmpqLXJqOWFnNGc?oc=5",
+          "publishedAt": "2026-11-17T16:32:57+00:00"
         },
         {
           "name": "kalkine.ca",
-          "title": "WHY Has the S&P/TSX Composite Swung Between 35,500 and 36,800 in November? - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLTVKQWdjSVdUaWo0dmhLa29TYjFieFBIQnNIalZQYmI2akdwRnoxWFk2WWxxR1p0Wk95RTZUZEFORk1aWDFIbUZCSUJWRWo3NnB5U0o3aElKMEJ3UnJkTGJBcmt2czh2UGl4bGwyLVhRbnJJdVpEWjROdUNsTFd5c0xRQ0l2WnlMN2ZJalRaVkJoaEtWM0cwWWt4OUh0YUNkR0pXTEVjdUZvQQ?oc=5",
-          "publishedAt": "2026-11-17T09:32:00+00:00"
+          "title": "Bank of Montreal (TSX:BMO): S&P/TSX Composite Index Large-value Stock in Focus as Investors Track the Next Catalyst - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ2JQN281NzktSHFPaUs5NkFJalo1bUt1OFpGZnJtWWhJdEpzaG5OSTJodzlBMTNFQTl6VF9rY0JBNlBqaHBKTHFtQXlyVGVkSkdoSEx6YUIxeDlmTkswRnRlVjJUSHNzbDE3TGdXdDJTMVlQM2wtSUY2bXZzd1ZkWVFRdjN2YjRGWDZ5QzJCQjZBQUh3QXZieDRQakZTZ2owNXpGS1BOQ1o4ZGVoM24zXzVydVdzMkp2NzdIYmxwYWJ1S0twRGZ6SzBBak90OWhGYkFPS0Z4c19MUG8?oc=5",
+          "publishedAt": "2026-11-17T16:03:00+00:00"
         },
         {
-          "name": "BNN Bloomberg",
-          "title": "Materials stocks weigh on S&P/TSX composite, U.S. stock markets also slide - BNN Bloomberg",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRzNMSmk4UG1JdjRxMUZsUUw2WlJpUnVUS1FRekVzcldaS2l0aTdtN0xVMy1BWXJTQllaUHl3NXRvY0dLVGEyUVNQWUZJRWNuZVVCWE1zeUtFN29HTTFYUHd2WXFVc05UdHdzOU9BVGt0Rkh2Mk12a3M5ZHhaVjhBYTZsSFlwd1JodlJ6d20zQlNjWml1dnhUT0RfM1h5QTZLNlM4TUFEc05tSldrMF9IVVE5bEdxdFVp?oc=5",
-          "publishedAt": "2026-11-16T21:42:16+00:00"
+          "name": "BBN Times",
+          "title": "Toronto Stock Exchange: TSX Falls 1.06% to 35,722.13 as Energy and Miners Slide After Steady 3.1% Inflation - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVTRnVm9DendvNlM4eFFFRG1pSVJFdEpJNm5UaVN6cXZ5bUpqTEtvcC1RUWpET3Eya1R2YXJNWldKYUF4YmdnTS0xV3ZEVG0yRm8wbVU1LXVQejNKU2poOWNsZXFPNTlmbzZZNGlZVFl1Ny1JWktVZkhDc2xLODZQSG02MXJoS0RhdkJtWXg3amdRWlFzb0x5ZXVxQ3ZoeDdOeTVmN1FKdTYyakI4djVob01ZU2pIUXpjeTRsdkpZYXhrQlFFdUxFeGROMUZzRnp1RVRLb1dVRXNsNzRF?oc=5",
+          "publishedAt": "2026-11-16T23:33:23+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.38%",
+      "headline": "Nifty rises as banking and realty stocks lead gains",
       "direction": "up",
-      "move": "Nifty 50 +0.38%",
-      "why": "Same-day market coverage explicitly linked the final move to: Banking and Realty Stocks Lead Gains; Sensex Rises Over 427 Points, Nifty Tests 25,387.",
+      "move": "Nifty 50 +0.58%",
+      "why": "Multiple closing headlines state banking and realty stocks led gains and Bank Nifty hit a record high; crude easing near $92 was reported alongside but not explicitly tied to the index move",
       "drivers": [
+        {
+          "label": "Indian stocks lead Asia with 10% monthly gain",
+          "detail": "Livemint explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Bank Nifty Hits Record High; Crude Eases Near $92",
+          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "Banking and Realty Stocks Lead Gains",
           "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
@@ -109,15 +115,18 @@
           "kind": "driver"
         }
       ],
-      "sectors": [],
-      "confidence": "medium",
+      "sectors": [
+        "Banking",
+        "Realty"
+      ],
+      "confidence": "high",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25387.4,
-        "previousClose": 25291.1,
-        "change": 96.3,
-        "changePct": 0.38,
+        "price": 25291.1,
+        "previousClose": 25144.3,
+        "change": 146.8,
+        "changePct": 0.58,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -127,10 +136,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 82532.19,
-        "previousClose": 82104.79,
-        "change": 427.4,
-        "changePct": 0.52,
+        "price": 82104.79,
+        "previousClose": 81592.45,
+        "change": 512.34,
+        "changePct": 0.63,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -139,9 +148,21 @@
       },
       "sources": [
         {
+          "name": "Livemint",
+          "title": "Nifty reclaims pre-war levels intraday as Indian stocks lead Asia with 10% monthly gain - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMVJ5S2hHT3Nlamh4YTNRTVJqWU5JSzRFYWFRMEh2d0YyTjVmV3I3OUoyOE82MGd6UGg3cG9oZmhhQWpSLVJFMW4wcWl1MWw4eWw4dDV2ZnFPbWpxUVNNQVBOaEc4Q1AtSlNxOFpzc2paWllQa21Oakx1QmhnSU5tV0g3VTVnRmY2TVNTZmJnYjVLZ3ZHQ2s3VnRoUWVObFNQZzJGYThrb3dCZW9MZlZTdWQwVlFjRHhxTW45cDNnbjNJSURnVlRIZS1pWHg3VkxBUkk2MFB4MW8wQ3pFR2RBbTY2VFNpVUxrOG44U9IB8gFBVV95cUxPMmlEZXp2OU1Dc3pqTU5oNlNTZVhkSnF2T2J2MXdELTdEdmV3WURxZjAzdUhqcm4taTdnYkhHMWlCT2p0MlBZYS1FUC1DOVI0d2g5LWdBMENUMXgwcWxQMTJxV1VmSkkxekhvTGFGT0pVUnhKYUgyREpjdi1Ja2V3QjcyZG1JQU1vM2JGY3JSa1o1WmhlMVdtdmVWOExTbWgteDdpQzNSZ1huVTFXRmJZNnJvZ2xIS0dCbmhSU0I1VEwtcHJLcmI4Vy1BR01scWRGRVJnTF9aUWJ0RS1Db243Z19vQUhublk1UWg4ZFd1bmtPQQ?oc=5",
+          "publishedAt": "2026-11-17T15:54:51+00:00"
+        },
+        {
+          "name": "India Infoline",
+          "title": "Closing Bell: Nifty Gains to 25,387 as Bank Nifty Hits Record High; Crude Eases Near $92 - India Infoline",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaFBZcFhabjZvbkc4QkJadkRpRGFySkh1UDF6QVIwX1FCV2dMUjd4ZWVtNjF6VTF2YlpNazdxdERwRjRVLUlCUGNrTy1hOGZjNzZzNnFvanBjLXhvMXVuX3ZuV1BubFR0VDZ5VE1idktDUGRHdlNOUjFBSEwzUG5aWW45VTBlR2dzbWJnTlpkRlRTUlY5UE0wM0k4Yi15Q1h4bGFGUlAzeEhRaUx6T05rOF9wUkw1a0ltUlRWTVlvOVFlTHMyNUE?oc=5",
+          "publishedAt": "2026-11-17T12:37:54+00:00"
+        },
+        {
           "name": "Equitymaster",
           "title": "Sensex Today Ends 427 Points Higher | Nifty Above 25,350 | Nifty Bank Hits Record High - Equitymaster",
-          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQZHpxUVBIRkFtek1kWDZCM3h3aVVRUGpWX2RZUWpfbHJzY0dtTDQ5VXJROEF6U2tMMDFnVUpXQnFGUkJLbm1aRTZqQXoxVGZ0S2RJZlRhcUwta2EwOU9wMkFST0gtVGxBV1RycHR1ZmlsSk5YNWhNUGwwZXJ2Z0U4bHUyR0l4Y2Q0MWQwUk1rMlFGaEtQbFhuN3JmeVdEX3UyQ2trcDBsOUZOWGU4VTBZeWtJNnZDd1RxLXBEbnhuRkJwSXpjaktiZTB5SWZ4UmsxSGZ0ZE5wWlVyS0pHOFJlTFVlZ2hEQmFxWlNaVTRMWlBhSURJc1pHR1ZIMDNWbElvY1ZWTk9WcTdYX1E0SVEyeGo2b1RXVzF1WHNYVzVvN19nU0Y1UF9nTkt4TnoyeVBpMXN4RGxuWHJZazBHcVBzTw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcGxKdGFLTExzUWVJZ1RMRlUwWXR3QzVXa1o1WnI4ZUtlV3VvaGFyUW9lNEVZODdSb3V5Qk5wWEVOcU1OYjdSYjAzbWR6cTR4b3NVRHQwV1FJZXlmTk5TYlZnSDRTWXFiQmVUemNkMVA1dzdkM1kzY1h5X0k0dUQ2cUYxNWtnRnBrTF9JTUtpQW1STF9EbVNGa3EzVzVpeXRVUF8yN3Z1M0trdmJHSU9EWnEwRG83Qkt3dkQ2a2p0MkZUX3ZzMl9HeFhVQnQ0Z2tza0tnRW9uQmszNnFB?oc=5",
           "publishedAt": "2026-11-17T10:57:53+00:00"
         },
         {
@@ -153,26 +174,14 @@
         {
           "name": "ABP Live English",
           "title": "Stock Markets End Higher As Sensex Rises Over 427 Points, Nifty Tests 25,387 - ABP Live English",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSVdnN0FLR2pobFBwNWhJWnlZRjY0TDJvVkhPUjZJVHBIa2QySUctXzVial92ZFk0N2JMN2FoRnlDTHRiZElMNzZibEVlZjZxcHRwbm1PTkhQbkVZeDVEdWVCeC1POEhjRlFHU1JOWU0tMHF5a0k2bE52eUVQTWlzMEV4YmVvWmhlemc2UW9HZVNGbFNiSFktRFZQdW9Ed0I4V1h6SG03ZGNuN01uMThpT1l4ZVNrR3ZKc0HSAb8BQVVfeXFMUDVsdWtoN2NWYkZZYWpQdk5sY2lnU09ISlAydzJ5c3RtOXN5b1FlX1pfU1lMY3JtSURlcDF2R1ljZTAzQks3RUdlX2w2RTVBUXEzS3pBUTQzSFlEakZSN0RVSWt3dmtaWTZfOUNDVV9aN2NDRjh6czNwREpMMDRSV3ctcWpid0VWNzlaWE1nVmtWaURjNVRlSTVnTjBzcVpyWllMYUlWMFhWekRYbmI0RjFGU3Q1ck40c2k1WFhkNlU?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNWx1a2g3Y1ZiRllhalB2TmxjaWdTT0hKUDJ3MnlzdG05c3lvUWVfWl9TWUxjcm1JRGVwMXZHWWNlMDNCSzdFR2VfbDZFNUFRcTNLekFRNDNIWURqRlI3RFVJa3d2a1pZNl85Q0NVX1o3Y0NGOHpzM3BESkwwNFJXdy1xamJ3RVY3OVpYTWdWa1ZpRGM1VGVJNWdOMHNxWnJaWUxhSVYwWFZ6RFhuYjRGMUZTdDVyTjRzaTVYWGQ2VdIBvwFBVV95cUxQNWx1a2g3Y1ZiRllhalB2TmxjaWdTT0hKUDJ3MnlzdG05c3lvUWVfWl9TWUxjcm1JRGVwMXZHWWNlMDNCSzdFR2VfbDZFNUFRcTNLekFRNDNIWURqRlI3RFVJa3d2a1pZNl85Q0NVX1o3Y0NGOHpzM3BESkwwNFJXdy1xamJ3RVY3OVpYTWdWa1ZpRGM1VGVJNWdOMHNxWnJaWUxhSVYwWFZ6RFhuYjRGMUZTdDVyTjRzaTVYWGQ2VQ?oc=5",
           "publishedAt": "2026-11-17T10:04:38+00:00"
         },
         {
-          "name": "Dainik Jagran MP CG",
-          "title": "Stock Market Today: Sensex, Nifty Rise on Foreign Fund Buying and Lower Crude - Dainik Jagran MP CG",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2Z5MU1QcnFNeUdFeXY0MHlIb0U2Z2tNMTlMSUFJOWZ3VmJRdzY1aTVIVTZLTDgyR1dINVlkU1dlYmlQUWItU3RKMGJGbUlaMWNfa1BsNnBXbTloaUU1WVhIU0I2aFNCaTRLV3BENzY4eXFGN2tyYUZyQnYyYm9qdUhZbUkxUmRqM1o4QTBYNUpQT3lRNXlEYjJqUWNBbjg3LVJ2RWxpTEFRamVXRHo0UGRneUtRZw?oc=5",
-          "publishedAt": "2026-11-17T07:18:09+00:00"
-        },
-        {
-          "name": "Analytics Insight",
-          "title": "Stock Market Update: Nifty 50 Opens 13.8 Points Lower, Sensex Rises 45.83 Points Amid Weak Global Cues - Analytics Insight",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWXJIWTFUaXhmcVcyMTBzNk5Xa0VZTHRqNnpMczR1YU9JcjNQNFpramQ4RTR5ejRwa09FZ2YxRkFOYVhRdXZFbUtCNHdOSklkREstRG4xUklEZzg3Zy1Ea18ySmpnSl9ZRG9HcnI3dmlURzJJNHMtYWM1MkE5NE9xT1FiNnpxMmd3LXdRaDZ2WXp0OEwxVGhZOFhNUml3LVVaZ1RySjF1bFNSLTVERHA2QXVvTGYtaXJ6TG5YZ3hTTFk2SHp4TS1Ed3gxOHljV0ZkYWFRM9IB4gFBVV95cUxOSnlsTHZYYmRYNHZkaERkYW9tUTJxSVZaeGVBVy0yVENnYm1EdUZmUTJNQU0zM19LTVlYOVFRSmlUNExPeHV1MDcyczRvZXhxak0wN0t6YWRLSWhWU1NrdXJnR0pkbERmY0I5WTNqdExNUlFYTHNZSWdNME44RGkyeGtvSDBqX0ZKZkVyUHNJSHJKX24wd1AwcUwydEpyWmRiUUdXU0dKXy1PYjBhOFJZcUhkaTRuYjRGOEYwSWJoOVlKVWNPcy1EaDF5Zmo2UGl6VE1feVhwM1ZiWUFzQlJZc1B3?oc=5",
-          "publishedAt": "2026-11-17T05:08:49+00:00"
-        },
-        {
-          "name": "NDTV Profit",
-          "title": "Stock Market Today: Sensex Zooms 800 Points, Nifty Ends Near 25,400; Asian Paints Extends Gains - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPSW1PY1V3S1hTcGZLbV9ZRFZlUGE0d0JSb0JBQnNZVWVSVnZIenpZSms2V0JNUTBjREtwRVh2NUJZUm1YTnNLaVhIdWFDMEUwM2hqWjBTVlhkakVvcHJDVXEtLUM1M0Q2azhCSlRYWHpHUEFjcWlycTJkRDRQWWgxZzBwdVVRNU43a0VVbExQUHRaOTJlcHQxczE4OVRhdUVHWlFzWHhURTJuSTIwZTZTb2NZTGpYWkZmYWNxR2xZZk1aRHdzT0k0a1V4Q3hkUGVSM0tUVmp5cGJwaE5tVTRmclk1ZVhuaWg2eDBQVGJOd1pVcThNU2NtcXVvWDdaZDFQYU5VMmJheUFwczFNMWkyNXJNS0FYMWPSAZ8CQVVfeXFMTzBBbEU3dnNsQjRDT09PbWhoTVdreWM1RHdoLXBiUkhRWE10M19Wa2NRRWNPZjlqTFJnM2ZobU1URzBudDI2d0FmZlk1d3dXR1p2b1RRMnNfdjVBVVZLQlFlT1MzUV96TFFMbTFYcUwwR1RkREcxbFFLSDI4Z0haU2tyUC1rS1U2OW15dFNja2tfMzUyZWViNmZvb2hkOEhMWE9qZjVQcVFCMURreDZFdVROc1dnX1pxZjIxblVLRngwZE9BOVZrbUNObUs4M2xMTFViRW52YU1VbDJ6TS05cmZzNUhWRU02Y1ljZnp4OWd0S2ZReThBMUo0ek9XYmZXSVl0dERCRXhhSEVOR1lxYm1FMk5aNjUwSFJFOFVRbzg?oc=5",
-          "publishedAt": "2026-11-17T10:20:33+00:00"
+          "name": "Zee Business",
+          "title": "Sensex, Nifty50 extend gains to 3rd day in a row; Nifty Bank scales record closing high - Zee Business",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTmwzN2pRZjVmcXd6alk0cDlNajIwcGFBTmJCZWJmSW5wYlk4S0QxNXo0Sk5MNUJYLVp5eDVRRkFMNDZIY0NaZmh0cTA3SXo3Um50ZHlIN0JOQ0xGaDJnX2JZakh4VWF5YnRfVnFVVjVZRlBoWEFPY1lfRTJsblVucVBIMVdZeHZ6U0ttc24zLXFUWVAxenY4VHMtUFp6bHJkb3l6aGdmYVBETC1oWm01TnFZcFpWYTNWZnRXU2pR?oc=5",
+          "publishedAt": "2026-11-17T10:04:31+00:00"
         }
       ],
       "evidenceCount": 7
