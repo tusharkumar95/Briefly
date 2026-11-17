@@ -3,260 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-13T22:40:21.488865+00:00",
-      "changeSummary": {
-        "new": 6,
-        "updated": 0,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "36469d71bbd2b4",
-          "cat": "AI",
-          "title": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
-          "summary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-13T18:40:30+00:00",
-          "firstSeen": "2026-11-13T18:40:30+00:00",
-          "importanceScore": 14.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
-        },
-        {
-          "id": "b1068451715230",
-          "cat": "India",
-          "title": "US pledges lower tariffs for India in pending trade deal",
-          "summary": "The United States told India it will apply tariffs lower than those imposed on other trading partners under the proposed agreement. The first phase will cover goods, with services to be negotiated later. The negotiations have been ongoing for nearly two years and are reported to be close to finalisation with most key issues resolved.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-13T13:47:53+00:00",
-          "firstSeen": "2026-11-13T13:47:53+00:00",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
-        },
-        {
-          "id": "2554de1631aa85",
-          "cat": "Indian Markets",
-          "title": "India 10‑year bond yield recovers half of prior week’s drop",
-          "summary": "The yield on India’s 10‑year government bond rose, wiping out roughly half of the decline recorded the week before, as the market responded to still‑elevated inflation. The headline linked the move to inflation concerns, and no specific yield level or percentage change was provided in the source. This represents a partial reversal of the earlier fall.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-11-13T12:51:07+00:00",
-          "firstSeen": "2026-11-13T12:51:07+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms"
-        },
-        {
-          "id": "f0f8c16eb80e70",
-          "cat": "Indian Markets",
-          "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
-          "summary": "Razorpay Software Ltd and Sembcorp Green Infra recently received approval from Sebi for their initial public offerings, marking a major milestone in their growth journeys. Razorpay aims to secure Rs 5,000-6,000 crore to enhance its financial services platform, while Sembcorp Green Infra plans to raise Rs 3,750 crore to bolster its renewable energy initiatives.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-13T12:24:01+00:00",
-          "firstSeen": "2026-11-13T12:24:01+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms"
-        },
-        {
-          "id": "6e8facfd09ae10",
-          "cat": "World",
-          "title": "Pro-government forces control Mekelle amid civilian hardship",
-          "summary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
-          "why": "It shows how quickly the conflict has disrupted civilian livelihoods and created urgent humanitarian concerns.",
-          "publishedAt": "2026-11-13T00:20:24+00:00",
-          "firstSeen": "2026-11-13T00:20:24+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "19bf025da197e5",
-          "cat": "India",
-          "title": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
-          "summary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-13T03:35:34+00:00",
-          "firstSeen": "2026-11-13T03:35:34+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
-        },
-        {
-          "id": "f50da2e22de5af",
-          "cat": "AI",
-          "title": "Democrats open inquiry into Trump-era Nvidia chip export approvals",
-          "summary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-12T22:42:51+00:00",
-          "firstSeen": "2026-11-12T22:42:51+00:00",
-          "importanceScore": 8.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-14T03:19:08.560446+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 2,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "8b7ae855cfbd18",
-          "cat": "India",
-          "title": "India food inflation expected to stay high as RBI plans 25 bps rate hike",
-          "summary": "Food inflation in India is projected to remain elevated in the coming months due to a shortfall in crops. The Reserve Bank of India is anticipated to raise interest rates by 25 basis points in December to manage retail inflation. Weak monsoon conditions and high energy prices are contributing to upward price pressure on essential food items.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-13T04:36:54+00:00",
-          "firstSeen": "2026-11-13T04:36:54+00:00",
-          "importanceScore": 14.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms"
-        },
-        {
-          "id": "36469d71bbd2b4",
-          "cat": "AI",
-          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-          "summary": "The leading open-weight models developed by Chinese companies were trained on Nvidia chips that the U.S. Nvidia CEO Jensen Huang left the company this week after admitting to his affair with Alice Huang, executive of Megaspeed, a company implicated in smuggling Nvidia chips into China.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-13T18:40:30+00:00",
-          "firstSeen": "2026-11-13T18:40:30+00:00",
-          "importanceScore": 13.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
-        },
-        {
-          "id": "1c93a37e7bc599",
-          "cat": "Indian Markets",
-          "title": "India bonds under pressure before debt supply; hot inflation prints pinch further",
-          "summary": "Indian government bonds experienced significant selling pressure ahead of a major auction for the benchmark paper. The yield on the 6.94% 2036 bond rose notably due to rising inflation in both India and the United States.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-11-13T04:46:04+00:00",
-          "firstSeen": "2026-11-13T04:46:04+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-under-pressure-before-debt-supply-hot-inflation-prints-pinch-further/articleshow/135789760.cms"
-        },
-        {
-          "id": "b1068451715230",
-          "cat": "India",
-          "title": "US assures India lower tariffs than peers in trade deal",
-          "summary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates that are lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods, while tariff arrangements for services will be negotiated in a later phase.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-13T13:47:53+00:00",
-          "firstSeen": "2026-11-13T13:47:53+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
-        },
-        {
-          "id": "4520ef3c096477",
-          "cat": "Indian Markets",
-          "title": "Carlsberg said to start road show for $600 million India IPO",
-          "summary": "Carlsberg is preparing a potential $600 million IPO of its Indian business, targeting a $4 billion valuation. Strong IPO demand in India supports the listing outlook, with Carlsberg India reporting robust revenue.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-13T05:15:15+00:00",
-          "firstSeen": "2026-11-13T05:15:15+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-said-to-start-road-show-for-600-million-india-ipo/articleshow/135790402.cms"
-        },
-        {
-          "id": "19bf025da197e5",
-          "cat": "India",
-          "title": "Report says uneven monsoons and El Nino raise upside inflation risks, could trigger RBI rate hike",
-          "summary": "A report warned that uneven monsoon rainfall across India and the emergence of an El Nino pattern create upside risks to consumer‑price inflation. It noted that these risks could increase the likelihood of the Reserve Bank of India implementing another interest‑rate hike to contain price pressures.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-13T03:35:34+00:00",
-          "firstSeen": "2026-11-13T03:35:34+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-14T11:31:08.308508+00:00",
       "changeSummary": {
         "new": 2,
@@ -1047,6 +793,160 @@
           "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-volatility-ebbs-as-equity-inflows-blunt-global-headwinds/articleshow/135883543.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-17T04:31:06.391960+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 3,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "fdca1312f452f7",
+          "cat": "Canada",
+          "title": "Bank of Canada expected to keep rates unchanged in December after flat October inflation",
+          "summary": "Statistics Canada reported that Canada’s consumer price index was unchanged year‑over‑year in October at 3.1%, matching September’s rate, while core inflation excluding energy fell to 2.0% from 2.1% the month before. Gas prices surged, rising 30.9% compared with September. Economists said the flat CPI reading makes a December policy‑rate hold more likely.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-16T13:43:51+00:00",
+          "firstSeen": "2026-11-16T13:43:51+00:00",
+          "importanceScore": 16.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/cpi-inflation-october-9.7423293?cmp=rss"
+        },
+        {
+          "id": "2ec395835c443a",
+          "cat": "Indian Markets",
+          "title": "Indian shares rise on Tuesday on foreign inflows and earnings",
+          "summary": "Indian equities traded higher on Tuesday, extending the rally in the Sensex and Nifty as record foreign inflows and resilient corporate earnings supported the market. Auto, PSU bank and other bank stocks led gains, while FMCG, pharma, financial services and metal stocks also advanced. Senco Gold surged over 8% after reporting its highest‑ever festive‑season retail sales of more than Rs 2,426 crore.",
+          "why": "The rally shows broad investor confidence in India’s market fundamentals.",
+          "publishedAt": "2026-11-17T01:49:19+00:00",
+          "firstSeen": "2026-11-17T01:49:19+00:00",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-adani-enterprises-bse-share-price-17-november-2026/liveblog/135907345.cms"
+        },
+        {
+          "id": "c981023a244cbd",
+          "cat": "Canada",
+          "title": "Bank of Canada Governor Tiff Macklem to Leave Office in 2027",
+          "summary": "Bank of Canada Governor Tiff Macklem announced he will not seek a second term, so his seven‑year tenure will end on June 2, 2027. The central bank confirmed the decision on Monday and said it has begun a search for his successor, aiming to complete the appointment by the spring of 2027. The announcement initiates a leadership transition at Canada’s monetary authority.",
+          "why": "A new governor will shape future monetary‑policy decisions, affecting inflation and financial‑market conditions.",
+          "publishedAt": "2026-11-16T15:44:46+00:00",
+          "firstSeen": "2026-11-16T15:44:46+00:00",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/tiff-macklem-step-down-9.7423501?cmp=rss"
+        },
+        {
+          "id": "d29a7a88ce4720",
+          "cat": "India",
+          "title": "India’s unemployment rate eases to 4.9% in October",
+          "summary": "India’s unemployment rate for those aged 15 and above declined to 4.9% in October from 5% in September, government data showed, below the 5.1% forecast in a Reuters poll. Sign In What's Included Exclusive Stories Daily ePaper Access Smart Market Tools Curated Investment Ideas Ad-lite Experience Subscription Reuters",
+          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+          "publishedAt": "2026-11-16T10:52:48+00:00",
+          "firstSeen": "2026-11-16T10:52:48+00:00",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-eases-to-4-9-in-october/articleshow/135884988.cms"
+        },
+        {
+          "id": "7f6e9e74c12747",
+          "cat": "Indian Markets",
+          "title": "Yes Bank among 4 stocks showing RSI Trending Up",
+          "summary": "An uptrend signal occurs when the RSI value crosses above 50 from below. “RSI trending up” means that the Relative Strength Index (RSI) values are increasing, indicating strengthening momentum in the stock's price.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-17T03:40:39+00:00",
+          "firstSeen": "2026-11-17T03:40:39+00:00",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-among-4-stocks-showing-rsi-trending-up/slideshow/135909214.cms"
+        },
+        {
+          "id": "216d349ce631be",
+          "cat": "AI",
+          "title": "OpenAI adds CSAM image classifier and ChatGPT warnings",
+          "summary": "OpenAI announced a new image classifier that detects child sexual abuse material, including AI‑generated images, and is being made available through its API to selected companies at no charge. In early testing the classifier reduced the number of flagged images by 48% while still identifying the same amount of abusive content, and images it flags are twice as likely to be abusive. ChatGPT will now show warning screens for prompts that sexualize children, provide support resources, and temporarily suspend accounts for 24 hours on a first offense.",
+          "why": "The tools are intended to limit the distribution of illegal CSAM and reduce reviewer workload.",
+          "publishedAt": "2026-11-16T17:22:53+00:00",
+          "firstSeen": "2026-11-16T17:22:53+00:00",
+          "importanceScore": 12.4,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/"
+        },
+        {
+          "id": "e0f4d5ce236af2",
+          "cat": "Indian Markets",
+          "title": "BPCL Share Price Live Updates: BPCL Breaks Above 100-Day Simple Moving Average",
+          "summary": "Explore the latest details on BPCL, including: Last traded price 308.45, Market capitalization: 133105.35, Volume: 908019, Price-to-earnings ratio 8.42, Earnings per share 36.43. Stay ahead of the market with our in-depth coverage of Cipla, including: Last traded price 1395.0, Market capitalization: 112657.56, Volume: 33512, Price-to-earnings ratio 38.89, Earnings per share 35.86.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-17T03:25:05+00:00",
+          "firstSeen": "2026-11-17T03:25:05+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-stock-price-live-updates-17-nov-2026/liveblog/135908920.cms"
+        },
+        {
+          "id": "a3c0ec3e785f71",
+          "cat": "AI",
+          "title": "US to require licenses for AI chip and server exports to any data centre that could serve restricted countries",
+          "summary": "The U.S. Commerce Department is preparing an interim rule that will require companies to obtain licenses before exporting, re‑exporting, or transferring AI chips and server hardware to data centres anywhere in the world if the equipment could provide compute to entities in China or other nations on the D:5 embargo list. The rule extends existing controls that already mandate licenses for direct shipments of AI chips to those countries, targeting remote‑access pathways.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-16T15:02:34+00:00",
+          "firstSeen": "2026-11-16T15:02:34+00:00",
+          "importanceScore": 10.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+        }
+      ]
     }
   ],
   "events": {
@@ -1113,131 +1013,6 @@
       "latestSummary": "Around 23 stocks from the BSE 200 index advanced in all five consecutive sessions from November 8 to 13. Of these, we shortlisted 8 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 7% to 11%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms"
-    },
-    "da264ede5b95aa": {
-      "id": "da264ede5b95aa",
-      "firstSeen": "2026-11-09T22:46:09+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-10T01:34:45.542411+00:00",
-          "title": "Nvidia shares fall about 4% as company begins probe into CEO’s alleged spy‑linked affair",
-          "summary": "Nvidia’s stock slipped roughly 4% by the close of trade on Monday after the company announced an independent investigation into CEO Jensen Huang’s extramarital relationship with Alice Huang, who is alleged to have ties to Chinese intelligence. U.S. officials have suggested the affair could be part of a Chinese espionage effort, a claim that China’s foreign ministry has called “entirely groundless, speculative and intended to smear and malign China.”",
-          "importanceScore": 16.0,
-          "sourceCount": 2,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-10T01:34:45.542411+00:00",
-      "cat": "World",
-      "latestTitle": "Nvidia shares fall about 4% as company begins probe into CEO’s alleged spy‑linked affair",
-      "latestSummary": "Nvidia’s stock slipped roughly 4% by the close of trade on Monday after the company announced an independent investigation into CEO Jensen Huang’s extramarital relationship with Alice Huang, who is alleged to have ties to Chinese intelligence. U.S. officials have suggested the affair could be part of a Chinese espionage effort, a claim that China’s foreign ministry has called “entirely groundless, speculative and intended to smear and malign China.”",
-      "why": "The investigation creates governance and national‑security concerns that may affect investor confidence and the company’s valuation.",
-      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
-    },
-    "f3bad94c4b5b78": {
-      "id": "f3bad94c4b5b78",
-      "firstSeen": "2026-11-09T22:19:52+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-10T01:34:45.542411+00:00",
-          "title": "Canada extends tariff relief program beyond U.S. steel imports",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu A truck waits to cross at the United States and Canada border in Surrey B.C., on Tuesday, March 4, 2025.",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-10T01:34:45.542411+00:00",
-      "cat": "Canada",
-      "latestTitle": "Canada extends tariff relief program beyond U.S. steel imports",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu A truck waits to cross at the United States and Canada border in Surrey B.C., on Tuesday, March 4, 2025.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://globalnews.ca/news/12143554/canada-tariff-relief-steel-imports-other-goods/"
-    },
-    "efea87d193224f": {
-      "id": "efea87d193224f",
-      "firstSeen": "2026-11-10T00:04:43+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-10T01:34:45.542411+00:00",
-          "title": "What Winnipeg can learn from Toronto’s housing model",
-          "summary": "A new mental health and addictions hospital and 2,000 housing units will be built in Winnipeg replicating a housing project based in Toronto that saw a decrease in ER visits and millions of savings. Dunn House, the housing project in Toronto that Winnipeg will , reported a 52 per cent reduction in emergency room visits and more than $2 million of savings, according to the budget.",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-10T01:34:45.542411+00:00",
-      "cat": "Canada",
-      "latestTitle": "What Winnipeg can learn from Toronto’s housing model",
-      "latestSummary": "A new mental health and addictions hospital and 2,000 housing units will be built in Winnipeg replicating a housing project based in Toronto that saw a decrease in ER visits and millions of savings. Dunn House, the housing project in Toronto that Winnipeg will , reported a 52 per cent reduction in emergency room visits and more than $2 million of savings, according to the budget.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://globalnews.ca/news/12143498/what-winnipeg-can-learn-from-torontos-housing-model/"
-    },
-    "753d807ee25f83": {
-      "id": "753d807ee25f83",
-      "firstSeen": "2026-11-10T00:45:50+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-10T01:34:45.542411+00:00",
-          "title": "Global Market Today: Asian stocks rally after US tech surge, oil slump",
-          "summary": "South Korea’s Kospi Index jumped more than 5% in early trading while Japan’s Nikkei 225 rose nearly 3%. A broader gauge of Asian shares advanced 1.5% while futures for US benchmarks edged higher.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-10T01:34:45.542411+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Global Market Today: Asian stocks rally after US tech surge, oil slump",
-      "latestSummary": "South Korea’s Kospi Index jumped more than 5% in early trading while Japan’s Nikkei 225 rose nearly 3%. A broader gauge of Asian shares advanced 1.5% while futures for US benchmarks edged higher.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rally-after-us-tech-surge-oil-slump/articleshow/135696042.cms"
-    },
-    "9144d832be8822": {
-      "id": "9144d832be8822",
-      "firstSeen": "2026-11-09T11:14:30+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-10T01:34:45.542411+00:00",
-          "title": "India's investment outlook strengthens as credit, exports rebound; inflation relief likely: HSBC",
-          "summary": "India's investment outlook is improving as credit growth and corporate revenue increase, pointing towards stronger private capital spending. The report from HSBC highlights that funds to the commercial sector have risen significantly compared to previous years.",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-10T01:34:45.542411+00:00",
-      "cat": "India",
-      "latestTitle": "India's investment outlook strengthens as credit, exports rebound; inflation relief likely: HSBC",
-      "latestSummary": "India's investment outlook is improving as credit growth and corporate revenue increase, pointing towards stronger private capital spending. The report from HSBC highlights that funds to the commercial sector have risen significantly compared to previous years.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-investment-outlook-strengthens-as-credit-exports-rebound-inflation-relief-likely-hsbc/articleshow/135680029.cms"
     },
     "8c159cb181d89f": {
       "id": "8c159cb181d89f",
@@ -3303,13 +3078,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-17T04:31:06.391960+00:00",
+          "title": "India’s unemployment rate eases to 4.9% in October",
+          "summary": "India’s unemployment rate for those aged 15 and above declined to 4.9% in October from 5% in September, government data showed, below the 5.1% forecast in a Reuters poll. Sign In What's Included Exclusive Stories Daily ePaper Access Smart Market Tools Curated Investment Ideas Ad-lite Experience Subscription Reuters",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-16T11:26:29.746420+00:00",
+      "lastSeen": "2026-11-17T04:31:06.391960+00:00",
       "cat": "India",
       "latestTitle": "India’s unemployment rate eases to 4.9% in October",
-      "latestSummary": "Government data released on Monday show that the unemployment rate for people aged 15 and above fell to 4.9% in October, down from 5.0% in September and below the 5.1% forecast in a Reuters poll. The figures represent a 0.1‑percentage‑point decline from the previous month.",
-      "why": "The modest decline may ease labour‑market pressure, informing policymakers and investors about the health of the Indian economy.",
+      "latestSummary": "India’s unemployment rate for those aged 15 and above declined to 4.9% in October from 5% in September, government data showed, below the 5.1% forecast in a Reuters poll. Sign In What's Included Exclusive Stories Daily ePaper Access Smart Market Tools Curated Investment Ideas Ad-lite Experience Subscription Reuters",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-eases-to-4-9-in-october/articleshow/135884988.cms"
     },
     "fdca1312f452f7": {
@@ -3328,12 +3116,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-17T04:31:06.391960+00:00",
+          "title": "Bank of Canada expected to keep rates unchanged in December after flat October inflation",
+          "summary": "Statistics Canada reported that Canada’s consumer price index was unchanged year‑over‑year in October at 3.1%, matching September’s rate, while core inflation excluding energy fell to 2.0% from 2.1% the month before. Gas prices surged, rising 30.9% compared with September. Economists said the flat CPI reading makes a December policy‑rate hold more likely.",
+          "importanceScore": 16.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-16T22:07:55.556791+00:00",
+      "lastSeen": "2026-11-17T04:31:06.391960+00:00",
       "cat": "Canada",
-      "latestTitle": "Bank of Canada likely to hold policy rate steady in December after flat October CPI",
-      "latestSummary": "Statistics Canada reported that the consumer price index for October rose 3.1 % year‑over‑year, unchanged from September and driven mainly by high energy prices. Economists cited the data as indicating that inflation is not spreading beyond energy costs and said it raises the likelihood that the Bank of Canada will keep its benchmark interest rate unchanged at its December 9 meeting. The central bank had raised the policy rate in October, its first hike since July 2023.",
+      "latestTitle": "Bank of Canada expected to keep rates unchanged in December after flat October inflation",
+      "latestSummary": "Statistics Canada reported that Canada’s consumer price index was unchanged year‑over‑year in October at 3.1%, matching September’s rate, while core inflation excluding energy fell to 2.0% from 2.1% the month before. Gas prices surged, rising 30.9% compared with September. Economists said the flat CPI reading makes a December policy‑rate hold more likely.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "url": "https://www.cbc.ca/news/business/cpi-inflation-october-9.7423293?cmp=rss"
     },
@@ -3378,13 +3179,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-17T04:31:06.391960+00:00",
+          "title": "Bank of Canada Governor Tiff Macklem to Leave Office in 2027",
+          "summary": "Bank of Canada Governor Tiff Macklem announced he will not seek a second term, so his seven‑year tenure will end on June 2, 2027. The central bank confirmed the decision on Monday and said it has begun a search for his successor, aiming to complete the appointment by the spring of 2027. The announcement initiates a leadership transition at Canada’s monetary authority.",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-16T22:07:55.556791+00:00",
+      "lastSeen": "2026-11-17T04:31:06.391960+00:00",
       "cat": "Canada",
-      "latestTitle": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
-      "latestSummary": "Bank of Canada Governor Tiff Macklem announced he will not seek a second term and will leave office when his seven‑year term ends on June 2, 2027. The central bank has started a search for his successor and aims to complete the appointment by the spring of 2027. Macklem, 65, said his tenure involved guiding Canada through a fragmented, shock‑prone world.",
-      "why": "A change in the Bank of Canada’s leadership can affect monetary‑policy direction and market expectations.",
+      "latestTitle": "Bank of Canada Governor Tiff Macklem to Leave Office in 2027",
+      "latestSummary": "Bank of Canada Governor Tiff Macklem announced he will not seek a second term, so his seven‑year tenure will end on June 2, 2027. The central bank confirmed the decision on Monday and said it has begun a search for his successor, aiming to complete the appointment by the spring of 2027. The announcement initiates a leadership transition at Canada’s monetary authority.",
+      "why": "A new governor will shape future monetary‑policy decisions, affecting inflation and financial‑market conditions.",
       "url": "https://www.cbc.ca/news/business/tiff-macklem-step-down-9.7423501?cmp=rss"
     },
     "c853bc0331877d": {
@@ -3453,13 +3267,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-17T04:31:06.391960+00:00",
+          "title": "OpenAI adds CSAM image classifier and ChatGPT warnings",
+          "summary": "OpenAI announced a new image classifier that detects child sexual abuse material, including AI‑generated images, and is being made available through its API to selected companies at no charge. In early testing the classifier reduced the number of flagged images by 48% while still identifying the same amount of abusive content, and images it flags are twice as likely to be abusive. ChatGPT will now show warning screens for prompts that sexualize children, provide support resources, and temporarily suspend accounts for 24 hours on a first offense.",
+          "importanceScore": 12.4,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-16T22:07:55.556791+00:00",
+      "lastSeen": "2026-11-17T04:31:06.391960+00:00",
       "cat": "AI",
       "latestTitle": "OpenAI adds CSAM image classifier and ChatGPT warnings",
-      "latestSummary": "OpenAI introduced an image classifier, built with the National Center for Missing & Exploited Children and offered free via API to select partners, that in early testing cut flagged images by 48% while maintaining detection of abusive content and made flagged images twice as likely to be truly abusive. ChatGPT now displays warning screens for prompts that sexualize children, provides support resources, and imposes a 24‑hour account suspension for violations, with repeated offenses potentially leading to permanent removal.",
-      "why": "The tools aim to reduce the spread of illegal child sexual content and protect users and reviewers from exposure.",
+      "latestSummary": "OpenAI announced a new image classifier that detects child sexual abuse material, including AI‑generated images, and is being made available through its API to selected companies at no charge. In early testing the classifier reduced the number of flagged images by 48% while still identifying the same amount of abusive content, and images it flags are twice as likely to be abusive. ChatGPT will now show warning screens for prompts that sexualize children, provide support resources, and temporarily suspend accounts for 24 hours on a first offense.",
+      "why": "The tools are intended to limit the distribution of illegal CSAM and reduce reviewer workload.",
       "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/"
     },
     "a723e49a9a8877": {
@@ -3503,12 +3330,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-17T04:31:06.391960+00:00",
+          "title": "US to require licenses for AI chip and server exports to any data centre that could serve restricted countries",
+          "summary": "The U.S. Commerce Department is preparing an interim rule that will require companies to obtain licenses before exporting, re‑exporting, or transferring AI chips and server hardware to data centres anywhere in the world if the equipment could provide compute to entities in China or other nations on the D:5 embargo list. The rule extends existing controls that already mandate licenses for direct shipments of AI chips to those countries, targeting remote‑access pathways.",
+          "importanceScore": 10.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-16T22:07:55.556791+00:00",
+      "lastSeen": "2026-11-17T04:31:06.391960+00:00",
       "cat": "AI",
-      "latestTitle": "U.S. prepares interim rule tightening AI chip export controls",
-      "latestSummary": "The U.S. Commerce Department announced an interim rule that will require licenses for any export, reexport, or transfer of AI chips and server hardware to data centers worldwide if the equipment could be used to provide compute to entities in China or other countries on the D:5 embargo list, which includes Russia, Iran, North Korea and 18 others. The rule expands existing controls that already mandate licenses for direct shipments of AI chips to those jurisdictions, aiming to block remote access to U.S. AI infrastructure.",
+      "latestTitle": "US to require licenses for AI chip and server exports to any data centre that could serve restricted countries",
+      "latestSummary": "The U.S. Commerce Department is preparing an interim rule that will require companies to obtain licenses before exporting, re‑exporting, or transferring AI chips and server hardware to data centres anywhere in the world if the equipment could provide compute to entities in China or other nations on the D:5 embargo list. The rule extends existing controls that already mandate licenses for direct shipments of AI chips to those countries, targeting remote‑access pathways.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
     },
@@ -3536,7 +3376,82 @@
       "latestSummary": "The Indian rupee closed 0.3% higher at 93.9225 per dollar, buoyed by foreign equity inflows of almost $10 billion in November that reversed recent outflows. Analysts said the inflows helped stabilize the currency amid expectations of possible U.S. interest‑rate hikes. The Nifty 50 index also rose 0.6%, supported by limited exposure to AI‑related trades.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-volatility-ebbs-as-equity-inflows-blunt-global-headwinds/articleshow/135883543.cms"
+    },
+    "2ec395835c443a": {
+      "id": "2ec395835c443a",
+      "firstSeen": "2026-11-17T01:49:19+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-17T04:31:06.391960+00:00",
+          "title": "Indian shares rise on Tuesday on foreign inflows and earnings",
+          "summary": "Indian equities traded higher on Tuesday, extending the rally in the Sensex and Nifty as record foreign inflows and resilient corporate earnings supported the market. Auto, PSU bank and other bank stocks led gains, while FMCG, pharma, financial services and metal stocks also advanced. Senco Gold surged over 8% after reporting its highest‑ever festive‑season retail sales of more than Rs 2,426 crore.",
+          "importanceScore": 13.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-17T04:31:06.391960+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Indian shares rise on Tuesday on foreign inflows and earnings",
+      "latestSummary": "Indian equities traded higher on Tuesday, extending the rally in the Sensex and Nifty as record foreign inflows and resilient corporate earnings supported the market. Auto, PSU bank and other bank stocks led gains, while FMCG, pharma, financial services and metal stocks also advanced. Senco Gold surged over 8% after reporting its highest‑ever festive‑season retail sales of more than Rs 2,426 crore.",
+      "why": "The rally shows broad investor confidence in India’s market fundamentals.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-adani-enterprises-bse-share-price-17-november-2026/liveblog/135907345.cms"
+    },
+    "7f6e9e74c12747": {
+      "id": "7f6e9e74c12747",
+      "firstSeen": "2026-11-17T03:40:39+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-17T04:31:06.391960+00:00",
+          "title": "Yes Bank among 4 stocks showing RSI Trending Up",
+          "summary": "An uptrend signal occurs when the RSI value crosses above 50 from below. “RSI trending up” means that the Relative Strength Index (RSI) values are increasing, indicating strengthening momentum in the stock's price.",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-17T04:31:06.391960+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Yes Bank among 4 stocks showing RSI Trending Up",
+      "latestSummary": "An uptrend signal occurs when the RSI value crosses above 50 from below. “RSI trending up” means that the Relative Strength Index (RSI) values are increasing, indicating strengthening momentum in the stock's price.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-among-4-stocks-showing-rsi-trending-up/slideshow/135909214.cms"
+    },
+    "e0f4d5ce236af2": {
+      "id": "e0f4d5ce236af2",
+      "firstSeen": "2026-11-17T03:25:05+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-17T04:31:06.391960+00:00",
+          "title": "BPCL Share Price Live Updates: BPCL Breaks Above 100-Day Simple Moving Average",
+          "summary": "Explore the latest details on BPCL, including: Last traded price 308.45, Market capitalization: 133105.35, Volume: 908019, Price-to-earnings ratio 8.42, Earnings per share 36.43. Stay ahead of the market with our in-depth coverage of Cipla, including: Last traded price 1395.0, Market capitalization: 112657.56, Volume: 33512, Price-to-earnings ratio 38.89, Earnings per share 35.86.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-17T04:31:06.391960+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "BPCL Share Price Live Updates: BPCL Breaks Above 100-Day Simple Moving Average",
+      "latestSummary": "Explore the latest details on BPCL, including: Last traded price 308.45, Market capitalization: 133105.35, Volume: 908019, Price-to-earnings ratio 8.42, Earnings per share 36.43. Stay ahead of the market with our in-depth coverage of Cipla, including: Last traded price 1395.0, Market capitalization: 112657.56, Volume: 33512, Price-to-earnings ratio 38.89, Earnings per share 35.86.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-stock-price-live-updates-17-nov-2026/liveblog/135908920.cms"
     }
   },
-  "updated": "2026-11-16T22:07:55.556791+00:00"
+  "updated": "2026-11-17T04:31:06.391960+00:00"
 }
