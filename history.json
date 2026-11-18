@@ -3,34 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-15T17:44:49.892660+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "d464f54f3dae7f",
-          "cat": "World",
-          "title": "Iran launches six‑drone attack on US radar base in Bahrain, intercepted",
-          "summary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
-          "why": "The attack raises regional tension and could further affect shipping through the strategically vital Strait of Hormuz.",
-          "publishedAt": "2026-11-15T13:42:58+00:00",
-          "firstSeen": "2026-11-15T13:42:58+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-11-15T22:51:29.991460+00:00",
       "changeSummary": {
         "new": 1,
@@ -1325,6 +1297,142 @@
           "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/"
         }
       ]
+    },
+    {
+      "at": "2026-11-18T21:58:55.467348+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 1,
+        "continuing": 2
+      },
+      "stories": [
+        {
+          "id": "e2bdf1f8e07609",
+          "cat": "World",
+          "title": "Ukrainian and Russian forces clash inside a Soviet gas pipeline in Kharkiv",
+          "summary": "For about seven months Ukrainian troops and Russian forces have been living and fighting inside an old Soviet gas pipeline in the Kharkiv region. The pipe is just over a metre in diameter, allowing only crawling, and it provides relative protection from the drones that now dominate the skies above the front line. The underground fighting has made forward advances difficult for both sides.",
+          "why": "It shows how both armies are moving combat underground to mitigate the impact of pervasive drone warfare.",
+          "publishedAt": "2026-11-18T17:00:40+00:00",
+          "firstSeen": "2026-11-18T17:00:40+00:00",
+          "importanceScore": 13.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "ae27dedb54f51b",
+          "cat": "World",
+          "title": "US Secretary of State Rubio says no evidence of coordinated tech outages",
+          "summary": "In a press briefing, Secretary of State Marco Rubio told reporters there is “zero evidence” that the recent week’s tech disruptions—including a major Microsoft outage, a glitch that grounded U.S. flights, and problems affecting banks, Apple and the NSA—are linked. He said the incidents are not inter‑related and emphasized that the United States is not under a systemic attack. Cyber‑security experts cited in the briefing also said no link has been found, attributing many issues to aging infrastructure updates.",
+          "why": "The clarification aims to reduce public anxiety and prevent misinterpretation of unrelated technical failures as a coordinated cyber threat.",
+          "publishedAt": "2026-11-18T04:57:06+00:00",
+          "firstSeen": "2026-11-18T04:57:06+00:00",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "d6260bfcfe1fdc",
+          "cat": "India",
+          "title": "Goldman Sachs projects RBI to raise policy rate by 75 bps in Q2 2027",
+          "summary": "Goldman Sachs forecasts that the Reserve Bank of India will increase its policy interest rate by 75 basis points in the second quarter of 2027. The bank expects headline inflation to stay above 6 % through early 2027 before easing, while GDP growth is projected to slow to about 7.2 % that year. It attributes the outlook to strong domestic demand and an emerging investment cycle that could keep economic activity robust.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-18T10:41:25+00:00",
+          "firstSeen": "2026-11-18T10:41:25+00:00",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms"
+        },
+        {
+          "id": "685d299633699c",
+          "cat": "Indian Markets",
+          "title": "Prestige Group buys 50 pc stake in Advent Convention and Hotels International for Rs 500 cr",
+          "summary": "Prestige Estates Projects Ltd has successfully acquired a 50% stake in Advent Convention and Hotels International for an estimated Rs 500 crore. The total project valuation is forecasted at approximately Rs 4,500 crore, marking a significant expansion for Prestige in the Mumbai real estate market.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-18T14:14:08+00:00",
+          "firstSeen": "2026-11-18T14:14:08+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/prestige-group-buys-50-pc-stake-in-advent-convention-and-hotels-international-for-rs-500-cr/articleshow/135965554.cms"
+        },
+        {
+          "id": "e8749a2fb3e67b",
+          "cat": "World",
+          "title": "Kuwait says it repelled Iranian drone attack on US‑hosted airbase",
+          "summary": "Kuwait condemned an overnight drone attack that Iran said targeted the Ali Al Salem airbase, which hosts U.S. forces. Kuwaiti authorities reported the drones were repelled and no damage occurred, marking the first Iranian strike on Kuwaiti territory in more than two months. The incident followed U.S. warplane strikes on an Iranian missile launch site on Qeshm Island in the Strait of Hormuz.",
+          "why": "It signals a further escalation in Iran‑U.S. tensions and raises regional security concerns.",
+          "publishedAt": "2026-11-18T13:04:48+00:00",
+          "firstSeen": "2026-11-18T13:04:48+00:00",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "f0a12a861f7785",
+          "cat": "India",
+          "title": "India on track to hit $1 trillion exports target in FY27, says commerce secretary",
+          "summary": "India’s exports rose 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a historic $863 billion in exports. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach a $1 trillion export target by FY 2026‑27, even as global trade uncertainties persist.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-18T15:07:27+00:00",
+          "firstSeen": "2026-11-18T15:07:27+00:00",
+          "importanceScore": 11.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms"
+        },
+        {
+          "id": "ba44a7d42cade5",
+          "cat": "India",
+          "title": "India, US near completion of trade deal talks, signing depends on US tariff rules and Section 301 resolution",
+          "summary": "Commerce Secretary Rajesh Agrawal said the legal texts of the India‑US trade deal are almost finalised, indicating negotiations are close to completion. The agreement can be signed only after the United States puts in place new tariff rules and resolves the ongoing Section 301 investigations. Both governments have expressed a desire to conclude the pact quickly to strengthen their economic partnership.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-18T12:20:32+00:00",
+          "firstSeen": "2026-11-18T12:20:32+00:00",
+          "importanceScore": 10.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1391,222 +1499,6 @@
       "latestSummary": "Around 23 stocks from the BSE 200 index advanced in all five consecutive sessions from November 8 to 13. Of these, we shortlisted 8 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 7% to 11%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms"
-    },
-    "e84674844299f5": {
-      "id": "e84674844299f5",
-      "firstSeen": "2026-11-10T15:54:08+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-10T17:52:46.865877+00:00",
-          "title": "Google unveils two new TPU chips for confidential inference and expanded memory",
-          "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units—TPU 8tx and TPU 8i Max—aimed at confidential AI workloads and larger memory capacity. TPU 8tx, designed with AMD, builds security into the hardware to keep data and model weights protected and adds a custom inferencing network that enables on‑the‑fly model distillation. TPU 8i Max combines two TPU 8i chips in a single package, doubling memory, processing power and bandwidth for handling larger query data sets.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-10T23:25:15.986188+00:00",
-          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-          "summary": "Google is notching up its chipmaking game as the company seeks to reduce its dependence on chips made by other companies for its cloud computing business. Google on Monday unveiled two new variants of its tensor processing units (TPUs), in-house-developed chips meant for AI workloads, that broaden its chip portfolio to additional use cases: confidential inference and more memory capacity for large workloads.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-11T06:28:48.202442+00:00",
-          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-          "summary": "Google is notching up its chipmaking game as the company seeks to reduce its dependence on chips made by other companies for its cloud computing business. Google on Monday unveiled two new variants of its tensor processing units (TPUs), in-house-developed chips meant for AI workloads, that broaden its chip portfolio to additional use cases: confidential inference and more memory capacity for large workloads.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-11T15:16:21.338237+00:00",
-          "title": "Google unveils TPU 8tx and TPU 8i Max chips",
-          "summary": "Google announced two new variants of its eighth‑generation Tensor Processing Units, the TPU 8tx and TPU 8i Max. The TPU 8tx, designed with AMD, adds hardware‑level security that keeps data and model weights protected during training and inference and includes a custom inference network that can distill and train small models on the fly, allowing work on proprietary data without moving it. The TPU 8i Max combines two TPU 8i chips into a single package, doubling memory capacity, compute power and bandwidth, enabling larger models to handle more information per query.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-11T15:16:21.338237+00:00",
-      "cat": "AI",
-      "latestTitle": "Google unveils TPU 8tx and TPU 8i Max chips",
-      "latestSummary": "Google announced two new variants of its eighth‑generation Tensor Processing Units, the TPU 8tx and TPU 8i Max. The TPU 8tx, designed with AMD, adds hardware‑level security that keeps data and model weights protected during training and inference and includes a custom inference network that can distill and train small models on the fly, allowing work on proprietary data without moving it. The TPU 8i Max combines two TPU 8i chips into a single package, doubling memory capacity, compute power and bandwidth, enabling larger models to handle more information per query.",
-      "why": "The chips let Google Cloud customers run sensitive AI workloads and larger models while reducing dependence on external chip suppliers.",
-      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
-    },
-    "ab08375d742201": {
-      "id": "ab08375d742201",
-      "firstSeen": "2026-11-10T17:05:33+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-10T17:52:46.865877+00:00",
-          "title": "India on track to hit $1 trillion export goal by FY27, says commerce minister",
-          "summary": "Commerce Minister Piyush Goyal said India is on track to reach its $1 trillion goods and services export target for fiscal year 2027, having recorded nearly $480 billion in exports between April and September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships to boost exports, investment and employment.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-10T23:25:15.986188+00:00",
-          "title": "India well on track to achieve $1 trillion exports target for FY27: Piyush Goyal",
-          "summary": "Commerce Minister Piyush Goyal said India is on track to achieve its $1 trillion goods and services export target in FY27, having already recorded nearly $480 billion in exports during April-September. Goyal urged manufacturers to expand globally, boost competitiveness and leverage international partnerships to drive exports, investment and employment.",
-          "importanceScore": 10.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-11T15:16:21.338237+00:00",
-          "title": "India on track to achieve $1 trillion export target by FY27, says commerce minister",
-          "summary": "Commerce Minister Piyush Goyal said India is on track to meet its $1 trillion goods and services export target for fiscal year 2027, after recording nearly $480 billion in exports from April to September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships.",
-          "importanceScore": 9.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-11T15:16:21.338237+00:00",
-      "cat": "India",
-      "latestTitle": "India on track to achieve $1 trillion export target by FY27, says commerce minister",
-      "latestSummary": "Commerce Minister Piyush Goyal said India is on track to meet its $1 trillion goods and services export target for fiscal year 2027, after recording nearly $480 billion in exports from April to September. He cited opportunities from free‑trade agreements, especially the proposed India‑EU pact, for the automobile and mobility sectors, and urged manufacturers to expand globally, improve competitiveness and use international partnerships.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-well-on-track-to-achieve-1-trillion-exports-target-for-fy27-piyush-goyal/articleshow/135717065.cms"
-    },
-    "eb019b66c6765a": {
-      "id": "eb019b66c6765a",
-      "firstSeen": "2026-11-10T20:52:13+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-10T23:25:15.986188+00:00",
-          "title": "New York launches registration portal for large AI developers under RAISE Act",
-          "summary": "New York opened a registration portal on Tuesday, requiring “large frontier” AI developers—companies with over $500 million in annual revenue such as Anthropic and OpenAI—to register by Jan 1 2027. The RAISE Act, effective at the start of the year, requires them to publish safety frameworks, report critical safety incidents within 72 hours, and issue model‑transparency reports. The new Office of Digital Innovation, Governance, Integrity, and Trust (DIGIT) will enforce the law, with penalties up to $1 million for a first violation and $3 million for later ones.",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-11T06:28:48.202442+00:00",
-          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-          "summary": "The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports.",
-          "importanceScore": 12.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-11T15:16:21.338237+00:00",
-          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-          "summary": "The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports.",
-          "importanceScore": 11.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-11T15:16:21.338237+00:00",
-      "cat": "AI",
-      "latestTitle": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "latestSummary": "The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
-    },
-    "658d020f87be68": {
-      "id": "658d020f87be68",
-      "firstSeen": "2026-11-11T12:51:21+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-11T15:16:21.338237+00:00",
-          "title": "Anthropic prepares IPO with potential $1.4 trillion valuation",
-          "summary": "Anthropic is preparing an initial public offering that could be among the largest ever, with a projected market valuation of about $1.4 trillion. The company cites strong demand for its Claude AI models, rapid revenue growth, and backing from major technology firms as the main drivers of the planned listing. The IPO is presented as a notable event for the global AI sector.",
-          "importanceScore": 14.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-11T15:16:21.338237+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Anthropic prepares IPO with potential $1.4 trillion valuation",
-      "latestSummary": "Anthropic is preparing an initial public offering that could be among the largest ever, with a projected market valuation of about $1.4 trillion. The company cites strong demand for its Claude AI models, rapid revenue growth, and backing from major technology firms as the main drivers of the planned listing. The IPO is presented as a notable event for the global AI sector.",
-      "why": "The offering could bring significant capital to the AI industry and influence investor sentiment in technology markets.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/anthropic-ipo-a-1-4-trillion-bet-on-the-future-of-ai/videoshow/135738282.cms"
-    },
-    "aac6712e55599f": {
-      "id": "aac6712e55599f",
-      "firstSeen": "2026-11-11T14:56:26+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-11T15:16:21.338237+00:00",
-          "title": "US stocks rise as CoreWeave earnings lift AI trade",
-          "summary": "Wall Street opened higher after CoreWeave reported robust earnings, with the Dow Jones up 27.13 points (0.05%), the S&P 500 up 73.02 points (0.97%) and the Nasdaq up 385.17 points (1.54%). The gains were seen as a counterbalance to concerns about rising AI spending.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-11T15:16:21.338237+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "US stocks rise as CoreWeave earnings lift AI trade",
-      "latestSummary": "Wall Street opened higher after CoreWeave reported robust earnings, with the Dow Jones up 27.13 points (0.05%), the S&P 500 up 73.02 points (0.97%) and the Nasdaq up 385.17 points (1.54%). The gains were seen as a counterbalance to concerns about rising AI spending.",
-      "why": "Positive AI‑related earnings helped improve market sentiment.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-coreweave-lifts-ai-trade/articleshow/135741336.cms"
     },
     "05ba6d4f0625e1": {
       "id": "05ba6d4f0625e1",
@@ -1734,56 +1626,6 @@
       "latestSummary": "Anthropic PBC’s initial public offering has attracted an overwhelming response, with investor demand potentially amounting to $90.4 billion. The company is projecting a market valuation of about $1.4 trillion and reported a revenue run‑rate of $81 billion as of 31 October. Goldman Sachs is acting as the lead manager for the offering.",
       "why": "The strong demand signals high investor confidence in Anthropic and could bring significant capital into the AI sector.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms"
-    },
-    "8bd6588949da94": {
-      "id": "8bd6588949da94",
-      "firstSeen": "2026-11-11T12:10:24+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-11T22:02:11.002786+00:00",
-          "title": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
-          "summary": "In the first nine months of 2026, a notable drop in land acquisition activities by Indian real estate firms has been observed. Anarock attributes this decline to developers adopting a cautious strategy, influenced by rising costs and emphasized selectivity in land purchases.",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-11T22:02:11.002786+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
-      "latestSummary": "In the first nine months of 2026, a notable drop in land acquisition activities by Indian real estate firms has been observed. Anarock attributes this decline to developers adopting a cautious strategy, influenced by rising costs and emphasized selectivity in land purchases.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firms-land-acquisition-falls-56-to-1445-acres-in-jan-sep-anarock/articleshow/135736891.cms"
-    },
-    "204dce4c26a0f4": {
-      "id": "204dce4c26a0f4",
-      "firstSeen": "2026-11-11T20:43:41+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-11T22:02:11.002786+00:00",
-          "title": "Vancouver Island war museum closing as visitors drop",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Canada Vancouver Island war museum closing as visitors drop — but staff not giving up hope",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-11T22:02:11.002786+00:00",
-      "cat": "Canada",
-      "latestTitle": "Vancouver Island war museum closing as visitors drop",
-      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Canada Vancouver Island war museum closing as visitors drop — but staff not giving up hope",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-      "url": "https://globalnews.ca/news/12146698/vancouver-island-hmcs-alberni-museum-memorial-closure/"
     },
     "fe4d19670ba3fa": {
       "id": "fe4d19670ba3fa",
@@ -4164,13 +4006,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-18T21:58:55.467348+00:00",
+          "title": "US Secretary of State Rubio says no evidence of coordinated tech outages",
+          "summary": "In a press briefing, Secretary of State Marco Rubio told reporters there is “zero evidence” that the recent week’s tech disruptions—including a major Microsoft outage, a glitch that grounded U.S. flights, and problems affecting banks, Apple and the NSA—are linked. He said the incidents are not inter‑related and emphasized that the United States is not under a systemic attack. Cyber‑security experts cited in the briefing also said no link has been found, attributing many issues to aging infrastructure updates.",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
+      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
       "cat": "World",
-      "latestTitle": "Rubio says US not under systemic attack after tech outages",
-      "latestSummary": "Marco Rubio told reporters there is “zero evidence” that the recent series of technology outages—including grounded flights, banking disruptions and problems with Apple and Microsoft services—are linked or part of a coordinated attack. He said the United States is not under a systemic attack and that each incident is unrelated. Cyber‑security experts also said no evidence ties the events together, noting many issues stem from updates to aging infrastructure.",
-      "why": "The comment is intended to reassure the public and guide policymakers by confirming the outages are not a coordinated cyber threat.",
+      "latestTitle": "US Secretary of State Rubio says no evidence of coordinated tech outages",
+      "latestSummary": "In a press briefing, Secretary of State Marco Rubio told reporters there is “zero evidence” that the recent week’s tech disruptions—including a major Microsoft outage, a glitch that grounded U.S. flights, and problems affecting banks, Apple and the NSA—are linked. He said the incidents are not inter‑related and emphasized that the United States is not under a systemic attack. Cyber‑security experts cited in the briefing also said no link has been found, attributing many issues to aging infrastructure updates.",
+      "why": "The clarification aims to reduce public anxiety and prevent misinterpretation of unrelated technical failures as a coordinated cyber threat.",
       "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
     },
     "a31abcff8e105e": {
@@ -4214,12 +4069,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-18T21:58:55.467348+00:00",
+          "title": "Goldman Sachs projects RBI to raise policy rate by 75 bps in Q2 2027",
+          "summary": "Goldman Sachs forecasts that the Reserve Bank of India will increase its policy interest rate by 75 basis points in the second quarter of 2027. The bank expects headline inflation to stay above 6 % through early 2027 before easing, while GDP growth is projected to slow to about 7.2 % that year. It attributes the outlook to strong domestic demand and an emerging investment cycle that could keep economic activity robust.",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
+      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
       "cat": "India",
-      "latestTitle": "RBI projected to raise policy rate by 75 bps by Q2 2027",
-      "latestSummary": "Analysts expect the Reserve Bank of India to increase its policy interest rate by 75 basis points in the second quarter of 2027. They also forecast headline inflation staying above 6 percent into early 2027 before easing, while GDP growth is projected to moderate to about 7.2 percent that year. Strong domestic demand and an emerging investment cycle are cited as supporting economic activity.",
+      "latestTitle": "Goldman Sachs projects RBI to raise policy rate by 75 bps in Q2 2027",
+      "latestSummary": "Goldman Sachs forecasts that the Reserve Bank of India will increase its policy interest rate by 75 basis points in the second quarter of 2027. The bank expects headline inflation to stay above 6 % through early 2027 before easing, while GDP growth is projected to slow to about 7.2 % that year. It attributes the outlook to strong domestic demand and an emerging investment cycle that could keep economic activity robust.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms"
     },
@@ -4339,15 +4207,128 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-18T21:58:55.467348+00:00",
+          "title": "India, US near completion of trade deal talks, signing depends on US tariff rules and Section 301 resolution",
+          "summary": "Commerce Secretary Rajesh Agrawal said the legal texts of the India‑US trade deal are almost finalised, indicating negotiations are close to completion. The agreement can be signed only after the United States puts in place new tariff rules and resolves the ongoing Section 301 investigations. Both governments have expressed a desire to conclude the pact quickly to strengthen their economic partnership.",
+          "importanceScore": 10.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
+      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
       "cat": "India",
-      "latestTitle": "India and US near completion of trade deal talks, signing pending",
-      "latestSummary": "Commerce Secretary Rajesh Agrawal said the legal texts for a bilateral trade agreement are almost finalized, indicating negotiations are close to completion. The signing depends on the United States establishing new tariff rules and resolving ongoing Section 301 investigations. Both governments want to conclude the deal quickly to deepen economic ties.",
+      "latestTitle": "India, US near completion of trade deal talks, signing depends on US tariff rules and Section 301 resolution",
+      "latestSummary": "Commerce Secretary Rajesh Agrawal said the legal texts of the India‑US trade deal are almost finalised, indicating negotiations are close to completion. The agreement can be signed only after the United States puts in place new tariff rules and resolves the ongoing Section 301 investigations. Both governments have expressed a desire to conclude the pact quickly to strengthen their economic partnership.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms"
+    },
+    "e2bdf1f8e07609": {
+      "id": "e2bdf1f8e07609",
+      "firstSeen": "2026-11-18T17:00:40+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-18T21:58:55.467348+00:00",
+          "title": "Ukrainian and Russian forces clash inside a Soviet gas pipeline in Kharkiv",
+          "summary": "For about seven months Ukrainian troops and Russian forces have been living and fighting inside an old Soviet gas pipeline in the Kharkiv region. The pipe is just over a metre in diameter, allowing only crawling, and it provides relative protection from the drones that now dominate the skies above the front line. The underground fighting has made forward advances difficult for both sides.",
+          "importanceScore": 13.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
+      "cat": "World",
+      "latestTitle": "Ukrainian and Russian forces clash inside a Soviet gas pipeline in Kharkiv",
+      "latestSummary": "For about seven months Ukrainian troops and Russian forces have been living and fighting inside an old Soviet gas pipeline in the Kharkiv region. The pipe is just over a metre in diameter, allowing only crawling, and it provides relative protection from the drones that now dominate the skies above the front line. The underground fighting has made forward advances difficult for both sides.",
+      "why": "It shows how both armies are moving combat underground to mitigate the impact of pervasive drone warfare.",
+      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
+    },
+    "685d299633699c": {
+      "id": "685d299633699c",
+      "firstSeen": "2026-11-18T14:14:08+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-18T21:58:55.467348+00:00",
+          "title": "Prestige Group buys 50 pc stake in Advent Convention and Hotels International for Rs 500 cr",
+          "summary": "Prestige Estates Projects Ltd has successfully acquired a 50% stake in Advent Convention and Hotels International for an estimated Rs 500 crore. The total project valuation is forecasted at approximately Rs 4,500 crore, marking a significant expansion for Prestige in the Mumbai real estate market.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Prestige Group buys 50 pc stake in Advent Convention and Hotels International for Rs 500 cr",
+      "latestSummary": "Prestige Estates Projects Ltd has successfully acquired a 50% stake in Advent Convention and Hotels International for an estimated Rs 500 crore. The total project valuation is forecasted at approximately Rs 4,500 crore, marking a significant expansion for Prestige in the Mumbai real estate market.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/prestige-group-buys-50-pc-stake-in-advent-convention-and-hotels-international-for-rs-500-cr/articleshow/135965554.cms"
+    },
+    "e8749a2fb3e67b": {
+      "id": "e8749a2fb3e67b",
+      "firstSeen": "2026-11-18T13:04:48+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-18T21:58:55.467348+00:00",
+          "title": "Kuwait says it repelled Iranian drone attack on US‑hosted airbase",
+          "summary": "Kuwait condemned an overnight drone attack that Iran said targeted the Ali Al Salem airbase, which hosts U.S. forces. Kuwaiti authorities reported the drones were repelled and no damage occurred, marking the first Iranian strike on Kuwaiti territory in more than two months. The incident followed U.S. warplane strikes on an Iranian missile launch site on Qeshm Island in the Strait of Hormuz.",
+          "importanceScore": 12.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
+      "cat": "World",
+      "latestTitle": "Kuwait says it repelled Iranian drone attack on US‑hosted airbase",
+      "latestSummary": "Kuwait condemned an overnight drone attack that Iran said targeted the Ali Al Salem airbase, which hosts U.S. forces. Kuwaiti authorities reported the drones were repelled and no damage occurred, marking the first Iranian strike on Kuwaiti territory in more than two months. The incident followed U.S. warplane strikes on an Iranian missile launch site on Qeshm Island in the Strait of Hormuz.",
+      "why": "It signals a further escalation in Iran‑U.S. tensions and raises regional security concerns.",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
+    },
+    "f0a12a861f7785": {
+      "id": "f0a12a861f7785",
+      "firstSeen": "2026-11-18T15:07:27+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-18T21:58:55.467348+00:00",
+          "title": "India on track to hit $1 trillion exports target in FY27, says commerce secretary",
+          "summary": "India’s exports rose 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a historic $863 billion in exports. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach a $1 trillion export target by FY 2026‑27, even as global trade uncertainties persist.",
+          "importanceScore": 11.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
+      "cat": "India",
+      "latestTitle": "India on track to hit $1 trillion exports target in FY27, says commerce secretary",
+      "latestSummary": "India’s exports rose 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a historic $863 billion in exports. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach a $1 trillion export target by FY 2026‑27, even as global trade uncertainties persist.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms"
     }
   },
-  "updated": "2026-11-18T14:03:29.343755+00:00"
+  "updated": "2026-11-18T21:58:55.467348+00:00"
 }

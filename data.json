@@ -1,22 +1,58 @@
 {
-  "updated": "2026-11-18T14:03:29.343755+00:00",
+  "updated": "2026-11-18T21:58:55.467348+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 23,
-    "enrichedCandidates": 80,
-    "readableCandidates": 52,
+    "nonNoiseCandidates": 79,
+    "officialOrPrimaryCandidates": 22,
+    "enrichedCandidates": 79,
+    "readableCandidates": 54,
     "eventClusters": 52,
-    "materialEvents": 24,
-    "selectedEvents": 10,
-    "seededStories": 10,
+    "materialEvents": 19,
+    "selectedEvents": 9,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "e2bdf1f8e07609",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Ukrainian and Russian forces clash inside a Soviet gas pipeline in Kharkiv",
+      "publishedAt": "2026-11-18T17:00:40+00:00",
+      "importanceScore": 13.3,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+      "summary": "For about seven months Ukrainian troops and Russian forces have been living and fighting inside an old Soviet gas pipeline in the Kharkiv region. The pipe is just over a metre in diameter, allowing only crawling, and it provides relative protection from the drones that now dominate the skies above the front line. The underground fighting has made forward advances difficult for both sides.",
+      "why": "It shows how both armies are moving combat underground to mitigate the impact of pervasive drone warfare.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-18T17:00:40+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-18T17:00:40+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-18T21:58:55.467348+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "ae27dedb54f51b",
       "cat": "World",
@@ -24,14 +60,14 @@
       "categories": [
         "World"
       ],
-      "title": "Rubio says US not under systemic attack after tech outages",
+      "title": "US Secretary of State Rubio says no evidence of coordinated tech outages",
       "publishedAt": "2026-11-18T04:57:06+00:00",
-      "importanceScore": 13.9,
+      "importanceScore": 12.9,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Marco Rubio told reporters there is “zero evidence” that the recent series of technology outages—including grounded flights, banking disruptions and problems with Apple and Microsoft services—are linked or part of a coordinated attack. He said the United States is not under a systemic attack and that each incident is unrelated. Cyber‑security experts also said no evidence ties the events together, noting many issues stem from updates to aging infrastructure.",
-      "why": "The comment is intended to reassure the public and guide policymakers by confirming the outages are not a coordinated cyber threat.",
+      "summary": "In a press briefing, Secretary of State Marco Rubio told reporters there is “zero evidence” that the recent week’s tech disruptions—including a major Microsoft outage, a glitch that grounded U.S. flights, and problems affecting banks, Apple and the NSA—are linked. He said the incidents are not inter‑related and emphasized that the United States is not under a systemic attack. Cyber‑security experts cited in the briefing also said no link has been found, attributing many issues to aging infrastructure updates.",
+      "why": "The clarification aims to reduce public anxiety and prevent misinterpretation of unrelated technical failures as a coordinated cyber threat.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -43,51 +79,20 @@
         }
       ],
       "firstSeen": "2026-11-18T04:57:06+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-18T21:58:55.467348+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a31abcff8e105e",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Anthropic IPO: Why Wall Street is betting big on Claude AI maker",
-      "publishedAt": "2026-11-18T06:12:00+00:00",
-      "importanceScore": 13.4,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-why-wall-street-is-betting-big-on-claude-ai-maker/slideshow/135951884.cms",
-      "summary": "Anthropic is preparing for one of the biggest stock market debuts in history, with the maker of Claude AI expected to command a valuation of around $1.4 trillion or higher. According to The Wall Street Journal, the company was most recently valued at $965 billion in private markets, setting the stage for a potentially significant valuation increase through its IPO.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-why-wall-street-is-betting-big-on-claude-ai-maker/slideshow/135951884.cms",
-          "publishedAt": "2026-11-18T06:12:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-18T06:12:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Rubio says US not under systemic attack after tech outages",
+      "previousSummary": "Marco Rubio told reporters there is “zero evidence” that the recent series of technology outages—including grounded flights, banking disruptions and problems with Apple and Microsoft services—are linked or part of a coordinated attack. He said the United States is not under a systemic attack and that each incident is unrelated. Cyber‑security experts also said no evidence ties the events together, noting many issues stem from updates to aging infrastructure.",
+      "previousPublishedAt": "2026-11-18T04:57:06+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.9,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "d6260bfcfe1fdc",
@@ -96,13 +101,13 @@
       "categories": [
         "India"
       ],
-      "title": "RBI projected to raise policy rate by 75 bps by Q2 2027",
+      "title": "Goldman Sachs projects RBI to raise policy rate by 75 bps in Q2 2027",
       "publishedAt": "2026-11-18T10:41:25+00:00",
-      "importanceScore": 12.7,
+      "importanceScore": 12.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms",
-      "summary": "Analysts expect the Reserve Bank of India to increase its policy interest rate by 75 basis points in the second quarter of 2027. They also forecast headline inflation staying above 6 percent into early 2027 before easing, while GDP growth is projected to moderate to about 7.2 percent that year. Strong domestic demand and an emerging investment cycle are cited as supporting economic activity.",
+      "summary": "Goldman Sachs forecasts that the Reserve Bank of India will increase its policy interest rate by 75 basis points in the second quarter of 2027. The bank expects headline inflation to stay above 6 % through early 2027 before easing, while GDP growth is projected to slow to about 7.2 % that year. It attributes the outlook to strong domestic demand and an emerging investment cycle that could keep economic activity robust.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -115,66 +120,35 @@
         }
       ],
       "firstSeen": "2026-11-18T10:41:25+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-18T21:58:55.467348+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "RBI projected to raise policy rate by 75 bps by Q2 2027",
+      "previousSummary": "Analysts expect the Reserve Bank of India to increase its policy interest rate by 75 basis points in the second quarter of 2027. They also forecast headline inflation staying above 6 percent into early 2027 before easing, while GDP growth is projected to moderate to about 7.2 percent that year. Strong domestic demand and an emerging investment cycle are cited as supporting economic activity.",
+      "previousPublishedAt": "2026-11-18T10:41:25+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.7,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "f3694d9c050b26",
+      "id": "685d299633699c",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Assetz Ltd receives SEBI approval for Rs 1,200 crore IPO",
-      "publishedAt": "2026-11-18T13:24:30+00:00",
-      "importanceScore": 12.3,
+      "title": "Prestige Group buys 50 pc stake in Advent Convention and Hotels International for Rs 500 cr",
+      "publishedAt": "2026-11-18T14:14:08+00:00",
+      "importanceScore": 12.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/real-estate-firm-assetz-gets-sebi-nod-to-float-rs-1200-cr-ipo/articleshow/135964641.cms",
-      "summary": "Assetz Ltd has obtained approval from the Securities and Exchange Board of India to proceed with an initial public offering, aiming to raise about Rs 1,200 crore. The company cites a large land bank and a robust project pipeline in Bengaluru, and notes backing from investors such as AGP Partners as it expands into additional markets.",
-      "why": "The clearance allows the firm to raise fresh capital, which could draw investor interest and impact the Indian real‑estate sector.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/real-estate-firm-assetz-gets-sebi-nod-to-float-rs-1200-cr-ipo/articleshow/135964641.cms",
-          "publishedAt": "2026-11-18T13:24:30+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-18T13:24:30+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "d9aa2d178a6672",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "PI Industries among 5 stocks hitting 52-week low; slipped up to 26% in a month",
-      "publishedAt": "2026-11-18T11:31:06+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pi-industries-among-5-stocks-hitting-52-week-low-slipped-up-to-26-in-a-month/slideshow/135961979.cms",
-      "summary": "Amid the market decline, five stocks from the BSE 500 Index touched fresh 52-week lows, hitting their lowest price levels in the past year. A 52-week low refers to the lowest price at which a stock has traded over the past year and is commonly used as an indicator of its recent price performance.",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/prestige-group-buys-50-pc-stake-in-advent-convention-and-hotels-international-for-rs-500-cr/articleshow/135965554.cms",
+      "summary": "Prestige Estates Projects Ltd has successfully acquired a 50% stake in Advent Convention and Hotels International for an estimated Rs 500 crore. The total project valuation is forecasted at approximately Rs 4,500 crore, marking a significant expansion for Prestige in the Mumbai real estate market.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -182,13 +156,23 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/pi-industries-among-5-stocks-hitting-52-week-low-slipped-up-to-26-in-a-month/slideshow/135961979.cms",
-          "publishedAt": "2026-11-18T11:31:06+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/prestige-group-buys-50-pc-stake-in-advent-convention-and-hotels-international-for-rs-500-cr/articleshow/135965554.cms",
+          "publishedAt": "2026-11-18T14:14:08+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/prestige-group-buys-50-pc-stake-in-advent-convention-and-hotels-international-for-rs-500-cr/articleshow/135965381.cms",
+          "publishedAt": "2026-11-18T14:04:52+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/prestige-group-buys-50-pc-stake-in-advent-convention-and-hotels-international-for-rs-500-cr/articleshow/135965185.cms",
+          "publishedAt": "2026-11-18T14:01:51+00:00"
         }
       ],
-      "firstSeen": "2026-11-18T11:31:06+00:00",
+      "firstSeen": "2026-11-18T14:14:08+00:00",
       "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "lastChecked": "2026-11-18T21:58:55.467348+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -198,69 +182,33 @@
       "lifecycle": "New"
     },
     {
-      "id": "c3583f66d8bf9f",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "New Toronto councillors include housing advocates aiming to address homelessness",
-      "publishedAt": "2026-11-18T12:57:54+00:00",
-      "importanceScore": 12.2,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12156000/can-advocates-elected-to-toronto-council-help-fix-housing-and-homelessness-crisis/",
-      "summary": "Toronto’s newly elected council includes several tenant‑rights and homeless‑advocacy activists who say they will bring outreach experience to housing discussions. Some observers question whether advocate‑turned‑councillors can materially shift Toronto’s housing and homelessness policies, but the rookie members say they have the political will to apply their advocacy expertise to the city’s affordability crisis. Diana Chan McNally, elected for Parkdale‑High Park after 12 years working with people on the streets, said she will push for policies that address affordability, health‑care access and give homeless voices a platform, while also prioritising transit and waterfront issues.",
-      "why": "Council decisions shape Toronto’s housing affordability and homelessness response.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12156000/can-advocates-elected-to-toronto-council-help-fix-housing-and-homelessness-crisis/",
-          "publishedAt": "2026-11-18T12:57:54+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-18T12:57:54+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "6d34501e15807e",
+      "id": "e8749a2fb3e67b",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Russian strikes hit two Kyiv bridges, disrupt heating and water supplies",
-      "publishedAt": "2026-11-17T15:54:15+00:00",
-      "importanceScore": 11.9,
+      "title": "Kuwait says it repelled Iranian drone attack on US‑hosted airbase",
+      "publishedAt": "2026-11-18T13:04:48+00:00",
+      "importanceScore": 12.5,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Russian attacks struck two major bridges in Kyiv, prompting Mayor Vitaliy Klitschko to report damage to critical infrastructure and overnight interruptions to the city’s heating and water services. In a separate video, President Volodymyr Zelensky shared footage of a missile approaching the Crimean Bridge, calling the operation “unprecedented” and saying it had been planned for weeks.",
-      "why": "The damage hampers essential services for civilians and underscores the vulnerability of Ukraine’s infrastructure amid the conflict.",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Kuwait condemned an overnight drone attack that Iran said targeted the Ali Al Salem airbase, which hosts U.S. forces. Kuwaiti authorities reported the drones were repelled and no damage occurred, marking the first Iranian strike on Kuwaiti territory in more than two months. The incident followed U.S. warplane strikes on an Iranian missile launch site on Qeshm Island in the Strait of Hormuz.",
+      "why": "It signals a further escalation in Iran‑U.S. tensions and raises regional security concerns.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-17T15:54:15+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-18T13:04:48+00:00"
         }
       ],
-      "firstSeen": "2026-11-17T15:54:15+00:00",
+      "firstSeen": "2026-11-18T13:04:48+00:00",
       "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "lastChecked": "2026-11-18T21:58:55.467348+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -270,45 +218,40 @@
       "lifecycle": "New"
     },
     {
-      "id": "4b8b48f2923063",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "f0a12a861f7785",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "World"
+        "India"
       ],
-      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "publishedAt": "2026-11-17T21:24:35+00:00",
-      "importanceScore": 11.5,
+      "title": "India on track to hit $1 trillion exports target in FY27, says commerce secretary",
+      "publishedAt": "2026-11-18T15:07:27+00:00",
+      "importanceScore": 11.2,
       "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making. Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms",
+      "summary": "India’s exports rose 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a historic $863 billion in exports. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach a $1 trillion export target by FY 2026‑27, even as global trade uncertainties persist.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-17T21:24:35+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms",
+          "publishedAt": "2026-11-18T15:07:27+00:00"
         }
       ],
-      "firstSeen": "2026-11-17T13:01:11+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
+      "firstSeen": "2026-11-18T15:07:27+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-18T21:58:55.467348+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Ukraine damages Crimean Bridge, section collapses into water",
-      "previousSummary": "Ukraine struck the Crimean Bridge with long‑range weapons in a multi‑stage operation, causing a portion of the double‑arched structure to fall into the Kerch Strait. President Volodymyr Zelensky called the attack “unprecedented,” and Kremlin spokesman Dmitry Peskov said the bridge will be rebuilt. The bridge carries road and rail traffic for Russian forces to Crimea.",
-      "previousPublishedAt": "2026-11-17T21:24:35+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.2,
+      "verificationScope": "single-source-reviewed",
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
       "id": "ba44a7d42cade5",
@@ -317,13 +260,13 @@
       "categories": [
         "India"
       ],
-      "title": "India and US near completion of trade deal talks, signing pending",
+      "title": "India, US near completion of trade deal talks, signing depends on US tariff rules and Section 301 resolution",
       "publishedAt": "2026-11-18T12:20:32+00:00",
-      "importanceScore": 11.0,
+      "importanceScore": 10.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms",
-      "summary": "Commerce Secretary Rajesh Agrawal said the legal texts for a bilateral trade agreement are almost finalized, indicating negotiations are close to completion. The signing depends on the United States establishing new tariff rules and resolving ongoing Section 301 investigations. Both governments want to conclude the deal quickly to deepen economic ties.",
+      "summary": "Commerce Secretary Rajesh Agrawal said the legal texts of the India‑US trade deal are almost finalised, indicating negotiations are close to completion. The agreement can be signed only after the United States puts in place new tariff rules and resolves the ongoing Section 301 investigations. Both governments have expressed a desire to conclude the pact quickly to strengthen their economic partnership.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -336,68 +279,37 @@
         }
       ],
       "firstSeen": "2026-11-18T12:20:32+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-18T21:58:55.467348+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "3ffbbf6a5f1f36",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Google says Gmail is operating normally amid outage rumors",
-      "publishedAt": "2026-11-17T21:34:50+00:00",
-      "importanceScore": 8.8,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
-      "summary": "On Tuesday, Google posted on X that it is not seeing evidence of a broad Gmail service disruption and reminded users they can check Gmail’s real‑time status dashboard. The post was intended to counter reports of a Gmail outage that began circulating on X after a Downdetector post. The clarification arrived while Apple and Microsoft had recently confirmed service interruptions.",
-      "why": "It reassures users and reflects heightened concern about the reliability of major tech services.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
-          "publishedAt": "2026-11-17T21:34:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-17T21:34:50+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "India and US near completion of trade deal talks, signing pending",
+      "previousSummary": "Commerce Secretary Rajesh Agrawal said the legal texts for a bilateral trade agreement are almost finalized, indicating negotiations are close to completion. The signing depends on the United States establishing new tariff rules and resolving ongoing Section 301 investigations. Both governments want to conclude the deal quickly to deepen economic ties.",
+      "previousPublishedAt": "2026-11-18T12:20:32+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.0,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 7,
+  "jarvisEditedCount": 6,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-18T04:25:27.351040+00:00",
+  "previousUpdated": "2026-11-18T14:03:29.343755+00:00",
   "changeSummary": {
-    "new": 9,
+    "new": 4,
     "updated": 1,
-    "continuing": 0
+    "continuing": 2
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-15T17:44:49.892660+00:00",
-    "updated": "2026-11-18T14:03:29.343755+00:00",
+    "availableFrom": "2026-11-15T22:51:29.991460+00:00",
+    "updated": "2026-11-18T21:58:55.467348+00:00",
     "snapshotCount": 10,
-    "eventCount": 87,
+    "eventCount": 84,
     "retentionHours": 72
   }
 }
