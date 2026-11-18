@@ -1,35 +1,28 @@
 {
-  "updated": "2026-11-18T02:35:56.383982+00:00",
+  "updated": "2026-11-18T10:44:18.329494+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX slides as AI jitters hit tech shares",
+      "headline": "S&P/TSX Composite fell 1.14%",
       "direction": "down",
       "move": "S&P/TSX Composite -1.14%",
-      "why": "Investor anxiety over artificial‑intelligence developments hurt technology stocks, pulling the index lower.",
+      "why": "Same-day market coverage explicitly linked the final move to: tech and industrial shares slide; AI Jitters Hit Tech Shares.",
       "drivers": [
+        {
+          "label": "tech and industrial shares slide",
+          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "AI Jitters Hit Tech Shares",
           "detail": "Finimize explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
-        },
-        {
-          "label": "Sector Weakness",
-          "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "AI jitters",
-          "detail": "Investor anxiety over artificial‑intelligence developments hurt tech shares, dragging the TSX lower.",
-          "kind": "driver"
         }
       ],
-      "sectors": [
-        "Technology"
-      ],
-      "confidence": "high",
+      "sectors": [],
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -46,6 +39,24 @@
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "kalkine.ca",
+          "title": "How rate-hike worries dragged TSX:RY, TSX:TD and TSX:BMO lower on the S&P/TSX Composite - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFdwLWFpUnVJMS14eE1YcGduN1lDbFh5TndSN1d1VDhuZ2ZmODZfSS1EbmEyby1qRnNKUDRmYzE5bzlqNTNnNGFLOGZzaVdFcnItSElHNTFEUTNaaWJDb1Bja2s2alJ2UnpCZEFvX21iSWQ2aFVRVklvMWFzTTJzTnZKUE9FUmZyTGE0WDl2akxsR2dNaTlhLUw0b0tJbU1WSUFwWUZJZWl4ZWpqbEtvaEFoU0s5dw?oc=5",
+          "publishedAt": "2026-11-18T08:06:00+00:00"
+        },
+        {
+          "name": "Reuters",
+          "title": "TSX hits nearly six-week low as tech and industrial shares slide - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV2JoUE5YdF9IM2poQnRFUE5GVVlkOE1WTFRoM1poaXU5QmhCRE10WVVyWEowVmNHU21rbk9oS1RaNXFqQUhVRk9ldV83bXBYdkcwZlQwbWxyUXZjYndrU2FNT29DT2lyaTUxMWpJc1F4OHdiMnRuc3k1bkQ3ZGlwWjVqWmQ2UkttM0d6WTFjVXdzTkcxaW9aNDZGbjliamgyQWhYTXp1UnZsZHVrS0hwZ3YtX3g?oc=5",
+          "publishedAt": "2026-11-17T21:25:54+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "Why TSX:FNV climbed on the S&P/TSX Composite as miners bucked Tuesday's broad sell-off - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUtUUWpkdGQteld4aGZtS1h0YXV6WTF6eGQ4amNtWUtHSnhXbGhobHc4OVNEdlE2ZEs1SEJ1T1AzMFo4ZnBmd0ctcnVmRTdwWTV0MjFGalpqSnI2ODRSOW43V1pTMU45eEhwUkNXUWxLQXNTWHg2Z3JRU2JydDVOTEtVeVdZbFQxTFdBZ1V6TEVQVzh3dEFmUkUza21IdEZYdTJNeXdkSTU5b3phZWM4LWhBRQ?oc=5",
+          "publishedAt": "2026-11-18T08:06:00+00:00"
+        },
+        {
           "name": "Investing.com",
           "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 1.14% - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbzQ0U2c3enNzZFNfeDFzSWt3UU4zQk9yeWwtWExQMFQzZlE5QTZJRG9Pd2ppVzZFMzVMUFVWMVF2QmI5bEtZNWtzNkpZdkNlbWdZem5nWG5saFRER3BDcVpDYzJ0ZU9vbWpTejMxMUdzaVpwRC1fTkpsSmg4Y09tNFc3anVUN1VYN3hDekxCVGxxU3FxVVpqT2NJSV9adUdqQWxmQkpyTkxWbEdCLTd1TUhHdHNHUVZuaW4w?oc=5",
@@ -58,81 +69,53 @@
           "publishedAt": "2026-11-17T21:36:41+00:00"
         },
         {
-          "name": "Investing.com UK",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 1.14% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORlBMYnBveE1tRHNjODZIaTJEcWtacl9URzlfQ1pPbnhZNnNUa2FiWU5SSGpIV3JlYW1UY1p6SW5EbVkyTm9NdV9lVmRzdWJfMWNtbzB0RExSYjVDQnJhX1YtTDdIRzJXeUZfTGZTOEN1bFhzc2tweVoya0RrSklXWWdDV0NCN0dWZ2d5QTR5ZlpVaUdadGgzX1ZvYTZ4dnFZc1RmU0QwZXh6eWxKM2x2TTF1U3RsOHZMcnc?oc=5",
-          "publishedAt": "2026-11-17T21:30:00+00:00"
-        },
-        {
           "name": "Finimize",
           "title": "Canada’s TSX Slid As AI Jitters Hit Tech Shares - Finimize",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNV9BWEFOZ2ZLTGNtVGJKelVBUHd0aGR6ek9vWnVXY29BMFBCd3ZBV0gwNnM1TVdkQnYwSUZGM0xrV1pZY01IRWVkM09wS3BUQjFTU3JRV1d0YU5DN19LamV5WW5CRGdhQmthdjlVWHEyY0d4OGdnTVdiaTRPUDBfRQ?oc=5",
-          "publishedAt": "2026-11-17T21:00:26+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "S&P/TSX Composite Index Set for a Lower Opening Amid Sector Weakness - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWnhSWkhFdDgxS09Ia3htY2VhYnVZRWpMbFZCSGVsZmN0LTFNc2lxbERHVktQR3JnbEpIZXpfOTVQZ09sWEVadktqblZpT0dmZFQ2eVA4T0drdk8xWm5NWHFSRVRQWE9YdXJvY1k4cHlDRVZHbC1VMFh1bmVsTEZGRjhlVmhraGo0Yy1HS2xZVGlKLWdVbk5NalJ2RFFsa2piazhZ?oc=5",
-          "publishedAt": "2026-11-17T11:11:24+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange: S&P/TSX Composite Falls 1.14% to 35,315.30 for a Fourth Straight Loss - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNUtVMzBxNVBsQjBVR1BZNHJCOUQ0SWpWNVpGUW5nRWhJX245MWVUSFRhM2R3WWhiWmJCM1RmUEFwOXRGS2hkOXNER0I4NHFLVnFXWGtBS3ZxU1l2ZDZhQ0oxT0lVU0JqSzRndmVPMWNrb1FPYk51UW12UXoyODV2V1hITl8zVGpDeFdOQ0l5cjhYeWR2QXN2bUVBSndWR1RVWXAzWlhvUVNOcFh0YVhGZTFWaVVLUVVTTjFFYjBYUEUtRWJD?oc=5",
-          "publishedAt": "2026-11-17T22:09:05+00:00"
+          "publishedAt": "2026-11-17T21:35:26+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.38%",
-      "direction": "up",
-      "move": "Nifty 50 +0.38%",
-      "why": "Same-day market coverage explicitly linked the final move to: Indian stocks lead Asia with 10% monthly gain; Bank Nifty Hits Record High; Crude Eases Near $92; Banking and Realty Stocks Lead Gains.",
+      "headline": "Nifty 50 fell 0.63%",
+      "direction": "down",
+      "move": "Nifty 50 -0.63%",
+      "why": "Same-day market coverage explicitly linked the final move to: Nifty Ends at 25,144, Snapping a Winning Streak.",
       "drivers": [
         {
-          "label": "Indian stocks lead Asia with 10% monthly gain",
-          "detail": "Livemint explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Bank Nifty Hits Record High; Crude Eases Near $92",
-          "detail": "India Infoline explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Banking and Realty Stocks Lead Gains",
-          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Nifty Ends at 25,144, Snapping a Winning Streak",
+          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25387.4,
-        "previousClose": 25291.1,
-        "change": 96.3,
-        "changePct": 0.38,
+        "price": 25227.95,
+        "previousClose": 25387.4,
+        "change": -159.45,
+        "changePct": -0.63,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-17T10:01:07+00:00",
+        "asOf": "2026-11-18T10:01:09+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 82532.19,
-        "previousClose": 82104.79,
-        "change": 427.4,
-        "changePct": 0.52,
+        "price": 82031.81,
+        "previousClose": 82532.19,
+        "change": -500.38,
+        "changePct": -0.61,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-17T10:02:28+00:00",
+        "asOf": "2026-11-18T10:02:36+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
@@ -143,34 +126,34 @@
           "publishedAt": "2026-11-17T15:54:51+00:00"
         },
         {
+          "name": "BBN Times",
+          "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcWhfcXNmcy03Y2JVZVlqS2wzTVFUU2NnTWJmbVJLQkZBbHhoTlkxb0x4X1R4MGNZNk5OM25YYW1NN0JWQ25FclJCX1pUaEVadE9XaFdiVmM1eFZvSTM0N0lCNzFDRkNSQnF3MmJDc3I2OXNOTFB0N19wbXdMeUdNYzZZZGlMQV9NUk9QRG41MjZ5ZkMzY1hLWkt5ODJjTDlMQW5RbEF4MXRtUmtxUzBTVGNjRDVFVWxZX0VwRENNT0FqQXo1Z2c?oc=5",
+          "publishedAt": "2026-11-18T04:14:59+00:00"
+        },
+        {
           "name": "The Financial Express",
-          "title": "Sensex, Nifty Today: GIFT Nifty signals muted start; crude and gold edge lower - The Financial Express",
+          "title": "Sensex slips over 400 points, Nifty falls below 25,250; Tata Group stocks, tech under pressure - The Financial Express",
           "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPbGw2TkN2bE1VR3dwUThTM1Z2eWFjQkNQV19MYXZIYkdHTndranFoLThEWXpOZ1lXelJpMnI5bFB2WVlrNkdTN3ZwcjFlUmV3ZzVyajVSdy15TTNOMVJLZmNZZ1FXUy1HSm1UbURuT0RDSExLMmNHNHF3QzlQcWF4RlB5c01DSi1UTm1WRE9HZVF4TzZ1UVR3Q2owZUJLY05SV1BhNElqUEl6cUpsOVl6dHY4LTd3SWx1UGsxY2FjNy1Dd2ViSzlEaTNFb0hMdUZJd0llejBWZUxlbjN2NmpQNWFTQThFSkVLY0tXdzZqdGxYN1VBUzZTcDhmM3pMb2hsTzB4ajV2RmZEQmdkVTVXYU5nRExDVnBxWUHSAaACQVVfeXFMTWRaSUxLZUdzRmlTZ2drR1EyZko5THM5dmZMcmNNQUJDYU1ib1JHeXhHbjVXLUZ0cmkxX3dsMHI4LWpaMnhuU0tSaGsydGRvNDByRjZxYlVLcEFORTU5Y09hdUFiaWRkT1o3X2dtSzBGM3dNa051S2dlcVhXOUg1bDNoLXlIZDZqbzdnbmFlbkpESG9neGJLM2xkYlZWRmNzbU1fanNlUmRSSnlKR0Ryc1JURnZmanRZWWJHS25oTWQzRHpxRTEzNHQtWGp5dmhjdkEtS29ia1MybXY3QlRlbm1FWUxpSTJCT214M1B1TjJ6VC1Ea0JKMTBFcnZtRkQtRXFKSFdQcm0zVDRkYjR3bklPOXFSLXktdlhUcjhXVDZJ?oc=5",
           "publishedAt": "2026-11-18T01:41:11+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "Stock market outlook today,18 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQW1aTkFLSmQ3QUdyQkM1dVFVWlJ0ZHZOV1VIVzNUSlQyc191NEtJMW55Q0tVY1pEN3Bab1NHeVNpQ0pmTENWQ0x3eHNFWWZSS01UdkF0OC02YkhzZkg2c1pyTjcwaUhraGEzSGp0SG1zMTBNcm9ZdFZuQlRkRVpMeFNZRFlRalRDRzMwcVkwemhWQnZYWERHZWZQM1lSN1p2Z0V6RHN5bWwyanNRdDBlNEZNY3pIZXllaUhrTTFuREVoMzkxeEc1OXVkclpEUDdlVGVWbDY4OUZQNEs1eVVpYWRzajJMRUdRaFlyczduZVYySW5rME9lclFpSDM0VXVwaC0wMkZpVF9WcU0?oc=5",
-          "publishedAt": "2026-11-18T01:09:19+00:00"
+          "name": "The Economic Times",
+          "title": "Why is market falling today? Sensex slumps 700 points, Nifty below 25,200. 4 factors behind Rs 5 lakh cror - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPYnJoR3EzWGMwcjY5WlVuMFdtTXAycjYzQ2VEMUhYTldOSmRZUFp5UEk0aXNXS2hxdGllX1FjV3JOMHZjanNJZnRDTWtFcGMtQmpVT2dZSzBBdDhXOVBlalNXYmNFaTJoak9VQm5SemhfcGRuaE9zMjdsd3lsZGhFZGVGbGxraW1RdHI0R19iWWJwYzV0UUdqM1oxNWxaZWluTDM5YWMyd2RpRjBMWGNISnBkOXdWTnRjR3pEdEZOZHV1X04zX3IzaThteWRlTnhoV0R5ZTM0c0hFeGdFdUhMQnZid3ZRa0lWMkItc21NREFDdUJCZHVhVGVHVzhaY1VvY2tPM3JRYVUxOE41R09zcFRBbXpaNmfSAZwCQVVfeXFMTnAxYmQ2SGc0MzN4T0ZBSGFKa0Q5bWhPN252RUNKalREOTFsRU9wTTNQV2R6MkV6QkxrNW1tQmV0TEUyS2JqTmJ3T1FSbnNxYU5TVWViNjBndndlY0w3VVVrWVNBb1RGTndaNE16LTJGWVFUN3pFRnBMbTY2Y0ZMbU4zeTBxckJZRi11d1FTbnZWZEp2X1ZSOXpTbGU0MDNPQXh3TE9sUm41YmJDdXM5VVY0aXZORGduWTU2NTgzeXEyU1NSRl91Q0hieTRqNnVWeHRXUXl1MmZnbDNYbjFiYnRXZk1NMXJKZWlkODdiQmtobW1nYWc2ZDcxa2JCWWJIUVBVNXA0VnNaVTlTS0MtVnJLM0lBVWpGZVZMbjQ?oc=5",
+          "publishedAt": "2026-11-18T07:42:17+00:00"
         },
         {
-          "name": "ET Now",
-          "title": "Stock market cues to watch today: Nvidia earnings, GIFT Nifty, FII, crude and other data - ET Now",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxORE9kRDlhZEYteHZNUmhYYXFhQUl6RjlEQ2gtaWJwaGl2TThCR1pQT2JtbGdXY3hwT2ozUFRBQmxhSXQyb3V5VkVETGFGS0VDbGt4YjZfS29NT1YzcWR5UDhlQTFXS3dzOGozMnFpMHVUcWg3UWFUbkhtem93N196WTkwZHZGa0pDWXI0eHg1LXpLYy1JZmxESTVaQW9RMm4xdVVZQ0I5VWdHVVJLTFMweE9WaC1IeW1ZenltVkowdm9BVnNjVGNzMWpsMmQxelBoc2JzeEZmZDFZb3I5NUxXbFNnNGk2VDZhaG96Zk42UkFnWUlsc19TMnF5UHYxWUHSAYQCQVVfeXFMTm85aUpLUWpHZUpRRFRURlBuMlNmUXZOakU3WV9SS2tvTUVJZkFidk9rSXN3andNbGNzOVZVd2RBbDdoYTlfMWlEX00ydHlRdnlOOTloX3NHZlpYV2hpbFdkSDVRTms0QUh4Q2VGU05aVVJjNTNudk5xRUpfd0xIQ0VnVnZmZmNIRGg2M2J1VjNkR0F1ODNqVmxDNkV4X0tkYmtsS1JpSzF0VC1SM1E1VFlwUzlnVUNoV2E0ejUxenVuRkVHQm9BNGNBVk1EWWkwbFRPaW5Oa2FPU3pqNlVVLThGVG1DRzlMM0dqU3Jyb3BGdlhjazY5UW92OXBzRmtoVnZteVE?oc=5",
-          "publishedAt": "2026-11-18T00:41:23+00:00"
+          "name": "The Economic Times",
+          "title": "Sebi mulls linking MTF limits to free float; Angel One, BSE, Groww fall up to 7% from day’s high - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPd2hnUDRUUWZzYjhHQjhzWFV6MEZLNGNQYmZOQlQ1MzRuUGhxcTFGUFpfZnl0aU1pbTkxbGJheXc1aUZiX0lOckFEMFJSOFRyWE5wY0dKWUxuNnRWWDRacUJIZmhnUWk5TkYxV2xxaHRVM2psZ2pMQjlDaW1iakNNNFROVEtqelUwM2dhc1FfdVZmYTFJQ0hla2VST2tHdGVDeXBVTzlSWmV0cUR2dWlzdEYyVzJxY0tjTUNwdTY3ZEVIMUpYRzhkUWQ4c01VU1VMcE80MktmT3ZRYkpTWENlZExNYWFseFhSdlFzeDcxWkdLX3hVN1dzYzJHRdIBgAJBVV95cUxPSVJxUFRyMXNYTDMtYXlDVXowRmlmTlNfVlliQk4xX3UwYnc1Tloxc1VVS1Rud3RUMUtfZlI2Tkh0d2N0bU1IYnM0RG91UVRuZnB4ZDZFUldBekM3b0MwaVVoMWxuS0RMb3U3VVFXN24yaFJOOGVSazNwaXowbjlwc1ZDWjNjNHBVU1ZYR2NQWDR3Sm94akR0UTJIbDExOG1QamZkUG1ET3RZQTk0Nk5PUWRzSXFfdHpTMjNZQUR2aV9LaVVOQ0R2Q09UbEFKNmp5b3c5SXJMeEF4bTRGQV9wRkRjdDVUMUNiTF9zQTBMS1FrblJTSGdLeDNvYXZrTDlz?oc=5",
+          "publishedAt": "2026-11-18T07:00:09+00:00"
         },
         {
-          "name": "India Infoline",
-          "title": "Closing Bell: Nifty Gains to 25,387 as Bank Nifty Hits Record High; Crude Eases Near $92 - India Infoline",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaFBZcFhabjZvbkc4QkJadkRpRGFySkh1UDF6QVIwX1FCV2dMUjd4ZWVtNjF6VTF2YlpNazdxdERwRjRVLUlCUGNrTy1hOGZjNzZzNnFvanBjLXhvMXVuX3ZuV1BubFR0VDZ5VE1idktDUGRHdlNOUjFBSEwzUG5aWW45VTBlR2dzbWJnTlpkRlRTUlY5UE0wM0k4Yi15Q1h4bGFGUlAzeEhRaUx6T05rOF9wUkw1a0ltUlRWTVlvOVFlTHMyNUE?oc=5",
-          "publishedAt": "2026-11-17T12:37:54+00:00"
-        },
-        {
-          "name": "Equitymaster",
-          "title": "Sensex Today Ends 427 Points Higher | Nifty Above 25,350 | Nifty Bank Hits Record High - Equitymaster",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcGxKdGFLTExzUWVJZ1RMRlUwWXR3QzVXa1o1WnI4ZUtlV3VvaGFyUW9lNEVZODdSb3V5Qk5wWEVOcU1OYjdSYjAzbWR6cTR4b3NVRHQwV1FJZXlmTk5TYlZnSDRTWXFiQmVUemNkMVA1dzdkM1kzY1h5X0k0dUQ2cUYxNWtnRnBrTF9JTUtpQW1STF9EbVNGa3EzVzVpeXRVUF8yN3Z1M0trdmJHSU9EWnEwRG83Qkt3dkQ2a2p0MkZUX3ZzMl9HeFhVQnQ0Z2tza0tnRW9uQmszNnFB?oc=5",
-          "publishedAt": "2026-11-17T10:57:53+00:00"
+          "name": "BBN Times",
+          "title": "BSE SENSEX Rises to 82,532.19 Amid Nvidia's Third Quarter Results and US-Iran Negotiations - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYnU1N1BzYVNKYm8yM3dpMkJIVTJEV2JZcGU2ODM2Y3VMRkJhU1JEa3dXLVBoUGNBZ2YxaUlGaUNjVWhQUDFqX2NMQ1dMS05ZTE9qcXVZSXVTdVhvd052dk0yVG9FUEhIVE5LYndsd3Mxd0FHaWRlLUVzNEJleGVsNTM4R2VNTmpnOV92c25ZU1lrN0t5TFFIWE1uSzBDVS1LbHc4RFN4M2pkUUhwejBfQXAwMVhVd1NxaHJyRFVoMGFSRWs?oc=5",
+          "publishedAt": "2026-11-17T21:35:24+00:00"
         }
       ],
       "evidenceCount": 7
