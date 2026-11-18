@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-18T04:25:27.351040+00:00",
+  "updated": "2026-11-18T14:03:29.343755+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 21,
-    "enrichedCandidates": 77,
-    "readableCandidates": 51,
-    "eventClusters": 49,
-    "materialEvents": 25,
+    "nonNoiseCandidates": 80,
+    "officialOrPrimaryCandidates": 23,
+    "enrichedCandidates": 80,
+    "readableCandidates": 52,
+    "eventClusters": 52,
+    "materialEvents": 24,
     "selectedEvents": 10,
     "seededStories": 10,
     "corroboratedStories": 0,
@@ -18,41 +18,35 @@
   },
   "stories": [
     {
-      "id": "96ef903ac51418",
-      "cat": "AI",
-      "icon": "✦",
+      "id": "ae27dedb54f51b",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Indian Markets",
-        "AI"
+        "World"
       ],
-      "title": "Amazon and Google to own nearly 30% of Anthropic after IPO",
-      "publishedAt": "2026-11-18T01:40:29+00:00",
-      "importanceScore": 15.8,
-      "sourceCount": 2,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-google-each-to-own-over-14-of-anthropic-stock-after-ipo/articleshow/135945131.cms",
-      "summary": "Anthropic announced an IPO that aims to raise about $64.4 billion. Amazon will hold roughly 14.7% of the post‑IPO equity, converting promissory notes into non‑voting shares, while Google will own about 14% of the shares. Together the two cloud providers will control close to 30% of Anthropic’s outstanding stock.",
-      "why": "The combined stake gives the two cloud giants a significant strategic position in Anthropic’s AI platform and potential influence over its future direction.",
+      "title": "Rubio says US not under systemic attack after tech outages",
+      "publishedAt": "2026-11-18T04:57:06+00:00",
+      "importanceScore": 13.9,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Marco Rubio told reporters there is “zero evidence” that the recent series of technology outages—including grounded flights, banking disruptions and problems with Apple and Microsoft services—are linked or part of a coordinated attack. He said the United States is not under a systemic attack and that each incident is unrelated. Cyber‑security experts also said no evidence ties the events together, noting many issues stem from updates to aging infrastructure.",
+      "why": "The comment is intended to reassure the public and guide policymakers by confirming the outages are not a coordinated cyber threat.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-google-each-to-own-over-14-of-anthropic-stock-after-ipo/articleshow/135945131.cms",
-          "publishedAt": "2026-11-18T01:40:29+00:00"
-        },
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-          "publishedAt": "2026-11-17T22:29:05+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-18T04:57:06+00:00"
         }
       ],
-      "firstSeen": "2026-11-18T01:40:29+00:00",
+      "firstSeen": "2026-11-18T04:57:06+00:00",
       "status": "New",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
       "changed": true,
@@ -60,188 +54,19 @@
       "lifecycle": "New"
     },
     {
-      "id": "9fe8a7077b8df7",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "UK sanctions eight construction firms over West Bank settlement building",
-      "publishedAt": "2026-11-17T18:27:27+00:00",
-      "importanceScore": 13.9,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-      "summary": "The United Kingdom imposed sanctions on eight construction and property‑development companies it says are involved in building Israeli settlements in the occupied West Bank. The measures are the first package announced after the government said it would take a tougher approach to Israeli actions in the territory, and are intended to disrupt the firms’ financing and ability to support settlement construction.",
-      "why": "The sanctions aim to cut financial flows that enable settlement building in the occupied West Bank.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-17T18:27:27+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-17T18:27:27+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "UK sanctions eight firms over West Bank settlement construction",
-      "previousSummary": "The UK has sanctioned eight construction and property development firms it says are involved in building settlements in the occupied West Bank, the first package of measures since the government announced a tougher approach to Israeli actions in the territory. The government said the sanctions would disrupt the firms' flows of finance and their ability to support building in the West Bank. Israeli Foreign Minister Gideon Saar called the sanctions a \"hostile act targeting private, law-abiding companies\".",
-      "previousPublishedAt": "2026-11-17T18:27:27+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.9,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "b4efc05459ede5",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Canadian home sales rise 0.3% in October, still 10.6% below 2025 level",
-      "publishedAt": "2026-11-17T10:00:00+00:00",
-      "importanceScore": 13.4,
-      "sourceCount": 1,
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/business/crea-october-home-sales-numbers-9.7424208?cmp=rss",
-      "summary": "The Canadian Real Estate Association reported that national home sales increased 0.3 percent month‑over‑month in October 2026, but remained 10.6 percent lower than in October 2025. CREA senior economist Shaun Cathcart said activity between September and October was modest and the uptick ran opposite to analysts’ expectations. The increase came after the Bank of Canada raised its benchmark rate to 2.5 percent, its first hike since 2023.",
-      "why": "The data show how the housing market is responding to higher borrowing costs, informing buyers, sellers and policymakers.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "cbc.ca",
-          "url": "https://www.cbc.ca/news/business/crea-october-home-sales-numbers-9.7424208?cmp=rss",
-          "publishedAt": "2026-11-17T10:00:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-17T10:00:00+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Canadian home sales edge up 0.3% in October, still 10.6% below October 2025",
-      "previousSummary": "National home sales rose 0.3 percent month‑over‑month in October, according to the Canadian Real Estate Association, beating some analysts’ expectations. Despite the gain, sales were 10.6 percent lower than in October 2025, reflecting a market that remains flat amid recent interest‑rate hikes and a sluggish economy.",
-      "previousPublishedAt": "2026-11-17T10:00:00+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.2,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "cb1f71304dbbb3",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "US probes Singapore firm Megaspeed over alleged Nvidia chip exports to China",
-      "publishedAt": "2026-11-17T11:17:32+00:00",
-      "importanceScore": 13.3,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-      "summary": "The United States Department of Justice and Department of Commerce announced that they are investigating Singapore‑based computing company Megaspeed for suspected violations of U.S. export controls by facilitating the shipment of Nvidia’s high‑end AI chips to China. The probe, which began in 2024, follows concerns that such chips may have reached China despite restrictions. Authorities also allege that former Megaspeed executive Alice Huang, who was involved in an extramarital affair with Nvidia founder Jensen Huang, acted as a spy for Beijing, a claim China denies.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-17T11:17:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-17T11:17:32+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "US investigates Singapore firm Megaspeed over alleged Nvidia chip exports to China",
-      "previousSummary": "The U.S. Department of Justice and Department of Commerce announced a joint investigation into Singapore‑based Megaspeed, accusing it of violating U.S. export controls by facilitating shipments of Nvidia’s high‑end AI chips to China. The probe, which began in 2024, follows concerns that such chips may have reached China despite restrictions. U.S. authorities also suspect former Megaspeed executive Alice Huang of spying for Beijing, a claim China denies, and note that Nvidia CEO Jensen Huang resigned after personal scandal revelations.",
-      "previousPublishedAt": "2026-11-17T11:17:32+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 14.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "4b8b48f2923063",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Ukraine damages Crimean Bridge, section collapses into water",
-      "publishedAt": "2026-11-17T21:24:35+00:00",
-      "importanceScore": 13.2,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine struck the Crimean Bridge with long‑range weapons in a multi‑stage operation, causing a portion of the double‑arched structure to fall into the Kerch Strait. President Volodymyr Zelensky called the attack “unprecedented,” and Kremlin spokesman Dmitry Peskov said the bridge will be rebuilt. The bridge carries road and rail traffic for Russian forces to Crimea.",
-      "why": "The bridge is a key logistical corridor for Russian military supplies to Crimea, so its damage hampers operations and carries strong symbolic weight.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-17T21:24:35+00:00"
-        },
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-17T15:38:10+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-17T13:01:11+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 2,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Ukraine damages Crimean Bridge, section collapses into water",
-      "previousSummary": "Ukraine has severely damaged the Crimean Bridge that links Russia to occupied Crimea, with images showing a section of the structure collapsed into the water. President Volodymyr Zelensky described the strike as an unprecedented operation. In Kyiv, Mayor Vitaliy Klitschko said traffic on the Pivnichnyi and Pivdennyi bridges over the Dnipro River had partially resumed after overnight Russian attacks.",
-      "previousPublishedAt": "2026-11-17T21:24:35+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 14.2,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "8a65325fcc93b7",
+      "id": "a31abcff8e105e",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
-      "publishedAt": "2026-11-18T01:08:58+00:00",
-      "importanceScore": 12.4,
+      "title": "Anthropic IPO: Why Wall Street is betting big on Claude AI maker",
+      "publishedAt": "2026-11-18T06:12:00+00:00",
+      "importanceScore": 13.4,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms",
-      "summary": "Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jensen Huang — signaled resilient demand. MSCI Inc.’s Asian equities gauge rose 0.3%, snapping a four-day run of losses, led by South Korea’s Kospi Index — a key barometer for the AI trade.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-why-wall-street-is-betting-big-on-claude-ai-maker/slideshow/135951884.cms",
+      "summary": "Anthropic is preparing for one of the biggest stock market debuts in history, with the maker of Claude AI expected to command a valuation of around $1.4 trillion or higher. According to The Wall Street Journal, the company was most recently valued at $965 billion in private markets, setting the stage for a potentially significant valuation increase through its IPO.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -249,13 +74,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms",
-          "publishedAt": "2026-11-18T01:08:58+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-why-wall-street-is-betting-big-on-claude-ai-maker/slideshow/135951884.cms",
+          "publishedAt": "2026-11-18T06:12:00+00:00"
         }
       ],
-      "firstSeen": "2026-11-18T01:08:58+00:00",
+      "firstSeen": "2026-11-18T06:12:00+00:00",
       "status": "New",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -265,60 +90,19 @@
       "lifecycle": "New"
     },
     {
-      "id": "dccd15026cf351",
+      "id": "d6260bfcfe1fdc",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India's current account deficit projected at 1.2% of GDP in FY27",
-      "publishedAt": "2026-11-17T06:58:34+00:00",
-      "importanceScore": 11.9,
+      "title": "RBI projected to raise policy rate by 75 bps by Q2 2027",
+      "publishedAt": "2026-11-18T10:41:25+00:00",
+      "importanceScore": 12.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-cad-may-touch-1-2-of-gdp-in-fy27-as-oil-gold-demand-pose-risks-ubi/articleshow/135914575.cms",
-      "summary": "A Union Bank of India report projects the current account deficit will reach about 1.2% of GDP in the 2027 fiscal year, citing high crude‑oil prices and strong gold demand as key drivers. The merchandise trade deficit widened to roughly $39.9 billion in October as imports rose sharply, while the services trade surplus stayed almost unchanged. These factors raise risks to the external balance.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-cad-may-touch-1-2-of-gdp-in-fy27-as-oil-gold-demand-pose-risks-ubi/articleshow/135914575.cms",
-          "publishedAt": "2026-11-17T06:58:34+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-17T06:58:34+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India’s current account deficit projected at 1.2% of GDP in FY27",
-      "previousSummary": "Union Bank of India projects the current account deficit to reach about 1.2% of GDP in the 2026‑27 fiscal year, citing higher crude oil prices and strong gold demand as drivers. The merchandise trade deficit widened to $39.88 billion in October as imports rose, while the services trade surplus was almost unchanged.",
-      "previousPublishedAt": "2026-11-17T06:58:34+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.9,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "a40ceaf039e883",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India’s retail inflation hits 6.09% in October 2026, above RBI’s 6% ceiling",
-      "publishedAt": "2026-11-17T05:26:46+00:00",
-      "importanceScore": 11.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/inflation-crosses-6-did-rbi-act-too-late-the-morning-brief-decode/videoshow/135912037.cms",
-      "summary": "Retail price inflation rose to 6.09% in October 2026, breaching the Reserve Bank of India’s 6% tolerance band. The increase is driven by a sharp rise in food prices, putting pressure on household budgets. The outcome has raised questions about the timing of RBI’s interest‑rate actions and the accuracy of its inflation forecasts.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms",
+      "summary": "Analysts expect the Reserve Bank of India to increase its policy interest rate by 75 basis points in the second quarter of 2027. They also forecast headline inflation staying above 6 percent into early 2027 before easing, while GDP growth is projected to moderate to about 7.2 percent that year. Strong domestic demand and an emerging investment cycle are cited as supporting economic activity.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -326,54 +110,270 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/inflation-crosses-6-did-rbi-act-too-late-the-morning-brief-decode/videoshow/135912037.cms",
-          "publishedAt": "2026-11-17T05:26:46+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms",
+          "publishedAt": "2026-11-18T10:41:25+00:00"
         }
       ],
-      "firstSeen": "2026-11-17T05:26:46+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
+      "firstSeen": "2026-11-18T10:41:25+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "India’s retail inflation rises to 6.09% in October 2026",
-      "previousSummary": "India’s retail inflation breached the RBI’s 6 % tolerance ceiling, reaching 6.09 % in October 2026. Food prices were surging, putting pressure on household budgets, and the central bank faced questions about whether it had acted too late on interest rates and why its inflation forecasts missed the mark.",
-      "previousPublishedAt": "2026-11-17T05:26:46+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.7,
       "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
-      "id": "24ff3e2e859460",
+      "id": "f3694d9c050b26",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Bajaj Auto shares trade at 10,661 rupees with market cap of 293,353.1 as of 09:48 IST, 18 Nov 2026",
-      "publishedAt": "2026-11-18T03:26:48+00:00",
-      "importanceScore": 11.6,
+      "title": "Assetz Ltd receives SEBI approval for Rs 1,200 crore IPO",
+      "publishedAt": "2026-11-18T13:24:30+00:00",
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-today-live-18-nov-2026/liveblog/135947342.cms",
-      "summary": "At 09:48:03 AM IST on 18 Nov 2026, Bajaj Auto’s last traded price was 10,661.0 rupees. The company’s market capitalization was reported at 293,353.1, with a trading volume of 49,274 shares. Its price‑to‑earnings ratio stood at 22.41 and earnings per share at 475.74.",
-      "why": "This snapshot gives investors current valuation and liquidity data for trading decisions.",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/real-estate-firm-assetz-gets-sebi-nod-to-float-rs-1200-cr-ipo/articleshow/135964641.cms",
+      "summary": "Assetz Ltd has obtained approval from the Securities and Exchange Board of India to proceed with an initial public offering, aiming to raise about Rs 1,200 crore. The company cites a large land bank and a robust project pipeline in Bengaluru, and notes backing from investors such as AGP Partners as it expands into additional markets.",
+      "why": "The clearance allows the firm to raise fresh capital, which could draw investor interest and impact the Indian real‑estate sector.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-today-live-18-nov-2026/liveblog/135947342.cms",
-          "publishedAt": "2026-11-18T03:26:48+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/real-estate-firm-assetz-gets-sebi-nod-to-float-rs-1200-cr-ipo/articleshow/135964641.cms",
+          "publishedAt": "2026-11-18T13:24:30+00:00"
         }
       ],
-      "firstSeen": "2026-11-18T03:26:48+00:00",
+      "firstSeen": "2026-11-18T13:24:30+00:00",
       "status": "New",
-      "lastChecked": "2026-11-18T04:25:27.351040+00:00",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "d9aa2d178a6672",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "PI Industries among 5 stocks hitting 52-week low; slipped up to 26% in a month",
+      "publishedAt": "2026-11-18T11:31:06+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pi-industries-among-5-stocks-hitting-52-week-low-slipped-up-to-26-in-a-month/slideshow/135961979.cms",
+      "summary": "Amid the market decline, five stocks from the BSE 500 Index touched fresh 52-week lows, hitting their lowest price levels in the past year. A 52-week low refers to the lowest price at which a stock has traded over the past year and is commonly used as an indicator of its recent price performance.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/pi-industries-among-5-stocks-hitting-52-week-low-slipped-up-to-26-in-a-month/slideshow/135961979.cms",
+          "publishedAt": "2026-11-18T11:31:06+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-18T11:31:06+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "c3583f66d8bf9f",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "New Toronto councillors include housing advocates aiming to address homelessness",
+      "publishedAt": "2026-11-18T12:57:54+00:00",
+      "importanceScore": 12.2,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12156000/can-advocates-elected-to-toronto-council-help-fix-housing-and-homelessness-crisis/",
+      "summary": "Toronto’s newly elected council includes several tenant‑rights and homeless‑advocacy activists who say they will bring outreach experience to housing discussions. Some observers question whether advocate‑turned‑councillors can materially shift Toronto’s housing and homelessness policies, but the rookie members say they have the political will to apply their advocacy expertise to the city’s affordability crisis. Diana Chan McNally, elected for Parkdale‑High Park after 12 years working with people on the streets, said she will push for policies that address affordability, health‑care access and give homeless voices a platform, while also prioritising transit and waterfront issues.",
+      "why": "Council decisions shape Toronto’s housing affordability and homelessness response.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12156000/can-advocates-elected-to-toronto-council-help-fix-housing-and-homelessness-crisis/",
+          "publishedAt": "2026-11-18T12:57:54+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-18T12:57:54+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "6d34501e15807e",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Russian strikes hit two Kyiv bridges, disrupt heating and water supplies",
+      "publishedAt": "2026-11-17T15:54:15+00:00",
+      "importanceScore": 11.9,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Russian attacks struck two major bridges in Kyiv, prompting Mayor Vitaliy Klitschko to report damage to critical infrastructure and overnight interruptions to the city’s heating and water services. In a separate video, President Volodymyr Zelensky shared footage of a missile approaching the Crimean Bridge, calling the operation “unprecedented” and saying it had been planned for weeks.",
+      "why": "The damage hampers essential services for civilians and underscores the vulnerability of Ukraine’s infrastructure amid the conflict.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-17T15:54:15+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-17T15:54:15+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "4b8b48f2923063",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "publishedAt": "2026-11-17T21:24:35+00:00",
+      "importanceScore": 11.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making. Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-17T21:24:35+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-17T13:01:11+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Ukraine damages Crimean Bridge, section collapses into water",
+      "previousSummary": "Ukraine struck the Crimean Bridge with long‑range weapons in a multi‑stage operation, causing a portion of the double‑arched structure to fall into the Kerch Strait. President Volodymyr Zelensky called the attack “unprecedented,” and Kremlin spokesman Dmitry Peskov said the bridge will be rebuilt. The bridge carries road and rail traffic for Russian forces to Crimea.",
+      "previousPublishedAt": "2026-11-17T21:24:35+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.2,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "ba44a7d42cade5",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India and US near completion of trade deal talks, signing pending",
+      "publishedAt": "2026-11-18T12:20:32+00:00",
+      "importanceScore": 11.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms",
+      "summary": "Commerce Secretary Rajesh Agrawal said the legal texts for a bilateral trade agreement are almost finalized, indicating negotiations are close to completion. The signing depends on the United States establishing new tariff rules and resolving ongoing Section 301 investigations. Both governments want to conclude the deal quickly to deepen economic ties.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms",
+          "publishedAt": "2026-11-18T12:20:32+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-18T12:20:32+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "3ffbbf6a5f1f36",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Google says Gmail is operating normally amid outage rumors",
+      "publishedAt": "2026-11-17T21:34:50+00:00",
+      "importanceScore": 8.8,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "summary": "On Tuesday, Google posted on X that it is not seeing evidence of a broad Gmail service disruption and reminded users they can check Gmail’s real‑time status dashboard. The post was intended to counter reports of a Gmail outage that began circulating on X after a Downdetector post. The clarification arrived while Apple and Microsoft had recently confirmed service interruptions.",
+      "why": "It reassures users and reflects heightened concern about the reliability of major tech services.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+          "publishedAt": "2026-11-17T21:34:50+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-17T21:34:50+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-18T14:03:29.343755+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -383,21 +383,21 @@
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 9,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-11-17T22:54:34.896201+00:00",
+  "jarvisEditedCount": 7,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-18T04:25:27.351040+00:00",
   "changeSummary": {
-    "new": 3,
-    "updated": 3,
-    "continuing": 3
+    "new": 9,
+    "updated": 1,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-11-15T17:44:49.892660+00:00",
-    "updated": "2026-11-18T04:25:27.351040+00:00",
-    "snapshotCount": 9,
-    "eventCount": 82,
+    "updated": "2026-11-18T14:03:29.343755+00:00",
+    "snapshotCount": 10,
+    "eventCount": 87,
     "retentionHours": 72
   }
 }
