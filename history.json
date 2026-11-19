@@ -3,116 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-15T22:51:29.991460+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "6e07c4417ad835",
-          "cat": "World",
-          "title": "Paris police impose five‑day protest ban near schools and universities",
-          "summary": "Paris police have issued a five‑day ban on protests within 100 metres of ten secondary schools and five universities from 16 to 20 November. The order aims to curb weeks of blockades, property damage and clashes that have accompanied protests that began in September over school conditions and broader cost‑of‑living grievances.",
-          "why": "The measure is intended to protect students, staff and public order by limiting further disruption and violence at educational sites.",
-          "publishedAt": "2026-11-15T22:28:54+00:00",
-          "firstSeen": "2026-11-15T22:28:54+00:00",
-          "importanceScore": 14.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-16T02:45:34.196953+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "2bfa41fe47c45a",
-          "cat": "World",
-          "title": "Australian MP Helen Haines discharged after losing both legs in alleged car attack",
-          "summary": "Independent MP Helen Haines, who lost both legs after a white Toyota LandCruiser was driven into her outside her Wangaratta electorate office on 19 October, has been released from hospital. Police have charged 43‑year‑old Brendan Nugent with dangerous driving causing serious injury, intentionally causing serious injury and the federal offence of causing harm to a public official, and he has not yet entered a plea.",
-          "why": "The case highlights the legal response to violent attacks on elected officials.",
-          "publishedAt": "2026-11-16T01:53:19+00:00",
-          "firstSeen": "2026-11-16T01:53:19+00:00",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "6e07c4417ad835",
-          "cat": "World",
-          "title": "Paris police ban protests near 10 schools and five universities for five days",
-          "summary": "Paris police have issued a five‑day ban on unauthorised gatherings within 100 metres of ten secondary schools and five universities, effective 16–20 November. The order was announced by police chief Patrice Faure, who said it was needed because of numerous disruptions, blockades and persistent violence around the sites. The protests, which began in September over secondary‑school conditions, have spread to universities, workers and the yellow‑vest movement.",
-          "why": "The ban restricts demonstrations near educational institutions, aiming to reduce disruptions and violence that have affected schools and universities.",
-          "publishedAt": "2026-11-15T22:28:54+00:00",
-          "firstSeen": "2026-11-15T22:28:54+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "b344e72f6cce96",
-          "cat": "AI",
-          "title": "Indian chip startup Bharat Semi raises $24 million seed round for AI image sensors",
-          "summary": "Bharat Semi, an Indian semiconductor startup of almost five years, announced a $24 million seed funding round to develop AI‑enabled programmable image sensors. The company says it has secured design wins with U.S. defense firm General Atomics and India’s Kaynes Semicon, and it aims to begin commercial production of its single‑chip sensor that combines capture, processing and AI in 2027. Co‑founder Vrinda Kapoor claims the chip could cut system costs by at least 70 % versus conventional multi‑chip solutions.",
-          "why": "The capital will speed development of low‑cost, AI‑ready vision chips that could help Indian and global firms diversify semiconductor supply chains.",
-          "publishedAt": "2026-11-15T23:30:00+00:00",
-          "firstSeen": "2026-11-15T23:30:00+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
-        },
-        {
-          "id": "08f4b4cdd9ab03",
-          "cat": "World",
-          "title": "Prince Harry makes surprise visit to Lviv to meet injured Ukrainian veterans",
-          "summary": "Prince Harry made a surprise two‑day visit to Lviv, Ukraine, where he met injured Ukrainian service members and competitors from his Invictus Games. He was applauded by veterans, toured projects that provide treatment and rehabilitation, and said, “You’re going to win the war.” A press blackout was maintained for security while the country faced ongoing Russian missile attacks.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-15T22:00:13+00:00",
-          "firstSeen": "2026-11-15T22:00:13+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-11-16T11:26:29.746420+00:00",
       "changeSummary": {
         "new": 3,
@@ -1433,6 +1323,88 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-19T03:32:23.511103+00:00",
+      "changeSummary": {
+        "new": 0,
+        "updated": 1,
+        "continuing": 3
+      },
+      "stories": [
+        {
+          "id": "e2bdf1f8e07609",
+          "cat": "World",
+          "title": "Ukrainian and Russian troops fight inside old Soviet gas pipeline in Kharkiv",
+          "summary": "For roughly seven months Ukrainian forces have been living and engaging Russian troops inside an old Soviet gas pipeline in Ukraine’s Kharkiv region. The pipe is just over a metre in diameter, so combatants can only crawl, but its underground position shields them from the heavy drone activity that dominates the front‑line skies and hampers surface movements for both sides.",
+          "why": "The underground fighting shows how both sides are adapting tactics to counter pervasive drone surveillance and strikes.",
+          "publishedAt": "2026-11-18T17:00:40+00:00",
+          "firstSeen": "2026-11-18T17:00:40+00:00",
+          "importanceScore": 13.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "d6260bfcfe1fdc",
+          "cat": "India",
+          "title": "Goldman Sachs projects RBI to raise rates by 75 bps in Q2 2027",
+          "summary": "Goldman Sachs expects the Reserve Bank of India to increase its policy interest rate by 75 basis points by the second quarter of 2027. The firm projects headline inflation to stay above 6 percent into early 2027 before easing gradually. It also forecasts that India’s GDP growth will moderate to about 7.2 percent in 2027, supported by strong domestic demand and an emerging investment cycle.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-18T10:41:25+00:00",
+          "firstSeen": "2026-11-18T10:41:25+00:00",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms"
+        },
+        {
+          "id": "f0a12a861f7785",
+          "cat": "India",
+          "title": "India on track to meet $1 trillion export target by FY 2026‑27, says commerce secretary",
+          "summary": "India’s exports rose 16.6% in the first half of the current fiscal year, taking total shipments to a record $863 billion in the previous fiscal year. Commerce Secretary Rajesh Agrawal said the country remains on course to achieve its goal of $1 trillion in exports by FY 2026‑27, despite ongoing global trade uncertainties. The government continues to view India as a trusted trading partner.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-18T15:07:27+00:00",
+          "firstSeen": "2026-11-18T15:07:27+00:00",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms"
+        },
+        {
+          "id": "ba44a7d42cade5",
+          "cat": "India",
+          "title": "India, US Near Completion of Trade Deal Negotiations, Signing Dependent on US Tariff Rules",
+          "summary": "Commerce Secretary Rajesh Agrawal said the legal texts for the India‑US trade agreement are almost finalized, indicating the negotiations are close to completion. The parties cannot sign the deal until the United States establishes new tariff rules and resolves the ongoing Section 301 investigations.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-18T12:20:32+00:00",
+          "firstSeen": "2026-11-18T12:20:32+00:00",
+          "importanceScore": 9.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1500,44 +1472,6 @@
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms"
     },
-    "05ba6d4f0625e1": {
-      "id": "05ba6d4f0625e1",
-      "firstSeen": "2026-11-11T18:04:58+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-11T22:02:11.002786+00:00",
-          "title": "Abu Dhabi trilateral talks end without breakthrough, POW exchange planned",
-          "summary": "Trilateral talks in Abu Dhabi between Russia, Ukraine and the United States concluded after a second day without any breakthrough on ending the war. The American side said it saw “some openings”, but no concrete agreement was reached to halt the nearly five‑year conflict sparked by Russia’s invasion. Moscow and Kyiv said a large‑scale prisoner‑of‑war exchange is being prepared and could be carried out soon.",
-          "importanceScore": 14.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-12T03:03:10.522822+00:00",
-          "title": "Abu Dhabi trilateral talks end without breakthrough",
-          "summary": "Trilateral talks in Abu Dhabi involving Russia, Ukraine and the United States concluded after a second day without any concrete agreement to end the war that began with Russia’s 2022 invasion. The U.S. side said it saw “some openings,” but no breakthrough was announced. On Thursday, Steve Witkoff and Jared Kushner are scheduled to travel to Moscow and Dublin for separate meetings with the Russian and Ukrainian presidents.",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-12T03:03:10.522822+00:00",
-      "cat": "World",
-      "latestTitle": "Abu Dhabi trilateral talks end without breakthrough",
-      "latestSummary": "Trilateral talks in Abu Dhabi involving Russia, Ukraine and the United States concluded after a second day without any concrete agreement to end the war that began with Russia’s 2022 invasion. The U.S. side said it saw “some openings,” but no breakthrough was announced. On Thursday, Steve Witkoff and Jared Kushner are scheduled to travel to Moscow and Dublin for separate meetings with the Russian and Ukrainian presidents.",
-      "why": "The talks are a high‑level diplomatic channel that could shape future attempts to resolve the Russia‑Ukraine conflict.",
-      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
-    },
     "edf28127a9b8b2": {
       "id": "edf28127a9b8b2",
       "firstSeen": "2026-11-11T19:34:55+00:00",
@@ -1589,44 +1523,6 @@
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
     },
-    "a9b4c563535594": {
-      "id": "a9b4c563535594",
-      "firstSeen": "2026-11-11T16:25:21+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-11T22:02:11.002786+00:00",
-          "title": "Anthropic’s IPO is said to be multiple times oversubscribed",
-          "summary": "Anthropic PBC is witnessing an overwhelming response for its initial public offering, potentially accumulating up to $90.4 billion. With a significant revenue run rate of $81 billion as of October 31, investor enthusiasm remains high.",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-12T03:03:10.522822+00:00",
-          "title": "Anthropic IPO draws overwhelming demand, could raise up to $90.4 billion",
-          "summary": "Anthropic PBC’s initial public offering has attracted an overwhelming response, with investor demand potentially amounting to $90.4 billion. The company is projecting a market valuation of about $1.4 trillion and reported a revenue run‑rate of $81 billion as of 31 October. Goldman Sachs is acting as the lead manager for the offering.",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-12T03:03:10.522822+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Anthropic IPO draws overwhelming demand, could raise up to $90.4 billion",
-      "latestSummary": "Anthropic PBC’s initial public offering has attracted an overwhelming response, with investor demand potentially amounting to $90.4 billion. The company is projecting a market valuation of about $1.4 trillion and reported a revenue run‑rate of $81 billion as of 31 October. Goldman Sachs is acting as the lead manager for the offering.",
-      "why": "The strong demand signals high investor confidence in Anthropic and could bring significant capital into the AI sector.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-is-said-to-be-multiple-times-oversubscribed/articleshow/135743507.cms"
-    },
     "fe4d19670ba3fa": {
       "id": "fe4d19670ba3fa",
       "firstSeen": "2026-11-11T20:15:15+00:00",
@@ -1677,56 +1573,6 @@
       "latestSummary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
-    },
-    "d9efa7a78ce7e3": {
-      "id": "d9efa7a78ce7e3",
-      "firstSeen": "2026-11-11T23:40:19+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-12T03:03:10.522822+00:00",
-          "title": "Alberta issues wildfire advisories and warnings in November",
-          "summary": "A Global News report notes that unusually warm conditions in November have prompted Alberta to issue wildfire advisories and warnings. The province maintains an Alberta wildfire status page and uses its emergency alert system to inform residents about fire risk and ongoing fire activity.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-12T03:03:10.522822+00:00",
-      "cat": "Canada",
-      "latestTitle": "Alberta issues wildfire advisories and warnings in November",
-      "latestSummary": "A Global News report notes that unusually warm conditions in November have prompted Alberta to issue wildfire advisories and warnings. The province maintains an Alberta wildfire status page and uses its emergency alert system to inform residents about fire risk and ongoing fire activity.",
-      "why": "Timely alerts help residents take protective actions and enable authorities to allocate resources effectively.",
-      "url": "https://globalnews.ca/news/12146834/alberta-november-wildfire-risk/"
-    },
-    "a83a7b92d2e9b9": {
-      "id": "a83a7b92d2e9b9",
-      "firstSeen": "2026-11-12T01:33:51+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-12T03:03:10.522822+00:00",
-          "title": "Global Market Today: Asian stocks mixed as Nvidia turmoil hits AI-linked shares",
-          "summary": "Nasdaq 100 futures fell over 1% and S&P 500 contracts lost 0.5% after Nvidia tumbled about 10% in late trading. The New York Times also reported Wednesday that Huang had a relationship with Nvidia healthcare vice president Kimberly Powell, citing multiple people who worked at the company.",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-12T03:03:10.522822+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Global Market Today: Asian stocks mixed as Nvidia turmoil hits AI-linked shares",
-      "latestSummary": "Nasdaq 100 futures fell over 1% and S&P 500 contracts lost 0.5% after Nvidia tumbled about 10% in late trading. The New York Times also reported Wednesday that Huang had a relationship with Nvidia healthcare vice president Kimberly Powell, citing multiple people who worked at the company.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-us-stock-futures-fall-as-nvidia-turmoil-deepens/articleshow/135751953.cms"
     },
     "0dde4e005b4d02": {
       "id": "0dde4e005b4d02",
@@ -4082,12 +3928,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material facts or figures changed since the previous brief."
+        },
+        {
+          "at": "2026-11-19T03:32:23.511103+00:00",
+          "title": "Goldman Sachs projects RBI to raise rates by 75 bps in Q2 2027",
+          "summary": "Goldman Sachs expects the Reserve Bank of India to increase its policy interest rate by 75 basis points by the second quarter of 2027. The firm projects headline inflation to stay above 6 percent into early 2027 before easing gradually. It also forecasts that India’s GDP growth will moderate to about 7.2 percent in 2027, supported by strong domestic demand and an emerging investment cycle.",
+          "importanceScore": 10.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
+      "lastSeen": "2026-11-19T03:32:23.511103+00:00",
       "cat": "India",
-      "latestTitle": "Goldman Sachs projects RBI to raise policy rate by 75 bps in Q2 2027",
-      "latestSummary": "Goldman Sachs forecasts that the Reserve Bank of India will increase its policy interest rate by 75 basis points in the second quarter of 2027. The bank expects headline inflation to stay above 6 % through early 2027 before easing, while GDP growth is projected to slow to about 7.2 % that year. It attributes the outlook to strong domestic demand and an emerging investment cycle that could keep economic activity robust.",
+      "latestTitle": "Goldman Sachs projects RBI to raise rates by 75 bps in Q2 2027",
+      "latestSummary": "Goldman Sachs expects the Reserve Bank of India to increase its policy interest rate by 75 basis points by the second quarter of 2027. The firm projects headline inflation to stay above 6 percent into early 2027 before easing gradually. It also forecasts that India’s GDP growth will moderate to about 7.2 percent in 2027, supported by strong domestic demand and an emerging investment cycle.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms"
     },
@@ -4220,12 +4079,25 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-19T03:32:23.511103+00:00",
+          "title": "India, US Near Completion of Trade Deal Negotiations, Signing Dependent on US Tariff Rules",
+          "summary": "Commerce Secretary Rajesh Agrawal said the legal texts for the India‑US trade agreement are almost finalized, indicating the negotiations are close to completion. The parties cannot sign the deal until the United States establishes new tariff rules and resolves the ongoing Section 301 investigations.",
+          "importanceScore": 9.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
+      "lastSeen": "2026-11-19T03:32:23.511103+00:00",
       "cat": "India",
-      "latestTitle": "India, US near completion of trade deal talks, signing depends on US tariff rules and Section 301 resolution",
-      "latestSummary": "Commerce Secretary Rajesh Agrawal said the legal texts of the India‑US trade deal are almost finalised, indicating negotiations are close to completion. The agreement can be signed only after the United States puts in place new tariff rules and resolves the ongoing Section 301 investigations. Both governments have expressed a desire to conclude the pact quickly to strengthen their economic partnership.",
+      "latestTitle": "India, US Near Completion of Trade Deal Negotiations, Signing Dependent on US Tariff Rules",
+      "latestSummary": "Commerce Secretary Rajesh Agrawal said the legal texts for the India‑US trade agreement are almost finalized, indicating the negotiations are close to completion. The parties cannot sign the deal until the United States establishes new tariff rules and resolves the ongoing Section 301 investigations.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms"
     },
@@ -4245,13 +4117,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-19T03:32:23.511103+00:00",
+          "title": "Ukrainian and Russian troops fight inside old Soviet gas pipeline in Kharkiv",
+          "summary": "For roughly seven months Ukrainian forces have been living and engaging Russian troops inside an old Soviet gas pipeline in Ukraine’s Kharkiv region. The pipe is just over a metre in diameter, so combatants can only crawl, but its underground position shields them from the heavy drone activity that dominates the front‑line skies and hampers surface movements for both sides.",
+          "importanceScore": 13.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
+      "lastSeen": "2026-11-19T03:32:23.511103+00:00",
       "cat": "World",
-      "latestTitle": "Ukrainian and Russian forces clash inside a Soviet gas pipeline in Kharkiv",
-      "latestSummary": "For about seven months Ukrainian troops and Russian forces have been living and fighting inside an old Soviet gas pipeline in the Kharkiv region. The pipe is just over a metre in diameter, allowing only crawling, and it provides relative protection from the drones that now dominate the skies above the front line. The underground fighting has made forward advances difficult for both sides.",
-      "why": "It shows how both armies are moving combat underground to mitigate the impact of pervasive drone warfare.",
+      "latestTitle": "Ukrainian and Russian troops fight inside old Soviet gas pipeline in Kharkiv",
+      "latestSummary": "For roughly seven months Ukrainian forces have been living and engaging Russian troops inside an old Soviet gas pipeline in Ukraine’s Kharkiv region. The pipe is just over a metre in diameter, so combatants can only crawl, but its underground position shields them from the heavy drone activity that dominates the front‑line skies and hampers surface movements for both sides.",
+      "why": "The underground fighting shows how both sides are adapting tactics to counter pervasive drone surveillance and strikes.",
       "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
     },
     "685d299633699c": {
@@ -4320,15 +4205,28 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-19T03:32:23.511103+00:00",
+          "title": "India on track to meet $1 trillion export target by FY 2026‑27, says commerce secretary",
+          "summary": "India’s exports rose 16.6% in the first half of the current fiscal year, taking total shipments to a record $863 billion in the previous fiscal year. Commerce Secretary Rajesh Agrawal said the country remains on course to achieve its goal of $1 trillion in exports by FY 2026‑27, despite ongoing global trade uncertainties. The government continues to view India as a trusted trading partner.",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-18T21:58:55.467348+00:00",
+      "lastSeen": "2026-11-19T03:32:23.511103+00:00",
       "cat": "India",
-      "latestTitle": "India on track to hit $1 trillion exports target in FY27, says commerce secretary",
-      "latestSummary": "India’s exports rose 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a historic $863 billion in exports. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach a $1 trillion export target by FY 2026‑27, even as global trade uncertainties persist.",
+      "latestTitle": "India on track to meet $1 trillion export target by FY 2026‑27, says commerce secretary",
+      "latestSummary": "India’s exports rose 16.6% in the first half of the current fiscal year, taking total shipments to a record $863 billion in the previous fiscal year. Commerce Secretary Rajesh Agrawal said the country remains on course to achieve its goal of $1 trillion in exports by FY 2026‑27, despite ongoing global trade uncertainties. The government continues to view India as a trusted trading partner.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms"
     }
   },
-  "updated": "2026-11-18T21:58:55.467348+00:00"
+  "updated": "2026-11-19T03:32:23.511103+00:00"
 }
