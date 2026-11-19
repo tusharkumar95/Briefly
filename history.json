@@ -3,124 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-16T11:26:29.746420+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "08f4b4cdd9ab03",
-          "cat": "World",
-          "title": "Prince Harry makes surprise two‑day visit to Lviv to meet injured Ukrainian veterans",
-          "summary": "Prince Harry spent two days in Lviv, Ukraine, where he met injured service men and women, including Ukrainian competitors in his Invictus Games, and watched a wheelchair‑rugby match. He told the audience “You’re going to win the war” and toured projects that support treatment and rehabilitation for the country’s more than 150,000 wounded veterans. A press blackout was kept until he left the country, which continues to face missile attacks from Russia.",
-          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
-          "publishedAt": "2026-11-16T09:21:31+00:00",
-          "firstSeen": "2026-11-15T22:00:13+00:00",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "de70b21d288075",
-          "cat": "Indian Markets",
-          "title": "Maruti Suzuki Share Price Live Updates: Maruti Suzuki's Stock Price Analysis",
-          "summary": "Stay informed with the Maruti Suzuki Stock Liveblog, your comprehensive resource for real-time updates and in-depth analysis of a leading stock. Get the latest details on Maruti Suzuki, including: Last traded price 12571.0, Market capitalization: 395235.48, Volume: 662372, Price-to-earnings ratio 29.38, Earnings per share 427.83.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-16T03:35:24+00:00",
-          "firstSeen": "2026-11-16T03:35:24+00:00",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-16-nov-2026/liveblog/135871604.cms"
-        },
-        {
-          "id": "6f33ab7edf4157",
-          "cat": "Indian Markets",
-          "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Stock Price and Volume Insights",
-          "summary": "Keep track of Tech Mahindra's latest details, including: Last traded price 1776.4, Market capitalization: 174115.46, Volume: 1535420, Price-to-earnings ratio 31.51, Earnings per share 56.38. Explore the latest updates on HCL Tech stock, including: Last traded price 1384.6, Market capitalization: 375734.07, Volume: 2124094, Price-to-earnings ratio 20.51, Earnings per share 67.51.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-16T03:21:15+00:00",
-          "firstSeen": "2026-11-16T03:21:15+00:00",
-          "importanceScore": 13.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-live-16-nov-2026/liveblog/135871297.cms"
-        },
-        {
-          "id": "d29a7a88ce4720",
-          "cat": "India",
-          "title": "India’s unemployment rate eases to 4.9% in October",
-          "summary": "Government data released on Monday show that the unemployment rate for people aged 15 and above fell to 4.9% in October, down from 5.0% in September and below the 5.1% forecast in a Reuters poll. The figures represent a 0.1‑percentage‑point decline from the previous month.",
-          "why": "The modest decline may ease labour‑market pressure, informing policymakers and investors about the health of the Indian economy.",
-          "publishedAt": "2026-11-16T10:52:48+00:00",
-          "firstSeen": "2026-11-16T10:52:48+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-eases-to-4-9-in-october/articleshow/135884988.cms"
-        },
-        {
-          "id": "2bfa41fe47c45a",
-          "cat": "World",
-          "title": "Independent MP Helen Haines released from hospital after alleged car attack",
-          "summary": "Independent MP Helen Haines was released from hospital four weeks after being struck by a vehicle in an alleged attack outside her electorate office in Wangaratta, north‑east of Melbourne, on 19 October. The attack left her a double amputee, and she said she is “full of gratitude” upon discharge.",
-          "why": "The incident raises concerns about the safety of elected officials and the risk of politically‑motivated violence.",
-          "publishedAt": "2026-11-16T03:09:49+00:00",
-          "firstSeen": "2026-11-16T01:53:19+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "b344e72f6cce96",
-          "cat": "AI",
-          "title": "Indian chip startup Bharat Semi raises $24 million seed round for AI image sensors",
-          "summary": "Bharat Semi, a nearly five‑year‑old pre‑revenue semiconductor startup in New Delhi, announced a $24 million seed funding round to develop programmable AI‑enabled image sensors. The company says it has secured design wins with U.S. defense firm General Atomics and Indian firm Kaynes Semicon, and aims to begin commercial production in 2027. Co‑founder Vrinda Kapoor claims the sensors could reduce system costs by at least 70 % versus conventional sensor‑processor‑SoC configurations.",
-          "why": "The capital could help India expand its domestic chip ecosystem and offer cost‑effective AI vision solutions to global customers.",
-          "publishedAt": "2026-11-15T23:30:00+00:00",
-          "firstSeen": "2026-11-15T23:30:00+00:00",
-          "importanceScore": 11.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-16T22:07:55.556791+00:00",
       "changeSummary": {
         "new": 9,
@@ -1405,6 +1287,106 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-19T13:14:16.383966+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 0,
+        "continuing": 2
+      },
+      "stories": [
+        {
+          "id": "22a4fe20efb3c8",
+          "cat": "Indian Markets",
+          "title": "Hindalco shares trade at 910 rupees on 19 Nov 2026",
+          "summary": "At 06:31 PM IST on 19 November 2026, Hindalco Ltd.’s shares were last quoted at 910.0 rupees. The live data reported a market capitalisation of 203,171.75 crore rupees, a trading volume of 10,335,377 shares, a price‑to‑earnings ratio of 10.59 and earnings per share of 85.4 rupees. These figures reflect the market snapshot at that moment.",
+          "why": "Provides investors with a timely snapshot of Hindalco’s valuation and trading activity.",
+          "publishedAt": "2026-11-19T04:10:28+00:00",
+          "firstSeen": "2026-11-19T04:10:28+00:00",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hindalco-stock-price-today-live-19-nov-2026/liveblog/135977262.cms"
+        },
+        {
+          "id": "b718bf9106186a",
+          "cat": "Indian Markets",
+          "title": "Goldman Sachs names 22 Indian high‑growth stocks, initiates buy ratings on 21",
+          "summary": "Goldman Sachs identified 22 Indian companies it views as exposed to structural growth themes and started Buy ratings on 21 of them. The list features Bharti Airtel, Eternal and several banks—including HDFC Bank (27% EPS growth), ICICI Bank (15%), Axis Bank (19%), AU Small Finance Bank (27%) and Federal Bank (18%) projected for FY 2027‑28. Indian equities have rallied in recent weeks despite broader global market weakness.",
+          "why": "The new Buy ratings may steer institutional and retail investors toward firms seen as high‑growth opportunities.",
+          "publishedAt": "2026-11-19T07:05:20+00:00",
+          "firstSeen": "2026-11-19T07:05:20+00:00",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-names-22-high-growth-stocks-bharti-airtel-eternal-and-hdfc-bank-feature-in-the-list/slideshow/135981076.cms"
+        },
+        {
+          "id": "d5f6c650eff71b",
+          "cat": "Indian Markets",
+          "title": "Five BSE 200 stocks hit 52‑week highs as Sensex climbs",
+          "summary": "The benchmark Sensex rose 990 points to close at 83,021, and five BSE 200 stocks reached fresh 52‑week highs. Their closing prices ranged from Rs 191.85 to Rs 2,194.05, with monthly gains of about 15% to 28% and one stock up roughly 27% in the past month. The rally suggests heightened market activity.",
+          "why": "It indicates strong investor interest and momentum that could affect short‑term trading strategies.",
+          "publishedAt": "2026-11-19T12:26:29+00:00",
+          "firstSeen": "2026-11-19T12:26:29+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-among-5-stocks-hitting-52-week-highs-stock-rallies-up-to-27-in-a-month/slideshow/135991598.cms"
+        },
+        {
+          "id": "e2bdf1f8e07609",
+          "cat": "World",
+          "title": "Ukrainian troops fight Russian forces inside a narrow Soviet gas pipeline in Kharkiv region",
+          "summary": "Ukrainian soldiers have been stationed for roughly seven months inside an abandoned Soviet‑era gas pipeline in the Kharkiv region, where they are engaged in close‑quarter combat with Russian troops. The pipeline’s interior is just over a metre in diameter, forcing combatants to crawl. Its underground location shields the fighters from the heavy drone presence that dominates the skies above the front line, limiting aerial surveillance and movement for both sides.",
+          "why": "The subterranean setting reduces drone effectiveness and changes the tactical balance on the front.",
+          "publishedAt": "2026-11-18T17:00:40+00:00",
+          "firstSeen": "2026-11-18T17:00:40+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "f0a12a861f7785",
+          "cat": "India",
+          "title": "India on track to hit $1 trillion export target by FY 2026‑27, says commerce secretary",
+          "summary": "India's exports grew 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a total of $863 billion in exports, a historic high. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach the $1 trillion export goal for FY 2026‑27 despite global trade uncertainties.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-18T15:07:27+00:00",
+          "firstSeen": "2026-11-18T15:07:27+00:00",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1471,158 +1453,6 @@
       "latestSummary": "Around 23 stocks from the BSE 200 index advanced in all five consecutive sessions from November 8 to 13. Of these, we shortlisted 8 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 7% to 11%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms"
-    },
-    "edf28127a9b8b2": {
-      "id": "edf28127a9b8b2",
-      "firstSeen": "2026-11-11T19:34:55+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-11T22:02:11.002786+00:00",
-          "title": "British AI chip startup Fractile raises $720 million Series C",
-          "summary": "Fractile, a UK‑based AI‑chip developer, announced a $720 million Series C round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners and Redpoint, with participation from Britain’s Sovereign AI Fund. The financing values the company at over £5 billion (roughly $7 billion) and supports its full‑stack approach that pairs a machine‑learning compiler with a DRAM‑stacked chip design aimed at lowering inference costs.",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-12T03:03:10.522822+00:00",
-          "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-          "summary": "Fractile, a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. Alongside the likes of Axelera, Etched, and OLIX, this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips.",
-          "importanceScore": 11.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-12T11:18:27.150823+00:00",
-          "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-          "summary": "Fractile , a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. Alongside the likes of Axelera , Etched , and OLIX , this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips.",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-12T11:18:27.150823+00:00",
-      "cat": "AI",
-      "latestTitle": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-      "latestSummary": "Fractile , a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. Alongside the likes of Axelera , Etched , and OLIX , this makes Fractile one of the top-funded startup players in the race for purpose-built AI chips.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
-    },
-    "fe4d19670ba3fa": {
-      "id": "fe4d19670ba3fa",
-      "firstSeen": "2026-11-11T20:15:15+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-11T22:02:11.002786+00:00",
-          "title": "Why the data center you dread might never even be built",
-          "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-          "importanceScore": 9.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-12T03:03:10.522822+00:00",
-          "title": "Why the data center you dread might never even be built",
-          "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-          "importanceScore": 8.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-12T11:18:27.150823+00:00",
-          "title": "Why the data center you dread might never even be built",
-          "summary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-          "importanceScore": 7.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-12T11:18:27.150823+00:00",
-      "cat": "AI",
-      "latestTitle": "Why the data center you dread might never even be built",
-      "latestSummary": "Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. On this episode of TechCrunch’s Equity podcast, hosts Rebecca Bellan and Tim De Chant are joined by Brent Nelson , senior managing director of markets and strategy at Ascend Analytics , to separate the data center projects that are likely to get built from the ones that may never get off the ground.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
-    },
-    "0dde4e005b4d02": {
-      "id": "0dde4e005b4d02",
-      "firstSeen": "2026-11-12T04:06:09+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-12T11:18:27.150823+00:00",
-          "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Current Market Position",
-          "summary": "Get the latest details on Tech Mahindra, including: Last traded price 1774.0, Market capitalization: 173517.56, Volume: 2159991, Price-to-earnings ratio 31.46, Earnings per share 56.38. Get the latest details on Hindalco, including: Last traded price 964.0, Market capitalization: 216632.64, Volume: 12785033, Price-to-earnings ratio 11.29, Earnings per share 85.4.",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-12T11:18:27.150823+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Current Market Position",
-      "latestSummary": "Get the latest details on Tech Mahindra, including: Last traded price 1774.0, Market capitalization: 173517.56, Volume: 2159991, Price-to-earnings ratio 31.46, Earnings per share 56.38. Get the latest details on Hindalco, including: Last traded price 964.0, Market capitalization: 216632.64, Volume: 12785033, Price-to-earnings ratio 11.29, Earnings per share 85.4.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-today-live-updates-12-nov-2026/liveblog/135754851.cms"
-    },
-    "3343f44f188877": {
-      "id": "3343f44f188877",
-      "firstSeen": "2026-11-12T03:30:41+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-12T11:18:27.150823+00:00",
-          "title": "Axis Bank Share Price Live Updates: Axis Bank Price Movement Analysis",
-          "summary": "Dive into the current details of Axis Bank, including: Last traded price 1342.9, Market capitalization: 418137.4, Volume: 7842954, Price-to-earnings ratio 13.96, Earnings per share 96.19. Our liveblog offers a complete overview of Axis Bank through a blend of fundamental and technical indicators.",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-12T11:18:27.150823+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Axis Bank Share Price Live Updates: Axis Bank Price Movement Analysis",
-      "latestSummary": "Dive into the current details of Axis Bank, including: Last traded price 1342.9, Market capitalization: 418137.4, Volume: 7842954, Price-to-earnings ratio 13.96, Earnings per share 96.19. Our liveblog offers a complete overview of Axis Bank through a blend of fundamental and technical indicators.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-livestock-price-today-live-updates-12-nov-2026/liveblog/135753811.cms"
     },
     "20be96325024b4": {
       "id": "20be96325024b4",
@@ -4130,13 +3960,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-19T13:14:16.383966+00:00",
+          "title": "Ukrainian troops fight Russian forces inside a narrow Soviet gas pipeline in Kharkiv region",
+          "summary": "Ukrainian soldiers have been stationed for roughly seven months inside an abandoned Soviet‑era gas pipeline in the Kharkiv region, where they are engaged in close‑quarter combat with Russian troops. The pipeline’s interior is just over a metre in diameter, forcing combatants to crawl. Its underground location shields the fighters from the heavy drone presence that dominates the skies above the front line, limiting aerial surveillance and movement for both sides.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-19T03:32:23.511103+00:00",
+      "lastSeen": "2026-11-19T13:14:16.383966+00:00",
       "cat": "World",
-      "latestTitle": "Ukrainian and Russian troops fight inside old Soviet gas pipeline in Kharkiv",
-      "latestSummary": "For roughly seven months Ukrainian forces have been living and engaging Russian troops inside an old Soviet gas pipeline in Ukraine’s Kharkiv region. The pipe is just over a metre in diameter, so combatants can only crawl, but its underground position shields them from the heavy drone activity that dominates the front‑line skies and hampers surface movements for both sides.",
-      "why": "The underground fighting shows how both sides are adapting tactics to counter pervasive drone surveillance and strikes.",
+      "latestTitle": "Ukrainian troops fight Russian forces inside a narrow Soviet gas pipeline in Kharkiv region",
+      "latestSummary": "Ukrainian soldiers have been stationed for roughly seven months inside an abandoned Soviet‑era gas pipeline in the Kharkiv region, where they are engaged in close‑quarter combat with Russian troops. The pipeline’s interior is just over a metre in diameter, forcing combatants to crawl. Its underground location shields the fighters from the heavy drone presence that dominates the skies above the front line, limiting aerial surveillance and movement for both sides.",
+      "why": "The subterranean setting reduces drone effectiveness and changes the tactical balance on the front.",
       "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
     },
     "685d299633699c": {
@@ -4218,15 +4061,103 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-19T13:14:16.383966+00:00",
+          "title": "India on track to hit $1 trillion export target by FY 2026‑27, says commerce secretary",
+          "summary": "India's exports grew 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a total of $863 billion in exports, a historic high. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach the $1 trillion export goal for FY 2026‑27 despite global trade uncertainties.",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-19T03:32:23.511103+00:00",
+      "lastSeen": "2026-11-19T13:14:16.383966+00:00",
       "cat": "India",
-      "latestTitle": "India on track to meet $1 trillion export target by FY 2026‑27, says commerce secretary",
-      "latestSummary": "India’s exports rose 16.6% in the first half of the current fiscal year, taking total shipments to a record $863 billion in the previous fiscal year. Commerce Secretary Rajesh Agrawal said the country remains on course to achieve its goal of $1 trillion in exports by FY 2026‑27, despite ongoing global trade uncertainties. The government continues to view India as a trusted trading partner.",
+      "latestTitle": "India on track to hit $1 trillion export target by FY 2026‑27, says commerce secretary",
+      "latestSummary": "India's exports grew 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a total of $863 billion in exports, a historic high. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach the $1 trillion export goal for FY 2026‑27 despite global trade uncertainties.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms"
+    },
+    "22a4fe20efb3c8": {
+      "id": "22a4fe20efb3c8",
+      "firstSeen": "2026-11-19T04:10:28+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-19T13:14:16.383966+00:00",
+          "title": "Hindalco shares trade at 910 rupees on 19 Nov 2026",
+          "summary": "At 06:31 PM IST on 19 November 2026, Hindalco Ltd.’s shares were last quoted at 910.0 rupees. The live data reported a market capitalisation of 203,171.75 crore rupees, a trading volume of 10,335,377 shares, a price‑to‑earnings ratio of 10.59 and earnings per share of 85.4 rupees. These figures reflect the market snapshot at that moment.",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-19T13:14:16.383966+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Hindalco shares trade at 910 rupees on 19 Nov 2026",
+      "latestSummary": "At 06:31 PM IST on 19 November 2026, Hindalco Ltd.’s shares were last quoted at 910.0 rupees. The live data reported a market capitalisation of 203,171.75 crore rupees, a trading volume of 10,335,377 shares, a price‑to‑earnings ratio of 10.59 and earnings per share of 85.4 rupees. These figures reflect the market snapshot at that moment.",
+      "why": "Provides investors with a timely snapshot of Hindalco’s valuation and trading activity.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hindalco-stock-price-today-live-19-nov-2026/liveblog/135977262.cms"
+    },
+    "b718bf9106186a": {
+      "id": "b718bf9106186a",
+      "firstSeen": "2026-11-19T07:05:20+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-19T13:14:16.383966+00:00",
+          "title": "Goldman Sachs names 22 Indian high‑growth stocks, initiates buy ratings on 21",
+          "summary": "Goldman Sachs identified 22 Indian companies it views as exposed to structural growth themes and started Buy ratings on 21 of them. The list features Bharti Airtel, Eternal and several banks—including HDFC Bank (27% EPS growth), ICICI Bank (15%), Axis Bank (19%), AU Small Finance Bank (27%) and Federal Bank (18%) projected for FY 2027‑28. Indian equities have rallied in recent weeks despite broader global market weakness.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-19T13:14:16.383966+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Goldman Sachs names 22 Indian high‑growth stocks, initiates buy ratings on 21",
+      "latestSummary": "Goldman Sachs identified 22 Indian companies it views as exposed to structural growth themes and started Buy ratings on 21 of them. The list features Bharti Airtel, Eternal and several banks—including HDFC Bank (27% EPS growth), ICICI Bank (15%), Axis Bank (19%), AU Small Finance Bank (27%) and Federal Bank (18%) projected for FY 2027‑28. Indian equities have rallied in recent weeks despite broader global market weakness.",
+      "why": "The new Buy ratings may steer institutional and retail investors toward firms seen as high‑growth opportunities.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-names-22-high-growth-stocks-bharti-airtel-eternal-and-hdfc-bank-feature-in-the-list/slideshow/135981076.cms"
+    },
+    "d5f6c650eff71b": {
+      "id": "d5f6c650eff71b",
+      "firstSeen": "2026-11-19T12:26:29+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-19T13:14:16.383966+00:00",
+          "title": "Five BSE 200 stocks hit 52‑week highs as Sensex climbs",
+          "summary": "The benchmark Sensex rose 990 points to close at 83,021, and five BSE 200 stocks reached fresh 52‑week highs. Their closing prices ranged from Rs 191.85 to Rs 2,194.05, with monthly gains of about 15% to 28% and one stock up roughly 27% in the past month. The rally suggests heightened market activity.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-19T13:14:16.383966+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Five BSE 200 stocks hit 52‑week highs as Sensex climbs",
+      "latestSummary": "The benchmark Sensex rose 990 points to close at 83,021, and five BSE 200 stocks reached fresh 52‑week highs. Their closing prices ranged from Rs 191.85 to Rs 2,194.05, with monthly gains of about 15% to 28% and one stock up roughly 27% in the past month. The rally suggests heightened market activity.",
+      "why": "It indicates strong investor interest and momentum that could affect short‑term trading strategies.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-among-5-stocks-hitting-52-week-highs-stock-rallies-up-to-27-in-a-month/slideshow/135991598.cms"
     }
   },
-  "updated": "2026-11-19T03:32:23.511103+00:00"
+  "updated": "2026-11-19T13:14:16.383966+00:00"
 }
