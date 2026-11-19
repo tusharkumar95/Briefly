@@ -1,64 +1,90 @@
 {
-  "updated": "2026-11-19T13:14:16.383966+00:00",
+  "updated": "2026-11-19T21:38:40.987064+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 22,
-    "enrichedCandidates": 80,
-    "readableCandidates": 52,
-    "eventClusters": 42,
-    "materialEvents": 16,
-    "selectedEvents": 5,
-    "seededStories": 5,
+    "nonNoiseCandidates": 79,
+    "officialOrPrimaryCandidates": 27,
+    "enrichedCandidates": 79,
+    "readableCandidates": 50,
+    "eventClusters": 50,
+    "materialEvents": 20,
+    "selectedEvents": 6,
+    "seededStories": 4,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "22a4fe20efb3c8",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "2096056fa8b135",
+      "cat": "AI",
+      "icon": "✦",
       "categories": [
-        "Indian Markets"
+        "AI"
       ],
-      "title": "Hindalco shares trade at 910 rupees on 19 Nov 2026",
-      "publishedAt": "2026-11-19T04:10:28+00:00",
-      "importanceScore": 13.6,
+      "title": "Anthropic allocates 5% of IPO shares to Public Benefit Fund, creating $80 billion endowment",
+      "publishedAt": "2026-11-19T19:10:45+00:00",
+      "importanceScore": 14.6,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hindalco-stock-price-today-live-19-nov-2026/liveblog/135977262.cms",
-      "summary": "At 06:31 PM IST on 19 November 2026, Hindalco Ltd.’s shares were last quoted at 910.0 rupees. The live data reported a market capitalisation of 203,171.75 crore rupees, a trading volume of 10,335,377 shares, a price‑to‑earnings ratio of 10.59 and earnings per share of 85.4 rupees. These figures reflect the market snapshot at that moment.",
-      "why": "Provides investors with a timely snapshot of Hindalco’s valuation and trading activity.",
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "summary": "Anthropic’s IPO set aside roughly 5% of its shares—about 850 million—to a Public Benefit Fund. Using the reported trading price of about $95 per share, the fund is valued at approximately $80 billion. The PBF’s first commitment is $200 million to study AI’s impact on workers, and the company separately donated $50 million to San Francisco, which it says came from its own resources, not the PBF.",
+      "why": "The fund provides a sizable, dedicated capital source for AI safety research and broader philanthropic initiatives, potentially shaping the industry’s societal impact.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hindalco-stock-price-today-live-19-nov-2026/liveblog/135977262.cms",
-          "publishedAt": "2026-11-19T04:10:28+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-stock-price-today-live-19-nov-2026/liveblog/135976658.cms",
-          "publishedAt": "2026-11-19T03:45:31+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-stock-price-live-updates-19-nov-2026/liveblog/135976359.cms",
-          "publishedAt": "2026-11-19T03:26:15+00:00"
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+          "publishedAt": "2026-11-19T19:10:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-19T04:10:28+00:00",
+      "firstSeen": "2026-11-19T19:10:45+00:00",
       "status": "New",
-      "lastChecked": "2026-11-19T13:14:16.383966+00:00",
+      "lastChecked": "2026-11-19T21:38:40.987064+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "969bc50e9d28f2",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "European leaders say they are ready to negotiate with Russia on Ukraine war",
+      "publishedAt": "2026-11-19T21:21:43+00:00",
+      "importanceScore": 13.5,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "summary": "European leaders at Berlin's \"Coalition of the Willing\" summit said Europe has a clear, united negotiating position and is prepared to discuss ending the war in Ukraine with Russia. UK Prime Minister Andy Burnham and German Chancellor Friedrich Merz criticised Moscow's maximalist demands as unrealistic. US envoy Jared Kushner noted President Trump wants a deal with Moscow alongside Europe, while President Putin has rejected any European role in US‑led talks.",
+      "why": "It signals a potential shift toward diplomatic engagement that could affect efforts to resolve the Ukraine conflict.",
+      "confidence": "medium",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-19T21:21:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-19T21:21:43+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-19T21:38:40.987064+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -70,17 +96,17 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "Goldman Sachs names 22 Indian high‑growth stocks, initiates buy ratings on 21",
+      "title": "Goldman Sachs names 22 ‘high-growth’ stocks; Bharti Airtel, Eternal and HDFC Bank feature in the list",
       "publishedAt": "2026-11-19T07:05:20+00:00",
-      "importanceScore": 12.7,
+      "importanceScore": 11.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-names-22-high-growth-stocks-bharti-airtel-eternal-and-hdfc-bank-feature-in-the-list/slideshow/135981076.cms",
-      "summary": "Goldman Sachs identified 22 Indian companies it views as exposed to structural growth themes and started Buy ratings on 21 of them. The list features Bharti Airtel, Eternal and several banks—including HDFC Bank (27% EPS growth), ICICI Bank (15%), Axis Bank (19%), AU Small Finance Bank (27%) and Federal Bank (18%) projected for FY 2027‑28. Indian equities have rallied in recent weeks despite broader global market weakness.",
-      "why": "The new Buy ratings may steer institutional and retail investors toward firms seen as high‑growth opportunities.",
-      "confidence": "medium",
+      "summary": "Against this backdrop, Goldman Sachs has identified 22 high-growth companies with exposure to structural growth themes and initiated Buy ratings on 21 of them. Also read | Stock picks of the week: 5 stocks with consistent score improvement and upside potential of up to 31% in 1 year, according to analysts ​ In its list of top banking stocks, Goldman Sachs has initiated a ‘buy’ rating for HDFC Bank, projecting earnings per share (EPS) growth of 27% in 2027-28.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -89,107 +115,35 @@
         }
       ],
       "firstSeen": "2026-11-19T07:05:20+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-19T13:14:16.383966+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "d5f6c650eff71b",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Five BSE 200 stocks hit 52‑week highs as Sensex climbs",
-      "publishedAt": "2026-11-19T12:26:29+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-among-5-stocks-hitting-52-week-highs-stock-rallies-up-to-27-in-a-month/slideshow/135991598.cms",
-      "summary": "The benchmark Sensex rose 990 points to close at 83,021, and five BSE 200 stocks reached fresh 52‑week highs. Their closing prices ranged from Rs 191.85 to Rs 2,194.05, with monthly gains of about 15% to 28% and one stock up roughly 27% in the past month. The rally suggests heightened market activity.",
-      "why": "It indicates strong investor interest and momentum that could affect short‑term trading strategies.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-among-5-stocks-hitting-52-week-highs-stock-rallies-up-to-27-in-a-month/slideshow/135991598.cms",
-          "publishedAt": "2026-11-19T12:26:29+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-19T12:26:29+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-19T13:14:16.383966+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "e2bdf1f8e07609",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Ukrainian troops fight Russian forces inside a narrow Soviet gas pipeline in Kharkiv region",
-      "publishedAt": "2026-11-18T17:00:40+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukrainian soldiers have been stationed for roughly seven months inside an abandoned Soviet‑era gas pipeline in the Kharkiv region, where they are engaged in close‑quarter combat with Russian troops. The pipeline’s interior is just over a metre in diameter, forcing combatants to crawl. Its underground location shields the fighters from the heavy drone presence that dominates the skies above the front line, limiting aerial surveillance and movement for both sides.",
-      "why": "The subterranean setting reduces drone effectiveness and changes the tactical balance on the front.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-18T17:00:40+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-18T17:00:40+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-19T13:14:16.383966+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
+      "lastChecked": "2026-11-19T21:38:40.987064+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Ukrainian and Russian troops fight inside old Soviet gas pipeline in Kharkiv",
-      "previousSummary": "For roughly seven months Ukrainian forces have been living and engaging Russian troops inside an old Soviet gas pipeline in Ukraine’s Kharkiv region. The pipe is just over a metre in diameter, so combatants can only crawl, but its underground position shields them from the heavy drone activity that dominates the front‑line skies and hampers surface movements for both sides.",
-      "previousPublishedAt": "2026-11-18T17:00:40+00:00",
+      "verificationScope": "source-backed",
+      "previousTitle": "Goldman Sachs names 22 Indian high‑growth stocks, initiates buy ratings on 21",
+      "previousSummary": "Goldman Sachs identified 22 Indian companies it views as exposed to structural growth themes and started Buy ratings on 21 of them. The list features Bharti Airtel, Eternal and several banks—including HDFC Bank (27% EPS growth), ICICI Bank (15%), Axis Bank (19%), AU Small Finance Bank (27%) and Federal Bank (18%) projected for FY 2027‑28. Indian equities have rallied in recent weeks despite broader global market weakness.",
+      "previousPublishedAt": "2026-11-19T07:05:20+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "previousImportanceScore": 12.7,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "f0a12a861f7785",
+      "id": "8d48c05465a5c7",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India on track to hit $1 trillion export target by FY 2026‑27, says commerce secretary",
-      "publishedAt": "2026-11-18T15:07:27+00:00",
-      "importanceScore": 10.2,
+      "title": "India needs $430 billion in exports in five months to meet FY27 target",
+      "publishedAt": "2026-11-19T15:44:07+00:00",
+      "importanceScore": 10.9,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms",
-      "summary": "India's exports grew 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a total of $863 billion in exports, a historic high. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach the $1 trillion export goal for FY 2026‑27 despite global trade uncertainties.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-needs-430-billion-in-exports-in-five-months-to-meet-fy27-target-piyush-goyal/articleshow/135997642.cms",
+      "summary": "Union Commerce Minister Piyush Goyal said India must achieve about $430 billion in exports from November to March to meet its FY27 goal, after reaching 57 % of the target by the end of October. October exports hit an all‑time high of nearly $90 billion, and the government aims for $1 trillion in total exports for the fiscal year.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -197,42 +151,37 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms",
-          "publishedAt": "2026-11-18T15:07:27+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-needs-430-billion-in-exports-in-five-months-to-meet-fy27-target-piyush-goyal/articleshow/135997642.cms",
+          "publishedAt": "2026-11-19T15:44:07+00:00"
         }
       ],
-      "firstSeen": "2026-11-18T15:07:27+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-19T13:14:16.383966+00:00",
+      "firstSeen": "2026-11-19T15:44:07+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-19T21:38:40.987064+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "India on track to meet $1 trillion export target by FY 2026‑27, says commerce secretary",
-      "previousSummary": "India’s exports rose 16.6% in the first half of the current fiscal year, taking total shipments to a record $863 billion in the previous fiscal year. Commerce Secretary Rajesh Agrawal said the country remains on course to achieve its goal of $1 trillion in exports by FY 2026‑27, despite ongoing global trade uncertainties. The government continues to view India as a trusted trading partner.",
-      "previousPublishedAt": "2026-11-18T15:07:27+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.2,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 5,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-19T03:32:23.511103+00:00",
+  "previousUpdated": "2026-11-19T13:14:16.383966+00:00",
   "changeSummary": {
     "new": 3,
-    "updated": 0,
-    "continuing": 2
+    "updated": 1,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-11-16T22:07:55.556791+00:00",
-    "updated": "2026-11-19T13:14:16.383966+00:00",
-    "snapshotCount": 9,
-    "eventCount": 79,
+    "updated": "2026-11-19T21:38:40.987064+00:00",
+    "snapshotCount": 10,
+    "eventCount": 81,
     "retentionHours": 72
   }
 }
