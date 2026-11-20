@@ -1,60 +1,127 @@
 {
-  "updated": "2026-11-20T12:57:04.128275+00:00",
+  "updated": "2026-11-20T21:09:02.083378+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 17,
+    "officialOrPrimaryCandidates": 22,
     "enrichedCandidates": 79,
-    "readableCandidates": 59,
-    "eventClusters": 48,
-    "materialEvents": 16,
-    "selectedEvents": 7,
-    "seededStories": 6,
+    "readableCandidates": 54,
+    "eventClusters": 52,
+    "materialEvents": 21,
+    "selectedEvents": 9,
+    "seededStories": 9,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "fb5a10d741fa91",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "8e637e72b16462",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Indian Markets"
+        "World"
       ],
-      "title": "Axis Bank Share Price Live Updates: Axis Bank Stock Price History",
-      "publishedAt": "2026-11-20T04:34:57+00:00",
-      "importanceScore": 15.0,
+      "title": "Trump says he will ban US firms from building AI data centres overseas",
+      "publishedAt": "2026-11-20T20:54:12+00:00",
+      "importanceScore": 13.5,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-stock-price-today-live-20-nov-2026/liveblog/136013496.cms",
-      "summary": "Stay ahead of the market with our in-depth coverage of Adani Ent, including: Last traded price 2709.0, Market capitalization: 366723.45, Volume: 870848, Price-to-earnings ratio 63.91, Earnings per share 42.39. Dive into the current details of HUL, including: Last traded price 2052.5, Market capitalization: 482253.61, Volume: 1575224, Price-to-earnings ratio 32.02, Earnings per share 64.1.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "summary": "Donald Trump announced that he intends to prohibit U.S. companies from constructing AI data centres outside the United States and warned of a “tremendous tax” for firms that do so. He made the remarks at a press briefing after returning from Asia, providing little detail on how the policy would be enforced. The issue was prominent in the recent midterm elections, and firms such as Meta and Google already have overseas data‑centre agreements.",
+      "why": "The move could compel major tech firms to keep AI infrastructure domestic, reshaping investment and supply‑chain decisions.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-20T20:54:12+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T20:54:12+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "2e157fe1c79ec1",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "Alberta to require upfront cleanup payments for new oil and gas wells",
+      "publishedAt": "2026-11-20T20:13:22+00:00",
+      "importanceScore": 13.2,
+      "sourceCount": 2,
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/canada/calgary/alberta-well-clean-up-9.7429047?cmp=rss",
+      "summary": "Legislation in Alberta’s Energy, Environment and Utilities Statutes Amendment Act, 2026 will require oil and gas companies to make an initial payment of up to $50,000 for each well drilled after April 1, 2027, followed by yearly incremental payments over ten years. The money stays attached to the well regardless of ownership changes. Rancher Bill Heidecker, president of the Alberta Surface Rights Federation, said the measure looks good on paper but raised questions about implementation and enforcement, noting a backlog of thousands of wells still awaiting proper closure.",
+      "why": "It creates a dedicated fund to help address the orphan‑well problem and lower the risk of environmental harm.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "cbc.ca",
+          "url": "https://www.cbc.ca/news/canada/calgary/alberta-well-clean-up-9.7429047?cmp=rss",
+          "publishedAt": "2026-11-20T00:10:45+00:00"
+        },
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12159745/alberta-orphan-oil-and-gas-well-cleanup-fund/",
+          "publishedAt": "2026-11-20T20:13:22+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T20:13:22+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "f1e4cf26a1dc6d",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Chips can survive the space environment",
+      "publishedAt": "2026-11-20T17:40:01+00:00",
+      "importanceScore": 12.4,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "summary": "Even older chips retain value — according to Compute Credit Index Research , some H100s are selling for about half of their original cost basis from 2023, while some H200 configurations are selling for the same price they did when introduced in 2024. But you’re not going to repossess chips installed in a satellite orbiting 300 miles above Earth at 17,500 miles per hour.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-stock-price-today-live-20-nov-2026/liveblog/136013496.cms",
-          "publishedAt": "2026-11-20T04:34:57+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-share-price-today-live-20-nov-2026/liveblog/136013489.cms",
-          "publishedAt": "2026-11-20T04:34:44+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-share-price-today-live-20-nov-2026/liveblog/136013481.cms",
-          "publishedAt": "2026-11-20T04:34:32+00:00"
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+          "publishedAt": "2026-11-20T17:40:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-20T04:34:57+00:00",
+      "firstSeen": "2026-11-20T17:40:01+00:00",
       "status": "New",
-      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -70,106 +137,39 @@
       "categories": [
         "World"
       ],
-      "title": "Russian cruise missile breaches Polish airspace during Western military exercise",
-      "publishedAt": "2026-11-20T12:41:52+00:00",
-      "importanceScore": 12.3,
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "publishedAt": "2026-11-20T16:54:29+00:00",
+      "importanceScore": 12.2,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-      "summary": "Early Friday, three objects entered Poland’s airspace, one of which was identified as a Russian cruise missile, according to Polish authorities. No injuries or damage were reported. Prime Minister Donald Tusk said the intrusion did not appear accidental and described it as a provocation from Moscow, occurring while Western allies were conducting a large‑scale military exercise in the region.",
-      "why": "The incident heightens concerns that the Ukraine conflict could spill into NATO territory, prompting increased security alerts.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "Poland says a Russian cruise missile was among three objects that violated its airspace early on Friday, with Prime Minister Donald Tusk saying it did not appear to be an accident when Western military exercises were taking place in the region. Defence Minister Wladyslaw Kosiniak-Kamysz said the Kh-101 missile hit a rural area at Nowy Lipowiec in southeastern Poland about 50km (31 miles) from the Ukrainian border.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
           "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-20T12:41:52+00:00"
+          "publishedAt": "2026-11-20T16:54:29+00:00"
         }
       ],
       "firstSeen": "2026-11-20T12:41:52+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
+      "verificationScope": "source-backed",
+      "previousTitle": "Russian cruise missile breaches Polish airspace during Western military exercise",
+      "previousSummary": "Early Friday, three objects entered Poland’s airspace, one of which was identified as a Russian cruise missile, according to Polish authorities. No injuries or damage were reported. Prime Minister Donald Tusk said the intrusion did not appear accidental and described it as a provocation from Moscow, occurring while Western allies were conducting a large‑scale military exercise in the region.",
+      "previousPublishedAt": "2026-11-20T12:41:52+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.3,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "5382442bbb4d0f",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "RBI likely to raise repo rate to 5.75% in December, 6% by February, poll shows",
-      "publishedAt": "2026-11-20T09:48:50+00:00",
-      "importanceScore": 12.2,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms",
-      "summary": "The Reserve Bank of India is expected to increase its repo rate by 25 basis points to 5.75% in December, according to a Reuters poll reported by the Economic Times. A further 25‑basis‑point hike is projected for February, taking the rate to 6% as inflation is seen breaching the RBI’s 6% tolerance limit, with rising energy costs and uneven monsoon rainfall identified as contributing factors.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms",
-          "publishedAt": "2026-11-20T09:48:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-20T09:48:50+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "b010bf330b6f47",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Anthropic shares drop up to 7.4% in pre‑market trade on day two",
-      "publishedAt": "2026-11-20T09:36:25+00:00",
-      "importanceScore": 11.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
-      "summary": "Anthropic’s stock fell as much as 7.4% in pre‑market trading on its second day of trading, reversing part of the 39% jump it posted after its record‑setting IPO. The decline occurred amid a broad market sell‑off and investor worries about a steep valuation and competitive pressures in the AI sector. Despite the dip, the shares closed the day 17% above the IPO price.",
-      "why": "The move signals early investor caution toward the AI firm’s high valuation and may influence sentiment toward similar tech IPOs.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
-          "publishedAt": "2026-11-20T09:36:25+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-20T09:36:25+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
       "id": "969bc50e9d28f2",
@@ -178,14 +178,14 @@
       "categories": [
         "World"
       ],
-      "title": "Europe says it is ready to negotiate with Russia to end Ukraine war",
+      "title": "European leaders say they are ready to negotiate with Russia on ending Ukraine war",
       "publishedAt": "2026-11-20T00:50:24+00:00",
       "importanceScore": 11.5,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "summary": "At a Berlin summit of the “Coalition of the Willing,” European leaders said they have a united negotiating position and are prepared to discuss ending the war in Ukraine. UK Prime Minister Andy Burnham said Europe is clear and consistent, while German Chancellor Friedrich Merz called Moscow’s maximalist demands unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow alongside Europe, and President Vladimir Putin has rejected any European role in the US‑led peace talks.",
-      "why": "A coordinated European stance could shape diplomatic dynamics and affect the chances of a peace settlement.",
+      "summary": "European leaders said they are prepared to negotiate with Russia to end the war in Ukraine, stressing a united negotiating stance. UK politician Andy Burnham and German Chancellor Friedrich Merz described Moscow’s maximalist demands as unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Putin has rejected any European role in the US‑led peace talks.",
+      "why": "It indicates a possible shift toward a broader diplomatic effort to resolve the conflict.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
@@ -198,19 +198,142 @@
       ],
       "firstSeen": "2026-11-19T21:21:43+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "European leaders say they are ready to negotiate with Russia on Ukraine war",
-      "previousSummary": "At the Berlin “Coalition of the Willing” summit, European leaders announced they are prepared to enter talks with Russia to end the war in Ukraine. UK Prime Minister Andy Burnham said Europe has a clear, consistent and united negotiating position, and German Chancellor Friedrich Merz said Moscow’s maximalist demands are unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Vladimir Putin has so far rejected any European role in US‑led peace talks.",
+      "previousTitle": "Europe says it is ready to negotiate with Russia to end Ukraine war",
+      "previousSummary": "At a Berlin summit of the “Coalition of the Willing,” European leaders said they have a united negotiating position and are prepared to discuss ending the war in Ukraine. UK Prime Minister Andy Burnham said Europe is clear and consistent, while German Chancellor Friedrich Merz called Moscow’s maximalist demands unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow alongside Europe, and President Vladimir Putin has rejected any European role in the US‑led peace talks.",
       "previousPublishedAt": "2026-11-20T00:50:24+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.5,
+      "previousImportanceScore": 11.5,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "5382442bbb4d0f",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "RBI expected to raise repo rate to 5.75% in December, 6% by February",
+      "publishedAt": "2026-11-20T09:48:50+00:00",
+      "importanceScore": 11.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms",
+      "summary": "A Reuters poll reported by the Economic Times indicates the Reserve Bank of India plans to increase its repo rate by 25 basis points to 5.75% in December and again to 6% in February. The moves are driven by inflation moving above the RBI’s 6% tolerance limit, amid rising energy costs and uneven monsoon rainfall. The RBI is projected to deliver two more hikes by February.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms",
+          "publishedAt": "2026-11-20T09:48:50+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T09:48:50+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "RBI likely to raise repo rate to 5.75% in December, 6% by February, poll shows",
+      "previousSummary": "The Reserve Bank of India is expected to increase its repo rate by 25 basis points to 5.75% in December, according to a Reuters poll reported by the Economic Times. A further 25‑basis‑point hike is projected for February, taking the rate to 6% as inflation is seen breaching the RBI’s 6% tolerance limit, with rising energy costs and uneven monsoon rainfall identified as contributing factors.",
+      "previousPublishedAt": "2026-11-20T09:48:50+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.2,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "fb5a10d741fa91",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Axis Bank Share Price Highlights: Axis Bank Stock Price History",
+      "publishedAt": "2026-11-20T04:34:07+00:00",
+      "importanceScore": 11.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/axis-bank-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136013459.cms",
+      "summary": "Welcome to the Axis Bank Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of Axis Bank, including: Last traded price 1446.0, Market capitalization: 450239.54, Volume: 21477017, Price-to-earnings ratio 15.03, Earnings per share 96.19.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/axis-bank-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136013459.cms",
+          "publishedAt": "2026-11-20T04:34:07+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T04:34:57+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Axis Bank Share Price Live Updates: Axis Bank Stock Price History",
+      "previousSummary": "Stay ahead of the market with our in-depth coverage of Adani Ent, including: Last traded price 2709.0, Market capitalization: 366723.45, Volume: 870848, Price-to-earnings ratio 63.91, Earnings per share 42.39. Dive into the current details of HUL, including: Last traded price 2052.5, Market capitalization: 482253.61, Volume: 1575224, Price-to-earnings ratio 32.02, Earnings per share 64.1.",
+      "previousPublishedAt": "2026-11-20T04:34:57+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 15.0,
       "changed": true,
-      "change": "Its significance score fell as the evidence changed.",
+      "change": "Material details changed since the previous brief.",
       "lifecycle": "Updated"
+    },
+    {
+      "id": "b010bf330b6f47",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Anthropic shares fall up to 7.4% in pre‑market trade on second day",
+      "publishedAt": "2026-11-20T09:36:25+00:00",
+      "importanceScore": 10.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
+      "summary": "Anthropic’s stock dropped as much as 7.4% in pre‑market trading on its second day of listing, after a 39% surge from the IPO price on Thursday that left the shares 17% above the offering level at the close. The decline unfolded amid a global market sell‑off and concerns about the company’s steep valuation and competitive pressures in the AI sector.",
+      "why": "The slide reflects investor caution toward high‑valuation AI IPOs during a broader market downturn.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
+          "publishedAt": "2026-11-20T09:36:25+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T09:36:25+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Anthropic shares drop up to 7.4% in pre‑market trade on day two",
+      "previousSummary": "Anthropic’s stock fell as much as 7.4% in pre‑market trading on its second day of trading, reversing part of the 39% jump it posted after its record‑setting IPO. The decline occurred amid a broad market sell‑off and investor worries about a steep valuation and competitive pressures in the AI sector. Despite the dip, the shares closed the day 17% above the IPO price.",
+      "previousPublishedAt": "2026-11-20T09:36:25+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "4015123737f8aa",
@@ -219,13 +342,13 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "Rupee appreciation could cut earnings for Indian IT firms, report says",
+      "title": "Rupee appreciation may cut Indian IT firms' FY27 earnings",
       "publishedAt": "2026-11-20T09:36:14+00:00",
-      "importanceScore": 11.3,
+      "importanceScore": 10.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms",
-      "summary": "A new report says the strengthening Indian rupee may lower earnings for Indian IT companies. The stronger rupee against foreign currencies is expected to hit profitability, particularly for firms with significant exposure to European markets. With traditional cost‑saving measures becoming scarce, maintaining margins will be challenging amid the current economic environment.",
+      "summary": "A new report says that a stronger Indian rupee could reduce earnings for Indian IT companies in fiscal year 2027. The impact is expected to be greatest for firms with sizable European client exposure, as a stronger rupee erodes foreign‑currency revenue. With traditional cost‑saving measures becoming scarce, maintaining profit margins will be harder amid a challenging pricing environment.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -238,32 +361,37 @@
         }
       ],
       "firstSeen": "2026-11-20T09:36:14+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Rupee appreciation could cut earnings for Indian IT firms, report says",
+      "previousSummary": "A new report says the strengthening Indian rupee may lower earnings for Indian IT companies. The stronger rupee against foreign currencies is expected to hit profitability, particularly for firms with significant exposure to European markets. With traditional cost‑saving measures becoming scarce, maintaining margins will be challenging amid the current economic environment.",
+      "previousPublishedAt": "2026-11-20T09:36:14+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.3,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 5,
+  "jarvisEditedCount": 6,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-20T03:20:32.159352+00:00",
+  "previousUpdated": "2026-11-20T12:57:04.128275+00:00",
   "changeSummary": {
-    "new": 5,
-    "updated": 1,
-    "continuing": 0
+    "new": 3,
+    "updated": 2,
+    "continuing": 4
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-17T14:28:26.673333+00:00",
-    "updated": "2026-11-20T12:57:04.128275+00:00",
+    "availableFrom": "2026-11-17T22:54:34.896201+00:00",
+    "updated": "2026-11-20T21:09:02.083378+00:00",
     "snapshotCount": 10,
-    "eventCount": 83,
+    "eventCount": 82,
     "retentionHours": 72
   }
 }
