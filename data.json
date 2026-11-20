@@ -1,22 +1,176 @@
 {
-  "updated": "2026-11-20T03:20:32.159352+00:00",
+  "updated": "2026-11-20T12:57:04.128275+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 28,
-    "enrichedCandidates": 80,
-    "readableCandidates": 51,
-    "eventClusters": 51,
-    "materialEvents": 22,
-    "selectedEvents": 6,
-    "seededStories": 5,
+    "officialOrPrimaryCandidates": 17,
+    "enrichedCandidates": 79,
+    "readableCandidates": 59,
+    "eventClusters": 48,
+    "materialEvents": 16,
+    "selectedEvents": 7,
+    "seededStories": 6,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "fb5a10d741fa91",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Axis Bank Share Price Live Updates: Axis Bank Stock Price History",
+      "publishedAt": "2026-11-20T04:34:57+00:00",
+      "importanceScore": 15.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-stock-price-today-live-20-nov-2026/liveblog/136013496.cms",
+      "summary": "Stay ahead of the market with our in-depth coverage of Adani Ent, including: Last traded price 2709.0, Market capitalization: 366723.45, Volume: 870848, Price-to-earnings ratio 63.91, Earnings per share 42.39. Dive into the current details of HUL, including: Last traded price 2052.5, Market capitalization: 482253.61, Volume: 1575224, Price-to-earnings ratio 32.02, Earnings per share 64.1.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-stock-price-today-live-20-nov-2026/liveblog/136013496.cms",
+          "publishedAt": "2026-11-20T04:34:57+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-share-price-today-live-20-nov-2026/liveblog/136013489.cms",
+          "publishedAt": "2026-11-20T04:34:44+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-share-price-today-live-20-nov-2026/liveblog/136013481.cms",
+          "publishedAt": "2026-11-20T04:34:32+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T04:34:57+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "7f043ffbe45c3d",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Russian cruise missile breaches Polish airspace during Western military exercise",
+      "publishedAt": "2026-11-20T12:41:52+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "summary": "Early Friday, three objects entered Poland’s airspace, one of which was identified as a Russian cruise missile, according to Polish authorities. No injuries or damage were reported. Prime Minister Donald Tusk said the intrusion did not appear accidental and described it as a provocation from Moscow, occurring while Western allies were conducting a large‑scale military exercise in the region.",
+      "why": "The incident heightens concerns that the Ukraine conflict could spill into NATO territory, prompting increased security alerts.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-20T12:41:52+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T12:41:52+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "5382442bbb4d0f",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "RBI likely to raise repo rate to 5.75% in December, 6% by February, poll shows",
+      "publishedAt": "2026-11-20T09:48:50+00:00",
+      "importanceScore": 12.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms",
+      "summary": "The Reserve Bank of India is expected to increase its repo rate by 25 basis points to 5.75% in December, according to a Reuters poll reported by the Economic Times. A further 25‑basis‑point hike is projected for February, taking the rate to 6% as inflation is seen breaching the RBI’s 6% tolerance limit, with rising energy costs and uneven monsoon rainfall identified as contributing factors.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms",
+          "publishedAt": "2026-11-20T09:48:50+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T09:48:50+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "b010bf330b6f47",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Anthropic shares drop up to 7.4% in pre‑market trade on day two",
+      "publishedAt": "2026-11-20T09:36:25+00:00",
+      "importanceScore": 11.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
+      "summary": "Anthropic’s stock fell as much as 7.4% in pre‑market trading on its second day of trading, reversing part of the 39% jump it posted after its record‑setting IPO. The decline occurred amid a broad market sell‑off and investor worries about a steep valuation and competitive pressures in the AI sector. Despite the dip, the shares closed the day 17% above the IPO price.",
+      "why": "The move signals early investor caution toward the AI firm’s high valuation and may influence sentiment toward similar tech IPOs.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
+          "publishedAt": "2026-11-20T09:36:25+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T09:36:25+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "969bc50e9d28f2",
       "cat": "World",
@@ -24,15 +178,15 @@
       "categories": [
         "World"
       ],
-      "title": "European leaders say they are ready to negotiate with Russia on Ukraine war",
+      "title": "Europe says it is ready to negotiate with Russia to end Ukraine war",
       "publishedAt": "2026-11-20T00:50:24+00:00",
-      "importanceScore": 13.5,
+      "importanceScore": 11.5,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "summary": "At the Berlin “Coalition of the Willing” summit, European leaders announced they are prepared to enter talks with Russia to end the war in Ukraine. UK Prime Minister Andy Burnham said Europe has a clear, consistent and united negotiating position, and German Chancellor Friedrich Merz said Moscow’s maximalist demands are unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Vladimir Putin has so far rejected any European role in US‑led peace talks.",
-      "why": "It signals a possible shift toward diplomatic engagement that could affect the conflict’s trajectory.",
-      "confidence": "medium",
+      "summary": "At a Berlin summit of the “Coalition of the Willing,” European leaders said they have a united negotiating position and are prepared to discuss ending the war in Ukraine. UK Prime Minister Andy Burnham said Europe is clear and consistent, while German Chancellor Friedrich Merz called Moscow’s maximalist demands unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow alongside Europe, and President Vladimir Putin has rejected any European role in the US‑led peace talks.",
+      "why": "A coordinated European stance could shape diplomatic dynamics and affect the chances of a peace settlement.",
+      "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
@@ -44,185 +198,72 @@
       ],
       "firstSeen": "2026-11-19T21:21:43+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-20T03:20:32.159352+00:00",
+      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
       "previousTitle": "European leaders say they are ready to negotiate with Russia on Ukraine war",
-      "previousSummary": "European leaders at Berlin's \"Coalition of the Willing\" summit said Europe has a clear, united negotiating position and is prepared to discuss ending the war in Ukraine with Russia. UK Prime Minister Andy Burnham and German Chancellor Friedrich Merz criticised Moscow's maximalist demands as unrealistic. US envoy Jared Kushner noted President Trump wants a deal with Moscow alongside Europe, while President Putin has rejected any European role in US‑led talks.",
-      "previousPublishedAt": "2026-11-19T21:21:43+00:00",
+      "previousSummary": "At the Berlin “Coalition of the Willing” summit, European leaders announced they are prepared to enter talks with Russia to end the war in Ukraine. UK Prime Minister Andy Burnham said Europe has a clear, consistent and united negotiating position, and German Chancellor Friedrich Merz said Moscow’s maximalist demands are unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Vladimir Putin has so far rejected any European role in US‑led peace talks.",
+      "previousPublishedAt": "2026-11-20T00:50:24+00:00",
       "previousSourceCount": 1,
       "previousImportanceScore": 13.5,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "dae6c80c9d9f8f",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Oil prices rise modestly as Houthi attacks on Riyadh spark supply worries",
-      "publishedAt": "2026-11-20T02:19:44+00:00",
-      "importanceScore": 12.2,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns/articleshow/136010331.cms",
-      "summary": "Oil prices saw a slight uptick after recent Houthi strikes on Riyadh raised concerns about possible supply disruptions. Crude shipments through the Strait of Hormuz have returned to pre‑war levels, while both Brent and WTI benchmarks were declining earlier in the week. An OPEC+ meeting later this month could lead to adjustments in production policy.",
-      "why": "The move shows how geopolitical tensions can quickly affect oil market expectations.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns/articleshow/136010331.cms",
-          "publishedAt": "2026-11-20T02:19:44+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-20T02:19:44+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-20T03:20:32.159352+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "12e169c8d792ac",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Keystone Realtors to launch Rs 5,000 cr worth housing properties in MMR by Mar: CMD",
-      "publishedAt": "2026-11-19T15:56:22+00:00",
-      "importanceScore": 11.9,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/keystone-realtors-to-launch-rs-5000-cr-worth-housing-properties-in-mmr-by-mar-cmd/articleshow/135997982.cms",
-      "summary": "Keystone Realtors is set to unveil residential developments valued at Rs 5,000 crore across the Mumbai Metropolitan Region by next March. Their robust project pipeline includes plans worth Rs 8,000 crore, having already developed over 30 million square feet.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/keystone-realtors-to-launch-rs-5000-cr-worth-housing-properties-in-mmr-by-mar-cmd/articleshow/135997982.cms",
-          "publishedAt": "2026-11-19T15:56:22+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-19T15:56:22+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-20T03:20:32.159352+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "4ee077623be7f8",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Positive Breakout: These 5 stocks cross above their 200 DMAs",
-      "publishedAt": "2026-11-20T01:46:28+00:00",
-      "importanceScore": 11.2,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-5-stocks-cross-above-their-200-dmas/slideshow/136009858.cms",
-      "summary": "In the Nifty 500 pack, five stocks gained over 7% and their closing prices crossed above their respective 200-day moving averages (DMA) on November 19, 2026, according to StockEdge's technical scan data. As long as a stock's price remains above its 200-day moving average on the daily timeframe, it is generally interpreted as being in an overall uptrend.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-5-stocks-cross-above-their-200-dmas/slideshow/136009858.cms",
-          "publishedAt": "2026-11-20T01:46:28+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-20T01:46:28+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-20T03:20:32.159352+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "8d48c05465a5c7",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India needs $430 bn in exports by March to meet FY27 target",
-      "publishedAt": "2026-11-19T15:44:07+00:00",
-      "importanceScore": 10.9,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-needs-430-billion-in-exports-in-five-months-to-meet-fy27-target-piyush-goyal/articleshow/135997642.cms",
-      "summary": "Union Commerce Minister Piyush Goyal said India must achieve about $430 billion in exports between November and March to meet its FY 2026‑27 export goal. By the end of October the country had already reached roughly 57 % of that target, with October exports hitting a record near $90 billion. Goyal also reaffirmed an overall fiscal‑year export target of $1 trillion.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-needs-430-billion-in-exports-in-five-months-to-meet-fy27-target-piyush-goyal/articleshow/135997642.cms",
-          "publishedAt": "2026-11-19T15:44:07+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-19T15:44:07+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-20T03:20:32.159352+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India needs $430 billion in exports in five months to meet FY27 target",
-      "previousSummary": "Union Commerce Minister Piyush Goyal said India must achieve about $430 billion in exports from November to March to meet its FY27 goal, after reaching 57 % of the target by the end of October. October exports hit an all‑time high of nearly $90 billion, and the government aims for $1 trillion in total exports for the fiscal year.",
-      "previousPublishedAt": "2026-11-19T15:44:07+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.9,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
+      "change": "Its significance score fell as the evidence changed.",
       "lifecycle": "Updated"
+    },
+    {
+      "id": "4015123737f8aa",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Rupee appreciation could cut earnings for Indian IT firms, report says",
+      "publishedAt": "2026-11-20T09:36:14+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms",
+      "summary": "A new report says the strengthening Indian rupee may lower earnings for Indian IT companies. The stronger rupee against foreign currencies is expected to hit profitability, particularly for firms with significant exposure to European markets. With traditional cost‑saving measures becoming scarce, maintaining margins will be challenging amid the current economic environment.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms",
+          "publishedAt": "2026-11-20T09:36:14+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T09:36:14+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-20T12:57:04.128275+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 5,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-19T21:38:40.987064+00:00",
+  "previousUpdated": "2026-11-20T03:20:32.159352+00:00",
   "changeSummary": {
-    "new": 3,
+    "new": 5,
     "updated": 1,
-    "continuing": 1
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-17T04:31:06.391960+00:00",
-    "updated": "2026-11-20T03:20:32.159352+00:00",
+    "availableFrom": "2026-11-17T14:28:26.673333+00:00",
+    "updated": "2026-11-20T12:57:04.128275+00:00",
     "snapshotCount": 10,
-    "eventCount": 82,
+    "eventCount": 83,
     "retentionHours": 72
   }
 }

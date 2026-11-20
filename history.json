@@ -3,160 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-17T04:31:06.391960+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 3,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "fdca1312f452f7",
-          "cat": "Canada",
-          "title": "Bank of Canada expected to keep rates unchanged in December after flat October inflation",
-          "summary": "Statistics Canada reported that Canada’s consumer price index was unchanged year‑over‑year in October at 3.1%, matching September’s rate, while core inflation excluding energy fell to 2.0% from 2.1% the month before. Gas prices surged, rising 30.9% compared with September. Economists said the flat CPI reading makes a December policy‑rate hold more likely.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-11-16T13:43:51+00:00",
-          "firstSeen": "2026-11-16T13:43:51+00:00",
-          "importanceScore": 16.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/cpi-inflation-october-9.7423293?cmp=rss"
-        },
-        {
-          "id": "2ec395835c443a",
-          "cat": "Indian Markets",
-          "title": "Indian shares rise on Tuesday on foreign inflows and earnings",
-          "summary": "Indian equities traded higher on Tuesday, extending the rally in the Sensex and Nifty as record foreign inflows and resilient corporate earnings supported the market. Auto, PSU bank and other bank stocks led gains, while FMCG, pharma, financial services and metal stocks also advanced. Senco Gold surged over 8% after reporting its highest‑ever festive‑season retail sales of more than Rs 2,426 crore.",
-          "why": "The rally shows broad investor confidence in India’s market fundamentals.",
-          "publishedAt": "2026-11-17T01:49:19+00:00",
-          "firstSeen": "2026-11-17T01:49:19+00:00",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-adani-enterprises-bse-share-price-17-november-2026/liveblog/135907345.cms"
-        },
-        {
-          "id": "c981023a244cbd",
-          "cat": "Canada",
-          "title": "Bank of Canada Governor Tiff Macklem to Leave Office in 2027",
-          "summary": "Bank of Canada Governor Tiff Macklem announced he will not seek a second term, so his seven‑year tenure will end on June 2, 2027. The central bank confirmed the decision on Monday and said it has begun a search for his successor, aiming to complete the appointment by the spring of 2027. The announcement initiates a leadership transition at Canada’s monetary authority.",
-          "why": "A new governor will shape future monetary‑policy decisions, affecting inflation and financial‑market conditions.",
-          "publishedAt": "2026-11-16T15:44:46+00:00",
-          "firstSeen": "2026-11-16T15:44:46+00:00",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/tiff-macklem-step-down-9.7423501?cmp=rss"
-        },
-        {
-          "id": "d29a7a88ce4720",
-          "cat": "India",
-          "title": "India’s unemployment rate eases to 4.9% in October",
-          "summary": "India’s unemployment rate for those aged 15 and above declined to 4.9% in October from 5% in September, government data showed, below the 5.1% forecast in a Reuters poll. Sign In What's Included Exclusive Stories Daily ePaper Access Smart Market Tools Curated Investment Ideas Ad-lite Experience Subscription Reuters",
-          "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
-          "publishedAt": "2026-11-16T10:52:48+00:00",
-          "firstSeen": "2026-11-16T10:52:48+00:00",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-eases-to-4-9-in-october/articleshow/135884988.cms"
-        },
-        {
-          "id": "7f6e9e74c12747",
-          "cat": "Indian Markets",
-          "title": "Yes Bank among 4 stocks showing RSI Trending Up",
-          "summary": "An uptrend signal occurs when the RSI value crosses above 50 from below. “RSI trending up” means that the Relative Strength Index (RSI) values are increasing, indicating strengthening momentum in the stock's price.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-17T03:40:39+00:00",
-          "firstSeen": "2026-11-17T03:40:39+00:00",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-among-4-stocks-showing-rsi-trending-up/slideshow/135909214.cms"
-        },
-        {
-          "id": "216d349ce631be",
-          "cat": "AI",
-          "title": "OpenAI adds CSAM image classifier and ChatGPT warnings",
-          "summary": "OpenAI announced a new image classifier that detects child sexual abuse material, including AI‑generated images, and is being made available through its API to selected companies at no charge. In early testing the classifier reduced the number of flagged images by 48% while still identifying the same amount of abusive content, and images it flags are twice as likely to be abusive. ChatGPT will now show warning screens for prompts that sexualize children, provide support resources, and temporarily suspend accounts for 24 hours on a first offense.",
-          "why": "The tools are intended to limit the distribution of illegal CSAM and reduce reviewer workload.",
-          "publishedAt": "2026-11-16T17:22:53+00:00",
-          "firstSeen": "2026-11-16T17:22:53+00:00",
-          "importanceScore": 12.4,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/"
-        },
-        {
-          "id": "e0f4d5ce236af2",
-          "cat": "Indian Markets",
-          "title": "BPCL Share Price Live Updates: BPCL Breaks Above 100-Day Simple Moving Average",
-          "summary": "Explore the latest details on BPCL, including: Last traded price 308.45, Market capitalization: 133105.35, Volume: 908019, Price-to-earnings ratio 8.42, Earnings per share 36.43. Stay ahead of the market with our in-depth coverage of Cipla, including: Last traded price 1395.0, Market capitalization: 112657.56, Volume: 33512, Price-to-earnings ratio 38.89, Earnings per share 35.86.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-17T03:25:05+00:00",
-          "firstSeen": "2026-11-17T03:25:05+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-stock-price-live-updates-17-nov-2026/liveblog/135908920.cms"
-        },
-        {
-          "id": "a3c0ec3e785f71",
-          "cat": "AI",
-          "title": "US to require licenses for AI chip and server exports to any data centre that could serve restricted countries",
-          "summary": "The U.S. Commerce Department is preparing an interim rule that will require companies to obtain licenses before exporting, re‑exporting, or transferring AI chips and server hardware to data centres anywhere in the world if the equipment could provide compute to entities in China or other nations on the D:5 embargo list. The rule extends existing controls that already mandate licenses for direct shipments of AI chips to those countries, targeting remote‑access pathways.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-16T15:02:34+00:00",
-          "firstSeen": "2026-11-16T15:02:34+00:00",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-17T14:28:26.673333+00:00",
       "changeSummary": {
         "new": 9,
@@ -1397,6 +1243,124 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-needs-430-billion-in-exports-in-five-months-to-meet-fy27-target-piyush-goyal/articleshow/135997642.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-20T12:57:04.128275+00:00",
+      "changeSummary": {
+        "new": 5,
+        "updated": 1,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "fb5a10d741fa91",
+          "cat": "Indian Markets",
+          "title": "Axis Bank Share Price Live Updates: Axis Bank Stock Price History",
+          "summary": "Stay ahead of the market with our in-depth coverage of Adani Ent, including: Last traded price 2709.0, Market capitalization: 366723.45, Volume: 870848, Price-to-earnings ratio 63.91, Earnings per share 42.39. Dive into the current details of HUL, including: Last traded price 2052.5, Market capitalization: 482253.61, Volume: 1575224, Price-to-earnings ratio 32.02, Earnings per share 64.1.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-20T04:34:57+00:00",
+          "firstSeen": "2026-11-20T04:34:57+00:00",
+          "importanceScore": 15.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-stock-price-today-live-20-nov-2026/liveblog/136013496.cms"
+        },
+        {
+          "id": "7f043ffbe45c3d",
+          "cat": "World",
+          "title": "Russian cruise missile breaches Polish airspace during Western military exercise",
+          "summary": "Early Friday, three objects entered Poland’s airspace, one of which was identified as a Russian cruise missile, according to Polish authorities. No injuries or damage were reported. Prime Minister Donald Tusk said the intrusion did not appear accidental and described it as a provocation from Moscow, occurring while Western allies were conducting a large‑scale military exercise in the region.",
+          "why": "The incident heightens concerns that the Ukraine conflict could spill into NATO territory, prompting increased security alerts.",
+          "publishedAt": "2026-11-20T12:41:52+00:00",
+          "firstSeen": "2026-11-20T12:41:52+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "5382442bbb4d0f",
+          "cat": "India",
+          "title": "RBI likely to raise repo rate to 5.75% in December, 6% by February, poll shows",
+          "summary": "The Reserve Bank of India is expected to increase its repo rate by 25 basis points to 5.75% in December, according to a Reuters poll reported by the Economic Times. A further 25‑basis‑point hike is projected for February, taking the rate to 6% as inflation is seen breaching the RBI’s 6% tolerance limit, with rising energy costs and uneven monsoon rainfall identified as contributing factors.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-20T09:48:50+00:00",
+          "firstSeen": "2026-11-20T09:48:50+00:00",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms"
+        },
+        {
+          "id": "b010bf330b6f47",
+          "cat": "Indian Markets",
+          "title": "Anthropic shares drop up to 7.4% in pre‑market trade on day two",
+          "summary": "Anthropic’s stock fell as much as 7.4% in pre‑market trading on its second day of trading, reversing part of the 39% jump it posted after its record‑setting IPO. The decline occurred amid a broad market sell‑off and investor worries about a steep valuation and competitive pressures in the AI sector. Despite the dip, the shares closed the day 17% above the IPO price.",
+          "why": "The move signals early investor caution toward the AI firm’s high valuation and may influence sentiment toward similar tech IPOs.",
+          "publishedAt": "2026-11-20T09:36:25+00:00",
+          "firstSeen": "2026-11-20T09:36:25+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms"
+        },
+        {
+          "id": "969bc50e9d28f2",
+          "cat": "World",
+          "title": "Europe says it is ready to negotiate with Russia to end Ukraine war",
+          "summary": "At a Berlin summit of the “Coalition of the Willing,” European leaders said they have a united negotiating position and are prepared to discuss ending the war in Ukraine. UK Prime Minister Andy Burnham said Europe is clear and consistent, while German Chancellor Friedrich Merz called Moscow’s maximalist demands unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow alongside Europe, and President Vladimir Putin has rejected any European role in the US‑led peace talks.",
+          "why": "A coordinated European stance could shape diplomatic dynamics and affect the chances of a peace settlement.",
+          "publishedAt": "2026-11-20T00:50:24+00:00",
+          "firstSeen": "2026-11-19T21:21:43+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Its significance score fell as the evidence changed.",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "4015123737f8aa",
+          "cat": "Indian Markets",
+          "title": "Rupee appreciation could cut earnings for Indian IT firms, report says",
+          "summary": "A new report says the strengthening Indian rupee may lower earnings for Indian IT companies. The stronger rupee against foreign currencies is expected to hit profitability, particularly for firms with significant exposure to European markets. With traditional cost‑saving measures becoming scarce, maintaining margins will be challenging amid the current economic environment.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-20T09:36:14+00:00",
+          "firstSeen": "2026-11-20T09:36:14+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1579,95 +1543,6 @@
       "why": "It illustrates the Pentagon’s response to a high‑profile breach of ceremony protocol at a national memorial.",
       "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
     },
-    "ef3bc6414e12e8": {
-      "id": "ef3bc6414e12e8",
-      "firstSeen": "2026-11-12T15:02:28+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-12T19:57:19.530012+00:00",
-          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-          "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-13T01:06:50.297241+00:00",
-          "title": "Fireworks AI breach exposes some Notion AI chat transcripts",
-          "summary": "A cyberattack on Fireworks AI let attackers breach its cloud provider and reach a Fireworks development system, where they took customer billing information and some datasets. Notion confirmed that the incident affected around 1% of its customers, with stolen data including chat transcripts from its Notion AI \"Insights\" feature. Notion said it disconnected from Fireworks on November 3, deleted data stored in its systems, and stopped all connectivity between the two.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-13T08:01:35.146532+00:00",
-          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-          "summary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
-      "cat": "AI",
-      "latestTitle": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-      "latestSummary": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system, which allowed access to some of its customers’ data. Notion confirmed this week that the hackers took chat transcripts of its Notion AI customers who used the “Insights” feature.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
-    },
-    "2e77a7fdb037c6": {
-      "id": "2e77a7fdb037c6",
-      "firstSeen": "2026-11-12T19:11:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-12T19:57:19.530012+00:00",
-          "title": "Nectar launches Creator Agent to automate influencer discovery and outreach",
-          "summary": "Nectar, an AI‑powered marketing operating system founded by sisters Misbah and Farah Uraizee, former Meta employees, launched its Creator Agent. The agent automates influencer marketing by searching more than 300 million creator profiles, analyzing video content for brand fit and safety, sending personalized outreach, coordinating collaborations, and tracking campaign performance, aiming to replace manual spreadsheet‑based workflows.",
-          "importanceScore": 11.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-13T08:01:35.146532+00:00",
-          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-          "summary": "Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manage social media, customer conversations, content moderation, creator partnerships, and competitor research. Nectar says its Creator Agent searches more than 300 million creator profiles to find potential partners, including smaller creators who may not yet have a large following but are gaining traction.",
-          "importanceScore": 9.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
-      "cat": "AI",
-      "latestTitle": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "latestSummary": "Founded by sisters Misbah and Farah Uraizee, both former Meta employees, Nectar came out of stealth last year and uses AI agents to help brands manage social media, customer conversations, content moderation, creator partnerships, and competitor research. Nectar says its Creator Agent searches more than 300 million creator profiles to find potential partners, including smaller creators who may not yet have a large following but are gaining traction.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
-    },
     "6e8facfd09ae10": {
       "id": "6e8facfd09ae10",
       "firstSeen": "2026-11-13T00:20:24+00:00",
@@ -1718,56 +1593,6 @@
       "latestSummary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
       "why": "It shows how quickly the conflict has disrupted civilian livelihoods and created urgent humanitarian concerns.",
       "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
-    },
-    "9aa32a321dab1b": {
-      "id": "9aa32a321dab1b",
-      "firstSeen": "2026-11-13T03:31:24+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-13T08:01:35.146532+00:00",
-          "title": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Details",
-          "summary": "Stay in the know with the latest information about Eicher Motors, including: Last traded price 7591.0, Market capitalization: 208897.29, Volume: 249494, Price-to-earnings ratio 36.18, Earnings per share 210.28. Dive into the current details of Tata Motors PV, including: Last traded price 292.15, Market capitalization: 107119.83, Volume: 4964919, Price-to-earnings ratio 1.35, Earnings per share 215.16.",
-          "importanceScore": 15.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Details",
-      "latestSummary": "Stay in the know with the latest information about Eicher Motors, including: Last traded price 7591.0, Market capitalization: 208897.29, Volume: 249494, Price-to-earnings ratio 36.18, Earnings per share 210.28. Dive into the current details of Tata Motors PV, including: Last traded price 292.15, Market capitalization: 107119.83, Volume: 4964919, Price-to-earnings ratio 1.35, Earnings per share 215.16.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135788075.cms"
-    },
-    "27043615af3ee0": {
-      "id": "27043615af3ee0",
-      "firstSeen": "2026-11-13T03:27:19+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-13T08:01:35.146532+00:00",
-          "title": "ICICI Bank Share Price Live Updates: ICICI Bank's Current Market Position",
-          "summary": "Stay ahead of the market with our in-depth coverage of ONGC, including: Last traded price 226.2, Market capitalization: 284402.37, Volume: 4938573, Price-to-earnings ratio 5.74, Earnings per share 39.33. Stay ahead of the market with our in-depth coverage of Power Grid, including: Last traded price 257.85, Market capitalization: 239769.57, Volume: 2987865, Price-to-earnings ratio 14.8, Earnings per share 17.41.",
-          "importanceScore": 15.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-13T08:01:35.146532+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "ICICI Bank Share Price Live Updates: ICICI Bank's Current Market Position",
-      "latestSummary": "Stay ahead of the market with our in-depth coverage of ONGC, including: Last traded price 226.2, Market capitalization: 284402.37, Volume: 4938573, Price-to-earnings ratio 5.74, Earnings per share 39.33. Stay ahead of the market with our in-depth coverage of Power Grid, including: Last traded price 257.85, Market capitalization: 239769.57, Volume: 2987865, Price-to-earnings ratio 14.8, Earnings per share 17.41.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-13-nov-2026/liveblog/135787990.cms"
     },
     "19bf025da197e5": {
       "id": "19bf025da197e5",
@@ -4160,13 +3985,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-20T12:57:04.128275+00:00",
+          "title": "Europe says it is ready to negotiate with Russia to end Ukraine war",
+          "summary": "At a Berlin summit of the “Coalition of the Willing,” European leaders said they have a united negotiating position and are prepared to discuss ending the war in Ukraine. UK Prime Minister Andy Burnham said Europe is clear and consistent, while German Chancellor Friedrich Merz called Moscow’s maximalist demands unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow alongside Europe, and President Vladimir Putin has rejected any European role in the US‑led peace talks.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Its significance score fell as the evidence changed."
         }
       ],
-      "lastSeen": "2026-11-20T03:20:32.159352+00:00",
+      "lastSeen": "2026-11-20T12:57:04.128275+00:00",
       "cat": "World",
-      "latestTitle": "European leaders say they are ready to negotiate with Russia on Ukraine war",
-      "latestSummary": "At the Berlin “Coalition of the Willing” summit, European leaders announced they are prepared to enter talks with Russia to end the war in Ukraine. UK Prime Minister Andy Burnham said Europe has a clear, consistent and united negotiating position, and German Chancellor Friedrich Merz said Moscow’s maximalist demands are unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Vladimir Putin has so far rejected any European role in US‑led peace talks.",
-      "why": "It signals a possible shift toward diplomatic engagement that could affect the conflict’s trajectory.",
+      "latestTitle": "Europe says it is ready to negotiate with Russia to end Ukraine war",
+      "latestSummary": "At a Berlin summit of the “Coalition of the Willing,” European leaders said they have a united negotiating position and are prepared to discuss ending the war in Ukraine. UK Prime Minister Andy Burnham said Europe is clear and consistent, while German Chancellor Friedrich Merz called Moscow’s maximalist demands unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow alongside Europe, and President Vladimir Putin has rejected any European role in the US‑led peace talks.",
+      "why": "A coordinated European stance could shape diplomatic dynamics and affect the chances of a peace settlement.",
       "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
     },
     "8d48c05465a5c7": {
@@ -4281,7 +4119,132 @@
       "latestSummary": "In the Nifty 500 pack, five stocks gained over 7% and their closing prices crossed above their respective 200-day moving averages (DMA) on November 19, 2026, according to StockEdge's technical scan data. As long as a stock's price remains above its 200-day moving average on the daily timeframe, it is generally interpreted as being in an overall uptrend.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-5-stocks-cross-above-their-200-dmas/slideshow/136009858.cms"
+    },
+    "fb5a10d741fa91": {
+      "id": "fb5a10d741fa91",
+      "firstSeen": "2026-11-20T04:34:57+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-20T12:57:04.128275+00:00",
+          "title": "Axis Bank Share Price Live Updates: Axis Bank Stock Price History",
+          "summary": "Stay ahead of the market with our in-depth coverage of Adani Ent, including: Last traded price 2709.0, Market capitalization: 366723.45, Volume: 870848, Price-to-earnings ratio 63.91, Earnings per share 42.39. Dive into the current details of HUL, including: Last traded price 2052.5, Market capitalization: 482253.61, Volume: 1575224, Price-to-earnings ratio 32.02, Earnings per share 64.1.",
+          "importanceScore": 15.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-20T12:57:04.128275+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Axis Bank Share Price Live Updates: Axis Bank Stock Price History",
+      "latestSummary": "Stay ahead of the market with our in-depth coverage of Adani Ent, including: Last traded price 2709.0, Market capitalization: 366723.45, Volume: 870848, Price-to-earnings ratio 63.91, Earnings per share 42.39. Dive into the current details of HUL, including: Last traded price 2052.5, Market capitalization: 482253.61, Volume: 1575224, Price-to-earnings ratio 32.02, Earnings per share 64.1.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-stock-price-today-live-20-nov-2026/liveblog/136013496.cms"
+    },
+    "7f043ffbe45c3d": {
+      "id": "7f043ffbe45c3d",
+      "firstSeen": "2026-11-20T12:41:52+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-20T12:57:04.128275+00:00",
+          "title": "Russian cruise missile breaches Polish airspace during Western military exercise",
+          "summary": "Early Friday, three objects entered Poland’s airspace, one of which was identified as a Russian cruise missile, according to Polish authorities. No injuries or damage were reported. Prime Minister Donald Tusk said the intrusion did not appear accidental and described it as a provocation from Moscow, occurring while Western allies were conducting a large‑scale military exercise in the region.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-20T12:57:04.128275+00:00",
+      "cat": "World",
+      "latestTitle": "Russian cruise missile breaches Polish airspace during Western military exercise",
+      "latestSummary": "Early Friday, three objects entered Poland’s airspace, one of which was identified as a Russian cruise missile, according to Polish authorities. No injuries or damage were reported. Prime Minister Donald Tusk said the intrusion did not appear accidental and described it as a provocation from Moscow, occurring while Western allies were conducting a large‑scale military exercise in the region.",
+      "why": "The incident heightens concerns that the Ukraine conflict could spill into NATO territory, prompting increased security alerts.",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+    },
+    "5382442bbb4d0f": {
+      "id": "5382442bbb4d0f",
+      "firstSeen": "2026-11-20T09:48:50+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-20T12:57:04.128275+00:00",
+          "title": "RBI likely to raise repo rate to 5.75% in December, 6% by February, poll shows",
+          "summary": "The Reserve Bank of India is expected to increase its repo rate by 25 basis points to 5.75% in December, according to a Reuters poll reported by the Economic Times. A further 25‑basis‑point hike is projected for February, taking the rate to 6% as inflation is seen breaching the RBI’s 6% tolerance limit, with rising energy costs and uneven monsoon rainfall identified as contributing factors.",
+          "importanceScore": 12.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-20T12:57:04.128275+00:00",
+      "cat": "India",
+      "latestTitle": "RBI likely to raise repo rate to 5.75% in December, 6% by February, poll shows",
+      "latestSummary": "The Reserve Bank of India is expected to increase its repo rate by 25 basis points to 5.75% in December, according to a Reuters poll reported by the Economic Times. A further 25‑basis‑point hike is projected for February, taking the rate to 6% as inflation is seen breaching the RBI’s 6% tolerance limit, with rising energy costs and uneven monsoon rainfall identified as contributing factors.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms"
+    },
+    "b010bf330b6f47": {
+      "id": "b010bf330b6f47",
+      "firstSeen": "2026-11-20T09:36:25+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-20T12:57:04.128275+00:00",
+          "title": "Anthropic shares drop up to 7.4% in pre‑market trade on day two",
+          "summary": "Anthropic’s stock fell as much as 7.4% in pre‑market trading on its second day of trading, reversing part of the 39% jump it posted after its record‑setting IPO. The decline occurred amid a broad market sell‑off and investor worries about a steep valuation and competitive pressures in the AI sector. Despite the dip, the shares closed the day 17% above the IPO price.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-20T12:57:04.128275+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Anthropic shares drop up to 7.4% in pre‑market trade on day two",
+      "latestSummary": "Anthropic’s stock fell as much as 7.4% in pre‑market trading on its second day of trading, reversing part of the 39% jump it posted after its record‑setting IPO. The decline occurred amid a broad market sell‑off and investor worries about a steep valuation and competitive pressures in the AI sector. Despite the dip, the shares closed the day 17% above the IPO price.",
+      "why": "The move signals early investor caution toward the AI firm’s high valuation and may influence sentiment toward similar tech IPOs.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms"
+    },
+    "4015123737f8aa": {
+      "id": "4015123737f8aa",
+      "firstSeen": "2026-11-20T09:36:14+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-20T12:57:04.128275+00:00",
+          "title": "Rupee appreciation could cut earnings for Indian IT firms, report says",
+          "summary": "A new report says the strengthening Indian rupee may lower earnings for Indian IT companies. The stronger rupee against foreign currencies is expected to hit profitability, particularly for firms with significant exposure to European markets. With traditional cost‑saving measures becoming scarce, maintaining margins will be challenging amid the current economic environment.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-20T12:57:04.128275+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Rupee appreciation could cut earnings for Indian IT firms, report says",
+      "latestSummary": "A new report says the strengthening Indian rupee may lower earnings for Indian IT companies. The stronger rupee against foreign currencies is expected to hit profitability, particularly for firms with significant exposure to European markets. With traditional cost‑saving measures becoming scarce, maintaining margins will be challenging amid the current economic environment.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms"
     }
   },
-  "updated": "2026-11-20T03:20:32.159352+00:00"
+  "updated": "2026-11-20T12:57:04.128275+00:00"
 }
