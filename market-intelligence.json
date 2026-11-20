@@ -1,90 +1,92 @@
 {
-  "updated": "2026-11-19T18:40:06.976919+00:00",
+  "updated": "2026-11-20T00:56:13.256347+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls as miners tumble on weaker metal prices",
+      "headline": "TSX slides 1.6% as gold plunges and mining stocks retreat",
       "direction": "down",
-      "move": "S&P/TSX Composite -1.08%",
-      "why": "Miners slid sharply as metal prices weakened, pulling the broader index to a more than four‑month low.",
+      "move": "S&P/TSX Composite -1.59%",
+      "why": "The market fell as the Anthropic IPO coincided with a sharp drop in gold prices and a retreat of mining stocks, all weighing on the index.",
       "drivers": [
         {
-          "label": "miners slide on weaker metal prices",
-          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Anthropic makes splashy public debut",
+          "detail": "CP24 explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Utilities and Telecoms Offset Tech and Base Metals",
+          "label": "Gold Hits a 14-Month Low",
           "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Broad Market Selloff",
-          "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Anthropic IPO",
+          "detail": "TSX and U.S. markets sank as Anthropic made a splashy public debut, linking the debut to the market decline.",
           "kind": "driver"
         },
         {
-          "label": "Weaker metal prices",
-          "detail": "Miners declined on softer metal prices, directly linked to the TSX’s drop to a 4‑month low.",
-          "kind": "driver"
+          "label": "Gold price decline",
+          "detail": "Gold hit a 14‑month low, and the TSX extended its slide as a result.",
+          "kind": "context"
         }
       ],
       "sectors": [
-        "Materials"
+        "Technology",
+        "Materials",
+        "Mining"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 34205.4,
+        "price": 34028.73,
         "previousClose": 34578.1,
-        "change": -372.7,
-        "changePct": -1.08,
+        "change": -549.37,
+        "changePct": -1.59,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-19T18:40:01+00:00",
+        "asOf": "2026-11-19T21:20:01+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Reuters",
-          "title": "TSX hits more than 4-month low as miners slide on weaker metal prices - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb04xdkcxdjlkZnVBMTVXejh6VVlqclZ5bjl1NGxfbUJ5YzBVSWxiSVFvc0puaDdkb0tlcWR1a0FMdHNSY21tdjcybTE3cHRlaTc2ME95MXMzZGhIbzNYU2JhLTczNTJKRmNLeUptSjdCMzc2MEhlR2hIbkliOHpCcEtScHZQTkxETzF3WjJBX3NGc0VPSURiZUxBM1ppa3plcXBkVlAyWHhlUmg3aTVTN2FET28?oc=5",
-          "publishedAt": "2026-11-18T21:23:31+00:00"
+          "name": "Investing.com",
+          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 1.59% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVGZHMWgyLXFhSTgyeWd6THphOFZURDgxLU1JN3lacVVwZURBQWNWYTJsWGdoMVVtNUhHdkc2VHRJdEVvUDFsYjd3Rnp4UWY1cHdGTUQ0aUhBSTZpdHlEQXM4QXp6OVJ3aURrY1JGMjZkUHpQc3Z1OVAyTGNoMzJxUHpqRVdyaVZXc190X0daZk52WUQ5bENNdFFsU3lnbUtXV29ON0I3T0RHUjhWR2pjbm82LVpOTmFPQ080?oc=5",
+          "publishedAt": "2026-11-19T21:39:51+00:00"
+        },
+        {
+          "name": "Investing.com UK",
+          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 1.59% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0hES1Zhei11Z3d1UUk4azRtLUI4TDNWSE1LTEZJVU1IaGY4Z2lkZlZkR0ZKQVlRMWZGTTVGTWlxaG1JOHFxVUdKN0FTelYydTVpeXcyQW96XzRXX0pTWkJqUmJ1elNWdV8zekNXRjd1S3I4dGpWa3ZQc0VLSFd3OVRmQjY3MV9PUnY1Q0hwRGZ0ajJCRVdCdjJtQjRjMHhOYlVYbk9vTEdiVjljMmc2ZDM4YzRxbl9OYVE?oc=5",
+          "publishedAt": "2026-11-19T21:30:00+00:00"
+        },
+        {
+          "name": "CP24",
+          "title": "TSX, U.S. markets sink as Anthropic makes splashy public debut - CP24",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS2VUalNoUGlrZWstX3ZaeVBDWkk2WU12V1dZdml0VWZKVGxRYUxRcWl6MEJtUWI3b0pSUXRHckYxUzVaekpCc2VmaXRwdVJqZ2dYampkcXFzbGZMSm1Nd2xMZHl1ZDdrZl9GdDVNNDBXdm1uRmJGVXZLQUUyU29MNXJ3bmxDREdCN1VMajdHS2Q2RjJJTkVfTEItN2M3Z1VzcDhLUG5jVURCeDh4LVN6VVdadnlVZGRzc3Y2eVlB?oc=5",
+          "publishedAt": "2026-11-19T21:27:27+00:00"
         },
         {
           "name": "BBN Times",
-          "title": "Toronto Stock Exchange Today: S&P/TSX Composite Slips to 36,105.90 as Utilities and Telecoms Offset Tech and Base Metals - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNR2VnTmd1UFVDYk5VM2NLNmhFWFdUbUhHOUxkSlRhU2h4c05ZNFJWQzlHclkzRVQyYU42RU85YmFRM280dy1JemtsR3hBN1dBbGp3alV1T0Z2ZGE2cDJST0gyR3ZsMGtvQWNJUGJVWkk2LUhFRm9TeE5RRmtyQ0hCYnB3X1R4UGZFNG1zaWU0V0ZNdnoyZHNJbXN0ekdmeUw3TkU1TkJRYWdSdzRxcUdwWnRpUjF0ZFlXN3NwbEhDMGJaSFRpRkYwWDVieVBlcnoyZk8ycTlSOExSUEtVRW1QMjBpV1FJUjhuUF9EV1ljMEQ?oc=5",
-          "publishedAt": "2026-11-18T23:13:19+00:00"
+          "title": "Toronto Stock Exchange: S&P/TSX Composite Extends Slide to a Five-Month Low as Gold Hits a 14-Month Low - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQnc3bENqRFYxa0pYQUFmXzJqVk91Nk9OeVl4ZktoVzdBcDNyMndEeWJQYU1heXFiQWFIbElEdnVsaXZCU2xjODY0TEZublVGMHdsUklCcG5aY2NPQ1ZvZmpOTThoUVh3cmtfVHQzN1ZNeWhZenVXYS1jS3U5bWVjWndEYTZyaTNiWkdiellubWFXMVRnWkJnd1VzZHhSZlRKQzhOd3JONWI3SFB2SzQwZ3F1SVFrZno1aFQzZ3B6eWI4MWU1Tzlqa01FdlNiUWlVSmg0?oc=5",
+          "publishedAt": "2026-11-19T23:18:48+00:00"
         },
         {
-          "name": "Yahoo Finance Singapore",
-          "title": "Canadian Stock Market Today: TSX Futures Hold Steady As Hawkish Fed Lifts Dollar - Yahoo Finance Singapore",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRnUxb2ZTbHVtTFBUTGgwSGZ4dEJZazcxUE52MlVGalhySFFabEJOVGF2bHBPT3ZndUpsT1lyY0pvelp0OVFzMFNtc1NBc0ZkOWRoU2lvdEVGc25KVHdRX285MlhBR194QTVCT1Rnajc0OWJwWmRNNTNnSmRQa1poa1JmWEZnTEk?oc=5",
-          "publishedAt": "2026-11-19T13:12:29+00:00"
+          "name": "Investing.com Canada",
+          "title": "TSX plunges to four-month low as gold plunges and mining stocks retreat - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPazRuczlUcHJPRjRGMDFiOXgwQmhiUzBXNjhYOTBlTDdaY1lCUjVEVE1aSUJaQ1dYSVB0eXJjUHk2ak4wOWowVmhoWjBNTnZhUy1UaGhJblZZLW4zRGZlaGlIUnhpQzh6WkJCc1c1U1djWG94MGZobC1xSm5yc1I3RGhzV1ZabUJQMlAwbjVkdHhCS29Ea1czczZ5dWJUb2pPLTJlcVBkU245bEtQb1I1OW1ZRk96WUE2YlpWOHUxd0VQdTdpNEE5UnRlNDE?oc=5",
+          "publishedAt": "2026-11-19T22:09:06+00:00"
         },
         {
-          "name": "Simply Wall St",
-          "title": "Canadian Stock Market Today: TSX Futures Nudge Higher On AI Tech Rally Optimism - Simply Wall St",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQnc3X0ZwUU5RcmtQNGRxeVFIeGs2QTlRZHZwcU1kV0h1R0x6dmVaWXdMUHUtdFQzYnp2QkZwTmw0SElIQkZCUHJzLU1ya2NkU3ZWTHJYMDc1aDE4V3VkSFlnakNQWGx6Z181eEJZcHRoSmhiSlZyekt3cXF5aWQ5VG9XMUNWVjZJX3EzLVRkVkl4RXNselBJZkZMRGJCcTdDV3NEZ3g5VEVZbmVWdTRHX3hVY0FJY2xEUEJjdW92M1FzcEw3TDh3YzJHX0hvd9IB0wFBVV95cUxOWmJISXFsVjVLUjZwZi1yVDZRdG9SQWs3XzFVTXhMUHY0aXlxYjZVV3Z1SVJIbm5QZURMUkkyTGsxVEk5WGVxeWZHUkJpTGlGQkE5OXgyTVh4YVBsUmlKM1NMWk1yc011NDJBdmJZN3pRRlliSk5wT2duOThFTkNrUTdoSzJGNldhVjRKM1J0VEhWUmJLNlkxbHlIeWJUcHVGY1ZPcl85M3lUTDltQmlHTHpnNlQtRGZuQWplaHJtcTRab3ByLUtEaXUxRTljSmptNTZz?oc=5",
-          "publishedAt": "2026-11-19T13:09:25+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "19th November 2026S&P/TSX Composite Index Poised for a Weak Opening Amid Broad Market Selloff - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRWlyc1czUC1xeWFWYnBiX0hQU0VndEF0T0tsVmcwRV9oNldlYzFtUnNuRXJZcTJmbVVjeXh2cTJ1ZEF1RlpqeVQ1WWFmeFdlZW95bE1abGZsREpyR0FyZUFVMlhNZjNUM3V6NFdOeVZieWRGaUY4RjNlUF8xMk5aTzB6ZzlfOUoyX0pVSHJGTE96X2VWNXM3TVhhU21nSlZNWDN4Sk5sS1dQRURzNkNQbTZCVXpFQ3VqRmNKUTNrc3poWnlf?oc=5",
-          "publishedAt": "2026-11-19T12:12:38+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "WHY Did the S&P/TSX Composite Fall to a Three-Month Low, and What Comes Next for Canadian Stocks? - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb2NmZjZ3d1kzOFBUWmdqNFlhY05lVWgtWHVwWEZ4R3pLY1pwcGJiNTBydk1aeHNKSDRtTzVnUDFKQmVMS2FuTUE0bWFDVXNUQUNOcDhVWWJhRnRIQkpNTjRZVTJlSDFqRkZUZnYtNkV6amFyZUJZdlgyOTc0RktfRWx6S3lWcThPb1JQVWtIUlZVbklfNFRrMW1rZTI1TEctNFpoZnBvSW5ZUUVWc0xWSkdxbkRsdkdvR1Bwd280OFZVU1E?oc=5",
-          "publishedAt": "2026-11-19T09:59:00+00:00"
+          "name": "Business Upturn",
+          "title": "S&P/TSX Composite Declines at Thursday Close - Business Upturn",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3NPWjhNMGk1MGVQR3JLcG1hM3MxQTZyTS1fSi1Oc1UxTXFSLTc5eHZmaXdYWmZPQlpGMGVmYnhGaTBZVVBsaE4zNTBnQzZ2TFpwLXZiVHVjb3BvZnhGOTJ3OEdiaXRWTW1jQklnak1ObVdmVTdWTi1JWnhLSmtHdXlydG5WZ01fUGU0YkxWZGt4Q1N2RklHdnFJOGM3dw?oc=5",
+          "publishedAt": "2026-11-19T21:15:00+00:00"
         }
       ],
       "evidenceCount": 7
@@ -94,21 +96,26 @@
       "headline": "Nifty 50 fell 0.63%",
       "direction": "down",
       "move": "Nifty 50 -0.63%",
-      "why": "Same-day market coverage explicitly linked the final move to: Profit-Taking Drags Stocks Down; Fed Signals More Rate Hikes.",
+      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Profit-Taking Drags Stocks Down",
-          "detail": "JournalArta explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "NSE stock closes 5% higher amid renewed interest in large caps, 'buy' rating from brokerag",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         },
         {
-          "label": "Fed Signals More Rate Hikes",
-          "detail": "HDFC Sky explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
+          "label": "Nifty, Sensex surge more than 1% by closing as sustained foreign inflows boost investor se",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "Bank Nifty scales record close above 63,000; Sensex reclaims 83,000, Nifty tops 25,500 in ",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
         }
       ],
       "sectors": [],
-      "confidence": "medium",
+      "confidence": "low",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
@@ -143,12 +150,6 @@
           "publishedAt": "2026-11-19T12:24:16+00:00"
         },
         {
-          "name": "JournalArta",
-          "title": "Sensex Faces Lower Open After Profit-Taking Drags Stocks Down - JournalArta",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTy1uUWFXMC1jZHkzcFc5RmhKeDJJdWtONmszS21LQUFueTBCR3g5UFJGSkdtU19lcktSNFY2RUJ5eWZteU5NU0Q0bng1Nk1sbzliN2FSQ3VaaTVsYllRcURTek5MREdHb082MUI4OUVuRVF5RWJzaklBX2dLSFh6Vmp2cTQ1NTkxc0NjZA?oc=5",
-          "publishedAt": "2026-11-19T11:49:52+00:00"
-        },
-        {
           "name": "The Tribune",
           "title": "Nifty, Sensex surge more than 1% by closing as sustained foreign inflows boost investor sentiment - The Tribune",
           "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMVJ0eTVJak9qU3B6YW50LWJ4WUVZUVM2d2ZzdkdOc2FESl9jMS1rZklPNWozN0dfNHp4ZGtXc2VjUWJLS1BrVE1aaVlNRFExUl9hUmpGak5OLVFGTWJpaXpzOEVDQkIwWmxSM0VkWWdzVllPQUY4WGdHWHhqWXRJME9PMnJCT3hoYUp0ZUpNZnVRZmllaFhpZU1ZSUdwLVl0RlN5SWJlTUQ1MnB5VjdtSlhmN2VSUkNhcFFsVE5KZ1BMNFhNYmIweW9oNmF2NXhhU2ZTaV9najMyemJOS3hReGxmZEl1cXhXQVBhbVRkRmFTYzUtVmfSAfYBQVVfeXFMTjFSdHk1SWpPalNwemFudC1ieFlFWVFTNndmc3ZHTnNhREpfYzEta2ZJTzVqMzdHXzR6eGRrV3NlY1FiS0tQa1RNWmlZTURRMVJfYVJqRmpOTi1RRk1iaWl6czhFQ0JCMFpsUjNFZFlnc1ZZT0FGOFhnR1h4all0STBPTzJyQk94aGFKdGVKTWZ1UWZpZWhYaWVNWUlHcC1ZdEZTeUliZU1ENTJweVY3bUpYZjdlUlJDYXBRbFROSmdQTDRYTWJiMHlvaDZhdjV4YVNmU2lfZ2ozMnpiTkt4UXhsZmRJdXF4V0FQYW1UZEZhU2M1LVZn?oc=5",
@@ -171,6 +172,12 @@
           "title": "NIFTY Bank at record high: Index crosses 63,000 mark for the first time; here's what's driving rally - Upstox",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOd1N2Yi1IbExrenp1QWFVdlA3dzVoX1lKSXJ0OEdCYU11bU83empQUFI4YkNmbk1uT3RyTEh3SERKXzMtSVNOT2hoMUxmQjF4YUJxZ05oYmJBR0w5ZXdxLXo5QXQya01lRGVTVFRPZEVwUy04U2hfenkxRmFDeWpWMDJqYV9VREt2SEs1bmlQcHV4bjEzeHRueFRIQUNiZ1VVMW1jTzJlUUx4N1ZPNHpsWThldFpZU3hfbTc3bUJHQjhieHdmb2Joa0txTmlzZEZia0NhcGVQZ0NEd1U0cUtSMDZhVjVOLTV3bkpRR0lB?oc=5",
           "publishedAt": "2026-11-19T09:04:36+00:00"
+        },
+        {
+          "name": "Kotak Neo",
+          "title": "Stock Market Update 19 November 2026: Sensex, Nifty 50 Trade Higher after Opening Lower - Kotak Neo",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTJrOXV3N1docnItajhWWG9lVnYxRUphM3dvMHhhNWdlazRNaWcyQ2VMazNFVTFwNmRadm9FbkF4LVBub2lqN1ZZZWN5WjkwOHlBR212bmFDbk1QUTMwNGZDekdFNXdab2I5VlM1a0pqWTFlS3VwRFFQVzFqbFNiM01objJzRlB0X0g5bTQ4dmJhdWo1YkZN?oc=5",
+          "publishedAt": "2026-11-19T04:06:20+00:00"
         }
       ],
       "evidenceCount": 7
