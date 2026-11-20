@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-20T09:11:23.441733+00:00",
+  "updated": "2026-11-20T18:00:56.492579+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX slides 1.6% as Anthropic IPO and falling gold weigh on market",
+      "headline": "TSX falls as tech and base metal stocks slump and AI optimism wanes",
       "direction": "down",
-      "move": "S&P/TSX Composite -1.59%",
-      "why": "The market decline was explicitly linked to the splashy public debut of AI firm Anthropic and a sharp fall in gold prices that dragged down mining stocks.",
+      "move": "S&P/TSX Composite -1.60%",
+      "why": "Weakness in technology and base‑metal stocks, combined with disappointment over AI optimism after Anthropic’s performance, pulled the index lower.",
       "drivers": [
         {
-          "label": "Anthropic makes splashy public debut",
+          "label": "Anthropic fails to rekindle AI optimism",
+          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "tech and base metal stocks sink",
           "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Gold Hits a 14-Month Low",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Anthropic IPO",
-          "detail": "Anthropic's high‑profile public debut was cited as a factor that helped sink the TSX.",
-          "kind": "driver"
-        },
-        {
-          "label": "Gold price decline",
-          "detail": "Gold hit a 14‑month low, which was directly associated with the TSX extending its slide.",
+          "label": "Tech sector weakness",
+          "detail": "Tech stocks sank, contributing to the index decline.",
           "kind": "context"
+        },
+        {
+          "label": "Base metal sector weakness",
+          "detail": "Base metal stocks fell sharply, dragging the market down.",
+          "kind": "driver"
         }
       ],
       "sectors": [
@@ -39,77 +39,82 @@
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 34028.7,
-        "previousClose": 34578.1,
-        "change": -549.4,
-        "changePct": -1.59,
+        "price": 33484.55,
+        "previousClose": 34028.7,
+        "change": -544.15,
+        "changePct": -1.6,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-19T21:20:01+00:00",
+        "asOf": "2026-11-20T18:00:46+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Investing.com",
-          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 1.59% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVGZHMWgyLXFhSTgyeWd6THphOFZURDgxLU1JN3lacVVwZURBQWNWYTJsWGdoMVVtNUhHdkc2VHRJdEVvUDFsYjd3Rnp4UWY1cHdGTUQ0aUhBSTZpdHlEQXM4QXp6OVJ3aURrY1JGMjZkUHpQc3Z1OVAyTGNoMzJxUHpqRVdyaVZXc190X0daZk52WUQ5bENNdFFsU3lnbUtXV29ON0I3T0RHUjhWR2pjbm82LVpOTmFPQ080?oc=5",
-          "publishedAt": "2026-11-19T21:49:07+00:00"
+          "name": "The Globe and Mail",
+          "title": "TSX heads for biggest weekly fall in over four years, Nasdaq turns negative for 2026, as Anthropic fails to rekindle AI optimism - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbFktVk5TaVBHaXJHS05DZjczUngxalpGZjYxclh2SldTWHZxMzI4SG14UkxkbTVJOFo1MHNfZTJqX1hab3FZV295TWpBS3d3VFQ1VzZpRmhzWWVWRjY1R0xDa3ZnMERkM3BlZ0ZfZlBWZF9tRkUxcGtPb2NMSzUyb0phRzJuNWtIUTJrTEVDckdGa2lCNFdsMWROLTJwQzZJZVRleThtRmFpVDJ0M1A4bGNmeXVhSlQ0d1RxTEtlQkpZa01nbEVidVVPakh5czEyU1h1MzZZNEJsNTc0cnpIM1huc2M3eG14bEJDQ204aw?oc=5",
+          "publishedAt": "2026-11-20T10:33:14+00:00"
         },
         {
           "name": "Yahoo! Finance Canada",
-          "title": "TSX, U.S. markets sink as Anthropic makes splashy public debut - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYWpHeXFLbi16SnZjZDVfUmtHR252cVpzMkY2dWh2TzFkeThEeVVqS0J5dVRya0xqV29vSC1rM3J3bk4wNzV4S2MwZjJZeEp0TmNzTHBhRXdQcDM0dHB5ZG5zZTVHRUltQjBMMG12cTV1dmtTbzBTLVJpYjdhWjd1RQ?oc=5",
-          "publishedAt": "2026-11-19T21:40:37+00:00"
+          "title": "S&P/TSX composite down more than 350 points as tech and base metal stocks sink - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VENkbU91QUl6cGRRVC1WRGVMdktBdmFfT1pxVGRKQk9scE1CVzY2cVFIQVFndlFXNmF5M1BaUXBmYi1JN3UwVlpFUjJ0clRuNk9qUlhDTjZvQ013X1NyRU5QLVpCX3JMNTdvX3ZPVmVmWXp2Y3BMVmxZVHVUTEU?oc=5",
+          "publishedAt": "2026-11-20T16:30:26+00:00"
         },
         {
-          "name": "Investing.com UK",
-          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 1.59% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0hES1Zhei11Z3d1UUk4azRtLUI4TDNWSE1LTEZJVU1IaGY4Z2lkZlZkR0ZKQVlRMWZGTTVGTWlxaG1JOHFxVUdKN0FTelYydTVpeXcyQW96XzRXX0pTWkJqUmJ1elNWdV8zekNXRjd1S3I4dGpWa3ZQc0VLSFd3OVRmQjY3MV9PUnY1Q0hwRGZ0ajJCRVdCdjJtQjRjMHhOYlVYbk9vTEdiVjljMmc2ZDM4YzRxbl9OYVE?oc=5",
-          "publishedAt": "2026-11-19T21:30:00+00:00"
+          "name": "kalkine.ca",
+          "title": "Tamarack Valley Energy TSX:TVE Emerges Larger After Headwater Deal Closes (TSX:TVE) - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0VRN1ExdGdYdldVUzNtb3FISHluMHRlbDhqRjZqcjU3aTdHZW5zTHJISXR0WlpqMWV0bmFXVUhJT2NUbFlERWI4ZzBLeERlTThuSlY2U2VEMjJaRXN3T3RnNHd2NGoxcHoxYUkxbnRHXzBOd3RHWk5yZkJQSFgzbTlvcW1uV2VFTTlEdFFaa3VqbExRWU1jR3JIODIxWFdWSHlwMXNTYU5NblEzb0VZ?oc=5",
+          "publishedAt": "2026-11-20T15:00:00+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "Toronto Stock Exchange: S&P/TSX Composite Extends Slide to a Five-Month Low as Gold Hits a 14-Month Low - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQnc3bENqRFYxa0pYQUFmXzJqVk91Nk9OeVl4ZktoVzdBcDNyMndEeWJQYU1heXFiQWFIbElEdnVsaXZCU2xjODY0TEZublVGMHdsUklCcG5aY2NPQ1ZvZmpOTThoUVh3cmtfVHQzN1ZNeWhZenVXYS1jS3U5bWVjWndEYTZyaTNiWkdiellubWFXMVRnWkJnd1VzZHhSZlRKQzhOd3JONWI3SFB2SzQwZ3F1SVFrZno1aFQzZ3B6eWI4MWU1Tzlqa01FdlNiUWlVSmg0?oc=5",
-          "publishedAt": "2026-11-19T23:18:51+00:00"
+          "name": "kalkine.ca",
+          "title": "Headwater Exploration TSX:HWX Deal Closes as Investors Track the Next Chapter for Shareholders (TSX:HWX) - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVlhFdGladE9FTFBPRE05U2gtSDFCREk4d1lzZHkwclZYMldMSU45ZG9ObUNqMTU0TVlISnRqSTg3LUg2R1drSUNDU0tCU19wZ0dTTDVOQXgzZXhSZmlPOHY2ZzdqSHl5a1lHcjIwM2Y3UDFzbE1CMnpETHk0NC1lNGhZYTRPamhoekVnRkNjY0dfZ05Pc3lmczVRaFhLNFIxOEI0cUExOGhVeFJWeVhULU0xUDQ3MEdVdkRnZm92dG9Mb1hWS191VEFYVQ?oc=5",
+          "publishedAt": "2026-11-20T15:00:00+00:00"
         },
         {
-          "name": "Investing.com Canada",
-          "title": "TSX plunges to four-month low as gold plunges and mining stocks retreat - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPazRuczlUcHJPRjRGMDFiOXgwQmhiUzBXNjhYOTBlTDdaY1lCUjVEVE1aSUJaQ1dYSVB0eXJjUHk2ak4wOWowVmhoWjBNTnZhUy1UaGhJblZZLW4zRGZlaGlIUnhpQzh6WkJCc1c1U1djWG94MGZobC1xSm5yc1I3RGhzV1ZabUJQMlAwbjVkdHhCS29Ea1czczZ5dWJUb2pPLTJlcVBkU245bEtQb1I1OW1ZRk96WUE2YlpWOHUxd0VQdTdpNEE5UnRlNDE?oc=5",
-          "publishedAt": "2026-11-19T22:09:06+00:00"
+          "name": "kalkine.ca",
+          "title": "S&P/TSX Composite: Bank of Nova Scotia (TSX:BNS) — Large Cap Value Stock in Focus as Investors Track the Next Catalyst - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRjhEX25IcmJ2MzhNV3RXeE9FS3Znd21iRlk2cUN2bGNCSlNvWlF0UjEweW4weWFPdl9pbWRpeWE2NmxKeWxZQTZhZU9CWmI2d3dmT2tIT25UWUF4MktVN2E1ZnVVTE9hc2EyeDRqTUhKS0pyUUwwbFhPR2FxX2p1X1lFOTBDRnlQZS12eXp6eC1QWTVLOS1HdUdzSFFrelR1SjMwR3NtSzVlTFNIdmdYNkwxcjN1X3B3QzJNMXVTR0VIQkJJamxXaUduVklvcHd6aWd4TXhxbFpreXJLb0VpSW5mUUNWdw?oc=5",
+          "publishedAt": "2026-11-20T15:38:00+00:00"
         },
         {
-          "name": "Yahoo Finance Australia",
-          "title": "Canadian Stock Market Today: TSX Futures Hold Steady As Hawkish Fed Lifts Dollar - Yahoo Finance Australia",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdmVfYkdGTXUzNlNQdjE5NUV1dm0tU1lVdXp2ejJlRGNGYld2cFk2OFFCazVrLTliRXFWandZNUtvdThxMk5BQkJHdEJNNVJEaW8wck9JbDhDVFBWbU1WTXNZeUUyaEd4OWFudDA1aFhNNXU5UHNNS3lGZWxfY1dRNGptNjctMkk?oc=5",
-          "publishedAt": "2026-11-19T13:12:29+00:00"
+          "name": "Kalkine Media",
+          "title": "What Makes Bank of Montreal (TSX:BMO) Worth Watching Today? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYXQxUjdWM3VsS3loM1p5bXphYXozYmoya0tobGxGa1F6TExNdzhlVVlqdlV4Qk5EM3ZULWtTYWxxYWpndUVMMWtNZW9qVzRrUktibGlFQVNGYkFxTlVRV2ZhMmsxcUxvRFhWREFHeHJxZW82bmlneGlUVXdCQm5Jd0FxVENITG9yZnVTM0hoV1d4NDB4eEdLUzkxNDk5czhUYUE?oc=5",
+          "publishedAt": "2026-11-20T14:51:00+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 0.92%",
+      "headline": "Nifty 50 rose 1.12%",
       "direction": "up",
-      "move": "Nifty 50 +0.92%",
-      "why": "Same-day market coverage explicitly linked the final move to: Autos and Banks Lift Nifty; renewed interest in large caps, 'buy' rating from brokerages; should you h; Bulls Return to Dalal Street.",
+      "move": "Nifty 50 +1.12%",
+      "why": "Same-day market coverage explicitly linked the final move to: Sensex Climbs 900 Points, Nifty 50 Reclaims 25,800 Mark; Sensex and Nifty Close Higher; investors seek shelter in Indian stocks, shorts unwind.",
       "drivers": [
         {
-          "label": "Autos and Banks Lift Nifty",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Sensex Climbs 900 Points, Nifty 50 Reclaims 25,800 Mark",
+          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "renewed interest in large caps, 'buy' rating from brokerages; should you h",
+          "label": "Sensex and Nifty Close Higher",
+          "detail": "Kotak Neo explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "investors seek shelter in Indian stocks, shorts unwind",
           "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Bulls Return to Dalal Street",
-          "detail": "Kotak Neo explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "broad-based rally as Nifty Bank scales record peak",
+          "detail": "Zee Business explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -118,65 +123,65 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25748.7,
+        "price": 25800.6,
         "previousClose": 25514.3,
-        "change": 234.4,
-        "changePct": 0.92,
+        "change": 286.3,
+        "changePct": 1.12,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-20T09:11:35+00:00",
+        "asOf": "2026-11-20T10:01:15+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 83872.17,
+        "price": 83919.71,
         "previousClose": 83021.75,
-        "change": 850.42,
-        "changePct": 1.02,
+        "change": 897.96,
+        "changePct": 1.08,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-20T08:56:34+00:00",
+        "asOf": "2026-11-20T10:02:29+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "Upstox",
-          "title": "NIFTY50, SENSEX gain 1%, NIFTY Bank scales new record high: Key triggers explained - Upstox",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSUhEemVWMmUwOVBXVGk0LVg4VzlRY1BCV05Ec2U3SzVSdjZNMjBLbDFaeTdlNElRTnhFYjVCMF9IR0luUTFTWDRJRURlR3hsZ3hZNFhScmJ6SFFxVVRDUTJ3UlRFWU9WSGJCQkFRN1A5LXcyVkRvNjNZbDlJVE9pZy1oMWF6YkRLTGR1eThzOG5wcTRiaGRnRmlWQXBLWlF0VnFlY2NUY0tHWXlZa0w4RHFKSThoZU1hLXRfbmg4WWVYSnJnVE9sSVFxLTU4aUhwdndCQw?oc=5",
-          "publishedAt": "2026-11-20T08:37:12+00:00"
+          "name": "Dalal Street Investment Journal",
+          "title": "Closing Bell: Banking Stocks Drive Market Rally as Sensex Climbs 900 Points, Nifty 50 Reclaims 25,800 Mark - Dalal Street Investment Journal",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQzRCdjQ3STg4UndzS1JnTks1NVduNWVaTjk0WGFndjlmMFROTWlqZ0JBTGlGd0NfcW0zMGhETjhydTNEZVZXbG5rYy1wRV9TNUpCOFJ5VFZTZ3NKNk1yQjFBY2pveGxzMllIc0dvXzFBSXpYbXBnTjJPZXZkeFVCeGpSUFh4VkxDRExQbHdkMUg3QXAxVy1jSE1tejUzOVBMSFg5Y3ZOLTRucWQxVmlVQzdpX2ctVW5rRmF2S3pmaHFhOWRIZWlFWXB5WkJVMzl4Skd5M1BIVFpxNU8wNTZIdEtRT28wcmM?oc=5",
+          "publishedAt": "2026-11-20T16:20:57+00:00"
         },
         {
           "name": "Kotak Neo",
-          "title": "Stock Market Update 20 November 2026: Sensex Fell Around 250 Points; Nifty 50 Below 25,450 in Early Trade - Kotak Neo",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUWpRb3hrcFZtVWZ4QTl2a1VTUGRncG9tWHZlNk50Z1Nsc1RFTTkyZmlFWlRqYkFmRko4SV9rYzl1dTFwR0VxdWxmYkJCUUp5b2wxM0V1d0hEd1Rsc2xjMTZ3clc5anZCN1l4Zk1NbVZnQVdXU3VRSXF5aktIYm5sLXRTd0dNSU03NVlxd1EydFNzbFhnTUlN?oc=5",
-          "publishedAt": "2026-11-20T04:49:55+00:00"
-        },
-        {
-          "name": "The Financial Express",
-          "title": "Sensex, Nifty today: GIFT Nifty signals gap-down start after sharp 2% drop in US markets - The Financial Express",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYktMTmJFa3R2SWgySlpJYjVwRDI0aktfVDNFaEd4bUsxNThPcjdEYVVwakhaOGk5bzZiSVNRRm1IbHBsdjgzaDdrWUF3VC15bTFOSUlpcnpJQ0gxOUNQWGc2MHhKc3B1bWtMTmJJWkdMVUNZNnJIMWRtV1NrNHBINWktSGw5YV9KaEVrakFvelplTjRoUlFhSHAwR0JqMDZITWlTY0JLMnFXTFpvcm1VNFFCOFpfT3F6SENlX0R5dnl0clNBbnl0YjZIbk9iSUhmek9DcVhqWk1Ybjd3dDFVa2xvVHhfdlBkTDhqZ2xYQlRJM1pITGhRZNIB_wFBVV95cUxNZGZabkk0bXp1U3lvaTNnbDdmRWhkZlFndHZRME9rVXEwNG5kVU04ejIyUWE5OXhEdDJ0dUVlYVdxWVpLZUlsYXRVY3ZxbGt5VUVLUzNEX1B0QzNBLUFFbWNBWTBWVEVGOUpNMk5vbWxhSlduUjlXM2ljUmRWTml2Z016WnpkS0xrelJwWlVJYldNZXNfanV2bi10cWtMd0JENHRkWVc5YXQzQVJUYm9HOHNRTW1xWWRwcHRKX0NKd0U5WFN2VXpkYzUxcXFCWkRoblBmYWRUdnpwc1dtc19VTGx3ODVIcUd5bl9qYWV0TjlxWkQ4dFl3eVBGTkJ2Um8?oc=5",
-          "publishedAt": "2026-11-20T01:51:11+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Surges to 83,021.75 as Autos and Banks Lift Nifty - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelNpMUNxWDJwWkU2LWI0UkZVSC1PdXJINGYtQ0xreU9qek9vOWFrR1RpNnV2dEl6Q0xobW9FR2Zmdm0wZzFQb2hCNGxHMEJCOElsbFJNWnpZYU9tMW44dTlabzhGV1RXdFFGdnVncko1YnRRM3FaSjlTSHlsX01hSlRkMTN1djNQS2p6RktkcnNCcHVNNEtBRDBZNTJUeGNaVlE?oc=5",
-          "publishedAt": "2026-11-19T23:12:45+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcWhfcXNmcy03Y2JVZVlqS2wzTVFUU2NnTWJmbVJLQkZBbHhoTlkxb0x4X1R4MGNZNk5OM25YYW1NN0JWQ25FclJCX1pUaEVadE9XaFdiVmM1eFZvSTM0N0lCNzFDRkNSQnF3MmJDc3I2OXNOTFB0N19wbXdMeUdNYzZZZGlMQV9NUk9QRG41MjZ5ZkMzY1hLWkt5ODJjTDlMQW5RbEF4MXRtUmtxUzBTVGNjRDVFVWxZX0VwRENNT0FqQXo1Z2c?oc=5",
-          "publishedAt": "2026-11-19T13:17:00+00:00"
+          "title": "Closing Bell, 20 November 2026: Bulls Stay in Firm Control as Sensex and Nifty Close Higher - Kotak Neo",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbjFKM3Jja1I1dUNlaEozRnhSLWdITlluZ0lPVEJleDNyd0RCeGhLWlNjcndjZlpXTXlmWU9XLXJpU0V6UmVfMDdmVHFhUlkyeV9iaXRKakNFV21YN0xKWm5HaFlCNnZxdEJKblZJUzBPVzRDbUYyclFoNU1QTWh1bV9UdFctSU5LdXU2aHA3NFlBaksydUNLalFoNW5yTUdEQzB2MF9CM1hXejN6am9vdjI3LUNjUzZhdzc5ZXNBdWdSTTBDOXc?oc=5",
+          "publishedAt": "2026-11-20T10:58:54+00:00"
         },
         {
           "name": "The Economic Times",
-          "title": "NSE stock closes 5% higher amid renewed interest in large caps, 'buy' rating from brokerages; should you h - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQaG9ZNE8yb0w5Unc2VjB6a0Jtc1VkWHZpbDMwSkllSnc2aVJocTlMM2RiUXdfZDkwX2o4SmJUUTBoNTZvQkRwdnl1ckotT1pGNTNfbHpKdGFMN2pheDR0S2Nnb2lBUTJfSkh1by0yd2ltbHFyN2pKWGpFM09yTTF1a2UtUlFDdnZDaWZWa0pwZ3k4Vi04aWhleEtWa1UwZFFsX3hzUlRLTzdQUGs2bkZWZWdGTTlNYW5wS2NCUDRveFR6VjJSY0x5OUU4ZHJnVkRhcGE4U1ZrelVhajNTazRXZWx0ZFZCVGxaN1lhY2F0Y3VnekhSSVZGSElLS3ZOWWVRLWFyZTRBcWtGb1lMYzMxeHQ4UljSAZoCQVVfeXFMTnNhSFhIbXlfTTFwZkJRY0FPWmRDVWI0eHRkOWgxc0tKYjlJdmRSTVotLWhaeGVXSFhSeV9hVjVkWFRhMDM0NWhzMXoxX0NWNXJzeExLUXRkNkJETXpfVW9KUmw5WEQ2RXdSanRaenN0ZFl6a2x0NkNXeG9lWDZEZU9xa3REMjI3RldSeFJ6ZlJjMWY1S0VseHFYRHNsUkVjRnkyUzVzUTI3QkI3bEJSRVlTMXVPUGhGRFVMVFNnX2pmdlFfODhzUGRsOERaRmRuajBtbXpvZUdJSXVoZkplNndCbXNyQlpKcy1nVjFnbkpRZGpub0pZWWh2RGlzUmJBSnI2RWhTNHRiTG1ObVdkUjFlcmtJVnBDSTF3?oc=5",
-          "publishedAt": "2026-11-19T12:24:16+00:00"
+          "title": "Rupee climbs past 93/USD as investors seek shelter in Indian stocks, shorts unwind - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPV2lPRlVDeWlrYUdPSy1UTE1HZklTM0dSdnMwd3NkNGpMd2JBSkVweElfbkRjUE43VGtVcDBCWTlXSmFPTERzLUF3T0JYMVZDSFBLZFR0NFp1UjJ4SlRDYksta3dJcUNNOGZiTUZ5WFJIcFFTWHBqelBCcWZZLVczSzMxY1hKbFpxYjhGb1V3XzJ6MFZib3hCQk9wcTVvSXZ2c0xuRXMxanlqUGNxamxVemktaXlPMFVFdjJVdlJmMFRlTmNrR2xCcVZMQTl1Vld4MGJSZ05DeHE3SHJTck1GcUMwSHB4LXRhSUJDdUpBcUl6Z9IB9wFBVV95cUxPSkJWQ1U3SHVDQXd3MTN2MlV4N1FSdjR1RDhTMXlFOFctTWVZTGY0aUp1TWtBbjJ6c3lPd0NPRE9VeWgtbnNVNkxsV1I2SWNZWjh2VllrTXBkMlR6MHdXdUU1UjAydEJuY2hhN19YMFRTMlpaejRXRndVck1JYUZneXhnMTBINGxzRnJvTmExZ3JmUExlMVJoaS1mU1FzaU83aVlEWHE4WUZCNkd4R29RRm9ERW16eE9tb2ppRXhKSHhqU0JIcldrbUhnVXNVaWlNdW4xNkpXeFdKWWY2ZGtUY2tCdGtwSS1vRWVReFYwSzMxeEk4NnYw?oc=5",
+          "publishedAt": "2026-11-20T10:45:31+00:00"
+        },
+        {
+          "name": "LinkedIn",
+          "title": "🔔 Closing Bell | Sensex settles 1,500 pts higher from day's low, Nifty ends at 25,800: 4 key reasons behind sharp market reversal Buying in IT and bank shares, continuous FII buying among key reasons behind markets erasing early losses on November 20 M - LinkedIn",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTW1KZWVsTGFjclZoalZoUFI3Q0FyNkxCZWxMMW1NLXNIcHpSQ2R1YW02VGxOU3paWk9fQm5WN3VwMXBfQlZCd3VqNHZOWjR3akRhLWpOck1tLUdKSVFYSHI5R0pkOUQ0TVlERHR4cVVucGRYQTVzZEFwQk55U2Zvb3FwVzNBQW12VVdxZEFyUXFfUXYzVkJNTEEtWHhkbUFRUUxraHl0Qm56U1N1dWZGeDlLdEk?oc=5",
+          "publishedAt": "2026-11-20T10:17:00+00:00"
+        },
+        {
+          "name": "Zee Business",
+          "title": "Sensex soars 898 pts, Nifty reclaims 25,800 amid broad-based rally as Nifty Bank scales record peak - Zee Business",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWUZLQjhqbmIzSkdmWmhEcTdkNnEzRG9XcUVGOWR4Y3dWSTYteTQ3cDJiODdzWTQ3aEZpWUVuT1pRb0I3ZVBYSjlsWnZUeGs2UnVxaDNubzJxUXZvRkdGUjV1cXFXdGlqei10Q0JIck5FZ29KdVAxS3lLZlBhLVpWb0hCR1h3MExQV2JucHFPZVF4bGtPZXJXQzkxd29rbVZLRGlLV29iTW5OOGdJWGlrNlBRX1IxNlJlXzNhM24zTE00aVIzc2hkLUVkR1RQeUJ4QTJWcTZKeXBMVTd4?oc=5",
+          "publishedAt": "2026-11-20T10:04:48+00:00"
+        },
+        {
+          "name": "News18",
+          "title": "Sensex Surges Nearly 900 Points, Nifty Reclaims 25,800; Bank Nifty Hits Fresh Record High - News18",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZlhHNktoNzRHc3ppZ29KSVdOWHZVM1hheFdiS01FSWcwU1VHaGdjTnNvbkN2TWNNT3VhWjBxT3FaZFh5aVhSMU02TnV0dXlqSzNFSzdwRTBDRU9DeDhac2U0TmFSNnVGOWwwN3BONmhTZndfY0VlZkgtaHlQWUhsTXdNdlg4cHYwWVRZNUJWc0pROUpLcmNhSFhoTWFFek5fTzN2VmViMXhIblA5UHB1UXZka2s2T1lWWUZQVGctbkc0UGsweDFaTEJFTlpYWnMtNUw3eWRJY0ZqbjJFYmc00gHkAUFVX3lxTE9UazlPam9QV2J5QU0wSnZMRHFjRFp6QmdCWC1kMUJrWXdISGsxc2twaXY5clNoWDEwY1BYcjlTVUpIT0xMNUtGTHBNWjctVXBMelJjZUt2R2R6SGdxa1duSkZXbE5pRTZUc0NYVWFILXVlN2FEcWJkWm1pcW53UkhicExPWmJnZWxTQndwNFZET25vRXlQM0dLUzhPZVZoc1A1ZDhqUUpDLU5mTl9EY1RpbXB5Q29ZeUw4b21tbm1zTDRwOGZNZ0NjcHFsczdfRk1LVXpUOUh5X2dOendWSnNpS2E3QQ?oc=5",
+          "publishedAt": "2026-11-20T09:32:25+00:00"
         }
       ],
       "evidenceCount": 7
