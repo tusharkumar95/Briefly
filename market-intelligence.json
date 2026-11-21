@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-21T07:42:33.253205+00:00",
+  "updated": "2026-11-21T16:23:14.841147+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls 2.5% as miners and tech stocks drag market",
+      "headline": "TSX slides 2.5% as miners drag market",
       "direction": "down",
       "move": "S&P/TSX Composite -2.46%",
-      "why": "Miners sector weakness and a deepening technology sell‑off were explicitly cited as the main reasons for the sharp decline.",
+      "why": "Miners weakened, pulling the index lower and contributing to the biggest weekly fall in over four years.",
       "drivers": [
         {
           "label": "miners drag",
@@ -16,24 +16,23 @@
           "kind": "driver"
         },
         {
-          "label": "tech rout deepens, with S&P 500, Dow and TSX sliding into technical corrections",
-          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "10% stock market decline",
+          "detail": "Beinsure explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Miners",
-          "detail": "Weakness in the mining sector dragged the TSX lower, as noted by Reuters.",
+          "label": "week of losses; U.S. markets also plummet",
+          "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Technology",
-          "detail": "A deepening tech rout contributed to the sharp drop, according to The Globe and Mail.",
+          "label": "Mining sector weakness",
+          "detail": "Reuters reported that miners were dragging the TSX, leading to the steep weekly decline.",
           "kind": "context"
         }
       ],
       "sectors": [
-        "Materials (Mining)",
-        "Technology"
+        "Materials"
       ],
       "confidence": "high",
       "primaryIndex": {
@@ -58,10 +57,10 @@
           "publishedAt": "2026-11-20T16:31:54+00:00"
         },
         {
-          "name": "The Globe and Mail",
-          "title": "Stocks close sharply lower as tech rout deepens, with S&P 500, Dow and TSX sliding into technical corrections - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbFktVk5TaVBHaXJHS05DZjczUngxalpGZjYxclh2SldTWHZxMzI4SG14UkxkbTVJOFo1MHNfZTJqX1hab3FZV295TWpBS3d3VFQ1VzZpRmhzWWVWRjY1R0xDa3ZnMERkM3BlZ0ZfZlBWZF9tRkUxcGtPb2NMSzUyb0phRzJuNWtIUTJrTEVDckdGa2lCNFdsMWROLTJwQzZJZVRleThtRmFpVDJ0M1A4bGNmeXVhSlQ0d1RxTEtlQkpZa01nbEVidVVPakh5czEyU1h1MzZZNEJsNTc0cnpIM1huc2M3eG14bEJDQ204aw?oc=5",
-          "publishedAt": "2026-11-20T10:33:14+00:00"
+          "name": "Beinsure",
+          "title": "Canada’s S&P/TSX Composite enters correction after 10% stock market decline - Beinsure",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLWZiRnpzTE1kV2swR1BhQlRydFE5c1REZHNYTFVodEl0NzZDVkpycFJzbkpnT1BNaDhQU3YtZjlqeVJmaWVHcWNCeWFKT3BIdlhpUFdiQ3BTV1FQSTJRamlRS3dWc19ucVptZjR4b0JscHB2eEdpWDM4NFJaaWNuTWx0bkNXRkpxeW82aDRWLWhIekg1N2EwZUdBZ2U?oc=5",
+          "publishedAt": "2026-11-21T10:28:34+00:00"
         },
         {
           "name": "BNN Bloomberg",
@@ -76,16 +75,16 @@
           "publishedAt": "2026-11-21T03:23:09+00:00"
         },
         {
+          "name": "Yahoo! Finance Canada",
+          "title": "TSX falls nearly 2.5% Friday after week of losses; U.S. markets also plummet - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VENkbU91QUl6cGRRVC1WRGVMdktBdmFfT1pxVGRKQk9scE1CVzY2cVFIQVFndlFXNmF5M1BaUXBmYi1JN3UwVlpFUjJ0clRuNk9qUlhDTjZvQ013X1NyRU5QLVpCX3JMNTdvX3ZPVmVmWXp2Y3BMVmxZVHVUTEU?oc=5",
+          "publishedAt": "2026-11-20T22:10:04+00:00"
+        },
+        {
           "name": "Manitoba Co-operator",
           "title": "Canadian Financial Close: Loonie down, TSX, Nasdaq in correction territory - Manitoba Co-operator",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlpvUmlMejZmSzdCWTFHbjh1MzFBRjZWRkFGZTNlRHJERy1PYmJmbVlSUWVyMHpoaXpNOE9CWDBfSWFNR1oteEk1eUpST21VWmJ0SHlJd1VVNVJxcDRYdFpRcmdDUS04M09mb1hpNDBHcGpOYVhCUVhOMFQ3aUZIMXJWazJjX1E2TWM3Rlk1TTJwMlN2eUhHUDdELWtNbWw4cVI0c0VEQUhCM29OcG13b0s1MlYzZnMwNnFySA?oc=5",
-          "publishedAt": "2026-11-20T21:56:06+00:00"
-        },
-        {
-          "name": "Investing.com",
-          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 2.47% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNclp0S0diR2M3bVhjSXRpcjdMeXhOdC1XaVFyQ2htWkJGbXk0Z3podl9LdHZ5MVdEdkdJMEJyaFZSUGxGdDdSYnh5aEgzeEkxaGFHeUxRMTA3aVhHQTNWcVQ1M2psNVBRZ19CZGhEbVpZdzA1dGtGQW1keDBXNEkwLW9aOHJTS1JUTFNoT2F0dThfYmFROGc1YzFEdXBqbV9uNmVocEl6SG0wNlo3MUxSc3JJdEN1RnFpcHVj?oc=5",
-          "publishedAt": "2026-11-20T21:42:44+00:00"
+          "publishedAt": "2026-11-20T21:56:07+00:00"
         }
       ],
       "evidenceCount": 7
@@ -95,16 +94,26 @@
       "headline": "Nifty 50 rose 1.12%",
       "direction": "up",
       "move": "Nifty 50 +1.12%",
-      "why": "Same-day market coverage explicitly linked the final move to: Sensex Surges Nearly 900 Points, Nifty Closes Above 25,800; Sensex Climbs 900 Points, Nifty 50 Reclaims 25,800 Mark.",
+      "why": "Same-day market coverage explicitly linked the final move to: rally strengthens; 6 sectors signal outperformance; Funds Rotate Into India; Sensex and Nifty Hit Nine-Month Highs.",
       "drivers": [
         {
-          "label": "Sensex Surges Nearly 900 Points, Nifty Closes Above 25,800",
-          "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "rally strengthens; 6 sectors signal outperformance",
+          "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Sensex Climbs 900 Points, Nifty 50 Reclaims 25,800 Mark",
-          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Funds Rotate Into India",
+          "detail": "JournalArta explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Sensex and Nifty Hit Nine-Month Highs",
+          "detail": "www.nationpathindia.com explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Sensex and Nifty Hit 9-Month Highs on Record FII Buying",
+          "detail": "Kotak Neo explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -138,22 +147,28 @@
       },
       "sources": [
         {
-          "name": "HDFC Sky",
-          "title": "Nifty Gains 2.6%; Sensex Hits 9-Month High on FII Buying - HDFC Sky",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUGFSMWJoeDJNTElSVk5neHlWQk40YTQ2UmhMM3BkMUZOZjRCYlB1ekdMTk54QXdJNlFDWmRubHN5ZjJBQ3BveDRBRHNud1E4OVZvZmh5TWVlcU9jUVVoQ0gya3VqckR3Zkg0Qkl3WkwwUFNRWm94UWdtZEVBN3ZUZ0Z0VlpLZGFCbWZSd1EwODVZNGpJOE5oNnRyMmRfTmdDZ0ZQMUJ5cmd4dw?oc=5",
-          "publishedAt": "2026-11-21T06:06:53+00:00"
+          "name": "The Economic Times",
+          "title": "Nifty eyes 26,200 as rally strengthens; 6 sectors signal outperformance - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTVIwV0lzWkQwMmd5N3FNWkhNOWVlT0g0Vzc5dFBFejBwcFNQeXNsTndSdkFfOU40bGU3NXRjOVB4UWFnaUliR1BjbHRkUndNNUVZUWpuZmxFRnhqcFFOSEo1SGdLVk1Xa2lkVmYwTjFvaEs2YWl2c0Z2V2tnTnZfLUk3Q0hrZ3NsWDU5M1E1NUdCSUpxUWI5NmozUmF4djIyQ1NHbnZxMmFRc0F6TE9OajNiNS13ZWdQWDI0anhma2dLVnVYYl9UNFVHQzh3dkc5dHFoTFB2cEg5MlHSAeABQVVfeXFMUGVRQnZ4d2xpVjZFV3F3NlpneHZuUlZ2R1hTWUpZTUgweUFaNGplenFiOExCZ3Rqek9OZ2lTdEVhNng5V1pCVE1UaTV6OFFnZWZVYjB2QzdscEpCN2xVSWZzejJHN20wOW9PUW9jTDFyTlRsZEVLUm51YW02MTQwSVFfYjZ6N3h3X0RGVHAza2ZSaWE1SDJ2SFBNeVJNVnZ3cXJNRVZ3UVhiT0xYYkMydlZ2N3ptSmdKYnRkZ1VSRnRvRVd6bTNGQk4wVUlwMnFSenJldUVjU0VLNVpWRWZqYng?oc=5",
+          "publishedAt": "2026-11-21T09:39:05+00:00"
         },
         {
-          "name": "Livemint",
-          "title": "Nifty set to test record high in a month after toppling key hurdle - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONHNhbGlFbHAtd3ZodzRZQ21RbF9laFY2eHNYdk5HNHRvRWRnRm1wVFh4aVB6YWF3T2ZwMGRBQnM2bzMwWE9YWmc1YlNxWFdUeFEybU1Wb0JTeXBxNXNCTGtsbzktMUlRaW9KQjRpTmJuMXZEdWl1UDhLYVZaQ0MzeHNvTmkwWk9vdXNsWVFRc29DMVIxcTFHTl9fWUlLZTdiUS1za2dHZ0RJalliRGk0a24zWHdLbXVWZ0HSAb8BQVVfeXFMTTB5ejdmeGVOLTBqLTVDUDFPOTlZak83RHB4clo4NTFZWFBxdkhJTDB1RjduY3BybU5WY1V0aXdxRjNuQWUxRmVRWkRKOXJUNGM5UEhKckIzYThnZkVEdHZYTFVUUTJLb2MwUHYxeFpFRF9feUtjYkhneXRna0Q5LUg4T2VHZ0xHVXJJRnVTOUpSd2FNQjBpekNpeXVoajhkWVVQY05qZTlyNHBHM3VYa1FaVzdaeW1zVXRndnFqNkE?oc=5",
-          "publishedAt": "2026-11-20T11:35:20+00:00"
+          "name": "JournalArta",
+          "title": "Sensex and Nifty Rise as Funds Rotate Into India - JournalArta",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQVpsdjlJdWpmNFdFNmtidEhhMHpYUk1Uby1ma09yZEFzOFVyRDRFTDl0NGg1SzRkTWJyWmJSNEhSYXZuYU90emo1dXY5SVZiWldDbmFKQ2dKTDNrcUxWV1RINVZtbWdGYjM2MTlWMzJ4akNDOFFrWWp0aUpaakJVdjRNT01aa0pOYzlyNmFmWGRnUQ?oc=5",
+          "publishedAt": "2026-11-21T13:30:58+00:00"
         },
         {
-          "name": "Trak.in",
-          "title": "Sensex, Nifty Near All-Time Highs As Indian Markets Defy Global Sell-Off - Trak.in",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZW5PMTBGNVNJNW1Hc3RtdFFDa2ZKWDdhUVpMQjNGbmhHMjVkNmFNVmxsR24ydC1ORFFWSDR2T1lqNVZqVjNUU0ZkejZwcG1pTTdGcmRrZEVSY3BCc2pIR3VSb1FKWHlOMndLajItZm51N1ZKZzdlcTkyQlVxZXRXcXF4OEJ6aUJ3SEM1Yl9UWUZ1NF8yaHJDY0E3QVU?oc=5",
-          "publishedAt": "2026-11-21T05:43:38+00:00"
+          "name": "www.nationpathindia.com",
+          "title": "Indian Stock Market Extends Four-Week Rally as Sensex and Nifty Hit Nine-Month Highs - www.nationpathindia.com",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSGdMcjdYSU1kUTB2RjMyelAtcmVSbzZkU19Scy1tWmdhTmJJcjY2X1ROa1pZWE9FS3JHa0FEU0U1OFM5RWx4VnpPZlliQ3B0c0FRcmkyYXZIbXhyR05jbzRZVU9LdWZSNzJoY25tNElaVVE1WlVNMDZUUkszUTJ2eHdhWnB6SGctLUJpTWZGQ21BcnFlSU9ORWZvdnNsNzNySExTS3ZJUW1iZFpUVDZfYVQzb3RDRHZlT1hZV1htRQ?oc=5",
+          "publishedAt": "2026-11-21T12:09:22+00:00"
+        },
+        {
+          "name": "Kotak Neo",
+          "title": "Indian Stock Market Extends 4-Week Rally as Sensex and Nifty Hit 9-Month Highs on Record FII Buying - Kotak Neo",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdHRLUWlWUGExQUVQdm41Q3RTXzVkdzhBNVY1ckc2X2VmRHQ5ZGdESlV2Z290X0lWVXdCcHh2MkZkZE9rcWRfUVBzVTFiWHZEZTZXV0R2VjVaZlh5dXFBQUw2WE0wcHF1ZnBlWWR2REFwS3F4dXlCR3FoLXNBZDBHYmxva3NhLWt3eHV4ZGxoSjBQc3RPQ1pNVXl5c2pVaGIzYU54Ni1TUHh1bzI3dG9UYWR4NTR0QUxjalFCV3pvTXV6MzJacy1ORmxHZU1FcDVrLWpSUjNwYjEzSVFOejc5N0hn?oc=5",
+          "publishedAt": "2026-11-21T05:52:38+00:00"
         },
         {
           "name": "BBN Times",
@@ -166,12 +181,6 @@
           "title": "Indian Stocks Rally as Sensex Surges Nearly 900 Points, Nifty Closes Above 25,800 - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW9VSm9KTV9DYjBVMFpJNkxjZ3dNdzlNcDZGU1p4X2VabGZMd1RmSWV3ZUZ6cVczc0llYkxoLUNXY1BvQ005S2pfTk9xV2tSU0VBNUFpN3UtU2M1amE5eFJjUFVaNzJ2aDlTZGRhMkJfclFQQm04ZzFqWklheUNJQk05c0JWTmFGTFBqa0xNMXZNczdtdy0zclFCLUhwSTlrWnJXbk1GSVdfNTVq?oc=5",
           "publishedAt": "2026-11-20T18:38:16+00:00"
-        },
-        {
-          "name": "The Indian Awaaz",
-          "title": "Markets Nov 20: Sensex gains 900 pts; Nifty closes above 25,800 while Bank Nifty scales fresh record high - The Indian Awaaz",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOVRqdUUySkJKVGJnb0tVeVNqQ1dBVFpKREl5bGJVTGhmN2tBdVpOZVBOMkMwQ3Y3TUZPNWR4SDVqQTdCQXViM01xNG5YT2hFdnJCZHpiOUg5SWMyaGRfQWpsZFNpREV5TzFDMGljWmNfQ25EbXJTU2pMQWYtTE9acHFuMVZPLUdaTS1Fb0VobmtqUzZ1aUFhU0xGNTZXVGpNQUwzRzJ0UjJxMFpYaHc1MTdDQzNqUW8zV1dwbEtJV2UxSlhzQ3hya2JR?oc=5",
-          "publishedAt": "2026-11-20T16:56:00+00:00"
         }
       ],
       "evidenceCount": 7
