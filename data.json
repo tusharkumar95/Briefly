@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T21:09:02.083378+00:00",
+  "updated": "2026-11-21T02:19:32.145704+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
@@ -9,42 +9,48 @@
     "officialOrPrimaryCandidates": 22,
     "enrichedCandidates": 79,
     "readableCandidates": 54,
-    "eventClusters": 52,
+    "eventClusters": 48,
     "materialEvents": 21,
     "selectedEvents": 9,
-    "seededStories": 9,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "8e637e72b16462",
-      "cat": "World",
-      "icon": "🌍",
+      "id": "6823aa5df3779f",
+      "cat": "Canada",
+      "icon": "🇨🇦",
       "categories": [
-        "World"
+        "Canada",
+        "Indian Markets"
       ],
-      "title": "Trump says he will ban US firms from building AI data centres overseas",
-      "publishedAt": "2026-11-20T20:54:12+00:00",
-      "importanceScore": 13.5,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Donald Trump announced that he intends to prohibit U.S. companies from constructing AI data centres outside the United States and warned of a “tremendous tax” for firms that do so. He made the remarks at a press briefing after returning from Asia, providing little detail on how the policy would be enforced. The issue was prominent in the recent midterm elections, and firms such as Meta and Google already have overseas data‑centre agreements.",
-      "why": "The move could compel major tech firms to keep AI infrastructure domestic, reshaping investment and supply‑chain decisions.",
+      "title": "North American indices slip into correction as tech sell‑off erases Nasdaq’s 2026 gains",
+      "publishedAt": "2026-11-20T13:37:59+00:00",
+      "importanceScore": 13.9,
+      "sourceCount": 2,
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/business/anthropic-ipo-markets-today-9.7429534?cmp=rss",
+      "summary": "A sharp tech‑driven sell‑off hit North American markets on Friday, sending the Nasdaq Composite down 5.28% to 22,654.15 and wiping out its 2026 gains. The S&P 500 fell 3.59% to 6,918.45 and the Dow Jones Industrial Average dropped 1.85% to 48,188.18, moving all three indices into correction territory. AI‑related stocks such as Nvidia led the declines, while defensive names like UnitedHealth, Walmart and Johnson & Johnson posted gains.",
+      "why": "The drop highlights heightened volatility in the AI‑driven rally and may trigger portfolio re‑balancing.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-20T20:54:12+00:00"
+          "name": "cbc.ca",
+          "url": "https://www.cbc.ca/news/business/anthropic-ipo-markets-today-9.7429534?cmp=rss",
+          "publishedAt": "2026-11-20T13:37:59+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-meta-tesla-anthropic-claude-nvidia-micron-meta-ai-stocks-fed-rate-hike-inflation-treasury-yield-news-20th-november-2026/liveblog/136028991.cms",
+          "publishedAt": "2026-11-20T13:09:00+00:00"
         }
       ],
-      "firstSeen": "2026-11-20T20:54:12+00:00",
+      "firstSeen": "2026-11-20T13:37:59+00:00",
       "status": "New",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "lastChecked": "2026-11-21T02:19:32.145704+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -54,45 +60,137 @@
       "lifecycle": "New"
     },
     {
-      "id": "2e157fe1c79ec1",
-      "cat": "Canada",
-      "icon": "🇨🇦",
+      "id": "7f043ffbe45c3d",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Canada"
+        "World"
       ],
-      "title": "Alberta to require upfront cleanup payments for new oil and gas wells",
-      "publishedAt": "2026-11-20T20:13:22+00:00",
+      "title": "Russian cruise missile breaches Polish airspace, hits rural area",
+      "publishedAt": "2026-11-21T02:09:46+00:00",
       "importanceScore": 13.2,
-      "sourceCount": 2,
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/canada/calgary/alberta-well-clean-up-9.7429047?cmp=rss",
-      "summary": "Legislation in Alberta’s Energy, Environment and Utilities Statutes Amendment Act, 2026 will require oil and gas companies to make an initial payment of up to $50,000 for each well drilled after April 1, 2027, followed by yearly incremental payments over ten years. The money stays attached to the well regardless of ownership changes. Rancher Bill Heidecker, president of the Alberta Surface Rights Federation, said the measure looks good on paper but raised questions about implementation and enforcement, noting a backlog of thousands of wells still awaiting proper closure.",
-      "why": "It creates a dedicated fund to help address the orphan‑well problem and lower the risk of environmental harm.",
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "summary": "Poland said a Russian Kh‑101 cruise missile was one of three objects that entered its airspace early on Friday and struck a rural area near the village of Nowy Lipowiec, about 50 km from the Ukrainian border. No injuries or damage were reported. The incident occurred while Western military exercises were taking place in the region, and Russia has not commented.",
+      "why": "It underscores the risk of the Ukraine conflict spilling over into NATO territory.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "cbc.ca",
-          "url": "https://www.cbc.ca/news/canada/calgary/alberta-well-clean-up-9.7429047?cmp=rss",
-          "publishedAt": "2026-11-20T00:10:45+00:00"
-        },
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12159745/alberta-orphan-oil-and-gas-well-cleanup-fund/",
-          "publishedAt": "2026-11-20T20:13:22+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-21T02:09:46+00:00"
         }
       ],
-      "firstSeen": "2026-11-20T20:13:22+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "firstSeen": "2026-11-20T12:41:52+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-21T02:19:32.145704+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "previousSummary": "Poland says a Russian cruise missile was among three objects that violated its airspace early on Friday, with Prime Minister Donald Tusk saying it did not appear to be an accident when Western military exercises were taking place in the region. Defence Minister Wladyslaw Kosiniak-Kamysz said the Kh-101 missile hit a rural area at Nowy Lipowiec in southeastern Poland about 50km (31 miles) from the Ukrainian border.",
+      "previousPublishedAt": "2026-11-20T16:54:29+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.2,
+      "changed": true,
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "753060c81ed065",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Sun Pharma Share Price Live Updates: Sun Pharma Stock Price History",
+      "publishedAt": "2026-11-20T06:49:25+00:00",
+      "importanceScore": 12.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136016959.cms",
+      "summary": "Stay in the know with the latest information about Sun Pharma, including: Last traded price 1884.9, Market capitalization: 452250.65, Volume: 1916054, Price-to-earnings ratio 41.24, Earnings per share 45.7. Stay ahead of the market with our in-depth coverage of M&M, including: Last traded price 3545.0, Market capitalization: 440830.97, Volume: 3534774, Price-to-earnings ratio 22.74, Earnings per share 155.88.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136016959.cms",
+          "publishedAt": "2026-11-20T06:49:25+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/mm-share-price-today-live-20-nov-2026/liveblog/136016893.cms",
+          "publishedAt": "2026-11-20T06:47:54+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ntpc-stock-price-today-live-20-nov-2026/liveblog/136016873.cms",
+          "publishedAt": "2026-11-20T06:47:28+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T06:49:25+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-21T02:19:32.145704+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
+    },
+    {
+      "id": "fb5a10d741fa91",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Axis Bank Share Price Highlights: Axis Bank Stock Price History",
+      "publishedAt": "2026-11-20T04:34:44+00:00",
+      "importanceScore": 11.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-share-price-today-live-20-nov-2026/liveblog/136013489.cms",
+      "summary": "The data points are updated as on 06:33:04 PM IST, 20 Nov 2026 Welcome to the Axis Bank Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of Axis Bank, including: Last traded price 1446.0, Market capitalization: 450239.54, Volume: 21477017, Price-to-earnings ratio 15.03, Earnings per share 96.19.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-share-price-today-live-20-nov-2026/liveblog/136013489.cms",
+          "publishedAt": "2026-11-20T04:34:44+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/axis-bank-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136013459.cms",
+          "publishedAt": "2026-11-20T04:34:07+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T04:34:57+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-21T02:19:32.145704+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Axis Bank Share Price Highlights: Axis Bank Stock Price History",
+      "previousSummary": "Welcome to the Axis Bank Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of Axis Bank, including: Last traded price 1446.0, Market capitalization: 450239.54, Volume: 21477017, Price-to-earnings ratio 15.03, Earnings per share 96.19.",
+      "previousPublishedAt": "2026-11-20T04:34:07+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.0,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "f1e4cf26a1dc6d",
@@ -103,7 +201,7 @@
       ],
       "title": "Chips can survive the space environment",
       "publishedAt": "2026-11-20T17:40:01+00:00",
-      "importanceScore": 12.4,
+      "importanceScore": 11.4,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
@@ -120,8 +218,85 @@
         }
       ],
       "firstSeen": "2026-11-20T17:40:01+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-21T02:19:32.145704+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Chips can survive the space environment",
+      "previousSummary": "Even older chips retain value — according to Compute Credit Index Research , some H100s are selling for about half of their original cost basis from 2023, while some H200 configurations are selling for the same price they did when introduced in 2024. But you’re not going to repossess chips installed in a satellite orbiting 300 miles above Earth at 17,500 miles per hour.",
+      "previousPublishedAt": "2026-11-20T17:40:01+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.4,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "025bacc3c2cddb",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "What we know about the latest Russian missile strikes on Ukraine",
+      "publishedAt": "2026-11-20T15:14:01+00:00",
+      "importanceScore": 11.1,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Russia targeted bridges in Kyiv and railway stations overnight in a major attack launched days after Ukraine badly damaged the strategically important Crimean Bridge. The latest Russian strikes coincided with a flurry of talks around the war, and came as the Kremlin pushed back against a US claim that Russia could be open to Western-backed security guarantees for Ukraine.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-20T15:14:01+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T15:14:01+00:00",
       "status": "New",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "lastChecked": "2026-11-21T02:19:32.145704+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "796cf69df22f66",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Anthropic shares close 17% higher on first day of trading amid protest, arrests outside Nasdaq",
+      "publishedAt": "2026-11-20T04:48:04+00:00",
+      "importanceScore": 10.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/anthropic-shares-close-17-higher-on-first-day-of-trading-amid-protest-arrests-outside-nasdaq/videoshow/136013757.cms",
+      "summary": "The Dow Jones Industrial Average fell 1,101.11 points, or 2.19 percent, to 49,097.06, closing below 50,000 for the first time since early June. Meanwhile on Thursday (November 19), Police arrested several protesters outside the Nasdaq building in New York City as artificial intelligence company Anthropic began trading following its initial public offering.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/anthropic-shares-close-17-higher-on-first-day-of-trading-amid-protest-arrests-outside-nasdaq/videoshow/136013757.cms",
+          "publishedAt": "2026-11-20T04:48:04+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-20T04:48:04+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-21T02:19:32.145704+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -131,101 +306,19 @@
       "lifecycle": "New"
     },
     {
-      "id": "7f043ffbe45c3d",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "publishedAt": "2026-11-20T16:54:29+00:00",
-      "importanceScore": 12.2,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-      "summary": "Poland says a Russian cruise missile was among three objects that violated its airspace early on Friday, with Prime Minister Donald Tusk saying it did not appear to be an accident when Western military exercises were taking place in the region. Defence Minister Wladyslaw Kosiniak-Kamysz said the Kh-101 missile hit a rural area at Nowy Lipowiec in southeastern Poland about 50km (31 miles) from the Ukrainian border.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-20T16:54:29+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-20T12:41:52+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Russian cruise missile breaches Polish airspace during Western military exercise",
-      "previousSummary": "Early Friday, three objects entered Poland’s airspace, one of which was identified as a Russian cruise missile, according to Polish authorities. No injuries or damage were reported. Prime Minister Donald Tusk said the intrusion did not appear accidental and described it as a provocation from Moscow, occurring while Western allies were conducting a large‑scale military exercise in the region.",
-      "previousPublishedAt": "2026-11-20T12:41:52+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.3,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "969bc50e9d28f2",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "European leaders say they are ready to negotiate with Russia on ending Ukraine war",
-      "publishedAt": "2026-11-20T00:50:24+00:00",
-      "importanceScore": 11.5,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "summary": "European leaders said they are prepared to negotiate with Russia to end the war in Ukraine, stressing a united negotiating stance. UK politician Andy Burnham and German Chancellor Friedrich Merz described Moscow’s maximalist demands as unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Putin has rejected any European role in the US‑led peace talks.",
-      "why": "It indicates a possible shift toward a broader diplomatic effort to resolve the conflict.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-20T00:50:24+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-19T21:21:43+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Europe says it is ready to negotiate with Russia to end Ukraine war",
-      "previousSummary": "At a Berlin summit of the “Coalition of the Willing,” European leaders said they have a united negotiating position and are prepared to discuss ending the war in Ukraine. UK Prime Minister Andy Burnham said Europe is clear and consistent, while German Chancellor Friedrich Merz called Moscow’s maximalist demands unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow alongside Europe, and President Vladimir Putin has rejected any European role in the US‑led peace talks.",
-      "previousPublishedAt": "2026-11-20T00:50:24+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.5,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
       "id": "5382442bbb4d0f",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "RBI expected to raise repo rate to 5.75% in December, 6% by February",
+      "title": "RBI expected to raise repo rate to 5.75% in Dec, 6% in Feb, poll shows",
       "publishedAt": "2026-11-20T09:48:50+00:00",
-      "importanceScore": 11.2,
+      "importanceScore": 10.2,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms",
-      "summary": "A Reuters poll reported by the Economic Times indicates the Reserve Bank of India plans to increase its repo rate by 25 basis points to 5.75% in December and again to 6% in February. The moves are driven by inflation moving above the RBI’s 6% tolerance limit, amid rising energy costs and uneven monsoon rainfall. The RBI is projected to deliver two more hikes by February.",
+      "summary": "A Reuters poll cited by the Economic Times indicates the Reserve Bank of India will increase its policy repo rate by 25 basis points to 5.75% in December and again by 25 basis points to 6% in February. The hikes are prompted by inflation moving above the RBI’s 6% tolerance band, driven by higher energy costs and uneven monsoon rainfall.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "medium",
       "verified": false,
@@ -239,157 +332,34 @@
       ],
       "firstSeen": "2026-11-20T09:48:50+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
+      "lastChecked": "2026-11-21T02:19:32.145704+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "RBI likely to raise repo rate to 5.75% in December, 6% by February, poll shows",
-      "previousSummary": "The Reserve Bank of India is expected to increase its repo rate by 25 basis points to 5.75% in December, according to a Reuters poll reported by the Economic Times. A further 25‑basis‑point hike is projected for February, taking the rate to 6% as inflation is seen breaching the RBI’s 6% tolerance limit, with rising energy costs and uneven monsoon rainfall identified as contributing factors.",
+      "previousTitle": "RBI expected to raise repo rate to 5.75% in December, 6% by February",
+      "previousSummary": "A Reuters poll reported by the Economic Times indicates the Reserve Bank of India plans to increase its repo rate by 25 basis points to 5.75% in December and again to 6% in February. The moves are driven by inflation moving above the RBI’s 6% tolerance limit, amid rising energy costs and uneven monsoon rainfall. The RBI is projected to deliver two more hikes by February.",
       "previousPublishedAt": "2026-11-20T09:48:50+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.2,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "fb5a10d741fa91",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Axis Bank Share Price Highlights: Axis Bank Stock Price History",
-      "publishedAt": "2026-11-20T04:34:07+00:00",
-      "importanceScore": 11.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/axis-bank-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136013459.cms",
-      "summary": "Welcome to the Axis Bank Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of Axis Bank, including: Last traded price 1446.0, Market capitalization: 450239.54, Volume: 21477017, Price-to-earnings ratio 15.03, Earnings per share 96.19.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/axis-bank-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136013459.cms",
-          "publishedAt": "2026-11-20T04:34:07+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-20T04:34:57+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Axis Bank Share Price Live Updates: Axis Bank Stock Price History",
-      "previousSummary": "Stay ahead of the market with our in-depth coverage of Adani Ent, including: Last traded price 2709.0, Market capitalization: 366723.45, Volume: 870848, Price-to-earnings ratio 63.91, Earnings per share 42.39. Dive into the current details of HUL, including: Last traded price 2052.5, Market capitalization: 482253.61, Volume: 1575224, Price-to-earnings ratio 32.02, Earnings per share 64.1.",
-      "previousPublishedAt": "2026-11-20T04:34:57+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 15.0,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "b010bf330b6f47",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Anthropic shares fall up to 7.4% in pre‑market trade on second day",
-      "publishedAt": "2026-11-20T09:36:25+00:00",
-      "importanceScore": 10.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
-      "summary": "Anthropic’s stock dropped as much as 7.4% in pre‑market trading on its second day of listing, after a 39% surge from the IPO price on Thursday that left the shares 17% above the offering level at the close. The decline unfolded amid a global market sell‑off and concerns about the company’s steep valuation and competitive pressures in the AI sector.",
-      "why": "The slide reflects investor caution toward high‑valuation AI IPOs during a broader market downturn.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms",
-          "publishedAt": "2026-11-20T09:36:25+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-20T09:36:25+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Anthropic shares drop up to 7.4% in pre‑market trade on day two",
-      "previousSummary": "Anthropic’s stock fell as much as 7.4% in pre‑market trading on its second day of trading, reversing part of the 39% jump it posted after its record‑setting IPO. The decline occurred amid a broad market sell‑off and investor worries about a steep valuation and competitive pressures in the AI sector. Despite the dip, the shares closed the day 17% above the IPO price.",
-      "previousPublishedAt": "2026-11-20T09:36:25+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.7,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "4015123737f8aa",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Rupee appreciation may cut Indian IT firms' FY27 earnings",
-      "publishedAt": "2026-11-20T09:36:14+00:00",
-      "importanceScore": 10.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms",
-      "summary": "A new report says that a stronger Indian rupee could reduce earnings for Indian IT companies in fiscal year 2027. The impact is expected to be greatest for firms with sizable European client exposure, as a stronger rupee erodes foreign‑currency revenue. With traditional cost‑saving measures becoming scarce, maintaining profit margins will be harder amid a challenging pricing environment.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms",
-          "publishedAt": "2026-11-20T09:36:14+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-20T09:36:14+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-20T21:09:02.083378+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Rupee appreciation could cut earnings for Indian IT firms, report says",
-      "previousSummary": "A new report says the strengthening Indian rupee may lower earnings for Indian IT companies. The stronger rupee against foreign currencies is expected to hit profitability, particularly for firms with significant exposure to European markets. With traditional cost‑saving measures becoming scarce, maintaining margins will be challenging amid the current economic environment.",
-      "previousPublishedAt": "2026-11-20T09:36:14+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.3,
+      "previousImportanceScore": 11.2,
       "changed": false,
       "change": "No material change since the previous brief.",
       "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 6,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-20T12:57:04.128275+00:00",
+  "previousUpdated": "2026-11-20T21:09:02.083378+00:00",
   "changeSummary": {
-    "new": 3,
-    "updated": 2,
-    "continuing": 4
+    "new": 4,
+    "updated": 1,
+    "continuing": 3
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-17T22:54:34.896201+00:00",
-    "updated": "2026-11-20T21:09:02.083378+00:00",
+    "availableFrom": "2026-11-18T04:25:27.351040+00:00",
+    "updated": "2026-11-21T02:19:32.145704+00:00",
     "snapshotCount": 10,
     "eventCount": 82,
     "retentionHours": 72

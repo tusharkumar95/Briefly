@@ -3,196 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-17T22:54:34.896201+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 6,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "cb1f71304dbbb3",
-          "cat": "World",
-          "title": "US investigates Singapore firm Megaspeed over alleged Nvidia chip exports to China",
-          "summary": "The U.S. Department of Justice and Department of Commerce announced a joint investigation into Singapore‑based Megaspeed, accusing it of violating U.S. export controls by facilitating shipments of Nvidia’s high‑end AI chips to China. The probe, which began in 2024, follows concerns that such chips may have reached China despite restrictions. U.S. authorities also suspect former Megaspeed executive Alice Huang of spying for Beijing, a claim China denies, and note that Nvidia CEO Jensen Huang resigned after personal scandal revelations.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-17T11:17:32+00:00",
-          "firstSeen": "2026-11-17T11:17:32+00:00",
-          "importanceScore": 14.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Its significance score fell as the evidence changed.",
-          "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "4b8b48f2923063",
-          "cat": "World",
-          "title": "Ukraine damages Crimean Bridge, section collapses into water",
-          "summary": "Ukraine has severely damaged the Crimean Bridge that links Russia to occupied Crimea, with images showing a section of the structure collapsed into the water. President Volodymyr Zelensky described the strike as an unprecedented operation. In Kyiv, Mayor Vitaliy Klitschko said traffic on the Pivnichnyi and Pivdennyi bridges over the Dnipro River had partially resumed after overnight Russian attacks.",
-          "why": "The damage hampers a major supply route for Russian forces and has symbolic significance in the conflict.",
-          "publishedAt": "2026-11-17T21:24:35+00:00",
-          "firstSeen": "2026-11-17T13:01:11+00:00",
-          "importanceScore": 14.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "9fe8a7077b8df7",
-          "cat": "World",
-          "title": "UK sanctions eight firms over West Bank settlement construction",
-          "summary": "The UK has sanctioned eight construction and property development firms it says are involved in building settlements in the occupied West Bank, the first package of measures since the government announced a tougher approach to Israeli actions in the territory. The government said the sanctions would disrupt the firms' flows of finance and their ability to support building in the West Bank. Israeli Foreign Minister Gideon Saar called the sanctions a \"hostile act targeting private, law-abiding companies\".",
-          "why": "The measures aim to cut financing and construction support for settlements the UK says are illegal under international law, at a time when settlement construction has risen sharply and settler attacks have surged.",
-          "publishedAt": "2026-11-17T18:27:27+00:00",
-          "firstSeen": "2026-11-17T18:27:27+00:00",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "b4efc05459ede5",
-          "cat": "Canada",
-          "title": "Canadian home sales edge up 0.3% in October, still 10.6% below October 2025",
-          "summary": "National home sales rose 0.3 percent month‑over‑month in October, according to the Canadian Real Estate Association, beating some analysts’ expectations. Despite the gain, sales were 10.6 percent lower than in October 2025, reflecting a market that remains flat amid recent interest‑rate hikes and a sluggish economy.",
-          "why": "The figures show that higher rates and current economic conditions continue to suppress housing activity.",
-          "publishedAt": "2026-11-17T10:00:00+00:00",
-          "firstSeen": "2026-11-17T10:00:00+00:00",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/crea-october-home-sales-numbers-9.7424208?cmp=rss"
-        },
-        {
-          "id": "7b6d44ca156e81",
-          "cat": "Indian Markets",
-          "title": "Indian government bond yields fall as oil prices drop",
-          "summary": "In early trading, Indian government bonds rose after crude oil prices fell sharply. The yield on the benchmark 6.94% 2036 bond slipped to 7.2813%, reflecting reduced inflationary pressure and lower concerns about aggressive RBI rate hikes. Analysts noted that the lower oil price also supported the rupee and helped narrow the current‑account deficit.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-17T12:02:23+00:00",
-          "firstSeen": "2026-11-17T12:02:23+00:00",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Its significance score fell as the evidence changed.",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-surge-after-oil-slide-eases-aggressive-rate-hike-concerns/articleshow/135924727.cms"
-        },
-        {
-          "id": "185fd5d0004052",
-          "cat": "India",
-          "title": "India's GDP growth pegged at 7.3% in FY26-27, may touch 7.7% next quarter: EAC-PM Chairman",
-          "summary": "India's GDP is expected to grow by 7.3% this financial year and 7.7% in the next quarter, S Mahendra Dev, Chairman of EAC-PM said. Sustained export momentum and improving foreign investment are crucial for this growth, he added.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-17T11:22:19+00:00",
-          "firstSeen": "2026-11-17T11:22:19+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-gdp-growth-pegged-at-7-3-in-fy26-27-may-touch-7-7-next-quarter-eac-pm-chairman/articleshow/135923170.cms"
-        },
-        {
-          "id": "dccd15026cf351",
-          "cat": "India",
-          "title": "India’s current account deficit projected at 1.2% of GDP in FY27",
-          "summary": "Union Bank of India projects the current account deficit to reach about 1.2% of GDP in the 2026‑27 fiscal year, citing higher crude oil prices and strong gold demand as drivers. The merchandise trade deficit widened to $39.88 billion in October as imports rose, while the services trade surplus was almost unchanged.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-17T06:58:34+00:00",
-          "firstSeen": "2026-11-17T06:58:34+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Its significance score fell as the evidence changed.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-cad-may-touch-1-2-of-gdp-in-fy27-as-oil-gold-demand-pose-risks-ubi/articleshow/135914575.cms"
-        },
-        {
-          "id": "a40ceaf039e883",
-          "cat": "India",
-          "title": "India’s retail inflation rises to 6.09% in October 2026",
-          "summary": "India’s retail inflation breached the RBI’s 6 % tolerance ceiling, reaching 6.09 % in October 2026. Food prices were surging, putting pressure on household budgets, and the central bank faced questions about whether it had acted too late on interest rates and why its inflation forecasts missed the mark.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-17T05:26:46+00:00",
-          "firstSeen": "2026-11-17T05:26:46+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/inflation-crosses-6-did-rbi-act-too-late-the-morning-brief-decode/videoshow/135912037.cms"
-        },
-        {
-          "id": "c5e9a41c1d5b77",
-          "cat": "Indian Markets",
-          "title": "BlackRock raises stake in Axis Bank to 5%",
-          "summary": "BlackRock increased its shareholding in Axis Bank to 5%, as reported by The Economic Times. The headline confirms the new ownership level but provides no further details on timing or transaction size.",
-          "why": "The larger stake alters the ownership composition of Axis Bank.",
-          "publishedAt": "2026-11-17T14:28:06+00:00",
-          "firstSeen": "2026-11-17T14:28:06+00:00",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/blackrock-raises-its-stake-in-axis-bank-to-5/articleshow/135929469.cms"
-        },
-        {
-          "id": "3ffbbf6a5f1f36",
-          "cat": "AI",
-          "title": "Google says Gmail is operating normally amid outage rumors",
-          "summary": "On Tuesday, Google posted on X that it sees no evidence of a broad Gmail service disruption and directed users to the Gmail real‑time status dashboard. The statement was made after reports of a Gmail outage circulated on X at the same time Apple experienced confirmed outages. The rumors originated from a Downdetector post, which is a crowdsourced, non‑official source.",
-          "why": "Users should rely on Google’s official status page rather than crowdsourced sites when checking service health.",
-          "publishedAt": "2026-11-17T21:34:50+00:00",
-          "firstSeen": "2026-11-17T21:34:50+00:00",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/"
-        }
-      ]
-    },
-    {
       "at": "2026-11-18T04:25:27.351040+00:00",
       "changeSummary": {
         "new": 3,
@@ -1343,6 +1153,160 @@
           "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-21T02:19:32.145704+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 1,
+        "continuing": 3
+      },
+      "stories": [
+        {
+          "id": "6823aa5df3779f",
+          "cat": "Canada",
+          "title": "North American indices slip into correction as tech sell‑off erases Nasdaq’s 2026 gains",
+          "summary": "A sharp tech‑driven sell‑off hit North American markets on Friday, sending the Nasdaq Composite down 5.28% to 22,654.15 and wiping out its 2026 gains. The S&P 500 fell 3.59% to 6,918.45 and the Dow Jones Industrial Average dropped 1.85% to 48,188.18, moving all three indices into correction territory. AI‑related stocks such as Nvidia led the declines, while defensive names like UnitedHealth, Walmart and Johnson & Johnson posted gains.",
+          "why": "The drop highlights heightened volatility in the AI‑driven rally and may trigger portfolio re‑balancing.",
+          "publishedAt": "2026-11-20T13:37:59+00:00",
+          "firstSeen": "2026-11-20T13:37:59+00:00",
+          "importanceScore": 13.9,
+          "sourceCount": 2,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.cbc.ca/news/business/anthropic-ipo-markets-today-9.7429534?cmp=rss"
+        },
+        {
+          "id": "7f043ffbe45c3d",
+          "cat": "World",
+          "title": "Russian cruise missile breaches Polish airspace, hits rural area",
+          "summary": "Poland said a Russian Kh‑101 cruise missile was one of three objects that entered its airspace early on Friday and struck a rural area near the village of Nowy Lipowiec, about 50 km from the Ukrainian border. No injuries or damage were reported. The incident occurred while Western military exercises were taking place in the region, and Russia has not commented.",
+          "why": "It underscores the risk of the Ukraine conflict spilling over into NATO territory.",
+          "publishedAt": "2026-11-21T02:09:46+00:00",
+          "firstSeen": "2026-11-20T12:41:52+00:00",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "753060c81ed065",
+          "cat": "Indian Markets",
+          "title": "Sun Pharma Share Price Live Updates: Sun Pharma Stock Price History",
+          "summary": "Stay in the know with the latest information about Sun Pharma, including: Last traded price 1884.9, Market capitalization: 452250.65, Volume: 1916054, Price-to-earnings ratio 41.24, Earnings per share 45.7. Stay ahead of the market with our in-depth coverage of M&M, including: Last traded price 3545.0, Market capitalization: 440830.97, Volume: 3534774, Price-to-earnings ratio 22.74, Earnings per share 155.88.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-20T06:49:25+00:00",
+          "firstSeen": "2026-11-20T06:49:25+00:00",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136016959.cms"
+        },
+        {
+          "id": "fb5a10d741fa91",
+          "cat": "Indian Markets",
+          "title": "Axis Bank Share Price Highlights: Axis Bank Stock Price History",
+          "summary": "The data points are updated as on 06:33:04 PM IST, 20 Nov 2026 Welcome to the Axis Bank Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of Axis Bank, including: Last traded price 1446.0, Market capitalization: 450239.54, Volume: 21477017, Price-to-earnings ratio 15.03, Earnings per share 96.19.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-20T04:34:44+00:00",
+          "firstSeen": "2026-11-20T04:34:57+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-share-price-today-live-20-nov-2026/liveblog/136013489.cms"
+        },
+        {
+          "id": "f1e4cf26a1dc6d",
+          "cat": "AI",
+          "title": "Chips can survive the space environment",
+          "summary": "Even older chips retain value — according to Compute Credit Index Research , some H100s are selling for about half of their original cost basis from 2023, while some H200 configurations are selling for the same price they did when introduced in 2024. But you’re not going to repossess chips installed in a satellite orbiting 300 miles above Earth at 17,500 miles per hour.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-20T17:40:01+00:00",
+          "firstSeen": "2026-11-20T17:40:01+00:00",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+        },
+        {
+          "id": "025bacc3c2cddb",
+          "cat": "World",
+          "title": "What we know about the latest Russian missile strikes on Ukraine",
+          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Russia targeted bridges in Kyiv and railway stations overnight in a major attack launched days after Ukraine badly damaged the strategically important Crimean Bridge. The latest Russian strikes coincided with a flurry of talks around the war, and came as the Kremlin pushed back against a US claim that Russia could be open to Western-backed security guarantees for Ukraine.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-20T15:14:01+00:00",
+          "firstSeen": "2026-11-20T15:14:01+00:00",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "796cf69df22f66",
+          "cat": "Indian Markets",
+          "title": "Anthropic shares close 17% higher on first day of trading amid protest, arrests outside Nasdaq",
+          "summary": "The Dow Jones Industrial Average fell 1,101.11 points, or 2.19 percent, to 49,097.06, closing below 50,000 for the first time since early June. Meanwhile on Thursday (November 19), Police arrested several protesters outside the Nasdaq building in New York City as artificial intelligence company Anthropic began trading following its initial public offering.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-20T04:48:04+00:00",
+          "firstSeen": "2026-11-20T04:48:04+00:00",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/anthropic-shares-close-17-higher-on-first-day-of-trading-amid-protest-arrests-outside-nasdaq/videoshow/136013757.cms"
+        },
+        {
+          "id": "5382442bbb4d0f",
+          "cat": "India",
+          "title": "RBI expected to raise repo rate to 5.75% in Dec, 6% in Feb, poll shows",
+          "summary": "A Reuters poll cited by the Economic Times indicates the Reserve Bank of India will increase its policy repo rate by 25 basis points to 5.75% in December and again by 25 basis points to 6% in February. The hikes are prompted by inflation moving above the RBI’s 6% tolerance band, driven by higher energy costs and uneven monsoon rainfall.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-20T09:48:50+00:00",
+          "firstSeen": "2026-11-20T09:48:50+00:00",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms"
+        }
+      ]
     }
   ],
   "events": {
@@ -1409,57 +1373,6 @@
       "latestSummary": "Around 23 stocks from the BSE 200 index advanced in all five consecutive sessions from November 8 to 13. Of these, we shortlisted 8 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 7% to 11%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms"
-    },
-    "6e8facfd09ae10": {
-      "id": "6e8facfd09ae10",
-      "firstSeen": "2026-11-13T00:20:24+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-13T01:06:50.297241+00:00",
-          "title": "Pro-government forces seize Mekelle, Tigray’s capital",
-          "summary": "Within two weeks of the war’s start, pro‑government troops entered Mekelle and the city came under national army control. Residents, including salon owner Firut Me’ar, say daily life remains far from normal, with little money, low morale and almost no business activity. Basic needs such as food are still unaffordable for many families.",
-          "importanceScore": 13.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-13T16:28:05.275958+00:00",
-          "title": "Pro-government forces take Mekelle, residents report hardship",
-          "summary": "Within two weeks of the war’s start, pro-government troops entered Mekelle, the capital of Ethiopia’s Tigray region, and the city is now under national army control. Salon owner Firut Me’ar says residents are struggling to meet basic needs, with little money, low morale and almost no business, describing daily life as far from normal despite the change in control.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-13T22:40:21.488865+00:00",
-          "title": "Pro-government forces control Mekelle amid civilian hardship",
-          "summary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
-      "cat": "World",
-      "latestTitle": "Pro-government forces control Mekelle amid civilian hardship",
-      "latestSummary": "Within two weeks of the war’s start, pro‑government forces entered and now control Mekelle, the capital of Ethiopia’s Tigray region. A local hair‑salon owner, Firut Me’ar, says residents cannot meet basic needs, with many unable to feed their children and morale low. She reports that most businesses are almost non‑existent, leaving the city’s economy severely weakened.",
-      "why": "It shows how quickly the conflict has disrupted civilian livelihoods and created urgent humanitarian concerns.",
-      "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
     },
     "19bf025da197e5": {
       "id": "19bf025da197e5",
@@ -1626,81 +1539,6 @@
       "latestSummary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods only. Tariff terms for services are slated to be negotiated in a later phase.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
-    },
-    "2554de1631aa85": {
-      "id": "2554de1631aa85",
-      "firstSeen": "2026-11-13T12:51:07+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-13T22:40:21.488865+00:00",
-          "title": "India 10‑year bond yield recovers half of prior week’s drop",
-          "summary": "The yield on India’s 10‑year government bond rose, wiping out roughly half of the decline recorded the week before, as the market responded to still‑elevated inflation. The headline linked the move to inflation concerns, and no specific yield level or percentage change was provided in the source. This represents a partial reversal of the earlier fall.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "India 10‑year bond yield recovers half of prior week’s drop",
-      "latestSummary": "The yield on India’s 10‑year government bond rose, wiping out roughly half of the decline recorded the week before, as the market responded to still‑elevated inflation. The headline linked the move to inflation concerns, and no specific yield level or percentage change was provided in the source. This represents a partial reversal of the earlier fall.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms"
-    },
-    "f0f8c16eb80e70": {
-      "id": "f0f8c16eb80e70",
-      "firstSeen": "2026-11-13T12:24:01+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-13T22:40:21.488865+00:00",
-          "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
-          "summary": "Razorpay Software Ltd and Sembcorp Green Infra recently received approval from Sebi for their initial public offerings, marking a major milestone in their growth journeys. Razorpay aims to secure Rs 5,000-6,000 crore to enhance its financial services platform, while Sembcorp Green Infra plans to raise Rs 3,750 crore to bolster its renewable energy initiatives.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
-      "latestSummary": "Razorpay Software Ltd and Sembcorp Green Infra recently received approval from Sebi for their initial public offerings, marking a major milestone in their growth journeys. Razorpay aims to secure Rs 5,000-6,000 crore to enhance its financial services platform, while Sembcorp Green Infra plans to raise Rs 3,750 crore to bolster its renewable energy initiatives.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms"
-    },
-    "f50da2e22de5af": {
-      "id": "f50da2e22de5af",
-      "firstSeen": "2026-11-12T22:42:51+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-13T22:40:21.488865+00:00",
-          "title": "Democrats open inquiry into Trump-era Nvidia chip export approvals",
-          "summary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
-          "importanceScore": 8.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-13T22:40:21.488865+00:00",
-      "cat": "AI",
-      "latestTitle": "Democrats open inquiry into Trump-era Nvidia chip export approvals",
-      "latestSummary": "On Thursday, House Democrat Richard Neal and Senator Ron Wyden announced a congressional inquiry into how the Trump administration handled exports of Nvidia’s H200 chips to China. They sent a letter to Commerce Secretary Howard Lutnick requesting that the department preserve records about the licensing and tariff arrangement described in the letter. As minority members they can request information but cannot compel testimony.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
     },
     "8b7ae855cfbd18": {
       "id": "8b7ae855cfbd18",
@@ -3979,14 +3817,27 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-21T02:19:32.145704+00:00",
+          "title": "Axis Bank Share Price Highlights: Axis Bank Stock Price History",
+          "summary": "The data points are updated as on 06:33:04 PM IST, 20 Nov 2026 Welcome to the Axis Bank Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of Axis Bank, including: Last traded price 1446.0, Market capitalization: 450239.54, Volume: 21477017, Price-to-earnings ratio 15.03, Earnings per share 96.19.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
+      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
       "cat": "Indian Markets",
       "latestTitle": "Axis Bank Share Price Highlights: Axis Bank Stock Price History",
-      "latestSummary": "Welcome to the Axis Bank Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of Axis Bank, including: Last traded price 1446.0, Market capitalization: 450239.54, Volume: 21477017, Price-to-earnings ratio 15.03, Earnings per share 96.19.",
+      "latestSummary": "The data points are updated as on 06:33:04 PM IST, 20 Nov 2026 Welcome to the Axis Bank Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of Axis Bank, including: Last traded price 1446.0, Market capitalization: 450239.54, Volume: 21477017, Price-to-earnings ratio 15.03, Earnings per share 96.19.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/axis-bank-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136013459.cms"
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-share-price-today-live-20-nov-2026/liveblog/136013489.cms"
     },
     "7f043ffbe45c3d": {
       "id": "7f043ffbe45c3d",
@@ -4017,13 +3868,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-21T02:19:32.145704+00:00",
+          "title": "Russian cruise missile breaches Polish airspace, hits rural area",
+          "summary": "Poland said a Russian Kh‑101 cruise missile was one of three objects that entered its airspace early on Friday and struck a rural area near the village of Nowy Lipowiec, about 50 km from the Ukrainian border. No injuries or damage were reported. The incident occurred while Western military exercises were taking place in the region, and Russia has not commented.",
+          "importanceScore": 13.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
+      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
       "cat": "World",
-      "latestTitle": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "latestSummary": "Poland says a Russian cruise missile was among three objects that violated its airspace early on Friday, with Prime Minister Donald Tusk saying it did not appear to be an accident when Western military exercises were taking place in the region. Defence Minister Wladyslaw Kosiniak-Kamysz said the Kh-101 missile hit a rural area at Nowy Lipowiec in southeastern Poland about 50km (31 miles) from the Ukrainian border.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "latestTitle": "Russian cruise missile breaches Polish airspace, hits rural area",
+      "latestSummary": "Poland said a Russian Kh‑101 cruise missile was one of three objects that entered its airspace early on Friday and struck a rural area near the village of Nowy Lipowiec, about 50 km from the Ukrainian border. No injuries or damage were reported. The incident occurred while Western military exercises were taking place in the region, and Russia has not commented.",
+      "why": "It underscores the risk of the Ukraine conflict spilling over into NATO territory.",
       "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
     },
     "5382442bbb4d0f": {
@@ -4055,12 +3919,25 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-21T02:19:32.145704+00:00",
+          "title": "RBI expected to raise repo rate to 5.75% in Dec, 6% in Feb, poll shows",
+          "summary": "A Reuters poll cited by the Economic Times indicates the Reserve Bank of India will increase its policy repo rate by 25 basis points to 5.75% in December and again by 25 basis points to 6% in February. The hikes are prompted by inflation moving above the RBI’s 6% tolerance band, driven by higher energy costs and uneven monsoon rainfall.",
+          "importanceScore": 10.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
+      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
       "cat": "India",
-      "latestTitle": "RBI expected to raise repo rate to 5.75% in December, 6% by February",
-      "latestSummary": "A Reuters poll reported by the Economic Times indicates the Reserve Bank of India plans to increase its repo rate by 25 basis points to 5.75% in December and again to 6% in February. The moves are driven by inflation moving above the RBI’s 6% tolerance limit, amid rising energy costs and uneven monsoon rainfall. The RBI is projected to deliver two more hikes by February.",
+      "latestTitle": "RBI expected to raise repo rate to 5.75% in Dec, 6% in Feb, poll shows",
+      "latestSummary": "A Reuters poll cited by the Economic Times indicates the Reserve Bank of India will increase its policy repo rate by 25 basis points to 5.75% in December and again by 25 basis points to 6% in February. The hikes are prompted by inflation moving above the RBI’s 6% tolerance band, driven by higher energy costs and uneven monsoon rainfall.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms"
     },
@@ -4206,15 +4083,128 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-21T02:19:32.145704+00:00",
+          "title": "Chips can survive the space environment",
+          "summary": "Even older chips retain value — according to Compute Credit Index Research , some H100s are selling for about half of their original cost basis from 2023, while some H200 configurations are selling for the same price they did when introduced in 2024. But you’re not going to repossess chips installed in a satellite orbiting 300 miles above Earth at 17,500 miles per hour.",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
+      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
       "cat": "AI",
       "latestTitle": "Chips can survive the space environment",
       "latestSummary": "Even older chips retain value — according to Compute Credit Index Research , some H100s are selling for about half of their original cost basis from 2023, while some H200 configurations are selling for the same price they did when introduced in 2024. But you’re not going to repossess chips installed in a satellite orbiting 300 miles above Earth at 17,500 miles per hour.",
       "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
       "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+    },
+    "6823aa5df3779f": {
+      "id": "6823aa5df3779f",
+      "firstSeen": "2026-11-20T13:37:59+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-21T02:19:32.145704+00:00",
+          "title": "North American indices slip into correction as tech sell‑off erases Nasdaq’s 2026 gains",
+          "summary": "A sharp tech‑driven sell‑off hit North American markets on Friday, sending the Nasdaq Composite down 5.28% to 22,654.15 and wiping out its 2026 gains. The S&P 500 fell 3.59% to 6,918.45 and the Dow Jones Industrial Average dropped 1.85% to 48,188.18, moving all three indices into correction territory. AI‑related stocks such as Nvidia led the declines, while defensive names like UnitedHealth, Walmart and Johnson & Johnson posted gains.",
+          "importanceScore": 13.9,
+          "sourceCount": 2,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
+      "cat": "Canada",
+      "latestTitle": "North American indices slip into correction as tech sell‑off erases Nasdaq’s 2026 gains",
+      "latestSummary": "A sharp tech‑driven sell‑off hit North American markets on Friday, sending the Nasdaq Composite down 5.28% to 22,654.15 and wiping out its 2026 gains. The S&P 500 fell 3.59% to 6,918.45 and the Dow Jones Industrial Average dropped 1.85% to 48,188.18, moving all three indices into correction territory. AI‑related stocks such as Nvidia led the declines, while defensive names like UnitedHealth, Walmart and Johnson & Johnson posted gains.",
+      "why": "The drop highlights heightened volatility in the AI‑driven rally and may trigger portfolio re‑balancing.",
+      "url": "https://www.cbc.ca/news/business/anthropic-ipo-markets-today-9.7429534?cmp=rss"
+    },
+    "753060c81ed065": {
+      "id": "753060c81ed065",
+      "firstSeen": "2026-11-20T06:49:25+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-21T02:19:32.145704+00:00",
+          "title": "Sun Pharma Share Price Live Updates: Sun Pharma Stock Price History",
+          "summary": "Stay in the know with the latest information about Sun Pharma, including: Last traded price 1884.9, Market capitalization: 452250.65, Volume: 1916054, Price-to-earnings ratio 41.24, Earnings per share 45.7. Stay ahead of the market with our in-depth coverage of M&M, including: Last traded price 3545.0, Market capitalization: 440830.97, Volume: 3534774, Price-to-earnings ratio 22.74, Earnings per share 155.88.",
+          "importanceScore": 12.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Sun Pharma Share Price Live Updates: Sun Pharma Stock Price History",
+      "latestSummary": "Stay in the know with the latest information about Sun Pharma, including: Last traded price 1884.9, Market capitalization: 452250.65, Volume: 1916054, Price-to-earnings ratio 41.24, Earnings per share 45.7. Stay ahead of the market with our in-depth coverage of M&M, including: Last traded price 3545.0, Market capitalization: 440830.97, Volume: 3534774, Price-to-earnings ratio 22.74, Earnings per share 155.88.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-stock-price-livestock-price-today-live-updates-20-nov-2026/liveblog/136016959.cms"
+    },
+    "025bacc3c2cddb": {
+      "id": "025bacc3c2cddb",
+      "firstSeen": "2026-11-20T15:14:01+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-21T02:19:32.145704+00:00",
+          "title": "What we know about the latest Russian missile strikes on Ukraine",
+          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Russia targeted bridges in Kyiv and railway stations overnight in a major attack launched days after Ukraine badly damaged the strategically important Crimean Bridge. The latest Russian strikes coincided with a flurry of talks around the war, and came as the Kremlin pushed back against a US claim that Russia could be open to Western-backed security guarantees for Ukraine.",
+          "importanceScore": 11.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
+      "cat": "World",
+      "latestTitle": "What we know about the latest Russian missile strikes on Ukraine",
+      "latestSummary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Russia targeted bridges in Kyiv and railway stations overnight in a major attack launched days after Ukraine badly damaged the strategically important Crimean Bridge. The latest Russian strikes coincided with a flurry of talks around the war, and came as the Kremlin pushed back against a US claim that Russia could be open to Western-backed security guarantees for Ukraine.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss"
+    },
+    "796cf69df22f66": {
+      "id": "796cf69df22f66",
+      "firstSeen": "2026-11-20T04:48:04+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-21T02:19:32.145704+00:00",
+          "title": "Anthropic shares close 17% higher on first day of trading amid protest, arrests outside Nasdaq",
+          "summary": "The Dow Jones Industrial Average fell 1,101.11 points, or 2.19 percent, to 49,097.06, closing below 50,000 for the first time since early June. Meanwhile on Thursday (November 19), Police arrested several protesters outside the Nasdaq building in New York City as artificial intelligence company Anthropic began trading following its initial public offering.",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Anthropic shares close 17% higher on first day of trading amid protest, arrests outside Nasdaq",
+      "latestSummary": "The Dow Jones Industrial Average fell 1,101.11 points, or 2.19 percent, to 49,097.06, closing below 50,000 for the first time since early June. Meanwhile on Thursday (November 19), Police arrested several protesters outside the Nasdaq building in New York City as artificial intelligence company Anthropic began trading following its initial public offering.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/anthropic-shares-close-17-higher-on-first-day-of-trading-amid-protest-arrests-outside-nasdaq/videoshow/136013757.cms"
     }
   },
-  "updated": "2026-11-20T21:09:02.083378+00:00"
+  "updated": "2026-11-21T02:19:32.145704+00:00"
 }
