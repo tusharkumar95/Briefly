@@ -3,142 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-18T21:58:55.467348+00:00",
-      "changeSummary": {
-        "new": 4,
-        "updated": 1,
-        "continuing": 2
-      },
-      "stories": [
-        {
-          "id": "e2bdf1f8e07609",
-          "cat": "World",
-          "title": "Ukrainian and Russian forces clash inside a Soviet gas pipeline in Kharkiv",
-          "summary": "For about seven months Ukrainian troops and Russian forces have been living and fighting inside an old Soviet gas pipeline in the Kharkiv region. The pipe is just over a metre in diameter, allowing only crawling, and it provides relative protection from the drones that now dominate the skies above the front line. The underground fighting has made forward advances difficult for both sides.",
-          "why": "It shows how both armies are moving combat underground to mitigate the impact of pervasive drone warfare.",
-          "publishedAt": "2026-11-18T17:00:40+00:00",
-          "firstSeen": "2026-11-18T17:00:40+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "ae27dedb54f51b",
-          "cat": "World",
-          "title": "US Secretary of State Rubio says no evidence of coordinated tech outages",
-          "summary": "In a press briefing, Secretary of State Marco Rubio told reporters there is “zero evidence” that the recent week’s tech disruptions—including a major Microsoft outage, a glitch that grounded U.S. flights, and problems affecting banks, Apple and the NSA—are linked. He said the incidents are not inter‑related and emphasized that the United States is not under a systemic attack. Cyber‑security experts cited in the briefing also said no link has been found, attributing many issues to aging infrastructure updates.",
-          "why": "The clarification aims to reduce public anxiety and prevent misinterpretation of unrelated technical failures as a coordinated cyber threat.",
-          "publishedAt": "2026-11-18T04:57:06+00:00",
-          "firstSeen": "2026-11-18T04:57:06+00:00",
-          "importanceScore": 12.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "d6260bfcfe1fdc",
-          "cat": "India",
-          "title": "Goldman Sachs projects RBI to raise policy rate by 75 bps in Q2 2027",
-          "summary": "Goldman Sachs forecasts that the Reserve Bank of India will increase its policy interest rate by 75 basis points in the second quarter of 2027. The bank expects headline inflation to stay above 6 % through early 2027 before easing, while GDP growth is projected to slow to about 7.2 % that year. It attributes the outlook to strong domestic demand and an emerging investment cycle that could keep economic activity robust.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-18T10:41:25+00:00",
-          "firstSeen": "2026-11-18T10:41:25+00:00",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms"
-        },
-        {
-          "id": "685d299633699c",
-          "cat": "Indian Markets",
-          "title": "Prestige Group buys 50 pc stake in Advent Convention and Hotels International for Rs 500 cr",
-          "summary": "Prestige Estates Projects Ltd has successfully acquired a 50% stake in Advent Convention and Hotels International for an estimated Rs 500 crore. The total project valuation is forecasted at approximately Rs 4,500 crore, marking a significant expansion for Prestige in the Mumbai real estate market.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-18T14:14:08+00:00",
-          "firstSeen": "2026-11-18T14:14:08+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/prestige-group-buys-50-pc-stake-in-advent-convention-and-hotels-international-for-rs-500-cr/articleshow/135965554.cms"
-        },
-        {
-          "id": "e8749a2fb3e67b",
-          "cat": "World",
-          "title": "Kuwait says it repelled Iranian drone attack on US‑hosted airbase",
-          "summary": "Kuwait condemned an overnight drone attack that Iran said targeted the Ali Al Salem airbase, which hosts U.S. forces. Kuwaiti authorities reported the drones were repelled and no damage occurred, marking the first Iranian strike on Kuwaiti territory in more than two months. The incident followed U.S. warplane strikes on an Iranian missile launch site on Qeshm Island in the Strait of Hormuz.",
-          "why": "It signals a further escalation in Iran‑U.S. tensions and raises regional security concerns.",
-          "publishedAt": "2026-11-18T13:04:48+00:00",
-          "firstSeen": "2026-11-18T13:04:48+00:00",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "f0a12a861f7785",
-          "cat": "India",
-          "title": "India on track to hit $1 trillion exports target in FY27, says commerce secretary",
-          "summary": "India’s exports rose 16.6% in the first half of the current fiscal year. The previous fiscal year recorded a historic $863 billion in exports. Commerce Secretary Rajesh Agrawal said the country remains on schedule to reach a $1 trillion export target by FY 2026‑27, even as global trade uncertainties persist.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-18T15:07:27+00:00",
-          "firstSeen": "2026-11-18T15:07:27+00:00",
-          "importanceScore": 11.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-on-track-to-hit-1-trillion-exports-target-in-fy27-commerce-secretary/articleshow/135966484.cms"
-        },
-        {
-          "id": "ba44a7d42cade5",
-          "cat": "India",
-          "title": "India, US near completion of trade deal talks, signing depends on US tariff rules and Section 301 resolution",
-          "summary": "Commerce Secretary Rajesh Agrawal said the legal texts of the India‑US trade deal are almost finalised, indicating negotiations are close to completion. The agreement can be signed only after the United States puts in place new tariff rules and resolves the ongoing Section 301 investigations. Both governments have expressed a desire to conclude the pact quickly to strengthen their economic partnership.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-18T12:20:32+00:00",
-          "firstSeen": "2026-11-18T12:20:32+00:00",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-19T03:32:23.511103+00:00",
       "changeSummary": {
         "new": 0,
@@ -1127,73 +991,73 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-finland-seek-to-deepen-economic-ties-through-startup-cooperation-envoy/articleshow/136046302.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "36469d71bbd2b4": {
-      "id": "36469d71bbd2b4",
-      "firstSeen": "2026-11-13T18:40:30+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-11-21T23:20:46.613399+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
         {
-          "at": "2026-11-13T22:40:21.488865+00:00",
-          "title": "Chinese open‑weight AI models trained on U.S.-banned Nvidia Blackwell GPUs",
-          "summary": "A study by Will DePue of Unemployment Labs found that the weight structures of several open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax and Ant Group—match the configuration fingerprints of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The same article reports that Nvidia CEO Jensen Huang resigned after acknowledging an affair with Alice Huang, who is alleged to have helped smuggle those chips.",
-          "importanceScore": 14.8,
+          "id": "267e4211123882",
+          "cat": "Indian Markets",
+          "title": "13 Indian stocks post five‑day winning streak, each up over 27%",
+          "summary": "The Economic Times reported that 13 stocks listed on Indian exchanges each recorded gains for five consecutive trading sessions, with every stock rising more than 27% over that period. The report highlighted the sustained upward momentum across the group.",
+          "why": "The broad, simultaneous price gains suggest strong short‑term momentum that may attract traders focused on price trends.",
+          "publishedAt": "2026-11-21T06:57:10+00:00",
+          "firstSeen": "2026-11-21T06:57:10+00:00",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms"
+        },
+        {
+          "id": "b499405439a277",
+          "cat": "India",
+          "title": "India and Finland aim to deepen economic ties via startup cooperation",
+          "summary": "Finnish Ambassador Mikko Kivikoski said India and Finland are working to deepen economic ties by focusing on collaboration with Indian startups. The initiative was highlighted at the Polar Bear Pitching event, where startup founder Yash Goliya was selected to represent India in a global competition scheduled for 2027. Bilateral trade between the two countries has been growing significantly and sharply over the past decade.",
+          "why": "The cooperation is intended to promote Finnish investment in Indian startups and give Finnish firms access to the Indian market.",
+          "publishedAt": "2026-11-21T06:11:11+00:00",
+          "firstSeen": "2026-11-21T07:12:37+00:00",
+          "importanceScore": 10.3,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-finland-seek-to-deepen-economic-ties-through-startup-cooperation-envoy/articleshow/136046302.cms"
+        },
+        {
+          "id": "94f6c4211c8f31",
+          "cat": "Indian Markets",
+          "title": "Max Healthcare, Deepak Fertilisers among 10 stocks that gained up to 14% in a week",
+          "summary": "Economic Times reported that Max Healthcare and Deepak Fertilisers were among ten Indian stocks that rose as much as 14% over the past week. The item names only those two companies and does not identify the other eight gainers or explain what drove the moves, so it documents short-term price strength without establishing a cause.",
+          "why": "It flags recent Indian equity outperformers for monitoring, but with only two names and no stated catalyst it is not sufficient on its own to act on.",
+          "publishedAt": "2026-11-21T05:51:22+00:00",
+          "firstSeen": "2026-11-21T05:51:22+00:00",
+          "importanceScore": 10.3,
           "sourceCount": 1,
           "sourceQuality": "tier-2",
           "verified": false,
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-14T03:19:08.560446+00:00",
-          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-          "summary": "The leading open-weight models developed by Chinese companies were trained on Nvidia chips that the U.S. Nvidia CEO Jensen Huang left the company this week after admitting to his affair with Alice Huang, executive of Megaspeed, a company implicated in smuggling Nvidia chips into China.",
-          "importanceScore": 13.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-14T11:31:08.308508+00:00",
-          "title": "Chinese open‑weight AI models show evidence of training on U.S.-banned Nvidia Blackwell GPUs",
-          "summary": "A study by Will DePue of the nonprofit Unemployment Labs examined the weight matrices of open‑weight large language models released by DeepSeek, Moonshot AI, MiniMax and Ant Group. The analysis identified patterns that match the configurations of Nvidia’s Blackwell GPUs, which are prohibited from export to China. The article also notes that Nvidia CEO Jensen Huang left the company after an affair was disclosed, and that Nvidia may still ship its less powerful H200 chip to China via a circuitous route permitted under existing export rules.",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-14T18:07:31.366778+00:00",
-          "title": "Chinese open‑weight AI models show fingerprints of U.S. export‑banned Nvidia Blackwell GPUs",
-          "summary": "A research analysis by Will DePue of Unemployment Labs found that open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax, and Ant Group—contain weight patterns that match training on Nvidia’s Blackwell GPUs, which are prohibited from export to China. The study cites fingerprint evidence in Moonshot’s Kimi K3 and DeepSeek’s V4 models, indicating the chips were used despite U.S. export controls.",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms"
         }
-      ],
-      "lastSeen": "2026-11-14T18:07:31.366778+00:00",
-      "cat": "AI",
-      "latestTitle": "Chinese open‑weight AI models show fingerprints of U.S. export‑banned Nvidia Blackwell GPUs",
-      "latestSummary": "A research analysis by Will DePue of Unemployment Labs found that open‑weight large language models released by Chinese firms—including DeepSeek, Moonshot AI, MiniMax, and Ant Group—contain weight patterns that match training on Nvidia’s Blackwell GPUs, which are prohibited from export to China. The study cites fingerprint evidence in Moonshot’s Kimi K3 and DeepSeek’s V4 models, indicating the chips were used despite U.S. export controls.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
-    },
+      ]
+    }
+  ],
+  "events": {
     "320b04ca4c0ded": {
       "id": "320b04ca4c0ded",
       "firstSeen": "2026-11-14T06:11:08+00:00",
@@ -1257,82 +1121,6 @@
       "latestSummary": "FICCI has urged India and African countries to negotiate a comprehensive trade arrangement that would lower barriers and promote investment. The appeal comes as Commerce Minister Piyush Goyal is set to visit Egypt, whose location is viewed as a strategic entry point for Indian firms expanding into Africa.",
       "why": "A predictable framework could increase bilateral commerce and attract investment, supporting growth in both regions.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/ficci-calls-for-comprehensive-india-africa-trade-framework/articleshow/135823937.cms"
-    },
-    "44d39b9b61022d": {
-      "id": "44d39b9b61022d",
-      "firstSeen": "2026-11-14T04:28:50+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-14T18:07:31.366778+00:00",
-          "title": "Nvidia posts worst weekly decline since 2018 Trump tariff sell‑off as CEO Jensen Huang exits",
-          "summary": "Nvidia’s shares recorded their steepest weekly loss since the 2018 market sell‑off triggered by Trump‑era tariffs. The decline occurred in the same week that the company announced the departure of its chief executive Jensen Huang. The stock’s performance marked a notable reversal after a period of strong gains.",
-          "importanceScore": 11.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-14T22:27:54.637630+00:00",
-          "title": "Nvidia posts worst week since Trump tariff sell‑off as Jensen Huang exits",
-          "summary": "Nvidia recorded its sharpest weekly decline since the Trump‑era tariff sell‑off, and the slide occurred as Jensen Huang announced his departure from the company. The source provides no specific performance numbers or exact dates for the week in question.",
-          "importanceScore": 11.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-14T22:27:54.637630+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Nvidia posts worst week since Trump tariff sell‑off as Jensen Huang exits",
-      "latestSummary": "Nvidia recorded its sharpest weekly decline since the Trump‑era tariff sell‑off, and the slide occurred as Jensen Huang announced his departure from the company. The source provides no specific performance numbers or exact dates for the week in question.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms"
-    },
-    "3c572bb35d331d": {
-      "id": "3c572bb35d331d",
-      "firstSeen": "2026-11-14T17:20:17+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-14T18:07:31.366778+00:00",
-          "title": "Canada-U.S. trade deal must include viable auto sector, Carney says",
-          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Δ Donald Trump Tariffs homepage News Tariff timeline Made in Canada vs Product of Canada",
-          "importanceScore": 11.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-14T22:27:54.637630+00:00",
-          "title": "Canada-U.S. trade deal must include viable auto sector, Carney says",
-          "summary": "are making progress, but Ottawa won’t accept a deal that doesn’t allow for a viable auto sector. “This is one of the fundamental issues in our trade negotiation, and we are making progress toward that,” he said of the auto sector, adding it was also “one of the most challenging issues” in the talks.",
-          "importanceScore": 9.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-14T22:27:54.637630+00:00",
-      "cat": "Canada",
-      "latestTitle": "Canada-U.S. trade deal must include viable auto sector, Carney says",
-      "latestSummary": "are making progress, but Ottawa won’t accept a deal that doesn’t allow for a viable auto sector. “This is one of the fundamental issues in our trade negotiation, and we are making progress toward that,” he said of the auto sector, adding it was also “one of the most challenging issues” in the talks.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://globalnews.ca/news/12151109/canada-us-trade-deal-conditions/"
     },
     "e2426ff356f0c1": {
       "id": "e2426ff356f0c1",
@@ -3865,13 +3653,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "Material details changed since the previous brief."
+        },
+        {
+          "at": "2026-11-21T23:20:46.613399+00:00",
+          "title": "India and Finland aim to deepen economic ties via startup cooperation",
+          "summary": "Finnish Ambassador Mikko Kivikoski said India and Finland are working to deepen economic ties by focusing on collaboration with Indian startups. The initiative was highlighted at the Polar Bear Pitching event, where startup founder Yash Goliya was selected to represent India in a global competition scheduled for 2027. Bilateral trade between the two countries has been growing significantly and sharply over the past decade.",
+          "importanceScore": 10.3,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-21T17:59:17.062426+00:00",
+      "lastSeen": "2026-11-21T23:20:46.613399+00:00",
       "cat": "India",
-      "latestTitle": "India, Finland to deepen economic ties via startup cooperation",
-      "latestSummary": "Finnish Ambassador Mikko Kivikoski said India and Finland will focus on startup collaboration to strengthen their economic relationship. At the “Polar Bear Pitching” event, Indian startup founder Yash Goliya secured a place to compete globally in 2027. Trade between the two countries has been increasing in recent years.",
-      "why": "Startup links can draw investment and help expand bilateral trade.",
+      "latestTitle": "India and Finland aim to deepen economic ties via startup cooperation",
+      "latestSummary": "Finnish Ambassador Mikko Kivikoski said India and Finland are working to deepen economic ties by focusing on collaboration with Indian startups. The initiative was highlighted at the Polar Bear Pitching event, where startup founder Yash Goliya was selected to represent India in a global competition scheduled for 2027. Bilateral trade between the two countries has been growing significantly and sharply over the past decade.",
+      "why": "The cooperation is intended to promote Finnish investment in Indian startups and give Finnish firms access to the Indian market.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-finland-seek-to-deepen-economic-ties-through-startup-cooperation-envoy/articleshow/136046302.cms"
     },
     "94f6c4211c8f31": {
@@ -3890,13 +3691,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-21T23:20:46.613399+00:00",
+          "title": "Max Healthcare, Deepak Fertilisers among 10 stocks that gained up to 14% in a week",
+          "summary": "Economic Times reported that Max Healthcare and Deepak Fertilisers were among ten Indian stocks that rose as much as 14% over the past week. The item names only those two companies and does not identify the other eight gainers or explain what drove the moves, so it documents short-term price strength without establishing a cause.",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-21T11:09:03.413106+00:00",
+      "lastSeen": "2026-11-21T23:20:46.613399+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
-      "latestSummary": "Max Healthcare, Deepak Fertilisers, and Blue Star were among the top winners in the Nifty 500 universe last week, with stocks rallying up to 14.14%, outperforming the Nifty 500, which gained nearly 1.5%, and the benchmark Nifty 50, which rose around 2.5% during the same period. (Data Source: ACE Equity) The healthcare sector stock topped the list of weekly gainers, rising 14.14% over the last one week.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "latestTitle": "Max Healthcare, Deepak Fertilisers among 10 stocks that gained up to 14% in a week",
+      "latestSummary": "Economic Times reported that Max Healthcare and Deepak Fertilisers were among ten Indian stocks that rose as much as 14% over the past week. The item names only those two companies and does not identify the other eight gainers or explain what drove the moves, so it documents short-term price strength without establishing a cause.",
+      "why": "It flags recent Indian equity outperformers for monitoring, but with only two names and no stated catalyst it is not sufficient on its own to act on.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms"
     },
     "b410dc0a07c1f7": {
@@ -3940,15 +3754,28 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-21T23:20:46.613399+00:00",
+          "title": "13 Indian stocks post five‑day winning streak, each up over 27%",
+          "summary": "The Economic Times reported that 13 stocks listed on Indian exchanges each recorded gains for five consecutive trading sessions, with every stock rising more than 27% over that period. The report highlighted the sustained upward momentum across the group.",
+          "importanceScore": 10.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-21T17:59:17.062426+00:00",
+      "lastSeen": "2026-11-21T23:20:46.613399+00:00",
       "cat": "Indian Markets",
-      "latestTitle": "13 Indian stocks post five‑day rally, each up over 27%",
-      "latestSummary": "The Economic Times reports that thirteen Indian equities recorded gains for five consecutive trading sessions, with every stock achieving a cumulative increase exceeding 27% over that period. The article does not name the specific securities, give the exact dates, or explain the drivers of the rally. No further details are provided.",
-      "why": "Indicates a short‑term, broad‑based market momentum that may influence traders and investors focused on Indian equities.",
+      "latestTitle": "13 Indian stocks post five‑day winning streak, each up over 27%",
+      "latestSummary": "The Economic Times reported that 13 stocks listed on Indian exchanges each recorded gains for five consecutive trading sessions, with every stock rising more than 27% over that period. The report highlighted the sustained upward momentum across the group.",
+      "why": "The broad, simultaneous price gains suggest strong short‑term momentum that may attract traders focused on price trends.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms"
     }
   },
-  "updated": "2026-11-21T17:59:17.062426+00:00"
+  "updated": "2026-11-21T23:20:46.613399+00:00"
 }
