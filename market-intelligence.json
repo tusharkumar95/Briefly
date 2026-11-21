@@ -1,20 +1,15 @@
 {
-  "updated": "2026-11-21T16:23:14.841147+00:00",
+  "updated": "2026-11-21T21:53:34.228069+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX slides 2.5% as miners drag market",
+      "headline": "TSX drops 2.5% as gold rout and AI fears weigh on equities",
       "direction": "down",
       "move": "S&P/TSX Composite -2.46%",
-      "why": "Miners weakened, pulling the index lower and contributing to the biggest weekly fall in over four years.",
+      "why": "A sharp decline in gold prices and heightened concerns about artificial‑intelligence stocks triggered selling across the market.",
       "drivers": [
-        {
-          "label": "miners drag",
-          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
         {
           "label": "10% stock market decline",
           "detail": "Beinsure explicitly links the same-direction market move to this factor in its market headline.",
@@ -22,18 +17,21 @@
         },
         {
           "label": "week of losses; U.S. markets also plummet",
-          "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
+          "detail": "thecanadianpressnews.ca explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Mining sector weakness",
-          "detail": "Reuters reported that miners were dragging the TSX, leading to the steep weekly decline.",
+          "label": "Gold rout",
+          "detail": "Gold prices fell sharply, pulling down related equity positions.",
+          "kind": "context"
+        },
+        {
+          "label": "AI fears",
+          "detail": "Investor anxiety over AI‑related valuations sparked broader equity sell‑offs.",
           "kind": "context"
         }
       ],
-      "sectors": [
-        "Materials"
-      ],
+      "sectors": [],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
@@ -51,22 +49,10 @@
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "Reuters",
-          "title": "TSX eyes biggest weekly fall in over 4 years as miners drag - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZk43YVdqYVhFb3BPT21wdF80NmR4ZUxNYXliN0xneVNsZkdHM29WRkJfanpqVU9pQXkzejE5Q053M1lnQ3RQXzlYQmhzWk5PR1JpTklsdlNNNm9wUzl2QUI5SXM3Slc1eEtRMUgyTTctdUt3eDBmcVhpX3hxS3NiVkRJWnAtRjBxbnFJOWEtbzljaVBrSEFlZFZuZDFqV0hER04ya2VCOTZjSGhTemk4cTFQb3E2MDR3Z0E?oc=5",
-          "publishedAt": "2026-11-20T16:31:54+00:00"
-        },
-        {
           "name": "Beinsure",
           "title": "Canada’s S&P/TSX Composite enters correction after 10% stock market decline - Beinsure",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLWZiRnpzTE1kV2swR1BhQlRydFE5c1REZHNYTFVodEl0NzZDVkpycFJzbkpnT1BNaDhQU3YtZjlqeVJmaWVHcWNCeWFKT3BIdlhpUFdiQ3BTV1FQSTJRamlRS3dWc19ucVptZjR4b0JscHB2eEdpWDM4NFJaaWNuTWx0bkNXRkpxeW82aDRWLWhIekg1N2EwZUdBZ2U?oc=5",
           "publishedAt": "2026-11-21T10:28:34+00:00"
-        },
-        {
-          "name": "BNN Bloomberg",
-          "title": "S&P/TSX composite falls nearly 2.5% Friday, U.S. markets also plummet - BNN Bloomberg",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmZ2LXB6d20xUmMyTGhmTDNwWW5xU0NURGUtcnU2NVFUMC0xZVBrOTROSk9ZYlAzTHM2TmRBSzdrUng2OFdkVG1RbjJCZ29HOEU1MXFmaDBjWlVSSEthWGhCQ0tISGw4SkxIV0hueGx3SUM4UkpMRGF0VjFOWmRaeHVQc083MWgtMVhqMThLVFlDandfck13S25OajVXOG9uUG9wVVl5Q1VFWXN3U0h6SU1DbE03VXJDc290aVI3MXp3Zw?oc=5",
-          "publishedAt": "2026-11-20T21:36:05+00:00"
         },
         {
           "name": "Investing.com India",
@@ -75,16 +61,28 @@
           "publishedAt": "2026-11-21T03:23:09+00:00"
         },
         {
-          "name": "Yahoo! Finance Canada",
-          "title": "TSX falls nearly 2.5% Friday after week of losses; U.S. markets also plummet - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VENkbU91QUl6cGRRVC1WRGVMdktBdmFfT1pxVGRKQk9scE1CVzY2cVFIQVFndlFXNmF5M1BaUXBmYi1JN3UwVlpFUjJ0clRuNk9qUlhDTjZvQ013X1NyRU5QLVpCX3JMNTdvX3ZPVmVmWXp2Y3BMVmxZVHVUTEU?oc=5",
-          "publishedAt": "2026-11-20T22:10:04+00:00"
+          "name": "thecanadianpressnews.ca",
+          "title": "TSX falls nearly 2.5% Friday after week of losses; U.S. markets also plummet - thecanadianpressnews.ca",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNVVl6dld4RlFZM3NvSVhEZ09oaVBjVnA0NlN0OHI1QWxUZlVPVXA2Y0hpTXUzR09yS2V0eVRLZ2RIRGxsRXYzVV85a0ppVFhyNC10cnJwQmk5eFpSR2VWekYwNWhjOXNiS1VFUkVFQzE5cURfSWlEYVZRWEpSczl6dW5rR1l5WFhueGE3VWNfM3RpRXQyZ1NmSFgzYzA5LWhNRUM0Q2pyVDZza3dsaG1SVkxhbXUwb1lZellXVnFRUXlocVdsUjI2d25NUlI1YzlPandpc2NJOGZpQ2ZWOUpFUGN3VnVVN3R2UVA3WHNzSEtGZGxvcF9zVEJQYzQ?oc=5",
+          "publishedAt": "2026-11-21T00:26:57+00:00"
         },
         {
           "name": "Manitoba Co-operator",
           "title": "Canadian Financial Close: Loonie down, TSX, Nasdaq in correction territory - Manitoba Co-operator",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlpvUmlMejZmSzdCWTFHbjh1MzFBRjZWRkFGZTNlRHJERy1PYmJmbVlSUWVyMHpoaXpNOE9CWDBfSWFNR1oteEk1eUpST21VWmJ0SHlJd1VVNVJxcDRYdFpRcmdDUS04M09mb1hpNDBHcGpOYVhCUVhOMFQ3aUZIMXJWazJjX1E2TWM3Rlk1TTJwMlN2eUhHUDdELWtNbWw4cVI0c0VEQUhCM29OcG13b0s1MlYzZnMwNnFySA?oc=5",
           "publishedAt": "2026-11-20T21:56:07+00:00"
+        },
+        {
+          "name": "NAI500",
+          "title": "Three Defensive TSX Stocks to Serve as Bear Market Buffers - NAI500",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2FveWF6bWQwaW1hUVJzbkxlWkh2NWNnV0tMMWFGS1pRVDBoNFdWVnpvb3ItWFBFbHEzdUxaang5aVAxRnVidVIyNTcycG1OSjNuUk9iNkR5N1VrdlZOUWdfUHRUTFFPR1Z5XzI2ZlZ5VGRqbU80SGVYaDRObmZMX2dTVHBnVHlMRGlQUXhfbHg2VlViTlE?oc=5",
+          "publishedAt": "2026-11-21T01:43:51+00:00"
+        },
+        {
+          "name": "Investing.com Canada",
+          "title": "TSX plunges 2.5% to six-month low as gold rout and AI fears hit equities - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYkxvWDhPMUp3RmYzVE9FNXRONTl5aDZBdkdsMTI4Mnl6U0dkRVJjQmdrMF9NTWxJb21zVjUzQlMteUFFUjlCZzRDNzV1VjNqbzllOEZCQkd3cWVETVdjd0h4bEYweWxlNFY5TjhPN1dNSHVyNG5rT0lqc3F5OWIydmVFcF9PaWlnUlEteTJ1ZjdqQWZlaFhtLWJIckl5M1FQRGY1dWs3QXlWZXhF?oc=5",
+          "publishedAt": "2026-11-20T23:58:21+00:00"
         }
       ],
       "evidenceCount": 7
@@ -112,8 +110,8 @@
           "kind": "driver"
         },
         {
-          "label": "Sensex and Nifty Hit 9-Month Highs on Record FII Buying",
-          "detail": "Kotak Neo explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Easing Crude Oil Prices",
+          "detail": "Goodreturns explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -153,6 +151,12 @@
           "publishedAt": "2026-11-21T09:39:05+00:00"
         },
         {
+          "name": "BBN Times",
+          "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcWhfcXNmcy03Y2JVZVlqS2wzTVFUU2NnTWJmbVJLQkZBbHhoTlkxb0x4X1R4MGNZNk5OM25YYW1NN0JWQ25FclJCX1pUaEVadE9XaFdiVmM1eFZvSTM0N0lCNzFDRkNSQnF3MmJDc3I2OXNOTFB0N19wbXdMeUdNYzZZZGlMQV9NUk9QRG41MjZ5ZkMzY1hLWkt5ODJjTDlMQW5RbEF4MXRtUmtxUzBTVGNjRDVFVWxZX0VwRENNT0FqQXo1Z2c?oc=5",
+          "publishedAt": "2026-11-21T16:10:29+00:00"
+        },
+        {
           "name": "JournalArta",
           "title": "Sensex and Nifty Rise as Funds Rotate Into India - JournalArta",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQVpsdjlJdWpmNFdFNmtidEhhMHpYUk1Uby1ma09yZEFzOFVyRDRFTDl0NGg1SzRkTWJyWmJSNEhSYXZuYU90emo1dXY5SVZiWldDbmFKQ2dKTDNrcUxWV1RINVZtbWdGYjM2MTlWMzJ4akNDOFFrWWp0aUpaakJVdjRNT01aa0pOYzlyNmFmWGRnUQ?oc=5",
@@ -165,22 +169,16 @@
           "publishedAt": "2026-11-21T12:09:22+00:00"
         },
         {
-          "name": "Kotak Neo",
-          "title": "Indian Stock Market Extends 4-Week Rally as Sensex and Nifty Hit 9-Month Highs on Record FII Buying - Kotak Neo",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdHRLUWlWUGExQUVQdm41Q3RTXzVkdzhBNVY1ckc2X2VmRHQ5ZGdESlV2Z290X0lWVXdCcHh2MkZkZE9rcWRfUVBzVTFiWHZEZTZXV0R2VjVaZlh5dXFBQUw2WE0wcHF1ZnBlWWR2REFwS3F4dXlCR3FoLXNBZDBHYmxva3NhLWt3eHV4ZGxoSjBQc3RPQ1pNVXl5c2pVaGIzYU54Ni1TUHh1bzI3dG9UYWR4NTR0QUxjalFCV3pvTXV6MzJacy1ORmxHZU1FcDVrLWpSUjNwYjEzSVFOejc5N0hn?oc=5",
-          "publishedAt": "2026-11-21T05:52:38+00:00"
+          "name": "Goodreturns",
+          "title": "Indian Stock Market Outlook Next Week, 23-27 Nov: Sensex, Nifty May Extend Rally Amid Easing Crude Oil Prices - Goodreturns",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNa2pzVXRvZ09LQ1NERFB4WVhaSHBNdzJhN1BaaktITjJFM3FFa3Q4YkNaRGV4RlJkMXA0SmhsQ2ZOYTdzSVlPRXVFdVZPaXQtMndoSzBJWnY1cTVQTDcwLXpoMTFILUp3SnJqZDh0REZaVmg3ekFoSWpJeHh1UXNoM0JCSFF6eFp5M1N3Rmp4NjVtYjgtVHJfS3JQaW9OdWFtY1JFdU5vUGpZRThQNmZCQUtjVmg0S3htSmk3eDd4LUpsZEtpZ0tpdlRoa0l2S25ZT2FMSGxIQTNJQQ?oc=5",
+          "publishedAt": "2026-11-21T10:22:17+00:00"
         },
         {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcWhfcXNmcy03Y2JVZVlqS2wzTVFUU2NnTWJmbVJLQkZBbHhoTlkxb0x4X1R4MGNZNk5OM25YYW1NN0JWQ25FclJCX1pUaEVadE9XaFdiVmM1eFZvSTM0N0lCNzFDRkNSQnF3MmJDc3I2OXNOTFB0N19wbXdMeUdNYzZZZGlMQV9NUk9QRG41MjZ5ZkMzY1hLWkt5ODJjTDlMQW5RbEF4MXRtUmtxUzBTVGNjRDVFVWxZX0VwRENNT0FqQXo1Z2c?oc=5",
-          "publishedAt": "2026-11-20T19:24:18+00:00"
-        },
-        {
-          "name": "INDIA New England News",
-          "title": "Indian Stocks Rally as Sensex Surges Nearly 900 Points, Nifty Closes Above 25,800 - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW9VSm9KTV9DYjBVMFpJNkxjZ3dNdzlNcDZGU1p4X2VabGZMd1RmSWV3ZUZ6cVczc0llYkxoLUNXY1BvQ005S2pfTk9xV2tSU0VBNUFpN3UtU2M1amE5eFJjUFVaNzJ2aDlTZGRhMkJfclFQQm04ZzFqWklheUNJQk05c0JWTmFGTFBqa0xNMXZNczdtdy0zclFCLUhwSTlrWnJXbk1GSVdfNTVq?oc=5",
-          "publishedAt": "2026-11-20T18:38:16+00:00"
+          "name": "BigGo Finance",
+          "title": "Indian Stocks Surge Against Global Market Tide as Nifty 50 Nears Record High on Foreign Inflows of Over 1 Trillion Rupees - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00M19YNjF3SFJRckF0Qkkxek15blJ2cHktYmh3S3NsNWw4VlFWblgtSnp0eS1qRms4eHJUdzl4aTlVQmlFZ3JLT3A1MmptZTBOWlVmbzNBQjNXMU1RSGFnOUh2RTFKcE5pOWR2bmlUTDlWSVpEVGc?oc=5",
+          "publishedAt": "2026-11-21T06:55:00+00:00"
         }
       ],
       "evidenceCount": 7
