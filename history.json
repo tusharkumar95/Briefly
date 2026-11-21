@@ -3,178 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-18T04:25:27.351040+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 3,
-        "continuing": 3
-      },
-      "stories": [
-        {
-          "id": "96ef903ac51418",
-          "cat": "AI",
-          "title": "Amazon and Google to own nearly 30% of Anthropic after IPO",
-          "summary": "Anthropic announced an IPO that aims to raise about $64.4 billion. Amazon will hold roughly 14.7% of the post‑IPO equity, converting promissory notes into non‑voting shares, while Google will own about 14% of the shares. Together the two cloud providers will control close to 30% of Anthropic’s outstanding stock.",
-          "why": "The combined stake gives the two cloud giants a significant strategic position in Anthropic’s AI platform and potential influence over its future direction.",
-          "publishedAt": "2026-11-18T01:40:29+00:00",
-          "firstSeen": "2026-11-18T01:40:29+00:00",
-          "importanceScore": 15.8,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-google-each-to-own-over-14-of-anthropic-stock-after-ipo/articleshow/135945131.cms"
-        },
-        {
-          "id": "9fe8a7077b8df7",
-          "cat": "World",
-          "title": "UK sanctions eight construction firms over West Bank settlement building",
-          "summary": "The United Kingdom imposed sanctions on eight construction and property‑development companies it says are involved in building Israeli settlements in the occupied West Bank. The measures are the first package announced after the government said it would take a tougher approach to Israeli actions in the territory, and are intended to disrupt the firms’ financing and ability to support settlement construction.",
-          "why": "The sanctions aim to cut financial flows that enable settlement building in the occupied West Bank.",
-          "publishedAt": "2026-11-17T18:27:27+00:00",
-          "firstSeen": "2026-11-17T18:27:27+00:00",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "b4efc05459ede5",
-          "cat": "Canada",
-          "title": "Canadian home sales rise 0.3% in October, still 10.6% below 2025 level",
-          "summary": "The Canadian Real Estate Association reported that national home sales increased 0.3 percent month‑over‑month in October 2026, but remained 10.6 percent lower than in October 2025. CREA senior economist Shaun Cathcart said activity between September and October was modest and the uptick ran opposite to analysts’ expectations. The increase came after the Bank of Canada raised its benchmark rate to 2.5 percent, its first hike since 2023.",
-          "why": "The data show how the housing market is responding to higher borrowing costs, informing buyers, sellers and policymakers.",
-          "publishedAt": "2026-11-17T10:00:00+00:00",
-          "firstSeen": "2026-11-17T10:00:00+00:00",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://www.cbc.ca/news/business/crea-october-home-sales-numbers-9.7424208?cmp=rss"
-        },
-        {
-          "id": "cb1f71304dbbb3",
-          "cat": "World",
-          "title": "US probes Singapore firm Megaspeed over alleged Nvidia chip exports to China",
-          "summary": "The United States Department of Justice and Department of Commerce announced that they are investigating Singapore‑based computing company Megaspeed for suspected violations of U.S. export controls by facilitating the shipment of Nvidia’s high‑end AI chips to China. The probe, which began in 2024, follows concerns that such chips may have reached China despite restrictions. Authorities also allege that former Megaspeed executive Alice Huang, who was involved in an extramarital affair with Nvidia founder Jensen Huang, acted as a spy for Beijing, a claim China denies.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-17T11:17:32+00:00",
-          "firstSeen": "2026-11-17T11:17:32+00:00",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "4b8b48f2923063",
-          "cat": "World",
-          "title": "Ukraine damages Crimean Bridge, section collapses into water",
-          "summary": "Ukraine struck the Crimean Bridge with long‑range weapons in a multi‑stage operation, causing a portion of the double‑arched structure to fall into the Kerch Strait. President Volodymyr Zelensky called the attack “unprecedented,” and Kremlin spokesman Dmitry Peskov said the bridge will be rebuilt. The bridge carries road and rail traffic for Russian forces to Crimea.",
-          "why": "The bridge is a key logistical corridor for Russian military supplies to Crimea, so its damage hampers operations and carries strong symbolic weight.",
-          "publishedAt": "2026-11-17T21:24:35+00:00",
-          "firstSeen": "2026-11-17T13:01:11+00:00",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "8a65325fcc93b7",
-          "cat": "Indian Markets",
-          "title": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
-          "summary": "Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jensen Huang — signaled resilient demand. MSCI Inc.’s Asian equities gauge rose 0.3%, snapping a four-day run of losses, led by South Korea’s Kospi Index — a key barometer for the AI trade.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-18T01:08:58+00:00",
-          "firstSeen": "2026-11-18T01:08:58+00:00",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms"
-        },
-        {
-          "id": "dccd15026cf351",
-          "cat": "India",
-          "title": "India's current account deficit projected at 1.2% of GDP in FY27",
-          "summary": "A Union Bank of India report projects the current account deficit will reach about 1.2% of GDP in the 2027 fiscal year, citing high crude‑oil prices and strong gold demand as key drivers. The merchandise trade deficit widened to roughly $39.9 billion in October as imports rose sharply, while the services trade surplus stayed almost unchanged. These factors raise risks to the external balance.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-17T06:58:34+00:00",
-          "firstSeen": "2026-11-17T06:58:34+00:00",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-cad-may-touch-1-2-of-gdp-in-fy27-as-oil-gold-demand-pose-risks-ubi/articleshow/135914575.cms"
-        },
-        {
-          "id": "a40ceaf039e883",
-          "cat": "India",
-          "title": "India’s retail inflation hits 6.09% in October 2026, above RBI’s 6% ceiling",
-          "summary": "Retail price inflation rose to 6.09% in October 2026, breaching the Reserve Bank of India’s 6% tolerance band. The increase is driven by a sharp rise in food prices, putting pressure on household budgets. The outcome has raised questions about the timing of RBI’s interest‑rate actions and the accuracy of its inflation forecasts.",
-          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-          "publishedAt": "2026-11-17T05:26:46+00:00",
-          "firstSeen": "2026-11-17T05:26:46+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/indicators/inflation-crosses-6-did-rbi-act-too-late-the-morning-brief-decode/videoshow/135912037.cms"
-        },
-        {
-          "id": "24ff3e2e859460",
-          "cat": "Indian Markets",
-          "title": "Bajaj Auto shares trade at 10,661 rupees with market cap of 293,353.1 as of 09:48 IST, 18 Nov 2026",
-          "summary": "At 09:48:03 AM IST on 18 Nov 2026, Bajaj Auto’s last traded price was 10,661.0 rupees. The company’s market capitalization was reported at 293,353.1, with a trading volume of 49,274 shares. Its price‑to‑earnings ratio stood at 22.41 and earnings per share at 475.74.",
-          "why": "This snapshot gives investors current valuation and liquidity data for trading decisions.",
-          "publishedAt": "2026-11-18T03:26:48+00:00",
-          "firstSeen": "2026-11-18T03:26:48+00:00",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-today-live-18-nov-2026/liveblog/135947342.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-18T14:03:29.343755+00:00",
       "changeSummary": {
         "new": 9,
@@ -1307,6 +1135,124 @@
           "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-21T11:09:03.413106+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 2,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "6823aa5df3779f",
+          "cat": "Canada",
+          "title": "US and Canadian stocks tumble into correction after AI‑driven sell‑off",
+          "summary": "A sharp tech‑driven sell‑off on Friday pushed the Nasdaq Composite down 1,225.05 points (‑5.13%) to 22,654.15, erasing all gains recorded in 2026. The S&P 500 fell 257.38 points (‑3.59%) to 6,918.45 and the Dow Jones Industrial Average dropped 908.88 points (‑1.85%) to 48,188.18, moving both U.S. indices into correction territory. Canadian indices also slipped into correction as AI‑related concerns spread.",
+          "why": "The drop reflects heightened investor anxiety about AI profitability, which may reshape capital allocation in the technology sector.",
+          "publishedAt": "2026-11-20T13:37:59+00:00",
+          "firstSeen": "2026-11-20T13:37:59+00:00",
+          "importanceScore": 13.9,
+          "sourceCount": 2,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/anthropic-ipo-markets-today-9.7429534?cmp=rss"
+        },
+        {
+          "id": "8e637e72b16462",
+          "cat": "World",
+          "title": "Trump says he will ban US firms from building AI data centres abroad",
+          "summary": "Donald Trump told reporters that U.S. companies will be barred from constructing AI data centres outside the United States and warned of a “tremendous tax” for firms that do so. He offered no details on how such a policy would be enforced or legislated. The comment came after his Asia trip, and follows data‑centre construction being a prominent issue in the recent midterm elections, with firms like Meta and Google already having overseas agreements.",
+          "why": "The proposal could significantly alter where major tech firms locate critical AI infrastructure and affect international investment decisions.",
+          "publishedAt": "2026-11-20T20:54:12+00:00",
+          "firstSeen": "2026-11-20T20:54:12+00:00",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "b499405439a277",
+          "cat": "India",
+          "title": "India, Finland seek to deepen economic ties through startup cooperation: Envoy",
+          "summary": "India and Finland are working to strengthen their economic relationship by focusing on startup collaboration. Gold still rules, but with a difference: How young India is redefining wedding jewellery KYC and KYB: Pidilite’s business has more tailwinds than headwinds, but a continuous test called raw material prices – Concluding part",
+          "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+          "publishedAt": "2026-11-21T07:12:37+00:00",
+          "firstSeen": "2026-11-21T07:12:37+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-finland-seek-to-deepen-economic-ties-through-startup-cooperation-envoy/articleshow/136046302.cms"
+        },
+        {
+          "id": "94f6c4211c8f31",
+          "cat": "Indian Markets",
+          "title": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
+          "summary": "Max Healthcare, Deepak Fertilisers, and Blue Star were among the top winners in the Nifty 500 universe last week, with stocks rallying up to 14.14%, outperforming the Nifty 500, which gained nearly 1.5%, and the benchmark Nifty 50, which rose around 2.5% during the same period. (Data Source: ACE Equity) The healthcare sector stock topped the list of weekly gainers, rising 14.14% over the last one week.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-21T05:51:22+00:00",
+          "firstSeen": "2026-11-21T05:51:22+00:00",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms"
+        },
+        {
+          "id": "f1e4cf26a1dc6d",
+          "cat": "AI",
+          "title": "Chips can survive the space environment",
+          "summary": "Even older chips retain value — according to Compute Credit Index Research , some H100s are selling for about half of their original cost basis from 2023, while some H200 configurations are selling for the same price they did when introduced in 2024. But you’re not going to repossess chips installed in a satellite orbiting 300 miles above Earth at 17,500 miles per hour.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-20T17:40:01+00:00",
+          "firstSeen": "2026-11-20T17:40:01+00:00",
+          "importanceScore": 10.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+        },
+        {
+          "id": "025bacc3c2cddb",
+          "cat": "World",
+          "title": "Russia hits Kyiv bridges and railway stations in overnight missile strike, nine killed",
+          "summary": "Russia launched an overnight ballistic missile attack that struck bridges in Kyiv and railway stations across Ukraine, occurring days after Ukraine damaged the Crimean Bridge; President Zelensky called it one of the war’s most massive strikes and the attacks killed at least nine people. The strikes coincided with diplomatic talks and followed President Putin’s warning of retaliation for the Crimean Bridge incident.",
+          "why": "The attacks target key transport infrastructure, disrupting civilian movement and influencing the war’s strategic and diplomatic dynamics.",
+          "publishedAt": "2026-11-20T15:14:01+00:00",
+          "firstSeen": "2026-11-20T15:14:01+00:00",
+          "importanceScore": 10.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "events": {
@@ -1373,57 +1319,6 @@
       "latestSummary": "Around 23 stocks from the BSE 200 index advanced in all five consecutive sessions from November 8 to 13. Of these, we shortlisted 8 stocks that consistently gained throughout the period, delivering cumulative returns ranging from 7% to 11%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms"
-    },
-    "19bf025da197e5": {
-      "id": "19bf025da197e5",
-      "firstSeen": "2026-11-13T03:35:34+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-13T08:01:35.146532+00:00",
-          "title": "Report warns uneven monsoons and El Nino could raise inflation, prompting possible RBI rate hike",
-          "summary": "A recent report cautions that irregular monsoon patterns combined with the El Nino climate phenomenon may increase inflationary pressures in India. It notes that this heightened inflation risk could lead the Reserve Bank of India to consider an additional interest‑rate hike in the near term.",
-          "importanceScore": 12.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-13T22:40:21.488865+00:00",
-          "title": "Uneven monsoons and possible El Nino may raise food inflation, keeping RBI rate‑hike options open",
-          "summary": "A Nuvama Institutional Equities report says that uneven monsoon patterns and the prospect of El Nino conditions could increase food‑price inflation in India’s fiscal year 2027. The report adds that this upside risk may leave the Reserve Bank of India open to an additional interest‑rate hike, even as overall inflation is expected to ease gradually.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-14T03:19:08.560446+00:00",
-          "title": "Report says uneven monsoons and El Nino raise upside inflation risks, could trigger RBI rate hike",
-          "summary": "A report warned that uneven monsoon rainfall across India and the emergence of an El Nino pattern create upside risks to consumer‑price inflation. It noted that these risks could increase the likelihood of the Reserve Bank of India implementing another interest‑rate hike to contain price pressures.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
-      "cat": "India",
-      "latestTitle": "Report says uneven monsoons and El Nino raise upside inflation risks, could trigger RBI rate hike",
-      "latestSummary": "A report warned that uneven monsoon rainfall across India and the emergence of an El Nino pattern create upside risks to consumer‑price inflation. It noted that these risks could increase the likelihood of the Reserve Bank of India implementing another interest‑rate hike to contain price pressures.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/uneven-monsoons-el-nino-pose-upside-risks-to-inflation-another-rbi-hike-possible-report/articleshow/135788065.cms"
     },
     "36469d71bbd2b4": {
       "id": "36469d71bbd2b4",
@@ -1539,81 +1434,6 @@
       "latestSummary": "The United States told India that, under the proposed trade agreement, India will receive tariff rates lower than those applied to other U.S. trading partners. The first phase of the deal will focus on tariff reductions for goods only. Tariff terms for services are slated to be negotiated in a later phase.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-assures-india-lower-tariffs-than-peers-in-trade-deal/articleshow/135805660.cms"
-    },
-    "8b7ae855cfbd18": {
-      "id": "8b7ae855cfbd18",
-      "firstSeen": "2026-11-13T04:36:54+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-14T03:19:08.560446+00:00",
-          "title": "India food inflation expected to stay high as RBI plans 25 bps rate hike",
-          "summary": "Food inflation in India is projected to remain elevated in the coming months due to a shortfall in crops. The Reserve Bank of India is anticipated to raise interest rates by 25 basis points in December to manage retail inflation. Weak monsoon conditions and high energy prices are contributing to upward price pressure on essential food items.",
-          "importanceScore": 14.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
-      "cat": "India",
-      "latestTitle": "India food inflation expected to stay high as RBI plans 25 bps rate hike",
-      "latestSummary": "Food inflation in India is projected to remain elevated in the coming months due to a shortfall in crops. The Reserve Bank of India is anticipated to raise interest rates by 25 basis points in December to manage retail inflation. Weak monsoon conditions and high energy prices are contributing to upward price pressure on essential food items.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms"
-    },
-    "1c93a37e7bc599": {
-      "id": "1c93a37e7bc599",
-      "firstSeen": "2026-11-13T04:46:04+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-14T03:19:08.560446+00:00",
-          "title": "India bonds under pressure before debt supply; hot inflation prints pinch further",
-          "summary": "Indian government bonds experienced significant selling pressure ahead of a major auction for the benchmark paper. The yield on the 6.94% 2036 bond rose notably due to rising inflation in both India and the United States.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "India bonds under pressure before debt supply; hot inflation prints pinch further",
-      "latestSummary": "Indian government bonds experienced significant selling pressure ahead of a major auction for the benchmark paper. The yield on the 6.94% 2036 bond rose notably due to rising inflation in both India and the United States.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-under-pressure-before-debt-supply-hot-inflation-prints-pinch-further/articleshow/135789760.cms"
-    },
-    "4520ef3c096477": {
-      "id": "4520ef3c096477",
-      "firstSeen": "2026-11-13T05:15:15+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-14T03:19:08.560446+00:00",
-          "title": "Carlsberg said to start road show for $600 million India IPO",
-          "summary": "Carlsberg is preparing a potential $600 million IPO of its Indian business, targeting a $4 billion valuation. Strong IPO demand in India supports the listing outlook, with Carlsberg India reporting robust revenue.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-14T03:19:08.560446+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Carlsberg said to start road show for $600 million India IPO",
-      "latestSummary": "Carlsberg is preparing a potential $600 million IPO of its Indian business, targeting a $4 billion valuation. Strong IPO demand in India supports the listing outlook, with Carlsberg India reporting robust revenue.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-said-to-start-road-show-for-600-million-india-ipo/articleshow/135790402.cms"
     },
     "320b04ca4c0ded": {
       "id": "320b04ca4c0ded",
@@ -4033,13 +3853,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-21T11:09:03.413106+00:00",
+          "title": "Trump says he will ban US firms from building AI data centres abroad",
+          "summary": "Donald Trump told reporters that U.S. companies will be barred from constructing AI data centres outside the United States and warned of a “tremendous tax” for firms that do so. He offered no details on how such a policy would be enforced or legislated. The comment came after his Asia trip, and follows data‑centre construction being a prominent issue in the recent midterm elections, with firms like Meta and Google already having overseas agreements.",
+          "importanceScore": 11.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
         }
       ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
+      "lastSeen": "2026-11-21T11:09:03.413106+00:00",
       "cat": "World",
-      "latestTitle": "Trump says he will ban US firms from building AI data centres overseas",
-      "latestSummary": "Donald Trump announced that he intends to prohibit U.S. companies from constructing AI data centres outside the United States and warned of a “tremendous tax” for firms that do so. He made the remarks at a press briefing after returning from Asia, providing little detail on how the policy would be enforced. The issue was prominent in the recent midterm elections, and firms such as Meta and Google already have overseas data‑centre agreements.",
-      "why": "The move could compel major tech firms to keep AI infrastructure domestic, reshaping investment and supply‑chain decisions.",
+      "latestTitle": "Trump says he will ban US firms from building AI data centres abroad",
+      "latestSummary": "Donald Trump told reporters that U.S. companies will be barred from constructing AI data centres outside the United States and warned of a “tremendous tax” for firms that do so. He offered no details on how such a policy would be enforced or legislated. The comment came after his Asia trip, and follows data‑centre construction being a prominent issue in the recent midterm elections, with firms like Meta and Google already having overseas agreements.",
+      "why": "The proposal could significantly alter where major tech firms locate critical AI infrastructure and affect international investment decisions.",
       "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
     },
     "2e157fe1c79ec1": {
@@ -4096,9 +3929,22 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-21T11:09:03.413106+00:00",
+          "title": "Chips can survive the space environment",
+          "summary": "Even older chips retain value — according to Compute Credit Index Research , some H100s are selling for about half of their original cost basis from 2023, while some H200 configurations are selling for the same price they did when introduced in 2024. But you’re not going to repossess chips installed in a satellite orbiting 300 miles above Earth at 17,500 miles per hour.",
+          "importanceScore": 10.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
+      "lastSeen": "2026-11-21T11:09:03.413106+00:00",
       "cat": "AI",
       "latestTitle": "Chips can survive the space environment",
       "latestSummary": "Even older chips retain value — according to Compute Credit Index Research , some H100s are selling for about half of their original cost basis from 2023, while some H200 configurations are selling for the same price they did when introduced in 2024. But you’re not going to repossess chips installed in a satellite orbiting 300 miles above Earth at 17,500 miles per hour.",
@@ -4121,13 +3967,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-21T11:09:03.413106+00:00",
+          "title": "US and Canadian stocks tumble into correction after AI‑driven sell‑off",
+          "summary": "A sharp tech‑driven sell‑off on Friday pushed the Nasdaq Composite down 1,225.05 points (‑5.13%) to 22,654.15, erasing all gains recorded in 2026. The S&P 500 fell 257.38 points (‑3.59%) to 6,918.45 and the Dow Jones Industrial Average dropped 908.88 points (‑1.85%) to 48,188.18, moving both U.S. indices into correction territory. Canadian indices also slipped into correction as AI‑related concerns spread.",
+          "importanceScore": 13.9,
+          "sourceCount": 2,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
+      "lastSeen": "2026-11-21T11:09:03.413106+00:00",
       "cat": "Canada",
-      "latestTitle": "North American indices slip into correction as tech sell‑off erases Nasdaq’s 2026 gains",
-      "latestSummary": "A sharp tech‑driven sell‑off hit North American markets on Friday, sending the Nasdaq Composite down 5.28% to 22,654.15 and wiping out its 2026 gains. The S&P 500 fell 3.59% to 6,918.45 and the Dow Jones Industrial Average dropped 1.85% to 48,188.18, moving all three indices into correction territory. AI‑related stocks such as Nvidia led the declines, while defensive names like UnitedHealth, Walmart and Johnson & Johnson posted gains.",
-      "why": "The drop highlights heightened volatility in the AI‑driven rally and may trigger portfolio re‑balancing.",
+      "latestTitle": "US and Canadian stocks tumble into correction after AI‑driven sell‑off",
+      "latestSummary": "A sharp tech‑driven sell‑off on Friday pushed the Nasdaq Composite down 1,225.05 points (‑5.13%) to 22,654.15, erasing all gains recorded in 2026. The S&P 500 fell 257.38 points (‑3.59%) to 6,918.45 and the Dow Jones Industrial Average dropped 908.88 points (‑1.85%) to 48,188.18, moving both U.S. indices into correction territory. Canadian indices also slipped into correction as AI‑related concerns spread.",
+      "why": "The drop reflects heightened investor anxiety about AI profitability, which may reshape capital allocation in the technology sector.",
       "url": "https://www.cbc.ca/news/business/anthropic-ipo-markets-today-9.7429534?cmp=rss"
     },
     "753060c81ed065": {
@@ -4171,13 +4030,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-21T11:09:03.413106+00:00",
+          "title": "Russia hits Kyiv bridges and railway stations in overnight missile strike, nine killed",
+          "summary": "Russia launched an overnight ballistic missile attack that struck bridges in Kyiv and railway stations across Ukraine, occurring days after Ukraine damaged the Crimean Bridge; President Zelensky called it one of the war’s most massive strikes and the attacks killed at least nine people. The strikes coincided with diplomatic talks and followed President Putin’s warning of retaliation for the Crimean Bridge incident.",
+          "importanceScore": 10.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-21T02:19:32.145704+00:00",
+      "lastSeen": "2026-11-21T11:09:03.413106+00:00",
       "cat": "World",
-      "latestTitle": "What we know about the latest Russian missile strikes on Ukraine",
-      "latestSummary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Russia targeted bridges in Kyiv and railway stations overnight in a major attack launched days after Ukraine badly damaged the strategically important Crimean Bridge. The latest Russian strikes coincided with a flurry of talks around the war, and came as the Kremlin pushed back against a US claim that Russia could be open to Western-backed security guarantees for Ukraine.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "latestTitle": "Russia hits Kyiv bridges and railway stations in overnight missile strike, nine killed",
+      "latestSummary": "Russia launched an overnight ballistic missile attack that struck bridges in Kyiv and railway stations across Ukraine, occurring days after Ukraine damaged the Crimean Bridge; President Zelensky called it one of the war’s most massive strikes and the attacks killed at least nine people. The strikes coincided with diplomatic talks and followed President Putin’s warning of retaliation for the Crimean Bridge incident.",
+      "why": "The attacks target key transport infrastructure, disrupting civilian movement and influencing the war’s strategic and diplomatic dynamics.",
       "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss"
     },
     "796cf69df22f66": {
@@ -4204,7 +4076,57 @@
       "latestSummary": "The Dow Jones Industrial Average fell 1,101.11 points, or 2.19 percent, to 49,097.06, closing below 50,000 for the first time since early June. Meanwhile on Thursday (November 19), Police arrested several protesters outside the Nasdaq building in New York City as artificial intelligence company Anthropic began trading following its initial public offering.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/anthropic-shares-close-17-higher-on-first-day-of-trading-amid-protest-arrests-outside-nasdaq/videoshow/136013757.cms"
+    },
+    "b499405439a277": {
+      "id": "b499405439a277",
+      "firstSeen": "2026-11-21T07:12:37+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-21T11:09:03.413106+00:00",
+          "title": "India, Finland seek to deepen economic ties through startup cooperation: Envoy",
+          "summary": "India and Finland are working to strengthen their economic relationship by focusing on startup collaboration. Gold still rules, but with a difference: How young India is redefining wedding jewellery KYC and KYB: Pidilite’s business has more tailwinds than headwinds, but a continuous test called raw material prices – Concluding part",
+          "importanceScore": 11.3,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-21T11:09:03.413106+00:00",
+      "cat": "India",
+      "latestTitle": "India, Finland seek to deepen economic ties through startup cooperation: Envoy",
+      "latestSummary": "India and Finland are working to strengthen their economic relationship by focusing on startup collaboration. Gold still rules, but with a difference: How young India is redefining wedding jewellery KYC and KYB: Pidilite’s business has more tailwinds than headwinds, but a continuous test called raw material prices – Concluding part",
+      "why": "This matters because it could affect India’s economy, major industries, investment, jobs or trade.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-finland-seek-to-deepen-economic-ties-through-startup-cooperation-envoy/articleshow/136046302.cms"
+    },
+    "94f6c4211c8f31": {
+      "id": "94f6c4211c8f31",
+      "firstSeen": "2026-11-21T05:51:22+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-21T11:09:03.413106+00:00",
+          "title": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
+          "summary": "Max Healthcare, Deepak Fertilisers, and Blue Star were among the top winners in the Nifty 500 universe last week, with stocks rallying up to 14.14%, outperforming the Nifty 500, which gained nearly 1.5%, and the benchmark Nifty 50, which rose around 2.5% during the same period. (Data Source: ACE Equity) The healthcare sector stock topped the list of weekly gainers, rising 14.14% over the last one week.",
+          "importanceScore": 11.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-21T11:09:03.413106+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
+      "latestSummary": "Max Healthcare, Deepak Fertilisers, and Blue Star were among the top winners in the Nifty 500 universe last week, with stocks rallying up to 14.14%, outperforming the Nifty 500, which gained nearly 1.5%, and the benchmark Nifty 50, which rose around 2.5% during the same period. (Data Source: ACE Equity) The healthcare sector stock topped the list of weekly gainers, rising 14.14% over the last one week.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms"
     }
   },
-  "updated": "2026-11-21T02:19:32.145704+00:00"
+  "updated": "2026-11-21T11:09:03.413106+00:00"
 }
