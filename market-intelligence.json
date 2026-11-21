@@ -1,107 +1,101 @@
 {
-  "updated": "2026-11-20T18:00:56.492579+00:00",
+  "updated": "2026-11-21T00:15:25.077839+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX falls as tech and base metal stocks slump and AI optimism wanes",
+      "headline": "TSX slides 2.5% as miners drag and US markets tumble",
       "direction": "down",
-      "move": "S&P/TSX Composite -1.60%",
-      "why": "Weakness in technology and base‑metal stocks, combined with disappointment over AI optimism after Anthropic’s performance, pulled the index lower.",
+      "move": "S&P/TSX Composite -2.47%",
+      "why": "The decline was driven by weakness in the mining sector and a simultaneous sell‑off in U.S. equity markets, both of which were explicitly linked to the TSX drop.",
       "drivers": [
         {
-          "label": "Anthropic fails to rekindle AI optimism",
-          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "miners drag",
+          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "tech and base metal stocks sink",
+          "label": "week of losses; U.S. markets also plummet",
           "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Tech sector weakness",
-          "detail": "Tech stocks sank, contributing to the index decline.",
+          "label": "Mineral sector weakness",
+          "detail": "Mining stocks dragged the TSX, contributing to its biggest weekly fall in over four years.",
           "kind": "context"
         },
         {
-          "label": "Base metal sector weakness",
-          "detail": "Base metal stocks fell sharply, dragging the market down.",
-          "kind": "driver"
+          "label": "US market sell‑off",
+          "detail": "Broad declines in U.S. equity markets coincided with the TSX drop, indicating cross‑border pressure.",
+          "kind": "context"
         }
       ],
       "sectors": [
-        "Technology",
         "Materials"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 33484.55,
+        "price": 33189.85,
         "previousClose": 34028.7,
-        "change": -544.15,
-        "changePct": -1.6,
+        "change": -838.85,
+        "changePct": -2.47,
         "currency": "CAD",
         "exchange": "TSI",
         "timezone": "America/Toronto",
-        "asOf": "2026-11-20T18:00:46+00:00",
+        "asOf": "2026-11-20T21:20:00+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": null,
       "sources": [
         {
-          "name": "The Globe and Mail",
-          "title": "TSX heads for biggest weekly fall in over four years, Nasdaq turns negative for 2026, as Anthropic fails to rekindle AI optimism - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbFktVk5TaVBHaXJHS05DZjczUngxalpGZjYxclh2SldTWHZxMzI4SG14UkxkbTVJOFo1MHNfZTJqX1hab3FZV295TWpBS3d3VFQ1VzZpRmhzWWVWRjY1R0xDa3ZnMERkM3BlZ0ZfZlBWZF9tRkUxcGtPb2NMSzUyb0phRzJuNWtIUTJrTEVDckdGa2lCNFdsMWROLTJwQzZJZVRleThtRmFpVDJ0M1A4bGNmeXVhSlQ0d1RxTEtlQkpZa01nbEVidVVPakh5czEyU1h1MzZZNEJsNTc0cnpIM1huc2M3eG14bEJDQ204aw?oc=5",
-          "publishedAt": "2026-11-20T10:33:14+00:00"
+          "name": "Reuters",
+          "title": "TSX eyes biggest weekly fall in over 4 years as miners drag - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZk43YVdqYVhFb3BPT21wdF80NmR4ZUxNYXliN0xneVNsZkdHM29WRkJfanpqVU9pQXkzejE5Q053M1lnQ3RQXzlYQmhzWk5PR1JpTklsdlNNNm9wUzl2QUI5SXM3Slc1eEtRMUgyTTctdUt3eDBmcVhpX3hxS3NiVkRJWnAtRjBxbnFJOWEtbzljaVBrSEFlZFZuZDFqV0hER04ya2VCOTZjSGhTemk4cTFQb3E2MDR3Z0E?oc=5",
+          "publishedAt": "2026-11-20T16:31:54+00:00"
+        },
+        {
+          "name": "BNN Bloomberg",
+          "title": "S&P/TSX composite falls nearly 2.5% Friday, U.S. markets also plummet - BNN Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmZ2LXB6d20xUmMyTGhmTDNwWW5xU0NURGUtcnU2NVFUMC0xZVBrOTROSk9ZYlAzTHM2TmRBSzdrUng2OFdkVG1RbjJCZ29HOEU1MXFmaDBjWlVSSEthWGhCQ0tISGw4SkxIV0hueGx3SUM4UkpMRGF0VjFOWmRaeHVQc083MWgtMVhqMThLVFlDandfck13S25OajVXOG9uUG9wVVl5Q1VFWXN3U0h6SU1DbE03VXJDc290aVI3MXp3Zw?oc=5",
+          "publishedAt": "2026-11-20T21:36:05+00:00"
+        },
+        {
+          "name": "Manitoba Co-operator",
+          "title": "Canadian Financial Close: Loonie down, TSX, Nasdaq in correction territory - Manitoba Co-operator",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlpvUmlMejZmSzdCWTFHbjh1MzFBRjZWRkFGZTNlRHJERy1PYmJmbVlSUWVyMHpoaXpNOE9CWDBfSWFNR1oteEk1eUpST21VWmJ0SHlJd1VVNVJxcDRYdFpRcmdDUS04M09mb1hpNDBHcGpOYVhCUVhOMFQ3aUZIMXJWazJjX1E2TWM3Rlk1TTJwMlN2eUhHUDdELWtNbWw4cVI0c0VEQUhCM29OcG13b0s1MlYzZnMwNnFySA?oc=5",
+          "publishedAt": "2026-11-20T22:14:39+00:00"
         },
         {
           "name": "Yahoo! Finance Canada",
-          "title": "S&P/TSX composite down more than 350 points as tech and base metal stocks sink - Yahoo! Finance Canada",
+          "title": "TSX falls nearly 2.5% Friday after week of losses; U.S. markets also plummet - Yahoo! Finance Canada",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VENkbU91QUl6cGRRVC1WRGVMdktBdmFfT1pxVGRKQk9scE1CVzY2cVFIQVFndlFXNmF5M1BaUXBmYi1JN3UwVlpFUjJ0clRuNk9qUlhDTjZvQ013X1NyRU5QLVpCX3JMNTdvX3ZPVmVmWXp2Y3BMVmxZVHVUTEU?oc=5",
-          "publishedAt": "2026-11-20T16:30:26+00:00"
+          "publishedAt": "2026-11-20T22:10:04+00:00"
         },
         {
-          "name": "kalkine.ca",
-          "title": "Tamarack Valley Energy TSX:TVE Emerges Larger After Headwater Deal Closes (TSX:TVE) - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0VRN1ExdGdYdldVUzNtb3FISHluMHRlbDhqRjZqcjU3aTdHZW5zTHJISXR0WlpqMWV0bmFXVUhJT2NUbFlERWI4ZzBLeERlTThuSlY2U2VEMjJaRXN3T3RnNHd2NGoxcHoxYUkxbnRHXzBOd3RHWk5yZkJQSFgzbTlvcW1uV2VFTTlEdFFaa3VqbExRWU1jR3JIODIxWFdWSHlwMXNTYU5NblEzb0VZ?oc=5",
-          "publishedAt": "2026-11-20T15:00:00+00:00"
+          "name": "Investing.com",
+          "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 2.47% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNclp0S0diR2M3bVhjSXRpcjdMeXhOdC1XaVFyQ2htWkJGbXk0Z3podl9LdHZ5MVdEdkdJMEJyaFZSUGxGdDdSYnh5aEgzeEkxaGFHeUxRMTA3aVhHQTNWcVQ1M2psNVBRZ19CZGhEbVpZdzA1dGtGQW1keDBXNEkwLW9aOHJTS1JUTFNoT2F0dThfYmFROGc1YzFEdXBqbV9uNmVocEl6SG0wNlo3MUxSc3JJdEN1RnFpcHVj?oc=5",
+          "publishedAt": "2026-11-20T21:38:30+00:00"
         },
         {
-          "name": "kalkine.ca",
-          "title": "Headwater Exploration TSX:HWX Deal Closes as Investors Track the Next Chapter for Shareholders (TSX:HWX) - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVlhFdGladE9FTFBPRE05U2gtSDFCREk4d1lzZHkwclZYMldMSU45ZG9ObUNqMTU0TVlISnRqSTg3LUg2R1drSUNDU0tCU19wZ0dTTDVOQXgzZXhSZmlPOHY2ZzdqSHl5a1lHcjIwM2Y3UDFzbE1CMnpETHk0NC1lNGhZYTRPamhoekVnRkNjY0dfZ05Pc3lmczVRaFhLNFIxOEI0cUExOGhVeFJWeVhULU0xUDQ3MEdVdkRnZm92dG9Mb1hWS191VEFYVQ?oc=5",
-          "publishedAt": "2026-11-20T15:00:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "S&P/TSX Composite: Bank of Nova Scotia (TSX:BNS) — Large Cap Value Stock in Focus as Investors Track the Next Catalyst - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRjhEX25IcmJ2MzhNV3RXeE9FS3Znd21iRlk2cUN2bGNCSlNvWlF0UjEweW4weWFPdl9pbWRpeWE2NmxKeWxZQTZhZU9CWmI2d3dmT2tIT25UWUF4MktVN2E1ZnVVTE9hc2EyeDRqTUhKS0pyUUwwbFhPR2FxX2p1X1lFOTBDRnlQZS12eXp6eC1QWTVLOS1HdUdzSFFrelR1SjMwR3NtSzVlTFNIdmdYNkwxcjN1X3B3QzJNMXVTR0VIQkJJamxXaUduVklvcHd6aWd4TXhxbFpreXJLb0VpSW5mUUNWdw?oc=5",
-          "publishedAt": "2026-11-20T15:38:00+00:00"
-        },
-        {
-          "name": "Kalkine Media",
-          "title": "What Makes Bank of Montreal (TSX:BMO) Worth Watching Today? - Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYXQxUjdWM3VsS3loM1p5bXphYXozYmoya0tobGxGa1F6TExNdzhlVVlqdlV4Qk5EM3ZULWtTYWxxYWpndUVMMWtNZW9qVzRrUktibGlFQVNGYkFxTlVRV2ZhMmsxcUxvRFhWREFHeHJxZW82bmlneGlUVXdCQm5Jd0FxVENITG9yZnVTM0hoV1d4NDB4eEdLUzkxNDk5czhUYUE?oc=5",
-          "publishedAt": "2026-11-20T14:51:00+00:00"
+          "name": "Investing.com India",
+          "title": "Canada shares lower at close of trade; S&P/TSX Composite down 2.47% By Investing.com - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObWV0THNTelUxaGJQSkJTMnRnemlXQmo4UWJBQ1h0UkxmQnhVWHFjRHVmVGRGd19IM1VsbDZIT3kzSmFWbEhmZVR6cmxDWTlPQ0FZbk9wLUdubFd4ajd4eVpjX0hkNkY1WHpfUHp4WmJBb1lHalRnRXNPZ2lUR3lfQ1UwcXI0RTdnQTRaZzFjVlA5WlVtSnN5dnlrVXJOdnpPbFB2Q1lGMUU4aG12UTM4NHE0dFc4SWZQOFE?oc=5",
+          "publishedAt": "2026-11-20T21:34:49+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 1.12%",
+      "headline": "Nifty 50 rose 1.14%",
       "direction": "up",
-      "move": "Nifty 50 +1.12%",
-      "why": "Same-day market coverage explicitly linked the final move to: Sensex Climbs 900 Points, Nifty 50 Reclaims 25,800 Mark; Sensex and Nifty Close Higher; investors seek shelter in Indian stocks, shorts unwind.",
+      "move": "Nifty 50 +1.14%",
+      "why": "Same-day market coverage explicitly linked the final move to: Sensex and Nifty Close Higher; investors seek shelter in Indian stocks, shorts unwind; broad-based rally as Nifty Bank scales record peak.",
       "drivers": [
-        {
-          "label": "Sensex Climbs 900 Points, Nifty 50 Reclaims 25,800 Mark",
-          "detail": "Dalal Street Investment Journal explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
         {
           "label": "Sensex and Nifty Close Higher",
           "detail": "Kotak Neo explicitly links the same-direction market move to this factor in its market headline.",
@@ -123,10 +117,10 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25800.6,
-        "previousClose": 25514.3,
-        "change": 286.3,
-        "changePct": 1.12,
+        "price": 25514.3,
+        "previousClose": 25227.95,
+        "change": 286.35,
+        "changePct": 1.14,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
@@ -136,10 +130,10 @@
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 83919.71,
-        "previousClose": 83021.75,
-        "change": 897.96,
-        "changePct": 1.08,
+        "price": 83021.75,
+        "previousClose": 82031.81,
+        "change": 989.94,
+        "changePct": 1.21,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
@@ -148,10 +142,22 @@
       },
       "sources": [
         {
-          "name": "Dalal Street Investment Journal",
-          "title": "Closing Bell: Banking Stocks Drive Market Rally as Sensex Climbs 900 Points, Nifty 50 Reclaims 25,800 Mark - Dalal Street Investment Journal",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQzRCdjQ3STg4UndzS1JnTks1NVduNWVaTjk0WGFndjlmMFROTWlqZ0JBTGlGd0NfcW0zMGhETjhydTNEZVZXbG5rYy1wRV9TNUpCOFJ5VFZTZ3NKNk1yQjFBY2pveGxzMllIc0dvXzFBSXpYbXBnTjJPZXZkeFVCeGpSUFh4VkxDRExQbHdkMUg3QXAxVy1jSE1tejUzOVBMSFg5Y3ZOLTRucWQxVmlVQzdpX2ctVW5rRmF2S3pmaHFhOWRIZWlFWXB5WkJVMzl4Skd5M1BIVFpxNU8wNTZIdEtRT28wcmM?oc=5",
-          "publishedAt": "2026-11-20T16:20:57+00:00"
+          "name": "BBN Times",
+          "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcWhfcXNmcy03Y2JVZVlqS2wzTVFUU2NnTWJmbVJLQkZBbHhoTlkxb0x4X1R4MGNZNk5OM25YYW1NN0JWQ25FclJCX1pUaEVadE9XaFdiVmM1eFZvSTM0N0lCNzFDRkNSQnF3MmJDc3I2OXNOTFB0N19wbXdMeUdNYzZZZGlMQV9NUk9QRG41MjZ5ZkMzY1hLWkt5ODJjTDlMQW5RbEF4MXRtUmtxUzBTVGNjRDVFVWxZX0VwRENNT0FqQXo1Z2c?oc=5",
+          "publishedAt": "2026-11-20T19:24:18+00:00"
+        },
+        {
+          "name": "The Indian Awaaz",
+          "title": "Markets Nov 20: Sensex gains 900 pts; Nifty closes above 25,800 while Bank Nifty scales fresh record high - The Indian Awaaz",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOVRqdUUySkJKVGJnb0tVeVNqQ1dBVFpKREl5bGJVTGhmN2tBdVpOZVBOMkMwQ3Y3TUZPNWR4SDVqQTdCQXViM01xNG5YT2hFdnJCZHpiOUg5SWMyaGRfQWpsZFNpREV5TzFDMGljWmNfQ25EbXJTU2pMQWYtTE9acHFuMVZPLUdaTS1Fb0VobmtqUzZ1aUFhU0xGNTZXVGpNQUwzRzJ0UjJxMFpYaHc1MTdDQzNqUW8zV1dwbEtJV2UxSlhzQ3hya2JR?oc=5",
+          "publishedAt": "2026-11-20T16:56:00+00:00"
+        },
+        {
+          "name": "IndiaIPO",
+          "title": "Closing Bell: D-St shrugs off weak global cues; Nifty at 25,800, Sensex gains 898 pts - IndiaIPO",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRU9EYnJzYURkVW1Cb3lzcTZic0RLZzMxbEpGQ19YNFhXdXZHYXJNb2pvTTQzQU5QTXA0Snd2d1NVNVhvX0g3dmREQlRVVjB2NHVfNl9rUGxFdjI5UW1hWFVMakdVbC1ZQmt5RDJxN2Rhd1A3MkkyQ2dHaWpLQUdrb0pmMGU4T0xpUWdXVVhIbjBYdzRVMVhFN29hOEtuRjh5RlNvWXRpV0Z1Q1B5SkpsU0hhZVc4ak1N?oc=5",
+          "publishedAt": "2026-11-20T20:41:49+00:00"
         },
         {
           "name": "Kotak Neo",
@@ -170,18 +176,6 @@
           "title": "🔔 Closing Bell | Sensex settles 1,500 pts higher from day's low, Nifty ends at 25,800: 4 key reasons behind sharp market reversal Buying in IT and bank shares, continuous FII buying among key reasons behind markets erasing early losses on November 20 M - LinkedIn",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTW1KZWVsTGFjclZoalZoUFI3Q0FyNkxCZWxMMW1NLXNIcHpSQ2R1YW02VGxOU3paWk9fQm5WN3VwMXBfQlZCd3VqNHZOWjR3akRhLWpOck1tLUdKSVFYSHI5R0pkOUQ0TVlERHR4cVVucGRYQTVzZEFwQk55U2Zvb3FwVzNBQW12VVdxZEFyUXFfUXYzVkJNTEEtWHhkbUFRUUxraHl0Qm56U1N1dWZGeDlLdEk?oc=5",
           "publishedAt": "2026-11-20T10:17:00+00:00"
-        },
-        {
-          "name": "Zee Business",
-          "title": "Sensex soars 898 pts, Nifty reclaims 25,800 amid broad-based rally as Nifty Bank scales record peak - Zee Business",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWUZLQjhqbmIzSkdmWmhEcTdkNnEzRG9XcUVGOWR4Y3dWSTYteTQ3cDJiODdzWTQ3aEZpWUVuT1pRb0I3ZVBYSjlsWnZUeGs2UnVxaDNubzJxUXZvRkdGUjV1cXFXdGlqei10Q0JIck5FZ29KdVAxS3lLZlBhLVpWb0hCR1h3MExQV2JucHFPZVF4bGtPZXJXQzkxd29rbVZLRGlLV29iTW5OOGdJWGlrNlBRX1IxNlJlXzNhM24zTE00aVIzc2hkLUVkR1RQeUJ4QTJWcTZKeXBMVTd4?oc=5",
-          "publishedAt": "2026-11-20T10:04:48+00:00"
-        },
-        {
-          "name": "News18",
-          "title": "Sensex Surges Nearly 900 Points, Nifty Reclaims 25,800; Bank Nifty Hits Fresh Record High - News18",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZlhHNktoNzRHc3ppZ29KSVdOWHZVM1hheFdiS01FSWcwU1VHaGdjTnNvbkN2TWNNT3VhWjBxT3FaZFh5aVhSMU02TnV0dXlqSzNFSzdwRTBDRU9DeDhac2U0TmFSNnVGOWwwN3BONmhTZndfY0VlZkgtaHlQWUhsTXdNdlg4cHYwWVRZNUJWc0pROUpLcmNhSFhoTWFFek5fTzN2VmViMXhIblA5UHB1UXZka2s2T1lWWUZQVGctbkc0UGsweDFaTEJFTlpYWnMtNUw3eWRJY0ZqbjJFYmc00gHkAUFVX3lxTE9UazlPam9QV2J5QU0wSnZMRHFjRFp6QmdCWC1kMUJrWXdISGsxc2twaXY5clNoWDEwY1BYcjlTVUpIT0xMNUtGTHBNWjctVXBMelJjZUt2R2R6SGdxa1duSkZXbE5pRTZUc0NYVWFILXVlN2FEcWJkWm1pcW53UkhicExPWmJnZWxTQndwNFZET25vRXlQM0dLUzhPZVZoc1A1ZDhqUUpDLU5mTl9EY1RpbXB5Q29ZeUw4b21tbm1zTDRwOGZNZ0NjcHFsczdfRk1LVXpUOUh5X2dOendWSnNpS2E3QQ?oc=5",
-          "publishedAt": "2026-11-20T09:32:25+00:00"
         }
       ],
       "evidenceCount": 7
