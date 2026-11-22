@@ -3,88 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-19T21:38:40.987064+00:00",
-      "changeSummary": {
-        "new": 3,
-        "updated": 1,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "2096056fa8b135",
-          "cat": "AI",
-          "title": "Anthropic allocates 5% of IPO shares to Public Benefit Fund, creating $80 billion endowment",
-          "summary": "Anthropic’s IPO set aside roughly 5% of its shares—about 850 million—to a Public Benefit Fund. Using the reported trading price of about $95 per share, the fund is valued at approximately $80 billion. The PBF’s first commitment is $200 million to study AI’s impact on workers, and the company separately donated $50 million to San Francisco, which it says came from its own resources, not the PBF.",
-          "why": "The fund provides a sizable, dedicated capital source for AI safety research and broader philanthropic initiatives, potentially shaping the industry’s societal impact.",
-          "publishedAt": "2026-11-19T19:10:45+00:00",
-          "firstSeen": "2026-11-19T19:10:45+00:00",
-          "importanceScore": 14.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
-        },
-        {
-          "id": "969bc50e9d28f2",
-          "cat": "World",
-          "title": "European leaders say they are ready to negotiate with Russia on Ukraine war",
-          "summary": "European leaders at Berlin's \"Coalition of the Willing\" summit said Europe has a clear, united negotiating position and is prepared to discuss ending the war in Ukraine with Russia. UK Prime Minister Andy Burnham and German Chancellor Friedrich Merz criticised Moscow's maximalist demands as unrealistic. US envoy Jared Kushner noted President Trump wants a deal with Moscow alongside Europe, while President Putin has rejected any European role in US‑led talks.",
-          "why": "It signals a potential shift toward diplomatic engagement that could affect efforts to resolve the Ukraine conflict.",
-          "publishedAt": "2026-11-19T21:21:43+00:00",
-          "firstSeen": "2026-11-19T21:21:43+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "b718bf9106186a",
-          "cat": "Indian Markets",
-          "title": "Goldman Sachs names 22 ‘high-growth’ stocks; Bharti Airtel, Eternal and HDFC Bank feature in the list",
-          "summary": "Against this backdrop, Goldman Sachs has identified 22 high-growth companies with exposure to structural growth themes and initiated Buy ratings on 21 of them. Also read | Stock picks of the week: 5 stocks with consistent score improvement and upside potential of up to 31% in 1 year, according to analysts ​ In its list of top banking stocks, Goldman Sachs has initiated a ‘buy’ rating for HDFC Bank, projecting earnings per share (EPS) growth of 27% in 2027-28.",
-          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-          "publishedAt": "2026-11-19T07:05:20+00:00",
-          "firstSeen": "2026-11-19T07:05:20+00:00",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-names-22-high-growth-stocks-bharti-airtel-eternal-and-hdfc-bank-feature-in-the-list/slideshow/135981076.cms"
-        },
-        {
-          "id": "8d48c05465a5c7",
-          "cat": "India",
-          "title": "India needs $430 billion in exports in five months to meet FY27 target",
-          "summary": "Union Commerce Minister Piyush Goyal said India must achieve about $430 billion in exports from November to March to meet its FY27 goal, after reaching 57 % of the target by the end of October. October exports hit an all‑time high of nearly $90 billion, and the government aims for $1 trillion in total exports for the fiscal year.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-19T15:44:07+00:00",
-          "firstSeen": "2026-11-19T15:44:07+00:00",
-          "importanceScore": 10.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-needs-430-billion-in-exports-in-five-months-to-meet-fy27-target-piyush-goyal/articleshow/135997642.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-20T03:20:32.159352+00:00",
       "changeSummary": {
         "new": 3,
@@ -901,34 +819,91 @@
           "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
         }
       ]
-    }
-  ],
-  "events": {
-    "d464f54f3dae7f": {
-      "id": "d464f54f3dae7f",
-      "firstSeen": "2026-11-15T13:42:58+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-11-22T21:48:20.445462+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
         {
-          "at": "2026-11-15T17:44:49.892660+00:00",
-          "title": "Iran launches six‑drone attack on US radar base in Bahrain, intercepted",
-          "summary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
-          "importanceScore": 12.5,
+          "id": "df59e16a469695",
+          "cat": "World",
+          "title": "Explosion hits Russian corvette in Benghazi port, suspected drone attack",
+          "summary": "An explosion hit a Russian navy Project 20380 Steregushchiy‑class corvette, identified as the Merkury, while it was docked for fuel and supplies at the Benghazi naval base in eastern Libya on Sunday morning. Libya’s eastern government said the blast was caused by a suspected drone attack. Satellite and high‑resolution imagery later showed the vessel capsized, with only its forward bow remaining above water, and a nearby commercial ship also suffered minor injuries.",
+          "why": "It demonstrates the extension of conflict risks to foreign military and commercial vessels operating in Libyan waters.",
+          "publishedAt": "2026-11-22T20:28:09+00:00",
+          "firstSeen": "2026-11-22T20:28:09+00:00",
+          "importanceScore": 14.0,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
           "confidence": "high",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "80c98a7cade2a1",
+          "cat": "India",
+          "title": "India, EU likely to sign free‑trade agreement on Dec 16",
+          "summary": "India and the 27‑member European Union are expected to sign their free‑trade agreement on 16 December, an Indian official said. Negotiations were concluded on 27 January this year, and the pact would give duty‑free access to the EU for roughly 93 % of Indian exports while lowering tariffs on luxury cars and wines from the bloc.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-22T18:42:58+00:00",
+          "firstSeen": "2026-11-22T18:42:58+00:00",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms"
+        },
+        {
+          "id": "e98caa15deb52e",
+          "cat": "Indian Markets",
+          "title": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
+          "summary": "Reliance Brands has marked a significant financial milestone, achieving a revenue of Rs 3,390.89 crore for FY26 and reducing losses. Operating more than 1,085 Points of Sale nationwide, the brand continues to collaborate with over 90 partner names.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-22T05:44:52+00:00",
+          "firstSeen": "2026-11-22T05:44:52+00:00",
+          "importanceScore": 9.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms"
+        },
+        {
+          "id": "f509fd57f14871",
+          "cat": "Indian Markets",
+          "title": "South Korea prepares market stabilisation funds after KOSPI hits 10-month low",
+          "summary": "In response to falling stock indices, South Korea's finance ministry is poised to activate market stabilisation funds. Part 1 of 3 Gold still rules, but with a difference: How young India is redefining wedding jewellery Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-22T11:45:31+00:00",
+          "firstSeen": "2026-11-22T11:45:31+00:00",
+          "importanceScore": 9.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms"
         }
-      ],
-      "lastSeen": "2026-11-15T17:44:49.892660+00:00",
-      "cat": "World",
-      "latestTitle": "Iran launches six‑drone attack on US radar base in Bahrain, intercepted",
-      "latestSummary": "Iran’s Islamic Revolutionary Guard Corps launched six drones at the U.S. air‑defence radar facility at al‑Riffa air base in Bahrain on Sunday, its second attempt in three days. Bahrain’s military said its air‑defence systems intercepted and destroyed the drones before they could achieve their objectives. The incident occurs amid a U.S.–Iran stand‑off over the Strait of Hormuz, where about one‑fifth of global oil and gas flows and shipping has been limited since the war began in February.",
-      "why": "The attack raises regional tension and could further affect shipping through the strategically vital Strait of Hormuz.",
-      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
-    },
+      ]
+    }
+  ],
+  "events": {
     "6e07c4417ad835": {
       "id": "6e07c4417ad835",
       "firstSeen": "2026-11-15T22:28:54+00:00",
@@ -3468,7 +3443,107 @@
       "latestSummary": "A Russian cargo ship, the Sparta II, was struck by a drone on Saturday while en route to the Kaliningrad exclave and drifted into Finnish waters. Finnish defence officials said Ukraine was likely responsible. Rescue and firefighting teams from Finland, Estonia and Russia continued to work on Sunday, using water to keep the vessel from sinking, and reported no danger to nearby traffic.",
       "why": "The incident shows the vulnerability of commercial shipping in the Baltic region to drone attacks and the risk of wider geopolitical tension.",
       "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+    },
+    "df59e16a469695": {
+      "id": "df59e16a469695",
+      "firstSeen": "2026-11-22T20:28:09+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-22T21:48:20.445462+00:00",
+          "title": "Explosion hits Russian corvette in Benghazi port, suspected drone attack",
+          "summary": "An explosion hit a Russian navy Project 20380 Steregushchiy‑class corvette, identified as the Merkury, while it was docked for fuel and supplies at the Benghazi naval base in eastern Libya on Sunday morning. Libya’s eastern government said the blast was caused by a suspected drone attack. Satellite and high‑resolution imagery later showed the vessel capsized, with only its forward bow remaining above water, and a nearby commercial ship also suffered minor injuries.",
+          "importanceScore": 14.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-22T21:48:20.445462+00:00",
+      "cat": "World",
+      "latestTitle": "Explosion hits Russian corvette in Benghazi port, suspected drone attack",
+      "latestSummary": "An explosion hit a Russian navy Project 20380 Steregushchiy‑class corvette, identified as the Merkury, while it was docked for fuel and supplies at the Benghazi naval base in eastern Libya on Sunday morning. Libya’s eastern government said the blast was caused by a suspected drone attack. Satellite and high‑resolution imagery later showed the vessel capsized, with only its forward bow remaining above water, and a nearby commercial ship also suffered minor injuries.",
+      "why": "It demonstrates the extension of conflict risks to foreign military and commercial vessels operating in Libyan waters.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+    },
+    "80c98a7cade2a1": {
+      "id": "80c98a7cade2a1",
+      "firstSeen": "2026-11-22T18:42:58+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-22T21:48:20.445462+00:00",
+          "title": "India, EU likely to sign free‑trade agreement on Dec 16",
+          "summary": "India and the 27‑member European Union are expected to sign their free‑trade agreement on 16 December, an Indian official said. Negotiations were concluded on 27 January this year, and the pact would give duty‑free access to the EU for roughly 93 % of Indian exports while lowering tariffs on luxury cars and wines from the bloc.",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-22T21:48:20.445462+00:00",
+      "cat": "India",
+      "latestTitle": "India, EU likely to sign free‑trade agreement on Dec 16",
+      "latestSummary": "India and the 27‑member European Union are expected to sign their free‑trade agreement on 16 December, an Indian official said. Negotiations were concluded on 27 January this year, and the pact would give duty‑free access to the EU for roughly 93 % of Indian exports while lowering tariffs on luxury cars and wines from the bloc.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms"
+    },
+    "e98caa15deb52e": {
+      "id": "e98caa15deb52e",
+      "firstSeen": "2026-11-22T05:44:52+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-22T21:48:20.445462+00:00",
+          "title": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
+          "summary": "Reliance Brands has marked a significant financial milestone, achieving a revenue of Rs 3,390.89 crore for FY26 and reducing losses. Operating more than 1,085 Points of Sale nationwide, the brand continues to collaborate with over 90 partner names.",
+          "importanceScore": 9.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-22T21:48:20.445462+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
+      "latestSummary": "Reliance Brands has marked a significant financial milestone, achieving a revenue of Rs 3,390.89 crore for FY26 and reducing losses. Operating more than 1,085 Points of Sale nationwide, the brand continues to collaborate with over 90 partner names.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms"
+    },
+    "f509fd57f14871": {
+      "id": "f509fd57f14871",
+      "firstSeen": "2026-11-22T11:45:31+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-22T21:48:20.445462+00:00",
+          "title": "South Korea prepares market stabilisation funds after KOSPI hits 10-month low",
+          "summary": "In response to falling stock indices, South Korea's finance ministry is poised to activate market stabilisation funds. Part 1 of 3 Gold still rules, but with a difference: How young India is redefining wedding jewellery Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+          "importanceScore": 9.2,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-22T21:48:20.445462+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "South Korea prepares market stabilisation funds after KOSPI hits 10-month low",
+      "latestSummary": "In response to falling stock indices, South Korea's finance ministry is poised to activate market stabilisation funds. Part 1 of 3 Gold still rules, but with a difference: How young India is redefining wedding jewellery Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms"
     }
   },
-  "updated": "2026-11-22T15:21:37.032448+00:00"
+  "updated": "2026-11-22T21:48:20.445462+00:00"
 }

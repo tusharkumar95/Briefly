@@ -1,50 +1,50 @@
 {
-  "updated": "2026-11-22T15:21:37.032448+00:00",
+  "updated": "2026-11-22T21:48:20.445462+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 32,
-    "nonNoiseCandidates": 30,
-    "officialOrPrimaryCandidates": 3,
-    "enrichedCandidates": 30,
-    "readableCandidates": 20,
-    "eventClusters": 19,
-    "materialEvents": 7,
-    "selectedEvents": 4,
-    "seededStories": 1,
+    "rawCandidates": 49,
+    "nonNoiseCandidates": 48,
+    "officialOrPrimaryCandidates": 8,
+    "enrichedCandidates": 48,
+    "readableCandidates": 29,
+    "eventClusters": 28,
+    "materialEvents": 8,
+    "selectedEvents": 5,
+    "seededStories": 4,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "93e977cb031c5a",
+      "id": "df59e16a469695",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Russian cargo vessel hit by drone in Gulf of Finland",
-      "publishedAt": "2026-11-22T11:25:14+00:00",
-      "importanceScore": 13.5,
+      "title": "Explosion hits Russian corvette in Benghazi port, suspected drone attack",
+      "publishedAt": "2026-11-22T20:28:09+00:00",
+      "importanceScore": 14.0,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "summary": "A Russian cargo ship, the Sparta II, was struck by a drone on Saturday while en route to the Kaliningrad exclave and drifted into Finnish waters. Finnish defence officials said Ukraine was likely responsible. Rescue and firefighting teams from Finland, Estonia and Russia continued to work on Sunday, using water to keep the vessel from sinking, and reported no danger to nearby traffic.",
-      "why": "The incident shows the vulnerability of commercial shipping in the Baltic region to drone attacks and the risk of wider geopolitical tension.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "summary": "An explosion hit a Russian navy Project 20380 Steregushchiy‑class corvette, identified as the Merkury, while it was docked for fuel and supplies at the Benghazi naval base in eastern Libya on Sunday morning. Libya’s eastern government said the blast was caused by a suspected drone attack. Satellite and high‑resolution imagery later showed the vessel capsized, with only its forward bow remaining above water, and a nearby commercial ship also suffered minor injuries.",
+      "why": "It demonstrates the extension of conflict risks to foreign military and commercial vessels operating in Libyan waters.",
       "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-22T11:25:14+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-22T20:28:09+00:00"
         }
       ],
-      "firstSeen": "2026-11-22T11:25:14+00:00",
+      "firstSeen": "2026-11-22T20:28:09+00:00",
       "status": "New",
-      "lastChecked": "2026-11-22T15:21:37.032448+00:00",
+      "lastChecked": "2026-11-22T21:48:20.445462+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -52,23 +52,131 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
+    },
+    {
+      "id": "80c98a7cade2a1",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India, EU likely to sign free‑trade agreement on Dec 16",
+      "publishedAt": "2026-11-22T18:42:58+00:00",
+      "importanceScore": 13.1,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms",
+      "summary": "India and the 27‑member European Union are expected to sign their free‑trade agreement on 16 December, an Indian official said. Negotiations were concluded on 27 January this year, and the pact would give duty‑free access to the EU for roughly 93 % of Indian exports while lowering tariffs on luxury cars and wines from the bloc.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms",
+          "publishedAt": "2026-11-22T18:42:58+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-22T18:42:58+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-22T21:48:20.445462+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e98caa15deb52e",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
+      "publishedAt": "2026-11-22T05:44:52+00:00",
+      "importanceScore": 9.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms",
+      "summary": "Reliance Brands has marked a significant financial milestone, achieving a revenue of Rs 3,390.89 crore for FY26 and reducing losses. Operating more than 1,085 Points of Sale nationwide, the brand continues to collaborate with over 90 partner names.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms",
+          "publishedAt": "2026-11-22T05:44:52+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-22T05:44:52+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-22T21:48:20.445462+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "f509fd57f14871",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "South Korea prepares market stabilisation funds after KOSPI hits 10-month low",
+      "publishedAt": "2026-11-22T11:45:31+00:00",
+      "importanceScore": 9.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms",
+      "summary": "In response to falling stock indices, South Korea's finance ministry is poised to activate market stabilisation funds. Part 1 of 3 Gold still rules, but with a difference: How young India is redefining wedding jewellery Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms",
+          "publishedAt": "2026-11-22T11:45:31+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-22T11:45:31+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-22T21:48:20.445462+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 1,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-21T23:20:46.613399+00:00",
+  "previousUpdated": "2026-11-22T15:21:37.032448+00:00",
   "changeSummary": {
-    "new": 1,
+    "new": 4,
     "updated": 0,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-19T21:38:40.987064+00:00",
-    "updated": "2026-11-22T15:21:37.032448+00:00",
+    "availableFrom": "2026-11-20T03:20:32.159352+00:00",
+    "updated": "2026-11-22T21:48:20.445462+00:00",
     "snapshotCount": 9,
-    "eventCount": 74,
+    "eventCount": 77,
     "retentionHours": 72
   }
 }
