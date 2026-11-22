@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-21T21:53:34.228069+00:00",
+  "updated": "2026-11-22T02:39:32.883625+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX drops 2.5% as gold rout and AI fears weigh on equities",
+      "headline": "TSX Composite falls 2.5% to 33,190",
       "direction": "down",
       "move": "S&P/TSX Composite -2.46%",
-      "why": "A sharp decline in gold prices and heightened concerns about artificial‑intelligence stocks triggered selling across the market.",
+      "why": "The index closed lower; supplied sources do not link a specific catalyst to the move, only note that the market is in a correction after a recent 10% decline.",
       "drivers": [
         {
           "label": "10% stock market decline",
@@ -16,23 +16,13 @@
           "kind": "driver"
         },
         {
-          "label": "week of losses; U.S. markets also plummet",
-          "detail": "thecanadianpressnews.ca explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Gold rout",
-          "detail": "Gold prices fell sharply, pulling down related equity positions.",
-          "kind": "context"
-        },
-        {
-          "label": "AI fears",
-          "detail": "Investor anxiety over AI‑related valuations sparked broader equity sell‑offs.",
+          "label": "Correction status",
+          "detail": "Index entered correction after a 10% stock market decline, per Beinsure.",
           "kind": "context"
         }
       ],
       "sectors": [],
-      "confidence": "high",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
@@ -61,31 +51,13 @@
           "publishedAt": "2026-11-21T03:23:09+00:00"
         },
         {
-          "name": "thecanadianpressnews.ca",
-          "title": "TSX falls nearly 2.5% Friday after week of losses; U.S. markets also plummet - thecanadianpressnews.ca",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNVVl6dld4RlFZM3NvSVhEZ09oaVBjVnA0NlN0OHI1QWxUZlVPVXA2Y0hpTXUzR09yS2V0eVRLZ2RIRGxsRXYzVV85a0ppVFhyNC10cnJwQmk5eFpSR2VWekYwNWhjOXNiS1VFUkVFQzE5cURfSWlEYVZRWEpSczl6dW5rR1l5WFhueGE3VWNfM3RpRXQyZ1NmSFgzYzA5LWhNRUM0Q2pyVDZza3dsaG1SVkxhbXUwb1lZellXVnFRUXlocVdsUjI2d25NUlI1YzlPandpc2NJOGZpQ2ZWOUpFUGN3VnVVN3R2UVA3WHNzSEtGZGxvcF9zVEJQYzQ?oc=5",
-          "publishedAt": "2026-11-21T00:26:57+00:00"
-        },
-        {
-          "name": "Manitoba Co-operator",
-          "title": "Canadian Financial Close: Loonie down, TSX, Nasdaq in correction territory - Manitoba Co-operator",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlpvUmlMejZmSzdCWTFHbjh1MzFBRjZWRkFGZTNlRHJERy1PYmJmbVlSUWVyMHpoaXpNOE9CWDBfSWFNR1oteEk1eUpST21VWmJ0SHlJd1VVNVJxcDRYdFpRcmdDUS04M09mb1hpNDBHcGpOYVhCUVhOMFQ3aUZIMXJWazJjX1E2TWM3Rlk1TTJwMlN2eUhHUDdELWtNbWw4cVI0c0VEQUhCM29OcG13b0s1MlYzZnMwNnFySA?oc=5",
-          "publishedAt": "2026-11-20T21:56:07+00:00"
-        },
-        {
-          "name": "NAI500",
-          "title": "Three Defensive TSX Stocks to Serve as Bear Market Buffers - NAI500",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2FveWF6bWQwaW1hUVJzbkxlWkh2NWNnV0tMMWFGS1pRVDBoNFdWVnpvb3ItWFBFbHEzdUxaang5aVAxRnVidVIyNTcycG1OSjNuUk9iNkR5N1VrdlZOUWdfUHRUTFFPR1Z5XzI2ZlZ5VGRqbU80SGVYaDRObmZMX2dTVHBnVHlMRGlQUXhfbHg2VlViTlE?oc=5",
-          "publishedAt": "2026-11-21T01:43:51+00:00"
-        },
-        {
-          "name": "Investing.com Canada",
-          "title": "TSX plunges 2.5% to six-month low as gold rout and AI fears hit equities - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYkxvWDhPMUp3RmYzVE9FNXRONTl5aDZBdkdsMTI4Mnl6U0dkRVJjQmdrMF9NTWxJb21zVjUzQlMteUFFUjlCZzRDNzV1VjNqbzllOEZCQkd3cWVETVdjd0h4bEYweWxlNFY5TjhPN1dNSHVyNG5rT0lqc3F5OWIydmVFcF9PaWlnUlEteTJ1ZjdqQWZlaFhtLWJIckl5M1FQRGY1dWs3QXlWZXhF?oc=5",
-          "publishedAt": "2026-11-20T23:58:21+00:00"
+          "name": "Kalkine Media",
+          "title": "Is High Arctic Energy (TSX:HWO) Ready for Fresh Momentum? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaFNqWmdUWmxMWWYwSmNNenp6WTBxVUJhQ0RsNHMtVlh3WGgxMldZYmZuYzBwdDJhVnZzQ1A5c0VLUWhWaDl0Rm1MOHlUbG1NcUlqTS11Y292S1Z4TF81Qkw1Um9vblJ0S3ZXTFMzVmg2c3NzM3AzT2R0VnJYV2JDZ3Z4OVh0ZkdfUlNkcDY4NGFCV0tINDRUdmFkSQ?oc=5",
+          "publishedAt": "2026-11-21T15:38:00+00:00"
         }
       ],
-      "evidenceCount": 7
+      "evidenceCount": 3
     },
     "India": {
       "label": "India",
@@ -165,7 +137,7 @@
         {
           "name": "www.nationpathindia.com",
           "title": "Indian Stock Market Extends Four-Week Rally as Sensex and Nifty Hit Nine-Month Highs - www.nationpathindia.com",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSGdMcjdYSU1kUTB2RjMyelAtcmVSbzZkU19Scy1tWmdhTmJJcjY2X1ROa1pZWE9FS3JHa0FEU0U1OFM5RWx4VnpPZlliQ3B0c0FRcmkyYXZIbXhyR05jbzRZVU9LdWZSNzJoY25tNElaVVE1WlVNMDZUUkszUTJ2eHdhWnB6SGctLUJpTWZGQ21BcnFlSU9ORWZvdnNsNzNySExTS3ZJUW1iZFpUVDZfYVQzb3RDRHZlT1hZV1htRQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUUtkV1E1bU5ZNXVWY091di02SGxjcTlWbVc0UHVSRmZHU1NMN1JhZ2tDM1lTU1R5ak4zOHdvZWxWeHVXSDNjV0gtZ1IwMldCc1VucUN5U0VGYm9ZZUt1M1J1V21YdmUxS0VMOUpXQjh4ZFJKWHRfU2hqeG93VGZ0T1VHbFphbkQ5Wm00SUpBRm1ubEJBLUVtQm5RREwzMTM3VlZMRlI4a2hKTGFtdXhSU3FPckNIaThQZnc?oc=5",
           "publishedAt": "2026-11-21T12:09:22+00:00"
         },
         {
