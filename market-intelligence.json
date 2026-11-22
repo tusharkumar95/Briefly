@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-22T18:02:47.552800+00:00",
+  "updated": "2026-11-22T23:51:09.165243+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX Composite slides 2.5% amid broad market weakness",
+      "headline": "S&P/TSX Composite falls 2.46% (down 838.8 points)",
       "direction": "down",
       "move": "S&P/TSX Composite -2.46%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "General market decline",
-          "detail": "TSX Composite dropped 2.46% with no explicit driver identified in the provided source.",
+          "label": "Financial sector attention",
+          "detail": "Kalkine Media highlighted growing focus on National Bank of Canada as Canada’s financial sector evolves.",
           "kind": "context"
         }
       ],
@@ -47,8 +47,13 @@
       "headline": "Nifty 50 rose 1.12%",
       "direction": "up",
       "move": "Nifty 50 +1.12%",
-      "why": "Same-day market coverage explicitly linked the final move to: Autos and Banks Lift Nifty; Sensex Jumps 773 Points, Nifty Closes Above 25,250; Sensex Surges 1,718 Points.",
+      "why": "Same-day market coverage explicitly linked the final move to: Mixed Sectoral Trends and Moderate Market Breadth; Autos and Banks Lift Nifty; Sensex Jumps 773 Points, Nifty Closes Above 25,250.",
       "drivers": [
+        {
+          "label": "Mixed Sectoral Trends and Moderate Market Breadth",
+          "detail": "MarketsMojo explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "Autos and Banks Lift Nifty",
           "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
@@ -56,11 +61,6 @@
         },
         {
           "label": "Sensex Jumps 773 Points, Nifty Closes Above 25,250",
-          "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Sensex Surges 1,718 Points",
           "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
@@ -95,6 +95,12 @@
       },
       "sources": [
         {
+          "name": "MarketsMojo",
+          "title": "Sensex Recovers to Close Higher Amid Mixed Sectoral Trends and Moderate Market Breadth - MarketsMojo",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQOUY3VkFLRXR2UnQtenRrdV9fWE5pYWR2SjNqZHVUallPWk55Nm5McXFWaUFyYTliVWFMTDA3T19fY3dyelhrZWlKemRSUzJyXy1UcWpzeXo2Y3ppTjMxd3M3R0lUdFFVQkNJYk5qWmtOLWZaY21tU0V0TmxtZ1R0cnhnQnBmcEx3eXBEbFVoeU85UU9BSk83bUFDRGMzV2NBUGVFQlNXTnBPZ09QaUxjSUtnYmdkWHlmUURGcU9BT2RmQXp4M2xvaE5JbFlQd0hjSHp2UDFXb0xtclBRR0E?oc=5",
+          "publishedAt": "2026-11-22T19:57:55+00:00"
+        },
+        {
           "name": "BBN Times",
           "title": "BSE SENSEX Surges to 83,021.75 as Autos and Banks Lift Nifty - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelNpMUNxWDJwWkU2LWI0UkZVSC1PdXJINGYtQ0xreU9qek9vOWFrR1RpNnV2dEl6Q0xobW9FR2Zmdm0wZzFQb2hCNGxHMEJCOElsbFJNWnpZYU9tMW44dTlabzhGV1RXdFFGdnVncko1YnRRM3FaSjlTSHlsX01hSlRkMTN1djNQS2p6RktkcnNCcHVNNEtBRDBZNTJUeGNaVlE?oc=5",
@@ -113,22 +119,16 @@
           "publishedAt": "2026-11-22T10:06:27+00:00"
         },
         {
+          "name": "The Economic Times",
+          "title": "F&O Talk: 25,500 remains crucial support for Nifty, says Sudeep Shah; gives RIL, HDFC Bank strategy - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQno3WGxxSkxLeU9kT05mVC1HbVMybFFSMkNvSEgxVFdSQnhjc1pZVG5hcUEzSW1hVVNDLW5lUmtKQ1YtX2FwZXlCUzhfckJMRXh6NUVtZTIzd1VBNV9tMnNSbWJhdHpfMDhFWnhBd2NfMl9TWmFkUGk4X2pKMlRvdGpoV3hvN2xUTkFpT1RQTVp6Z3E2eHpuTWtMVUxvblNmaGh1Vy1pMnliM1VGX3F6dHN5cXBiaVR4NHhvS01SampHangzZ2R0OGVrSFdoTTZrb0x0SW5sNGs4aEJ0Mk5sQ0RzUm9IUEc3UEFmR2tyUTZaUkExTWNoQm90b9IBgAJBVV95cUxOUndrcm9VeGNtR21DSHNVQzNSNk1VQzUxb2JKU2pkQ2xjQ3V3ck0xUUJrbjF1aFY1OXFhWnk5YXpqYU5taklZU3Bic1pOV2VxU0xNT2Fabk9mVkM1NG41YjhNRnlfbk5xQ0JIeGltcjgtWENjcko3OFNBSkdqdHAyNlV1RG5tcWlBNk9EYmphYlFwQzB2WlJ6S05lOEdlbnBUSmVSNmFGOUxrb1k1UWdmWkloTFR6LTZYa3NTSVRkbzFKbDZWRDFDQUV1YzRrQzBJSjBhMUZIcFV2Si1HUEtfN3c4MlpUcjhVQ1A3cTRtM0dfV1B1VFR6WDJGTk81VG83?oc=5",
+          "publishedAt": "2026-11-22T08:31:13+00:00"
+        },
+        {
           "name": "INDIA New England News",
           "title": "Indian Stocks Rally as Sensex Jumps 773 Points, Nifty Closes Above 25,250 - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR216Q0l0LWVPSmd5eHZNZGtkWkNSSWg3NHhxT1FHM2NNVHlKZW11VFBRM2FXZTdnZWVjN2hDUjJCZ2VrWlQ3c3RENUFzOElhcUowMjJyeFI1MExaM3FDU1U1X2dqMk8tV0ZDTmY2R1dNVmNXdHFkVXJ5SXZlbWVIU0gzVGE5VnFLYks2aVZTUXVuU05wY2kwSXUwZDJqQXZpTlE?oc=5",
           "publishedAt": "2026-11-22T08:25:52+00:00"
-        },
-        {
-          "name": "DD News",
-          "title": "Sensex, Nifty slide nearly 1% as crude oil prices surge amid Iran conflict - DD News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS1BCT3dwVkVjQ2QyVU8xQ2VFYkVIV1RhUnUzeDY1R01OUzBJSGd3cmdPZVdsajN2WHRWQ2VKaEtJU1V2Tmd0dklfSXl2QkQ5OGk1dEEzZGo3YUJqRHBiUDl1bENkZHlWbXR4RzRqQ2F2SlM2Sm41SXV5MmtNUUk4WTU3bzg4M1U3TEZRWjBXX0hFMXBZYTUweUxRTXhaVDA?oc=5",
-          "publishedAt": "2026-11-22T03:20:37+00:00"
-        },
-        {
-          "name": "DD News",
-          "title": "Sensex closes down by 852 pts, Nifty falls 0.84% as crude tops USD 100 again - DD News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcmJaWklWbENNUGxVbUF2RjI4VTh4NFZQeUxkQS0xTERGb3hRMzlMRUJEbUIwdVZPejdYMWdfNXl3Q2s4LUMzcVp5WlZfQ2ZqUHMyaXJYaTNzV1VGdEtFLTlTYkpnZnlfS2tEMGFuaVNWMFNlR3B2elVCWFczbndVYndtb2N4ZG1PZ3hraFkwTWM4ekpGOVhGTW9iY2dBZkRuUUE?oc=5",
-          "publishedAt": "2026-11-22T03:20:34+00:00"
         }
       ],
       "evidenceCount": 7
