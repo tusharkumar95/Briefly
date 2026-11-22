@@ -1,156 +1,74 @@
 {
-  "updated": "2026-11-21T23:20:46.613399+00:00",
+  "updated": "2026-11-22T15:21:37.032448+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 55,
-    "nonNoiseCandidates": 55,
-    "officialOrPrimaryCandidates": 9,
-    "enrichedCandidates": 54,
-    "readableCandidates": 36,
-    "eventClusters": 36,
-    "materialEvents": 14,
+    "rawCandidates": 32,
+    "nonNoiseCandidates": 30,
+    "officialOrPrimaryCandidates": 3,
+    "enrichedCandidates": 30,
+    "readableCandidates": 20,
+    "eventClusters": 19,
+    "materialEvents": 7,
     "selectedEvents": 4,
-    "seededStories": 4,
+    "seededStories": 1,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "267e4211123882",
-      "cat": "Indian Markets",
-      "icon": "IN",
+      "id": "93e977cb031c5a",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "Indian Markets"
+        "World"
       ],
-      "title": "13 Indian stocks post five‑day winning streak, each up over 27%",
-      "publishedAt": "2026-11-21T06:57:10+00:00",
-      "importanceScore": 10.3,
+      "title": "Russian cargo vessel hit by drone in Gulf of Finland",
+      "publishedAt": "2026-11-22T11:25:14+00:00",
+      "importanceScore": 13.5,
       "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms",
-      "summary": "The Economic Times reported that 13 stocks listed on Indian exchanges each recorded gains for five consecutive trading sessions, with every stock rising more than 27% over that period. The report highlighted the sustained upward momentum across the group.",
-      "why": "The broad, simultaneous price gains suggest strong short‑term momentum that may attract traders focused on price trends.",
-      "confidence": "medium",
-      "verified": false,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "summary": "A Russian cargo ship, the Sparta II, was struck by a drone on Saturday while en route to the Kaliningrad exclave and drifted into Finnish waters. Finnish defence officials said Ukraine was likely responsible. Rescue and firefighting teams from Finland, Estonia and Russia continued to work on Sunday, using water to keep the vessel from sinking, and reported no danger to nearby traffic.",
+      "why": "The incident shows the vulnerability of commercial shipping in the Baltic region to drone attacks and the risk of wider geopolitical tension.",
+      "confidence": "high",
+      "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms",
-          "publishedAt": "2026-11-21T06:57:10+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-22T11:25:14+00:00"
         }
       ],
-      "firstSeen": "2026-11-21T06:57:10+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-21T23:20:46.613399+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "13 Indian stocks post five‑day rally, each up over 27%",
-      "previousSummary": "The Economic Times reports that thirteen Indian equities recorded gains for five consecutive trading sessions, with every stock achieving a cumulative increase exceeding 27% over that period. The article does not name the specific securities, give the exact dates, or explain the drivers of the rally. No further details are provided.",
-      "previousPublishedAt": "2026-11-21T06:57:10+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.3,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "b499405439a277",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India and Finland aim to deepen economic ties via startup cooperation",
-      "publishedAt": "2026-11-21T06:11:11+00:00",
-      "importanceScore": 10.3,
-      "sourceCount": 2,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-finland-seek-to-deepen-economic-ties-through-startup-cooperation-envoy/articleshow/136046302.cms",
-      "summary": "Finnish Ambassador Mikko Kivikoski said India and Finland are working to deepen economic ties by focusing on collaboration with Indian startups. The initiative was highlighted at the Polar Bear Pitching event, where startup founder Yash Goliya was selected to represent India in a global competition scheduled for 2027. Bilateral trade between the two countries has been growing significantly and sharply over the past decade.",
-      "why": "The cooperation is intended to promote Finnish investment in Indian startups and give Finnish firms access to the Indian market.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-finland-seek-to-deepen-economic-ties-through-startup-cooperation-envoy/articleshow/136046302.cms",
-          "publishedAt": "2026-11-21T05:58:30+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-21T07:12:37+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-21T23:20:46.613399+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India, Finland to deepen economic ties via startup cooperation",
-      "previousSummary": "Finnish Ambassador Mikko Kivikoski said India and Finland will focus on startup collaboration to strengthen their economic relationship. At the “Polar Bear Pitching” event, Indian startup founder Yash Goliya secured a place to compete globally in 2027. Trade between the two countries has been increasing in recent years.",
-      "previousPublishedAt": "2026-11-21T06:11:11+00:00",
-      "previousSourceCount": 2,
-      "previousImportanceScore": 10.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "94f6c4211c8f31",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Max Healthcare, Deepak Fertilisers among 10 stocks that gained up to 14% in a week",
-      "publishedAt": "2026-11-21T05:51:22+00:00",
-      "importanceScore": 10.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms",
-      "summary": "Economic Times reported that Max Healthcare and Deepak Fertilisers were among ten Indian stocks that rose as much as 14% over the past week. The item names only those two companies and does not identify the other eight gainers or explain what drove the moves, so it documents short-term price strength without establishing a cause.",
-      "why": "It flags recent Indian equity outperformers for monitoring, but with only two names and no stated catalyst it is not sufficient on its own to act on.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms",
-          "publishedAt": "2026-11-21T05:51:22+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-21T05:51:22+00:00",
+      "firstSeen": "2026-11-22T11:25:14+00:00",
       "status": "New",
-      "lastChecked": "2026-11-21T23:20:46.613399+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "lastChecked": "2026-11-22T15:21:37.032448+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "strong-source-or-corroborated",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 4,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-11-21T17:59:17.062426+00:00",
+  "jarvisEditedCount": 1,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-21T23:20:46.613399+00:00",
   "changeSummary": {
     "new": 1,
-    "updated": 1,
-    "continuing": 1
+    "updated": 0,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-19T03:32:23.511103+00:00",
-    "updated": "2026-11-21T23:20:46.613399+00:00",
-    "snapshotCount": 10,
-    "eventCount": 77,
+    "availableFrom": "2026-11-19T21:38:40.987064+00:00",
+    "updated": "2026-11-22T15:21:37.032448+00:00",
+    "snapshotCount": 9,
+    "eventCount": 74,
     "retentionHours": 72
   }
 }
