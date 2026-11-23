@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-22T23:51:09.165243+00:00",
+  "updated": "2026-11-23T08:14:37.316298+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite falls 2.46% (down 838.8 points)",
+      "headline": "S&P/TSX Composite fell 2.46%",
       "direction": "down",
       "move": "S&P/TSX Composite -2.46%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Financial sector attention",
-          "detail": "Kalkine Media highlighted growing focus on National Bank of Canada as Canada’s financial sector evolves.",
+          "label": "Why Is National Bank of Canada (TSX:NA) Drawing Attention as Canada's Financial Sector Evo",
+          "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
       ],
@@ -44,24 +44,24 @@
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 1.12%",
-      "direction": "up",
-      "move": "Nifty 50 +1.12%",
-      "why": "Same-day market coverage explicitly linked the final move to: Mixed Sectoral Trends and Moderate Market Breadth; Autos and Banks Lift Nifty; Sensex Jumps 773 Points, Nifty Closes Above 25,250.",
+      "headline": "Nifty 50 fell 1.42%",
+      "direction": "down",
+      "move": "Nifty 50 -1.42%",
+      "why": "Same-day market coverage explicitly linked the final move to: scaling lifetime high, Union Bank and PNB among top losers; Investors Lose Over Rs 3 Lakh Crore; Crossing 84,400 As Metal, Banking Stocks Drag Markets Lower.",
       "drivers": [
         {
-          "label": "Mixed Sectoral Trends and Moderate Market Breadth",
-          "detail": "MarketsMojo explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "scaling lifetime high, Union Bank and PNB among top losers",
+          "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Autos and Banks Lift Nifty",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Investors Lose Over Rs 3 Lakh Crore",
+          "detail": "Pragativadi explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Sensex Jumps 773 Points, Nifty Closes Above 25,250",
-          "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "Crossing 84,400 As Metal, Banking Stocks Drag Markets Lower",
+          "detail": "IBTimes India explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -70,65 +70,65 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25800.6,
-        "previousClose": 25514.3,
-        "change": 286.3,
-        "changePct": 1.12,
+        "price": 25433.9,
+        "previousClose": 25800.6,
+        "change": -366.7,
+        "changePct": -1.42,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-20T10:01:15+00:00",
+        "asOf": "2026-11-23T08:14:40+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 83919.71,
-        "previousClose": 83021.75,
-        "change": 897.96,
-        "changePct": 1.08,
+        "price": 82801.63,
+        "previousClose": 83919.71,
+        "change": -1118.08,
+        "changePct": -1.33,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-20T10:02:29+00:00",
+        "asOf": "2026-11-23T07:59:40+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "MarketsMojo",
-          "title": "Sensex Recovers to Close Higher Amid Mixed Sectoral Trends and Moderate Market Breadth - MarketsMojo",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQOUY3VkFLRXR2UnQtenRrdV9fWE5pYWR2SjNqZHVUallPWk55Nm5McXFWaUFyYTliVWFMTDA3T19fY3dyelhrZWlKemRSUzJyXy1UcWpzeXo2Y3ppTjMxd3M3R0lUdFFVQkNJYk5qWmtOLWZaY21tU0V0TmxtZ1R0cnhnQnBmcEx3eXBEbFVoeU85UU9BSk83bUFDRGMzV2NBUGVFQlNXTnBPZ09QaUxjSUtnYmdkWHlmUURGcU9BT2RmQXp4M2xvaE5JbFlQd0hjSHp2UDFXb0xtclBRR0E?oc=5",
-          "publishedAt": "2026-11-22T19:57:55+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Surges to 83,021.75 as Autos and Banks Lift Nifty - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelNpMUNxWDJwWkU2LWI0UkZVSC1PdXJINGYtQ0xreU9qek9vOWFrR1RpNnV2dEl6Q0xobW9FR2Zmdm0wZzFQb2hCNGxHMEJCOElsbFJNWnpZYU9tMW44dTlabzhGV1RXdFFGdnVncko1YnRRM3FaSjlTSHlsX01hSlRkMTN1djNQS2p6RktkcnNCcHVNNEtBRDBZNTJUeGNaVlE?oc=5",
-          "publishedAt": "2026-11-22T17:01:59+00:00"
-        },
-        {
-          "name": "Livemint",
-          "title": "Stock market outlook: Nifty posts longest weekly winning streak in 5 months; will rally survive next week, Nov 23-27? - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPazYxYmhYdVl5TXVRcHVJbkNMRGl2Y2NJMExtdldlLVI5SWlyejZVcDg1RXF4VTFFR0w3dDdOU2FHaXVvZDEwekwxZ28tTFFVVldpZ19Qa2dBX3kzMk9oY0psV1FnNldXLWQ3VzdUODJVV2J0aTRLSDdGbktmOE1hS2cwVmNjUFRFaFQ4WnlFcXJQN2dJb3U0R3FsRWpnclFPS1pHV0RwSnNwQzdiR1p4S1duWnZMOHNySjJtZEdQVUx2MTd2elNyelRVd3lRUEFLTnlQWlBrTTdYdGxTZjdVenBkNHJDUDBrWnlNRGpHR0dOaGU2TkhGd3Y0Y0IwNC1OemhOT2k1bWVYeEN3aFdN0gGUAkFVX3lxTE4yOEt0WFM3dHNRanRydW5ueTdfTUQtTDdHWlFic2lvOEVrN1NWVld4Sk5BLWdaLUZ5OHJrOFBTY3Ytdk95NlpTaVBTS2lXaVlwa0FzSTFmRlFuamRfbmtObkROYVEwUXRzRjlVZ09Ob2d5TDZWMmRVWnVUcFBERjNuQ3RXUXpqa3BsdHdZNWJ0Nnc1cUY5OVZ3WlNVYUF3eFJEX2RmV0RLRUlvdW0zdGpOYUhZbm1tWUZDamJ2dUFVSGNNWUR2cmw2S09aSUVZZ05rNW5vNEFYdFZjTFJDMlZEYXZnMzhrcjFGX0NLd0xITzNNdm9pOG1zbXB0Y0dScWJtVWoyRV9lUVdsMjhTYlNZWVJZUQ?oc=5",
-          "publishedAt": "2026-11-22T13:07:00+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Today: Sensex Falls to 81,592.45 as Nifty Ends at 25,144, Snapping a Winning Streak - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcWhfcXNmcy03Y2JVZVlqS2wzTVFUU2NnTWJmbVJLQkZBbHhoTlkxb0x4X1R4MGNZNk5OM25YYW1NN0JWQ25FclJCX1pUaEVadE9XaFdiVmM1eFZvSTM0N0lCNzFDRkNSQnF3MmJDc3I2OXNOTFB0N19wbXdMeUdNYzZZZGlMQV9NUk9QRG41MjZ5ZkMzY1hLWkt5ODJjTDlMQW5RbEF4MXRtUmtxUzBTVGNjRDVFVWxZX0VwRENNT0FqQXo1Z2c?oc=5",
-          "publishedAt": "2026-11-22T10:06:27+00:00"
-        },
-        {
           "name": "The Economic Times",
-          "title": "F&O Talk: 25,500 remains crucial support for Nifty, says Sudeep Shah; gives RIL, HDFC Bank strategy - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQno3WGxxSkxLeU9kT05mVC1HbVMybFFSMkNvSEgxVFdSQnhjc1pZVG5hcUEzSW1hVVNDLW5lUmtKQ1YtX2FwZXlCUzhfckJMRXh6NUVtZTIzd1VBNV9tMnNSbWJhdHpfMDhFWnhBd2NfMl9TWmFkUGk4X2pKMlRvdGpoV3hvN2xUTkFpT1RQTVp6Z3E2eHpuTWtMVUxvblNmaGh1Vy1pMnliM1VGX3F6dHN5cXBiaVR4NHhvS01SampHangzZ2R0OGVrSFdoTTZrb0x0SW5sNGs4aEJ0Mk5sQ0RzUm9IUEc3UEFmR2tyUTZaUkExTWNoQm90b9IBgAJBVV95cUxOUndrcm9VeGNtR21DSHNVQzNSNk1VQzUxb2JKU2pkQ2xjQ3V3ck0xUUJrbjF1aFY1OXFhWnk5YXpqYU5taklZU3Bic1pOV2VxU0xNT2Fabk9mVkM1NG41YjhNRnlfbk5xQ0JIeGltcjgtWENjcko3OFNBSkdqdHAyNlV1RG5tcWlBNk9EYmphYlFwQzB2WlJ6S05lOEdlbnBUSmVSNmFGOUxrb1k1UWdmWkloTFR6LTZYa3NTSVRkbzFKbDZWRDFDQUV1YzRrQzBJSjBhMUZIcFV2Si1HUEtfN3c4MlpUcjhVQ1A3cTRtM0dfV1B1VFR6WDJGTk81VG83?oc=5",
-          "publishedAt": "2026-11-22T08:31:13+00:00"
+          "title": "Nifty Bank drops 2% after scaling lifetime high, Union Bank and PNB among top losers - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc3hNMnJvZmhHV0F5SlJRNUxON1BMaGVqZmJjMkdaTnhUeUxKOU5FamE0eXlRQU00bGczbi15b3k1T1VjZVIwUl94WVk1U3ZBTGpocW4tbGJkTlJ2cDNNZlo0Y0F5amZMOWF1V2NKaERBWURMS2o1MXhMbkJfY1JSVnEtUmx3WnlBWHRwaGpzZ2VlTFpIUGI0RlN3WFBZTF8xVFVHaXV3X0dYSjZpZTUzdVNYYjBsT0dZdGh5VVRqTVB3SzNkdlNZUFB0ck43OGlLTUQxTjFPaVFDUDJSYk5yUXZBd2tCWXNIcG9hZdIB8gFBVV95cUxQVEFITjRkblRQWE1YV0Ryb1lxS1hoQTVkQWgyOGd5emFLYTJQVVNwams3cXN2aC1mSi1BTmF6bGJjT2IzanhRb2FlZ0pfbDlCYVQyUFlnUzNXSC03enRNZWhJLTdFOGQtYTFsTHlLSU1yYlI3dWNpSXJ5bENGX2pNbHczajAzODFjbWNXd3hDeGpuak8wblEzUjZVbTBIek1TXzNxZ0c1ZmtCdklVc1kxNG5WeE1uU1ZqaWJnTFdKbzlZeEdYNHl2MmFYclgtb3NQS1RrTXBBUGdNa3VuYmJXQ3RNLXJMcXp2YXk2NmRMeDYydw?oc=5",
+          "publishedAt": "2026-11-23T06:13:21+00:00"
+        },
+        {
+          "name": "Pragativadi",
+          "title": "Stock Market Crash Today: Sensex Tumbles Over 1600 Points From Day’s High, Nifty Slips Below 25,600 as Investors Lose Over Rs 3 Lakh Crore - Pragativadi",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdURFc091aldCcWdVMDRrR09oT1V0U2FyYU0yUWJ3LVpaeE44VUFYbkVMbEgyWkZwZHFSTnA1TmRzdTdHMlhvRVdCaU8xN01OU2pRaFVVWUZYU2R4cDlyVFNrTHcwbVMxeXZaN2EzNjRXLXhUMU9FTDJfNml6ZFd4dDh6bEJMTFVKNVBaQ2EtMzdJcUtZSEZRdjFHSlVKODJZbjFlYThGTHpzMjRNSV84X0RpSFdnTWVwUDk0a2V6djVENE5tVnZmMzM3al84b3lDUjBGNzh2U2x6Snd3Zm9lZW4tN2E5UWJyU3BobmJtUVM?oc=5",
+          "publishedAt": "2026-11-23T07:18:38+00:00"
+        },
+        {
+          "name": "IBTimes India",
+          "title": "Sensex Turns Negative After Crossing 84,400 As Metal, Banking Stocks Drag Markets Lower - IBTimes India",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORjJHQ0kyTHd0M2dSd04zOXJkNE1OMVgwSmVvQlIyemZQS28yc3BxbVZPb2JseDE0d0hDNVJGcmQ2ci04SFJCVF9yMVdEMjFCTWZXMW5NUmI3bzZCTEVrR0Rua1l3N0FoRjFRR2o1YzFTemY5bmdWa1c3a1RTUEtzdFZ1aWw4QVU1NE1PNWJuS2w4VmVOXzZVQm9ydFZZRndubDViTGRuNVdvZl9tNFhuTjUtejZCZw?oc=5",
+          "publishedAt": "2026-11-23T06:33:13+00:00"
+        },
+        {
+          "name": "scanx.trade",
+          "title": "Trade Setup for Today: GIFT Nifty Signals Gap-Up Amid Wall Street Sell-Off and Gold Rally as of November 23, 2026 - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNdVZYSk9qZjExV0kxeVJUTDYxVGVjdXZzdUo4cWJIbFdQWk9DRVpKbUR2UjRFQVJrdHRwcHFaN2hnNEtJRHNSUW5JY2NmbEtVUTFEcEpROVM0OUVPV3RjY3hpT3d0eHEzQXFXR2c0ajRma04xZXlQVDRWSXpxcklub0dpOFg5NUNWSFpwNktxOUg3azg0MXp0WWYzdXZndHdaUHAtcEhCclJ1SzExUHVoOEdWMGhLblpocFBoOXMzSW5aLXNIelJDTHNLZDJjZ0o1SVNpQzVKa0g0M2tVSzRqcWkzV05JQkltX0E2c0pyTUpOTEN5VjFLejVody1ZQUY4?oc=5",
+          "publishedAt": "2026-11-23T02:47:11+00:00"
         },
         {
           "name": "INDIA New England News",
-          "title": "Indian Stocks Rally as Sensex Jumps 773 Points, Nifty Closes Above 25,250 - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR216Q0l0LWVPSmd5eHZNZGtkWkNSSWg3NHhxT1FHM2NNVHlKZW11VFBRM2FXZTdnZWVjN2hDUjJCZ2VrWlQ3c3RENUFzOElhcUowMjJyeFI1MExaM3FDU1U1X2dqMk8tV0ZDTmY2R1dNVmNXdHFkVXJ5SXZlbWVIU0gzVGE5VnFLYks2aVZTUXVuU05wY2kwSXUwZDJqQXZpTlE?oc=5",
-          "publishedAt": "2026-11-22T08:25:52+00:00"
+          "title": "Indian Stock Markets Surge as Sensex Jumps 2,009 Points, Nifty Closes Above 24,500 - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWUR6S1h6dUlLemFfbXByQ3JtUUtrelNkdmlqWjRaQUdWN3d1cVUwY3ltdjNvRnVubFVpMkowUlhadFQ1cVdBYnVtQWM3RmVBeU4tS01mZ0hOZGg1RTMwTHBPSjNaODVnYTJsdDJBSVoyYm9SWVp5QklELXBrZzJSR0RZblRVT2dYZHZZajhqTGJOYm1haHpWVE5lUEp5YlYtdXQ5MmU2Vm1vVE1K?oc=5",
+          "publishedAt": "2026-11-22T22:18:33+00:00"
+        },
+        {
+          "name": "The Economic Times",
+          "title": "Stock Market Holiday: Are BSE, NSE closed on November 24 for Guru Nanak Jayanti? - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQT3VTdHRoeXhoN0JJYTJLTjFVLW9qNElGZkRFY3EwNjRrX1BGdkJLYzdmZXB2RFpTTVBQUGNOenhCNENFSWhFVHpTUEU2VXI2bkZSU0EyQm85bUFpMlY0R21MLU1NYlBDTHpoZXlfX0xxb0UxLXRQYkRXTGpHbWhWWlpBRXEtSDVTdnV0VkxxMmNKYlNSX2s0OUZCVUlERlhGaFVIX1NPX2gzdVpXdTJhMWZRcWxVNzBkcWhKREswRjdMcXVJRUJIVkE5WmNkUmNKeTdzS0ZBUGs4ZjV1ZnZYMmxHdThud9IB6wFBVV95cUxNSmFPSnVYUlZXM0stSVhVZUJYQVROVzZPTm50VXZ3VFlNTmtfdDNCeWYxN0dTVzlfVWkyVTRVMzJHTllYM3RKVHVsNnNiQ3JlejZyckJlX3YyOUROc3k5c0lrWVJUNWRPU2M3N1JBVEthbUpVa3F3ZVJlNk5hXzNqUVltb2tCN1NMSkN4TEEzUjlMSUhNbXY4dkd1OHhCU1FCWWJGdFNyX01VbngwemF5MjloeWhOdEowNmt0M3BNclMwOTEzSzJFRHBoMjYxM1VIcHZLcTBvbVlPTWd3LTNPd0oxMjZ3MklQUlRV?oc=5",
+          "publishedAt": "2026-11-23T07:43:45+00:00"
         }
       ],
       "evidenceCount": 7
