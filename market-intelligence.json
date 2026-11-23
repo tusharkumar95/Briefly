@@ -1,17 +1,104 @@
 {
-  "updated": "2026-11-23T08:14:37.316298+00:00",
+  "updated": "2026-11-23T20:33:41.050291+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "S&P/TSX Composite fell 2.46%",
-      "direction": "down",
-      "move": "S&P/TSX Composite -2.46%",
+      "headline": "TSX rebounds on miners' rally; Nvidia CEO return lifts tech",
+      "direction": "up",
+      "move": "S&P/TSX Composite +2.87%",
+      "why": "The index rose as mining stocks rallied and Nvidia's CEO returned, boosting Materials and Technology sectors.",
+      "drivers": [
+        {
+          "label": "Mining rally",
+          "detail": "Strong gains in miner stocks propelled the Materials sector higher.",
+          "kind": "driver"
+        },
+        {
+          "label": "Nvidia CEO return",
+          "detail": "Nvidia's CEO return boosted technology shares, supporting the Tech sector.",
+          "kind": "driver"
+        }
+      ],
+      "sectors": [
+        "Materials",
+        "Technology"
+      ],
+      "confidence": "high",
+      "primaryIndex": {
+        "symbol": "^GSPTSE",
+        "name": "S&P/TSX Composite",
+        "price": 34143.26,
+        "previousClose": 33189.9,
+        "change": 953.36,
+        "changePct": 2.87,
+        "currency": "CAD",
+        "exchange": "TSI",
+        "timezone": "America/Toronto",
+        "asOf": "2026-11-23T20:33:31+00:00",
+        "source": "Yahoo Finance daily chart feed"
+      },
+      "secondaryIndex": null,
+      "sources": [
+        {
+          "name": "Reuters",
+          "title": "TSX rebounds on miners' rally; Nvidia CEO return lifts tech - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTjloYWVXT0szME9OYklKaHNacFdZUV9OMTdGS1dUSE5ZNll3alotZWF2R2hWMFhOeGEzeV9uY1dlRTNEaHZ6bFZOSFQyOEY5ZTlqZzlLUUxQd2l4QkZsNGZYOU9EbXhIZVpOc20xcFh1bUQ4SWhyNUNkc2RCV1ZfQjVRcG1UWWV1UXQ1N1JtMExMbkx3TlV4US1FN0lMUUhNaHdv?oc=5",
+          "publishedAt": "2026-11-23T15:42:15+00:00"
+        },
+        {
+          "name": "Kalkine Media",
+          "title": "Why Did (TSX:BDGI) Badger Infrastructure Close a Senior Unsecured Note Offering? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORlJ4WjFBOFYtTHhOaEE5a0Z6T3VUTkhSN0RRd25ia01KeUMzS2ZNRzdUakdtWVVXZVQ4VlFLdldOUUIydkFMSHRUWTBxLXdzYTllZF90TFRxSzhQSzRVRHNETTk5eU14NWFfNHJab3gtdFBiUzNkSE5HblR5LTI0MktMNHJJbTFtU21UdkRKaFJCZjVXMnM5RElMczZTTE56Z01mZDVvQzE1VDdlLWp3bHJMdUpQbEtEOTdLbU5oOA?oc=5",
+          "publishedAt": "2026-11-23T19:46:00+00:00"
+        },
+        {
+          "name": "Kalkine Media",
+          "title": "(TSX:JWEL) Jamieson Wellness on the S&P/TSX Composite Index: What Comes Before the Kirin Close? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNjlEQWVkRDVPa2pkWV9OOU1ZX0NaVlFjaVh2WW1wLWxUa3hKeGhrZDE1R256UXJUT1FFSzQwYS1QM0J2THpIVER5SWpaRkxqX0dMUGJacTA4UGp0S3lBQmhSb053cmNXYXpLWGZzS1FBejlqMm8yelJnUEEzb28wbTI0NkgxRTc0SU9OcnJKREF1eWwzTV8zaHp0Mk5SQU9peFczSVpNLUVQa3YxcnhzbmJIbXZLMk13YlU3QVVrSWRUUUtmeUJkdWxqeVc?oc=5",
+          "publishedAt": "2026-11-23T19:29:00+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "Gold Growth and Segovia Momentum: Aris Mining Corporation (TSX:ARIS) | S&P/TSX Composite Index | Mid Cap Growth Stock - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZl80OWg4SDlEUm5nbUtCNktkMTRzQnN1REhua0FjeWs3UlJ2UzRnQjdLUFNzS2dybmdkbi0xWkNXamNuM3NSSHo1el9ZMmZHU0lxOGN0NkV0YVNQQXhXOFhxdGhPdUtzRndaWGt4NlNfRHpRZmFQUGU5UFdCZDhJc2FOQm9WdGw0aW00V3BJeE5BaUgyQ2d2R0RmRWZVTzV2Qk1hOEJWLVVHYllDT2JwVzlrc1ZtLUZKUkRBdlhsWW10bENKcmIwZHFkWTVIQWQ3MlpRVQ?oc=5",
+          "publishedAt": "2026-11-23T15:59:00+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "S&P/TSX Composite Index Braces for Further Turbulence as Technology and Materials Fuel Market Jitters - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOU05GREQ3VW1IWjg3OUk5TUZUXzRUOGk1eDYzVm0wZWdfM29sNXBiQVZQdXZ4bi1Zd2JZSHVkaGpmc1hUdk8yMzFIZEpwMlFTYW9lM2dIWHI4S1N4d1lhN010eTA2RlpZMDlOcG9LRXN0d04yaVZ3SUdzYVFlZlhkc3BtUnU3RktzWl9mQlNTSE1vbTRqejQydXhxRXRWNkZhdEl2SjEwQlpSbVAwbkQ0ZnhXa1c1YkNWTWt1ZXYzY2dIRFhLU28zRjdYZXQ1RlE?oc=5",
+          "publishedAt": "2026-11-23T13:42:57+00:00"
+        },
+        {
+          "name": "Kalkine Media",
+          "title": "Tamarack Valley (TSX:TVE): What Follows The Headwater Closing And Dividend? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON3p1QmtSQVZHMG9jTXkyYlRKaGo5YlNhMk1nV1dwWUoxVlFSd3h6NVdlUzBVLTJKdU5iRUNYdGxHbFlucVRuTkU4RWpib1BJU2QybE44bC1vWW9HWW13cHJ5Q053eHVKU0swVWM0Z3MxWjByT1RxRVJTMHk2eEdDM0pyMFhoZWxkeEgwOEZzTVc5T1Voa096SVJ4ZDA0WjhRMThkUFVaVlZXdnVkSlV4eF9B?oc=5",
+          "publishedAt": "2026-11-23T17:49:00+00:00"
+        }
+      ],
+      "evidenceCount": 7
+    },
+    "India": {
+      "label": "India",
+      "headline": "Nifty 50 rose 1.12%",
+      "direction": "up",
+      "move": "Nifty 50 +1.12%",
       "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
       "drivers": [
         {
-          "label": "Why Is National Bank of Canada (TSX:NA) Drawing Attention as Canada's Financial Sector Evo",
+          "label": "Sensex slips 1,484 points as banking stocks lead market decline",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "Closing Bell, 23 November 2026: Sensex and Nifty Fall as Banking Stocks Lead Market Losses",
+          "detail": "Relevant same-day market context from the collected source.",
+          "kind": "context"
+        },
+        {
+          "label": "Sensex sinks nearly 1,500 points as banking, metal stocks drag markets lower",
           "detail": "Relevant same-day market context from the collected source.",
           "kind": "context"
         }
@@ -19,116 +106,67 @@
       "sectors": [],
       "confidence": "low",
       "primaryIndex": {
-        "symbol": "^GSPTSE",
-        "name": "S&P/TSX Composite",
-        "price": 33189.9,
-        "previousClose": 34028.7,
-        "change": -838.8,
-        "changePct": -2.46,
-        "currency": "CAD",
-        "exchange": "TSI",
-        "timezone": "America/Toronto",
-        "asOf": "2026-11-20T21:20:00+00:00",
-        "source": "Yahoo Finance daily chart feed"
-      },
-      "secondaryIndex": null,
-      "sources": [
-        {
-          "name": "Kalkine Media",
-          "title": "Why Is National Bank of Canada (TSX:NA) Drawing Attention as Canada's Financial Sector Evolves? - Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORDc2Z2tkOUxkb0NjdGV1SzNrOFk1b1VNNG1RLUNzbmlRMkZUb1lDTXNuUFdybV9IUkpQYmZ5THJGNVFNVFdQWkR3RlR3OHZCdndpWUw2c0dsVVNqSVZqVGNhZEE3TGNRVjJIRkhMUFJ4MDE3Rm5laGZJNlZRbnM5dW02ZHE3cE5FZkFpcHpSRU42bS05SEZaM2xjbDNGbDVxTVo5LUxsdS1NTnZ0Z29vUDEtNTNTY3RCNE9WRmxhQjZ2YWRVcWJySV9RUWNoekpf?oc=5",
-          "publishedAt": "2026-11-22T14:34:00+00:00"
-        }
-      ],
-      "evidenceCount": 1
-    },
-    "India": {
-      "label": "India",
-      "headline": "Nifty 50 fell 1.42%",
-      "direction": "down",
-      "move": "Nifty 50 -1.42%",
-      "why": "Same-day market coverage explicitly linked the final move to: scaling lifetime high, Union Bank and PNB among top losers; Investors Lose Over Rs 3 Lakh Crore; Crossing 84,400 As Metal, Banking Stocks Drag Markets Lower.",
-      "drivers": [
-        {
-          "label": "scaling lifetime high, Union Bank and PNB among top losers",
-          "detail": "The Economic Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Investors Lose Over Rs 3 Lakh Crore",
-          "detail": "Pragativadi explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Crossing 84,400 As Metal, Banking Stocks Drag Markets Lower",
-          "detail": "IBTimes India explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        }
-      ],
-      "sectors": [],
-      "confidence": "medium",
-      "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25433.9,
-        "previousClose": 25800.6,
-        "change": -366.7,
-        "changePct": -1.42,
+        "price": 25800.6,
+        "previousClose": 25514.3,
+        "change": 286.3,
+        "changePct": 1.12,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-23T08:14:40+00:00",
+        "asOf": "2026-11-23T10:01:19+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 82801.63,
-        "previousClose": 83919.71,
-        "change": -1118.08,
-        "changePct": -1.33,
+        "price": 83919.71,
+        "previousClose": 83021.75,
+        "change": 897.96,
+        "changePct": 1.08,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-23T07:59:40+00:00",
+        "asOf": "2026-11-23T10:02:26+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "The Economic Times",
-          "title": "Nifty Bank drops 2% after scaling lifetime high, Union Bank and PNB among top losers - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc3hNMnJvZmhHV0F5SlJRNUxON1BMaGVqZmJjMkdaTnhUeUxKOU5FamE0eXlRQU00bGczbi15b3k1T1VjZVIwUl94WVk1U3ZBTGpocW4tbGJkTlJ2cDNNZlo0Y0F5amZMOWF1V2NKaERBWURMS2o1MXhMbkJfY1JSVnEtUmx3WnlBWHRwaGpzZ2VlTFpIUGI0RlN3WFBZTF8xVFVHaXV3X0dYSjZpZTUzdVNYYjBsT0dZdGh5VVRqTVB3SzNkdlNZUFB0ck43OGlLTUQxTjFPaVFDUDJSYk5yUXZBd2tCWXNIcG9hZdIB8gFBVV95cUxQVEFITjRkblRQWE1YV0Ryb1lxS1hoQTVkQWgyOGd5emFLYTJQVVNwams3cXN2aC1mSi1BTmF6bGJjT2IzanhRb2FlZ0pfbDlCYVQyUFlnUzNXSC03enRNZWhJLTdFOGQtYTFsTHlLSU1yYlI3dWNpSXJ5bENGX2pNbHczajAzODFjbWNXd3hDeGpuak8wblEzUjZVbTBIek1TXzNxZ0c1ZmtCdklVc1kxNG5WeE1uU1ZqaWJnTFdKbzlZeEdYNHl2MmFYclgtb3NQS1RrTXBBUGdNa3VuYmJXQ3RNLXJMcXp2YXk2NmRMeDYydw?oc=5",
-          "publishedAt": "2026-11-23T06:13:21+00:00"
+          "name": "The New Indian Express",
+          "title": "Sensex slips 1,484 points as banking stocks lead market decline - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHEtUWlmUjluLVRPOWlMeW1iQzJyV3J5cmU0OGdTX1ItOW81RWFwNkw4ODA4dndfNC1LVXB4TTZtV1h4MW5XN3F4N1VDVjZwdGhpU0Q4VlBIRUlfV0xFbWlTS1dzbzdqczV5VDdZZGFiaVF3MlA5b0pnZFdnNGtMWC01YnVLQnowVV9CLUpLUy1HSC02NUJpWm5tTXU4WURmTVh0WkEwY3N2eDh3dW5rdlBKdWN0bXfSAcQBQVVfeXFMTlN0LWI1TldjNUlNekFMV2theWVSbXNheW9CM01QWnAtUGgwNFJ3WFpoOWlkNmhTaWI5OXl0Q3NGdm1DSDFXMVFud0ZCSC1jbWJQalBkb2JQUTc2WDZVX2FPQTRQMTZKVU15RkR4TUVkaXAyLTJoYk1fbmN4eFB5bzJoSVFGcDh2a3lVd29SQy1OZ1M5OUU5aHNPbkVNVjBUS1FNRG1saVFUVUNjcGQtNm5Lc2ZlWkdxallsX3hHOGxlMllXVg?oc=5",
+          "publishedAt": "2026-11-23T12:50:15+00:00"
         },
         {
-          "name": "Pragativadi",
-          "title": "Stock Market Crash Today: Sensex Tumbles Over 1600 Points From Day’s High, Nifty Slips Below 25,600 as Investors Lose Over Rs 3 Lakh Crore - Pragativadi",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdURFc091aldCcWdVMDRrR09oT1V0U2FyYU0yUWJ3LVpaeE44VUFYbkVMbEgyWkZwZHFSTnA1TmRzdTdHMlhvRVdCaU8xN01OU2pRaFVVWUZYU2R4cDlyVFNrTHcwbVMxeXZaN2EzNjRXLXhUMU9FTDJfNml6ZFd4dDh6bEJMTFVKNVBaQ2EtMzdJcUtZSEZRdjFHSlVKODJZbjFlYThGTHpzMjRNSV84X0RpSFdnTWVwUDk0a2V6djVENE5tVnZmMzM3al84b3lDUjBGNzh2U2x6Snd3Zm9lZW4tN2E5UWJyU3BobmJtUVM?oc=5",
-          "publishedAt": "2026-11-23T07:18:38+00:00"
+          "name": "Kotak Neo",
+          "title": "Closing Bell, 23 November 2026: Sensex and Nifty Fall as Banking Stocks Lead Market Losses - Kotak Neo",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMldZbVNqeWJGVkthVDRYaTFjbC1UUXdMLWs4SHhVNW9KWm1NSXNaU2V4YXpWd2ZqUW4weVFTbENjTlJIcE4zLXFsOXRkc2U0Vm5CTy1rWWFlb1BDdUsyX0VhMVM4cWdmNXQtQXhkQUlFYXhlRnJsdENIeVdyMGlReWZyWlJwdnFwQ1BUU1dhQ0RwUkpBY0haZjRDbWdmTVZfOXpWSw?oc=5",
+          "publishedAt": "2026-11-23T10:57:02+00:00"
         },
         {
-          "name": "IBTimes India",
-          "title": "Sensex Turns Negative After Crossing 84,400 As Metal, Banking Stocks Drag Markets Lower - IBTimes India",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORjJHQ0kyTHd0M2dSd04zOXJkNE1OMVgwSmVvQlIyemZQS28yc3BxbVZPb2JseDE0d0hDNVJGcmQ2ci04SFJCVF9yMVdEMjFCTWZXMW5NUmI3bzZCTEVrR0Rua1l3N0FoRjFRR2o1YzFTemY5bmdWa1c3a1RTUEtzdFZ1aWw4QVU1NE1PNWJuS2w4VmVOXzZVQm9ydFZZRndubDViTGRuNVdvZl9tNFhuTjUtejZCZw?oc=5",
-          "publishedAt": "2026-11-23T06:33:13+00:00"
+          "name": "India Today",
+          "title": "Sensex sinks nearly 1,500 points as banking, metal stocks drag markets lower - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa2docXl2TVpJZXlJdFQ2ak01WTJ4Z0loYWJOYjJQUzg2SHh2T0NsVmxJNjVYeFo5d0JLRDFFaFhOUS1BM0JjX0hIUTBqQ3g5MXptR01zcmQyYTZaYnhwTERrSGxfNmdNUlBXMnp4TmxLRzRRRWN1dTVkd0V3V0lnZl92ajRuUlVUcE90SjJycDFaM3ZkQlF3cXRNeUZ3VnFibGgzT2x5MHZYSE9oUGsyT2RVS2JRU2Y1VEthU196Mm5HYUtmazJqbjYxcUhXU1Uyem9LZGdRWlI0ekF2aWfSAeMBQVVfeXFMUEhNTjBrQjV3Yzd6dXpxRzdNOFNLTllDazRDOWRxY2QwOEFFQmR2OHhfX1RGSElsUlF5UnFIT01oVHRrY1ZQTW9KYlAxOUZrMHhJdjFtczVsTFA1LVk4M2FsM0dsZjFWVC1rOHpwLXJtMEFBcDhpWDdQa2RQSVNhUTZfSERnZm5QbUZYdHdZa0hBZGU2Ynl0cGViN2FyZlcybDZhNzBwazZxYmliMWppdm1UeFlBNG1sNUhHc0QwZFd2VGJqR2tLc05NVU9vT3pJaExtd0IwdFRRajhxMnNnMEczeGM?oc=5",
+          "publishedAt": "2026-11-23T10:04:22+00:00"
         },
         {
-          "name": "scanx.trade",
-          "title": "Trade Setup for Today: GIFT Nifty Signals Gap-Up Amid Wall Street Sell-Off and Gold Rally as of November 23, 2026 - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNdVZYSk9qZjExV0kxeVJUTDYxVGVjdXZzdUo4cWJIbFdQWk9DRVpKbUR2UjRFQVJrdHRwcHFaN2hnNEtJRHNSUW5JY2NmbEtVUTFEcEpROVM0OUVPV3RjY3hpT3d0eHEzQXFXR2c0ajRma04xZXlQVDRWSXpxcklub0dpOFg5NUNWSFpwNktxOUg3azg0MXp0WWYzdXZndHdaUHAtcEhCclJ1SzExUHVoOEdWMGhLblpocFBoOXMzSW5aLXNIelJDTHNLZDJjZ0o1SVNpQzVKa0g0M2tVSzRqcWkzV05JQkltX0E2c0pyTUpOTEN5VjFLejVody1ZQUY4?oc=5",
-          "publishedAt": "2026-11-23T02:47:11+00:00"
+          "name": "theopenpress.in",
+          "title": "Stock Market Crash Today: Why Did Sensex Fall 1,484 Points?… - theopenpress.in",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMHRyX0p5Yi1PTERtZW5BN0FHMHFILTV2TnFiYnI2aFJkQmVQamkzbzh2NlZuYWt0ZjlubFR0YjQ1N0NFMkd4TXRlRWtqVnFNMURCS1ZWS0M3UFdLN0FNZE9GTU5TMVVQSlJoQ0R5ZlRUR29QSWVyamxmOVlOdGtPcDBHREFfeXlvNks3dHN6dDNVLS1j?oc=5",
+          "publishedAt": "2026-11-23T19:55:56+00:00"
         },
         {
-          "name": "INDIA New England News",
-          "title": "Indian Stock Markets Surge as Sensex Jumps 2,009 Points, Nifty Closes Above 24,500 - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWUR6S1h6dUlLemFfbXByQ3JtUUtrelNkdmlqWjRaQUdWN3d1cVUwY3ltdjNvRnVubFVpMkowUlhadFQ1cVdBYnVtQWM3RmVBeU4tS01mZ0hOZGg1RTMwTHBPSjNaODVnYTJsdDJBSVoyYm9SWVp5QklELXBrZzJSR0RZblRVT2dYZHZZajhqTGJOYm1haHpWVE5lUEp5YlYtdXQ5MmU2Vm1vVE1K?oc=5",
-          "publishedAt": "2026-11-22T22:18:33+00:00"
+          "name": "https://www.irishsun.com/",
+          "title": "Sensex plunges 1,484 points, Nifty falls 1.75% by closing amid high profit booking - https://www.irishsun.com/",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnlMWW55YnNMdHpjcnI3ODlxTURuZU0waXFMRnJidWR6UEpITkF4M0hEVFliWnVCUEozdXNGUmNJRHp0UlhNTmhYcTBYUTRyZTlYRm9kOUhJMTcycC1uSGE2RmRfa2lSTDdmcmlPQ3BqOWkybU15MHc2eXNfcGd4WmcyYWdZd1dRZm8zcXJDSm9BSkFTUnFzenRxN2NteWNudGdSM3QwRlRweUFfcVNrRkFzUzU1aE1KbHc?oc=5",
+          "publishedAt": "2026-11-23T06:33:00+00:00"
         },
         {
-          "name": "The Economic Times",
-          "title": "Stock Market Holiday: Are BSE, NSE closed on November 24 for Guru Nanak Jayanti? - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQT3VTdHRoeXhoN0JJYTJLTjFVLW9qNElGZkRFY3EwNjRrX1BGdkJLYzdmZXB2RFpTTVBQUGNOenhCNENFSWhFVHpTUEU2VXI2bkZSU0EyQm85bUFpMlY0R21MLU1NYlBDTHpoZXlfX0xxb0UxLXRQYkRXTGpHbWhWWlpBRXEtSDVTdnV0VkxxMmNKYlNSX2s0OUZCVUlERlhGaFVIX1NPX2gzdVpXdTJhMWZRcWxVNzBkcWhKREswRjdMcXVJRUJIVkE5WmNkUmNKeTdzS0ZBUGs4ZjV1ZnZYMmxHdThud9IB6wFBVV95cUxNSmFPSnVYUlZXM0stSVhVZUJYQVROVzZPTm50VXZ3VFlNTmtfdDNCeWYxN0dTVzlfVWkyVTRVMzJHTllYM3RKVHVsNnNiQ3JlejZyckJlX3YyOUROc3k5c0lrWVJUNWRPU2M3N1JBVEthbUpVa3F3ZVJlNk5hXzNqUVltb2tCN1NMSkN4TEEzUjlMSUhNbXY4dkd1OHhCU1FCWWJGdFNyX01VbngwemF5MjloeWhOdEowNmt0M3BNclMwOTEzSzJFRHBoMjYxM1VIcHZLcTBvbVlPTWd3LTNPd0oxMjZ3MklQUlRV?oc=5",
-          "publishedAt": "2026-11-23T07:43:45+00:00"
+          "name": "Business Outreach Magazine",
+          "title": "Sensex Falls 1,453 Points From High as Banks, Metals Slide - Business Outreach Magazine",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAzNS1YQWtUUDFrUmNtRXRieHk4ZmRoalMxLTEycUM4WmZtQVY3QjNKMkZza29fMXB3ZlFnZHkxcnZhMW5YOEQzMGg4Ynh0MERaSzhJNnl1czJBUHQ3NmFpUHhNdlBQRlB0Yk1aRFV5QkFNWXlReDNCRkUwaw?oc=5",
+          "publishedAt": "2026-11-23T06:21:25+00:00"
         }
       ],
       "evidenceCount": 7
