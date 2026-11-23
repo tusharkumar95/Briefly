@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-22T21:48:20.445462+00:00",
+  "updated": "2026-11-23T02:48:54.977515+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 49,
-    "nonNoiseCandidates": 48,
-    "officialOrPrimaryCandidates": 8,
-    "enrichedCandidates": 48,
-    "readableCandidates": 29,
-    "eventClusters": 28,
-    "materialEvents": 8,
+    "rawCandidates": 51,
+    "nonNoiseCandidates": 50,
+    "officialOrPrimaryCandidates": 7,
+    "enrichedCandidates": 49,
+    "readableCandidates": 33,
+    "eventClusters": 32,
+    "materialEvents": 14,
     "selectedEvents": 5,
-    "seededStories": 4,
+    "seededStories": 3,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,15 +24,15 @@
       "categories": [
         "World"
       ],
-      "title": "Explosion hits Russian corvette in Benghazi port, suspected drone attack",
+      "title": "Explosion hits Russian warship in Benghazi port, suspected drone attack",
       "publishedAt": "2026-11-22T20:28:09+00:00",
-      "importanceScore": 14.0,
+      "importanceScore": 13.0,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "summary": "An explosion hit a Russian navy Project 20380 Steregushchiy‑class corvette, identified as the Merkury, while it was docked for fuel and supplies at the Benghazi naval base in eastern Libya on Sunday morning. Libya’s eastern government said the blast was caused by a suspected drone attack. Satellite and high‑resolution imagery later showed the vessel capsized, with only its forward bow remaining above water, and a nearby commercial ship also suffered minor injuries.",
-      "why": "It demonstrates the extension of conflict risks to foreign military and commercial vessels operating in Libyan waters.",
-      "confidence": "high",
+      "summary": "An explosion struck a Russian Steregushchiy‑class corvette docked at the Benghazi naval base at dawn on Sunday while the vessel was refuelling, and Libya’s eastern government said it was caused by a suspected drone attack. A nearby commercial ship was also hit, with minor injuries reported among its crew. Satellite and high‑resolution imagery showed a fire at the port and the corvette capsized, with only its forward bow still visible.",
+      "why": "The incident demonstrates the risk to foreign naval vessels operating in Libya’s eastern ports.",
+      "confidence": "medium",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
@@ -43,12 +43,53 @@
         }
       ],
       "firstSeen": "2026-11-22T20:28:09+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-22T21:48:20.445462+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-23T02:48:54.977515+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Explosion hits Russian corvette in Benghazi port, suspected drone attack",
+      "previousSummary": "An explosion hit a Russian navy Project 20380 Steregushchiy‑class corvette, identified as the Merkury, while it was docked for fuel and supplies at the Benghazi naval base in eastern Libya on Sunday morning. Libya’s eastern government said the blast was caused by a suspected drone attack. Satellite and high‑resolution imagery later showed the vessel capsized, with only its forward bow remaining above water, and a nearby commercial ship also suffered minor injuries.",
+      "previousPublishedAt": "2026-11-22T20:28:09+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.0,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "686025875115dd",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Asian shares cautious as AI sell‑off worries linger, US futures rise",
+      "publishedAt": "2026-11-23T01:02:27+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-ai-selloff-fears-persist-despite-us-futures-rebound/articleshow/136086162.cms",
+      "summary": "The Economic Times article reported that Asian equity markets were trading cautiously because concerns about a sell‑off in AI‑related stocks persisted. At the same time, U.S. stock futures moved higher, indicating a rebound in U.S. market sentiment. The contrasting moves highlighted mixed global risk appetite.",
+      "why": "Investors need to gauge the impact of AI‑sector volatility on regional portfolios and trading decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-ai-selloff-fears-persist-despite-us-futures-rebound/articleshow/136086162.cms",
+          "publishedAt": "2026-11-23T01:02:27+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T01:02:27+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-23T02:48:54.977515+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -60,13 +101,13 @@
       "categories": [
         "India"
       ],
-      "title": "India, EU likely to sign free‑trade agreement on Dec 16",
+      "title": "India and EU expected to sign free‑trade pact on Dec 16",
       "publishedAt": "2026-11-22T18:42:58+00:00",
-      "importanceScore": 13.1,
+      "importanceScore": 11.4,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms",
-      "summary": "India and the 27‑member European Union are expected to sign their free‑trade agreement on 16 December, an Indian official said. Negotiations were concluded on 27 January this year, and the pact would give duty‑free access to the EU for roughly 93 % of Indian exports while lowering tariffs on luxury cars and wines from the bloc.",
+      "summary": "An Indian official said the free‑trade agreement with the 27‑member European Union is likely to be signed on 16 December, after the two sides concluded negotiations on 27 January. The deal would grant duty‑free access for about 93 % of Indian exports to the EU and make imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for roughly 25 % of global GDP and about one‑third of world trade.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -79,103 +120,36 @@
         }
       ],
       "firstSeen": "2026-11-22T18:42:58+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-22T21:48:20.445462+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-23T02:48:54.977515+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "India, EU likely to sign free‑trade agreement on Dec 16",
+      "previousSummary": "India and the 27‑member European Union are expected to sign their free‑trade agreement on 16 December, an Indian official said. Negotiations were concluded on 27 January this year, and the pact would give duty‑free access to the EU for roughly 93 % of Indian exports while lowering tariffs on luxury cars and wines from the bloc.",
+      "previousPublishedAt": "2026-11-22T18:42:58+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.1,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "e98caa15deb52e",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
-      "publishedAt": "2026-11-22T05:44:52+00:00",
-      "importanceScore": 9.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms",
-      "summary": "Reliance Brands has marked a significant financial milestone, achieving a revenue of Rs 3,390.89 crore for FY26 and reducing losses. Operating more than 1,085 Points of Sale nationwide, the brand continues to collaborate with over 90 partner names.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms",
-          "publishedAt": "2026-11-22T05:44:52+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-22T05:44:52+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-22T21:48:20.445462+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "f509fd57f14871",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "South Korea prepares market stabilisation funds after KOSPI hits 10-month low",
-      "publishedAt": "2026-11-22T11:45:31+00:00",
-      "importanceScore": 9.2,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms",
-      "summary": "In response to falling stock indices, South Korea's finance ministry is poised to activate market stabilisation funds. Part 1 of 3 Gold still rules, but with a difference: How young India is redefining wedding jewellery Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms",
-          "publishedAt": "2026-11-22T11:45:31+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-22T11:45:31+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-22T21:48:20.445462+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-22T15:21:37.032448+00:00",
+  "previousUpdated": "2026-11-22T21:48:20.445462+00:00",
   "changeSummary": {
-    "new": 4,
-    "updated": 0,
-    "continuing": 0
+    "new": 1,
+    "updated": 1,
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-11-20T03:20:32.159352+00:00",
-    "updated": "2026-11-22T21:48:20.445462+00:00",
-    "snapshotCount": 9,
+    "updated": "2026-11-23T02:48:54.977515+00:00",
+    "snapshotCount": 10,
     "eventCount": 77,
     "retentionHours": 72
   }

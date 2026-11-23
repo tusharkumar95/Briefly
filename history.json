@@ -901,47 +901,73 @@
           "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms"
         }
       ]
-    }
-  ],
-  "events": {
-    "6e07c4417ad835": {
-      "id": "6e07c4417ad835",
-      "firstSeen": "2026-11-15T22:28:54+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-11-23T02:48:54.977515+00:00",
+      "changeSummary": {
+        "new": 1,
+        "updated": 1,
+        "continuing": 1
+      },
+      "stories": [
         {
-          "at": "2026-11-15T22:51:29.991460+00:00",
-          "title": "Paris police impose five‑day protest ban near schools and universities",
-          "summary": "Paris police have issued a five‑day ban on protests within 100 metres of ten secondary schools and five universities from 16 to 20 November. The order aims to curb weeks of blockades, property damage and clashes that have accompanied protests that began in September over school conditions and broader cost‑of‑living grievances.",
-          "importanceScore": 14.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-16T02:45:34.196953+00:00",
-          "title": "Paris police ban protests near 10 schools and five universities for five days",
-          "summary": "Paris police have issued a five‑day ban on unauthorised gatherings within 100 metres of ten secondary schools and five universities, effective 16–20 November. The order was announced by police chief Patrice Faure, who said it was needed because of numerous disruptions, blockades and persistent violence around the sites. The protests, which began in September over secondary‑school conditions, have spread to universities, workers and the yellow‑vest movement.",
+          "id": "df59e16a469695",
+          "cat": "World",
+          "title": "Explosion hits Russian warship in Benghazi port, suspected drone attack",
+          "summary": "An explosion struck a Russian Steregushchiy‑class corvette docked at the Benghazi naval base at dawn on Sunday while the vessel was refuelling, and Libya’s eastern government said it was caused by a suspected drone attack. A nearby commercial ship was also hit, with minor injuries reported among its crew. Satellite and high‑resolution imagery showed a fire at the port and the corvette capsized, with only its forward bow still visible.",
+          "why": "The incident demonstrates the risk to foreign naval vessels operating in Libya’s eastern ports.",
+          "publishedAt": "2026-11-22T20:28:09+00:00",
+          "firstSeen": "2026-11-22T20:28:09+00:00",
           "importanceScore": 13.0,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
-          "confidence": "high",
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "686025875115dd",
+          "cat": "Indian Markets",
+          "title": "Asian shares cautious as AI sell‑off worries linger, US futures rise",
+          "summary": "The Economic Times article reported that Asian equity markets were trading cautiously because concerns about a sell‑off in AI‑related stocks persisted. At the same time, U.S. stock futures moved higher, indicating a rebound in U.S. market sentiment. The contrasting moves highlighted mixed global risk appetite.",
+          "why": "Investors need to gauge the impact of AI‑sector volatility on regional portfolios and trading decisions.",
+          "publishedAt": "2026-11-23T01:02:27+00:00",
+          "firstSeen": "2026-11-23T01:02:27+00:00",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-ai-selloff-fears-persist-despite-us-futures-rebound/articleshow/136086162.cms"
+        },
+        {
+          "id": "80c98a7cade2a1",
+          "cat": "India",
+          "title": "India and EU expected to sign free‑trade pact on Dec 16",
+          "summary": "An Indian official said the free‑trade agreement with the 27‑member European Union is likely to be signed on 16 December, after the two sides concluded negotiations on 27 January. The deal would grant duty‑free access for about 93 % of Indian exports to the EU and make imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for roughly 25 % of global GDP and about one‑third of world trade.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-22T18:42:58+00:00",
+          "firstSeen": "2026-11-22T18:42:58+00:00",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
           "lifecycle": "Updated",
           "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms"
         }
-      ],
-      "lastSeen": "2026-11-16T02:45:34.196953+00:00",
-      "cat": "World",
-      "latestTitle": "Paris police ban protests near 10 schools and five universities for five days",
-      "latestSummary": "Paris police have issued a five‑day ban on unauthorised gatherings within 100 metres of ten secondary schools and five universities, effective 16–20 November. The order was announced by police chief Patrice Faure, who said it was needed because of numerous disruptions, blockades and persistent violence around the sites. The protests, which began in September over secondary‑school conditions, have spread to universities, workers and the yellow‑vest movement.",
-      "why": "The ban restricts demonstrations near educational institutions, aiming to reduce disruptions and violence that have affected schools and universities.",
-      "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
-    },
+      ]
+    }
+  ],
+  "events": {
     "2bfa41fe47c45a": {
       "id": "2bfa41fe47c45a",
       "firstSeen": "2026-11-16T01:53:19+00:00",
@@ -3460,13 +3486,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-23T02:48:54.977515+00:00",
+          "title": "Explosion hits Russian warship in Benghazi port, suspected drone attack",
+          "summary": "An explosion struck a Russian Steregushchiy‑class corvette docked at the Benghazi naval base at dawn on Sunday while the vessel was refuelling, and Libya’s eastern government said it was caused by a suspected drone attack. A nearby commercial ship was also hit, with minor injuries reported among its crew. Satellite and high‑resolution imagery showed a fire at the port and the corvette capsized, with only its forward bow still visible.",
+          "importanceScore": 13.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-22T21:48:20.445462+00:00",
+      "lastSeen": "2026-11-23T02:48:54.977515+00:00",
       "cat": "World",
-      "latestTitle": "Explosion hits Russian corvette in Benghazi port, suspected drone attack",
-      "latestSummary": "An explosion hit a Russian navy Project 20380 Steregushchiy‑class corvette, identified as the Merkury, while it was docked for fuel and supplies at the Benghazi naval base in eastern Libya on Sunday morning. Libya’s eastern government said the blast was caused by a suspected drone attack. Satellite and high‑resolution imagery later showed the vessel capsized, with only its forward bow remaining above water, and a nearby commercial ship also suffered minor injuries.",
-      "why": "It demonstrates the extension of conflict risks to foreign military and commercial vessels operating in Libyan waters.",
+      "latestTitle": "Explosion hits Russian warship in Benghazi port, suspected drone attack",
+      "latestSummary": "An explosion struck a Russian Steregushchiy‑class corvette docked at the Benghazi naval base at dawn on Sunday while the vessel was refuelling, and Libya’s eastern government said it was caused by a suspected drone attack. A nearby commercial ship was also hit, with minor injuries reported among its crew. Satellite and high‑resolution imagery showed a fire at the port and the corvette capsized, with only its forward bow still visible.",
+      "why": "The incident demonstrates the risk to foreign naval vessels operating in Libya’s eastern ports.",
       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
     },
     "80c98a7cade2a1": {
@@ -3485,12 +3524,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-23T02:48:54.977515+00:00",
+          "title": "India and EU expected to sign free‑trade pact on Dec 16",
+          "summary": "An Indian official said the free‑trade agreement with the 27‑member European Union is likely to be signed on 16 December, after the two sides concluded negotiations on 27 January. The deal would grant duty‑free access for about 93 % of Indian exports to the EU and make imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for roughly 25 % of global GDP and about one‑third of world trade.",
+          "importanceScore": 11.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-22T21:48:20.445462+00:00",
+      "lastSeen": "2026-11-23T02:48:54.977515+00:00",
       "cat": "India",
-      "latestTitle": "India, EU likely to sign free‑trade agreement on Dec 16",
-      "latestSummary": "India and the 27‑member European Union are expected to sign their free‑trade agreement on 16 December, an Indian official said. Negotiations were concluded on 27 January this year, and the pact would give duty‑free access to the EU for roughly 93 % of Indian exports while lowering tariffs on luxury cars and wines from the bloc.",
+      "latestTitle": "India and EU expected to sign free‑trade pact on Dec 16",
+      "latestSummary": "An Indian official said the free‑trade agreement with the 27‑member European Union is likely to be signed on 16 December, after the two sides concluded negotiations on 27 January. The deal would grant duty‑free access for about 93 % of Indian exports to the EU and make imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for roughly 25 % of global GDP and about one‑third of world trade.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms"
     },
@@ -3543,7 +3595,32 @@
       "latestSummary": "In response to falling stock indices, South Korea's finance ministry is poised to activate market stabilisation funds. Part 1 of 3 Gold still rules, but with a difference: How young India is redefining wedding jewellery Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms"
+    },
+    "686025875115dd": {
+      "id": "686025875115dd",
+      "firstSeen": "2026-11-23T01:02:27+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-23T02:48:54.977515+00:00",
+          "title": "Asian shares cautious as AI sell‑off worries linger, US futures rise",
+          "summary": "The Economic Times article reported that Asian equity markets were trading cautiously because concerns about a sell‑off in AI‑related stocks persisted. At the same time, U.S. stock futures moved higher, indicating a rebound in U.S. market sentiment. The contrasting moves highlighted mixed global risk appetite.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-23T02:48:54.977515+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Asian shares cautious as AI sell‑off worries linger, US futures rise",
+      "latestSummary": "The Economic Times article reported that Asian equity markets were trading cautiously because concerns about a sell‑off in AI‑related stocks persisted. At the same time, U.S. stock futures moved higher, indicating a rebound in U.S. market sentiment. The contrasting moves highlighted mixed global risk appetite.",
+      "why": "Investors need to gauge the impact of AI‑sector volatility on regional portfolios and trading decisions.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-ai-selloff-fears-persist-despite-us-futures-rebound/articleshow/136086162.cms"
     }
   },
-  "updated": "2026-11-22T21:48:20.445462+00:00"
+  "updated": "2026-11-23T02:48:54.977515+00:00"
 }
