@@ -1,91 +1,173 @@
 {
-  "updated": "2026-11-23T02:48:54.977515+00:00",
+  "updated": "2026-11-23T12:51:30.599710+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 51,
-    "nonNoiseCandidates": 50,
-    "officialOrPrimaryCandidates": 7,
-    "enrichedCandidates": 49,
-    "readableCandidates": 33,
-    "eventClusters": 32,
-    "materialEvents": 14,
-    "selectedEvents": 5,
-    "seededStories": 3,
+    "rawCandidates": 76,
+    "nonNoiseCandidates": 75,
+    "officialOrPrimaryCandidates": 11,
+    "enrichedCandidates": 74,
+    "readableCandidates": 46,
+    "eventClusters": 30,
+    "materialEvents": 11,
+    "selectedEvents": 6,
+    "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "df59e16a469695",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Explosion hits Russian warship in Benghazi port, suspected drone attack",
-      "publishedAt": "2026-11-22T20:28:09+00:00",
-      "importanceScore": 13.0,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "summary": "An explosion struck a Russian Steregushchiy‑class corvette docked at the Benghazi naval base at dawn on Sunday while the vessel was refuelling, and Libya’s eastern government said it was caused by a suspected drone attack. A nearby commercial ship was also hit, with minor injuries reported among its crew. Satellite and high‑resolution imagery showed a fire at the port and the corvette capsized, with only its forward bow still visible.",
-      "why": "The incident demonstrates the risk to foreign naval vessels operating in Libya’s eastern ports.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-22T20:28:09+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-22T20:28:09+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-23T02:48:54.977515+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Explosion hits Russian corvette in Benghazi port, suspected drone attack",
-      "previousSummary": "An explosion hit a Russian navy Project 20380 Steregushchiy‑class corvette, identified as the Merkury, while it was docked for fuel and supplies at the Benghazi naval base in eastern Libya on Sunday morning. Libya’s eastern government said the blast was caused by a suspected drone attack. Satellite and high‑resolution imagery later showed the vessel capsized, with only its forward bow remaining above water, and a nearby commercial ship also suffered minor injuries.",
-      "previousPublishedAt": "2026-11-22T20:28:09+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 14.0,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "686025875115dd",
+      "id": "e272591af56303",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "Asian shares cautious as AI sell‑off worries linger, US futures rise",
-      "publishedAt": "2026-11-23T01:02:27+00:00",
-      "importanceScore": 12.3,
+      "title": "Kotak Bank Share Price Live Updates: Kotak Bank Stock Price History",
+      "publishedAt": "2026-11-23T04:43:06+00:00",
+      "importanceScore": 15.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-ai-selloff-fears-persist-despite-us-futures-rebound/articleshow/136086162.cms",
-      "summary": "The Economic Times article reported that Asian equity markets were trading cautiously because concerns about a sell‑off in AI‑related stocks persisted. At the same time, U.S. stock futures moved higher, indicating a rebound in U.S. market sentiment. The contrasting moves highlighted mixed global risk appetite.",
-      "why": "Investors need to gauge the impact of AI‑sector volatility on regional portfolios and trading decisions.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-share-price-live-updates-23-nov-2026/liveblog/136089671.cms",
+      "summary": "Dive into the current details of ITC, including: Last traded price 301.0, Market capitalization: 377168.56, Volume: 27512489, Price-to-earnings ratio 19.98, Earnings per share 15.07. Stay in the know with the latest information about Tata Motors PV, including: Last traded price 259.0, Market capitalization: 95389.5, Volume: 9631950, Price-to-earnings ratio -38.79, Earnings per share -6.68.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-share-price-live-updates-23-nov-2026/liveblog/136089671.cms",
+          "publishedAt": "2026-11-23T04:43:06+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-live-updates-23-nov-2026/liveblog/136089652.cms",
+          "publishedAt": "2026-11-23T04:42:27+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-share-price-live-updates-23-nov-2026/liveblog/136089643.cms",
+          "publishedAt": "2026-11-23T04:41:34+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T04:43:06+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "fbb4b026d1b9e7",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "S&P projects 7% GDP growth for India, warns El Nino could raise food prices",
+      "publishedAt": "2026-11-23T09:11:16+00:00",
+      "importanceScore": 12.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-to-be-one-of-apac-champions-with-7-gdp-forecast-for-fy27-but-el-nino-will-prove-costly-sp/articleshow/136095806.cms",
+      "summary": "S&P Global Ratings forecasts India’s GDP to grow about 7 percent in the current fiscal year and again in the next fiscal year. The agency notes that an El Nino event is likely to push food prices higher, adding inflationary pressure and increasing input costs that could be passed on to consumers.",
+      "why": "The outlook influences investors, policymakers and households by shaping expectations for growth and potential cost‑of‑living pressures.",
+      "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-ai-selloff-fears-persist-despite-us-futures-rebound/articleshow/136086162.cms",
-          "publishedAt": "2026-11-23T01:02:27+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-to-be-one-of-apac-champions-with-7-gdp-forecast-for-fy27-but-el-nino-will-prove-costly-sp/articleshow/136095806.cms",
+          "publishedAt": "2026-11-23T09:11:16+00:00"
         }
       ],
-      "firstSeen": "2026-11-23T01:02:27+00:00",
+      "firstSeen": "2026-11-23T09:11:16+00:00",
       "status": "New",
-      "lastChecked": "2026-11-23T02:48:54.977515+00:00",
+      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "29f8e3fc3fad81",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "India bonds give up marginal opening gains as profit booking takes over",
+      "publishedAt": "2026-11-23T07:16:54+00:00",
+      "importanceScore": 11.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
+      "summary": "Indian government bonds fell after initial gains due to profit booking by traders and a sharp rupee decline. The benchmark yield of the 6.94% 2036 bond increased to 7.2185% during trading hours.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
+          "publishedAt": "2026-11-23T07:16:54+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136090974.cms",
+          "publishedAt": "2026-11-23T05:47:07+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T07:16:54+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "a43f90da31da21",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Rupee slips to 92.91 per dollar amid corporate dollar demand and profit‑taking",
+      "publishedAt": "2026-11-23T10:28:38+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms",
+      "summary": "The Indian rupee settled at 92.91 against the U.S. dollar on Monday, ending a five‑day rise after major corporations increased demand for dollars and traders took profits. It had earlier peaked at 92.44. Weak performance in domestic equities added to the bearish tone, while analysts still see a positive bias for stocks and the rupee.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms",
+          "publishedAt": "2026-11-23T10:28:38+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T10:28:38+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -101,17 +183,17 @@
       "categories": [
         "India"
       ],
-      "title": "India and EU expected to sign free‑trade pact on Dec 16",
+      "title": "India-EU trade deal likely to be signed on December 16",
       "publishedAt": "2026-11-22T18:42:58+00:00",
-      "importanceScore": 11.4,
+      "importanceScore": 10.4,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms",
-      "summary": "An Indian official said the free‑trade agreement with the 27‑member European Union is likely to be signed on 16 December, after the two sides concluded negotiations on 27 January. The deal would grant duty‑free access for about 93 % of Indian exports to the EU and make imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for roughly 25 % of global GDP and about one‑third of world trade.",
+      "summary": "Described as the 'mother of all deals', the FTA will provide duty-free access to the EU for 93% of India's exports, while making imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for 25% of global GDP and about one-third of international trade, valued at $11 trillion of the $33 trillion global trade market.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -121,36 +203,36 @@
       ],
       "firstSeen": "2026-11-22T18:42:58+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-23T02:48:54.977515+00:00",
+      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India, EU likely to sign free‑trade agreement on Dec 16",
-      "previousSummary": "India and the 27‑member European Union are expected to sign their free‑trade agreement on 16 December, an Indian official said. Negotiations were concluded on 27 January this year, and the pact would give duty‑free access to the EU for roughly 93 % of Indian exports while lowering tariffs on luxury cars and wines from the bloc.",
+      "verificationScope": "source-backed",
+      "previousTitle": "India and EU expected to sign free‑trade pact on Dec 16",
+      "previousSummary": "An Indian official said the free‑trade agreement with the 27‑member European Union is likely to be signed on 16 December, after the two sides concluded negotiations on 27 January. The deal would grant duty‑free access for about 93 % of Indian exports to the EU and make imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for roughly 25 % of global GDP and about one‑third of world trade.",
       "previousPublishedAt": "2026-11-22T18:42:58+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.1,
+      "previousImportanceScore": 11.4,
       "changed": true,
       "change": "Material facts or figures changed since the previous brief.",
       "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-22T21:48:20.445462+00:00",
+  "previousUpdated": "2026-11-23T02:48:54.977515+00:00",
   "changeSummary": {
-    "new": 1,
+    "new": 4,
     "updated": 1,
-    "continuing": 1
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-20T03:20:32.159352+00:00",
-    "updated": "2026-11-23T02:48:54.977515+00:00",
+    "availableFrom": "2026-11-20T12:57:04.128275+00:00",
+    "updated": "2026-11-23T12:51:30.599710+00:00",
     "snapshotCount": 10,
-    "eventCount": 77,
+    "eventCount": 76,
     "retentionHours": 72
   }
 }
