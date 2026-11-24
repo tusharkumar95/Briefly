@@ -1,22 +1,130 @@
 {
-  "updated": "2026-11-23T12:51:30.599710+00:00",
+  "updated": "2026-11-24T00:54:51.328592+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 76,
-    "nonNoiseCandidates": 75,
-    "officialOrPrimaryCandidates": 11,
-    "enrichedCandidates": 74,
-    "readableCandidates": 46,
-    "eventClusters": 30,
-    "materialEvents": 11,
-    "selectedEvents": 6,
-    "seededStories": 5,
+    "rawCandidates": 80,
+    "nonNoiseCandidates": 80,
+    "officialOrPrimaryCandidates": 19,
+    "enrichedCandidates": 80,
+    "readableCandidates": 57,
+    "eventClusters": 54,
+    "materialEvents": 19,
+    "selectedEvents": 9,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
+    {
+      "id": "de8228e91aee26",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Deepak Parekh highlights lack of official housing‑starts data in India",
+      "publishedAt": "2026-11-23T15:52:31+00:00",
+      "importanceScore": 12.9,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/deepak-parekh-flags-missing-housing-starts-data-in-indias-economic-indicators/articleshow/136108206.cms",
+      "summary": "At the Data Users Conference, Deepak Parekh said India does not have official housing‑starts statistics, a metric he described as closely linked to many allied industries. He also noted the recent revision of the GDP base year to 2022‑23 and its impact on interpreting economic indicators, and urged the use of high‑frequency data to supplement quarterly GDP figures.",
+      "why": "Official housing‑starts data would enable better monitoring of construction activity and its spill‑over effects on the wider economy.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/deepak-parekh-flags-missing-housing-starts-data-in-indias-economic-indicators/articleshow/136108206.cms",
+          "publishedAt": "2026-11-23T15:52:31+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T15:52:31+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-24T00:54:51.328592+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e41efb162a374c",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Amazon to acquire Decart’s AI optimization technology for $7.5 billion",
+      "publishedAt": "2026-11-23T17:14:23+00:00",
+      "importanceScore": 12.5,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "summary": "Amazon announced a $7.5 billion deal to buy Decart, acquiring the Decart Optimization Stack (DOS) that enables AI models to run more efficiently on Nvidia, Amazon and Google hardware. The purchase also includes Decart’s founding team and its AI researchers and engineers. Decart is known for interactive real‑time world‑model projects such as Oasis 3 and AI video‑generation tools.",
+      "why": "The acquisition adds cross‑hardware AI optimization software to Amazon’s portfolio, strengthening its AI cloud and chip offerings.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+          "publishedAt": "2026-11-23T17:14:23+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T17:14:23+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-24T00:54:51.328592+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "c1e2572ec9ae1e",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "RBI Governor urges NBFCs and housing finance firms to strengthen cyber defences",
+      "publishedAt": "2026-11-23T16:52:58+00:00",
+      "importanceScore": 12.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-governor-asks-nbfcs-housing-finance-firms-to-bolster-cyber-defences/articleshow/136109553.cms",
+      "summary": "RBI Governor Sanjay Malhotra called on non‑banking finance companies and housing finance companies to strengthen their cybersecurity measures. He emphasized a comprehensive, risk‑based approach to managing cyber threats and stressed the need for responsible credit growth and customer prioritisation. Participants also exchanged feedback on policy and operational issues affecting the NBFC sector.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-governor-asks-nbfcs-housing-finance-firms-to-bolster-cyber-defences/articleshow/136109553.cms",
+          "publishedAt": "2026-11-23T16:52:58+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T16:52:58+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-24T00:54:51.328592+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
     {
       "id": "e272591af56303",
       "cat": "Indian Markets",
@@ -24,13 +132,13 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "Kotak Bank Share Price Live Updates: Kotak Bank Stock Price History",
-      "publishedAt": "2026-11-23T04:43:06+00:00",
-      "importanceScore": 15.0,
+      "title": "Cipla Share Price Live Updates: Cipla Stock Price History",
+      "publishedAt": "2026-11-23T06:50:09+00:00",
+      "importanceScore": 12.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-share-price-live-updates-23-nov-2026/liveblog/136089671.cms",
-      "summary": "Dive into the current details of ITC, including: Last traded price 301.0, Market capitalization: 377168.56, Volume: 27512489, Price-to-earnings ratio 19.98, Earnings per share 15.07. Stay in the know with the latest information about Tata Motors PV, including: Last traded price 259.0, Market capitalization: 95389.5, Volume: 9631950, Price-to-earnings ratio -38.79, Earnings per share -6.68.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-live-updates-23-nov-2026/liveblog/136092588.cms",
+      "summary": "Explore the latest information on Cipla, including: Last traded price 1399.9, Market capitalization: 113093.81, Volume: 792537, Price-to-earnings ratio 39.04, Earnings per share 35.86. Keep track of JSW Steel's latest details, including: Last traded price 1311.9, Market capitalization: 320819.11, Volume: 3255627, Price-to-earnings ratio 11.28, Earnings per share 116.29.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -38,23 +146,100 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-share-price-live-updates-23-nov-2026/liveblog/136089671.cms",
-          "publishedAt": "2026-11-23T04:43:06+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-live-updates-23-nov-2026/liveblog/136092588.cms",
+          "publishedAt": "2026-11-23T06:50:09+00:00"
         },
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-live-updates-23-nov-2026/liveblog/136089652.cms",
-          "publishedAt": "2026-11-23T04:42:27+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-stock-price-today-live-23-nov-2026/liveblog/136092567.cms",
+          "publishedAt": "2026-11-23T06:49:43+00:00"
         },
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-share-price-live-updates-23-nov-2026/liveblog/136089643.cms",
-          "publishedAt": "2026-11-23T04:41:34+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-share-price-today-live-updates-23-nov-2026/liveblog/136092528.cms",
+          "publishedAt": "2026-11-23T06:48:52+00:00"
         }
       ],
       "firstSeen": "2026-11-23T04:43:06+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-24T00:54:51.328592+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Kotak Bank Share Price Live Updates: Kotak Bank Stock Price History",
+      "previousSummary": "Dive into the current details of ITC, including: Last traded price 301.0, Market capitalization: 377168.56, Volume: 27512489, Price-to-earnings ratio 19.98, Earnings per share 15.07. Stay in the know with the latest information about Tata Motors PV, including: Last traded price 259.0, Market capitalization: 95389.5, Volume: 9631950, Price-to-earnings ratio -38.79, Earnings per share -6.68.",
+      "previousPublishedAt": "2026-11-23T04:43:06+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 15.0,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "8660d44e9feed2",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Rupee reversal, debt supply drag India bonds in holiday-shortened week",
+      "publishedAt": "2026-11-23T13:07:06+00:00",
+      "importanceScore": 11.5,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms",
+      "summary": "A recent debt sale raised concerns about supply when the Indian states auctioned bonds at higher yields. The rupee also ended down 0.3%, reflecting increased dollar demand from large corporations.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/rupee-reversal-debt-supply-drag-india-bonds-in-holiday-shortened-week/articleshow/136103987.cms",
+          "publishedAt": "2026-11-23T13:07:06+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T13:07:06+00:00",
       "status": "New",
-      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
+      "lastChecked": "2026-11-24T00:54:51.328592+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "0617e3322d8fed",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "NSEL releases Rs 1,950 crore in one-time settlement, ends 14-year payment default",
+      "publishedAt": "2026-11-23T13:13:56+00:00",
+      "importanceScore": 11.1,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nsel-releases-rs-1950-crore-in-one-time-settlement-ends-14-year-payment-default/articleshow/136104164.cms",
+      "summary": "The National Spot Exchange Ltd has revealed a substantial settlement payout of Rs 1,950 crore to eligible claimants, marking the end of a lengthy 14-year legal battle stemming from a Rs 5,600 crore payment crisis. Part 1 of 3 Gold still rules, but with a difference: How young India is redefining wedding jewellery",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nsel-releases-rs-1950-crore-in-one-time-settlement-ends-14-year-payment-default/articleshow/136104164.cms",
+          "publishedAt": "2026-11-23T13:13:56+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-23T13:13:56+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-24T00:54:51.328592+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -70,14 +255,14 @@
       "categories": [
         "India"
       ],
-      "title": "S&P projects 7% GDP growth for India, warns El Nino could raise food prices",
+      "title": "S&P forecasts 7% GDP growth for India in FY27, warns El Nino costs",
       "publishedAt": "2026-11-23T09:11:16+00:00",
-      "importanceScore": 12.7,
+      "importanceScore": 10.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-to-be-one-of-apac-champions-with-7-gdp-forecast-for-fy27-but-el-nino-will-prove-costly-sp/articleshow/136095806.cms",
-      "summary": "S&P Global Ratings forecasts India’s GDP to grow about 7 percent in the current fiscal year and again in the next fiscal year. The agency notes that an El Nino event is likely to push food prices higher, adding inflationary pressure and increasing input costs that could be passed on to consumers.",
-      "why": "The outlook influences investors, policymakers and households by shaping expectations for growth and potential cost‑of‑living pressures.",
+      "summary": "S&P Global projects India's gross domestic product will expand by 7% in fiscal year 2027, placing the country among the fastest‑growing economies in the Asia‑Pacific region. The agency also cautions that the anticipated El Nino weather event could add economic burdens.",
+      "why": "The forecast highlights strong growth potential while flagging a climate‑related risk that could affect policymakers and investors.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -89,149 +274,36 @@
         }
       ],
       "firstSeen": "2026-11-23T09:11:16+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "29f8e3fc3fad81",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "India bonds give up marginal opening gains as profit booking takes over",
-      "publishedAt": "2026-11-23T07:16:54+00:00",
-      "importanceScore": 11.6,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
-      "summary": "Indian government bonds fell after initial gains due to profit booking by traders and a sharp rupee decline. The benchmark yield of the 6.94% 2036 bond increased to 7.2185% during trading hours.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136093136.cms",
-          "publishedAt": "2026-11-23T07:16:54+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136090974.cms",
-          "publishedAt": "2026-11-23T05:47:07+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-23T07:16:54+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a43f90da31da21",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Rupee slips to 92.91 per dollar amid corporate dollar demand and profit‑taking",
-      "publishedAt": "2026-11-23T10:28:38+00:00",
-      "importanceScore": 11.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms",
-      "summary": "The Indian rupee settled at 92.91 against the U.S. dollar on Monday, ending a five‑day rise after major corporations increased demand for dollars and traders took profits. It had earlier peaked at 92.44. Weak performance in domestic equities added to the bearish tone, while analysts still see a positive bias for stocks and the rupee.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-retreats-with-stocks-as-rally-takes-a-breather-positive-bias-lingers/articleshow/136098391.cms",
-          "publishedAt": "2026-11-23T10:28:38+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-23T10:28:38+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "80c98a7cade2a1",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India-EU trade deal likely to be signed on December 16",
-      "publishedAt": "2026-11-22T18:42:58+00:00",
-      "importanceScore": 10.4,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms",
-      "summary": "Described as the 'mother of all deals', the FTA will provide duty-free access to the EU for 93% of India's exports, while making imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for 25% of global GDP and about one-third of international trade, valued at $11 trillion of the $33 trillion global trade market.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms",
-          "publishedAt": "2026-11-22T18:42:58+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-22T18:42:58+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-23T12:51:30.599710+00:00",
+      "lastChecked": "2026-11-24T00:54:51.328592+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "India and EU expected to sign free‑trade pact on Dec 16",
-      "previousSummary": "An Indian official said the free‑trade agreement with the 27‑member European Union is likely to be signed on 16 December, after the two sides concluded negotiations on 27 January. The deal would grant duty‑free access for about 93 % of Indian exports to the EU and make imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for roughly 25 % of global GDP and about one‑third of world trade.",
-      "previousPublishedAt": "2026-11-22T18:42:58+00:00",
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "S&P projects 7% GDP growth for India, warns El Nino could raise food prices",
+      "previousSummary": "S&P Global Ratings forecasts India’s GDP to grow about 7 percent in the current fiscal year and again in the next fiscal year. The agency notes that an El Nino event is likely to push food prices higher, adding inflationary pressure and increasing input costs that could be passed on to consumers.",
+      "previousPublishedAt": "2026-11-23T09:11:16+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 11.4,
+      "previousImportanceScore": 12.7,
       "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
+      "change": "Material details changed since the previous brief.",
       "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 4,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-23T02:48:54.977515+00:00",
+  "previousUpdated": "2026-11-23T12:51:30.599710+00:00",
   "changeSummary": {
-    "new": 4,
-    "updated": 1,
+    "new": 5,
+    "updated": 2,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-20T12:57:04.128275+00:00",
-    "updated": "2026-11-23T12:51:30.599710+00:00",
-    "snapshotCount": 10,
+    "availableFrom": "2026-11-21T02:19:32.145704+00:00",
+    "updated": "2026-11-24T00:54:51.328592+00:00",
+    "snapshotCount": 9,
     "eventCount": 76,
     "retentionHours": 72
   }
