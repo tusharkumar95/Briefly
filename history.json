@@ -3,70 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-21T23:20:46.613399+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "267e4211123882",
-          "cat": "Indian Markets",
-          "title": "13 Indian stocks post five‑day winning streak, each up over 27%",
-          "summary": "The Economic Times reported that 13 stocks listed on Indian exchanges each recorded gains for five consecutive trading sessions, with every stock rising more than 27% over that period. The report highlighted the sustained upward momentum across the group.",
-          "why": "The broad, simultaneous price gains suggest strong short‑term momentum that may attract traders focused on price trends.",
-          "publishedAt": "2026-11-21T06:57:10+00:00",
-          "firstSeen": "2026-11-21T06:57:10+00:00",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms"
-        },
-        {
-          "id": "b499405439a277",
-          "cat": "India",
-          "title": "India and Finland aim to deepen economic ties via startup cooperation",
-          "summary": "Finnish Ambassador Mikko Kivikoski said India and Finland are working to deepen economic ties by focusing on collaboration with Indian startups. The initiative was highlighted at the Polar Bear Pitching event, where startup founder Yash Goliya was selected to represent India in a global competition scheduled for 2027. Bilateral trade between the two countries has been growing significantly and sharply over the past decade.",
-          "why": "The cooperation is intended to promote Finnish investment in Indian startups and give Finnish firms access to the Indian market.",
-          "publishedAt": "2026-11-21T06:11:11+00:00",
-          "firstSeen": "2026-11-21T07:12:37+00:00",
-          "importanceScore": 10.3,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-finland-seek-to-deepen-economic-ties-through-startup-cooperation-envoy/articleshow/136046302.cms"
-        },
-        {
-          "id": "94f6c4211c8f31",
-          "cat": "Indian Markets",
-          "title": "Max Healthcare, Deepak Fertilisers among 10 stocks that gained up to 14% in a week",
-          "summary": "Economic Times reported that Max Healthcare and Deepak Fertilisers were among ten Indian stocks that rose as much as 14% over the past week. The item names only those two companies and does not identify the other eight gainers or explain what drove the moves, so it documents short-term price strength without establishing a cause.",
-          "why": "It flags recent Indian equity outperformers for monitoring, but with only two names and no stated catalyst it is not sufficient on its own to act on.",
-          "publishedAt": "2026-11-21T05:51:22+00:00",
-          "firstSeen": "2026-11-21T05:51:22+00:00",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-22T15:21:37.032448+00:00",
       "changeSummary": {
         "new": 1,
@@ -765,6 +701,142 @@
           "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T04:17:55.878861+00:00",
+      "changeSummary": {
+        "new": 3,
+        "updated": 4,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "56d5dd19eb4fa4",
+          "cat": "Canada",
+          "title": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
+          "summary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said that despite recent declines in benchmark oil prices, high energy costs will keep pressuring consumers at the pump and beyond in 2027. He warned that a second‑round effect of the recent Middle‑East‑linked oil shock will add to inflation persistence and noted the bank is bracing for larger and more frequent supply shocks.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-24T18:22:26+00:00",
+          "firstSeen": "2026-11-24T18:22:26+00:00",
+          "importanceScore": 17.3,
+          "sourceCount": 2,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "1 additional source now support this event.",
+          "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss"
+        },
+        {
+          "id": "5866c6617f6e6c",
+          "cat": "World",
+          "title": "Russian government data shows over 490,000 military deaths since 2022",
+          "summary": "At least 490,334 Russian soldiers have died since the 2022 invasion, according to leaked Rosstat records analysed by the BBC. The data, covering 2021‑September 2026, were obtained after a hack by Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow; BBC Russian and Mediazona matched about 90 % of the entries to open‑source casualty lists. Russia’s statistics agency confirmed the cyber‑attack but said no protected information was leaked.",
+          "why": "It quantifies the human cost of the war and challenges official claims of a brief conflict.",
+          "publishedAt": "2026-11-25T00:56:51+00:00",
+          "firstSeen": "2026-11-25T00:56:51+00:00",
+          "importanceScore": 16.4,
+          "sourceCount": 3,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "146a1bce0394e9",
+          "cat": "AI",
+          "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+          "summary": "But there was another development yesterday that could also matter for Nvidia down the road: Amazon’s decision to acquire Decart‘s tech and its team for a reported $7.5 billion. Anthropic reportedly tried to acquire the startup in the same ballpark, and Nvidia, which invested in the startup’s $300 million funding round at a $4 billion valuation, was also rumored as a prospective buyer.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-24T15:51:07+00:00",
+          "firstSeen": "2026-11-24T15:51:07+00:00",
+          "importanceScore": 13.9,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+        },
+        {
+          "id": "3b777135513c81",
+          "cat": "World",
+          "title": "Land mine casualties soar in Syria, two years after war",
+          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Eleven-year-old Alaa was tending her family's goats with her siblings in a field behind their home in Umm Khuzaym, north-west Syria, on Sunday when there was a flash and a deafening bang. The incident and others this week bring to nearly 1,000 the number of children killed or injured by explosive ordnance in Syria since the fall of Bashar al-Assad in December 2024, according to the UN Mine Action Service (Unmas).",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-24T15:17:28+00:00",
+          "firstSeen": "2026-11-24T15:17:28+00:00",
+          "importanceScore": 13.6,
+          "sourceCount": 3,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "4c5818f3c476e0",
+          "cat": "Indian Markets",
+          "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+          "summary": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-25T00:57:44+00:00",
+          "firstSeen": "2026-11-25T00:57:44+00:00",
+          "importanceScore": 13.3,
+          "sourceCount": 3,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
+        },
+        {
+          "id": "2059700cfe2236",
+          "cat": "World",
+          "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+          "summary": "Nato chief Mark Rutte and German Chancellor Friedrich Merz respond to reports of Russian plans to launch nuclear weapons into space Nato chief Mark Rutte has said the alliance will defend against any threats in space after German reports that Russia is preparing to launch a nuclear-armed satellite. Intelligence reports about a possible launch in the next 60 days had been shared among Nato countries this month, according to German media.",
+          "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+          "publishedAt": "2026-11-24T10:58:51+00:00",
+          "firstSeen": "2026-11-24T02:15:59+00:00",
+          "importanceScore": 13.3,
+          "sourceCount": 3,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "2 additional sources now support this event.",
+          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "691f643690e07e",
+          "cat": "AI",
+          "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+          "summary": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.",
+          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+          "publishedAt": "2026-11-24T16:46:00+00:00",
+          "firstSeen": "2026-11-24T16:46:00+00:00",
+          "importanceScore": 12.8,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "1 additional source now support this event.",
+          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+        }
+      ]
     }
   ],
   "events": {
@@ -921,82 +993,6 @@
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-cad-may-touch-1-2-of-gdp-in-fy27-as-oil-gold-demand-pose-risks-ubi/articleshow/135914575.cms"
     },
-    "185fd5d0004052": {
-      "id": "185fd5d0004052",
-      "firstSeen": "2026-11-17T11:22:19+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T14:28:26.673333+00:00",
-          "title": "India’s GDP growth projected at 7.3% for FY26‑27, may rise to 7.7% next quarter",
-          "summary": "The chairman of the Economic Advisory Council to the Prime Minister, S Mahendra Dev, said India’s GDP is expected to grow about 7.3 % in the current financial year (FY 2026‑27) and could reach roughly 7.7 % in the following quarter. He cited sustained export momentum, diversification of export markets, a target of $1 trillion in exports for FY 2026‑27, and renewed foreign direct and portfolio investment inflows as drivers.",
-          "importanceScore": 15.3,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "India's GDP growth pegged at 7.3% in FY26-27, may touch 7.7% next quarter: EAC-PM Chairman",
-          "summary": "India's GDP is expected to grow by 7.3% this financial year and 7.7% in the next quarter, S Mahendra Dev, Chairman of EAC-PM said. Sustained export momentum and improving foreign investment are crucial for this growth, he added.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-17T22:54:34.896201+00:00",
-      "cat": "India",
-      "latestTitle": "India's GDP growth pegged at 7.3% in FY26-27, may touch 7.7% next quarter: EAC-PM Chairman",
-      "latestSummary": "India's GDP is expected to grow by 7.3% this financial year and 7.7% in the next quarter, S Mahendra Dev, Chairman of EAC-PM said. Sustained export momentum and improving foreign investment are crucial for this growth, he added.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-gdp-growth-pegged-at-7-3-in-fy26-27-may-touch-7-7-next-quarter-eac-pm-chairman/articleshow/135923170.cms"
-    },
-    "7b6d44ca156e81": {
-      "id": "7b6d44ca156e81",
-      "firstSeen": "2026-11-17T12:02:23+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T14:28:26.673333+00:00",
-          "title": "Indian government bond yields dip as oil prices fall",
-          "summary": "In early trade, Indian government bonds rose after crude oil prices fell sharply. The benchmark 6.94% 2036 bond yield slipped to 7.2813%, reflecting expectations that lower oil prices will ease inflationary pressure and reduce concerns about aggressive rate hikes. The softer oil market also helped support the rupee and narrow the current‑account deficit.",
-          "importanceScore": 15.1,
-          "sourceCount": 3,
-          "sourceQuality": "tier-2",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "Indian government bond yields fall as oil prices drop",
-          "summary": "In early trading, Indian government bonds rose after crude oil prices fell sharply. The yield on the benchmark 6.94% 2036 bond slipped to 7.2813%, reflecting reduced inflationary pressure and lower concerns about aggressive RBI rate hikes. Analysts noted that the lower oil price also supported the rupee and helped narrow the current‑account deficit.",
-          "importanceScore": 13.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Its significance score fell as the evidence changed."
-        }
-      ],
-      "lastSeen": "2026-11-17T22:54:34.896201+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Indian government bond yields fall as oil prices drop",
-      "latestSummary": "In early trading, Indian government bonds rose after crude oil prices fell sharply. The yield on the benchmark 6.94% 2036 bond slipped to 7.2813%, reflecting reduced inflationary pressure and lower concerns about aggressive RBI rate hikes. Analysts noted that the lower oil price also supported the rupee and helped narrow the current‑account deficit.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-surge-after-oil-slide-eases-aggressive-rate-hike-concerns/articleshow/135924727.cms"
-    },
     "a40ceaf039e883": {
       "id": "a40ceaf039e883",
       "firstSeen": "2026-11-17T05:26:46+00:00",
@@ -1136,31 +1132,6 @@
       "latestSummary": "The United Kingdom imposed sanctions on eight construction and property‑development companies it says are involved in building Israeli settlements in the occupied West Bank. The measures are the first package announced after the government said it would take a tougher approach to Israeli actions in the territory, and are intended to disrupt the firms’ financing and ability to support settlement construction.",
       "why": "The sanctions aim to cut financial flows that enable settlement building in the occupied West Bank.",
       "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss"
-    },
-    "c5e9a41c1d5b77": {
-      "id": "c5e9a41c1d5b77",
-      "firstSeen": "2026-11-17T14:28:06+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "BlackRock raises stake in Axis Bank to 5%",
-          "summary": "BlackRock increased its shareholding in Axis Bank to 5%, as reported by The Economic Times. The headline confirms the new ownership level but provides no further details on timing or transaction size.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-17T22:54:34.896201+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "BlackRock raises stake in Axis Bank to 5%",
-      "latestSummary": "BlackRock increased its shareholding in Axis Bank to 5%, as reported by The Economic Times. The headline confirms the new ownership level but provides no further details on timing or transaction size.",
-      "why": "The larger stake alters the ownership composition of Axis Bank.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/blackrock-raises-its-stake-in-axis-bank-to-5/articleshow/135929469.cms"
     },
     "3ffbbf6a5f1f36": {
       "id": "3ffbbf6a5f1f36",
@@ -3149,13 +3120,26 @@
           "lifecycle": "Continuing",
           "changed": false,
           "change": "No material change since the previous brief."
+        },
+        {
+          "at": "2026-11-25T04:17:55.878861+00:00",
+          "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+          "summary": "Nato chief Mark Rutte and German Chancellor Friedrich Merz respond to reports of Russian plans to launch nuclear weapons into space Nato chief Mark Rutte has said the alliance will defend against any threats in space after German reports that Russia is preparing to launch a nuclear-armed satellite. Intelligence reports about a possible launch in the next 60 days had been shared among Nato countries this month, according to German media.",
+          "importanceScore": 13.3,
+          "sourceCount": 3,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "2 additional sources now support this event."
         }
       ],
-      "lastSeen": "2026-11-24T21:15:09.080348+00:00",
+      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
       "cat": "World",
-      "latestTitle": "NATO chief says alliance will counter any space threats after reports of Russian nuclear‑armed satellite",
-      "latestSummary": "NATO Secretary‑General Mark Rutte said the alliance will defend against any threats in space following German media reports that Russia is preparing to launch a nuclear‑armed satellite within 60 days. Intelligence about the possible launch was shared among NATO members earlier this month, though the source of the reports was not identified. German Chancellor Friedrich Merz called the reports shocking, while Kremlin spokesman Dmitry Peskov dismissed the stories as unverified.",
-      "why": "A nuclear‑armed satellite would alter the strategic balance and increase the risk of weaponising outer space.",
+      "latestTitle": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "latestSummary": "Nato chief Mark Rutte and German Chancellor Friedrich Merz respond to reports of Russian plans to launch nuclear weapons into space Nato chief Mark Rutte has said the alliance will defend against any threats in space after German reports that Russia is preparing to launch a nuclear-armed satellite. Intelligence reports about a possible launch in the next 60 days had been shared among Nato countries this month, according to German media.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss"
     },
     "b75a54198d9394": {
@@ -3224,12 +3208,25 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-25T04:17:55.878861+00:00",
+          "title": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
+          "summary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said that despite recent declines in benchmark oil prices, high energy costs will keep pressuring consumers at the pump and beyond in 2027. He warned that a second‑round effect of the recent Middle‑East‑linked oil shock will add to inflation persistence and noted the bank is bracing for larger and more frequent supply shocks.",
+          "importanceScore": 17.3,
+          "sourceCount": 2,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "1 additional source now support this event."
         }
       ],
-      "lastSeen": "2026-11-24T21:15:09.080348+00:00",
+      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
       "cat": "Canada",
-      "latestTitle": "Bank of Canada governor says oil‑linked inflation may return in 2027",
-      "latestSummary": "Bank of Canada Governor Tiff Macklem told the Economic Club of Canada that a second‑round effect from the recent oil price shock tied to the Middle‑East conflict is expected to add to inflation persistence in 2027, even though benchmark oil prices have fallen from recent peaks. He said businesses have largely absorbed higher production and transportation costs so far, but historical lags and business‑survey data indicate further cost pass‑through to consumers next year.",
+      "latestTitle": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
+      "latestSummary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said that despite recent declines in benchmark oil prices, high energy costs will keep pressuring consumers at the pump and beyond in 2027. He warned that a second‑round effect of the recent Middle‑East‑linked oil shock will add to inflation persistence and noted the bank is bracing for larger and more frequent supply shocks.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss"
     },
@@ -3249,13 +3246,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-25T04:17:55.878861+00:00",
+          "title": "Land mine casualties soar in Syria, two years after war",
+          "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Eleven-year-old Alaa was tending her family's goats with her siblings in a field behind their home in Umm Khuzaym, north-west Syria, on Sunday when there was a flash and a deafening bang. The incident and others this week bring to nearly 1,000 the number of children killed or injured by explosive ordnance in Syria since the fall of Bashar al-Assad in December 2024, according to the UN Mine Action Service (Unmas).",
+          "importanceScore": 13.6,
+          "sourceCount": 3,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-24T21:15:09.080348+00:00",
+      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
       "cat": "World",
-      "latestTitle": "Child killed by explosive ordnance in northwest Syria, UN reports near‑1,000 child casualties since Dec 2024",
-      "latestSummary": "An 11‑year‑old girl, Alaa, was killed and her 10‑year‑old brother seriously injured by an explosion while tending goats in Umm Khuzaym, north‑west Syria. The BBC report says the incident, together with others this week, brings the total number of children killed or injured by explosive ordnance in Syria to nearly 1,000 since the fall of Bashar al‑Assad in December 2024, according to the UN Mine Action Service.",
-      "why": "It highlights the ongoing risk that unexploded ordnance poses to civilians returning to former front‑line areas.",
+      "latestTitle": "Land mine casualties soar in Syria, two years after war",
+      "latestSummary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Eleven-year-old Alaa was tending her family's goats with her siblings in a field behind their home in Umm Khuzaym, north-west Syria, on Sunday when there was a flash and a deafening bang. The incident and others this week bring to nearly 1,000 the number of children killed or injured by explosive ordnance in Syria since the fall of Bashar al-Assad in December 2024, according to the UN Mine Action Service (Unmas).",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
       "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss"
     },
     "558e5234853e5e": {
@@ -3324,9 +3334,22 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-25T04:17:55.878861+00:00",
+          "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+          "summary": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.",
+          "importanceScore": 12.8,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "1 additional source now support this event."
         }
       ],
-      "lastSeen": "2026-11-24T21:15:09.080348+00:00",
+      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
       "cat": "AI",
       "latestTitle": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
       "latestSummary": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.",
@@ -3357,7 +3380,82 @@
       "latestSummary": "Dario Amodei, chief executive of Anthropic, sold shares valued at USD 280.41 million following the company’s Nasdaq debut. He reported holding 202.8 million shares directly and additional shares through trusts. The IPO raised USD 81.34 billion; the stock opened above the USD 83 offering price but closed lower, still remaining above that price.",
       "why": "Insider sales give investors a direct signal about the executive’s view of the company’s valuation and liquidity.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms"
+    },
+    "5866c6617f6e6c": {
+      "id": "5866c6617f6e6c",
+      "firstSeen": "2026-11-25T00:56:51+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-25T04:17:55.878861+00:00",
+          "title": "Russian government data shows over 490,000 military deaths since 2022",
+          "summary": "At least 490,334 Russian soldiers have died since the 2022 invasion, according to leaked Rosstat records analysed by the BBC. The data, covering 2021‑September 2026, were obtained after a hack by Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow; BBC Russian and Mediazona matched about 90 % of the entries to open‑source casualty lists. Russia’s statistics agency confirmed the cyber‑attack but said no protected information was leaked.",
+          "importanceScore": 16.4,
+          "sourceCount": 3,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
+      "cat": "World",
+      "latestTitle": "Russian government data shows over 490,000 military deaths since 2022",
+      "latestSummary": "At least 490,334 Russian soldiers have died since the 2022 invasion, according to leaked Rosstat records analysed by the BBC. The data, covering 2021‑September 2026, were obtained after a hack by Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow; BBC Russian and Mediazona matched about 90 % of the entries to open‑source casualty lists. Russia’s statistics agency confirmed the cyber‑attack but said no protected information was leaked.",
+      "why": "It quantifies the human cost of the war and challenges official claims of a brief conflict.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+    },
+    "146a1bce0394e9": {
+      "id": "146a1bce0394e9",
+      "firstSeen": "2026-11-24T15:51:07+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-25T04:17:55.878861+00:00",
+          "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+          "summary": "But there was another development yesterday that could also matter for Nvidia down the road: Amazon’s decision to acquire Decart‘s tech and its team for a reported $7.5 billion. Anthropic reportedly tried to acquire the startup in the same ballpark, and Nvidia, which invested in the startup’s $300 million funding round at a $4 billion valuation, was also rumored as a prospective buyer.",
+          "importanceScore": 13.9,
+          "sourceCount": 2,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
+      "cat": "AI",
+      "latestTitle": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "latestSummary": "But there was another development yesterday that could also matter for Nvidia down the road: Amazon’s decision to acquire Decart‘s tech and its team for a reported $7.5 billion. Anthropic reportedly tried to acquire the startup in the same ballpark, and Nvidia, which invested in the startup’s $300 million funding round at a $4 billion valuation, was also rumored as a prospective buyer.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+    },
+    "4c5818f3c476e0": {
+      "id": "4c5818f3c476e0",
+      "firstSeen": "2026-11-25T00:57:44+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-25T04:17:55.878861+00:00",
+          "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+          "summary": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+          "importanceScore": 13.3,
+          "sourceCount": 3,
+          "sourceQuality": "tier-1",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+      "latestSummary": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
     }
   },
-  "updated": "2026-11-24T21:15:09.080348+00:00"
+  "updated": "2026-11-25T04:17:55.878861+00:00"
 }

@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-24T21:15:09.080348+00:00",
+  "updated": "2026-11-25T04:17:55.878861+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 28,
+    "officialOrPrimaryCandidates": 22,
     "enrichedCandidates": 80,
-    "readableCandidates": 49,
-    "eventClusters": 49,
-    "materialEvents": 17,
-    "selectedEvents": 8,
-    "seededStories": 8,
-    "corroboratedStories": 0,
-    "addedCorroboratingSources": 0
+    "readableCandidates": 61,
+    "eventClusters": 60,
+    "materialEvents": 26,
+    "selectedEvents": 9,
+    "seededStories": 7,
+    "corroboratedStories": 7,
+    "addedCorroboratingSources": 11
   },
   "stories": [
     {
@@ -24,13 +24,13 @@
       "categories": [
         "Canada"
       ],
-      "title": "Bank of Canada governor says oil‑linked inflation may return in 2027",
+      "title": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
       "publishedAt": "2026-11-24T18:22:26+00:00",
-      "importanceScore": 17.5,
-      "sourceCount": 1,
+      "importanceScore": 17.3,
+      "sourceCount": 2,
       "source": "cbc.ca",
       "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss",
-      "summary": "Bank of Canada Governor Tiff Macklem told the Economic Club of Canada that a second‑round effect from the recent oil price shock tied to the Middle‑East conflict is expected to add to inflation persistence in 2027, even though benchmark oil prices have fallen from recent peaks. He said businesses have largely absorbed higher production and transportation costs so far, but historical lags and business‑survey data indicate further cost pass‑through to consumers next year.",
+      "summary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said that despite recent declines in benchmark oil prices, high energy costs will keep pressuring consumers at the pump and beyond in 2027. He warned that a second‑round effect of the recent Middle‑East‑linked oil shock will add to inflation persistence and noted the bank is bracing for larger and more frequent supply shocks.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "confidence": "high",
       "verified": true,
@@ -40,13 +40,73 @@
           "name": "cbc.ca",
           "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss",
           "publishedAt": "2026-11-24T18:22:26+00:00"
+        },
+        {
+          "name": "CBC",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSGQ0dkVVaHR2dHpPWVBhUnlIb3d5Y2dJaE5SbW9NNnhCYkJQRHJVOFNIMklxSXdoVllXVVlJemwtVHVpT3p1RTRaZDE5S296S1lKN3BmTWQ1MEd6REVXclhlUS01VEtBNThzbVJKMzQtTVAyeE5tS2FZN3dGYWctQzJnVTVhRVdFUWNz?oc=5",
+          "publishedAt": "2026-11-24T22:06:59+00:00"
         }
       ],
       "firstSeen": "2026-11-24T18:22:26+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-24T21:15:09.080348+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-25T04:17:55.878861+00:00",
+      "corroborated": true,
+      "corroboratingSourcesAdded": 1,
       "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
+      "trustedSourceCount": 2,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "Bank of Canada governor says oil‑linked inflation may return in 2027",
+      "previousSummary": "Bank of Canada Governor Tiff Macklem told the Economic Club of Canada that a second‑round effect from the recent oil price shock tied to the Middle‑East conflict is expected to add to inflation persistence in 2027, even though benchmark oil prices have fallen from recent peaks. He said businesses have largely absorbed higher production and transportation costs so far, but historical lags and business‑survey data indicate further cost pass‑through to consumers next year.",
+      "previousPublishedAt": "2026-11-24T18:22:26+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 17.5,
+      "changed": true,
+      "change": "1 additional source now support this event.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "5866c6617f6e6c",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Russian government data shows over 490,000 military deaths since 2022",
+      "publishedAt": "2026-11-25T00:56:51+00:00",
+      "importanceScore": 16.4,
+      "sourceCount": 3,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 490,334 Russian soldiers have died since the 2022 invasion, according to leaked Rosstat records analysed by the BBC. The data, covering 2021‑September 2026, were obtained after a hack by Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow; BBC Russian and Mediazona matched about 90 % of the entries to open‑source casualty lists. Russia’s statistics agency confirmed the cyber‑attack but said no protected information was leaked.",
+      "why": "It quantifies the human cost of the war and challenges official claims of a brief conflict.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-25T00:56:51+00:00"
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9majdiXzYxdlU5VzFlNmlZRTRzMzlJeE9nLUFpQ25QaENDaS1YNjQ1aUcyTGhsUHFBM0lMVnR0VUpwM1NzWDhRNXFuQ05ERmRtVk9HX3ZiemVBejM4NHc?oc=5",
+          "publishedAt": "2026-11-25T00:56:51+00:00"
+        },
+        {
+          "name": "Operativ Məlumat Mərkəzi",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbWpxbjF1VFRCWklBRWVWZkdfZlZaaXNZaUhEMG9INlhHa3BvYnVRMk9oLXd0ck1zc2puWE14cWNoS2JTdldrZUExUzM2dDRad25RQ1V5TW8wZHRPeGZXV04zZ0xJVXJGNUdGS0E0LTUydDVQYjZBeWN5dXM5LTVFMVVuNWIwNy0xbWthT29yR1hxcGdQYVRxNw?oc=5",
+          "publishedAt": "2026-11-25T01:01:27+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-25T00:56:51+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-25T04:17:55.878861+00:00",
+      "corroborated": true,
+      "corroboratingSourcesAdded": 2,
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 2,
       "primarySourceCount": 0,
       "verificationScope": "strong-source-or-corroborated",
       "changed": true,
@@ -54,45 +114,47 @@
       "lifecycle": "New"
     },
     {
-      "id": "e41efb162a374c",
+      "id": "146a1bce0394e9",
       "cat": "AI",
       "icon": "✦",
       "categories": [
         "AI"
       ],
-      "title": "Amazon acquires Decart for $7.5 billion to enhance Trainium AI chips",
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
       "publishedAt": "2026-11-24T15:51:07+00:00",
-      "importanceScore": 14.1,
-      "sourceCount": 1,
+      "importanceScore": 13.9,
+      "sourceCount": 2,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-      "summary": "Amazon announced a $7.5 billion acquisition of Decart’s technology and team. Decart’s Optimization Stack improves AI model efficiency on non‑Nvidia hardware, and Amazon will integrate it with its Trainium processors to boost AWS AI performance. The deal follows earlier interest from Anthropic and Nvidia, and Amazon has collaborated with Decart since 2025.",
-      "why": "The acquisition aims to make AWS’s custom AI hardware more competitive and expand its AI‑cloud service offerings.",
-      "confidence": "medium",
+      "summary": "But there was another development yesterday that could also matter for Nvidia down the road: Amazon’s decision to acquire Decart‘s tech and its team for a reported $7.5 billion. Anthropic reportedly tried to acquire the startup in the same ballpark, and Nvidia, which invested in the startup’s $300 million funding round at a $4 billion valuation, was also rumored as a prospective buyer.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "techcrunch.com",
           "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
           "publishedAt": "2026-11-24T15:51:07+00:00"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLUFfQXUxWkEwMjFOUGs5blY2OWU0Sk1HRjcxeFZSblJlNkRtU2VEUXlCaU1UazZCaWQyOV9GT2ZXbjZ2Y1dlQVlDLTBPSUtVX1pETlQ4UzZzUk1scHF4b2M3NzdHU2lQQmhpRV9fQVltS2llbFh1UjJuWS1CN002UHlMOTNMT293N0Y3MjQtX3VfNG05VDZzYlM5VXhBQ092NEw5X29lZHFrMmlLbWVUelV5d2JMQXdHbVZBVW9QS0hFQ3FfZmt1WkJ3ek1MQzI2Nm90WQ?oc=5",
+          "publishedAt": "2026-11-24T15:51:07+00:00"
         }
       ],
-      "firstSeen": "2026-11-23T17:14:23+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-24T21:15:09.080348+00:00",
+      "firstSeen": "2026-11-24T15:51:07+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-25T04:17:55.878861+00:00",
+      "corroborated": true,
+      "corroboratingSourcesAdded": 1,
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Amazon acquires Decart’s AI optimization technology for $7.5 billion",
-      "previousSummary": "Amazon announced it will acquire Decart for $7.5 billion, obtaining the Decart Optimization Stack software that improves AI model efficiency on Nvidia, Amazon and Google hardware, along with Decart’s founding team and its AI researchers and engineers. The purchase is intended to bolster Amazon’s custom Trainium AI chips by providing a proven software layer for more efficient compute.",
-      "previousPublishedAt": "2026-11-23T17:14:23+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.8,
+      "verificationScope": "source-backed",
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
       "id": "3b777135513c81",
@@ -101,65 +163,94 @@
       "categories": [
         "World"
       ],
-      "title": "Child killed by explosive ordnance in northwest Syria, UN reports near‑1,000 child casualties since Dec 2024",
+      "title": "Land mine casualties soar in Syria, two years after war",
       "publishedAt": "2026-11-24T15:17:28+00:00",
-      "importanceScore": 13.2,
-      "sourceCount": 1,
+      "importanceScore": 13.6,
+      "sourceCount": 3,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
-      "summary": "An 11‑year‑old girl, Alaa, was killed and her 10‑year‑old brother seriously injured by an explosion while tending goats in Umm Khuzaym, north‑west Syria. The BBC report says the incident, together with others this week, brings the total number of children killed or injured by explosive ordnance in Syria to nearly 1,000 since the fall of Bashar al‑Assad in December 2024, according to the UN Mine Action Service.",
-      "why": "It highlights the ongoing risk that unexploded ordnance poses to civilians returning to former front‑line areas.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Eleven-year-old Alaa was tending her family's goats with her siblings in a field behind their home in Umm Khuzaym, north-west Syria, on Sunday when there was a flash and a deafening bang. The incident and others this week bring to nearly 1,000 the number of children killed or injured by explosive ordnance in Syria since the fall of Bashar al-Assad in December 2024, according to the UN Mine Action Service (Unmas).",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
           "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-11-24T15:17:28+00:00"
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zVWxaQ1dTMmRuX2pKRGx3aTQ2SWplakJPYzZ2TFJMOVJiY1MzbzJMeEhXU0VzOFpiVktMZEk1N1RvaGFyX2kxV2MxZ2hoaFBxZm5nQkt0ZDJvOUdsTVE?oc=5",
+          "publishedAt": "2026-11-24T15:17:28+00:00"
+        },
+        {
+          "name": "Newsday",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOVljdFBMc21WZE5DSHlITm13VWFFdC1KSzF5b1N5MHN5VS1LZlppVVlqbC1zZ0QxNWEyUDVqZ2NLN3BvMmRqTWtFZVVCMVJkdXc3Q1NvRVJzRVpzbE9jUXpmNm1KODJPTjRrcmRZdXhTY09xaUtKMHRGazFmeGYyOHlVN1czbm5MVDlKbG96ckdCWHlN?oc=5",
+          "publishedAt": "2026-11-24T08:18:16+00:00"
         }
       ],
       "firstSeen": "2026-11-24T15:17:28+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-24T21:15:09.080348+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-25T04:17:55.878861+00:00",
+      "corroborated": true,
+      "corroboratingSourcesAdded": 2,
       "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
+      "trustedSourceCount": 2,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
+      "verificationScope": "source-backed",
+      "previousTitle": "Child killed by explosive ordnance in northwest Syria, UN reports near‑1,000 child casualties since Dec 2024",
+      "previousSummary": "An 11‑year‑old girl, Alaa, was killed and her 10‑year‑old brother seriously injured by an explosion while tending goats in Umm Khuzaym, north‑west Syria. The BBC report says the incident, together with others this week, brings the total number of children killed or injured by explosive ordnance in Syria to nearly 1,000 since the fall of Bashar al‑Assad in December 2024, according to the UN Mine Action Service.",
+      "previousPublishedAt": "2026-11-24T15:17:28+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.2,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "558e5234853e5e",
+      "id": "4c5818f3c476e0",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "AI boom looms over Warsh's Fed as inflation worries grow",
-      "publishedAt": "2026-11-24T11:39:37+00:00",
-      "importanceScore": 12.8,
-      "sourceCount": 1,
+      "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+      "publishedAt": "2026-11-25T00:57:44+00:00",
+      "importanceScore": 13.3,
+      "sourceCount": 3,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms",
-      "summary": "Recent discussions outline the challenges faced by Fed officials in navigating economic fluctuations linked to AI investments. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+      "summary": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms",
-          "publishedAt": "2026-11-24T11:39:37+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+          "publishedAt": "2026-11-25T00:57:44+00:00"
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjE4Zm9DOUxVdmFFaTlaQVJMWHFaVEVGVy1JcTNEcEc3bnhET2xfaGNCdFlpbXkwS210Tkx0d3JVUWVzbzA4amhwWU1FWGxLd2E0YUJBY1lOOUNlVmlwNF83b3Bqc2dqaWVMTzUwSGFfYWNJVDZwXzh5TGp5YUZaTzZoa0dZenZfalhyelF0UUZwbllhOEZIbWNGc1V3OHQxWlhfV3ZoeGdKRURCS3dTVEFSRnk?oc=5",
+          "publishedAt": "2026-11-25T02:51:00+00:00"
+        },
+        {
+          "name": "Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY19ZRWJTekpQbHY2LWFNSVZXVVgxamxHdGRzd3RXcm1qektPbWlsODNKZEhiQU15Q2dGVTBuRUZuRDFpZzJSOGM3OUxhNkV6LVhuVWpfYmk5Z01uMGNRc0VTajNqd09jMFl4UEdJdnl6MkROdW1kZ1ladjZ1d0dNYTZxSmJRdEVZckU0QmRjY0Fqb0RVU21QYWlCeFRWeGltaFJfaGFfQWNDc3B3WXdyeFVreFNMc0Rt0gG-AUFVX3lxTFA0Nkphc2ZFVF9mN0dpUGdtRXljdkRoUFNIaXo5LWpkbjlldXRrMHRvRk92NFZvbGdqV2RyNUJsaHNidGt2SlIySTlWdS0tZU9lS1Q4MUY4YkFmMGlrRW9GbjJUbGlJTFkzb0xodXNQakVvUzhkNjZIQkMxa3JKZ0tyT25BVjVSV0Q5bnBNMlkwTktDUC1QcWdxejBZcms5dUV1d0F4YkR2MHJyeGx0M25oRHc1SmxJY2I1MUFOdnc?oc=5",
+          "publishedAt": "2026-11-25T01:28:17+00:00"
         }
       ],
-      "firstSeen": "2026-11-24T11:39:37+00:00",
+      "firstSeen": "2026-11-25T00:57:44+00:00",
       "status": "New",
-      "lastChecked": "2026-11-24T21:15:09.080348+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "lastChecked": "2026-11-25T04:17:55.878861+00:00",
+      "corroborated": true,
+      "corroboratingSourcesAdded": 2,
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
       "changed": true,
@@ -173,75 +264,51 @@
       "categories": [
         "World"
       ],
-      "title": "NATO chief says alliance will counter any space threats after reports of Russian nuclear‑armed satellite",
+      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
       "publishedAt": "2026-11-24T10:58:51+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
+      "importanceScore": 13.3,
+      "sourceCount": 3,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "summary": "NATO Secretary‑General Mark Rutte said the alliance will defend against any threats in space following German media reports that Russia is preparing to launch a nuclear‑armed satellite within 60 days. Intelligence about the possible launch was shared among NATO members earlier this month, though the source of the reports was not identified. German Chancellor Friedrich Merz called the reports shocking, while Kremlin spokesman Dmitry Peskov dismissed the stories as unverified.",
-      "why": "A nuclear‑armed satellite would alter the strategic balance and increase the risk of weaponising outer space.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-24T10:58:51+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-24T02:15:59+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-24T21:15:09.080348+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "NATO says it will defend against any space threats after reports of Russian nuclear satellite plan",
-      "previousSummary": "NATO chief Mark Rutte said the alliance will defend against any threats in space after reports that Russia was preparing to launch a nuclear‑armed satellite. Intelligence reports about a possible launch within the next 60 days were shared among NATO members earlier this month, according to German media outlets. The source of the reports was not identified.",
-      "previousPublishedAt": "2026-11-24T02:15:59+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.7,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "77bb87ac314807",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Japanese bond yields fall as lower oil prices ease inflation concerns",
-      "publishedAt": "2026-11-24T03:04:17+00:00",
-      "importanceScore": 12.4,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms",
-      "summary": "Japanese government bond yields declined due to falling oil prices that eased inflation concerns. Meanwhile, Japan's benchmark Nikkei 225 index experienced a brief surge of 5% following Nvidia's leadership announcement.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "summary": "Nato chief Mark Rutte and German Chancellor Friedrich Merz respond to reports of Russian plans to launch nuclear weapons into space Nato chief Mark Rutte has said the alliance will defend against any threats in space after German reports that Russia is preparing to launch a nuclear-armed satellite. Intelligence reports about a possible launch in the next 60 days had been shared among Nato countries this month, according to German media.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms",
-          "publishedAt": "2026-11-24T03:04:17+00:00"
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-24T10:58:51+00:00"
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xampkdUlKOThsOWVKdzRnQWVORURqT1VYb2ZkMlBkUkFBNldUWGNWcXd0bU1rZE82MktIMUhITWVCcU9kakplb2NQcUlDaEg0X0pTQ054a0JkeGc?oc=5",
+          "publishedAt": "2026-11-24T10:58:51+00:00"
+        },
+        {
+          "name": "Canadian Affairs",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVENlaU9LclB5cFlIRV8yUm9XWFJ3M04wLVRwZVRaU3BzRXZtaTgwcUhNMjVqMDNwWVVQZElncUIySUx5Z2VKOEZzQjRNQkc4WjFPSmw4Y0pncFQ2NVFraDlIUnpmT1BVeGthaThDTVN2T0RQTzRnUUFVYVFsbzNUSmJ1QmVjaDhvZDd0S0JwakMyRl9QdlhULVhBcjZXUjRGVGhHZ3lrSzgzdTBvYXl3WmEtWjQ?oc=5",
+          "publishedAt": "2026-11-24T10:00:00+00:00"
         }
       ],
-      "firstSeen": "2026-11-24T03:04:17+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-24T21:15:09.080348+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
+      "firstSeen": "2026-11-24T02:15:59+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-25T04:17:55.878861+00:00",
+      "corroborated": true,
+      "corroboratingSourcesAdded": 2,
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 2,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
+      "previousTitle": "NATO chief says alliance will counter any space threats after reports of Russian nuclear‑armed satellite",
+      "previousSummary": "NATO Secretary‑General Mark Rutte said the alliance will defend against any threats in space following German media reports that Russia is preparing to launch a nuclear‑armed satellite within 60 days. Intelligence about the possible launch was shared among NATO members earlier this month, though the source of the reports was not identified. German Chancellor Friedrich Merz called the reports shocking, while Kremlin spokesman Dmitry Peskov dismissed the stories as unverified.",
+      "previousPublishedAt": "2026-11-24T10:58:51+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.7,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "2 additional sources now support this event.",
+      "lifecycle": "Updated"
     },
     {
       "id": "691f643690e07e",
@@ -252,8 +319,8 @@
       ],
       "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
       "publishedAt": "2026-11-24T16:46:00+00:00",
-      "importanceScore": 12.0,
-      "sourceCount": 1,
+      "importanceScore": 12.8,
+      "sourceCount": 2,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
       "summary": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.",
@@ -266,69 +333,45 @@
           "name": "techcrunch.com",
           "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
           "publishedAt": "2026-11-24T16:46:00+00:00"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaXpucU9sTjVyYnEzUnJtYnZ1M1NUUUxLZFpCTWp4SktXdzJFMzJxNnk4ODdERXI0N200VGZFWDhqSU9PNmF1aGItSjVUd0ZhWkRBb0FIUlpDTGdDbExqWFpRbGtpTDZTaXlib0MzOUdKR1BDZlplYklJaDVvU2JGUkZpcTVqMTNxM2xTMTdIVlJLUzg?oc=5",
+          "publishedAt": "2026-11-24T17:34:34+00:00"
         }
       ],
       "firstSeen": "2026-11-24T16:46:00+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-24T21:15:09.080348+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-25T04:17:55.878861+00:00",
+      "corroborated": true,
+      "corroboratingSourcesAdded": 1,
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
+      "previousTitle": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "previousSummary": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.",
+      "previousPublishedAt": "2026-11-24T16:46:00+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.0,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "866dcd2717359b",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Anthropic CEO Dario Amodei sells shares worth USD 280.41 million after IPO",
-      "publishedAt": "2026-11-24T11:37:14+00:00",
-      "importanceScore": 12.0,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms",
-      "summary": "Dario Amodei, chief executive of Anthropic, sold shares valued at USD 280.41 million following the company’s Nasdaq debut. He reported holding 202.8 million shares directly and additional shares through trusts. The IPO raised USD 81.34 billion; the stock opened above the USD 83 offering price but closed lower, still remaining above that price.",
-      "why": "Insider sales give investors a direct signal about the executive’s view of the company’s valuation and liquidity.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms",
-          "publishedAt": "2026-11-24T11:37:14+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-24T11:37:14+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-24T21:15:09.080348+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "1 additional source now support this event.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 5,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-24T10:58:12.172562+00:00",
+  "previousUpdated": "2026-11-24T21:15:09.080348+00:00",
   "changeSummary": {
-    "new": 6,
-    "updated": 1,
-    "continuing": 1
+    "new": 3,
+    "updated": 4,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-21T23:20:46.613399+00:00",
-    "updated": "2026-11-24T21:15:09.080348+00:00",
+    "availableFrom": "2026-11-22T15:21:37.032448+00:00",
+    "updated": "2026-11-25T04:17:55.878861+00:00",
     "snapshotCount": 8,
     "eventCount": 75,
     "retentionHours": 72
