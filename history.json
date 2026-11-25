@@ -3,34 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-22T15:21:37.032448+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 0,
-        "continuing": 0
-      },
-      "stories": [
-        {
-          "id": "93e977cb031c5a",
-          "cat": "World",
-          "title": "Russian cargo vessel hit by drone in Gulf of Finland",
-          "summary": "A Russian cargo ship, the Sparta II, was struck by a drone on Saturday while en route to the Kaliningrad exclave and drifted into Finnish waters. Finnish defence officials said Ukraine was likely responsible. Rescue and firefighting teams from Finland, Estonia and Russia continued to work on Sunday, using water to keep the vessel from sinking, and reported no danger to nearby traffic.",
-          "why": "The incident shows the vulnerability of commercial shipping in the Baltic region to drone attacks and the risk of wider geopolitical tension.",
-          "publishedAt": "2026-11-22T11:25:14+00:00",
-          "firstSeen": "2026-11-22T11:25:14+00:00",
-          "importanceScore": 13.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "at": "2026-11-22T21:48:20.445462+00:00",
       "changeSummary": {
         "new": 4,
@@ -837,415 +809,145 @@
           "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T15:38:47.874196+00:00",
+      "changeSummary": {
+        "new": 4,
+        "updated": 2,
+        "continuing": 1
+      },
+      "stories": [
+        {
+          "id": "56d5dd19eb4fa4",
+          "cat": "Canada",
+          "title": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
+          "summary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said high energy prices are expected to keep pressuring consumers at the pump and beyond in 2027, even as oil prices have fallen. He warned that larger and more frequent supply shocks could produce a second‑round effect of the recent Middle‑East oil shock, adding to inflation persistence. The remarks followed his earlier announcement that he will not seek a second term.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-24T18:22:26+00:00",
+          "firstSeen": "2026-11-24T18:22:26+00:00",
+          "importanceScore": 15.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief.",
+          "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss"
+        },
+        {
+          "id": "196e1cec03d45f",
+          "cat": "World",
+          "title": "BBC analysis of leaked Rosstat data finds at least 490,000 Russian soldiers killed in Ukraine war",
+          "summary": "The BBC examined more than 11 million death records from Russia’s statistics agency (Rosstat) covering 2021 to September 2026, obtained after hacks attributed to the Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow. The analysis shows that at least 490,334 Russian soldiers have died since the invasion began in 2022. The Kremlin says only the defence ministry can officially report casualties and has not released figures for several years.",
+          "why": "The estimate offers the first publicly available glimpse of Russian military fatalities, shaping understanding of the war’s human cost and informing policy and public debate.",
+          "publishedAt": "2026-11-25T12:21:49+00:00",
+          "firstSeen": "2026-11-25T12:21:49+00:00",
+          "importanceScore": 14.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "b5469d39dd5fa7",
+          "cat": "Indian Markets",
+          "title": "Grasim Inds Share Price Live Updates: Grasim Inds. Stock Price History",
+          "summary": "Stay ahead of the market with our in-depth coverage of Grasim Inds, including: Last traded price 3162.0, Market capitalization: 215199.58, Volume: 617889, Price-to-earnings ratio 43.86, Earnings per share 72.09. Dive into the current details of Coal India, including: Last traded price 385.0, Market capitalization: 237265.04, Volume: 9092786, Price-to-earnings ratio 7.11, Earnings per share 54.14.",
+          "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+          "publishedAt": "2026-11-25T06:49:20+00:00",
+          "firstSeen": "2026-11-25T06:49:20+00:00",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-25-nov-2026/liveblog/136151488.cms"
+        },
+        {
+          "id": "146a1bce0394e9",
+          "cat": "AI",
+          "title": "Amazon acquires Decart for $7.5 billion to boost Trainium AI chip performance",
+          "summary": "Amazon announced it will acquire Decart’s technology and team for a reported $7.5 billion. Decart’s Optimization Stack improves AI model efficiency on non‑Nvidia hardware, and Amazon plans to integrate it with its Trainium chips to increase performance and expand AWS AI services. The deal follows reported interest from Anthropic and Nvidia and builds on a collaboration that began in 2025.",
+          "why": "The acquisition gives Amazon a software layer to narrow the performance gap with Nvidia’s chips, enhancing its AI cloud offering.",
+          "publishedAt": "2026-11-24T15:51:07+00:00",
+          "firstSeen": "2026-11-24T15:51:07+00:00",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+        },
+        {
+          "id": "c17b40ca454107",
+          "cat": "Canada",
+          "title": "One man dead after shooting during midtown Toronto home invasion",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+          "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+          "publishedAt": "2026-11-25T13:36:17+00:00",
+          "firstSeen": "2026-11-25T13:36:17+00:00",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12165446/poplar-plains-road-toronto-home-shooting/"
+        },
+        {
+          "id": "691f643690e07e",
+          "cat": "AI",
+          "title": "Tidal to ban fully AI‑generated songs and delete millions of tracks",
+          "summary": "Tidal announced it will begin removing songs that are entirely generated by artificial intelligence starting December 9, with an expected deletion of more than 29 million tracks by year‑end. The service said AI‑generated uploads made up over 43 % of new uploads in the past 90 days, leading to a daily rejection of roughly 80,000–85,000 tracks. Tidal will still accept songs that use AI assistance but will block 100 % AI submissions and ban distribution services that deliver them.",
+          "why": "To stem the flood of fully AI‑generated uploads that are overwhelming the platform’s catalog.",
+          "publishedAt": "2026-11-24T16:46:00+00:00",
+          "firstSeen": "2026-11-24T16:46:00+00:00",
+          "importanceScore": 11.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief.",
+          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+        },
+        {
+          "id": "c147372ae78010",
+          "cat": "India",
+          "title": "RBI steps up scrutiny of importers' forex deals after split‑transaction pattern emerges",
+          "summary": "The Reserve Bank of India has increased scrutiny of foreign‑exchange transactions by importers after detecting that some companies are breaking up purchases into amounts below the $2 million threshold to avoid higher reserve requirements. Data show a sharp decline in the average size of dollar‑buying transactions since October 10, even as the total number of deals has risen, leading the RBI to launch fresh compliance checks on banks that process these trades.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-25T10:12:37+00:00",
+          "firstSeen": "2026-11-25T10:12:37+00:00",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rbi-hunts-for-possible-2-million-loophole-in-importers-forex-transactions-reserve-bank-of-india-importers-foreign-exchange-deals-split-for-benefits-scams/articleshow/136156504.cms"
+        }
+      ]
     }
   ],
   "events": {
-    "cb1f71304dbbb3": {
-      "id": "cb1f71304dbbb3",
-      "firstSeen": "2026-11-17T11:17:32+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T14:28:26.673333+00:00",
-          "title": "US probes Singapore firm Megaspeed over alleged Nvidia chip exports to China",
-          "summary": "The United States Department of Justice and Department of Commerce announced a joint investigation into Singapore‑based Megaspeed, alleging the company helped ship Nvidia’s high‑end AI chips to China in violation of U.S. export controls. The probe, which began in 2024, follows recent revelations about Nvidia founder Jensen Huang’s extramarital affairs and accusations that former Megaspeed executive Alice Huang was spying for Beijing, a claim China denies.",
-          "importanceScore": 16.9,
-          "sourceCount": 3,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "US investigates Singapore firm Megaspeed over alleged Nvidia chip exports to China",
-          "summary": "The U.S. Department of Justice and Department of Commerce announced a joint investigation into Singapore‑based Megaspeed, accusing it of violating U.S. export controls by facilitating shipments of Nvidia’s high‑end AI chips to China. The probe, which began in 2024, follows concerns that such chips may have reached China despite restrictions. U.S. authorities also suspect former Megaspeed executive Alice Huang of spying for Beijing, a claim China denies, and note that Nvidia CEO Jensen Huang resigned after personal scandal revelations.",
-          "importanceScore": 14.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Its significance score fell as the evidence changed."
-        },
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "US probes Singapore firm Megaspeed over alleged Nvidia chip exports to China",
-          "summary": "The United States Department of Justice and Department of Commerce announced that they are investigating Singapore‑based computing company Megaspeed for suspected violations of U.S. export controls by facilitating the shipment of Nvidia’s high‑end AI chips to China. The probe, which began in 2024, follows concerns that such chips may have reached China despite restrictions. Authorities also allege that former Megaspeed executive Alice Huang, who was involved in an extramarital affair with Nvidia founder Jensen Huang, acted as a spy for Beijing, a claim China denies.",
-          "importanceScore": 13.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T04:25:27.351040+00:00",
-      "cat": "World",
-      "latestTitle": "US probes Singapore firm Megaspeed over alleged Nvidia chip exports to China",
-      "latestSummary": "The United States Department of Justice and Department of Commerce announced that they are investigating Singapore‑based computing company Megaspeed for suspected violations of U.S. export controls by facilitating the shipment of Nvidia’s high‑end AI chips to China. The probe, which began in 2024, follows concerns that such chips may have reached China despite restrictions. Authorities also allege that former Megaspeed executive Alice Huang, who was involved in an extramarital affair with Nvidia founder Jensen Huang, acted as a spy for Beijing, a claim China denies.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss"
-    },
-    "b4efc05459ede5": {
-      "id": "b4efc05459ede5",
-      "firstSeen": "2026-11-17T10:00:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T14:28:26.673333+00:00",
-          "title": "Canadian home sales edge up in October despite rate hike",
-          "summary": "National home sales rose 0.3 % month‑over‑month in October, according to the Canadian Real Estate Association, but remained 10.6 % below the level in October 2025. The modest increase ran counter to analysts’ expectations after the Bank of Canada raised its benchmark rate by a quarter‑point to 2.5 %. CREA senior economist Shaun Cathcart noted that activity between September and October was limited.",
-          "importanceScore": 16.0,
-          "sourceCount": 3,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "Canadian home sales edge up 0.3% in October, still 10.6% below October 2025",
-          "summary": "National home sales rose 0.3 percent month‑over‑month in October, according to the Canadian Real Estate Association, beating some analysts’ expectations. Despite the gain, sales were 10.6 percent lower than in October 2025, reflecting a market that remains flat amid recent interest‑rate hikes and a sluggish economy.",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "Canadian home sales rise 0.3% in October, still 10.6% below 2025 level",
-          "summary": "The Canadian Real Estate Association reported that national home sales increased 0.3 percent month‑over‑month in October 2026, but remained 10.6 percent lower than in October 2025. CREA senior economist Shaun Cathcart said activity between September and October was modest and the uptick ran opposite to analysts’ expectations. The increase came after the Bank of Canada raised its benchmark rate to 2.5 percent, its first hike since 2023.",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T04:25:27.351040+00:00",
-      "cat": "Canada",
-      "latestTitle": "Canadian home sales rise 0.3% in October, still 10.6% below 2025 level",
-      "latestSummary": "The Canadian Real Estate Association reported that national home sales increased 0.3 percent month‑over‑month in October 2026, but remained 10.6 percent lower than in October 2025. CREA senior economist Shaun Cathcart said activity between September and October was modest and the uptick ran opposite to analysts’ expectations. The increase came after the Bank of Canada raised its benchmark rate to 2.5 percent, its first hike since 2023.",
-      "why": "The data show how the housing market is responding to higher borrowing costs, informing buyers, sellers and policymakers.",
-      "url": "https://www.cbc.ca/news/business/crea-october-home-sales-numbers-9.7424208?cmp=rss"
-    },
-    "dccd15026cf351": {
-      "id": "dccd15026cf351",
-      "firstSeen": "2026-11-17T06:58:34+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T14:28:26.673333+00:00",
-          "title": "India’s current‑account deficit projected at 1.2 % of GDP in FY 27",
-          "summary": "Union Bank of India projects India’s current‑account deficit will reach about 1.2 % of GDP in fiscal year 2027, citing higher crude‑oil prices and strong gold demand. The merchandise trade deficit widened to roughly USD 39.9 billion in October as imports surged, while the services‑trade surplus remained almost unchanged.",
-          "importanceScore": 15.4,
-          "sourceCount": 3,
-          "sourceQuality": "tier-2",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "India’s current account deficit projected at 1.2% of GDP in FY27",
-          "summary": "Union Bank of India projects the current account deficit to reach about 1.2% of GDP in the 2026‑27 fiscal year, citing higher crude oil prices and strong gold demand as drivers. The merchandise trade deficit widened to $39.88 billion in October as imports rose, while the services trade surplus was almost unchanged.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Its significance score fell as the evidence changed."
-        },
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "India's current account deficit projected at 1.2% of GDP in FY27",
-          "summary": "A Union Bank of India report projects the current account deficit will reach about 1.2% of GDP in the 2027 fiscal year, citing high crude‑oil prices and strong gold demand as key drivers. The merchandise trade deficit widened to roughly $39.9 billion in October as imports rose sharply, while the services trade surplus stayed almost unchanged. These factors raise risks to the external balance.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T04:25:27.351040+00:00",
-      "cat": "India",
-      "latestTitle": "India's current account deficit projected at 1.2% of GDP in FY27",
-      "latestSummary": "A Union Bank of India report projects the current account deficit will reach about 1.2% of GDP in the 2027 fiscal year, citing high crude‑oil prices and strong gold demand as key drivers. The merchandise trade deficit widened to roughly $39.9 billion in October as imports rose sharply, while the services trade surplus stayed almost unchanged. These factors raise risks to the external balance.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-cad-may-touch-1-2-of-gdp-in-fy27-as-oil-gold-demand-pose-risks-ubi/articleshow/135914575.cms"
-    },
-    "a40ceaf039e883": {
-      "id": "a40ceaf039e883",
-      "firstSeen": "2026-11-17T05:26:46+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T14:28:26.673333+00:00",
-          "title": "Inflation Crosses 6%: Did RBI Act Too Late?",
-          "summary": "The Morning Brief Decode India's retail inflation has breached the RBI's 6% tolerance ceiling, reaching 6.09% in October 2026. [](https://economictimes.indiatimes.com/news/economy/indicators/inflation-crosses-6-did-rbi-act-too-late-the-morning-brief-decode/videoshow/135912037.cms \"Email this video\")",
-          "importanceScore": 14.6,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "India’s retail inflation rises to 6.09% in October 2026",
-          "summary": "India’s retail inflation breached the RBI’s 6 % tolerance ceiling, reaching 6.09 % in October 2026. Food prices were surging, putting pressure on household budgets, and the central bank faced questions about whether it had acted too late on interest rates and why its inflation forecasts missed the mark.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "India’s retail inflation hits 6.09% in October 2026, above RBI’s 6% ceiling",
-          "summary": "Retail price inflation rose to 6.09% in October 2026, breaching the Reserve Bank of India’s 6% tolerance band. The increase is driven by a sharp rise in food prices, putting pressure on household budgets. The outcome has raised questions about the timing of RBI’s interest‑rate actions and the accuracy of its inflation forecasts.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T04:25:27.351040+00:00",
-      "cat": "India",
-      "latestTitle": "India’s retail inflation hits 6.09% in October 2026, above RBI’s 6% ceiling",
-      "latestSummary": "Retail price inflation rose to 6.09% in October 2026, breaching the Reserve Bank of India’s 6% tolerance band. The increase is driven by a sharp rise in food prices, putting pressure on household budgets. The outcome has raised questions about the timing of RBI’s interest‑rate actions and the accuracy of its inflation forecasts.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/inflation-crosses-6-did-rbi-act-too-late-the-morning-brief-decode/videoshow/135912037.cms"
-    },
-    "4b8b48f2923063": {
-      "id": "4b8b48f2923063",
-      "firstSeen": "2026-11-17T13:01:11+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "Ukraine damages Crimean Bridge, section collapses into water",
-          "summary": "Ukraine has severely damaged the Crimean Bridge that links Russia to occupied Crimea, with images showing a section of the structure collapsed into the water. President Volodymyr Zelensky described the strike as an unprecedented operation. In Kyiv, Mayor Vitaliy Klitschko said traffic on the Pivnichnyi and Pivdennyi bridges over the Dnipro River had partially resumed after overnight Russian attacks.",
-          "importanceScore": 14.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "Ukraine damages Crimean Bridge, section collapses into water",
-          "summary": "Ukraine struck the Crimean Bridge with long‑range weapons in a multi‑stage operation, causing a portion of the double‑arched structure to fall into the Kerch Strait. President Volodymyr Zelensky called the attack “unprecedented,” and Kremlin spokesman Dmitry Peskov said the bridge will be rebuilt. The bridge carries road and rail traffic for Russian forces to Crimea.",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        },
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-          "summary": "Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making. Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good.",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
-      "cat": "World",
-      "latestTitle": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "latestSummary": "Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making. Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
-    },
-    "9fe8a7077b8df7": {
-      "id": "9fe8a7077b8df7",
-      "firstSeen": "2026-11-17T18:27:27+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "UK sanctions eight firms over West Bank settlement construction",
-          "summary": "The UK has sanctioned eight construction and property development firms it says are involved in building settlements in the occupied West Bank, the first package of measures since the government announced a tougher approach to Israeli actions in the territory. The government said the sanctions would disrupt the firms' flows of finance and their ability to support building in the West Bank. Israeli Foreign Minister Gideon Saar called the sanctions a \"hostile act targeting private, law-abiding companies\".",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "UK sanctions eight construction firms over West Bank settlement building",
-          "summary": "The United Kingdom imposed sanctions on eight construction and property‑development companies it says are involved in building Israeli settlements in the occupied West Bank. The measures are the first package announced after the government said it would take a tougher approach to Israeli actions in the territory, and are intended to disrupt the firms’ financing and ability to support settlement construction.",
-          "importanceScore": 13.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T04:25:27.351040+00:00",
-      "cat": "World",
-      "latestTitle": "UK sanctions eight construction firms over West Bank settlement building",
-      "latestSummary": "The United Kingdom imposed sanctions on eight construction and property‑development companies it says are involved in building Israeli settlements in the occupied West Bank. The measures are the first package announced after the government said it would take a tougher approach to Israeli actions in the territory, and are intended to disrupt the firms’ financing and ability to support settlement construction.",
-      "why": "The sanctions aim to cut financial flows that enable settlement building in the occupied West Bank.",
-      "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss"
-    },
-    "3ffbbf6a5f1f36": {
-      "id": "3ffbbf6a5f1f36",
-      "firstSeen": "2026-11-17T21:34:50+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-17T22:54:34.896201+00:00",
-          "title": "Google says Gmail is operating normally amid outage rumors",
-          "summary": "On Tuesday, Google posted on X that it sees no evidence of a broad Gmail service disruption and directed users to the Gmail real‑time status dashboard. The statement was made after reports of a Gmail outage circulated on X at the same time Apple experienced confirmed outages. The rumors originated from a Downdetector post, which is a crowdsourced, non‑official source.",
-          "importanceScore": 10.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "Google says Gmail is operating normally amid outage rumors",
-          "summary": "On Tuesday, Google posted on X that it is not seeing evidence of a broad Gmail service disruption and reminded users they can check Gmail’s real‑time status dashboard. The post was intended to counter reports of a Gmail outage that began circulating on X after a Downdetector post. The clarification arrived while Apple and Microsoft had recently confirmed service interruptions.",
-          "importanceScore": 8.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
-      "cat": "AI",
-      "latestTitle": "Google says Gmail is operating normally amid outage rumors",
-      "latestSummary": "On Tuesday, Google posted on X that it is not seeing evidence of a broad Gmail service disruption and reminded users they can check Gmail’s real‑time status dashboard. The post was intended to counter reports of a Gmail outage that began circulating on X after a Downdetector post. The clarification arrived while Apple and Microsoft had recently confirmed service interruptions.",
-      "why": "It reassures users and reflects heightened concern about the reliability of major tech services.",
-      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/"
-    },
-    "96ef903ac51418": {
-      "id": "96ef903ac51418",
-      "firstSeen": "2026-11-18T01:40:29+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "Amazon and Google to own nearly 30% of Anthropic after IPO",
-          "summary": "Anthropic announced an IPO that aims to raise about $64.4 billion. Amazon will hold roughly 14.7% of the post‑IPO equity, converting promissory notes into non‑voting shares, while Google will own about 14% of the shares. Together the two cloud providers will control close to 30% of Anthropic’s outstanding stock.",
-          "importanceScore": 15.8,
-          "sourceCount": 2,
-          "sourceQuality": "tier-2",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T04:25:27.351040+00:00",
-      "cat": "AI",
-      "latestTitle": "Amazon and Google to own nearly 30% of Anthropic after IPO",
-      "latestSummary": "Anthropic announced an IPO that aims to raise about $64.4 billion. Amazon will hold roughly 14.7% of the post‑IPO equity, converting promissory notes into non‑voting shares, while Google will own about 14% of the shares. Together the two cloud providers will control close to 30% of Anthropic’s outstanding stock.",
-      "why": "The combined stake gives the two cloud giants a significant strategic position in Anthropic’s AI platform and potential influence over its future direction.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-google-each-to-own-over-14-of-anthropic-stock-after-ipo/articleshow/135945131.cms"
-    },
-    "8a65325fcc93b7": {
-      "id": "8a65325fcc93b7",
-      "firstSeen": "2026-11-18T01:08:58+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
-          "summary": "Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jensen Huang — signaled resilient demand. MSCI Inc.’s Asian equities gauge rose 0.3%, snapping a four-day run of losses, led by South Korea’s Kospi Index — a key barometer for the AI trade.",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T04:25:27.351040+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
-      "latestSummary": "Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jensen Huang — signaled resilient demand. MSCI Inc.’s Asian equities gauge rose 0.3%, snapping a four-day run of losses, led by South Korea’s Kospi Index — a key barometer for the AI trade.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms"
-    },
-    "24ff3e2e859460": {
-      "id": "24ff3e2e859460",
-      "firstSeen": "2026-11-18T03:26:48+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T04:25:27.351040+00:00",
-          "title": "Bajaj Auto shares trade at 10,661 rupees with market cap of 293,353.1 as of 09:48 IST, 18 Nov 2026",
-          "summary": "At 09:48:03 AM IST on 18 Nov 2026, Bajaj Auto’s last traded price was 10,661.0 rupees. The company’s market capitalization was reported at 293,353.1, with a trading volume of 49,274 shares. Its price‑to‑earnings ratio stood at 22.41 and earnings per share at 475.74.",
-          "importanceScore": 11.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T04:25:27.351040+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Bajaj Auto shares trade at 10,661 rupees with market cap of 293,353.1 as of 09:48 IST, 18 Nov 2026",
-      "latestSummary": "At 09:48:03 AM IST on 18 Nov 2026, Bajaj Auto’s last traded price was 10,661.0 rupees. The company’s market capitalization was reported at 293,353.1, with a trading volume of 49,274 shares. Its price‑to‑earnings ratio stood at 22.41 and earnings per share at 475.74.",
-      "why": "This snapshot gives investors current valuation and liquidity data for trading decisions.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-today-live-18-nov-2026/liveblog/135947342.cms"
-    },
     "ae27dedb54f51b": {
       "id": "ae27dedb54f51b",
       "firstSeen": "2026-11-18T04:57:06+00:00",
@@ -1283,31 +985,6 @@
       "latestSummary": "In a press briefing, Secretary of State Marco Rubio told reporters there is “zero evidence” that the recent week’s tech disruptions—including a major Microsoft outage, a glitch that grounded U.S. flights, and problems affecting banks, Apple and the NSA—are linked. He said the incidents are not inter‑related and emphasized that the United States is not under a systemic attack. Cyber‑security experts cited in the briefing also said no link has been found, attributing many issues to aging infrastructure updates.",
       "why": "The clarification aims to reduce public anxiety and prevent misinterpretation of unrelated technical failures as a coordinated cyber threat.",
       "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
-    },
-    "a31abcff8e105e": {
-      "id": "a31abcff8e105e",
-      "firstSeen": "2026-11-18T06:12:00+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "Anthropic IPO: Why Wall Street is betting big on Claude AI maker",
-          "summary": "Anthropic is preparing for one of the biggest stock market debuts in history, with the maker of Claude AI expected to command a valuation of around $1.4 trillion or higher. According to The Wall Street Journal, the company was most recently valued at $965 billion in private markets, setting the stage for a potentially significant valuation increase through its IPO.",
-          "importanceScore": 13.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Anthropic IPO: Why Wall Street is betting big on Claude AI maker",
-      "latestSummary": "Anthropic is preparing for one of the biggest stock market debuts in history, with the maker of Claude AI expected to command a valuation of around $1.4 trillion or higher. According to The Wall Street Journal, the company was most recently valued at $965 billion in private markets, setting the stage for a potentially significant valuation increase through its IPO.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-why-wall-street-is-betting-big-on-claude-ai-maker/slideshow/135951884.cms"
     },
     "d6260bfcfe1fdc": {
       "id": "d6260bfcfe1fdc",
@@ -1359,106 +1036,6 @@
       "latestSummary": "Goldman Sachs expects the Reserve Bank of India to increase its policy interest rate by 75 basis points by the second quarter of 2027. The firm projects headline inflation to stay above 6 percent into early 2027 before easing gradually. It also forecasts that India’s GDP growth will moderate to about 7.2 percent in 2027, supported by strong domestic demand and an emerging investment cycle.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms"
-    },
-    "f3694d9c050b26": {
-      "id": "f3694d9c050b26",
-      "firstSeen": "2026-11-18T13:24:30+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "Assetz Ltd receives SEBI approval for Rs 1,200 crore IPO",
-          "summary": "Assetz Ltd has obtained approval from the Securities and Exchange Board of India to proceed with an initial public offering, aiming to raise about Rs 1,200 crore. The company cites a large land bank and a robust project pipeline in Bengaluru, and notes backing from investors such as AGP Partners as it expands into additional markets.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Assetz Ltd receives SEBI approval for Rs 1,200 crore IPO",
-      "latestSummary": "Assetz Ltd has obtained approval from the Securities and Exchange Board of India to proceed with an initial public offering, aiming to raise about Rs 1,200 crore. The company cites a large land bank and a robust project pipeline in Bengaluru, and notes backing from investors such as AGP Partners as it expands into additional markets.",
-      "why": "The clearance allows the firm to raise fresh capital, which could draw investor interest and impact the Indian real‑estate sector.",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/real-estate-firm-assetz-gets-sebi-nod-to-float-rs-1200-cr-ipo/articleshow/135964641.cms"
-    },
-    "d9aa2d178a6672": {
-      "id": "d9aa2d178a6672",
-      "firstSeen": "2026-11-18T11:31:06+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "PI Industries among 5 stocks hitting 52-week low; slipped up to 26% in a month",
-          "summary": "Amid the market decline, five stocks from the BSE 500 Index touched fresh 52-week lows, hitting their lowest price levels in the past year. A 52-week low refers to the lowest price at which a stock has traded over the past year and is commonly used as an indicator of its recent price performance.",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "PI Industries among 5 stocks hitting 52-week low; slipped up to 26% in a month",
-      "latestSummary": "Amid the market decline, five stocks from the BSE 500 Index touched fresh 52-week lows, hitting their lowest price levels in the past year. A 52-week low refers to the lowest price at which a stock has traded over the past year and is commonly used as an indicator of its recent price performance.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pi-industries-among-5-stocks-hitting-52-week-low-slipped-up-to-26-in-a-month/slideshow/135961979.cms"
-    },
-    "c3583f66d8bf9f": {
-      "id": "c3583f66d8bf9f",
-      "firstSeen": "2026-11-18T12:57:54+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "New Toronto councillors include housing advocates aiming to address homelessness",
-          "summary": "Toronto’s newly elected council includes several tenant‑rights and homeless‑advocacy activists who say they will bring outreach experience to housing discussions. Some observers question whether advocate‑turned‑councillors can materially shift Toronto’s housing and homelessness policies, but the rookie members say they have the political will to apply their advocacy expertise to the city’s affordability crisis. Diana Chan McNally, elected for Parkdale‑High Park after 12 years working with people on the streets, said she will push for policies that address affordability, health‑care access and give homeless voices a platform, while also prioritising transit and waterfront issues.",
-          "importanceScore": 12.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
-      "cat": "Canada",
-      "latestTitle": "New Toronto councillors include housing advocates aiming to address homelessness",
-      "latestSummary": "Toronto’s newly elected council includes several tenant‑rights and homeless‑advocacy activists who say they will bring outreach experience to housing discussions. Some observers question whether advocate‑turned‑councillors can materially shift Toronto’s housing and homelessness policies, but the rookie members say they have the political will to apply their advocacy expertise to the city’s affordability crisis. Diana Chan McNally, elected for Parkdale‑High Park after 12 years working with people on the streets, said she will push for policies that address affordability, health‑care access and give homeless voices a platform, while also prioritising transit and waterfront issues.",
-      "why": "Council decisions shape Toronto’s housing affordability and homelessness response.",
-      "url": "https://globalnews.ca/news/12156000/can-advocates-elected-to-toronto-council-help-fix-housing-and-homelessness-crisis/"
-    },
-    "6d34501e15807e": {
-      "id": "6d34501e15807e",
-      "firstSeen": "2026-11-17T15:54:15+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "Russian strikes hit two Kyiv bridges, disrupt heating and water supplies",
-          "summary": "Russian attacks struck two major bridges in Kyiv, prompting Mayor Vitaliy Klitschko to report damage to critical infrastructure and overnight interruptions to the city’s heating and water services. In a separate video, President Volodymyr Zelensky shared footage of a missile approaching the Crimean Bridge, calling the operation “unprecedented” and saying it had been planned for weeks.",
-          "importanceScore": 11.9,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-18T14:03:29.343755+00:00",
-      "cat": "World",
-      "latestTitle": "Russian strikes hit two Kyiv bridges, disrupt heating and water supplies",
-      "latestSummary": "Russian attacks struck two major bridges in Kyiv, prompting Mayor Vitaliy Klitschko to report damage to critical infrastructure and overnight interruptions to the city’s heating and water services. In a separate video, President Volodymyr Zelensky shared footage of a missile approaching the Crimean Bridge, calling the operation “unprecedented” and saying it had been planned for weeks.",
-      "why": "The damage hampers essential services for civilians and underscores the vulnerability of Ukraine’s infrastructure amid the conflict.",
-      "url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss"
     },
     "ba44a7d42cade5": {
       "id": "ba44a7d42cade5",
@@ -3221,12 +2798,25 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "1 additional source now support this event."
+        },
+        {
+          "at": "2026-11-25T15:38:47.874196+00:00",
+          "title": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
+          "summary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said high energy prices are expected to keep pressuring consumers at the pump and beyond in 2027, even as oil prices have fallen. He warned that larger and more frequent supply shocks could produce a second‑round effect of the recent Middle‑East oil shock, adding to inflation persistence. The remarks followed his earlier announcement that he will not seek a second term.",
+          "importanceScore": 15.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "Continuing",
+          "changed": false,
+          "change": "No material change since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
+      "lastSeen": "2026-11-25T15:38:47.874196+00:00",
       "cat": "Canada",
       "latestTitle": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
-      "latestSummary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said that despite recent declines in benchmark oil prices, high energy costs will keep pressuring consumers at the pump and beyond in 2027. He warned that a second‑round effect of the recent Middle‑East‑linked oil shock will add to inflation persistence and noted the bank is bracing for larger and more frequent supply shocks.",
+      "latestSummary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said high energy prices are expected to keep pressuring consumers at the pump and beyond in 2027, even as oil prices have fallen. He warned that larger and more frequent supply shocks could produce a second‑round effect of the recent Middle‑East oil shock, adding to inflation persistence. The remarks followed his earlier announcement that he will not seek a second term.",
       "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss"
     },
@@ -3347,13 +2937,26 @@
           "lifecycle": "Updated",
           "changed": true,
           "change": "1 additional source now support this event."
+        },
+        {
+          "at": "2026-11-25T15:38:47.874196+00:00",
+          "title": "Tidal to ban fully AI‑generated songs and delete millions of tracks",
+          "summary": "Tidal announced it will begin removing songs that are entirely generated by artificial intelligence starting December 9, with an expected deletion of more than 29 million tracks by year‑end. The service said AI‑generated uploads made up over 43 % of new uploads in the past 90 days, leading to a daily rejection of roughly 80,000–85,000 tracks. Tidal will still accept songs that use AI assistance but will block 100 % AI submissions and ban distribution services that deliver them.",
+          "importanceScore": 11.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material facts or figures changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
+      "lastSeen": "2026-11-25T15:38:47.874196+00:00",
       "cat": "AI",
-      "latestTitle": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "latestSummary": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "latestTitle": "Tidal to ban fully AI‑generated songs and delete millions of tracks",
+      "latestSummary": "Tidal announced it will begin removing songs that are entirely generated by artificial intelligence starting December 9, with an expected deletion of more than 29 million tracks by year‑end. The service said AI‑generated uploads made up over 43 % of new uploads in the past 90 days, leading to a daily rejection of roughly 80,000–85,000 tracks. Tidal will still accept songs that use AI assistance but will block 100 % AI submissions and ban distribution services that deliver them.",
+      "why": "To stem the flood of fully AI‑generated uploads that are overwhelming the platform’s catalog.",
       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
     },
     "866dcd2717359b": {
@@ -3422,13 +3025,26 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-25T15:38:47.874196+00:00",
+          "title": "Amazon acquires Decart for $7.5 billion to boost Trainium AI chip performance",
+          "summary": "Amazon announced it will acquire Decart’s technology and team for a reported $7.5 billion. Decart’s Optimization Stack improves AI model efficiency on non‑Nvidia hardware, and Amazon plans to integrate it with its Trainium chips to increase performance and expand AWS AI services. The deal follows reported interest from Anthropic and Nvidia and builds on a collaboration that began in 2025.",
+          "importanceScore": 13.1,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-25T04:17:55.878861+00:00",
+      "lastSeen": "2026-11-25T15:38:47.874196+00:00",
       "cat": "AI",
-      "latestTitle": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
-      "latestSummary": "But there was another development yesterday that could also matter for Nvidia down the road: Amazon’s decision to acquire Decart‘s tech and its team for a reported $7.5 billion. Anthropic reportedly tried to acquire the startup in the same ballpark, and Nvidia, which invested in the startup’s $300 million funding round at a $4 billion valuation, was also rumored as a prospective buyer.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "latestTitle": "Amazon acquires Decart for $7.5 billion to boost Trainium AI chip performance",
+      "latestSummary": "Amazon announced it will acquire Decart’s technology and team for a reported $7.5 billion. Decart’s Optimization Stack improves AI model efficiency on non‑Nvidia hardware, and Amazon plans to integrate it with its Trainium chips to increase performance and expand AWS AI services. The deal follows reported interest from Anthropic and Nvidia and builds on a collaboration that began in 2025.",
+      "why": "The acquisition gives Amazon a software layer to narrow the performance gap with Nvidia’s chips, enhancing its AI cloud offering.",
       "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
     },
     "4c5818f3c476e0": {
@@ -3455,7 +3071,107 @@
       "latestSummary": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms"
+    },
+    "196e1cec03d45f": {
+      "id": "196e1cec03d45f",
+      "firstSeen": "2026-11-25T12:21:49+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-25T15:38:47.874196+00:00",
+          "title": "BBC analysis of leaked Rosstat data finds at least 490,000 Russian soldiers killed in Ukraine war",
+          "summary": "The BBC examined more than 11 million death records from Russia’s statistics agency (Rosstat) covering 2021 to September 2026, obtained after hacks attributed to the Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow. The analysis shows that at least 490,334 Russian soldiers have died since the invasion began in 2022. The Kremlin says only the defence ministry can officially report casualties and has not released figures for several years.",
+          "importanceScore": 14.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-25T15:38:47.874196+00:00",
+      "cat": "World",
+      "latestTitle": "BBC analysis of leaked Rosstat data finds at least 490,000 Russian soldiers killed in Ukraine war",
+      "latestSummary": "The BBC examined more than 11 million death records from Russia’s statistics agency (Rosstat) covering 2021 to September 2026, obtained after hacks attributed to the Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow. The analysis shows that at least 490,334 Russian soldiers have died since the invasion began in 2022. The Kremlin says only the defence ministry can officially report casualties and has not released figures for several years.",
+      "why": "The estimate offers the first publicly available glimpse of Russian military fatalities, shaping understanding of the war’s human cost and informing policy and public debate.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+    },
+    "b5469d39dd5fa7": {
+      "id": "b5469d39dd5fa7",
+      "firstSeen": "2026-11-25T06:49:20+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-25T15:38:47.874196+00:00",
+          "title": "Grasim Inds Share Price Live Updates: Grasim Inds. Stock Price History",
+          "summary": "Stay ahead of the market with our in-depth coverage of Grasim Inds, including: Last traded price 3162.0, Market capitalization: 215199.58, Volume: 617889, Price-to-earnings ratio 43.86, Earnings per share 72.09. Dive into the current details of Coal India, including: Last traded price 385.0, Market capitalization: 237265.04, Volume: 9092786, Price-to-earnings ratio 7.11, Earnings per share 54.14.",
+          "importanceScore": 13.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-25T15:38:47.874196+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Grasim Inds Share Price Live Updates: Grasim Inds. Stock Price History",
+      "latestSummary": "Stay ahead of the market with our in-depth coverage of Grasim Inds, including: Last traded price 3162.0, Market capitalization: 215199.58, Volume: 617889, Price-to-earnings ratio 43.86, Earnings per share 72.09. Dive into the current details of Coal India, including: Last traded price 385.0, Market capitalization: 237265.04, Volume: 9092786, Price-to-earnings ratio 7.11, Earnings per share 54.14.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-25-nov-2026/liveblog/136151488.cms"
+    },
+    "c17b40ca454107": {
+      "id": "c17b40ca454107",
+      "firstSeen": "2026-11-25T13:36:17+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-25T15:38:47.874196+00:00",
+          "title": "One man dead after shooting during midtown Toronto home invasion",
+          "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+          "importanceScore": 11.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-25T15:38:47.874196+00:00",
+      "cat": "Canada",
+      "latestTitle": "One man dead after shooting during midtown Toronto home invasion",
+      "latestSummary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "url": "https://globalnews.ca/news/12165446/poplar-plains-road-toronto-home-shooting/"
+    },
+    "c147372ae78010": {
+      "id": "c147372ae78010",
+      "firstSeen": "2026-11-25T10:12:37+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-25T15:38:47.874196+00:00",
+          "title": "RBI steps up scrutiny of importers' forex deals after split‑transaction pattern emerges",
+          "summary": "The Reserve Bank of India has increased scrutiny of foreign‑exchange transactions by importers after detecting that some companies are breaking up purchases into amounts below the $2 million threshold to avoid higher reserve requirements. Data show a sharp decline in the average size of dollar‑buying transactions since October 10, even as the total number of deals has risen, leading the RBI to launch fresh compliance checks on banks that process these trades.",
+          "importanceScore": 10.5,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-25T15:38:47.874196+00:00",
+      "cat": "India",
+      "latestTitle": "RBI steps up scrutiny of importers' forex deals after split‑transaction pattern emerges",
+      "latestSummary": "The Reserve Bank of India has increased scrutiny of foreign‑exchange transactions by importers after detecting that some companies are breaking up purchases into amounts below the $2 million threshold to avoid higher reserve requirements. Data show a sharp decline in the average size of dollar‑buying transactions since October 10, even as the total number of deals has risen, leading the RBI to launch fresh compliance checks on banks that process these trades.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rbi-hunts-for-possible-2-million-loophole-in-importers-forex-transactions-reserve-bank-of-india-importers-foreign-exchange-deals-split-for-benefits-scams/articleshow/136156504.cms"
     }
   },
-  "updated": "2026-11-25T04:17:55.878861+00:00"
+  "updated": "2026-11-25T15:38:47.874196+00:00"
 }
