@@ -1,99 +1,22 @@
 {
-  "updated": "2026-11-25T15:38:47.874196+00:00",
+  "updated": "2026-11-26T00:23:33.754359+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
     "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 17,
+    "officialOrPrimaryCandidates": 16,
     "enrichedCandidates": 78,
-    "readableCandidates": 56,
-    "eventClusters": 49,
+    "readableCandidates": 57,
+    "eventClusters": 54,
     "materialEvents": 23,
-    "selectedEvents": 10,
-    "seededStories": 8,
+    "selectedEvents": 8,
+    "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
-    {
-      "id": "56d5dd19eb4fa4",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
-      "publishedAt": "2026-11-24T18:22:26+00:00",
-      "importanceScore": 15.5,
-      "sourceCount": 1,
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss",
-      "summary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said high energy prices are expected to keep pressuring consumers at the pump and beyond in 2027, even as oil prices have fallen. He warned that larger and more frequent supply shocks could produce a second‑round effect of the recent Middle‑East oil shock, adding to inflation persistence. The remarks followed his earlier announcement that he will not seek a second term.",
-      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "cbc.ca",
-          "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss",
-          "publishedAt": "2026-11-24T18:22:26+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-24T18:22:26+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-25T15:38:47.874196+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "Bank of Canada governor warns of second‑round oil‑linked inflation in 2027",
-      "previousSummary": "In a speech to the Economic Club of Canada in Toronto, Governor Tiff Macklem said that despite recent declines in benchmark oil prices, high energy costs will keep pressuring consumers at the pump and beyond in 2027. He warned that a second‑round effect of the recent Middle‑East‑linked oil shock will add to inflation persistence and noted the bank is bracing for larger and more frequent supply shocks.",
-      "previousPublishedAt": "2026-11-24T18:22:26+00:00",
-      "previousSourceCount": 2,
-      "previousImportanceScore": 17.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "196e1cec03d45f",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "BBC analysis of leaked Rosstat data finds at least 490,000 Russian soldiers killed in Ukraine war",
-      "publishedAt": "2026-11-25T12:21:49+00:00",
-      "importanceScore": 14.4,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC examined more than 11 million death records from Russia’s statistics agency (Rosstat) covering 2021 to September 2026, obtained after hacks attributed to the Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow. The analysis shows that at least 490,334 Russian soldiers have died since the invasion began in 2022. The Kremlin says only the defence ministry can officially report casualties and has not released figures for several years.",
-      "why": "The estimate offers the first publicly available glimpse of Russian military fatalities, shaping understanding of the war’s human cost and informing policy and public debate.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-25T12:21:49+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-25T12:21:49+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-25T15:38:47.874196+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
     {
       "id": "b5469d39dd5fa7",
       "cat": "Indian Markets",
@@ -103,11 +26,11 @@
       ],
       "title": "Grasim Inds Share Price Live Updates: Grasim Inds. Stock Price History",
       "publishedAt": "2026-11-25T06:49:20+00:00",
-      "importanceScore": 13.6,
+      "importanceScore": 12.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-25-nov-2026/liveblog/136151488.cms",
-      "summary": "Stay ahead of the market with our in-depth coverage of Grasim Inds, including: Last traded price 3162.0, Market capitalization: 215199.58, Volume: 617889, Price-to-earnings ratio 43.86, Earnings per share 72.09. Dive into the current details of Coal India, including: Last traded price 385.0, Market capitalization: 237265.04, Volume: 9092786, Price-to-earnings ratio 7.11, Earnings per share 54.14.",
+      "summary": "Welcome to the Grasim Inds Stock Liveblog, your go-to platform for real-time updates and analysis on a top-performing stock. Stay ahead of the market with our in-depth coverage of Grasim Inds, including: Last traded price 3162.0, Market capitalization: 215199.58, Volume: 617889, Price-to-earnings ratio 43.86, Earnings per share 72.09.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -130,85 +53,126 @@
         }
       ],
       "firstSeen": "2026-11-25T06:49:20+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-25T15:38:47.874196+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
+      "previousTitle": "Grasim Inds Share Price Live Updates: Grasim Inds. Stock Price History",
+      "previousSummary": "Stay ahead of the market with our in-depth coverage of Grasim Inds, including: Last traded price 3162.0, Market capitalization: 215199.58, Volume: 617889, Price-to-earnings ratio 43.86, Earnings per share 72.09. Dive into the current details of Coal India, including: Last traded price 385.0, Market capitalization: 237265.04, Volume: 9092786, Price-to-earnings ratio 7.11, Earnings per share 54.14.",
+      "previousPublishedAt": "2026-11-25T06:49:20+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.6,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "146a1bce0394e9",
-      "cat": "AI",
-      "icon": "✦",
+      "id": "196e1cec03d45f",
+      "cat": "World",
+      "icon": "🌍",
       "categories": [
-        "AI"
+        "World"
       ],
-      "title": "Amazon acquires Decart for $7.5 billion to boost Trainium AI chip performance",
-      "publishedAt": "2026-11-24T15:51:07+00:00",
-      "importanceScore": 13.1,
+      "title": "BBC analysis of leaked Rosstat data shows at least 490,334 Russian soldiers killed since 2022",
+      "publishedAt": "2026-11-25T12:21:49+00:00",
+      "importanceScore": 12.4,
       "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-      "summary": "Amazon announced it will acquire Decart’s technology and team for a reported $7.5 billion. Decart’s Optimization Stack improves AI model efficiency on non‑Nvidia hardware, and Amazon plans to integrate it with its Trainium chips to increase performance and expand AWS AI services. The deal follows reported interest from Anthropic and Nvidia and builds on a collaboration that began in 2025.",
-      "why": "The acquisition gives Amazon a software layer to narrow the performance gap with Nvidia’s chips, enhancing its AI cloud offering.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC analysts examined more than 11 million Russian death records from 2021 to September 2026 that were leaked after a cyber‑attack attributed to the Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow. The data indicate that at least 490,334 Russian military personnel have died since the invasion began in 2022. The Kremlin reiterated that only the defence ministry can officially report casualty figures, which it has not released for several years.",
+      "why": "The figure provides an independent estimate of Russian military losses, challenging the official silence and informing public understanding of the war’s human cost.",
+      "confidence": "medium",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-25T12:21:49+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-25T12:21:49+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "previousTitle": "BBC analysis of leaked Rosstat data finds at least 490,000 Russian soldiers killed in Ukraine war",
+      "previousSummary": "The BBC examined more than 11 million death records from Russia’s statistics agency (Rosstat) covering 2021 to September 2026, obtained after hacks attributed to the Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow. The analysis shows that at least 490,334 Russian soldiers have died since the invasion began in 2022. The Kremlin says only the defence ministry can officially report casualties and has not released figures for several years.",
+      "previousPublishedAt": "2026-11-25T12:21:49+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.4,
+      "changed": true,
+      "change": "Its significance score fell as the evidence changed.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "2e36efaa918e96",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India allocates 8,606 tonnes of raw cane sugar for US export under TRQ",
+      "publishedAt": "2026-11-25T07:44:33+00:00",
+      "importanceScore": 11.4,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/agriculture/india-allocates-8606-tonnes-of-raw-cane-sugar-for-export-to-us-under-tariff-rate-quota-scheme/articleshow/136152733.cms",
+      "summary": "India has set aside 8,606 metric tonnes of raw cane sugar for shipment to the United States under the existing Tariff Rate Quota (TRQ) arrangement. The allocation is part of the bilateral mechanism that limits the volume of sugar entering the US at reduced tariff rates. The shipment will be made available to Indian exporters seeking access to the US market.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-          "publishedAt": "2026-11-24T15:51:07+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/agriculture/india-allocates-8606-tonnes-of-raw-cane-sugar-for-export-to-us-under-tariff-rate-quota-scheme/articleshow/136152733.cms",
+          "publishedAt": "2026-11-25T07:44:33+00:00"
         }
       ],
-      "firstSeen": "2026-11-24T15:51:07+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-25T15:38:47.874196+00:00",
+      "firstSeen": "2026-11-25T07:44:33+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
-      "previousSummary": "But there was another development yesterday that could also matter for Nvidia down the road: Amazon’s decision to acquire Decart‘s tech and its team for a reported $7.5 billion. Anthropic reportedly tried to acquire the startup in the same ballpark, and Nvidia, which invested in the startup’s $300 million funding round at a $4 billion valuation, was also rumored as a prospective buyer.",
-      "previousPublishedAt": "2026-11-24T15:51:07+00:00",
-      "previousSourceCount": 2,
-      "previousImportanceScore": 13.9,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
-      "id": "c17b40ca454107",
-      "cat": "Canada",
-      "icon": "🇨🇦",
+      "id": "fa532bff9da26d",
+      "cat": "India",
+      "icon": "🇮🇳",
       "categories": [
-        "Canada"
+        "India"
       ],
-      "title": "One man dead after shooting during midtown Toronto home invasion",
-      "publishedAt": "2026-11-25T13:36:17+00:00",
-      "importanceScore": 11.7,
+      "title": "Net FDI turns negative at USD 4.95 billion in Sep on flow moderation, higher outflows: RBI",
+      "publishedAt": "2026-11-25T15:37:51+00:00",
+      "importanceScore": 10.9,
       "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12165446/poplar-plains-road-toronto-home-shooting/",
-      "summary": "GlobalNews home Watch World Canada Local Politics Money Health Entertainment Lifestyle Perspectives Sports Shopping Commentary Contests Podcasts U.S. Press **Add** Comments Close comments menu Due to the sensitive and/or legal subject matter of some of the content on globalnews.ca, we reserve the ability to disable comments from time to time.",
-      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/net-fdi-turns-negative-at-usd-4-95-bn-in-sep-on-flow-moderation-higher-outflows-rbi/articleshow/136166680.cms",
+      "summary": "The month of September 2026 marked a decline in net foreign direct investment in India, reaching negative USD 4.95 billion, primarily due to decreasing gross inflows and more substantial foreign investment repatriations. Although foreign portfolio investments faced a drop of USD 6.652 billion in October, they bounced back in November, achieving USD 12.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12165446/poplar-plains-road-toronto-home-shooting/",
-          "publishedAt": "2026-11-25T13:36:17+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/net-fdi-turns-negative-at-usd-4-95-bn-in-sep-on-flow-moderation-higher-outflows-rbi/articleshow/136166680.cms",
+          "publishedAt": "2026-11-25T15:37:51+00:00"
         }
       ],
-      "firstSeen": "2026-11-25T13:36:17+00:00",
+      "firstSeen": "2026-11-25T15:37:51+00:00",
       "status": "New",
-      "lastChecked": "2026-11-25T15:38:47.874196+00:00",
+      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -216,47 +180,6 @@
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
-    },
-    {
-      "id": "691f643690e07e",
-      "cat": "AI",
-      "icon": "✦",
-      "categories": [
-        "AI"
-      ],
-      "title": "Tidal to ban fully AI‑generated songs and delete millions of tracks",
-      "publishedAt": "2026-11-24T16:46:00+00:00",
-      "importanceScore": 11.0,
-      "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "summary": "Tidal announced it will begin removing songs that are entirely generated by artificial intelligence starting December 9, with an expected deletion of more than 29 million tracks by year‑end. The service said AI‑generated uploads made up over 43 % of new uploads in the past 90 days, leading to a daily rejection of roughly 80,000–85,000 tracks. Tidal will still accept songs that use AI assistance but will block 100 % AI submissions and ban distribution services that deliver them.",
-      "why": "To stem the flood of fully AI‑generated uploads that are overwhelming the platform’s catalog.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-          "publishedAt": "2026-11-24T16:46:00+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-24T16:46:00+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-25T15:38:47.874196+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "previousSummary": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.",
-      "previousPublishedAt": "2026-11-24T16:46:00+00:00",
-      "previousSourceCount": 2,
-      "previousImportanceScore": 12.8,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
     },
     {
       "id": "c147372ae78010",
@@ -265,17 +188,17 @@
       "categories": [
         "India"
       ],
-      "title": "RBI steps up scrutiny of importers' forex deals after split‑transaction pattern emerges",
+      "title": "RBI hunts for possible '$2 million loophole' in importers' forex transactions",
       "publishedAt": "2026-11-25T10:12:37+00:00",
-      "importanceScore": 10.5,
+      "importanceScore": 9.5,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rbi-hunts-for-possible-2-million-loophole-in-importers-forex-transactions-reserve-bank-of-india-importers-foreign-exchange-deals-split-for-benefits-scams/articleshow/136156504.cms",
-      "summary": "The Reserve Bank of India has increased scrutiny of foreign‑exchange transactions by importers after detecting that some companies are breaking up purchases into amounts below the $2 million threshold to avoid higher reserve requirements. Data show a sharp decline in the average size of dollar‑buying transactions since October 10, even as the total number of deals has risen, leading the RBI to launch fresh compliance checks on banks that process these trades.",
+      "summary": "The Reserve Bank of India (RBI) has stepped up scrutiny of importers' forex transactions amid concerns that companies may be splitting deals below the $2 million threshold to avoid additional reserve requirements. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "medium",
+      "confidence": "low",
       "verified": false,
-      "editor": "Jarvis",
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -284,32 +207,37 @@
         }
       ],
       "firstSeen": "2026-11-25T10:12:37+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-25T15:38:47.874196+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
+      "verificationScope": "source-backed",
+      "previousTitle": "RBI steps up scrutiny of importers' forex deals after split‑transaction pattern emerges",
+      "previousSummary": "The Reserve Bank of India has increased scrutiny of foreign‑exchange transactions by importers after detecting that some companies are breaking up purchases into amounts below the $2 million threshold to avoid higher reserve requirements. Data show a sharp decline in the average size of dollar‑buying transactions since October 10, even as the total number of deals has risen, leading the RBI to launch fresh compliance checks on banks that process these trades.",
+      "previousPublishedAt": "2026-11-25T10:12:37+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 10.5,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 5,
-  "finalRejectedCount": 1,
-  "previousUpdated": "2026-11-25T04:17:55.878861+00:00",
+  "jarvisEditedCount": 2,
+  "finalRejectedCount": 0,
+  "previousUpdated": "2026-11-25T15:38:47.874196+00:00",
   "changeSummary": {
-    "new": 4,
-    "updated": 2,
-    "continuing": 1
+    "new": 2,
+    "updated": 3,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-22T21:48:20.445462+00:00",
-    "updated": "2026-11-25T15:38:47.874196+00:00",
+    "availableFrom": "2026-11-23T02:48:54.977515+00:00",
+    "updated": "2026-11-26T00:23:33.754359+00:00",
     "snapshotCount": 8,
-    "eventCount": 64,
+    "eventCount": 63,
     "retentionHours": 72
   }
 }
