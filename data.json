@@ -1,36 +1,123 @@
 {
-  "updated": "2026-11-26T09:33:14.929622+00:00",
+  "updated": "2026-11-26T19:38:44.507660+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 80,
-    "officialOrPrimaryCandidates": 9,
-    "enrichedCandidates": 79,
-    "readableCandidates": 58,
-    "eventClusters": 58,
-    "materialEvents": 28,
-    "selectedEvents": 8,
-    "seededStories": 3,
+    "nonNoiseCandidates": 77,
+    "officialOrPrimaryCandidates": 8,
+    "enrichedCandidates": 75,
+    "readableCandidates": 59,
+    "eventClusters": 45,
+    "materialEvents": 15,
+    "selectedEvents": 7,
+    "seededStories": 5,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "daa286c21650ee",
+      "id": "7ade44c40eadeb",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Price History",
+      "publishedAt": "2026-11-26T06:51:53+00:00",
+      "importanceScore": 14.0,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-share-price-live-26-nov-2026/liveblog/136181934.cms",
+      "summary": "Explore the latest updates on HDFC Bank stock, including: Last traded price 862.0, Market capitalization: 1329083.09, Volume: 70517167, Price-to-earnings ratio 16.59, Earnings per share 51.95. Stay on top of the game with our comprehensive coverage, featuring the latest details on SBI Life stock, including: Last traded price 1842.3, Market capitalization: 184857.32, Volume: 1115968, Price-to-earnings ratio 69.61, Earnings per share 26.47.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-share-price-live-26-nov-2026/liveblog/136181934.cms",
+          "publishedAt": "2026-11-26T06:51:53+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sbi-life-stock-price-live-updates-26-nov-2026/liveblog/136181870.cms",
+          "publishedAt": "2026-11-26T06:50:36+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-stock-price-live-updates-26-nov-2026/liveblog/136178775.cms",
+          "publishedAt": "2026-11-26T04:37:02+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-26T06:51:53+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "1cc15738a60415",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "India bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks",
+      "publishedAt": "2026-11-26T13:11:40+00:00",
+      "importanceScore": 13.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136193320.cms",
+      "summary": "The Reserve Bank of India highlighted rising food inflation pressures, indicating widespread price increases. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136193320.cms",
+          "publishedAt": "2026-11-26T13:11:40+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136179562.cms",
+          "publishedAt": "2026-11-26T05:20:12+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-26T13:11:40+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "fa48e446a1c36e",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "US proposes 25% tariff on Indian imports, possible reduction to 17% with trade deal",
-      "publishedAt": "2026-11-26T08:52:31+00:00",
-      "importanceScore": 13.4,
+      "title": "FIEO says 17% tariff in India‑US deal offers little advantage to exporters",
+      "publishedAt": "2026-11-26T12:21:04+00:00",
+      "importanceScore": 13.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/how-donald-trumps-proposed-fresh-tariff-salvo-for-india-compare-with-rival-nations/articleshow/136184609.cms",
-      "summary": "The United States has proposed a 25% tariff on imports from India, citing excess industrial capacity. The rate could be lowered to 17% if the two countries reach a trade agreement. India’s trade ministry is reviewing the U.S. allegations and defending its position as negotiations remain prolonged due to tariff rules and recent military incidents.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo/articleshow/136191482.cms",
+      "summary": "The Federation of Indian Export Organisations (FIEO) said that the 17% tariff provision in the pending India‑US trade agreement is unlikely to give Indian exporters a significant competitive edge. The organization cautioned that the tariff level may not materially improve export competitiveness. The comment was reported in the Economic Times' foreign trade section.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -38,13 +125,13 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/how-donald-trumps-proposed-fresh-tariff-salvo-for-india-compare-with-rival-nations/articleshow/136184609.cms",
-          "publishedAt": "2026-11-26T08:52:31+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo/articleshow/136191482.cms",
+          "publishedAt": "2026-11-26T12:21:04+00:00"
         }
       ],
-      "firstSeen": "2026-11-26T08:52:31+00:00",
+      "firstSeen": "2026-11-26T12:21:04+00:00",
       "status": "New",
-      "lastChecked": "2026-11-26T09:33:14.929622+00:00",
+      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -54,98 +141,93 @@
       "lifecycle": "New"
     },
     {
-      "id": "abe52d26b8114d",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "North Korea orders Swiss diplomat to leave over sanctions on children’s camp",
-      "publishedAt": "2026-11-25T21:51:17+00:00",
-      "importanceScore": 12.9,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-      "summary": "North Korea declared the head of Switzerland’s diplomatic office in Pyongyang persona non grata and gave him 48 hours to depart, also demanding the mission’s closure. The action follows Switzerland’s decision to sanction the Songdowon international children’s camp in Wonsan, which hosts Russian, Chinese and other children and has been accused of moving children from Russian‑occupied areas of Ukraine. KCNA described the Swiss sanctions as a “blatant hostile act.”",
-      "why": "The expulsion narrows diplomatic channels between the two countries, complicating the management of sanctions and any humanitarian coordination linked to the camp.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-25T21:51:17+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-25T21:51:17+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-26T09:33:14.929622+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "fa532bff9da26d",
+      "id": "a75f25a2b7e014",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "Net FDI to India negative $4.95 bn in September, RBI says",
-      "publishedAt": "2026-11-25T15:37:51+00:00",
-      "importanceScore": 9.9,
+      "title": "India aims to exceed $1 trillion in exports by March 2027 despite proposed US tariff",
+      "publishedAt": "2026-11-26T13:14:22+00:00",
+      "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/finance/net-fdi-turns-negative-at-usd-4-95-bn-in-sep-on-flow-moderation-higher-outflows-rbi/articleshow/136166680.cms",
-      "summary": "The Reserve Bank of India reported that net foreign direct investment to India in September 2023 was a net outflow of US $4.95 billion. The negative balance was attributed to a slowdown in incoming investment flows and higher capital outflows during the month.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
+      "summary": "ASSOCHAM Secretary General said India expects its total export value to pass $1 trillion by March 2027, even if the United States imposes a proposed 25 % tariff on Indian goods. The statement was reported by The Economic Times; the article did not provide additional data or justification.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/finance/net-fdi-turns-negative-at-usd-4-95-bn-in-sep-on-flow-moderation-higher-outflows-rbi/articleshow/136166680.cms",
-          "publishedAt": "2026-11-25T15:37:51+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
+          "publishedAt": "2026-11-26T13:14:22+00:00"
         }
       ],
-      "firstSeen": "2026-11-25T15:37:51+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-26T09:33:14.929622+00:00",
+      "firstSeen": "2026-11-26T13:14:22+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "Net FDI turns negative at USD 4.95 billion in Sep on flow moderation, higher outflows: RBI",
-      "previousSummary": "The month of September 2026 marked a decline in net foreign direct investment in India, reaching negative USD 4.95 billion, primarily due to decreasing gross inflows and more substantial foreign investment repatriations. Although foreign portfolio investments faced a drop of USD 6.652 billion in October, they bounced back in November, achieving USD 12.",
-      "previousPublishedAt": "2026-11-25T15:37:51+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 10.9,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "c57462c5e2fd97",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+      "publishedAt": "2026-11-26T07:31:24+00:00",
+      "importanceScore": 12.2,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
+      "summary": "Early on Tuesday, she received news that he was trapped underground.** Rais, 50, had been working as an illegal gold miner in Bogor, Indonesia's West Java province. On Monday night, he and at least 25 other miners were digging in an open-pit mine about 100m (328ft) deep, when torrential rain caused a nearby river to overflow and flood the two shafts.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-26T07:31:24+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-26T07:31:24+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-26T00:23:33.754359+00:00",
+  "previousUpdated": "2026-11-26T09:33:14.929622+00:00",
   "changeSummary": {
-    "new": 2,
-    "updated": 1,
+    "new": 5,
+    "updated": 0,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-23T12:51:30.599710+00:00",
-    "updated": "2026-11-26T09:33:14.929622+00:00",
+    "availableFrom": "2026-11-24T00:54:51.328592+00:00",
+    "updated": "2026-11-26T19:38:44.507660+00:00",
     "snapshotCount": 8,
-    "eventCount": 63,
+    "eventCount": 64,
     "retentionHours": 72
   }
 }
