@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-26T03:07:21.675498+00:00",
+  "updated": "2026-11-26T13:09:50.730973+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX rises 0.64% as commodities rally lifts market",
+      "headline": "TSX rebounds to close higher as investors buy into market weakness",
       "direction": "up",
       "move": "S&P/TSX Composite +0.64%",
-      "why": "The Globe and Mail linked the market’s one‑week high to a rally in commodity prices.",
+      "why": "Investors stepped in and bought equities after early losses, lifting the S&P/TSX Composite despite sector‑specific drags.",
       "drivers": [
         {
           "label": "investors buy into market weakness By Investing.com",
@@ -16,24 +16,34 @@
           "kind": "driver"
         },
         {
-          "label": "commodities rally",
-          "detail": "The Globe and Mail explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
           "label": "early losses, U.S. markets post mixed results",
           "detail": "CTV News explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
+        },
+        {
+          "label": "Investor buying on weakness",
+          "detail": "Investors purchased equities as the market showed weakness, lifting the S&P/TSX Composite higher.",
+          "kind": "driver"
+        },
+        {
+          "label": "Healthcare lag",
+          "detail": "Health‑care stocks lagged, pulling TSX:EXE and TSX:BHC lower.",
+          "kind": "context"
         }
       ],
-      "sectors": [],
+      "sectors": [
+        "Technology",
+        "Healthcare",
+        "Financials",
+        "Materials"
+      ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 34179.99,
+        "price": 34180.0,
         "previousClose": 33962.3,
-        "change": 217.69,
+        "change": 217.7,
         "changePct": 0.64,
         "currency": "CAD",
         "exchange": "TSI",
@@ -44,28 +54,22 @@
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "kalkine.ca",
+          "title": "Why TSX:EXE and TSX:BHC fell on the S&P/TSX Composite as health care stocks lagged - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeF8zSHYzNGpXclJ5cnJHUjdrS1h0U092Zy1QWG9fTUtHdjk4MjV1Q18xNWsyNXNSbTF4X09Dd1NYd01FV0ZCdzUweDNJaWc5bDY2QkJYUFVBY0dDTDhBaThOM3Rld0lBS0l1Y3VfQV9kekFnb2pkNmFJQXVQVUthTkhrUFFzZE8tblZzTy1ZeEVJZHdZbDF0cWZNT3pubFNBaG9FVHlOYUxOTzdwT1pBZW1wSQ?oc=5",
+          "publishedAt": "2026-11-26T09:08:00+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "Why TSX:CLS sank on the S&P/TSX Composite as Nvidia and AI stocks slid - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVjdyWHpaNXNlRVE4ZzFTYmNQRWN3Q2JhU25wTEY1bFBGLU9sQUVXdURCcmRzcnlsRHNXaTBtYmpHVTE3eWN1ZUl4VlNIbGI4cC1qRmkzeEFPR0xEY1ktNnZIRFZKM1pYQ2VsajItVWF0QVlvTmlHZkIweHUwZ2owNjVoQ0FaY2JIakIzQlhXSnRGX3ZZTG1FRXotakRBT3RsZGFFNg?oc=5",
+          "publishedAt": "2026-11-26T09:08:00+00:00"
+        },
+        {
           "name": "Investing.com Canada",
           "title": "TSX rebounds to close higher as investors buy into market weakness By Investing.com - Investing.com Canada",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRXZSVDJPSi1ET05CSWFlX2ZadUFxdVdvUXhtcmN4OS1XR214YUtRUXJqMDhzdy12LXJlakZtNEZvX1Y3M3hsYnJTdFBWalgxMFFuSWM4bnhpcVZ2S3NvdjdWYlBlZVk0TFZ0OFk0ZHNDQnlreHl2d1pmaTJieXNFLUlhMWVOTGFseGZoMEUzaU0zSW9LV3dQREV2MkJxWlRmZnVMWWN4VlliSEpBUHppY19BOVBXdFMtdFE?oc=5",
           "publishedAt": "2026-11-26T00:44:27+00:00"
-        },
-        {
-          "name": "The Globe and Mail",
-          "title": "TSX notches one-week high as commodities rally - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUzJqbkR0TXc0OFpkMmhLZkQ5a2ZrUWxjM2JES2pJSUNsUDU0aVBOWkdyczN4bTNVcWlzMmRWMTE2NzBrUk13bWNUVm1STVVjSVJuUy02b1JGVjQ0UFVmSnNLN3p0Z1IyYXBoTUIxb19teUYxd3pqM3pFRXdRbHRjQWM1UWhWelpEUTREOXdqeF9XVXI5YVBqdm1xQWhBbk9zTDEtWkxmRF9naTRQTFd5dnhxOWg0TW15dkpVM3V3andWb3NPV2hfdmYxV3I2RXpkYko5bnBJSmUzWTZCOElmTWFvMElxQlhaTG9sUmg0cw?oc=5",
-          "publishedAt": "2026-11-25T10:01:43+00:00"
-        },
-        {
-          "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.64% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGNyYkxKNS1mN0pPUXVadzZqcWgyVG1teUZSOGlUdW5mbURFajJjYTlEbTlFeGRncVNwcGlNVDl3N29HbEx5S3Y3cmotTjBHblcwQU5QQjRUUFdZZXVnbnlnYTByel9maWptWXFhVEhHTnBHbXNpUldVWDZWQUNTOFE2TUtpRkJtbzBSalItaXdUSjVVQnVSazMtMlctei1Oa0ZuZTFTSWtYZVU1ekFhUEV1Q05wT3hVcWc?oc=5",
-          "publishedAt": "2026-11-25T21:37:26+00:00"
-        },
-        {
-          "name": "Investing.com India",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.64% By Investing.com - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdGNKRC04cFQ0RlEteDZQM0RNUXhmMGJTaXRjUFloVEt4RDcyX3hFY0I0Q3NpNEFISFcxNkJnamVNLVNJRVlPcUk1NVVfcG1vdnBiQ29ZbnU3Y0pzaUNVLWxWMVBHNEVPVllFNUNzSHpycEtFZzFJd2lsTlRXa0h6SWRnaGdSdkh5dG1RZE4tZkxsUnFYbHpSampNNEp0RnFRYkp6b0lvWkFoY3FvcndqOV8ya3BmQjVl?oc=5",
-          "publishedAt": "2026-11-25T21:33:26+00:00"
         },
         {
           "name": "Investing.com UK",
@@ -78,35 +82,41 @@
           "title": "S&P/TSX composite gains ground after early losses, U.S. markets post mixed results - CTV News",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdHQ2SHFsYWRmWFlTNUpwM1NVVkxxZE9OY09TS2NET3dXV3l4NFkzSVkyZ2tzVHNkTVdHTy1sN1Y1YjVYQlBnS2l3NlJaWl85MUlTR1hLWTE2Zm42cm5sdW1Hd2hoaDAtekxhd3JEa0k5RGY0QXNwSEZrZUE3STREZ1RGcnd3UkMyb0J1RTkyQVlOeU15ZVBLcVdhUzdKQXdhUFJqT2c2WVZHQQ?oc=5",
           "publishedAt": "2026-11-25T21:24:29+00:00"
+        },
+        {
+          "name": "kalkine.ca",
+          "title": "Why TSX:CU and TSX:EMA slipped on the S&P/TSX Composite amid rising Bank of Canada rate-hike bets - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUUxpb201SUVRNmluYVZMMnJQS0xkMkJjemxqWVhBWHJCZWFTc2NZbFZkRXBQZjZMZ3Z1WTJsaDFXOVBwekMzY3l2UVkxcVhOTG42S255YUVvR0gtWmhEMDJyeFVudmNmY0x4eG5iRGMwQ0M4QXoxSnZPcXZsdzJwSTQ1VERvUTlISlNxT01rVlNVcWMzNGljNWxvZHpGVmlpVW9SbUNNZDVZUHlfb2FSS0ZPOXdUcjVlMnhzMkYxT0NfNTJwQ3c?oc=5",
+          "publishedAt": "2026-11-26T09:08:00+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 rose 1.85%",
+      "headline": "Nifty 50 rose 0.25%",
       "direction": "up",
-      "move": "Nifty 50 +1.85%",
-      "why": "Same-day market coverage explicitly linked the final move to: GIFT Nifty Holds Steady Near 26,000 as of November 26, 2026; Foreign Investors Return to Indian Markets; FMCG Rally and Rupee Strength Defy Asia’s AI Rout.",
+      "move": "Nifty 50 +0.25%",
+      "why": "Same-day market coverage explicitly linked the final move to: Giving Up Early Gains; Sensex Jumps 773 Points, Nifty Closes Above 25,250; Asia Rebounds; US Inflation Runs Hot.",
       "drivers": [
+        {
+          "label": "Giving Up Early Gains",
+          "detail": "Kotak Neo explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Sensex Jumps 773 Points, Nifty Closes Above 25,250",
+          "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
+        {
+          "label": "Asia Rebounds; US Inflation Runs Hot",
+          "detail": "HDFC Sky explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "GIFT Nifty Holds Steady Near 26,000 as of November 26, 2026",
           "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Foreign Investors Return to Indian Markets",
-          "detail": "theopenpress.in explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "FMCG Rally and Rupee Strength Defy Asia’s AI Rout",
-          "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
-          "kind": "driver"
-        },
-        {
-          "label": "Banking and Consumer Stocks Lead Market Rally",
-          "detail": "INDIA New England News explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -115,65 +125,65 @@
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25819.25,
-        "previousClose": 25349.65,
-        "change": 469.6,
-        "changePct": 1.85,
+        "price": 25884.5,
+        "previousClose": 25819.25,
+        "change": 65.25,
+        "changePct": 0.25,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-25T10:01:29+00:00",
+        "asOf": "2026-11-26T10:01:27+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 83938.28,
-        "previousClose": 82435.99,
-        "change": 1502.29,
-        "changePct": 1.82,
+        "price": 84328.59,
+        "previousClose": 83938.28,
+        "change": 390.31,
+        "changePct": 0.46,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-25T10:02:29+00:00",
+        "asOf": "2026-11-26T10:02:28+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
+        {
+          "name": "Kotak Neo",
+          "title": "Closing Bell, 26 November 2026: Sensex and Nifty Manage to End Higher After Giving Up Early Gains - Kotak Neo",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUTNNQzRFNzZjQTZvZWdnMFo3MjZieUJSbVFKRzhSTERlQ1FRUWpzWlVjTDZZS2ZYbUtyeDVUNU0zTGdUZGl5RExVM25kanZPLU9XM3JsQWRlRDZIc2hIVm91ZkNFWHlsQWUybE1PTnMxbGY3eEJvRzJIbnNmNlhRS3VpYktRNkE0YThtWTNya0xJcjZQT0tWakVHZTE3UUFCaE94M2t2eHpZUzQ5cXc?oc=5",
+          "publishedAt": "2026-11-26T10:49:05+00:00"
+        },
+        {
+          "name": "INDIA New England News",
+          "title": "Indian Stocks Rally as Sensex Jumps 773 Points, Nifty Closes Above 25,250 - INDIA New England News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR216Q0l0LWVPSmd5eHZNZGtkWkNSSWg3NHhxT1FHM2NNVHlKZW11VFBRM2FXZTdnZWVjN2hDUjJCZ2VrWlQ3c3RENUFzOElhcUowMjJyeFI1MExaM3FDU1U1X2dqMk8tV0ZDTmY2R1dNVmNXdHFkVXJ5SXZlbWVIU0gzVGE5VnFLYks2aVZTUXVuU05wY2kwSXUwZDJqQXZpTlE?oc=5",
+          "publishedAt": "2026-11-26T10:36:26+00:00"
+        },
+        {
+          "name": "HDFC Sky",
+          "title": "Sensex Opens Flat, Nifty Slips as IT Stocks Lead Early Gains - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaHlsV0VsR2Zlc196dnk4WnU3SEFnSWVmVS1uVFExMW9rTmxNTUR3ZkYtR25Ka2V1cm01SEJhY2hIS2lBQ3RJZ0ZXX0VyYzdPcDZWNFU3OFZQaGE2bjZZdHN1d21yY2thQzJpZDNjc19SVzZLQjMzMzBUalc1Tm5ELUR5RjI1b3ZJZk5LbXJFaW5sbjdJUkRwT21VX2R6SlhnZERpUE10SzJLT0dsaUJzVmhWcVJtVWM2SzJsanM2ZmEyZElIeFo5QUJQcFVqTDNNbGZ5bnNaNmQ3d0U0enZXemlFMGhhR1p1cFJTcm96OUM?oc=5",
+          "publishedAt": "2026-11-26T04:36:12+00:00"
+        },
+        {
+          "name": "Kotak Neo",
+          "title": "Stock Market Update 26 November 2026: Sensex Drops Over 150 Points; Nifty 50 Below 25,750 in Early Trade - Kotak Neo",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQazZmZzFJeFNOOWhnM2pZUjlZM096TENxc05IbkVZdC1HNmJ5MUpnVHdjQUMwMlFiWkhiclVLaHJVTVRoTkFSUUFsM1o0NlFNNm81VHY5Yl9QVE1jQ2NHdVZMd3B1MUtqV2EyNFpSVXA4czh5b0RUTllseEZGS2FNbTcxZjBiaWJHckVxNF8tbmktOUNhb3RZ?oc=5",
+          "publishedAt": "2026-11-26T04:13:52+00:00"
+        },
+        {
+          "name": "HDFC Sky",
+          "title": "Gift Nifty Signals Higher Open for Sensex, Nifty on Thursday as Asia Rebounds; US Inflation Runs Hot - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYWlxZXJqalhYb043ZWNqeG5PQWFMb3QyYmE2U1R1S0ZlSmZyV252WGhyd2NwR3JhU3hEWGdaWHNJOHdldVFsdkxxOFd0cXdjQ3BxdTc1Y1IzcjdLbTMzdmpQeEFyTXRsLXAzZ180YjdyZjFFSHI4TURjdmtOaUJMTGxVOUc3eDEtb016aGMxcjdEX2xEU2Y4TDRXMW84N3RFaEhJcTJ6bDNZRU0xMUxvS1doTWxWeUlqVFhVUUQxM3NTMnZHR0J3dnRzaHFfOW91U3ZSX1plQQ?oc=5",
+          "publishedAt": "2026-11-26T03:20:34+00:00"
+        },
         {
           "name": "scanx.trade",
           "title": "Trade Setup for Today: Silver Surges, Asian Indices Rally as GIFT Nifty Holds Steady Near 26,000 as of November 26, 2026 - scanx.trade",
           "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcWI0VnBGekhYT1FFc3NBMTdwQ2pzR2FXZ3BmQlpSYzdVRi1BdERYb1lzMGE1VmVKN1ZENlY1NlhhWGZmXzBCTmdkeWUxVGVRdE01ekRJazF1c1plbGV6Wmh1WElTWkdXSTlPckNYWmNWb0NILVZUQlBhQnlYaDY0VmlkU0JFdDQtVEQtOWpuaHdvX3l3OV9VdTV0aU81Z01PYUZwYzZkWktqNFctWVA0R3FGbk1mcTU1SGxDM2pONU5mTmFaNF9hcGtMNmZNMzFFM0NuQXV4dDlMUm1mY3h2eFBTUVpfMUppYWxGLVA2cFo4S2xlaXFaMWw1Y0locFA5?oc=5",
           "publishedAt": "2026-11-26T02:49:20+00:00"
-        },
-        {
-          "name": "theopenpress.in",
-          "title": "Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Foreign Investors Return to Indian Markets - theopenpress.in",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ3VXRTFFREV0YXZNT2tNTERvM2ZVVkVrcU1FQVRnSzRueEtsZmgwZlFLTzFrdk1rTW50Q1ZuSDRnZmFBWnNSMUVyTVdwREdpTV9jZjMzUWUyNm1fMHctLTVVVFRmbFZiM1ZjOUpuRzlHMjA4MDhiOVpwSVo1cnlEQlpjNTNucjlSNnQyX0tkbzlLUGNCdi1xZnRpbWRlQ2hZd09SWHB2NA?oc=5",
-          "publishedAt": "2026-11-26T01:16:09+00:00"
-        },
-        {
-          "name": "BBN Times",
-          "title": "BSE SENSEX Jumps to 83,938.28 as FMCG Rally and Rupee Strength Defy Asia’s AI Rout - BBN Times",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV1JIZVdLZHZJQVNTMkFGZlV6QXA3d1A2X3ZiN2ExejJ4SzlMYU9ULUdzLWhlbEIyRzNaYWRqc0EtdUh2RkR6T0VDYjgyNVY4eV9sVGNTci1UOFlRNEJOLUJqMWt0ak90c1ZaalJfZ05JMW16RllhLS1QYVVzLTFNUmE0TWRwMWpyUzNZVGxLRnQxcGlpaUJTQ3ZBVlE4V3h4TlJ3dmZINEJ0N0EyVUhRc1JWUnAteWhL?oc=5",
-          "publishedAt": "2026-11-25T17:45:32+00:00"
-        },
-        {
-          "name": "INDIA New England News",
-          "title": "Sensex Surges 1,502 Points as Banking and Consumer Stocks Lead Market Rally - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUE5MnFmbjdYWDBGYm9pd3d2Y08yRmYwcTJ3UnZnbTMxcG8zY0h1alV0QkpTSXB0WkdyTS1Fb1dhaDdtR1hOVFNzY04zSTVheHhsel9BTWFJaWkxMl82X2hTTGdWT2o1TUtLVW1CM2NjOFRhNW1FcWE5cEhQRVlmd056Vy1aUXlIaTVQS2hfNEsxUGhmNzJka1NqRzdQUmlsYW1LWGdR?oc=5",
-          "publishedAt": "2026-11-25T15:21:33+00:00"
-        },
-        {
-          "name": "The New Indian Express",
-          "title": "Markets rebound: Sensex jumps 1,502 points on foreign fund inflows, lower crude oil - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSWJ6ajVSMDlJM0U3Y2VtNm94X0N0T3hLR29fWkl6NW05cE9GNHY2VnRSSzh5cDk4d0dFRE4zZXk1YlkzREVUaDNzOUVjcmk2dzhhZmtjdkZvSGtuWGxvYTk0aVZoY09NbHI4V25FelRlbTF2UHFadDRnRk51Qm5ZN0J6SmVGUHJGOThKelZfZlZPQ0NXSVZGSkFkZ21LdDNMVF8wNDd3ZzZIdWlPS1JsWF8wcklsc1c0UFFnbU1UUnlLS0hkYnlYazR2NHB0LWvSAdwBQVVfeXFMUHFFZHdyVWVPMC16cnE4d2s0MmpfcTR1WG1zTjF3MzRoN28xZXBLRzVCSG5EbFBkSW5FcWE3OElxNnB0bkdDaU0yN29Id25xTjByMVRYQWNjT2VQb0h3S081QmJ5cHZUTkdjNV9mZ1dXYk00X2VfMS10WHRyNXpUdkNjR3VJdFVUdUM1UENxRjNiUDhMdE5DQ0gxeXFtUkh3NnN0V3RLU3ZQUFdaYl8zaTZKYk05SkFiZEs5eUNSWWNiN2dITk0wUWxRZWVkTTNBXy1OdTdTZzE2NEF4cA?oc=5",
-          "publishedAt": "2026-11-25T12:01:38+00:00"
-        },
-        {
-          "name": "The Financial Express",
-          "title": "7 factors driving D-Street rally: Sensex, Nifty close with 2% gains, Rupee at 8-mth high - The Financial Express",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORHhpTm5OeW1LMEVhZHVBZjl6VnZiZjBiMUxCUVJZVGpwYVhYY29iMTE0cFFtaTVMMmV4OVlzbGJHdFN4M1VjTzVOS3E3TDFnWVpuZVBWaU5wTVZjZW9reTU5ZmNqVmdDNWhIV1QzQWpfQTF6MFNFWmpXZ2pWdkF2YTd5dHQzRHFhWWJMNGhqRHJFSkoyRFMweC1EcnlxOE41T2VtQzNrSlNoVDBCdDFucUJqczBjTmEySzJUM0RUbDdXWElLZXdkRGlQOENoQdIB1AFBVV95cUxPYkEyUi1Ba05qMTJYSmdLdU43R0YzN0lES2ZNVzQzQjlZb3cwSDNQR1ZvTXVMYTlXa1JJendHd1RvZExUd3A4MXVHZ3ZvTEtsMEtoR0M0Ry1abWswUWkxbW5Wb2hJd19SX1F0UHlMSjlqVU5GemFWdmxhTks3clJ6dThBbXdTUlZORkdsQk5HMUZiU3dHYmpENVpzN25fV3ZHUUs1LWxlWWJsVEpnbmNmZkgzb3lBS1BDeG4tY1otMDVqZmtaSGNZX1lMY05rMUVlOGVJeA?oc=5",
-          "publishedAt": "2026-11-25T11:48:25+00:00"
         }
       ],
       "evidenceCount": 7
