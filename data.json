@@ -1,128 +1,36 @@
 {
-  "updated": "2026-11-26T00:23:33.754359+00:00",
+  "updated": "2026-11-26T09:33:14.929622+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 79,
-    "officialOrPrimaryCandidates": 16,
-    "enrichedCandidates": 78,
-    "readableCandidates": 57,
-    "eventClusters": 54,
-    "materialEvents": 23,
+    "nonNoiseCandidates": 80,
+    "officialOrPrimaryCandidates": 9,
+    "enrichedCandidates": 79,
+    "readableCandidates": 58,
+    "eventClusters": 58,
+    "materialEvents": 28,
     "selectedEvents": 8,
-    "seededStories": 5,
+    "seededStories": 3,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "b5469d39dd5fa7",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Grasim Inds Share Price Live Updates: Grasim Inds. Stock Price History",
-      "publishedAt": "2026-11-25T06:49:20+00:00",
-      "importanceScore": 12.6,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-25-nov-2026/liveblog/136151488.cms",
-      "summary": "Welcome to the Grasim Inds Stock Liveblog, your go-to platform for real-time updates and analysis on a top-performing stock. Stay ahead of the market with our in-depth coverage of Grasim Inds, including: Last traded price 3162.0, Market capitalization: 215199.58, Volume: 617889, Price-to-earnings ratio 43.86, Earnings per share 72.09.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-25-nov-2026/liveblog/136151488.cms",
-          "publishedAt": "2026-11-25T06:49:20+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/coal-india-ltd-share-price-today-live-25-nov-2026/liveblog/136151420.cms",
-          "publishedAt": "2026-11-25T06:48:03+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tcs-share-price-today-live-updates-25-nov-2026/liveblog/136148285.cms",
-          "publishedAt": "2026-11-25T04:33:27+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-25T06:49:20+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Grasim Inds Share Price Live Updates: Grasim Inds. Stock Price History",
-      "previousSummary": "Stay ahead of the market with our in-depth coverage of Grasim Inds, including: Last traded price 3162.0, Market capitalization: 215199.58, Volume: 617889, Price-to-earnings ratio 43.86, Earnings per share 72.09. Dive into the current details of Coal India, including: Last traded price 385.0, Market capitalization: 237265.04, Volume: 9092786, Price-to-earnings ratio 7.11, Earnings per share 54.14.",
-      "previousPublishedAt": "2026-11-25T06:49:20+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 13.6,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "196e1cec03d45f",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "BBC analysis of leaked Rosstat data shows at least 490,334 Russian soldiers killed since 2022",
-      "publishedAt": "2026-11-25T12:21:49+00:00",
-      "importanceScore": 12.4,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC analysts examined more than 11 million Russian death records from 2021 to September 2026 that were leaked after a cyber‑attack attributed to the Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow. The data indicate that at least 490,334 Russian military personnel have died since the invasion began in 2022. The Kremlin reiterated that only the defence ministry can officially report casualty figures, which it has not released for several years.",
-      "why": "The figure provides an independent estimate of Russian military losses, challenging the official silence and informing public understanding of the war’s human cost.",
-      "confidence": "medium",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-25T12:21:49+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-25T12:21:49+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "previousTitle": "BBC analysis of leaked Rosstat data finds at least 490,000 Russian soldiers killed in Ukraine war",
-      "previousSummary": "The BBC examined more than 11 million death records from Russia’s statistics agency (Rosstat) covering 2021 to September 2026, obtained after hacks attributed to the Belarusian group Cyber Partisans BY and Ukraine’s Silent Crow. The analysis shows that at least 490,334 Russian soldiers have died since the invasion began in 2022. The Kremlin says only the defence ministry can officially report casualties and has not released figures for several years.",
-      "previousPublishedAt": "2026-11-25T12:21:49+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 14.4,
-      "changed": true,
-      "change": "Its significance score fell as the evidence changed.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "2e36efaa918e96",
+      "id": "daa286c21650ee",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "India allocates 8,606 tonnes of raw cane sugar for US export under TRQ",
-      "publishedAt": "2026-11-25T07:44:33+00:00",
-      "importanceScore": 11.4,
+      "title": "US proposes 25% tariff on Indian imports, possible reduction to 17% with trade deal",
+      "publishedAt": "2026-11-26T08:52:31+00:00",
+      "importanceScore": 13.4,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/agriculture/india-allocates-8606-tonnes-of-raw-cane-sugar-for-export-to-us-under-tariff-rate-quota-scheme/articleshow/136152733.cms",
-      "summary": "India has set aside 8,606 metric tonnes of raw cane sugar for shipment to the United States under the existing Tariff Rate Quota (TRQ) arrangement. The allocation is part of the bilateral mechanism that limits the volume of sugar entering the US at reduced tariff rates. The shipment will be made available to Indian exporters seeking access to the US market.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/how-donald-trumps-proposed-fresh-tariff-salvo-for-india-compare-with-rival-nations/articleshow/136184609.cms",
+      "summary": "The United States has proposed a 25% tariff on imports from India, citing excess industrial capacity. The rate could be lowered to 17% if the two countries reach a trade agreement. India’s trade ministry is reviewing the U.S. allegations and defending its position as negotiations remain prolonged due to tariff rules and recent military incidents.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -130,17 +38,53 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/agriculture/india-allocates-8606-tonnes-of-raw-cane-sugar-for-export-to-us-under-tariff-rate-quota-scheme/articleshow/136152733.cms",
-          "publishedAt": "2026-11-25T07:44:33+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/how-donald-trumps-proposed-fresh-tariff-salvo-for-india-compare-with-rival-nations/articleshow/136184609.cms",
+          "publishedAt": "2026-11-26T08:52:31+00:00"
         }
       ],
-      "firstSeen": "2026-11-25T07:44:33+00:00",
+      "firstSeen": "2026-11-26T08:52:31+00:00",
       "status": "New",
-      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
+      "lastChecked": "2026-11-26T09:33:14.929622+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "abe52d26b8114d",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "North Korea orders Swiss diplomat to leave over sanctions on children’s camp",
+      "publishedAt": "2026-11-25T21:51:17+00:00",
+      "importanceScore": 12.9,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+      "summary": "North Korea declared the head of Switzerland’s diplomatic office in Pyongyang persona non grata and gave him 48 hours to depart, also demanding the mission’s closure. The action follows Switzerland’s decision to sanction the Songdowon international children’s camp in Wonsan, which hosts Russian, Chinese and other children and has been accused of moving children from Russian‑occupied areas of Ukraine. KCNA described the Swiss sanctions as a “blatant hostile act.”",
+      "why": "The expulsion narrows diplomatic channels between the two countries, complicating the management of sanctions and any humanitarian coordination linked to the camp.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-25T21:51:17+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-25T21:51:17+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-26T09:33:14.929622+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -152,17 +96,17 @@
       "categories": [
         "India"
       ],
-      "title": "Net FDI turns negative at USD 4.95 billion in Sep on flow moderation, higher outflows: RBI",
+      "title": "Net FDI to India negative $4.95 bn in September, RBI says",
       "publishedAt": "2026-11-25T15:37:51+00:00",
-      "importanceScore": 10.9,
+      "importanceScore": 9.9,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/finance/net-fdi-turns-negative-at-usd-4-95-bn-in-sep-on-flow-moderation-higher-outflows-rbi/articleshow/136166680.cms",
-      "summary": "The month of September 2026 marked a decline in net foreign direct investment in India, reaching negative USD 4.95 billion, primarily due to decreasing gross inflows and more substantial foreign investment repatriations. Although foreign portfolio investments faced a drop of USD 6.652 billion in October, they bounced back in November, achieving USD 12.",
+      "summary": "The Reserve Bank of India reported that net foreign direct investment to India in September 2023 was a net outflow of US $4.95 billion. The negative balance was attributed to a slowdown in incoming investment flows and higher capital outflows during the month.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -171,71 +115,35 @@
         }
       ],
       "firstSeen": "2026-11-25T15:37:51+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "c147372ae78010",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "RBI hunts for possible '$2 million loophole' in importers' forex transactions",
-      "publishedAt": "2026-11-25T10:12:37+00:00",
-      "importanceScore": 9.5,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rbi-hunts-for-possible-2-million-loophole-in-importers-forex-transactions-reserve-bank-of-india-importers-foreign-exchange-deals-split-for-benefits-scams/articleshow/136156504.cms",
-      "summary": "The Reserve Bank of India (RBI) has stepped up scrutiny of importers' forex transactions amid concerns that companies may be splitting deals below the $2 million threshold to avoid additional reserve requirements. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rbi-hunts-for-possible-2-million-loophole-in-importers-forex-transactions-reserve-bank-of-india-importers-foreign-exchange-deals-split-for-benefits-scams/articleshow/136156504.cms",
-          "publishedAt": "2026-11-25T10:12:37+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-25T10:12:37+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-26T00:23:33.754359+00:00",
+      "lastChecked": "2026-11-26T09:33:14.929622+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "RBI steps up scrutiny of importers' forex deals after split‑transaction pattern emerges",
-      "previousSummary": "The Reserve Bank of India has increased scrutiny of foreign‑exchange transactions by importers after detecting that some companies are breaking up purchases into amounts below the $2 million threshold to avoid higher reserve requirements. Data show a sharp decline in the average size of dollar‑buying transactions since October 10, even as the total number of deals has risen, leading the RBI to launch fresh compliance checks on banks that process these trades.",
-      "previousPublishedAt": "2026-11-25T10:12:37+00:00",
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "Net FDI turns negative at USD 4.95 billion in Sep on flow moderation, higher outflows: RBI",
+      "previousSummary": "The month of September 2026 marked a decline in net foreign direct investment in India, reaching negative USD 4.95 billion, primarily due to decreasing gross inflows and more substantial foreign investment repatriations. Although foreign portfolio investments faced a drop of USD 6.652 billion in October, they bounced back in November, achieving USD 12.",
+      "previousPublishedAt": "2026-11-25T15:37:51+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 10.5,
+      "previousImportanceScore": 10.9,
       "changed": true,
       "change": "Material details changed since the previous brief.",
       "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-25T15:38:47.874196+00:00",
+  "previousUpdated": "2026-11-26T00:23:33.754359+00:00",
   "changeSummary": {
     "new": 2,
-    "updated": 3,
+    "updated": 1,
     "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-23T02:48:54.977515+00:00",
-    "updated": "2026-11-26T00:23:33.754359+00:00",
+    "availableFrom": "2026-11-23T12:51:30.599710+00:00",
+    "updated": "2026-11-26T09:33:14.929622+00:00",
     "snapshotCount": 8,
     "eventCount": 63,
     "retentionHours": 72

@@ -3,70 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-23T02:48:54.977515+00:00",
-      "changeSummary": {
-        "new": 1,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "df59e16a469695",
-          "cat": "World",
-          "title": "Explosion hits Russian warship in Benghazi port, suspected drone attack",
-          "summary": "An explosion struck a Russian Steregushchiy‑class corvette docked at the Benghazi naval base at dawn on Sunday while the vessel was refuelling, and Libya’s eastern government said it was caused by a suspected drone attack. A nearby commercial ship was also hit, with minor injuries reported among its crew. Satellite and high‑resolution imagery showed a fire at the port and the corvette capsized, with only its forward bow still visible.",
-          "why": "The incident demonstrates the risk to foreign naval vessels operating in Libya’s eastern ports.",
-          "publishedAt": "2026-11-22T20:28:09+00:00",
-          "firstSeen": "2026-11-22T20:28:09+00:00",
-          "importanceScore": 13.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "686025875115dd",
-          "cat": "Indian Markets",
-          "title": "Asian shares cautious as AI sell‑off worries linger, US futures rise",
-          "summary": "The Economic Times article reported that Asian equity markets were trading cautiously because concerns about a sell‑off in AI‑related stocks persisted. At the same time, U.S. stock futures moved higher, indicating a rebound in U.S. market sentiment. The contrasting moves highlighted mixed global risk appetite.",
-          "why": "Investors need to gauge the impact of AI‑sector volatility on regional portfolios and trading decisions.",
-          "publishedAt": "2026-11-23T01:02:27+00:00",
-          "firstSeen": "2026-11-23T01:02:27+00:00",
-          "importanceScore": 12.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-ai-selloff-fears-persist-despite-us-futures-rebound/articleshow/136086162.cms"
-        },
-        {
-          "id": "80c98a7cade2a1",
-          "cat": "India",
-          "title": "India and EU expected to sign free‑trade pact on Dec 16",
-          "summary": "An Indian official said the free‑trade agreement with the 27‑member European Union is likely to be signed on 16 December, after the two sides concluded negotiations on 27 January. The deal would grant duty‑free access for about 93 % of Indian exports to the EU and make imports of luxury cars and wines from the bloc cheaper. Together, India and the EU account for roughly 25 % of global GDP and about one‑third of world trade.",
-          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-          "publishedAt": "2026-11-22T18:42:58+00:00",
-          "firstSeen": "2026-11-22T18:42:58+00:00",
-          "importanceScore": 11.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief.",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-23T12:51:30.599710+00:00",
       "changeSummary": {
         "new": 4,
@@ -963,111 +899,73 @@
           "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/rbi-hunts-for-possible-2-million-loophole-in-importers-forex-transactions-reserve-bank-of-india-importers-foreign-exchange-deals-split-for-benefits-scams/articleshow/136156504.cms"
         }
       ]
+    },
+    {
+      "at": "2026-11-26T09:33:14.929622+00:00",
+      "changeSummary": {
+        "new": 2,
+        "updated": 1,
+        "continuing": 0
+      },
+      "stories": [
+        {
+          "id": "daa286c21650ee",
+          "cat": "India",
+          "title": "US proposes 25% tariff on Indian imports, possible reduction to 17% with trade deal",
+          "summary": "The United States has proposed a 25% tariff on imports from India, citing excess industrial capacity. The rate could be lowered to 17% if the two countries reach a trade agreement. India’s trade ministry is reviewing the U.S. allegations and defending its position as negotiations remain prolonged due to tariff rules and recent military incidents.",
+          "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+          "publishedAt": "2026-11-26T08:52:31+00:00",
+          "firstSeen": "2026-11-26T08:52:31+00:00",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/how-donald-trumps-proposed-fresh-tariff-salvo-for-india-compare-with-rival-nations/articleshow/136184609.cms"
+        },
+        {
+          "id": "abe52d26b8114d",
+          "cat": "World",
+          "title": "North Korea orders Swiss diplomat to leave over sanctions on children’s camp",
+          "summary": "North Korea declared the head of Switzerland’s diplomatic office in Pyongyang persona non grata and gave him 48 hours to depart, also demanding the mission’s closure. The action follows Switzerland’s decision to sanction the Songdowon international children’s camp in Wonsan, which hosts Russian, Chinese and other children and has been accused of moving children from Russian‑occupied areas of Ukraine. KCNA described the Swiss sanctions as a “blatant hostile act.”",
+          "why": "The expulsion narrows diplomatic channels between the two countries, complicating the management of sanctions and any humanitarian coordination linked to the camp.",
+          "publishedAt": "2026-11-25T21:51:17+00:00",
+          "firstSeen": "2026-11-25T21:51:17+00:00",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "fa532bff9da26d",
+          "cat": "India",
+          "title": "Net FDI to India negative $4.95 bn in September, RBI says",
+          "summary": "The Reserve Bank of India reported that net foreign direct investment to India in September 2023 was a net outflow of US $4.95 billion. The negative balance was attributed to a slowdown in incoming investment flows and higher capital outflows during the month.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-25T15:37:51+00:00",
+          "firstSeen": "2026-11-25T15:37:51+00:00",
+          "importanceScore": 9.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/finance/net-fdi-turns-negative-at-usd-4-95-bn-in-sep-on-flow-moderation-higher-outflows-rbi/articleshow/136166680.cms"
+        }
+      ]
     }
   ],
   "events": {
-    "d6260bfcfe1fdc": {
-      "id": "d6260bfcfe1fdc",
-      "firstSeen": "2026-11-18T10:41:25+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "RBI projected to raise policy rate by 75 bps by Q2 2027",
-          "summary": "Analysts expect the Reserve Bank of India to increase its policy interest rate by 75 basis points in the second quarter of 2027. They also forecast headline inflation staying above 6 percent into early 2027 before easing, while GDP growth is projected to moderate to about 7.2 percent that year. Strong domestic demand and an emerging investment cycle are cited as supporting economic activity.",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-18T21:58:55.467348+00:00",
-          "title": "Goldman Sachs projects RBI to raise policy rate by 75 bps in Q2 2027",
-          "summary": "Goldman Sachs forecasts that the Reserve Bank of India will increase its policy interest rate by 75 basis points in the second quarter of 2027. The bank expects headline inflation to stay above 6 % through early 2027 before easing, while GDP growth is projected to slow to about 7.2 % that year. It attributes the outlook to strong domestic demand and an emerging investment cycle that could keep economic activity robust.",
-          "importanceScore": 12.6,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        },
-        {
-          "at": "2026-11-19T03:32:23.511103+00:00",
-          "title": "Goldman Sachs projects RBI to raise rates by 75 bps in Q2 2027",
-          "summary": "Goldman Sachs expects the Reserve Bank of India to increase its policy interest rate by 75 basis points by the second quarter of 2027. The firm projects headline inflation to stay above 6 percent into early 2027 before easing gradually. It also forecasts that India’s GDP growth will moderate to about 7.2 percent in 2027, supported by strong domestic demand and an emerging investment cycle.",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material facts or figures changed since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-19T03:32:23.511103+00:00",
-      "cat": "India",
-      "latestTitle": "Goldman Sachs projects RBI to raise rates by 75 bps in Q2 2027",
-      "latestSummary": "Goldman Sachs expects the Reserve Bank of India to increase its policy interest rate by 75 basis points by the second quarter of 2027. The firm projects headline inflation to stay above 6 percent into early 2027 before easing gradually. It also forecasts that India’s GDP growth will moderate to about 7.2 percent in 2027, supported by strong domestic demand and an emerging investment cycle.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms"
-    },
-    "ba44a7d42cade5": {
-      "id": "ba44a7d42cade5",
-      "firstSeen": "2026-11-18T12:20:32+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-18T14:03:29.343755+00:00",
-          "title": "India and US near completion of trade deal talks, signing pending",
-          "summary": "Commerce Secretary Rajesh Agrawal said the legal texts for a bilateral trade agreement are almost finalized, indicating negotiations are close to completion. The signing depends on the United States establishing new tariff rules and resolving ongoing Section 301 investigations. Both governments want to conclude the deal quickly to deepen economic ties.",
-          "importanceScore": 11.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-18T21:58:55.467348+00:00",
-          "title": "India, US near completion of trade deal talks, signing depends on US tariff rules and Section 301 resolution",
-          "summary": "Commerce Secretary Rajesh Agrawal said the legal texts of the India‑US trade deal are almost finalised, indicating negotiations are close to completion. The agreement can be signed only after the United States puts in place new tariff rules and resolves the ongoing Section 301 investigations. Both governments have expressed a desire to conclude the pact quickly to strengthen their economic partnership.",
-          "importanceScore": 10.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-19T03:32:23.511103+00:00",
-          "title": "India, US Near Completion of Trade Deal Negotiations, Signing Dependent on US Tariff Rules",
-          "summary": "Commerce Secretary Rajesh Agrawal said the legal texts for the India‑US trade agreement are almost finalized, indicating the negotiations are close to completion. The parties cannot sign the deal until the United States establishes new tariff rules and resolves the ongoing Section 301 investigations.",
-          "importanceScore": 9.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-19T03:32:23.511103+00:00",
-      "cat": "India",
-      "latestTitle": "India, US Near Completion of Trade Deal Negotiations, Signing Dependent on US Tariff Rules",
-      "latestSummary": "Commerce Secretary Rajesh Agrawal said the legal texts for the India‑US trade agreement are almost finalized, indicating the negotiations are close to completion. The parties cannot sign the deal until the United States establishes new tariff rules and resolves the ongoing Section 301 investigations.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-close-to-finalising-trade-deal-talks-signing-may-take-time/articleshow/135962149.cms"
-    },
     "e2bdf1f8e07609": {
       "id": "e2bdf1f8e07609",
       "firstSeen": "2026-11-18T17:00:40+00:00",
@@ -3182,15 +3080,78 @@
           "lifecycle": "New",
           "changed": true,
           "change": "New high-signal event entered the brief."
+        },
+        {
+          "at": "2026-11-26T09:33:14.929622+00:00",
+          "title": "Net FDI to India negative $4.95 bn in September, RBI says",
+          "summary": "The Reserve Bank of India reported that net foreign direct investment to India in September 2023 was a net outflow of US $4.95 billion. The negative balance was attributed to a slowdown in incoming investment flows and higher capital outflows during the month.",
+          "importanceScore": 9.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "Updated",
+          "changed": true,
+          "change": "Material details changed since the previous brief."
         }
       ],
-      "lastSeen": "2026-11-26T00:23:33.754359+00:00",
+      "lastSeen": "2026-11-26T09:33:14.929622+00:00",
       "cat": "India",
-      "latestTitle": "Net FDI turns negative at USD 4.95 billion in Sep on flow moderation, higher outflows: RBI",
-      "latestSummary": "The month of September 2026 marked a decline in net foreign direct investment in India, reaching negative USD 4.95 billion, primarily due to decreasing gross inflows and more substantial foreign investment repatriations. Although foreign portfolio investments faced a drop of USD 6.652 billion in October, they bounced back in November, achieving USD 12.",
+      "latestTitle": "Net FDI to India negative $4.95 bn in September, RBI says",
+      "latestSummary": "The Reserve Bank of India reported that net foreign direct investment to India in September 2023 was a net outflow of US $4.95 billion. The negative balance was attributed to a slowdown in incoming investment flows and higher capital outflows during the month.",
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/finance/net-fdi-turns-negative-at-usd-4-95-bn-in-sep-on-flow-moderation-higher-outflows-rbi/articleshow/136166680.cms"
+    },
+    "daa286c21650ee": {
+      "id": "daa286c21650ee",
+      "firstSeen": "2026-11-26T08:52:31+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-26T09:33:14.929622+00:00",
+          "title": "US proposes 25% tariff on Indian imports, possible reduction to 17% with trade deal",
+          "summary": "The United States has proposed a 25% tariff on imports from India, citing excess industrial capacity. The rate could be lowered to 17% if the two countries reach a trade agreement. India’s trade ministry is reviewing the U.S. allegations and defending its position as negotiations remain prolonged due to tariff rules and recent military incidents.",
+          "importanceScore": 13.4,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-26T09:33:14.929622+00:00",
+      "cat": "India",
+      "latestTitle": "US proposes 25% tariff on Indian imports, possible reduction to 17% with trade deal",
+      "latestSummary": "The United States has proposed a 25% tariff on imports from India, citing excess industrial capacity. The rate could be lowered to 17% if the two countries reach a trade agreement. India’s trade ministry is reviewing the U.S. allegations and defending its position as negotiations remain prolonged due to tariff rules and recent military incidents.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/how-donald-trumps-proposed-fresh-tariff-salvo-for-india-compare-with-rival-nations/articleshow/136184609.cms"
+    },
+    "abe52d26b8114d": {
+      "id": "abe52d26b8114d",
+      "firstSeen": "2026-11-25T21:51:17+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-26T09:33:14.929622+00:00",
+          "title": "North Korea orders Swiss diplomat to leave over sanctions on children’s camp",
+          "summary": "North Korea declared the head of Switzerland’s diplomatic office in Pyongyang persona non grata and gave him 48 hours to depart, also demanding the mission’s closure. The action follows Switzerland’s decision to sanction the Songdowon international children’s camp in Wonsan, which hosts Russian, Chinese and other children and has been accused of moving children from Russian‑occupied areas of Ukraine. KCNA described the Swiss sanctions as a “blatant hostile act.”",
+          "importanceScore": 12.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-26T09:33:14.929622+00:00",
+      "cat": "World",
+      "latestTitle": "North Korea orders Swiss diplomat to leave over sanctions on children’s camp",
+      "latestSummary": "North Korea declared the head of Switzerland’s diplomatic office in Pyongyang persona non grata and gave him 48 hours to depart, also demanding the mission’s closure. The action follows Switzerland’s decision to sanction the Songdowon international children’s camp in Wonsan, which hosts Russian, Chinese and other children and has been accused of moving children from Russian‑occupied areas of Ukraine. KCNA described the Swiss sanctions as a “blatant hostile act.”",
+      "why": "The expulsion narrows diplomatic channels between the two countries, complicating the management of sanctions and any humanitarian coordination linked to the camp.",
+      "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
     }
   },
-  "updated": "2026-11-26T00:23:33.754359+00:00"
+  "updated": "2026-11-26T09:33:14.929622+00:00"
 }
