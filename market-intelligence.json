@@ -1,48 +1,48 @@
 {
-  "updated": "2026-11-27T04:32:28.057130+00:00",
+  "updated": "2026-11-27T14:21:15.976022+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX up 0.7% as energy and mining stocks rally",
+      "headline": "TSX climbs on energy, miners boost; tech rebounds after selloff",
       "direction": "up",
       "move": "S&P/TSX Composite +0.72%",
-      "why": "Higher oil prices lifted energy stocks and strong commodity gains boosted mining shares; tech stocks also recovered after a prior sell‑off, supporting the overall rise.",
+      "why": "Higher oil prices driven by Middle East supply‑worry concerns lifted energy producers; a rebound in copper and silver prices supported miner stocks; technology shares recovered after a prior global sell‑off, together pushing the index higher.",
       "drivers": [
         {
-          "label": "Energy and Mining Stocks Rally",
-          "detail": "cwibc.co.id explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "copper and silver rebounded",
+          "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "price of oil moves higher",
-          "detail": "Yahoo! Finance Canada explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "oil climbed on Middle East supply worries",
+          "detail": "kalkine.ca explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
           "label": "Energy",
-          "detail": "Oil price rise boosted energy sector stocks",
+          "detail": "Oil prices rose on Middle East supply‑worry concerns, boosting energy producers such as TVE, CNQ and SU.",
           "kind": "driver"
         },
         {
           "label": "Mining",
-          "detail": "Higher commodity prices lifted mining stocks",
-          "kind": "driver"
+          "detail": "Copper and silver price rebounds helped miner stocks like ABX climb.",
+          "kind": "context"
         }
       ],
       "sectors": [
         "Energy",
-        "Materials",
+        "Mining",
         "Technology"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 34426.88,
+        "price": 34426.9,
         "previousClose": 34180.0,
-        "change": 246.88,
+        "change": 246.9,
         "changePct": 0.72,
         "currency": "CAD",
         "exchange": "TSI",
@@ -59,125 +59,125 @@
           "publishedAt": "2026-11-26T15:21:45+00:00"
         },
         {
-          "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.72% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSHVjZDR4Nm5Dc1gwZVdTblRJamkwV1BoODlUMVc4WnNKbE1MSF9IaTVIWC11NlNmbzVoaHVWSkdvdjlWajRJMVlvYVd3OE13d3dxZnFvOXRMX09yRWhLTTFFVFh0aURnRlN6VmlHaTA0d3Vua2xxNENKNXFWdG5IWTYwTEtpdDZMMHpZb05VRlcyVmdnZFlzSHB1LTNmelVlamN6cm12VWR6emZIcTFSN0dncDlDaWV2R3c?oc=5",
-          "publishedAt": "2026-11-27T02:39:31+00:00"
+          "name": "kalkine.ca",
+          "title": "Why TSX:SHOP rose on the S&P/TSX Composite as tech stocks rebounded after a global selloff - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcmowT1drTmE2R1JBaDFTbzlVbHlrN2w4Zld3UjNQUE5iMVJEbGk0VTNRSTFSVFEzUWFkSl9idVRUdk1VWWhWa0MyZ2JJNWpZOFpBNl9wYnU4UnpmY1ZhVW5PcHBiMWduSUpxRXM2em9obWFFWFdPRWJiN1ZvWmJ2Q0hCVDNMMWg2SkpwVkl2Yzd6M0NzZm4yN3ZjMlZrQndTakh5Z1I3RDN1aml4aWdaNWd5LWRvM3JRY1RPc0ZjWQ?oc=5",
+          "publishedAt": "2026-11-27T09:04:00+00:00"
         },
         {
-          "name": "cwibc.co.id",
-          "title": "TSX Gains 246 Points as Energy and Mining Stocks Rally - cwibc.co.id",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPRHROTThSczNkTWljNENCaGpxYzFFeVg4SGV4QUsyZUlxZlc2ZW9KalRzRGxZVGxMaldOVlprc29RNEJkVFNQdVhpbUQtLXAtLWlsd0RoVFh6TDlSQ3M4TG44aw?oc=5",
-          "publishedAt": "2026-11-26T22:51:00+00:00"
+          "name": "kalkine.ca",
+          "title": "Why TSX:TVE climbed on the S&P/TSX Composite: energy producers rallied on higher oil prices - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ1EySHNTa0pGTjBpdjBSYXdiS19veWl0aTAyVzI5bkVhbzdhTExoeE1aTjlNZkt3djZ4SXBmMFBXN1FTU2ZHbEJNZlRycm5iVG54TFFub1R6SkJxQ0tQWS13ZUVfSlRTd21tVFpJY2R6cVhid01yd0tWVzBDMl91LWViVFcwTVFOSVpyT1dOYmwzbGpqaXRSR0xISWNFUk9HVFlsb2EzYWk2ZWZDRnVOSDhxX0h0ZXAzQ2c?oc=5",
+          "publishedAt": "2026-11-27T09:04:00+00:00"
         },
         {
-          "name": "Investing.com UK",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 0.72% - Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN3VjNnRkdHpQRTlRZHdoZHdSc3hqTlZOb0pqajFmNTJpeEFmQ1dVRGxSemQxbXBZUWp1Y1lzdVdrZ3dfZ3dGWFNXcDdrcUN5UmVNNG9POER3XzJwT0xMVFE0VU1ua1Back9SeFA2UlB0TzRWQXpBNmM0cHc0UExhZmJpaF9lYVVBekJ1Q3paUHktMWw5bWVVWDl5dFlwdHpERGhIaXVXWk1DbmF4bEdRZHlPRlZkUWVo?oc=5",
-          "publishedAt": "2026-11-26T21:30:00+00:00"
+          "name": "kalkine.ca",
+          "title": "Why TSX:CNQ climbed on the S&P/TSX Composite: oil producers tracked higher crude on Middle East supply worries - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVHBMV3YtMEFnWWYteng5a3ZONElfSmNNR2dOYXlVRllxZXFnUGtia25SNU5YMWozamRpZ0RyZkZZbUstMG44LTZ2dTlweWQxS0Fac3dMNFlYdGYwNFhJNHlGQjVSbVZSMHdrUkJrY205NEpBRmFtMUxpN2xlZEVHU3Z2WlRITU1TdHBjN2NocnptVk1SWFYxTFlFWVRNSVFwU01EQzBrc2dxN1JuU3ptSzFhTXRRVW1RcWRhSGdQQlN0RG41eTVaY2t2b0FYemxRdVlr?oc=5",
+          "publishedAt": "2026-11-27T09:04:00+00:00"
         },
         {
-          "name": "arabcanadanews.ca",
-          "title": "S&P/TSX index rises more than 200 points in Canada supported by energy stocks and oil gains - arabcanadanews.ca",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaHd0Tm5BNHJ2X3pzSGlNTVBiRmJrQmtyVHpyTnp2c2hUd1JSRmU4OW8tQWd1RGRlOUNvNHBzVlZMV0ZQc2VNSE5kblhObFRqMDZsSzhSWk9sal9kZ2k0X2dHUXBWYklWRU9xLS10eksyX3hrbVlwMVhNa2dCSGdVa0wyZjRDSEdtVW1qVGpMVW5FRS01ZlMwZ1piUndfbkZsdzZJRm1fQ0gtUDVRb1dZY19qaEFjUW1jYlp1eVVEcEJYdGtf?oc=5",
-          "publishedAt": "2026-11-26T19:09:10+00:00"
+          "name": "kalkine.ca",
+          "title": "Why TSX:ABX climbed on the S&P/TSX Composite: miners rose as copper and silver rebounded - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTUJRSms5aGNVU0lqTkRGUTBsZm1XZnE4NTBBZEdma0lMcnZPdjZYem1JYnNDLThXcHVtMjhNcTZ6MEFiUDZfTTI3RHllT2M4NnZjOU41MUNMTGR4eU8wcFFBeElFNXZHbGl1WGdkREFNVmhKZ2FLMHFnUERWVW5ZTFJoNEQ3OEpNaFdnb3M3RTZHTUxkSy00NVMtSG1odVZDQWNpaktnejRZSXBxX1JzemZNSEFHZw?oc=5",
+          "publishedAt": "2026-11-27T09:04:00+00:00"
         },
         {
-          "name": "Yahoo! Finance Canada",
-          "title": "S&P/TSX composite up more than 200 points as price of oil moves higher - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00SWx1dGJoUUVMUWVDRWtkVlBfWWsyRzNKb184Nmw2Z2xza1hUMU9lclVZSjFiYnlkTUVLWExwVERjcjhzeEk1ZmFVREdYcGlWWDJNU3ZiYkRwT3dOZUwzaldBajBCWXAwckVWZTduby1SZkY2OUIzb2lfZmRKZw?oc=5",
-          "publishedAt": "2026-11-26T16:37:26+00:00"
+          "name": "kalkine.ca",
+          "title": "Why TSX:SU climbed on the S&P/TSX Composite: crude rose on Middle East supply-disruption fears - kalkine.ca",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRmIzZUdtaHVFdW5jRmpsc0ltYThuMnc0Rk9kbllnTXBmQTBZS3ZMYTlUaUU3QUJ0VzU5SzdlRU9UV3ZXa2E1V3JDa0xDeEhnSWVoZDFmNXpNVjFESUZ3X3lWTE9fX1JHcy1XZ3l1c3hUcWVnT1RZXy1kcTMxbUF2d18yVkpNaXJ0YmFUOGRrUVhLT2NnNDR4RDJYMHVzclpLLWMzbkxQcDdhUmpqV3pSYmdrT2RZaUU2REtURHZB?oc=5",
+          "publishedAt": "2026-11-27T09:04:00+00:00"
         }
       ],
       "evidenceCount": 7
     },
     "India": {
       "label": "India",
-      "headline": "Nifty 50 fell 0.15%",
+      "headline": "Nifty 50 fell 1.07%",
       "direction": "down",
-      "move": "Nifty 50 -0.15%",
-      "why": "No single verified causal driver for the final move was established in the collected sources; the items below are context rather than proven causes.",
+      "move": "Nifty 50 -1.07%",
+      "why": "Same-day market coverage explicitly linked the final move to: IT Stocks Face Selling Pressure; Construction Stocks Drag Sensex Down; geopolitical tensions, rising oil prices weigh.",
       "drivers": [
         {
-          "label": "Sensex, Nifty scale multi-month closing highs as tariff fears ease",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "IT Stocks Face Selling Pressure",
+          "detail": "Kotak Neo explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Indian Stocks Close Higher as Realty and Banking Gains Lift Sensex, Nifty",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "Construction Stocks Drag Sensex Down",
+          "detail": "scanx.trade explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         },
         {
-          "label": "Sensex, Nifty 50 in the red in early trade: Check major gainers and laggards",
-          "detail": "Relevant same-day market context from the collected source.",
-          "kind": "context"
+          "label": "geopolitical tensions, rising oil prices weigh",
+          "detail": "https://www.indiagazette.com/ explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
         }
       ],
       "sectors": [],
-      "confidence": "low",
+      "confidence": "medium",
       "primaryIndex": {
         "symbol": "^NSEI",
         "name": "Nifty 50",
-        "price": 25846.4,
+        "price": 25607.2,
         "previousClose": 25884.5,
-        "change": -38.1,
-        "changePct": -0.15,
+        "change": -277.3,
+        "changePct": -1.07,
         "currency": "INR",
         "exchange": "NSI",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-27T04:32:40+00:00",
+        "asOf": "2026-11-27T10:01:37+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "secondaryIndex": {
         "symbol": "^BSESN",
         "name": "Sensex",
-        "price": 84152.32,
+        "price": 83339.26,
         "previousClose": 84328.59,
-        "change": -176.27,
-        "changePct": -0.21,
+        "change": -989.34,
+        "changePct": -1.17,
         "currency": "INR",
         "exchange": "BSE",
         "timezone": "Asia/Kolkata",
-        "asOf": "2026-11-27T04:17:40+00:00",
+        "asOf": "2026-11-27T10:02:25+00:00",
         "source": "Yahoo Finance daily chart feed"
       },
       "sources": [
         {
-          "name": "The Economic Times",
-          "title": "Sensex, Nifty scale multi-month closing highs as tariff fears ease - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVDBtYzZmWDFkZXZHT2dwWTJBdDJDR2UyYVdZY3RpWE9MRVl6MVlNaW1nRkZOeWp3QXlUTEVRTERoVFRFd2pSc2huZS1SMklxWkNwYmxqQ1hER0F3aXRzNkxhWFZHV0NLcGs1LWNlQnhjWDlmdkRnRmd5emZ2RW5NVURDdHZvQ1lZUHRRMHVpaDd1LWJhXzVkdHg2cDVFbUJzSGJ6cVRsR3FLcDhfajFpRXQ0M3NReV9KNVdVc3Z0aXhuMkJZTXU4enBYdV96NllSYnVkUHh30gHbAUFVX3lxTE56enFVVGdXZXEtdHJTYm5XQUhic2pPZnVqUVlmbDBsOWRkWG5Ia05YOFRmdktiUHRfVnNGTTZlUDl5MkhBb0dHMmU4QlZjcnA2eUtMeTlvdkF2VFREbnQ1Y01tblI1MEc2SmhFakJ6a2JnS0YycjJiUzd4NFNEWjI5SU5HSVdGMlZTSWdsbXd5MWJkQnVPN0djaElrbW5jVFZqTmVvazRKcFN1OEhPSUcxVUpWUGNIOG9Yd1RwbDRzd2NabGZndWVfRGREUG95UmVNSjRsRi1HbUg5dw?oc=5",
-          "publishedAt": "2026-11-27T01:10:06+00:00"
+          "name": "NiftyTrader",
+          "title": "Black Friday Turns Red: Nifty Slips After a 15% Rally in Four Weeks. Is the Market Just Catching Its Breath? - NiftyTrader",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GVmZFa0RqaUZmM3g5eXZkdkVtd2lWTUVSSjVyRVd0QjFxX0h2cXZFOXFCUVNXMk5Xa3ZVc2RuTER1TkhkMmh3LXpKMXVzR0I1NUJQa2hUU05mMWtkRHNjNW1ha1RlMEpLcUtDc1VlaDR0WW1hbk9iV1p3?oc=5",
+          "publishedAt": "2026-11-27T11:37:06+00:00"
         },
         {
-          "name": "INDIA New England News",
-          "title": "Indian Stocks Close Higher as Realty and Banking Gains Lift Sensex, Nifty - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGFCTzJ0UzBpdmVNcE9GMmhjaWQzZ1I0Y0NfWmRnRFdxNFhRaFFOR2RCZF9haWxrQ05aTXBLdkNRMjhCMTVYNE1mV1p6LWdqd1gtNVpuVWxhUFVkTEpnVGtjYmZGTXo1VTVSSWd3TEJmcFNRZGNWdXphUUY4cVBTWGVTMUJnaFI1WmQ1NDdLQWc2bW05OFQyNC13b3JxZGlVWW00?oc=5",
-          "publishedAt": "2026-11-26T21:11:22+00:00"
+          "name": "Fortune India",
+          "title": "Sensex tumbles 989 points, Nifty slips below 25,650 as four-week rally ends - Fortune India",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc29MYUNZa1Fzc19UNDFaUVU1QUMxSmRLVmFWb0ktSVNSSjNtZm1OcVRDNDFRbUphNFJIYWxFTGJtR1hyanNUSkhIRS1XaWpsWWltR0lsTGJ2a1lUTEotamdXNV9TOEwteVh3TkE3QkZYRjEzRHVxb281STdua2t2RnpvLUVabXNHdW55enozSDhsSWNLT2VsUzZmM0N0bGhjTVpKdzB2ck1IUWN5bUhnSHZMYVZVQ2hvNlB5VUoyWnc3d2RxNGfSAcYBQVVfeXFMT3NvTGFDWWtRc3NfVDQxWlFVNUFDMUpkS1ZhVm9JLUlTUkozbWZtTnFUQzQxUW1KYTRSSGFsRUxibUdYcmpzVEpISEUtV2lqbFlpbUdJbExidmtZVExKLWpnVzVfUzhMLXlYd05BN0JGWEYxM0R1cW9vNUk3bmtrdkZ6by1FWm1zR3VueXp6M0g4bEljS09lbFM2ZjNDdGxoY01aSncwdnJNSFFjeW1IZ0h2TGFWVUNobzZQeVVKMlp3N3dkcTRn?oc=5",
+          "publishedAt": "2026-11-27T10:55:49+00:00"
         },
         {
-          "name": "News9live",
-          "title": "Sensex, Nifty 50 in the red in early trade: Check major gainers and laggards - News9live",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRUFqT09VT1A4QzZncVZCWXUzTXZQQjByZ1VTb0t1NkptbzJYOXJJUXZ5eXFWLUtjLWN6OU5PZHowNkFRVmREdXZaQXVFbjZERGtPZE5YZ3UtemxzOGI0UENiMi1JRjZSWDRmWEduSG9iNUdmQmFiTWN6U0llNTZfc2pGS19tWmRLTTZLWmNId0U2Z1dTclNTdm9CTXVQWHBUYXdJNzZ4ZVpBbVhvRENtTWtiNTgzZnRoM0ZyX1BkMTd5eFXSAcgBQVVfeXFMTlczdk1VMmJKSWE1eHNRcnkwRE54TXZVbUhzLUVfdHkzTVBlUjloUFF0ODNNdXAyelA1ZXdfYXZwb1oySlhIWkFXWGI2X1VnTUdodTJRajVnQnNZcnhvMWF5ejhubnJycjNfZHFJWThPSnBFdjNUZEY2VW15NGR2dVVKc0IwbVplMlduS1YtOU9DWVZGY2YwMUNOWkk1STNRSmJ4d1FHZ2MtLTU2eXNXcG44UFE4YjNwYmZCWVo2VDkyVlpEaUk1ZzM?oc=5",
-          "publishedAt": "2026-11-27T03:54:55+00:00"
+          "name": "The Times of India",
+          "title": "Stock market today: Sensex tumbles nearly 1000 points, Nifty50 below 25,650 after 2-day rally - key reaso - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPNkhJTEZQZWR5UGtmNWl6MzdIM0hqM3lRbWZzT0xsZ1J0LVplVXNZejNGU1dueVdQRXlVRkExQzllbzlJZ0RRQmxvbHdCbmEtRWxEU1M0WXRLSDlaS2Y4aFMtSl9LSnRDN2lsWGd4dlBicHlkTjNpd2M4MGF0SjVmbHdNOGtwVDBsS2xFZG8zV0tPVW0tOFBNdTZUY2I2WmtPZE1PYmV3OHZGLU9SLXhJeGM1YVJKa0NtZm9WX2pqLWNRVVVSUnFzOXR5dVZtSzN4YjJOY2dHZ1NhZmFvRmtkVkcwQWVkaXV4dmhVemV6WFk4V1FyR1ZtZVBia0czLU96Z0pCYjdEbHlyUGw3MUg0STA3bURTS0ppMGRUeDdlNTlyX3NRLVpF0gGsAkFVX3lxTE5nM18zX0ZQVm9IOE56clFkZGpCVGRBN2lDelNiZnU5Z2V3X3JLbG9XZEtKbzN5VjR1ems3eEZmTktaM3VWN3JzT1B6TllmUk5TRU9zQzgzUHBIS0k1SHVHY2VwclVNcUFjcUZzN0ZJdVFHb2VPOFAtWXg0eVBWYnZMcHFZTTRuVEhKQVRvcW5kcnN6bDN3Y1BlaWFodVVwXy05YWUtazZQd2FOMHA1elZVSUI5T1h4WV9yREw2RFE3U3JkTHVPV2k2T0Q2alRRNER6dl9qREtxdDZYWUhJdHRLV19zbnpyNk5zNGVhX29mWWJEV0VEUHRXM0F1WkdHVGJnM080M3ZRSXBVVDFTeHliSmF3a3AwSkZ3N1o2a3Z4Y2dHNDlqNlQ1ZmZwUA?oc=5",
+          "publishedAt": "2026-11-27T10:37:00+00:00"
         },
         {
           "name": "Kotak Neo",
-          "title": "Sensex Soars Close to 400 Pts, Nifty Nears 26,600: 3 Reasons Why the Stock Market Is Up Today - Kotak Neo",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSFhuSkJiQ1p6aHRjNlNGeERnd1dVTlB1S1V3YTE1aDFLdjl0VHBSVkRneGdaVzUtVjZzSzRIVVB0OXhsVlFhbDY5dW54cTdjRTk2SlhJbUhYcDZtcDFobzNXZGl1S3FUMlFzZ2RmRmZKZjNhajRrUkdIV0ViNnI0Nw?oc=5",
-          "publishedAt": "2026-11-27T02:07:50+00:00"
+          "title": "Closing Bell, 27 November 2026: Sensex, Nifty Fall as IT Stocks Face Selling Pressure - Kotak Neo",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXNHWHg4dkNqeXd5RjNZYi0yMkotcks0a3c0RjMzS2RsTUpGanJBcXRUN1VqTUxwM2dZRDJvZkt1MElSZXV0WjVmZU94SUdvSkpiMkhyQlAyY0VjRmRTS05SWm5LQ1JGbF85TXdRcVB5a1MwQUNadWhUbDJKS2EyeG5Da25YUW91RWVnNXU5RXVOenQ2bTVGNmdJaDI5ek9P?oc=5",
+          "publishedAt": "2026-11-27T10:35:43+00:00"
         },
         {
-          "name": "The Financial Express",
-          "title": "LIVE: GIFT Nifty signals cautious start for Sensex, Nifty; Kospi steady after recent spikes - The Financial Express",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSGNYci1rVFdCcTlGbDVLYXJQVFpYNUZWTHRfN1BPamZ1WldHS3RKaUFOV0ZLd2VXMXRUSXlZVmZpVU56Ynl4RnZ4M2xXLVdXbHBUZ29nUV9NVnB0SWVULUx3a0MyVjhMMHlDMURqSFAyb1R0TFhCWVE1TkFRakZ1WE5CRXVscmdlamQwN3ozMXF3M2xYb3Awbl9uY0cwdThDLTQwMTZBdkdBRHl5Z1hsZmhyM2ZIYUJVX1c0djZqMWZKaWhVNS1TdVdPSFVEbzZBdXlLOHl5YmhUeFNOOHE1ZlRNTWFnc0h1ODNnZTV5bGdnVmtrYndDanQ0Y9IB-wFBVV95cUxQSGNYci1rVFdCcTlGbDVLYXJQVFpYNUZWTHRfN1BPamZ1WldHS3RKaUFOV0ZLd2VXMXRUSXlZVmZpVU56Ynl4RnZ4M2xXLVdXbHBUZ29nUV9NVnB0SWVULUx3a0MyVjhMMHlDMURqSFAyb1R0TFhCWVE1TkFRakZ1WE5CRXVscmdlamQwN3ozMXF3M2xYb3Awbl9uY0cwdThDLTQwMTZBdkdBRHl5Z1hsZmhyM2ZIYUJVX1c0djZqMWZKaWhVNS1TdVdPSFVEbzZBdXlLOHl5YmhUeFNOOHE1ZlRNTWFnc0h1ODNnZTV5bGdnVmtrYndDanQ0Yw?oc=5",
-          "publishedAt": "2026-11-27T01:28:41+00:00"
+          "name": "scanx.trade",
+          "title": "Nifty Slips Below 25,650 as Construction Stocks Drag Sensex Down - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeHktal9XZ3RVcFp2QXJZMks2LUEwcG5sRVIwY1BnZExoVUNnVXd2eS15SEtvSDdUT1Z5eFVkTFJhdGFvbV9JaWxBMllmNUd6dkdhbGFOUTVCWnpwQkhBcnpuNUQ4VkNfZTZUbnZkQW5EZEN2MVhWeVI0NDR0OXpwU0RNQlUwUV9IQTBGcksyQlMyX3ZpWmI5djUtVUpKekxpNnY3TmJ0akJyNHVDaTRsX0x2MFZ1NFlUeVpUb05lUC1wcXhUX3hURFpIU2Vob19IZFhrSzNjYURpOWZBTGltZV9jUnEtSXZJejRfYWVMTEdwcnBwc1hNcXZMeXg0cHZv?oc=5",
+          "publishedAt": "2026-11-27T10:21:29+00:00"
         },
         {
-          "name": "NDTV Profit",
-          "title": "Stock Market Today: Gift Nifty, Oil Prices To Iran War; Five Key Factors That May Drive Sensex, Nifty 50 On Nov 27 - NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNS0JYc0tkclVBeDdsNC1ackZLNGh1LW0tV296ZUFwSWJQbGJ6NlhDUnNuS2FuZjVJakRrLXlpbHM2NmRGemZ1S1VpRWRGVU5mYnc4SDNCM3V3OWJHaXRCTU9ma0xXZXozWDRGU3lBenhTTms1TW9xVXRHci00ekpCZWxRVXR0VGZmY1lqV0JZWjJYWDRhQm82eWppTjB2Q01ZMXFzWmJXeDVyN1VpRUtVZ1hvOG1UdGVfZU5VdU9IeGlIWjQ0clhLeTNiZ0RVLTVwVUx0NWszOFVBSWpBbjQ4Z1VtRk1RMUZlbVJKV3NoTjjSAfgBQVVfeXFMUFkwT3pDRHQ1eXR2MlB2UHAzQVBQOENSZVF1ODNxcXROeFd6MVdYZFN3N04zdHY2NlFBVFJ3SnVfZEg0b1hGWUt4ZDNKS0h3N0ZJZzQ4YThRQmRVbG1KNTRzR3p6dWtRNjZWd2FlRTBSNjFaUW1ZbHRBTXRfd3UzTDM4aFpHenVhVUF4X1hDQ0h4NWtlQ3J4cHhqTUpQX2ZsVmszMjROTm9JWlRJUWJPaVpKczlXOWhZTUZxVEczTlBES2lVUmJ2ZEx3TldLVzVIT3Z1QVU3WjFabWZEM09GdDZpVGIwS2M2U2JQaGpGUXhaWFFpWDJ0X3g?oc=5",
-          "publishedAt": "2026-11-27T01:28:15+00:00"
+          "name": "https://www.indiagazette.com/",
+          "title": "Sensex tanks nearly 1,000 points, Nifty slips below 25,650 as geopolitical tensions, rising oil prices weigh - https://www.indiagazette.com/",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWjBESDBfT1AxU3o0Y1V5bFdqU0lTZGR6T1k1djh2UW9vSE0yRkF2Z2FhUUdwZjFDckl3WUtwWjNBUlVpMUwwcjFGUExGc1VNLTFjMTRqemtncEo1aldJdUp5N1M2YThIWDJWVmFfQWV6a2ZRVnJTWEJJMlJSZmxtWGJMcElBSDVjaHNjS21kNlVGSmo3NmNKZlR2RkpQUi16UF9mel85dnhEaExIdUJfWlBPNm0zNlhERTNVUjJsVm1mZnZyeExHOXNzS09WYzhOY2NDb3ZfTVNIaDlLekJvb3hR?oc=5",
+          "publishedAt": "2026-11-27T06:37:00+00:00"
         }
       ],
       "evidenceCount": 7
