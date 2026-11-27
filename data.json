@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-26T19:38:44.507660+00:00",
+  "updated": "2026-11-27T02:52:26.241459+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
     "rawCandidates": 80,
-    "nonNoiseCandidates": 77,
+    "nonNoiseCandidates": 78,
     "officialOrPrimaryCandidates": 8,
-    "enrichedCandidates": 75,
+    "enrichedCandidates": 76,
     "readableCandidates": 59,
-    "eventClusters": 45,
-    "materialEvents": 15,
-    "selectedEvents": 7,
-    "seededStories": 5,
+    "eventClusters": 53,
+    "materialEvents": 24,
+    "selectedEvents": 8,
+    "seededStories": 8,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
@@ -24,17 +24,17 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Price History",
+      "title": "HDFC Bank shares close at 862.0 INR on 26 Nov 2026",
       "publishedAt": "2026-11-26T06:51:53+00:00",
       "importanceScore": 14.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-share-price-live-26-nov-2026/liveblog/136181934.cms",
-      "summary": "Explore the latest updates on HDFC Bank stock, including: Last traded price 862.0, Market capitalization: 1329083.09, Volume: 70517167, Price-to-earnings ratio 16.59, Earnings per share 51.95. Stay on top of the game with our comprehensive coverage, featuring the latest details on SBI Life stock, including: Last traded price 1842.3, Market capitalization: 184857.32, Volume: 1115968, Price-to-earnings ratio 69.61, Earnings per share 26.47.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
+      "summary": "At 06:31 PM IST on 26 Nov 2026, HDFC Bank’s last traded price was 862.0 INR. The stock’s market capitalization stood at 1,329,083.09 million INR, with a trading volume of 70,517,167 shares. The price‑to‑earnings ratio was 16.59 and earnings per share were reported at 51.95 INR.",
+      "why": "These figures give investors a current snapshot of the bank’s valuation and market activity.",
+      "confidence": "medium",
       "verified": false,
-      "editor": "Source-backed fallback",
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
@@ -53,125 +53,89 @@
         }
       ],
       "firstSeen": "2026-11-26T06:51:53+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Price History",
+      "previousSummary": "Explore the latest updates on HDFC Bank stock, including: Last traded price 862.0, Market capitalization: 1329083.09, Volume: 70517167, Price-to-earnings ratio 16.59, Earnings per share 51.95. Stay on top of the game with our comprehensive coverage, featuring the latest details on SBI Life stock, including: Last traded price 1842.3, Market capitalization: 184857.32, Volume: 1115968, Price-to-earnings ratio 69.61, Earnings per share 26.47.",
+      "previousPublishedAt": "2026-11-26T06:51:53+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.0,
       "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
     },
     {
-      "id": "1cc15738a60415",
+      "id": "105e4e646fe77c",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "India bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks",
-      "publishedAt": "2026-11-26T13:11:40+00:00",
-      "importanceScore": 13.6,
+      "title": "Brent crude futures near monthly high as Middle East tensions and Ukraine attacks tighten supply",
+      "publishedAt": "2026-11-27T02:07:52+00:00",
+      "importanceScore": 12.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136193320.cms",
-      "summary": "The Reserve Bank of India highlighted rising food inflation pressures, indicating widespread price increases. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-trades-near-months-high-as-mideast-conflict-threatens-supply/articleshow/136207059.cms",
+      "summary": "Brent crude futures are trading close to the highest level recorded this month after tanker attacks in the Strait of Hormuz and assaults on Saudi energy infrastructure raised concerns about oil export disruptions. Prices have slipped slightly in recent sessions, but analysts say the market could still break the $100 per barrel mark. Ukraine’s drone strikes on Russian refineries have added further pressure on global fuel supplies.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-trades-near-months-high-as-mideast-conflict-threatens-supply/articleshow/136207059.cms",
+          "publishedAt": "2026-11-27T02:07:52+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-27T02:07:52+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "ac41a696c5eee5",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Ashiana Housing JV buys 10-acre land in Chennai for senior living project, eyes Rs 1,100 cr revenue",
+      "publishedAt": "2026-11-26T15:51:45+00:00",
+      "importanceScore": 12.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/ashiana-housing-jv-buys-10-acre-land-in-chennai-for-senior-living-project-eyes-rs-1100-cr-revenue/articleshow/136197134.cms",
+      "summary": "Ashiana Housing Ltd recently revealed its acquisition of nearly 10 acres in Chennai aimed at a senior living initiative. In collaboration with Arihant Foundations, the project estimates a saleable area of around 9 lakh square feet, with an anticipated revenue potential of Rs 1,100 crore.",
+      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136193320.cms",
-          "publishedAt": "2026-11-26T13:11:40+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136179562.cms",
-          "publishedAt": "2026-11-26T05:20:12+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/ashiana-housing-jv-buys-10-acre-land-in-chennai-for-senior-living-project-eyes-rs-1100-cr-revenue/articleshow/136197134.cms",
+          "publishedAt": "2026-11-26T15:51:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-26T13:11:40+00:00",
+      "firstSeen": "2026-11-26T15:51:45+00:00",
       "status": "New",
-      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
+      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "fa48e446a1c36e",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "FIEO says 17% tariff in India‑US deal offers little advantage to exporters",
-      "publishedAt": "2026-11-26T12:21:04+00:00",
-      "importanceScore": 13.6,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo/articleshow/136191482.cms",
-      "summary": "The Federation of Indian Export Organisations (FIEO) said that the 17% tariff provision in the pending India‑US trade agreement is unlikely to give Indian exporters a significant competitive edge. The organization cautioned that the tariff level may not materially improve export competitiveness. The comment was reported in the Economic Times' foreign trade section.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo/articleshow/136191482.cms",
-          "publishedAt": "2026-11-26T12:21:04+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-26T12:21:04+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a75f25a2b7e014",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India aims to exceed $1 trillion in exports by March 2027 despite proposed US tariff",
-      "publishedAt": "2026-11-26T13:14:22+00:00",
-      "importanceScore": 12.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
-      "summary": "ASSOCHAM Secretary General said India expects its total export value to pass $1 trillion by March 2027, even if the United States imposes a proposed 25 % tariff on Indian goods. The statement was reported by The Economic Times; the article did not provide additional data or justification.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
-          "publishedAt": "2026-11-26T13:14:22+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-26T13:14:22+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -189,7 +153,7 @@
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
-      "summary": "Early on Tuesday, she received news that he was trapped underground.** Rais, 50, had been working as an illegal gold miner in Bogor, Indonesia's West Java province. On Monday night, he and at least 25 other miners were digging in an open-pit mine about 100m (328ft) deep, when torrential rain caused a nearby river to overflow and flood the two shafts.",
+      "summary": "Rais, 50, had been working as an illegal gold miner in Bogor, Indonesia's West Java province. On Monday night, he and at least 25 other miners were digging in an open-pit mine about 100m (328ft) deep, when torrential rain caused a nearby river to overflow and flood the two shafts.",
       "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
       "confidence": "low",
       "verified": false,
@@ -202,32 +166,191 @@
         }
       ],
       "firstSeen": "2026-11-26T07:31:24+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-26T19:38:44.507660+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+      "previousSummary": "Early on Tuesday, she received news that he was trapped underground.** Rais, 50, had been working as an illegal gold miner in Bogor, Indonesia's West Java province. On Monday night, he and at least 25 other miners were digging in an open-pit mine about 100m (328ft) deep, when torrential rain caused a nearby river to overflow and flood the two shafts.",
+      "previousPublishedAt": "2026-11-26T07:31:24+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.2,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
+    },
+    {
+      "id": "421e2e86dd763b",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "US tariff threat: Indian traders urge Modi to hit back with 25% duty",
+      "publishedAt": "2026-11-26T04:16:45+00:00",
+      "importanceScore": 12.2,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-tariff-threat-indian-traders-urge-modi-to-hit-back-with-25-duty/articleshow/136178272.cms",
+      "summary": "The Chamber of Trading Industry (CTI) has urged the government to consider imposing a 25 per cent retaliatory tariff on US goods if Washington proceeds with higher duties on Indian products, warning that the proposed measures could affect exports worth USD 48 billion and put around five lakh jobs at risk. CTI Chairman Brijesh Goyal urges Prime Minister Narendra Modi to impose a 25% retaliatory tariff on US goods, warning that the proposed American duties could put $48 billion worth of Indian exports and around five lakh jobs at risk.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-tariff-threat-indian-traders-urge-modi-to-hit-back-with-25-duty/articleshow/136178272.cms",
+          "publishedAt": "2026-11-26T04:16:45+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-26T04:16:45+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
+    },
+    {
+      "id": "fa48e446a1c36e",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "FIEO says 17% US tariff cut may not boost Indian exporters",
+      "publishedAt": "2026-11-26T12:21:04+00:00",
+      "importanceScore": 11.7,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo/articleshow/136191482.cms",
+      "summary": "Ajay Sahai of the Federation of Indian Export Organisations said that even if a bilateral trade agreement with the United States lowers tariffs by 17 percent, Indian exporters are unlikely to gain a competitive edge. He warned that exporters could face an additional 8 percent cost if US tariffs rise to 25 percent, and noted that Southeast Asian competitors may secure more favorable terms through their own agreements.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo/articleshow/136191482.cms",
+          "publishedAt": "2026-11-26T12:21:04+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-26T12:21:04+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "FIEO says 17% tariff in India‑US deal offers little advantage to exporters",
+      "previousSummary": "The Federation of Indian Export Organisations (FIEO) said that the 17% tariff provision in the pending India‑US trade agreement is unlikely to give Indian exporters a significant competitive edge. The organization cautioned that the tariff level may not materially improve export competitiveness. The comment was reported in the Economic Times' foreign trade section.",
+      "previousPublishedAt": "2026-11-26T12:21:04+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 13.6,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "2e0bd6cee2944c",
+      "cat": "AI",
+      "icon": "✦",
+      "categories": [
+        "AI"
+      ],
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "publishedAt": "2026-11-26T20:03:54+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "summary": "According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S. The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.",
+      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "publishedAt": "2026-11-26T20:03:54+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-26T20:03:54+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "a75f25a2b7e014",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "India’s exports top $500 billion, growing 15% as US tariff talks continue",
+      "publishedAt": "2026-11-26T13:14:22+00:00",
+      "importanceScore": 11.3,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
+      "summary": "ASSOCHAM Secretary General Saurabh Sanyal said India’s exports have already crossed USD 500 billion and are expanding at roughly 15 % per year. He added that a proposed U.S. tariff on Indian goods could be reduced from 25 % to 17 % if ongoing trade negotiations between the two countries are successfully concluded.",
+      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "confidence": "medium",
+      "verified": false,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
+          "publishedAt": "2026-11-26T13:14:22+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-26T13:14:22+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "single-source-reviewed",
+      "previousTitle": "India aims to exceed $1 trillion in exports by March 2027 despite proposed US tariff",
+      "previousSummary": "ASSOCHAM Secretary General said India expects its total export value to pass $1 trillion by March 2027, even if the United States imposes a proposed 25 % tariff on Indian goods. The statement was reported by The Economic Times; the article did not provide additional data or justification.",
+      "previousPublishedAt": "2026-11-26T13:14:22+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.3,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 4,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-26T09:33:14.929622+00:00",
+  "previousUpdated": "2026-11-26T19:38:44.507660+00:00",
   "changeSummary": {
-    "new": 5,
-    "updated": 0,
-    "continuing": 0
+    "new": 4,
+    "updated": 3,
+    "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-24T00:54:51.328592+00:00",
-    "updated": "2026-11-26T19:38:44.507660+00:00",
+    "availableFrom": "2026-11-24T10:58:12.172562+00:00",
+    "updated": "2026-11-27T02:52:26.241459+00:00",
     "snapshotCount": 8,
-    "eventCount": 64,
+    "eventCount": 66,
     "retentionHours": 72
   }
 }
