@@ -1,123 +1,36 @@
 {
-  "updated": "2026-11-27T02:52:26.241459+00:00",
+  "updated": "2026-11-27T12:27:56.210836+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 80,
-    "nonNoiseCandidates": 78,
+    "rawCandidates": 76,
+    "nonNoiseCandidates": 76,
     "officialOrPrimaryCandidates": 8,
-    "enrichedCandidates": 76,
-    "readableCandidates": 59,
-    "eventClusters": 53,
-    "materialEvents": 24,
-    "selectedEvents": 8,
-    "seededStories": 8,
+    "enrichedCandidates": 74,
+    "readableCandidates": 49,
+    "eventClusters": 44,
+    "materialEvents": 22,
+    "selectedEvents": 6,
+    "seededStories": 4,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "7ade44c40eadeb",
+      "id": "68393de1ff6c4f",
       "cat": "Indian Markets",
       "icon": "IN",
       "categories": [
         "Indian Markets"
       ],
-      "title": "HDFC Bank shares close at 862.0 INR on 26 Nov 2026",
-      "publishedAt": "2026-11-26T06:51:53+00:00",
-      "importanceScore": 14.0,
+      "title": "Tata Consumer Products Share Price Live Updates: Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+      "publishedAt": "2026-11-27T04:34:35+00:00",
+      "importanceScore": 15.7,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-share-price-live-26-nov-2026/liveblog/136181934.cms",
-      "summary": "At 06:31 PM IST on 26 Nov 2026, HDFC Bank’s last traded price was 862.0 INR. The stock’s market capitalization stood at 1,329,083.09 million INR, with a trading volume of 70,517,167 shares. The price‑to‑earnings ratio was 16.59 and earnings per share were reported at 51.95 INR.",
-      "why": "These figures give investors a current snapshot of the bank’s valuation and market activity.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-share-price-live-26-nov-2026/liveblog/136181934.cms",
-          "publishedAt": "2026-11-26T06:51:53+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sbi-life-stock-price-live-updates-26-nov-2026/liveblog/136181870.cms",
-          "publishedAt": "2026-11-26T06:50:36+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-stock-price-live-updates-26-nov-2026/liveblog/136178775.cms",
-          "publishedAt": "2026-11-26T04:37:02+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-26T06:51:53+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Price History",
-      "previousSummary": "Explore the latest updates on HDFC Bank stock, including: Last traded price 862.0, Market capitalization: 1329083.09, Volume: 70517167, Price-to-earnings ratio 16.59, Earnings per share 51.95. Stay on top of the game with our comprehensive coverage, featuring the latest details on SBI Life stock, including: Last traded price 1842.3, Market capitalization: 184857.32, Volume: 1115968, Price-to-earnings ratio 69.61, Earnings per share 26.47.",
-      "previousPublishedAt": "2026-11-26T06:51:53+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 14.0,
-      "changed": true,
-      "change": "Material facts or figures changed since the previous brief.",
-      "lifecycle": "Updated"
-    },
-    {
-      "id": "105e4e646fe77c",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Brent crude futures near monthly high as Middle East tensions and Ukraine attacks tighten supply",
-      "publishedAt": "2026-11-27T02:07:52+00:00",
-      "importanceScore": 12.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-trades-near-months-high-as-mideast-conflict-threatens-supply/articleshow/136207059.cms",
-      "summary": "Brent crude futures are trading close to the highest level recorded this month after tanker attacks in the Strait of Hormuz and assaults on Saudi energy infrastructure raised concerns about oil export disruptions. Prices have slipped slightly in recent sessions, but analysts say the market could still break the $100 per barrel mark. Ukraine’s drone strikes on Russian refineries have added further pressure on global fuel supplies.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-trades-near-months-high-as-mideast-conflict-threatens-supply/articleshow/136207059.cms",
-          "publishedAt": "2026-11-27T02:07:52+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-27T02:07:52+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "ac41a696c5eee5",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Ashiana Housing JV buys 10-acre land in Chennai for senior living project, eyes Rs 1,100 cr revenue",
-      "publishedAt": "2026-11-26T15:51:45+00:00",
-      "importanceScore": 12.6,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/ashiana-housing-jv-buys-10-acre-land-in-chennai-for-senior-living-project-eyes-rs-1100-cr-revenue/articleshow/136197134.cms",
-      "summary": "Ashiana Housing Ltd recently revealed its acquisition of nearly 10 acres in Chennai aimed at a senior living initiative. In collaboration with Arihant Foundations, the project estimates a saleable area of around 9 lakh square feet, with an anticipated revenue potential of Rs 1,100 crore.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-today-live-27-nov-2026/liveblog/136209148.cms",
+      "summary": "Explore the latest information on Tata Motors PV, including: Last traded price 258.0, Market capitalization: 95021.2, Volume: 7572767, Price-to-earnings ratio -38.64, Earnings per share -6.68. Stay ahead of the market with our in-depth coverage of Tata Consumer, including: Last traded price 1155.0, Market capitalization: 113626.9, Volume: 747628, Price-to-earnings ratio 67.24, Earnings per share 17.18.",
       "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
       "confidence": "low",
       "verified": false,
@@ -125,13 +38,23 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/ashiana-housing-jv-buys-10-acre-land-in-chennai-for-senior-living-project-eyes-rs-1100-cr-revenue/articleshow/136197134.cms",
-          "publishedAt": "2026-11-26T15:51:45+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-today-live-27-nov-2026/liveblog/136209148.cms",
+          "publishedAt": "2026-11-27T04:34:35+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-consumer-share-price-live-updates-27-nov-2026/liveblog/136209138.cms",
+          "publishedAt": "2026-11-27T04:34:21+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bharti-airtel-share-price-live-27-nov-2026/liveblog/136209136.cms",
+          "publishedAt": "2026-11-27T04:34:14+00:00"
         }
       ],
-      "firstSeen": "2026-11-26T15:51:45+00:00",
+      "firstSeen": "2026-11-27T04:34:35+00:00",
       "status": "New",
-      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "lastChecked": "2026-11-27T12:27:56.210836+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
@@ -141,96 +64,55 @@
       "lifecycle": "New"
     },
     {
-      "id": "c57462c5e2fd97",
+      "id": "612777f51aaecd",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
-      "publishedAt": "2026-11-26T07:31:24+00:00",
-      "importanceScore": 12.2,
+      "title": "Spain’s final election debate focuses on housing crisis",
+      "publishedAt": "2026-11-27T06:03:39+00:00",
+      "importanceScore": 13.3,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
-      "summary": "Rais, 50, had been working as an illegal gold miner in Bogor, Indonesia's West Java province. On Monday night, he and at least 25 other miners were digging in an open-pit mine about 100m (328ft) deep, when torrential rain caused a nearby river to overflow and flood the two shafts.",
-      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
+      "summary": "In the final televised debate before Sunday’s election, Spain’s party leaders concentrated on the country’s housing crisis. The campaign has featured protests with jingling house keys and demonstrations that have filled plazas across the nation. Opinion polls indicate that Prime Minister Pedro Sánchez is unlikely to win a second term, and People’s Party leader Alberto Núñez Feijóo said he would build a million new homes.",
+      "why": "The debate matters because the housing crisis has become a central issue shaping voter sentiment ahead of the election.",
+      "confidence": "medium",
+      "verified": true,
+      "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-26T07:31:24+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-27T06:03:39+00:00"
         }
       ],
-      "firstSeen": "2026-11-26T07:31:24+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "firstSeen": "2026-11-27T06:03:39+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T12:27:56.210836+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "previousTitle": "Thirteen dead as mine disaster highlights illegal hunt for gold",
-      "previousSummary": "Early on Tuesday, she received news that he was trapped underground.** Rais, 50, had been working as an illegal gold miner in Bogor, Indonesia's West Java province. On Monday night, he and at least 25 other miners were digging in an open-pit mine about 100m (328ft) deep, when torrential rain caused a nearby river to overflow and flood the two shafts.",
-      "previousPublishedAt": "2026-11-26T07:31:24+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 12.2,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
-    },
-    {
-      "id": "421e2e86dd763b",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "US tariff threat: Indian traders urge Modi to hit back with 25% duty",
-      "publishedAt": "2026-11-26T04:16:45+00:00",
-      "importanceScore": 12.2,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-tariff-threat-indian-traders-urge-modi-to-hit-back-with-25-duty/articleshow/136178272.cms",
-      "summary": "The Chamber of Trading Industry (CTI) has urged the government to consider imposing a 25 per cent retaliatory tariff on US goods if Washington proceeds with higher duties on Indian products, warning that the proposed measures could affect exports worth USD 48 billion and put around five lakh jobs at risk. CTI Chairman Brijesh Goyal urges Prime Minister Narendra Modi to impose a 25% retaliatory tariff on US goods, warning that the proposed American duties could put $48 billion worth of Indian exports and around five lakh jobs at risk.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-tariff-threat-indian-traders-urge-modi-to-hit-back-with-25-duty/articleshow/136178272.cms",
-          "publishedAt": "2026-11-26T04:16:45+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-26T04:16:45+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
+      "verificationScope": "strong-source-or-corroborated",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
     },
     {
-      "id": "fa48e446a1c36e",
+      "id": "a75f25a2b7e014",
       "cat": "India",
       "icon": "🇮🇳",
       "categories": [
         "India"
       ],
-      "title": "FIEO says 17% US tariff cut may not boost Indian exporters",
-      "publishedAt": "2026-11-26T12:21:04+00:00",
-      "importanceScore": 11.7,
+      "title": "India targets $1 trillion in exports by March 2027 despite US tariff proposal",
+      "publishedAt": "2026-11-26T13:14:22+00:00",
+      "importanceScore": 11.3,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo/articleshow/136191482.cms",
-      "summary": "Ajay Sahai of the Federation of Indian Export Organisations said that even if a bilateral trade agreement with the United States lowers tariffs by 17 percent, Indian exporters are unlikely to gain a competitive edge. He warned that exporters could face an additional 8 percent cost if US tariffs rise to 25 percent, and noted that Southeast Asian competitors may secure more favorable terms through their own agreements.",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
+      "summary": "The secretary general of ASSOCHAM said India expects its total exports to exceed $1 trillion by March 2027. He noted this outlook while acknowledging that the United States is considering a 25% tariff on certain Indian goods.",
       "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
       "confidence": "medium",
       "verified": false,
@@ -238,22 +120,22 @@
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo/articleshow/136191482.cms",
-          "publishedAt": "2026-11-26T12:21:04+00:00"
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
+          "publishedAt": "2026-11-26T13:14:22+00:00"
         }
       ],
-      "firstSeen": "2026-11-26T12:21:04+00:00",
+      "firstSeen": "2026-11-26T13:14:22+00:00",
       "status": "Updated",
-      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "lastChecked": "2026-11-27T12:27:56.210836+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "FIEO says 17% tariff in India‑US deal offers little advantage to exporters",
-      "previousSummary": "The Federation of Indian Export Organisations (FIEO) said that the 17% tariff provision in the pending India‑US trade agreement is unlikely to give Indian exporters a significant competitive edge. The organization cautioned that the tariff level may not materially improve export competitiveness. The comment was reported in the Economic Times' foreign trade section.",
-      "previousPublishedAt": "2026-11-26T12:21:04+00:00",
+      "previousTitle": "India’s exports top $500 billion, growing 15% as US tariff talks continue",
+      "previousSummary": "ASSOCHAM Secretary General Saurabh Sanyal said India’s exports have already crossed USD 500 billion and are expanding at roughly 15 % per year. He added that a proposed U.S. tariff on Indian goods could be reduced from 25 % to 17 % if ongoing trade negotiations between the two countries are successfully concluded.",
+      "previousPublishedAt": "2026-11-26T13:14:22+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 13.6,
+      "previousImportanceScore": 11.3,
       "changed": true,
       "change": "Material details changed since the previous brief.",
       "lifecycle": "Updated"
@@ -267,7 +149,7 @@
       ],
       "title": "Nvidia hits pause on chip shipments to Southeast Asia",
       "publishedAt": "2026-11-26T20:03:54+00:00",
-      "importanceScore": 11.3,
+      "importanceScore": 10.3,
       "sourceCount": 1,
       "source": "techcrunch.com",
       "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
@@ -284,73 +166,37 @@
         }
       ],
       "firstSeen": "2026-11-26T20:03:54+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-27T12:27:56.210836+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a75f25a2b7e014",
-      "cat": "India",
-      "icon": "🇮🇳",
-      "categories": [
-        "India"
-      ],
-      "title": "India’s exports top $500 billion, growing 15% as US tariff talks continue",
-      "publishedAt": "2026-11-26T13:14:22+00:00",
-      "importanceScore": 11.3,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
-      "summary": "ASSOCHAM Secretary General Saurabh Sanyal said India’s exports have already crossed USD 500 billion and are expanding at roughly 15 % per year. He added that a proposed U.S. tariff on Indian goods could be reduced from 25 % to 17 % if ongoing trade negotiations between the two countries are successfully concluded.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
-      "confidence": "medium",
-      "verified": false,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
-          "publishedAt": "2026-11-26T13:14:22+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-26T13:14:22+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-27T02:52:26.241459+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "single-source-reviewed",
-      "previousTitle": "India aims to exceed $1 trillion in exports by March 2027 despite proposed US tariff",
-      "previousSummary": "ASSOCHAM Secretary General said India expects its total export value to pass $1 trillion by March 2027, even if the United States imposes a proposed 25 % tariff on Indian goods. The statement was reported by The Economic Times; the article did not provide additional data or justification.",
-      "previousPublishedAt": "2026-11-26T13:14:22+00:00",
+      "previousTitle": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "previousSummary": "According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S. The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.",
+      "previousPublishedAt": "2026-11-26T20:03:54+00:00",
       "previousSourceCount": 1,
-      "previousImportanceScore": 12.3,
-      "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "previousImportanceScore": 11.3,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 4,
+  "jarvisEditedCount": 2,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-26T19:38:44.507660+00:00",
+  "previousUpdated": "2026-11-27T02:52:26.241459+00:00",
   "changeSummary": {
-    "new": 4,
-    "updated": 3,
+    "new": 2,
+    "updated": 1,
     "continuing": 1
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-24T10:58:12.172562+00:00",
-    "updated": "2026-11-27T02:52:26.241459+00:00",
+    "availableFrom": "2026-11-24T21:15:09.080348+00:00",
+    "updated": "2026-11-27T12:27:56.210836+00:00",
     "snapshotCount": 8,
-    "eventCount": 66,
+    "eventCount": 64,
     "retentionHours": 72
   }
 }
