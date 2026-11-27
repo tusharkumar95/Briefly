@@ -3,160 +3,6 @@
   "eventRetentionDays": 7,
   "snapshots": [
     {
-      "at": "2026-11-24T21:15:09.080348+00:00",
-      "changeSummary": {
-        "new": 6,
-        "updated": 1,
-        "continuing": 1
-      },
-      "stories": [
-        {
-          "id": "56d5dd19eb4fa4",
-          "cat": "Canada",
-          "title": "Bank of Canada governor says oil‑linked inflation may return in 2027",
-          "summary": "Bank of Canada Governor Tiff Macklem told the Economic Club of Canada that a second‑round effect from the recent oil price shock tied to the Middle‑East conflict is expected to add to inflation persistence in 2027, even though benchmark oil prices have fallen from recent peaks. He said businesses have largely absorbed higher production and transportation costs so far, but historical lags and business‑survey data indicate further cost pass‑through to consumers next year.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-11-24T18:22:26+00:00",
-          "firstSeen": "2026-11-24T18:22:26+00:00",
-          "importanceScore": 17.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693?cmp=rss"
-        },
-        {
-          "id": "e41efb162a374c",
-          "cat": "AI",
-          "title": "Amazon acquires Decart for $7.5 billion to enhance Trainium AI chips",
-          "summary": "Amazon announced a $7.5 billion acquisition of Decart’s technology and team. Decart’s Optimization Stack improves AI model efficiency on non‑Nvidia hardware, and Amazon will integrate it with its Trainium processors to boost AWS AI performance. The deal follows earlier interest from Anthropic and Nvidia, and Amazon has collaborated with Decart since 2025.",
-          "why": "The acquisition aims to make AWS’s custom AI hardware more competitive and expand its AI‑cloud service offerings.",
-          "publishedAt": "2026-11-24T15:51:07+00:00",
-          "firstSeen": "2026-11-23T17:14:23+00:00",
-          "importanceScore": 14.1,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Updated",
-          "changed": true,
-          "change": "Material details changed since the previous brief.",
-          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
-        },
-        {
-          "id": "3b777135513c81",
-          "cat": "World",
-          "title": "Child killed by explosive ordnance in northwest Syria, UN reports near‑1,000 child casualties since Dec 2024",
-          "summary": "An 11‑year‑old girl, Alaa, was killed and her 10‑year‑old brother seriously injured by an explosion while tending goats in Umm Khuzaym, north‑west Syria. The BBC report says the incident, together with others this week, brings the total number of children killed or injured by explosive ordnance in Syria to nearly 1,000 since the fall of Bashar al‑Assad in December 2024, according to the UN Mine Action Service.",
-          "why": "It highlights the ongoing risk that unexploded ordnance poses to civilians returning to former front‑line areas.",
-          "publishedAt": "2026-11-24T15:17:28+00:00",
-          "firstSeen": "2026-11-24T15:17:28+00:00",
-          "importanceScore": 13.2,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "558e5234853e5e",
-          "cat": "Indian Markets",
-          "title": "AI boom looms over Warsh's Fed as inflation worries grow",
-          "summary": "Recent discussions outline the challenges faced by Fed officials in navigating economic fluctuations linked to AI investments. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-11-24T11:39:37+00:00",
-          "firstSeen": "2026-11-24T11:39:37+00:00",
-          "importanceScore": 12.8,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow/articleshow/136129160.cms"
-        },
-        {
-          "id": "2059700cfe2236",
-          "cat": "World",
-          "title": "NATO chief says alliance will counter any space threats after reports of Russian nuclear‑armed satellite",
-          "summary": "NATO Secretary‑General Mark Rutte said the alliance will defend against any threats in space following German media reports that Russia is preparing to launch a nuclear‑armed satellite within 60 days. Intelligence about the possible launch was shared among NATO members earlier this month, though the source of the reports was not identified. German Chancellor Friedrich Merz called the reports shocking, while Kremlin spokesman Dmitry Peskov dismissed the stories as unverified.",
-          "why": "A nuclear‑armed satellite would alter the strategic balance and increase the risk of weaponising outer space.",
-          "publishedAt": "2026-11-24T10:58:51+00:00",
-          "firstSeen": "2026-11-24T02:15:59+00:00",
-          "importanceScore": 12.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief.",
-          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "77bb87ac314807",
-          "cat": "Indian Markets",
-          "title": "Japanese bond yields fall as lower oil prices ease inflation concerns",
-          "summary": "Japanese government bond yields declined due to falling oil prices that eased inflation concerns. Meanwhile, Japan's benchmark Nikkei 225 index experienced a brief surge of 5% following Nvidia's leadership announcement.",
-          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
-          "publishedAt": "2026-11-24T03:04:17+00:00",
-          "firstSeen": "2026-11-24T03:04:17+00:00",
-          "importanceScore": 12.4,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms"
-        },
-        {
-          "id": "691f643690e07e",
-          "cat": "AI",
-          "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-          "summary": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.",
-          "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
-          "publishedAt": "2026-11-24T16:46:00+00:00",
-          "firstSeen": "2026-11-24T16:46:00+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "low",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
-        },
-        {
-          "id": "866dcd2717359b",
-          "cat": "Indian Markets",
-          "title": "Anthropic CEO Dario Amodei sells shares worth USD 280.41 million after IPO",
-          "summary": "Dario Amodei, chief executive of Anthropic, sold shares valued at USD 280.41 million following the company’s Nasdaq debut. He reported holding 202.8 million shares directly and additional shares through trusts. The IPO raised USD 81.34 billion; the stock opened above the USD 83 offering price but closed lower, still remaining above that price.",
-          "why": "Insider sales give investors a direct signal about the executive’s view of the company’s valuation and liquidity.",
-          "publishedAt": "2026-11-24T11:37:14+00:00",
-          "firstSeen": "2026-11-24T11:37:14+00:00",
-          "importanceScore": 12.0,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief.",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ceo-dario-amodei-sells-shares-worth-usd-280-41-million-following-ipo/articleshow/136129119.cms"
-        }
-      ]
-    },
-    {
       "at": "2026-11-25T04:17:55.878861+00:00",
       "changeSummary": {
         "new": 3,
@@ -927,73 +773,145 @@
           "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
         }
       ]
-    }
-  ],
-  "events": {
-    "969bc50e9d28f2": {
-      "id": "969bc50e9d28f2",
-      "firstSeen": "2026-11-19T21:21:43+00:00",
-      "snapshots": [
+    },
+    {
+      "at": "2026-11-27T21:59:12.968079+00:00",
+      "changeSummary": {
+        "new": 7,
+        "updated": 0,
+        "continuing": 0
+      },
+      "stories": [
         {
-          "at": "2026-11-19T21:38:40.987064+00:00",
-          "title": "European leaders say they are ready to negotiate with Russia on Ukraine war",
-          "summary": "European leaders at Berlin's \"Coalition of the Willing\" summit said Europe has a clear, united negotiating position and is prepared to discuss ending the war in Ukraine with Russia. UK Prime Minister Andy Burnham and German Chancellor Friedrich Merz criticised Moscow's maximalist demands as unrealistic. US envoy Jared Kushner noted President Trump wants a deal with Moscow alongside Europe, while President Putin has rejected any European role in US‑led talks.",
-          "importanceScore": 13.5,
+          "id": "50905f97fc7bb4",
+          "cat": "World",
+          "title": "Missile strikes damage Kyiv bridges as winter approaches",
+          "summary": "On 16 November, Ukraine hit the Kerch bridge linking Russia to Crimea and launched a wave of missiles and drones that damaged its central road‑bridge arch. Hours later Russia fired seven ballistic missiles at Kyiv, disabling two of the nine bridges that cross the Dnipro River. The war, now over four and a half years, has killed an estimated 100,000 Ukrainian troops and 18,000 civilians, and Kyiv faces freezing nights and frequent blackouts as Russian attacks target electricity generation.",
+          "why": "Damage to key bridges and power supplies threatens Kyiv’s transport, supply chains and civilian resilience during an approaching winter.",
+          "publishedAt": "2026-11-27T18:42:50+00:00",
+          "firstSeen": "2026-11-27T18:42:50+00:00",
+          "importanceScore": 14.0,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "ff6d11a734c223",
+          "cat": "Indian Markets",
+          "title": "HDFC Bank shares trade at 857.25 INR",
+          "summary": "On 27 Nov 2026 at 06:33:41 PM IST, HDFC Bank closed at a last traded price of 857.25 INR. The stock’s market capitalization was reported at 1,321,759.26 million INR, with a trading volume of 32,950,848 shares. Valuation metrics showed a price‑to‑earnings ratio of 16.5 and earnings per share of 51.95 INR.",
+          "why": "The update provides investors with the latest price and key valuation figures, useful for short‑term trading decisions and portfolio monitoring.",
+          "publishedAt": "2026-11-27T06:33:08+00:00",
+          "firstSeen": "2026-11-27T06:33:08+00:00",
+          "importanceScore": 14.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
           "confidence": "medium",
           "lifecycle": "New",
           "changed": true,
-          "change": "New high-signal event entered the brief."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-share-price-today-live-updates-27-nov-2026/liveblog/136212220.cms"
         },
         {
-          "at": "2026-11-20T03:20:32.159352+00:00",
-          "title": "European leaders say they are ready to negotiate with Russia on Ukraine war",
-          "summary": "At the Berlin “Coalition of the Willing” summit, European leaders announced they are prepared to enter talks with Russia to end the war in Ukraine. UK Prime Minister Andy Burnham said Europe has a clear, consistent and united negotiating position, and German Chancellor Friedrich Merz said Moscow’s maximalist demands are unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Vladimir Putin has so far rejected any European role in US‑led peace talks.",
-          "importanceScore": 13.5,
+          "id": "d56ae5a1f2b759",
+          "cat": "Indian Markets",
+          "title": "India bonds decline ahead of fresh debt sale as elevated oil prices fan inflation worries",
+          "summary": "Indian government bonds decreased in early trading due to rising oil prices and cautious investor sentiment. The benchmark 6.94% 2036 bond yield increased significantly amid higher expectations for a rate hike.",
+          "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+          "publishedAt": "2026-11-27T06:10:03+00:00",
+          "firstSeen": "2026-11-27T06:10:03+00:00",
+          "importanceScore": 12.7,
           "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        },
-        {
-          "at": "2026-11-20T12:57:04.128275+00:00",
-          "title": "Europe says it is ready to negotiate with Russia to end Ukraine war",
-          "summary": "At a Berlin summit of the “Coalition of the Willing,” European leaders said they have a united negotiating position and are prepared to discuss ending the war in Ukraine. UK Prime Minister Andy Burnham said Europe is clear and consistent, while German Chancellor Friedrich Merz called Moscow’s maximalist demands unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow alongside Europe, and President Vladimir Putin has rejected any European role in the US‑led peace talks.",
-          "importanceScore": 11.5,
-          "sourceCount": 1,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "Updated",
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
           "changed": true,
-          "change": "Its significance score fell as the evidence changed."
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-decline-ahead-of-fresh-debt-sale-as-elevated-oil-prices-fan-inflation-worries/articleshow/136211546.cms"
         },
         {
-          "at": "2026-11-20T21:09:02.083378+00:00",
-          "title": "European leaders say they are ready to negotiate with Russia on ending Ukraine war",
-          "summary": "European leaders said they are prepared to negotiate with Russia to end the war in Ukraine, stressing a united negotiating stance. UK politician Andy Burnham and German Chancellor Friedrich Merz described Moscow’s maximalist demands as unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Putin has rejected any European role in the US‑led peace talks.",
-          "importanceScore": 11.5,
+          "id": "06dc840217f0bb",
+          "cat": "World",
+          "title": "Housing shortage dominates Spanish election campaign",
+          "summary": "Ahead of Spain’s general election on Sunday, housing has become the top concern for voters, with millions protesting nationwide over a shortage of affordable homes. Recent opinion polls suggest the conservative People’s Party is likely to receive the most votes and that the right‑wing Vox party could join the government for the first time, potentially ending Prime Minister Pedro Sánchez’s eight‑year tenure. A BBC interview featured a young couple from Valencia who have been forced to live apart because of high rents.",
+          "why": "The election will decide which parties set future housing policy, affecting affordability for many Spaniards.",
+          "publishedAt": "2026-11-27T06:09:31+00:00",
+          "firstSeen": "2026-11-27T06:09:31+00:00",
+          "importanceScore": 12.3,
           "sourceCount": 1,
           "sourceQuality": "tier-1",
           "verified": true,
           "confidence": "high",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "e16791aaed09ea",
+          "cat": "Indian Markets",
+          "title": "Rupee rally takes a hit as AI trade revival dents shares, currency sees weekly dip",
+          "summary": "Interestingly, foreign investments in Indian equities have rebounded, reaching approximately $16 billion this month. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-27T10:23:05+00:00",
+          "firstSeen": "2026-11-27T10:23:05+00:00",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms"
+        },
+        {
+          "id": "a35cb8686522bc",
+          "cat": "Canada",
+          "title": "A road through Nunavut: The monumental billion-dollar plan to connect Canada’s Arctic",
+          "summary": "Amanda Dumond lifts the lid of a large freezer chest in Kugluktuk , Nunavut’s westernmost community, where the Arctic Ocean feeds into Coronation Gulf. The Inuk woman pulls out several bags: there’s a deep-red caribou leg, then a package of the animal’s stomach fat, followed by a hoof and an entire goose.",
+          "why": "This matters because it could affect Canada’s economy, major industries, investment, jobs or household costs.",
+          "publishedAt": "2026-11-27T21:41:30+00:00",
+          "firstSeen": "2026-11-27T21:41:30+00:00",
+          "importanceScore": 9.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://globalnews.ca/news/12168857/nunavut-grays-bay-ice-road/"
+        },
+        {
+          "id": "3d48c8131ada9d",
+          "cat": "India",
+          "title": "Why is RBI bringing its gold back to India? The big shift decoded",
+          "summary": "This unusual trend highlights the growing importance of gold as a safe-haven asset amid global economic uncertainty and changing financial strategies.At the same time, the Reserve Bank of India (RBI) is bringing more of India's gold reserves back to the country. While global central banks are increasing their gold holdings, India is also strengthening control over its gold reserves, reflecting a significant shift in the global financial landscape.",
+          "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+          "publishedAt": "2026-11-27T12:53:55+00:00",
+          "firstSeen": "2026-11-27T12:53:55+00:00",
+          "importanceScore": 9.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief.",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/why-is-rbi-bringing-its-gold-back-to-india-the-big-shift-decoded/videoshow/136223275.cms"
         }
-      ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
-      "cat": "World",
-      "latestTitle": "European leaders say they are ready to negotiate with Russia on ending Ukraine war",
-      "latestSummary": "European leaders said they are prepared to negotiate with Russia to end the war in Ukraine, stressing a united negotiating stance. UK politician Andy Burnham and German Chancellor Friedrich Merz described Moscow’s maximalist demands as unrealistic. US envoy Jared Kushner said President Trump wants a deal with Moscow “with Europe by his side,” while President Putin has rejected any European role in the US‑led peace talks.",
-      "why": "It indicates a possible shift toward a broader diplomatic effort to resolve the conflict.",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
-    },
+      ]
+    }
+  ],
+  "events": {
     "fb5a10d741fa91": {
       "id": "fb5a10d741fa91",
       "firstSeen": "2026-11-20T04:34:57+00:00",
@@ -1147,82 +1065,6 @@
       "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-expected-to-raise-rates-in-december-deliver-final-hike-in-february-report/articleshow/136021515.cms"
     },
-    "b010bf330b6f47": {
-      "id": "b010bf330b6f47",
-      "firstSeen": "2026-11-20T09:36:25+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-20T12:57:04.128275+00:00",
-          "title": "Anthropic shares drop up to 7.4% in pre‑market trade on day two",
-          "summary": "Anthropic’s stock fell as much as 7.4% in pre‑market trading on its second day of trading, reversing part of the 39% jump it posted after its record‑setting IPO. The decline occurred amid a broad market sell‑off and investor worries about a steep valuation and competitive pressures in the AI sector. Despite the dip, the shares closed the day 17% above the IPO price.",
-          "importanceScore": 11.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-20T21:09:02.083378+00:00",
-          "title": "Anthropic shares fall up to 7.4% in pre‑market trade on second day",
-          "summary": "Anthropic’s stock dropped as much as 7.4% in pre‑market trading on its second day of listing, after a 39% surge from the IPO price on Thursday that left the shares 17% above the offering level at the close. The decline unfolded amid a global market sell‑off and concerns about the company’s steep valuation and competitive pressures in the AI sector.",
-          "importanceScore": 10.7,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Anthropic shares fall up to 7.4% in pre‑market trade on second day",
-      "latestSummary": "Anthropic’s stock dropped as much as 7.4% in pre‑market trading on its second day of listing, after a 39% surge from the IPO price on Thursday that left the shares 17% above the offering level at the close. The decline unfolded amid a global market sell‑off and concerns about the company’s steep valuation and competitive pressures in the AI sector.",
-      "why": "The slide reflects investor caution toward high‑valuation AI IPOs during a broader market downturn.",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-debut-rally-fades-as-shares-crack-7-in-pre-market-trade-on-day-2/articleshow/136021174.cms"
-    },
-    "4015123737f8aa": {
-      "id": "4015123737f8aa",
-      "firstSeen": "2026-11-20T09:36:14+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-20T12:57:04.128275+00:00",
-          "title": "Rupee appreciation could cut earnings for Indian IT firms, report says",
-          "summary": "A new report says the strengthening Indian rupee may lower earnings for Indian IT companies. The stronger rupee against foreign currencies is expected to hit profitability, particularly for firms with significant exposure to European markets. With traditional cost‑saving measures becoming scarce, maintaining margins will be challenging amid the current economic environment.",
-          "importanceScore": 11.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        },
-        {
-          "at": "2026-11-20T21:09:02.083378+00:00",
-          "title": "Rupee appreciation may cut Indian IT firms' FY27 earnings",
-          "summary": "A new report says that a stronger Indian rupee could reduce earnings for Indian IT companies in fiscal year 2027. The impact is expected to be greatest for firms with sizable European client exposure, as a stronger rupee erodes foreign‑currency revenue. With traditional cost‑saving measures becoming scarce, maintaining profit margins will be harder amid a challenging pricing environment.",
-          "importanceScore": 10.3,
-          "sourceCount": 1,
-          "sourceQuality": "tier-2",
-          "verified": false,
-          "confidence": "medium",
-          "lifecycle": "Continuing",
-          "changed": false,
-          "change": "No material change since the previous brief."
-        }
-      ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
-      "cat": "Indian Markets",
-      "latestTitle": "Rupee appreciation may cut Indian IT firms' FY27 earnings",
-      "latestSummary": "A new report says that a stronger Indian rupee could reduce earnings for Indian IT companies in fiscal year 2027. The impact is expected to be greatest for firms with sizable European client exposure, as a stronger rupee erodes foreign‑currency revenue. With traditional cost‑saving measures becoming scarce, maintaining profit margins will be harder amid a challenging pricing environment.",
-      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
-      "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms"
-    },
     "8e637e72b16462": {
       "id": "8e637e72b16462",
       "firstSeen": "2026-11-20T20:54:12+00:00",
@@ -1260,31 +1102,6 @@
       "latestSummary": "Donald Trump told reporters that U.S. companies will be barred from constructing AI data centres outside the United States and warned of a “tremendous tax” for firms that do so. He offered no details on how such a policy would be enforced or legislated. The comment came after his Asia trip, and follows data‑centre construction being a prominent issue in the recent midterm elections, with firms like Meta and Google already having overseas agreements.",
       "why": "The proposal could significantly alter where major tech firms locate critical AI infrastructure and affect international investment decisions.",
       "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
-    },
-    "2e157fe1c79ec1": {
-      "id": "2e157fe1c79ec1",
-      "firstSeen": "2026-11-20T20:13:22+00:00",
-      "snapshots": [
-        {
-          "at": "2026-11-20T21:09:02.083378+00:00",
-          "title": "Alberta to require upfront cleanup payments for new oil and gas wells",
-          "summary": "Legislation in Alberta’s Energy, Environment and Utilities Statutes Amendment Act, 2026 will require oil and gas companies to make an initial payment of up to $50,000 for each well drilled after April 1, 2027, followed by yearly incremental payments over ten years. The money stays attached to the well regardless of ownership changes. Rancher Bill Heidecker, president of the Alberta Surface Rights Federation, said the measure looks good on paper but raised questions about implementation and enforcement, noting a backlog of thousands of wells still awaiting proper closure.",
-          "importanceScore": 13.2,
-          "sourceCount": 2,
-          "sourceQuality": "tier-1",
-          "verified": true,
-          "confidence": "high",
-          "lifecycle": "New",
-          "changed": true,
-          "change": "New high-signal event entered the brief."
-        }
-      ],
-      "lastSeen": "2026-11-20T21:09:02.083378+00:00",
-      "cat": "Canada",
-      "latestTitle": "Alberta to require upfront cleanup payments for new oil and gas wells",
-      "latestSummary": "Legislation in Alberta’s Energy, Environment and Utilities Statutes Amendment Act, 2026 will require oil and gas companies to make an initial payment of up to $50,000 for each well drilled after April 1, 2027, followed by yearly incremental payments over ten years. The money stays attached to the well regardless of ownership changes. Rancher Bill Heidecker, president of the Alberta Surface Rights Federation, said the measure looks good on paper but raised questions about implementation and enforcement, noting a backlog of thousands of wells still awaiting proper closure.",
-      "why": "It creates a dedicated fund to help address the orphan‑well problem and lower the risk of environmental harm.",
-      "url": "https://www.cbc.ca/news/canada/calgary/alberta-well-clean-up-9.7429047?cmp=rss"
     },
     "f1e4cf26a1dc6d": {
       "id": "f1e4cf26a1dc6d",
@@ -3140,7 +2957,182 @@
       "latestSummary": "In the final televised debate before Sunday’s election, Spain’s party leaders concentrated on the country’s housing crisis. The campaign has featured protests with jingling house keys and demonstrations that have filled plazas across the nation. Opinion polls indicate that Prime Minister Pedro Sánchez is unlikely to win a second term, and People’s Party leader Alberto Núñez Feijóo said he would build a million new homes.",
       "why": "The debate matters because the housing crisis has become a central issue shaping voter sentiment ahead of the election.",
       "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss"
+    },
+    "50905f97fc7bb4": {
+      "id": "50905f97fc7bb4",
+      "firstSeen": "2026-11-27T18:42:50+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-27T21:59:12.968079+00:00",
+          "title": "Missile strikes damage Kyiv bridges as winter approaches",
+          "summary": "On 16 November, Ukraine hit the Kerch bridge linking Russia to Crimea and launched a wave of missiles and drones that damaged its central road‑bridge arch. Hours later Russia fired seven ballistic missiles at Kyiv, disabling two of the nine bridges that cross the Dnipro River. The war, now over four and a half years, has killed an estimated 100,000 Ukrainian troops and 18,000 civilians, and Kyiv faces freezing nights and frequent blackouts as Russian attacks target electricity generation.",
+          "importanceScore": 14.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-27T21:59:12.968079+00:00",
+      "cat": "World",
+      "latestTitle": "Missile strikes damage Kyiv bridges as winter approaches",
+      "latestSummary": "On 16 November, Ukraine hit the Kerch bridge linking Russia to Crimea and launched a wave of missiles and drones that damaged its central road‑bridge arch. Hours later Russia fired seven ballistic missiles at Kyiv, disabling two of the nine bridges that cross the Dnipro River. The war, now over four and a half years, has killed an estimated 100,000 Ukrainian troops and 18,000 civilians, and Kyiv faces freezing nights and frequent blackouts as Russian attacks target electricity generation.",
+      "why": "Damage to key bridges and power supplies threatens Kyiv’s transport, supply chains and civilian resilience during an approaching winter.",
+      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss"
+    },
+    "ff6d11a734c223": {
+      "id": "ff6d11a734c223",
+      "firstSeen": "2026-11-27T06:33:08+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-27T21:59:12.968079+00:00",
+          "title": "HDFC Bank shares trade at 857.25 INR",
+          "summary": "On 27 Nov 2026 at 06:33:41 PM IST, HDFC Bank closed at a last traded price of 857.25 INR. The stock’s market capitalization was reported at 1,321,759.26 million INR, with a trading volume of 32,950,848 shares. Valuation metrics showed a price‑to‑earnings ratio of 16.5 and earnings per share of 51.95 INR.",
+          "importanceScore": 14.0,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "medium",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-27T21:59:12.968079+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "HDFC Bank shares trade at 857.25 INR",
+      "latestSummary": "On 27 Nov 2026 at 06:33:41 PM IST, HDFC Bank closed at a last traded price of 857.25 INR. The stock’s market capitalization was reported at 1,321,759.26 million INR, with a trading volume of 32,950,848 shares. Valuation metrics showed a price‑to‑earnings ratio of 16.5 and earnings per share of 51.95 INR.",
+      "why": "The update provides investors with the latest price and key valuation figures, useful for short‑term trading decisions and portfolio monitoring.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-share-price-today-live-updates-27-nov-2026/liveblog/136212220.cms"
+    },
+    "d56ae5a1f2b759": {
+      "id": "d56ae5a1f2b759",
+      "firstSeen": "2026-11-27T06:10:03+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-27T21:59:12.968079+00:00",
+          "title": "India bonds decline ahead of fresh debt sale as elevated oil prices fan inflation worries",
+          "summary": "Indian government bonds decreased in early trading due to rising oil prices and cautious investor sentiment. The benchmark 6.94% 2036 bond yield increased significantly amid higher expectations for a rate hike.",
+          "importanceScore": 12.7,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-27T21:59:12.968079+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "India bonds decline ahead of fresh debt sale as elevated oil prices fan inflation worries",
+      "latestSummary": "Indian government bonds decreased in early trading due to rising oil prices and cautious investor sentiment. The benchmark 6.94% 2036 bond yield increased significantly amid higher expectations for a rate hike.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-decline-ahead-of-fresh-debt-sale-as-elevated-oil-prices-fan-inflation-worries/articleshow/136211546.cms"
+    },
+    "06dc840217f0bb": {
+      "id": "06dc840217f0bb",
+      "firstSeen": "2026-11-27T06:09:31+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-27T21:59:12.968079+00:00",
+          "title": "Housing shortage dominates Spanish election campaign",
+          "summary": "Ahead of Spain’s general election on Sunday, housing has become the top concern for voters, with millions protesting nationwide over a shortage of affordable homes. Recent opinion polls suggest the conservative People’s Party is likely to receive the most votes and that the right‑wing Vox party could join the government for the first time, potentially ending Prime Minister Pedro Sánchez’s eight‑year tenure. A BBC interview featured a young couple from Valencia who have been forced to live apart because of high rents.",
+          "importanceScore": 12.3,
+          "sourceCount": 1,
+          "sourceQuality": "tier-1",
+          "verified": true,
+          "confidence": "high",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-27T21:59:12.968079+00:00",
+      "cat": "World",
+      "latestTitle": "Housing shortage dominates Spanish election campaign",
+      "latestSummary": "Ahead of Spain’s general election on Sunday, housing has become the top concern for voters, with millions protesting nationwide over a shortage of affordable homes. Recent opinion polls suggest the conservative People’s Party is likely to receive the most votes and that the right‑wing Vox party could join the government for the first time, potentially ending Prime Minister Pedro Sánchez’s eight‑year tenure. A BBC interview featured a young couple from Valencia who have been forced to live apart because of high rents.",
+      "why": "The election will decide which parties set future housing policy, affecting affordability for many Spaniards.",
+      "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss"
+    },
+    "e16791aaed09ea": {
+      "id": "e16791aaed09ea",
+      "firstSeen": "2026-11-27T10:23:05+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-27T21:59:12.968079+00:00",
+          "title": "Rupee rally takes a hit as AI trade revival dents shares, currency sees weekly dip",
+          "summary": "Interestingly, foreign investments in Indian equities have rebounded, reaching approximately $16 billion this month. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+          "importanceScore": 11.9,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-27T21:59:12.968079+00:00",
+      "cat": "Indian Markets",
+      "latestTitle": "Rupee rally takes a hit as AI trade revival dents shares, currency sees weekly dip",
+      "latestSummary": "Interestingly, foreign investments in Indian equities have rebounded, reaching approximately $16 billion this month. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms"
+    },
+    "a35cb8686522bc": {
+      "id": "a35cb8686522bc",
+      "firstSeen": "2026-11-27T21:41:30+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-27T21:59:12.968079+00:00",
+          "title": "A road through Nunavut: The monumental billion-dollar plan to connect Canada’s Arctic",
+          "summary": "Amanda Dumond lifts the lid of a large freezer chest in Kugluktuk , Nunavut’s westernmost community, where the Arctic Ocean feeds into Coronation Gulf. The Inuk woman pulls out several bags: there’s a deep-red caribou leg, then a package of the animal’s stomach fat, followed by a hoof and an entire goose.",
+          "importanceScore": 9.8,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-27T21:59:12.968079+00:00",
+      "cat": "Canada",
+      "latestTitle": "A road through Nunavut: The monumental billion-dollar plan to connect Canada’s Arctic",
+      "latestSummary": "Amanda Dumond lifts the lid of a large freezer chest in Kugluktuk , Nunavut’s westernmost community, where the Arctic Ocean feeds into Coronation Gulf. The Inuk woman pulls out several bags: there’s a deep-red caribou leg, then a package of the animal’s stomach fat, followed by a hoof and an entire goose.",
+      "why": "This matters because it could affect Canada’s economy, major industries, investment, jobs or household costs.",
+      "url": "https://globalnews.ca/news/12168857/nunavut-grays-bay-ice-road/"
+    },
+    "3d48c8131ada9d": {
+      "id": "3d48c8131ada9d",
+      "firstSeen": "2026-11-27T12:53:55+00:00",
+      "snapshots": [
+        {
+          "at": "2026-11-27T21:59:12.968079+00:00",
+          "title": "Why is RBI bringing its gold back to India? The big shift decoded",
+          "summary": "This unusual trend highlights the growing importance of gold as a safe-haven asset amid global economic uncertainty and changing financial strategies.At the same time, the Reserve Bank of India (RBI) is bringing more of India's gold reserves back to the country. While global central banks are increasing their gold holdings, India is also strengthening control over its gold reserves, reflecting a significant shift in the global financial landscape.",
+          "importanceScore": 9.6,
+          "sourceCount": 1,
+          "sourceQuality": "tier-2",
+          "verified": false,
+          "confidence": "low",
+          "lifecycle": "New",
+          "changed": true,
+          "change": "New high-signal event entered the brief."
+        }
+      ],
+      "lastSeen": "2026-11-27T21:59:12.968079+00:00",
+      "cat": "India",
+      "latestTitle": "Why is RBI bringing its gold back to India? The big shift decoded",
+      "latestSummary": "This unusual trend highlights the growing importance of gold as a safe-haven asset amid global economic uncertainty and changing financial strategies.At the same time, the Reserve Bank of India (RBI) is bringing more of India's gold reserves back to the country. While global central banks are increasing their gold holdings, India is also strengthening control over its gold reserves, reflecting a significant shift in the global financial landscape.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/why-is-rbi-bringing-its-gold-back-to-india-the-big-shift-decoded/videoshow/136223275.cms"
     }
   },
-  "updated": "2026-11-27T12:27:56.210836+00:00"
+  "updated": "2026-11-27T21:59:12.968079+00:00"
 }

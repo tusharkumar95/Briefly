@@ -1,96 +1,50 @@
 {
-  "updated": "2026-11-27T12:27:56.210836+00:00",
+  "updated": "2026-11-27T21:59:12.968079+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 76,
-    "nonNoiseCandidates": 76,
-    "officialOrPrimaryCandidates": 8,
-    "enrichedCandidates": 74,
-    "readableCandidates": 49,
-    "eventClusters": 44,
-    "materialEvents": 22,
-    "selectedEvents": 6,
-    "seededStories": 4,
+    "rawCandidates": 71,
+    "nonNoiseCandidates": 71,
+    "officialOrPrimaryCandidates": 5,
+    "enrichedCandidates": 71,
+    "readableCandidates": 51,
+    "eventClusters": 40,
+    "materialEvents": 19,
+    "selectedEvents": 8,
+    "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
     {
-      "id": "68393de1ff6c4f",
-      "cat": "Indian Markets",
-      "icon": "IN",
-      "categories": [
-        "Indian Markets"
-      ],
-      "title": "Tata Consumer Products Share Price Live Updates: Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
-      "publishedAt": "2026-11-27T04:34:35+00:00",
-      "importanceScore": 15.7,
-      "sourceCount": 1,
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-today-live-27-nov-2026/liveblog/136209148.cms",
-      "summary": "Explore the latest information on Tata Motors PV, including: Last traded price 258.0, Market capitalization: 95021.2, Volume: 7572767, Price-to-earnings ratio -38.64, Earnings per share -6.68. Stay ahead of the market with our in-depth coverage of Tata Consumer, including: Last traded price 1155.0, Market capitalization: 113626.9, Volume: 747628, Price-to-earnings ratio 67.24, Earnings per share 17.18.",
-      "why": "This can affect market expectations, company valuations, sector sentiment or capital flows.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-today-live-27-nov-2026/liveblog/136209148.cms",
-          "publishedAt": "2026-11-27T04:34:35+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-consumer-share-price-live-updates-27-nov-2026/liveblog/136209138.cms",
-          "publishedAt": "2026-11-27T04:34:21+00:00"
-        },
-        {
-          "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bharti-airtel-share-price-live-27-nov-2026/liveblog/136209136.cms",
-          "publishedAt": "2026-11-27T04:34:14+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-27T04:34:35+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T12:27:56.210836+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "612777f51aaecd",
+      "id": "50905f97fc7bb4",
       "cat": "World",
       "icon": "🌍",
       "categories": [
         "World"
       ],
-      "title": "Spain’s final election debate focuses on housing crisis",
-      "publishedAt": "2026-11-27T06:03:39+00:00",
-      "importanceScore": 13.3,
+      "title": "Missile strikes damage Kyiv bridges as winter approaches",
+      "publishedAt": "2026-11-27T18:42:50+00:00",
+      "importanceScore": 14.0,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
-      "summary": "In the final televised debate before Sunday’s election, Spain’s party leaders concentrated on the country’s housing crisis. The campaign has featured protests with jingling house keys and demonstrations that have filled plazas across the nation. Opinion polls indicate that Prime Minister Pedro Sánchez is unlikely to win a second term, and People’s Party leader Alberto Núñez Feijóo said he would build a million new homes.",
-      "why": "The debate matters because the housing crisis has become a central issue shaping voter sentiment ahead of the election.",
-      "confidence": "medium",
+      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+      "summary": "On 16 November, Ukraine hit the Kerch bridge linking Russia to Crimea and launched a wave of missiles and drones that damaged its central road‑bridge arch. Hours later Russia fired seven ballistic missiles at Kyiv, disabling two of the nine bridges that cross the Dnipro River. The war, now over four and a half years, has killed an estimated 100,000 Ukrainian troops and 18,000 civilians, and Kyiv faces freezing nights and frequent blackouts as Russian attacks target electricity generation.",
+      "why": "Damage to key bridges and power supplies threatens Kyiv’s transport, supply chains and civilian resilience during an approaching winter.",
+      "confidence": "high",
       "verified": true,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-27T06:03:39+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-27T18:42:50+00:00"
         }
       ],
-      "firstSeen": "2026-11-27T06:03:39+00:00",
+      "firstSeen": "2026-11-27T18:42:50+00:00",
       "status": "New",
-      "lastChecked": "2026-11-27T12:27:56.210836+00:00",
+      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
@@ -100,103 +54,247 @@
       "lifecycle": "New"
     },
     {
-      "id": "a75f25a2b7e014",
-      "cat": "India",
-      "icon": "🇮🇳",
+      "id": "ff6d11a734c223",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "India"
+        "Indian Markets"
       ],
-      "title": "India targets $1 trillion in exports by March 2027 despite US tariff proposal",
-      "publishedAt": "2026-11-26T13:14:22+00:00",
-      "importanceScore": 11.3,
+      "title": "HDFC Bank shares trade at 857.25 INR",
+      "publishedAt": "2026-11-27T06:33:08+00:00",
+      "importanceScore": 14.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
-      "summary": "The secretary general of ASSOCHAM said India expects its total exports to exceed $1 trillion by March 2027. He noted this outlook while acknowledging that the United States is considering a 25% tariff on certain Indian goods.",
-      "why": "Trade developments can affect currencies, business costs, market access and the external balance of the economies involved.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-share-price-today-live-updates-27-nov-2026/liveblog/136212220.cms",
+      "summary": "On 27 Nov 2026 at 06:33:41 PM IST, HDFC Bank closed at a last traded price of 857.25 INR. The stock’s market capitalization was reported at 1,321,759.26 million INR, with a trading volume of 32,950,848 shares. Valuation metrics showed a price‑to‑earnings ratio of 16.5 and earnings per share of 51.95 INR.",
+      "why": "The update provides investors with the latest price and key valuation figures, useful for short‑term trading decisions and portfolio monitoring.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
       "sources": [
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-to-cross-1-trillion-export-mark-by-march-2027-despite-proposed-25-us-tariff-assocham-secretary-general/articleshow/136193418.cms",
-          "publishedAt": "2026-11-26T13:14:22+00:00"
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-share-price-today-live-updates-27-nov-2026/liveblog/136212220.cms",
+          "publishedAt": "2026-11-27T06:33:08+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-share-price-today-live-27-nov-2026/liveblog/136209175.cms",
+          "publishedAt": "2026-11-27T04:35:17+00:00"
+        },
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tcs-share-price-live-updates-27-nov-2026/liveblog/136209164.cms",
+          "publishedAt": "2026-11-27T04:35:03+00:00"
         }
       ],
-      "firstSeen": "2026-11-26T13:14:22+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-27T12:27:56.210836+00:00",
+      "firstSeen": "2026-11-27T06:33:08+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
-      "previousTitle": "India’s exports top $500 billion, growing 15% as US tariff talks continue",
-      "previousSummary": "ASSOCHAM Secretary General Saurabh Sanyal said India’s exports have already crossed USD 500 billion and are expanding at roughly 15 % per year. He added that a proposed U.S. tariff on Indian goods could be reduced from 25 % to 17 % if ongoing trade negotiations between the two countries are successfully concluded.",
-      "previousPublishedAt": "2026-11-26T13:14:22+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.3,
       "changed": true,
-      "change": "Material details changed since the previous brief.",
-      "lifecycle": "Updated"
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     },
     {
-      "id": "2e0bd6cee2944c",
-      "cat": "AI",
-      "icon": "✦",
+      "id": "d56ae5a1f2b759",
+      "cat": "Indian Markets",
+      "icon": "IN",
       "categories": [
-        "AI"
+        "Indian Markets"
       ],
-      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "publishedAt": "2026-11-26T20:03:54+00:00",
-      "importanceScore": 10.3,
+      "title": "India bonds decline ahead of fresh debt sale as elevated oil prices fan inflation worries",
+      "publishedAt": "2026-11-27T06:10:03+00:00",
+      "importanceScore": 12.7,
       "sourceCount": 1,
-      "source": "techcrunch.com",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "summary": "According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S. The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.",
-      "why": "This matters because it could change AI capabilities, costs, adoption, regulation or competitive positioning.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-decline-ahead-of-fresh-debt-sale-as-elevated-oil-prices-fan-inflation-worries/articleshow/136211546.cms",
+      "summary": "Indian government bonds decreased in early trading due to rising oil prices and cautious investor sentiment. The benchmark 6.94% 2036 bond yield increased significantly amid higher expectations for a rate hike.",
+      "why": "Inflation data can shift expectations for central-bank interest rates, bond yields, borrowing costs and household purchasing power.",
       "confidence": "low",
       "verified": false,
       "editor": "Source-backed fallback",
       "sources": [
         {
-          "name": "techcrunch.com",
-          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-          "publishedAt": "2026-11-26T20:03:54+00:00"
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-decline-ahead-of-fresh-debt-sale-as-elevated-oil-prices-fan-inflation-worries/articleshow/136211546.cms",
+          "publishedAt": "2026-11-27T06:10:03+00:00"
         }
       ],
-      "firstSeen": "2026-11-26T20:03:54+00:00",
-      "status": "Updated",
-      "lastChecked": "2026-11-27T12:27:56.210836+00:00",
+      "firstSeen": "2026-11-27T06:10:03+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "previousTitle": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "previousSummary": "According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S. The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.",
-      "previousPublishedAt": "2026-11-26T20:03:54+00:00",
-      "previousSourceCount": 1,
-      "previousImportanceScore": 11.3,
-      "changed": false,
-      "change": "No material change since the previous brief.",
-      "lifecycle": "Continuing"
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "06dc840217f0bb",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Housing shortage dominates Spanish election campaign",
+      "publishedAt": "2026-11-27T06:09:31+00:00",
+      "importanceScore": 12.3,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ahead of Spain’s general election on Sunday, housing has become the top concern for voters, with millions protesting nationwide over a shortage of affordable homes. Recent opinion polls suggest the conservative People’s Party is likely to receive the most votes and that the right‑wing Vox party could join the government for the first time, potentially ending Prime Minister Pedro Sánchez’s eight‑year tenure. A BBC interview featured a young couple from Valencia who have been forced to live apart because of high rents.",
+      "why": "The election will decide which parties set future housing policy, affecting affordability for many Spaniards.",
+      "confidence": "high",
+      "verified": true,
+      "editor": "Jarvis",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-27T06:09:31+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-27T06:09:31+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "strong-source-or-corroborated",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "e16791aaed09ea",
+      "cat": "Indian Markets",
+      "icon": "IN",
+      "categories": [
+        "Indian Markets"
+      ],
+      "title": "Rupee rally takes a hit as AI trade revival dents shares, currency sees weekly dip",
+      "publishedAt": "2026-11-27T10:23:05+00:00",
+      "importanceScore": 11.9,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms",
+      "summary": "Interestingly, foreign investments in Indian equities have rebounded, reaching approximately $16 billion this month. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms",
+          "publishedAt": "2026-11-27T10:23:05+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-27T10:23:05+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "a35cb8686522bc",
+      "cat": "Canada",
+      "icon": "🇨🇦",
+      "categories": [
+        "Canada"
+      ],
+      "title": "A road through Nunavut: The monumental billion-dollar plan to connect Canada’s Arctic",
+      "publishedAt": "2026-11-27T21:41:30+00:00",
+      "importanceScore": 9.8,
+      "sourceCount": 1,
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12168857/nunavut-grays-bay-ice-road/",
+      "summary": "Amanda Dumond lifts the lid of a large freezer chest in Kugluktuk , Nunavut’s westernmost community, where the Arctic Ocean feeds into Coronation Gulf. The Inuk woman pulls out several bags: there’s a deep-red caribou leg, then a package of the animal’s stomach fat, followed by a hoof and an entire goose.",
+      "why": "This matters because it could affect Canada’s economy, major industries, investment, jobs or household costs.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "globalnews.ca",
+          "url": "https://globalnews.ca/news/12168857/nunavut-grays-bay-ice-road/",
+          "publishedAt": "2026-11-27T21:41:30+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-27T21:41:30+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
+    },
+    {
+      "id": "3d48c8131ada9d",
+      "cat": "India",
+      "icon": "🇮🇳",
+      "categories": [
+        "India"
+      ],
+      "title": "Why is RBI bringing its gold back to India? The big shift decoded",
+      "publishedAt": "2026-11-27T12:53:55+00:00",
+      "importanceScore": 9.6,
+      "sourceCount": 1,
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/why-is-rbi-bringing-its-gold-back-to-india-the-big-shift-decoded/videoshow/136223275.cms",
+      "summary": "This unusual trend highlights the growing importance of gold as a safe-haven asset amid global economic uncertainty and changing financial strategies.At the same time, the Reserve Bank of India (RBI) is bringing more of India's gold reserves back to the country. While global central banks are increasing their gold holdings, India is also strengthening control over its gold reserves, reflecting a significant shift in the global financial landscape.",
+      "why": "RBI action or currency-market developments can affect rupee volatility, hedging costs and foreign-exchange conditions for businesses and investors.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "economictimes.indiatimes.com",
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/why-is-rbi-bringing-its-gold-back-to-india-the-big-shift-decoded/videoshow/136223275.cms",
+          "publishedAt": "2026-11-27T12:53:55+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-27T12:53:55+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "sourceQuality": "tier-2",
+      "trustedSourceCount": 0,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "changed": true,
+      "change": "New high-signal event entered the brief.",
+      "lifecycle": "New"
     }
   ],
-  "jarvisEditedCount": 2,
+  "jarvisEditedCount": 3,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-27T02:52:26.241459+00:00",
+  "previousUpdated": "2026-11-27T12:27:56.210836+00:00",
   "changeSummary": {
-    "new": 2,
-    "updated": 1,
-    "continuing": 1
+    "new": 7,
+    "updated": 0,
+    "continuing": 0
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
-    "availableFrom": "2026-11-24T21:15:09.080348+00:00",
-    "updated": "2026-11-27T12:27:56.210836+00:00",
+    "availableFrom": "2026-11-25T04:17:55.878861+00:00",
+    "updated": "2026-11-27T21:59:12.968079+00:00",
     "snapshotCount": 8,
-    "eventCount": 64,
+    "eventCount": 67,
     "retentionHours": 72
   }
 }
