@@ -1,48 +1,46 @@
 {
-  "updated": "2026-11-28T04:57:34.844510+00:00",
+  "updated": "2026-11-28T14:31:37.325297+00:00",
   "engine": "Briefly Markets Intelligence v1",
   "policy": "Index direction comes from market data; causal drivers are stated only when collected sources explicitly connect them to the same-direction final move. Otherwise items are labeled context.",
   "markets": {
     "Canada": {
       "label": "Canada",
-      "headline": "TSX jumps 413 points as gold, copper miners and oil producers lift market",
+      "headline": "TSX jumps 1.2% as gold and copper miners lead rally",
       "direction": "up",
       "move": "S&P/TSX Composite +1.20%",
-      "why": "Strength in gold and copper mining stocks and higher oil prices, reinforced by Middle East supply worries, drove the TSX higher.",
+      "why": "Gold and copper mining stocks were identified as the primary contributors to the index’s rise; BBN Times explicitly linked the miners’ rally to the 412.99‑point gain, and Reuters highlighted gold miners as a key factor in the broader weekly gain.",
       "drivers": [
+        {
+          "label": "gold miners rally",
+          "detail": "Reuters explicitly links the same-direction market move to this factor in its market headline.",
+          "kind": "driver"
+        },
         {
           "label": "Gold and Copper Miners Lead",
           "detail": "BBN Times explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         },
         {
-          "label": "Gold and copper miners",
-          "detail": "Gold and copper mining stocks led the rally, adding roughly 413 points to the index.",
+          "label": "Gold miners",
+          "detail": "Gold miners rallied, driving the TSX higher; BBN Times says gold miners led the climb, and Reuters notes gold miners were central to the weekly gain.",
           "kind": "driver"
         },
         {
-          "label": "Energy producers",
-          "detail": "Higher oil prices and Middle East supply worries lifted energy stocks.",
+          "label": "Copper miners",
+          "detail": "Copper miners also led the advance; BBN Times specifies gold and copper miners led the 412.99‑point rise.",
           "kind": "driver"
-        },
-        {
-          "label": "Technology stocks",
-          "detail": "Tech shares, notably Shopify, rebounded after a global selloff, providing additional but secondary support.",
-          "kind": "context"
         }
       ],
       "sectors": [
-        "Materials",
-        "Energy",
-        "Technology"
+        "Materials"
       ],
       "confidence": "high",
       "primaryIndex": {
         "symbol": "^GSPTSE",
         "name": "S&P/TSX Composite",
-        "price": 34839.87,
+        "price": 34839.9,
         "previousClose": 34426.9,
-        "change": 412.97,
+        "change": 413.0,
         "changePct": 1.2,
         "currency": "CAD",
         "exchange": "TSI",
@@ -53,40 +51,40 @@
       "secondaryIndex": null,
       "sources": [
         {
+          "name": "Reuters",
+          "title": "TSX posts weekly gain of nearly 5% as gold miners rally - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaE0taklTTUQwOHhHZmlyRWRya2xyVm1DVUUyNkZYN0hXMEpQMGpSMmhWdG9uOTNzU2JFMDFXbDRrZDJKWkVncmtHRU93eC1sZW1Rd0hJQkg3RU01a2RwMHJ4YVFYVTcyQVhXcElLSnRsemJXR0pIQWp6Rll4V1dpbmZEVU1PLUFHcmZQbGxuTlJTdw?oc=5",
+          "publishedAt": "2026-11-27T21:20:08+00:00"
+        },
+        {
+          "name": "Investing.com",
+          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 1.20% - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbl9lWWxCRUFaZTN5SjVSV042WmpVVG9EdzNjMHhwUEFkX0pxM0R2aGlpbmpLTVRnSFBwSmY1VldkekZ3MVVDd215V0JtQkc4ZHRfajJPQmxqU1JzVGQ5VFdHa080ZVJsYlFZdUNxQVZxVVRveUpoYXhFSWRMLUtZSXFHTlZZLVJ2eG1FcXJid2FPUVp0QUNXU3Z1OVlQZWJDU19saFJDem1BRnRQQ3ZKYUZ4VXVmOGJma3c?oc=5",
+          "publishedAt": "2026-11-28T09:22:30+00:00"
+        },
+        {
           "name": "BBN Times",
           "title": "Toronto Stock Exchange: TSX Climbs 412.99 Points to 34,839.87 as Gold and Copper Miners Lead - BBN Times",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc2RPeEhtYVo1UFJpUnl6Y3FUb1Job0hjSkhHci1zS1dybEszQ3FoU2dLQUhpdnRTUF82VFNtaG92ODktZ01HZF9aSWZYeTFISXNheUVNUWgxcjAtZE02eGJsdExyMnRrQmpVWnV2dGd5SGRQd1g0b0NPMXdUR3k3cWhHNzhnU1ZrVGJPOFFPbTA3MkJHTlRXTk1WNDJESzJVaHZ4WTY5SjNZYmF6bFg5eTBMNmNjeDV0YU5rYkV0a2I3Yzh3enZVY0VEdw?oc=5",
           "publishedAt": "2026-11-27T23:16:07+00:00"
         },
         {
-          "name": "Investing.com India",
-          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 1.20% - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObzNXYU9fa1ZxUnpOV21wNk9BM2FNa2hwN3BzbmswV0NKdXotVXFtQnhzSlBFRnQtRHBCWHdTZnc1NVIzVnpwTjJoVGFlajIzVzBnamkzdkFxTmVaM3BtUGQ2Zk5naVpISnlTMFVFYnhINFNiNlQ0ZVZubnhfUzZiREFzVHpNYlUwbGpXR2ZyOG9Pd0l2MWlnSFhxcnJEbGZmaUlzX0d3NjQ3clBiZF9HY2x2c3h1aGU5?oc=5",
-          "publishedAt": "2026-11-27T21:54:53+00:00"
+          "name": "Investing.com UK",
+          "title": "Canada shares higher at close of trade; S&P/TSX Composite up 1.20% - Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnRpN1Q1cTc2LTlTNXNZVm5veVA2MXFVYnkxZW5McndCaHJEbnVvRkNjVkFqTE1Bc1JuSUNZTlZsUkdoQWZhYXZkVG1TU0x4MTNJZlBjU05qajFFd2ZhdjZ6WVZ4Y3RLNVc2Tl9qSDJ4NVYwRW5paGVxXzlkbUd3N3BZTS1MWmF5dHJ5bnlxRW4tbVhHcjJTM09pdXVkM1ZiRWRNNzNEVG1aR1dPVFctQXBTVkROdG9q?oc=5",
+          "publishedAt": "2026-11-27T21:30:00+00:00"
         },
         {
-          "name": "Investing.com",
-          "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 1.20% - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbl9lWWxCRUFaZTN5SjVSV042WmpVVG9EdzNjMHhwUEFkX0pxM0R2aGlpbmpLTVRnSFBwSmY1VldkekZ3MVVDd215V0JtQkc4ZHRfajJPQmxqU1JzVGQ5VFdHa080ZVJsYlFZdUNxQVZxVVRveUpoYXhFSWRMLUtZSXFHTlZZLVJ2eG1FcXJid2FPUVp0QUNXU3Z1OVlQZWJDU19saFJDem1BRnRQQ3ZKYUZ4VXVmOGJma3c?oc=5",
-          "publishedAt": "2026-11-27T21:42:26+00:00"
+          "name": "Kalkine Media",
+          "title": "S&P/TSX 60 Spotlight: What Supports Canadian Natural Resources' (TSX:CNQ) Long-Life Oil Sands Strategy? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWHFiMXgxWWREb19QT1dpajN2Zk1YWnpsa0hCalN0VmYtclBRLVhRNG5FX2ZmNXlaWEF4YVYyemxJYktBN3poeVpCTGJuZDZVdTMwSnJlWE5XM0xTZHVBeGxKWktzY1ZtZWJPVTBta0NYWmFRbzIwcjdqUTBPaFEwcXZOSEJQWEg4VGc3N0pBejE2X3NHczlSZ1RMYmR2WHU0NnJJa1NuOWIzUEI3ZXNSQ3ZaQUNrUXRwb0VGVlhqZXdKQ3hJdFJOdUZBVzhZQVM5Qnh0NW5n?oc=5",
+          "publishedAt": "2026-11-27T22:13:00+00:00"
         },
         {
-          "name": "Kitco",
-          "title": "TSX futures rise on strength in gold, copper - Kitco",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY2VUanJrNXM0bFBZOTBsWWJ6cDZId3JUUUVldUVpN2FBalo4ZlRiTURDcVBNTTVxeEdBM1dTU0FJMXhnSk9oODM4V0FMc3o3NWZVak9TUmpWUW9SQ0ZhR2twbnBNRG1RM0h2d2EwZUNLcjlOWGZMSGZPeTZMdGlST0FCUHNFTjVFUGNIbk1MWDN0dw?oc=5",
-          "publishedAt": "2026-11-27T13:34:16+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Why TSX:SHOP rose on the S&P/TSX Composite as tech stocks rebounded after a global selloff - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcmowT1drTmE2R1JBaDFTbzlVbHlrN2w4Zld3UjNQUE5iMVJEbGk0VTNRSTFSVFEzUWFkSl9idVRUdk1VWWhWa0MyZ2JJNWpZOFpBNl9wYnU4UnpmY1ZhVW5PcHBiMWduSUpxRXM2em9obWFFWFdPRWJiN1ZvWmJ2Q0hCVDNMMWg2SkpwVkl2Yzd6M0NzZm4yN3ZjMlZrQndTakh5Z1I3RDN1aml4aWdaNWd5LWRvM3JRY1RPc0ZjWQ?oc=5",
-          "publishedAt": "2026-11-27T09:04:00+00:00"
-        },
-        {
-          "name": "kalkine.ca",
-          "title": "Why TSX:TVE climbed on the S&P/TSX Composite: energy producers rallied on higher oil prices - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ1EySHNTa0pGTjBpdjBSYXdiS19veWl0aTAyVzI5bkVhbzdhTExoeE1aTjlNZkt3djZ4SXBmMFBXN1FTU2ZHbEJNZlRycm5iVG54TFFub1R6SkJxQ0tQWS13ZUVfSlRTd21tVFpJY2R6cVhid01yd0tWVzBDMl91LWViVFcwTVFOSVpyT1dOYmwzbGpqaXRSR0xISWNFUk9HVFlsb2EzYWk2ZWZDRnVOSDhxX0h0ZXAzQ2c?oc=5",
-          "publishedAt": "2026-11-27T09:04:00+00:00"
+          "name": "Kalkine Media",
+          "title": "S&P/TSX 60 Spotlight: Can Bank of Montreal (TSX:BMO) Balance Expansion and Credit Quality? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM1daY2hyNmtBeWM4TDljdkI1QWV4VWpxQUpUVGU0VlNrOERWYmFwYWZyVGNxN2F5Mmk0UjlFbWRyMzZ4SGprWWl2Q0Q4SGQta2x1bGpyOXhCc3czNGppN1k1S2hrNTZTNFFMMHUtTk5kbV94dk9iUTZEaE5LRmpuSXYwNmFIZ0VCbmJ3MG1tWjNSWUk2T29ZU1BOd1FqMXY1NnI1QmRHTWVlbi1YbTFwbkx2bUZQR045ZGVLeWswcjB0NndpaEE?oc=5",
+          "publishedAt": "2026-11-27T22:13:00+00:00"
         }
       ],
       "evidenceCount": 7
@@ -96,11 +94,11 @@
       "headline": "Nifty 50 fell 1.07%",
       "direction": "down",
       "move": "Nifty 50 -1.07%",
-      "why": "Same-day market coverage explicitly linked the final move to: IT Stocks Face Selling Pressure.",
+      "why": "Same-day market coverage explicitly linked the final move to: IT stocks drag market.",
       "drivers": [
         {
-          "label": "IT Stocks Face Selling Pressure",
-          "detail": "Kotak Neo explicitly links the same-direction market move to this factor in its market headline.",
+          "label": "IT stocks drag market",
+          "detail": "DD News explicitly links the same-direction market move to this factor in its market headline.",
           "kind": "driver"
         }
       ],
@@ -134,40 +132,40 @@
       },
       "sources": [
         {
+          "name": "The Economic Times",
+          "title": "F&O Talk: 25,350 remains crucial support for Nifty, says Sudeep Shah; gives RIL, HDFC Bank, IT stocks stra - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSXJueVdDczB1MHdGZ0hZbFU1UlBtV1lIVGpobGxjemJETlRhZ1dWVGVSdGhPTkE0NFB6OVRfMUFKcWZUU1BBN3RTTkpwaVNLVEtxSDRCMjVmYnFhd0dtWDlGTnlQdkctMkZ2UnNrS24wbVZyaGZJc1JMOHZndXBmUVczOUdqUzFnRlV2cjh5M0NRVHhWcXhjYnF3d24yNEVHd2tDN2w3ZGlnWXlPbFk2dUpwaW5KYm5iZnBVeHlSUjVqMklqbFNObHRYNDBiMVQzUFBzeDdwc2oxUWRoamw5NUFBamhUNlJnMnhCNmJSMjhvbzNqdmM4OHBVYUNXVlB0YTRwTXBaWEzSAY4CQVVfeXFMTlVwYndBaDlERU8teXFDRHVoOFJ5VnFNSjA2clNjUUVZSFhySFQ3aVBVQ1VPd0ZVZkQ0V2RrZU1aM0I5dV9OczBta2swNVFhZjQ5SDhPdkF2ZmtuWldRTTRzNDJCSFZpdjFyX0Jxa0pJUGFtNjRiR1V4S0xnTjlBdEx2ZW14R3I1b044bko1N0g2LXRibG1aT2F2NUQ0NzdDeUdCMzJXOElEUU9OWExZVVV3T003cWQycXNLeVh0T3pRa0hLU3hYTy16aHBqZDRDcy1adDNCUzZvVFl2VEp6SzVpZkNKYUg4dkJUMTlRQ1VUcFVzVXROVXYwR2JWNGNRWjg4T0p6NHNSbG8wRVVR?oc=5",
+          "publishedAt": "2026-11-28T06:50:28+00:00"
+        },
+        {
+          "name": "The Hawk",
+          "title": "Nifty, Sensex snap 4-week rally amid profit booking, higher crude prices - The Hawk",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTmxIXzlVQnlKQzFqY3MtdnN3eUg1V2JpTFl6S2dMbkRfTlFqNmN6LXUyMWx3ZEIxaXNTNHpybGZYVXk4bnVxV1ZpMWdKWGlhemZuTnV1WU1Ga3B2Y1ZYUVlaRE9FMVU1YzNrYzZnVXVJb1dOYXc5SWlVRHJJYmlQVW1DWk1BMGJDSVV3R1hPZE81bTNNM1V2dFRtZFZnamQtc1V3bkJTVTJhZGdMZnd3VHNFWWdnMjZwYlNDMzZkNXk1VWsw?oc=5",
+          "publishedAt": "2026-11-28T06:18:29+00:00"
+        },
+        {
+          "name": "HDFC Sky",
+          "title": "Sensex Slips 0.69%, Nifty Slips 0.75% Over the Week as Crude Oil Surge and Rupee Weakness End Four-Week Rally - HDFC Sky",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSjJfVERZQ0Q4eVBUWjFveWF1ZE80eWdmcjR0bnotSWdqZUlYVjh0SWdmS2lBQTdLQ1JwTGxIZDVEbTRxNm9kRFVmYi1Ba3htTFhjWlhDRUE4YlVxUnhXbXY0eHd0SThyd3hucGdTZHoxeUVndl9WOWVVTVRzOTlqUlZqNEhseE0xTm9aV1RtX1liOUJtNHNKbWF2TnN1NnVUek1mNll0OG5IejViVzVMZU1Kc3pYUC1NNnF2TVExTGVKMlA4REx2OXpuaUw3QW95WHFKVVBKLVV2YWlXYnc?oc=5",
+          "publishedAt": "2026-11-28T05:08:48+00:00"
+        },
+        {
+          "name": "NiftyTrader",
+          "title": "FII DII Data: FIIs Buy ₹1.30 Lakh Crore in November, Yet Nifty Falls This Week — Here's Why - NiftyTrader",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUzVJVE9GWUZwQnFwb0FzcjdiX0ZuVklTb05vem00NFJlZzA3eUVyazVlTUdVWkZIX2NBcUthNmt3MFRfVWllQ3p2VnZlSEx6RWQ5aWs2ZjhuN2lzUXU3aFFaTWVNQlJtZ3F1R1hmTEwyM0FhdC1qaU05VGt1NG9nM01n?oc=5",
+          "publishedAt": "2026-11-28T05:07:39+00:00"
+        },
+        {
           "name": "INDIA New England News",
           "title": "Indian Stocks Close Higher as Realty and Banking Gains Lift Sensex, Nifty - INDIA New England News",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGFCTzJ0UzBpdmVNcE9GMmhjaWQzZ1I0Y0NfWmRnRFdxNFhRaFFOR2RCZF9haWxrQ05aTXBLdkNRMjhCMTVYNE1mV1p6LWdqd1gtNVpuVWxhUFVkTEpnVGtjYmZGTXo1VTVSSWd3TEJmcFNRZGNWdXphUUY4cVBTWGVTMUJnaFI1WmQ1NDdLQWc2bW05OFQyNC13b3JxZGlVWW00?oc=5",
           "publishedAt": "2026-11-28T02:44:30+00:00"
         },
         {
-          "name": "INDIA New England News",
-          "title": "Sensex Gains 510 Points as Banking and Consumer Stocks Lift Indian Markets - INDIA New England News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGRLWUtGWVVyMW1pVkwyVU9YaXR1a28yZ1JTcXAwTDNxcVAwb1c1X3NFMExTSVk5enhwdkZIb05hYlZ0eFktLU5hMmRBYk8wS0dDQjVxZlkxM3VqY01VcDZORDIxaThPcWdpaDNaYmdqdXV1dkt4YUNtYzh2SkhkWTE5LUVKejIwaTUtRWxXX1ptZml4X0dKTHJxVGNLQ0VDdDFkRmZR?oc=5",
-          "publishedAt": "2026-11-27T18:09:58+00:00"
-        },
-        {
           "name": "theopenpress.in",
           "title": "Sensex Crashes 989 Points, Nifty Falls Below 25,650: Why In… - theopenpress.in",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYTEwMlkySk5PaVh6NjFKczZTZUtpWXJCc19vN1ZRRl9ERy1BdFJWdHR1R0dXUGx4UGM3Y3ZfY0FiQkloTXVWQlFvZG1FUlFqN0dkWk03T3UwSnlXMU4wRHd6NDUwUkFHdXBnek5HdWRPYktwT3B6R0N1UjJReU9WNG8zWHV5cDBXODVmNWV1ZUZVWGRSZl9Ucg?oc=5",
-          "publishedAt": "2026-11-28T04:27:00+00:00"
-        },
-        {
-          "name": "The New Indian Express",
-          "title": "Midweek recovery rally fizzles out, Sensex, Nifty end week in the red - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUEFsOE1CUlpFUlpxdFFOYWdWb184ZUMwZWI0WUlMQm15aExPRkw5c0tyM2RZeGNVcHMwR3VXUXFROUN2QmhmYi12djlwWnNKZm1BeXJpejV3d1V5QjhfRmZPMkNCMEZJRVZtdXNaVVQ0WDhFVW9naU1YRmtVc3k5LWprWk1qbmRoSFgwZEd0ZU15V3N6QUVkdkZRSzQ1LTBzbm1vUTZSYjJ2RHhoQkZpM2pTV3M4TDhFUmwxRzhR0gHLAUFVX3lxTE51a1ktY2UxMDdIZGVMVmRVZWFUNWVQNTJwWkNFTGZnZmxQcVNPRExFdWpvelFOaEozY0c2NEdCcnQ1VHlCTU5VaUJnRUpRRXdCd3R6dktfdzE2c2tPS2I3SVFRcG54NXZ2UUd6S1JOczlCZllKalFwUzZ1LTZ0OEJhNXRLYm5VUEI4UEpyMV9vLXlCbmdSR3hfQ1ZXZWZ1RnRZLW1tdXAtOGdWYVliNFl0QWxiTVZPNC13dlBRendWNlNkUEdyMVF0R0c4?oc=5",
-          "publishedAt": "2026-11-28T03:24:10+00:00"
-        },
-        {
-          "name": "NiftyTrader",
-          "title": "Black Friday Turns Red: Nifty Slips After a 15% Rally in Four Weeks. Is the Market Just Catching Its Breath? - NiftyTrader",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GVmZFa0RqaUZmM3g5eXZkdkVtd2lWTUVSSjVyRVd0QjFxX0h2cXZFOXFCUVNXMk5Xa3ZVc2RuTER1TkhkMmh3LXpKMXVzR0I1NUJQa2hUU05mMWtkRHNjNW1ha1RlMEpLcUtDc1VlaDR0WW1hbk9iV1p3?oc=5",
-          "publishedAt": "2026-11-27T11:37:06+00:00"
-        },
-        {
-          "name": "The Times of India",
-          "title": "Stock market today: Sensex tumbles nearly 1000 points, Nifty50 below 25,650 after 2-day rally - key reaso - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPNkhJTEZQZWR5UGtmNWl6MzdIM0hqM3lRbWZzT0xsZ1J0LVplVXNZejNGU1dueVdQRXlVRkExQzllbzlJZ0RRQmxvbHdCbmEtRWxEU1M0WXRLSDlaS2Y4aFMtSl9LSnRDN2lsWGd4dlBicHlkTjNpd2M4MGF0SjVmbHdNOGtwVDBsS2xFZG8zV0tPVW0tOFBNdTZUY2I2WmtPZE1PYmV3OHZGLU9SLXhJeGM1YVJKa0NtZm9WX2pqLWNRVVVSUnFzOXR5dVZtSzN4YjJOY2dHZ1NhZmFvRmtkVkcwQWVkaXV4dmhVemV6WFk4V1FyR1ZtZVBia0czLU96Z0pCYjdEbHlyUGw3MUg0STA3bURTS0ppMGRUeDdlNTlyX3NRLVpF0gGsAkFVX3lxTE5nM18zX0ZQVm9IOE56clFkZGpCVGRBN2lDelNiZnU5Z2V3X3JLbG9XZEtKbzN5VjR1ems3eEZmTktaM3VWN3JzT1B6TllmUk5TRU9zQzgzUHBIS0k1SHVHY2VwclVNcUFjcUZzN0ZJdVFHb2VPOFAtWXg0eVBWYnZMcHFZTTRuVEhKQVRvcW5kcnN6bDN3Y1BlaWFodVVwXy05YWUtazZQd2FOMHA1elZVSUI5T1h4WV9yREw2RFE3U3JkTHVPV2k2T0Q2alRRNER6dl9qREtxdDZYWUhJdHRLV19zbnpyNk5zNGVhX29mWWJEV0VEUHRXM0F1WkdHVGJnM080M3ZRSXBVVDFTeHliSmF3a3AwSkZ3N1o2a3Z4Y2dHNDlqNlQ1ZmZwUA?oc=5",
-          "publishedAt": "2026-11-27T10:37:00+00:00"
+          "publishedAt": "2026-11-28T13:32:59+00:00"
         }
       ],
       "evidenceCount": 7
