@@ -1,58 +1,22 @@
 {
-  "updated": "2026-11-27T21:59:12.968079+00:00",
+  "updated": "2026-11-28T03:55:04.659104+00:00",
   "engine": "Briefly Intelligence v2",
   "editor": "Jarvis verified when evidence supports it; source-backed fallback otherwise",
   "windowHours": 24,
   "coverage": {
-    "rawCandidates": 71,
-    "nonNoiseCandidates": 71,
-    "officialOrPrimaryCandidates": 5,
-    "enrichedCandidates": 71,
-    "readableCandidates": 51,
-    "eventClusters": 40,
-    "materialEvents": 19,
-    "selectedEvents": 8,
+    "rawCandidates": 73,
+    "nonNoiseCandidates": 73,
+    "officialOrPrimaryCandidates": 7,
+    "enrichedCandidates": 73,
+    "readableCandidates": 49,
+    "eventClusters": 39,
+    "materialEvents": 18,
+    "selectedEvents": 7,
     "seededStories": 7,
     "corroboratedStories": 0,
     "addedCorroboratingSources": 0
   },
   "stories": [
-    {
-      "id": "50905f97fc7bb4",
-      "cat": "World",
-      "icon": "🌍",
-      "categories": [
-        "World"
-      ],
-      "title": "Missile strikes damage Kyiv bridges as winter approaches",
-      "publishedAt": "2026-11-27T18:42:50+00:00",
-      "importanceScore": 14.0,
-      "sourceCount": 1,
-      "source": "feeds.bbci.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
-      "summary": "On 16 November, Ukraine hit the Kerch bridge linking Russia to Crimea and launched a wave of missiles and drones that damaged its central road‑bridge arch. Hours later Russia fired seven ballistic missiles at Kyiv, disabling two of the nine bridges that cross the Dnipro River. The war, now over four and a half years, has killed an estimated 100,000 Ukrainian troops and 18,000 civilians, and Kyiv faces freezing nights and frequent blackouts as Russian attacks target electricity generation.",
-      "why": "Damage to key bridges and power supplies threatens Kyiv’s transport, supply chains and civilian resilience during an approaching winter.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
-      "sources": [
-        {
-          "name": "feeds.bbci.co.uk",
-          "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-27T18:42:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-27T18:42:50+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
-      "sourceQuality": "tier-1",
-      "trustedSourceCount": 1,
-      "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
     {
       "id": "ff6d11a734c223",
       "cat": "Indian Markets",
@@ -60,14 +24,14 @@
       "categories": [
         "Indian Markets"
       ],
-      "title": "HDFC Bank shares trade at 857.25 INR",
+      "title": "HDFC Bank shares trade at 857.25 rupees on 27 Nov 2026",
       "publishedAt": "2026-11-27T06:33:08+00:00",
       "importanceScore": 14.0,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-share-price-today-live-updates-27-nov-2026/liveblog/136212220.cms",
-      "summary": "On 27 Nov 2026 at 06:33:41 PM IST, HDFC Bank closed at a last traded price of 857.25 INR. The stock’s market capitalization was reported at 1,321,759.26 million INR, with a trading volume of 32,950,848 shares. Valuation metrics showed a price‑to‑earnings ratio of 16.5 and earnings per share of 51.95 INR.",
-      "why": "The update provides investors with the latest price and key valuation figures, useful for short‑term trading decisions and portfolio monitoring.",
+      "summary": "On 27 November 2026 the HDFC Bank stock was last quoted at 857.25 rupees per share. The live‑blog reported a market capitalisation of 1,321,759.26 (as listed), a trading volume of 32,950,848 shares, a price‑to‑earnings ratio of 16.5 and earnings per share of 51.95. The figures were recorded at 06:33:41 PM IST.",
+      "why": "These price and valuation figures provide investors with current market information needed for trading and portfolio decisions.",
       "confidence": "medium",
       "verified": false,
       "editor": "Jarvis",
@@ -84,17 +48,99 @@
         },
         {
           "name": "economictimes.indiatimes.com",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tcs-share-price-live-updates-27-nov-2026/liveblog/136209164.cms",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/nestle-india-share-price-today-live-27-nov-2026/liveblog/136209163.cms",
           "publishedAt": "2026-11-27T04:35:03+00:00"
         }
       ],
       "firstSeen": "2026-11-27T06:33:08+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-28T03:55:04.659104+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "single-source-reviewed",
+      "previousTitle": "HDFC Bank shares trade at 857.25 INR",
+      "previousSummary": "On 27 Nov 2026 at 06:33:41 PM IST, HDFC Bank closed at a last traded price of 857.25 INR. The stock’s market capitalization was reported at 1,321,759.26 million INR, with a trading volume of 32,950,848 shares. Valuation metrics showed a price‑to‑earnings ratio of 16.5 and earnings per share of 51.95 INR.",
+      "previousPublishedAt": "2026-11-27T06:33:08+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.0,
+      "changed": true,
+      "change": "Material facts or figures changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "50905f97fc7bb4",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+      "publishedAt": "2026-11-27T18:42:50+00:00",
+      "importanceScore": 13.0,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+      "summary": "**Something weird happens when you reach Kyiv after the eight-hour drive from the Polish border: the clock on your mobile phone goes to midnight. The war has dragged on for more than four and a half years, killing what some estimate could be 100,000 Ukrainian troops and 18,000 Ukrainian civilians, according to the United Nations, and probably more.",
+      "why": "This matters because it could affect economic conditions, trade, technology, public systems or international decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-27T18:42:50+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-27T18:42:50+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-28T03:55:04.659104+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
+      "previousTitle": "Missile strikes damage Kyiv bridges as winter approaches",
+      "previousSummary": "On 16 November, Ukraine hit the Kerch bridge linking Russia to Crimea and launched a wave of missiles and drones that damaged its central road‑bridge arch. Hours later Russia fired seven ballistic missiles at Kyiv, disabling two of the nine bridges that cross the Dnipro River. The war, now over four and a half years, has killed an estimated 100,000 Ukrainian troops and 18,000 civilians, and Kyiv faces freezing nights and frequent blackouts as Russian attacks target electricity generation.",
+      "previousPublishedAt": "2026-11-27T18:42:50+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 14.0,
+      "changed": true,
+      "change": "Material details changed since the previous brief.",
+      "lifecycle": "Updated"
+    },
+    {
+      "id": "03045994c8e44e",
+      "cat": "World",
+      "icon": "🌍",
+      "categories": [
+        "World"
+      ],
+      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+      "publishedAt": "2026-11-27T16:53:46+00:00",
+      "importanceScore": 12.9,
+      "sourceCount": 1,
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Canada's top court has largely upheld a Quebec law banning public sector workers from wearing religious symbols, including the hijab and the cross. Quebec passed the law in 2019 under a unique fixture of Canada's constitution called the \"notwithstanding clause\" - a legal loophole that allows governments to override certain rights, like freedom of religion.",
+      "why": "This matters because it could expand treatment options or demonstrate a clinically meaningful new medical technology.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
+      "sources": [
+        {
+          "name": "feeds.bbci.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-27T16:53:46+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-27T16:53:46+00:00",
+      "status": "New",
+      "lastChecked": "2026-11-28T03:55:04.659104+00:00",
+      "sourceQuality": "tier-1",
+      "trustedSourceCount": 1,
+      "primarySourceCount": 0,
+      "verificationScope": "source-backed",
       "changed": true,
       "change": "New high-signal event entered the brief.",
       "lifecycle": "New"
@@ -125,15 +171,20 @@
         }
       ],
       "firstSeen": "2026-11-27T06:10:03+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-28T03:55:04.659104+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "India bonds decline ahead of fresh debt sale as elevated oil prices fan inflation worries",
+      "previousSummary": "Indian government bonds decreased in early trading due to rising oil prices and cautious investor sentiment. The benchmark 6.94% 2036 bond yield increased significantly amid higher expectations for a rate hike.",
+      "previousPublishedAt": "2026-11-27T06:10:03+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.7,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "06dc840217f0bb",
@@ -142,17 +193,17 @@
       "categories": [
         "World"
       ],
-      "title": "Housing shortage dominates Spanish election campaign",
+      "title": "'It's impossible': Spain's young people on housing ahead of Sunday's election",
       "publishedAt": "2026-11-27T06:09:31+00:00",
       "importanceScore": 12.3,
       "sourceCount": 1,
       "source": "feeds.bbci.co.uk",
       "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ahead of Spain’s general election on Sunday, housing has become the top concern for voters, with millions protesting nationwide over a shortage of affordable homes. Recent opinion polls suggest the conservative People’s Party is likely to receive the most votes and that the right‑wing Vox party could join the government for the first time, potentially ending Prime Minister Pedro Sánchez’s eight‑year tenure. A BBC interview featured a young couple from Valencia who have been forced to live apart because of high rents.",
-      "why": "The election will decide which parties set future housing policy, affecting affordability for many Spaniards.",
-      "confidence": "high",
-      "verified": true,
-      "editor": "Jarvis",
+      "summary": "Final opinion polls suggest the conservative People's Party will receive the most votes and that the right-wing Vox party is set to enter the national government for the first time. Europe correspondent Nick Beake speaks to a young couple from Valencia, who have been kept apart due to high rents in their city.",
+      "why": "This matters because it can affect economic growth, prices, employment, borrowing costs or trade decisions.",
+      "confidence": "low",
+      "verified": false,
+      "editor": "Source-backed fallback",
       "sources": [
         {
           "name": "feeds.bbci.co.uk",
@@ -161,15 +212,20 @@
         }
       ],
       "firstSeen": "2026-11-27T06:09:31+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-28T03:55:04.659104+00:00",
       "sourceQuality": "tier-1",
       "trustedSourceCount": 1,
       "primarySourceCount": 0,
-      "verificationScope": "strong-source-or-corroborated",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "verificationScope": "source-backed",
+      "previousTitle": "Housing shortage dominates Spanish election campaign",
+      "previousSummary": "Ahead of Spain’s general election on Sunday, housing has become the top concern for voters, with millions protesting nationwide over a shortage of affordable homes. Recent opinion polls suggest the conservative People’s Party is likely to receive the most votes and that the right‑wing Vox party could join the government for the first time, potentially ending Prime Minister Pedro Sánchez’s eight‑year tenure. A BBC interview featured a young couple from Valencia who have been forced to live apart because of high rents.",
+      "previousPublishedAt": "2026-11-27T06:09:31+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 12.3,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "e16791aaed09ea",
@@ -180,7 +236,7 @@
       ],
       "title": "Rupee rally takes a hit as AI trade revival dents shares, currency sees weekly dip",
       "publishedAt": "2026-11-27T10:23:05+00:00",
-      "importanceScore": 11.9,
+      "importanceScore": 10.9,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms",
@@ -197,51 +253,20 @@
         }
       ],
       "firstSeen": "2026-11-27T10:23:05+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-28T03:55:04.659104+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
-    },
-    {
-      "id": "a35cb8686522bc",
-      "cat": "Canada",
-      "icon": "🇨🇦",
-      "categories": [
-        "Canada"
-      ],
-      "title": "A road through Nunavut: The monumental billion-dollar plan to connect Canada’s Arctic",
-      "publishedAt": "2026-11-27T21:41:30+00:00",
-      "importanceScore": 9.8,
-      "sourceCount": 1,
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12168857/nunavut-grays-bay-ice-road/",
-      "summary": "Amanda Dumond lifts the lid of a large freezer chest in Kugluktuk , Nunavut’s westernmost community, where the Arctic Ocean feeds into Coronation Gulf. The Inuk woman pulls out several bags: there’s a deep-red caribou leg, then a package of the animal’s stomach fat, followed by a hoof and an entire goose.",
-      "why": "This matters because it could affect Canada’s economy, major industries, investment, jobs or household costs.",
-      "confidence": "low",
-      "verified": false,
-      "editor": "Source-backed fallback",
-      "sources": [
-        {
-          "name": "globalnews.ca",
-          "url": "https://globalnews.ca/news/12168857/nunavut-grays-bay-ice-road/",
-          "publishedAt": "2026-11-27T21:41:30+00:00"
-        }
-      ],
-      "firstSeen": "2026-11-27T21:41:30+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
-      "sourceQuality": "tier-2",
-      "trustedSourceCount": 0,
-      "primarySourceCount": 0,
-      "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Rupee rally takes a hit as AI trade revival dents shares, currency sees weekly dip",
+      "previousSummary": "Interestingly, foreign investments in Indian equities have rebounded, reaching approximately $16 billion this month. Part 1 of 3 Log out of your current logged-in account and log in again using your ET Prime credentials to enjoy all member benefits.",
+      "previousPublishedAt": "2026-11-27T10:23:05+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 11.9,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     },
     {
       "id": "3d48c8131ada9d",
@@ -252,7 +277,7 @@
       ],
       "title": "Why is RBI bringing its gold back to India? The big shift decoded",
       "publishedAt": "2026-11-27T12:53:55+00:00",
-      "importanceScore": 9.6,
+      "importanceScore": 8.6,
       "sourceCount": 1,
       "source": "economictimes.indiatimes.com",
       "url": "https://economictimes.indiatimes.com/news/economy/policy/why-is-rbi-bringing-its-gold-back-to-india-the-big-shift-decoded/videoshow/136223275.cms",
@@ -269,32 +294,37 @@
         }
       ],
       "firstSeen": "2026-11-27T12:53:55+00:00",
-      "status": "New",
-      "lastChecked": "2026-11-27T21:59:12.968079+00:00",
+      "status": "Updated",
+      "lastChecked": "2026-11-28T03:55:04.659104+00:00",
       "sourceQuality": "tier-2",
       "trustedSourceCount": 0,
       "primarySourceCount": 0,
       "verificationScope": "source-backed",
-      "changed": true,
-      "change": "New high-signal event entered the brief.",
-      "lifecycle": "New"
+      "previousTitle": "Why is RBI bringing its gold back to India? The big shift decoded",
+      "previousSummary": "This unusual trend highlights the growing importance of gold as a safe-haven asset amid global economic uncertainty and changing financial strategies.At the same time, the Reserve Bank of India (RBI) is bringing more of India's gold reserves back to the country. While global central banks are increasing their gold holdings, India is also strengthening control over its gold reserves, reflecting a significant shift in the global financial landscape.",
+      "previousPublishedAt": "2026-11-27T12:53:55+00:00",
+      "previousSourceCount": 1,
+      "previousImportanceScore": 9.6,
+      "changed": false,
+      "change": "No material change since the previous brief.",
+      "lifecycle": "Continuing"
     }
   ],
-  "jarvisEditedCount": 3,
+  "jarvisEditedCount": 1,
   "finalRejectedCount": 0,
-  "previousUpdated": "2026-11-27T12:27:56.210836+00:00",
+  "previousUpdated": "2026-11-27T21:59:12.968079+00:00",
   "changeSummary": {
-    "new": 7,
-    "updated": 0,
-    "continuing": 0
+    "new": 1,
+    "updated": 2,
+    "continuing": 4
   },
   "sourceQualityModel": "primary / tier-1 / tier-2 / general",
   "verificationPolicy": "Verified requires tier-1/primary evidence or at least two distinct sources.",
   "history": {
     "availableFrom": "2026-11-25T04:17:55.878861+00:00",
-    "updated": "2026-11-27T21:59:12.968079+00:00",
-    "snapshotCount": 8,
-    "eventCount": 67,
+    "updated": "2026-11-28T03:55:04.659104+00:00",
+    "snapshotCount": 9,
+    "eventCount": 63,
     "retentionHours": 72
   }
 }
